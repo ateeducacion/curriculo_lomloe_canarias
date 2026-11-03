@@ -26,7 +26,7 @@
 | aviso | codigo_saber_reconstruido | 43 |
 | aviso | encabezado_no_corresponde | 83 |
 | aviso | encabezado_sin_texto | 6 |
-| aviso | explicacion_repetida_entre_cursos | 171 |
+| aviso | explicacion_repetida_entre_cursos | 110 |
 | aviso | registro_repetido | 1 |
 | aviso | saber_con_hijos | 51 |
 | aviso | saber_sin_numeracion | 1 |
@@ -54,22 +54,22 @@
 | 0014-matematicas-primaria-saberes-con-codigo-truncado.yaml | aprobada | 8 | Matemáticas (Primaria, 3.º y 4.º): saberes de I.2.10 e I.2.12 perdidos por códigos truncados |
 | 0015-filosofia-bachillerato-saberes-iii-1-8.yaml | aprobada | 7 | Filosofía (Bachillerato): textos de los saberes III.1.8 y saber III.1.8.7 ausente |
 | 0016-bioestadistica-saberes-iii-3.yaml | aprobada | 2 | Bioestadística (Bachillerato): saber III.3.2 exportado con el código III.1.2 |
-| 0017-eso-cultura-y-ciudadania-digital-textos-de-otra-materia.yaml | propuesta | 3 | Cultura y Ciudadanía Digital (Educación Secundaria Obligatoria): 3 textos de saber de otra materia |
-| 0018-eso-economia-personal-y-social-textos-de-otra-materia.yaml | propuesta | 1 | Economía Personal y Social (Educación Secundaria Obligatoria): 1 textos de saber de otra materia |
-| 0019-eso-educacion-fisica-explicaciones-copiadas.yaml | propuesta | 15 | Educación Física (Educación Secundaria Obligatoria): 15 explicaciones de bloque copiadas de otro curso |
-| 0020-eso-educacion-plastica-visual-y-audiovisual-explicaciones-copiadas.yaml | propuesta | 16 | Educación Plástica, Visual y Audiovisual (Educación Secundaria Obligatoria): 16 explicaciones de bloque copiadas de otro curso |
-| 0021-eso-educacion-plastica-visual-y-audiovisual-textos-de-otra-materia.yaml | propuesta | 3 | Educación Plástica, Visual y Audiovisual (Educación Secundaria Obligatoria): 3 textos de saber de otra materia |
-| 0022-eso-fisica-y-quimica-explicaciones-copiadas.yaml | propuesta | 12 | Física y Química (Educación Secundaria Obligatoria): 12 explicaciones de bloque copiadas de otro curso |
-| 0023-eso-fisica-y-quimica-textos-de-otra-materia.yaml | propuesta | 7 | Física y Química (Educación Secundaria Obligatoria): 7 textos de saber de otra materia |
-| 0024-eso-geografia-e-historia-explicaciones-copiadas.yaml | propuesta | 25 | Geografía e Historia (Educación Secundaria Obligatoria): 25 explicaciones de bloque copiadas de otro curso |
-| 0025-eso-historia-y-geografia-de-canarias-textos-de-otra-materia.yaml | propuesta | 2 | Historia y Geografía de Canarias (Educación Secundaria Obligatoria): 2 textos de saber de otra materia |
-| 0026-eso-lengua-castellana-y-literatura-explicaciones-copiadas.yaml | propuesta | 30 | Lengua Castellana y Literatura (Educación Secundaria Obligatoria): 30 explicaciones de bloque copiadas de otro curso |
-| 0027-eso-lengua-castellana-y-literatura-titulo-y-descripcion-de-bloques.yaml | propuesta | 12 | Lengua Castellana y Literatura (Educación Secundaria Obligatoria): 12 título y descripción de los bloques de saberes |
-| 0028-eso-lengua-extranjera-explicaciones-copiadas.yaml | propuesta | 18 | Lengua Extranjera (Educación Secundaria Obligatoria): 18 explicaciones de bloque copiadas de otro curso |
-| 0029-eso-lengua-extranjera-textos-de-otra-materia.yaml | propuesta | 6 | Lengua Extranjera (Educación Secundaria Obligatoria): 6 textos de saber de otra materia |
-| 0030-eso-segunda-lengua-extranjera-explicaciones-copiadas.yaml | propuesta | 54 | Segunda Lengua Extranjera (Educación Secundaria Obligatoria): 54 explicaciones de bloque copiadas de otro curso |
-| 0031-eso-tecnologia-y-digitalizacion-explicaciones-copiadas.yaml | propuesta | 14 | Tecnología y Digitalización (Educación Secundaria Obligatoria): 14 explicaciones de bloque copiadas de otro curso |
-| 0032-primaria-educacion-fisica-explicaciones-copiadas.yaml | propuesta | 12 | Educación Física (Educación Primaria): 12 explicaciones de bloque copiadas de otro curso |
-| 0033-primaria-matematicas-explicaciones-copiadas.yaml | propuesta | 4 | Matemáticas (Educación Primaria): 4 explicaciones de bloque copiadas de otro curso |
-| 0034-lengua-castellana-eso-saber-i-2-de-3-eso.yaml | propuesta | 1 | Lengua Castellana y Literatura (3.º ESO): texto del saber I.2 tomado de otro bloque |
-| 0035-segunda-lengua-extranjera-eso-enunciado-ce2.yaml | propuesta | 3 | Segunda Lengua Extranjera (ESO): coma sobrante en el enunciado de la competencia 2 |
+| 0017-eso-cultura-y-ciudadania-digital-textos-de-otra-materia.yaml | aprobada | 3 | Cultura y Ciudadanía Digital (Educación Secundaria Obligatoria): 3 textos de saber de otra materia |
+| 0018-eso-economia-personal-y-social-textos-de-otra-materia.yaml | aprobada | 1 | Economía Personal y Social (Educación Secundaria Obligatoria): 1 textos de saber de otra materia |
+| 0019-eso-educacion-fisica-explicaciones-copiadas.yaml | aprobada | 15 | Educación Física (Educación Secundaria Obligatoria): 15 explicaciones de bloque copiadas de otro curso |
+| 0020-eso-educacion-plastica-visual-y-audiovisual-explicaciones-copiadas.yaml | aprobada | 16 | Educación Plástica, Visual y Audiovisual (Educación Secundaria Obligatoria): 16 explicaciones de bloque copiadas de otro curso |
+| 0021-eso-educacion-plastica-visual-y-audiovisual-textos-de-otra-materia.yaml | aprobada | 3 | Educación Plástica, Visual y Audiovisual (Educación Secundaria Obligatoria): 3 textos de saber de otra materia |
+| 0022-eso-fisica-y-quimica-explicaciones-copiadas.yaml | aprobada | 12 | Física y Química (Educación Secundaria Obligatoria): 12 explicaciones de bloque copiadas de otro curso |
+| 0023-eso-fisica-y-quimica-textos-de-otra-materia.yaml | aprobada | 7 | Física y Química (Educación Secundaria Obligatoria): 7 textos de saber de otra materia |
+| 0024-eso-geografia-e-historia-explicaciones-copiadas.yaml | aprobada | 25 | Geografía e Historia (Educación Secundaria Obligatoria): 25 explicaciones de bloque copiadas de otro curso |
+| 0025-eso-historia-y-geografia-de-canarias-textos-de-otra-materia.yaml | aprobada | 2 | Historia y Geografía de Canarias (Educación Secundaria Obligatoria): 2 textos de saber de otra materia |
+| 0026-eso-lengua-castellana-y-literatura-explicaciones-copiadas.yaml | aprobada | 30 | Lengua Castellana y Literatura (Educación Secundaria Obligatoria): 30 explicaciones de bloque copiadas de otro curso |
+| 0027-eso-lengua-castellana-y-literatura-titulo-y-descripcion-de-bloques.yaml | aprobada | 12 | Lengua Castellana y Literatura (Educación Secundaria Obligatoria): 12 título y descripción de los bloques de saberes |
+| 0028-eso-lengua-extranjera-explicaciones-copiadas.yaml | aprobada | 18 | Lengua Extranjera (Educación Secundaria Obligatoria): 18 explicaciones de bloque copiadas de otro curso |
+| 0029-eso-lengua-extranjera-textos-de-otra-materia.yaml | aprobada | 6 | Lengua Extranjera (Educación Secundaria Obligatoria): 6 textos de saber de otra materia |
+| 0030-eso-segunda-lengua-extranjera-explicaciones-copiadas.yaml | aprobada | 54 | Segunda Lengua Extranjera (Educación Secundaria Obligatoria): 54 explicaciones de bloque copiadas de otro curso |
+| 0031-eso-tecnologia-y-digitalizacion-explicaciones-copiadas.yaml | aprobada | 14 | Tecnología y Digitalización (Educación Secundaria Obligatoria): 14 explicaciones de bloque copiadas de otro curso |
+| 0032-primaria-educacion-fisica-explicaciones-copiadas.yaml | aprobada | 12 | Educación Física (Educación Primaria): 12 explicaciones de bloque copiadas de otro curso |
+| 0033-primaria-matematicas-explicaciones-copiadas.yaml | aprobada | 4 | Matemáticas (Educación Primaria): 4 explicaciones de bloque copiadas de otro curso |
+| 0034-lengua-castellana-eso-saber-i-2-de-3-eso.yaml | aprobada | 1 | Lengua Castellana y Literatura (3.º ESO): texto del saber I.2 tomado de otro bloque |
+| 0035-segunda-lengua-extranjera-eso-enunciado-ce2.yaml | aprobada | 3 | Segunda Lengua Extranjera (ESO): coma sobrante en el enunciado de la competencia 2 |

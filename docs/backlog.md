@@ -114,7 +114,7 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
 - [x] **3.3 Clasificar las explicaciones repetidas entre cursos** de las materias descargadas:
   las 196 que el documento distingue se corrigen (avisos: de 171 a 110). Los 110 que quedan
   son de materias sin documento descargado: se revisarán al contrastarlas (5.1).
-- [ ] **3.4 Aprobación** de 0017–0035 y reconstrucción.
+- [x] **3.4 Aprobación** de 0017–0035 y reconstrucción. Hecho: aprobadas el 03-11-2026.
 - [ ] **3.5 Códigos incoherentes con la numeración del texto**: 88 registros de la exportación
   (casi todos de 3.º ESO, más Historia de Canarias y Bioestadística) tienen un código cuyo
   apartado no coincide con el número de su encabezado. Hoy el importador solo reconstruye el
