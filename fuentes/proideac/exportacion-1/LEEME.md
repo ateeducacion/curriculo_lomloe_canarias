@@ -13,8 +13,9 @@ en lugar del título del bloque. Se ha sustituido por el texto
 `[ELIMINADO] clave sustituida: contenía una credencial`. El saber afectado
 (`PEFI01SBV.2`) se sigue importando en su bloque (V) gracias a su código.
 
-Esa credencial debe darse por comprometida: hay que **revocarla** y revisar el proceso
-de exportación de ProIDEAC que la introdujo.
+La credencial era antigua y ya estaba revocada (confirmado el 03-11-2026). Aun así no se
+conserva en el repositorio, y conviene revisar el proceso de exportación de ProIDEAC para
+que no vuelva a introducir valores de este tipo.
 
 ## Cómo añadir una exportación nueva
 

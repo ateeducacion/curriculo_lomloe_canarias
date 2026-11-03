@@ -2,12 +2,13 @@
 
 Situación tras la primera construcción. Las cifras exactas, en `informes/resumen.md`.
 
-## Urgente
+## Resuelto
 
-- **Credencial en la exportación de ProIDEAC.** El fichero original contenía, como clave de
-  un bloque de saberes (Primaria, Educación Física, 1.º), una cadena con formato de clave
-  de API. Se ha eliminado de la copia del repositorio, pero hay que **revocarla** y revisar
-  cómo llegó a la exportación. El fichero original no debe subirse a ningún sitio.
+- **Credencial en la exportación de ProIDEAC.** Una clave de bloque de saberes (Primaria,
+  Educación Física, 1.º) contenía una clave de API antigua. Estaba ya revocada (confirmado el
+  03-11-2026). Se ha eliminado igualmente de la copia del repositorio, y la CI bloquea cualquier
+  cadena con formato de credencial. Conviene que el proceso de exportación de ProIDEAC no
+  vuelva a introducir valores de este tipo.
 
 ## Errores heredados de la exportación (aceptados provisionalmente)
 
