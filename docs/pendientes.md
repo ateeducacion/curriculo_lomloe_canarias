@@ -1,6 +1,7 @@
 # Pendientes y decisiones abiertas
 
 Situación tras la primera construcción. Las cifras exactas, en `informes/resumen.md`.
+Las tareas para resolverlo, en orden, en [`backlog.md`](backlog.md).
 
 ## Resuelto
 
