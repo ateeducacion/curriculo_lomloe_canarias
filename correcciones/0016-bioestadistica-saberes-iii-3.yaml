@@ -1,9 +1,8 @@
 id: '0016'
-titulo: 'Bioestadística (Bachillerato): saberes de «Inclusión, respeto y diversidad» con código de otro apartado'
-motivo: La exportación codifica los dos saberes del apartado III.3 «Inclusión, respeto y diversidad» como III.1.1 y III.1.2.
-  El primero choca con el III.1.1 real (error codigo_duplicado y se pierde) y el segundo queda colgado de III.1. El documento
-  oficial los numera 3.1 y 3.2. Se crean III.3, III.3.1 y III.3.2 y se retira III.1.2. El error codigo_duplicado lo sigue
-  produciendo el importador hasta que la exportación corrija el código.
+titulo: 'Bioestadística (Bachillerato): saber III.3.2 exportado con el código III.1.2'
+motivo: 'La exportación codifica los dos saberes del apartado III.3 «Inclusión, respeto y diversidad» como III.1.1 y III.1.2.
+  El importador reconstruye el primero como III.3.1 porque su código choca con el III.1.1 real; el segundo no choca con nada
+  y queda colgado de III.1. El documento oficial lo numera 3.2: se crea III.3.2 y se retira III.1.2.'
 fuente:
   documento: bachillerato-bioestadistica
   fichero: fuentes/documentos/bachillerato/Bioestadistica_BACH.odt
@@ -12,27 +11,6 @@ fuente:
 estado: propuesta
 aprobada_por: null
 cambios:
-- nodo: sb:BBIE02SBIII.3
-  accion: crear
-  datos:
-    tipo: SaberBasico
-    notation: BBIE02SBIII.3
-    definition: Inclusión, respeto y diversidad
-    broader: sb:BBIE02SBIII
-    materia: materia:BBIE
-    curso: curso:B02
-    etapa: etapa:BAC
-- nodo: sb:BBIE02SBIII.3.1
-  accion: crear
-  datos:
-    tipo: SaberBasico
-    notation: BBIE02SBIII.3.1
-    definition: 'Destrezas para desarrollar una comunicación efectiva: la escucha activa, la formulación de preguntas o solicitud
-      y prestación de ayuda, cuando sea necesario.'
-    broader: sb:BBIE02SBIII.3
-    materia: materia:BBIE
-    curso: curso:B02
-    etapa: etapa:BAC
 - nodo: sb:BBIE02SBIII.3.2
   accion: crear
   datos:

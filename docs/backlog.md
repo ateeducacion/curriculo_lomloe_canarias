@@ -73,17 +73,15 @@ Tareas:
 
   Hecho: correcciones 0003–0012 (generadas, 124 incidencias) y 0013–0016 (manuales: CE7 es
   CE2; saberes perdidos por códigos truncados en Matemáticas de Primaria; III.1.8 de
-  Filosofía; III.3 de Bioestadística). El duplicado de Tecnología y Digitalización era un
-  registro idéntico: el importador ya lo trata como aviso. Simulando la aprobación de todas
-  se resuelven 139 de 140 incidencias.
+  Filosofía; III.3.2 de Bioestadística). Los dos duplicados se resuelven en el importador:
+  el de Tecnología y Digitalización era un registro idéntico (ahora es un aviso) y el de
+  Bioestadística, un saber de III.3 exportado como III.1.1 (ahora se reconstruye su código a
+  partir del texto). Simulando la aprobación de todas se resuelven las 140 incidencias.
 - [ ] **2.6 Aprobación** de las correcciones (0001, 0002 y las nuevas) por la persona responsable
   del currículo (`estado: aprobada`, `aprobada_por`).
 - [ ] **2.7 Reconstruir y vaciar** `config/incidencias_aceptadas.yaml`:
   `python -m herramientas.construir` y retirar las incidencias resueltas.
   Cierre: lista vacía y CI en verde. **Depende de** 2.6.
-  Quedará `codigo_duplicado:sb:BBIE02SBIII.1.1`: los datos los repara la corrección 0016, pero
-  el error lo produce el importador al leer el código erróneo de la exportación. Se retira
-  cuando ProIDEAC lo corrija o con la regla general de 3.5.
 
 Puntos para la persona que aprueba:
 
@@ -109,7 +107,8 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
 - [ ] **3.4 Aprobación** y reconstrucción.
 - [ ] **3.5 Códigos incoherentes con la numeración del texto**: 88 registros de la exportación
   (casi todos de 3.º ESO, más Historia de Canarias y Bioestadística) tienen un código cuyo
-  apartado no coincide con el número de su encabezado. Decidir una regla en el importador.
+  apartado no coincide con el número de su encabezado. Hoy el importador solo reconstruye el
+  código cuando además choca con otro (caso de Bioestadística). Decidir si la regla se extiende.
 - [ ] **3.6 Comparar saberes por contenido en el informe de contraste**, como ya hace
   `--proponer`: la comparación por número da falsos positivos cuando la exportación y el
   documento anidan distinto (Matemáticas de Primaria, Filosofía).

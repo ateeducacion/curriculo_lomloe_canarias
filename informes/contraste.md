@@ -72,11 +72,11 @@
 - huecos del corpus que el documento permite rellenar: 8
 
 ## bachillerato-bioestadistica — contrastado
-- texto de saber distinto: 5 (p. ej. sb:BBIE02SBII.2, sb:BBIE02SBII.3, sb:BBIE02SBII.4, sb:BBIE02SBIII.1, sb:BBIE02SBIII.2)
+- texto de saber distinto: 7 (p. ej. sb:BBIE02SBII.2, sb:BBIE02SBII.3, sb:BBIE02SBII.4, sb:BBIE02SBIII.1, sb:BBIE02SBIII.2)
 - explicación de bloque distinto: 3 (p. ej. bc:BBIE02BC1, bc:BBIE02BC3, bc:BBIE02BC4)
-- falta en el corpus: texto de saber: 3 (p. ej. sb:BBIE02SBIII.3, sb:BBIE02SBIII.3.1, sb:BBIE02SBIII.3.2)
 - enunciado de competencia distinto: 2 (p. ej. ce:BBIEC2, ce:BBIEC6)
 - texto de criterio distinto: 2 (p. ej. crit:BBIE02CE4.1, crit:BBIE02CE6.2)
+- falta en el corpus: texto de saber: 1 (p. ej. sb:BBIE02SBIII.3.2)
 - nodo del corpus que no está en el documento: 1 (p. ej. sb:BBIE02SBIII.1.2)
 - huecos del corpus que el documento permite rellenar: 2
 

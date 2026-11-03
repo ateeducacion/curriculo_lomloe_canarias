@@ -11,9 +11,9 @@
 | BloqueCompetencial | 1312 |
 | CriterioEvaluacion | 3126 |
 | BloqueSaberes | 1041 |
-| SaberBasico | 8722 |
+| SaberBasico | 8724 |
 
-**Total:** 15157
+**Total:** 15159
 
 ## Incidencias
 
@@ -23,7 +23,7 @@
 | aviso | ce_solo_en_criterios | 39 |
 | aviso | clave_bloque_saberes_invalida | 1 |
 | aviso | codigo_materia_inconsistente | 48 |
-| aviso | codigo_saber_reconstruido | 42 |
+| aviso | codigo_saber_reconstruido | 43 |
 | aviso | encabezado_no_corresponde | 83 |
 | aviso | encabezado_sin_texto | 6 |
 | aviso | explicacion_repetida_entre_cursos | 175 |
@@ -33,7 +33,6 @@
 | aviso | saber_sin_numeracion | 1 |
 | aviso | texto_en_conflicto | 27 |
 | error | ce_sin_enunciado | 39 |
-| error | codigo_duplicado | 1 |
 | error | descriptor_desconocido | 4 |
 | error | saber_sin_texto | 95 |
 
@@ -58,4 +57,4 @@
 | 0013-valores-civicos-primaria-descriptor-ce7.yaml | propuesta | 4 | Educación en Valores Cívicos y Éticos (Primaria): descriptor CE7 en lugar de CE2 |
 | 0014-matematicas-primaria-saberes-con-codigo-truncado.yaml | propuesta | 8 | Matemáticas (Primaria, 3.º y 4.º): saberes de I.2.10 e I.2.12 perdidos por códigos truncados |
 | 0015-filosofia-bachillerato-saberes-iii-1-8.yaml | propuesta | 7 | Filosofía (Bachillerato): textos de los saberes III.1.8 y saber III.1.8.7 ausente |
-| 0016-bioestadistica-saberes-iii-3.yaml | propuesta | 4 | Bioestadística (Bachillerato): saberes de «Inclusión, respeto y diversidad» con código de otro apartado |
+| 0016-bioestadistica-saberes-iii-3.yaml | propuesta | 2 | Bioestadística (Bachillerato): saber III.3.2 exportado con el código III.1.2 |

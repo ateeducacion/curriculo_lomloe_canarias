@@ -243,10 +243,10 @@
       "detalle": "El bloque competencial agrupa las competencias BBIEC5, BBIEC6"
     },
     {
-      "regla": "codigo_duplicado",
-      "nivel": "error",
-      "nodo": "sb:BBIE02SBIII.1.1",
-      "detalle": "Saber repetido en la exportación; se conserva el primero"
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BBIE02SBIII.3.1",
+      "detalle": "Código repetido en la exportación ('BBIE02SBIII.1.1') con un apartado distinto en el texto; reconstruido a partir del texto"
     },
     {
       "regla": "encabezado_no_corresponde",

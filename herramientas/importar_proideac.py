@@ -162,6 +162,15 @@ def _importar_saber(imp, letra, etapa_id, cid, nn, mid, item, titulo_bloque):
     if not m:
         imp.aviso('codigo_saber_invalido', 'error', mid, f'Código de saber no reconocido: {cod!r}')
         return
+    numero_exportado = None
+    if cod in imp.items_saber and imp.items_saber[cod] != item:
+        nuevo = _codigo_desde_apartado(cod, m, item)
+        if nuevo and nuevo not in imp.items_saber:
+            imp.aviso('codigo_saber_reconstruido', 'aviso', f'sb:{nuevo}',
+                      f'Código repetido en la exportación ({cod!r}) con un apartado distinto en el texto; '
+                      'reconstruido a partir del texto')
+            numero_exportado = m.group(5).strip('.')
+            cod, m = nuevo, RE_SABER.match(nuevo)
     if m.group(3) != nn:
         imp.aviso('saber_curso_inconsistente', 'error', f'sb:{cod}', f'El código indica el curso {m.group(3)} y está en {cid}')
     romano = m.group(4)
@@ -202,7 +211,7 @@ def _importar_saber(imp, letra, etapa_id, cid, nn, mid, item, titulo_bloque):
             sin_numero.append(t.strip())
             continue
         num_t, txt = pm.group(1), pm.group(2).strip()
-        if num_t == numero:
+        if num_t == numero or num_t == numero_exportado:
             _fijar(imp, hoja, 'definition', txt)
         elif numero.startswith(num_t + '.'):
             _fijar(imp, imp.nodos[f'sb:{base}.{num_t}'], 'definition', txt)
@@ -216,6 +225,22 @@ def _importar_saber(imp, letra, etapa_id, cid, nn, mid, item, titulo_bloque):
         else:
             destino = imp.nodos[hoja['broader']]
             _fijar(imp, destino, 'scopeNote', t)
+
+
+def _codigo_desde_apartado(cod, m, item):
+    """Código corregido para un saber cuyo código choca con otro y cuyo apartado no es el del texto.
+
+    Caso típico (Bioestadística, III): «3. Inclusión…» / «1.1. Destrezas…» exportado como
+    III.1.1, cuando debería ser III.3.1. Solo se reconstruye si el número del encabezado de
+    nivel 1 es un apartado entero distinto del del código y el del nivel 2 repite el código
+    (numeración relativa al apartado). Si no, devuelve None.
+    """
+    nums = m.group(5).strip('.').split('.')
+    p1 = RE_PREFIJO_NUM.match((item.get('subtitulo_nivel_1') or '').strip())
+    p2 = RE_PREFIJO_NUM.match((item.get('subtitulo_nivel_2') or '').strip())
+    if not (p1 and p2 and p1.group(1).isdigit() and p1.group(1) != nums[0] and p2.group(1) == '.'.join(nums)):
+        return None
+    return cod[:len(cod) - len(m.group(5))] + '.' + '.'.join([p1.group(1)] + nums[1:])
 
 
 def _fijar(imp, nodo, campo, valor):
