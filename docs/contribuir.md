@@ -25,8 +25,9 @@ secciones:
   Tercer ciclo Educación Primaria: [{materia: PMAT, curso: '05'}, {materia: PMAT, curso: '06'}]
 ```
 
-El lector de ODT está probado con el formato de las materias de Primaria, ESO y
-Bachillerato. Infantil y los ámbitos pueden necesitar ajustes en `herramientas/odt.py`.
+El lector de ODT está probado con los formatos de Infantil, Primaria, ESO, Bachillerato y
+los ámbitos de diversificación (estos con `secciones` en el manifiesto, porque sus rótulos
+—«Curso 1.º. Ámbito…»— no siguen el curso de la ESO).
 
 ## Proponer una corrección
 

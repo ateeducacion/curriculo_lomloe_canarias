@@ -40,8 +40,7 @@ Científica): ver la fase 2 de [`backlog.md`](backlog.md).
 
 ## Configuración por completar
 
-- `config/descriptores.csv`: lista construida a partir de los códigos usados en la exportación;
-  **verificar contra el anexo 1 de cada decreto** (columna `verificado`).
+- `config/descriptores.csv`: verificado contra el anexo 1 de cada decreto (03-11-2026).
 - `config/corpus.yaml`: fecha de la exportación de ProIDEAC.
 - `CODEOWNERS`: sustituir los equipos marcados como PENDIENTE y activar la protección de la rama `main`.
 - Licencia del repositorio.

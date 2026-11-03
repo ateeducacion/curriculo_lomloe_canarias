@@ -54,6 +54,8 @@ def _rotulo_curso(letra, num):
         return f'{n}.º Bachillerato'
     if letra == 'P':
         return f'{CICLOS[(n + 1) // 2]} ciclo Educación Primaria'
+    if letra == 'I':
+        return f'{CICLOS[1 if n <= 3 else 2]} ciclo Educación Infantil'
     return None
 
 
@@ -151,7 +153,8 @@ def contrastar(nodos, manifiesto, materias=None):
                     cid = f'crit:{pref}{nn}CE{cr["num"]}'
                     vistos.add(cid)
                     _cmp(d, nodos, cid, 'definition', cr['texto'], 'texto de criterio')
-                    _cmp(d, nodos, cid, 'descriptores', cr['descriptores'], 'descriptores de criterio')
+                    if cr['descriptores'] is not None:
+                        _cmp(d, nodos, cid, 'descriptores', cr['descriptores'], 'descriptores de criterio')
             for b in sec['saberes']:
                 base = f'sb:{pref}{nn}SB{b["romano"]}'
                 vistos.add(base)
@@ -165,7 +168,9 @@ def contrastar(nodos, manifiesto, materias=None):
                     _hueco(huecos, 'titulo_y_descripcion', base, 'scopeNote', b['descripcion'])
                 _saberes(d, nodos, base, b['hijos'], vistos)
                 _huecos_saberes(nodos, base, b['hijos'], huecos, revisar)
-                _otra_materia(nodos, base, b['hijos'], leido, materias_de_texto, huecos)
+                if doc.get('norma') != 'decreto-86-2025':
+                    # Los ámbitos integran por diseño saberes de otras materias.
+                    _otra_materia(nodos, base, b['hijos'], leido, materias_de_texto, huecos)
             prefijos = (f'crit:{pref}{nn}CE', f'sb:{pref}{nn}SB')
             for nid in nodos:
                 if nid.startswith(prefijos) and nid not in vistos:

@@ -40,6 +40,36 @@ Sin diferencias.
 ## eso-tecnologia-y-digitalizacion — contrastado
 Sin diferencias.
 
+## eso-ambito-linguistico-y-social — contrastado
+- texto de saber distinto: 30 (p. ej. sb:SMBS03SBI.2.2, sb:SMBS03SBI.3.2, sb:SMBS03SBI.3.3, sb:SMBS03SBII.3, sb:SMBS03SBII.4)
+- nodo del corpus que no está en el documento: 21 (p. ej. sb:SMBS03SBI.2.3, sb:SMBS03SBII.6, sb:SMBS03SBII.7, sb:SMBS03SBV.2.4, sb:SMBS03SBV.3.3)
+- explicación de bloque distinto: 9 (p. ej. bc:SMBS03BC1, bc:SMBS03BC6, bc:SMBS04BC1, bc:SMBS04BC3, bc:SMBS04BC4)
+- texto de criterio distinto: 4 (p. ej. crit:SMBS03CE1.5, crit:SMBS03CE6.2, crit:SMBS04CE1.4, crit:SMBS04CE5.1)
+- enunciado de competencia distinto: 3 (p. ej. ce:SMBSC1, ce:SMBSC4, ce:SMBSC4)
+- descriptores de bloque distinto: 2 (p. ej. bc:SMBS03BC4, bc:SMBS04BC4)
+- título de bloque de saberes distinto: 2 (p. ej. sb:SMBS03SBI, sb:SMBS04SBI)
+- descripción de bloque de saberes distinto: 2 (p. ej. sb:SMBS03SBI, sb:SMBS04SBI)
+- falta en el corpus: texto de saber: 1 (p. ej. sb:SMBS04SBVII.2.2)
+- corregible desde el documento (título y descripción de los bloques de saberes): 4
+- corregible desde el documento (explicaciones de bloque copiadas de otro curso): 4
+
+## eso-ambito-cientifico-tecnologico — contrastado
+- texto de saber distinto: 12 (p. ej. sb:SAMB03SBI.1, sb:SAMB03SBI.4, sb:SAMB03SBI.4.1, sb:SAMB03SBI.4.4, sb:SAMB03SBI.5.3)
+- explicación de bloque distinto: 11 (p. ej. bc:SAMB03BC1, bc:SAMB03BC2, bc:SAMB03BC3, bc:SAMB03BC4, bc:SAMB03BC6)
+- texto de criterio distinto: 10 (p. ej. crit:SAMB03CE1.2, crit:SAMB03CE2.1, crit:SAMB03CE4.4, crit:SAMB03CE4.5, crit:SAMB03CE5.3)
+- enunciado de competencia distinto: 2 (p. ej. ce:SAMBC1, ce:SAMBC5)
+- descriptores de bloque distinto: 1 (p. ej. bc:SAMB04BC6)
+- descriptores de criterio distinto: 1 (p. ej. crit:SAMB04CE6.1)
+- corregible desde el documento (explicaciones de bloque copiadas de otro curso): 1
+
+## eso-ambito-practico — contrastado
+- texto de saber distinto: 5 (p. ej. sb:SAM304SBI.1.3, sb:SAM304SBII.1, sb:SAM304SBVI.1, sb:SAM304SBVI.2, sb:SAM304SBVI.3)
+- texto de criterio distinto: 3 (p. ej. crit:SAM304CE1.1, crit:SAM304CE1.2, crit:SAM304CE4.1)
+- explicación de bloque distinto: 2 (p. ej. bc:SAM304BC4, bc:SAM304BC5)
+- falta en el corpus: texto de saber: 2 (p. ej. sb:SAM304SBII.2, sb:SAM304SBVI.4)
+- descriptores de bloque distinto: 1 (p. ej. bc:SAM304BC4)
+- descriptores de criterio distinto: 1 (p. ej. crit:SAM304CE4.4)
+
 ## primaria-educacion-en-valores-civicos-y-eticos — contrastado
 - texto de saber distinto: 42 (p. ej. sb:PEDK05SBI.2, sb:PEDK05SBI.3, sb:PEDK05SBI.4, sb:PEDK05SBI.5, sb:PEDK05SBI.7)
 - texto de criterio distinto: 14 (p. ej. crit:PEDK05CE1.1, crit:PEDK05CE1.2, crit:PEDK05CE2.2, crit:PEDK05CE2.3, crit:PEDK05CE2.4)
@@ -63,6 +93,22 @@ Sin diferencias.
 - falta en el corpus: texto de saber: 16 (p. ej. sb:PMAT01SBI.2.12, sb:PMAT01SBI.2.13, sb:PMAT01SBI.2.14, sb:PMAT01SBI.2.15, sb:PMAT02SBI.2.12)
 - nodo del corpus que no está en el documento: 14 (p. ej. sb:PMAT01SBI.2.2.1, sb:PMAT01SBI.2.2.2, sb:PMAT01SBI.2.2.3, sb:PMAT01SBI.2.2.4, sb:PMAT02SBI.2.2.1)
 - descriptores de criterio distinto: 1 (p. ej. crit:PMAT02CE1.1)
+
+## infantil-crecimiento-en-armonia — contrastado
+- explicación de bloque distinto: 12 (p. ej. bc:ICR404BC1, bc:ICR404BC2, bc:ICR404BC3, bc:ICR404BC4, bc:ICR405BC1)
+- texto de saber distinto: 6 (p. ej. sb:ICR404SBI.3.2, sb:ICR404SBII.4, sb:ICR405SBI.3.2, sb:ICR405SBII.4, sb:ICR406SBI.3.2)
+- corregible desde el documento (explicaciones de bloque copiadas de otro curso): 12
+
+## infantil-descubrimiento-y-exploracion-del-entorno — contrastado
+- explicación de bloque distinto: 9 (p. ej. bc:IDE304BC1, bc:IDE304BC2, bc:IDE304BC3, bc:IDE305BC1, bc:IDE305BC2)
+- descriptores de bloque distinto: 3 (p. ej. bc:IDE301BC2, bc:IDE302BC2, bc:IDE303BC2)
+- corregible desde el documento (explicaciones de bloque copiadas de otro curso): 9
+
+## infantil-comunicacion-y-representacion-de-la-realidad — contrastado
+- explicación de bloque distinto: 30 (p. ej. bc:IC4M04BC1, bc:IC4M04BC2, bc:IC4M04BC3, bc:IC4M04BC4, bc:IC4M04BC5)
+- descriptores de bloque distinto: 6 (p. ej. bc:IC4M01BC5, bc:IC4M02BC5, bc:IC4M03BC5, bc:IC5M01BC5, bc:IC5M02BC5)
+- texto de saber distinto: 6 (p. ej. sb:IC4M04SBV.3, sb:IC4M05SBV.3, sb:IC4M06SBV.3, sb:IC5M04SBV.3, sb:IC5M05SBV.3)
+- corregible desde el documento (explicaciones de bloque copiadas de otro curso): 30
 
 ## bachillerato-filosofia — contrastado
 - descriptores de bloque distinto: 3 (p. ej. bc:BFIL01BC4, bc:BFIL01BC7, bc:BFIL01BC9)

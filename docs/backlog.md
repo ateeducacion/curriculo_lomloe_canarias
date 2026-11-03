@@ -134,19 +134,30 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
 
 ## Fase 4 — Completar la configuración y las decisiones
 
-- [ ] **4.1 Descriptores**: descargar los anexos 1 (PDF, enlaces en `anexos_competencias` del
+- [x] **4.1 Descriptores**: descargar los anexos 1 (PDF, enlaces en `anexos_competencias` del
   manifiesto), verificar `config/descriptores.csv` y marcar `verificado: si`.
+  Hecho: coinciden Primaria (34), ESO (34, columna izquierda del anexo del Decreto 30/2023) y
+  Bachillerato (38, columna derecha, con CPSAA1, CPSAA3, CCEC3 y CCEC4 desdoblados). Infantil
+  tiene 8 competencias sin descriptores; su anexo abrevia «CEC» la que el corpus llama CCEC
+  (anotado en la columna `nota`).
 - [ ] **4.2 Cobertura** (decisiones de la persona responsable):
   - [ ] Optativas que faltan en la exportación (*Juegos y Deportes Tradicionales de Canarias*,
     *Música, Expresión y Espectáculos*): crearlas desde su ODT.
-  - [ ] ¿Los ámbitos de diversificación de la exportación (`SMBS`, `SAMB`, `SAM3`) corresponden al
-    Decreto 86/2025?
+  - [x] ¿Los ámbitos de diversificación de la exportación (`SMBS`, `SAMB`, `SAM3`) corresponden al
+    Decreto 86/2025? Sí: de 139 competencias y criterios, 119 son idénticos al ODT y casi todos
+    los demás son retoques menores. Difieren de verdad la competencia 4 del Ámbito Lingüístico y
+    Social y dos criterios del Ámbito Práctico, y hay saberes del ODT que la exportación no trae
+    (revisar a mano, junto con 3.6).
   - [ ] ¿Entran el silbo gomero y Religión?
 - [ ] **4.3 Modelo** (decisiones):
   - [ ] ¿Se unifican las competencias de Matemáticas A y B con las de Matemáticas?
   - [ ] Códigos de materia inconsistentes: `TSA`/`TA7`, `PLW`/`LNT`, `VAL`/`EDK`.
 - [ ] **4.4 Licencia del corpus y fecha de la exportación** de ProIDEAC (`config/corpus.yaml`).
-- [ ] **4.5 Formatos de Infantil y de los ámbitos**: descargar un ODT de cada y adaptar el lector.
+- [x] **4.5 Formatos de Infantil y de los ámbitos**: descargar un ODT de cada y adaptar el lector.
+  Hecho con los 6 documentos (3 áreas de Infantil y 3 ámbitos): ciclos de Infantil, criterios de
+  Infantil en una sola fila y sin descriptores, bloques de saberes «Bloque I. …» y `secciones`
+  manuales para los ámbitos. Correcciones propuestas 0036–0041 (explicaciones copiadas de otro
+  curso, 55 en total, y título y descripción de bloques en el Ámbito Lingüístico y Social).
 - [ ] **4.6 CODEOWNERS** con los equipos reales y protección de la rama `main`.
 
 ## Fase 5 — Preparar la 1.0.0

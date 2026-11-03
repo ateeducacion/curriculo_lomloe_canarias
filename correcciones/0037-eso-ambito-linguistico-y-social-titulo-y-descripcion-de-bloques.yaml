@@ -1,0 +1,26 @@
+id: '0037'
+titulo: 'Ámbito Lingüístico y Social (Educación Secundaria Obligatoria): 4 título y descripción de los bloques de saberes'
+motivo: 'La exportación junta en el título del bloque de saberes su título y su descripción. Se separan como en el documento
+  oficial: título en definition y descripción en scopeNote. Generada con `contrastar --proponer`.'
+fuente:
+  documento: eso-ambito-linguistico-y-social
+  fichero: fuentes/documentos/eso/anexo_1_curriculos_pdc_eso_LS.odt
+  sha256: 81b1c093d073bb40f625301a50832d4c4a68d6fdb6953728644a01360c8e1dac
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: sb:SMBS03SBI
+  campo: definition
+  valor: Comunicación y reflexión sobre la lengua
+- nodo: sb:SMBS03SBI
+  campo: scopeNote
+  valor: 'Estrategias de producción, comprensión y análisis crítico de textos orales, escritos y multimodales de diferentes
+    ámbitos, con atención conjunta a los siguientes aspectos:'
+- nodo: sb:SMBS04SBI
+  campo: definition
+  valor: Comunicación y reflexión sobre la lengua
+- nodo: sb:SMBS04SBI
+  campo: scopeNote
+  valor: 'Estrategias de producción, comprensión y análisis crítico de textos orales, escritos y multimodales de diferentes
+    ámbitos, con atención conjunta a los siguientes aspectos:'
