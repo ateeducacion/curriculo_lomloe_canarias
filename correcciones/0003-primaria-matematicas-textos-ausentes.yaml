@@ -1,0 +1,116 @@
+id: '0003'
+titulo: 'Matemáticas (Educación Primaria): 2 enunciados de competencia y 28 textos de saber ausentes en la exportación'
+motivo: La exportación de ProIDEAC no trae estos textos. Se toman del documento oficial; generada con `contrastar --proponer`
+  (los saberes se emparejan por contenido).
+fuente:
+  documento: primaria-matematicas
+  fichero: fuentes/documentos/primaria/curriculo-educacion-PRIMARIA_Matematicas.odt
+  sha256: 30849bd07eb61b4b8b06e0902c7fcf1f1bd9908936b14d183c0741a5e19eec59
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: ce:PMATC2
+  campo: definition
+  valor: Resolver situaciones problematizadas, aplicando diferentes técnicas, estrategias y formas de razonamiento, para explorar
+    distintas maneras de proceder, obtener soluciones y asegurar su validez desde un punto de vista formal y en relación con
+    el contexto planteado.
+- nodo: ce:PMATC8
+  campo: definition
+  valor: Desarrollar destrezas sociales, reconociendo y respetando las emociones, las experiencias de los demás y el valor
+    de la diversidad y participando activamente en equipos de trabajo heterogéneos con roles asignados, para construir una
+    identidad positiva como estudiante de matemáticas, fomentar el bienestar personal y crear relaciones saludables.
+- nodo: sb:PMAT01SBI.2.2.1
+  campo: definition
+  valor: Composición y descomposición de los 10 primeros números y su generalización al 100.
+- nodo: sb:PMAT01SBI.2.2.2
+  campo: definition
+  valor: Uso de los dobles hasta el 10+10 y su generalización al 100 para las sumas.
+- nodo: sb:PMAT01SBI.2.2.3
+  campo: definition
+  valor: Suma de números de una o dos cifras, descomponiendo, componiendo o completando a la decena o centena, y en la recta
+    numérica.
+- nodo: sb:PMAT01SBI.2.2.4
+  campo: definition
+  valor: Análisis de las relaciones entre los sumandos (dobles más 1, doble menos 1, parejas de sumandos que sumen 10, agrupar
+    decenas completas, etc.).
+- nodo: sb:PMAT02SBI.2.2.1
+  campo: definition
+  valor: Composición y descomposición de los 10 primeros números y su generalización al 100.
+- nodo: sb:PMAT02SBI.2.2.2
+  campo: definition
+  valor: Uso de los dobles hasta el 10+10 y su generalización al 100 para las sumas.
+- nodo: sb:PMAT02SBI.2.2.3
+  campo: definition
+  valor: Suma de números de una o dos cifras, descomponiendo, componiendo o completando a la decena o centena, y en la recta
+    numérica.
+- nodo: sb:PMAT02SBI.2.2.4
+  campo: definition
+  valor: Análisis de las relaciones entre los sumandos (dobles más 1, doble menos 1, parejas de sumandos que sumen 10, agrupar
+    decenas completas, etc.).
+- nodo: sb:PMAT03SBI.2.2.1
+  campo: definition
+  valor: Uso de la suma mediante redondeo a la decena más cercana para el cálculo estimativo obteniendo el cálculo exacto
+    previa compensación.
+- nodo: sb:PMAT03SBI.2.2.2
+  campo: definition
+  valor: Uso de la suma mediante descomposición de forma exacta, con números naturales y decimales hasta la décima.
+- nodo: sb:PMAT03SBI.2.3.1
+  campo: definition
+  valor: Uso de la resta utilizando sumar o restar el mismo número al minuendo y sustraendo.
+- nodo: sb:PMAT03SBI.2.3.2
+  campo: definition
+  valor: Uso de estrategias basadas en la compensación.
+- nodo: sb:PMAT03SBI.2.3.3
+  campo: definition
+  valor: Uso de estrategias basadas en las descomposiciones más adecuadas de los números.
+- nodo: sb:PMAT04SBI.2.2.1
+  campo: definition
+  valor: Uso de la suma mediante redondeo a la decena más cercana para el cálculo estimativo obteniendo el cálculo exacto
+    previa compensación.
+- nodo: sb:PMAT04SBI.2.2.2
+  campo: definition
+  valor: Uso de la suma mediante descomposición de forma exacta, con números naturales y decimales hasta la décima.
+- nodo: sb:PMAT04SBI.2.3.1
+  campo: definition
+  valor: Uso de la resta utilizando sumar o restar el mismo número al minuendo y sustraendo.
+- nodo: sb:PMAT04SBI.2.3.2
+  campo: definition
+  valor: Uso de estrategias basadas en la compensación.
+- nodo: sb:PMAT04SBI.2.3.3
+  campo: definition
+  valor: Uso de estrategias basadas en las descomposiciones más adecuadas de los números.
+- nodo: sb:PMAT05SBI.2.2.1
+  campo: definition
+  valor: Uso de la propiedad distributiva de la multiplicación respecto de la suma para el cálculo.
+- nodo: sb:PMAT05SBI.2.2.2
+  campo: definition
+  valor: Uso de la multiplicación usando doble y mitad.
+- nodo: sb:PMAT05SBI.2.2.3
+  campo: definition
+  valor: Uso de la multiplicación por 0,5 como calcular la mitad; por 0,25 como equivalente a la mitad de la mitad o a dividir
+    entre 4; por 0,1 y 0,01, como equivalente a la división por 10 y por 100; por 0,20 como equivalente a dividir por 5.
+- nodo: sb:PMAT05SBI.2.3.1
+  campo: definition
+  valor: Uso de la división mediante la descomposición con múltiplos del divisor y repartos sucesivos.
+- nodo: sb:PMAT05SBI.2.3.2
+  campo: definition
+  valor: Uso de la división mediante repartos proporcionales (basándose en la multiplicación por la unidad seguida de cero,
+    dobles y mitades).
+- nodo: sb:PMAT06SBI.2.2.1
+  campo: definition
+  valor: Uso de la propiedad distributiva de la multiplicación respecto de la suma para el cálculo.
+- nodo: sb:PMAT06SBI.2.2.2
+  campo: definition
+  valor: Uso de la multiplicación usando doble y mitad.
+- nodo: sb:PMAT06SBI.2.2.3
+  campo: definition
+  valor: Uso de la multiplicación por 0,5 como calcular la mitad; por 0,25 como equivalente a la mitad de la mitad o a dividir
+    entre 4; por 0,1 y 0,01, como equivalente a la división por 10 y por 100; por 0,20 como equivalente a dividir por 5.
+- nodo: sb:PMAT06SBI.2.3.1
+  campo: definition
+  valor: Uso de la división mediante la descomposición con múltiplos del divisor y repartos sucesivos.
+- nodo: sb:PMAT06SBI.2.3.2
+  campo: definition
+  valor: Uso de la división mediante repartos proporcionales (basándose en la multiplicación por la unidad seguida de cero,
+    dobles y mitades).

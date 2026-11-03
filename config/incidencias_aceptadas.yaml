@@ -6,10 +6,8 @@
 # la entrada debe retirarse. No añadas entradas sin un motivo concreto.
 incidencias:
 - clave: codigo_duplicado:sb:BBIE02SBIII.1.1
-  motivo: Heredada de la exportación inicial de ProIDEAC; pendiente de revisión
-  detalle: Saber repetido en la exportación; se conserva el primero
-- clave: codigo_duplicado:sb:SUEC02SBIV.6
-  motivo: Heredada de la exportación inicial de ProIDEAC; pendiente de revisión
+  motivo: La exportación codifica III.3.1 como III.1.1; los datos se reparan con la corrección 0016, pero el importador
+    seguirá avisando hasta que ProIDEAC corrija el código (o se adopte una regla general en la fase 3)
   detalle: Saber repetido en la exportación; se conserva el primero
 - clave: ce_sin_enunciado:ce:BAIIC2
   motivo: Heredada de la exportación inicial de ProIDEAC; pendiente de revisión

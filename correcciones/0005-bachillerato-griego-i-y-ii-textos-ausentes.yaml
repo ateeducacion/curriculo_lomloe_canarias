@@ -1,0 +1,55 @@
+id: '0005'
+titulo: 'Griego I y II (Bachillerato): 12 textos de saber ausentes en la exportación'
+motivo: La exportación de ProIDEAC no trae estos textos. Se toman del documento oficial; generada con `contrastar --proponer`
+  (los saberes se emparejan por contenido).
+fuente:
+  documento: bachillerato-griego-i-y-ii
+  fichero: fuentes/documentos/bachillerato/Griego_I_y_II_BACH.odt
+  sha256: a1cb13a14cb71f4be389dbc95cebfda2a6d348c4f033753558571ec925481d2c
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: sb:BGRE02SBI.1.3.1
+  campo: definition
+  valor: 'Establecimiento de relaciones de concordancia: sustantivo + adjetivo y sustantivo/pronombre + verbo.'
+- nodo: sb:BGRE02SBI.1.3.2
+  campo: definition
+  valor: Establecimiento de semejanzas y diferencias en el orden de las palabras en griego y en castellano para una mejor
+    comprensión de ambas.
+- nodo: sb:BGRE02SBI.2.2.1
+  campo: definition
+  valor: Formulación de expectativas a partir del entorno textual (título, obra…) y del propio texto (campos temáticos, familias
+    de palabras…), así como a partir del contexto.
+- nodo: sb:BGRE02SBI.2.2.2
+  campo: definition
+  valor: Conocimiento del tema y descripción de la estructura y género.
+- nodo: sb:BGRE02SBI.2.2.3
+  campo: definition
+  valor: Identificación de peculiaridades lingüísticas de los textos traducidos (discurso directo /indirecto, uso de tiempos
+    verbales, géneros verbales, pregunta retórica…).
+- nodo: sb:BGRE02SBI.2.2.4
+  campo: definition
+  valor: Identificación de errores frecuentes de traducción y técnicas para evitarlos (comprobación de si la traducción está
+    completa, control de acuerdo a criterios dados, delimitación de construcciones sintácticas…).
+- nodo: sb:BGRO01SBI.1.5.1
+  campo: definition
+  valor: 'Establecimiento de relaciones básicas de concordancia: sustantivo + adjetivo y sustantivo/pronombre + verbo.'
+- nodo: sb:BGRO01SBI.1.5.2
+  campo: definition
+  valor: Conocimiento de la disposición de las palabras griegas en una frase.
+- nodo: sb:BGRO01SBI.2.2.1
+  campo: definition
+  valor: Formulación de expectativas a partir del entorno textual (título, obra…) y del propio texto (campos temáticos, familias
+    de palabras…), así como a partir del contexto.
+- nodo: sb:BGRO01SBI.2.2.2
+  campo: definition
+  valor: Identificación del tema y breve descripción de la estructura y género.
+- nodo: sb:BGRO01SBI.2.2.3
+  campo: definition
+  valor: Acercamiento a las peculiaridades lingüísticas de los textos traducidos (discurso directo / indirecto, uso de tiempos
+    verbales, géneros verbales, pregunta retórica…).
+- nodo: sb:BGRO01SBI.2.2.4
+  campo: definition
+  valor: Identificación de errores frecuentes de traducción y técnicas para evitarlos (comprobación de si la traducción está
+    completa, control de acuerdo a criterios dados, delimitación de construcciones sintácticas…).

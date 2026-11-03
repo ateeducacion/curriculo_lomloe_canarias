@@ -627,10 +627,10 @@
       "detalle": "El bloque competencial agrupa las competencias SMATC7, SMATC8"
     },
     {
-      "regla": "codigo_duplicado",
-      "nivel": "error",
+      "regla": "registro_repetido",
+      "nivel": "aviso",
       "nodo": "sb:SUEC02SBIV.6",
-      "detalle": "Saber repetido en la exportación; se conserva el primero"
+      "detalle": "Saber repetido de forma idéntica en la exportación"
     },
     {
       "regla": "encabezado_no_corresponde",

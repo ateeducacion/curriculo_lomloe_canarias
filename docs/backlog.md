@@ -44,22 +44,25 @@ Tareas:
 
 - [x] **2.1 Descargar y registrar los 12 ODT** de la tabla en `fuentes/documentos/<etapa>/`
   y ejecutar `python -m herramientas.registrar_fuentes` (03-11-2026).
-- [ ] **2.2 Adaptar el lector de ODT** (`herramientas/odt.py`) al formato de Bachillerato
+- [x] **2.2 Adaptar el lector de ODT** (`herramientas/odt.py`) al formato de Bachillerato
   (varias materias o cursos por documento: I y II) y de Primaria (ciclos en lugar de cursos,
   saberes de tercer nivel).
   Cierre: `odt.leer` devuelve competencias, bloques y saberes de los 12 documentos sin avisos
   de secciones no encontradas. **Depende de** 2.1.
-- [ ] **2.3 Detectar las secciones automáticamente** a partir de los cursos de cada materia
+  Hecho: secciones sin rótulo «Bloques competenciales», filas de criterio sin punto o sin
+  espacio, descriptores con punto final y párrafos en `list-header`.
+- [x] **2.3 Detectar las secciones automáticamente** a partir de los cursos de cada materia
   (`config/materias.csv`), en lugar de escribirlas a mano en el manifiesto. Las `secciones`
   manuales siguen valiendo para los casos especiales.
   Cierre: `contrastar` procesa los documentos descargados sin `secciones` en el manifiesto,
   y `eso-matematicas` da el mismo resultado que hoy. **Depende de** 2.2.
-- [ ] **2.4 Generar correcciones desde el contraste**: opción
+- [x] **2.4 Generar correcciones desde el contraste**: opción
   `python -m herramientas.contrastar --proponer` que escribe `correcciones/NNNN-*.yaml` en
   estado `propuesta`, con motivo, fuente (documento y sha256) y los cambios, una por documento.
   No sobrescribe correcciones existentes.
   Cierre: genera ficheros válidos para `herramientas/correcciones.py`. **Depende de** 2.3.
-- [ ] **2.5 Proponer las correcciones** de los 12 documentos con 2.4 y revisar a mano los casos que
+  Hecho: los saberes se emparejan por contenido; los tramos ambiguos van a «revisar a mano».
+- [x] **2.5 Proponer las correcciones** de los 12 documentos con 2.4 y revisar a mano los casos que
   no son de texto:
   - `descriptor_desconocido` CE7 (PEDK): ver en el ODT qué descriptor es; si es una errata,
     corrección; si existe, añadirlo a `config/descriptores.csv`.
@@ -67,11 +70,28 @@ Tareas:
     es otro saber con el código mal puesto.
 
   **Depende de** 2.4.
+
+  Hecho: correcciones 0003–0012 (generadas, 124 incidencias) y 0013–0016 (manuales: CE7 es
+  CE2; saberes perdidos por códigos truncados en Matemáticas de Primaria; III.1.8 de
+  Filosofía; III.3 de Bioestadística). El duplicado de Tecnología y Digitalización era un
+  registro idéntico: el importador ya lo trata como aviso. Simulando la aprobación de todas
+  se resuelven 139 de 140 incidencias.
 - [ ] **2.6 Aprobación** de las correcciones (0001, 0002 y las nuevas) por la persona responsable
   del currículo (`estado: aprobada`, `aprobada_por`).
 - [ ] **2.7 Reconstruir y vaciar** `config/incidencias_aceptadas.yaml`:
   `python -m herramientas.construir` y retirar las incidencias resueltas.
   Cierre: lista vacía y CI en verde. **Depende de** 2.6.
+  Quedará `codigo_duplicado:sb:BBIE02SBIII.1.1`: los datos los repara la corrección 0016, pero
+  el error lo produce el importador al leer el código erróneo de la exportación. Se retira
+  cuando ProIDEAC lo corrija o con la regla general de 3.5.
+
+Puntos para la persona que aprueba:
+
+- 0015 (Filosofía III.1.8) conserva los códigos planos de ProIDEAC y crea III.1.8.7; el
+  documento anida tres de esos saberes bajo III.1.8.4. Decidir si se respeta la jerarquía
+  del documento (cambia identificadores).
+- 0012 (Cultura Científica): el documento oficial repite «Contaminación lumínica» en
+  II.2.4.1 y II.2.4.3. Probable errata del documento; confirmar el texto correcto.
 
 ## Fase 3 — Revisar las materias con encabezados contaminados
 
@@ -87,6 +107,15 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
 - [ ] **3.3 Clasificar las explicaciones repetidas entre cursos**: corrección si el ODT las
   distingue; nota justificativa si también son iguales en el ODT.
 - [ ] **3.4 Aprobación** y reconstrucción.
+- [ ] **3.5 Códigos incoherentes con la numeración del texto**: 88 registros de la exportación
+  (casi todos de 3.º ESO, más Historia de Canarias y Bioestadística) tienen un código cuyo
+  apartado no coincide con el número de su encabezado. Decidir una regla en el importador.
+- [ ] **3.6 Comparar saberes por contenido en el informe de contraste**, como ya hace
+  `--proponer`: la comparación por número da falsos positivos cuando la exportación y el
+  documento anidan distinto (Matemáticas de Primaria, Filosofía).
+- [ ] **3.7 Diferencias de versión**: en Educación en Valores Cívicos y Éticos de Primaria
+  el ODT y la exportación difieren en muchos textos y descriptores. Comprobar cuál
+  corresponde al Decreto 211/2022 publicado en el BOC.
 
 ## Fase 4 — Completar la configuración y las decisiones
 

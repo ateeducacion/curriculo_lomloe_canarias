@@ -13,12 +13,14 @@ Las tareas para resolverlo, en orden, en [`backlog.md`](backlog.md).
 
 ## Errores heredados de la exportación (aceptados provisionalmente)
 
+Correcciones 0003–0016 propuestas (pendientes de aprobación): resuelven 138 de las 139 restantes.
+
 | Regla | Casos | Qué ocurre | Cómo se resuelve |
 |---|---|---|---|
 | `ce_sin_enunciado` | 39 | Matemáticas (Primaria, ESO y Bachillerato) y Bioestadística: los bloques competenciales agrupan dos competencias y la exportación solo conserva el enunciado de la primera | Correcciones desde los ODT. Las de Matemáticas ESO ya están propuestas (0001) |
 | `saber_sin_texto` | 95 | Saberes de tercer nivel (p. ej. `BCUF01SBII.2.4.1`) cuyo texto no está en la exportación | Correcciones desde los ODT |
 | `descriptor_desconocido` | 4 | Descriptor `CE7` en Educación en Valores Cívicos y Éticos de Primaria (5.º y 6.º) | Comprobar en el ODT qué descriptor es |
-| `codigo_duplicado` | 2 | Dos saberes con el mismo código | Comprobar en el ODT |
+| `codigo_duplicado` | 1 | Bioestadística: III.3.1 codificado como III.1.1 | Corrección 0016; el aviso del importador sigue hasta que ProIDEAC corrija el código |
 
 ## Avisos relevantes
 

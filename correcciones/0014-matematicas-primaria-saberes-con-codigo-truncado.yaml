@@ -1,0 +1,66 @@
+id: '0014'
+titulo: 'Matemáticas (Primaria, 3.º y 4.º): saberes de I.2.10 e I.2.12 perdidos por códigos truncados'
+motivo: 'En 3.º y 4.º la exportación trae «PMAT0nSBI.2.10.» y «PMAT0nSBI.2.12.» (códigos truncados y sin texto). El importador
+  los reconstruye como el propio apartado y se pierden, y los otros dos saberes (2.10.2 y 2.12.1) llegan sin texto. En el
+  documento oficial cada apartado tiene dos saberes: se crean 2.10.1 y 2.12.2 y se completan los textos de 2.10.2 y 2.12.1,
+  en el orden del documento.'
+fuente:
+  documento: primaria-matematicas
+  fichero: fuentes/documentos/primaria/curriculo-educacion-PRIMARIA_Matematicas.odt
+  sha256: 30849bd07eb61b4b8b06e0902c7fcf1f1bd9908936b14d183c0741a5e19eec59
+  ubicacion: Segundo ciclo, saberes básicos, I. Sentido numérico, «Sentido de las operaciones»
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: sb:PMAT03SBI.2.10.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.10.1
+    definition: 'Uso de la multiplicación de números naturales por la unidad seguida de cero (establecer relaciones: generalización).'
+    broader: sb:PMAT03SBI.2.10
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.10.2
+  campo: definition
+  valor: Uso de la multiplicación utilizando dobles y mitades.
+- nodo: sb:PMAT03SBI.2.12.1
+  campo: definition
+  valor: Uso de la división usando la descomposición con múltiplos del divisor y repartos sucesivos.
+- nodo: sb:PMAT03SBI.2.12.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.12.2
+    definition: Uso de la división con repartos proporcionales (basándose en los múltiplos de 10, dobles y mitades).
+    broader: sb:PMAT03SBI.2.12
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.10.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.10.1
+    definition: 'Uso de la multiplicación de números naturales por la unidad seguida de cero (establecer relaciones: generalización).'
+    broader: sb:PMAT04SBI.2.10
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.10.2
+  campo: definition
+  valor: Uso de la multiplicación utilizando dobles y mitades.
+- nodo: sb:PMAT04SBI.2.12.1
+  campo: definition
+  valor: Uso de la división usando la descomposición con múltiplos del divisor y repartos sucesivos.
+- nodo: sb:PMAT04SBI.2.12.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.12.2
+    definition: Uso de la división con repartos proporcionales (basándose en los múltiplos de 10, dobles y mitades).
+    broader: sb:PMAT04SBI.2.12
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI

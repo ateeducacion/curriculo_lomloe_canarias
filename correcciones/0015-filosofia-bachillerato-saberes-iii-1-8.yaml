@@ -1,0 +1,43 @@
+id: '0015'
+titulo: 'Filosofía (Bachillerato): textos de los saberes III.1.8 y saber III.1.8.7 ausente'
+motivo: 'La exportación trae seis saberes vacíos (III.1.8.1 a III.1.8.6). El documento oficial tiene siete: cuatro bajo III.1.8
+  y, bajo el cuarto («Reflexión filosófica en torno a la democracia»), tres más. Se conservan los códigos planos de ProIDEAC:
+  se rellenan los seis en el orden del documento y se crea III.1.8.7 para el séptimo. REVISAR: si se prefiere la jerarquía
+  del documento, habría que crear III.1.8.4.1 a III.1.8.4.3 y retirar III.1.8.5 y III.1.8.6, lo que cambia identificadores.'
+fuente:
+  documento: bachillerato-filosofia
+  fichero: fuentes/documentos/bachillerato/Filosofia_BACH.odt
+  sha256: eeee86808cade44c81a39f089f6e04a0db8c526abde12a4d02f18222d7b6c02b
+  ubicacion: 1.º Bachillerato, saberes básicos, III. Acción y creación, apartado 1.8
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: sb:BFIL01SBIII.1.8.1
+  campo: definition
+  valor: Comprensión de los conceptos de legalidad, legitimidad y definición de lo político.
+- nodo: sb:BFIL01SBIII.1.8.2
+  campo: definition
+  valor: Elaboración de infografías que resumen las principales formas de organización social y del poder político.
+- nodo: sb:BFIL01SBIII.1.8.3
+  campo: definition
+  valor: Identificación de las tesis contractualistas en los textos filosóficos.
+- nodo: sb:BFIL01SBIII.1.8.4
+  campo: definition
+  valor: Reflexión filosófica en torno a la democracia.
+- nodo: sb:BFIL01SBIII.1.8.5
+  campo: definition
+  valor: Establecimiento de las relaciones entre individuo y Estado.
+- nodo: sb:BFIL01SBIII.1.8.6
+  campo: definition
+  valor: Debate en torno al problema de la igualdad y la libertad.
+- nodo: sb:BFIL01SBIII.1.8.7
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: BFIL01SBIII.1.8.7
+    definition: Elaboración de tareas de investigación sobre el concepto de trabajo, el derecho a la propiedad y la distribución
+      de la riqueza.
+    broader: sb:BFIL01SBIII.1.8
+    materia: materia:BFIL
+    curso: curso:B01
+    etapa: etapa:BAC

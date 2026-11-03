@@ -1,0 +1,29 @@
+id: 0009
+titulo: 'Matemáticas Generales (Bachillerato): 4 enunciados de competencia ausentes en la exportación'
+motivo: La exportación de ProIDEAC no trae estos textos. Se toman del documento oficial; generada con `contrastar --proponer`
+  (los saberes se emparejan por contenido).
+fuente:
+  documento: bachillerato-matematicas-generales
+  fichero: fuentes/documentos/bachillerato/Matematicas_generales_BACH.odt
+  sha256: 4e21657496d8f0caa57ae4ff4c2e7d19cdaedcfbe06dfb898af0757994978213
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: ce:BMZTC2
+  campo: definition
+  valor: Verificar la validez de las posibles soluciones de un problema empleando el razonamiento y la argumentación para
+    contrastar su idoneidad.
+- nodo: ce:BMZTC4
+  campo: definition
+  valor: Utilizar el pensamiento computacional de forma eficaz, modificando y creando algoritmos que resuelvan problemas mediante
+    el uso de las matemáticas, para modelizar y resolver situaciones de la vida cotidiana y de diversos ámbitos.
+- nodo: ce:BMZTC6
+  campo: definition
+  valor: Descubrir los vínculos de las matemáticas con otras áreas de conocimiento y profundizar en sus conexiones, interrelacionando
+    conceptos y procedimientos, para modelizar, resolver problemas y desarrollar la capacidad crítica, creativa e innovadora
+    en situaciones diversas.
+- nodo: ce:BMZTC8
+  campo: definition
+  valor: Comunicar las ideas matemáticas, de forma individual y colectiva, empleando el soporte, la terminología y el rigor
+    apropiados, para organizar y consolidar el pensamiento matemático.
