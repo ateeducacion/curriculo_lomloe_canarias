@@ -1,0 +1,453 @@
+{
+  "materia": "materia:SFIL",
+  "nodos": [
+    {
+      "id": "materia:SFIL",
+      "tipo": "Materia",
+      "notation": "SFIL",
+      "prefLabel": "Filosofía (ESO)",
+      "cursos": [
+        "curso:S04"
+      ],
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SFILC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SFILC1",
+      "prefLabel": "SFILC1 · Investigar y seleccionar información significativa sobre interrogantes, problemas y…",
+      "definition": "Investigar y seleccionar información significativa sobre interrogantes, problemas y conceptos fundamentales de la filosofía, para desarrollar una actitud indagadora y crítica que reconozca el papel del pensamiento filosófico como saber crítico que aspira a fundamentar y argumentar sobre los problemas de la vida y de la realidad, tanto desde una vertiente teórica como práctica.",
+      "broader": "materia:SFIL",
+      "materia": "materia:SFIL",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SFILC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SFILC2",
+      "prefLabel": "SFILC2 · Dialogar, debatir y argumentar de forma rigurosa, tolerante y empática a través de…",
+      "definition": "Dialogar, debatir y argumentar de forma rigurosa, tolerante y empática a través de coloquios u otras actividades para resolver supuestos prácticos contextualizados en los que se apliquen sus deliberaciones, evitando modos dogmáticos y falaces, intercambiando ideas y desarrollando un criterio propio para el ejercicio de una ciudadanía activa y democrática.",
+      "broader": "materia:SFIL",
+      "materia": "materia:SFIL",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SFILC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SFILC3",
+      "prefLabel": "SFILC3 · Investigar acerca de los principales interrogantes de la filosofía política, atendiendo a…",
+      "definition": "Investigar acerca de los principales interrogantes de la filosofía política, atendiendo a la utilidad del pensamiento utópico y los conceptos de justicia, libertad y creatividad, a través de la creación de proyectos o afrontando retos y problemas de interés personal y colectivo, para valorar la dimensión práctica de la razón como orientadora de la acción humana y de la libertad como condición básica de la capacidad creadora.",
+      "broader": "materia:SFIL",
+      "materia": "materia:SFIL",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SFIL04BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "SFIL04BC1",
+      "prefLabel": "Filosofía · 4º ESO · bloque competencial C1",
+      "scopeNote": "El pensamiento filosófico se ofrece aquí como una herramienta para pensar el presente que transforma las ideas de lo que somos, que despierta en el alumnado el asombro y la duda para impulsar la reflexión desde perspectivas diferentes. A través de este bloque competencial se persigue constatar que el alumnado reconoce los principales interrogantes filosóficos y construye un adecuado concepto de la filosofía y de su dimensión crítica, reconociendo las diversas reflexiones y soluciones dadas. Para ello, se comprobará que el alumnado es capaz de investigar y seleccionar información significativa que sirva al desarrollo de una actitud indagadora y crítica en el planteamiento de los problemas de la vida y la realidad. De este modo contribuiremos a la comprensión de textos acerca de la realidad, la ciencia, el ser humano y la sociedad,  a la contrastación de la información de forma crítica y la comunicación de los conocimientos adoptando un punto de vista creativo, crítico y personal.",
+      "broader": "materia:SFIL",
+      "agrupa": [
+        "ce:SFILC1"
+      ],
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "STEM1",
+        "CD1",
+        "CD2"
+      ],
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SFIL04BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "SFIL04BC2",
+      "prefLabel": "Filosofía · 4º ESO · bloque competencial C2",
+      "scopeNote": "La reflexión filosófica necesita un espacio de diálogo para entender las diversas aportaciones dadas por la actividad filosófica. A través de este bloque competencial se comprobará que diferencia, en debates, tertulias u otros foros de comunicación incluidas las plataformas virtuales, algunas de las aportaciones de la filosofía a la definición del ser humano y su relación con la naturaleza y la cultura. Se evaluará que el alumnado reconoce, a través de lecturas de diferentes tipos de textos, la dimensión social, cultural, creativa e innovadora del ser humano. De esta forma se comprobará que el alumnado es capaz de resolver supuestos prácticos relacionando aspectos de la identidad personal, las emociones, la socialización y prácticas responsables en entornos digitales, contribuyendo a cimentar hábitos de convivencia democrática, y a la práctica de la resolución dialogada de los conflictos y la igualdad de derechos de todas las personas, considerando críticamente los valores y costumbres propios y ajenos.",
+      "broader": "materia:SFIL",
+      "agrupa": [
+        "ce:SFILC2"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "CD3",
+        "CPSAA3",
+        "CPSAA4",
+        "CC3",
+        "CE1",
+        "CP3"
+      ],
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SFIL04BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "SFIL04BC3",
+      "prefLabel": "Filosofía · 4º ESO · bloque competencial C3",
+      "scopeNote": "La filosofía como saber crítico aporta una diversidad de perspectivas y conocimientos que sirven para orientar la acción humana, su creatividad y su libertad preparando al alumnado para los retos de la sociedad del siglo XXI. A través de este bloque competencial se constató que el alumnado valora la democracia, la justicia y la libertad, demostrando respeto por las normas, empatía, equidad y espíritu constructivo en la interacción con las demás personas, desarrollando, además, proyectos cooperativos que integren el pensamiento creativo y racional con un fin crítico y transformador de la realidad, fomentando la reflexión estética en torno al ideal de belleza.",
+      "broader": "materia:SFIL",
+      "agrupa": [
+        "ce:SFILC3"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "STEM1",
+        "CD3",
+        "CPSAA3",
+        "CPSAA4",
+        "CC3",
+        "CE1",
+        "CE3",
+        "CCEC3"
+      ],
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFIL04CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFIL04CE1.1",
+      "prefLabel": "SFIL04CE1.1 · Construir un adecuado concepto de la filosofía y de su dimensión crítica, reconociendo…",
+      "definition": "Construir un adecuado concepto de la filosofía y de su dimensión crítica, reconociendo las diversas reflexiones y soluciones dadas en el pensamiento filosófico sobre la realidad, la ciencia, el ser humano y la sociedad, utilizando distintas fuentes de información (internet, textos filosóficos, textos literarios, etc.), desarrollando así, una actitud indagadora y crítica en armonía con las demás personas.",
+      "broader": "ce:SFILC1",
+      "bloque": "bc:SFIL04BC1",
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "STEM1",
+        "CD1",
+        "CD2"
+      ],
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFIL04CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFIL04CE2.1",
+      "prefLabel": "SFIL04CE2.1 · Diferenciar en debates, tertulias u otros foros de comunicación, algunas de las…",
+      "definition": "Diferenciar en debates, tertulias u otros foros de comunicación, algunas de las aportaciones de la filosofía a la definición del ser humano y su relación con la naturaleza y la cultura. Además, explicar, a través de lecturas comprensivas de textos sencillos y empleando el trabajo cooperativo, algunas teorías psicológicas y filosóficas sobre la personalidad, las emociones y la identidad.",
+      "broader": "ce:SFILC2",
+      "bloque": "bc:SFIL04BC2",
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "CD3",
+        "CPSAA3",
+        "CPSAA4",
+        "CC3",
+        "CE1"
+      ],
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFIL04CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFIL04CE2.2",
+      "prefLabel": "SFIL04CE2.2 · Reconocer, a través de lecturas y comentarios de diferentes tipos de textos, la dimensión…",
+      "definition": "Reconocer, a través de lecturas y comentarios de diferentes tipos de textos, la dimensión social, cultural, creativa e innovadora del ser humano como transformador del medio y el papel de la cultura como instrumento de adaptación, así como argumentar las propias opiniones sobre las teorías relativas al origen de la sociedad, la dicotomía individuo-sociedad, el proceso de socialización y el análisis crítico de los conceptos de civilización, etnocentrismo, relativismo cultural y la influencia de la tecnología digital en la vida cotidiana.",
+      "broader": "ce:SFILC2",
+      "bloque": "bc:SFIL04BC2",
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "CP3",
+        "CD3",
+        "CPSAA3",
+        "CPSAA4",
+        "CC3",
+        "CE1"
+      ],
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFIL04CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFIL04CE3.1",
+      "prefLabel": "SFIL04CE3.1 · Valorar la justicia y la libertad, a partir de la investigación y el análisis crítico de…",
+      "definition": "Valorar la justicia y la libertad, a partir de la investigación y el análisis crítico de distintas formas de gobierno, la función de las utopías, justificando sus propias ideas y proponiendo posibles alternativas.",
+      "broader": "ce:SFILC3",
+      "bloque": "bc:SFIL04BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "STEM1",
+        "CD3",
+        "CPSAA3",
+        "CPSAA4",
+        "CC3",
+        "CE1"
+      ],
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFIL04CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFIL04CE3.2",
+      "prefLabel": "SFIL04CE3.2 · Utilizar el arte como expresión de las ideas filosóficas, desarrollando proyectos que…",
+      "definition": "Utilizar el arte como expresión de las ideas filosóficas, desarrollando proyectos que incluyan recursos tanto analógicos como digitales integrando un pensamiento creativo y racional con un fin crítico y transformador de la realidad, fomentando la reflexión estética en torno al ideal de belleza.",
+      "broader": "ce:SFILC3",
+      "bloque": "bc:SFIL04BC3",
+      "descriptores": [
+        "CCL5",
+        "CD3",
+        "CPSAA3",
+        "CPSAA4",
+        "CC3",
+        "CE1",
+        "CE3",
+        "CCEC3"
+      ],
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFIL04SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "SFIL04SBI",
+      "prefLabel": "SFIL04SBI · I. La Filosofía y sus preguntas",
+      "definition": "La Filosofía y sus preguntas",
+      "broader": "materia:SFIL",
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFIL04SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "SFIL04SBII",
+      "prefLabel": "SFIL04SBII · II. Identidad y socialización",
+      "definition": "Identidad y socialización",
+      "broader": "materia:SFIL",
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFIL04SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "SFIL04SBIII",
+      "prefLabel": "SFIL04SBIII · III. Pensamiento y transformación. Filosofía práctica",
+      "definition": "Pensamiento y transformación. Filosofía práctica",
+      "broader": "materia:SFIL",
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFIL04SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "SFIL04SBI.1",
+      "prefLabel": "SFIL04SBI.1 · El origen de la reflexión filosófica.",
+      "definition": "El origen de la reflexión filosófica.",
+      "broader": "sb:SFIL04SBI",
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFIL04SBI.1.1",
+      "tipo": "SaberBasico",
+      "notation": "SFIL04SBI.1.1",
+      "prefLabel": "SFIL04SBI.1.1 · La pregunta por la realidad. Conocimiento e identificación de las soluciones de…",
+      "definition": "La pregunta por la realidad. Conocimiento e identificación de las soluciones de interpretación de la realidad expuestas por los presocráticos o más allá de los mitos.",
+      "broader": "sb:SFIL04SBI.1",
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFIL04SBI.1.2",
+      "tipo": "SaberBasico",
+      "notation": "SFIL04SBI.1.2",
+      "prefLabel": "SFIL04SBI.1.2 · Análisis y disertación entorno a las interpretaciones del ser humano y la sociedad en…",
+      "definition": "Análisis y disertación entorno a las interpretaciones del ser humano y la sociedad en Sócrates y los Sofistas. El discurso filosófico y la retórica.",
+      "broader": "sb:SFIL04SBI.1",
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFIL04SBI.1.3",
+      "tipo": "SaberBasico",
+      "notation": "SFIL04SBI.1.3",
+      "prefLabel": "SFIL04SBI.1.3 · Identificación de las relaciones entre ciencia y filosofía. Las pseudociencias.",
+      "definition": "Identificación de las relaciones entre ciencia y filosofía. Las pseudociencias.",
+      "broader": "sb:SFIL04SBI.1",
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFIL04SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "SFIL04SBII.1",
+      "prefLabel": "SFIL04SBII.1 · Identidad personal.",
+      "definition": "Identidad personal.",
+      "broader": "sb:SFIL04SBII",
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFIL04SBII.1.1",
+      "tipo": "SaberBasico",
+      "notation": "SFIL04SBII.1.1",
+      "prefLabel": "SFIL04SBII.1.1 · Reconocimiento de las aportaciones de la filosofía a la definición del ser humano. La…",
+      "definition": "Reconocimiento de las aportaciones de la filosofía a la definición del ser humano. La filosofía griega.",
+      "broader": "sb:SFIL04SBII.1",
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFIL04SBII.1.2",
+      "tipo": "SaberBasico",
+      "notation": "SFIL04SBII.1.2",
+      "prefLabel": "SFIL04SBII.1.2 · Explicación de algunas teorías psicológicas y filosóficas sobre la personalidad. Análisis…",
+      "definition": "Explicación de algunas teorías psicológicas y filosóficas sobre la personalidad. Análisis de sus principales conceptos para la comprensión de la pregunta: ¿quién soy?",
+      "broader": "sb:SFIL04SBII.1",
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFIL04SBII.1.3",
+      "tipo": "SaberBasico",
+      "notation": "SFIL04SBII.1.3",
+      "prefLabel": "SFIL04SBII.1.3 · Naturaleza y cultura. Análisis de las diferencias entre esencialismo y constructivismo.…",
+      "definition": "Naturaleza y cultura. Análisis de las diferencias entre esencialismo y constructivismo. Reconocimiento de la dimensión social y cultural en la construcción de la identidad. Valoración sobre lo masculino y lo femenino, o los roles de género.",
+      "broader": "sb:SFIL04SBII.1",
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFIL04SBII.1.4",
+      "tipo": "SaberBasico",
+      "notation": "SFIL04SBII.1.4",
+      "prefLabel": "SFIL04SBII.1.4 · Las emociones. Identificación de las teorías de la personalidad, emociones, inteligencia…",
+      "definition": "Las emociones. Identificación de las teorías de la personalidad, emociones, inteligencia emocional y control de la frustración. Valoración sobre la reivindicación de lo irracional.",
+      "broader": "sb:SFIL04SBII.1",
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFIL04SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "SFIL04SBII.2",
+      "prefLabel": "SFIL04SBII.2 · Socialización.",
+      "definition": "Socialización.",
+      "broader": "sb:SFIL04SBII",
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFIL04SBII.2.1",
+      "tipo": "SaberBasico",
+      "notation": "SFIL04SBII.2.1",
+      "prefLabel": "SFIL04SBII.2.1 · Reflexión sobre las nociones referidas a la relación individuo-sociedad y el proceso de…",
+      "definition": "Reflexión sobre las nociones referidas a la relación individuo-sociedad y el proceso de socialización.",
+      "broader": "sb:SFIL04SBII.2",
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFIL04SBII.2.2",
+      "tipo": "SaberBasico",
+      "notation": "SFIL04SBII.2.2",
+      "prefLabel": "SFIL04SBII.2.2 · Origen de la sociedad. Análisis de las diferencias entre naturalismo y contractualismo.…",
+      "definition": "Origen de la sociedad. Análisis de las diferencias entre naturalismo y contractualismo. Valoración del concepto de civilización y de la dicotomía entre etnocentrismo y relativismo cultural.",
+      "broader": "sb:SFIL04SBII.2",
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFIL04SBII.2.3",
+      "tipo": "SaberBasico",
+      "notation": "SFIL04SBII.2.3",
+      "prefLabel": "SFIL04SBII.2.3 · Reflexión crítica sobre el papel de la cultura y las tecnologías digitales, así como el…",
+      "definition": "Reflexión crítica sobre el papel de la cultura y las tecnologías digitales, así como el del individuo como creador y transformador de la cultura.",
+      "broader": "sb:SFIL04SBII.2",
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFIL04SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "SFIL04SBIII.1",
+      "prefLabel": "SFIL04SBIII.1 · Reflexión acerca de la posibilidad de la libertad. Determinismo, azar y voluntad.",
+      "definition": "Reflexión acerca de la posibilidad de la libertad. Determinismo, azar y voluntad.",
+      "broader": "sb:SFIL04SBIII",
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFIL04SBIII.1.1",
+      "tipo": "SaberBasico",
+      "notation": "SFIL04SBIII.1.1",
+      "prefLabel": "SFIL04SBIII.1.1 · Identificación del concepto de justicia y de los regímenes políticos totalitarios.",
+      "definition": "Identificación del concepto de justicia y de los regímenes políticos totalitarios.",
+      "broader": "sb:SFIL04SBIII.1",
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFIL04SBIII.1.2",
+      "tipo": "SaberBasico",
+      "notation": "SFIL04SBIII.1.2",
+      "prefLabel": "SFIL04SBIII.1.2 · Investigación sobre las utopías y las distopías, las utopías feministas, la mujer en las…",
+      "definition": "Investigación sobre las utopías y las distopías, las utopías feministas, la mujer en las sociedades distópicas.",
+      "broader": "sb:SFIL04SBIII.1",
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFIL04SBIII.1.3",
+      "tipo": "SaberBasico",
+      "notation": "SFIL04SBIII.1.3",
+      "prefLabel": "SFIL04SBIII.1.3 · Estética. Valoración de los cánones de belleza. Identificación de la creatividad.",
+      "definition": "Estética. Valoración de los cánones de belleza. Identificación de la creatividad.",
+      "broader": "sb:SFIL04SBIII.1",
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFIL04SBIII.1.4",
+      "tipo": "SaberBasico",
+      "notation": "SFIL04SBIII.1.4",
+      "prefLabel": "SFIL04SBIII.1.4 · Valoración del arte como expresión de las ideas filosóficas.",
+      "definition": "Valoración del arte como expresión de las ideas filosóficas.",
+      "broader": "sb:SFIL04SBIII.1",
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    }
+  ]
+}

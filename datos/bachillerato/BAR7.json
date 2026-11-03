@@ -1,0 +1,638 @@
+{
+  "materia": "materia:BAR7",
+  "nodos": [
+    {
+      "id": "materia:BAR7",
+      "tipo": "Materia",
+      "notation": "BAR7",
+      "prefLabel": "Artes Escénicas II (Bachillerato)",
+      "cursos": [
+        "curso:B02"
+      ],
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BAR7C1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BAR7C1",
+      "prefLabel": "BAR7C1 · Analizar manifestaciones escénicas de diferentes épocas y tradiciones, describiendo sus…",
+      "definition": "Analizar manifestaciones escénicas de diferentes épocas y tradiciones, describiendo sus características, estableciendo relaciones con su contexto e identificando posibles influencias y proyecciones, para valorar el patrimonio y enriquecer el imaginario propio.",
+      "broader": "materia:BAR7",
+      "materia": "materia:BAR7",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BAR7C2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BAR7C2",
+      "prefLabel": "BAR7C2 · Explorar las posibilidades expresivas de diferentes sistemas, medios y códigos de…",
+      "definition": "Explorar las posibilidades expresivas de diferentes sistemas, medios y códigos de significación escénica, a través de actividades de carácter práctico, para incorporar su uso al repertorio personal de recursos y desarrollar el criterio de selección de los más adecuados a la intención comunicativa.",
+      "broader": "materia:BAR7",
+      "materia": "materia:BAR7",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BAR7C3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BAR7C3",
+      "prefLabel": "BAR7C3 · Abordar la recreación y representación de la acción dramática, a partir de la…",
+      "definition": "Abordar la recreación y representación de la acción dramática, a partir de la construcción colectiva de escenas que muestren todo tipo de personajes y conflictos, para desarrollar habilidades de comunicación y negociación y reforzar el autoconocimiento, la creatividad, la empatía, la imaginación y el espíritu emprendedor en diversas situaciones y contextos.",
+      "broader": "materia:BAR7",
+      "materia": "materia:BAR7",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BAR7C4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BAR7C4",
+      "prefLabel": "BAR7C4 · Realizar proyectos de creación y difusión escénica, planificando sus fases, seleccionando…",
+      "definition": "Realizar proyectos de creación y difusión escénica, planificando sus fases, seleccionando y estructurando los elementos de significación y asumiendo diferentes funciones con iniciativa y responsabilidad, para expresar una intención comunicativa, enriquecer el entorno cultural e identificar oportunidades de desarrollo personal, social, académico o profesional.",
+      "broader": "materia:BAR7",
+      "materia": "materia:BAR7",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BAR7C5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BAR7C5",
+      "prefLabel": "BAR7C5 · Valorar críticamente manifestaciones escénicas, identificando el público al que se…",
+      "definition": "Valorar críticamente manifestaciones escénicas, identificando el público al que se dirigen y analizando sus características y sus presupuestos artísticos, para desarrollar el criterio estético, difundir el patrimonio y ampliar las posibilidades de disfrute de las artes escénicas.",
+      "broader": "materia:BAR7",
+      "materia": "materia:BAR7",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BAR702BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "BAR702BC1",
+      "prefLabel": "Artes Escénicas II · 2º Bachillerato · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se pretende que el alumnado sea capaz de analizar manifestaciones escénicas de diferentes épocas y tradiciones en su contexto histórico, estableciendo relaciones con el hecho escénico actual y mostrando respeto a la diversidad cultural, espíritu crítico y un uso adecuado del vocabulario específico. Se valorará, además, que el alumnado sea capaz de reflexionar sobre el patrimonio escénico desde una recepción activa que contemple la perspectiva de género y la interculturalidad. De esta forma, se contribuye a la adquisición de la competencia específica, ya que se constatará que el estudiante reflexione, comprenda, aprecie, respete y divulgue críticamente el patrimonio escénico y performativo propio y universal, tomando conciencia de su valor en la construcción de la identidad cultural de las sociedades y los individuos. Por tanto, el alumnado deberá ser capaz de comprender y valorar textos orales, escritos y multimodales en diferentes soportes, así como manejar fuentes digitales y analógicas de forma autónoma y responsable con el fin de conseguir el objetivo de aprendizaje previsto a través de críticas escénicas, dramaturgias, reseñas literarias, glosarios, presentaciones orales y escritas y similares instrumentos de análisis escénicos. Para ello se comprobará que el alumnado identifica y describe las características de los principales tipos de espectáculos escénicos de diferentes épocas y tradiciones en su contexto histórico y geográfico y en relación con el presente. El acceso a las manifestaciones escénicas objeto de estudio se hará preferiblemente a través de su puesta en escena, en directo o mediante reproducciones analógicas o digitales. Resultarán también de utilidad el comentario de textos dramáticos e imágenes y la consulta de fuentes bibliográficas y audiovisuales. Todo ello con la finalidad de valorar el patrimonio escénico.",
+      "broader": "materia:BAR7",
+      "agrupa": [
+        "ce:BAR7C1"
+      ],
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "CP3",
+        "CD1",
+        "CD2",
+        "CPSAA2",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BAR702BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "BAR702BC2",
+      "prefLabel": "Artes Escénicas II · 2º Bachillerato · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se pretende verificar que el alumnado es capaz de implicarse y experimentar dinámicas escénicas de carácter práctico, con el fin de recrear la acción dramática, el diseño de personajes y la configuración de situaciones y escenas, integrando en todo ello las técnicas del repertorio personal de recursos más adecuadas a la intención comunicativa. Se trata de que el alumnado maneje eficazmente los códigos de significación escénica verbales y no verbales en el trabajo práctico individual y colectivo. En este aspecto, se prestará especial atención al grado de implicación y contribución a la cohesión grupal desde la autonomía, la asertividad, la autoeficacia, la resiliencia, la inclusividad y coeducación grupal, la madurez emocional que respeta la diversidad de criterios en beneficio del trabajo común y del enriquecimiento cultural, todo ello con la finalidad de construir una personalidad autónoma e independiente. Para ello, se explorarán distintas posibilidades expresivas que ofrecen los diferentes sistemas, métodos, medios y códigos de significación escénica que permiten al alumnado enriquecer su repertorio personal de recursos y aprender a seleccionar y a aplicar los más adecuados a cada necesidad o intención comunicativa. La dramatización, el juego, la creación colectiva y la improvisación brindarán al alumnado la oportunidad de descubrir y aplicar múltiples técnicas y estrategias para reflexionar sobre todos los elementos y aspectos constitutivos del espectáculo teatral. Asimismo, estas actividades constituirán una herramienta óptima para aprender a seleccionar los recursos plásticos, literarios, tecnológicos, audiovisuales o de otro tipo que mejor se ajusten a las ideas, sentimientos y emociones que se pretenden plasmar sobre el escenario. Además, se valorará tanto la búsqueda de recursos e información en diferentes fuentes y los procesos básicos de indagación e investigación para la optimización de la comunicación escénica como la creatividad en la generación de ideas y propuestas con sentido crítico y ético y la aplicación de conocimientos específicos de gestión del proyecto escénico y la producción artística a través de juegos, improvisaciones, dinámicas y prácticas teatrales sustentadas en los diversos métodos, estilos, técnicas y medios escénicos.",
+      "broader": "materia:BAR7",
+      "agrupa": [
+        "ce:BAR7C2"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CD1",
+        "CPSAA1.1",
+        "CPSAA2",
+        "CC1",
+        "CE3",
+        "CCEC3.1",
+        "CCEC3.2"
+      ],
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BAR702BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "BAR702BC3",
+      "prefLabel": "Artes Escénicas II · 2º Bachillerato · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de utilizar diferentes técnicas, estilos y métodos de interpretación, aplicando estrategias de concentración, memorización, expresión libre o guiada a través de productos escénicos, multi e interdisciplinares y en soportes analógicos y digitales (pódcast, match de improvisación, cuaderno bitácora, teaser, blog, spot, radioteatro…). Además, la recreación y representación de la acción dramática, la lectura y el análisis de obras, el visionado de espectáculos, así como los ensayos, constituyen momentos y espacios para la adquisición de destrezas y técnicas de interpretación individual y grupal, que propician la escucha, la reflexión, inclusividad y la emocionalidad competente. Estas estrategias de cooperación y control y gestión de las emociones ayudarán al alumnado a desarrollar su autoestima, su autoconocimiento y su autorregulación, permitiéndole afrontar con mayor seguridad las situaciones de incertidumbre y los retos a los que habrá de enfrentarse en diversas situaciones y contextos educativos del propio entorno cultural y social.",
+      "broader": "materia:BAR7",
+      "agrupa": [
+        "ce:BAR7C3"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CD2",
+        "CPSAA1.1",
+        "CPSAA2",
+        "CC1",
+        "CE1",
+        "CE3"
+      ],
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BAR702BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "BAR702BC4",
+      "prefLabel": "Artes Escénicas II · 2º Bachillerato · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial se verificará que el alumnado es capaz de participar, con iniciativa, responsabilidad y conciencia de grupo, en el diseño, la planificación y la realización de proyectos colectivos de creación y difusión escénica, identificando oportunidades de desarrollo personal, social, académico o profesional relacionadas con el ámbito artístico. De este modo, el alumnado debe, de forma autónoma, manejar información procedente de diferentes fuentes digitales y bibliográficas, teniendo en cuenta la intención comunicativa, las características del marco de recepción previsto, así como la viabilidad y la sostenibilidad del proyecto en su relación con las posibles limitaciones y condicionantes técnicos. Además, debe seleccionar e integrar contenidos, herramientas y recursos digitales, técnicas plásticas, visuales, audiovisuales, sonoras, musicales o corporales para diseñar y producir proyectos artísticos y culturales sirviéndose de la interpretación, la ejecución, la improvisación o la composición. Se constatará que los alumnos y alumnas muestran empatía y sensibilidad hacia las emociones, experiencias y trabajo de los demás desde una postura crítica constructiva fundamentada en principios democráticos e inclusivos que contemple la perspectiva de género y la coeducación, y que evalúen y reflexionen sobre las fortalezas y debilidades propias individuales y grupales haciendo uso de estrategias de autoconocimiento y autoeficacia en la materialización de proyectos escénicos comunes de diferente índole (pieza teatral, performance, musicales, flashmob, teatro de sombras, lipdub, vídeos musicales, doblaje, radioteatro, cortometrajes…). Además, se evaluará la capacidad en el alumnado de elegir con criterio propio, imaginar, planificar, crear, gestionar y exhibir proyectos escénicos, asumiendo y realizando de manera igualitaria las tareas asignadas, tanto en el plano individual como en el colectivo. Asimismo, deberá conocer elementos básicos para la difusión y promoción de los procesos y productos escénicos, así como las instituciones y organismos públicos y privados, especialmente de Canarias, implicados en el fomento y desarrollo de la actividad teatral escolar.",
+      "broader": "materia:BAR7",
+      "agrupa": [
+        "ce:BAR7C4"
+      ],
+      "descriptores": [
+        "CCL3",
+        "CD2",
+        "CPSAA3.1",
+        "CC2",
+        "CC3",
+        "CE2",
+        "CE3",
+        "CCEC4.1",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BAR702BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "BAR702BC5",
+      "prefLabel": "Artes Escénicas II · 2º Bachillerato · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial el alumnado será capaz de realizar reseñas y críticas escénicas, consultando fuentes fiables para analizar, comentar, valorar y promover el espectáculo escénico mediante una postura de recepción activa y deleite, diferenciando los distintos contextos, medios y soportes en que se materializa, así como los lenguajes y elementos técnicos y estéticos que lo caracterizan, contrastando sus singularidades y partiendo de su propia identidad para defender la libertad de expresión, la igualdad y el enriquecimiento inherente a la diversidad, la inclusividad y la perspectiva de género. Para ello, deberá mostrar una competencia comunicativa eficaz en la elaboración de las reseñas o críticas que se deriven de la recepción del espectáculo, manejando, cuando sea preciso, diversas fuentes analógicas y digitales que fundamenten su juicio crítico personal.",
+      "broader": "materia:BAR7",
+      "agrupa": [
+        "ce:BAR7C5"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "CD1",
+        "CD2",
+        "CPSAA4",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BAR702CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BAR702CE1.1",
+      "prefLabel": "BAR702CE1.1 · Analizar y valorar manifestaciones escénicas de diferentes épocas y tradiciones en su…",
+      "definition": "Analizar y valorar manifestaciones escénicas de diferentes épocas y tradiciones en su contexto histórico, prestando una especial atención a las producciones de mujeres y a las propias del acervo cultural canario, estableciendo relaciones con el hecho escénico actual y mostrando respeto a la diversidad cultural, con espíritu crítico, sensibilidad estética y educacional como público, y empleando adecuadamente el vocabulario específico para valorar el patrimonio y enriquecer el imaginario propio.",
+      "broader": "ce:BAR7C1",
+      "bloque": "bc:BAR702BC1",
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "CP3",
+        "CD1",
+        "CD2",
+        "CPSAA2",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BAR702CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BAR702CE2.1",
+      "prefLabel": "BAR702CE2.1 · Participar con iniciativa, autonomía y emocionalidad competente en actividades de…",
+      "definition": "Participar con iniciativa, autonomía y emocionalidad competente en actividades de carácter práctico, explorando diversos sistemas, medios y códigos de significación escénica con el fin de recrear la acción dramática, el diseño de personajes y la configuración de situaciones y escenas a partir de las técnicas del repertorio personal de recursos más adecuadas a la intención comunicativa para propiciar el trabajo en grupo y la asunción de tareas y responsabilidades en proyectos colectivos, que favorezcan la autonomía y el espíritu emprendedor en diversas situaciones y contextos educativos y sociales del propio entorno cultural y social.",
+      "broader": "ce:BAR7C2",
+      "bloque": "bc:BAR702BC2",
+      "descriptores": [
+        "CCL1",
+        "CD1",
+        "CPSAA1.1",
+        "CPSAA2",
+        "CC1",
+        "CE3",
+        "CCEC3.1",
+        "CCEC3.2"
+      ],
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BAR702CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BAR702CE3.1",
+      "prefLabel": "BAR702CE3.1 · Emplear diferentes técnicas de interpretación de forma creativa, aplicando estrategias de…",
+      "definition": "Emplear diferentes técnicas de interpretación de forma creativa, aplicando estrategias de memorización y comprensión, valorando los ensayos como espacios de escucha, diálogo y aprendizaje para la recreación y la representación de la acción dramática, demostrando precisión, eficacia y expresividad, cumpliendo con las directrices acordadas con el fin de cultivar la atención y la concentración y gestionar adecuadamente los bloqueos emocionales, cognitivos, motrices y relacionales presentes en las prácticas escénicas.",
+      "broader": "ce:BAR7C3",
+      "bloque": "bc:BAR702BC3",
+      "descriptores": [
+        "CCL1",
+        "CD2",
+        "CPSAA1.1",
+        "CPSAA2",
+        "CC1",
+        "CE1",
+        "CE3"
+      ],
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BAR702CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BAR702CE4.1",
+      "prefLabel": "BAR702CE4.1 · Participar, con iniciativa, responsabilidad y conciencia de grupo, en el diseño, la…",
+      "definition": "Participar, con iniciativa, responsabilidad y conciencia de grupo, en el diseño, la planificación y la realización de proyectos colectivos de creación y difusión escénica, organizando correctamente sus fases, distribuyendo de forma razonada las tareas, evaluando su viabilidad, sostenibilidad y resultados, y seleccionando y estructurando los elementos de significación, así como las directrices de interpretación, representación o escenificación para identificar oportunidades de desarrollo personal, social, académico o profesional relacionadas con el ámbito artístico, y expresar la opinión personal de forma crítica y respetuosa, promoviendo el esfuerzo voluntario y la asertividad y rechazando todo tipo de discriminación.",
+      "broader": "ce:BAR7C4",
+      "bloque": "bc:BAR702BC4",
+      "descriptores": [
+        "CCL3",
+        "CD2",
+        "CPSAA3.1",
+        "CC2",
+        "CC3",
+        "CE2",
+        "CE3",
+        "CCEC4.1",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BAR702CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BAR702CE5.1",
+      "prefLabel": "BAR702CE5.1 · Realizar y valorar reseñas y críticas escénicas con rigor y solidez, empleando la…",
+      "definition": "Realizar y valorar reseñas y críticas escénicas con rigor y solidez, empleando la terminología adecuada sobre las características, los presupuestos artísticos y la recepción de la obra por el público, propiciando, además, el contacto directo o indirecto con artistas, sus obras y espacios creativos para potenciar la participación sociocultural, y prestando una especial atención a las producciones de mujeres y a las propias del acervo cultural canario.",
+      "broader": "ce:BAR7C5",
+      "bloque": "bc:BAR702BC5",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "CD1",
+        "CD2",
+        "CPSAA4",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "BAR702SBI",
+      "prefLabel": "BAR702SBI · I. Patrimonio escénico",
+      "definition": "Patrimonio escénico",
+      "broader": "materia:BAR7",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "BAR702SBII",
+      "prefLabel": "BAR702SBII · II. Expresión y comunicación escénica",
+      "definition": "Expresión y comunicación escénica",
+      "broader": "materia:BAR7",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "BAR702SBIII",
+      "prefLabel": "BAR702SBIII · III. Interpretación",
+      "definition": "Interpretación",
+      "broader": "materia:BAR7",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "BAR702SBIV",
+      "prefLabel": "BAR702SBIV · IV. Representación y escenificación",
+      "definition": "Representación y escenificación",
+      "broader": "materia:BAR7",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBV",
+      "tipo": "BloqueSaberes",
+      "notation": "BAR702SBV",
+      "prefLabel": "BAR702SBV · V. Recepción en las artes escénicas",
+      "definition": "Recepción en las artes escénicas",
+      "broader": "materia:BAR7",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBI.1",
+      "prefLabel": "BAR702SBI.1 · Construcción y reflexión sobre las claves de las artes escénicas y sus grandes…",
+      "definition": "Construcción y reflexión sobre las claves de las artes escénicas y sus grandes tradiciones (Oriente y Occidente) y su historia.",
+      "broader": "sb:BAR702SBI",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBI.2",
+      "prefLabel": "BAR702SBI.2 · Conocimiento y aplicación de la significación y transformación social de las artes…",
+      "definition": "Conocimiento y aplicación de la significación y transformación social de las artes escénicas: memoria y reflejo, la perspectiva de género y la perspectiva intercultural, e identidad y performatividad.",
+      "broader": "sb:BAR702SBI",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBI.3",
+      "prefLabel": "BAR702SBI.3 · Desarrollo de la atención y la curiosidad por las manifestaciones espectaculares:…",
+      "definition": "Desarrollo de la atención y la curiosidad por las manifestaciones espectaculares: rituales y sociales. Los festejos populares.",
+      "broader": "sb:BAR702SBI",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBI.4",
+      "prefLabel": "BAR702SBI.4 · Reconocimiento y exploración de las tendencias actuales en la representación escénica y…",
+      "definition": "Reconocimiento y exploración de las tendencias actuales en la representación escénica y performativa.",
+      "broader": "sb:BAR702SBI",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBI.5",
+      "prefLabel": "BAR702SBI.5 · Conocimiento, divulgación y conservación de las manifestaciones no orales.",
+      "definition": "Conocimiento, divulgación y conservación de las manifestaciones no orales.",
+      "broader": "sb:BAR702SBI",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBII.1",
+      "prefLabel": "BAR702SBII.1 · Exploración y desarrollo del juego dramático, improvisación, dramatización y creación…",
+      "definition": "Exploración y desarrollo del juego dramático, improvisación, dramatización y creación colectiva.",
+      "broader": "sb:BAR702SBII",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBII.2",
+      "prefLabel": "BAR702SBII.2 · Noción y análisis de los actos performativos: generación de realidad.",
+      "definition": "Noción y análisis de los actos performativos: generación de realidad.",
+      "broader": "sb:BAR702SBII",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBII.3",
+      "prefLabel": "BAR702SBII.3 · Reconocimiento e introducción analítica del espacio escénico y performativo actual.",
+      "definition": "Reconocimiento e introducción analítica del espacio escénico y performativo actual.",
+      "broader": "sb:BAR702SBII",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBII.4",
+      "prefLabel": "BAR702SBII.4 · Análisis y aplicación de las estructuras dramáticas actuales en la memoria performativa.",
+      "definition": "Análisis y aplicación de las estructuras dramáticas actuales en la memoria performativa.",
+      "broader": "sb:BAR702SBII",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBII.5",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBII.5",
+      "prefLabel": "BAR702SBII.5 · Reconocimiento, elaboración y aplicación del personaje en las manifestaciones actuales.",
+      "definition": "Reconocimiento, elaboración y aplicación del personaje en las manifestaciones actuales.",
+      "broader": "sb:BAR702SBII",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBII.6",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBII.6",
+      "prefLabel": "BAR702SBII.6 · Descripción y valoración de los espacios no escénicos: adaptación de recursos plásticos.",
+      "definition": "Descripción y valoración de los espacios no escénicos: adaptación de recursos plásticos.",
+      "broader": "sb:BAR702SBII",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBIII.1",
+      "prefLabel": "BAR702SBIII.1 · Conocimiento, exploración y desarrollo de los métodos interpretativos actuales.",
+      "definition": "Conocimiento, exploración y desarrollo de los métodos interpretativos actuales.",
+      "broader": "sb:BAR702SBIII",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBIII.2",
+      "prefLabel": "BAR702SBIII.2 · Construcción y ejecución del personaje dramático en la actualidad.",
+      "definition": "Construcción y ejecución del personaje dramático en la actualidad.",
+      "broader": "sb:BAR702SBIII",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBIII.3",
+      "prefLabel": "BAR702SBIII.3 · Creación performativa: proceso y ejecución.",
+      "definition": "Creación performativa: proceso y ejecución.",
+      "broader": "sb:BAR702SBIII",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBIV.1",
+      "prefLabel": "BAR702SBIV.1 · Conocimiento y ejecución del diseño de un espectáculo: equipos, fases y áreas de trabajo…",
+      "definition": "Conocimiento y ejecución del diseño de un espectáculo: equipos, fases y áreas de trabajo en espacios escénicos y espacios no escénicos a través de la integración de lenguajes no orales y tecnológicos.",
+      "broader": "sb:BAR702SBIV",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBIV.2",
+      "prefLabel": "BAR702SBIV.2 · Investigación y aplicación sobre la dramaturgia en el diseño de un proyecto escénico.",
+      "definition": "Investigación y aplicación sobre la dramaturgia en el diseño de un proyecto escénico.",
+      "broader": "sb:BAR702SBIV",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBIV.3",
+      "prefLabel": "BAR702SBIV.3 · Conocimiento, experimentación y reflexión sobre la producción y la realización de un…",
+      "definition": "Conocimiento, experimentación y reflexión sobre la producción y la realización de un proyecto escénico.",
+      "broader": "sb:BAR702SBIV",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBIV.4",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBIV.4",
+      "prefLabel": "BAR702SBIV.4 · Conocimiento, experimentación y reflexión de la dirección artística en proyectos…",
+      "definition": "Conocimiento, experimentación y reflexión de la dirección artística en proyectos escénicos.",
+      "broader": "sb:BAR702SBIV",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBIV.5",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBIV.5",
+      "prefLabel": "BAR702SBIV.5 · Optimización y responsabilidad de los ensayos: funciones de la dirección escénica y…",
+      "definition": "Optimización y responsabilidad de los ensayos: funciones de la dirección escénica y regiduría.",
+      "broader": "sb:BAR702SBIV",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBIV.6",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBIV.6",
+      "prefLabel": "BAR702SBIV.6 · Desarrollo y representación de espectáculos escénicos.",
+      "definition": "Desarrollo y representación de espectáculos escénicos.",
+      "broader": "sb:BAR702SBIV",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBIV.7",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBIV.7",
+      "prefLabel": "BAR702SBIV.7 · Exhibición, difusión, distribución y evaluación de productos escénicos.",
+      "definition": "Exhibición, difusión, distribución y evaluación de productos escénicos.",
+      "broader": "sb:BAR702SBIV",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBIV.8",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBIV.8",
+      "prefLabel": "BAR702SBIV.8 · Conocimiento y experimentación de estrategias de trabajo en equipo a través de la…",
+      "definition": "Conocimiento y experimentación de estrategias de trabajo en equipo a través de la distribución de tareas y liderazgo compartido para resolución de conflictos.",
+      "broader": "sb:BAR702SBIV",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBIV.9",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBIV.9",
+      "prefLabel": "BAR702SBIV.9 · Desarrollo del autoconocimiento y la autoestima a través de las artes escénicas para el…",
+      "definition": "Desarrollo del autoconocimiento y la autoestima a través de las artes escénicas para el desarrollo personal, social, académico y profesional.",
+      "broader": "sb:BAR702SBIV",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBV.1",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBV.1",
+      "prefLabel": "BAR702SBV.1 · Conocimiento y aplicación de estrategias y técnicas de análisis de manifestaciones…",
+      "definition": "Conocimiento y aplicación de estrategias y técnicas de análisis de manifestaciones escénicas a través del texto teatral y su relación con la puesta en escena.",
+      "broader": "sb:BAR702SBV",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBV.2",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBV.2",
+      "prefLabel": "BAR702SBV.2 · Análisis y elaboración de la crítica escénica y la reseña teatral.",
+      "definition": "Análisis y elaboración de la crítica escénica y la reseña teatral.",
+      "broader": "sb:BAR702SBV",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR702SBV.3",
+      "tipo": "SaberBasico",
+      "notation": "BAR702SBV.3",
+      "prefLabel": "BAR702SBV.3 · Conocimiento, análisis y respeto de la propiedad intelectual para la protección de la…",
+      "definition": "Conocimiento, análisis y respeto de la propiedad intelectual para la protección de la creatividad personal.",
+      "broader": "sb:BAR702SBV",
+      "materia": "materia:BAR7",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    }
+  ]
+}

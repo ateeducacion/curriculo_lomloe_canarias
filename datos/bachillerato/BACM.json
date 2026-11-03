@@ -1,0 +1,333 @@
+{
+  "materia": "materia:BACM",
+  "nodos": [
+    {
+      "id": "materia:BACM",
+      "tipo": "Materia",
+      "notation": "BACM",
+      "prefLabel": "Acondicionamiento Físico (Bachillerato)",
+      "cursos": [
+        "curso:B02"
+      ],
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BACMC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BACMC1",
+      "prefLabel": "BACMC1 · Identificar las capacidades físicas y los distintos elementos que las condicionan, y…",
+      "definition": "Identificar las capacidades físicas y los distintos elementos que las condicionan, y aplicar los conocimientos sobre la teoría del entrenamiento en el diseño de un proyecto personal de acondicionamiento físico saludable con la posibilidad de utilizar recursos digitales, valorando la progresión en los niveles de condición física y evaluando críticamente los planes de entrenamiento propios y de otras personas, para desarrollar una práctica de actividad física segura, alejada de estereotipos, y que permita la consolidación de hábitos saludables.",
+      "broader": "materia:BACM",
+      "materia": "materia:BACM",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BACMC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BACMC2",
+      "prefLabel": "BACMC2 · Analizar, valorar y aplicar las tendencias actuales de acondicionamiento físico,…",
+      "definition": "Analizar, valorar y aplicar las tendencias actuales de acondicionamiento físico, contrastando y evaluando las propuestas con actitud crítica, para que el alumnado sea capaz de elegir las opciones que mejor se adapten a sus intereses de manera respetuosa con la salud y el medio ambiente.",
+      "broader": "materia:BACM",
+      "materia": "materia:BACM",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BACMC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BACMC3",
+      "prefLabel": "BACMC3 · Explorar las posibilidades académicas y laborales en torno a la actividad física en el…",
+      "definition": "Explorar las posibilidades académicas y laborales en torno a la actividad física en el mercado profesional actual, analizándolas desde la práctica para valorar las distintas opciones de futuro.",
+      "broader": "materia:BACM",
+      "materia": "materia:BACM",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BACM02BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "BACM02BC1",
+      "prefLabel": "Acondicionamiento Físico · 2º Bachillerato · bloque competencial C1",
+      "scopeNote": "Con este bloque competencial se pretende que el alumnado sea capaz de identificar los distintos elementos que condicionan las capacidades físicas para poder determinar alternativas de práctica, aplicando proyectos personales de manera autónoma, con la posibilidad de utilizar recursos digitales que favorezcan distintas alternativas de acondicionamiento. A partir de dicho conocimiento, intervendrán de forma creativa para evaluar y mejorar su condición física, entendiéndola como un proceso complejo condicionado por distintos factores. Se pretende que el alumnado entienda cómo repercuten en su práctica y en su desarrollo distintos elementos entrenables, pero también otros no directamente identificables con el entrenamiento, como son la nutrición, la higiene, el sueño, la hidratación... Asimismo, con el propósito de comprender y analizar críticamente propuestas de entrenamiento y planes de acción, el alumnado utilizará recursos y pruebas físicas que le permitirán evaluar los niveles de condición física y de mejora, alejándose de estereotipos y sabiendo discriminar en las distintas fuentes de información pruebas y prácticas físicas fiables y respetuosas con la salud. En el desarrollo de dicha competencia, la seguridad en la práctica y la intervención ante posibles lesiones estará siempre presente de manera transversal en los aprendizajes esperados asociados a la misma. En este bloque competencial se constatará que el alumnado es capaz de identificar las capacidades físicas básicas y los principales elementos que determinan la condición física, como la propiocepción y el entrenamiento. También, la aplicación y comprensión de las pruebas y tests de valoración de la condición física, el diseño, y la puesta en práctica y evaluación de planes de entrenamiento, aplicando además métodos de entrenamiento invisible: principios de nutrición e hidratación, fatiga y descanso.",
+      "broader": "materia:BACM",
+      "agrupa": [
+        "ce:BACMC1"
+      ],
+      "descriptores": [
+        "CCL2",
+        "STEM3",
+        "CPSAA2",
+        "CE3",
+        "CD3"
+      ],
+      "materia": "materia:BACM",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BACM02BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "BACM02BC2",
+      "prefLabel": "Acondicionamiento Físico · 2º Bachillerato · bloque competencial C2",
+      "scopeNote": "Con este bloque competencial se pretende comprobar que el alumnado es capaz de seleccionar de manera autónoma y rigurosa distintas tendencias de acondicionamiento físico, analizando sus efectos y valorando de manera creativa alternativas que favorezcan su salud y sean respetuosas con el medio ambiente, y mostrando una actitud creativa y crítica. En este bloque competencial se constatará que el alumnado es capaz de aplicar diferentes tendencias actuales relacionadas con el acondicionamiento físico, analizando y valorando la repercusión de dichas tendencias en estilos de vida saludable, además de analizar y valorar el efecto de estas sobre la sostenibilidad y el medio ambiente.",
+      "broader": "materia:BACM",
+      "agrupa": [
+        "ce:BACMC2"
+      ],
+      "descriptores": [
+        "CCL3",
+        "STEM5",
+        "CPSAA2",
+        "CC4",
+        "CE2"
+      ],
+      "materia": "materia:BACM",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BACM02BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "BACM02BC3",
+      "prefLabel": "Acondicionamiento Físico · 2º Bachillerato · bloque competencial C3",
+      "scopeNote": "Con este bloque competencial se pretende que el alumnado sea capaz de analizar el mercado profesional relacionado con la actividad física y sus alternativas profesionales o formativas. Además se pretende que vivencie, desde sus propios intereses y expectativas, las pruebas físicas vinculadas a diversas alternativas de futuro del mercado laboral relacionadas con la actividad física: la salud, la gestión, el entrenamiento, la educación, el ocio y la recreación. En este bloque competencial se constatará que el alumnado es capaz de contribuir al conocimiento del potencial de la actividad física como alternativa laboral y a valorar y poner en práctica pruebas físicas de acceso a diferentes alternativas académicas y profesionales.",
+      "broader": "materia:BACM",
+      "agrupa": [
+        "ce:BACMC3"
+      ],
+      "descriptores": [
+        "CPSAA2",
+        "CE1",
+        "CE3"
+      ],
+      "materia": "materia:BACM",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BACM02CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BACM02CE1.1",
+      "prefLabel": "BACM02CE1.1 · Identificar y poner en práctica los diferentes elementos y factores vinculados al…",
+      "definition": "Identificar y poner en práctica los diferentes elementos y factores vinculados al acondicionamiento físico, aplicando los conocimientos de teoría del entrenamiento para mantener o incrementar la condición física y consolidar un estilo de vida activo y saludable.",
+      "broader": "ce:BACMC1",
+      "bloque": "bc:BACM02BC1",
+      "descriptores": [
+        "CCL2",
+        "STEM3",
+        "CPSAA2",
+        "CE3"
+      ],
+      "materia": "materia:BACM",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BACM02CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BACM02CE1.2",
+      "prefLabel": "BACM02CE1.2 · Diseñar, aplicar y evaluar planes de entrenamiento, con la posibilidad de utilizar…",
+      "definition": "Diseñar, aplicar y evaluar planes de entrenamiento, con la posibilidad de utilizar recursos digitales, desde una perspectiva crítica e inclusiva, partiendo de los conocimientos vinculados al acondicionamiento físico, para enriquecer y adaptar intencionalmente las propuestas planteadas.",
+      "broader": "ce:BACMC1",
+      "bloque": "bc:BACM02BC1",
+      "descriptores": [
+        "CCL2",
+        "STEM3",
+        "CD3",
+        "CPSAA2",
+        "CE3"
+      ],
+      "materia": "materia:BACM",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BACM02CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BACM02CE2.1",
+      "prefLabel": "BACM02CE2.1 · Valorar y poner en práctica diferentes tendencias actuales de acondicionamiento físico…",
+      "definition": "Valorar y poner en práctica diferentes tendencias actuales de acondicionamiento físico relacionadas con el cuidado de la salud y respetuosas con el medio ambiente, para conseguir una mejor calidad de vida.",
+      "broader": "ce:BACMC2",
+      "bloque": "bc:BACM02BC2",
+      "descriptores": [
+        "CCL3",
+        "STEM5",
+        "CPSAA2",
+        "CC4",
+        "CE2"
+      ],
+      "materia": "materia:BACM",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BACM02CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BACM02CE3.1",
+      "prefLabel": "BACM02CE3.1 · Analizar las posibles salidas profesionales o formativas relacionadas con la actividad…",
+      "definition": "Analizar las posibles salidas profesionales o formativas relacionadas con la actividad física explorando distintas pruebas de acceso y ofertas del mercado laboral para valorar opciones de futuro.",
+      "broader": "ce:BACMC3",
+      "bloque": "bc:BACM02BC3",
+      "descriptores": [
+        "CPSAA2",
+        "CE1",
+        "CE3"
+      ],
+      "materia": "materia:BACM",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BACM02SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "BACM02SBI",
+      "prefLabel": "BACM02SBI · I. Acondicionamiento físico saludable",
+      "definition": "Acondicionamiento físico saludable",
+      "broader": "materia:BACM",
+      "materia": "materia:BACM",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BACM02SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "BACM02SBII",
+      "prefLabel": "BACM02SBII · II. Tendencias actuales del acondicionamiento físico",
+      "definition": "Tendencias actuales del acondicionamiento físico",
+      "broader": "materia:BACM",
+      "materia": "materia:BACM",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BACM02SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "BACM02SBIII",
+      "prefLabel": "BACM02SBIII · III. Expectativas de futuro",
+      "definition": "Expectativas de futuro",
+      "broader": "materia:BACM",
+      "materia": "materia:BACM",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BACM02SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "BACM02SBI.1",
+      "prefLabel": "BACM02SBI.1 · Identificación de las capacidades físicas básicas y de los principales elementos que…",
+      "definition": "Identificación de las capacidades físicas básicas y de los principales elementos que determinan la condición física.",
+      "broader": "sb:BACM02SBI",
+      "materia": "materia:BACM",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BACM02SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "BACM02SBI.2",
+      "prefLabel": "BACM02SBI.2 · Propiocepción y entrenamiento.",
+      "definition": "Propiocepción y entrenamiento.",
+      "broader": "sb:BACM02SBI",
+      "materia": "materia:BACM",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BACM02SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "BACM02SBI.3",
+      "prefLabel": "BACM02SBI.3 · Aplicación y comprensión de las pruebas y tests de valoración de la condición física.",
+      "definition": "Aplicación y comprensión de las pruebas y tests de valoración de la condición física.",
+      "broader": "sb:BACM02SBI",
+      "materia": "materia:BACM",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BACM02SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "BACM02SBI.4",
+      "prefLabel": "BACM02SBI.4 · Diseño y puesta en práctica de planes de entrenamiento.",
+      "definition": "Diseño y puesta en práctica de planes de entrenamiento.",
+      "broader": "sb:BACM02SBI",
+      "materia": "materia:BACM",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BACM02SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "BACM02SBI.5",
+      "prefLabel": "BACM02SBI.5 · Evaluación de planes de entrenamiento.",
+      "definition": "Evaluación de planes de entrenamiento.",
+      "broader": "sb:BACM02SBI",
+      "materia": "materia:BACM",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BACM02SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "BACM02SBI.6",
+      "prefLabel": "BACM02SBI.6 · Análisis y aplicación del entrenamiento invisible: principios de nutrición e hidratación,…",
+      "definition": "Análisis y aplicación del entrenamiento invisible: principios de nutrición e hidratación, fatiga y descanso.",
+      "broader": "sb:BACM02SBI",
+      "materia": "materia:BACM",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BACM02SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "BACM02SBII.1",
+      "prefLabel": "BACM02SBII.1 · Aplicación de diferentes tendencias actuales, relacionadas con el acondicionamiento…",
+      "definition": "Aplicación de diferentes tendencias actuales, relacionadas con el acondicionamiento físico.",
+      "broader": "sb:BACM02SBII",
+      "materia": "materia:BACM",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BACM02SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "BACM02SBII.2",
+      "prefLabel": "BACM02SBII.2 · Análisis y valoración de la repercusión de tendencias actuales de acondicionamiento…",
+      "definition": "Análisis y valoración de la repercusión de tendencias actuales de acondicionamiento físico en estilos de vida saludable.",
+      "broader": "sb:BACM02SBII",
+      "materia": "materia:BACM",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BACM02SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "BACM02SBII.3",
+      "prefLabel": "BACM02SBII.3 · Análisis y valoración de la sostenibilidad y del respeto al medio ambiente en las…",
+      "definition": "Análisis y valoración de la sostenibilidad y del respeto al medio ambiente en las tendencias actuales de acondicionamiento físico.",
+      "broader": "sb:BACM02SBII",
+      "materia": "materia:BACM",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BACM02SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "BACM02SBIII.1",
+      "prefLabel": "BACM02SBIII.1 · Conocimiento del potencial de la actividad física como alternativa laboral.",
+      "definition": "Conocimiento del potencial de la actividad física como alternativa laboral.",
+      "broader": "sb:BACM02SBIII",
+      "materia": "materia:BACM",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BACM02SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "BACM02SBIII.2",
+      "prefLabel": "BACM02SBIII.2 · Valoración y puesta en práctica de pruebas físicas de acceso a diferentes alternativas…",
+      "definition": "Valoración y puesta en práctica de pruebas físicas de acceso a diferentes alternativas académicas y profesionales.",
+      "broader": "sb:BACM02SBIII",
+      "materia": "materia:BACM",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    }
+  ]
+}

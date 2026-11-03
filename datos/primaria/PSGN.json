@@ -1,0 +1,1708 @@
+{
+  "materia": "materia:PSGN",
+  "nodos": [
+    {
+      "id": "materia:PSGN",
+      "tipo": "Materia",
+      "notation": "PSGN",
+      "prefLabel": "Segunda Lengua Extranjera (Francés) (Primaria)",
+      "cursos": [
+        "curso:P05",
+        "curso:P06"
+      ],
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "ce:PSGNC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "PSGNC1",
+      "prefLabel": "PSGNC1 · Comprender el sentido general e información específica y predecible de textos breves y…",
+      "definition": "Comprender el sentido general e información específica y predecible de textos breves y sencillos, expresados de forma clara y en la lengua estándar, haciendo uso de diversas estrategias y recurriendo, cuando sea necesario, al uso de distintos tipos de apoyo, para desarrollar el repertorio lingüístico y para responder a necesidades comunicativas cotidianas.",
+      "broader": "materia:PSGN",
+      "materia": "materia:PSGN",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "ce:PSGNC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "PSGNC2",
+      "prefLabel": "PSGNC2 · Producir textos sencillos de manera comprensible y estructurada, mediante el empleo de…",
+      "definition": "Producir textos sencillos de manera comprensible y estructurada, mediante el empleo de estrategias como la planificación o la compensación, para expresar mensajes breves relacionados con necesidades inmediatas y responder a propósitos comunicativos cotidianos.",
+      "broader": "materia:PSGN",
+      "materia": "materia:PSGN",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "ce:PSGNC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "PSGNC3",
+      "prefLabel": "PSGNC3 · Interactuar con otras personas usando expresiones cotidianas, recurriendo a estrategias…",
+      "definition": "Interactuar con otras personas usando expresiones cotidianas, recurriendo a estrategias de cooperación y empleando recursos analógicos y digitales, para responder a necesidades inmediatas de su interés en intercambios comunicativos respetuosos con las normas de cortesía.",
+      "broader": "materia:PSGN",
+      "materia": "materia:PSGN",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "ce:PSGNC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "PSGNC4",
+      "prefLabel": "PSGNC4 · Mediar en situaciones predecibles, usando estrategias y conocimientos para procesar y…",
+      "definition": "Mediar en situaciones predecibles, usando estrategias y conocimientos para procesar y transmitir información básica y sencilla, con el fin de facilitar la comunicación.",
+      "broader": "materia:PSGN",
+      "materia": "materia:PSGN",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "ce:PSGNC5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "PSGNC5",
+      "prefLabel": "PSGNC5 · Reconocer y usar los repertorios lingüísticos personales entre distintas lenguas,…",
+      "definition": "Reconocer y usar los repertorios lingüísticos personales entre distintas lenguas, reflexionando sobre su funcionamiento e identificando las estrategias y conocimientos propios, para mejorar la respuesta a necesidades comunicativas concretas en situaciones conocidas.",
+      "broader": "materia:PSGN",
+      "materia": "materia:PSGN",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "ce:PSGNC6",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "PSGNC6",
+      "prefLabel": "PSGNC6 · Apreciar y respetar la diversidad lingüística, cultural y artística a partir de la lengua…",
+      "definition": "Apreciar y respetar la diversidad lingüística, cultural y artística a partir de la lengua extranjera, identificando y valorando las diferencias y semejanzas entre lenguas y culturas, para aprender a gestionar situaciones interculturales.",
+      "broader": "materia:PSGN",
+      "materia": "materia:PSGN",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "bc:PSGN05BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "PSGN05BC1",
+      "prefLabel": "Segunda Lengua Extranjera (Francés) · 5º Primaria · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado, es capaz de reconocer y analizar la información que recibe, así como, de seleccionar, organizar y aplicar estrategias y métodos, de forma progresivamente autónoma, que le permita entender el sentido general y la información específica y predecible de textos orales, escritos y multimodales sobre temas cotidianos que respondan a necesidades comunicativas relacionadas con su entorno más cercano y participando en procesos de auto y coevaluación. Asimismo, se constatará que el alumnado hace uso de diferentes recursos y apoyos tanto en soportes digitales como analógicos, como la interpretación de formas de representación (escritura, imagen, gráficos), el uso del lenguaje verbal y no verbal, la repetición y relectura, la búsqueda de información y la información contextual (elementos extralingüísticos) y cotextual (elementos lingüísticos), que faciliten la recepción, proceso y reflexión de la información, haciendo uso de métodos inductivos y deductivos cuando sea necesario, contribuyendo de esta manera, a la compensación de las carencias comunicativas y al enriquecimiento de sus conocimientos, destrezas y actitudes. Los procesos de comprensión requieren contextos dialógicos, que favorezcan la construcción de un saber conjunto que contribuyan a un aprendizaje autónomo y a tener una visión más creativa y emocional del aprendizaje.",
+      "broader": "materia:PSGN",
+      "agrupa": [
+        "ce:PSGNC1"
+      ],
+      "descriptores": [
+        "CCL2",
+        "CP1",
+        "CCL3",
+        "CP2",
+        "STEM1",
+        "CD1",
+        "CPSAA5"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "bc:PSGN05BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "PSGN05BC2",
+      "prefLabel": "Segunda Lengua Extranjera (Francés) · 5º Primaria · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado por un lado, es capaz de producir textos tanto orales, escritos y multimodales en todas sus dimensiones y formas, y por otro, de seleccionar, planificar, usar y aplicar estrategias adecuadas de forma progresivamente autónoma y creativa, que le permitan realizar intervenciones en situaciones de comunicación sencillas y cotidianas, de relevancia personal y próximas a su entorno inmediato, con actitud cooperativa y respetuosa. En este sentido, se verificará que el alumnado es capaz de exponer presentaciones breves, realizar descripciones y narrar de forma accesible textos que expresan hechos, conceptos, pensamientos, opiniones y sentimientos. Para ello, el alumnado podrá hacer uso de diferentes soportes analógicos y digitales realizando búsquedas guiadas, reconociendo la propiedad intelectual de las fuentes consultadas y contenidos utilizados. A su vez se pretende que el alumnado desarrolle la empatía y tenga una visión más creativa y emocional del aprendizaje.",
+      "broader": "materia:PSGN",
+      "agrupa": [
+        "ce:PSGNC2"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CP1",
+        "CD2",
+        "CP2",
+        "STEM1",
+        "CPSAA5",
+        "CE1",
+        "CCEC4"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "bc:PSGN05BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "PSGN05BC3",
+      "prefLabel": "Segunda Lengua Extranjera (Francés) · 5º Primaria · bloque competencial C3",
+      "scopeNote": "Con este bloque competencial se comprobará que el alumnado, es capaz de participar en interacciones, así como seleccionar y utilizar estrategias y métodos básicos que le permitan iniciar, mantener y concluir una conversación con progresiva autonomía. En este sentido, se valorará que el alumnado responda a propósitos comunicativos concretos, para los cuales se deben trabajar funciones comunicativas adecuadas al ámbito y al contexto como: saludar, despedirse, presentarse, formular y contestar preguntas, participar en diálogos, debates y asambleas, así como adquirir léxico básico y de interés. A su vez, se pretende averiguar si el alumnado es capaz de hacer uso de las normas y principios que rigen la cortesía lingüística y la etiqueta digital, los elementos verbales y no verbales de la comunicación, tanto orales como escritos y multimodales, en contextos analógicos y digitales, restringidos y supervisados de manera segura, con una actitud abierta y responsable ante su uso. Los intercambios de información serán breves y sencillos de temas cotidianos, predecibles, de relevancia personal y funcional, que permitan el desarrollo de las funciones interpersonales y cooperativas como ceder y respetar el turno de palabra, pedir y dar aclaraciones y explicaciones y colaborar. De esta manera, se prepara al alumnado para el ejercicio de una ciudadanía democrática, alejada de los estereotipos, responsable y respetuosa, hacia hablantes o estudiantes de la segunda lengua extranjera.",
+      "broader": "materia:PSGN",
+      "agrupa": [
+        "ce:PSGNC3"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "CP1",
+        "CD3",
+        "CC3",
+        "CE1",
+        "CE3",
+        "CP2",
+        "STEM1",
+        "CPSAA3"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "bc:PSGN05BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "PSGN05BC4",
+      "prefLabel": "Segunda Lengua Extranjera (Francés) · 5º Primaria · bloque competencial C4",
+      "scopeNote": "En este bloque competencial, se comprobará si el alumnado es capaz de justificar y explicar tanto textos orales, escritos, signados y multimodales, como conceptos o emociones, haciendo uso de conocimientos, destrezas y actitudes que promuevan iniciarse en actividades de mediación, entendiendo esta, como una actividad del lenguaje que permita al alumnado explicar y facilitar la comprensión de mensajes o textos, en situaciones cotidianas próximas a su entorno, como explicar una infografía, dar indicaciones para orientarse en un mapa, o apoyar y facilitar la comprensión de textos breves. Además, se persigue constatar que el alumnado seleccione e implemente métodos y estrategias adecuadas que faciliten la comprensión, la producción, la interacción y la comunicación, en situaciones colaborativas y cooperativas, con el fin de desarrollar el pensamiento estratégico y mejorar su repertorio lingüístico.",
+      "broader": "materia:PSGN",
+      "agrupa": [
+        "ce:PSGNC4"
+      ],
+      "descriptores": [
+        "CCL5",
+        "CP1",
+        "CP3",
+        "CPSAA1",
+        "CPSAA3",
+        "CCEC1",
+        "CP2",
+        "STEM1"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "bc:PSGN05BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "PSGN05BC5",
+      "prefLabel": "Segunda Lengua Extranjera (Francés) · 5º Primaria · bloque competencial C5",
+      "scopeNote": "Con este bloque competencial se persigue que el alumnado, haga uso de su repertorio lingüístico individual y establezca relaciones entre las distintas lenguas. Se promoverá, que el alumnado, experimente, diferencie y reflexione sobre aspectos básicos de la segunda lengua extranjera, su funcionamiento y funcionalidad, así como que adquiera y aplique estrategias y técnicas de compensación de las carencias comunicativas para comparar, contrastar, organizar y utilizar unidades lingüísticas; léxico, morfosintaxis o patrones sonoros. Asimismo, se trata que el alumnado sea capaz de transferir los conocimientos, las destrezas y las estrategias adquiridas a otros contextos, desarrollando así, el pensamiento divergente, reflexivo y más profundo del aprendizaje. Los distintos tipos de evaluación evidenciarán el progreso, la autonomía y autoestima del alumnado con la utilización de instrumentos como los derivados del Portfolio Europeo de las Lenguas (PEL) o los diarios de aprendizaje, ya sea en formato analógico o digital. Se destaca, de esta manera, la importancia de la toma de conciencia de los conocimientos y estrategias de los que dispone, analizando las fortalezas y carencias propias en el terreno lingüístico y comunicativo.",
+      "broader": "materia:PSGN",
+      "agrupa": [
+        "ce:PSGNC5"
+      ],
+      "descriptores": [
+        "CP2",
+        "CP3",
+        "STEM1",
+        "CPSAA1",
+        "CPSAA4",
+        "CPSAA5",
+        "CE3",
+        "CD2",
+        "CP1"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "bc:PSGN05BC6",
+      "tipo": "BloqueCompetencial",
+      "notation": "PSGN05BC6",
+      "prefLabel": "Segunda Lengua Extranjera (Francés) · 5º Primaria · bloque competencial C6",
+      "scopeNote": "Con este bloque competencial, se persigue promover que el alumnado sea capaz de apreciar y respetar la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la segunda lengua extranjera y de las islas Canarias, mostrando respeto, cuidado y conservación del entorno. Así mismo, se pretende que el alumnado sea capaz de seleccionar y aplicar estrategias básicas y de detección de usos discriminatorios del lenguaje verbal y no verbal, para entender y apreciar los aspectos socioculturales y sociolingüísticos. A su vez, se fomentará que el alumnado muestre empatía y comprensión por las producciones ajenas, aceptando otros puntos de vista y manifestando conductas contrarias a la violencia, a los prejuicios de cualquier tipo y a los estereotipos sexistas. También se persigue que el alumnado desarrolle su autonomía y una visión creativa y emocional del aprendizaje. Se contribuye así a la adquisición de la competencia específica, ya que se comprobará si el alumnado establece vínculos entre las diferentes lenguas y culturas, así como la propia, en contextos comunicativos cotidianos y habituales.",
+      "broader": "materia:PSGN",
+      "agrupa": [
+        "ce:PSGNC6"
+      ],
+      "descriptores": [
+        "CCL5",
+        "CP3",
+        "CC2",
+        "CC3",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3",
+        "CPSAA1",
+        "CPSAA3"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "bc:PSGN06BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "PSGN06BC1",
+      "prefLabel": "Segunda Lengua Extranjera (Francés) · 6º Primaria · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado, es capaz de reconocer y analizar la información que recibe, así como, de seleccionar, organizar y aplicar estrategias y métodos, de forma progresivamente autónoma, que le permita entender el sentido general y la información específica y predecible de textos orales, escritos y multimodales sobre temas cotidianos que respondan a necesidades comunicativas relacionadas con su entorno más cercano y participando en procesos de auto y coevaluación. Asimismo, se constatará que el alumnado hace uso de diferentes recursos y apoyos tanto en soportes digitales como analógicos, como la interpretación de formas de representación (escritura, imagen, gráficos), el uso del lenguaje verbal y no verbal, la repetición y relectura, la búsqueda de información y la información contextual (elementos extralingüísticos) y cotextual (elementos lingüísticos), que faciliten la recepción, proceso y reflexión de la información, haciendo uso de métodos inductivos y deductivos cuando sea necesario, contribuyendo de esta manera, a la compensación de las carencias comunicativas y al enriquecimiento de sus conocimientos, destrezas y actitudes. Los procesos de comprensión requieren contextos dialógicos, que favorezcan la construcción de un saber conjunto que contribuyan a un aprendizaje autónomo y a tener una visión más creativa y emocional del aprendizaje.",
+      "broader": "materia:PSGN",
+      "agrupa": [
+        "ce:PSGNC1"
+      ],
+      "descriptores": [
+        "CCL2",
+        "CP1",
+        "CCL3",
+        "CP2",
+        "STEM1",
+        "CD1",
+        "CPSAA5"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "bc:PSGN06BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "PSGN06BC2",
+      "prefLabel": "Segunda Lengua Extranjera (Francés) · 6º Primaria · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado por un lado, es capaz de producir textos tanto orales, escritos y multimodales en todas sus dimensiones y formas, y por otro, de seleccionar, planificar, usar y aplicar estrategias adecuadas de forma progresivamente autónoma y creativa, que le permitan realizar intervenciones en situaciones de comunicación sencillas y cotidianas, de relevancia personal y próximas a su entorno inmediato, con actitud cooperativa y respetuosa. En este sentido, se verificará que el alumnado es capaz de exponer presentaciones breves, realizar descripciones y narrar de forma accesible textos que expresan hechos, conceptos, pensamientos, opiniones y sentimientos. Para ello, el alumnado podrá hacer uso de diferentes soportes analógicos y digitales realizando búsquedas guiadas, reconociendo la propiedad intelectual de las fuentes consultadas y contenidos utilizados. A su vez se pretende que el alumnado desarrolle la empatía y tenga una visión más creativa y emocional del aprendizaje.",
+      "broader": "materia:PSGN",
+      "agrupa": [
+        "ce:PSGNC2"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CP1",
+        "CD2",
+        "CP2",
+        "STEM1",
+        "CPSAA5",
+        "CE1",
+        "CCEC4"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "bc:PSGN06BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "PSGN06BC3",
+      "prefLabel": "Segunda Lengua Extranjera (Francés) · 6º Primaria · bloque competencial C3",
+      "scopeNote": "Con este bloque competencial se comprobará que el alumnado, es capaz de participar en interacciones, así como seleccionar y utilizar estrategias y métodos básicos que le permitan iniciar, mantener y concluir una conversación con progresiva autonomía. En este sentido, se valorará que el alumnado responda a propósitos comunicativos concretos, para los cuales se deben trabajar funciones comunicativas adecuadas al ámbito y al contexto como: saludar, despedirse, presentarse, formular y contestar preguntas, participar en diálogos, debates y asambleas, así como adquirir léxico básico y de interés. A su vez, se pretende averiguar si el alumnado es capaz de hacer uso de las normas y principios que rigen la cortesía lingüística y la etiqueta digital, los elementos verbales y no verbales de la comunicación, tanto orales como escritos y multimodales, en contextos analógicos y digitales, restringidos y supervisados de manera segura, con una actitud abierta y responsable ante su uso. Los intercambios de información serán breves y sencillos de temas cotidianos, predecibles, de relevancia personal y funcional, que permitan el desarrollo de las funciones interpersonales y cooperativas como ceder y respetar el turno de palabra, pedir y dar aclaraciones y explicaciones y colaborar. De esta manera, se prepara al alumnado para el ejercicio de una ciudadanía democrática, alejada de los estereotipos, responsable y respetuosa, hacia hablantes o estudiantes de la segunda lengua extranjera.",
+      "broader": "materia:PSGN",
+      "agrupa": [
+        "ce:PSGNC3"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "CP1",
+        "CD3",
+        "CC3",
+        "CE1",
+        "CE3",
+        "CP2",
+        "STEM1",
+        "CPSAA3"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "bc:PSGN06BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "PSGN06BC4",
+      "prefLabel": "Segunda Lengua Extranjera (Francés) · 6º Primaria · bloque competencial C4",
+      "scopeNote": "En este bloque competencial, se comprobará si el alumnado es capaz de justificar y explicar tanto textos orales, escritos, signados y multimodales, como conceptos o emociones, haciendo uso de conocimientos, destrezas y actitudes que promuevan iniciarse en actividades de mediación, entendiendo esta, como una actividad del lenguaje que permita al alumnado explicar y facilitar la comprensión de mensajes o textos, en situaciones cotidianas próximas a su entorno, como explicar una infografía, dar indicaciones para orientarse en un mapa, o apoyar y facilitar la comprensión de textos breves. Además, se persigue constatar que el alumnado seleccione e implemente métodos y estrategias adecuadas que faciliten la comprensión, la producción, la interacción y la comunicación, en situaciones colaborativas y cooperativas, con el fin de desarrollar el pensamiento estratégico y mejorar su repertorio lingüístico.",
+      "broader": "materia:PSGN",
+      "agrupa": [
+        "ce:PSGNC4"
+      ],
+      "descriptores": [
+        "CCL5",
+        "CP1",
+        "CP3",
+        "CPSAA1",
+        "CPSAA3",
+        "CCEC1",
+        "CP2",
+        "STEM1"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "bc:PSGN06BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "PSGN06BC5",
+      "prefLabel": "Segunda Lengua Extranjera (Francés) · 6º Primaria · bloque competencial C5",
+      "scopeNote": "Con este bloque competencial se persigue que el alumnado, haga uso de su repertorio lingüístico individual y establezca relaciones entre las distintas lenguas. Se promoverá, que el alumnado, experimente, diferencie y reflexione sobre aspectos básicos de la segunda lengua extranjera, su funcionamiento y funcionalidad, así como que adquiera y aplique estrategias y técnicas de compensación de las carencias comunicativas para comparar, contrastar, organizar y utilizar unidades lingüísticas; léxico, morfosintaxis o patrones sonoros. Asimismo, se trata que el alumnado sea capaz de transferir los conocimientos, las destrezas y las estrategias adquiridas a otros contextos, desarrollando así, el pensamiento divergente, reflexivo y más profundo del aprendizaje. Los distintos tipos de evaluación evidenciarán el progreso, la autonomía y autoestima del alumnado con la utilización de instrumentos como los derivados del Portfolio Europeo de las Lenguas (PEL) o los diarios de aprendizaje, ya sea en formato analógico o digital. Se destaca, de esta manera, la importancia de la toma de conciencia de los conocimientos y estrategias de los que dispone, analizando las fortalezas y carencias propias en el terreno lingüístico y comunicativo.",
+      "broader": "materia:PSGN",
+      "agrupa": [
+        "ce:PSGNC5"
+      ],
+      "descriptores": [
+        "CP2",
+        "CP3",
+        "STEM1",
+        "CPSAA1",
+        "CPSAA4",
+        "CPSAA5",
+        "CE3",
+        "CD2",
+        "CP1"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "bc:PSGN06BC6",
+      "tipo": "BloqueCompetencial",
+      "notation": "PSGN06BC6",
+      "prefLabel": "Segunda Lengua Extranjera (Francés) · 6º Primaria · bloque competencial C6",
+      "scopeNote": "Con este bloque competencial, se persigue promover que el alumnado sea capaz de apreciar y respetar la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la segunda lengua extranjera y de las islas Canarias, mostrando respeto, cuidado y conservación del entorno. Así mismo, se pretende que el alumnado sea capaz de seleccionar y aplicar estrategias básicas y de detección de usos discriminatorios del lenguaje verbal y no verbal, para entender y apreciar los aspectos socioculturales y sociolingüísticos. A su vez, se fomentará que el alumnado muestre empatía y comprensión por las producciones ajenas, aceptando otros puntos de vista y manifestando conductas contrarias a la violencia, a los prejuicios de cualquier tipo y a los estereotipos sexistas. También se persigue que el alumnado desarrolle su autonomía y una visión creativa y emocional del aprendizaje. Se contribuye así a la adquisición de la competencia específica, ya que se comprobará si el alumnado establece vínculos entre las diferentes lenguas y culturas, así como la propia, en contextos comunicativos cotidianos y habituales.",
+      "broader": "materia:PSGN",
+      "agrupa": [
+        "ce:PSGNC6"
+      ],
+      "descriptores": [
+        "CCL5",
+        "CP3",
+        "CC2",
+        "CC3",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3",
+        "CPSAA1",
+        "CPSAA3"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN05CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN05CE1.1",
+      "prefLabel": "PSGN05CE1.1 · Reconocer y analizar el sentido global, así como palabras y frases breves y sencillas, de…",
+      "definition": "Reconocer y analizar el sentido global, así como palabras y frases breves y sencillas, de textos orales, escritos y multimodales sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, expresados de forma comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianas.",
+      "broader": "ce:PSGNC1",
+      "bloque": "bc:PSGN05BC1",
+      "descriptores": [
+        "CCL2",
+        "CP1"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN05CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN05CE1.2",
+      "prefLabel": "PSGN05CE1.2 · Seleccionar, organizar y aplicar de forma progresivamente autónoma, estrategias y…",
+      "definition": "Seleccionar, organizar y aplicar de forma progresivamente autónoma, estrategias y conocimientos, en situaciones comunicativas cotidianas y de relevancia para el alumnado para captar el sentido global, ampliar el repertorio lingüístico individual, y procesar información explícita en textos breves y sencillos, tanto analógicos como digitales.",
+      "broader": "ce:PSGNC1",
+      "bloque": "bc:PSGN05BC1",
+      "descriptores": [
+        "CCL3",
+        "CP2",
+        "STEM1",
+        "CD1",
+        "CPSAA5"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN05CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN05CE2.1",
+      "prefLabel": "PSGN05CE2.1 · Producir, de forma codirigida, textos orales, escritos y multimodales breves y sencillos,…",
+      "definition": "Producir, de forma codirigida, textos orales, escritos y multimodales breves y sencillos, usando soportes analógicos y digitales, para realizar intervenciones en situaciones de comunicación, de relevancia personal y próximos a la experiencia del alumnado.",
+      "broader": "ce:PSGNC2",
+      "bloque": "bc:PSGN05BC2",
+      "descriptores": [
+        "CCL1",
+        "CP1",
+        "CD2"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN05CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN05CE2.2",
+      "prefLabel": "PSGN05CE2.2 · Seleccionar, planificar y aplicar de forma progresivamente autónoma, conocimientos y…",
+      "definition": "Seleccionar, planificar y aplicar de forma progresivamente autónoma, conocimientos y estrategias adecuadas con ayuda de recursos analógicos y digitales, para preparar y producir textos creativos adecuados a las intenciones comunicativas cotidianas que contribuyan al pleno desarrollo personal, creativo y emocional.",
+      "broader": "ce:PSGNC2",
+      "bloque": "bc:PSGN05BC2",
+      "descriptores": [
+        "CP2",
+        "STEM1",
+        "CPSAA5",
+        "CE1",
+        "CCEC4"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN05CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN05CE3.1",
+      "prefLabel": "PSGN05CE3.1 · Participar, de manera progresivamente autónoma, en situaciones interactivas de…",
+      "definition": "Participar, de manera progresivamente autónoma, en situaciones interactivas de intercambios de información breves y sencillos, sobre temas cotidianos, de relevancia personal y próximos a su experiencia y contexto, a través de diferentes soportes, tanto analógicos como digitales, afrontando, entre otros, diversos retos que impliquen la generación de ideas y la búsqueda de respuestas creativas y originales, con el fin de responder a propósitos comunicativos concretos y respetuosos, y favorecer actitudes cooperativas, así como un uso ético y eficaz del lenguaje.",
+      "broader": "ce:PSGNC3",
+      "bloque": "bc:PSGN05BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "CP1",
+        "CD3",
+        "CC3",
+        "CE1",
+        "CE3"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN05CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN05CE3.2",
+      "prefLabel": "PSGN05CE3.2 · Seleccionar, organizar y utilizar, de forma cooperativa, progresivamente autónoma y en…",
+      "definition": "Seleccionar, organizar y utilizar, de forma cooperativa, progresivamente autónoma y en contextos de interacción cotidianos, métodos inductivos y deductivos, así como estrategias básicas tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan ampliar su repertorio lingüístico individual.",
+      "broader": "ce:PSGNC3",
+      "bloque": "bc:PSGN05BC3",
+      "descriptores": [
+        "CP2",
+        "STEM1",
+        "CPSAA3"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN05CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN05CE4.1",
+      "prefLabel": "PSGN05CE4.1 · Justificar y explicar de forma codirigida, textos, conceptos, pensamientos o emociones…",
+      "definition": "Justificar y explicar de forma codirigida, textos, conceptos, pensamientos o emociones atendiendo a la diversidad, y apoyándose en recursos y soportes, analógicos y digitales, con el fin de facilitar la comprensión y el entendimiento en situaciones comunicativas sencillas y predecibles que contribuyan a la mejora de la convivencia, de las diferencias culturales y de la igualdad de derechos.",
+      "broader": "ce:PSGNC4",
+      "bloque": "bc:PSGN05BC4",
+      "descriptores": [
+        "CCL5",
+        "CP1",
+        "CP3",
+        "CPSAA1",
+        "CPSAA3",
+        "CCEC1"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN05CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN05CE4.2",
+      "prefLabel": "PSGN05CE4.2 · Seleccionar e implementar de forma progresivamente autónoma, estrategias básicas en…",
+      "definition": "Seleccionar e implementar de forma progresivamente autónoma, estrategias básicas en situaciones colaborativas y cooperativas, apoyándose en el lenguaje no verbal, herramientas digitales y plataformas virtuales con el fin de ayudar a las demás personas y facilitar la comprensión, la producción de información y la comunicación.",
+      "broader": "ce:PSGNC4",
+      "bloque": "bc:PSGN05BC4",
+      "descriptores": [
+        "CP2",
+        "STEM1",
+        "CPSAA3"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN05CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN05CE5.1",
+      "prefLabel": "PSGN05CE5.1 · Comparar y contrastar, de forma progresivamente autónoma y cooperativa, las similitudes y…",
+      "definition": "Comparar y contrastar, de forma progresivamente autónoma y cooperativa, las similitudes y diferencias entre distintas lenguas, reconociendo y reflexionando sobre aspectos básicos de su funcionamiento, para ampliar y enriquecer su repertorio lingüístico individual.",
+      "broader": "ce:PSGNC5",
+      "bloque": "bc:PSGN05BC5",
+      "descriptores": [
+        "CP2",
+        "CP3"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN05CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN05CE5.2",
+      "prefLabel": "PSGN05CE5.2 · Utilizar y diferenciar, de forma progresivamente autónoma y cooperativa, estrategias…",
+      "definition": "Utilizar y diferenciar, de forma progresivamente autónoma y cooperativa, estrategias adecuadas de aprovechamiento y comprensión del repertorio plurilingüe, para adquirir aprendizajes, maximizar sus habilidades lingüísticas y enriquecer las experiencias comunicativas.",
+      "broader": "ce:PSGNC5",
+      "bloque": "bc:PSGN05BC5",
+      "descriptores": [
+        "CP2",
+        "STEM1",
+        "CPSAA1",
+        "CPSAA4",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN05CE5.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN05CE5.3",
+      "prefLabel": "PSGN05CE5.3 · Registrar y reflexionar de manera guiada, sobre los progresos y dificultades del proceso…",
+      "definition": "Registrar y reflexionar de manera guiada, sobre los progresos y dificultades del proceso de aprendizaje de la segunda lengua extranjera, a través de actividades analógicas y digitales de autoevaluación y coevaluación, como las propuestas en el Portfolio Europeo de las Lenguas (PEL) o los diarios de aprendizaje, reconociendo y valorando sus propias posibilidades comunicativas y haciendo propuestas de mejora, para construir y evidenciar el conocimiento.",
+      "broader": "ce:PSGNC5",
+      "bloque": "bc:PSGN05BC5",
+      "descriptores": [
+        "CP2",
+        "CD2",
+        "CPSAA1",
+        "CPSAA4",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN05CE5.4",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN05CE5.4",
+      "prefLabel": "PSGN05CE5.4 · Reconocer y transferir los conocimientos, estrategias y destrezas del repertorio…",
+      "definition": "Reconocer y transferir los conocimientos, estrategias y destrezas del repertorio lingüístico individual a otros contextos de aprendizaje, con el fin de desarrollar un aprendizaje más profundo.",
+      "broader": "ce:PSGNC5",
+      "bloque": "bc:PSGN05BC5",
+      "descriptores": [
+        "CP1",
+        "CP2"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN05CE6.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN05CE6.1",
+      "prefLabel": "PSGN05CE6.1 · Apreciar y respetar la diversidad y el patrimonio lingüístico, cultural y artístico de…",
+      "definition": "Apreciar y respetar la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la segunda lengua extranjera, así como de las islas Canarias, fortaleciendo vínculos entre las diferentes lenguas y culturas de forma progresivamente autónoma, así como la propia y mostrando rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada, el enriquecimiento personal y el cuidado del entorno.",
+      "broader": "ce:PSGNC6",
+      "bloque": "bc:PSGN05BC6",
+      "descriptores": [
+        "CCL5",
+        "CP3",
+        "CC2",
+        "CC3",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN05CE6.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN05CE6.2",
+      "prefLabel": "PSGN05CE6.2 · Seleccionar y aplicar estrategias adecuadas para entender, apreciar y adaptarse a la…",
+      "definition": "Seleccionar y aplicar estrategias adecuadas para entender, apreciar y adaptarse a la diversidad lingüística, cultural y artística de personas y países donde se habla la segunda lengua extranjera y de las islas Canarias, en situaciones comunicativas guiadas, gestionando las emociones propias y respetando las ajenas.",
+      "broader": "ce:PSGNC6",
+      "bloque": "bc:PSGN05BC6",
+      "descriptores": [
+        "CPSAA1",
+        "CPSAA3",
+        "CCEC2"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN05CE6.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN05CE6.3",
+      "prefLabel": "PSGN05CE6.3 · Mostrar empatía y comprensión por las producciones ajenas, valorando intervenciones de…",
+      "definition": "Mostrar empatía y comprensión por las producciones ajenas, valorando intervenciones de forma guiada, en diferentes contextos comunicativos, haciendo uso de la cortesía lingüística y la etiqueta digital para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.",
+      "broader": "ce:PSGNC6",
+      "bloque": "bc:PSGN05BC6",
+      "descriptores": [
+        "CP3",
+        "CCEC1",
+        "CCEC3"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN06CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN06CE1.1",
+      "prefLabel": "PSGN06CE1.1 · Reconocer y analizar el sentido global, así como palabras y frases breves y sencillas, de…",
+      "definition": "Reconocer y analizar el sentido global, así como palabras y frases breves y sencillas, de textos orales, escritos y multimodales sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, expresados de forma comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianas.",
+      "broader": "ce:PSGNC1",
+      "bloque": "bc:PSGN06BC1",
+      "descriptores": [
+        "CCL2",
+        "CP1"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN06CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN06CE1.2",
+      "prefLabel": "PSGN06CE1.2 · Seleccionar, organizar y aplicar de forma progresivamente autónoma, estrategias y…",
+      "definition": "Seleccionar, organizar y aplicar de forma progresivamente autónoma, estrategias y conocimientos, en situaciones comunicativas cotidianas y de relevancia para el alumnado para captar el sentido global, ampliar el repertorio lingüístico individual, y procesar información explícita en textos breves y sencillos, tanto analógicos como digitales.",
+      "broader": "ce:PSGNC1",
+      "bloque": "bc:PSGN06BC1",
+      "descriptores": [
+        "CCL3",
+        "CP2",
+        "STEM1",
+        "CD1",
+        "CPSAA5"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN06CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN06CE2.1",
+      "prefLabel": "PSGN06CE2.1 · Producir, de forma codirigida, textos orales, escritos y multimodales breves y sencillos,…",
+      "definition": "Producir, de forma codirigida, textos orales, escritos y multimodales breves y sencillos, usando soportes analógicos y digitales, para realizar intervenciones en situaciones de comunicación, de relevancia personal y próximos a la experiencia del alumnado.",
+      "broader": "ce:PSGNC2",
+      "bloque": "bc:PSGN06BC2",
+      "descriptores": [
+        "CCL1",
+        "CP1",
+        "CD2"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN06CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN06CE2.2",
+      "prefLabel": "PSGN06CE2.2 · Seleccionar, planificar y aplicar de forma progresivamente autónoma, conocimientos y…",
+      "definition": "Seleccionar, planificar y aplicar de forma progresivamente autónoma, conocimientos y estrategias adecuadas con ayuda de recursos analógicos y digitales, para preparar y producir textos creativos adecuados a las intenciones comunicativas cotidianas que contribuyan al pleno desarrollo personal, creativo y emocional.",
+      "broader": "ce:PSGNC2",
+      "bloque": "bc:PSGN06BC2",
+      "descriptores": [
+        "CP2",
+        "STEM1",
+        "CPSAA5",
+        "CE1",
+        "CCEC4"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN06CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN06CE3.1",
+      "prefLabel": "PSGN06CE3.1 · Participar, de manera progresivamente autónoma, en situaciones interactivas de…",
+      "definition": "Participar, de manera progresivamente autónoma, en situaciones interactivas de intercambios de información breves y sencillos, sobre temas cotidianos, de relevancia personal y próximos a su experiencia y contexto, a través de diferentes soportes, tanto analógicos como digitales, afrontando, entre otros, diversos retos que impliquen la generación de ideas y la búsqueda de respuestas creativas y originales, con el fin de responder a propósitos comunicativos concretos y respetuosos, y favorecer actitudes cooperativas, así como un uso ético y eficaz del lenguaje.",
+      "broader": "ce:PSGNC3",
+      "bloque": "bc:PSGN06BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "CP1",
+        "CD3",
+        "CC3",
+        "CE1",
+        "CE3"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN06CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN06CE3.2",
+      "prefLabel": "PSGN06CE3.2 · Seleccionar, organizar y utilizar, de forma cooperativa, progresivamente autónoma y en…",
+      "definition": "Seleccionar, organizar y utilizar, de forma cooperativa, progresivamente autónoma y en contextos de interacción cotidianos, métodos inductivos y deductivos, así como estrategias básicas tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan ampliar su repertorio lingüístico individual.",
+      "broader": "ce:PSGNC3",
+      "bloque": "bc:PSGN06BC3",
+      "descriptores": [
+        "CP2",
+        "STEM1",
+        "CPSAA3"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN06CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN06CE4.1",
+      "prefLabel": "PSGN06CE4.1 · Justificar y explicar de forma codirigida, textos, conceptos, pensamientos o emociones…",
+      "definition": "Justificar y explicar de forma codirigida, textos, conceptos, pensamientos o emociones atendiendo a la diversidad, y apoyándose en recursos y soportes, analógicos y digitales, con el fin de facilitar la comprensión y el entendimiento en situaciones comunicativas sencillas y predecibles que contribuyan a la mejora de la convivencia, de las diferencias culturales y de la igualdad de derechos.",
+      "broader": "ce:PSGNC4",
+      "bloque": "bc:PSGN06BC4",
+      "descriptores": [
+        "CCL5",
+        "CP1",
+        "CP3",
+        "CPSAA1",
+        "CPSAA3",
+        "CCEC1"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN06CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN06CE4.2",
+      "prefLabel": "PSGN06CE4.2 · Seleccionar e implementar de forma progresivamente autónoma, estrategias básicas en…",
+      "definition": "Seleccionar e implementar de forma progresivamente autónoma, estrategias básicas en situaciones colaborativas y cooperativas, apoyándose en el lenguaje no verbal, herramientas digitales y plataformas virtuales con el fin de ayudar a las demás personas y facilitar la comprensión, la producción de información y la comunicación.",
+      "broader": "ce:PSGNC4",
+      "bloque": "bc:PSGN06BC4",
+      "descriptores": [
+        "CP2",
+        "STEM1",
+        "CPSAA3"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN06CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN06CE5.1",
+      "prefLabel": "PSGN06CE5.1 · Comparar y contrastar, de forma progresivamente autónoma y cooperativa, las similitudes y…",
+      "definition": "Comparar y contrastar, de forma progresivamente autónoma y cooperativa, las similitudes y diferencias entre distintas lenguas, reconociendo y reflexionando sobre aspectos básicos de su funcionamiento, para ampliar y enriquecer su repertorio lingüístico individual.",
+      "broader": "ce:PSGNC5",
+      "bloque": "bc:PSGN06BC5",
+      "descriptores": [
+        "CP2",
+        "CP3"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN06CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN06CE5.2",
+      "prefLabel": "PSGN06CE5.2 · Utilizar y diferenciar, de forma progresivamente autónoma y cooperativa, estrategias…",
+      "definition": "Utilizar y diferenciar, de forma progresivamente autónoma y cooperativa, estrategias adecuadas de aprovechamiento y comprensión del repertorio plurilingüe, para adquirir aprendizajes, maximizar sus habilidades lingüísticas y enriquecer las experiencias comunicativas.",
+      "broader": "ce:PSGNC5",
+      "bloque": "bc:PSGN06BC5",
+      "descriptores": [
+        "CP2",
+        "STEM1",
+        "CPSAA1",
+        "CPSAA4",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN06CE5.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN06CE5.3",
+      "prefLabel": "PSGN06CE5.3 · Registrar y reflexionar de manera guiada, sobre los progresos y dificultades del proceso…",
+      "definition": "Registrar y reflexionar de manera guiada, sobre los progresos y dificultades del proceso de aprendizaje de la segunda lengua extranjera, a través de actividades analógicas y digitales de autoevaluación y coevaluación, como las propuestas en el Portfolio Europeo de las Lenguas (PEL) o los diarios de aprendizaje, reconociendo y valorando sus propias posibilidades comunicativas y haciendo propuestas de mejora, para construir y evidenciar el conocimiento.",
+      "broader": "ce:PSGNC5",
+      "bloque": "bc:PSGN06BC5",
+      "descriptores": [
+        "CP2",
+        "CD2",
+        "CPSAA1",
+        "CPSAA4",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN06CE5.4",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN06CE5.4",
+      "prefLabel": "PSGN06CE5.4 · Reconocer y transferir los conocimientos, estrategias y destrezas del repertorio…",
+      "definition": "Reconocer y transferir los conocimientos, estrategias y destrezas del repertorio lingüístico individual a otros contextos de aprendizaje, con el fin de desarrollar un aprendizaje más profundo.",
+      "broader": "ce:PSGNC5",
+      "bloque": "bc:PSGN06BC5",
+      "descriptores": [
+        "CP1",
+        "CP2"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN06CE6.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN06CE6.1",
+      "prefLabel": "PSGN06CE6.1 · Apreciar y respetar la diversidad y el patrimonio lingüístico, cultural y artístico de…",
+      "definition": "Apreciar y respetar la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la segunda lengua extranjera, así como de las islas Canarias, fortaleciendo vínculos entre las diferentes lenguas y culturas de forma progresivamente autónoma, así como la propia y mostrando rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada, el enriquecimiento personal y el cuidado del entorno.",
+      "broader": "ce:PSGNC6",
+      "bloque": "bc:PSGN06BC6",
+      "descriptores": [
+        "CCL5",
+        "CP3",
+        "CC2",
+        "CC3",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN06CE6.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN06CE6.2",
+      "prefLabel": "PSGN06CE6.2 · Seleccionar y aplicar estrategias adecuadas para entender, apreciar y adaptarse a la…",
+      "definition": "Seleccionar y aplicar estrategias adecuadas para entender, apreciar y adaptarse a la diversidad lingüística, cultural y artística de personas y países donde se habla la segunda lengua extranjera y de las islas Canarias, en situaciones comunicativas guiadas, gestionando las emociones propias y respetando las ajenas.",
+      "broader": "ce:PSGNC6",
+      "bloque": "bc:PSGN06BC6",
+      "descriptores": [
+        "CPSAA1",
+        "CPSAA3",
+        "CCEC2"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "crit:PSGN06CE6.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "PSGN06CE6.3",
+      "prefLabel": "PSGN06CE6.3 · Mostrar empatía y comprensión por las producciones ajenas, valorando intervenciones de…",
+      "definition": "Mostrar empatía y comprensión por las producciones ajenas, valorando intervenciones de forma guiada, en diferentes contextos comunicativos, haciendo uso de la cortesía lingüística y la etiqueta digital para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.",
+      "broader": "ce:PSGNC6",
+      "bloque": "bc:PSGN06BC6",
+      "descriptores": [
+        "CP3",
+        "CCEC1",
+        "CCEC3"
+      ],
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "PSGN05SBI",
+      "prefLabel": "PSGN05SBI · I. Comunicación",
+      "definition": "Comunicación",
+      "broader": "materia:PSGN",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "PSGN05SBII",
+      "prefLabel": "PSGN05SBII · II. Plurilingüismo",
+      "definition": "Plurilingüismo",
+      "broader": "materia:PSGN",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "PSGN05SBIII",
+      "prefLabel": "PSGN05SBIII · III. Interculturalidad",
+      "definition": "Interculturalidad",
+      "broader": "materia:PSGN",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "PSGN05SBIV",
+      "prefLabel": "PSGN05SBIV · IV. Dimensiones Interpersonal e Intrapersonal",
+      "definition": "Dimensiones Interpersonal e Intrapersonal",
+      "broader": "materia:PSGN",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "PSGN06SBI",
+      "prefLabel": "PSGN06SBI · I. Comunicación",
+      "definition": "Comunicación",
+      "broader": "materia:PSGN",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "PSGN06SBII",
+      "prefLabel": "PSGN06SBII · II. Plurilingüismo",
+      "definition": "Plurilingüismo",
+      "broader": "materia:PSGN",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "PSGN06SBIII",
+      "prefLabel": "PSGN06SBIII · III. Interculturalidad",
+      "definition": "Interculturalidad",
+      "broader": "materia:PSGN",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "PSGN06SBIV",
+      "prefLabel": "PSGN06SBIV · IV. Dimensiones Interpersonal e Intrapersonal",
+      "definition": "Dimensiones Interpersonal e Intrapersonal",
+      "broader": "materia:PSGN",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBI.1",
+      "prefLabel": "PSGN05SBI.1 · Implementación de estrategias adecuadas para la comprensión, la planificación, producción…",
+      "definition": "Implementación de estrategias adecuadas para la comprensión, la planificación, producción e interacción de textos orales, escritos y multimodales breves, sencillos y contextualizados.",
+      "broader": "sb:PSGN05SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBI.2",
+      "prefLabel": "PSGN05SBI.2 · Aplicación de conocimientos, destrezas y actitudes básicas que permitan iniciarse en…",
+      "definition": "Aplicación de conocimientos, destrezas y actitudes básicas que permitan iniciarse en situaciones cotidianas de mediación en entornos sociales.",
+      "broader": "sb:PSGN05SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBI.3",
+      "prefLabel": "PSGN05SBI.3 · Empleo de funciones comunicativas básicas al ámbito y al contexto: saludar, despedirse,…",
+      "definition": "Empleo de funciones comunicativas básicas al ámbito y al contexto: saludar, despedirse, presentar y presentarse; describir personas, objetos y lugares; situar eventos en el tiempo; situar objetos, personas y lugares en el espacio; pedir e intercambiar información sobre cuestiones cotidianas; describir rutinas; dar indicaciones e instrucciones; expresar la pertenencia y la cantidad.",
+      "broader": "sb:PSGN05SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBI.4",
+      "prefLabel": "PSGN05SBI.4 · Implementación de modelos contextuales y géneros discursivos básicos en la comprensión,…",
+      "definition": "Implementación de modelos contextuales y géneros discursivos básicos en la comprensión, producción y coproducción de textos orales, escritos y multimodales, breves y sencillos, literarios y no literarios: características y reconocimiento del contexto, organización.",
+      "broader": "sb:PSGN05SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBI.5",
+      "prefLabel": "PSGN05SBI.5 · Empleo de unidades lingüísticas básicas de uso común y significados asociados a dichas…",
+      "definition": "Empleo de unidades lingüísticas básicas de uso común y significados asociados a dichas unidades, tales como expresión de la entidad y sus propiedades, cantidad y número, el espacio y las relaciones espaciales, el tiempo, la afirmación, la negación, la interrogación y la exclamación, relaciones lógicas elementales.",
+      "broader": "sb:PSGN05SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBI.6",
+      "prefLabel": "PSGN05SBI.6 · Uso de léxico básico y de interés para el alumnado relativo a identificación personal,…",
+      "definition": "Uso de léxico básico y de interés para el alumnado relativo a identificación personal, relaciones interpersonales próximas, lugares y entornos cercanos, ocio y tiempo libre, vida cotidiana.",
+      "broader": "sb:PSGN05SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBI.7",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBI.7",
+      "prefLabel": "PSGN05SBI.7 · Uso de patrones sonoros, acentuales, rítmicos y de entonación básicos, y funciones…",
+      "definition": "Uso de patrones sonoros, acentuales, rítmicos y de entonación básicos, y funciones comunicativas generales asociadas a dichos patrones.",
+      "broader": "sb:PSGN05SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBI.8",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBI.8",
+      "prefLabel": "PSGN05SBI.8 · Implementación de convenciones ortográficas básicas y significados asociados a los…",
+      "definition": "Implementación de convenciones ortográficas básicas y significados asociados a los formatos y elementos gráficos.",
+      "broader": "sb:PSGN05SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBI.9",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBI.9",
+      "prefLabel": "PSGN05SBI.9 · Uso de convenciones y estrategias conversacionales básicas, en formato síncrono o…",
+      "definition": "Uso de convenciones y estrategias conversacionales básicas, en formato síncrono o asíncrono, para iniciar, mantener y terminar la comunicación, tomar y ceder la palabra, pedir y dar aclaraciones y explicaciones, comparar y contrastar, colaborar, etc.",
+      "broader": "sb:PSGN05SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBI.10",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBI.10",
+      "prefLabel": "PSGN05SBI.10 · Empleo de recursos para el aprendizaje y estrategias para la búsqueda guiada de…",
+      "definition": "Empleo de recursos para el aprendizaje y estrategias para la búsqueda guiada de información en medios analógicos y digitales.",
+      "broader": "sb:PSGN05SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBI.11",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBI.11",
+      "prefLabel": "PSGN05SBI.11 · Reconocimiento de la propiedad intelectual de las fuentes consultadas y contenidos…",
+      "definition": "Reconocimiento de la propiedad intelectual de las fuentes consultadas y contenidos utilizados.",
+      "broader": "sb:PSGN05SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBI.12",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBI.12",
+      "prefLabel": "PSGN05SBI.12 · Uso de herramientas analógicas y digitales básicas para la comprensión, producción y…",
+      "definition": "Uso de herramientas analógicas y digitales básicas para la comprensión, producción y coproducción oral, escrita y multimodal, y plataformas virtuales de interacción, cooperación y colaboración educativa (aulas virtuales, videoconferencias, herramientas digitales colaborativas…) para el aprendizaje, la comunicación y el desarrollo de proyectos con hablantes o estudiantes de la segunda lengua extranjera.",
+      "broader": "sb:PSGN05SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBII.1",
+      "prefLabel": "PSGN05SBII.1 · Implementación de estrategias y técnicas de compensación de las carencias comunicativas…",
+      "definition": "Implementación de estrategias y técnicas de compensación de las carencias comunicativas para responder eficazmente a una necesidad concreta, a pesar de las limitaciones derivadas del nivel de competencia en la segunda lengua extranjera y en las demás lenguas del repertorio lingüístico propio.",
+      "broader": "sb:PSGN05SBII",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBII.2",
+      "prefLabel": "PSGN05SBII.2 · Implementación de estrategias básicas para identificar, organizar, retener, recuperar y…",
+      "definition": "Implementación de estrategias básicas para identificar, organizar, retener, recuperar y utilizar unidades lingüísticas (léxico, morfosintaxis, patrones sonoros, etc.) a partir de la comparación de las lenguas y variedades que conforman el repertorio lingüístico personal.",
+      "broader": "sb:PSGN05SBII",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBII.3",
+      "prefLabel": "PSGN05SBII.3 · Aplicación de estrategias y herramientas básicas de autoevaluación y coevaluación,…",
+      "definition": "Aplicación de estrategias y herramientas básicas de autoevaluación y coevaluación, analógicas y digitales, individuales y cooperativas.",
+      "broader": "sb:PSGN05SBII",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBII.4",
+      "prefLabel": "PSGN05SBII.4 · Aplicación del repertorio lingüístico para transferir los conocimientos, estrategias y…",
+      "definition": "Aplicación del repertorio lingüístico para transferir los conocimientos, estrategias y destrezas adquiridas a otros contextos.",
+      "broader": "sb:PSGN05SBII",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBII.5",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBII.5",
+      "prefLabel": "PSGN05SBII.5 · Comparación elemental entre lenguas a partir de elementos básicos de la segunda lengua…",
+      "definition": "Comparación elemental entre lenguas a partir de elementos básicos de la segunda lengua extranjera y otras lenguas: origen y parentescos.",
+      "broader": "sb:PSGN05SBII",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBII.6",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBII.6",
+      "prefLabel": "PSGN05SBII.6 · Reconocimiento del error como parte integrante del proceso de aprendizaje.",
+      "definition": "Reconocimiento del error como parte integrante del proceso de aprendizaje.",
+      "broader": "sb:PSGN05SBII",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBII.7",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBII.7",
+      "prefLabel": "PSGN05SBII.7 · Uso de léxico y expresiones habituales para comprender enunciados sobre la comunicación,…",
+      "definition": "Uso de léxico y expresiones habituales para comprender enunciados sobre la comunicación, la lengua, el aprendizaje y las herramientas de comunicación y aprendizaje (metalenguaje).",
+      "broader": "sb:PSGN05SBII",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBIII.1",
+      "prefLabel": "PSGN05SBIII.1 · Uso de la segunda lengua extranjera como medio de comunicación y relación con personas de…",
+      "definition": "Uso de la segunda lengua extranjera como medio de comunicación y relación con personas de otros países, como forma de acceder a nueva información y como medio para conocer culturas y modos de vida diferentes.",
+      "broader": "sb:PSGN05SBIII",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBIII.2",
+      "prefLabel": "PSGN05SBIII.2 · Aplicación de estrategias básicas para entender y apreciar la diversidad lingüística,…",
+      "definition": "Aplicación de estrategias básicas para entender y apreciar la diversidad lingüística, cultural y artística, a partir de valores ecosociales y democráticos.",
+      "broader": "sb:PSGN05SBIII",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBIII.3",
+      "prefLabel": "PSGN05SBIII.3 · Aplicación de estrategias de detección de usos discriminatorios del lenguaje verbal y no…",
+      "definition": "Aplicación de estrategias de detección de usos discriminatorios del lenguaje verbal y no verbal.",
+      "broader": "sb:PSGN05SBIII",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBIII.4",
+      "prefLabel": "PSGN05SBIII.4 · Identificación de aspectos socioculturales y sociolingüísticos básicos relativos a las…",
+      "definition": "Identificación de aspectos socioculturales y sociolingüísticos básicos relativos a las costumbres, la vida cotidiana y las relaciones interpersonales, las convenciones sociales básicas de uso común, el lenguaje no verbal, la cortesía lingüística y la etiqueta digital propias de países donde se habla la segunda lengua extranjera.",
+      "broader": "sb:PSGN05SBIII",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBIV.1",
+      "prefLabel": "PSGN05SBIV.1 · Valoración positiva e interés por establecer contactos y comunicarse a través de…",
+      "definition": "Valoración positiva e interés por establecer contactos y comunicarse a través de diferentes medios con hablantes o estudiantes de la segunda lengua extranjera.",
+      "broader": "sb:PSGN05SBIV",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBIV.2",
+      "prefLabel": "PSGN05SBIV.2 · Comprensión y aprecio hacia las opiniones de los demás, fomentando un clima afectivo e…",
+      "definition": "Comprensión y aprecio hacia las opiniones de los demás, fomentando un clima afectivo e inclusivo de aprendizaje.",
+      "broader": "sb:PSGN05SBIV",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBIV.3",
+      "prefLabel": "PSGN05SBIV.3 · Comprensión y aprecio por la diversidad y patrimonio lingüístico, cultural y artístico,…",
+      "definition": "Comprensión y aprecio por la diversidad y patrimonio lingüístico, cultural y artístico, de los relativos a las relaciones interpersonales elementales en países donde se habla la segunda lengua extranjera.",
+      "broader": "sb:PSGN05SBIV",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBIV.4",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBIV.4",
+      "prefLabel": "PSGN05SBIV.4 · Desarrollo de la autoestima y autoconfianza durante el desarrollo del proceso de…",
+      "definition": "Desarrollo de la autoestima y autoconfianza durante el desarrollo del proceso de aprendizaje de una segunda lengua extranjera.",
+      "broader": "sb:PSGN05SBIV",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBIV.5",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBIV.5",
+      "prefLabel": "PSGN05SBIV.5 · Fomento de la motivación por el aprendizaje de la segunda lengua extranjera.",
+      "definition": "Fomento de la motivación por el aprendizaje de la segunda lengua extranjera.",
+      "broader": "sb:PSGN05SBIV",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBIV.6",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBIV.6",
+      "prefLabel": "PSGN05SBIV.6 · Implementación de estrategias básicas colaborativas y de dinámicas de trabajo de grupo.",
+      "definition": "Implementación de estrategias básicas colaborativas y de dinámicas de trabajo de grupo.",
+      "broader": "sb:PSGN05SBIV",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBIV.7",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBIV.7",
+      "prefLabel": "PSGN05SBIV.7 · Desarrollo de la empatía y valoración de otros puntos de vista.",
+      "definition": "Desarrollo de la empatía y valoración de otros puntos de vista.",
+      "broader": "sb:PSGN05SBIV",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBIV.8",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBIV.8",
+      "prefLabel": "PSGN05SBIV.8 · Desarrollo del aprendizaje autónomo.",
+      "definition": "Desarrollo del aprendizaje autónomo.",
+      "broader": "sb:PSGN05SBIV",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN05SBIV.9",
+      "tipo": "SaberBasico",
+      "notation": "PSGN05SBIV.9",
+      "prefLabel": "PSGN05SBIV.9 · Desarrollo de la visión creativa y emocional del aprendizaje.",
+      "definition": "Desarrollo de la visión creativa y emocional del aprendizaje.",
+      "broader": "sb:PSGN05SBIV",
+      "materia": "materia:PSGN",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBI.1",
+      "prefLabel": "PSGN06SBI.1 · Implementación de estrategias adecuadas para la comprensión, la planificación, producción…",
+      "definition": "Implementación de estrategias adecuadas para la comprensión, la planificación, producción e interacción de textos orales, escritos y multimodales breves, sencillos y contextualizados.",
+      "broader": "sb:PSGN06SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBI.2",
+      "prefLabel": "PSGN06SBI.2 · Aplicación de conocimientos, destrezas y actitudes básicas que permitan iniciarse en…",
+      "definition": "Aplicación de conocimientos, destrezas y actitudes básicas que permitan iniciarse en situaciones cotidianas de mediación en entornos sociales.",
+      "broader": "sb:PSGN06SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBI.3",
+      "prefLabel": "PSGN06SBI.3 · Empleo de funciones comunicativas básicas al ámbito y al contexto: saludar, despedirse,…",
+      "definition": "Empleo de funciones comunicativas básicas al ámbito y al contexto: saludar, despedirse, presentar y presentarse; describir personas, objetos y lugares; situar eventos en el tiempo; situar objetos, personas y lugares en el espacio; pedir e intercambiar información sobre cuestiones cotidianas; describir rutinas; dar indicaciones e instrucciones; expresar la pertenencia y la cantidad.",
+      "broader": "sb:PSGN06SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBI.4",
+      "prefLabel": "PSGN06SBI.4 · Implementación de modelos contextuales y géneros discursivos básicos en la comprensión,…",
+      "definition": "Implementación de modelos contextuales y géneros discursivos básicos en la comprensión, producción y coproducción de textos orales, escritos y multimodales, breves y sencillos, literarios y no literarios: características y reconocimiento del contexto, organización.",
+      "broader": "sb:PSGN06SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBI.5",
+      "prefLabel": "PSGN06SBI.5 · Empleo de unidades lingüísticas básicas de uso común y significados asociados a dichas…",
+      "definition": "Empleo de unidades lingüísticas básicas de uso común y significados asociados a dichas unidades, tales como expresión de la entidad y sus propiedades, cantidad y número, el espacio y las relaciones espaciales, el tiempo, la afirmación, la negación, la interrogación y la exclamación, relaciones lógicas elementales.",
+      "broader": "sb:PSGN06SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBI.6",
+      "prefLabel": "PSGN06SBI.6 · Uso de léxico básico y de interés para el alumnado relativo a identificación personal,…",
+      "definition": "Uso de léxico básico y de interés para el alumnado relativo a identificación personal, relaciones interpersonales próximas, lugares y entornos cercanos, ocio y tiempo libre, vida cotidiana.",
+      "broader": "sb:PSGN06SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBI.7",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBI.7",
+      "prefLabel": "PSGN06SBI.7 · Uso de patrones sonoros, acentuales, rítmicos y de entonación básicos, y funciones…",
+      "definition": "Uso de patrones sonoros, acentuales, rítmicos y de entonación básicos, y funciones comunicativas generales asociadas a dichos patrones.",
+      "broader": "sb:PSGN06SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBI.8",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBI.8",
+      "prefLabel": "PSGN06SBI.8 · Implementación de convenciones ortográficas básicas y significados asociados a los…",
+      "definition": "Implementación de convenciones ortográficas básicas y significados asociados a los formatos y elementos gráficos.",
+      "broader": "sb:PSGN06SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBI.9",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBI.9",
+      "prefLabel": "PSGN06SBI.9 · Uso de convenciones y estrategias conversacionales básicas, en formato síncrono o…",
+      "definition": "Uso de convenciones y estrategias conversacionales básicas, en formato síncrono o asíncrono, para iniciar, mantener y terminar la comunicación, tomar y ceder la palabra, pedir y dar aclaraciones y explicaciones, comparar y contrastar, colaborar, etc.",
+      "broader": "sb:PSGN06SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBI.10",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBI.10",
+      "prefLabel": "PSGN06SBI.10 · Empleo de recursos para el aprendizaje y estrategias para la búsqueda guiada de…",
+      "definition": "Empleo de recursos para el aprendizaje y estrategias para la búsqueda guiada de información en medios analógicos y digitales.",
+      "broader": "sb:PSGN06SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBI.11",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBI.11",
+      "prefLabel": "PSGN06SBI.11 · Reconocimiento de la propiedad intelectual de las fuentes consultadas y contenidos…",
+      "definition": "Reconocimiento de la propiedad intelectual de las fuentes consultadas y contenidos utilizados.",
+      "broader": "sb:PSGN06SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBI.12",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBI.12",
+      "prefLabel": "PSGN06SBI.12 · Uso de herramientas analógicas y digitales básicas para la comprensión, producción y…",
+      "definition": "Uso de herramientas analógicas y digitales básicas para la comprensión, producción y coproducción oral, escrita y multimodal, y plataformas virtuales de interacción, cooperación y colaboración educativa (aulas virtuales, videoconferencias, herramientas digitales colaborativas…) para el aprendizaje, la comunicación y el desarrollo de proyectos con hablantes o estudiantes de la segunda lengua extranjera.",
+      "broader": "sb:PSGN06SBI",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBII.1",
+      "prefLabel": "PSGN06SBII.1 · Implementación de estrategias y técnicas de compensación de las carencias comunicativas…",
+      "definition": "Implementación de estrategias y técnicas de compensación de las carencias comunicativas para responder eficazmente a una necesidad concreta, a pesar de las limitaciones derivadas del nivel de competencia en la segunda lengua extranjera y en las demás lenguas del repertorio lingüístico propio.",
+      "broader": "sb:PSGN06SBII",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBII.2",
+      "prefLabel": "PSGN06SBII.2 · Implementación de estrategias básicas para identificar, organizar, retener, recuperar y…",
+      "definition": "Implementación de estrategias básicas para identificar, organizar, retener, recuperar y utilizar unidades lingüísticas (léxico, morfosintaxis, patrones sonoros, etc.) a partir de la comparación de las lenguas y variedades que conforman el repertorio lingüístico personal.",
+      "broader": "sb:PSGN06SBII",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBII.3",
+      "prefLabel": "PSGN06SBII.3 · Aplicación de estrategias y herramientas básicas de autoevaluación y coevaluación,…",
+      "definition": "Aplicación de estrategias y herramientas básicas de autoevaluación y coevaluación, analógicas y digitales, individuales y cooperativas.",
+      "broader": "sb:PSGN06SBII",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBII.4",
+      "prefLabel": "PSGN06SBII.4 · Aplicación del repertorio lingüístico para transferir los conocimientos, estrategias y…",
+      "definition": "Aplicación del repertorio lingüístico para transferir los conocimientos, estrategias y destrezas adquiridas a otros contextos.",
+      "broader": "sb:PSGN06SBII",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBII.5",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBII.5",
+      "prefLabel": "PSGN06SBII.5 · Comparación elemental entre lenguas a partir de elementos básicos de la segunda lengua…",
+      "definition": "Comparación elemental entre lenguas a partir de elementos básicos de la segunda lengua extranjera y otras lenguas: origen y parentescos.",
+      "broader": "sb:PSGN06SBII",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBII.6",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBII.6",
+      "prefLabel": "PSGN06SBII.6 · Reconocimiento del error como parte integrante del proceso de aprendizaje.",
+      "definition": "Reconocimiento del error como parte integrante del proceso de aprendizaje.",
+      "broader": "sb:PSGN06SBII",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBII.7",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBII.7",
+      "prefLabel": "PSGN06SBII.7 · Uso de léxico y expresiones habituales para comprender enunciados sobre la comunicación,…",
+      "definition": "Uso de léxico y expresiones habituales para comprender enunciados sobre la comunicación, la lengua, el aprendizaje y las herramientas de comunicación y aprendizaje (metalenguaje).",
+      "broader": "sb:PSGN06SBII",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBIII.1",
+      "prefLabel": "PSGN06SBIII.1 · Uso de la segunda lengua extranjera como medio de comunicación y relación con personas de…",
+      "definition": "Uso de la segunda lengua extranjera como medio de comunicación y relación con personas de otros países, como forma de acceder a nueva información y como medio para conocer culturas y modos de vida diferentes.",
+      "broader": "sb:PSGN06SBIII",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBIII.2",
+      "prefLabel": "PSGN06SBIII.2 · Aplicación de estrategias básicas para entender y apreciar la diversidad lingüística,…",
+      "definition": "Aplicación de estrategias básicas para entender y apreciar la diversidad lingüística, cultural y artística, a partir de valores ecosociales y democráticos.",
+      "broader": "sb:PSGN06SBIII",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBIII.3",
+      "prefLabel": "PSGN06SBIII.3 · Aplicación de estrategias de detección de usos discriminatorios del lenguaje verbal y no…",
+      "definition": "Aplicación de estrategias de detección de usos discriminatorios del lenguaje verbal y no verbal.",
+      "broader": "sb:PSGN06SBIII",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBIII.4",
+      "prefLabel": "PSGN06SBIII.4 · Identificación de aspectos socioculturales y sociolingüísticos básicos relativos a las…",
+      "definition": "Identificación de aspectos socioculturales y sociolingüísticos básicos relativos a las costumbres, la vida cotidiana y las relaciones interpersonales, las convenciones sociales básicas de uso común, el lenguaje no verbal, la cortesía lingüística y la etiqueta digital propias de países donde se habla la segunda lengua extranjera.",
+      "broader": "sb:PSGN06SBIII",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBIV.1",
+      "prefLabel": "PSGN06SBIV.1 · Valoración positiva e interés por establecer contactos y comunicarse a través de…",
+      "definition": "Valoración positiva e interés por establecer contactos y comunicarse a través de diferentes medios con hablantes o estudiantes de la segunda lengua extranjera.",
+      "broader": "sb:PSGN06SBIV",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBIV.2",
+      "prefLabel": "PSGN06SBIV.2 · Comprensión y aprecio hacia las opiniones de los demás, fomentando un clima afectivo e…",
+      "definition": "Comprensión y aprecio hacia las opiniones de los demás, fomentando un clima afectivo e inclusivo de aprendizaje.",
+      "broader": "sb:PSGN06SBIV",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBIV.3",
+      "prefLabel": "PSGN06SBIV.3 · Comprensión y aprecio por la diversidad y patrimonio lingüístico, cultural y artístico,…",
+      "definition": "Comprensión y aprecio por la diversidad y patrimonio lingüístico, cultural y artístico, de los relativos a las relaciones interpersonales elementales en países donde se habla la segunda lengua extranjera.",
+      "broader": "sb:PSGN06SBIV",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBIV.4",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBIV.4",
+      "prefLabel": "PSGN06SBIV.4 · Desarrollo de la autoestima y autoconfianza durante el desarrollo del proceso de…",
+      "definition": "Desarrollo de la autoestima y autoconfianza durante el desarrollo del proceso de aprendizaje de una segunda lengua extranjera.",
+      "broader": "sb:PSGN06SBIV",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBIV.5",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBIV.5",
+      "prefLabel": "PSGN06SBIV.5 · Fomento de la motivación por el aprendizaje de la segunda lengua extranjera.",
+      "definition": "Fomento de la motivación por el aprendizaje de la segunda lengua extranjera.",
+      "broader": "sb:PSGN06SBIV",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBIV.6",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBIV.6",
+      "prefLabel": "PSGN06SBIV.6 · Implementación de estrategias básicas colaborativas y de dinámicas de trabajo de grupo.",
+      "definition": "Implementación de estrategias básicas colaborativas y de dinámicas de trabajo de grupo.",
+      "broader": "sb:PSGN06SBIV",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBIV.7",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBIV.7",
+      "prefLabel": "PSGN06SBIV.7 · Desarrollo de la empatía y valoración de otros puntos de vista.",
+      "definition": "Desarrollo de la empatía y valoración de otros puntos de vista.",
+      "broader": "sb:PSGN06SBIV",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBIV.8",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBIV.8",
+      "prefLabel": "PSGN06SBIV.8 · Desarrollo del aprendizaje autónomo.",
+      "definition": "Desarrollo del aprendizaje autónomo.",
+      "broader": "sb:PSGN06SBIV",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "sb:PSGN06SBIV.9",
+      "tipo": "SaberBasico",
+      "notation": "PSGN06SBIV.9",
+      "prefLabel": "PSGN06SBIV.9 · Desarrollo de la visión creativa y emocional del aprendizaje.",
+      "definition": "Desarrollo de la visión creativa y emocional del aprendizaje.",
+      "broader": "sb:PSGN06SBIV",
+      "materia": "materia:PSGN",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    }
+  ]
+}

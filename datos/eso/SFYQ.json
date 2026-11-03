@@ -1,0 +1,2328 @@
+{
+  "materia": "materia:SFYQ",
+  "nodos": [
+    {
+      "id": "materia:SFYQ",
+      "tipo": "Materia",
+      "notation": "SFYQ",
+      "prefLabel": "Física y Química (ESO)",
+      "cursos": [
+        "curso:S02",
+        "curso:S03",
+        "curso:S04"
+      ],
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SFYQC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SFYQC1",
+      "prefLabel": "SFYQC1 · Comprender y relacionar los motivos por los que ocurren los principales fenómenos…",
+      "definition": "Comprender y relacionar los motivos por los que ocurren los principales fenómenos fisicoquímicos del entorno, explicándolos en términos de las leyes y teorías científicas adecuadas, para resolver problemas con el fin de aplicarlas para mejorar la realidad cercana y la calidad de vida humana.",
+      "broader": "materia:SFYQ",
+      "materia": "materia:SFYQ",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SFYQC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SFYQC2",
+      "prefLabel": "SFYQC2 · Expresar las observaciones realizadas por el alumnado en forma de preguntas, formulando…",
+      "definition": "Expresar las observaciones realizadas por el alumnado en forma de preguntas, formulando hipótesis para explicarlas y demostrando dichas hipótesis a través de la experimentación científica, la indagación y la búsqueda de evidencias, para desarrollar los razonamientos propios del pensamiento científico y mejorar las destrezas en el uso de las metodologías científicas.",
+      "broader": "materia:SFYQ",
+      "materia": "materia:SFYQ",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SFYQC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SFYQC3",
+      "prefLabel": "SFYQC3 · Manejar con soltura las reglas y normas básicas de la física y la química en lo referente…",
+      "definition": "Manejar con soltura las reglas y normas básicas de la física y la química en lo referente al lenguaje de la IUPAC, al lenguaje matemático, al empleo de unidades de medida correctas, al uso seguro del laboratorio y a la interpretación y producción de datos e información en diferentes formatos y fuentes, para reconocer el carácter universal y transversal del lenguaje científico y la necesidad de una comunicación fiable en investigación y ciencia entre diferentes países y culturas.",
+      "broader": "materia:SFYQ",
+      "materia": "materia:SFYQ",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SFYQC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SFYQC4",
+      "prefLabel": "SFYQC4 · Utilizar de forma crítica, eficiente y segura plataformas digitales y recursos variados,…",
+      "definition": "Utilizar de forma crítica, eficiente y segura plataformas digitales y recursos variados, tanto para el trabajo individual como en equipo, para fomentar la creatividad, el desarrollo personal y el aprendizaje individual y social, mediante la consulta de información, la creación de materiales y la comunicación efectiva en los diferentes entornos de aprendizaje.",
+      "broader": "materia:SFYQ",
+      "materia": "materia:SFYQ",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SFYQC5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SFYQC5",
+      "prefLabel": "SFYQC5 · Utilizar las estrategias propias del trabajo colaborativo, potenciando el crecimiento…",
+      "definition": "Utilizar las estrategias propias del trabajo colaborativo, potenciando el crecimiento entre iguales como base emprendedora de una comunidad científica crítica, ética y eficiente, para comprender la importancia de la ciencia en la mejora de la sociedad, las aplicaciones y repercusiones de los avances científicos, la preservación de la salud y la conservación sostenible del medioambiente.",
+      "broader": "materia:SFYQ",
+      "materia": "materia:SFYQ",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SFYQC6",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SFYQC6",
+      "prefLabel": "SFYQC6 · Comprender y valorar la ciencia como una construcción colectiva en continuo cambio y…",
+      "definition": "Comprender y valorar la ciencia como una construcción colectiva en continuo cambio y evolución, en la que no solo participan las personas dedicadas a ella, sino que también requiere de una interacción con el resto de la sociedad, para obtener resultados que repercutan en el avance tecnológico, económico, ambiental y social.",
+      "broader": "materia:SFYQ",
+      "materia": "materia:SFYQ",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SFYQ02BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "SFYQ02BC1",
+      "prefLabel": "Física y Química · 2º ESO · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se pretende comprobar si el alumnado, ante una situación problemática propuesta de índole científica, es capaz de identificar los fenómenos fisicoquímicos cotidianos más relevantes que subyacen en ella, aplicando los conocimientos científicos que se engloban en los diferentes bloques de saberes básicos para mejorar su comprensión de los principios, las teorías y las leyes científicas, y si activa los procesos necesarios para la resolución del problema (comprensión del enunciado, organización de la información, planteamiento lógico, ejecución y solución), así como el análisis de los resultados que se obtienen (validez del resultado y su adecuada expresión), expresando sus conclusiones en diferentes formatos y soportes, dotándolo de herramientas para comprender cómo es la naturaleza de su entorno y cómo mejorar la realidad cercana a través de la ciencia.",
+      "broader": "materia:SFYQ",
+      "agrupa": [
+        "ce:SFYQC1"
+      ],
+      "descriptores": [
+        "CCL1",
+        "STEM2",
+        "CD2",
+        "STEM1",
+        "STEM4",
+        "CPSAA4"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SFYQ02BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "SFYQ02BC2",
+      "prefLabel": "Física y Química · 2º ESO · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de poner su curiosidad al servicio del aprendizaje y emplear las metodologías propias de la ciencia (la observación, la formulación de hipótesis y la aplicación de la experimentación, la indagación y la búsqueda de evidencias y la deducción) para identificar los fenómenos científicos que ocurren en situaciones conocidas planteadas relacionadas con los diferentes bloques de saberes básicos, diferenciándolas de aquellas pseudocientíficas que no admiten comprobación experimental. Además, se valorará si selecciona o desarrolla procedimientos experimentales, valida hipótesis, analiza los resultados y comprueba o presenta soluciones, empleando diversos entornos y recursos científicos, como el laboratorio o los entornos virtuales, y manejando materiales, sustancias y herramientas de forma segura, para mejorar sus destrezas al interpretar los fenómenos fisicoquímicos y despertar vocaciones científicas.",
+      "broader": "materia:SFYQ",
+      "agrupa": [
+        "ce:SFYQC2"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CPSAA4",
+        "CE1",
+        "CCEC3"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SFYQ02BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "SFYQ02BC3",
+      "prefLabel": "Física y Química · 2º ESO · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial se pretende que el alumnado se familiarice con los flujos de información multidireccional característicos de las disciplinas científicas y, por tanto, se constatará si es capaz de examinar, contrastar y comunicar datos e información relativos a procesos físicoquímicos concretos de cualquiera de los bloques de saberes básicos, de forma reflexiva, en determinados formatos y fuentes concretas (enunciados, textos, tablas, gráficas, informes, manuales, diagramas, fórmulas, esquemas, modelos, símbolos…), reconociendo la calidad de los mismos. Asimismo, se comprobará que es capaz de interrelacionar variables, distinguir entre magnitudes y unidades del Sistema Internacional de Unidades, relacionar distintos sistemas de unidades, así como las herramientas matemáticas necesarias, para comunicarse en el lenguaje universal de la ciencia. También se evaluará si es capaz de poner en práctica las normas de uso de los espacios específicos de la ciencia (instalaciones de museos, universidades, centros sanitarios, centros de investigación…), especialmente los laboratorios del centro, y de utilizar los materiales, las sustancias y las herramientas que en ellos se encuentren para poner en práctica comunicaciones efectivas englobadas en un entorno que asegure su salud, la de las demás personas y la del medioambiente.",
+      "broader": "materia:SFYQ",
+      "agrupa": [
+        "ce:SFYQC3"
+      ],
+      "descriptores": [
+        "CP1",
+        "STEM4",
+        "CD2",
+        "CD3",
+        "CCEC4",
+        "CC1",
+        "CCEC2",
+        "STEM5",
+        "CPSAA2"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SFYQ02BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "SFYQ02BC4",
+      "prefLabel": "Física y Química · 2º ESO · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial se verificará si el alumnado es capaz de buscar recursos, incluso en otros idiomas, apropiados para la consulta de información, la creación de contenidos didácticos o con fines comunicativos. Para ello ha de utilizar las fuentes y las herramientas, tradicionales y digitales, propuestas que se adapten a sus necesidades cuando consulta y contrasta información, de manera progresivamente autónoma, atendiendo a criterios de pertinencia y fiabilidad; cuando la reelabora y la incorpora para construir nuevo conocimiento y crear contenidos que aporten valor para sí mismos y para la comunidad, asociados a cualquiera de los bloques de saberes básicos, respetando la propiedad intelectual; y cuando interacciona con otros miembros de la comunidad educativa, tanto en el trabajo individual como en equipo, desde el respeto a las aportaciones del grupo en los procesos de revisión y mejora, para construir una comunicación efectiva y aumentar el aprendizaje propio y colectivo, con la finalidad de ejercitar competencias que le permitan adaptarse a una sociedad que demanda personas integradas y comprometidas.",
+      "broader": "materia:SFYQ",
+      "agrupa": [
+        "ce:SFYQC4"
+      ],
+      "descriptores": [
+        "CCL2",
+        "STEM4",
+        "CD3",
+        "CPSAA3",
+        "CCL3",
+        "CP1",
+        "CD1",
+        "CD2",
+        "CE3",
+        "CCEC4"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SFYQ02BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "SFYQ02BC5",
+      "prefLabel": "Física y Química · 2º ESO · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial se comprobará, si el alumnado es capaz de trabajar en equipo como requiere, en la actualidad, la labor científica. Para ello tendrá que desarrollar de forma guiada proyectos científicos que den solución a situaciones problemáticas reales planteadas relacionadas con cualquiera de los bloques de saberes básicos, tanto en el ámbito cercano como a escala global, aplicando actividades de cooperación, propiciando la participación de todo el grupo, aceptando las tareas y responsabilidades asignadas, analizando e incorporando las aportaciones del equipo a su aprendizaje con actitud respetuosa para llevar a término el proceso. Asimismo, se valorará si reconoce el impacto que las iniciativas emprendidas tienen en la mejora de la sociedad, en la preservación de la salud física y mental propia y comunitaria y en la conservación del medioambiente, adquiriendo hábitos de vida saludables y sostenibles. Además, se evaluará si, en el contexto del trabajo en equipo, colabora e interactúa mediante herramientas o plataformas virtuales compartiendo contenidos, datos e información y gestiona responsable y éticamente sus acciones, poniendo sus prácticas comunicativas al servicio de la convivencia democrática, la resolución dialogada de los conflictos y el respeto a la diversidad en todas sus formas, evitando todo tipo de discriminación o violencia, con la finalidad de unir puntos de vista diferentes durante el desarrollo del trabajo en equipo que contribuyan a alcanzar los objetivos propuestos.",
+      "broader": "materia:SFYQ",
+      "agrupa": [
+        "ce:SFYQC5"
+      ],
+      "descriptores": [
+        "CCL5",
+        "CP3",
+        "CD3",
+        "CPSAA3",
+        "STEM3",
+        "STEM5",
+        "CC3",
+        "CE2"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SFYQ02BC6",
+      "tipo": "BloqueCompetencial",
+      "notation": "SFYQ02BC6",
+      "prefLabel": "Física y Química · 2º ESO · bloque competencial C6",
+      "scopeNote": "A través de este bloque competencial se constatará si el alumnado percibe la ciencia como un proceso no finalizado, en continuo cambio y evolución, que se construye de manera recíproca con la tecnología y la sociedad, a través del análisis histórico de los avances científicos logrados por hombres y mujeres de ciencia, en aspectos como la constitución atómica o la concepción del universo. Del mismo modo, se evaluará si toma conciencia de la utilidad y las aplicaciones que las sustancias químicas, la energía, el movimiento de los cuerpos y las fuerzas que actúan sobre ellos, entre otros, tienen en la mejora de la calidad de vida cuando se hace un uso responsable y sostenible de los mismos. También se comprobará si establece las relaciones que existen entre la física y la química y otros campos que permiten aportar soluciones para adoptar estilos de vida sostenibles y respetuosos con el medioambiente; e identificar, en el entorno, las necesidades tecnológicas, económicas, sociales y ambientales más importantes que demanda la humanidad, en general, y la sociedad canaria, en particular, a través de la implicación de toda la ciudadanía.",
+      "broader": "materia:SFYQ",
+      "agrupa": [
+        "ce:SFYQC6"
+      ],
+      "descriptores": [
+        "STEM2",
+        "CD4",
+        "CPSAA4",
+        "CCEC1",
+        "STEM5",
+        "CPSAA1",
+        "CC4"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SFYQ03BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "SFYQ03BC1",
+      "prefLabel": "Física y Química · 3º ESO · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se pretende comprobar si el alumnado, ante una situación problemática propuesta de índole científica, es capaz de identificar los fenómenos fisicoquímicos cotidianos más relevantes que subyacen en ella, aplicando los conocimientos científicos que se engloban en los diferentes bloques de saberes básicos para mejorar su comprensión de los principios, las teorías y las leyes científicas, y si activa los procesos necesarios para la resolución del problema (comprensión del enunciado, organización de la información, planteamiento lógico, ejecución y solución), así como el análisis de los resultados que se obtienen (validez del resultado y su adecuada expresión), expresando sus conclusiones en diferentes formatos y soportes, dotándolo de herramientas para comprender cómo es la naturaleza de su entorno y cómo mejorar la realidad cercana a través de la ciencia.",
+      "broader": "materia:SFYQ",
+      "agrupa": [
+        "ce:SFYQC1"
+      ],
+      "descriptores": [
+        "CCL1",
+        "STEM2",
+        "CD2",
+        "STEM1",
+        "STEM4",
+        "CPSAA4"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SFYQ03BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "SFYQ03BC2",
+      "prefLabel": "Física y Química · 3º ESO · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de poner su curiosidad al servicio del aprendizaje y emplear las metodologías propias de la ciencia (la observación, la formulación de hipótesis y la aplicación de la experimentación, la indagación y la búsqueda de evidencias y la deducción) para identificar los fenómenos científicos que ocurren en situaciones conocidas planteadas relacionadas con los diferentes bloques de saberes básicos, diferenciándolas de aquellas pseudocientíficas que no admiten comprobación experimental. Además, se valorará si selecciona o desarrolla procedimientos experimentales, valida hipótesis, analiza los resultados y comprueba o presenta soluciones, empleando diversos entornos y recursos científicos, como el laboratorio o los entornos virtuales, y manejando materiales, sustancias y herramientas de forma segura, para mejorar sus destrezas al interpretar los fenómenos fisicoquímicos y despertar vocaciones científicas.",
+      "broader": "materia:SFYQ",
+      "agrupa": [
+        "ce:SFYQC2"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CPSAA4",
+        "CE1",
+        "CCEC3"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SFYQ03BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "SFYQ03BC3",
+      "prefLabel": "Física y Química · 3º ESO · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial se pretende que el alumnado se familiarice con los flujos de información multidireccional característicos de las disciplinas científicas y, por tanto, se constatará si es capaz de examinar, contrastar y comunicar datos e información relativos a procesos físicoquímicos concretos de cualquiera de los bloques de saberes básicos, de forma reflexiva, en determinados formatos y fuentes concretas (enunciados, textos, tablas, gráficas, informes, manuales, diagramas, fórmulas, esquemas, modelos, símbolos…), reconociendo la calidad de los mismos. Asimismo, se comprobará que es capaz de interrelacionar variables, distinguir entre magnitudes y unidades del Sistema Internacional de Unidades, relacionar distintos sistemas de unidades, así como las herramientas matemáticas necesarias, para comunicarse en el lenguaje universal de la ciencia. También se evaluará si es capaz de poner en práctica las normas de uso de los espacios específicos de la ciencia (instalaciones de museos, universidades, centros sanitarios, centros de investigación…), especialmente los laboratorios del centro, y de utilizar los materiales, las sustancias y las herramientas que en ellos se encuentren para poner en práctica comunicaciones efectivas englobadas en un entorno que asegure su salud, la de las demás personas y la del medioambiente.",
+      "broader": "materia:SFYQ",
+      "agrupa": [
+        "ce:SFYQC3"
+      ],
+      "descriptores": [
+        "CP1",
+        "STEM4",
+        "CD2",
+        "CD3",
+        "CCEC4",
+        "CC1",
+        "CCEC2",
+        "STEM5",
+        "CPSAA2"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SFYQ03BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "SFYQ03BC4",
+      "prefLabel": "Física y Química · 3º ESO · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial se verificará si el alumnado es capaz de buscar recursos, incluso en otros idiomas, apropiados para la consulta de información, la creación de contenidos didácticos o con fines comunicativos. Para ello ha de utilizar las fuentes y las herramientas, tradicionales y digitales, propuestas que se adapten a sus necesidades cuando consulta y contrasta información, de manera progresivamente autónoma, atendiendo a criterios de pertinencia y fiabilidad; cuando la reelabora y la incorpora para construir nuevo conocimiento y crear contenidos que aporten valor para sí mismos y para la comunidad, asociados a cualquiera de los bloques de saberes básicos, respetando la propiedad intelectual; y cuando interacciona con otros miembros de la comunidad educativa, tanto en el trabajo individual como en equipo, desde el respeto a las aportaciones del grupo en los procesos de revisión y mejora, para construir una comunicación efectiva y aumentar el aprendizaje propio y colectivo, con la finalidad de ejercitar competencias que le permitan adaptarse a una sociedad que demanda personas integradas y comprometidas.",
+      "broader": "materia:SFYQ",
+      "agrupa": [
+        "ce:SFYQC4"
+      ],
+      "descriptores": [
+        "CCL2",
+        "STEM4",
+        "CD3",
+        "CPSAA3",
+        "CCL3",
+        "CP1",
+        "CD1",
+        "CD2",
+        "CE3",
+        "CCEC4"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SFYQ03BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "SFYQ03BC5",
+      "prefLabel": "Física y Química · 3º ESO · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial se comprobará, si el alumnado es capaz de trabajar en equipo como requiere, en la actualidad, la labor científica. Para ello tendrá que desarrollar de forma guiada proyectos científicos que den solución a situaciones problemáticas reales planteadas relacionadas con cualquiera de los bloques de saberes básicos, tanto en el ámbito cercano como a escala global, aplicando actividades de cooperación, propiciando la participación de todo el grupo, aceptando las tareas y responsabilidades asignadas, analizando e incorporando las aportaciones del equipo a su aprendizaje con actitud respetuosa para llevar a término el proceso. Asimismo, se valorará si reconoce el impacto que las iniciativas emprendidas tienen en la mejora de la sociedad, en la preservación de la salud física y mental propia y comunitaria y en la conservación del medioambiente, adquiriendo hábitos de vida saludables y sostenibles. Además, se evaluará si, en el contexto del trabajo en equipo, colabora e interactúa mediante herramientas o plataformas virtuales compartiendo contenidos, datos e información y gestiona responsable y éticamente sus acciones, poniendo sus prácticas comunicativas al servicio de la convivencia democrática, la resolución dialogada de los conflictos y el respeto a la diversidad en todas sus formas, evitando todo tipo de discriminación o violencia, con la finalidad de unir puntos de vista diferentes durante el desarrollo del trabajo en equipo que contribuyan a alcanzar los objetivos propuestos.",
+      "broader": "materia:SFYQ",
+      "agrupa": [
+        "ce:SFYQC5"
+      ],
+      "descriptores": [
+        "CCL5",
+        "CP3",
+        "CD3",
+        "CPSAA3",
+        "STEM3",
+        "STEM5",
+        "CC3",
+        "CE2"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SFYQ03BC6",
+      "tipo": "BloqueCompetencial",
+      "notation": "SFYQ03BC6",
+      "prefLabel": "Física y Química · 3º ESO · bloque competencial C6",
+      "scopeNote": "A través de este bloque competencial se constatará si el alumnado percibe la ciencia como un proceso no finalizado, en continuo cambio y evolución, que se construye de manera recíproca con la tecnología y la sociedad, a través del análisis histórico de los avances científicos logrados por hombres y mujeres de ciencia, en aspectos como la constitución atómica o la concepción del universo. Del mismo modo, se evaluará si toma conciencia de la utilidad y las aplicaciones que las sustancias químicas, la energía, el movimiento de los cuerpos y las fuerzas que actúan sobre ellos, entre otros, tienen en la mejora de la calidad de vida cuando se hace un uso responsable y sostenible de los mismos. También se comprobará si establece las relaciones que existen entre la física y la química y otros campos que permiten aportar soluciones para adoptar estilos de vida sostenibles y respetuosos con el medioambiente; e identificar, en el entorno, las necesidades tecnológicas, económicas, sociales y ambientales más importantes que demanda la humanidad, en general, y la sociedad canaria, en particular, a través de la implicación de toda la ciudadanía.",
+      "broader": "materia:SFYQ",
+      "agrupa": [
+        "ce:SFYQC6"
+      ],
+      "descriptores": [
+        "STEM2",
+        "CD4",
+        "CPSAA4",
+        "CCEC1",
+        "STEM5",
+        "CPSAA1",
+        "CC4"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SFYQ04BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "SFYQ04BC1",
+      "prefLabel": "Física y Química · 4º ESO · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se pretende comprobar si el alumnado, ante una situación problemática propuesta de índole científica, es capaz de identificar los fenómenos fisicoquímicos cotidianos más relevantes que subyacen en ella, aplicando los conocimientos científicos que se engloban en los diferentes bloques de saberes básicos para mejorar su comprensión de los principios, las teorías y las leyes científicas, y si activa los procesos necesarios para la resolución del problema (comprensión del enunciado, organización de la información, planteamiento lógico, ejecución y solución), así como el análisis de los resultados que se obtienen (validez del resultado y su adecuada expresión), expresando sus conclusiones en diferentes formatos y soportes, dotándolo de herramientas para comprender cómo es la naturaleza de su entorno y cómo mejorar la realidad cercana a través de la ciencia.",
+      "broader": "materia:SFYQ",
+      "agrupa": [
+        "ce:SFYQC1"
+      ],
+      "descriptores": [
+        "CCL1",
+        "STEM2",
+        "CD2",
+        "STEM1",
+        "STEM4",
+        "CPSAA4"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SFYQ04BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "SFYQ04BC2",
+      "prefLabel": "Física y Química · 4º ESO · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de poner su curiosidad al servicio del aprendizaje y emplear las metodologías propias de la ciencia (la observación, la formulación de hipótesis y la aplicación de la experimentación, la indagación y la búsqueda de evidencias y la deducción) para identificar los fenómenos científicos que ocurren en situaciones conocidas planteadas relacionadas con los diferentes bloques de saberes básicos, diferenciándolas de aquellas pseudocientíficas que no admiten comprobación experimental. Además, se valorará si selecciona o desarrolla procedimientos experimentales, valida hipótesis, analiza los resultados y comprueba o presenta soluciones, empleando diversos entornos y recursos científicos, como el laboratorio o los entornos virtuales, y manejando materiales, sustancias y herramientas de forma segura, para mejorar sus destrezas al interpretar los fenómenos fisicoquímicos y despertar vocaciones científicas.",
+      "broader": "materia:SFYQ",
+      "agrupa": [
+        "ce:SFYQC2"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CPSAA4",
+        "CE1",
+        "CCEC3"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SFYQ04BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "SFYQ04BC3",
+      "prefLabel": "Física y Química · 4º ESO · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial se pretende que el alumnado se familiarice con los flujos de información multidireccional característicos de las disciplinas científicas y, por tanto, se constatará si es capaz de examinar, contrastar y comunicar datos e información relativos a procesos físicoquímicos concretos de cualquiera de los bloques de saberes básicos, de forma reflexiva, en determinados formatos y fuentes concretas (enunciados, textos, tablas, gráficas, informes, manuales, diagramas, fórmulas, esquemas, modelos, símbolos…), reconociendo la calidad de los mismos. Asimismo, se comprobará que es capaz de interrelacionar variables, distinguir entre magnitudes y unidades del Sistema Internacional de Unidades, relacionar distintos sistemas de unidades, así como las herramientas matemáticas necesarias, para comunicarse en el lenguaje universal de la ciencia. También se evaluará si es capaz de poner en práctica las normas de uso de los espacios específicos de la ciencia (instalaciones de museos, universidades, centros sanitarios, centros de investigación…), especialmente los laboratorios del centro, y de utilizar los materiales, las sustancias y las herramientas que en ellos se encuentren para poner en práctica comunicaciones efectivas englobadas en un entorno que asegure su salud, la de las demás personas y la del medioambiente.",
+      "broader": "materia:SFYQ",
+      "agrupa": [
+        "ce:SFYQC3"
+      ],
+      "descriptores": [
+        "CP1",
+        "STEM4",
+        "CD2",
+        "CD3",
+        "CCEC4",
+        "CC1",
+        "CCEC2",
+        "STEM5",
+        "CPSAA2"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SFYQ04BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "SFYQ04BC4",
+      "prefLabel": "Física y Química · 4º ESO · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial se verificará si el alumnado es capaz de buscar recursos, incluso en otros idiomas, apropiados para la consulta de información, la creación de contenidos didácticos o con fines comunicativos. Para ello ha de utilizar las fuentes y las herramientas, tradicionales y digitales, propuestas que se adapten a sus necesidades cuando consulta y contrasta información, de manera progresivamente autónoma, atendiendo a criterios de pertinencia y fiabilidad; cuando la reelabora y la incorpora para construir nuevo conocimiento y crear contenidos que aporten valor para sí mismos y para la comunidad, asociados a cualquiera de los bloques de saberes básicos, respetando la propiedad intelectual; y cuando interacciona con otros miembros de la comunidad educativa, tanto en el trabajo individual como en equipo, desde el respeto a las aportaciones del grupo en los procesos de revisión y mejora, para construir una comunicación efectiva y aumentar el aprendizaje propio y colectivo, con la finalidad de ejercitar competencias que le permitan adaptarse a una sociedad que demanda personas integradas y comprometidas.",
+      "broader": "materia:SFYQ",
+      "agrupa": [
+        "ce:SFYQC4"
+      ],
+      "descriptores": [
+        "CCL2",
+        "STEM4",
+        "CD3",
+        "CPSAA3",
+        "CCL3",
+        "CP1",
+        "CD1",
+        "CD2",
+        "CE3",
+        "CCEC4"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SFYQ04BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "SFYQ04BC5",
+      "prefLabel": "Física y Química · 4º ESO · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial se comprobará, si el alumnado es capaz de trabajar en equipo como requiere, en la actualidad, la labor científica. Para ello tendrá que desarrollar de forma guiada proyectos científicos que den solución a situaciones problemáticas reales planteadas relacionadas con cualquiera de los bloques de saberes básicos, tanto en el ámbito cercano como a escala global, aplicando actividades de cooperación, propiciando la participación de todo el grupo, aceptando las tareas y responsabilidades asignadas, analizando e incorporando las aportaciones del equipo a su aprendizaje con actitud respetuosa para llevar a término el proceso. Asimismo, se valorará si reconoce el impacto que las iniciativas emprendidas tienen en la mejora de la sociedad, en la preservación de la salud física y mental propia y comunitaria y en la conservación del medioambiente, adquiriendo hábitos de vida saludables y sostenibles. Además, se evaluará si, en el contexto del trabajo en equipo, colabora e interactúa mediante herramientas o plataformas virtuales compartiendo contenidos, datos e información y gestiona responsable y éticamente sus acciones, poniendo sus prácticas comunicativas al servicio de la convivencia democrática, la resolución dialogada de los conflictos y el respeto a la diversidad en todas sus formas, evitando todo tipo de discriminación o violencia, con la finalidad de unir puntos de vista diferentes durante el desarrollo del trabajo en equipo que contribuyan a alcanzar los objetivos propuestos.",
+      "broader": "materia:SFYQ",
+      "agrupa": [
+        "ce:SFYQC5"
+      ],
+      "descriptores": [
+        "CCL5",
+        "CP3",
+        "CD3",
+        "CPSAA3",
+        "STEM3",
+        "STEM5",
+        "CC3",
+        "CE2"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SFYQ04BC6",
+      "tipo": "BloqueCompetencial",
+      "notation": "SFYQ04BC6",
+      "prefLabel": "Física y Química · 4º ESO · bloque competencial C6",
+      "scopeNote": "A través de este bloque competencial se constatará si el alumnado percibe la ciencia como un proceso no finalizado, en continuo cambio y evolución, que se construye de manera recíproca con la tecnología y la sociedad, a través del análisis histórico de los avances científicos logrados por hombres y mujeres de ciencia, en aspectos como la constitución atómica o la concepción del universo. Del mismo modo, se evaluará si toma conciencia de la utilidad y las aplicaciones que las sustancias químicas, la energía, el movimiento de los cuerpos y las fuerzas que actúan sobre ellos, entre otros, tienen en la mejora de la calidad de vida cuando se hace un uso responsable y sostenible de los mismos. También se comprobará si establece las relaciones que existen entre la física y la química y otros campos que permiten aportar soluciones para adoptar estilos de vida sostenibles y respetuosos con el medioambiente; e identificar, en el entorno, las necesidades tecnológicas, económicas, sociales y ambientales más importantes que demanda la humanidad, en general, y la sociedad canaria, en particular, a través de la implicación de toda la ciudadanía.",
+      "broader": "materia:SFYQ",
+      "agrupa": [
+        "ce:SFYQC6"
+      ],
+      "descriptores": [
+        "STEM2",
+        "CD4",
+        "CPSAA4",
+        "CCEC1",
+        "STEM5",
+        "CPSAA1",
+        "CC4"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ02CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ02CE1.1",
+      "prefLabel": "SFYQ02CE1.1 · Identificar los fenómenos fisicoquímicos cotidianos propuestos a partir de los…",
+      "definition": "Identificar los fenómenos fisicoquímicos cotidianos propuestos a partir de los principios, las teorías y las leyes científicas y expresar razonadamente sus conclusiones en diversos soportes y medios de comunicación, para comprender a través de la ciencia lo que ocurre a su alrededor.",
+      "broader": "ce:SFYQC1",
+      "bloque": "bc:SFYQ02BC1",
+      "descriptores": [
+        "CCL1",
+        "STEM2",
+        "CD2"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ02CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ02CE1.2",
+      "prefLabel": "SFYQ02CE1.2 · Resolver problemas fisicoquímicos en situaciones planteadas mediante las leyes y las…",
+      "definition": "Resolver problemas fisicoquímicos en situaciones planteadas mediante las leyes y las teorías científicas aportadas, analizando la validez de los resultados y su adecuada expresión, para encontrar soluciones que mejoren su realidad cercana y la calidad de vida humana.",
+      "broader": "ce:SFYQC1",
+      "bloque": "bc:SFYQ02BC1",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "CPSAA4"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ02CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ02CE2.1",
+      "prefLabel": "SFYQ02CE2.1 · Emplear las metodologías de la ciencia en la identificación y descripción de fenómenos a…",
+      "definition": "Emplear las metodologías de la ciencia en la identificación y descripción de fenómenos a partir de cuestiones cotidianas planteadas mediante la experimentación, la indagación, la deducción y la búsqueda de evidencias procedente de diversas fuentes, diferenciándolas de aquellas pseudocientíficas que no admiten comprobación experimental, para adquirir las destrezas científicas necesarias.",
+      "broader": "ce:SFYQC2",
+      "bloque": "bc:SFYQ02BC2",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "CD1"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ02CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ02CE2.2",
+      "prefLabel": "SFYQ02CE2.2 · Seleccionar o desarrollar los procedimientos experimentales que permitan comprobar o…",
+      "definition": "Seleccionar o desarrollar los procedimientos experimentales que permitan comprobar o refutar las hipótesis formuladas, de acuerdo con la naturaleza de las cuestiones que se traten y el conocimiento científico adquirido, aplicando las leyes y teorías científicas conocidas para obtener conclusiones y respuestas ajustadas a la naturaleza de la pregunta formulada.",
+      "broader": "ce:SFYQC2",
+      "bloque": "bc:SFYQ02BC2",
+      "descriptores": [
+        "CCL1",
+        "STEM1",
+        "STEM2",
+        "CPSAA4",
+        "CE1",
+        "CCEC3"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ02CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ02CE3.1",
+      "prefLabel": "SFYQ02CE3.1 · Examinar, contrastar y comunicar datos e información en el formato solicitado relativos a…",
+      "definition": "Examinar, contrastar y comunicar datos e información en el formato solicitado relativos a un proceso fisicoquímico concreto, extrayendo en cada caso lo más relevante, con el apoyo de determinadas herramientas digitales y fuentes concretas, fiables y seguras, para la resolución de problemas de su entorno.",
+      "broader": "ce:SFYQC3",
+      "bloque": "bc:SFYQ02BC3",
+      "descriptores": [
+        "CP1",
+        "STEM4",
+        "CD2",
+        "CD3",
+        "CCEC4"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ02CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ02CE3.2",
+      "prefLabel": "SFYQ02CE3.2 · Utilizar las reglas básicas de la física y la química, incluyendo el uso de varios…",
+      "definition": "Utilizar las reglas básicas de la física y la química, incluyendo el uso de varios sistemas de unidades y las herramientas matemáticas necesarias, para facilitar la comunicación efectiva con toda la comunidad científica desde el respeto a las normas del lenguaje de las ciencias.",
+      "broader": "ce:SFYQC3",
+      "bloque": "bc:SFYQ02BC3",
+      "descriptores": [
+        "STEM4",
+        "CC1",
+        "CCEC2"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ02CE3.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ02CE3.3",
+      "prefLabel": "SFYQ02CE3.3 · Establecer y respetar las normas de uso de los espacios específicos de la ciencia, dentro…",
+      "definition": "Establecer y respetar las normas de uso de los espacios específicos de la ciencia, dentro y fuera del centro, en especial el laboratorio de física y química, como medio para asegurar la salud propia y colectiva, la conservación sostenible del medioambiente y el respeto por las instalaciones.",
+      "broader": "ce:SFYQC3",
+      "bloque": "bc:SFYQ02BC3",
+      "descriptores": [
+        "STEM5",
+        "CPSAA2",
+        "CC1"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ02CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ02CE4.1",
+      "prefLabel": "SFYQ02CE4.1 · Utilizar de forma segura recursos variados, tradicionales y digitales, trabajando el…",
+      "definition": "Utilizar de forma segura recursos variados, tradicionales y digitales, trabajando el aprendizaje autónomo, en equipo y la interacción respetuosa con otros miembros de la comunidad educativa, contrastando las aportaciones de cada participante, para contribuir a la mejora de la comunicación y practicar una ciudadanía cívica y reflexiva.",
+      "broader": "ce:SFYQC4",
+      "bloque": "bc:SFYQ02BC4",
+      "descriptores": [
+        "CCL2",
+        "STEM4",
+        "CD3",
+        "CPSAA3"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ02CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ02CE4.2",
+      "prefLabel": "SFYQ02CE4.2 · Trabajar con los medios propuestos, tradicionales y digitales, en la consulta de…",
+      "definition": "Trabajar con los medios propuestos, tradicionales y digitales, en la consulta de información y la creación de contenidos, usando las fuentes y herramientas que se consideren, a partir de la aplicación de criterios de validez y fiabilidad, desechando las menos adecuadas, para fomentar la creatividad y mejorar el aprendizaje propio y colectivo.",
+      "broader": "ce:SFYQC4",
+      "bloque": "bc:SFYQ02BC4",
+      "descriptores": [
+        "CCL3",
+        "CP1",
+        "CD1",
+        "CD2",
+        "CE3",
+        "CCEC4"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ02CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ02CE5.1",
+      "prefLabel": "SFYQ02CE5.1 · Emplear interacciones constructivas y coeducativas, practicando actividades de…",
+      "definition": "Emplear interacciones constructivas y coeducativas, practicando actividades de cooperación, en aula o en plataformas virtuales, como forma de construir un medio de trabajo eficiente, ético y crítico en la ciencia.",
+      "broader": "ce:SFYQC5",
+      "bloque": "bc:SFYQ02BC5",
+      "descriptores": [
+        "CCL5",
+        "CP3",
+        "CD3",
+        "CPSAA3"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ02CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ02CE5.2",
+      "prefLabel": "SFYQ02CE5.2 · Observar situaciones problemáticas reales, locales o globales, y emprender, de forma…",
+      "definition": "Observar situaciones problemáticas reales, locales o globales, y emprender, de forma guiada, proyectos científicos colaborativos en los que la física y la química puedan contribuir a su solución, explicando el impacto que las iniciativas tienen en la mejora de la sociedad, la preservación de la salud y la conservación sostenible del medioambiente, que creen valor para el individuo y para la comunidad.",
+      "broader": "ce:SFYQC5",
+      "bloque": "bc:SFYQ02BC5",
+      "descriptores": [
+        "STEM3",
+        "STEM5",
+        "CC3",
+        "CE2"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ02CE6.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ02CE6.1",
+      "prefLabel": "SFYQ02CE6.1 · Percibir la ciencia como un proceso en construcción, así como reconocer sus repercusiones…",
+      "definition": "Percibir la ciencia como un proceso en construcción, así como reconocer sus repercusiones e implicaciones tecnológicas, económicas, sociales y medioambientales, a través del análisis histórico de los avances científicos logrados por hombres y mujeres de ciencia, para adoptar un estilo de vida sostenible y responsable.",
+      "broader": "ce:SFYQC6",
+      "bloque": "bc:SFYQ02BC6",
+      "descriptores": [
+        "STEM2",
+        "CD4",
+        "CPSAA4",
+        "CCEC1"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ02CE6.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ02CE6.2",
+      "prefLabel": "SFYQ02CE6.2 · Identificar en el entorno las necesidades tecnológicas, económicas, sociales y…",
+      "definition": "Identificar en el entorno las necesidades tecnológicas, económicas, sociales y ambientales básicas que demanda la humanidad, en general, y la sociedad canaria, en particular, con el fin de entender la capacidad de la ciencia para encontrar soluciones sostenibles a través de la implicación de toda la ciudadanía.",
+      "broader": "ce:SFYQC6",
+      "bloque": "bc:SFYQ02BC6",
+      "descriptores": [
+        "STEM5",
+        "CPSAA1",
+        "CC4"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ03CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ03CE1.1",
+      "prefLabel": "SFYQ03CE1.1 · Identificar y explicar los fenómenos fisicoquímicos cotidianos más relevantes a partir de…",
+      "definition": "Identificar y explicar los fenómenos fisicoquímicos cotidianos más relevantes a partir de los principios, las teorías y las leyes científicas y expresar sus conclusiones en diversos soportes y medios de comunicación, empleando la argumentación para comprender a través de la ciencia lo que ocurre a su alrededor.",
+      "broader": "ce:SFYQC1",
+      "bloque": "bc:SFYQ03BC1",
+      "descriptores": [
+        "CCL1",
+        "STEM2",
+        "CD2"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ03CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ03CE1.2",
+      "prefLabel": "SFYQ03CE1.2 · Resolver problemas fisicoquímicos planteados en situaciones conocidas mediante las leyes…",
+      "definition": "Resolver problemas fisicoquímicos planteados en situaciones conocidas mediante las leyes y las teorías científicas, seleccionando las estrategias de resolución, razonando los procedimientos utilizados, analizando la validez de los resultados y su adecuada expresión, y reformulando el procedimiento si fuera necesario, para encontrar soluciones que mejoren su realidad cercana y la calidad de vida humana.",
+      "broader": "ce:SFYQC1",
+      "bloque": "bc:SFYQ03BC1",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "CPSAA4"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ03CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ03CE2.1",
+      "prefLabel": "SFYQ03CE2.1 · Emplear las metodologías de la ciencia en la identificación y descripción de fenómenos a…",
+      "definition": "Emplear las metodologías de la ciencia en la identificación y descripción de fenómenos a partir de cuestiones mediante la experimentación, la indagación, la deducción, la búsqueda de evidencias procedente de diversas fuentes y el razonamiento lógico-matemático, diferenciándolas de aquellas pseudocientíficas que no admiten comprobación experimental, para mejorar sus destrezas científicas.",
+      "broader": "ce:SFYQC2",
+      "bloque": "bc:SFYQ03BC2",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "CD1"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ03CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ03CE2.2",
+      "prefLabel": "SFYQ03CE2.2 · Diseñar y desarrollar procedimientos experimentales o deductivos que permitan responder a…",
+      "definition": "Diseñar y desarrollar procedimientos experimentales o deductivos que permitan responder a las cuestiones planteadas y validar las hipótesis formuladas de manera informada con el conocimiento científico existente, aplicando las leyes y teorías científicas conocidas, para comprobar o presentar soluciones que creen valor en el ámbito personal, social, cultural y económico.",
+      "broader": "ce:SFYQC2",
+      "bloque": "bc:SFYQ03BC2",
+      "descriptores": [
+        "CCL1",
+        "STEM1",
+        "STEM2",
+        "CPSAA4",
+        "CE1",
+        "CCEC3"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ03CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ03CE3.1",
+      "prefLabel": "SFYQ03CE3.1 · Seleccionar, interpretar y comunicar datos e información en diferentes formatos relativos…",
+      "definition": "Seleccionar, interpretar y comunicar datos e información en diferentes formatos relativos a un proceso fisicoquímico concreto, relacionándolos entre sí, extrayendo lo significativo y desechando lo irrelevante, con el apoyo de determinadas herramientas digitales y diferentes fuentes fiables y seguras, para reconocer el carácter universal y transversal del lenguaje científico en la resolución de problemas de su entorno.",
+      "broader": "ce:SFYQC3",
+      "bloque": "bc:SFYQ03BC3",
+      "descriptores": [
+        "CP1",
+        "STEM4",
+        "CD2",
+        "CD3",
+        "CCEC4"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ03CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ03CE3.2",
+      "prefLabel": "SFYQ03CE3.2 · Aplicar las reglas básicas de la física y la química, incluyendo el uso de varios…",
+      "definition": "Aplicar las reglas básicas de la física y la química, incluyendo el uso de varios sistemas de unidades, las herramientas matemáticas necesarias y las reglas de nomenclatura básicas, para facilitar la comunicación efectiva con toda la comunidad científica desde el respeto a las normas del lenguaje de las ciencias.",
+      "broader": "ce:SFYQC3",
+      "bloque": "bc:SFYQ03BC3",
+      "descriptores": [
+        "STEM4",
+        "CC1",
+        "CCEC2"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ03CE3.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ03CE3.3",
+      "prefLabel": "SFYQ03CE3.3 · Aplicar con rigor las normas de uso de los espacios específicos de la ciencia, dentro y…",
+      "definition": "Aplicar con rigor las normas de uso de los espacios específicos de la ciencia, dentro y fuera del centro, en especial el laboratorio de física y química, como medio para asegurar la salud propia y colectiva, la conservación sostenible del medioambiente y el respeto por las instalaciones.",
+      "broader": "ce:SFYQC3",
+      "bloque": "bc:SFYQ03BC3",
+      "descriptores": [
+        "STEM5",
+        "CPSAA2",
+        "CC1"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ03CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ03CE4.1",
+      "prefLabel": "SFYQ03CE4.1 · Elegir y utilizar de forma segura recursos variados, tradicionales y digitales, mejorando…",
+      "definition": "Elegir y utilizar de forma segura recursos variados, tradicionales y digitales, mejorando el aprendizaje autónomo, en equipo y la interacción con otros miembros de la comunidad educativa, de forma rigurosa y respetuosa, analizando las aportaciones de cada participante, para contribuir a la mejora de la comunicación y ejercer una ciudadanía cívica y reflexiva.",
+      "broader": "ce:SFYQC4",
+      "bloque": "bc:SFYQ03BC4",
+      "descriptores": [
+        "CCL2",
+        "STEM4",
+        "CD3",
+        "CPSAA3"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ03CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ03CE4.2",
+      "prefLabel": "SFYQ03CE4.2 · Trabajar con medios variados, tradicionales y digitales, en la consulta de información y…",
+      "definition": "Trabajar con medios variados, tradicionales y digitales, en la consulta de información y la creación de contenidos, empleando las fuentes y herramientas que se consideren, a partir de la aplicación de criterios de validez, calidad y fiabilidad, desechando las menos adecuadas, para fomentar la creatividad y mejorar el aprendizaje propio y colectivo.",
+      "broader": "ce:SFYQC4",
+      "bloque": "bc:SFYQ03BC4",
+      "descriptores": [
+        "CCL3",
+        "CP1",
+        "CD1",
+        "CD2",
+        "CE3",
+        "CCEC4"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ03CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ03CE5.1",
+      "prefLabel": "SFYQ03CE5.1 · Establecer interacciones constructivas y coeducativas, desarrollando actividades de…",
+      "definition": "Establecer interacciones constructivas y coeducativas, desarrollando actividades de cooperación, en aula o en plataformas virtuales, como forma de construir un medio de trabajo eficiente, ético y crítico en la ciencia.",
+      "broader": "ce:SFYQC5",
+      "bloque": "bc:SFYQ03BC5",
+      "descriptores": [
+        "CCL5",
+        "CP3",
+        "CD3",
+        "CPSAA3"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ03CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ03CE5.2",
+      "prefLabel": "SFYQ03CE5.2 · Describir situaciones problemáticas reales, locales o globales, y emprender, de forma…",
+      "definition": "Describir situaciones problemáticas reales, locales o globales, y emprender, de forma guiada, proyectos científicos colaborativos en los que la física y la química puedan contribuir a su solución, razonando el impacto que las iniciativas tienen en la mejora de la sociedad, la preservación de la salud y la conservación sostenible del medioambiente, que creen valor para el individuo y para la comunidad.",
+      "broader": "ce:SFYQC5",
+      "bloque": "bc:SFYQ03BC5",
+      "descriptores": [
+        "STEM3",
+        "STEM5",
+        "CC3",
+        "CE2"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ03CE6.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ03CE6.1",
+      "prefLabel": "SFYQ03CE6.1 · Percibir la ciencia como un proceso en construcción, así como reconocer y valorar sus…",
+      "definition": "Percibir la ciencia como un proceso en construcción, así como reconocer y valorar sus repercusiones e implicaciones tecnológicas, económicas, sociales y medioambientales, a través del análisis histórico de los avances científicos logrados por hombres y mujeres de ciencia, para adoptar un estilo de vida sostenible y responsable sopesando los riesgos y los beneficios de las aplicaciones directas derivadas de los avances científicos.",
+      "broader": "ce:SFYQC6",
+      "bloque": "bc:SFYQ03BC6",
+      "descriptores": [
+        "STEM2",
+        "CD4",
+        "CPSAA4",
+        "CCEC1"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ03CE6.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ03CE6.2",
+      "prefLabel": "SFYQ03CE6.2 · Detectar en el entorno las necesidades tecnológicas, económicas, sociales y ambientales…",
+      "definition": "Detectar en el entorno las necesidades tecnológicas, económicas, sociales y ambientales más importantes que demanda la humanidad, en general, y la sociedad canaria, en particular, con el fin de entender la capacidad de la ciencia para encontrar soluciones sostenibles a través de la implicación de toda la ciudadanía.",
+      "broader": "ce:SFYQC6",
+      "bloque": "bc:SFYQ03BC6",
+      "descriptores": [
+        "STEM5",
+        "CPSAA1",
+        "CC4"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ04CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ04CE1.1",
+      "prefLabel": "SFYQ04CE1.1 · Interpretar los fenómenos fisicoquímicos cotidianos, explicarlos en términos de los…",
+      "definition": "Interpretar los fenómenos fisicoquímicos cotidianos, explicarlos en términos de los principios, las teorías y las leyes científicas y expresar sus conclusiones en diversos soportes y medios de comunicación, empleando la argumentación, para comprender a través de la ciencia lo que ocurre a su alrededor.",
+      "broader": "ce:SFYQC1",
+      "bloque": "bc:SFYQ04BC1",
+      "descriptores": [
+        "CCL1",
+        "STEM2",
+        "CD2"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ04CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ04CE1.2",
+      "prefLabel": "SFYQ04CE1.2 · Resolver problemas fisicoquímicos planteados en situaciones conocidas mediante las leyes…",
+      "definition": "Resolver problemas fisicoquímicos planteados en situaciones conocidas mediante las leyes y las teorías científicas, seleccionando las estrategias de resolución, razonando los procedimientos utilizados, analizando la coherencia de los resultados, expresándolos con corrección y precisión y reformulando el procedimiento si fuera necesario para encontrar soluciones que mejoren su realidad cercana y la calidad de vida humana.",
+      "broader": "ce:SFYQC1",
+      "bloque": "bc:SFYQ04BC1",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "CPSAA4"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ04CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ04CE2.1",
+      "prefLabel": "SFYQ04CE2.1 · Emplear las metodologías de la ciencia en la identificación y descripción de fenómenos…",
+      "definition": "Emplear las metodologías de la ciencia en la identificación y descripción de fenómenos científicos a partir de situaciones conocidas tanto observadas en el mundo natural como planteadas a través de enunciados con información textual, gráfica o numérica, mediante la experimentación real o mediante simulación con modelos digitales, la indagación, la deducción, la búsqueda de evidencias procedente de diversas fuentes y el razonamiento lógico-matemático, para mejorar sus destrezas científicas.",
+      "broader": "ce:SFYQC2",
+      "bloque": "bc:SFYQ04BC2",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "CD1"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ04CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ04CE2.2",
+      "prefLabel": "SFYQ04CE2.2 · Diseñar y desarrollar procedimientos experimentales o deductivos que permitan responder a…",
+      "definition": "Diseñar y desarrollar procedimientos experimentales o deductivos que permitan responder a las cuestiones planteadas y validar las hipótesis formuladas de manera informada con el conocimiento científico existente, aplicando las leyes y teorías científicas, y el razonamiento lógico-matemático en su proceso de validación, analizando los resultados y reformulando el procedimiento si fuera necesario, para presentar soluciones que creen valor en el ámbito personal, social, cultural y económico.",
+      "broader": "ce:SFYQC2",
+      "bloque": "bc:SFYQ04BC2",
+      "descriptores": [
+        "CCL1",
+        "STEM1",
+        "STEM2",
+        "CPSAA4",
+        "CE1",
+        "CCEC3"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ04CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ04CE3.1",
+      "prefLabel": "SFYQ04CE3.1 · Seleccionar, organizar, interpretar, producir y comunicar datos e información en diversos…",
+      "definition": "Seleccionar, organizar, interpretar, producir y comunicar datos e información en diversos formatos relativa a un proceso fisicoquímico concreto, relacionándolos entre sí, extrayendo lo significativo y desechando lo irrelevante, con el apoyo de diversas herramientas digitales y fuentes fiables y seguras, para reconocer el carácter universal y transversal del lenguaje científico en la resolución de problemas.",
+      "broader": "ce:SFYQC3",
+      "bloque": "bc:SFYQ04BC3",
+      "descriptores": [
+        "CP1",
+        "STEM4",
+        "CD2",
+        "CD3",
+        "CCEC4"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ04CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ04CE3.2",
+      "prefLabel": "SFYQ04CE3.2 · Aplicar e interpretar las reglas básicas de la física y la química, incluyendo el uso de…",
+      "definition": "Aplicar e interpretar las reglas básicas de la física y la química, incluyendo el uso de varios sistemas de unidades, las herramientas matemáticas necesarias y las reglas de nomenclatura avanzadas, para facilitar la comunicación efectiva con toda la comunidad científica desde el respeto a las normas del lenguaje de las ciencias.",
+      "broader": "ce:SFYQC3",
+      "bloque": "bc:SFYQ04BC3",
+      "descriptores": [
+        "STEM4",
+        "CC1",
+        "CCEC2"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ04CE3.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ04CE3.3",
+      "prefLabel": "SFYQ04CE3.3 · Aplicar con rigor las normas de uso de los espacios específicos de la ciencia, dentro y…",
+      "definition": "Aplicar con rigor las normas de uso de los espacios específicos de la ciencia, dentro y fuera del centro, en especial el laboratorio de física y química, como medio para asegurar la salud propia y colectiva, la conservación sostenible del medioambiente y el respeto por las instalaciones.",
+      "broader": "ce:SFYQC3",
+      "bloque": "bc:SFYQ04BC3",
+      "descriptores": [
+        "STEM5",
+        "CPSAA2",
+        "CC1"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ04CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ04CE4.1",
+      "prefLabel": "SFYQ04CE4.1 · Seleccionar y utilizar de forma eficiente y segura recursos variados, tradicionales y…",
+      "definition": "Seleccionar y utilizar de forma eficiente y segura recursos variados, tradicionales y digitales, mejorando el aprendizaje autónomo, en equipo y la interacción con otros miembros de la comunidad educativa, de forma rigurosa y respetuosa, valorando las aportaciones de cada participante, para contribuir a la mejora de la comunicación y ejercer una ciudadanía cívica y reflexiva.",
+      "broader": "ce:SFYQC4",
+      "bloque": "bc:SFYQ04BC4",
+      "descriptores": [
+        "CCL2",
+        "STEM4",
+        "CD3",
+        "CPSAA3"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ04CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ04CE4.2",
+      "prefLabel": "SFYQ04CE4.2 · Trabajar de forma versátil con medios variados, tradicionales y digitales, en la consulta…",
+      "definition": "Trabajar de forma versátil con medios variados, tradicionales y digitales, en la consulta de información y la creación de contenidos, seleccionando y empleando las fuentes y herramientas que se consideren, a partir de la aplicación de criterios de validez, calidad, actualidad y fiabilidad, desechando las menos adecuadas, para fomentar la creatividad y mejorar el aprendizaje propio y colectivo.",
+      "broader": "ce:SFYQC4",
+      "bloque": "bc:SFYQ04BC4",
+      "descriptores": [
+        "CCL3",
+        "CP1",
+        "CD1",
+        "CD2",
+        "CE3",
+        "CCEC4"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ04CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ04CE5.1",
+      "prefLabel": "SFYQ04CE5.1 · Establecer y desarrollar interacciones constructivas y coeducativas, emprendiendo…",
+      "definition": "Establecer y desarrollar interacciones constructivas y coeducativas, emprendiendo actividades de cooperación e iniciando el uso de las estrategias propias del trabajo colaborativo, en el aula o en plataformas virtuales, como forma de construir un medio de trabajo eficiente, ético y crítico en la ciencia.",
+      "broader": "ce:SFYQC5",
+      "bloque": "bc:SFYQ04BC5",
+      "descriptores": [
+        "CCL5",
+        "CP3",
+        "CD3",
+        "CPSAA3"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ04CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ04CE5.2",
+      "prefLabel": "SFYQ04CE5.2 · Detectar y describir situaciones problemáticas reales, locales o globales, y emprender,…",
+      "definition": "Detectar y describir situaciones problemáticas reales, locales o globales, y emprender, de forma autónoma, proyectos científicos colaborativos en los que la física y la química puedan contribuir a su solución, analizando el impacto que las iniciativas tienen en la mejora de la sociedad, la preservación de la salud y la conservación sostenible del medioambiente, que creen valor para el individuo y para la comunidad.",
+      "broader": "ce:SFYQC5",
+      "bloque": "bc:SFYQ04BC5",
+      "descriptores": [
+        "STEM3",
+        "STEM5",
+        "CC3",
+        "CE2"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ04CE6.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ04CE6.1",
+      "prefLabel": "SFYQ04CE6.1 · Percibir la ciencia como un proceso en construcción, así como reconocer y valorar sus…",
+      "definition": "Percibir la ciencia como un proceso en construcción, así como reconocer y valorar sus repercusiones e implicaciones tecnológicas, económicas, sociales y medioambientales, a través del análisis histórico de los avances científicos logrados por mujeres y hombres, del conocimiento de las instituciones científicas internacionales, nacionales y canarias, sus líneas de investigación y las personas que en ellas trabajan y de otras situaciones actuales, para adoptar un estilo de vida sostenible y responsable sopesando los riesgos y los beneficios de las aplicaciones directas derivadas de los avances científicos.",
+      "broader": "ce:SFYQC6",
+      "bloque": "bc:SFYQ04BC6",
+      "descriptores": [
+        "STEM2",
+        "CD4",
+        "CPSAA4",
+        "CCEC1"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SFYQ04CE6.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SFYQ04CE6.2",
+      "prefLabel": "SFYQ04CE6.2 · Detectar las necesidades tecnológicas, económicas, sociales y ambientales más importantes…",
+      "definition": "Detectar las necesidades tecnológicas, económicas, sociales y ambientales más importantes que demanda la humanidad, en general, y la sociedad canaria, en particular, con el fin de entender la capacidad de la ciencia para encontrar soluciones sostenibles a través de la implicación de toda la ciudadanía.",
+      "broader": "ce:SFYQC6",
+      "bloque": "bc:SFYQ04BC6",
+      "descriptores": [
+        "STEM5",
+        "CPSAA1",
+        "CC4"
+      ],
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "SFYQ02SBI",
+      "prefLabel": "SFYQ02SBI · I. Las destrezas científicas básicas",
+      "definition": "Las destrezas científicas básicas",
+      "broader": "materia:SFYQ",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "SFYQ02SBII",
+      "prefLabel": "SFYQ02SBII · II. La materia",
+      "definition": "La materia",
+      "broader": "materia:SFYQ",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "SFYQ02SBIII",
+      "prefLabel": "SFYQ02SBIII · III. El cambio",
+      "definition": "El cambio",
+      "broader": "materia:SFYQ",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "SFYQ02SBIV",
+      "prefLabel": "SFYQ02SBIV · IV. La interacción",
+      "definition": "La interacción",
+      "broader": "materia:SFYQ",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBV",
+      "tipo": "BloqueSaberes",
+      "notation": "SFYQ02SBV",
+      "prefLabel": "SFYQ02SBV · V. La energía",
+      "definition": "La energía",
+      "broader": "materia:SFYQ",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "SFYQ03SBI",
+      "prefLabel": "SFYQ03SBI · I. Las destrezas científicas básicas",
+      "definition": "Las destrezas científicas básicas",
+      "broader": "materia:SFYQ",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "SFYQ03SBII",
+      "prefLabel": "SFYQ03SBII · II. La materia",
+      "definition": "La materia",
+      "broader": "materia:SFYQ",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "SFYQ03SBIII",
+      "prefLabel": "SFYQ03SBIII · III. El cambio",
+      "definition": "El cambio",
+      "broader": "materia:SFYQ",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "SFYQ03SBIV",
+      "prefLabel": "SFYQ03SBIV · IV. La interacción",
+      "definition": "La interacción",
+      "broader": "materia:SFYQ",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBV",
+      "tipo": "BloqueSaberes",
+      "notation": "SFYQ03SBV",
+      "prefLabel": "SFYQ03SBV · V. La energía",
+      "definition": "La energía",
+      "broader": "materia:SFYQ",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "SFYQ04SBI",
+      "prefLabel": "SFYQ04SBI · I. Las destrezas científicas básicas",
+      "definition": "Las destrezas científicas básicas",
+      "broader": "materia:SFYQ",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "SFYQ04SBII",
+      "prefLabel": "SFYQ04SBII · II. La materia",
+      "definition": "La materia",
+      "broader": "materia:SFYQ",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "SFYQ04SBIII",
+      "prefLabel": "SFYQ04SBIII · III. El cambio",
+      "definition": "El cambio",
+      "broader": "materia:SFYQ",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "SFYQ04SBIV",
+      "prefLabel": "SFYQ04SBIV · IV. La interacción",
+      "definition": "La interacción",
+      "broader": "materia:SFYQ",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBV",
+      "tipo": "BloqueSaberes",
+      "notation": "SFYQ04SBV",
+      "prefLabel": "SFYQ04SBV · V. La energía",
+      "definition": "La energía",
+      "broader": "materia:SFYQ",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBI.1",
+      "prefLabel": "SFYQ02SBI.1 · Empleo de las metodologías propias de la investigación científica para desarrollar…",
+      "definition": "Empleo de las metodologías propias de la investigación científica para desarrollar razonamientos propios del pensamiento científico. Identificación y formulación de cuestiones, elaboración de hipótesis y comprobación experimental de las mismas.",
+      "broader": "sb:SFYQ02SBI",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBI.2",
+      "prefLabel": "SFYQ02SBI.2 · Trabajo experimental y proyectos de investigación: selección de estrategias en la…",
+      "definition": "Trabajo experimental y proyectos de investigación: selección de estrategias en la resolución de problemas y en el desarrollo de investigaciones mediante la indagación, la deducción y la búsqueda de evidencias, haciendo deducciones válidas de las observaciones y obteniendo conclusiones.",
+      "broader": "sb:SFYQ02SBI",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBI.3",
+      "prefLabel": "SFYQ02SBI.3 · Conocimiento y utilización de diversos entornos y recursos de aprendizaje científico como…",
+      "definition": "Conocimiento y utilización de diversos entornos y recursos de aprendizaje científico como el laboratorio o los entornos virtuales para adquirir destrezas científicas.",
+      "broader": "sb:SFYQ02SBI",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBI.3.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBI.3.1",
+      "prefLabel": "SFYQ02SBI.3.1 · Uso de materiales, sustancias e instrumentos básicos del laboratorio de Física y Química.",
+      "definition": "Uso de materiales, sustancias e instrumentos básicos del laboratorio de Física y Química.",
+      "broader": "sb:SFYQ02SBI.3",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBI.3.2",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBI.3.2",
+      "prefLabel": "SFYQ02SBI.3.2 · Manejo de herramientas digitales como apoyo al trabajo experimental y la investigación.",
+      "definition": "Manejo de herramientas digitales como apoyo al trabajo experimental y la investigación.",
+      "broader": "sb:SFYQ02SBI.3",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBI.4",
+      "prefLabel": "SFYQ02SBI.4 · Establecimiento y respeto por las normas de uso de los espacio específicos de la ciencia…",
+      "definition": "Establecimiento y respeto por las normas de uso de los espacio específicos de la ciencia y en especial del laboratorio de Física y Química, asegurando y protegiendo así la salud propia y comunitaria, la seguridad en las redes y el respeto hacia el medio ambiente.",
+      "broader": "sb:SFYQ02SBI",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBI.5",
+      "prefLabel": "SFYQ02SBI.5 · Reconocimiento del carácter universal y transversal del lenguaje científico en diferentes…",
+      "definition": "Reconocimiento del carácter universal y transversal del lenguaje científico en diferentes escenarios científicos y de aprendizaje.",
+      "broader": "sb:SFYQ02SBI",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBI.5.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBI.5.1",
+      "prefLabel": "SFYQ02SBI.5.1 · Utilización de las unidades del Sistema Internacional de Unidades y sus símbolos para…",
+      "definition": "Utilización de las unidades del Sistema Internacional de Unidades y sus símbolos para facilitar la comunicación efectiva con toda la comunidad científica.",
+      "broader": "sb:SFYQ02SBI.5",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBI.5.2",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBI.5.2",
+      "prefLabel": "SFYQ02SBI.5.2 · Manejo de las herramientas matemáticas básicas para la resolución de problemas.",
+      "definition": "Manejo de las herramientas matemáticas básicas para la resolución de problemas.",
+      "broader": "sb:SFYQ02SBI.5",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBI.6",
+      "prefLabel": "SFYQ02SBI.6 · Utilización de estrategias para comparar información científica y comunicarla en…",
+      "definition": "Utilización de estrategias para comparar información científica y comunicarla en diferentes formatos y a partir de diferentes medios. Desarrollo del criterio propio basado en lo que el pensamiento científico aporta a la mejora de la sociedad para hacerla más justa, equitativa e igualitaria.",
+      "broader": "sb:SFYQ02SBI",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBI.7",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBI.7",
+      "prefLabel": "SFYQ02SBI.7 · Valoración de la cultura científica y del papel de científicos y científicas en el avance…",
+      "definition": "Valoración de la cultura científica y del papel de científicos y científicas en el avance y la mejora de la sociedad.",
+      "broader": "sb:SFYQ02SBI",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBII.1",
+      "prefLabel": "SFYQ02SBII.1 · Aplicación de la teoría cinético-molecular a observaciones sobre la materia explicando…",
+      "definition": "Aplicación de la teoría cinético-molecular a observaciones sobre la materia explicando sus propiedades, los estados de agregación, los cambios de estado, la temperatura y la formación de mezclas y disoluciones.",
+      "broader": "sb:SFYQ02SBII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBII.2",
+      "prefLabel": "SFYQ02SBII.2 · Realización de experimentos sencillos relacionados con los sistemas materiales para…",
+      "definition": "Realización de experimentos sencillos relacionados con los sistemas materiales para explicar lo que ocurre a su alrededor.",
+      "broader": "sb:SFYQ02SBII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBII.2.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBII.2.1",
+      "prefLabel": "SFYQ02SBII.2.1 · Conocimiento y descripción de las propiedades de los sistemas materiales, su composición…",
+      "definition": "Conocimiento y descripción de las propiedades de los sistemas materiales, su composición y su clasificación para la comprensión de su entorno más cercano.",
+      "broader": "sb:SFYQ02SBII.2",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBII.3",
+      "prefLabel": "SFYQ02SBII.3 · Conocimiento de las partículas fundamentales del átomo (electrón, protón y neutrón) e…",
+      "definition": "Conocimiento de las partículas fundamentales del átomo (electrón, protón y neutrón) e identificación y localización de los elementos más importantes de la tabla periódica.",
+      "broader": "sb:SFYQ02SBII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBII.4",
+      "prefLabel": "SFYQ02SBII.4 · Conocimiento de compuestos químicos muy comunes, de sus propiedades físicas y químicas y…",
+      "definition": "Conocimiento de compuestos químicos muy comunes, de sus propiedades físicas y químicas y de sus aplicaciones y repercusiones para valorar su impacto en el entorno y la calidad de vida.",
+      "broader": "sb:SFYQ02SBII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBIII.1",
+      "prefLabel": "SFYQ02SBIII.1 · Estudio de los cambios de los sistemas materiales para comparar entre cambios físicos y…",
+      "definition": "Estudio de los cambios de los sistemas materiales para comparar entre cambios físicos y químicos.",
+      "broader": "sb:SFYQ02SBIII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBIII.2",
+      "prefLabel": "SFYQ02SBIII.2 · Representación de reacciones químicas mediante ecuaciones químicas señalando reactivos y…",
+      "definition": "Representación de reacciones químicas mediante ecuaciones químicas señalando reactivos y productos. Realización de experiencias para la descripción y explicación de algunos cambios químicos.",
+      "broader": "sb:SFYQ02SBIII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBIII.3",
+      "prefLabel": "SFYQ02SBIII.3 · Reconocimiento de la presencia de las reacciones químicas en la vida cotidiana y…",
+      "definition": "Reconocimiento de la presencia de las reacciones químicas en la vida cotidiana y valoración de los beneficios proporcionados por la industria química a la sociedad, así como sus repercusiones socioambientales. Análisis de problemas medioambientales globales que permitan el planteamiento de posibles medidas para mitigarlos y contribuir a un presente sostenible.",
+      "broader": "sb:SFYQ02SBIII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBIV.1",
+      "prefLabel": "SFYQ02SBIV.1 · Identificación de magnitudes que caracterizan un movimiento: posición, trayectoria,…",
+      "definition": "Identificación de magnitudes que caracterizan un movimiento: posición, trayectoria, desplazamiento y distancia recorrida. Valoración de la importancia de la identificación de un sistema de referencia. Interpretación del concepto de velocidad media y su cálculo para la resolución de problemas de movimientos sencillos.",
+      "broader": "sb:SFYQ02SBIV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBIV.2",
+      "prefLabel": "SFYQ02SBIV.2 · Identificación y medida experimental de fuerzas en el entorno, como las deformaciones…",
+      "definition": "Identificación y medida experimental de fuerzas en el entorno, como las deformaciones elásticas, y su relación con los efectos que producen para comprender que son agentes de cambio en los cuerpos.",
+      "broader": "sb:SFYQ02SBIV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBIV.3",
+      "prefLabel": "SFYQ02SBIV.3 · Identificación e interpretación de las fuerzas y fenómenos eléctricos, magnéticos y…",
+      "definition": "Identificación e interpretación de las fuerzas y fenómenos eléctricos, magnéticos y gravitatorios. Distinción entre las magnitudes de masa y peso de un cuerpo y cálculo de la aceleración de la gravedad según la relación entre ellas. Reconocimiento de la importancia de la electricidad y el magnetismo en la vida cotidiana.",
+      "broader": "sb:SFYQ02SBIV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBV.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBV.1",
+      "prefLabel": "SFYQ02SBV.1 · Interpretación de la energía como la capacidad de los sistemas para producir cambios o…",
+      "definition": "Interpretación de la energía como la capacidad de los sistemas para producir cambios o transformaciones.",
+      "broader": "sb:SFYQ02SBV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBV.2",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBV.2",
+      "prefLabel": "SFYQ02SBV.2 · Reconocimiento de los distintos tipos de energía, de las transformaciones de unas formas…",
+      "definition": "Reconocimiento de los distintos tipos de energía, de las transformaciones de unas formas en otras, de su disipación y de su conservación.",
+      "broader": "sb:SFYQ02SBV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBV.3",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBV.3",
+      "prefLabel": "SFYQ02SBV.3 · Relación entre los conceptos de calor y temperatura. Identificación de los distintos…",
+      "definition": "Relación entre los conceptos de calor y temperatura. Identificación de los distintos mecanismos de transferencia de energía para considerar sus aplicaciones en diferentes situaciones cotidianas.",
+      "broader": "sb:SFYQ02SBV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ02SBV.4",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ02SBV.4",
+      "prefLabel": "SFYQ02SBV.4 · Descripción y comparación de las fuentes de energía renovables y no renovables.…",
+      "definition": "Descripción y comparación de las fuentes de energía renovables y no renovables. Valoración de la importancia de realizar un consumo energético responsable para un desarrollo sostenible global y, en particular, en Canarias.",
+      "broader": "sb:SFYQ02SBV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBI.1",
+      "prefLabel": "SFYQ03SBI.1 · Empleo de las metodologías propias de la investigación científica para desarrollar…",
+      "definition": "Empleo de las metodologías propias de la investigación científica para desarrollar razonamientos propios del pensamiento científico. Identificación y formulación de cuestiones, elaboración de hipótesis y comprobación experimental de las mismas.",
+      "broader": "sb:SFYQ03SBI",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBI.2",
+      "prefLabel": "SFYQ03SBI.2 · Sociedad de la información.",
+      "definition": "Sociedad de la información.",
+      "broader": "sb:SFYQ03SBI",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBI.3",
+      "prefLabel": "SFYQ03SBI.3 · Cultura mediática.",
+      "definition": "Cultura mediática.",
+      "broader": "sb:SFYQ03SBI",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBI.3.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBI.3.1",
+      "prefLabel": "SFYQ03SBI.3.1 · Uso de materiales, sustancias e instrumentos básicos del laboratorio de Física y Química.",
+      "definition": "Uso de materiales, sustancias e instrumentos básicos del laboratorio de Física y Química.",
+      "broader": "sb:SFYQ03SBI.3",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBI.3.2",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBI.3.2",
+      "prefLabel": "SFYQ03SBI.3.2 · Manejo de herramientas digitales como apoyo al trabajo experimental y la investigación.",
+      "definition": "Manejo de herramientas digitales como apoyo al trabajo experimental y la investigación.",
+      "broader": "sb:SFYQ03SBI.3",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBI.4",
+      "prefLabel": "SFYQ03SBI.4 · Lo global y lo local.",
+      "definition": "Lo global y lo local.",
+      "broader": "sb:SFYQ03SBI",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBI.5",
+      "prefLabel": "SFYQ03SBI.5 · Reconocimiento del carácter universal y transversal del lenguaje científico en diferentes…",
+      "definition": "Reconocimiento del carácter universal y transversal del lenguaje científico en diferentes escenarios científicos y de aprendizaje.",
+      "broader": "sb:SFYQ03SBI",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBI.5.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBI.5.1",
+      "prefLabel": "SFYQ03SBI.5.1 · Utilización de las unidades del Sistema Internacional y sus símbolos para facilitar la…",
+      "definition": "Utilización de las unidades del Sistema Internacional y sus símbolos para facilitar la comunicación efectiva con toda la comunidad científica.",
+      "broader": "sb:SFYQ03SBI.5",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBI.5.2",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBI.5.2",
+      "prefLabel": "SFYQ03SBI.5.2 · Manejo de las herramientas matemáticas básicas para la resolución de problemas.",
+      "definition": "Manejo de las herramientas matemáticas básicas para la resolución de problemas.",
+      "broader": "sb:SFYQ03SBI.5",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBI.6",
+      "prefLabel": "SFYQ03SBI.6 · Utilización de estrategias de interpretación, producción y comunicación de información…",
+      "definition": "Utilización de estrategias de interpretación, producción y comunicación de información científica en diferentes formatos y a partir de diferentes medios. Desarrollo del criterio propio basado en lo que el pensamiento científico aporta a la mejora de la sociedad para hacerla más justa, equitativa e igualitaria.",
+      "broader": "sb:SFYQ03SBI",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBI.7",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBI.7",
+      "prefLabel": "SFYQ03SBI.7 · Diversidad social, etnocultural y de género.",
+      "definition": "Diversidad social, etnocultural y de género.",
+      "broader": "sb:SFYQ03SBI",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBII.1",
+      "prefLabel": "SFYQ03SBII.1 · Realización de experimentos relacionados con los sistemas materiales para explicar lo que…",
+      "definition": "Realización de experimentos relacionados con los sistemas materiales para explicar lo que ocurre a su alrededor.",
+      "broader": "sb:SFYQ03SBII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBII.1.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBII.1.1",
+      "prefLabel": "SFYQ03SBII.1.1 · Conocimiento y descripción de las propiedades de los sistemas materiales, su composición…",
+      "definition": "Conocimiento y descripción de las propiedades de los sistemas materiales, su composición y su clasificación para la comprensión de su entorno.",
+      "broader": "sb:SFYQ03SBII.1",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBII.2",
+      "prefLabel": "SFYQ03SBII.2 · Desarrollo histórico de los modelos atómicos, formación de iones, existencia y…",
+      "definition": "Desarrollo histórico de los modelos atómicos, formación de iones, existencia y propiedades de los isótopos y ordenación de los elementos más comunes en la tabla periódica deduciendo el comportamiento análogo de una familia o grupo.",
+      "broader": "sb:SFYQ03SBII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBII.3",
+      "prefLabel": "SFYQ03SBII.3 · Explicación de la formación, mediante enlaces, de los principales compuestos químicos…",
+      "definition": "Explicación de la formación, mediante enlaces, de los principales compuestos químicos para deducir sus propiedades físicas y químicas.",
+      "broader": "sb:SFYQ03SBII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBII.3.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBII.3.1",
+      "prefLabel": "SFYQ03SBII.3.1 · Interpretación y cálculos de masa atómica y masa molecular para relacionarlos con los…",
+      "definition": "Interpretación y cálculos de masa atómica y masa molecular para relacionarlos con los valores de las masas de sustancias sencillas en la vida cotidiana.",
+      "broader": "sb:SFYQ03SBII.3",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBII.4",
+      "prefLabel": "SFYQ03SBII.4 · Nomenclatura inorgánica: denominación de sustancias simples, iones monoatómicos…",
+      "definition": "Nomenclatura inorgánica: denominación de sustancias simples, iones monoatómicos introduciendo el número de carga y compuestos binarios mediante las reglas de nomenclatura de la IUPAC, preferiblemente con la nomenclatura de composición usando prefijos multiplicadores para indicar las proporciones de los constituyentes, para reconocer el carácter universal y transversal del lenguaje científico.",
+      "broader": "sb:SFYQ03SBII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBIII.1",
+      "prefLabel": "SFYQ03SBIII.1 · Análisis de los diferentes tipos de cambios que experimentan los sistemas materiales,…",
+      "definition": "Análisis de los diferentes tipos de cambios que experimentan los sistemas materiales, para relacionar las causas que los producen con las consecuencias que tienen.",
+      "broader": "sb:SFYQ03SBIII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBIII.2",
+      "prefLabel": "SFYQ03SBIII.2 · Diferenciación entre reactivos y productos en una reacción química y realización de…",
+      "definition": "Diferenciación entre reactivos y productos en una reacción química y realización de cálculos estequiométricos sencillos para una interpretación macroscópica y microscópica de las mismas. Explicación de las relaciones de la química con el medioambiente, la tecnología y la sociedad.",
+      "broader": "sb:SFYQ03SBIII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBIII.3",
+      "prefLabel": "SFYQ03SBIII.3 · Interpretación del territorio y del paisaje.",
+      "definition": "Interpretación del territorio y del paisaje.",
+      "broader": "sb:SFYQ03SBIII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBIII.4",
+      "prefLabel": "SFYQ03SBIII.4 · Predicción cualitativa de la evolución de las reacciones químicas según los factores que…",
+      "definition": "Predicción cualitativa de la evolución de las reacciones químicas según los factores que influyen en su velocidad y su importancia en la resolución de problemas actuales por parte de la ciencia.",
+      "broader": "sb:SFYQ03SBIII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBIV.1",
+      "prefLabel": "SFYQ03SBIV.1 · Predicción y comprobación de movimientos rectilíneos sencillos a partir de los conceptos…",
+      "definition": "Predicción y comprobación de movimientos rectilíneos sencillos a partir de los conceptos de la cinemática, formulando hipótesis comprobables sobre valores futuros de estas magnitudes, validándolas a través del cálculo numérico, la interpretación de gráficas o el trabajo experimental, que permitan entender situaciones cotidianas.",
+      "broader": "sb:SFYQ03SBIV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBIV.2",
+      "prefLabel": "SFYQ03SBIV.2 · Relación y justificación de los efectos de las fuerzas, especialmente la fuerza de…",
+      "definition": "Relación y justificación de los efectos de las fuerzas, especialmente la fuerza de rozamiento, tanto en el estado de movimiento o de reposo de un cuerpo como produciendo deformaciones en los sistemas sobre los que actúan.",
+      "broader": "sb:SFYQ03SBIV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBIV.3",
+      "prefLabel": "SFYQ03SBIV.3 · Interpretación del territorio y del paisaje.",
+      "definition": "Interpretación del territorio y del paisaje.",
+      "broader": "sb:SFYQ03SBIV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBV.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBV.1",
+      "prefLabel": "SFYQ03SBV.1 · Formulación de hipótesis y resolución de cuestiones sobre la energía, las propiedades y…",
+      "definition": "Formulación de hipótesis y resolución de cuestiones sobre la energía, las propiedades y las manifestaciones que la describen como la causa de todos los procesos de cambio.",
+      "broader": "sb:SFYQ03SBV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBV.2",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBV.2",
+      "prefLabel": "SFYQ03SBV.2 · Diseño y comprobación experimental de hipótesis relacionadas con el uso doméstico e…",
+      "definition": "Diseño y comprobación experimental de hipótesis relacionadas con el uso doméstico e industrial de la energía en sus distintas formas y las transformaciones entre ellas.",
+      "broader": "sb:SFYQ03SBV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBV.3",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBV.3",
+      "prefLabel": "SFYQ03SBV.3 · Reconocimiento de la naturaleza eléctrica de la materia, identificación de los elementos…",
+      "definition": "Reconocimiento de la naturaleza eléctrica de la materia, identificación de los elementos más habituales de los circuitos eléctricos y su función.",
+      "broader": "sb:SFYQ03SBV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ03SBV.4",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ03SBV.4",
+      "prefLabel": "SFYQ03SBV.4 · Las transformaciones científicas y tecnológicas.",
+      "definition": "Las transformaciones científicas y tecnológicas.",
+      "broader": "sb:SFYQ03SBV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBI.1",
+      "prefLabel": "SFYQ04SBI.1 · Empleo de las metodologías propias de la investigación científica para desarrollar…",
+      "definition": "Empleo de las metodologías propias de la investigación científica para desarrollar razonamientos propios del pensamiento científico. Identificación de un problema, formulación de cuestiones, elaboración de hipótesis y comprobación experimental de las mismas.",
+      "broader": "sb:SFYQ04SBI",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBI.2",
+      "prefLabel": "SFYQ04SBI.2 · Trabajo experimental y proyectos de investigación: selección de estrategias de resolución…",
+      "definition": "Trabajo experimental y proyectos de investigación: selección de estrategias de resolución de problemas y del tratamiento del error mediante la indagación, la deducción, la búsqueda de evidencias y el razonamiento lógico-matemático, haciendo inferencias válidas de las observaciones y obteniendo conclusiones que vayan más allá de las condiciones experimentales para aplicarlas a nuevos escenarios.",
+      "broader": "sb:SFYQ04SBI",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBI.3",
+      "prefLabel": "SFYQ04SBI.3 · Conocimiento y utilización de diversos entornos y recursos de aprendizaje científico como…",
+      "definition": "Conocimiento y utilización de diversos entornos y recursos de aprendizaje científico como el laboratorio o los entornos virtuales para mejorar las destrezas científicas.",
+      "broader": "sb:SFYQ04SBI",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBI.3.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBI.3.1",
+      "prefLabel": "SFYQ04SBI.3.1 · Uso de materiales, sustancias e instrumentos básicos del laboratorio de Física y Química.",
+      "definition": "Uso de materiales, sustancias e instrumentos básicos del laboratorio de Física y Química.",
+      "broader": "sb:SFYQ04SBI.3",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBI.3.2",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBI.3.2",
+      "prefLabel": "SFYQ04SBI.3.2 · Manejo de herramientas digitales como apoyo al trabajo experimental y la investigación.",
+      "definition": "Manejo de herramientas digitales como apoyo al trabajo experimental y la investigación.",
+      "broader": "sb:SFYQ04SBI.3",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBI.4",
+      "prefLabel": "SFYQ04SBI.4 · Aplicación de las normas de uso de los espacios específicos de la ciencia y en especial…",
+      "definition": "Aplicación de las normas de uso de los espacios específicos de la ciencia y en especial del laboratorio de Física y Química, asegurando y protegiendo así la salud propia y comunitaria, la seguridad en las redes y el respeto hacia el medioambiente.",
+      "broader": "sb:SFYQ04SBI",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBI.5",
+      "prefLabel": "SFYQ04SBI.5 · Reconocimiento del carácter universal y transversal del lenguaje científico en diferentes…",
+      "definition": "Reconocimiento del carácter universal y transversal del lenguaje científico en diferentes escenarios científicos y de aprendizaje.",
+      "broader": "sb:SFYQ04SBI",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBI.5.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBI.5.1",
+      "prefLabel": "SFYQ04SBI.5.1 · Manejo adecuado de distintos sistemas de unidades y sus símbolos para facilitar la…",
+      "definition": "Manejo adecuado de distintos sistemas de unidades y sus símbolos para facilitar la comunicación efectiva con toda la comunidad científica.",
+      "broader": "sb:SFYQ04SBI.5",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBI.5.2",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBI.5.2",
+      "prefLabel": "SFYQ04SBI.5.2 · Aplicación de las herramientas matemáticas adecuadas para la correcta resolución de…",
+      "definition": "Aplicación de las herramientas matemáticas adecuadas para la correcta resolución de problemas.",
+      "broader": "sb:SFYQ04SBI.5",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBI.6",
+      "prefLabel": "SFYQ04SBI.6 · Selección y utilización de estrategias de interpretación, producción y comunicación de…",
+      "definition": "Selección y utilización de estrategias de interpretación, producción y comunicación de información científica en diferentes formatos y a partir de diferentes medios. Desarrollo del criterio propio basado en lo que el pensamiento científico aporta a la mejora de la sociedad para hacerla más justa, equitativa e igualitaria.",
+      "broader": "sb:SFYQ04SBI",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBI.7",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBI.7",
+      "prefLabel": "SFYQ04SBI.7 · Valoración de la cultura científica y del papel de científicos y científicas en los…",
+      "definition": "Valoración de la cultura científica y del papel de científicos y científicas en los principales hitos históricos y actuales de la física y la química en el avance y la mejora de la sociedad.",
+      "broader": "sb:SFYQ04SBI",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBII.1",
+      "prefLabel": "SFYQ04SBII.1 · Resolución de problemas y situaciones de aprendizaje diversas sobre las disoluciones y…",
+      "definition": "Resolución de problemas y situaciones de aprendizaje diversas sobre las disoluciones y los gases, entre otros sistemas materiales significativos para encontrar soluciones que mejoren su realidad cercana.",
+      "broader": "sb:SFYQ04SBII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBII.2",
+      "prefLabel": "SFYQ04SBII.2 · Desarrollo histórico de los principales modelos atómicos clásicos y cuánticos y…",
+      "definition": "Desarrollo histórico de los principales modelos atómicos clásicos y cuánticos y descripción de las partículas subatómicas, estableciendo su relación con los avances de la física y la química.",
+      "broader": "sb:SFYQ04SBII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBII.3",
+      "prefLabel": "SFYQ04SBII.3 · Relación de la configuración electrónica de un átomo con la posición del mismo en la…",
+      "definition": "Relación de la configuración electrónica de un átomo con la posición del mismo en la tabla periódica para deducir sus propiedades fisicoquímicas.",
+      "broader": "sb:SFYQ04SBII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBII.4",
+      "prefLabel": "SFYQ04SBII.4 · Explicación de la formación, mediante enlaces iónicos, covalentes y metálicos, de los…",
+      "definition": "Explicación de la formación, mediante enlaces iónicos, covalentes y metálicos, de los compuestos químicos, para deducir sus propiedades físicas y químicas.",
+      "broader": "sb:SFYQ04SBII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBII.4.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBII.4.1",
+      "prefLabel": "SFYQ04SBII.4.1 · Valoración de su utilidad e importancia en otros campos, como la ingeniería o el deporte.",
+      "definition": "Valoración de su utilidad e importancia en otros campos, como la ingeniería o el deporte.",
+      "broader": "sb:SFYQ04SBII.4",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBII.5",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBII.5",
+      "prefLabel": "SFYQ04SBII.5 · Cálculo del número de moles de sistemas materiales de diferente naturaleza, manejando con…",
+      "definition": "Cálculo del número de moles de sistemas materiales de diferente naturaleza, manejando con soltura las diferentes formas de medida y expresión de la misma en el entorno científico.",
+      "broader": "sb:SFYQ04SBII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBII.6",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBII.6",
+      "prefLabel": "SFYQ04SBII.6 · Nomenclatura inorgánica: denominación de sustancias simples, iones y compuestos químicos…",
+      "definition": "Nomenclatura inorgánica: denominación de sustancias simples, iones y compuestos químicos binarios y ternarios mediante las normas de la IUPAC, preferiblemente con la nomenclatura de composición. Introducción del concepto de estado de oxidación relacionándolo con su posición en la tabla periódica.",
+      "broader": "sb:SFYQ04SBII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBII.7",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBII.7",
+      "prefLabel": "SFYQ04SBII.7 · Introducción a la nomenclatura orgánica: denominación de compuestos orgánicos…",
+      "definition": "Introducción a la nomenclatura orgánica: denominación de compuestos orgánicos monofuncionales a partir de las normas de la IUPAC como base para entender la gran variedad de compuestos del entorno basados en el carbono.",
+      "broader": "sb:SFYQ04SBII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBIII.1",
+      "prefLabel": "SFYQ04SBIII.1 · Ajuste de reacciones químicas e interpretación de los coeficientes estequiométricos.…",
+      "definition": "Ajuste de reacciones químicas e interpretación de los coeficientes estequiométricos. Realización de predicciones cualitativas y cuantitativas basadas en la estequiometría, con reactivos puros y suponiendo un rendimiento completo de la reacción, relacionándolas con procesos fisicoquímicos de la industria, el medioambiente y la sociedad para reconocer su importancia.",
+      "broader": "sb:SFYQ04SBIII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBIII.2",
+      "prefLabel": "SFYQ04SBIII.2 · Descripción cualitativa de reacciones químicas de interés, síntesis, combustión,…",
+      "definition": "Descripción cualitativa de reacciones químicas de interés, síntesis, combustión, neutralización y procesos electroquímicos sencillos, valorando las implicaciones que tienen en la tecnología, la sociedad o el medioambiente.",
+      "broader": "sb:SFYQ04SBIII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBIII.3",
+      "prefLabel": "SFYQ04SBIII.3 · Aplicación de los modelos, como la teoría de colisiones, para comprender cómo ocurre la…",
+      "definition": "Aplicación de los modelos, como la teoría de colisiones, para comprender cómo ocurre la reordenación de los átomos en las reacciones químicas. Realización de predicciones en los procesos químicos cotidianos más importantes. Determinación experimental de los factores de los que depende la velocidad de una reacción para predecir su evolución.",
+      "broader": "sb:SFYQ04SBIII",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBIV.1",
+      "prefLabel": "SFYQ04SBIV.1 · Predicción y comprobación, utilizando la experimentación y el razonamiento matemático, de…",
+      "definition": "Predicción y comprobación, utilizando la experimentación y el razonamiento matemático, de las principales magnitudes, ecuaciones y gráficas que describen movimientos rectilíneos de un cuerpo e interpretación de las magnitudes del movimiento circular uniforme para poder establecer relaciones con situaciones cotidianas y en la mejora de la calidad de vida.",
+      "broader": "sb:SFYQ04SBIV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBIV.2",
+      "prefLabel": "SFYQ04SBIV.2 · Análisis y justificación del principio fundamental de la física y sus aplicaciones a…",
+      "definition": "Análisis y justificación del principio fundamental de la física y sus aplicaciones a otros campos como el diseño, el deporte o la ingeniería.",
+      "broader": "sb:SFYQ04SBIV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBIV.3",
+      "prefLabel": "SFYQ04SBIV.3 · Uso del álgebra vectorial básica para la realización gráfica y numérica de operaciones…",
+      "definition": "Uso del álgebra vectorial básica para la realización gráfica y numérica de operaciones con fuerzas y su aplicación a la resolución de problemas relacionados con sistemas sometidos a conjuntos de fuerzas, valorando su importancia en situaciones cotidianas.",
+      "broader": "sb:SFYQ04SBIV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBIV.4",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBIV.4",
+      "prefLabel": "SFYQ04SBIV.4 · Identificación del peso, la normal, el rozamiento, la tensión o el empuje, así como su…",
+      "definition": "Identificación del peso, la normal, el rozamiento, la tensión o el empuje, así como su uso para explicar fenómenos físicos en distintos escenarios.",
+      "broader": "sb:SFYQ04SBIV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBIV.5",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBIV.5",
+      "prefLabel": "SFYQ04SBIV.5 · Reconocimiento y utilización de ley de la gravitación universal para explicar las fuerzas…",
+      "definition": "Reconocimiento y utilización de ley de la gravitación universal para explicar las fuerzas de atracción y el movimiento entre los cuerpos que componen el universo. Valoración de la contribución del IAC al campo de la astrofísica en Canarias.",
+      "broader": "sb:SFYQ04SBIV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBIV.6",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBIV.6",
+      "prefLabel": "SFYQ04SBIV.6 · Diseño y realización de experiencias que pongan de manifiesto los efectos de los…",
+      "definition": "Diseño y realización de experiencias que pongan de manifiesto los efectos de los principios fundamentales que describen las fuerzas y la presión sobre los líquidos y los gases.",
+      "broader": "sb:SFYQ04SBIV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBV.1",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBV.1",
+      "prefLabel": "SFYQ04SBV.1 · Formulación y comprobación de hipótesis sobre las distintas formas y aplicaciones de la…",
+      "definition": "Formulación y comprobación de hipótesis sobre las distintas formas y aplicaciones de la energía. Aplicación del principio de conservación de la energía mecánica para explicar algunos procesos de la vida cotidiana y para la resolución de ejercicios numéricos sencillos.",
+      "broader": "sb:SFYQ04SBV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBV.2",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBV.2",
+      "prefLabel": "SFYQ04SBV.2 · Identificación del trabajo y el calor como formas de transferencia de energía entre…",
+      "definition": "Identificación del trabajo y el calor como formas de transferencia de energía entre sistemas relacionados con las fuerzas o la diferencia de temperatura.",
+      "broader": "sb:SFYQ04SBV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBV.3",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBV.3",
+      "prefLabel": "SFYQ04SBV.3 · Análisis de la luz y el sonido para su interpretación como ondas que transfieren energía.",
+      "definition": "Análisis de la luz y el sonido para su interpretación como ondas que transfieren energía.",
+      "broader": "sb:SFYQ04SBV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SFYQ04SBV.4",
+      "tipo": "SaberBasico",
+      "notation": "SFYQ04SBV.4",
+      "prefLabel": "SFYQ04SBV.4 · Estimación de la energía consumida en la vida cotidiana mediante la búsqueda de…",
+      "definition": "Estimación de la energía consumida en la vida cotidiana mediante la búsqueda de información contrastada, la experimentación y el razonamiento científico, comprendiendo la importancia de la energía en la sociedad, su producción y su uso responsable. Valoración de la conveniencia del ahorro energético, así como de la diversificación de las fuentes de energía y su repercusión a escala mundial y, en particular, en Canarias.",
+      "broader": "sb:SFYQ04SBV",
+      "materia": "materia:SFYQ",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    }
+  ]
+}

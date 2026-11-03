@@ -1,0 +1,929 @@
+{
+  "materia": "materia:BBIL",
+  "nodos": [
+    {
+      "id": "materia:BBIL",
+      "tipo": "Materia",
+      "notation": "BBIL",
+      "prefLabel": "Biología Humana (Bachillerato)",
+      "cursos": [
+        "curso:B02"
+      ],
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BBILC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BBILC1",
+      "prefLabel": "BBILC1 · Interpretar y comunicar información y datos a partir de trabajos científicos y argumentar…",
+      "definition": "Interpretar y comunicar información y datos a partir de trabajos científicos y argumentar sobre estos con precisión utilizando diferentes formatos para analizar conceptos, procesos, métodos, experimentos o resultados de la biología humana.",
+      "broader": "materia:BBIL",
+      "materia": "materia:BBIL",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BBILC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BBILC2",
+      "prefLabel": "BBILC2 · Localizar y utilizar fuentes fiables identificando, seleccionando y organizando la…",
+      "definition": "Localizar y utilizar fuentes fiables identificando, seleccionando y organizando la información, evaluándola críticamente y contrastando su veracidad, para resolver preguntas planteadas de forma autónoma y crear contenidos relacionados con la biología humana.",
+      "broader": "materia:BBIL",
+      "materia": "materia:BBIL",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BBILC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BBILC3",
+      "prefLabel": "BBILC3 · Diseñar, planear y desarrollar proyectos de investigación sobre aspectos relacionados…",
+      "definition": "Diseñar, planear y desarrollar proyectos de investigación sobre aspectos relacionados con la biología humana siguiendo los pasos de las metodologías científicas, teniendo en cuenta los recursos disponibles de forma realista y buscando vías de colaboración con otros agentes vinculados al campo de la salud.",
+      "broader": "materia:BBIL",
+      "materia": "materia:BBIL",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BBILC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BBILC4",
+      "prefLabel": "BBILC4 · Analizar críticamente determinadas acciones relacionadas con la salud, basándose en los…",
+      "definition": "Analizar críticamente determinadas acciones relacionadas con la salud, basándose en los fundamentos de la biología humana, para argumentar la importancia de diseñar e implementar un plan de vida saludable.",
+      "broader": "materia:BBIL",
+      "materia": "materia:BBIL",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BBILC5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BBILC5",
+      "prefLabel": "BBILC5 · Investigar y debatir sobre las consecuencias de los avances científicos en el campo de la…",
+      "definition": "Investigar y debatir sobre las consecuencias de los avances científicos en el campo de la medicina en la salud individual y colectiva y analizar sus efectos e influencia sobre el planeta y el resto de seres vivos para adoptar estilos de vida sostenibles respetuosos con el medioambiente.",
+      "broader": "materia:BBIL",
+      "materia": "materia:BBIL",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BBIL02BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "BBIL02BC1",
+      "prefLabel": "Biología Humana · 2º Bachillerato · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de interpretar y analizar críticamente conceptos, procesos, métodos y experimentos de la biología humana relacionados con los distintos bloques de saberes básicos a partir de información y datos en diferentes formatos (imágenes, microfotografías, modelos, gráficos, tablas, diagramas, fórmulas, esquemas u otros) y lenguas, obtenidos de trabajos y publicaciones científicas accesibles a través de internet. También, se quiere evaluar si expresa sus opiniones e intercambia información relevante de la forma más eficiente y sencilla posible, apoyándose para ello en las tecnologías digitales, comunicándola con creatividad, de forma clara, rigurosa y haciendo uso de la terminología y el formato adecuados (modelos, gráficos, tablas, vídeos, informes, diagramas, fórmulas, esquemas, símbolos o contenidos digitales, entre otros), respondiendo de manera fundamentada y precisa a las cuestiones que se le planteen. Por último, se verificará que es capaz de argumentar sobre aspectos relacionados con los saberes de la materia, considerando los puntos fuertes y débiles de diferentes posturas y defendiendo la suya de forma fundamentada, participando en diferentes interacciones comunicativas (debates, exposiciones, discusiones, mesas redondas, etc.) con actitud empática y colaborativa, abierta, flexible, receptiva y respetuosa ante la opinión de las demás personas y afrontando con actitud dialogante la pluralidad de valores e ideas. Todo ello, con la finalidad de que el alumnado comprenda que la comunicación científica requiere movilizar no solo las destrezas lingüísticas, sino también las matemáticas, las digitales y el razonamiento lógico y, además, que valore la importancia que tiene la comunicación para la colaboración y la difusión del conocimiento, contribuyendo a acelerar considerablemente los avances y descubrimientos.",
+      "broader": "materia:BBIL",
+      "agrupa": [
+        "ce:BBILC1"
+      ],
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "CP2",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CPSAA4",
+        "CCL1",
+        "CD3",
+        "CC3",
+        "CCEC3.2",
+        "CCL5"
+      ],
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BBIL02BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "BBIL02BC2",
+      "prefLabel": "Biología Humana · 2º Bachillerato · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado plantea y resuelve preguntas de forma autónoma y crea contenidos, individual o colectivamente, relacionados con cualquiera de los saberes básicos de la materia, mediante la localización, identificación, selección y organización de información de tipo científico procedente de fuentes variadas que le permitan enriquecer su repertorio lingüístico individual (trabajos y revistas científicas, páginas web, vídeos, foros especializados, etc.) y la posterior comunicación oral, escrita, signada o multimodal de conclusiones, en diferentes formatos y soportes, haciendo un uso crítico, legal, seguro, saludable y sostenible de las tecnologías digitales, referenciando las fuentes y respetando los derechos de autoría, además de emplear un correcto uso del lenguaje científico. También, se quiere verificar si contrasta la veracidad de la información encontrada, utilizando estrategias que le permitan evaluar de forma crítica la fiabilidad de las fuentes y evitar los riesgos de manipulación y desinformación, gestionando de manera responsable sus acciones, presencia y visibilidad en la red y con una actitud rigurosa y escéptica hacia informaciones sin una base científica. Todo ello, con el fin de potenciar en el alumnado tanto el sentido crítico para seleccionar las fuentes, cribar la información y quedarse con la que resulte relevante de acuerdo al fin propuesto.",
+      "broader": "materia:BBIL",
+      "agrupa": [
+        "ce:BBILC2"
+      ],
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "CP2",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD4",
+        "CPSAA4",
+        "CC3"
+      ],
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BBIL02BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "BBIL02BC3",
+      "prefLabel": "Biología Humana · 2º Bachillerato · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de diseñar, planear y realizar proyectos de investigación relacionando los avances de la medicina (prevención, diagnóstico y tratamiento de enfermedades) con la función vital correspondiente, de forma cooperativa que incluyan un plan de búsqueda, contraste y análisis de diversos tipos de información procedente de fuentes variadas; así como la selección de instrumentos, herramientas o técnicas adecuadas. Además, se evaluará si el alumnado aplica las destrezas y procedimientos esenciales de las metodologías científicas, dentro y fuera del laboratorio, como el planteamiento de preguntas, la formulación y el contraste de hipótesis, la toma de datos cuantitativos y cualitativos, la interpretación, análisis y comunicación de resultados o la reformulación de los procedimientos, en caso necesario, para indagar y explicar diferentes aspectos del campo de la biología humana y de la medicina relacionados con todos los bloques de saberes básicos de la materia, aportando soluciones a problemas y aceptando y respondiendo adecuadamente ante la incertidumbre. También, se quiere constatar que el alumnado desarrolla actitudes propias del trabajo científico como el rigor, la precisión, la objetividad, la autodisciplina, el cuestionamiento de lo obvio, la creatividad, la curiosidad, el espíritu emprendedor, la resiliencia… y que hace un uso correcto del vocabulario científico y de las herramientas tecnológicas a la hora de comunicar las conclusiones o crear y compartir contenidos, aplicando medidas de seguridad y respetando, en todo momento, los derechos de autoría digital. Por último, se pretende evaluar si el alumnado valora la importancia del trabajo cooperativo en la investigación y si establece colaboraciones dentro y fuera del centro educativo en las distintas fases del proyecto, evaluando su desempeño individual y el de sus iguales, desde la fase de diseño hasta la ejecución definitiva (tiempos, objetivos, secuencia de acciones, reparto de roles, normas de funcionamiento del grupo, etc.), respetando la diversidad y favoreciendo la inclusión.",
+      "broader": "materia:BBIL",
+      "agrupa": [
+        "ce:BBILC3"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "CCL5",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD1",
+        "CD2",
+        "CE3",
+        "STEM4",
+        "CD3",
+        "CPSAA3.2"
+      ],
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BBIL02BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "BBIL02BC4",
+      "prefLabel": "Biología Humana · 2º Bachillerato · bloque competencial C4",
+      "scopeNote": "Mediante este bloque competencial se pretende evaluar si el alumnado es capaz de analizar la relación entre el correcto equilibrio del organismo y determinadas conductas de la vida cotidiana, trabajando de forma colaborativa en equipos diversos, aplicando habilidades de coordinación, comunicación, emprendimiento y reparto equilibrado de responsabilidades, para planear y emprender acciones fundamentadas científicamente que promuevan el bienestar físico y mental propio y de las demás personas, buscando y ofreciendo apoyo a la sociedad para construir un mundo más saludable. Además, se evaluará si el alumnado identifica las conductas de riesgo (adicciones con y sin sustancia, relaciones sexuales sin protección, trastornos alimenticios, conductas antisociales,…) y es capaz de reconocer las medidas de prevención necesarias para incluir recomendaciones (necesidad de actividad física, vigilancia de las posturas inadecuadas, rechazo al uso de drogas, al consumo de suplementos alimenticios innecesarios, necesidad de revisiones médicas periódicas…), con el fin de defender de manera argumentada, con juicio propio, la necesidad de diseñar e implementar un plan de vida saludable y de emprender acciones, personales y colectivas, y de esta manera, contribuir a la construcción de una sociedad más sana, justa y solidaria.",
+      "broader": "materia:BBIL",
+      "agrupa": [
+        "ce:BBILC4"
+      ],
+      "descriptores": [
+        "STEM2",
+        "STEM5",
+        "CPSAA2",
+        "CC3",
+        "CE1",
+        "CCL1",
+        "CCL3",
+        "CD4",
+        "CC4"
+      ],
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BBIL02BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "BBIL02BC5",
+      "prefLabel": "Biología Humana · 2º Bachillerato · bloque competencial C5",
+      "scopeNote": "El valor de esta competencia específica radica en la necesidad urgente de que la sociedad adopte un modelo de desarrollo sostenible afrontando uno de los mayores y más importantes retos a los que se enfrenta la humanidad actualmente. Para poder hacer realidad este ambicioso objetivo es necesario que se alcance una comprensión profunda del funcionamiento de los sistemas biológicos y su interrelación. El enfoque de una sola salud (One health) con el que trabajan diferentes organizaciones internacionales (FAO, OMS …) defiende que es imprescindible prevenir, detectar y responder eficazmente a los desafíos de salud que surgen de las relaciones entre las personas, los seres vivos y el medioambiente. Analizando las relaciones de interdependencia y ecodependencia con el resto de los seres vivos y el entorno se fomentarán actitudes responsables y se adoptarán estilos de vida sostenibles, encaminados no solo a la conservación del medioambiente sino a la mejora de la salud necesaria para alcanzar el bienestar físico y mental tanto a nivel individual como colectivo. Por otro lado, se pretende que el alumnado sea capaz de valorar los beneficios aportados por los avances médicos, como las terapias avanzadas (terapias genéticas, terapias celulares, ingeniería tisular y terapias combinadas) o los métodos de diagnóstico, pero sin dejar de cuestionar los costes de carácter ambiental y social que generan, además, de tomar conciencia de la importancia del autocuidado y la autorresponsabilidad para proponer y adoptar estilos de vida sostenibles y saludables con el fin de convertirse en agentes activos y promotores de la difusión del pensamiento científico y de la preservación del medioambiente y la salud pública, contribuyendo así al logro de los Objetivos de Desarrollo Sostenible concretados en la Agenda Canaria de Desarrollo Sostenible 2030.",
+      "broader": "materia:BBIL",
+      "agrupa": [
+        "ce:BBILC5"
+      ],
+      "descriptores": [
+        "CCL5",
+        "STEM2",
+        "CPSAA2",
+        "CC4",
+        "CE3",
+        "CCL1",
+        "STEM4",
+        "STEM5",
+        "CPSAA5",
+        "CC3",
+        "STEM3"
+      ],
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BBIL02CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BBIL02CE1.1",
+      "prefLabel": "BBIL02CE1.1 · Analizar críticamente conceptos y procesos propios de la biología humana, seleccionando e…",
+      "definition": "Analizar críticamente conceptos y procesos propios de la biología humana, seleccionando e interpretando información a partir de trabajos científicos y en diferentes formatos para, utilizando el pensamiento científico, obtener conclusiones lógicas valorando la fiabilidad de las fuentes.",
+      "broader": "ce:BBILC1",
+      "bloque": "bc:BBIL02BC1",
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "CP2",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CPSAA4"
+      ],
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BBIL02CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BBIL02CE1.2",
+      "prefLabel": "BBIL02CE1.2 · Comunicar informaciones u opiniones razonadas relacionadas con los saberes de la materia,…",
+      "definition": "Comunicar informaciones u opiniones razonadas relacionadas con los saberes de la materia, transmitiéndolas de forma clara y rigurosa, utilizando la terminología y el formato adecuados y respondiendo de manera fundamentada y precisa a las cuestiones que puedan surgir durante el proceso, con el objetivo de expresar y transmitir conocimientos biológicos en diferentes situaciones grupales con iniciativa, imaginación y creatividad.",
+      "broader": "ce:BBILC1",
+      "bloque": "bc:BBIL02BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM2",
+        "STEM4",
+        "CD3",
+        "CC3",
+        "CCEC3.2"
+      ],
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BBIL02CE1.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BBIL02CE1.3",
+      "prefLabel": "BBIL02CE1.3 · Argumentar sobre aspectos relacionados con la biología humana , considerando los puntos…",
+      "definition": "Argumentar sobre aspectos relacionados con la biología humana , considerando los puntos fuertes y débiles de diferentes posturas de forma razonada, con el fin de participar en interacciones comunicativas, valorando la importancia de mantener una actitud abierta, flexible, receptiva y respetuosa de las demás personas.",
+      "broader": "ce:BBILC1",
+      "bloque": "bc:BBIL02BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL5",
+        "STEM2",
+        "CPSAA4",
+        "CC3",
+        "CCEC3.2"
+      ],
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BBIL02CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BBIL02CE2.1",
+      "prefLabel": "BBIL02CE2.1 · Plantear y resolver cuestiones y crear contenidos relacionados con los diferentes campos…",
+      "definition": "Plantear y resolver cuestiones y crear contenidos relacionados con los diferentes campos de estudio de la biología humana, localizando y citando fuentes de forma adecuada y seleccionando, organizando y analizando de forma crítica la información para poder adoptar un juicio propio y argumentado ante problemas de actualidad, reutilizar la información y generar nuevos conocimientos.",
+      "broader": "ce:BBILC2",
+      "bloque": "bc:BBIL02BC2",
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "CP2",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD4",
+        "CPSAA4"
+      ],
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BBIL02CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BBIL02CE2.2",
+      "prefLabel": "BBIL02CE2.2 · Evaluar, contrastar y justificar la veracidad de información relacionada con la materia,…",
+      "definition": "Evaluar, contrastar y justificar la veracidad de información relacionada con la materia, utilizando fuentes fiables y aportando datos con rigor y coherencia, con el fin de adoptar una actitud crítica y escéptica hacia informaciones sin una base científica.",
+      "broader": "ce:BBILC2",
+      "bloque": "bc:BBIL02BC2",
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "CP2",
+        "STEM4",
+        "CD1",
+        "CD3",
+        "CD4",
+        "CPSAA4",
+        "CC3"
+      ],
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BBIL02CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BBIL02CE3.1",
+      "prefLabel": "BBIL02CE3.1 · Diseñar, planear y desarrollar proyectos de investigación relacionando los avances de la…",
+      "definition": "Diseñar, planear y desarrollar proyectos de investigación relacionando los avances de la medicina (prevención, diagnóstico y tratamiento de enfermedades) con la función vital correspondiente, aplicando los conocimientos y habilidades del trabajo científico dentro y fuera del laboratorio, así como las estrategias apropiadas para el análisis y la toma de datos cuantitativos y cualitativos, utilizando las técnicas adecuadas con precisión, para poder dar respuesta a preguntas concretas contrastando las hipótesis previas y reformulando el procedimiento, si fuera necesario.",
+      "broader": "ce:BBILC3",
+      "bloque": "bc:BBIL02BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "CCL5",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD1",
+        "CD2",
+        "CE3"
+      ],
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BBIL02CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BBIL02CE3.2",
+      "prefLabel": "BBIL02CE3.2 · Interpretar, analizar y comunicar los resultados obtenidos en proyectos de investigación,…",
+      "definition": "Interpretar, analizar y comunicar los resultados obtenidos en proyectos de investigación, utilizando el vocabulario científico y, cuando sea necesario, herramientas matemáticas y tecnológicas, reconociendo su alcance y limitaciones, y obteniendo conclusiones razonadas y fundamentadas o valorando la imposibilidad de hacerlo, con el fin de reflexionar sobre el método científico aplicado y argumentar o defender su validez y resultados.",
+      "broader": "ce:BBILC3",
+      "bloque": "bc:BBIL02BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "CD2",
+        "CD3"
+      ],
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BBIL02CE3.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BBIL02CE3.3",
+      "prefLabel": "BBIL02CE3.3 · Establecer colaboraciones dentro y fuera del centro educativo en las distintas fases del…",
+      "definition": "Establecer colaboraciones dentro y fuera del centro educativo en las distintas fases del proyecto científico con el fin de trabajar con mayor eficiencia, utilizando las herramientas tecnológicas adecuadas, valorando la importancia de la cooperación en la investigación, respetando la diversidad y favoreciendo la inclusión.",
+      "broader": "ce:BBILC3",
+      "bloque": "bc:BBIL02BC3",
+      "descriptores": [
+        "CCL5",
+        "STEM3",
+        "CD3",
+        "CPSAA3.2"
+      ],
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BBIL02CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BBIL02CE4.1",
+      "prefLabel": "BBIL02CE4.1 · Analizar la relación existente entre el correcto equilibrio y funcionamiento de los…",
+      "definition": "Analizar la relación existente entre el correcto equilibrio y funcionamiento de los diferentes aparatos y sistemas y los estilos de vida saludables para proponer y adoptar una actitud responsable con el mantenimiento de la salud, tanto individual como colectiva.",
+      "broader": "ce:BBILC4",
+      "bloque": "bc:BBIL02BC4",
+      "descriptores": [
+        "STEM2",
+        "STEM5",
+        "CPSAA2",
+        "CC3",
+        "CE1"
+      ],
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BBIL02CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BBIL02CE4.2",
+      "prefLabel": "BBIL02CE4.2 · Argumentar, a partir del análisis crítico de determinadas acciones humanas relacionadas…",
+      "definition": "Argumentar, a partir del análisis crítico de determinadas acciones humanas relacionadas con la salud, sobre la importancia de adoptar estilos de vida saludables que contemplen la salud física, mental y social, basándose en los aprendizajes adquiridos en Biología Humana, con el fin de tomar conciencia de la necesidad de emprender acciones, personales y colectivas para contribuir a la construcción de una sociedad más sana, justa y solidaria.",
+      "broader": "ce:BBILC4",
+      "bloque": "bc:BBIL02BC4",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM5",
+        "CD4",
+        "CPSAA2",
+        "CC4",
+        "CE1"
+      ],
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BBIL02CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BBIL02CE5.1",
+      "prefLabel": "BBIL02CE5.1 · Investigar sobre la relación existente entre los factores ambientales y el incremento…",
+      "definition": "Investigar sobre la relación existente entre los factores ambientales y el incremento actual en la prevalencia de determinadas patologías para proponer alternativas que permitan mejorar la calidad de vida de las personas y del planeta.",
+      "broader": "ce:BBILC5",
+      "bloque": "bc:BBIL02BC5",
+      "descriptores": [
+        "CCL5",
+        "STEM2",
+        "CPSAA2",
+        "CC4",
+        "CE3"
+      ],
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BBIL02CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BBIL02CE5.2",
+      "prefLabel": "BBIL02CE5.2 · Debatir, de manera informada y argumentada, sobre las diferentes cuestiones…",
+      "definition": "Debatir, de manera informada y argumentada, sobre las diferentes cuestiones medioambientales, sociales y éticas relacionadas con los avances científicos en el campo de la medicina, alcanzando un consenso sobre las consecuencias de estos avances y proponiendo soluciones creativas en común a las cuestiones planteadas.",
+      "broader": "ce:BBILC5",
+      "bloque": "bc:BBIL02BC5",
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "STEM4",
+        "STEM5",
+        "CPSAA2",
+        "CPSAA5",
+        "CC3",
+        "CC4"
+      ],
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BBIL02CE5.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BBIL02CE5.3",
+      "prefLabel": "BBIL02CE5.3 · Participar de forma activa en la construcción colectiva y evolutiva del conocimiento…",
+      "definition": "Participar de forma activa en la construcción colectiva y evolutiva del conocimiento científico, en su entorno cotidiano y cercano, para convertirse en agentes activos de la difusión del pensamiento científico, la aproximación escéptica a la información científica y tecnológica y la puesta en valor de la preservación del medioambiente y la salud pública, el desarrollo económico y la búsqueda de una sociedad igualitaria.",
+      "broader": "ce:BBILC5",
+      "bloque": "bc:BBIL02BC5",
+      "descriptores": [
+        "CCL1",
+        "STEM3",
+        "CPSAA2",
+        "CPSAA5",
+        "CC4"
+      ],
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BBIL02CE5.4",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BBIL02CE5.4",
+      "prefLabel": "BBIL02CE5.4 · Analizar los efectos e influencia de los nuevos avances médicos sobre la salud propia y…",
+      "definition": "Analizar los efectos e influencia de los nuevos avances médicos sobre la salud propia y comunitaria para promover estilos de vida sostenibles, argumentando sobre sus impactos positivos y la urgencia de adoptarlos, con el fin de convertirse en agentes activos de la difusión del conocimiento científico y contribuir al logro de los objetivos concretados en la Agenda Canaria de Desarrollo Sostenible 2030.",
+      "broader": "ce:BBILC5",
+      "bloque": "bc:BBIL02BC5",
+      "descriptores": [
+        "CCL1",
+        "STEM3",
+        "CPSAA2",
+        "CPSAA5",
+        "CC4"
+      ],
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "BBIL02SBI",
+      "prefLabel": "BBIL02SBI · I. Niveles de organización del cuerpo humano",
+      "definition": "Niveles de organización del cuerpo humano",
+      "broader": "materia:BBIL",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "BBIL02SBII",
+      "prefLabel": "BBIL02SBII · II. Nutrición humana",
+      "definition": "Nutrición humana",
+      "broader": "materia:BBIL",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "BBIL02SBIII",
+      "prefLabel": "BBIL02SBIII · III. Salud sexual y reproductiva",
+      "definition": "Salud sexual y reproductiva",
+      "broader": "materia:BBIL",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "BBIL02SBIV",
+      "prefLabel": "BBIL02SBIV · IV. Bienestar emocional, psicológico y social",
+      "definition": "Bienestar emocional, psicológico y social",
+      "broader": "materia:BBIL",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBV",
+      "tipo": "BloqueSaberes",
+      "notation": "BBIL02SBV",
+      "prefLabel": "BBIL02SBV · V. Salud y enfermedad en el siglo XXI: de la curación a la prevención",
+      "definition": "Salud y enfermedad en el siglo XXI: de la curación a la prevención",
+      "broader": "materia:BBIL",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBVI",
+      "tipo": "BloqueSaberes",
+      "notation": "BBIL02SBVI",
+      "prefLabel": "BBIL02SBVI · VI. Investigación y nuevas terapias",
+      "definition": "Investigación y nuevas terapias",
+      "broader": "materia:BBIL",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBI.1",
+      "prefLabel": "BBIL02SBI.1 · Categorización de los niveles de organización del ser humano relacionando los tipos…",
+      "definition": "Categorización de los niveles de organización del ser humano relacionando los tipos celulares con las funciones de los tejidos y órganos.",
+      "broader": "sb:BBIL02SBI",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBI.2",
+      "prefLabel": "BBIL02SBI.2 · Manejo de las técnicas básicas de preparación de muestras histológicas (corte, tinción,…",
+      "definition": "Manejo de las técnicas básicas de preparación de muestras histológicas (corte, tinción, fijado…).",
+      "broader": "sb:BBIL02SBI",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBI.3",
+      "prefLabel": "BBIL02SBI.3 · Preparación de cortes histológicos, a partir de muestras de tejidos animales, observación…",
+      "definition": "Preparación de cortes histológicos, a partir de muestras de tejidos animales, observación al microscopio óptico e interpretación.",
+      "broader": "sb:BBIL02SBI",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBI.4",
+      "prefLabel": "BBIL02SBI.4 · Identificación, en laboratorio o a través de esquemas, modelos, infografías, radiografías…",
+      "definition": "Identificación, en laboratorio o a través de esquemas, modelos, infografías, radiografías y otros medios, de los principales tejidos y de los diferentes órganos y aparatos.",
+      "broader": "sb:BBIL02SBI",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBI.5",
+      "prefLabel": "BBIL02SBI.5 · Estudio de la relación que existe entre la estructura de cada sistema y la función que…",
+      "definition": "Estudio de la relación que existe entre la estructura de cada sistema y la función que desempeña así como la interconexión con el resto de sistemas.",
+      "broader": "sb:BBIL02SBI",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBII.1",
+      "prefLabel": "BBIL02SBII.1 · Diferenciación entre alimentación y nutrición. Reflexión sobre la importancia de una…",
+      "definition": "Diferenciación entre alimentación y nutrición. Reflexión sobre la importancia de una alimentación saludable y nutritiva, así como, su repercusión positiva en la salud general de la persona.",
+      "broader": "sb:BBIL02SBII",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBII.2",
+      "prefLabel": "BBIL02SBII.2 · Comparación de la anatomía de los sistemas implicados en la nutrición humana con la de…",
+      "definition": "Comparación de la anatomía de los sistemas implicados en la nutrición humana con la de órganos diseccionados en el laboratorio y/o mediante el uso de esquemas, modelos y simulaciones.",
+      "broader": "sb:BBIL02SBII",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBII.3",
+      "prefLabel": "BBIL02SBII.3 · Diseño, realización e interpretación de experiencias sobre la fisiología de los aparatos…",
+      "definition": "Diseño, realización e interpretación de experiencias sobre la fisiología de los aparatos implicados en la nutrición.",
+      "broader": "sb:BBIL02SBII",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBII.4",
+      "prefLabel": "BBIL02SBII.4 · Investigación sobre enfermedades y trastornos relacionados con la nutrición, con el fin…",
+      "definition": "Investigación sobre enfermedades y trastornos relacionados con la nutrición, con el fin de proponer y argumentar la necesidad de mantener estilos saludables para conseguir un apropiado desarrollo de su salud individual y su influencia en el entorno familiar y social.",
+      "broader": "sb:BBIL02SBII",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBIII.1",
+      "prefLabel": "BBIL02SBIII.1 · Reconocimiento de la anatomía y fisiología de los aparatos reproductores.",
+      "definition": "Reconocimiento de la anatomía y fisiología de los aparatos reproductores.",
+      "broader": "sb:BBIL02SBIII",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBIII.2",
+      "prefLabel": "BBIL02SBIII.2 · Identificación de las enfermedades de transmisión sexual (ITS) y modo de prevención.",
+      "definition": "Identificación de las enfermedades de transmisión sexual (ITS) y modo de prevención.",
+      "broader": "sb:BBIL02SBIII",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBIII.3",
+      "prefLabel": "BBIL02SBIII.3 · Análisis evolutivo a lo largo de la historia de pandemias, epidemias, endemias y brotes…",
+      "definition": "Análisis evolutivo a lo largo de la historia de pandemias, epidemias, endemias y brotes epidémicos (VIH, viruela del mono, sífilis…) acontecidos.",
+      "broader": "sb:BBIL02SBIII",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBIII.4",
+      "prefLabel": "BBIL02SBIII.4 · Valoración de la educación sexual como parte del desarrollo integral de la persona…",
+      "definition": "Valoración de la educación sexual como parte del desarrollo integral de la persona identificando las diferencias entre los conceptos de sexo y sexualidad, para poner el foco en el respeto hacia la libertad, la diversidad sexual y la igualdad de género.",
+      "broader": "sb:BBIL02SBIII",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBIII.5",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBIII.5",
+      "prefLabel": "BBIL02SBIII.5 · Concienciación sobre la importancia de adquirir prácticas sexuales saludables,…",
+      "definition": "Concienciación sobre la importancia de adquirir prácticas sexuales saludables, responsables, consentidas, prevención de infecciones de transmisión sexual (ITS) y de embarazos no deseados. Selección del método anticonceptivo y método de prevención de las ITS en función de las condiciones personales.",
+      "broader": "sb:BBIL02SBIII",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBIII.6",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBIII.6",
+      "prefLabel": "BBIL02SBIII.6 · Análisis de la influencia del tabaco, alcohol y otras drogas en la sexualidad y en la…",
+      "definition": "Análisis de la influencia del tabaco, alcohol y otras drogas en la sexualidad y en la descendencia para conocer sus consecuencias.",
+      "broader": "sb:BBIL02SBIII",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBIV.1",
+      "prefLabel": "BBIL02SBIV.1 · Identificación del funcionamiento básico del sistema nervioso, endocrino e inmunológico.",
+      "definition": "Identificación del funcionamiento básico del sistema nervioso, endocrino e inmunológico.",
+      "broader": "sb:BBIL02SBIV",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBIV.2",
+      "prefLabel": "BBIL02SBIV.2 · Indagación sobre la conexión entre el sistema nervioso y endocrino (sistema…",
+      "definition": "Indagación sobre la conexión entre el sistema nervioso y endocrino (sistema neuroendocrino).",
+      "broader": "sb:BBIL02SBIV",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBIV.3",
+      "prefLabel": "BBIL02SBIV.3 · Estudio del eje hipotálamo-hipofisario-adrenal y su relación con el estrés y los…",
+      "definition": "Estudio del eje hipotálamo-hipofisario-adrenal y su relación con el estrés y los trastornos psicológicos y mentales para prevenir su sobreestimulación.",
+      "broader": "sb:BBIL02SBIV",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBIV.4",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBIV.4",
+      "prefLabel": "BBIL02SBIV.4 · Investigación sobre enfermedades relacionadas con el bienestar emocional, psicológico y…",
+      "definition": "Investigación sobre enfermedades relacionadas con el bienestar emocional, psicológico y social, con el fin de proponer y argumentar la necesidad de mantener un estilo de vida saludable.",
+      "broader": "sb:BBIL02SBIV",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBIV.5",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBIV.5",
+      "prefLabel": "BBIL02SBIV.5 · Indagación sobre las organizaciones, fundaciones, asociaciones de apoyo a las personas…",
+      "definition": "Indagación sobre las organizaciones, fundaciones, asociaciones de apoyo a las personas que padecen alteraciones en la salud mental para conocer de qué forma la sociedad responde a estos problemas.",
+      "broader": "sb:BBIL02SBIV",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBIV.6",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBIV.6",
+      "prefLabel": "BBIL02SBIV.6 · Análisis de los efectos perjudiciales de las adicciones con sustancia (drogas legales e…",
+      "definition": "Análisis de los efectos perjudiciales de las adicciones con sustancia (drogas legales e ilegales) y sin sustancia (comportamentales: tecnologías, ludopatías) que influyen tanto en la salud de las personas consumidoras como en su entorno.",
+      "broader": "sb:BBIL02SBIV",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBV.1",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBV.1",
+      "prefLabel": "BBIL02SBV.1 · Análisis de la evolución del concepto de salud para comprender su tratamiento en el marco…",
+      "definition": "Análisis de la evolución del concepto de salud para comprender su tratamiento en el marco de la Agenda Canaria 2030 de Desarrollo Sostenible.",
+      "broader": "sb:BBIL02SBV",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBV.2",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBV.2",
+      "prefLabel": "BBIL02SBV.2 · Estudio de los diferentes métodos de diagnóstico para clasificar las enfermedades según…",
+      "definition": "Estudio de los diferentes métodos de diagnóstico para clasificar las enfermedades según su etiología y conocer medidas de prevención y tratamiento.",
+      "broader": "sb:BBIL02SBV",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBV.3",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBV.3",
+      "prefLabel": "BBIL02SBV.3 · Valoración de la importancia social de la vacunación y de las donaciones de sangre,…",
+      "definition": "Valoración de la importancia social de la vacunación y de las donaciones de sangre, células y órganos.",
+      "broader": "sb:BBIL02SBV",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBV.4",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBV.4",
+      "prefLabel": "BBIL02SBV.4 · Indagación sobre los beneficios de mostrar una actitud positiva ante la enfermedad para…",
+      "definition": "Indagación sobre los beneficios de mostrar una actitud positiva ante la enfermedad para fomentar el autocuidado y la autorresponsabilidad .",
+      "broader": "sb:BBIL02SBV",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBV.5",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBV.5",
+      "prefLabel": "BBIL02SBV.5 · Valoración de la importancia del enfoque de una sola salud (One health) para prevenir,…",
+      "definition": "Valoración de la importancia del enfoque de una sola salud (One health) para prevenir, detectar y responder eficazmente a los desafíos de salud que surgen de las relaciones entre las personas, los animales y el medioambiente.",
+      "broader": "sb:BBIL02SBV",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBV.6",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBV.6",
+      "prefLabel": "BBIL02SBV.6 · Investigación sobre el funcionamiento y prestaciones de la Sanidad Pública Canaria…",
+      "definition": "Investigación sobre el funcionamiento y prestaciones de la Sanidad Pública Canaria comparándola con otros países.",
+      "broader": "sb:BBIL02SBV",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBV.7",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBV.7",
+      "prefLabel": "BBIL02SBV.7 · Diseño e implementación de un plan de vida saludable que contemple la salud física,…",
+      "definition": "Diseño e implementación de un plan de vida saludable que contemple la salud física, mental y social como paradigmas de bienestar para el desarrollo de una vida plena y su influencia en su entorno, en la sociedad y en el planeta.",
+      "broader": "sb:BBIL02SBV",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBVI.1",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBVI.1",
+      "prefLabel": "BBIL02SBVI.1 · Identificación de los mecanismos básicos de la transmisión de la herencia genética y…",
+      "definition": "Identificación de los mecanismos básicos de la transmisión de la herencia genética y concepto de gen. Relación con trastornos hereditarios humanos.",
+      "broader": "sb:BBIL02SBVI",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBVI.2",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBVI.2",
+      "prefLabel": "BBIL02SBVI.2 · Estudio de la evolución de las terapias avanzadas (terapias genéticas, terapias…",
+      "definition": "Estudio de la evolución de las terapias avanzadas (terapias genéticas, terapias celulares, ingeniería tisular y terapias combinadas) y sus aplicaciones relacionadas con la investigación médica y farmacéutica.",
+      "broader": "sb:BBIL02SBVI",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBVI.3",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBVI.3",
+      "prefLabel": "BBIL02SBVI.3 · Reflexión sobre las repercusiones sociales, éticas, económicas y medioambientales de las…",
+      "definition": "Reflexión sobre las repercusiones sociales, éticas, económicas y medioambientales de las terapias avanzadas. Análisis sobre los fármacos y su uso responsable.",
+      "broader": "sb:BBIL02SBVI",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBVI.4",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBVI.4",
+      "prefLabel": "BBIL02SBVI.4 · Diferenciación entre tratamientos con base científica y pseudomedicina. Elaboración de un…",
+      "definition": "Diferenciación entre tratamientos con base científica y pseudomedicina. Elaboración de un estudio crítico acerca del uso de las medicinas alternativas.",
+      "broader": "sb:BBIL02SBVI",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBVI.5",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBVI.5",
+      "prefLabel": "BBIL02SBVI.5 · Profundización en la investigación biomédica en Canarias y sobre la base genética de las…",
+      "definition": "Profundización en la investigación biomédica en Canarias y sobre la base genética de las enfermedades prevalentes en el archipiélago para valorar su implicación en la mejora de la calidad de vida.",
+      "broader": "sb:BBIL02SBVI",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BBIL02SBVI.6",
+      "tipo": "SaberBasico",
+      "notation": "BBIL02SBVI.6",
+      "prefLabel": "BBIL02SBVI.6 · Indagación sobre los principales centros de investigación de Canarias y de las biografías…",
+      "definition": "Indagación sobre los principales centros de investigación de Canarias y de las biografías de las figuras referentes de la medicina canaria a lo largo de la historia, con especial atención a las mujeres, para darle a la biología humana un rostro humano.",
+      "broader": "sb:BBIL02SBVI",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    }
+  ]
+}

@@ -1,0 +1,531 @@
+{
+  "materia": "materia:BTSA",
+  "nodos": [
+    {
+      "id": "materia:BTSA",
+      "tipo": "Materia",
+      "notation": "BTSA",
+      "prefLabel": "Talleres Artísticos: Cerámica y Estampación (Bachillerato)",
+      "cursos": [
+        "curso:B01"
+      ],
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BTA7C1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BTA7C1",
+      "prefLabel": "BTA7C1 · Buscar, seleccionar y contrastar información sobre la evolución histórica de la cerámica…",
+      "definition": "Buscar, seleccionar y contrastar información sobre la evolución histórica de la cerámica y de la estampación, con especial atención a Canarias, valorando las diferencias y las características comunes entre ellas, para transformar el conocimiento y comunicarlo de manera clara y rigurosa y contribuir a la madurez personal y social que deriva de la práctica artística.",
+      "broader": "materia:BTSA",
+      "materia": "materia:BTSA",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BTA7C2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BTA7C2",
+      "prefLabel": "BTA7C2 · Identificar y utilizar correctamente los materiales, herramientas y maquinaria del…",
+      "definition": "Identificar y utilizar correctamente los materiales, herramientas y maquinaria del taller, planificando los procesos de construcción, seleccionando métodos inductivos y deductivos y empleando estrategias variadas y sostenibles, para aplicar los conocimientos en el desarrollo de proyectos.",
+      "broader": "materia:BTSA",
+      "materia": "materia:BTSA",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BTA7C3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BTA7C3",
+      "prefLabel": "BTA7C3 · Diferenciar y seleccionar distintas técnicas de construcción y decoración para elaborar…",
+      "definition": "Diferenciar y seleccionar distintas técnicas de construcción y decoración para elaborar una obra personal o grupal, empleando la metodología por proyectos con una actitud proactiva, sensible al trabajo propio y ajeno y evaluando la creatividad y representación del producto obtenido.",
+      "broader": "materia:BTSA",
+      "materia": "materia:BTSA",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BTA7C4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BTA7C4",
+      "prefLabel": "BTA7C4 · Explorar e incorporar nuevos materiales alternativos a la creación de un proyecto…",
+      "definition": "Explorar e incorporar nuevos materiales alternativos a la creación de un proyecto personal o grupal de carácter interdisciplinar, valorando las diferentes posibilidades expresivas de los materiales y técnicas, y teniendo en cuenta los aspectos formales, funcionales, estéticos y expresivos, para conocer y valorar las posibilidades comunicativas, que ofrecen los materiales innovadores, afianzar la confianza y la resolución de problemas con autonomía para desarrollar la creatividad personal.",
+      "broader": "materia:BTSA",
+      "materia": "materia:BTSA",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BTA701BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "BTA701BC1",
+      "prefLabel": "Talleres Artísticos: Cerámica y Estampación · 1º Bachillerato · bloque competencial C1",
+      "scopeNote": "Con este bloque competencial, se pretende constatar que el alumnado sea capaz de distinguir con propiedad las técnicas de producción cerámica desde su origen y evolución, y las técnicas gráficas aplicadas a la cerámica; es decir, qué tienen en común las dos disciplinas (estarcido, esgrafiado, bajorrelieve, relieve, transfers…), describiendo su desarrollo a lo largo de la historia, partiendo del análisis de distintas obras cerámicas (cerámica artística, artesanal de carácter utilitario, funcional, decorativa, de torno, escultórica, cerámica mural…) y de estampación (grabado, xilografía, serigrafía, impresión digital…), y reconociendo las tipologías formales y los aspectos compositivos. Se verificará que es capaz de discernir los aspectos estéticos de los funcionales, los materiales, las herramientas y la maquinaria específica de la cerámica y la estampación, en general, y la canaria, en particular. Se verificará que busca y selecciona información de varias fuentes y la integra para elaborar proyectos básicos tanto individuales como grupales, como por ejemplo, mediante un dosier o memoria digital, o glosario de la materia en varias lenguas, haciendo uso de las tecnologías digitales y empleando la terminología propia de la materia. Se valorará, además, que el alumnado sea capaz de diferenciar los procesos aplicados a las producciones cerámicas y de estampación, y que emita con corrección los juicios de valor sobre la obra propia y ajena, analizando y contrastando las imágenes del pasado o contemporáneas que aporten una innovación técnica y material. Finalmente, se verificará la capacidad de coordinación, escucha y respeto por los criterios ajenos a la hora de la exposición oral o en presentaciones digitales de los trabajos teóricos.",
+      "broader": "materia:BTSA",
+      "agrupa": [
+        "ce:BTA7C1"
+      ],
+      "descriptores": [
+        "CCL3",
+        "CD1",
+        "CPSAA4",
+        "CC1",
+        "CCEC2",
+        "CCL1",
+        "CCL2",
+        "CP2",
+        "CD2",
+        "CE3",
+        "CCEC3.1",
+        "CCL5",
+        "CPSAA1.1",
+        "CC3"
+      ],
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BTA701BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "BTA701BC2",
+      "prefLabel": "Talleres Artísticos: Cerámica y Estampación · 1º Bachillerato · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se valora, si el alumnado reconoce los diferentes materiales, herramientas y maquinaria que se emplean en la producción de un objeto cerámico y de estampación, de forma que pueda planificar correctamente el espacio de trabajo, así como, si localiza y distingue el utillaje específico. Se valorará que contemple las propiedades y características de los materiales, comprendiendo el origen, tipos, composición y propiedades plásticas para asegurar un adecuado almacenamiento y reutilización. Igualmente se constatará que sea consciente del cuidado y la conservación de los equipamientos y maquinaria atendiendo a las normas de seguridad e higiene, organizando los materiales de manera adecuada, utilizando los recursos con solvencia y seriedad y respetando los espacios compartidos. Todo ello con la finalidad de desarrollar la capacidad para planificar la realización de una obra cerámica y de estampación, atendiendo al carácter significativo y característico de los materiales y las técnicas más afines de la obra cerámica y de estampación que se proyecta realizar, afianzando la sensatez y la experiencia personal y social que le autorice a proceder de manera independiente.",
+      "broader": "materia:BTSA",
+      "agrupa": [
+        "ce:BTA7C2"
+      ],
+      "descriptores": [
+        "CCL3",
+        "STEM1",
+        "CD1",
+        "CPSAA4",
+        "CCEC2"
+      ],
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BTA701BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "BTA701BC3",
+      "prefLabel": "Talleres Artísticos: Cerámica y Estampación · 1º Bachillerato · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial, se pretende comprobar si el alumnado es capaz de reconocer las técnicas básicas de construcción cerámica manual (sólido ahuecado, presión, pellizco extendido, churros, placas, tiras, por colada…) y de construcción cerámica mecánica (moldes rígidos y flexibles, torno cerámico, terrajas…); y las técnicas de reproducción y estampación en hueco (punta seca, pirograbado), en relieve (xilografía, linóleo…) o en plano (litografía, monotipos, serigrafía). Si es capaz de emplearlas en la elaboración de un producto cerámico o gráfico, distinguiendo las distintas fases de los procesos de producción desde el comienzo de la idea hasta la consecución del producto final, en función de la técnica elegida, y valorando las calidades expresivas de los diversos materiales y acabados. Se constatará también que reconoce las técnicas decorativas cerámicas por tratamiento de superficies (antes de la cocción): incrustación de pastas coloreadas, calados, engobes, relieves, texturas, y por tratamiento de superficies (después de la cocción): cuerda seca, mayólica, calcas cerámicas, vidriados y esmaltes, raku…; y mixtas (combinando cerámica y estampación): esgrafiados, transferencias, estarcidos, relieves, bajorrelieves, serigrafía…, seleccionando y aplicando convenientemente los principales tipos de materiales y herramientas. Asimismo, se evaluará si comprende la relación existente entre forma y función en la realización de objetos cerámicos o de estampación, y su repercusión sociocultural. Se comprobará que respeta las realizaciones de trabajos y opiniones ajenos, usando diversas fuentes digitales y bibliográficas de la cerámica o la estampación tanto nacional como local de Canarias. Todo ello con el fin de valorar la metodología por proyectos en el desarrollo creativo de una obra cerámica o de estampación (objetos, murales, instalaciones, cenefas, patrones o patterns, diseños y complementos de moda, lámparas, menaje…), afianzando la sensibilidad y el respeto por el medioambiente, y fomentando la iniciativa y la productividad tanto a nivel individual como grupal.",
+      "broader": "materia:BTSA",
+      "agrupa": [
+        "ce:BTA7C3"
+      ],
+      "descriptores": [
+        "CCL3",
+        "STEM2",
+        "CD1",
+        "CD2",
+        "CPSAA4",
+        "CC1",
+        "CE3",
+        "STEM3",
+        "CCEC2"
+      ],
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BTA701BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "BTA701BC4",
+      "prefLabel": "Talleres Artísticos: Cerámica y Estampación · 1º Bachillerato · bloque competencial C4",
+      "scopeNote": "Mediante este bloque competencial, se pretende verificar si el alumnado es capaz de descubrir sus posibilidades expresivas a través de las técnicas y los materiales cerámicos o de estampación de carácter innovador. De esta manera, ya sea de forma individual o grupal, investiga, diseña y crea un proyecto mediante la experimentación con materiales, procedimientos y medios alternativos de cerámica o estampación (biomateriales, fotocerámica, fotograbado, paperclay, grabado electrolítico…), proporcionando a la pieza un significado funcional o decorativo. Se valorará la responsabilidad y el respeto por las instalaciones y los materiales, la capacidad de actuar con autonomía, seguridad y confianza al manipularlos, y que comprenda su significado y evalúe la sostenibilidad y el impacto medioambiental. Se apreciará su capacidad para observar, conectar e implantar nuevas asociaciones entre estímulos internos y externos que le permitan el desarrollo de la creatividad. Todo ello con la finalidad de incorporar nuevas posibilidades expresivas y comunicativas a través de la creación artística, para aproximarse a la diversidad cultural presente en la sociedad, desarrollando la iniciativa personal, el ingenio y el sentido emprendedor con ayuda de la tecnología (impresora 3D para arcilla, insoladora o lámpara UV, plóter, fotocopiadora, escáner…) y procedimientos ecológicos como la estampación directa con vegetales o materiales reutilizables de cartón, plástico o madera…",
+      "broader": "materia:BTSA",
+      "agrupa": [
+        "ce:BTA7C4"
+      ],
+      "descriptores": [
+        "CCL5",
+        "CP3",
+        "STEM3",
+        "CD2",
+        "CPSAA3.2",
+        "CPSAA4",
+        "CC2",
+        "CE1",
+        "CE3",
+        "CCEC3.1"
+      ],
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTA701CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTA701CE1.1",
+      "prefLabel": "BTA701CE1.1 · Localizar, seleccionar y contrastar información sobre el origen y la evolución de la…",
+      "definition": "Localizar, seleccionar y contrastar información sobre el origen y la evolución de la cerámica y de la estampación, así como los distintos materiales, herramientas y maquinaria, aplicando estos conocimientos en la realización de proyectos individuales o colectivos, que permitan diferenciar sus características en general, prestando especial atención a las de Canarias.",
+      "broader": "ce:BTA7C1",
+      "bloque": "bc:BTA701BC1",
+      "descriptores": [
+        "CCL3",
+        "CD1",
+        "CPSAA4",
+        "CC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTA701CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTA701CE1.2",
+      "prefLabel": "BTA701CE1.2 · Expresar con fluidez y coherencia los conocimientos adquiridos de manera eficaz y segura,…",
+      "definition": "Expresar con fluidez y coherencia los conocimientos adquiridos de manera eficaz y segura, haciendo un uso responsable de las tecnologías digitales, comprendiendo la terminología específica de la materia en diferentes lenguas y desde diferentes medios de comunicación, para participar de forma activa y respetuosa hacia la diversidad de opiniones, emitiendo juicios de valor.",
+      "broader": "ce:BTA7C1",
+      "bloque": "bc:BTA701BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CP2",
+        "CD1",
+        "CD2",
+        "CPSAA4",
+        "CE3",
+        "CCEC3.1"
+      ],
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTA701CE1.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTA701CE1.3",
+      "prefLabel": "BTA701CE1.3 · Mantener una actitud crítica y constructiva ante las creaciones artísticas, teniendo en…",
+      "definition": "Mantener una actitud crítica y constructiva ante las creaciones artísticas, teniendo en cuenta sus conocimientos, su entorno, su gusto personal y sensibilidad, con el fin de incentivar el interés por la cerámica y la estampación, y aumentar el sentido de la responsabilidad, el diálogo y la igualdad de derechos para las personas.",
+      "broader": "ce:BTA7C1",
+      "bloque": "bc:BTA701BC1",
+      "descriptores": [
+        "CCL5",
+        "CPSAA1.1",
+        "CC1",
+        "CC3"
+      ],
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTA701CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTA701CE2.1",
+      "prefLabel": "BTA701CE2.1 · Identificar los materiales, las herramientas y la maquinaria específica del taller…",
+      "definition": "Identificar los materiales, las herramientas y la maquinaria específica del taller cerámico o de estampación (arcilla, utillaje, laminadora, horno, tórculo…) a lo largo de la historia, y garantizar su mantenimiento en condiciones de seguridad e higiene, demostrando una actitud responsable con el medio ambiente y los productos tóxicos a utilizar.",
+      "broader": "ce:BTA7C2",
+      "bloque": "bc:BTA701BC2",
+      "descriptores": [
+        "CCL3",
+        "STEM1"
+      ],
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTA701CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTA701CE2.2",
+      "prefLabel": "BTA701CE2.2 · Recopilar y analizar la información para el desarrollo de una obra cerámica de…",
+      "definition": "Recopilar y analizar la información para el desarrollo de una obra cerámica de producción propia o de estampación, para valorar las posibilidades expresivas de los materiales, la capacidad de aprender a aprender, el desarrollo personal y la sensibilidad.",
+      "broader": "ce:BTA7C2",
+      "bloque": "bc:BTA701BC2",
+      "descriptores": [
+        "CD1",
+        "CPSAA4",
+        "CCEC2"
+      ],
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTA701CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTA701CE3.1",
+      "prefLabel": "BTA701CE3.1 · Reconocer las técnicas de construcción cerámica o de estampación para elaborar una obra…",
+      "definition": "Reconocer las técnicas de construcción cerámica o de estampación para elaborar una obra personal o grupal sencilla, aplicando estrategias comunicativas y plásticas, usando la metodología por proyectos, evaluando datos de manera autónoma, tomando como referencia una obra cerámica o de estampación de carácter nacional o canario, y utilizando de manera apropiada las fuentes de información.",
+      "broader": "ce:BTA7C3",
+      "bloque": "bc:BTA701BC3",
+      "descriptores": [
+        "CCL3",
+        "STEM2",
+        "CD1",
+        "CD2",
+        "CPSAA4",
+        "CC1",
+        "CE3"
+      ],
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTA701CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTA701CE3.2",
+      "prefLabel": "BTA701CE3.2 · Distinguir las técnicas, los medios y los soportes de decoración cerámica o de…",
+      "definition": "Distinguir las técnicas, los medios y los soportes de decoración cerámica o de estampación, estudiando sus aspectos expresivos, analizando su repercusión cultural y patrimonial, y desarrollando la sensibilidad artística.",
+      "broader": "ce:BTA7C3",
+      "bloque": "bc:BTA701BC3",
+      "descriptores": [
+        "STEM2",
+        "STEM3",
+        "CCEC2"
+      ],
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTA701CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTA701CE4.1",
+      "prefLabel": "BTA701CE4.1 · Experimentar con los materiales cerámicos o de estampación, y crear un proyecto…",
+      "definition": "Experimentar con los materiales cerámicos o de estampación, y crear un proyecto individual o colectivo, cuya calidad superficial presente un carácter estético y expresivo, y cuyo propósito sea reflejar una calidad artística e intencionalidad plástica y comunicativa, al servicio de la convivencia democrática, transmitiendo ideas y emociones. Todo ello con la intención de defender la libertad de expresión y la igualdad, y el aprecio por la diversidad cultural, la construcción de la identidad personal, el desarrollo de una actitud empática y colaborativa, la autoestima, la iniciativa y la imaginación.",
+      "broader": "ce:BTA7C4",
+      "bloque": "bc:BTA701BC4",
+      "descriptores": [
+        "CCL5",
+        "CP3",
+        "STEM3",
+        "CD2",
+        "CPSAA3.2",
+        "CPSAA4",
+        "CC2",
+        "CE1",
+        "CE3",
+        "CCEC3.1"
+      ],
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTA701SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "BTA701SBI",
+      "prefLabel": "BTA701SBI · I. La cerámica y estampación",
+      "definition": "La cerámica y estampación",
+      "broader": "materia:BTSA",
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTA701SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "BTA701SBII",
+      "prefLabel": "BTA701SBII · II. El taller. Materiales, herramientas y maquinaria",
+      "definition": "El taller. Materiales, herramientas y maquinaria",
+      "broader": "materia:BTSA",
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTA701SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "BTA701SBIII",
+      "prefLabel": "BTA701SBIII · III. Técnicas constructivas y decorativas",
+      "definition": "Técnicas constructivas y decorativas",
+      "broader": "materia:BTSA",
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTA701SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "BTA701SBIV",
+      "prefLabel": "BTA701SBIV · IV. El proyecto. Materiales experimentales y de innovación",
+      "definition": "El proyecto. Materiales experimentales y de innovación",
+      "broader": "materia:BTSA",
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTA701SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "BTA701SBI.1",
+      "prefLabel": "BTA701SBI.1 · Utilización de las tecnologías de la información y la comunicación para la búsqueda,…",
+      "definition": "Utilización de las tecnologías de la información y la comunicación para la búsqueda, selección y organización de información (textos, vídeos, imágenes…) en diversas fuentes (centros museísticos, internet…), y la presentación de conclusiones respecto al origen y evolución de la cerámica y la estampación.",
+      "broader": "sb:BTA701SBI",
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTA701SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "BTA701SBI.2",
+      "prefLabel": "BTA701SBI.2 · Conocimiento y utilización funcional del vocabulario propio de la materia.",
+      "definition": "Conocimiento y utilización funcional del vocabulario propio de la materia.",
+      "broader": "sb:BTA701SBI",
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTA701SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "BTA701SBI.3",
+      "prefLabel": "BTA701SBI.3 · Análisis y conocimiento de los principales estilos artísticos en la cerámica y la…",
+      "definition": "Análisis y conocimiento de los principales estilos artísticos en la cerámica y la estampación, teniendo en cuenta la importancia de la perspectiva de género y la perspectiva intercultural para apreciar la diversidad.",
+      "broader": "sb:BTA701SBI",
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTA701SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "BTA701SBI.4",
+      "prefLabel": "BTA701SBI.4 · Aplicación de las técnicas y los estilos artísticos de la cerámica o la estampación,…",
+      "definition": "Aplicación de las técnicas y los estilos artísticos de la cerámica o la estampación, en general, y de la canaria, en particular.",
+      "broader": "sb:BTA701SBI",
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTA701SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "BTA701SBI.5",
+      "prefLabel": "BTA701SBI.5 · Valoración y reflexión de las obras cerámicas y de estampación realizadas, propias y…",
+      "definition": "Valoración y reflexión de las obras cerámicas y de estampación realizadas, propias y ajenas, manteniendo una actitud crítica y utilizando el lenguaje inclusivo ante los elementos plásticos y creativos empleados.",
+      "broader": "sb:BTA701SBI",
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTA701SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "BTA701SBI.6",
+      "prefLabel": "BTA701SBI.6 · Realización de proyectos básicos de cerámica o de estampación valorando su sentido social…",
+      "definition": "Realización de proyectos básicos de cerámica o de estampación valorando su sentido social y cultural.",
+      "broader": "sb:BTA701SBI",
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTA701SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "BTA701SBII.1",
+      "prefLabel": "BTA701SBII.1 · Conocimiento y respeto de las normas de seguridad e higiene en el trabajo respecto a los…",
+      "definition": "Conocimiento y respeto de las normas de seguridad e higiene en el trabajo respecto a los materiales y los productos tóxicos del taller cerámico y de estampación, y su relación con el medioambiente.",
+      "broader": "sb:BTA701SBII",
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTA701SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "BTA701SBII.2",
+      "prefLabel": "BTA701SBII.2 · Utilización, conservación y mantenimiento de las herramientas y la maquinaria…",
+      "definition": "Utilización, conservación y mantenimiento de las herramientas y la maquinaria específicas de cerámica (hornos, laminadora…) y de estampación (tórculo, mesa de impresión…) del taller.",
+      "broader": "sb:BTA701SBII",
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTA701SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "BTA701SBII.3",
+      "prefLabel": "BTA701SBII.3 · Aplicación de propuestas creativas en su obra personal cerámica o de estampación,…",
+      "definition": "Aplicación de propuestas creativas en su obra personal cerámica o de estampación, desarrollando el sentido emocional y la sostenibilidad.",
+      "broader": "sb:BTA701SBII",
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTA701SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "BTA701SBIII.1",
+      "prefLabel": "BTA701SBIII.1 · Aplicación de las técnicas básicas de construcción manual y mecánicas cerámicas: a…",
+      "definition": "Aplicación de las técnicas básicas de construcción manual y mecánicas cerámicas: a pellizco, a churros, por tiras, por placas…, reproducción de moldes: por apretón (cóncavo-convexo), por colada…; o de las de estampación: hueco, relieve o plano (punta seca, xilografía, serigrafía…) con criterio y sensibilidad artística.",
+      "broader": "sb:BTA701SBIII",
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTA701SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "BTA701SBIII.2",
+      "prefLabel": "BTA701SBIII.2 · Utilización de técnicas decorativas cerámicas básicas por tratamiento de la superficie:…",
+      "definition": "Utilización de técnicas decorativas cerámicas básicas por tratamiento de la superficie: textura, grabados, incrustaciones, aplicaciones, esgrafiados…; de técnicas cromáticas: relación forma-color, pigmentos y colorantes cerámicos, lápiz y tizas cerámicas, engobes, esmaltes….; o de técnicas decorativas de estampación: estarcido, transferencias, estampación directa, collagraph…, tratando temáticas inclusivas y sin seguir estereotipos.",
+      "broader": "sb:BTA701SBIII",
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTA701SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "BTA701SBIII.3",
+      "prefLabel": "BTA701SBIII.3 · Desarrollo de la metodología básica por proyectos, tanto individual como grupal en el…",
+      "definition": "Desarrollo de la metodología básica por proyectos, tanto individual como grupal en el proceso de análisis, síntesis y creación como estrategia de trabajo para generar una obra cerámica o de estampación, haciendo hincapié en el patrimonio natural, social y cultural canario.",
+      "broader": "sb:BTA701SBIII",
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTA701SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "BTA701SBIII.4",
+      "prefLabel": "BTA701SBIII.4 · Exposición y defensa del proyecto, así como valoración de los aspectos formales,…",
+      "definition": "Exposición y defensa del proyecto, así como valoración de los aspectos formales, funcionales, estéticos y comunicativos de la solución de un proyecto sencillo de obra cerámica o de estampación.",
+      "broader": "sb:BTA701SBIII",
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTA701SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "BTA701SBIV.1",
+      "prefLabel": "BTA701SBIV.1 · Investigación en técnicas y materiales innovadores para aplicar a propuestas de trabajos…",
+      "definition": "Investigación en técnicas y materiales innovadores para aplicar a propuestas de trabajos cerámicos y de estampación asumiendo el aprovechamiento de recursos, la economía circular y el impacto en el medio ambiente.",
+      "broader": "sb:BTA701SBIV",
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTA701SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "BTA701SBIV.2",
+      "prefLabel": "BTA701SBIV.2 · Elaboración de piezas cerámicas o de estampación, atendiendo a las posibilidades…",
+      "definition": "Elaboración de piezas cerámicas o de estampación, atendiendo a las posibilidades plásticas, expresivas, emocionales y creativas que, a través de la experimentación, implementen el trabajo cerámico o de estampación proyectado.Desarrollo de la metodología básica por proyectos y de estrategias de trabajo en grupo planificando la distribución equitativa de tareas, el reparto de roles, el respeto, la coordinación y la cooperación para generar una obra cerámica o de estampación.",
+      "broader": "sb:BTA701SBIV",
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTA701SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "BTA701SBIV.3",
+      "prefLabel": "BTA701SBIV.3 · Exposición y defensa de un proyecto colaborativo transdisciplinar de una obra cerámica o…",
+      "definition": "Exposición y defensa de un proyecto colaborativo transdisciplinar de una obra cerámica o de estampación.",
+      "broader": "sb:BTA701SBIV",
+      "materia": "materia:BTSA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    }
+  ]
+}

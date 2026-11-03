@@ -1,0 +1,690 @@
+{
+  "materia": "materia:BTIA",
+  "nodos": [
+    {
+      "id": "materia:BTIA",
+      "tipo": "Materia",
+      "notation": "BTIA",
+      "prefLabel": "Técnicas de Laboratorio (Bachillerato)",
+      "cursos": [
+        "curso:B01"
+      ],
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BTIAC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BTIAC1",
+      "prefLabel": "BTIAC1 · Aplicar las metodologías propias de la investigación científica, utilizando con precisión…",
+      "definition": "Aplicar las metodologías propias de la investigación científica, utilizando con precisión procedimientos, materiales e instrumentos adecuados y elaborando informes finales tras las diferentes experiencias, con coherencia y corrección, para mejorar sus destrezas científicas y comprender, a través de la ciencia, lo que ocurre a su alrededor.",
+      "broader": "materia:BTIA",
+      "materia": "materia:BTIA",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BTIAC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BTIAC2",
+      "prefLabel": "BTIAC2 · Elegir y utilizar recursos variados, analógicos y digitales, en la selección,…",
+      "definition": "Elegir y utilizar recursos variados, analógicos y digitales, en la selección, interpretación y comunicación de información científica, con coherencia y corrección, elaborando y compartiendo contenidos digitales, para crear conocimiento, rebatir o refutar afirmaciones sobre aspectos científicos y reconocer el carácter universal, continuo e interdisciplinar de la ciencia.",
+      "broader": "materia:BTIA",
+      "materia": "materia:BTIA",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BTIAC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BTIAC3",
+      "prefLabel": "BTIAC3 · Emplear las estrategias propias del aprendizaje colaborativo y cooperativo, promoviendo…",
+      "definition": "Emplear las estrategias propias del aprendizaje colaborativo y cooperativo, promoviendo la igualdad de género y la no discriminación por cualquier circunstancia personal o social, para fomentar el espíritu emprendedor, el desarrollo personal y el trabajo en equipo.",
+      "broader": "materia:BTIA",
+      "materia": "materia:BTIA",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BTIAC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BTIAC4",
+      "prefLabel": "BTIAC4 · Valorar la importancia de adoptar un estilo de vida sostenible y responsable, aplicando…",
+      "definition": "Valorar la importancia de adoptar un estilo de vida sostenible y responsable, aplicando para ello el conocimiento científico, como medio para contribuir a la solución ante las necesidades tecnológicas, económicas, sociales y ambientales que demanda la humanidad.",
+      "broader": "materia:BTIA",
+      "materia": "materia:BTIA",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BTIA01BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "BTIA01BC1",
+      "prefLabel": "Técnicas de Laboratorio · 1º Bachillerato · bloque competencial C1",
+      "scopeNote": "Este bloque competencial tiene el propósito de evaluar si el alumnado es capaz de planificar y realizar los procedimientos y operaciones básicas de manejo del material y equipos de medida en el laboratorio, con seguridad, rigor y responsabilidad hacia su salud, la de las demás personas y la del medioambiente; y de utilizar las metodologías de la investigación científica para adquirir las habilidades del trabajo en el laboratorio, desarrollar razonamientos propios del pensamiento científico, para así poder describir, entender y explicar fenómenos científicos relacionados con cuestiones como la salud, la contaminación, la alimentación, la industria, la tecnología, el medioambiente… Para ello, se valorará si es capaz de elaborar las propuestas experimentales del bloque II de los saberes básicos, planteándose hipótesis y contrastándolas mediante la observación y la experimentación, y utilizando la indagación, la deducción y la búsqueda de evidencias para dar respuesta a las hipótesis formuladas. Asimismo, se constatará si sabe aplicar diferentes técnicas de cálculo y representación de los datos experimentales para interpretarlos, utilizando el razonamiento lógico-matemático, analizando posibles errores cometidos y cómo minimizarlos, y ajustando los resultados experimentales a ecuaciones teóricas, lo que le permitirá comprender los modelos, las leyes y las teorías científicas más importantes. Además, se comprobará si el alumnado elabora informes finales que dispongan de todos los apartados que requiere un informe de carácter científico; expresándose con coherencia y corrección; empleando el vocabulario científico adecuado, el Sistema Internacional de Unidades y las herramientas matemáticas necesarias; y analizando, comprendiendo y transmitiendo el conocimiento adquirido sobre la composición y las propiedades físico-químicas de sustancias de interés, y las magnitudes y los principales fenómenos relacionados con las ciencias experimentales.",
+      "broader": "materia:BTIA",
+      "agrupa": [
+        "ce:BTIAC1"
+      ],
+      "descriptores": [
+        "STEM2",
+        "CPSAA2",
+        "STEM1",
+        "CCL1",
+        "STEM4"
+      ],
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BTIA01BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "BTIA01BC2",
+      "prefLabel": "Técnicas de Laboratorio · 1º Bachillerato · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial, se comprobará si el alumnado es capaz de elegir y utilizar recursos variados, analógicos y digitales, con el fin de crear conocimiento, rebatir o refutar afirmaciones sobre aspectos científicos y reconocer las principales características de la ciencia, mediante la comprensión y comunicación de información sobre temas de interés científico, y la creación de contenidos digitales. Por ello, se comprobará si el alumnado selecciona y contrasta, de manera autónoma y crítica, información sobre el desarrollo histórico del pensamiento científico y la labor realizada por los principales científicos y científicas, mediante su análisis y valoración, evaluando su fiabilidad y pertinencia, para evitar así los riesgos de manipulación y desinformación. Asimismo, se constatará si el alumnado integra esta información y la transforma en conocimiento, a partir de criterios de validez, calidad y fiabilidad, para comunicar de manera rigurosa y creativa las conclusiones de sus investigaciones, respetando la propiedad intelectual y participando en interacciones comunicativas con actitud respetuosa. También, se verificará si elige y utiliza las herramientas y plataformas digitales, con criterios de eficiencia y seguridad, para localizar la información mediante búsquedas avanzadas en internet, organizando y almacenando la misma,para referenciarla y reutilizarla posteriormente, y para crear y compartir contenidos digitales, de forma individual y colectiva, respetando en todo momento los derechos de autoría.",
+      "broader": "materia:BTIA",
+      "agrupa": [
+        "ce:BTIAC2"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CP1",
+        "CPSAA4",
+        "CCEC3.1",
+        "CCL5",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BTIA01BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "BTIA01BC3",
+      "prefLabel": "Técnicas de Laboratorio · 1º Bachillerato · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial, se pretende comprobar si el alumnado es capaz de establecer y desarrollar relaciones interpersonales, inherentes estas a las características de la ciencia, basadas en la igualdad de género y la no discriminación por cualquier circunstancia personal o social, para fomentar la empatía, ejercer una ciudadanía cívica y democrática, y mejorar el aprendizaje propio y colectivo. Para ello, en el contexto del aprendizaje colaborativo y cooperativo, ha de participar en todo tipo de actividades grupales con una actitud fundamentada en los principios democráticos, la resolución dialogada de los conflictos y el compromiso ético con la igualdad, la cohesión social y el desarrollo sostenible. Asimismo, se comprobará si el alumnado realiza una distribución ecuánime de las tareas y responsabilidades a lo largo del proceso educativo, muestra sensibilidad hacia las emociones y experiencias de las demás personas, y analiza e incorpora las aportaciones del equipo a su aprendizaje. Además, se constatará si el alumnado tiene la capacidad de localizar centros de investigación, laboratorios y centros educativos internacionales, nacionales y canarios con interés académico, y de establecer relaciones de comunicación mediante distintas estrategias, con el fin de detectar posibles actividades emprendedoras. En este proceso ha de recabar y presentar la información de los resultados de sus investigaciones, en diferentes formatos y soportes, evaluando necesidades y oportunidades con sentido crítico y ético, y comprobando, a partir de los conocimientos científicos adquiridos, el impacto que puede suponer la actividad emprendedora en el entorno y sus implicaciones en el ámbito personal, social y académico.",
+      "broader": "materia:BTIA",
+      "agrupa": [
+        "ce:BTIAC3"
+      ],
+      "descriptores": [
+        "CCL5",
+        "CPSAA1.1",
+        "CPSAA1.2",
+        "CPSAA3.1",
+        "CPSAA3.2",
+        "CC1",
+        "CC2",
+        "CE2",
+        "CCL1",
+        "CCL2",
+        "CD1",
+        "CD2",
+        "CE1"
+      ],
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BTIA01BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "BTIA01BC4",
+      "prefLabel": "Técnicas de Laboratorio · 1º Bachillerato · bloque competencial C4",
+      "scopeNote": "Este bloque competencial va dirigido a comprobar si el alumnado es capaz de analizar la importancia de la ciencia en la sociedad, el bienestar de las personas y el desarrollo sostenible, examinando las relaciones de interdependencia y ecodependencia entre nuestras formas de vida y el entorno, y realizando un análisis crítico de la huella ecológica de las acciones humanas, con el fin de valorar y adoptar un hábito de vida sostenible y responsable, que conduzca al logro de los ODS y a su concreción en Canarias mediante la ACDS 2030, y a la lucha contra el cambio climático. Para ello, se verificará si el alumnado es capaz de comprender, interpretar y valorar los conocimientos científicos aunados en el bloque III de los saberes básicos, relacionados con el análisis de las interacciones CTSA, profundizando, en particular, sobre el binomio industria química-sociedad y la importancia de la industria alimentaria para la salud y el bienestar de las personas, con el fin de planear y emprender acciones fundamentadas científicamente que promuevan la salud física y mental, y preserven el medioambiente y los seres vivos, practicando el consumo responsable. Asimismo, se constatará si valora las posibles implementaciones de los resultados y las conclusiones de las propuestas experimentales realizadas e investigaciones en aplicaciones científicas de actualidad; así como su implicación en el ámbito personal, social, cultural y económico, para crear valor y transformar su entorno de forma sostenible, adquiriendo compromisos y conciencia ciudadana en el ámbito local y global. Por último, deberá transmitir sus conclusiones, argumentándolas razonadamente, con fluidez, coherencia y corrección, en diferentes formatos y soportes, sobre la relevancia de adoptar un estilo de vida sostenible y responsable que contribuya a la solución ante las necesidades tecnológicas, económicas, sociales y ambientales que demanda la humanidad, en general, y la sociedad canaria, en particular.",
+      "broader": "materia:BTIA",
+      "agrupa": [
+        "ce:BTIAC4"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM5",
+        "CD1",
+        "CD2",
+        "CPSAA2",
+        "CC4",
+        "CCEC1"
+      ],
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTIA01CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTIA01CE1.1",
+      "prefLabel": "BTIA01CE1.1 · Planificar y realizar los procedimientos y las operaciones básicas de manejo del material…",
+      "definition": "Planificar y realizar los procedimientos y las operaciones básicas de manejo del material y de los equipos de medida, con el empleo de las normas de seguridad en el laboratorio y apreciando la importancia de la precisión, para adquirir las habilidades propias del trabajo en el laboratorio.",
+      "broader": "ce:BTIAC1",
+      "bloque": "bc:BTIA01BC1",
+      "descriptores": [
+        "STEM2",
+        "CPSAA2"
+      ],
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTIA01CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTIA01CE1.2",
+      "prefLabel": "BTIA01CE1.2 · Aplicar las metodologías de la ciencia sobre algún aspecto científico de actualidad,…",
+      "definition": "Aplicar las metodologías de la ciencia sobre algún aspecto científico de actualidad, mostrando una actitud crítica acerca del alcance y de las limitaciones de los métodos empleados, para construir conocimiento y mejorar las destrezas en el uso de las metodologías científicas.",
+      "broader": "ce:BTIAC1",
+      "bloque": "bc:BTIA01BC1",
+      "descriptores": [
+        "STEM2"
+      ],
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTIA01CE1.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTIA01CE1.3",
+      "prefLabel": "BTIA01CE1.3 · Utilizar las herramientas matemáticas con rigor, aplicando el razonamiento…",
+      "definition": "Utilizar las herramientas matemáticas con rigor, aplicando el razonamiento lógico-matemático, la representación de datos experimentales en diferentes formatos y empleando el Sistema Internacional de Unidades, para analizar e interpretar los resultados experimentales y extraer conclusiones.",
+      "broader": "ce:BTIAC1",
+      "bloque": "bc:BTIA01BC1",
+      "descriptores": [
+        "STEM1"
+      ],
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTIA01CE1.4",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTIA01CE1.4",
+      "prefLabel": "BTIA01CE1.4 · Analizar y transmitir el conocimiento científico adquirido tras las diferentes…",
+      "definition": "Analizar y transmitir el conocimiento científico adquirido tras las diferentes experiencias, empleando el vocabulario científico adecuado a través de la elaboración de un informe final, para determinar la composición y las propiedades físico-químicas de sustancias de interés, y comprender magnitudes y principales fenómenos relacionados con las ciencias experimentales.",
+      "broader": "ce:BTIAC1",
+      "bloque": "bc:BTIA01BC1",
+      "descriptores": [
+        "CCL1",
+        "STEM1",
+        "STEM2",
+        "STEM4"
+      ],
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTIA01CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTIA01CE2.1",
+      "prefLabel": "BTIA01CE2.1 · Seleccionar, analizar, producir y comunicar información sobre temas de interés científico…",
+      "definition": "Seleccionar, analizar, producir y comunicar información sobre temas de interés científico en distintos medios y formatos, a partir de criterios de eficiencia, calidad y fiabilidad, incidiendo en la actividad investigadora realizada por las científicas, para reconocer el carácter universal, continuo e interdisciplinar de la ciencia, y avalar así la veracidad y objetividad del conocimiento científico.",
+      "broader": "ce:BTIAC2",
+      "bloque": "bc:BTIA01BC2",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CP1",
+        "CPSAA4",
+        "CCEC3.1"
+      ],
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTIA01CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTIA01CE2.2",
+      "prefLabel": "BTIA01CE2.2 · Elegir y utilizar las herramientas y plataformas digitales de manera eficiente y segura,…",
+      "definition": "Elegir y utilizar las herramientas y plataformas digitales de manera eficiente y segura, localizando información, y elaborando y compartiendo contenidos digitales con creatividad y calidad, para crear conocimiento y rebatir o refutar afirmaciones sobre aspectos científicos, mediante una comunicación rigurosa y respetuosa con otros miembros de la comunidad educativa.",
+      "broader": "ce:BTIAC2",
+      "bloque": "bc:BTIA01BC2",
+      "descriptores": [
+        "CCL3",
+        "CCL5",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTIA01CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTIA01CE3.1",
+      "prefLabel": "BTIA01CE3.1 · Establecer y desarrollar relaciones interpersonales basadas en los valores de…",
+      "definition": "Establecer y desarrollar relaciones interpersonales basadas en los valores de socialización e integración, mostrando sensibilidad hacia las emociones y experiencias de las demás personas y aplicando estrategias y destrezas que agilicen el trabajo colaborativo y en equipo, para fomentar la empatía, ejercer una ciudadanía cívica y democrática, y mejorar el aprendizaje propio y colectivo.",
+      "broader": "ce:BTIAC3",
+      "bloque": "bc:BTIA01BC3",
+      "descriptores": [
+        "CCL5",
+        "CPSAA1.1",
+        "CPSAA1.2",
+        "CPSAA3.1",
+        "CPSAA3.2",
+        "CC1",
+        "CC2",
+        "CE2"
+      ],
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTIA01CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTIA01CE3.2",
+      "prefLabel": "BTIA01CE3.2 · Localizar y establecer contacto con centros de investigación, laboratorios y centros…",
+      "definition": "Localizar y establecer contacto con centros de investigación, laboratorios y centros educativos internacionales, nacionales y canarios, cuyas líneas de actividad sean punteras y tengan una repercusión social, o que participen en proyectos de divulgación científica, recabando y presentando información de los resultados de sus investigaciones, para afianzar el espíritu emprendedor con actitudes de creatividad, iniciativa y autoconfianza.",
+      "broader": "ce:BTIAC3",
+      "bloque": "bc:BTIA01BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL5",
+        "CD1",
+        "CD2",
+        "CC2",
+        "CE1"
+      ],
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTIA01CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTIA01CE4.1",
+      "prefLabel": "BTIA01CE4.1 · Analizar la importancia de la ciencia en la sociedad, el bienestar de las personas y el…",
+      "definition": "Analizar la importancia de la ciencia en la sociedad, el bienestar de las personas y el desarrollo sostenible, fomentando actitudes responsables y comprometidas que conduzcan al logro de los ODS y de la Agenda Canaria de Desarrollo Sostenible 2030, y a la lucha contra el cambio climático, para valorar la importancia de los estilos de vida relacionados con la sostenibilidad y la salud propia y colectiva.",
+      "broader": "ce:BTIAC4",
+      "bloque": "bc:BTIA01BC4",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM5",
+        "CD1",
+        "CD2",
+        "CPSAA2",
+        "CC4",
+        "CCEC1"
+      ],
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "BTIA01SBI",
+      "prefLabel": "BTIA01SBI · I. Características de las ciencias experimentales",
+      "definition": "Características de las ciencias experimentales",
+      "broader": "materia:BTIA",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "BTIA01SBII",
+      "prefLabel": "BTIA01SBII · II. En el laboratorio",
+      "definition": "En el laboratorio",
+      "broader": "materia:BTIA",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "BTIA01SBIII",
+      "prefLabel": "BTIA01SBIII · III. Ciencia: avances y retos",
+      "definition": "Ciencia: avances y retos",
+      "broader": "materia:BTIA",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBI.1",
+      "prefLabel": "BTIA01SBI.1 · Reconocimiento del carácter universal, continuo y transversal de la ciencia en diferentes…",
+      "definition": "Reconocimiento del carácter universal, continuo y transversal de la ciencia en diferentes escenarios científicos y de aprendizaje.",
+      "broader": "sb:BTIA01SBI",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBI.1.1",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBI.1.1",
+      "prefLabel": "BTIA01SBI.1.1 · Valoración del desarrollo histórico del pensamiento científico y de la labor realizada…",
+      "definition": "Valoración del desarrollo histórico del pensamiento científico y de la labor realizada por los científicos y las científicas más relevantes.",
+      "broader": "sb:BTIA01SBI.1",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBI.1.2",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBI.1.2",
+      "prefLabel": "BTIA01SBI.1.2 · Importancia del laboratorio como escenario de investigación a pequeña escala.",
+      "definition": "Importancia del laboratorio como escenario de investigación a pequeña escala.",
+      "broader": "sb:BTIA01SBI.1",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBI.1.3",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBI.1.3",
+      "prefLabel": "BTIA01SBI.1.3 · Utilización de las unidades del Sistema Internacional y uso del vocabulario científico,…",
+      "definition": "Utilización de las unidades del Sistema Internacional y uso del vocabulario científico, para facilitar la comunicación efectiva con toda la comunidad científica.",
+      "broader": "sb:BTIA01SBI.1",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBI.2",
+      "prefLabel": "BTIA01SBI.2 · Empleo de la metodología científica para desarrollar razonamientos propios del…",
+      "definition": "Empleo de la metodología científica para desarrollar razonamientos propios del pensamiento científico y comprender, a través de la ciencia, los principales fenómenos relacionados con las ciencias experimentales.",
+      "broader": "sb:BTIA01SBI",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBI.2.1",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBI.2.1",
+      "prefLabel": "BTIA01SBI.2.1 · Observación del fenómeno o del sistema material a estudiar, reflexión de su relevancia…",
+      "definition": "Observación del fenómeno o del sistema material a estudiar, reflexión de su relevancia social e importancia en la vida cotidiana, identificación y formulación de cuestiones, y elaboración de hipótesis.",
+      "broader": "sb:BTIA01SBI.2",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBI.2.2",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBI.2.2",
+      "prefLabel": "BTIA01SBI.2.2 · Selección y planificación de estrategias en la realización de medidas mediante la…",
+      "definition": "Selección y planificación de estrategias en la realización de medidas mediante la indagación, la deducción y la búsqueda de evidencias para comprobar las hipótesis planteadas.",
+      "broader": "sb:BTIA01SBI.2",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBI.2.3",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBI.2.3",
+      "prefLabel": "BTIA01SBI.2.3 · Aplicación de las técnicas de cálculo y tratamiento estadístico de los resultados…",
+      "definition": "Aplicación de las técnicas de cálculo y tratamiento estadístico de los resultados experimentales y análisis de posibles errores cometidos y de cómo minimizarlos.",
+      "broader": "sb:BTIA01SBI.2",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBI.2.4",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBI.2.4",
+      "prefLabel": "BTIA01SBI.2.4 · Interpretación de los resultados experimentales mediante el razonamiento…",
+      "definition": "Interpretación de los resultados experimentales mediante el razonamiento lógico-matemático y su ajuste a ecuaciones teóricas, que permitan comprender los modelos, las leyes y las teorías científicas más importantes.",
+      "broader": "sb:BTIA01SBI.2",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBI.3",
+      "prefLabel": "BTIA01SBI.3 · Manejo de herramientas digitales como apoyo al trabajo experimental y a la investigación.",
+      "definition": "Manejo de herramientas digitales como apoyo al trabajo experimental y a la investigación.",
+      "broader": "sb:BTIA01SBI",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBI.4",
+      "prefLabel": "BTIA01SBI.4 · Elaboración de informes finales tras la realización de cada experimento, que disponga de…",
+      "definition": "Elaboración de informes finales tras la realización de cada experimento, que disponga de todos los apartados que requiere un informe de carácter científico.",
+      "broader": "sb:BTIA01SBI",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBI.5",
+      "prefLabel": "BTIA01SBI.5 · Utilización de estrategias de búsqueda, selección, organización, interpretación,…",
+      "definition": "Utilización de estrategias de búsqueda, selección, organización, interpretación, producción y comunicación de información científica, en diferentes formatos y a partir de diferentes medios, para crear conocimiento, argumentar opiniones y comunicarse de manera eficaz.",
+      "broader": "sb:BTIA01SBI",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBI.6",
+      "prefLabel": "BTIA01SBI.6 · Valoración del trabajo en equipo y participación en la planificación y ejecución de las…",
+      "definition": "Valoración del trabajo en equipo y participación en la planificación y ejecución de las tareas asignadas, tanto individuales como en grupo.",
+      "broader": "sb:BTIA01SBI",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBI.7",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBI.7",
+      "prefLabel": "BTIA01SBI.7 · Aplicación del diálogo y de las discusiones positivas, organizadas y respetuosas sobre…",
+      "definition": "Aplicación del diálogo y de las discusiones positivas, organizadas y respetuosas sobre cualquier divergencia de opiniones.",
+      "broader": "sb:BTIA01SBI",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBII.1",
+      "prefLabel": "BTIA01SBII.1 · Aplicación de las normas y los procedimientos de seguridad en los espacios y recursos del…",
+      "definition": "Aplicación de las normas y los procedimientos de seguridad en los espacios y recursos del aprendizaje científico.",
+      "broader": "sb:BTIA01SBII",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBII.1.1",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBII.1.1",
+      "prefLabel": "BTIA01SBII.1.1 · Organización, almacenamiento y uso de materiales, sustancias e instrumentos básicos del…",
+      "definition": "Organización, almacenamiento y uso de materiales, sustancias e instrumentos básicos del laboratorio de ciencias.",
+      "broader": "sb:BTIA01SBII.1",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBII.1.2",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBII.1.2",
+      "prefLabel": "BTIA01SBII.1.2 · Gestión de eliminación de residuos para la protección del medio ambiente.",
+      "definition": "Gestión de eliminación de residuos para la protección del medio ambiente.",
+      "broader": "sb:BTIA01SBII.1",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBII.2",
+      "prefLabel": "BTIA01SBII.2 · Aplicación de los procedimientos y realización de medidas.",
+      "definition": "Aplicación de los procedimientos y realización de medidas.",
+      "broader": "sb:BTIA01SBII",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBII.2.1",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBII.2.1",
+      "prefLabel": "BTIA01SBII.2.1 · Conocimiento y aplicación de los procedimientos más usuales de limpieza y mantenimiento…",
+      "definition": "Conocimiento y aplicación de los procedimientos más usuales de limpieza y mantenimiento del material.",
+      "broader": "sb:BTIA01SBII.2",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBII.2.2",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBII.2.2",
+      "prefLabel": "BTIA01SBII.2.2 · Selección, calibrado y utilización de equipos, sensores e instrumental de medida con…",
+      "definition": "Selección, calibrado y utilización de equipos, sensores e instrumental de medida con precisión y exactitud.",
+      "broader": "sb:BTIA01SBII.2",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBII.3",
+      "prefLabel": "BTIA01SBII.3 · Elaboración de propuestas experimentales, reales o virtuales, que permitan comprobar el…",
+      "definition": "Elaboración de propuestas experimentales, reales o virtuales, que permitan comprobar el significado de diferentes magnitudes y los principales fenómenos relacionados con las ciencias experimentales (física, química, biología, geología y ciencias ambientales), para la comprobación de diferentes fenómenos, leyes y teorías científicas.",
+      "broader": "sb:BTIA01SBII",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBII.4",
+      "prefLabel": "BTIA01SBII.4 · Elaboración de propuestas experimentales que permitan la síntesis de productos naturales…",
+      "definition": "Elaboración de propuestas experimentales que permitan la síntesis de productos naturales y artificiales, y la determinación y medida de las propiedades físico-químicas de diferentes sustancias vinculadas a procesos de interés social y tecnológico, especialmente, en Canarias.",
+      "broader": "sb:BTIA01SBII",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBII.5",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBII.5",
+      "prefLabel": "BTIA01SBII.5 · Conocimiento de información básica sobre normativa y técnicas de análisis químico…",
+      "definition": "Conocimiento de información básica sobre normativa y técnicas de análisis químico alimentario, como base para la elaboración de propuestas experimentales, que permitan determinar los nutrientes presentes en los alimentos y las sustancias empleadas para su conservación, y la fiabilidad de la información suministrada en los etiquetados de los productos envasados.",
+      "broader": "sb:BTIA01SBII",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBIII.1",
+      "prefLabel": "BTIA01SBIII.1 · Análisis de las interacciones CTSA para relacionar la ciencia con la vida cotidiana y…",
+      "definition": "Análisis de las interacciones CTSA para relacionar la ciencia con la vida cotidiana y conectarla con sus aplicaciones en la sociedad y su entorno.",
+      "broader": "sb:BTIA01SBIII",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBIII.2",
+      "prefLabel": "BTIA01SBIII.2 · Participación responsable en la toma de decisiones fundamentadas en el conocimiento…",
+      "definition": "Participación responsable en la toma de decisiones fundamentadas en el conocimiento científico, relacionadas con problemas locales y globales, que puedan contribuir a la consecución de los Objetivos de Desarrollo Sostenible y de la Agenda Canaria de Desarrollo Sostenible 2030.",
+      "broader": "sb:BTIA01SBIII",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBIII.3",
+      "prefLabel": "BTIA01SBIII.3 · Valoración de las posibles implementaciones de los resultados y conclusiones de los…",
+      "definition": "Valoración de las posibles implementaciones de los resultados y conclusiones de los trabajos de experimentación e investigación, en aplicaciones científicas de actualidad, y su implicación en el ámbito personal, social, cultural y económico.",
+      "broader": "sb:BTIA01SBIII",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBIII.4",
+      "prefLabel": "BTIA01SBIII.4 · Valoración de la importancia de la industria química en el desarrollo de la sociedad y,…",
+      "definition": "Valoración de la importancia de la industria química en el desarrollo de la sociedad y, en particular, en Canarias.",
+      "broader": "sb:BTIA01SBIII",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBIII.4.1",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBIII.4.1",
+      "prefLabel": "BTIA01SBIII.4.1 · Análisis de la dificultad en la elaboración de determinados productos químicos a escala…",
+      "definition": "Análisis de la dificultad en la elaboración de determinados productos químicos a escala industrial y las posibles repercusiones medioambientales y para la salud de su uso.",
+      "broader": "sb:BTIA01SBIII.4",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBIII.5",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBIII.5",
+      "prefLabel": "BTIA01SBIII.5 · Conocimiento de centros de investigación, laboratorios y centros educativos…",
+      "definition": "Conocimiento de centros de investigación, laboratorios y centros educativos internacionales, nacionales y canarios cuyas líneas de actividad sean punteras y que tengan una repercusión social, o que participen en proyectos divulgación científica; y elaboración de presentaciones con los resultados de sus investigaciones",
+      "broader": "sb:BTIA01SBIII",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTIA01SBIII.6",
+      "tipo": "SaberBasico",
+      "notation": "BTIA01SBIII.6",
+      "prefLabel": "BTIA01SBIII.6 · Identificación de alimentos que contribuyan de forma favorable a una dieta equilibrada y…",
+      "definition": "Identificación de alimentos que contribuyan de forma favorable a una dieta equilibrada y racional, o que pueden provocar trastornos alimenticios, como base para reflexionar sobre la importancia de la industria alimentaria para la salud y el bienestar de las personas.",
+      "broader": "sb:BTIA01SBIII",
+      "materia": "materia:BTIA",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    }
+  ]
+}

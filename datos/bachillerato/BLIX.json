@@ -1,0 +1,709 @@
+{
+  "materia": "materia:BLIX",
+  "nodos": [
+    {
+      "id": "materia:BLIX",
+      "tipo": "Materia",
+      "notation": "BLIX",
+      "prefLabel": "Literatura Dramática (Bachillerato)",
+      "cursos": [
+        "curso:B02"
+      ],
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BLIXC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BLIXC1",
+      "prefLabel": "BLIXC1 · Leer obras de la literatura dramática o ver su puesta en escena, atendiendo tanto a las…",
+      "definition": "Leer obras de la literatura dramática o ver su puesta en escena, atendiendo tanto a las relaciones internas de los elementos constitutivos del género y sus funciones en las obras como a las relaciones externas de las obras con su contexto de producción y su inscripción en la tradición cultural, para ensanchar las posibilidades de disfrute de la literatura dramática y para estimular la expresión artística.",
+      "broader": "materia:BLIX",
+      "materia": "materia:BLIX",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BLIXC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BLIXC2",
+      "prefLabel": "BLIXC2 · Leer o ver en escena de manera autónoma obras relevantes de la literatura dramática como…",
+      "definition": "Leer o ver en escena de manera autónoma obras relevantes de la literatura dramática como fuente de placer y conocimiento, seleccionar de manera orientada aquellas que mejor se ajustan a los gustos, intereses y necesidades personales, diversificar formas de acceso al hecho teatral, y compartir experiencias de recepción, para forjar un criterio propio y para disfrutar de su dimensión social",
+      "broader": "materia:BLIX",
+      "materia": "materia:BLIX",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BLIXC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BLIXC3",
+      "prefLabel": "BLIXC3 · Establecer vínculos entre obras dramáticas de diferentes épocas, contextos y lenguajes…",
+      "definition": "Establecer vínculos entre obras dramáticas de diferentes épocas, contextos y lenguajes artísticos, para constatar la existencia de universales temáticos, tipologías de personajes y cauces formales recurrentes a lo largo de la historia, y para reconocer semejanzas y diferencias en función de sus respectivos contextos de producción y de la interrelación entre literatura y sociedad.",
+      "broader": "materia:BLIX",
+      "materia": "materia:BLIX",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BLIXC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BLIXC4",
+      "prefLabel": "BLIXC4 · Emplear las capacidades expresivas y creativas necesarias para la recreación o creación…",
+      "definition": "Emplear las capacidades expresivas y creativas necesarias para la recreación o creación de textos dramáticos, utilizando los elementos que configuran el género, así como diferentes técnicas, para componer la acción dramática, el diseño de personajes y la configuración de situaciones y escenas.",
+      "broader": "materia:BLIX",
+      "materia": "materia:BLIX",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BLIXC5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BLIXC5",
+      "prefLabel": "BLIXC5 · Participar en la construcción de un canon literario dramático universal que integre la…",
+      "definition": "Participar en la construcción de un canon literario dramático universal que integre la perspectiva de experiencia de las mujeres a través de la lectura, el visionado o la asistencia a obras teatrales de escritoras o de personajes femeninos esenciales y que supere los marcos de la cultura occidental, para establecer contrapuntos de interés, respeto y sensibilidad hacia otras voces y para desarrollar el pensamiento crítico con respecto a la construcción discursiva del mundo y sus imaginarios.",
+      "broader": "materia:BLIX",
+      "materia": "materia:BLIX",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BLIX02BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "BLIX02BC1",
+      "prefLabel": "Literatura Dramática · 2º Bachillerato · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de leer e interpretar de manera argumentada obras relevantes de la literatura dramática o ver su puesta en escena (presencial o digital) e inscritas en itinerarios temáticos, que serán objeto de recepción guiada y compartida en el aula o en un espacio escénico. Estas experiencias como lector, lectora o público teatral permitirán al alumnado abordar el estudio sociohistórico, cultural y artístico de las obras, con la adecuada presencia de muestras de la creación teatral en Canarias, para construir su interpretación y comprender el lugar que ocupan en la tradición literaria, así como analizar las relaciones internas de sus elementos constitutivos: el texto, los personajes, la realización escénica y el sistema estilístico, y la recepción teatral. Asimismo, el alumnado será capaz de leer en voz alta, individualmente o en grupo, de manera expresiva y dramatizada, fragmentos y obras teatrales atendiendo a los procesos de comprensión y de oralización implicados, y a los rasgos esenciales de la interpretación teatral, enfatizando las emociones, la intensidad de las palabras y los elementos prosódicos, así como demostrando motivación, interés e implicación en la dramatización de los textos, para estimular la creatividad literaria y artística con el fin de descubrir la autoexpresión como experiencia vital y enriquecer las posibilidades de disfrute de la literatura dramática.",
+      "broader": "materia:BLIX",
+      "agrupa": [
+        "ce:BLIXC1"
+      ],
+      "descriptores": [
+        "CCL4",
+        "CC1",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3.1",
+        "CCEC3.2",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BLIX02BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "BLIX02BC2",
+      "prefLabel": "Literatura Dramática · 2º Bachillerato · bloque competencial C2",
+      "scopeNote": "Este bloque competencial capacitará al alumnado para leer o ver en escena (de manera presencial o digital) obras relevantes de la literatura dramática de todos los tiempos, seleccionándolas de manera progresivamente autónoma y con la ayuda de recomendaciones especializadas (reseñas teatrales, revistas literarias, blogs…) así como participando de manera activa para expresar la experiencia de recepción en actividades culturales presenciales (tertulias, eventos teatrales, mesas redondas…) y digitales (BookTube, chats, blogs…) propios del ámbito personal, académico y social, con atención al circuito cultural teatral actual en Canarias, definiendo sus gustos personales y diversificando los textos elegidos y las formas de acceso al hecho teatral, atendiendo a aspectos temáticos, de género y subgénero (la tragedia, el drama y la comedia), elementos de la estructura, el estilo y valores éticos y estéticos. Asimismo se verificará que el alumnado comparte experiencias de lectura y como público teatral, con iniciativa y creatividad, utilizando el metalenguaje específico y movilizando la propia experiencia personal, lectora y teatral para establecer vínculos de manera argumentada entre la obra leída u observada y aspectos de la actualidad, así como con otros textos y manifestaciones artísticas (pintura, cine, música, danza…), incluidas las formas literarias actuales y las prácticas culturales emergentes (narración hipertextual, poética de las producciones cross-media, narrativa transmedia…) haciendo uso de soportes y dispositivos diversos para construir la propia identidad literaria, desarrollar procesos autorregulados de aprendizaje que le permitan transmitir ese conocimiento, descubrir la autoexpresión como experiencia vital y para disfrutar de la dimensión social del hecho teatral más allá de la vida escolar en un marco de democratización cultural.",
+      "broader": "materia:BLIX",
+      "agrupa": [
+        "ce:BLIXC2"
+      ],
+      "descriptores": [
+        "CCL2",
+        "CCL4",
+        "CPSAA5",
+        "CE3",
+        "CCEC1",
+        "CCEC2",
+        "CPSAA1.2",
+        "CCEC3.1"
+      ],
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BLIX02BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "BLIX02BC3",
+      "prefLabel": "Literatura Dramática · 2º Bachillerato · bloque competencial C3",
+      "scopeNote": "Con este bloque competencial se verificará que el alumnado es capaz de establecer vínculos argumentados a partir del análisis comparativo entre obras dramáticas vistas o leídas pertenecientes a diferentes épocas, contextos y lenguajes artísticos (artes plásticas, música, danza, cine o fotografía), entre sí o con sus diversas puestas en escena, reflexionando con sentido crítico sobre la existencia de universales temáticos, personajes (modelos, tipologías y evolución del personaje teatral desde sus orígenes hasta la crisis del personaje en el teatro moderno) y cauces formales a lo largo de la historia, para argumentar sus especificidades y las distintas convenciones a partir de las cuales se construye el teatro. De igual modo, el alumnado movilizará su experiencia personal a través de la lectura o de la asistencia a puestas en escena y elaborará proyectos de investigación (de manera individual o colectiva) que den lugar a una exposición oral, un ensayo o una presentación multimodal en los que integren los saberes adquiridos y los propósitos y procesos de construcción y transmisión de conocimiento, sitúen los textos teatrales leídos o vistos en su horizonte histórico-cultural, en su mayoría no coincidentes, muestren la interrelación entre literatura y sociedad e indaguen en torno al funcionamiento del teatro como artefacto ideológico determinante en la construcción de los imaginarios sociales y como vehículo para iluminar y explicar nuestro presente.",
+      "broader": "materia:BLIX",
+      "agrupa": [
+        "ce:BLIXC3"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL4",
+        "STEM2",
+        "CPSAA5",
+        "CCEC1",
+        "CCEC2",
+        "CCL3",
+        "CD1",
+        "CC1",
+        "CCL5",
+        "CD2",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BLIX02BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "BLIX02BC4",
+      "prefLabel": "Literatura Dramática · 2º Bachillerato · bloque competencial C4",
+      "scopeNote": "Para desarrollar esta competencia, se comprobará que el alumnado es capaz de crear o recrear, de forma individual o colectiva, con propósito literario y con ayuda de otros lenguajes artísticos y audiovisuales, textos teatrales escritos y multimodales a partir de la apropiación de las convenciones del lenguaje literario y en referencia a modelos dados (imitación, transformación, continuación…), respetando los derechos de autoría, seleccionando e integrando con creatividad los conocimientos adquiridos sobre el conflicto, situación, personaje dramático, la realización escénica y el sistema estilístico; el diseño de personajes (vestuario, máscara y maquillaje); el espacio sonoro, el diseño de iluminación, los recursos audiovisuales, el estilo, los códigos interpretativos y la construcción dramática (presentación del conflicto, desarrollo, nudo y desenlace). Se verificará, asimismo, que refleja en sus textos la apropiación de los conocimientos en torno a la construcción posdramática, distribuyendo las tareas, recursos y responsabilidades de manera ecuánime y descubriendo la autoexpresión como experiencia vital; enfrentándose a situaciones que fomenten la expresión y la aceptación para expresar y comunicar su identidad cultural con iniciativa y creatividad; reflexionando sobre el proceso realizado (interpretación, ejecución, improvisación, composición e innovación) y el resultado obtenido; y promoviendo los derechos humanos que se derivan de la práctica artística. Todo ello poniendo en práctica un enfoque sistémico que contribuya a la consecución de objetivos compartidos y suponga una oportunidad para aprender y reflexionar, a partir de su propia experiencia, sobre el valor social del patrimonio cultural y artístico.",
+      "broader": "materia:BLIX",
+      "agrupa": [
+        "ce:BLIXC4"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL4",
+        "CD3",
+        "CPSAA3.2",
+        "CCEC2",
+        "CCEC3.1",
+        "CCEC3.2",
+        "CCEC4.1",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BLIX02BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "BLIX02BC5",
+      "prefLabel": "Literatura Dramática · 2º Bachillerato · bloque competencial C5",
+      "scopeNote": "Se comprobará, con este bloque competencial, que el alumnado, individualmente o de manera cooperativa, realiza proyectos de investigación guiados sobre autoras de relevancia, personajes femeninos esenciales, obras literarias de contextos no occidentales o textos de la literatura canaria, que le permitan establecer relaciones intertextuales entre obras y fragmentos de diferentes géneros, épocas, contextos culturales y códigos artísticos, así como con sus respectivos contextos de producción, investigando sus especificidades e intención y utilizando la información sociohistórica, cultural y artística para comprender el lugar que ocuparon en la tradición literaria. Todo ello con el fin de identificar elementos de continuidad y ruptura, interpretar los aciertos y carencias de la literatura con respecto a la complejidad de la identidad individual y la diversidad de géneros en la sociedad y examinar la huella de su legado en la actualidad, aplicando, de manera cívica y respetuosa, su entorno digital de aprendizaje para comparar, analizar, evaluar y sintetizar datos, información e ideas de los medios de comunicación y obtener conclusiones lógicas de forma autónoma, valorando la fiabilidad de las fuentes. Por otro lado, se verificará que el alumnado es capaz de elaborar comentarios o reseñas de textos teatrales de forma crítica y reflexiva,  entendiendo el teatro como artefacto ideológico determinante en la construcción de los imaginarios sociales, con singular atención a la perspectiva de género, y atendiendo a sus valores culturales, éticos y estéticos. Por último, a través de su participación en conversaciones literarias y en intercambios de recomendaciones en contextos presenciales y digitales, se constatará que el alumnado, con un metalenguaje específico y actitud empática y respetuosa, comparte su propia interpretación argumentada de los aspectos singulares y el valor social del patrimonio cultural y artístico de cualquier época, con el fin de reconocer y descartar actitudes inconscientemente sexistas y etnocéntricas, y de incorporar a su mapa de cultura muestras representativas de un patrimonio auténticamente universal, con presencia de mujeres escritoras, de personajes femeninos destacables y de obras no occidentales.",
+      "broader": "materia:BLIX",
+      "agrupa": [
+        "ce:BLIXC5"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "CCL5",
+        "CP3",
+        "CPSAA4",
+        "CC1",
+        "CCEC1",
+        "CCL2",
+        "CCL4",
+        "CPSAA3.1",
+        "CCEC2"
+      ],
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BLIX02CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BLIX02CE1.1",
+      "prefLabel": "BLIX02CE1.1 · Explicar y argumentar la interpretación de las obras leídas o vistas, a partir del…",
+      "definition": "Explicar y argumentar la interpretación de las obras leídas o vistas, a partir del análisis de las relaciones internas de sus elementos constitutivos con el sentido de la obra y de las relaciones externas del texto con su contexto sociohistórico y con la tradición literaria, prestando especial importancia al patrimonio dramatúrgico canario, utilizando un metalenguaje específico, incorporando juicios de valor vinculados a la apreciación ética y estética de las obras con la finalidad de conformar un mapa cultural literario que constate la pervivencia de universales temáticos y formales y acrecentar las posibilidades de disfrute de la literatura dramática.",
+      "broader": "ce:BLIXC1",
+      "bloque": "bc:BLIX02BC1",
+      "descriptores": [
+        "CCL4",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BLIX02CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BLIX02CE1.2",
+      "prefLabel": "BLIX02CE1.2 · Leer en voz alta fragmentos y obras teatrales, prestando especial atención a la…",
+      "definition": "Leer en voz alta fragmentos y obras teatrales, prestando especial atención a la configuración de situaciones y escenas, enfatizando las emociones, la intensidad de las palabras y los elementos prosódicos, así como demostrando motivación, interés e implicación en la dramatización de los textos, para estimular la creatividad literaria, artística y descubrir la autoexpresión como experiencia vital.",
+      "broader": "ce:BLIXC1",
+      "bloque": "bc:BLIX02BC1",
+      "descriptores": [
+        "CCL4",
+        "CCEC2",
+        "CCEC3.1",
+        "CCEC3.2",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BLIX02CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BLIX02CE2.1",
+      "prefLabel": "BLIX02CE2.1 · Elaborar interpretaciones personales críticas a partir de la lectura, el visionado o la…",
+      "definition": "Elaborar interpretaciones personales críticas a partir de la lectura, el visionado o la asistencia a obras relevantes de la literatura dramática del patrimonio universal que atienda a aspectos temáticos, de género y subgénero, elementos de la estructura, el estilo y valores éticos y estéticos de las obras y establezca vínculos argumentados con otras obras y otras experiencias para construir su propia identidad literaria, artística y cultural.",
+      "broader": "ce:BLIXC2",
+      "bloque": "bc:BLIX02BC2",
+      "descriptores": [
+        "CCL2",
+        "CCL4",
+        "CPSAA5",
+        "CE3",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BLIX02CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BLIX02CE2.2",
+      "prefLabel": "BLIX02CE2.2 · Acceder a diversas manifestaciones de la cultura dramática y participar en conversaciones…",
+      "definition": "Acceder a diversas manifestaciones de la cultura dramática y participar en conversaciones literarias, en las que se compartan, utilizando el metalenguaje específico, experiencias de lectura o de asistencia a obras, para conformar un itinerario lector personal y disfrutar de la dimensión social del género teatral.",
+      "broader": "ce:BLIXC2",
+      "bloque": "bc:BLIX02BC2",
+      "descriptores": [
+        "CCL2",
+        "CCL4",
+        "CPSAA1.2",
+        "CPSAA5",
+        "CCEC1",
+        "CCEC3.1"
+      ],
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BLIX02CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BLIX02CE3.1",
+      "prefLabel": "BLIX02CE3.1 · Comparar textos o fragmentos teatrales entre sí o con su puesta en escena, adaptación…",
+      "definition": "Comparar textos o fragmentos teatrales entre sí o con su puesta en escena, adaptación cinematográfica u otras representaciones artísticas relacionadas, argumentando con espíritu crítico sus especificidades, los elementos de semejanza y contraste de los aspectos temáticos, de contenido, formales y expresivos, con atención a los valores éticos y estéticos de las obras, y haciendo las inferencias necesarias para progresar en la aprehensión del funcionamiento del fenómeno teatral.",
+      "broader": "ce:BLIXC3",
+      "bloque": "bc:BLIX02BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL4",
+        "STEM2",
+        "CPSAA5",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BLIX02CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BLIX02CE3.2",
+      "prefLabel": "BLIX02CE3.2 · Realizar proyectos de investigación, con creatividad y espíritu crítico, que establezcan…",
+      "definition": "Realizar proyectos de investigación, con creatividad y espíritu crítico, que establezcan vínculos argumentados entre obras de la literatura dramática y sus puestas en escena u otros textos y manifestaciones artísticas de ayer y de hoy, en función de temas, tópicos, estructuras, personajes, lenguaje, recursos expresivos y valores éticos y estéticos, para constatar la existencia de universales temáticos y cauces formales recurrentes a lo largo de la historia.",
+      "broader": "ce:BLIXC3",
+      "bloque": "bc:BLIX02BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "CCL4",
+        "STEM2",
+        "CD1",
+        "CPSAA5",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BLIX02CE3.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BLIX02CE3.3",
+      "prefLabel": "BLIX02CE3.3 · Elaborar exposiciones multimodales, de manera creativa y crítica, que sitúen los textos…",
+      "definition": "Elaborar exposiciones multimodales, de manera creativa y crítica, que sitúen los textos teatrales leídos en su horizonte histórico-cultural y ofrezcan una panorámica de conjunto sobre géneros, estilos y obras relevantes de la literatura universal para establecer semejanzas y diferencias en función de sus respectivos contextos de producción y de la interrelación entre literatura y sociedad, así como para reflexionar sobre el valor social del patrimonio cultural y artístico de cualquier época y cualquier lugar, prestando la debida atención al patrimonio escénico de Canarias.",
+      "broader": "ce:BLIXC3",
+      "bloque": "bc:BLIX02BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "CD1",
+        "CD2",
+        "CPSAA5",
+        "CC1",
+        "CCEC1",
+        "CCEC2",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BLIX02CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BLIX02CE4.1",
+      "prefLabel": "BLIX02CE4.1 · Crear o recrear textos teatrales con intención literaria y conciencia de estilo, a partir…",
+      "definition": "Crear o recrear textos teatrales con intención literaria y conciencia de estilo, a partir de la lectura de obras o fragmentos significativos en los que se empleen las convenciones formales del género, atendiendo especialmente a sus dos secuencias textuales básicas, diálogo y acotaciones, y al reflejo de los elementos de significación teatral en el texto escrito, aplicando las capacidades de composición e interpretación para descubrir la autoexpresión como un medio para comunicar su identidad cultural con iniciativa, imaginación y creatividad.",
+      "broader": "ce:BLIXC4",
+      "bloque": "bc:BLIX02BC4",
+      "descriptores": [
+        "CCL1",
+        "CCL4",
+        "CD3",
+        "CPSAA3.2",
+        "CCEC2",
+        "CCEC3.1",
+        "CCEC3.2",
+        "CCEC4.1",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BLIX02CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BLIX02CE5.1",
+      "prefLabel": "BLIX02CE5.1 · Realizar proyectos de investigación sobre autoras de relevancia, personajes femeninos…",
+      "definition": "Realizar proyectos de investigación sobre autoras de relevancia, personajes femeninos esenciales, obras literarias de contextos no occidentales o sobre cuestiones temáticas o formales que aporten una mirada diversa, crítica y respetuosa sobre la construcción de imaginarios que propone la tradición literaria y examine la huella de su legado en la actualidad, con el fin de construir y compartir su propia interpretación argumentada de las obras y promover, con actitud dialogante, la igualdad efectiva entre mujeres y hombres y el enriquecimiento inherente a la diversidad.",
+      "broader": "ce:BLIXC5",
+      "bloque": "bc:BLIX02BC5",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "CCL5",
+        "CP3",
+        "CPSAA4",
+        "CC1",
+        "CCEC1"
+      ],
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BLIX02CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BLIX02CE5.2",
+      "prefLabel": "BLIX02CE5.2 · Elaborar comentarios o reseñas de textos teatrales de forma crítica y reflexiva, así como…",
+      "definition": "Elaborar comentarios o reseñas de textos teatrales de forma crítica y reflexiva, así como participar en debates y mesas redondas, de manera activa e informada, acerca de lecturas, visionados o espectáculos teatrales en los que se incorpore la perspectiva de género, el cuestionamiento de la mirada etnocéntrica propia del canon occidental o cualquier otro discurso que suponga una discriminación, para desarrollar el pensamiento crítico, la percepción del mundo y sus imaginarios, y anteponer la comprensión mutua para fomentar la cohesión social.",
+      "broader": "ce:BLIXC5",
+      "bloque": "bc:BLIX02BC5",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL4",
+        "CCL5",
+        "CP3",
+        "CPSAA3.1",
+        "CC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "BLIX02SBI",
+      "prefLabel": "BLIX02SBI · I. Lectura y recepción teatral guiada. Construcción compartida de la interpretación de textos relevantes de la literatura dramática inscritos en itinerarios temáticos que establezcan relaciones intertextuales entre obras y fragmentos de diferentes géneros, épocas, contextos culturales y códigos artísticos, así como con sus respectivos contextos de producción, de acuerdo a los siguientes ejes y estrategias:",
+      "definition": "Lectura y recepción teatral guiada. Construcción compartida de la interpretación de textos relevantes de la literatura dramática inscritos en itinerarios temáticos que establezcan relaciones intertextuales entre obras y fragmentos de diferentes géneros, épocas, contextos culturales y códigos artísticos, así como con sus respectivos contextos de producción, de acuerdo a los siguientes ejes y estrategias:",
+      "broader": "materia:BLIX",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "BLIX02SBII",
+      "prefLabel": "BLIX02SBII · II. Lectura y recepción teatral autónoma. Recepción autónoma de obras relevantes de la literatura dramática y participación en conversaciones literarias y en intercambios de recomendaciones desarrollando las siguientes estrategias:",
+      "definition": "Lectura y recepción teatral autónoma. Recepción autónoma de obras relevantes de la literatura dramática y participación en conversaciones literarias y en intercambios de recomendaciones desarrollando las siguientes estrategias:",
+      "broader": "materia:BLIX",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBI.1",
+      "prefLabel": "BLIX02SBI.1 · Configuración del arte teatral",
+      "definition": "Configuración del arte teatral",
+      "broader": "sb:BLIX02SBI",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBI.1.1",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBI.1.1",
+      "prefLabel": "BLIX02SBI.1.1 · El texto teatral: definición y elementos. El libreto: actos, cuadros y escenas; diálogo,…",
+      "definition": "El texto teatral: definición y elementos. El libreto: actos, cuadros y escenas; diálogo, monólogo y aparte; didascalias y acotaciones; drammatis personnae. Estructura interna de la acción: conflicto, situación y personajes; construcción dramática y posdramática; lenguaje y estilo.",
+      "broader": "sb:BLIX02SBI.1",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBI.1.2",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBI.1.2",
+      "prefLabel": "BLIX02SBI.1.2 · El personaje teatral y la caracterización del personaje dramático: planos, funciones,…",
+      "definition": "El personaje teatral y la caracterización del personaje dramático: planos, funciones, personaje y acción, jerarquía, significado. Modelos, tipologías y evolución del personaje teatral desde sus orígenes hasta la crisis del personaje en el teatro moderno.",
+      "broader": "sb:BLIX02SBI.1",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBI.1.3",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBI.1.3",
+      "prefLabel": "BLIX02SBI.1.3 · La realización escénica y el sistema estilístico. Espacio escénico-escenográfico y objeto…",
+      "definition": "La realización escénica y el sistema estilístico. Espacio escénico-escenográfico y objeto escénico. Diseño de personaje: vestuario, máscara y maquillaje. Espacio sonoro, diseño de iluminación y recursos audiovisuales. Trabajo actoral y códigos interpretativos.",
+      "broader": "sb:BLIX02SBI.1",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBI.1.4",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBI.1.4",
+      "prefLabel": "BLIX02SBI.1.4 · La recepción teatral: la relación con el público. Catarsis, extrañamiento y participación.",
+      "definition": "La recepción teatral: la relación con el público. Catarsis, extrañamiento y participación.",
+      "broader": "sb:BLIX02SBI.1",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBI.2",
+      "prefLabel": "BLIX02SBI.2 · Temas y formas de la literatura dramática",
+      "definition": "Temas y formas de la literatura dramática",
+      "broader": "sb:BLIX02SBI",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBI.2.1",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBI.2.1",
+      "prefLabel": "BLIX02SBI.2.1 · Territorios del yo: los personajes como modelos vitales. Teatro biográfico: la…",
+      "definition": "Territorios del yo: los personajes como modelos vitales. Teatro biográfico: la construcción del sujeto teatral y la indagación en los grandes interrogantes de la condición humana: identidad, amor, dolor, muerte, etc. Teatro autobiográfico: intimidad, testimonio y autorreferencialidad.",
+      "broader": "sb:BLIX02SBI.2",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBI.2.2",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBI.2.2",
+      "prefLabel": "BLIX02SBI.2.2 · Diálogo con los otros y las otras: el teatro como modelo de interpretación de las…",
+      "definition": "Diálogo con los otros y las otras: el teatro como modelo de interpretación de las relaciones humanas. La Tragedia: el ser humano, el destino y la ética. Drama: libertad individual y convenciones sociales. Comedia: humor complaciente, humor crítico.",
+      "broader": "sb:BLIX02SBI.2",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBI.2.3",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBI.2.3",
+      "prefLabel": "BLIX02SBI.2.3 · Individuo y sociedad: función y sentido del teatro. Mitologías y cosmogonías: teatro…",
+      "definition": "Individuo y sociedad: función y sentido del teatro. Mitologías y cosmogonías: teatro mítico y religioso de distintas tradiciones. Reproducir el mundo: los realismos, el teatro como escuela o crítica de costumbres. Teatro comprometido: teatro político, teatro documento, teatro épico, etc. Imaginar el mundo: comedia de magia, simbolismo, vanguardias, teatro posdramático, etc.",
+      "broader": "sb:BLIX02SBI.2",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBI.2.4",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBI.2.4",
+      "prefLabel": "BLIX02SBI.2.4 · El teatro habla del teatro: metaficción teatral.",
+      "definition": "El teatro habla del teatro: metaficción teatral.",
+      "broader": "sb:BLIX02SBI.2",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBI.2.5",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBI.2.5",
+      "prefLabel": "BLIX02SBI.2.5 · Géneros: rol y representación. Interpretación e identificación de los aciertos y…",
+      "definition": "Géneros: rol y representación. Interpretación e identificación de los aciertos y carencias de la literatura con respecto a la complejidad de la identidad individual y la diversidad de géneros en la sociedad.",
+      "broader": "sb:BLIX02SBI.2",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBI.3",
+      "prefLabel": "BLIX02SBI.3 · Estrategias de análisis, interpretación, y creación de textos teatrales",
+      "definition": "Estrategias de análisis, interpretación, y creación de textos teatrales",
+      "broader": "sb:BLIX02SBI",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBI.3.1",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBI.3.1",
+      "prefLabel": "BLIX02SBI.3.1 · Construcción compartida y crítica de la interpretación de las obras dramáticas a través…",
+      "definition": "Construcción compartida y crítica de la interpretación de las obras dramáticas a través de discusiones o conversaciones literarias haciendo uso del metalenguaje específico.",
+      "broader": "sb:BLIX02SBI.3",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBI.3.2",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBI.3.2",
+      "prefLabel": "BLIX02SBI.3.2 · Análisis reflexivo y valorativo de los elementos constitutivos del género dramático y la…",
+      "definition": "Análisis reflexivo y valorativo de los elementos constitutivos del género dramático y la construcción del sentido de la obra, prestando especial atención a la interacción con el público. Interpretación justificada de los efectos en la recepción de sus recursos expresivos.",
+      "broader": "sb:BLIX02SBI.3",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBI.3.3",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBI.3.3",
+      "prefLabel": "BLIX02SBI.3.3 · Utilización eficaz de información sociohistórica, cultural y artística para construir la…",
+      "definition": "Utilización eficaz de información sociohistórica, cultural y artística para construir la interpretación de las obras y comprender el lugar que ocupan en la tradición literaria.",
+      "broader": "sb:BLIX02SBI.3",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBI.3.4",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBI.3.4",
+      "prefLabel": "BLIX02SBI.3.4 · Análisis comparativo y reflexivo de los textos leídos con otros textos orales, escritos o…",
+      "definition": "Análisis comparativo y reflexivo de los textos leídos con otros textos orales, escritos o multimodales, con otras manifestaciones artísticas, estableciendo vínculos intertextuales entre obras en función de temas, tópicos, estructuras y lenguajes. Interpretación razonada de los elementos de continuidad y ruptura.",
+      "broader": "sb:BLIX02SBI.3",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBI.3.5",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBI.3.5",
+      "prefLabel": "BLIX02SBI.3.5 · Indagación en torno al funcionamiento del teatro como artefacto ideológico determinante…",
+      "definition": "Indagación en torno al funcionamiento del teatro como artefacto ideológico determinante en la construcción de los imaginarios sociales, haciendo especial hincapié en la perspectiva de género.",
+      "broader": "sb:BLIX02SBI.3",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBI.3.6",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBI.3.6",
+      "prefLabel": "BLIX02SBI.3.6 · Expresión argumentada y crítica de la interpretación de obras y fragmentos dramáticos,…",
+      "definition": "Expresión argumentada y crítica de la interpretación de obras y fragmentos dramáticos, integrando los diferentes aspectos analizados y atendiendo a sus valores culturales, éticos y estéticos. Elaboración de reseñas teatrales.",
+      "broader": "sb:BLIX02SBI.3",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBI.3.7",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBI.3.7",
+      "prefLabel": "BLIX02SBI.3.7 · Indagación sobre el pasado y el presente de la creación teatral en Canarias, con especial…",
+      "definition": "Indagación sobre el pasado y el presente de la creación teatral en Canarias, con especial atención a obras, autores y autoras relevantes.",
+      "broader": "sb:BLIX02SBI.3",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBI.3.8",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBI.3.8",
+      "prefLabel": "BLIX02SBI.3.8 · Lectura expresiva y dramatización de los textos atendiendo a los procesos de comprensión…",
+      "definition": "Lectura expresiva y dramatización de los textos atendiendo a los procesos de comprensión y de oralización implicados, y a los rasgos esenciales de la interpretación teatral.",
+      "broader": "sb:BLIX02SBI.3",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBI.3.9",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBI.3.9",
+      "prefLabel": "BLIX02SBI.3.9 · Creación de textos teatrales con intención literaria, sentido estético y conciencia de…",
+      "definition": "Creación de textos teatrales con intención literaria, sentido estético y conciencia de estilo a partir de la apropiación de las convenciones del lenguaje literario y en referencia a modelos dados (imitación, transformación, continuación…).",
+      "broader": "sb:BLIX02SBI.3",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBII.1",
+      "prefLabel": "BLIX02SBII.1 · Selección de obras de manera autónoma y con la ayuda de recomendaciones especializadas y…",
+      "definition": "Selección de obras de manera autónoma y con la ayuda de recomendaciones especializadas y la utilización autónoma y frecuente de bibliotecas.",
+      "broader": "sb:BLIX02SBII",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBII.2",
+      "prefLabel": "BLIX02SBII.2 · Participación activa en el circuito literario, lector y teatral en contexto presencial y…",
+      "definition": "Participación activa en el circuito literario, lector y teatral en contexto presencial y digital. El circuito teatral actual en Canarias.",
+      "broader": "sb:BLIX02SBII",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBII.3",
+      "prefLabel": "BLIX02SBII.3 · Expresión argumentada de los gustos dramáticos personales, diversificación del corpus…",
+      "definition": "Expresión argumentada de los gustos dramáticos personales, diversificación del corpus leído o visto en tanto que espectador o espectadora, atendiendo a los circuitos culturales del teatro, y comunicación razonada de la experiencia lectora o como público, utilizando un metalenguaje específico y atendiendo a aspectos temáticos, género y subgénero, elementos de la estructura y el estilo, y valores éticos y estéticos de las obras.",
+      "broader": "sb:BLIX02SBII",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBII.4",
+      "prefLabel": "BLIX02SBII.4 · Movilización de la propia experiencia personal, lectora y teatral para establecer…",
+      "definition": "Movilización de la propia experiencia personal, lectora y teatral para establecer vínculos de manera argumentada entre la obra leída u observada y aspectos de la actualidad, así como con otros textos y manifestaciones artísticas, incluidas prácticas culturales emergentes.",
+      "broader": "sb:BLIX02SBII",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BLIX02SBII.5",
+      "tipo": "SaberBasico",
+      "notation": "BLIX02SBII.5",
+      "prefLabel": "BLIX02SBII.5 · Recomendación de las lecturas y puestas en escena en soportes variados, atendiendo a…",
+      "definition": "Recomendación de las lecturas y puestas en escena en soportes variados, atendiendo a aspectos temáticos, formales e intertextuales.",
+      "broader": "sb:BLIX02SBII",
+      "materia": "materia:BLIX",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    }
+  ]
+}

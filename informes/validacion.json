@@ -1,0 +1,4050 @@
+{
+  "errores_nuevos": [],
+  "incidencias_resueltas": [],
+  "avisos": [
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:BMCIC2",
+      "detalle": "La competencia 2 solo aparece en los códigos de criterios del bloque BMCIC1; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:BMCI01BC1",
+      "detalle": "El bloque competencial agrupa las competencias BMCIC1, BMCIC2"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:BMCIC4",
+      "detalle": "La competencia 4 solo aparece en los códigos de criterios del bloque BMCIC3; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:BMCI01BC3",
+      "detalle": "El bloque competencial agrupa las competencias BMCIC3, BMCIC4"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:BMCIC6",
+      "detalle": "La competencia 6 solo aparece en los códigos de criterios del bloque BMCIC5; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:BMCI01BC5",
+      "detalle": "El bloque competencial agrupa las competencias BMCIC5, BMCIC6"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:BMCIC8",
+      "detalle": "La competencia 8 solo aparece en los códigos de criterios del bloque BMCIC7; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:BMCI01BC7",
+      "detalle": "El bloque competencial agrupa las competencias BMCIC7, BMCIC8"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:BMTIC2",
+      "detalle": "La competencia 2 solo aparece en los códigos de criterios del bloque BMTIC1; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:BMTI01BC1",
+      "detalle": "El bloque competencial agrupa las competencias BMTIC1, BMTIC2"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:BMTIC4",
+      "detalle": "La competencia 4 solo aparece en los códigos de criterios del bloque BMTIC3; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:BMTI01BC3",
+      "detalle": "El bloque competencial agrupa las competencias BMTIC3, BMTIC4"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:BMTIC6",
+      "detalle": "La competencia 6 solo aparece en los códigos de criterios del bloque BMTIC5; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:BMTI01BC5",
+      "detalle": "El bloque competencial agrupa las competencias BMTIC5, BMTIC6"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:BMTIC8",
+      "detalle": "La competencia 8 solo aparece en los códigos de criterios del bloque BMTIC7; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:BMTI01BC7",
+      "detalle": "El bloque competencial agrupa las competencias BMTIC7, BMTIC8"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:BMZTC2",
+      "detalle": "La competencia 2 solo aparece en los códigos de criterios del bloque BMZTC1; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:BMZT01BC1",
+      "detalle": "El bloque competencial agrupa las competencias BMZTC1, BMZTC2"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:BMZTC4",
+      "detalle": "La competencia 4 solo aparece en los códigos de criterios del bloque BMZTC3; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:BMZT01BC3",
+      "detalle": "El bloque competencial agrupa las competencias BMZTC3, BMZTC4"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:BMZTC6",
+      "detalle": "La competencia 6 solo aparece en los códigos de criterios del bloque BMZTC5; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:BMZT01BC5",
+      "detalle": "El bloque competencial agrupa las competencias BMZTC5, BMZTC6"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:BMZTC8",
+      "detalle": "La competencia 8 solo aparece en los códigos de criterios del bloque BMZTC7; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:BMZT01BC7",
+      "detalle": "El bloque competencial agrupa las competencias BMZTC7, BMZTC8"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:BTSA",
+      "detalle": "La clave de la materia es TSA, pero sus identificadores usan TA7"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:BTSA",
+      "detalle": "La clave de la materia es TSA, pero sus identificadores usan TA7"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:BTSA",
+      "detalle": "La clave de la materia es TSA, pero sus identificadores usan TA7"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:BTSA",
+      "detalle": "La clave de la materia es TSA, pero sus identificadores usan TA7"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:BAIIC2",
+      "detalle": "La competencia 2 solo aparece en los códigos de criterios del bloque BAIIC1; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:BAII02BC1",
+      "detalle": "El bloque competencial agrupa las competencias BAIIC1, BAIIC2"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:BAIIC4",
+      "detalle": "La competencia 4 solo aparece en los códigos de criterios del bloque BAIIC3; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:BAII02BC3",
+      "detalle": "El bloque competencial agrupa las competencias BAIIC3, BAIIC4"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:BAIIC6",
+      "detalle": "La competencia 6 solo aparece en los códigos de criterios del bloque BAIIC5; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:BAII02BC5",
+      "detalle": "El bloque competencial agrupa las competencias BAIIC5, BAIIC6"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:BAIIC8",
+      "detalle": "La competencia 8 solo aparece en los códigos de criterios del bloque BAIIC7; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:BAII02BC7",
+      "detalle": "El bloque competencial agrupa las competencias BAIIC7, BAIIC8"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:BBIEC2",
+      "detalle": "La competencia 2 solo aparece en los códigos de criterios del bloque BBIEC1; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:BBIE02BC1",
+      "detalle": "El bloque competencial agrupa las competencias BBIEC1, BBIEC2"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:BBIEC6",
+      "detalle": "La competencia 6 solo aparece en los códigos de criterios del bloque BBIEC5; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:BBIE02BC5",
+      "detalle": "El bloque competencial agrupa las competencias BBIEC5, BBIEC6"
+    },
+    {
+      "regla": "codigo_duplicado",
+      "nivel": "error",
+      "nodo": "sb:BBIE02SBIII.1.1",
+      "detalle": "Saber repetido en la exportación; se conserva el primero"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:BBIE02SBIII.1.2",
+      "detalle": "Un encabezado numerado «3» no corresponde al saber 1.2: 'Inclusión, respeto y diversidad'"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBII.1.1",
+      "detalle": "Código truncado en la exportación ('BLAM02SBII.1.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBII.1.2",
+      "detalle": "Código truncado en la exportación ('BLAM02SBII.1.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBII.1.3",
+      "detalle": "Código truncado en la exportación ('BLAM02SBII.1.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBII.1.4",
+      "detalle": "Código truncado en la exportación ('BLAM02SBII.1.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBII.1.5",
+      "detalle": "Código truncado en la exportación ('BLAM02SBII.1.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBII.2.1",
+      "detalle": "Código truncado en la exportación ('BLAM02SBII.2.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBII.2.2",
+      "detalle": "Código truncado en la exportación ('BLAM02SBII.2.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBII.2.3",
+      "detalle": "Código truncado en la exportación ('BLAM02SBII.2.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBII.2.4",
+      "detalle": "Código truncado en la exportación ('BLAM02SBII.2.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBII.2.5",
+      "detalle": "Código truncado en la exportación ('BLAM02SBII.2.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBII.2.6",
+      "detalle": "Código truncado en la exportación ('BLAM02SBII.2.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBII.3.1",
+      "detalle": "Código truncado en la exportación ('BLAM02SBII.3.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBII.3.2",
+      "detalle": "Código truncado en la exportación ('BLAM02SBII.3.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBII.3.3",
+      "detalle": "Código truncado en la exportación ('BLAM02SBII.3.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.1.1",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.1.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.1.2",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.1.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.1.3",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.1.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.1.4",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.1.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.1.5",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.1.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.1.6",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.1.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.1.7",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.1.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.1.8",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.1.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.2.1",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.2.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.2.2",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.2.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.2.3",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.2.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.2.4",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.2.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.2.5",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.2.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.2.6",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.2.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.2.7",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.2.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.2.8",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.2.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.2.9",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.2.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.3.1",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.3.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.3.2",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.3.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.3.3",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.3.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.3.4",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.3.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.3.5",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.3.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.3.6",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.3.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:BLAM02SBIII.3.7",
+      "detalle": "Código truncado en la exportación ('BLAM02SBIII.3.'); reconstruido a partir del texto"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:BMIIC2",
+      "detalle": "La competencia 2 solo aparece en los códigos de criterios del bloque BMIIC1; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:BMII02BC1",
+      "detalle": "El bloque competencial agrupa las competencias BMIIC1, BMIIC2"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:BMIIC4",
+      "detalle": "La competencia 4 solo aparece en los códigos de criterios del bloque BMIIC3; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:BMII02BC3",
+      "detalle": "El bloque competencial agrupa las competencias BMIIC3, BMIIC4"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:BMIIC6",
+      "detalle": "La competencia 6 solo aparece en los códigos de criterios del bloque BMIIC5; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:BMII02BC5",
+      "detalle": "El bloque competencial agrupa las competencias BMIIC5, BMIIC6"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:BMIIC8",
+      "detalle": "La competencia 8 solo aparece en los códigos de criterios del bloque BMIIC7; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:BMII02BC7",
+      "detalle": "El bloque competencial agrupa las competencias BMIIC7, BMIIC8"
+    },
+    {
+      "regla": "saber_sin_numeracion",
+      "nivel": "aviso",
+      "nodo": "sb:BPSI02SBVI.4",
+      "detalle": "El texto del saber no lleva número"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:SMATC2",
+      "detalle": "La competencia 2 solo aparece en los códigos de criterios del bloque SMATC1; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMAT01BC1",
+      "detalle": "El bloque competencial agrupa las competencias SMATC1, SMATC2"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:SMATC10",
+      "detalle": "La competencia 10 solo aparece en los códigos de criterios del bloque SMATC9; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMAT01BC9",
+      "detalle": "El bloque competencial agrupa las competencias SMATC9, SMATC10"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:SMATC4",
+      "detalle": "La competencia 4 solo aparece en los códigos de criterios del bloque SMATC3; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMAT01BC3",
+      "detalle": "El bloque competencial agrupa las competencias SMATC3, SMATC4"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:SMATC6",
+      "detalle": "La competencia 6 solo aparece en los códigos de criterios del bloque SMATC5; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMAT01BC5",
+      "detalle": "El bloque competencial agrupa las competencias SMATC5, SMATC6"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:SMATC8",
+      "detalle": "La competencia 8 solo aparece en los códigos de criterios del bloque SMATC7; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMAT01BC7",
+      "detalle": "El bloque competencial agrupa las competencias SMATC7, SMATC8"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMAT02BC1",
+      "detalle": "El bloque competencial agrupa las competencias SMATC1, SMATC2"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMAT02BC9",
+      "detalle": "El bloque competencial agrupa las competencias SMATC9, SMATC10"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMAT02BC3",
+      "detalle": "El bloque competencial agrupa las competencias SMATC3, SMATC4"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMAT02BC5",
+      "detalle": "El bloque competencial agrupa las competencias SMATC5, SMATC6"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMAT02BC7",
+      "detalle": "El bloque competencial agrupa las competencias SMATC7, SMATC8"
+    },
+    {
+      "regla": "codigo_duplicado",
+      "nivel": "error",
+      "nodo": "sb:SUEC02SBIV.6",
+      "detalle": "Saber repetido en la exportación; se conserva el primero"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SCUJ03SBI.7",
+      "detalle": "Un encabezado numerado «2» no corresponde al saber 7: 'Explicación de las relaciones económicas básicas.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SCUJ03SBII.1",
+      "detalle": "Un encabezado numerado «2» no corresponde al saber 1: 'Explicación de las relaciones económicas básicas.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SCUJ03SBII.2",
+      "detalle": "Un encabezado numerado «3» no corresponde al saber 2: 'La importancia de los bienes y servicios públicos para la economía.'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SCUJ03SBII.3",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Desarrollo de formas de expresión a través de la creación de medios di'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SCUJ03SBII.4",
+      "detalle": "Un encabezado numerado «3» no corresponde al saber 4: 'La importancia de los bienes y servicios públicos para la economía.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SCUJ03SBII.5",
+      "detalle": "Un encabezado numerado «3» no corresponde al saber 5: 'La importancia de los bienes y servicios públicos para la economía.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SCUJ03SBII.6",
+      "detalle": "Un encabezado numerado «4» no corresponde al saber 6: 'Aproximación a las variables macroeconómicas: el desempleo y la inflac'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SCUJ03SBII.7",
+      "detalle": "Un encabezado numerado «4» no corresponde al saber 7: 'Aproximación a las variables macroeconómicas: el desempleo y la inflac'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SCUJ03SBIII.1",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Conocimiento y aplicación de estrategias de pensamiento computacional '"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SCUJ03SBIII.2",
+      "detalle": "Un encabezado numerado «1» no corresponde al saber 2: 'El papel del dinero en la economía.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SCUJ03SBIII.3",
+      "detalle": "Un encabezado numerado «1» no corresponde al saber 3: 'El papel del dinero en la economía.'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SCUJ03SBIV.4",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Adquisición y aplicación de estrategias para construir una identidad d'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SCUJ03SBIV.5",
+      "detalle": "Un encabezado numerado «4» no corresponde al saber 5: 'Identificación de patrones de consumo y análisis de los beneficios y p'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SECZ03SBIII.3",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Estudio de la economía circular como modelo de producción y consumo al'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SEFI03SBI.1",
+      "detalle": "Un encabezado numerado «5» no corresponde al saber 1: 'Reconocimiento del carácter universal y transversal del lenguaje cient'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SEFI03SBI.2",
+      "detalle": "Un encabezado numerado «5» no corresponde al saber 2: 'Reconocimiento del carácter universal y transversal del lenguaje cient'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SEFI03SBII.2",
+      "detalle": "Un encabezado numerado «1» no corresponde al saber 2: 'Realización de experimentos relacionados con los sistemas materiales p'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SEFI03SBII.5",
+      "detalle": "Un encabezado numerado «3» no corresponde al saber 5: 'Explicación de la formación, mediante enlaces, de los principales comp'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SEUP03SBIII.1",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Estudio de factores y etapas del proceso creativo: elección de materi'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SEUP03SBIII.2",
+      "detalle": "Un encabezado numerado «1» no corresponde al saber 2: 'Objetivos de Desarrollo Sostenible.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SEUP03SBIII.3",
+      "detalle": "Un encabezado numerado «1» no corresponde al saber 3: 'Objetivos de Desarrollo Sostenible.'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SEUP03SBIV.1",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Uso de la Imagen fija y en movimiento, origen y evolución. Introducci'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SEUP03SBIV.2",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Aplicación de técnicas básicas para la realización de producciones '"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBI.1",
+      "detalle": "Un encabezado numerado «2» no corresponde al saber 1: 'Sociedad de la información.'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBI.2",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Trabajo experimental y proyectos de investigación: selección de estrat'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBI.3",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Conocimiento y utilización de diversos entornos y recursos de aprendiz'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBI.3",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Conocimiento y utilización de diversos entornos y recursos de aprendiz'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBI.3",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Conocimiento y utilización de diversos entornos y recursos de aprendiz'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBI.4",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Aplicación de las normas de uso de los espacios específicos de la cien'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBI.6",
+      "detalle": "Un encabezado numerado «7» no corresponde al saber 6: 'Diversidad social, etnocultural y de género.'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBI.7",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Valoración de la cultura científica y del papel de científicos y cient'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBII.1",
+      "detalle": "Un encabezado numerado «7» no corresponde al saber 1: 'Diversidad social, etnocultural y de género.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBII.3",
+      "detalle": "Un encabezado numerado «2» no corresponde al saber 3: 'La transformación humana del territorio y la distribución desigual de '"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBII.4",
+      "detalle": "Un encabezado numerado «2» no corresponde al saber 4: 'La transformación humana del territorio y la distribución desigual de '"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBIII.1",
+      "detalle": "Un encabezado numerado «2» no corresponde al saber 1: 'La transformación humana del territorio y la distribución desigual de '"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBIII.2",
+      "detalle": "Un encabezado numerado «3» no corresponde al saber 2: 'Interpretación del territorio y del paisaje.'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBIII.3",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Aplicación de la ley de conservación de la masa para validar experimen'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBIII.4",
+      "detalle": "Un encabezado numerado «3» no corresponde al saber 4: 'Interpretación del territorio y del paisaje.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBIV.1",
+      "detalle": "Un encabezado numerado «3» no corresponde al saber 1: 'Interpretación del territorio y del paisaje.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBIV.2",
+      "detalle": "Un encabezado numerado «3» no corresponde al saber 2: 'Interpretación del territorio y del paisaje.'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBIV.3",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Observación de situaciones cotidianas o de laboratorio que permiten en'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBV.1",
+      "detalle": "Un encabezado numerado «3» no corresponde al saber 1: 'Interpretación del territorio y del paisaje.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBV.2",
+      "detalle": "Un encabezado numerado «4» no corresponde al saber 2: 'Las transformaciones científicas y tecnológicas.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBV.3",
+      "detalle": "Un encabezado numerado «4» no corresponde al saber 3: 'Las transformaciones científicas y tecnológicas.'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBV.4",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Explicación de las formas de obtención de energía eléctrica y elaborac'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SGEH03SBI.5",
+      "detalle": "Un encabezado numerado «3» no corresponde al saber 5: 'Responsabilidad ecosocial.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SGEH03SBII.2",
+      "detalle": "Un encabezado numerado «7» no corresponde al saber 2: 'Servicio a la comunidad.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SGEH03SBIII.11",
+      "detalle": "Un encabezado numerado «1» no corresponde al saber 11: 'Contexto'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SHOF03SBII.1",
+      "detalle": "Un encabezado numerado «3» no corresponde al saber 1: 'Procesos'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SHOF03SBII.2",
+      "detalle": "Un encabezado numerado «3» no corresponde al saber 2: 'Procesos'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SHOF03SBII.3",
+      "detalle": "Un encabezado numerado «4» no corresponde al saber 3: 'Reconocimiento y uso discursivo de los elementos lingüísticos'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SHOF03SBII.4",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Estudio de la demografía en Canarias. Ordenación del territorio y tran'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SHOF03SBII.5",
+      "detalle": "Un encabezado numerado «4» no corresponde al saber 5: 'Reconocimiento y uso discursivo de los elementos lingüísticos'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SHOF03SBII.6",
+      "detalle": "Un encabezado numerado «4» no corresponde al saber 6: 'Reconocimiento y uso discursivo de los elementos lingüísticos'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SHOF03SBII.7",
+      "detalle": "Un encabezado numerado «4» no corresponde al saber 7: 'Reconocimiento y uso discursivo de los elementos lingüísticos'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SHOF03SBII.8",
+      "detalle": "Un encabezado numerado «4» no corresponde al saber 8: 'Reconocimiento y uso discursivo de los elementos lingüísticos'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SHOF03SBIII.1",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Estudio del patrimonio natural canario: conocimiento, respeto y valora'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SHOF03SBIII.2",
+      "detalle": "Un encabezado numerado «1» no corresponde al saber 2: 'Lectura autónoma. Implicación en la lectura de obras de forma progresi'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SHOF03SBIII.3",
+      "detalle": "Un encabezado numerado «1» no corresponde al saber 3: 'Lectura autónoma. Implicación en la lectura de obras de forma progresi'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SHOF03SBIII.4",
+      "detalle": "Un encabezado numerado «1» no corresponde al saber 4: 'Lectura autónoma. Implicación en la lectura de obras de forma progresi'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SHOF03SBIII.5",
+      "detalle": "Un encabezado numerado «1» no corresponde al saber 5: 'Lectura autónoma. Implicación en la lectura de obras de forma progresi'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SHOF03SBIII.6",
+      "detalle": "Un encabezado numerado «1» no corresponde al saber 6: 'Lectura autónoma. Implicación en la lectura de obras de forma progresi'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SHOF03SBIII.7",
+      "detalle": "Un encabezado numerado «2» no corresponde al saber 7: 'Lectura guiada. Lectura de obras y fragmentos relevantes de la literat'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SHOF03SBIII.8",
+      "detalle": "Un encabezado numerado «2» no corresponde al saber 8: 'Lectura guiada. Lectura de obras y fragmentos relevantes de la literat'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLCL03SBI.1",
+      "detalle": "Un encabezado numerado «2» no corresponde al saber 1: 'Lectura guiada. Lectura de obras y fragmentos relevantes de la literat'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SLCL03SBI.2",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Estudio de las lenguas de España: origen, distribución geográfica y ex'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLCL03SBI.3",
+      "detalle": "Un encabezado numerado «2» no corresponde al saber 3: 'Lectura guiada. Lectura de obras y fragmentos relevantes de la literat'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLCL03SBI.4",
+      "detalle": "Un encabezado numerado «2» no corresponde al saber 4: 'Lectura guiada. Lectura de obras y fragmentos relevantes de la literat'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLCL03SBI.5",
+      "detalle": "Un encabezado numerado «2» no corresponde al saber 5: 'Lectura guiada. Lectura de obras y fragmentos relevantes de la literat'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLCL03SBIV.3",
+      "detalle": "Un encabezado numerado «1» no corresponde al saber 3: 'Conteo.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLCL03SBIV.4",
+      "detalle": "Un encabezado numerado «2» no corresponde al saber 4: 'Cantidad.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLCL03SBIV.5",
+      "detalle": "Un encabezado numerado «2» no corresponde al saber 5: 'Cantidad.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBI.1",
+      "detalle": "Un encabezado numerado «2» no corresponde al saber 1: 'Cantidad.'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBI.2",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Aplicación de conocimientos, destrezas y actitudes que permiten llevar'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBI.3",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Uso de funciones comunicativas de uso común adecuadas al ámbito y al c'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBI.4",
+      "detalle": "Un encabezado numerado «3» no corresponde al saber 4: 'Sentido de las operaciones.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBI.5",
+      "detalle": "Un encabezado numerado «3» no corresponde al saber 5: 'Sentido de las operaciones.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBI.6",
+      "detalle": "Un encabezado numerado «3» no corresponde al saber 6: 'Sentido de las operaciones.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBI.7",
+      "detalle": "Un encabezado numerado «4» no corresponde al saber 7: 'Relaciones.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBI.8",
+      "detalle": "Un encabezado numerado «4» no corresponde al saber 8: 'Relaciones.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBI.9",
+      "detalle": "Un encabezado numerado «5» no corresponde al saber 9: 'Educación financiera.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBI.10",
+      "detalle": "Un encabezado numerado «5» no corresponde al saber 10: 'Educación financiera.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBI.11",
+      "detalle": "Un encabezado numerado «1» no corresponde al saber 11: 'Magnitud.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBI.12",
+      "detalle": "Un encabezado numerado «2» no corresponde al saber 12: 'Estimación y relaciones.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBII.1",
+      "detalle": "Un encabezado numerado «2» no corresponde al saber 1: 'Estimación y relaciones.'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBII.2",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Empleo de estrategias de uso común para identificar, organizar, retene'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBII.3",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Selección y uso de estrategias y herramientas de uso común para la aut'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBII.4",
+      "detalle": "Un encabezado numerado «3» no corresponde al saber 4: 'Medición.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBII.5",
+      "detalle": "Un encabezado numerado «3» no corresponde al saber 5: 'Medición.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBII.6",
+      "detalle": "Un encabezado numerado «3» no corresponde al saber 6: 'Medición.'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBIII.1",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Reconocimiento y respeto por aspectos socioculturales y sociolingüísti'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBIII.2",
+      "detalle": "Un encabezado numerado «1» no corresponde al saber 2: 'Formas geométricas de dos y tres dimensiones.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBIII.3",
+      "detalle": "Un encabezado numerado «1» no corresponde al saber 3: 'Formas geométricas de dos y tres dimensiones.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBIV.1",
+      "detalle": "Un encabezado numerado «2» no corresponde al saber 1: 'Localización y sistemas de representación.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBIV.2",
+      "detalle": "Un encabezado numerado «3» no corresponde al saber 2: 'Movimientos y transformaciones.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBIV.3",
+      "detalle": "Un encabezado numerado «4» no corresponde al saber 3: 'Visualización, razonamiento y modelización geométrica.'"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBIV.4",
+      "detalle": "Dos textos distintos para definition; se conserva el primero. Descartado: 'Interés e iniciativa en la realización de intercambios comunicativos a'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBIV.5",
+      "detalle": "Un encabezado numerado «1» no corresponde al saber 5: 'Patrones.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBIV.6",
+      "detalle": "Un encabezado numerado «1» no corresponde al saber 6: 'Patrones.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBIV.7",
+      "detalle": "Un encabezado numerado «2» no corresponde al saber 7: 'Modelo matemático.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBIV.8",
+      "detalle": "Un encabezado numerado «2» no corresponde al saber 8: 'Modelo matemático.'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SLNT03SBIV.9",
+      "detalle": "Un encabezado numerado «2» no corresponde al saber 9: 'Modelo matemático.'"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMAT03BC1",
+      "detalle": "El bloque competencial agrupa las competencias SMATC1, SMATC2"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMAT03BC9",
+      "detalle": "El bloque competencial agrupa las competencias SMATC9, SMATC10"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMAT03BC3",
+      "detalle": "El bloque competencial agrupa las competencias SMATC3, SMATC4"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMAT03BC5",
+      "detalle": "El bloque competencial agrupa las competencias SMATC5, SMATC6"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMAT03BC7",
+      "detalle": "El bloque competencial agrupa las competencias SMATC7, SMATC8"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SSGN03SBI.6",
+      "detalle": "Un encabezado numerado «8» no corresponde al saber 6: 'Utilización de herramientas y técnicas de manipulación y mecanizado de'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SSGN03SBIII.3",
+      "detalle": "Un encabezado numerado «2» no corresponde al saber 3: 'Utilización de sistemas de comunicación digital de uso común para la t'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SSGN03SBIV.5",
+      "detalle": "Un encabezado numerado «6» no corresponde al saber 5: 'Aplicación de medidas adecuadas de seguridad en la red para prevenir a'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SSGN03SBIV.7",
+      "detalle": "Un encabezado numerado «1» no corresponde al saber 7: 'Reconocimiento de la importancia de la investigación, innovación y cre'"
+    },
+    {
+      "regla": "encabezado_no_corresponde",
+      "nivel": "aviso",
+      "nodo": "sb:SSGN03SBIV.8",
+      "detalle": "Un encabezado numerado «1» no corresponde al saber 8: 'Reconocimiento de la importancia de la investigación, innovación y cre'"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:SMMAC2",
+      "detalle": "La competencia 2 solo aparece en los códigos de criterios del bloque SMMAC1; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMMA04BC1",
+      "detalle": "El bloque competencial agrupa las competencias SMMAC1, SMMAC2"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:SMMAC10",
+      "detalle": "La competencia 10 solo aparece en los códigos de criterios del bloque SMMAC9; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMMA04BC9",
+      "detalle": "El bloque competencial agrupa las competencias SMMAC9, SMMAC10"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:SMMAC4",
+      "detalle": "La competencia 4 solo aparece en los códigos de criterios del bloque SMMAC3; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMMA04BC3",
+      "detalle": "El bloque competencial agrupa las competencias SMMAC3, SMMAC4"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:SMMAC6",
+      "detalle": "La competencia 6 solo aparece en los códigos de criterios del bloque SMMAC5; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMMA04BC5",
+      "detalle": "El bloque competencial agrupa las competencias SMMAC5, SMMAC6"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:SMMAC8",
+      "detalle": "La competencia 8 solo aparece en los códigos de criterios del bloque SMMAC7; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMMA04BC7",
+      "detalle": "El bloque competencial agrupa las competencias SMMAC7, SMMAC8"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:SMMBC2",
+      "detalle": "La competencia 2 solo aparece en los códigos de criterios del bloque SMMBC1; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMMB04BC1",
+      "detalle": "El bloque competencial agrupa las competencias SMMBC1, SMMBC2"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:SMMBC10",
+      "detalle": "La competencia 10 solo aparece en los códigos de criterios del bloque SMMBC9; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMMB04BC9",
+      "detalle": "El bloque competencial agrupa las competencias SMMBC9, SMMBC10"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:SMMBC4",
+      "detalle": "La competencia 4 solo aparece en los códigos de criterios del bloque SMMBC3; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMMB04BC3",
+      "detalle": "El bloque competencial agrupa las competencias SMMBC3, SMMBC4"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:SMMBC6",
+      "detalle": "La competencia 6 solo aparece en los códigos de criterios del bloque SMMBC5; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMMB04BC5",
+      "detalle": "El bloque competencial agrupa las competencias SMMBC5, SMMBC6"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:SMMBC8",
+      "detalle": "La competencia 8 solo aparece en los códigos de criterios del bloque SMMBC7; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:SMMB04BC7",
+      "detalle": "El bloque competencial agrupa las competencias SMMBC7, SMMBC8"
+    },
+    {
+      "regla": "clave_bloque_saberes_invalida",
+      "nivel": "aviso",
+      "nodo": "materia:PEFI",
+      "detalle": "Clave de bloque de saberes sin numeración romana: '[ELIMINADO] clave sustituida: contenía una credencial'"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:PMATC2",
+      "detalle": "La competencia 2 solo aparece en los códigos de criterios del bloque PMATC1; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT01BC1",
+      "detalle": "El bloque competencial agrupa las competencias PMATC1, PMATC2"
+    },
+    {
+      "regla": "ce_solo_en_criterios",
+      "nivel": "aviso",
+      "nodo": "ce:PMATC8",
+      "detalle": "La competencia 8 solo aparece en los códigos de criterios del bloque PMATC7; la exportación no incluye su enunciado"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT01BC7",
+      "detalle": "El bloque competencial agrupa las competencias PMATC7, PMATC8"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT02BC1",
+      "detalle": "El bloque competencial agrupa las competencias PMATC1, PMATC2"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT02BC7",
+      "detalle": "El bloque competencial agrupa las competencias PMATC7, PMATC8"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:PEFI03SBIII",
+      "detalle": "Dos textos distintos para scopeNote; se conserva el primero. Descartado: 'el control tónico-postural e independencia segmentaria en situaciones '"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT03BC1",
+      "detalle": "El bloque competencial agrupa las competencias PMATC1, PMATC2"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT03BC7",
+      "detalle": "El bloque competencial agrupa las competencias PMATC7, PMATC8"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:PMAT03SBI.2.10",
+      "detalle": "Código con punto final en la exportación ('PMAT03SBI.2.10.'); se elimina el punto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:PMAT03SBI.2.12",
+      "detalle": "Código con punto final en la exportación ('PMAT03SBI.2.12.'); se elimina el punto"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "texto_en_conflicto",
+      "nivel": "aviso",
+      "nodo": "sb:PEFI04SBIII",
+      "detalle": "Dos textos distintos para scopeNote; se conserva el primero. Descartado: 'el control tónico-postural e independencia segmentaria en situaciones '"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT04BC1",
+      "detalle": "El bloque competencial agrupa las competencias PMATC1, PMATC2"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT04BC7",
+      "detalle": "El bloque competencial agrupa las competencias PMATC7, PMATC8"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:PMAT04SBI.2.10",
+      "detalle": "Código con punto final en la exportación ('PMAT04SBI.2.10.'); se elimina el punto"
+    },
+    {
+      "regla": "codigo_saber_reconstruido",
+      "nivel": "aviso",
+      "nodo": "sb:PMAT04SBI.2.12",
+      "detalle": "Código con punto final en la exportación ('PMAT04SBI.2.12.'); se elimina el punto"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT05BC1",
+      "detalle": "El bloque competencial agrupa las competencias PMATC1, PMATC2"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT05BC7",
+      "detalle": "El bloque competencial agrupa las competencias PMATC7, PMATC8"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PVAL",
+      "detalle": "La clave de la materia es VAL, pero sus identificadores usan EDK"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PVAL",
+      "detalle": "La clave de la materia es VAL, pero sus identificadores usan EDK"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PVAL",
+      "detalle": "La clave de la materia es VAL, pero sus identificadores usan EDK"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PVAL",
+      "detalle": "La clave de la materia es VAL, pero sus identificadores usan EDK"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT06BC1",
+      "detalle": "El bloque competencial agrupa las competencias PMATC1, PMATC2"
+    },
+    {
+      "regla": "bloque_con_varias_ce",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT06BC7",
+      "detalle": "El bloque competencial agrupa las competencias PMATC7, PMATC8"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PPLW",
+      "detalle": "La clave de la materia es PLW, pero sus identificadores usan LNT"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PVAL",
+      "detalle": "La clave de la materia es VAL, pero sus identificadores usan EDK"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PVAL",
+      "detalle": "La clave de la materia es VAL, pero sus identificadores usan EDK"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PVAL",
+      "detalle": "La clave de la materia es VAL, pero sus identificadores usan EDK"
+    },
+    {
+      "regla": "codigo_materia_inconsistente",
+      "nivel": "aviso",
+      "nodo": "materia:PVAL",
+      "detalle": "La clave de la materia es VAL, pero sus identificadores usan EDK"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:BCUF01SBII.2.4",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:BCUF01SBIII.2",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:BFIL01SBI.1.6",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:BTIA01SBIII.4",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:PMAT03SBI.2.10",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:PMAT03SBI.2.12",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:PMAT04SBI.2.10",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:PMAT04SBI.2.12",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SEDK01SBIII.2",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SFIL04SBIII.1",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ02SBI.3",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ02SBI.5",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ02SBII.2",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBI.3",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBI.5",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBII.1",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ03SBII.3",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ04SBI.3",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ04SBI.5",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SFYQ04SBII.4",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SGEH01SBII.4",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SGEH01SBII.6",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SGEH01SBIII.10",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SGEH02SBI.6",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SGEH02SBII.1",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SGEH02SBIII.1",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SGEH02SBIII.12",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SGEH02SBIII.13",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SGEH03SBI.5",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SGEH03SBII.2",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SGEH03SBII.7",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SGEH03SBIII.11",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SGEH04SBI.3",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SGEH04SBII.10",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SGEH04SBII.14",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SGEH04SBII.6",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SGEH04SBII.9",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SLAT04SBIII.3",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SMAT01SBIV.5",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SUEC01SBI.8",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SUEC01SBIV.2",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SUEC01SBIV.6",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SUEC01SBV.1",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SUEC02SBI.8",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SUEC02SBIV.2",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SUEC02SBIV.6",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SUEC02SBV.1",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SUEC03SBI.8",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SUEC03SBIV.2",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SUEC03SBIV.6",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "saber_con_hijos",
+      "nivel": "aviso",
+      "nodo": "sb:SUEC03SBV.1",
+      "detalle": "La exportación lo trata como saber, pero tiene subapartados: se modela como encabezado"
+    },
+    {
+      "regla": "encabezado_sin_texto",
+      "nivel": "aviso",
+      "nodo": "sb:BHIC01SBI.1",
+      "detalle": "La exportación no incluye el texto de este encabezado"
+    },
+    {
+      "regla": "encabezado_sin_texto",
+      "nivel": "aviso",
+      "nodo": "sb:PMAT03SBI.3.1",
+      "detalle": "La exportación no incluye el texto de este encabezado"
+    },
+    {
+      "regla": "encabezado_sin_texto",
+      "nivel": "aviso",
+      "nodo": "sb:PMAT04SBI.3.1",
+      "detalle": "La exportación no incluye el texto de este encabezado"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:BAIIC2",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:BAIIC4",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:BAIIC6",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:BAIIC8",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:BBIEC2",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:BBIEC6",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:BMCIC2",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:BMCIC4",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:BMCIC6",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:BMCIC8",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:BMIIC2",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:BMIIC4",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:BMIIC6",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:BMIIC8",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:BMTIC2",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:BMTIC4",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:BMTIC6",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:BMTIC8",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:BMZTC2",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:BMZTC4",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:BMZTC6",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:BMZTC8",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:PMATC2",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:PMATC8",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:SMATC2",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:SMATC4",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:SMATC6",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:SMATC8",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:SMATC10",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:SMMAC2",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:SMMAC4",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:SMMAC6",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:SMMAC8",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:SMMAC10",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:SMMBC2",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:SMMBC4",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:SMMBC6",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:SMMBC8",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "ce_sin_enunciado",
+      "nivel": "error",
+      "nodo": "ce:SMMBC10",
+      "detalle": "Falta el enunciado de la competencia específica"
+    },
+    {
+      "regla": "descriptor_desconocido",
+      "nivel": "error",
+      "nodo": "bc:PEDK05BC2",
+      "detalle": "Descriptor no previsto para la etapa: CE7"
+    },
+    {
+      "regla": "descriptor_desconocido",
+      "nivel": "error",
+      "nodo": "bc:PEDK06BC2",
+      "detalle": "Descriptor no previsto para la etapa: CE7"
+    },
+    {
+      "regla": "descriptor_desconocido",
+      "nivel": "error",
+      "nodo": "crit:PEDK05CE2.1",
+      "detalle": "Descriptor no previsto para la etapa: CE7"
+    },
+    {
+      "regla": "descriptor_desconocido",
+      "nivel": "error",
+      "nodo": "crit:PEDK06CE2.1",
+      "detalle": "Descriptor no previsto para la etapa: CE7"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BCUF01SBII.2.4.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BCUF01SBII.2.4.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BCUF01SBII.2.4.3",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BCUF01SBII.2.4.4",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBI.1.6.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBI.1.6.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBI.1.6.3",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBII.1.7.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBII.1.7.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBII.1.7.3",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBII.1.7.4",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBII.1.7.5",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBII.1.7.6",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBIII.1.1.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBIII.1.1.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBIII.1.4.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBIII.1.4.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBIII.1.4.3",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBIII.1.4.4",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBIII.1.4.5",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBIII.1.6.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBIII.1.6.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBIII.1.6.3",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBIII.1.6.4",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBIII.1.6.5",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBIII.1.8.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBIII.1.8.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBIII.1.8.3",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBIII.1.8.4",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBIII.1.8.5",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBIII.1.8.6",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBIII.1.9.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBIII.1.9.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BFIL01SBIII.1.9.3",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BGRE02SBI.1.3.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BGRE02SBI.1.3.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BGRE02SBI.2.2.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BGRE02SBI.2.2.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BGRE02SBI.2.2.3",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BGRE02SBI.2.2.4",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BGRO01SBI.1.5.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BGRO01SBI.1.5.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BGRO01SBI.2.2.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BGRO01SBI.2.2.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BGRO01SBI.2.2.3",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BGRO01SBI.2.2.4",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BHFI02SBI.3.1.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BHFI02SBI.3.1.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BHFI02SBI.3.1.3",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BHFI02SBI.3.2.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BHFI02SBI.3.2.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "encabezado_sin_texto",
+      "nivel": "aviso",
+      "nodo": "sb:BHIC01SBI.1",
+      "detalle": "Encabezado de saberes sin texto"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BLAI01SBI.1.5.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BLAI01SBI.1.5.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BLAI01SBI.2.2.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BLAI01SBI.2.2.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BLAI01SBI.2.2.3",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BLAI01SBI.2.2.4",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BLII02SBI.1.3.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BLII02SBI.1.3.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BLII02SBI.2.2.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BLII02SBI.2.2.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BLII02SBI.2.2.3",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:BLII02SBI.2.2.4",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT01SBI.2.2.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT01SBI.2.2.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT01SBI.2.2.3",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT01SBI.2.2.4",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT02SBI.2.2.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT02SBI.2.2.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT02SBI.2.2.3",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT02SBI.2.2.4",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT03SBI.2.2.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT03SBI.2.2.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT03SBI.2.3.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT03SBI.2.3.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT03SBI.2.3.3",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT03SBI.2.10.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT03SBI.2.12.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "encabezado_sin_texto",
+      "nivel": "aviso",
+      "nodo": "sb:PMAT03SBI.3.1",
+      "detalle": "Encabezado de saberes sin texto"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT04SBI.2.2.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT04SBI.2.2.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT04SBI.2.3.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT04SBI.2.3.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT04SBI.2.3.3",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT04SBI.2.10.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT04SBI.2.12.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "encabezado_sin_texto",
+      "nivel": "aviso",
+      "nodo": "sb:PMAT04SBI.3.1",
+      "detalle": "Encabezado de saberes sin texto"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT05SBI.2.2.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT05SBI.2.2.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT05SBI.2.2.3",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT05SBI.2.3.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT05SBI.2.3.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT06SBI.2.2.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT06SBI.2.2.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT06SBI.2.2.3",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT06SBI.2.3.1",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "saber_sin_texto",
+      "nivel": "error",
+      "nodo": "sb:PMAT06SBI.2.3.2",
+      "detalle": "Falta el texto del saber"
+    },
+    {
+      "regla": "numeracion_saberes",
+      "nivel": "aviso",
+      "nodo": "sb:PMAT03SBI.2.10",
+      "detalle": "Numeración de saberes no continua: [2]"
+    },
+    {
+      "regla": "numeracion_saberes",
+      "nivel": "aviso",
+      "nodo": "sb:PMAT04SBI.2.10",
+      "detalle": "Numeración de saberes no continua: [2]"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:IC4M01BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:IC4M01BC1, bc:IC4M02BC1, bc:IC4M03BC1, bc:IC4M04BC1, bc:IC4M05BC1, bc:IC4M06BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:IC4M01BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:IC4M01BC2, bc:IC4M02BC2, bc:IC4M03BC2, bc:IC4M04BC2, bc:IC4M05BC2, bc:IC4M06BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:IC4M01BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:IC4M01BC3, bc:IC4M02BC3, bc:IC4M03BC3, bc:IC4M04BC3, bc:IC4M05BC3, bc:IC4M06BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:IC4M01BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:IC4M01BC4, bc:IC4M02BC4, bc:IC4M03BC4, bc:IC4M04BC4, bc:IC4M05BC4, bc:IC4M06BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:IC4M01BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:IC4M01BC5, bc:IC4M02BC5, bc:IC4M03BC5, bc:IC4M04BC5, bc:IC4M05BC5, bc:IC4M06BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:IC5M01BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:IC5M01BC1, bc:IC5M02BC1, bc:IC5M03BC1, bc:IC5M04BC1, bc:IC5M05BC1, bc:IC5M06BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:IC5M01BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:IC5M01BC2, bc:IC5M02BC2, bc:IC5M03BC2, bc:IC5M04BC2, bc:IC5M05BC2, bc:IC5M06BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:IC5M01BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:IC5M01BC3, bc:IC5M02BC3, bc:IC5M03BC3, bc:IC5M04BC3, bc:IC5M05BC3, bc:IC5M06BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:IC5M01BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:IC5M01BC4, bc:IC5M02BC4, bc:IC5M03BC4, bc:IC5M04BC4, bc:IC5M05BC4, bc:IC5M06BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:IC5M01BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:IC5M01BC5, bc:IC5M02BC5, bc:IC5M03BC5, bc:IC5M04BC5, bc:IC5M05BC5, bc:IC5M06BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:ICR401BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:ICR401BC1, bc:ICR402BC1, bc:ICR403BC1, bc:ICR404BC1, bc:ICR405BC1, bc:ICR406BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:ICR401BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:ICR401BC2, bc:ICR402BC2, bc:ICR403BC2, bc:ICR404BC2, bc:ICR405BC2, bc:ICR406BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:ICR401BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:ICR401BC3, bc:ICR402BC3, bc:ICR403BC3, bc:ICR404BC3, bc:ICR405BC3, bc:ICR406BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:ICR401BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:ICR401BC4, bc:ICR402BC4, bc:ICR403BC4, bc:ICR404BC4, bc:ICR405BC4, bc:ICR406BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:IDE301BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:IDE301BC1, bc:IDE302BC1, bc:IDE303BC1, bc:IDE304BC1, bc:IDE305BC1, bc:IDE306BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:IDE301BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:IDE301BC2, bc:IDE302BC2, bc:IDE303BC2, bc:IDE304BC2, bc:IDE305BC2, bc:IDE306BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:IDE301BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:IDE301BC3, bc:IDE302BC3, bc:IDE303BC3, bc:IDE304BC3, bc:IDE305BC3, bc:IDE306BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N01BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC1, bc:PC9N02BC1, bc:PC9N03BC1, bc:PC9N04BC1, bc:PC9N05BC1, bc:PC9N06BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N01BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC2, bc:PC9N02BC2, bc:PC9N03BC2, bc:PC9N04BC2, bc:PC9N05BC2, bc:PC9N06BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N01BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC3, bc:PC9N02BC3, bc:PC9N03BC3, bc:PC9N04BC3, bc:PC9N05BC3, bc:PC9N06BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N01BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC4, bc:PC9N02BC4, bc:PC9N03BC4, bc:PC9N04BC4, bc:PC9N05BC4, bc:PC9N06BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N01BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC5, bc:PC9N02BC5, bc:PC9N03BC5, bc:PC9N04BC5, bc:PC9N05BC5, bc:PC9N06BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N01BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC6, bc:PC9N02BC6, bc:PC9N03BC6, bc:PC9N04BC6, bc:PC9N05BC6, bc:PC9N06BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N01BC7",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC7, bc:PC9N02BC7, bc:PC9N03BC7, bc:PC9N04BC7, bc:PC9N05BC7, bc:PC9N06BC7"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N01BC8",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC8, bc:PC9N02BC8, bc:PC9N03BC8, bc:PC9N04BC8, bc:PC9N05BC8, bc:PC9N06BC8"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N01BC9",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC9, bc:PC9N02BC9, bc:PC9N03BC9, bc:PC9N04BC9, bc:PC9N05BC9, bc:PC9N06BC9"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEAR01BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PEAR01BC1, bc:PEAR02BC1, bc:PEAR03BC1, bc:PEAR04BC1, bc:PEAR05BC1, bc:PEAR06BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEAR01BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:PEAR01BC2, bc:PEAR02BC2, bc:PEAR03BC2, bc:PEAR04BC2, bc:PEAR05BC2, bc:PEAR06BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEAR01BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PEAR01BC3, bc:PEAR02BC3, bc:PEAR03BC3, bc:PEAR04BC3, bc:PEAR05BC3, bc:PEAR06BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEAR01BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:PEAR01BC4, bc:PEAR02BC4, bc:PEAR03BC4, bc:PEAR04BC4, bc:PEAR05BC4, bc:PEAR06BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEDK05BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PEDK05BC1, bc:PEDK06BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEDK05BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:PEDK05BC2, bc:PEDK06BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEDK05BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PEDK05BC3, bc:PEDK06BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEDK05BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:PEDK05BC4, bc:PEDK06BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEFI01BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PEFI01BC1, bc:PEFI02BC1, bc:PEFI03BC1, bc:PEFI04BC1, bc:PEFI05BC1, bc:PEFI06BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEFI01BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:PEFI01BC2, bc:PEFI02BC2, bc:PEFI03BC2, bc:PEFI04BC2, bc:PEFI05BC2, bc:PEFI06BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEFI01BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PEFI01BC3, bc:PEFI02BC3, bc:PEFI03BC3, bc:PEFI04BC3, bc:PEFI05BC3, bc:PEFI06BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEFI01BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:PEFI01BC4, bc:PEFI02BC4, bc:PEFI03BC4, bc:PEFI04BC4, bc:PEFI05BC4, bc:PEFI06BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEFI01BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:PEFI01BC5, bc:PEFI02BC5, bc:PEFI03BC5, bc:PEFI04BC5, bc:PEFI05BC5, bc:PEFI06BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEUM01BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PEUM01BC1, bc:PEUM02BC1, bc:PEUM03BC1, bc:PEUM04BC1, bc:PEUM05BC1, bc:PEUM06BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEUM01BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:PEUM01BC2, bc:PEUM02BC2, bc:PEUM03BC2, bc:PEUM04BC2, bc:PEUM05BC2, bc:PEUM06BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEUM01BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PEUM01BC3, bc:PEUM02BC3, bc:PEUM03BC3, bc:PEUM04BC3, bc:PEUM05BC3, bc:PEUM06BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEUM01BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:PEUM01BC4, bc:PEUM02BC4, bc:PEUM03BC4, bc:PEUM04BC4, bc:PEUM05BC4, bc:PEUM06BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL01BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC1, bc:PLCL02BC1, bc:PLCL03BC1, bc:PLCL04BC1, bc:PLCL05BC1, bc:PLCL06BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL01BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC2, bc:PLCL02BC2, bc:PLCL03BC2, bc:PLCL04BC2, bc:PLCL05BC2, bc:PLCL06BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL01BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC3, bc:PLCL02BC3, bc:PLCL03BC3, bc:PLCL04BC3, bc:PLCL05BC3, bc:PLCL06BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL01BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC4, bc:PLCL02BC4, bc:PLCL03BC4, bc:PLCL04BC4, bc:PLCL05BC4, bc:PLCL06BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL01BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC5, bc:PLCL02BC5, bc:PLCL03BC5, bc:PLCL04BC5, bc:PLCL05BC5, bc:PLCL06BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL01BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC6, bc:PLCL02BC6, bc:PLCL03BC6, bc:PLCL04BC6, bc:PLCL05BC6, bc:PLCL06BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL01BC7",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC7, bc:PLCL02BC7, bc:PLCL03BC7, bc:PLCL04BC7, bc:PLCL05BC7, bc:PLCL06BC7"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL01BC8",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC8, bc:PLCL02BC8, bc:PLCL03BC8, bc:PLCL04BC8, bc:PLCL05BC8, bc:PLCL06BC8"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL01BC9",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC9, bc:PLCL02BC9, bc:PLCL03BC9, bc:PLCL04BC9, bc:PLCL05BC9, bc:PLCL06BC9"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL01BC10",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC10, bc:PLCL02BC10, bc:PLCL03BC10, bc:PLCL04BC10, bc:PLCL05BC10, bc:PLCL06BC10"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLNT01BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT01BC1, bc:PLNT02BC1, bc:PLNT03BC1, bc:PLNT04BC1, bc:PLNT05BC1, bc:PLNT06BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLNT01BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT01BC2, bc:PLNT02BC2, bc:PLNT03BC2, bc:PLNT04BC2, bc:PLNT05BC2, bc:PLNT06BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLNT01BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT01BC3, bc:PLNT02BC3, bc:PLNT03BC3, bc:PLNT04BC3, bc:PLNT05BC3, bc:PLNT06BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLNT01BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT01BC4, bc:PLNT02BC4, bc:PLNT03BC4, bc:PLNT04BC4, bc:PLNT05BC4, bc:PLNT06BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLNT01BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT01BC5, bc:PLNT02BC5, bc:PLNT03BC5, bc:PLNT04BC5, bc:PLNT05BC5, bc:PLNT06BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLNT01BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT01BC6, bc:PLNT02BC6, bc:PLNT03BC6, bc:PLNT04BC6, bc:PLNT05BC6, bc:PLNT06BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT01BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PMAT01BC1, bc:PMAT02BC1, bc:PMAT03BC1, bc:PMAT04BC1, bc:PMAT05BC1, bc:PMAT06BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT01BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PMAT01BC3, bc:PMAT02BC3, bc:PMAT03BC3, bc:PMAT04BC3, bc:PMAT05BC3, bc:PMAT06BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT01BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:PMAT01BC4, bc:PMAT02BC4, bc:PMAT03BC4, bc:PMAT04BC4, bc:PMAT05BC4, bc:PMAT06BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT01BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:PMAT01BC5, bc:PMAT02BC5, bc:PMAT03BC5, bc:PMAT04BC5, bc:PMAT05BC5, bc:PMAT06BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT01BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:PMAT01BC6, bc:PMAT02BC6, bc:PMAT03BC6, bc:PMAT04BC6, bc:PMAT05BC6, bc:PMAT06BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT01BC7",
+      "detalle": "Misma explicación del bloque competencial en bc:PMAT01BC7, bc:PMAT02BC7, bc:PMAT03BC7, bc:PMAT04BC7, bc:PMAT05BC7, bc:PMAT06BC7"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PSGA05BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PSGA05BC1, bc:PSGA06BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PSGA05BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:PSGA05BC2, bc:PSGA06BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PSGA05BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PSGA05BC3, bc:PSGA06BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PSGA05BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:PSGA05BC4, bc:PSGA06BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PSGA05BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:PSGA05BC5, bc:PSGA06BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PSGA05BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:PSGA05BC6, bc:PSGA06BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PSGN05BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PSGN05BC1, bc:PSGN06BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PSGN05BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:PSGN05BC2, bc:PSGN06BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PSGN05BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PSGN05BC3, bc:PSGN06BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PSGN05BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:PSGN05BC4, bc:PSGN06BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PSGN05BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:PSGN05BC5, bc:PSGN06BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PSGN05BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:PSGN05BC6, bc:PSGN06BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SAMB03BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:SAMB03BC1, bc:SAMB04BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SAMB03BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:SAMB03BC2, bc:SAMB04BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SAMB03BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:SAMB03BC3, bc:SAMB04BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SAMB03BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:SAMB03BC4, bc:SAMB04BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SAMB03BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:SAMB03BC5, bc:SAMB04BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SAMB03BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:SAMB03BC6, bc:SAMB04BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SBIG01BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:SBIG01BC1, bc:SBIG03BC1, bc:SBIG04BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SBIG01BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:SBIG01BC2, bc:SBIG03BC2, bc:SBIG04BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SBIG01BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:SBIG01BC3, bc:SBIG03BC3, bc:SBIG04BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SBIG01BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:SBIG01BC4, bc:SBIG03BC4, bc:SBIG04BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SBIG01BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:SBIG01BC5, bc:SBIG03BC5, bc:SBIG04BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SBIG01BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:SBIG01BC6, bc:SBIG03BC6, bc:SBIG04BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SEFI01BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:SEFI01BC1, bc:SEFI02BC1, bc:SEFI03BC1, bc:SEFI04BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SEFI01BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:SEFI01BC2, bc:SEFI02BC2, bc:SEFI03BC2, bc:SEFI04BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SEFI01BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:SEFI01BC3, bc:SEFI02BC3, bc:SEFI03BC3, bc:SEFI04BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SEFI01BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:SEFI01BC4, bc:SEFI02BC4, bc:SEFI03BC4, bc:SEFI04BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SEFI01BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:SEFI01BC5, bc:SEFI02BC5, bc:SEFI03BC5, bc:SEFI04BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SEUP01BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:SEUP01BC1, bc:SEUP02BC1, bc:SEUP03BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SEUP01BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:SEUP01BC2, bc:SEUP02BC2, bc:SEUP03BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SEUP01BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:SEUP01BC3, bc:SEUP02BC3, bc:SEUP03BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SEUP01BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:SEUP01BC4, bc:SEUP02BC4, bc:SEUP03BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SEUP01BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:SEUP01BC5, bc:SEUP02BC5, bc:SEUP03BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SEUP01BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:SEUP01BC6, bc:SEUP02BC6, bc:SEUP03BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SEUP01BC7",
+      "detalle": "Misma explicación del bloque competencial en bc:SEUP01BC7, bc:SEUP02BC7, bc:SEUP03BC7"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SEUP01BC8",
+      "detalle": "Misma explicación del bloque competencial en bc:SEUP01BC8, bc:SEUP02BC8, bc:SEUP03BC8"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SFYQ02BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:SFYQ02BC1, bc:SFYQ03BC1, bc:SFYQ04BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SFYQ02BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:SFYQ02BC2, bc:SFYQ03BC2, bc:SFYQ04BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SFYQ02BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:SFYQ02BC3, bc:SFYQ03BC3, bc:SFYQ04BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SFYQ02BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:SFYQ02BC4, bc:SFYQ03BC4, bc:SFYQ04BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SFYQ02BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:SFYQ02BC5, bc:SFYQ03BC5, bc:SFYQ04BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SFYQ02BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:SFYQ02BC6, bc:SFYQ03BC6, bc:SFYQ04BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SGEH01BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:SGEH01BC1, bc:SGEH02BC1, bc:SGEH03BC1, bc:SGEH04BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SGEH01BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:SGEH01BC2, bc:SGEH02BC2, bc:SGEH03BC2, bc:SGEH04BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SGEH01BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:SGEH01BC3, bc:SGEH02BC3, bc:SGEH03BC3, bc:SGEH04BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SGEH01BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:SGEH01BC4, bc:SGEH02BC4, bc:SGEH03BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SGEH01BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:SGEH01BC5, bc:SGEH02BC5, bc:SGEH03BC5, bc:SGEH04BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SGEH01BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:SGEH01BC6, bc:SGEH02BC6, bc:SGEH03BC6, bc:SGEH04BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SGEH01BC7",
+      "detalle": "Misma explicación del bloque competencial en bc:SGEH01BC7, bc:SGEH02BC7, bc:SGEH03BC7, bc:SGEH04BC7"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SGEH01BC8",
+      "detalle": "Misma explicación del bloque competencial en bc:SGEH01BC8, bc:SGEH02BC8, bc:SGEH03BC8"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SGEH01BC9",
+      "detalle": "Misma explicación del bloque competencial en bc:SGEH01BC9, bc:SGEH02BC9, bc:SGEH03BC9, bc:SGEH04BC9"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SLCL01BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:SLCL01BC1, bc:SLCL02BC1, bc:SLCL03BC1, bc:SLCL04BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SLCL01BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:SLCL01BC2, bc:SLCL02BC2, bc:SLCL03BC2, bc:SLCL04BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SLCL01BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:SLCL01BC3, bc:SLCL02BC3, bc:SLCL03BC3, bc:SLCL04BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SLCL01BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:SLCL01BC4, bc:SLCL02BC4, bc:SLCL03BC4, bc:SLCL04BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SLCL01BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:SLCL01BC5, bc:SLCL02BC5, bc:SLCL03BC5, bc:SLCL04BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SLCL01BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:SLCL01BC6, bc:SLCL02BC6, bc:SLCL03BC6, bc:SLCL04BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SLCL01BC7",
+      "detalle": "Misma explicación del bloque competencial en bc:SLCL01BC7, bc:SLCL02BC7, bc:SLCL03BC7, bc:SLCL04BC7"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SLCL01BC8",
+      "detalle": "Misma explicación del bloque competencial en bc:SLCL01BC8, bc:SLCL02BC8, bc:SLCL03BC8, bc:SLCL04BC8"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SLCL01BC9",
+      "detalle": "Misma explicación del bloque competencial en bc:SLCL01BC9, bc:SLCL02BC9, bc:SLCL03BC9, bc:SLCL04BC9"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SLCL01BC10",
+      "detalle": "Misma explicación del bloque competencial en bc:SLCL01BC10, bc:SLCL02BC10, bc:SLCL03BC10, bc:SLCL04BC10"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SLNT01BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:SLNT01BC1, bc:SLNT02BC1, bc:SLNT03BC1, bc:SLNT04BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SLNT01BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:SLNT01BC2, bc:SLNT02BC2, bc:SLNT03BC2, bc:SLNT04BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SLNT01BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:SLNT01BC3, bc:SLNT02BC3, bc:SLNT03BC3, bc:SLNT04BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SLNT01BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:SLNT01BC4, bc:SLNT02BC4, bc:SLNT03BC4, bc:SLNT04BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SLNT01BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:SLNT01BC5, bc:SLNT02BC5, bc:SLNT03BC5, bc:SLNT04BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SLNT01BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:SLNT01BC6, bc:SLNT02BC6, bc:SLNT03BC6, bc:SLNT04BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SMAT01BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:SMAT01BC1, bc:SMAT02BC1, bc:SMAT03BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SMAT01BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:SMAT01BC3, bc:SMAT02BC3, bc:SMAT03BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SMAT01BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:SMAT01BC5, bc:SMAT02BC5, bc:SMAT03BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SMAT01BC7",
+      "detalle": "Misma explicación del bloque competencial en bc:SMAT01BC7, bc:SMAT02BC7, bc:SMAT03BC7"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SMAT01BC9",
+      "detalle": "Misma explicación del bloque competencial en bc:SMAT01BC9, bc:SMAT02BC9, bc:SMAT03BC9"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SMBS03BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:SMBS03BC1, bc:SMBS04BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SMBS03BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:SMBS03BC2, bc:SMBS04BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SMBS03BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:SMBS03BC3, bc:SMBS04BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SMBS03BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:SMBS03BC4, bc:SMBS04BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SMBS03BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:SMBS03BC5, bc:SMBS04BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SMBS03BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:SMBS03BC6, bc:SMBS04BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SMBS03BC7",
+      "detalle": "Misma explicación del bloque competencial en bc:SMBS03BC7, bc:SMBS04BC7"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SMBS03BC8",
+      "detalle": "Misma explicación del bloque competencial en bc:SMBS03BC8, bc:SMBS04BC8"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SMUS01BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:SMUS01BC1, bc:SMUS02BC1, bc:SMUS03BC1, bc:SMUS04BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SMUS01BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:SMUS01BC2, bc:SMUS02BC2, bc:SMUS03BC2, bc:SMUS04BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SMUS01BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:SMUS01BC3, bc:SMUS02BC3, bc:SMUS03BC3, bc:SMUS04BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SMUS01BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:SMUS01BC4, bc:SMUS02BC4, bc:SMUS03BC4, bc:SMUS04BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SSGA01BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:SSGA01BC1, bc:SSGA02BC1, bc:SSGA03BC1, bc:SSGA04BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SSGA01BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:SSGA01BC2, bc:SSGA02BC2, bc:SSGA03BC2, bc:SSGA04BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SSGA01BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:SSGA01BC3, bc:SSGA02BC3, bc:SSGA03BC3, bc:SSGA04BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SSGA01BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:SSGA01BC4, bc:SSGA02BC4, bc:SSGA03BC4, bc:SSGA04BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SSGA01BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:SSGA01BC5, bc:SSGA02BC5, bc:SSGA03BC5, bc:SSGA04BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SSGA01BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:SSGA01BC6, bc:SSGA02BC6, bc:SSGA03BC6, bc:SSGA04BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SSGD01BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:SSGD01BC1, bc:SSGD02BC1, bc:SSGD03BC1, bc:SSGD04BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SSGD01BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:SSGD01BC2, bc:SSGD02BC2, bc:SSGD03BC2, bc:SSGD04BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SSGD01BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:SSGD01BC3, bc:SSGD02BC3, bc:SSGD03BC3, bc:SSGD04BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SSGD01BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:SSGD01BC4, bc:SSGD02BC4, bc:SSGD03BC4, bc:SSGD04BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SSGD01BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:SSGD01BC5, bc:SSGD02BC5, bc:SSGD03BC5, bc:SSGD04BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SSGD01BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:SSGD01BC6, bc:SSGD02BC6, bc:SSGD03BC6, bc:SSGD04BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SSGN01BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:SSGN01BC1, bc:SSGN02BC1, bc:SSGN03BC1, bc:SSGN04BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SSGN01BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:SSGN01BC2, bc:SSGN02BC2, bc:SSGN03BC2, bc:SSGN04BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SSGN01BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:SSGN01BC3, bc:SSGN02BC3, bc:SSGN03BC3, bc:SSGN04BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SSGN01BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:SSGN01BC4, bc:SSGN02BC4, bc:SSGN03BC4, bc:SSGN04BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SSGN01BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:SSGN01BC5, bc:SSGN02BC5, bc:SSGN03BC5, bc:SSGN04BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SSGN01BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:SSGN01BC6, bc:SSGN02BC6, bc:SSGN03BC6, bc:SSGN04BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SUEC01BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:SUEC01BC1, bc:SUEC02BC1, bc:SUEC03BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SUEC01BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:SUEC01BC2, bc:SUEC02BC2, bc:SUEC03BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SUEC01BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:SUEC01BC3, bc:SUEC02BC3, bc:SUEC03BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SUEC01BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:SUEC01BC4, bc:SUEC02BC4, bc:SUEC03BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SUEC01BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:SUEC01BC5, bc:SUEC02BC5, bc:SUEC03BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SUEC01BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:SUEC01BC6, bc:SUEC02BC6, bc:SUEC03BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:SUEC01BC7",
+      "detalle": "Misma explicación del bloque competencial en bc:SUEC01BC7, bc:SUEC02BC7, bc:SUEC03BC7"
+    }
+  ]
+}

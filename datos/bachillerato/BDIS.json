@@ -1,0 +1,913 @@
+{
+  "materia": "materia:BDIS",
+  "nodos": [
+    {
+      "id": "materia:BDIS",
+      "tipo": "Materia",
+      "notation": "BDIS",
+      "prefLabel": "Diseño (Bachillerato)",
+      "cursos": [
+        "curso:B02"
+      ],
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BDISC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BDISC1",
+      "prefLabel": "BDISC1 · Identificar los fundamentos del diseño a partir del análisis crítico de diversos…",
+      "definition": "Identificar los fundamentos del diseño a partir del análisis crítico de diversos productos de diseño bidimensional y tridimensional, para profundizar en la comprensión tanto de la complejidad de los procesos y herramientas que intervienen, como de la dimensión simbólica y semántica de sus lenguajes.",
+      "broader": "materia:BDIS",
+      "materia": "materia:BDIS",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BDISC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BDISC2",
+      "prefLabel": "BDISC2 · Reflexionar sobre los orígenes, los principios y las funciones del diseño, comparando y…",
+      "definition": "Reflexionar sobre los orígenes, los principios y las funciones del diseño, comparando y analizando producciones de diferentes épocas, estilos y ámbitos de aplicación, para valorar de manera crítica su impacto medioambiental, social y cultural.",
+      "broader": "materia:BDIS",
+      "materia": "materia:BDIS",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BDISC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BDISC3",
+      "prefLabel": "BDISC3 · Analizar de manera crítica y rigurosa distintas configuraciones formales, compositivas y…",
+      "definition": "Analizar de manera crítica y rigurosa distintas configuraciones formales, compositivas y estructurales presentes en el diseño de diferentes productos, identificando sus elementos plásticos, estéticos, funcionales y comunicativos, para enriquecer sus propias producciones y conformarse una opinión informada sobre el impacto de la disciplina en la inclusión, la sostenibilidad y el consumo responsable.",
+      "broader": "materia:BDIS",
+      "materia": "materia:BDIS",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BDISC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BDISC4",
+      "prefLabel": "BDISC4 · Planificar proyectos de diseño individuales y colectivos, seleccionando con criterio las…",
+      "definition": "Planificar proyectos de diseño individuales y colectivos, seleccionando con criterio las herramientas y recursos necesarios, para proponer y analizar críticamente soluciones creativas en respuesta a necesidades propias y ajenas.",
+      "broader": "materia:BDIS",
+      "materia": "materia:BDIS",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BDISC5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BDISC5",
+      "prefLabel": "BDISC5 · Desarrollar propuestas personales e imaginativas a partir de ideas o productos…",
+      "definition": "Desarrollar propuestas personales e imaginativas a partir de ideas o productos preexistentes, considerando la propiedad intelectual, para responder con creatividad a necesidades propias y ajenas y potenciar la autoestima y el crecimiento personal.",
+      "broader": "materia:BDIS",
+      "materia": "materia:BDIS",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BDISC6",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BDISC6",
+      "prefLabel": "BDISC6 · Crear productos de diseño, respondiendo con creatividad a necesidades concretas,…",
+      "definition": "Crear productos de diseño, respondiendo con creatividad a necesidades concretas, incluidas las del diseño inclusivo y las relativas a la sostenibilidad, y cuidando la corrección técnica, la coherencia y el rigor de la factura del producto, para potenciar una actitud crítica y responsable que favorezca el desarrollo personal, académico o profesional en el campo del diseño.",
+      "broader": "materia:BDIS",
+      "materia": "materia:BDIS",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BDIS02BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "BDIS02BC1",
+      "prefLabel": "Diseño · 2º Bachillerato · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de comprender la sintaxis propia del lenguaje del diseño y descifrar tanto los procesos materiales como los conceptuales empleados en su creación, analizando la relación entre las formas y las funciones en objetos de diseño bidimensionales o tridimensionales, así como las dimensiones simbólicas y semánticas propias de su lenguaje, e identificando sus elementos sintácticos y constitutivos, mediante la investigación de fuentes documentales de diversos tipos, tanto analógicas como digitales. Se verificará que el alumnado es capaz de analizar productos de diseño de manera crítica y a su vez reconocer los aspectos comunicativos, funcionales, formales y estéticos, favoreciendo la correcta recepción de los mismos y su deleite. Todo ello con la finalidad de que el alumnado los perciba como productos susceptibles de transformaciones y mejoras respecto a su funcionalidad o a nuevas necesidades, atendiendo a la sociedad de consumo, a la sostenibilidad y a la ecología, valorando su importancia en los distintos ámbitos del diseño.",
+      "broader": "materia:BDIS",
+      "agrupa": [
+        "ce:BDISC1"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CPSAA4",
+        "CC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BDIS02BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "BDIS02BC2",
+      "prefLabel": "Diseño · 2º Bachillerato · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de identificar las características fundamentales de los principales movimientos, corrientes, escuelas y personas teóricas vinculados con el diseño, reflexionando sobre sus orígenes y su evolución como herramienta para cubrir las necesidades de las personas y ofrecer soluciones creativas e inclusivas en diversos campos, y comparando e investigando productos de diseño pertenecientes a contextos geográficos, históricos y socialmente variados, incluidos los originados en Canarias, ayudado por medios digitales o analógicos. Se verificará que conoce los cambios que ha sufrido el concepto de diseño a lo largo de la historia y reconoce la importancia de la planificación en el desarrollo de productos, así como se propicia una reflexión sobre el impacto medioambiental que ha producido la humanidad en el diseño de productos a lo largo del tiempo, sobre las aportaciones al diseño desde la perspectiva de género y desde la interculturalidad. Todo ello con la finalidad de que valore desde el canon universal de diseño la contribución que las diversas culturas y diferentes personas, tanto mujeres como hombres, han hecho a esta disciplina y como se puede ofrecer argumentos para promover a través del diseño una conciencia ecosocialmente comprometida y sostenible, y soluciones para amortiguar el cambio climático.",
+      "broader": "materia:BDIS",
+      "agrupa": [
+        "ce:BDISC2"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "CP3",
+        "STEM2",
+        "CD1",
+        "CPSAA1.1",
+        "CC1",
+        "CC3",
+        "CC4",
+        "CCEC1"
+      ],
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BDIS02BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "BDIS02BC3",
+      "prefLabel": "Diseño · 2º Bachillerato · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de analizar de forma crítica objetos y productos de diferentes ámbitos del diseño, identificando la función de los mismos, reconociendo sus estructuras formales y compositivas, comprendiendo los procesos y métodos utilizados para desarrollarlos, e investigando sobre la sostenibilidad tanto de los productos de diseño como de su proceso de fabricación. Se verificará que el alumnado es capaz de analizar productos de diseño reconociendo la finalidad para la que han sido diseñados, e identificando las estrategias comunicativas empleadas. Todo ello con el objetivo de que el alumnado reflexione sobre la intención o el mensaje de dichos productos, valorando aspectos como la sostenibilidad, la inclusión o la promoción de un consumo responsable, para escapar a la manipulación de la propaganda y aplicar estos aprendizajes a sus propias producciones.",
+      "broader": "materia:BDIS",
+      "agrupa": [
+        "ce:BDISC3"
+      ],
+      "descriptores": [
+        "CCL2",
+        "STEM1",
+        "STEM5",
+        "CD2",
+        "CC1",
+        "CC4",
+        "CCEC1",
+        "CCEC4.1",
+        "CE1",
+        "CCEC2"
+      ],
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BDIS02BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "BDIS02BC4",
+      "prefLabel": "Diseño · 2º Bachillerato · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de organizar y planificar el proceso creativo en diferentes ámbitos del Diseño, clasificando y seleccionando las herramientas disponibles, tanto analógicas como digitales, dividiendo el proceso en diferentes partes según los objetivos que se plantee, y organizando los equipos de trabajo en el caso de proyectos colaborativos. Se verificará que el alumnado es capaz de ofrecer soluciones novedosas y sostenibles a partir de un proceso creativo previamente planificado y organizado. Todo ello con la finalidad de que el alumnado sea capaz de hacer una valoración crítica de su propio proceso de trabajo así como de sus propuestas, analizando si son innovadoras, viables y sostenibles. De este modo, podrá comprender la importancia del proceso en todo proyecto de diseño y deberá tener en cuenta al público espectador o la persona usuaria del producto diseñado y la relación entre forma y función.",
+      "broader": "materia:BDIS",
+      "agrupa": [
+        "ce:BDISC4"
+      ],
+      "descriptores": [
+        "STEM3",
+        "CD3",
+        "CPSAA3.2",
+        "CPSAA5",
+        "CC4",
+        "CE1",
+        "CCEC4.1",
+        "CCL5",
+        "CE3",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BDIS02BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "BDIS02BC5",
+      "prefLabel": "Diseño · 2º Bachillerato · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de desarrollar propuestas personales, innovadoras y creativas de diseño gráfico y diseño de producto, planificando el proceso creativo en respuesta a necesidades personales o de expresión propias a partir de ideas o productos preexistentes, aplicando una metodología proyectual de trabajo individual o colectivo, utilizando recursos tanto analógicos como digitales, y teniendo también en cuenta nociones básicas de antropometría y ergonomía. Se verificará que el alumnado es capaz de evaluar críticamente las propuestas personales valorando su coherencia, la viabilidad y adecuación a los objetivos propuestos, o la sostenibilidad de sus diseños, en la ecología y la defensa del medioambiente, especialmente en el ámbito de Canarias, y considerando el respeto a la propiedad intelectual, tanto a la ajena como a la propia. Todo ello con la finalidad de desarrollar en el alumnado una actitud empática que favorezca el ejercicio de una ciudadanía responsable y respetuosa, y reforzar la autoconfianza, la autoestima y el crecimiento personal.",
+      "broader": "materia:BDIS",
+      "agrupa": [
+        "ce:BDISC5"
+      ],
+      "descriptores": [
+        "STEM3",
+        "CD2",
+        "CE1",
+        "CE3",
+        "CCEC3.1",
+        "CCEC4.1",
+        "CCEC4.2",
+        "CPSAA1.1",
+        "CC1",
+        "CC4",
+        "CE2",
+        "CCEC3.2"
+      ],
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BDIS02BC6",
+      "tipo": "BloqueCompetencial",
+      "notation": "BDIS02BC6",
+      "prefLabel": "Diseño · 2º Bachillerato · bloque competencial C6",
+      "scopeNote": "A través de este bloque competencial, se constatará que el alumnado, mediante la realización de manera individual o colectiva de proyectos elementales de diseño gráfico, industrial y de espacios habitables, es capaz de comprender que el diseño es un proceso que conlleva la realización de un producto que debe cumplir con unos criterios y unas normas de elaboración, ejecución, representación y autoría. Se comprobará que es capaz de interpretar la información gráfica aportada en supuestos prácticos de diseño, que realiza previamente bocetos y croquis para visualizar sus propuestas y valorar la adecuación del trabajo a los objetivos propuestos y que utiliza de manera adecuada las herramientas y las técnicas de representación gráfica. Además, aplicando la metodología proyectual, e incorporando la sostenibilidad y el diseño inclusivo como herramientas transformadoras, se verificará la realización de propuestas innovadoras o que supongan la argumentación de rediseños ya existentes, que tengan en cuenta aspectos económicos, sociales, ecológicos, antropométricos y ergonómicos. Todo ello con la finalidad de desarrollar una actitud crítica y autocrítica que contribuya a la construcción y el enriquecimiento de la identidad personal, académica y profesional, y que permita al alumnado evaluar con criterio y de forma argumentada los trabajos de diseño propios y ajenos, seleccionando y utilizando de manera coherente los recursos técnicos y procedimentales a su alcance.",
+      "broader": "materia:BDIS",
+      "agrupa": [
+        "ce:BDISC6"
+      ],
+      "descriptores": [
+        "STEM3",
+        "CD2",
+        "CE3",
+        "CCEC4.1",
+        "CCEC4.2",
+        "CE1",
+        "CD3",
+        "CPSAA2"
+      ],
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BDIS02CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BDIS02CE1.1",
+      "prefLabel": "BDIS02CE1.1 · Reconocer la relación entre las formas y las funciones en objetos de diseño…",
+      "definition": "Reconocer la relación entre las formas y las funciones en objetos de diseño bidimensionales o tridimensionales, percibiéndolos como productos susceptibles de transformaciones y mejoras respecto a su funcionalidad o nuevas necesidades, haciendo uso de medios analógicos o digitales, para descifrar tanto los procesos materiales como los conceptuales empleados en su creación.",
+      "broader": "ce:BDISC1",
+      "bloque": "bc:BDIS02BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CPSAA4",
+        "CC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BDIS02CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BDIS02CE1.2",
+      "prefLabel": "BDIS02CE1.2 · Explicar en los objetos de diseño las dimensiones simbólicas y semánticas propias de su…",
+      "definition": "Explicar en los objetos de diseño las dimensiones simbólicas y semánticas propias de su lenguaje, identificando sus elementos sintácticos y constitutivos, mediante la investigación de fuentes documentales de diversos tipos, tanto analógicos como digitales, para comprender la sintaxis propia del lenguaje del diseño.",
+      "broader": "ce:BDISC1",
+      "bloque": "bc:BDIS02BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "CD1",
+        "CPSAA4",
+        "CC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BDIS02CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BDIS02CE2.1",
+      "prefLabel": "BDIS02CE2.1 · Identificar las características fundamentales de los principales movimientos, corrientes,…",
+      "definition": "Identificar las características fundamentales de los principales movimientos, corrientes, escuelas y teóricos relacionados con el diseño y analizar las diferentes soluciones de diseño vinculadas a un mismo problema, comparando productos de diseño de contextos geográficos, históricos y sociales diversos, ayudado por medios digitales o analógicos, e investigando y reflexionando sobre las aportaciones de las mujeres, de las culturas no occidentales y sobre su impacto en el entorno, para valorar la contribución de diversas culturas, de las figuras relevantes tanto de mujeres como de hombres destacados en esta disciplina y para establecer argumentos que promuevan una conciencia comprometida con el medio ambiente y con el diseño sostenible.",
+      "broader": "ce:BDISC2",
+      "bloque": "bc:BDIS02BC2",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "CP3",
+        "STEM2",
+        "CD1",
+        "CPSAA1.1",
+        "CC1",
+        "CC3",
+        "CC4",
+        "CCEC1"
+      ],
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BDIS02CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BDIS02CE3.1",
+      "prefLabel": "BDIS02CE3.1 · Reconocer las estructuras formales, compositivas y estructurales en objetos y productos…",
+      "definition": "Reconocer las estructuras formales, compositivas y estructurales en objetos y productos de diferentes ámbitos del diseño, analizando los procesos y métodos utilizados para desarrollarlos, así como las finalidades funcionales y comunicativas de las que parten y su impacto en aspectos tales como la inclusión, la sostenibilidad y el consumo responsable, para identificar los diferentes elementos constitutivos del diseño, descifrar y descubrir sus estrategias comunicativas o funcionales subyacentes, teniendo en cuenta el entorno digital, y conocer las metodologías y procesos proyectuales que conducen a la creación de productos de diseño.",
+      "broader": "ce:BDISC3",
+      "bloque": "bc:BDIS02BC3",
+      "descriptores": [
+        "CCL2",
+        "STEM1",
+        "STEM5",
+        "CD2",
+        "CC1",
+        "CC4",
+        "CCEC1",
+        "CCEC4.1"
+      ],
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BDIS02CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BDIS02CE3.2",
+      "prefLabel": "BDIS02CE3.2 · Analizar las relaciones compositivas en distintos productos de diseño, identificando los…",
+      "definition": "Analizar las relaciones compositivas en distintos productos de diseño, identificando los elementos básicos del lenguaje visual y explicando su impacto en aspectos como la inclusión, la sostenibilidad y el consumo responsable, para aplicar criterios éticos en la generación de productos y responder a la manipulación de la propaganda.",
+      "broader": "ce:BDISC3",
+      "bloque": "bc:BDIS02BC3",
+      "descriptores": [
+        "CCL2",
+        "STEM5",
+        "CC4",
+        "CE1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BDIS02CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BDIS02CE4.1",
+      "prefLabel": "BDIS02CE4.1 · Planificar adecuadamente proyectos de diseño individuales o colectivos estableciendo…",
+      "definition": "Planificar adecuadamente proyectos de diseño individuales o colectivos estableciendo objetivos en función del impacto de comunicación buscado, programando las distintas fases del plan de desarrollo, seleccionando con criterio las herramientas y medios tanto digitales como analógicos disponibles, y participando activamente en la organización adecuada de los equipos de trabajo en el caso de proyectos colaborativos, para realizar propuestas innovadoras y sostenibles.",
+      "broader": "ce:BDISC4",
+      "bloque": "bc:BDIS02BC4",
+      "descriptores": [
+        "STEM3",
+        "CD3",
+        "CPSAA3.2",
+        "CPSAA5",
+        "CC4",
+        "CE1",
+        "CCEC4.1"
+      ],
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BDIS02CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BDIS02CE4.2",
+      "prefLabel": "BDIS02CE4.2 · Evaluar las propuestas de planificación propias y ajenas de manera crítica y argumentada,…",
+      "definition": "Evaluar las propuestas de planificación propias y ajenas de manera crítica y argumentada, analizando su adecuación al impacto de comunicación buscado, para valorar la importancia que tienen tanto el proceso como el producto final.",
+      "broader": "ce:BDISC4",
+      "bloque": "bc:BDIS02BC4",
+      "descriptores": [
+        "CCL5",
+        "CE3",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BDIS02CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BDIS02CE5.1",
+      "prefLabel": "BDIS02CE5.1 · Proyectar soluciones innovadoras de diseño, planificando el proceso en respuesta a…",
+      "definition": "Proyectar soluciones innovadoras de diseño, planificando el proceso en respuesta a necesidades personales o de expresión propias a partir de ideas o productos preexistentes, para realizar adaptaciones creativas y familiarizarse con las regulaciones que protegen la propiedad intelectual, asimilándola como un elemento esencial para el ejercicio de una ciudadanía responsable y respetuosa.",
+      "broader": "ce:BDISC5",
+      "bloque": "bc:BDIS02BC5",
+      "descriptores": [
+        "STEM3",
+        "CD2",
+        "CE1",
+        "CE3",
+        "CCEC3.1",
+        "CCEC4.1",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BDIS02CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BDIS02CE5.2",
+      "prefLabel": "BDIS02CE5.2 · Evaluar críticamente las propuestas de diseño personales valorando su coherencia,…",
+      "definition": "Evaluar críticamente las propuestas de diseño personales valorando su coherencia, adecuación y sostenibilidad, y considerando el respeto a la propiedad intelectual, tanto a la ajena como a la propia, para reforzar la autoconfianza y la autoestima.",
+      "broader": "ce:BDISC5",
+      "bloque": "bc:BDIS02BC5",
+      "descriptores": [
+        "CD2",
+        "CPSAA1.1",
+        "CC1",
+        "CC4",
+        "CE2",
+        "CCEC3.1",
+        "CCEC3.2"
+      ],
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BDIS02CE6.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BDIS02CE6.1",
+      "prefLabel": "BDIS02CE6.1 · Realizar proyectos elementales de diseño, de manera individual y colectiva, aplicando…",
+      "definition": "Realizar proyectos elementales de diseño, de manera individual y colectiva, aplicando soluciones creativas en la elaboración de un producto innovador, incorporando en su proceso herramientas digitales, y teniendo en cuenta sus implicaciones sociales, económicas, y de transformación , así como el respeto por los aspectos relacionados con la propiedad intelectual, para comprender que el diseño es un proceso que conlleva la realización de un producto y que debe cumplir con unos criterios y unas normas de elaboración, ejecución y representación.",
+      "broader": "ce:BDISC6",
+      "bloque": "bc:BDIS02BC6",
+      "descriptores": [
+        "STEM3",
+        "CD2",
+        "CE3",
+        "CCEC4.1",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BDIS02CE6.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BDIS02CE6.2",
+      "prefLabel": "BDIS02CE6.2 · Evaluar de manera crítica y argumentada trabajos de diseño propios y ajenos, valorando…",
+      "definition": "Evaluar de manera crítica y argumentada trabajos de diseño propios y ajenos, valorando tanto la selección coherente y adecuada de los recursos técnicos, como el rigor y la corrección en la aplicación de las técnicas de ejecución, desarrollo y presentación del producto, además de su grado de adecuación al impacto de comunicación buscado y al respeto a la propiedad intelectual, para desarrollar una actitud crítica y autocrítica que contribuya a la construcción y el enriquecimiento de la identidad personal, académica y profesional.",
+      "broader": "ce:BDISC6",
+      "bloque": "bc:BDIS02BC6",
+      "descriptores": [
+        "STEM3",
+        "CE1",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BDIS02CE6.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BDIS02CE6.3",
+      "prefLabel": "BDIS02CE6.3 · Identificar las posibilidades de intervención del diseño inclusivo y universal, en…",
+      "definition": "Identificar las posibilidades de intervención del diseño inclusivo y universal, en diferentes ámbitos de la actividad humana, poniendo en valor los proyectos innovadores y teniendo en cuenta la sostenibilidad como herramienta de transformación de la sociedad, y realizar colectivamente un proyecto inclusivo y sostenible, respondiendo con creatividad a necesidades concretas y argumentando las decisiones, para tomar conciencia de que el diseño inclusivo y la sostenibilidad estén en la base de todas las propuestas de diseño gráfico, de producto o de espacios, y que sean también el punto de partida desde el que argumentar rediseños innovadores de productos ya existentes, tanto en proyectos individuales como colectivos.",
+      "broader": "ce:BDISC6",
+      "bloque": "bc:BDIS02BC6",
+      "descriptores": [
+        "STEM3",
+        "CD3",
+        "CPSAA2",
+        "CE3",
+        "CCEC4.1",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "BDIS02SBI",
+      "prefLabel": "BDIS02SBI · I. Concepto, historia y campos del diseño",
+      "definition": "Concepto, historia y campos del diseño",
+      "broader": "materia:BDIS",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "BDIS02SBII",
+      "prefLabel": "BDIS02SBII · II. El diseño: configuración formal y metodología",
+      "definition": "El diseño: configuración formal y metodología",
+      "broader": "materia:BDIS",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "BDIS02SBIII",
+      "prefLabel": "BDIS02SBIII · III. Diseño gráfico",
+      "definition": "Diseño gráfico",
+      "broader": "materia:BDIS",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "BDIS02SBIV",
+      "prefLabel": "BDIS02SBIV · IV. Diseño tridimensional",
+      "definition": "Diseño tridimensional",
+      "broader": "materia:BDIS",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBI.1",
+      "prefLabel": "BDIS02SBI.1 · Iniciación en el diseño, análisis de sus clasificaciones y campos de aplicación.",
+      "definition": "Iniciación en el diseño, análisis de sus clasificaciones y campos de aplicación.",
+      "broader": "sb:BDIS02SBI",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBI.2",
+      "prefLabel": "BDIS02SBI.2 · Reflexión y comprensión de la evolución histórica del diseño. Análisis y explicación del…",
+      "definition": "Reflexión y comprensión de la evolución histórica del diseño. Análisis y explicación del concepto y de las teorías del diseño. Reconocimiento de las aportaciones de la artesanía, del arte y de la industrialización al diseño.",
+      "broader": "sb:BDIS02SBI",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBI.3",
+      "prefLabel": "BDIS02SBI.3 · Identificación y valoración de las principales tendencias, periodos y principales…",
+      "definition": "Identificación y valoración de las principales tendencias, periodos y principales escuelas de la historia del diseño en sus diferentes campos de aplicación, con especial atención al desarrollo de esta disciplina en Canarias. Reconocimiento de las figuras más representativas, destacando los diseños realizados por mujeres, en el ámbito del diseño.",
+      "broader": "sb:BDIS02SBI",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBI.4",
+      "prefLabel": "BDIS02SBI.4 · Reconocimiento de la importancia del diseño y sensibilización sobre su impacto…",
+      "definition": "Reconocimiento de la importancia del diseño y sensibilización sobre su impacto medioambiental. Contribución del ecodiseño y del diseño sostenible como solución a los retos socioambientales en la sociedad de consumo, con particular interés en el ámbito de Canarias.",
+      "broader": "sb:BDIS02SBI",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBI.5",
+      "prefLabel": "BDIS02SBI.5 · Identificación y reflexión sobre las mejoras que aporta el diseño inclusivo y universal.",
+      "definition": "Identificación y reflexión sobre las mejoras que aporta el diseño inclusivo y universal.",
+      "broader": "sb:BDIS02SBI",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBI.6",
+      "prefLabel": "BDIS02SBI.6 · Conocimiento y apreciación de la diversidad en el diseño como parte de la riqueza…",
+      "definition": "Conocimiento y apreciación de la diversidad en el diseño como parte de la riqueza patrimonial, con especial atención al patrimonio de Canarias.",
+      "broader": "sb:BDIS02SBI",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBI.7",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBI.7",
+      "prefLabel": "BDIS02SBI.7 · Valoración y comparación de las aportaciones de las culturas no occidentales al canon del…",
+      "definition": "Valoración y comparación de las aportaciones de las culturas no occidentales al canon del diseño mundial y de la apropiación cultural.",
+      "broader": "sb:BDIS02SBI",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBI.8",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBI.8",
+      "prefLabel": "BDIS02SBI.8 · Reconocimiento de los fundamentos de la propiedad intelectual, y aprecio de la protección…",
+      "definition": "Reconocimiento de los fundamentos de la propiedad intelectual, y aprecio de la protección de la creatividad, patentes y marcas, rechazo de copias y plagios.",
+      "broader": "sb:BDIS02SBI",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBII.1",
+      "prefLabel": "BDIS02SBII.1 · Comprensión de la relación entre forma y función que se da en el diseño.",
+      "definition": "Comprensión de la relación entre forma y función que se da en el diseño.",
+      "broader": "sb:BDIS02SBII",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBII.2",
+      "prefLabel": "BDIS02SBII.2 · Estudio e identificación de los elementos básicos del lenguaje visual: punto, línea,…",
+      "definition": "Estudio e identificación de los elementos básicos del lenguaje visual: punto, línea, plano, color, forma y textura.",
+      "broader": "sb:BDIS02SBII",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBII.3",
+      "prefLabel": "BDIS02SBII.3 · Exploración y uso de los principios de la psicología de la Gestalt aplicados al diseño.",
+      "definition": "Exploración y uso de los principios de la psicología de la Gestalt aplicados al diseño.",
+      "broader": "sb:BDIS02SBII",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBII.4",
+      "prefLabel": "BDIS02SBII.4 · Reconocimiento y empleo de los elementos propios de la sintaxis de la imagen…",
+      "definition": "Reconocimiento y empleo de los elementos propios de la sintaxis de la imagen bidimensional y tridimensional.",
+      "broader": "sb:BDIS02SBII",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBII.5",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBII.5",
+      "prefLabel": "BDIS02SBII.5 · Reconocimiento y aplicación de la ordenación y composición modular.",
+      "definition": "Reconocimiento y aplicación de la ordenación y composición modular.",
+      "broader": "sb:BDIS02SBII",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBII.6",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBII.6",
+      "prefLabel": "BDIS02SBII.6 · Comprensión de la dimensión semántica del diseño.",
+      "definition": "Comprensión de la dimensión semántica del diseño.",
+      "broader": "sb:BDIS02SBII",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBII.7",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBII.7",
+      "prefLabel": "BDIS02SBII.7 · Planificación y desarrollo del proceso de diseño y sus fases. Conocimiento y aplicación…",
+      "definition": "Planificación y desarrollo del proceso de diseño y sus fases. Conocimiento y aplicación de la metodología proyectual.",
+      "broader": "sb:BDIS02SBII",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBII.8",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBII.8",
+      "prefLabel": "BDIS02SBII.8 · Experimentación, asimilación y aplicación de diversos procesos y técnicas creativas para…",
+      "definition": "Experimentación, asimilación y aplicación de diversos procesos y técnicas creativas para abordar proyectos de diseño.",
+      "broader": "sb:BDIS02SBII",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBII.9",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBII.9",
+      "prefLabel": "BDIS02SBII.9 · Desarrollo y utilización de estrategias organizativas de equipos de trabajo.",
+      "definition": "Desarrollo y utilización de estrategias organizativas de equipos de trabajo.",
+      "broader": "sb:BDIS02SBII",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBIII.1",
+      "prefLabel": "BDIS02SBIII.1 · Comprensión y valoración de las funciones comunicativas y expresivas del diseño gráfico.",
+      "definition": "Comprensión y valoración de las funciones comunicativas y expresivas del diseño gráfico.",
+      "broader": "sb:BDIS02SBIII",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBIII.2",
+      "prefLabel": "BDIS02SBIII.2 · Estudio comparativo de la tipografía y de sus principales familias, valoración de sus…",
+      "definition": "Estudio comparativo de la tipografía y de sus principales familias, valoración de sus propiedades, de los factores que propician su legibilidad y de sus usos en el diseño.",
+      "broader": "sb:BDIS02SBIII",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBIII.3",
+      "prefLabel": "BDIS02SBIII.3 · Comprensión y aplicación de la composición en el diseño gráfico.",
+      "definition": "Comprensión y aplicación de la composición en el diseño gráfico.",
+      "broader": "sb:BDIS02SBIII",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBIII.4",
+      "prefLabel": "BDIS02SBIII.4 · Conocimiento y utilización de diversos procesos y técnicas, analógicos o digitales, de…",
+      "definition": "Conocimiento y utilización de diversos procesos y técnicas, analógicos o digitales, de diseño gráfico.",
+      "broader": "sb:BDIS02SBIII",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBIII.5",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBIII.5",
+      "prefLabel": "BDIS02SBIII.5 · Reconocimiento de la imagen de marca y aplicación al diseño corporativo.",
+      "definition": "Reconocimiento de la imagen de marca y aplicación al diseño corporativo.",
+      "broader": "sb:BDIS02SBIII",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBIII.6",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBIII.6",
+      "prefLabel": "BDIS02SBIII.6 · Conocimiento del diseño editorial, realización de maquetación y composición de páginas.",
+      "definition": "Conocimiento del diseño editorial, realización de maquetación y composición de páginas.",
+      "broader": "sb:BDIS02SBIII",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBIII.7",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBIII.7",
+      "prefLabel": "BDIS02SBIII.7 · Identificación de los fundamentos y funciones del lenguaje del diseño publicitario y…",
+      "definition": "Identificación de los fundamentos y funciones del lenguaje del diseño publicitario y realización de proyectos de comunicación gráfica.",
+      "broader": "sb:BDIS02SBIII",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBIII.8",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBIII.8",
+      "prefLabel": "BDIS02SBIII.8 · Reconocimiento de los códigos utilizados en la señalética. Conocimiento de la señalética…",
+      "definition": "Reconocimiento de los códigos utilizados en la señalética. Conocimiento de la señalética inclusiva. Elaboración de signos gráficos para su aplicación en señalización y señalética.",
+      "broader": "sb:BDIS02SBIII",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBIII.9",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBIII.9",
+      "prefLabel": "BDIS02SBIII.9 · Reconocimiento y valoración del diseño gráfico en Canarias.",
+      "definition": "Reconocimiento y valoración del diseño gráfico en Canarias.",
+      "broader": "sb:BDIS02SBIII",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBIV.1",
+      "prefLabel": "BDIS02SBIV.1 · Comprensión del proceso de diseño de un producto. Clasificación de las tipologías de…",
+      "definition": "Comprensión del proceso de diseño de un producto. Clasificación de las tipologías de objetos en el diseño volumétrico.",
+      "broader": "sb:BDIS02SBIV",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBIV.2",
+      "prefLabel": "BDIS02SBIV.2 · Conocimiento y aplicación de los sistemas de representación, de las nociones básicas de…",
+      "definition": "Conocimiento y aplicación de los sistemas de representación, de las nociones básicas de normalización y de las estructuras compositivas aplicadas al diseño de producto.",
+      "broader": "sb:BDIS02SBIV",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBIV.3",
+      "prefLabel": "BDIS02SBIV.3 · Valoración de los conceptos básicos de antropometría, ergonomía y biónica, y su…",
+      "definition": "Valoración de los conceptos básicos de antropometría, ergonomía y biónica, y su  aplicación al diseño de producto y de espacios.",
+      "broader": "sb:BDIS02SBIV",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBIV.4",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBIV.4",
+      "prefLabel": "BDIS02SBIV.4 · Adecuación del diseño de producto a la diversidad funcional.",
+      "definition": "Adecuación del diseño de producto a la diversidad funcional.",
+      "broader": "sb:BDIS02SBIV",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBIV.5",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBIV.5",
+      "prefLabel": "BDIS02SBIV.5 · Conocimiento y experimentación con materiales, texturas y colores. Identificación de los…",
+      "definition": "Conocimiento y experimentación con materiales, texturas y colores. Identificación de los sistemas de producción y su repercusión en el diseño.",
+      "broader": "sb:BDIS02SBIV",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBIV.6",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBIV.6",
+      "prefLabel": "BDIS02SBIV.6 · Estudio y análisis del packaging, transformación del diseño gráfico al diseño del…",
+      "definition": "Estudio y análisis del packaging, transformación del diseño gráfico al diseño del contenedor del producto tridimensional. Iniciación a su desarrollo y técnicas de producción.",
+      "broader": "sb:BDIS02SBIV",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBIV.7",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBIV.7",
+      "prefLabel": "BDIS02SBIV.7 · Conocimiento y desarrollo del proceso de diseño de espacios. Organización del espacio…",
+      "definition": "Conocimiento y desarrollo del proceso de diseño de espacios. Organización del espacio habitable, público o privado. Distribución de espacios y recorridos. Aplicación de los itinerarios de circulación en un museo o sala de exposiciones.",
+      "broader": "sb:BDIS02SBIV",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBIV.8",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBIV.8",
+      "prefLabel": "BDIS02SBIV.8 · Análisis y descripción de los elementos constructivos y de los principios de iluminación,…",
+      "definition": "Análisis y descripción de los elementos constructivos y de los principios de iluminación, y su adecuación en el diseño de espacios interiores.",
+      "broader": "sb:BDIS02SBIV",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBIV.9",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBIV.9",
+      "prefLabel": "BDIS02SBIV.9 · Valoración de la percepción psicológica en el diseño de espacios habitables.…",
+      "definition": "Valoración de la percepción psicológica en el diseño de espacios habitables. Justificación de sus condicionantes físicos, técnicos, funcionales y psicosociales.",
+      "broader": "sb:BDIS02SBIV",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BDIS02SBIV.10",
+      "tipo": "SaberBasico",
+      "notation": "BDIS02SBIV.10",
+      "prefLabel": "BDIS02SBIV.10 · Desarrollo de un proyecto colectivo de diseño inclusivo en un entorno local.",
+      "definition": "Desarrollo de un proyecto colectivo de diseño inclusivo en un entorno local.",
+      "broader": "sb:BDIS02SBIV",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    }
+  ]
+}

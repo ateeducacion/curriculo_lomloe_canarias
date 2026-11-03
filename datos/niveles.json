@@ -1,0 +1,172 @@
+{
+  "nodos": [
+    {
+      "id": "etapa:BAC",
+      "tipo": "Etapa",
+      "notation": "BAC",
+      "prefLabel": "Bachillerato"
+    },
+    {
+      "id": "etapa:ESO",
+      "tipo": "Etapa",
+      "notation": "ESO",
+      "prefLabel": "Educación Secundaria Obligatoria"
+    },
+    {
+      "id": "etapa:INF",
+      "tipo": "Etapa",
+      "notation": "INF",
+      "prefLabel": "Educación Infantil"
+    },
+    {
+      "id": "etapa:PRI",
+      "tipo": "Etapa",
+      "notation": "PRI",
+      "prefLabel": "Educación Primaria"
+    },
+    {
+      "id": "curso:B01",
+      "tipo": "Curso",
+      "notation": "B01",
+      "prefLabel": "1º Bachillerato",
+      "broader": "etapa:BAC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "curso:B02",
+      "tipo": "Curso",
+      "notation": "B02",
+      "prefLabel": "2º Bachillerato",
+      "broader": "etapa:BAC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "curso:I01",
+      "tipo": "Curso",
+      "notation": "I01",
+      "prefLabel": "1º Infantil de 0 años",
+      "broader": "etapa:INF",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "curso:I02",
+      "tipo": "Curso",
+      "notation": "I02",
+      "prefLabel": "2º Infantil de 1 año",
+      "broader": "etapa:INF",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "curso:I03",
+      "tipo": "Curso",
+      "notation": "I03",
+      "prefLabel": "3º Infantil de 2 años",
+      "broader": "etapa:INF",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "curso:I04",
+      "tipo": "Curso",
+      "notation": "I04",
+      "prefLabel": "4º Infantil de 3 años",
+      "broader": "etapa:INF",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "curso:I05",
+      "tipo": "Curso",
+      "notation": "I05",
+      "prefLabel": "5º Infantil de 4 años",
+      "broader": "etapa:INF",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "curso:I06",
+      "tipo": "Curso",
+      "notation": "I06",
+      "prefLabel": "6º Infantil de 5 años",
+      "broader": "etapa:INF",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "curso:P01",
+      "tipo": "Curso",
+      "notation": "P01",
+      "prefLabel": "1º Primaria",
+      "broader": "etapa:PRI",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "curso:P02",
+      "tipo": "Curso",
+      "notation": "P02",
+      "prefLabel": "2º Primaria",
+      "broader": "etapa:PRI",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "curso:P03",
+      "tipo": "Curso",
+      "notation": "P03",
+      "prefLabel": "3º Primaria",
+      "broader": "etapa:PRI",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "curso:P04",
+      "tipo": "Curso",
+      "notation": "P04",
+      "prefLabel": "4º Primaria",
+      "broader": "etapa:PRI",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "curso:P05",
+      "tipo": "Curso",
+      "notation": "P05",
+      "prefLabel": "5º Primaria",
+      "broader": "etapa:PRI",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "curso:P06",
+      "tipo": "Curso",
+      "notation": "P06",
+      "prefLabel": "6º Primaria",
+      "broader": "etapa:PRI",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "curso:S01",
+      "tipo": "Curso",
+      "notation": "S01",
+      "prefLabel": "1º ESO",
+      "broader": "etapa:ESO",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "curso:S02",
+      "tipo": "Curso",
+      "notation": "S02",
+      "prefLabel": "2º ESO",
+      "broader": "etapa:ESO",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "curso:S03",
+      "tipo": "Curso",
+      "notation": "S03",
+      "prefLabel": "3º ESO",
+      "broader": "etapa:ESO",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "curso:S04",
+      "tipo": "Curso",
+      "notation": "S04",
+      "prefLabel": "4º ESO",
+      "broader": "etapa:ESO",
+      "etapa": "etapa:ESO"
+    }
+  ]
+}

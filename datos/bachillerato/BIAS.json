@@ -1,0 +1,981 @@
+{
+  "materia": "materia:BIAS",
+  "nodos": [
+    {
+      "id": "materia:BIAS",
+      "tipo": "Materia",
+      "notation": "BIAS",
+      "prefLabel": "Iniciación a la Astronomía (Bachillerato)",
+      "cursos": [
+        "curso:B01"
+      ],
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BIASC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BIASC1",
+      "prefLabel": "BIASC1 · Analizar la contribución de las distintas civilizaciones a la historia de la Astronomía,…",
+      "definition": "Analizar la contribución de las distintas civilizaciones a la historia de la Astronomía, identificando y valorando las distintas aportaciones con una visión crítica y acorde al momento histórico en el que se producen, con la finalidad de comprender la evolución de las teorías que rigen el origen y evolución del universo y de reconocer las principales constelaciones, asociándolas a sus mitos históricos.",
+      "broader": "materia:BIAS",
+      "materia": "materia:BIAS",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BIASC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BIASC2",
+      "prefLabel": "BIASC2 · Describir la composición y organización del Universo analizando la edad aproximada de los…",
+      "definition": "Describir la composición y organización del Universo analizando la edad aproximada de los distintos componentes, utilizando la hipótesis del Big Bang para comprender el nacimiento y evolución del cosmos y las pruebas que lo avalan.",
+      "broader": "materia:BIAS",
+      "materia": "materia:BIAS",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BIASC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BIASC3",
+      "prefLabel": "BIASC3 · Describir y explicar las principales características del Sistema Solar interior y…",
+      "definition": "Describir y explicar las principales características del Sistema Solar interior y exterior, analizando las misiones espaciales más relevantes, para reconocer los cuerpos celestes que lo forman y valorar la importancia de las observaciones astronómicas como fuente de conocimiento.",
+      "broader": "materia:BIAS",
+      "materia": "materia:BIAS",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BIASC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BIASC4",
+      "prefLabel": "BIASC4 · Identificar y utilizar los distintos instrumentos de observación, valorando la…",
+      "definition": "Identificar y utilizar los distintos instrumentos de observación, valorando la excepcionalidad del cielo de Canarias para la realización de observaciones astronómicas.",
+      "broader": "materia:BIAS",
+      "materia": "materia:BIAS",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BIASC5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BIASC5",
+      "prefLabel": "BIASC5 · Identificar los diferentes tipos de objetos celestes, analizando el proceso de formación…",
+      "definition": "Identificar los diferentes tipos de objetos celestes, analizando el proceso de formación y evolución estelar para comprender los estados evolutivos de las estrellas y la organización de las mismas en el cosmos.",
+      "broader": "materia:BIAS",
+      "materia": "materia:BIAS",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BIAS01BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "BIAS01BC1",
+      "prefLabel": "Iniciación a la Astronomía · 1º Bachillerato · bloque competencial C1",
+      "scopeNote": "Con este bloque competencial se trata de verificar que el alumnado es capaz de analizar los acontecimientos más importantes de la historia de la Astronomía y su influencia en el desarrollo del conocimiento y de la sociedad, en un clima de respeto y comprensión hacia otras creencias, ideologías, visiones del mundo… Para ello, se constatará que es capaz de planificar y elaborar trabajos de investigación individuales o grupales relacionados con el estudio de estos acontecimientos y con la relación existente entre las constelaciones y su mitología, a partir del análisis  y de la información previamente seleccionada de diferentes fuentes, contrastando algunas de las concepciones que se han tenido sobre el Universo a lo largo de la historia y utilizando los recursos que le ofrecen las tecnologías digitales para todo ello. Se comprobará también que es capaz de manejar los conceptos de ascensión recta (AR) y declinación (DEC), como medio para localizar de forma rápida cualquier objeto estelar una vez conocidas sus coordenadas, y de reconocer las principales constelaciones, así como algunos de los objetos estelares que se pueden localizar en ellas, de manera que sea capaz de orientarse en una noche estrellada. Se evaluará asimismo que el alumnado sea capaz de argumentar la relevancia de la contribución de Canarias en relación con el conocimiento del Universo. Finalmente, se valorará su capacidad para comunicar las conclusiones de su investigación mediante exposiciones orales, haciendo uso de soportes digitales. Todo ello con la finalidad de reconocer la importancia de los estudios astronómicos para el conocimiento del Universo y de tomar conciencia de la inmensidad del Cosmos.",
+      "broader": "materia:BIAS",
+      "agrupa": [
+        "ce:BIASC1"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CPSAA4",
+        "CC1",
+        "CD3"
+      ],
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BIAS01BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "BIAS01BC2",
+      "prefLabel": "Iniciación a la Astronomía · 1º Bachillerato · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se pretende que el alumnado sea capaz de analizar la edad de los componentes del Universo y su composición, tomando conciencia del hecho de que observar el cielo significa «mirar al pasado», y de comparar esas magnitudes de tiempo con la brevedad de la vida humana. Para ello, se valorará que el alumnado sea capaz, en un contexto de colaboración, de contrastar información, utilizando los recursos que le ofrecen las tecnologías digitales para localizar en un eje cronológico y empleando una escala temporal adecuada, el origen del Universo, del Sol, de la Tierra, la aparición de la vida… Asimismo, se pretende que el alumnado reconozca y analice la validez de la teoría del Big Bang sobre el nacimiento del Cosmos y las pruebas que la avalan. De la misma forma, deberá valorar la importancia de la ley de Hubble-Lemaître y la expansión del Universo como consecuencia de la misma, desechando la concepción estática del cosmos, así como reconocer algunos de los efectos que evidencian la teoría de la relatividad.",
+      "broader": "materia:BIAS",
+      "agrupa": [
+        "ce:BIASC2"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CPSAA4"
+      ],
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BIAS01BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "BIAS01BC3",
+      "prefLabel": "Iniciación a la Astronomía · 1º Bachillerato · bloque competencial C3",
+      "scopeNote": "Este bloque competencial pretende evaluar que el alumnado es capaz de reconocer y reproducir las principales características de los componentes del Sistema Solar tanto interior como exterior. Asimismo, deberá conocer las condiciones que deben darse dentro y fuera de nuestro Sistema Solar para considerar la posibilidad de que haya cuerpos celestes con capacidad para albergar vida, reconociendo algunos de los astros que reúnan tales condiciones. También se evaluará su capacidad de valorar la importancia de los descubrimientos de las misiones espaciales en el conocimiento del Universo, analizando la problemática de la basura espacial y sus posibles soluciones, y aplicando recursos digitales adecuados, como simuladores...",
+      "broader": "materia:BIAS",
+      "agrupa": [
+        "ce:BIASC3"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CPSAA4",
+        "CE3"
+      ],
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BIAS01BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "BIAS01BC4",
+      "prefLabel": "Iniciación a la Astronomía · 1º Bachillerato · bloque competencial C4",
+      "scopeNote": "Con este bloque competencial se pretende constatar que el alumnado conoce y comprende el funcionamiento de los instrumentos de observación ópticos a partir del manejo de los mismos y que, asimismo, conoce y valora las contribuciones de la astronomía no óptica. Igualmente, se pretende comprobar que el alumnado es capaz de comprender y potenciar actitudes respetuosas hacia nuestros cielos para protegerlos de la contaminación lumínica, radioeléctrica y de otros agentes polucionantes (Ley del Cielo), a fin de garantizar observaciones astronómicas de calidad. Asimismo, se comprobará si reconoce los distintos instrumentos de observación astronómica y demuestra su destreza en el manejo de los mismos (montaje, alineación…), posibilitando con ello la adquisición de nuevos conocimientos.",
+      "broader": "materia:BIAS",
+      "agrupa": [
+        "ce:BIASC4"
+      ],
+      "descriptores": [
+        "STEM2",
+        "STEM4",
+        "CCL1",
+        "STEM5",
+        "CPSAA2"
+      ],
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BIAS01BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "BIAS01BC5",
+      "prefLabel": "Iniciación a la Astronomía · 1º Bachillerato · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial se pretende que el alumnado reconozca la relación que existe entre la masa original de una estrella y su evolución, así como la formación de los distintos elementos químicos en los núcleos de las estrellas, entendiendo el proceso de producción de energía que tiene lugar en ellas. Asimismo, deberá relacionar la coloración estelar apreciada a simple vista con la temperatura superficial y, por tanto, el estado evolutivo de la estrella y su ubicación en el diagrama Hertzsprung-Russell (H-R). También debe ser capaz de valorar la importancia de los espectros de emisión y absorción y de establecer la correspondencia entre la magnitud de una estrella con su luminosidad, relacionando estos parámetros con la tipología y composición del objeto estelar. De la misma forma, el alumnado será capaz de identificar y clasificar los diferentes tipos de galaxias y objetos celestes que pueblan el Cosmos, utilizando los catálogos de Messier… y aplicando las herramientas digitales adecuadas en cada caso para la búsqueda y transmisión de información.",
+      "broader": "materia:BIAS",
+      "agrupa": [
+        "ce:BIASC5"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "STEM4",
+        "CD1",
+        "CD2"
+      ],
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BIAS01CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BIAS01CE1.1",
+      "prefLabel": "BIAS01CE1.1 · Analizar de manera crítica y a partir de fuentes fiables y variadas de información, los…",
+      "definition": "Analizar de manera crítica y a partir de fuentes fiables y variadas de información, los acontecimientos más importantes de la historia de la Astronomía para conocer su influencia sobre el desarrollo del conocimiento del Universo y de la sociedad.",
+      "broader": "ce:BIASC1",
+      "bloque": "bc:BIAS01BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CPSAA4",
+        "CC1"
+      ],
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BIAS01CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BIAS01CE1.2",
+      "prefLabel": "BIAS01CE1.2 · Reconocer las principales constelaciones, asociándolas a sus mitos históricos, como medio…",
+      "definition": "Reconocer las principales constelaciones, asociándolas a sus mitos históricos, como medio para orientarse, diferenciando los distintos tipos de astros o cuerpos celestes.",
+      "broader": "ce:BIASC1",
+      "bloque": "bc:BIAS01BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CPSAA4",
+        "CC1"
+      ],
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BIAS01CE1.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BIAS01CE1.3",
+      "prefLabel": "BIAS01CE1.3 · Conocer y aplicar las coordenadas celestes (ascensión recta y declinación) para localizar…",
+      "definition": "Conocer y aplicar las coordenadas celestes (ascensión recta y declinación) para localizar objetos en el cielo.",
+      "broader": "ce:BIASC1",
+      "bloque": "bc:BIAS01BC1",
+      "descriptores": [
+        "STEM2",
+        "CD3"
+      ],
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BIAS01CE1.4",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BIAS01CE1.4",
+      "prefLabel": "BIAS01CE1.4 · Analizar y valorar la contribución de Canarias como referente mundial en el conocimiento…",
+      "definition": "Analizar y valorar la contribución de Canarias como referente mundial en el conocimiento del Universo.",
+      "broader": "ce:BIASC1",
+      "bloque": "bc:BIAS01BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM2",
+        "STEM4"
+      ],
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BIAS01CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BIAS01CE2.1",
+      "prefLabel": "BIAS01CE2.1 · Describir la composición y organización del Universo para tomar conciencia del hecho de…",
+      "definition": "Describir la composición y organización del Universo para tomar conciencia del hecho de que observar el cielo significa mirar al pasado.",
+      "broader": "ce:BIASC2",
+      "bloque": "bc:BIAS01BC2",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CPSAA4"
+      ],
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BIAS01CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BIAS01CE2.2",
+      "prefLabel": "BIAS01CE2.2 · Reconocer la hipótesis del Big Bang y destacar el alejamiento de las galaxias como un…",
+      "definition": "Reconocer la hipótesis del Big Bang y destacar el alejamiento de las galaxias como un descubrimiento de vital importancia para el desarrollo de las actuales teorías cosmológicas.",
+      "broader": "ce:BIASC2",
+      "bloque": "bc:BIAS01BC2",
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "STEM2",
+        "STEM4",
+        "CPSAA4"
+      ],
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BIAS01CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BIAS01CE3.1",
+      "prefLabel": "BIAS01CE3.1 · Consultar, elaborar e intercambiar materiales científicos y divulgativos, utilizando…",
+      "definition": "Consultar, elaborar e intercambiar materiales científicos y divulgativos, utilizando diferentes herramientas de búsqueda de información para conocer los distintos astros que componen el Sistema Solar.",
+      "broader": "ce:BIASC3",
+      "bloque": "bc:BIAS01BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CPSAA4",
+        "CE3"
+      ],
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BIAS01CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BIAS01CE3.2",
+      "prefLabel": "BIAS01CE3.2 · Identificar las condiciones necesarias para que se dé la posibilidad de que un cuerpo…",
+      "definition": "Identificar las condiciones necesarias para que se dé la posibilidad de que un cuerpo celeste albergue vida, reconociendo algunos de los principales astros que reúnen estas condiciones.",
+      "broader": "ce:BIASC3",
+      "bloque": "bc:BIAS01BC3",
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "STEM4",
+        "CD1",
+        "CD2"
+      ],
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BIAS01CE3.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BIAS01CE3.3",
+      "prefLabel": "BIAS01CE3.3 · Reconocer y valorar, a partir del uso de fuentes variadas y fiables de información, la…",
+      "definition": "Reconocer y valorar, a partir del uso de fuentes variadas y fiables de información, la contribución de las misiones espaciales en el conocimiento del Universo.",
+      "broader": "ce:BIASC3",
+      "bloque": "bc:BIAS01BC3",
+      "descriptores": [
+        "CCL2",
+        "STEM4",
+        "CD1",
+        "CD2"
+      ],
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BIAS01CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BIAS01CE4.1",
+      "prefLabel": "BIAS01CE4.1 · Reconocer los instrumentos de observación astronómica en todos los rangos del espectro…",
+      "definition": "Reconocer los instrumentos de observación astronómica en todos los rangos del espectro electromagnético, identificando la idoneidad de cada uno en función de los objetos celestes a observar.",
+      "broader": "ce:BIASC4",
+      "bloque": "bc:BIAS01BC4",
+      "descriptores": [
+        "STEM2",
+        "STEM4"
+      ],
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BIAS01CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BIAS01CE4.2",
+      "prefLabel": "BIAS01CE4.2 · Conocer el funcionamiento de los distintos instrumentos ópticos propios de una…",
+      "definition": "Conocer el funcionamiento de los distintos instrumentos ópticos propios de una observación astronómica, a partir del manejo de los mismos, con la finalidad de hacer un uso correcto de ellos.",
+      "broader": "ce:BIASC4",
+      "bloque": "bc:BIAS01BC4",
+      "descriptores": [
+        "STEM2"
+      ],
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BIAS01CE4.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BIAS01CE4.3",
+      "prefLabel": "BIAS01CE4.3 · Valorar la calidad y oscuridad de los cielos canarios para la observación astronómica,…",
+      "definition": "Valorar la calidad y oscuridad de los cielos canarios para la observación astronómica, manifestando interés por su protección y conservación.",
+      "broader": "ce:BIASC4",
+      "bloque": "bc:BIAS01BC4",
+      "descriptores": [
+        "CCL1",
+        "STEM5",
+        "CPSAA2"
+      ],
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BIAS01CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BIAS01CE5.1",
+      "prefLabel": "BIAS01CE5.1 · Conocer el proceso de formación, evolución y clasificación estelar, haciendo uso del…",
+      "definition": "Conocer el proceso de formación, evolución y clasificación estelar, haciendo uso del diagrama de Hertzsprung-Russell, para comprender los estados evolutivos de las estrellas.",
+      "broader": "ce:BIASC5",
+      "bloque": "bc:BIAS01BC5",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "STEM4",
+        "CD1"
+      ],
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BIAS01CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BIAS01CE5.2",
+      "prefLabel": "BIAS01CE5.2 · Distinguir, a partir de análisis comparativos, los diferentes tipos de objetos celestes…",
+      "definition": "Distinguir, a partir de análisis comparativos, los diferentes tipos de objetos celestes para clasificarlos por su morfología y reconocer su organización en galaxias, cúmulos...",
+      "broader": "ce:BIASC5",
+      "bloque": "bc:BIAS01BC5",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "STEM4",
+        "CD2"
+      ],
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "BIAS01SBI",
+      "prefLabel": "BIAS01SBI · I. El Universo. Una visión global",
+      "definition": "El Universo. Una visión global",
+      "broader": "materia:BIAS",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "BIAS01SBII",
+      "prefLabel": "BIAS01SBII · II. Sistema Solar",
+      "definition": "Sistema Solar",
+      "broader": "materia:BIAS",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "BIAS01SBIII",
+      "prefLabel": "BIAS01SBIII · III. Las estrellas",
+      "definition": "Las estrellas",
+      "broader": "materia:BIAS",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "BIAS01SBIV",
+      "prefLabel": "BIAS01SBIV · IV. Las galaxias",
+      "definition": "Las galaxias",
+      "broader": "materia:BIAS",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBV",
+      "tipo": "BloqueSaberes",
+      "notation": "BIAS01SBV",
+      "prefLabel": "BIAS01SBV · V. El Universo en expansión",
+      "definition": "El Universo en expansión",
+      "broader": "materia:BIAS",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBVI",
+      "tipo": "BloqueSaberes",
+      "notation": "BIAS01SBVI",
+      "prefLabel": "BIAS01SBVI · VI. Instrumentos de observación. Observatorios astronómicos modernos",
+      "definition": "Instrumentos de observación. Observatorios astronómicos modernos",
+      "broader": "materia:BIAS",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBI.1",
+      "prefLabel": "BIAS01SBI.1 · Análisis de acontecimientos importantes de la historia de la astronomía para comprender…",
+      "definition": "Análisis de acontecimientos importantes de la historia de la astronomía para comprender su influencia sobre el desarrollo del conocimiento y de la sociedad.",
+      "broader": "sb:BIAS01SBI",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBI.2",
+      "prefLabel": "BIAS01SBI.2 · Análisis y valoración de las contribuciones a la astronomía de distintos personajes a lo…",
+      "definition": "Análisis y valoración de las contribuciones a la astronomía de distintos personajes a lo largo de la historia, haciendo hincapié en las mujeres científicas.",
+      "broader": "sb:BIAS01SBI",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBI.3",
+      "prefLabel": "BIAS01SBI.3 · Conocimiento de los mitos asociados a las constelaciones según la visión de las distintas…",
+      "definition": "Conocimiento de los mitos asociados a las constelaciones según la visión de las distintas civilizaciones.",
+      "broader": "sb:BIAS01SBI",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBI.4",
+      "prefLabel": "BIAS01SBI.4 · Adquisición de estrategias para la localización de constelaciones y orientación en el…",
+      "definition": "Adquisición de estrategias para la localización de constelaciones y orientación en el cielo nocturno.",
+      "broader": "sb:BIAS01SBI",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBI.5",
+      "prefLabel": "BIAS01SBI.5 · Interpretación de una carta estelar y reconocimiento de las principales constelaciones,…",
+      "definition": "Interpretación de una carta estelar y reconocimiento de las principales constelaciones, zodiacales y no zodiacales. Identificación del plano de la eclíptica y ubicación de diferentes objetos de interés astronómico (nebulosas, cúmulos, planetas..).",
+      "broader": "sb:BIAS01SBI",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBI.6",
+      "prefLabel": "BIAS01SBI.6 · Diferenciación del carácter científico de la astronomía y el acientífico de la astrología.",
+      "definition": "Diferenciación del carácter científico de la astronomía y el acientífico de la astrología.",
+      "broader": "sb:BIAS01SBI",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBI.7",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBI.7",
+      "prefLabel": "BIAS01SBI.7 · Análisis y valoración de la contribución de Canarias en el estudio del Universo, así como…",
+      "definition": "Análisis y valoración de la contribución de Canarias en el estudio del Universo, así como de la relevancia de los observatorios canarios.",
+      "broader": "sb:BIAS01SBI",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBI.8",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBI.8",
+      "prefLabel": "BIAS01SBI.8 · Descripción de la composición y organización del Universo (planetas, satélites,…",
+      "definition": "Descripción de la composición y organización del Universo (planetas, satélites, estrellas, galaxias, agujeros negros...), reconociendo la hipótesis de la existencia de la materia oscura como elemento constituyente.",
+      "broader": "sb:BIAS01SBI",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBI.9",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBI.9",
+      "prefLabel": "BIAS01SBI.9 · Análisis de la edad de los diferentes componentes del Universo.",
+      "definition": "Análisis de la edad de los diferentes componentes del Universo.",
+      "broader": "sb:BIAS01SBI",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBI.10",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBI.10",
+      "prefLabel": "BIAS01SBI.10 · Análisis y valoración de la Ley del Cielo de Canarias.",
+      "definition": "Análisis y valoración de la Ley del Cielo de Canarias.",
+      "broader": "sb:BIAS01SBI",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBI.11",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBI.11",
+      "prefLabel": "BIAS01SBI.11 · Estudio de las escalas y medidas en el Universo: distancias, masas y tamaños. Comparación…",
+      "definition": "Estudio de las escalas y medidas en el Universo: distancias, masas y tamaños. Comparación de la magnitud del planeta Tierra frente a otros objetos del Universo y a la inmensidad del Cosmos.",
+      "broader": "sb:BIAS01SBI",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBI.12",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBI.12",
+      "prefLabel": "BIAS01SBI.12 · Reconocimiento de algunos efectos que evidencian la teoría de la relatividad: precesión…",
+      "definition": "Reconocimiento de algunos efectos que evidencian la teoría de la relatividad: precesión del perihelio de Mercurio...",
+      "broader": "sb:BIAS01SBI",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBII.1",
+      "prefLabel": "BIAS01SBII.1 · Análisis e interpretación del origen y la evolución del Sistema Solar.",
+      "definition": "Análisis e interpretación del origen y la evolución del Sistema Solar.",
+      "broader": "sb:BIAS01SBII",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBII.2",
+      "prefLabel": "BIAS01SBII.2 · Caracterización del Sistema Solar y de su situación en la Vía Láctea, analizando los…",
+      "definition": "Caracterización del Sistema Solar y de su situación en la Vía Láctea, analizando los principales parámetros que lo caracterizan.",
+      "broader": "sb:BIAS01SBII",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBII.3",
+      "prefLabel": "BIAS01SBII.3 · Descripción de la formación y características del Sol, valorando su relevancia como…",
+      "definition": "Descripción de la formación y características del Sol, valorando su relevancia como fuente de energía primaria y reconociendo su influencia sobre las telecomunicaciones y el clima en la Tierra.",
+      "broader": "sb:BIAS01SBII",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBII.4",
+      "prefLabel": "BIAS01SBII.4 · Análisis de la estructura, la composición y los movimientos de los planetas y satélites…",
+      "definition": "Análisis de la estructura, la composición y los movimientos de los planetas y satélites más relevantes del Sistema Solar.",
+      "broader": "sb:BIAS01SBII",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBII.5",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBII.5",
+      "prefLabel": "BIAS01SBII.5 · Análisis de los efectos de un hipotético cambio en la inclinación del eje terrestre sobre…",
+      "definition": "Análisis de los efectos de un hipotético cambio en la inclinación del eje terrestre sobre la climatología mundial y la sucesión de las estaciones.",
+      "broader": "sb:BIAS01SBII",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBII.6",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBII.6",
+      "prefLabel": "BIAS01SBII.6 · Estudio de las posiciones relativas del sistema Sol-Tierra-Luna y sus consecuencias:…",
+      "definition": "Estudio de las posiciones relativas del sistema Sol-Tierra-Luna y sus consecuencias: eclipses, mareas…",
+      "broader": "sb:BIAS01SBII",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBII.7",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBII.7",
+      "prefLabel": "BIAS01SBII.7 · Análisis de las condiciones necesarias para que un cuerpo celeste albergue vida.…",
+      "definition": "Análisis de las condiciones necesarias para que un cuerpo celeste albergue vida. Discusión de la ecuación de Drake y valoración de la contribución de los programas científicos de búsqueda extraterrestre (SETI).",
+      "broader": "sb:BIAS01SBII",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBII.8",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBII.8",
+      "prefLabel": "BIAS01SBII.8 · Evaluación de la incidencia que un agente catastrófico de grandes proporciones (la caída…",
+      "definition": "Evaluación de la incidencia que un agente catastrófico de grandes proporciones (la caída de un gran meteorito…) tendría sobre el equilibrio del ecosistema terrestre.",
+      "broader": "sb:BIAS01SBII",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBII.9",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBII.9",
+      "prefLabel": "BIAS01SBII.9 · Estudio de otros componentes del Sistema Solar: meteoros, meteoritos, asteroides, bólidos…",
+      "definition": "Estudio de otros componentes del Sistema Solar: meteoros, meteoritos, asteroides, bólidos y cometas, la nube de Oort...",
+      "broader": "sb:BIAS01SBII",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBII.10",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBII.10",
+      "prefLabel": "BIAS01SBII.10 · Análisis crítico de la contribución de las misiones espaciales en el conocimiento del…",
+      "definition": "Análisis crítico de la contribución de las misiones espaciales en el conocimiento del Universo, haciendo referencia a la problemática actual de la «basura espacial».",
+      "broader": "sb:BIAS01SBII",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBIII.1",
+      "prefLabel": "BIAS01SBIII.1 · Identificación de la relación entre brillo y magnitud de una estrella.",
+      "definition": "Identificación de la relación entre brillo y magnitud de una estrella.",
+      "broader": "sb:BIAS01SBIII",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBIII.2",
+      "prefLabel": "BIAS01SBIII.2 · Análisis del proceso de formación y evolución estelar e interpretación del diagrama de…",
+      "definition": "Análisis del proceso de formación y evolución estelar e interpretación del diagrama de Hertzsprung-Russell (H-R), diferenciando las estrellas que se encuentran en la secuencia principal de aquellas que no lo están.",
+      "broader": "sb:BIAS01SBIII",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBIII.3",
+      "prefLabel": "BIAS01SBIII.3 · Valoración de la importancia del estudio de los espectros de emisión y absorción estelar…",
+      "definition": "Valoración de la importancia del estudio de los espectros de emisión y absorción estelar para el conocimiento del Universo.",
+      "broader": "sb:BIAS01SBIII",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBIII.4",
+      "prefLabel": "BIAS01SBIII.4 · Análisis y comparación de la luminosidad y el color de varias estrellas, estimando sus…",
+      "definition": "Análisis y comparación de la luminosidad y el color de varias estrellas, estimando sus magnitudes y usando como patrón la magnitud de otras conocidas.",
+      "broader": "sb:BIAS01SBIII",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBIII.5",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBIII.5",
+      "prefLabel": "BIAS01SBIII.5 · Estudio del cambio de brillo de estrellas variables, averiguando las posibles causas de…",
+      "definition": "Estudio del cambio de brillo de estrellas variables, averiguando las posibles causas de esos cambios mediante una observación sistematizada. Manejo de programas informáticos, para obtener datos de los objetos a observar, cartas estelares...",
+      "broader": "sb:BIAS01SBIII",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBIV.1",
+      "prefLabel": "BIAS01SBIV.1 · Identificación y clasificación de los distintos tipos de galaxias, según su morfología y…",
+      "definition": "Identificación y clasificación de los distintos tipos de galaxias, según su morfología y agrupamiento (Grupo Local).",
+      "broader": "sb:BIAS01SBIV",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBIV.2",
+      "prefLabel": "BIAS01SBIV.2 · Estudio de las características más relevantes de La Vía Láctea y situación del Sistema…",
+      "definition": "Estudio de las características más relevantes de La Vía Láctea y situación del Sistema Solar en la misma.",
+      "broader": "sb:BIAS01SBIV",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBIV.3",
+      "prefLabel": "BIAS01SBIV.3 · Localización y observación de distintos cúmulos globulares y estudio de las…",
+      "definition": "Localización y observación de distintos cúmulos globulares y estudio de las características de los mismos.",
+      "broader": "sb:BIAS01SBIV",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBV.1",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBV.1",
+      "prefLabel": "BIAS01SBV.1 · Estudio del Universo en expansión y desplazamiento al rojo en los espectros de las…",
+      "definition": "Estudio del Universo en expansión y desplazamiento al rojo en los espectros de las galaxias lejanas, como consecuencia de la ley de Hubble-Lemaître.",
+      "broader": "sb:BIAS01SBV",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBV.2",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBV.2",
+      "prefLabel": "BIAS01SBV.2 · Conocimiento del origen del Universo valorando la hipótesis del Big Bang.",
+      "definition": "Conocimiento del origen del Universo valorando la hipótesis del Big Bang.",
+      "broader": "sb:BIAS01SBV",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBV.3",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBV.3",
+      "prefLabel": "BIAS01SBV.3 · Comparación de la visión estática de los primeros modelos del Universo con las evidencias…",
+      "definition": "Comparación de la visión estática de los primeros modelos del Universo con las evidencias de un Universo en expansión.",
+      "broader": "sb:BIAS01SBV",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBV.4",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBV.4",
+      "prefLabel": "BIAS01SBV.4 · Análisis de la composición del Universo, reconociendo la hipótesis de la existencia de la…",
+      "definition": "Análisis de la composición del Universo, reconociendo la hipótesis de la existencia de la materia oscura.",
+      "broader": "sb:BIAS01SBV",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBVI.1",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBVI.1",
+      "prefLabel": "BIAS01SBVI.1 · Reconocimiento de los instrumentos de observación del Universo, telescopios espaciales y…",
+      "definition": "Reconocimiento de los instrumentos de observación del Universo, telescopios espaciales y misiones más relevantes para su conocimiento.",
+      "broader": "sb:BIAS01SBVI",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBVI.2",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBVI.2",
+      "prefLabel": "BIAS01SBVI.2 · Identificación, análisis y comparación de instrumentos ópticos astronómicos y su…",
+      "definition": "Identificación, análisis y comparación de instrumentos ópticos astronómicos y su aplicación en función de los cuerpos celestes a observar.",
+      "broader": "sb:BIAS01SBVI",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBVI.3",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBVI.3",
+      "prefLabel": "BIAS01SBVI.3 · Conocimiento y valoración cualitativa de instrumentos astronómicos no ópticos.",
+      "definition": "Conocimiento y valoración cualitativa de instrumentos astronómicos no ópticos.",
+      "broader": "sb:BIAS01SBVI",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBVI.4",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBVI.4",
+      "prefLabel": "BIAS01SBVI.4 · Proceso de alineación de un telescopio y adquisición de destrezas para su correcto manejo.",
+      "definition": "Proceso de alineación de un telescopio y adquisición de destrezas para su correcto manejo.",
+      "broader": "sb:BIAS01SBVI",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBVI.5",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBVI.5",
+      "prefLabel": "BIAS01SBVI.5 · Utilización de las coordenadas astronómicas ascensión recta (AR) y declinación (DEC) para…",
+      "definition": "Utilización de las coordenadas astronómicas ascensión recta (AR) y declinación (DEC) para localizar objetos celestes.",
+      "broader": "sb:BIAS01SBVI",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBVI.6",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBVI.6",
+      "prefLabel": "BIAS01SBVI.6 · Estimación de las condiciones óptimas para la observación astronómica (ausencia de…",
+      "definition": "Estimación de las condiciones óptimas para la observación astronómica (ausencia de contaminación, transparencia, altura…).",
+      "broader": "sb:BIAS01SBVI",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBVI.7",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBVI.7",
+      "prefLabel": "BIAS01SBVI.7 · Valoración de la astrofotografía y fotografía nocturna como fuente de conocimiento.",
+      "definition": "Valoración de la astrofotografía y fotografía nocturna como fuente de conocimiento.",
+      "broader": "sb:BIAS01SBVI",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BIAS01SBVI.8",
+      "tipo": "SaberBasico",
+      "notation": "BIAS01SBVI.8",
+      "prefLabel": "BIAS01SBVI.8 · Conocimiento de los observatorios modernos y de los grandes telescopios, destacando la…",
+      "definition": "Conocimiento de los observatorios modernos y de los grandes telescopios, destacando la importancia de los observatorios de Canarias.",
+      "broader": "sb:BIAS01SBVI",
+      "materia": "materia:BIAS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# Identificación del corpus y de su base.
+marco: LOMLOE
+ambito: Canarias
+version: 0.1.0
+base:
+  origen: Exportación de ProIDEAC
+  fichero: fuentes/proideac/exportacion-1/curriculo_unificado_ordenado.json
+  fecha_exportacion: null   # PENDIENTE: fecha en que se generó la exportación
+  sha256_original: fa6c88121960bd3c153164912e276aff830c392cd957b4dd9a4d59b1a23737b8
+  nota: >-
+    Copia de la exportación con una única modificación: se sustituyó una clave de
+    bloque de saberes (Primaria, Educación Física, 1.º) que contenía una credencial.
+normas: [decreto-196-2022, decreto-211-2022, decreto-30-2023, decreto-78-2025, decreto-86-2025]

@@ -1,0 +1,3194 @@
+{
+  "materia": "materia:IDE3",
+  "nodos": [
+    {
+      "id": "materia:IDE3",
+      "tipo": "Materia",
+      "notation": "IDE3",
+      "prefLabel": "Descubrimiento y exploración del entorno (Infantil)",
+      "cursos": [
+        "curso:I01",
+        "curso:I02",
+        "curso:I03",
+        "curso:I04",
+        "curso:I05",
+        "curso:I06"
+      ],
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "ce:IDE3C1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "IDE3C1",
+      "prefLabel": "IDE3C1 · Identificar las características de materiales, objetos y colecciones y establecer…",
+      "definition": "Identificar las características de materiales, objetos y colecciones y establecer relaciones entre ellos, mediante la exploración, la manipulación sensorial, el manejo de herramientas sencillas y el desarrollo de destrezas lógico-matemáticas para descubrir y crear una idea cada vez más compleja del mundo.",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "ce:IDE3C2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "IDE3C2",
+      "prefLabel": "IDE3C2 · Desarrollar, de manera progresiva, los procedimientos del método científico y las…",
+      "definition": "Desarrollar, de manera progresiva, los procedimientos del método científico y las destrezas del pensamiento computacional, a través de procesos de observación y manipulación de objetos, para iniciarse en la interpretación del entorno y responder de forma creativa a las situaciones y retos que se plantean.",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "ce:IDE3C3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "IDE3C3",
+      "prefLabel": "IDE3C3 · Reconocer elementos y fenómenos de la naturaleza, mostrando interés por los hábitos que…",
+      "definition": "Reconocer elementos y fenómenos de la naturaleza, mostrando interés por los hábitos que inciden sobre ella, para apreciar la importancia del uso sostenible, el cuidado y la conservación del entorno en la vida de las personas.",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "bc:IDE301BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "IDE301BC1",
+      "prefLabel": "Descubrimiento y exploración del entorno · 1º Infantil de 0 años · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de explorar el entorno y sus elementos manifestando curiosidad e interés. Se constatará que es capaz descubrir e identificar las cualidades y los atributos básicos de los objetos y materiales, a través de la manipulación de los mismos a través de los sentidos (apretar, dejar caer, volcar, encajar, apilar, soplar…), aproximándose a las relaciones de orden, correspondencia, clasificación, agrupación y comparación. Se comprobará, además que establece relaciones entre ellos. Asimismo, se verificará que los niños y las niñas se apropian del espacio, ubicándose en el mismo, tanto en situaciones de reposo como de movimiento, para adquirir las nociones espaciales básicas, a través del juego con el propio cuerpo y con los objetos; y que interioriza nociones temporales básicas a través de los ritmos de las rutinas diarias (cambio y permanencia, continuidad; sucesión y simultaneidad; pasado, presente y futuro…). Todo ello con la finalidad de avanzar en su conocimiento del mundo que le rodea y de ir adquiriendo una imagen progresivamente más compleja del mismo.",
+      "broader": "materia:IDE3",
+      "agrupa": [
+        "ce:IDE3C1"
+      ],
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CPSAA",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "bc:IDE301BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "IDE301BC2",
+      "prefLabel": "Descubrimiento y exploración del entorno · 1º Infantil de 0 años · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de iniciarse en el desarrollo del pensamiento científico a través de la gestión de retos y problemas, con la mediación de la persona adulta, dividiendo las actividades en secuencias sencillas, demostrando interés e iniciativa. Se valorará que sea capaz de perseverar ante dificultades o problemas, aplicando diversas estrategias y escuchando y respetando las de las demás personas. Asimismo, se valorará que realiza procesos de indagación en el entorno mostrando interés curiosidad, imaginación, creatividad y sorpresa; iniciándose en procesos de observación y manipulación de objetos, en situaciones de la vida cotidiana, en especial a través del juego. Se comprobará, además, que sea capaz de establecer relaciones y conexiones entre lo conocido y lo novedoso, en interacciones de calidad con las personas adultas, con iguales y con el entorno. Todo ello con la finalidad de que los niños y las niñas se aproximen a la elaboración de estrategias y técnicas básicas de investigación (observación, experimentación, ensayo-error, realización de preguntas sencillas, planteamiento de ideas o soluciones alternativas…).",
+      "broader": "materia:IDE3",
+      "agrupa": [
+        "ce:IDE3C2"
+      ],
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE",
+        "CPSAA"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "bc:IDE301BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "IDE301BC3",
+      "prefLabel": "Descubrimiento y exploración del entorno · 1º Infantil de 0 años · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de mostrar curiosidad e interés por el mundo natural y de elaborar estrategias para el cuidado del entorno, en especial, del entorno natural canario, iniciándose en el desarrollo de una conciencia de conservación medioambiental. Para ello, deberá demostrar que incorpora, en sus rutinas diarias, hábitos sencillos, guiados por la persona adulta, para el desarrollo sostenible, el cuidado y la conservación del entorno próximo. Se contribuye así a la adquisición de la competencia específica, ya que se comprobará que los niños y las niñas se inician en el descubrimiento y respeto hacia el entorno natural, en especial del patrimonio canario, a través de la experimentación y la observación de los elementos y fenómenos naturales, así como de su repercusión en la vida cotidiana. Además, se valorará el desarrollo de actitudes de cuidado y respeto hacia la naturaleza, los seres vivos y los derechos de los animales, siendo capaces de disfrutar de las actividades al aire libre y en la naturaleza.",
+      "broader": "materia:IDE3",
+      "agrupa": [
+        "ce:IDE3C3"
+      ],
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "bc:IDE302BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "IDE302BC1",
+      "prefLabel": "Descubrimiento y exploración del entorno · 2º Infantil de 1 año · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de explorar el entorno y sus elementos manifestando curiosidad e interés. Se constatará que es capaz descubrir e identificar las cualidades y los atributos básicos de los objetos y materiales, a través de la manipulación de los mismos a través de los sentidos (apretar, dejar caer, volcar, encajar, apilar, soplar…), aproximándose a las relaciones de orden, correspondencia, clasificación, agrupación y comparación. Se comprobará, además que establece relaciones entre ellos. Asimismo, se verificará que los niños y las niñas se apropian del espacio, ubicándose en el mismo, tanto en situaciones de reposo como de movimiento, para adquirir las nociones espaciales básicas, a través del juego con el propio cuerpo y con los objetos; y que interioriza nociones temporales básicas a través de los ritmos de las rutinas diarias (cambio y permanencia, continuidad; sucesión y simultaneidad; pasado, presente y futuro…). Todo ello con la finalidad de avanzar en su conocimiento del mundo que le rodea y de ir adquiriendo una imagen progresivamente más compleja del mismo.",
+      "broader": "materia:IDE3",
+      "agrupa": [
+        "ce:IDE3C1"
+      ],
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CPSAA",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "bc:IDE302BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "IDE302BC2",
+      "prefLabel": "Descubrimiento y exploración del entorno · 2º Infantil de 1 año · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de iniciarse en el desarrollo del pensamiento científico a través de la gestión de retos y problemas, con la mediación de la persona adulta, dividiendo las actividades en secuencias sencillas, demostrando interés e iniciativa. Se valorará que sea capaz de perseverar ante dificultades o problemas, aplicando diversas estrategias y escuchando y respetando las de las demás personas. Asimismo, se valorará que realiza procesos de indagación en el entorno mostrando interés curiosidad, imaginación, creatividad y sorpresa; iniciándose en procesos de observación y manipulación de objetos, en situaciones de la vida cotidiana, en especial a través del juego. Se comprobará, además, que sea capaz de establecer relaciones y conexiones entre lo conocido y lo novedoso, en interacciones de calidad con las personas adultas, con iguales y con el entorno. Todo ello con la finalidad de que los niños y las niñas se aproximen a la elaboración de estrategias y técnicas básicas de investigación (observación, experimentación, ensayo-error, realización de preguntas sencillas, planteamiento de ideas o soluciones alternativas…).",
+      "broader": "materia:IDE3",
+      "agrupa": [
+        "ce:IDE3C2"
+      ],
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE",
+        "CPSAA"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "bc:IDE302BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "IDE302BC3",
+      "prefLabel": "Descubrimiento y exploración del entorno · 2º Infantil de 1 año · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de mostrar curiosidad e interés por el mundo natural y de elaborar estrategias para el cuidado del entorno, en especial, del entorno natural canario, iniciándose en el desarrollo de una conciencia de conservación medioambiental. Para ello, deberá demostrar que incorpora, en sus rutinas diarias, hábitos sencillos, guiados por la persona adulta, para el desarrollo sostenible, el cuidado y la conservación del entorno próximo. Se contribuye así a la adquisición de la competencia específica, ya que se comprobará que los niños y las niñas se inician en el descubrimiento y respeto hacia el entorno natural, en especial del patrimonio canario, a través de la experimentación y la observación de los elementos y fenómenos naturales, así como de su repercusión en la vida cotidiana. Además, se valorará el desarrollo de actitudes de cuidado y respeto hacia la naturaleza, los seres vivos y los derechos de los animales, siendo capaces de disfrutar de las actividades al aire libre y en la naturaleza.",
+      "broader": "materia:IDE3",
+      "agrupa": [
+        "ce:IDE3C3"
+      ],
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "bc:IDE303BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "IDE303BC1",
+      "prefLabel": "Descubrimiento y exploración del entorno · 3º Infantil de 2 años · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de explorar el entorno y sus elementos manifestando curiosidad e interés. Se constatará que es capaz descubrir e identificar las cualidades y los atributos básicos de los objetos y materiales, a través de la manipulación de los mismos a través de los sentidos (apretar, dejar caer, volcar, encajar, apilar, soplar…), aproximándose a las relaciones de orden, correspondencia, clasificación, agrupación y comparación. Se comprobará, además que establece relaciones entre ellos. Asimismo, se verificará que los niños y las niñas se apropian del espacio, ubicándose en el mismo, tanto en situaciones de reposo como de movimiento, para adquirir las nociones espaciales básicas, a través del juego con el propio cuerpo y con los objetos; y que interioriza nociones temporales básicas a través de los ritmos de las rutinas diarias (cambio y permanencia, continuidad; sucesión y simultaneidad; pasado, presente y futuro…). Todo ello con la finalidad de avanzar en su conocimiento del mundo que le rodea y de ir adquiriendo una imagen progresivamente más compleja del mismo.",
+      "broader": "materia:IDE3",
+      "agrupa": [
+        "ce:IDE3C1"
+      ],
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CPSAA",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "bc:IDE303BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "IDE303BC2",
+      "prefLabel": "Descubrimiento y exploración del entorno · 3º Infantil de 2 años · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de iniciarse en el desarrollo del pensamiento científico a través de la gestión de retos y problemas, con la mediación de la persona adulta, dividiendo las actividades en secuencias sencillas, demostrando interés e iniciativa. Se valorará que sea capaz de perseverar ante dificultades o problemas, aplicando diversas estrategias y escuchando y respetando las de las demás personas. Asimismo, se valorará que realiza procesos de indagación en el entorno mostrando interés curiosidad, imaginación, creatividad y sorpresa; iniciándose en procesos de observación y manipulación de objetos, en situaciones de la vida cotidiana, en especial a través del juego. Se comprobará, además, que sea capaz de establecer relaciones y conexiones entre lo conocido y lo novedoso, en interacciones de calidad con las personas adultas, con iguales y con el entorno. Todo ello con la finalidad de que los niños y las niñas se aproximen a la elaboración de estrategias y técnicas básicas de investigación (observación, experimentación, ensayo-error, realización de preguntas sencillas, planteamiento de ideas o soluciones alternativas…).",
+      "broader": "materia:IDE3",
+      "agrupa": [
+        "ce:IDE3C2"
+      ],
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE",
+        "CPSAA"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "bc:IDE303BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "IDE303BC3",
+      "prefLabel": "Descubrimiento y exploración del entorno · 3º Infantil de 2 años · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de mostrar curiosidad e interés por el mundo natural y de elaborar estrategias para el cuidado del entorno, en especial, del entorno natural canario, iniciándose en el desarrollo de una conciencia de conservación medioambiental. Para ello, deberá demostrar que incorpora, en sus rutinas diarias, hábitos sencillos, guiados por la persona adulta, para el desarrollo sostenible, el cuidado y la conservación del entorno próximo. Se contribuye así a la adquisición de la competencia específica, ya que se comprobará que los niños y las niñas se inician en el descubrimiento y respeto hacia el entorno natural, en especial del patrimonio canario, a través de la experimentación y la observación de los elementos y fenómenos naturales, así como de su repercusión en la vida cotidiana. Además, se valorará el desarrollo de actitudes de cuidado y respeto hacia la naturaleza, los seres vivos y los derechos de los animales, siendo capaces de disfrutar de las actividades al aire libre y en la naturaleza.",
+      "broader": "materia:IDE3",
+      "agrupa": [
+        "ce:IDE3C3"
+      ],
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "bc:IDE304BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "IDE304BC1",
+      "prefLabel": "Descubrimiento y exploración del entorno · 4º Infantil de 3 años · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de explorar el entorno y sus elementos manifestando curiosidad e interés. Se constatará que es capaz descubrir e identificar las cualidades y los atributos básicos de los objetos y materiales, a través de la manipulación de los mismos a través de los sentidos (apretar, dejar caer, volcar, encajar, apilar, soplar…), aproximándose a las relaciones de orden, correspondencia, clasificación, agrupación y comparación. Se comprobará, además que establece relaciones entre ellos. Asimismo, se verificará que los niños y las niñas se apropian del espacio, ubicándose en el mismo, tanto en situaciones de reposo como de movimiento, para adquirir las nociones espaciales básicas, a través del juego con el propio cuerpo y con los objetos; y que interioriza nociones temporales básicas a través de los ritmos de las rutinas diarias (cambio y permanencia, continuidad; sucesión y simultaneidad; pasado, presente y futuro…). Todo ello con la finalidad de avanzar en su conocimiento del mundo que le rodea y de ir adquiriendo una imagen progresivamente más compleja del mismo.",
+      "broader": "materia:IDE3",
+      "agrupa": [
+        "ce:IDE3C1"
+      ],
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "bc:IDE304BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "IDE304BC2",
+      "prefLabel": "Descubrimiento y exploración del entorno · 4º Infantil de 3 años · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de iniciarse en el desarrollo del pensamiento científico a través de la gestión de retos y problemas, con la mediación de la persona adulta, dividiendo las actividades en secuencias sencillas, demostrando interés e iniciativa. Se valorará que sea capaz de perseverar ante dificultades o problemas, aplicando diversas estrategias y escuchando y respetando las de las demás personas. Asimismo, se valorará que realiza procesos de indagación en el entorno mostrando interés curiosidad, imaginación, creatividad y sorpresa; iniciándose en procesos de observación y manipulación de objetos, en situaciones de la vida cotidiana, en especial a través del juego. Se comprobará, además, que sea capaz de establecer relaciones y conexiones entre lo conocido y lo novedoso, en interacciones de calidad con las personas adultas, con iguales y con el entorno. Todo ello con la finalidad de que los niños y las niñas se aproximen a la elaboración de estrategias y técnicas básicas de investigación (observación, experimentación, ensayo-error, realización de preguntas sencillas, planteamiento de ideas o soluciones alternativas…).",
+      "broader": "materia:IDE3",
+      "agrupa": [
+        "ce:IDE3C2"
+      ],
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "bc:IDE304BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "IDE304BC3",
+      "prefLabel": "Descubrimiento y exploración del entorno · 4º Infantil de 3 años · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de mostrar curiosidad e interés por el mundo natural y de elaborar estrategias para el cuidado del entorno, en especial, del entorno natural canario, iniciándose en el desarrollo de una conciencia de conservación medioambiental. Para ello, deberá demostrar que incorpora, en sus rutinas diarias, hábitos sencillos, guiados por la persona adulta, para el desarrollo sostenible, el cuidado y la conservación del entorno próximo. Se contribuye así a la adquisición de la competencia específica, ya que se comprobará que los niños y las niñas se inician en el descubrimiento y respeto hacia el entorno natural, en especial del patrimonio canario, a través de la experimentación y la observación de los elementos y fenómenos naturales, así como de su repercusión en la vida cotidiana. Además, se valorará el desarrollo de actitudes de cuidado y respeto hacia la naturaleza, los seres vivos y los derechos de los animales, siendo capaces de disfrutar de las actividades al aire libre y en la naturaleza.",
+      "broader": "materia:IDE3",
+      "agrupa": [
+        "ce:IDE3C3"
+      ],
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "bc:IDE305BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "IDE305BC1",
+      "prefLabel": "Descubrimiento y exploración del entorno · 5º Infantil de 4 años · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de explorar el entorno y sus elementos manifestando curiosidad e interés. Se constatará que es capaz descubrir e identificar las cualidades y los atributos básicos de los objetos y materiales, a través de la manipulación de los mismos a través de los sentidos (apretar, dejar caer, volcar, encajar, apilar, soplar…), aproximándose a las relaciones de orden, correspondencia, clasificación, agrupación y comparación. Se comprobará, además que establece relaciones entre ellos. Asimismo, se verificará que los niños y las niñas se apropian del espacio, ubicándose en el mismo, tanto en situaciones de reposo como de movimiento, para adquirir las nociones espaciales básicas, a través del juego con el propio cuerpo y con los objetos; y que interioriza nociones temporales básicas a través de los ritmos de las rutinas diarias (cambio y permanencia, continuidad; sucesión y simultaneidad; pasado, presente y futuro…). Todo ello con la finalidad de avanzar en su conocimiento del mundo que le rodea y de ir adquiriendo una imagen progresivamente más compleja del mismo.",
+      "broader": "materia:IDE3",
+      "agrupa": [
+        "ce:IDE3C1"
+      ],
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "bc:IDE305BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "IDE305BC2",
+      "prefLabel": "Descubrimiento y exploración del entorno · 5º Infantil de 4 años · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de iniciarse en el desarrollo del pensamiento científico a través de la gestión de retos y problemas, con la mediación de la persona adulta, dividiendo las actividades en secuencias sencillas, demostrando interés e iniciativa. Se valorará que sea capaz de perseverar ante dificultades o problemas, aplicando diversas estrategias y escuchando y respetando las de las demás personas. Asimismo, se valorará que realiza procesos de indagación en el entorno mostrando interés curiosidad, imaginación, creatividad y sorpresa; iniciándose en procesos de observación y manipulación de objetos, en situaciones de la vida cotidiana, en especial a través del juego. Se comprobará, además, que sea capaz de establecer relaciones y conexiones entre lo conocido y lo novedoso, en interacciones de calidad con las personas adultas, con iguales y con el entorno. Todo ello con la finalidad de que los niños y las niñas se aproximen a la elaboración de estrategias y técnicas básicas de investigación (observación, experimentación, ensayo-error, realización de preguntas sencillas, planteamiento de ideas o soluciones alternativas…).",
+      "broader": "materia:IDE3",
+      "agrupa": [
+        "ce:IDE3C2"
+      ],
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "bc:IDE305BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "IDE305BC3",
+      "prefLabel": "Descubrimiento y exploración del entorno · 5º Infantil de 4 años · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de mostrar curiosidad e interés por el mundo natural y de elaborar estrategias para el cuidado del entorno, en especial, del entorno natural canario, iniciándose en el desarrollo de una conciencia de conservación medioambiental. Para ello, deberá demostrar que incorpora, en sus rutinas diarias, hábitos sencillos, guiados por la persona adulta, para el desarrollo sostenible, el cuidado y la conservación del entorno próximo. Se contribuye así a la adquisición de la competencia específica, ya que se comprobará que los niños y las niñas se inician en el descubrimiento y respeto hacia el entorno natural, en especial del patrimonio canario, a través de la experimentación y la observación de los elementos y fenómenos naturales, así como de su repercusión en la vida cotidiana. Además, se valorará el desarrollo de actitudes de cuidado y respeto hacia la naturaleza, los seres vivos y los derechos de los animales, siendo capaces de disfrutar de las actividades al aire libre y en la naturaleza.",
+      "broader": "materia:IDE3",
+      "agrupa": [
+        "ce:IDE3C3"
+      ],
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "bc:IDE306BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "IDE306BC1",
+      "prefLabel": "Descubrimiento y exploración del entorno · 6º Infantil de 5 años · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de explorar el entorno y sus elementos manifestando curiosidad e interés. Se constatará que es capaz descubrir e identificar las cualidades y los atributos básicos de los objetos y materiales, a través de la manipulación de los mismos a través de los sentidos (apretar, dejar caer, volcar, encajar, apilar, soplar…), aproximándose a las relaciones de orden, correspondencia, clasificación, agrupación y comparación. Se comprobará, además que establece relaciones entre ellos. Asimismo, se verificará que los niños y las niñas se apropian del espacio, ubicándose en el mismo, tanto en situaciones de reposo como de movimiento, para adquirir las nociones espaciales básicas, a través del juego con el propio cuerpo y con los objetos; y que interioriza nociones temporales básicas a través de los ritmos de las rutinas diarias (cambio y permanencia, continuidad; sucesión y simultaneidad; pasado, presente y futuro…). Todo ello con la finalidad de avanzar en su conocimiento del mundo que le rodea y de ir adquiriendo una imagen progresivamente más compleja del mismo.",
+      "broader": "materia:IDE3",
+      "agrupa": [
+        "ce:IDE3C1"
+      ],
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "bc:IDE306BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "IDE306BC2",
+      "prefLabel": "Descubrimiento y exploración del entorno · 6º Infantil de 5 años · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de iniciarse en el desarrollo del pensamiento científico a través de la gestión de retos y problemas, con la mediación de la persona adulta, dividiendo las actividades en secuencias sencillas, demostrando interés e iniciativa. Se valorará que sea capaz de perseverar ante dificultades o problemas, aplicando diversas estrategias y escuchando y respetando las de las demás personas. Asimismo, se valorará que realiza procesos de indagación en el entorno mostrando interés curiosidad, imaginación, creatividad y sorpresa; iniciándose en procesos de observación y manipulación de objetos, en situaciones de la vida cotidiana, en especial a través del juego. Se comprobará, además, que sea capaz de establecer relaciones y conexiones entre lo conocido y lo novedoso, en interacciones de calidad con las personas adultas, con iguales y con el entorno. Todo ello con la finalidad de que los niños y las niñas se aproximen a la elaboración de estrategias y técnicas básicas de investigación (observación, experimentación, ensayo-error, realización de preguntas sencillas, planteamiento de ideas o soluciones alternativas…).",
+      "broader": "materia:IDE3",
+      "agrupa": [
+        "ce:IDE3C2"
+      ],
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "bc:IDE306BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "IDE306BC3",
+      "prefLabel": "Descubrimiento y exploración del entorno · 6º Infantil de 5 años · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de mostrar curiosidad e interés por el mundo natural y de elaborar estrategias para el cuidado del entorno, en especial, del entorno natural canario, iniciándose en el desarrollo de una conciencia de conservación medioambiental. Para ello, deberá demostrar que incorpora, en sus rutinas diarias, hábitos sencillos, guiados por la persona adulta, para el desarrollo sostenible, el cuidado y la conservación del entorno próximo. Se contribuye así a la adquisición de la competencia específica, ya que se comprobará que los niños y las niñas se inician en el descubrimiento y respeto hacia el entorno natural, en especial del patrimonio canario, a través de la experimentación y la observación de los elementos y fenómenos naturales, así como de su repercusión en la vida cotidiana. Además, se valorará el desarrollo de actitudes de cuidado y respeto hacia la naturaleza, los seres vivos y los derechos de los animales, siendo capaces de disfrutar de las actividades al aire libre y en la naturaleza.",
+      "broader": "materia:IDE3",
+      "agrupa": [
+        "ce:IDE3C3"
+      ],
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE301CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE301CE1.1",
+      "prefLabel": "IDE301CE1.1 · Explorar y descubrir las cualidades y los atributos básicos de los objetos, los…",
+      "definition": "Explorar y descubrir las cualidades y los atributos básicos de los objetos, los materiales y las colecciones, presentes en el entorno, en situaciones cotidianas del aula y en contextos lúdicos, tanto de manera espontánea como sugerida, estableciendo relaciones entre ellos, explorando y manipulando con curiosidad e interés, con la finalidad de iniciarse en el reconocimiento del mundo que les rodea.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE301BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CPSAA",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE301CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE301CE1.2",
+      "prefLabel": "IDE301CE1.2 · Iniciarse en las relaciones de orden, clasificación y agrupación, y en el uso de…",
+      "definition": "Iniciarse en las relaciones de orden, clasificación y agrupación, y en el uso de cuantificadores básicos, a través de la manipulación de objetos y materiales diversos, con la finalidad de iniciarse en el desarrollo de destrezas lógico-matemáticas básicas.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE301BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CPSAA",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE301CE1.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE301CE1.3",
+      "prefLabel": "IDE301CE1.3 · Aplicar sus conocimientos acerca de las nociones espaciales básicas para ubicarse en los…",
+      "definition": "Aplicar sus conocimientos acerca de las nociones espaciales básicas para ubicarse en los espacios, tanto en reposo como en movimiento, jugando con el propio cuerpo y con los objetos.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE301BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CPSAA",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE301CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE301CE2.1",
+      "prefLabel": "IDE301CE2.1 · Iniciarse en la gestión de retos y problemas con la ayuda de la persona adulta de…",
+      "definition": "Iniciarse en la gestión de retos y problemas con la ayuda de la persona adulta de referencia, mediante su división en secuencias de actividades más sencillas, demostrando interés e iniciativa, para iniciarse en la resolución de desafíos sencillos de la vida cotidiana.",
+      "broader": "ce:IDE3C2",
+      "bloque": "bc:IDE301BC2",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE",
+        "CPSAA"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE301CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE301CE2.2",
+      "prefLabel": "IDE301CE2.2 · Observar y manipular objetos, en situaciones de la vida cotidiana y en interacciones…",
+      "definition": "Observar y manipular objetos, en situaciones de la vida cotidiana y en interacciones lúdicas con las personas adultas, sus iguales y el entorno, con la finalidad de aproximarse a nociones básicas del pensamiento científico y las destrezas del pensamiento computacional, y a la construcción de nuevos conocimientos, relacionando lo conocido con lo novedoso.",
+      "broader": "ce:IDE3C2",
+      "bloque": "bc:IDE301BC2",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE",
+        "CPSAA"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE301CE2.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE301CE2.3",
+      "prefLabel": "IDE301CE2.3 · Iniciarse en la aplicación de algunas técnicas y estrategias de investigación sencillas,…",
+      "definition": "Iniciarse en la aplicación de algunas técnicas y estrategias de investigación sencillas, a través de la observación, comprobación y realización de preguntas, y proponer soluciones y alternativas, con la finalidad de responder de forma creativa a cuestiones, retos o situaciones que se le presentan.",
+      "broader": "ce:IDE3C2",
+      "bloque": "bc:IDE301BC2",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE",
+        "CPSAA"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE301CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE301CE3.1",
+      "prefLabel": "IDE301CE3.1 · Demostrar curiosidad, interés y respeto por la naturaleza y los elementos naturales del…",
+      "definition": "Demostrar curiosidad, interés y respeto por la naturaleza y los elementos naturales del entorno próximo, incorporar hábitos sencillos, guiados por la persona adulta, para su cuidado y conservación, e iniciarse en el respeto a los derechos de los animales que lo habitan, a partir de su participación en actividades al aire libre, con el fin de descubrir y respetar el medio natural, prestándose especial atención al contexto natural canario, y de iniciarse en el desarrollo de hábitos sostenibles.",
+      "broader": "ce:IDE3C3",
+      "bloque": "bc:IDE301BC3",
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE301CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE301CE3.2",
+      "prefLabel": "IDE301CE3.2 · Identificar y nombrar los fenómenos atmosféricos más habituales en su entorno,…",
+      "definition": "Identificar y nombrar los fenómenos atmosféricos más habituales en su entorno, acercándose, a través de la experimentación, a las repercusiones que tienen en la vida cotidiana, con la finalidad incrementar su conocimiento del mundo que le rodea.",
+      "broader": "ce:IDE3C3",
+      "bloque": "bc:IDE301BC3",
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE302CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE302CE1.1",
+      "prefLabel": "IDE302CE1.1 · Explorar y descubrir las cualidades y los atributos básicos de los objetos, los…",
+      "definition": "Explorar y descubrir las cualidades y los atributos básicos de los objetos, los materiales y las colecciones, presentes en el entorno, en situaciones cotidianas del aula y en contextos lúdicos, tanto de manera espontánea como sugerida, estableciendo relaciones entre ellos, explorando y manipulando con curiosidad e interés, con la finalidad de iniciarse en el reconocimiento del mundo que les rodea.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE302BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CPSAA",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE302CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE302CE1.2",
+      "prefLabel": "IDE302CE1.2 · Iniciarse en las relaciones de orden, clasificación y agrupación, y en el uso de…",
+      "definition": "Iniciarse en las relaciones de orden, clasificación y agrupación, y en el uso de cuantificadores básicos, a través de la manipulación de objetos y materiales diversos, con la finalidad de iniciarse en el desarrollo de destrezas lógico-matemáticas básicas.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE302BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CPSAA",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE302CE1.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE302CE1.3",
+      "prefLabel": "IDE302CE1.3 · Aplicar sus conocimientos acerca de las nociones espaciales básicas para ubicarse en los…",
+      "definition": "Aplicar sus conocimientos acerca de las nociones espaciales básicas para ubicarse en los espacios, tanto en reposo como en movimiento, jugando con el propio cuerpo y con los objetos.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE302BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CPSAA",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE302CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE302CE2.1",
+      "prefLabel": "IDE302CE2.1 · Iniciarse en la gestión de retos y problemas con la ayuda de la persona adulta de…",
+      "definition": "Iniciarse en la gestión de retos y problemas con la ayuda de la persona adulta de referencia, mediante su división en secuencias de actividades más sencillas, demostrando interés e iniciativa, para iniciarse en la resolución de desafíos sencillos de la vida cotidiana.",
+      "broader": "ce:IDE3C2",
+      "bloque": "bc:IDE302BC2",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE",
+        "CPSAA"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE302CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE302CE2.2",
+      "prefLabel": "IDE302CE2.2 · Observar y manipular objetos, en situaciones de la vida cotidiana y en interacciones…",
+      "definition": "Observar y manipular objetos, en situaciones de la vida cotidiana y en interacciones lúdicas con las personas adultas, sus iguales y el entorno, con la finalidad de aproximarse a nociones básicas del pensamiento científico y las destrezas del pensamiento computacional, y a la construcción de nuevos conocimientos, relacionando lo conocido con lo novedoso.",
+      "broader": "ce:IDE3C2",
+      "bloque": "bc:IDE302BC2",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE",
+        "CPSAA"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE302CE2.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE302CE2.3",
+      "prefLabel": "IDE302CE2.3 · Iniciarse en la aplicación de algunas técnicas y estrategias de investigación sencillas,…",
+      "definition": "Iniciarse en la aplicación de algunas técnicas y estrategias de investigación sencillas, a través de la observación, comprobación y realización de preguntas, y proponer soluciones y alternativas, con la finalidad de responder de forma creativa a cuestiones, retos o situaciones que se le presentan.",
+      "broader": "ce:IDE3C2",
+      "bloque": "bc:IDE302BC2",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE",
+        "CPSAA"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE302CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE302CE3.1",
+      "prefLabel": "IDE302CE3.1 · Demostrar curiosidad, interés y respeto por la naturaleza y los elementos naturales del…",
+      "definition": "Demostrar curiosidad, interés y respeto por la naturaleza y los elementos naturales del entorno próximo, incorporar hábitos sencillos, guiados por la persona adulta, para su cuidado y conservación, e iniciarse en el respeto a los derechos de los animales que lo habitan, a partir de su participación en actividades al aire libre, con el fin de descubrir y respetar el medio natural, prestándose especial atención al contexto natural canario, y de iniciarse en el desarrollo de hábitos sostenibles.",
+      "broader": "ce:IDE3C3",
+      "bloque": "bc:IDE302BC3",
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE302CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE302CE3.2",
+      "prefLabel": "IDE302CE3.2 · Identificar y nombrar los fenómenos atmosféricos más habituales en su entorno,…",
+      "definition": "Identificar y nombrar los fenómenos atmosféricos más habituales en su entorno, acercándose, a través de la experimentación, a las repercusiones que tienen en la vida cotidiana, con la finalidad incrementar su conocimiento del mundo que le rodea.",
+      "broader": "ce:IDE3C3",
+      "bloque": "bc:IDE302BC3",
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE303CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE303CE1.1",
+      "prefLabel": "IDE303CE1.1 · Explorar y descubrir las cualidades y los atributos básicos de los objetos, los…",
+      "definition": "Explorar y descubrir las cualidades y los atributos básicos de los objetos, los materiales y las colecciones, presentes en el entorno, en situaciones cotidianas del aula y en contextos lúdicos, tanto de manera espontánea como sugerida, estableciendo relaciones entre ellos, explorando y manipulando con curiosidad e interés, con la finalidad de iniciarse en el reconocimiento del mundo que les rodea.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE303BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CPSAA",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE303CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE303CE1.2",
+      "prefLabel": "IDE303CE1.2 · Iniciarse en las relaciones de orden, clasificación y agrupación, y en el uso de…",
+      "definition": "Iniciarse en las relaciones de orden, clasificación y agrupación, y en el uso de cuantificadores básicos, a través de la manipulación de objetos y materiales diversos, con la finalidad de iniciarse en el desarrollo de destrezas lógico-matemáticas básicas.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE303BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CPSAA",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE303CE1.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE303CE1.3",
+      "prefLabel": "IDE303CE1.3 · Aplicar sus conocimientos acerca de las nociones espaciales básicas para ubicarse en los…",
+      "definition": "Aplicar sus conocimientos acerca de las nociones espaciales básicas para ubicarse en los espacios, tanto en reposo como en movimiento, jugando con el propio cuerpo y con los objetos.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE303BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CPSAA",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE303CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE303CE2.1",
+      "prefLabel": "IDE303CE2.1 · Iniciarse en la gestión de retos y problemas con la ayuda de la persona adulta de…",
+      "definition": "Iniciarse en la gestión de retos y problemas con la ayuda de la persona adulta de referencia, mediante su división en secuencias de actividades más sencillas, demostrando interés e iniciativa, para iniciarse en la resolución de desafíos sencillos de la vida cotidiana.",
+      "broader": "ce:IDE3C2",
+      "bloque": "bc:IDE303BC2",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE",
+        "CPSAA"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE303CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE303CE2.2",
+      "prefLabel": "IDE303CE2.2 · Observar y manipular objetos, en situaciones de la vida cotidiana y en interacciones…",
+      "definition": "Observar y manipular objetos, en situaciones de la vida cotidiana y en interacciones lúdicas con las personas adultas, sus iguales y el entorno, con la finalidad de aproximarse a nociones básicas del pensamiento científico y las destrezas del pensamiento computacional, y a la construcción de nuevos conocimientos, relacionando lo conocido con lo novedoso.",
+      "broader": "ce:IDE3C2",
+      "bloque": "bc:IDE303BC2",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE",
+        "CPSAA"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE303CE2.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE303CE2.3",
+      "prefLabel": "IDE303CE2.3 · Iniciarse en la aplicación de algunas técnicas y estrategias de investigación sencillas,…",
+      "definition": "Iniciarse en la aplicación de algunas técnicas y estrategias de investigación sencillas, a través de la observación, comprobación y realización de preguntas, y proponer soluciones y alternativas, con la finalidad de responder de forma creativa a cuestiones, retos o situaciones que se le presentan.",
+      "broader": "ce:IDE3C2",
+      "bloque": "bc:IDE303BC2",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE",
+        "CPSAA"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE303CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE303CE3.1",
+      "prefLabel": "IDE303CE3.1 · Demostrar curiosidad, interés y respeto por la naturaleza y los elementos naturales del…",
+      "definition": "Demostrar curiosidad, interés y respeto por la naturaleza y los elementos naturales del entorno próximo, incorporar hábitos sencillos, guiados por la persona adulta, para su cuidado y conservación, e iniciarse en el respeto a los derechos de los animales que lo habitan, a partir de su participación en actividades al aire libre, con el fin de descubrir y respetar el medio natural, prestándose especial atención al contexto natural canario, y de iniciarse en el desarrollo de hábitos sostenibles.",
+      "broader": "ce:IDE3C3",
+      "bloque": "bc:IDE303BC3",
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE303CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE303CE3.2",
+      "prefLabel": "IDE303CE3.2 · Identificar y nombrar los fenómenos atmosféricos más habituales en su entorno,…",
+      "definition": "Identificar y nombrar los fenómenos atmosféricos más habituales en su entorno, acercándose, a través de la experimentación, a las repercusiones que tienen en la vida cotidiana, con la finalidad incrementar su conocimiento del mundo que le rodea.",
+      "broader": "ce:IDE3C3",
+      "bloque": "bc:IDE303BC3",
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE304CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE304CE1.1",
+      "prefLabel": "IDE304CE1.1 · Identificar y describir las cualidades o los atributos de los materiales, los objetos y…",
+      "definition": "Identificar y describir las cualidades o los atributos de los materiales, los objetos y las colecciones, reconociendo sus semejanzas y diferencias, en situaciones cotidianas del aula y contextos lúdicos, estableciendo relaciones de orden, correspondencia, clasificación y comparación entre ellos, demostrando curiosidad e interés, con la finalidad de descubrir y crear una idea cada vez más compleja del mundo.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE304BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE304CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE304CE1.2",
+      "prefLabel": "IDE304CE1.2 · Emplear los cuantificadores básicos más significativos y construir el concepto de número…",
+      "definition": "Emplear los cuantificadores básicos más significativos y construir el concepto de número y de cantidad, identificando el número cardinal que representa la cantidad y viceversa, y desarrollando la técnica de contar.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE304BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE304CE1.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE304CE1.3",
+      "prefLabel": "IDE304CE1.3 · Identificar las situaciones cotidianas en las que es preciso medir, utilizando el cuerpo…",
+      "definition": "Identificar las situaciones cotidianas en las que es preciso medir, utilizando el cuerpo u otros materiales y herramientas para realizar estimaciones de medida, a través de la manipulación y experimentación con distintos materiales e instrumentos cotidianos, con la finalidad de desarrollar sus habilidades lógico-matemáticas.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE304BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE304CE1.4",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE304CE1.4",
+      "prefLabel": "IDE304CE1.4 · Aplicar sus conocimientos acerca de las nociones espaciales básicas, jugando con el…",
+      "definition": "Aplicar sus conocimientos acerca de las nociones espaciales básicas, jugando con el propio cuerpo y con los objetos, con el fin de ubicarse y orientarse adecuadamente en distintos espacios.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE304BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE304CE1.5",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE304CE1.5",
+      "prefLabel": "IDE304CE1.5 · Organizar su actividad, ordenando y anticipando las secuencias, y utilizando las nociones…",
+      "definition": "Organizar su actividad, ordenando y anticipando las secuencias, y utilizando las nociones temporales básicas, tanto en las rutinas como en relación con sus juegos y experiencias cotidianas, con el fin de avanzar en la comprensión de la organización y sucesión del tiempo.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE304BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE304CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE304CE2.1",
+      "prefLabel": "IDE304CE2.1 · Gestionar situaciones, retos o problemas, y proponer soluciones y alternativas a los…",
+      "definition": "Gestionar situaciones, retos o problemas, y proponer soluciones y alternativas a los mismos, mediante la planificación guiada de secuencias de actividades y la utilización de estrategias cada vez más complejas, demostrando tolerancia a la frustración ante las posibles dificultades, con el fin de iniciarse en el desarrollo del pensamiento divergente y la capacidad creativa en la solución de problemas.",
+      "broader": "ce:IDE3C2",
+      "bloque": "bc:IDE304BC2",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE304CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE304CE2.2",
+      "prefLabel": "IDE304CE2.2 · Utilizar diferentes estrategias y técnicas básicas de investigación, experimentar,…",
+      "definition": "Utilizar diferentes estrategias y técnicas básicas de investigación, experimentar, observar, hacer preguntas, comprobar y plantear hipótesis acerca de posibles resultados, consecuencias, transformaciones y comportamientos de algunos elementos o materiales sencillos, a través de la manipulación y la actuación sobre ellos, en actividades de indagación en el entorno cercano, con el fin de iniciarse en la construcción de nuevos conocimientos, verificando lo que se plantea.",
+      "broader": "ce:IDE3C2",
+      "bloque": "bc:IDE304BC2",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE304CE2.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE304CE2.3",
+      "prefLabel": "IDE304CE2.3 · Participar en diversos proyectos de investigación que se plantean en el contexto de aula,…",
+      "definition": "Participar en diversos proyectos de investigación que se plantean en el contexto de aula, a través de estrategias y dinámicas cooperativas, con la finalidad de compartir y valorar las opiniones propias y ajenas, y para expresar conclusiones personales elaboradas a partir de las mismas.",
+      "broader": "ce:IDE3C2",
+      "bloque": "bc:IDE304BC2",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE304CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE304CE3.1",
+      "prefLabel": "IDE304CE3.1 · Demostrar una actitud de curiosidad, respeto, cuidado y protección hacia el medio…",
+      "definition": "Demostrar una actitud de curiosidad, respeto, cuidado y protección hacia el medio natural y hacia los seres vivos que habitan en él, en actividades de observación directa y continua del ciclo vital de los seres vivos, e iniciarse en el reconocimiento de los recursos naturales y de los beneficios de un desarrollo sostenible, con la finalidad de establecer relaciones entre el medio natural y el social, y de ir elaborando, progresivamente, hábitos de respeto y cuidado del entorno, en especial del contexto natural canario.",
+      "broader": "ce:IDE3C3",
+      "bloque": "bc:IDE304BC3",
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE304CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE304CE3.2",
+      "prefLabel": "IDE304CE3.2 · Observar, manipular y explorar los elementos naturales y experimentar con ellos, con la…",
+      "definition": "Observar, manipular y explorar los elementos naturales y experimentar con ellos, con la finalidad de comprobar sus características y comportamiento, e identificar el impacto positivo o negativo que algunas acciones humanas ejercen sobre el medio natural.",
+      "broader": "ce:IDE3C3",
+      "bloque": "bc:IDE304BC3",
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE304CE3.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE304CE3.3",
+      "prefLabel": "IDE304CE3.3 · Observar, reconocer y nombrar algunos fenómenos naturales, acercándose, a través de la…",
+      "definition": "Observar, reconocer y nombrar algunos fenómenos naturales, acercándose, a través de la experimentación y el juego, a las repercusiones que tienen en la vida cotidiana con la finalidad de ampliar sus conocimientos sobre el mundo que les rodea, sus cambios y transformaciones.",
+      "broader": "ce:IDE3C3",
+      "bloque": "bc:IDE304BC3",
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE304CE3.4",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE304CE3.4",
+      "prefLabel": "IDE304CE3.4 · Identificar rasgos comunes y diferentes entre los seres vivos e inertes, en actividades…",
+      "definition": "Identificar rasgos comunes y diferentes entre los seres vivos e inertes, en actividades de exploración en la naturaleza, reconociendo, entre ellos, las especies más representativas de las islas Canarias, con la finalidad de apreciar la diversidad y riqueza del medio natural.",
+      "broader": "ce:IDE3C3",
+      "bloque": "bc:IDE304BC3",
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE304CE3.5",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE304CE3.5",
+      "prefLabel": "IDE304CE3.5 · Establecer relaciones e identificar elementos del medio natural y social, a partir de la…",
+      "definition": "Establecer relaciones e identificar elementos del medio natural y social, a partir de la observación y la participación en actividades de acercamiento a las manifestaciones de los mismos, con el fin de avanzar en el conocimiento, la valoración y el respeto de los rasgos característicos de Canarias.",
+      "broader": "ce:IDE3C3",
+      "bloque": "bc:IDE304BC3",
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE305CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE305CE1.1",
+      "prefLabel": "IDE305CE1.1 · Identificar y describir las cualidades o los atributos de los materiales, los objetos y…",
+      "definition": "Identificar y describir las cualidades o los atributos de los materiales, los objetos y las colecciones, reconociendo sus semejanzas y diferencias, en situaciones cotidianas del aula y contextos lúdicos, estableciendo relaciones de orden, correspondencia, clasificación y comparación entre ellos, demostrando curiosidad e interés, con la finalidad de descubrir y crear una idea cada vez más compleja del mundo.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE305BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE305CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE305CE1.2",
+      "prefLabel": "IDE305CE1.2 · Emplear los cuantificadores básicos más significativos y construir el concepto de número…",
+      "definition": "Emplear los cuantificadores básicos más significativos y construir el concepto de número y de cantidad, identificando el número cardinal que representa la cantidad y viceversa, y desarrollando la técnica de contar.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE305BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE305CE1.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE305CE1.3",
+      "prefLabel": "IDE305CE1.3 · Identificar las situaciones cotidianas en las que es preciso medir, utilizando el cuerpo…",
+      "definition": "Identificar las situaciones cotidianas en las que es preciso medir, utilizando el cuerpo u otros materiales y herramientas para realizar estimaciones de medida, a través de la manipulación y experimentación con distintos materiales e instrumentos cotidianos, con la finalidad de desarrollar sus habilidades lógico-matemáticas.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE305BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE305CE1.4",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE305CE1.4",
+      "prefLabel": "IDE305CE1.4 · Aplicar sus conocimientos acerca de las nociones espaciales básicas, jugando con el…",
+      "definition": "Aplicar sus conocimientos acerca de las nociones espaciales básicas, jugando con el propio cuerpo y con los objetos, con el fin de ubicarse y orientarse adecuadamente en distintos espacios.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE305BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE305CE1.5",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE305CE1.5",
+      "prefLabel": "IDE305CE1.5 · Organizar su actividad, ordenando y anticipando las secuencias, y utilizando las nociones…",
+      "definition": "Organizar su actividad, ordenando y anticipando las secuencias, y utilizando las nociones temporales básicas, tanto en las rutinas como en relación con sus juegos y experiencias cotidianas, con el fin de avanzar en la comprensión de la organización y sucesión del tiempo.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE305BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE305CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE305CE2.1",
+      "prefLabel": "IDE305CE2.1 · Gestionar situaciones, retos o problemas, y proponer soluciones y alternativas a los…",
+      "definition": "Gestionar situaciones, retos o problemas, y proponer soluciones y alternativas a los mismos, mediante la planificación guiada de secuencias de actividades y la utilización de estrategias cada vez más complejas, demostrando tolerancia a la frustración ante las posibles dificultades, con el fin de iniciarse en el desarrollo del pensamiento divergente y la capacidad creativa en la solución de problemas.",
+      "broader": "ce:IDE3C2",
+      "bloque": "bc:IDE305BC2",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE305CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE305CE2.2",
+      "prefLabel": "IDE305CE2.2 · Utilizar diferentes estrategias y técnicas básicas de investigación, experimentar,…",
+      "definition": "Utilizar diferentes estrategias y técnicas básicas de investigación, experimentar, observar, hacer preguntas, comprobar y plantear hipótesis acerca de posibles resultados, consecuencias, transformaciones y comportamientos de algunos elementos o materiales sencillos, a través de la manipulación y la actuación sobre ellos, en actividades de indagación en el entorno cercano, con el fin de iniciarse en la construcción de nuevos conocimientos, verificando lo que se plantea.",
+      "broader": "ce:IDE3C2",
+      "bloque": "bc:IDE305BC2",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE305CE2.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE305CE2.3",
+      "prefLabel": "IDE305CE2.3 · Participar en diversos proyectos de investigación que se plantean en el contexto de aula,…",
+      "definition": "Participar en diversos proyectos de investigación que se plantean en el contexto de aula, a través de estrategias y dinámicas cooperativas, con la finalidad de compartir y valorar las opiniones propias y ajenas, y para expresar conclusiones personales elaboradas a partir de las mismas.",
+      "broader": "ce:IDE3C2",
+      "bloque": "bc:IDE305BC2",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE305CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE305CE3.1",
+      "prefLabel": "IDE305CE3.1 · Demostrar una actitud de curiosidad, respeto, cuidado y protección hacia el medio…",
+      "definition": "Demostrar una actitud de curiosidad, respeto, cuidado y protección hacia el medio natural y hacia los seres vivos que habitan en él, en actividades de observación directa y continua del ciclo vital de los seres vivos, e iniciarse en el reconocimiento de los recursos naturales y de los beneficios de un desarrollo sostenible, con la finalidad de establecer relaciones entre el medio natural y el social, y de ir elaborando, progresivamente, hábitos de respeto y cuidado del entorno, en especial del contexto natural canario.",
+      "broader": "ce:IDE3C3",
+      "bloque": "bc:IDE305BC3",
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE305CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE305CE3.2",
+      "prefLabel": "IDE305CE3.2 · Observar, manipular y explorar los elementos naturales y experimentar con ellos, con la…",
+      "definition": "Observar, manipular y explorar los elementos naturales y experimentar con ellos, con la finalidad de comprobar sus características y comportamiento, e identificar el impacto positivo o negativo que algunas acciones humanas ejercen sobre el medio natural.",
+      "broader": "ce:IDE3C3",
+      "bloque": "bc:IDE305BC3",
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE305CE3.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE305CE3.3",
+      "prefLabel": "IDE305CE3.3 · Observar, reconocer y nombrar algunos fenómenos naturales, acercándose, a través de la…",
+      "definition": "Observar, reconocer y nombrar algunos fenómenos naturales, acercándose, a través de la experimentación y el juego, a las repercusiones que tienen en la vida cotidiana con la finalidad de ampliar sus conocimientos sobre el mundo que les rodea, sus cambios y transformaciones.",
+      "broader": "ce:IDE3C3",
+      "bloque": "bc:IDE305BC3",
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE305CE3.4",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE305CE3.4",
+      "prefLabel": "IDE305CE3.4 · Identificar rasgos comunes y diferentes entre los seres vivos e inertes, en actividades…",
+      "definition": "Identificar rasgos comunes y diferentes entre los seres vivos e inertes, en actividades de exploración en la naturaleza, reconociendo, entre ellos, las especies más representativas de las islas Canarias, con la finalidad de apreciar la diversidad y riqueza del medio natural.",
+      "broader": "ce:IDE3C3",
+      "bloque": "bc:IDE305BC3",
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE305CE3.5",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE305CE3.5",
+      "prefLabel": "IDE305CE3.5 · Establecer relaciones e identificar elementos del medio natural y social, a partir de la…",
+      "definition": "Establecer relaciones e identificar elementos del medio natural y social, a partir de la observación y la participación en actividades de acercamiento a las manifestaciones de los mismos, con el fin de avanzar en el conocimiento, la valoración y el respeto de los rasgos característicos de Canarias.",
+      "broader": "ce:IDE3C3",
+      "bloque": "bc:IDE305BC3",
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE306CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE306CE1.1",
+      "prefLabel": "IDE306CE1.1 · Identificar y describir las cualidades o los atributos de los materiales, los objetos y…",
+      "definition": "Identificar y describir las cualidades o los atributos de los materiales, los objetos y las colecciones, reconociendo sus semejanzas y diferencias, en situaciones cotidianas del aula y contextos lúdicos, estableciendo relaciones de orden, correspondencia, clasificación y comparación entre ellos, demostrando curiosidad e interés, con la finalidad de descubrir y crear una idea cada vez más compleja del mundo.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE306BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE306CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE306CE1.2",
+      "prefLabel": "IDE306CE1.2 · Emplear los cuantificadores básicos más significativos y construir el concepto de número…",
+      "definition": "Emplear los cuantificadores básicos más significativos y construir el concepto de número y de cantidad, identificando el número cardinal que representa la cantidad y viceversa, y desarrollando la técnica de contar.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE306BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE306CE1.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE306CE1.3",
+      "prefLabel": "IDE306CE1.3 · Identificar las situaciones cotidianas en las que es preciso medir, utilizando el cuerpo…",
+      "definition": "Identificar las situaciones cotidianas en las que es preciso medir, utilizando el cuerpo u otros materiales y herramientas para realizar estimaciones de medida, a través de la manipulación y experimentación con distintos materiales e instrumentos cotidianos, con la finalidad de desarrollar sus habilidades lógico-matemáticas.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE306BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE306CE1.4",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE306CE1.4",
+      "prefLabel": "IDE306CE1.4 · Aplicar sus conocimientos acerca de las nociones espaciales básicas, jugando con el…",
+      "definition": "Aplicar sus conocimientos acerca de las nociones espaciales básicas, jugando con el propio cuerpo y con los objetos, con el fin de ubicarse y orientarse adecuadamente en distintos espacios.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE306BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE306CE1.5",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE306CE1.5",
+      "prefLabel": "IDE306CE1.5 · Organizar su actividad, ordenando y anticipando las secuencias, y utilizando las nociones…",
+      "definition": "Organizar su actividad, ordenando y anticipando las secuencias, y utilizando las nociones temporales básicas, tanto en las rutinas como en relación con sus juegos y experiencias cotidianas, con el fin de avanzar en la comprensión de la organización y sucesión del tiempo.",
+      "broader": "ce:IDE3C1",
+      "bloque": "bc:IDE306BC1",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE306CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE306CE2.1",
+      "prefLabel": "IDE306CE2.1 · Gestionar situaciones, retos o problemas, y proponer soluciones y alternativas a los…",
+      "definition": "Gestionar situaciones, retos o problemas, y proponer soluciones y alternativas a los mismos, mediante la planificación guiada de secuencias de actividades y la utilización de estrategias cada vez más complejas, demostrando tolerancia a la frustración ante las posibles dificultades, con el fin de iniciarse en el desarrollo del pensamiento divergente y la capacidad creativa en la solución de problemas.",
+      "broader": "ce:IDE3C2",
+      "bloque": "bc:IDE306BC2",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE306CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE306CE2.2",
+      "prefLabel": "IDE306CE2.2 · Utilizar diferentes estrategias y técnicas básicas de investigación, experimentar,…",
+      "definition": "Utilizar diferentes estrategias y técnicas básicas de investigación, experimentar, observar, hacer preguntas, comprobar y plantear hipótesis acerca de posibles resultados, consecuencias, transformaciones y comportamientos de algunos elementos o materiales sencillos, a través de la manipulación y la actuación sobre ellos, en actividades de indagación en el entorno cercano, con el fin de iniciarse en la construcción de nuevos conocimientos, verificando lo que se plantea.",
+      "broader": "ce:IDE3C2",
+      "bloque": "bc:IDE306BC2",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE306CE2.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE306CE2.3",
+      "prefLabel": "IDE306CE2.3 · Participar en diversos proyectos de investigación que se plantean en el contexto de aula,…",
+      "definition": "Participar en diversos proyectos de investigación que se plantean en el contexto de aula, a través de estrategias y dinámicas cooperativas, con la finalidad de compartir y valorar las opiniones propias y ajenas, y para expresar conclusiones personales elaboradas a partir de las mismas.",
+      "broader": "ce:IDE3C2",
+      "bloque": "bc:IDE306BC2",
+      "descriptores": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CE"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE306CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE306CE3.1",
+      "prefLabel": "IDE306CE3.1 · Demostrar una actitud de curiosidad, respeto, cuidado y protección hacia el medio…",
+      "definition": "Demostrar una actitud de curiosidad, respeto, cuidado y protección hacia el medio natural y hacia los seres vivos que habitan en él, en actividades de observación directa y continua del ciclo vital de los seres vivos, e iniciarse en el reconocimiento de los recursos naturales y de los beneficios de un desarrollo sostenible, con la finalidad de establecer relaciones entre el medio natural y el social, y de ir elaborando, progresivamente, hábitos de respeto y cuidado del entorno, en especial del contexto natural canario.",
+      "broader": "ce:IDE3C3",
+      "bloque": "bc:IDE306BC3",
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE306CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE306CE3.2",
+      "prefLabel": "IDE306CE3.2 · Observar, manipular y explorar los elementos naturales y experimentar con ellos, con la…",
+      "definition": "Observar, manipular y explorar los elementos naturales y experimentar con ellos, con la finalidad de comprobar sus características y comportamiento, e identificar el impacto positivo o negativo que algunas acciones humanas ejercen sobre el medio natural.",
+      "broader": "ce:IDE3C3",
+      "bloque": "bc:IDE306BC3",
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE306CE3.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE306CE3.3",
+      "prefLabel": "IDE306CE3.3 · Observar, reconocer y nombrar algunos fenómenos naturales, acercándose, a través de la…",
+      "definition": "Observar, reconocer y nombrar algunos fenómenos naturales, acercándose, a través de la experimentación y el juego, a las repercusiones que tienen en la vida cotidiana con la finalidad de ampliar sus conocimientos sobre el mundo que les rodea, sus cambios y transformaciones.",
+      "broader": "ce:IDE3C3",
+      "bloque": "bc:IDE306BC3",
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE306CE3.4",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE306CE3.4",
+      "prefLabel": "IDE306CE3.4 · Identificar rasgos comunes y diferentes entre los seres vivos e inertes, en actividades…",
+      "definition": "Identificar rasgos comunes y diferentes entre los seres vivos e inertes, en actividades de exploración en la naturaleza, reconociendo, entre ellos, las especies más representativas de las islas Canarias, con la finalidad de apreciar la diversidad y riqueza del medio natural.",
+      "broader": "ce:IDE3C3",
+      "bloque": "bc:IDE306BC3",
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "crit:IDE306CE3.5",
+      "tipo": "CriterioEvaluacion",
+      "notation": "IDE306CE3.5",
+      "prefLabel": "IDE306CE3.5 · Establecer relaciones e identificar elementos del medio natural y social, a partir de la…",
+      "definition": "Establecer relaciones e identificar elementos del medio natural y social, a partir de la observación y la participación en actividades de acercamiento a las manifestaciones de los mismos, con el fin de avanzar en el conocimiento, la valoración y el respeto de los rasgos característicos de Canarias.",
+      "broader": "ce:IDE3C3",
+      "bloque": "bc:IDE306BC3",
+      "descriptores": [
+        "STEM",
+        "CPSAA",
+        "CC"
+      ],
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE301SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "IDE301SBI",
+      "prefLabel": "IDE301SBI · I. Diálogo corporal con el entorno. Exploración creativa de objetos, materiales y espacios",
+      "definition": "Diálogo corporal con el entorno. Exploración creativa de objetos, materiales y espacios",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE301SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "IDE301SBII",
+      "prefLabel": "IDE301SBII · II. Experimentación en el entorno. Curiosidad, pensamiento científico, razonamiento lógico y creatividad",
+      "definition": "Experimentación en el entorno. Curiosidad, pensamiento científico, razonamiento lógico y creatividad",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE301SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "IDE301SBIII",
+      "prefLabel": "IDE301SBIII · III. Indagación en el medio físico y natural. Cuidado, valoración y respeto",
+      "definition": "Indagación en el medio físico y natural. Cuidado, valoración y respeto",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE302SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "IDE302SBI",
+      "prefLabel": "IDE302SBI · I. Diálogo corporal con el entorno. Exploración creativa de objetos, materiales y espacios",
+      "definition": "Diálogo corporal con el entorno. Exploración creativa de objetos, materiales y espacios",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE302SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "IDE302SBII",
+      "prefLabel": "IDE302SBII · II. Experimentación en el entorno. Curiosidad, pensamiento científico, razonamiento lógico y creatividad",
+      "definition": "Experimentación en el entorno. Curiosidad, pensamiento científico, razonamiento lógico y creatividad",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE302SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "IDE302SBIII",
+      "prefLabel": "IDE302SBIII · III. Indagación en el medio físico y natural. Cuidado, valoración y respeto",
+      "definition": "Indagación en el medio físico y natural. Cuidado, valoración y respeto",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE303SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "IDE303SBI",
+      "prefLabel": "IDE303SBI · I. Diálogo corporal con el entorno. Exploración creativa de objetos, materiales y espacios",
+      "definition": "Diálogo corporal con el entorno. Exploración creativa de objetos, materiales y espacios",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE303SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "IDE303SBII",
+      "prefLabel": "IDE303SBII · II. Experimentación en el entorno. Curiosidad, pensamiento científico, razonamiento lógico y creatividad",
+      "definition": "Experimentación en el entorno. Curiosidad, pensamiento científico, razonamiento lógico y creatividad",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE303SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "IDE303SBIII",
+      "prefLabel": "IDE303SBIII · III. Indagación en el medio físico y natural. Cuidado, valoración y respeto",
+      "definition": "Indagación en el medio físico y natural. Cuidado, valoración y respeto",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "IDE304SBI",
+      "prefLabel": "IDE304SBI · I. Diálogo corporal con el entorno. exploración creativa de objetos, materiales y espacios",
+      "definition": "Diálogo corporal con el entorno. exploración creativa de objetos, materiales y espacios",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "IDE304SBII",
+      "prefLabel": "IDE304SBII · II. Experimentación en el entorno. curiosidad, pensamiento científico y creatividad",
+      "definition": "Experimentación en el entorno. curiosidad, pensamiento científico y creatividad",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "IDE304SBIII",
+      "prefLabel": "IDE304SBIII · III. Indagación en el medio físico y natural. cuidado, valoración y respeto",
+      "definition": "Indagación en el medio físico y natural. cuidado, valoración y respeto",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "IDE305SBI",
+      "prefLabel": "IDE305SBI · I. Diálogo corporal con el entorno. exploración creativa de objetos, materiales y espacios",
+      "definition": "Diálogo corporal con el entorno. exploración creativa de objetos, materiales y espacios",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "IDE305SBII",
+      "prefLabel": "IDE305SBII · II. Experimentación en el entorno. curiosidad, pensamiento científico y creatividad",
+      "definition": "Experimentación en el entorno. curiosidad, pensamiento científico y creatividad",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "IDE305SBIII",
+      "prefLabel": "IDE305SBIII · III. Indagación en el medio físico y natural. cuidado, valoración y respeto",
+      "definition": "Indagación en el medio físico y natural. cuidado, valoración y respeto",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "IDE306SBI",
+      "prefLabel": "IDE306SBI · I. Diálogo corporal con el entorno. exploración creativa de objetos, materiales y espacios",
+      "definition": "Diálogo corporal con el entorno. exploración creativa de objetos, materiales y espacios",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "IDE306SBII",
+      "prefLabel": "IDE306SBII · II. Experimentación en el entorno. curiosidad, pensamiento científico y creatividad",
+      "definition": "Experimentación en el entorno. curiosidad, pensamiento científico y creatividad",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "IDE306SBIII",
+      "prefLabel": "IDE306SBIII · III. Indagación en el medio físico y natural. cuidado, valoración y respeto",
+      "definition": "Indagación en el medio físico y natural. cuidado, valoración y respeto",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE301SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE301SBI.1",
+      "prefLabel": "IDE301SBI.1 · Manifestación de curiosidad e interés por la exploración del entorno y sus elementos.",
+      "definition": "Manifestación de curiosidad e interés por la exploración del entorno y sus elementos.",
+      "broader": "sb:IDE301SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE301SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE301SBI.2",
+      "prefLabel": "IDE301SBI.2 · Exploración de objetos y materiales a través de los sentidos: apretar, dejar caer,…",
+      "definition": "Exploración de objetos y materiales a través de los sentidos: apretar, dejar caer, volcar, encajar, apilar, soplar… Efectos que producen las diferentes acciones sobre ellos.",
+      "broader": "sb:IDE301SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE301SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "IDE301SBI.3",
+      "prefLabel": "IDE301SBI.3 · Identificación de las cualidades o los atributos de los objetos y materiales en cuanto a…",
+      "definition": "Identificación de las cualidades o los atributos de los objetos y materiales en cuanto a su textura, tamaño, color y forma.",
+      "broader": "sb:IDE301SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE301SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "IDE301SBI.4",
+      "prefLabel": "IDE301SBI.4 · Aproximación a las relaciones de orden, correspondencia, clasificación, agrupación y…",
+      "definition": "Aproximación a las relaciones de orden, correspondencia, clasificación, agrupación y comparación.",
+      "broader": "sb:IDE301SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE301SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "IDE301SBI.5",
+      "prefLabel": "IDE301SBI.5 · Aproximación a las nociones espaciales básicas en relación con el propio cuerpo y los…",
+      "definition": "Aproximación a las nociones espaciales básicas en relación con el propio cuerpo y los objetos.",
+      "broader": "sb:IDE301SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE301SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "IDE301SBI.6",
+      "prefLabel": "IDE301SBI.6 · Interiorización de algunas nociones temporales básicas a través de los ritmos que marcan…",
+      "definition": "Interiorización de algunas nociones temporales básicas a través de los ritmos que marcan las rutinas: cambio y permanencia, continuidad; sucesión y simultaneidad; pasado, presente y futuro.",
+      "broader": "sb:IDE301SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE301SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE301SBII.1",
+      "prefLabel": "IDE301SBII.1 · Indagación en el entorno a través de procesos manipulativos, con interés, curiosidad,…",
+      "definition": "Indagación en el entorno a través de procesos manipulativos, con interés, curiosidad, imaginación, creatividad y sorpresa.",
+      "broader": "sb:IDE301SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE301SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE301SBII.2",
+      "prefLabel": "IDE301SBII.2 · Construcción de nuevos conocimientos: relaciones y conexiones entre lo conocido y lo…",
+      "definition": "Construcción de nuevos conocimientos: relaciones y conexiones entre lo conocido y lo novedoso, en interacciones de calidad con las personas adultas, con iguales y con el entorno.",
+      "broader": "sb:IDE301SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE301SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "IDE301SBII.3",
+      "prefLabel": "IDE301SBII.3 · Acercamiento a la elaboración de estrategias y técnicas básicas de investigación:…",
+      "definition": "Acercamiento a la elaboración de estrategias y técnicas básicas de investigación: observación, experimentación, ensayo-error, realización de preguntas sencillas, planteamiento de ideas o soluciones alternativas…",
+      "broader": "sb:IDE301SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE301SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE301SBIII.1",
+      "prefLabel": "IDE301SBIII.1 · Experimentación con los elementos naturales.",
+      "definition": "Experimentación con los elementos naturales.",
+      "broader": "sb:IDE301SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE301SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE301SBIII.2",
+      "prefLabel": "IDE301SBIII.2 · Disfrute de las actividades al aire libre y en la naturaleza.",
+      "definition": "Disfrute de las actividades al aire libre y en la naturaleza.",
+      "broader": "sb:IDE301SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE301SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "IDE301SBIII.3",
+      "prefLabel": "IDE301SBIII.3 · Cuidado y respeto hacia la naturaleza, los seres vivos y los derechos de los animales.",
+      "definition": "Cuidado y respeto hacia la naturaleza, los seres vivos y los derechos de los animales.",
+      "broader": "sb:IDE301SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE301SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "IDE301SBIII.4",
+      "prefLabel": "IDE301SBIII.4 · Descubrimiento y respeto hacia el patrimonio natural canario.",
+      "definition": "Descubrimiento y respeto hacia el patrimonio natural canario.",
+      "broader": "sb:IDE301SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE301SBIII.5",
+      "tipo": "SaberBasico",
+      "notation": "IDE301SBIII.5",
+      "prefLabel": "IDE301SBIII.5 · Observación y descubrimiento de los fenómenos naturales habituales: repercusión en la…",
+      "definition": "Observación y descubrimiento de los fenómenos naturales habituales: repercusión en la vida cotidiana.",
+      "broader": "sb:IDE301SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE302SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE302SBI.1",
+      "prefLabel": "IDE302SBI.1 · Manifestación de curiosidad e interés por la exploración del entorno y sus elementos.",
+      "definition": "Manifestación de curiosidad e interés por la exploración del entorno y sus elementos.",
+      "broader": "sb:IDE302SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE302SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE302SBI.2",
+      "prefLabel": "IDE302SBI.2 · Exploración de objetos y materiales a través de los sentidos: apretar, dejar caer,…",
+      "definition": "Exploración de objetos y materiales a través de los sentidos: apretar, dejar caer, volcar, encajar, apilar, soplar… Efectos que producen las diferentes acciones sobre ellos.",
+      "broader": "sb:IDE302SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE302SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "IDE302SBI.3",
+      "prefLabel": "IDE302SBI.3 · Identificación de las cualidades o los atributos de los objetos y materiales en cuanto a…",
+      "definition": "Identificación de las cualidades o los atributos de los objetos y materiales en cuanto a su textura, tamaño, color y forma.",
+      "broader": "sb:IDE302SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE302SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "IDE302SBI.4",
+      "prefLabel": "IDE302SBI.4 · Aproximación a las relaciones de orden, correspondencia, clasificación, agrupación y…",
+      "definition": "Aproximación a las relaciones de orden, correspondencia, clasificación, agrupación y comparación.",
+      "broader": "sb:IDE302SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE302SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "IDE302SBI.5",
+      "prefLabel": "IDE302SBI.5 · Aproximación a las nociones espaciales básicas en relación con el propio cuerpo y los…",
+      "definition": "Aproximación a las nociones espaciales básicas en relación con el propio cuerpo y los objetos.",
+      "broader": "sb:IDE302SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE302SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "IDE302SBI.6",
+      "prefLabel": "IDE302SBI.6 · Interiorización de algunas nociones temporales básicas a través de los ritmos que marcan…",
+      "definition": "Interiorización de algunas nociones temporales básicas a través de los ritmos que marcan las rutinas: cambio y permanencia, continuidad; sucesión y simultaneidad; pasado, presente y futuro.",
+      "broader": "sb:IDE302SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE302SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE302SBII.1",
+      "prefLabel": "IDE302SBII.1 · Indagación en el entorno a través de procesos manipulativos, con interés, curiosidad,…",
+      "definition": "Indagación en el entorno a través de procesos manipulativos, con interés, curiosidad, imaginación, creatividad y sorpresa.",
+      "broader": "sb:IDE302SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE302SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE302SBII.2",
+      "prefLabel": "IDE302SBII.2 · Construcción de nuevos conocimientos: relaciones y conexiones entre lo conocido y lo…",
+      "definition": "Construcción de nuevos conocimientos: relaciones y conexiones entre lo conocido y lo novedoso, en interacciones de calidad con las personas adultas, con iguales y con el entorno.",
+      "broader": "sb:IDE302SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE302SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "IDE302SBII.3",
+      "prefLabel": "IDE302SBII.3 · Acercamiento a la elaboración de estrategias y técnicas básicas de investigación:…",
+      "definition": "Acercamiento a la elaboración de estrategias y técnicas básicas de investigación: observación, experimentación, ensayo-error, realización de preguntas sencillas, planteamiento de ideas o soluciones alternativas…",
+      "broader": "sb:IDE302SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE302SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE302SBIII.1",
+      "prefLabel": "IDE302SBIII.1 · Experimentación con los elementos naturales.",
+      "definition": "Experimentación con los elementos naturales.",
+      "broader": "sb:IDE302SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE302SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE302SBIII.2",
+      "prefLabel": "IDE302SBIII.2 · Disfrute de las actividades al aire libre y en la naturaleza.",
+      "definition": "Disfrute de las actividades al aire libre y en la naturaleza.",
+      "broader": "sb:IDE302SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE302SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "IDE302SBIII.3",
+      "prefLabel": "IDE302SBIII.3 · Cuidado y respeto hacia la naturaleza, los seres vivos y los derechos de los animales.",
+      "definition": "Cuidado y respeto hacia la naturaleza, los seres vivos y los derechos de los animales.",
+      "broader": "sb:IDE302SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE302SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "IDE302SBIII.4",
+      "prefLabel": "IDE302SBIII.4 · Descubrimiento y respeto hacia el patrimonio natural canario.",
+      "definition": "Descubrimiento y respeto hacia el patrimonio natural canario.",
+      "broader": "sb:IDE302SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE302SBIII.5",
+      "tipo": "SaberBasico",
+      "notation": "IDE302SBIII.5",
+      "prefLabel": "IDE302SBIII.5 · Observación y descubrimiento de los fenómenos naturales habituales: repercusión en la…",
+      "definition": "Observación y descubrimiento de los fenómenos naturales habituales: repercusión en la vida cotidiana.",
+      "broader": "sb:IDE302SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE303SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE303SBI.1",
+      "prefLabel": "IDE303SBI.1 · Manifestación de curiosidad e interés por la exploración del entorno y sus elementos.",
+      "definition": "Manifestación de curiosidad e interés por la exploración del entorno y sus elementos.",
+      "broader": "sb:IDE303SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE303SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE303SBI.2",
+      "prefLabel": "IDE303SBI.2 · Exploración de objetos y materiales a través de los sentidos: apretar, dejar caer,…",
+      "definition": "Exploración de objetos y materiales a través de los sentidos: apretar, dejar caer, volcar, encajar, apilar, soplar… Efectos que producen las diferentes acciones sobre ellos.",
+      "broader": "sb:IDE303SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE303SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "IDE303SBI.3",
+      "prefLabel": "IDE303SBI.3 · Identificación de las cualidades o los atributos de los objetos y materiales en cuanto a…",
+      "definition": "Identificación de las cualidades o los atributos de los objetos y materiales en cuanto a su textura, tamaño, color y forma.",
+      "broader": "sb:IDE303SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE303SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "IDE303SBI.4",
+      "prefLabel": "IDE303SBI.4 · Aproximación a las relaciones de orden, correspondencia, clasificación, agrupación y…",
+      "definition": "Aproximación a las relaciones de orden, correspondencia, clasificación, agrupación y comparación.",
+      "broader": "sb:IDE303SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE303SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "IDE303SBI.5",
+      "prefLabel": "IDE303SBI.5 · Aproximación a las nociones espaciales básicas en relación con el propio cuerpo y los…",
+      "definition": "Aproximación a las nociones espaciales básicas en relación con el propio cuerpo y los objetos.",
+      "broader": "sb:IDE303SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE303SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "IDE303SBI.6",
+      "prefLabel": "IDE303SBI.6 · Interiorización de algunas nociones temporales básicas a través de los ritmos que marcan…",
+      "definition": "Interiorización de algunas nociones temporales básicas a través de los ritmos que marcan las rutinas: cambio y permanencia, continuidad; sucesión y simultaneidad; pasado, presente y futuro.",
+      "broader": "sb:IDE303SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE303SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE303SBII.1",
+      "prefLabel": "IDE303SBII.1 · Indagación en el entorno a través de procesos manipulativos, con interés, curiosidad,…",
+      "definition": "Indagación en el entorno a través de procesos manipulativos, con interés, curiosidad, imaginación, creatividad y sorpresa.",
+      "broader": "sb:IDE303SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE303SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE303SBII.2",
+      "prefLabel": "IDE303SBII.2 · Construcción de nuevos conocimientos: relaciones y conexiones entre lo conocido y lo…",
+      "definition": "Construcción de nuevos conocimientos: relaciones y conexiones entre lo conocido y lo novedoso, en interacciones de calidad con las personas adultas, con iguales y con el entorno.",
+      "broader": "sb:IDE303SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE303SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "IDE303SBII.3",
+      "prefLabel": "IDE303SBII.3 · Acercamiento a la elaboración de estrategias y técnicas básicas de investigación:…",
+      "definition": "Acercamiento a la elaboración de estrategias y técnicas básicas de investigación: observación, experimentación, ensayo-error, realización de preguntas sencillas, planteamiento de ideas o soluciones alternativas…",
+      "broader": "sb:IDE303SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE303SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE303SBIII.1",
+      "prefLabel": "IDE303SBIII.1 · Experimentación con los elementos naturales.",
+      "definition": "Experimentación con los elementos naturales.",
+      "broader": "sb:IDE303SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE303SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE303SBIII.2",
+      "prefLabel": "IDE303SBIII.2 · Disfrute de las actividades al aire libre y en la naturaleza.",
+      "definition": "Disfrute de las actividades al aire libre y en la naturaleza.",
+      "broader": "sb:IDE303SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE303SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "IDE303SBIII.3",
+      "prefLabel": "IDE303SBIII.3 · Cuidado y respeto hacia la naturaleza, los seres vivos y los derechos de los animales.",
+      "definition": "Cuidado y respeto hacia la naturaleza, los seres vivos y los derechos de los animales.",
+      "broader": "sb:IDE303SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE303SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "IDE303SBIII.4",
+      "prefLabel": "IDE303SBIII.4 · Descubrimiento y respeto hacia el patrimonio natural canario.",
+      "definition": "Descubrimiento y respeto hacia el patrimonio natural canario.",
+      "broader": "sb:IDE303SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE303SBIII.5",
+      "tipo": "SaberBasico",
+      "notation": "IDE303SBIII.5",
+      "prefLabel": "IDE303SBIII.5 · Observación y descubrimiento de los fenómenos naturales habituales: repercusión en la…",
+      "definition": "Observación y descubrimiento de los fenómenos naturales habituales: repercusión en la vida cotidiana.",
+      "broader": "sb:IDE303SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBI.1",
+      "prefLabel": "IDE304SBI.1 · Conocimiento y relación de las cualidades o los atributos de los objetos y materiales.…",
+      "definition": "Conocimiento y relación de las cualidades o los atributos de los objetos y materiales. Relaciones de orden, correspondencia, clasificación y comparación",
+      "broader": "sb:IDE304SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBI.1.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBI.1.1",
+      "prefLabel": "IDE304SBI.1.1 · Forma, tamaño, color.",
+      "definition": "Forma, tamaño, color.",
+      "broader": "sb:IDE304SBI.1",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBI.1.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBI.1.2",
+      "prefLabel": "IDE304SBI.1.2 · Clasificaciones, seriaciones, condicionales.",
+      "definition": "Clasificaciones, seriaciones, condicionales.",
+      "broader": "sb:IDE304SBI.1",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBI.2",
+      "prefLabel": "IDE304SBI.2 · Aplicación contextualizada de cuantificadores básicos: todos, algunos, no todos, ninguno,…",
+      "definition": "Aplicación contextualizada de cuantificadores básicos: todos, algunos, no todos, ninguno, uno y solo uno, al menos uno…",
+      "broader": "sb:IDE304SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBI.3",
+      "prefLabel": "IDE304SBI.3 · Uso funcional de los números en la vida cotidiana. Utilización de la serie numérica para…",
+      "definition": "Uso funcional de los números en la vida cotidiana. Utilización de la serie numérica para contar objetos.",
+      "broader": "sb:IDE304SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBI.4",
+      "prefLabel": "IDE304SBI.4 · Aplicación del número ordinal en pequeñas colecciones ordenadas.",
+      "definition": "Aplicación del número ordinal en pequeñas colecciones ordenadas.",
+      "broader": "sb:IDE304SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBI.5",
+      "prefLabel": "IDE304SBI.5 · Uso de los números y las operaciones (unir, quitar, separar, repartir…), en los juegos y…",
+      "definition": "Uso de los números y las operaciones (unir, quitar, separar, repartir…), en los juegos y las situaciones de la vida cotidiana.",
+      "broader": "sb:IDE304SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBI.6",
+      "prefLabel": "IDE304SBI.6 · Iniciación a la resolución de problemas sencillos a través de: clasificación de la…",
+      "definition": "Iniciación a la resolución de problemas sencillos a través de:  clasificación de la información, uso de diferentes estrategias (ensayo y error, modelización), y comprobación de las soluciones obtenidas.",
+      "broader": "sb:IDE304SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBI.7",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBI.7",
+      "prefLabel": "IDE304SBI.7 · Utilización de nociones espaciales básicas.",
+      "definition": "Utilización de nociones espaciales básicas.",
+      "broader": "sb:IDE304SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBI.8",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBI.8",
+      "prefLabel": "IDE304SBI.8 · Orientación del propio cuerpo en relación con un objeto y de objetos entre sí (entre,…",
+      "definition": "Orientación del propio cuerpo en relación con un objeto y de objetos entre sí (entre, detrás de-delante de, debajo de-encima de, arriba-abajo, izquierda-derecha, dentro-fuera, cerca-lejos).",
+      "broader": "sb:IDE304SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBI.9",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBI.9",
+      "prefLabel": "IDE304SBI.9 · Identificación de formas geométricas básicas: triángulo, círculo, cuadrado, rectángulo,…",
+      "definition": "Identificación de formas geométricas básicas: triángulo, círculo, cuadrado, rectángulo, cubo y esfera. Línea recta, línea curva, dirección y sentido.",
+      "broader": "sb:IDE304SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBI.10",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBI.10",
+      "prefLabel": "IDE304SBI.10 · Identificación de situaciones en las que es preciso medir para resolver problemas…",
+      "definition": "Identificación de situaciones en las que es preciso medir para resolver problemas sencillos: más/menos…que, igual…que, con los conceptos: lleno-vacío, pesado-ligero, largo-corto, ancho-estrecho, grande-pequeño, alto-bajo….",
+      "broader": "sb:IDE304SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBI.11",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBI.11",
+      "prefLabel": "IDE304SBI.11 · Utilización de nociones temporales básicas: cambio y permanencia, continuidad, sucesión y…",
+      "definition": "Utilización de nociones temporales básicas: cambio y permanencia, continuidad, sucesión y simultaneidad; pasado, presente y futuro, períodos de tiempo (antes-ahora-después, secuencia temporal, día y noche, estaciones, ciclos, calendario…).",
+      "broader": "sb:IDE304SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBII.1",
+      "prefLabel": "IDE304SBII.1 · Descubrimiento de pautas para la indagación del entorno: interés, respeto, curiosidad,…",
+      "definition": "Descubrimiento de pautas para la indagación del entorno: interés, respeto, curiosidad, asombro, cuestionamiento y deseos de conocimiento.",
+      "broader": "sb:IDE304SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBII.2",
+      "prefLabel": "IDE304SBII.2 · Exploración y experimentación de diversos contextos y problemas en los que se obtengan…",
+      "definition": "Exploración y experimentación de diversos contextos y problemas en los que se obtengan diferentes soluciones.",
+      "broader": "sb:IDE304SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBII.3",
+      "prefLabel": "IDE304SBII.3 · Iniciación en el uso de estrategias de construcción de nuevos conocimientos: relaciones y…",
+      "definition": "Iniciación en el uso de estrategias de construcción de nuevos conocimientos: relaciones y conexiones entre lo conocido y lo novedoso, y entre experiencias previas y nuevas; andamiaje e interacciones de calidad con las personas adultas, con iguales y con el entorno.",
+      "broader": "sb:IDE304SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBII.4",
+      "prefLabel": "IDE304SBII.4 · Elaboración de estrategias y utilización de técnicas de investigación: ensayo- error,…",
+      "definition": "Elaboración de estrategias y utilización de técnicas de investigación: ensayo- error, observación, experimentación, formulación y comprobación de hipótesis, realización de preguntas, manejo y búsqueda en distintas fuentes de información.",
+      "broader": "sb:IDE304SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBII.5",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBII.5",
+      "prefLabel": "IDE304SBII.5 · Iniciación al desarrollo del pensamiento científico y las destrezas de pensamiento…",
+      "definition": "Iniciación al desarrollo del pensamiento científico y las destrezas de pensamiento computacional.",
+      "broader": "sb:IDE304SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBII.6",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBII.6",
+      "prefLabel": "IDE304SBII.6 · Iniciativa en la búsqueda de acuerdos o consensos en la toma de decisiones durante la…",
+      "definition": "Iniciativa en la búsqueda de acuerdos o consensos en la toma de decisiones durante la planificación y organización de tareas.",
+      "broader": "sb:IDE304SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBII.7",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBII.7",
+      "prefLabel": "IDE304SBII.7 · Utilización de diversas estrategias para proponer soluciones: creatividad, diálogo,…",
+      "definition": "Utilización de diversas estrategias para proponer soluciones: creatividad, diálogo, imaginación y descubrimiento.",
+      "broader": "sb:IDE304SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBII.8",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBII.8",
+      "prefLabel": "IDE304SBII.8 · Identificación de procesos y resultados. Constatación y elaboración de hallazgos,…",
+      "definition": "Identificación de procesos y resultados. Constatación y elaboración de hallazgos, verificaciones y conclusiones.",
+      "broader": "sb:IDE304SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBIII.1",
+      "prefLabel": "IDE304SBIII.1 · Respeto, estima y protección hacia el medio natural canario.",
+      "definition": "Respeto, estima y protección hacia el medio natural canario.",
+      "broader": "sb:IDE304SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBIII.1.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBIII.1.1",
+      "prefLabel": "IDE304SBIII.1.1 · Identificación de elementos naturales propios del paisaje canario (barrancos, palmeras,…",
+      "definition": "Identificación de elementos naturales propios del paisaje canario (barrancos, palmeras, terrenos volcánicos, etc.).",
+      "broader": "sb:IDE304SBIII.1",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBIII.1.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBIII.1.2",
+      "prefLabel": "IDE304SBIII.1.2 · Reconocimiento de las plantas y los animales más representativos de las Islas Canarias.",
+      "definition": "Reconocimiento de las plantas y los animales más representativos de las Islas Canarias.",
+      "broader": "sb:IDE304SBIII.1",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBIII.2",
+      "prefLabel": "IDE304SBIII.2 · Identificación de la influencia de las acciones de las personas en el medio físico y en…",
+      "definition": "Identificación de la influencia de las acciones de las personas en el medio físico y en el patrimonio natural.",
+      "broader": "sb:IDE304SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBIII.3",
+      "prefLabel": "IDE304SBIII.3 · Fenómenos naturales: identificación y repercusión en la vida de las personas. Toma de…",
+      "definition": "Fenómenos naturales: identificación y repercusión en la vida de las personas. Toma de conciencia sobre el cambio climático.",
+      "broader": "sb:IDE304SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBIII.4",
+      "prefLabel": "IDE304SBIII.4 · Identificación de las semejanzas y diferencias entre seres vivos o inertes.",
+      "definition": "Identificación de las semejanzas y diferencias entre seres vivos o inertes.",
+      "broader": "sb:IDE304SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBIII.5",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBIII.5",
+      "prefLabel": "IDE304SBIII.5 · Valoración, empatía, cuidado y protección de los animales y de las plantas.",
+      "definition": "Valoración, empatía, cuidado y protección de los animales y de las plantas.",
+      "broader": "sb:IDE304SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBIII.6",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBIII.6",
+      "prefLabel": "IDE304SBIII.6 · Iniciativa para realizar tareas relacionadas con el cuidado de las plantas y de los…",
+      "definition": "Iniciativa para realizar tareas relacionadas con el cuidado de las plantas y de los animales.",
+      "broader": "sb:IDE304SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBIII.7",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBIII.7",
+      "prefLabel": "IDE304SBIII.7 · Conocimiento, valoración y respeto por el patrimonio presente en el medio natural de…",
+      "definition": "Conocimiento, valoración y respeto por el patrimonio presente en el medio natural de Canarias.",
+      "broader": "sb:IDE304SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE304SBIII.8",
+      "tipo": "SaberBasico",
+      "notation": "IDE304SBIII.8",
+      "prefLabel": "IDE304SBIII.8 · Iniciación al conocimiento de recursos naturales y a los beneficios de la sostenibilidad,…",
+      "definition": "Iniciación al conocimiento de recursos naturales y a los beneficios de la sostenibilidad, energías limpias y naturales.",
+      "broader": "sb:IDE304SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBI.1",
+      "prefLabel": "IDE305SBI.1 · Conocimiento y relación de las cualidades o los atributos de los objetos y materiales.…",
+      "definition": "Conocimiento y relación de las cualidades o los atributos de los objetos y materiales. Relaciones de orden, correspondencia, clasificación y comparación",
+      "broader": "sb:IDE305SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBI.1.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBI.1.1",
+      "prefLabel": "IDE305SBI.1.1 · Forma, tamaño, color.",
+      "definition": "Forma, tamaño, color.",
+      "broader": "sb:IDE305SBI.1",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBI.1.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBI.1.2",
+      "prefLabel": "IDE305SBI.1.2 · Clasificaciones, seriaciones, condicionales.",
+      "definition": "Clasificaciones, seriaciones, condicionales.",
+      "broader": "sb:IDE305SBI.1",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBI.2",
+      "prefLabel": "IDE305SBI.2 · Aplicación contextualizada de cuantificadores básicos: todos, algunos, no todos, ninguno,…",
+      "definition": "Aplicación contextualizada de cuantificadores básicos: todos, algunos, no todos, ninguno, uno y solo uno, al menos uno…",
+      "broader": "sb:IDE305SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBI.3",
+      "prefLabel": "IDE305SBI.3 · Uso funcional de los números en la vida cotidiana. Utilización de la serie numérica para…",
+      "definition": "Uso funcional de los números en la vida cotidiana. Utilización de la serie numérica para contar objetos.",
+      "broader": "sb:IDE305SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBI.4",
+      "prefLabel": "IDE305SBI.4 · Aplicación del número ordinal en pequeñas colecciones ordenadas.",
+      "definition": "Aplicación del número ordinal en pequeñas colecciones ordenadas.",
+      "broader": "sb:IDE305SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBI.5",
+      "prefLabel": "IDE305SBI.5 · Uso de los números y las operaciones (unir, quitar, separar, repartir…), en los juegos y…",
+      "definition": "Uso de los números y las operaciones (unir, quitar, separar, repartir…), en los juegos y las situaciones de la vida cotidiana.",
+      "broader": "sb:IDE305SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBI.6",
+      "prefLabel": "IDE305SBI.6 · Iniciación a la resolución de problemas sencillos a través de: clasificación de la…",
+      "definition": "Iniciación a la resolución de problemas sencillos a través de:  clasificación de la información, uso de diferentes estrategias (ensayo y error, modelización), y comprobación de las soluciones obtenidas.",
+      "broader": "sb:IDE305SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBI.7",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBI.7",
+      "prefLabel": "IDE305SBI.7 · Utilización de nociones espaciales básicas.",
+      "definition": "Utilización de nociones espaciales básicas.",
+      "broader": "sb:IDE305SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBI.8",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBI.8",
+      "prefLabel": "IDE305SBI.8 · Orientación del propio cuerpo en relación con un objeto y de objetos entre sí (entre,…",
+      "definition": "Orientación del propio cuerpo en relación con un objeto y de objetos entre sí (entre, detrás de-delante de, debajo de-encima de, arriba-abajo, izquierda-derecha, dentro-fuera, cerca-lejos).",
+      "broader": "sb:IDE305SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBI.9",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBI.9",
+      "prefLabel": "IDE305SBI.9 · Identificación de formas geométricas básicas: triángulo, círculo, cuadrado, rectángulo,…",
+      "definition": "Identificación de formas geométricas básicas: triángulo, círculo, cuadrado, rectángulo, cubo y esfera. Línea recta, línea curva, dirección y sentido.",
+      "broader": "sb:IDE305SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBI.10",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBI.10",
+      "prefLabel": "IDE305SBI.10 · Identificación de situaciones en las que es preciso medir para resolver problemas…",
+      "definition": "Identificación de situaciones en las que es preciso medir para resolver problemas sencillos: más/menos…que, igual…que, con los conceptos: lleno-vacío, pesado-ligero, largo-corto, ancho-estrecho, grande-pequeño, alto-bajo….",
+      "broader": "sb:IDE305SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBI.11",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBI.11",
+      "prefLabel": "IDE305SBI.11 · Utilización de nociones temporales básicas: cambio y permanencia, continuidad, sucesión y…",
+      "definition": "Utilización de nociones temporales básicas: cambio y permanencia, continuidad, sucesión y simultaneidad; pasado, presente y futuro, períodos de tiempo (antes-ahora-después, secuencia temporal, día y noche, estaciones, ciclos, calendario…).",
+      "broader": "sb:IDE305SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBII.1",
+      "prefLabel": "IDE305SBII.1 · Descubrimiento de pautas para la indagación del entorno: interés, respeto, curiosidad,…",
+      "definition": "Descubrimiento de pautas para la indagación del entorno: interés, respeto, curiosidad, asombro, cuestionamiento y deseos de conocimiento.",
+      "broader": "sb:IDE305SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBII.2",
+      "prefLabel": "IDE305SBII.2 · Exploración y experimentación de diversos contextos y problemas en los que se obtengan…",
+      "definition": "Exploración y experimentación de diversos contextos y problemas en los que se obtengan diferentes soluciones.",
+      "broader": "sb:IDE305SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBII.3",
+      "prefLabel": "IDE305SBII.3 · Iniciación en el uso de estrategias de construcción de nuevos conocimientos: relaciones y…",
+      "definition": "Iniciación en el uso de estrategias de construcción de nuevos conocimientos: relaciones y conexiones entre lo conocido y lo novedoso, y entre experiencias previas y nuevas; andamiaje e interacciones de calidad con las personas adultas, con iguales y con el entorno.",
+      "broader": "sb:IDE305SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBII.4",
+      "prefLabel": "IDE305SBII.4 · Elaboración de estrategias y utilización de técnicas de investigación: ensayo- error,…",
+      "definition": "Elaboración de estrategias y utilización de técnicas de investigación: ensayo- error, observación, experimentación, formulación y comprobación de hipótesis, realización de preguntas, manejo y búsqueda en distintas fuentes de información.",
+      "broader": "sb:IDE305SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBII.5",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBII.5",
+      "prefLabel": "IDE305SBII.5 · Iniciación al desarrollo del pensamiento científico y las destrezas de pensamiento…",
+      "definition": "Iniciación al desarrollo del pensamiento científico y las destrezas de pensamiento computacional.",
+      "broader": "sb:IDE305SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBII.6",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBII.6",
+      "prefLabel": "IDE305SBII.6 · Iniciativa en la búsqueda de acuerdos o consensos en la toma de decisiones durante la…",
+      "definition": "Iniciativa en la búsqueda de acuerdos o consensos en la toma de decisiones durante la planificación y organización de tareas.",
+      "broader": "sb:IDE305SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBII.7",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBII.7",
+      "prefLabel": "IDE305SBII.7 · Utilización de diversas estrategias para proponer soluciones: creatividad, diálogo,…",
+      "definition": "Utilización de diversas estrategias para proponer soluciones: creatividad, diálogo, imaginación y descubrimiento.",
+      "broader": "sb:IDE305SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBII.8",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBII.8",
+      "prefLabel": "IDE305SBII.8 · Identificación de procesos y resultados. Constatación y elaboración de hallazgos,…",
+      "definition": "Identificación de procesos y resultados. Constatación y elaboración de hallazgos, verificaciones y conclusiones.",
+      "broader": "sb:IDE305SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBIII.1",
+      "prefLabel": "IDE305SBIII.1 · Respeto, estima y protección hacia el medio natural canario.",
+      "definition": "Respeto, estima y protección hacia el medio natural canario.",
+      "broader": "sb:IDE305SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBIII.1.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBIII.1.1",
+      "prefLabel": "IDE305SBIII.1.1 · Identificación de elementos naturales propios del paisaje canario (barrancos, palmeras,…",
+      "definition": "Identificación de elementos naturales propios del paisaje canario (barrancos, palmeras, terrenos volcánicos, etc.).",
+      "broader": "sb:IDE305SBIII.1",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBIII.1.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBIII.1.2",
+      "prefLabel": "IDE305SBIII.1.2 · Reconocimiento de las plantas y los animales más representativos de las Islas Canarias.",
+      "definition": "Reconocimiento de las plantas y los animales más representativos de las Islas Canarias.",
+      "broader": "sb:IDE305SBIII.1",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBIII.2",
+      "prefLabel": "IDE305SBIII.2 · Identificación de la influencia de las acciones de las personas en el medio físico y en…",
+      "definition": "Identificación de la influencia de las acciones de las personas en el medio físico y en el patrimonio natural.",
+      "broader": "sb:IDE305SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBIII.3",
+      "prefLabel": "IDE305SBIII.3 · Fenómenos naturales: identificación y repercusión en la vida de las personas. Toma de…",
+      "definition": "Fenómenos naturales: identificación y repercusión en la vida de las personas. Toma de conciencia sobre el cambio climático.",
+      "broader": "sb:IDE305SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBIII.4",
+      "prefLabel": "IDE305SBIII.4 · Identificación de las semejanzas y diferencias entre seres vivos o inertes.",
+      "definition": "Identificación de las semejanzas y diferencias entre seres vivos o inertes.",
+      "broader": "sb:IDE305SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBIII.5",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBIII.5",
+      "prefLabel": "IDE305SBIII.5 · Valoración, empatía, cuidado y protección de los animales y de las plantas.",
+      "definition": "Valoración, empatía, cuidado y protección de los animales y de las plantas.",
+      "broader": "sb:IDE305SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBIII.6",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBIII.6",
+      "prefLabel": "IDE305SBIII.6 · Iniciativa para realizar tareas relacionadas con el cuidado de las plantas y de los…",
+      "definition": "Iniciativa para realizar tareas relacionadas con el cuidado de las plantas y de los animales.",
+      "broader": "sb:IDE305SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBIII.7",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBIII.7",
+      "prefLabel": "IDE305SBIII.7 · Conocimiento, valoración y respeto por el patrimonio presente en el medio natural de…",
+      "definition": "Conocimiento, valoración y respeto por el patrimonio presente en el medio natural de Canarias.",
+      "broader": "sb:IDE305SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE305SBIII.8",
+      "tipo": "SaberBasico",
+      "notation": "IDE305SBIII.8",
+      "prefLabel": "IDE305SBIII.8 · Iniciación al conocimiento de recursos naturales y a los beneficios de la sostenibilidad,…",
+      "definition": "Iniciación al conocimiento de recursos naturales y a los beneficios de la sostenibilidad, energías limpias y naturales.",
+      "broader": "sb:IDE305SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBI.1",
+      "prefLabel": "IDE306SBI.1 · Conocimiento y relación de las cualidades o los atributos de los objetos y materiales.…",
+      "definition": "Conocimiento y relación de las cualidades o los atributos de los objetos y materiales. Relaciones de orden, correspondencia, clasificación y comparación",
+      "broader": "sb:IDE306SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBI.1.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBI.1.1",
+      "prefLabel": "IDE306SBI.1.1 · Forma, tamaño, color.",
+      "definition": "Forma, tamaño, color.",
+      "broader": "sb:IDE306SBI.1",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBI.1.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBI.1.2",
+      "prefLabel": "IDE306SBI.1.2 · Clasificaciones, seriaciones, condicionales.",
+      "definition": "Clasificaciones, seriaciones, condicionales.",
+      "broader": "sb:IDE306SBI.1",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBI.2",
+      "prefLabel": "IDE306SBI.2 · Aplicación contextualizada de cuantificadores básicos: todos, algunos, no todos, ninguno,…",
+      "definition": "Aplicación contextualizada de cuantificadores básicos: todos, algunos, no todos, ninguno, uno y solo uno, al menos uno…",
+      "broader": "sb:IDE306SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBI.3",
+      "prefLabel": "IDE306SBI.3 · Uso funcional de los números en la vida cotidiana. Utilización de la serie numérica para…",
+      "definition": "Uso funcional de los números en la vida cotidiana. Utilización de la serie numérica para contar objetos.",
+      "broader": "sb:IDE306SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBI.4",
+      "prefLabel": "IDE306SBI.4 · Aplicación del número ordinal en pequeñas colecciones ordenadas.",
+      "definition": "Aplicación del número ordinal en pequeñas colecciones ordenadas.",
+      "broader": "sb:IDE306SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBI.5",
+      "prefLabel": "IDE306SBI.5 · Uso de los números y las operaciones (unir, quitar, separar, repartir…), en los juegos y…",
+      "definition": "Uso de los números y las operaciones (unir, quitar, separar, repartir…), en los juegos y las situaciones de la vida cotidiana.",
+      "broader": "sb:IDE306SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBI.6",
+      "prefLabel": "IDE306SBI.6 · Iniciación a la resolución de problemas sencillos a través de: clasificación de la…",
+      "definition": "Iniciación a la resolución de problemas sencillos a través de:  clasificación de la información, uso de diferentes estrategias (ensayo y error, modelización), y comprobación de las soluciones obtenidas.",
+      "broader": "sb:IDE306SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBI.7",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBI.7",
+      "prefLabel": "IDE306SBI.7 · Utilización de nociones espaciales básicas.",
+      "definition": "Utilización de nociones espaciales básicas.",
+      "broader": "sb:IDE306SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBI.8",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBI.8",
+      "prefLabel": "IDE306SBI.8 · Orientación del propio cuerpo en relación con un objeto y de objetos entre sí (entre,…",
+      "definition": "Orientación del propio cuerpo en relación con un objeto y de objetos entre sí (entre, detrás de-delante de, debajo de-encima de, arriba-abajo, izquierda-derecha, dentro-fuera, cerca-lejos).",
+      "broader": "sb:IDE306SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBI.9",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBI.9",
+      "prefLabel": "IDE306SBI.9 · Identificación de formas geométricas básicas: triángulo, círculo, cuadrado, rectángulo,…",
+      "definition": "Identificación de formas geométricas básicas: triángulo, círculo, cuadrado, rectángulo, cubo y esfera. Línea recta, línea curva, dirección y sentido.",
+      "broader": "sb:IDE306SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBI.10",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBI.10",
+      "prefLabel": "IDE306SBI.10 · Identificación de situaciones en las que es preciso medir para resolver problemas…",
+      "definition": "Identificación de situaciones en las que es preciso medir para resolver problemas sencillos: más/menos…que, igual…que, con los conceptos: lleno-vacío, pesado-ligero, largo-corto, ancho-estrecho, grande-pequeño, alto-bajo….",
+      "broader": "sb:IDE306SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBI.11",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBI.11",
+      "prefLabel": "IDE306SBI.11 · Utilización de nociones temporales básicas: cambio y permanencia, continuidad, sucesión y…",
+      "definition": "Utilización de nociones temporales básicas: cambio y permanencia, continuidad, sucesión y simultaneidad; pasado, presente y futuro, períodos de tiempo (antes-ahora-después, secuencia temporal, día y noche, estaciones, ciclos, calendario…).",
+      "broader": "sb:IDE306SBI",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBII.1",
+      "prefLabel": "IDE306SBII.1 · Descubrimiento de pautas para la indagación del entorno: interés, respeto, curiosidad,…",
+      "definition": "Descubrimiento de pautas para la indagación del entorno: interés, respeto, curiosidad, asombro, cuestionamiento y deseos de conocimiento.",
+      "broader": "sb:IDE306SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBII.2",
+      "prefLabel": "IDE306SBII.2 · Exploración y experimentación de diversos contextos y problemas en los que se obtengan…",
+      "definition": "Exploración y experimentación de diversos contextos y problemas en los que se obtengan diferentes soluciones.",
+      "broader": "sb:IDE306SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBII.3",
+      "prefLabel": "IDE306SBII.3 · Iniciación en el uso de estrategias de construcción de nuevos conocimientos: relaciones y…",
+      "definition": "Iniciación en el uso de estrategias de construcción de nuevos conocimientos: relaciones y conexiones entre lo conocido y lo novedoso, y entre experiencias previas y nuevas; andamiaje e interacciones de calidad con las personas adultas, con iguales y con el entorno.",
+      "broader": "sb:IDE306SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBII.4",
+      "prefLabel": "IDE306SBII.4 · Elaboración de estrategias y utilización de técnicas de investigación: ensayo- error,…",
+      "definition": "Elaboración de estrategias y utilización de técnicas de investigación: ensayo- error, observación, experimentación, formulación y comprobación de hipótesis, realización de preguntas, manejo y búsqueda en distintas fuentes de información.",
+      "broader": "sb:IDE306SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBII.5",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBII.5",
+      "prefLabel": "IDE306SBII.5 · Iniciación al desarrollo del pensamiento científico y las destrezas de pensamiento…",
+      "definition": "Iniciación al desarrollo del pensamiento científico y las destrezas de pensamiento computacional.",
+      "broader": "sb:IDE306SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBII.6",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBII.6",
+      "prefLabel": "IDE306SBII.6 · Iniciativa en la búsqueda de acuerdos o consensos en la toma de decisiones durante la…",
+      "definition": "Iniciativa en la búsqueda de acuerdos o consensos en la toma de decisiones durante la planificación y organización de tareas.",
+      "broader": "sb:IDE306SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBII.7",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBII.7",
+      "prefLabel": "IDE306SBII.7 · Utilización de diversas estrategias para proponer soluciones: creatividad, diálogo,…",
+      "definition": "Utilización de diversas estrategias para proponer soluciones: creatividad, diálogo, imaginación y descubrimiento.",
+      "broader": "sb:IDE306SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBII.8",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBII.8",
+      "prefLabel": "IDE306SBII.8 · Identificación de procesos y resultados. Constatación y elaboración de hallazgos,…",
+      "definition": "Identificación de procesos y resultados. Constatación y elaboración de hallazgos, verificaciones y conclusiones.",
+      "broader": "sb:IDE306SBII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBIII.1",
+      "prefLabel": "IDE306SBIII.1 · Respeto, estima y protección hacia el medio natural canario.",
+      "definition": "Respeto, estima y protección hacia el medio natural canario.",
+      "broader": "sb:IDE306SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBIII.1.1",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBIII.1.1",
+      "prefLabel": "IDE306SBIII.1.1 · Identificación de elementos naturales propios del paisaje canario (barrancos, palmeras,…",
+      "definition": "Identificación de elementos naturales propios del paisaje canario (barrancos, palmeras, terrenos volcánicos, etc.).",
+      "broader": "sb:IDE306SBIII.1",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBIII.1.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBIII.1.2",
+      "prefLabel": "IDE306SBIII.1.2 · Reconocimiento de las plantas y los animales más representativos de las Islas Canarias.",
+      "definition": "Reconocimiento de las plantas y los animales más representativos de las Islas Canarias.",
+      "broader": "sb:IDE306SBIII.1",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBIII.2",
+      "prefLabel": "IDE306SBIII.2 · Identificación de la influencia de las acciones de las personas en el medio físico y en…",
+      "definition": "Identificación de la influencia de las acciones de las personas en el medio físico y en el patrimonio natural.",
+      "broader": "sb:IDE306SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBIII.3",
+      "prefLabel": "IDE306SBIII.3 · Fenómenos naturales: identificación y repercusión en la vida de las personas. Toma de…",
+      "definition": "Fenómenos naturales: identificación y repercusión en la vida de las personas. Toma de conciencia sobre el cambio climático.",
+      "broader": "sb:IDE306SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBIII.4",
+      "prefLabel": "IDE306SBIII.4 · Identificación de las semejanzas y diferencias entre seres vivos o inertes.",
+      "definition": "Identificación de las semejanzas y diferencias entre seres vivos o inertes.",
+      "broader": "sb:IDE306SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBIII.5",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBIII.5",
+      "prefLabel": "IDE306SBIII.5 · Valoración, empatía, cuidado y protección de los animales y de las plantas.",
+      "definition": "Valoración, empatía, cuidado y protección de los animales y de las plantas.",
+      "broader": "sb:IDE306SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBIII.6",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBIII.6",
+      "prefLabel": "IDE306SBIII.6 · Iniciativa para realizar tareas relacionadas con el cuidado de las plantas y de los…",
+      "definition": "Iniciativa para realizar tareas relacionadas con el cuidado de las plantas y de los animales.",
+      "broader": "sb:IDE306SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBIII.7",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBIII.7",
+      "prefLabel": "IDE306SBIII.7 · Conocimiento, valoración y respeto por el patrimonio presente en el medio natural de…",
+      "definition": "Conocimiento, valoración y respeto por el patrimonio presente en el medio natural de Canarias.",
+      "broader": "sb:IDE306SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "sb:IDE306SBIII.8",
+      "tipo": "SaberBasico",
+      "notation": "IDE306SBIII.8",
+      "prefLabel": "IDE306SBIII.8 · Iniciación al conocimiento de recursos naturales y a los beneficios de la sostenibilidad,…",
+      "definition": "Iniciación al conocimiento de recursos naturales y a los beneficios de la sostenibilidad, energías limpias y naturales.",
+      "broader": "sb:IDE306SBIII",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    }
+  ]
+}

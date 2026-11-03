@@ -1,0 +1,644 @@
+{
+  "materia": "materia:SEDK",
+  "nodos": [
+    {
+      "id": "materia:SEDK",
+      "tipo": "Materia",
+      "notation": "SEDK",
+      "prefLabel": "Educación en Valores Cívicos y Éticos (ESO)",
+      "cursos": [
+        "curso:S01"
+      ],
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SEDKC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SEDKC1",
+      "prefLabel": "SEDKC1 · Inquirir e investigar cuanto se refiere a la propia identidad y a cuestiones éticas…",
+      "definition": "Inquirir e investigar cuanto se refiere a la propia identidad y a cuestiones éticas relativas al propio proyecto vital, analizando críticamente información fiable y generando una actitud reflexiva al respecto, para promover el autoconocimiento y la elaboración de planteamientos y juicios morales de manera autónoma y razonada",
+      "broader": "materia:SEDK",
+      "materia": "materia:SEDK",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SEDKC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SEDKC2",
+      "prefLabel": "SEDKC2 · Actuar e interactuar de acuerdo con normas y valores cívicos y éticos, a partir del…",
+      "definition": "Actuar e interactuar de acuerdo con normas y valores cívicos y éticos, a partir del reconocimiento fundado de su importancia para regular la vida comunitaria y su aplicación efectiva y justificada en distintos contextos, para promover una convivencia pacífica, respetuosa, democrática y comprometida con el bien común",
+      "broader": "materia:SEDK",
+      "materia": "materia:SEDK",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SEDKC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SEDKC3",
+      "prefLabel": "SEDKC3 · Entender la naturaleza interconectada e inter y ecodependiente de las actividades…",
+      "definition": "Entender la naturaleza interconectada e inter y ecodependiente de las actividades humanas, mediante la identificación y análisis de problemas ecosociales de relevancia, para promover hábitos y actitudes éticamente comprometidos con el logro de formas de vida sostenibles.",
+      "broader": "materia:SEDK",
+      "materia": "materia:SEDK",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SEDKC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SEDKC4",
+      "prefLabel": "SEDKC4 · Mostrar una adecuada estima de sí mismo y del entorno, reconociendo y valorando los…",
+      "definition": "Mostrar una adecuada estima de sí mismo y del entorno, reconociendo y valorando los sentimientos y emociones propios y ajenos, para el logro de una actitud empática y cuidadosa con respecto a los demás y a la naturaleza.",
+      "broader": "materia:SEDK",
+      "materia": "materia:SEDK",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEDK01BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEDK01BC1",
+      "prefLabel": "Educación en Valores Cívicos y Éticos · 1º ESO · bloque competencial C1",
+      "scopeNote": "El alumnado debe aprender a guiar su conducta con autonomía, prudencia y responsabilidad, siguiendo criterios propios, capacitándose en la práctica de la deliberación racional y la argumentación en torno a problemas que afectan a su existencia y a su entorno, buscando fuentes fiables para validar y contrastar información. Para ello se comprobará que está en condiciones de construir un autoconcepto personal (autoconocimiento) y de su dimensión cívica y moral, desarrollando así la autoestima en armonía con las demás personas, a través de la identificación, gestión y comunicación de emociones, afectos y deseos con respeto y empatía. Asimismo, mediante la investigación, planteamientos cooperativos de dilemas morales y el uso del diálogo en torno a las diversas concepciones sobre la naturaleza humana, se verificará que el alumnado genera un concepto de lo que deben ser las relaciones afectivas y afectivo-sexuales, aceptando los distintos valores y modos de vida, y tomando conciencia de los problemas relacionados con los derechos individuales, el uso responsable y seguro de las redes, las conductas adictivas y el acoso escolar.",
+      "broader": "materia:SEDK",
+      "agrupa": [
+        "ce:SEDKC1"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CPSAA1",
+        "CPSAA2",
+        "CC3",
+        "CCL3",
+        "CD1",
+        "CD4",
+        "CPSAA4"
+      ],
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEDK01BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEDK01BC2",
+      "prefLabel": "Educación en Valores Cívicos y Éticos · 1º ESO · bloque competencial C2",
+      "scopeNote": "Este bloque competencial persigue la formación de una ciudadanía activa y democrática, que haga uso de la argumentación racional para regular la convivencia pacífica. Para ello se comprobará que el alumnado es capaz de reconocer la necesidad de actuar e interactuar de acuerdo con normas y valores cívicos para resolver los conflictos, reconociendo la igualdad de derechos de todas las personas, mostrando igualmente conocimiento de los derechos LGTBI+, rechazando la discriminación por razón de género y orientación sexual y desterrando los usos discriminatorios de la lengua. Se comprobará, además, que el alumnado, mediante las actividades de grupo, realiza una participación respetuosa, dialogante y constructiva, haciendo uso de herramientas o plataformas virtuales, gestionando su uso para ejercer una ciudadanía digital activa, cívica y reflexiva. Además, estos aprendizajes fomentan en el alumnado el análisis y la comprensión de ideas relativas a la dimensión social y ciudadana, la reflexión en torno al Estado de derecho, los organismos internacionales, la Constitución española de 1978, la pertinencia de los derechos humanos y de la infancia, la necesidad de la protección de los bienes públicos, del patrimonio cultural y artístico, demostrando respeto por las normas, empatía, equidad y espíritu constructivo, valorando, además, la libertad de expresión y el enriquecimiento inherente a la diversidad cultural y artística.",
+      "broader": "materia:SEDK",
+      "agrupa": [
+        "ce:SEDKC2"
+      ],
+      "descriptores": [
+        "CCL5",
+        "CD3",
+        "CC1",
+        "CC3",
+        "CP3",
+        "CC2",
+        "CD1",
+        "CCEC1"
+      ],
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEDK01BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEDK01BC3",
+      "prefLabel": "Educación en Valores Cívicos y Éticos · 1º ESO · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial el alumnado comprende la interdependencia y ecodependencia entre nuestras vidas y el entorno. Para ello se comprobará que identifica, gestiona y expresa sus emociones y sentimientos, valorando los ajenos, y que adquiere conocimientos sobre los riesgos para la salud relacionados con factores sociales tanto a nivel local como global, constatando su capacidad para entender y valorar los problemas ecosociales derivados, la emergencia climática, el desarrollo sostenible de los recursos, los residuos y la movilidad, el comercio justo, el consumo responsable y la protección de los animales. Además, se evaluará su actitud fundada en el cuidado y aprecio de sí mismo y de sí misma, de las demás personas y del resto de la naturaleza, consolidando estilos de vida saludables tanto a nivel físico como mental y presentando ideas y soluciones innovadoras, haciendo uso del pensamiento científico, confiando en el conocimiento como motor de desarrollo y aprovechando la cultura digital para emprender acciones creativas y fundamentadas científicamente que favorezcan el logro de estilos de vida sostenibles.",
+      "broader": "materia:SEDK",
+      "agrupa": [
+        "ce:SEDKC3"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM2",
+        "STEM5",
+        "CD2",
+        "CPSAA2",
+        "CC4",
+        "CE1",
+        "CE3"
+      ],
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEDK01BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEDK01BC4",
+      "prefLabel": "Educación en Valores Cívicos y Éticos · 1º ESO · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial se evaluará que el alumnado desarrolla la autoestima y el sentido de dependencia del entorno, reconociendo y valorando los sentimientos y emociones propias y ajenas, logrando una actitud empática y cuidadosa con respecto a las demás personas y al medioambiente. Para ello se comprobará que identifica, analiza y expresa ideas, opiniones, sentimientos, emociones y manifestaciones culturales y artísticas de manera coherente, correcta y asertiva en los distintos contextos. Se evaluará, asimismo, la comprensión proactiva y su participación en grupos de trabajo, en la que aprenderá a distribuir y aceptar tareas y responsabilidades de manera equitativa, empleando estrategias cooperativas.",
+      "broader": "materia:SEDK",
+      "agrupa": [
+        "ce:SEDKC4"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CPSAA1",
+        "CPSAA3",
+        "CC3",
+        "CCEC3"
+      ],
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEDK01CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEDK01CE1.1",
+      "prefLabel": "SEDK01CE1.1 · Construir un concepto de sí mismo y de su dimensión cívica y moral reconociendo las…",
+      "definition": "Construir un concepto de sí mismo y de su dimensión cívica y moral reconociendo las múltiples dimensiones de su naturaleza y personalidad, desarrollando la autoestima en armonía con las demás personas, a través de la identificación, gestión y comunicación de emociones, afectos y deseos con respeto y empatía hacia los ajenos y mediante la investigación y el diálogo en torno a diversas concepciones sobre la naturaleza humana, generando un concepto de lo que deben ser las relaciones afectivas y afectivo-sexuales sanas.",
+      "broader": "ce:SEDKC1",
+      "bloque": "bc:SEDK01BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CPSAA1",
+        "CPSAA2",
+        "CC3"
+      ],
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEDK01CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEDK01CE1.2",
+      "prefLabel": "SEDK01CE1.2 · Generar y expresar autonomía moral mediante el ejercicio de la deliberación racional, el…",
+      "definition": "Generar y expresar autonomía moral mediante el ejercicio de la deliberación racional, el uso de conceptos éticos, la resolución cooperativa de dilemas morales y el diálogo respetuoso con las demás personas, en torno a distintos valores y modos de vida, así como a problemas relacionados con los derechos individuales, el uso responsable y seguro de las redes, las conductas adictivas y el acoso escolar a través del análisis crítico de información fiable.",
+      "broader": "ce:SEDKC1",
+      "bloque": "bc:SEDK01BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CD1",
+        "CD4",
+        "CPSAA1",
+        "CPSAA2",
+        "CPSAA4",
+        "CC3"
+      ],
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEDK01CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEDK01CE2.1",
+      "prefLabel": "SEDK01CE2.1 · Promover y demostrar una convivencia pacífica, respetuosa, democrática y comprometida con…",
+      "definition": "Promover y demostrar una convivencia pacífica, respetuosa, democrática y comprometida con el bien común y el fomento del ejercicio de la ciudadanía activa y democrática a partir de la investigación sobre la naturaleza social y política del ser humano, el uso y comprensión crítica de los conceptos de «ley», «poder», «soberanía», «justicia», «Estado», «democracia» y «derechos humanos», y mediante el conocimiento del movimiento asociativo y la participación respetuosa, dialogante y constructiva en actividades de grupo que impliquen tomar decisiones colectivas, planificar acciones coordinadas y resolver problemas aplicando procedimientos y principios cívicos, éticos y democráticos explícitos.",
+      "broader": "ce:SEDKC2",
+      "bloque": "bc:SEDK01BC2",
+      "descriptores": [
+        "CCL5",
+        "CD3",
+        "CC1",
+        "CC3"
+      ],
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEDK01CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEDK01CE2.2",
+      "prefLabel": "SEDK01CE2.2 · Contribuir a generar un compromiso activo con el bien común mediante el análisis y la…",
+      "definition": "Contribuir a generar un compromiso activo con el bien común mediante el análisis y la toma razonada y dialogante de posición en torno a cuestiones éticas de actualidad como los fines y límites éticos de la investigación científica, la pobreza, el derecho al trabajo, la salud, la educación, la justicia y la lucha contra la desigualdad, tomando consciencia de la lucha por una efectiva igualdad de género y del problema de la violencia y explotación sobre las mujeres, a través del análisis de las diversas olas del feminismo y de las medidas de prevención de la desigualdad, la violencia y la discriminación por razón de género y orientación sexual, mostrando igualmente conocimiento de los derechos LGTBI+ y reconociendo la necesidad de respetarlos.",
+      "broader": "ce:SEDKC2",
+      "bloque": "bc:SEDK01BC2",
+      "descriptores": [
+        "CCL5",
+        "CP3",
+        "CD3",
+        "CC1",
+        "CC2",
+        "CC3"
+      ],
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEDK01CE2.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEDK01CE2.3",
+      "prefLabel": "SEDK01CE2.3 · Contribuir activamente al bienestar social adoptando una posición propia, explícita,…",
+      "definition": "Contribuir activamente al bienestar social adoptando una posición propia, explícita, informada y éticamente fundamentada sobre el valor y pertinencia de los derechos humanos, el respeto por la diversidad étnico-cultural, la consideración de los bienes públicos globales, la percepción del valor social de los impuestos, así como con la historia democrática de nuestro país y con el Estado de derecho y sus instituciones, los organismos internacionales, las asociaciones civiles y los cuerpos y fuerzas de seguridad del Estado en sus funciones dirigidas al logro de la paz, la seguridad y la solidaridad entre los pueblos y las personas.",
+      "broader": "ce:SEDKC2",
+      "bloque": "bc:SEDK01BC2",
+      "descriptores": [
+        "CCL5",
+        "CD1",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CCEC1"
+      ],
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEDK01CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEDK01CE3.1",
+      "prefLabel": "SEDK01CE3.1 · Comprender las relaciones históricas de interconexión, interdependencia y ecodependencia…",
+      "definition": "Comprender las relaciones históricas de interconexión, interdependencia y ecodependencia entre nuestras vidas y el entorno, y valorar distintos planteamientos científicos, políticos y éticos con los que afrontar la emergencia climática y la crisis medioambiental, a través del análisis de las causas y consecuencias de los retos ecosociales que nos afectan, mediante la exposición y el debate argumental en torno a los mismos.",
+      "broader": "ce:SEDKC3",
+      "bloque": "bc:SEDK01BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM2",
+        "STEM5",
+        "CD2",
+        "CPSAA2",
+        "CC4",
+        "CE1",
+        "CE3"
+      ],
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEDK01CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEDK01CE4.1",
+      "prefLabel": "SEDK01CE4.1 · Desarrollar una actitud de gestión equilibrada de las emociones, de estima y cuidado…",
+      "definition": "Desarrollar una actitud de gestión equilibrada de las emociones, de estima y cuidado personal, de otras personas y del medioambiente, identificando, analizando y expresando de manera asertiva las propias emociones y reconociendo y valorando las ajenas en distintos contextos y en torno a actividades creativas y de reflexión individual o dialogada, deliberando sobre cuestiones éticas y cívicas.",
+      "broader": "ce:SEDKC4",
+      "bloque": "bc:SEDK01BC4",
+      "descriptores": [
+        "CCL1",
+        "CPSAA1",
+        "CPSAA3",
+        "CC3",
+        "CCEC3"
+      ],
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "SEDK01SBI",
+      "prefLabel": "SEDK01SBI · I. Autoconocimiento y autonomía moral",
+      "definition": "Autoconocimiento y autonomía moral",
+      "broader": "materia:SEDK",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "SEDK01SBII",
+      "prefLabel": "SEDK01SBII · II. Sociedad, democracia y justicia",
+      "definition": "Sociedad, democracia y justicia",
+      "broader": "materia:SEDK",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "SEDK01SBIII",
+      "prefLabel": "SEDK01SBIII · III. Desarrollo sostenible y ética ambiental",
+      "definition": "Desarrollo sostenible y ética ambiental",
+      "broader": "materia:SEDK",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBI.1",
+      "prefLabel": "SEDK01SBI.1 · Desarrollo de la investigación ética y de la resolución de problemas complejos.",
+      "definition": "Desarrollo de la investigación ética y de la resolución de problemas complejos.",
+      "broader": "sb:SEDK01SBI",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBI.1.1",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBI.1.1",
+      "prefLabel": "SEDK01SBI.1.1 · Reconocimiento de los seres humanos como seres morales, de la libertad y de la…",
+      "definition": "Reconocimiento de los seres humanos como seres morales, de la libertad y de la responsabilidad.",
+      "broader": "sb:SEDK01SBI.1",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBI.1.2",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBI.1.2",
+      "prefLabel": "SEDK01SBI.1.2 · Desarrollo del diálogo y la argumentación siguiendo normas y con empatía, resolviendo…",
+      "definition": "Desarrollo del diálogo y la argumentación siguiendo normas y con empatía, resolviendo pacíficamente los conflictos.",
+      "broader": "sb:SEDK01SBI.1",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBI.2",
+      "prefLabel": "SEDK01SBI.2 · Identificación de la educación de las emociones y de los sentimientos.",
+      "definition": "Identificación de la educación de las emociones y de los sentimientos.",
+      "broader": "sb:SEDK01SBI",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBI.2.1",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBI.2.1",
+      "prefLabel": "SEDK01SBI.2.1 · Identificación de la autoestima personal.",
+      "definition": "Identificación de la autoestima personal.",
+      "broader": "sb:SEDK01SBI.2",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBI.2.2",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBI.2.2",
+      "prefLabel": "SEDK01SBI.2.2 · Reconocimiento de la igualdad y el respeto mutuo en las relaciones afectivas.",
+      "definition": "Reconocimiento de la igualdad y el respeto mutuo en las relaciones afectivas.",
+      "broader": "sb:SEDK01SBI.2",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBI.3",
+      "prefLabel": "SEDK01SBI.3 · Reconocimiento del conflicto entre moralidad y legalidad.",
+      "definition": "Reconocimiento del conflicto entre moralidad y legalidad.",
+      "broader": "sb:SEDK01SBI",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBI.3.1",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBI.3.1",
+      "prefLabel": "SEDK01SBI.3.1 · Identificación de las normas y los sentimientos morales.",
+      "definition": "Identificación de las normas y los sentimientos morales.",
+      "broader": "sb:SEDK01SBI.3",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBI.3.2",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBI.3.2",
+      "prefLabel": "SEDK01SBI.3.2 · Reconocimiento de los derechos individuales y de la intimidad e identificación de las…",
+      "definition": "Reconocimiento de los derechos individuales y de la intimidad e identificación de las conductas adictivas y el ciberacoso.",
+      "broader": "sb:SEDK01SBI.3",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBII.1",
+      "prefLabel": "SEDK01SBII.1 · Sociedad.",
+      "definition": "Sociedad.",
+      "broader": "sb:SEDK01SBII",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBII.1.1",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBII.1.1",
+      "prefLabel": "SEDK01SBII.1.1 · Identificación del ser humano como ser social, discerniendo entre egoísmo y altruismo.",
+      "definition": "Identificación del ser humano como ser social, discerniendo entre egoísmo y altruismo.",
+      "broader": "sb:SEDK01SBII.1",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBII.2",
+      "prefLabel": "SEDK01SBII.2 · Democracia.",
+      "definition": "Democracia.",
+      "broader": "sb:SEDK01SBII",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBII.2.1",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBII.2.1",
+      "prefLabel": "SEDK01SBII.2.1 · Reconocimiento de la democracia y de sus principios, procedimientos e instituciones,…",
+      "definition": "Reconocimiento de la democracia y de sus principios, procedimientos e instituciones, valorando la memoria democrática.",
+      "broader": "sb:SEDK01SBII.2",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBII.2.2",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBII.2.2",
+      "prefLabel": "SEDK01SBII.2.2 · Valoración de la ciudadanía y la participación democrática.",
+      "definition": "Valoración de la ciudadanía y la participación democrática.",
+      "broader": "sb:SEDK01SBII.2",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBII.2.3",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBII.2.3",
+      "prefLabel": "SEDK01SBII.2.3 · Identificación de las principales instituciones políticas de la Comunidad Autónoma de…",
+      "definition": "Identificación de las principales instituciones políticas de la Comunidad Autónoma de Canarias.",
+      "broader": "sb:SEDK01SBII.2",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBII.3",
+      "prefLabel": "SEDK01SBII.3 · Justicia.",
+      "definition": "Justicia.",
+      "broader": "sb:SEDK01SBII",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBII.3.1",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBII.3.1",
+      "prefLabel": "SEDK01SBII.3.1 · Reconocimiento del valor ético de los derechos de la infancia y los derechos humanos,…",
+      "definition": "Reconocimiento del valor ético de los derechos de la infancia y los derechos humanos, identificando la explotación y la violencia contra niñas y mujeres.",
+      "broader": "sb:SEDK01SBII.3",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBII.3.2",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBII.3.2",
+      "prefLabel": "SEDK01SBII.3.2 · Identificación de la desigualdad y la lucha contra la pobreza.",
+      "definition": "Identificación de la desigualdad y la lucha contra la pobreza.",
+      "broader": "sb:SEDK01SBII.3",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBII.3.3",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBII.3.3",
+      "prefLabel": "SEDK01SBII.3.3 · Reconocimiento de la igualdad de género y la corresponsabilidad en las tareas domésticas…",
+      "definition": "Reconocimiento de la igualdad de género y la corresponsabilidad en las tareas domésticas y de cuidados.",
+      "broader": "sb:SEDK01SBII.3",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBII.3.4",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBII.3.4",
+      "prefLabel": "SEDK01SBII.3.4 · Identificación de los fenómenos migratorios en Canarias y desarrollo del respeto por la…",
+      "definition": "Identificación de los fenómenos migratorios en Canarias y desarrollo del respeto por la diversidad étnico-cultural.",
+      "broader": "sb:SEDK01SBII.3",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBII.3.5",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBII.3.5",
+      "prefLabel": "SEDK01SBII.3.5 · Desarrollo del respeto de los derechos LGTBI+.",
+      "definition": "Desarrollo del respeto de los derechos LGTBI+.",
+      "broader": "sb:SEDK01SBII.3",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBII.3.6",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBII.3.6",
+      "prefLabel": "SEDK01SBII.3.6 · Reconocimiento de los fines y límites éticos de la investigación científica.",
+      "definition": "Reconocimiento de los fines y límites éticos de la investigación científica.",
+      "broader": "sb:SEDK01SBII.3",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBII.3.7",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBII.3.7",
+      "prefLabel": "SEDK01SBII.3.7 · Valoración de acciones individuales y colectivas en favor de la paz y la contribución del…",
+      "definition": "Valoración de acciones individuales y colectivas en favor de la paz y la contribución del Estado y los organismos internacionales identificando el papel de las ONG y ONGD.",
+      "broader": "sb:SEDK01SBII.3",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBIII.1",
+      "prefLabel": "SEDK01SBIII.1 · Identificación de la ecodependencia entre nuestras formas de vida y el entorno.",
+      "definition": "Identificación de la ecodependencia entre nuestras formas de vida y el entorno.",
+      "broader": "sb:SEDK01SBIII",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBIII.2",
+      "prefLabel": "SEDK01SBIII.2 · Identificación de los diversos planteamientos éticos, científicos y políticos en torno a…",
+      "definition": "Identificación de los diversos planteamientos éticos, científicos y políticos en torno a los problemas ecosociales.",
+      "broader": "sb:SEDK01SBIII",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBIII.2.1",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBIII.2.1",
+      "prefLabel": "SEDK01SBIII.2.1 · Valoración de los Objetivos de Desarrollo Sostenible y el decrecimiento en consonancia…",
+      "definition": "Valoración de los Objetivos de Desarrollo Sostenible y el decrecimiento en consonancia con la Agenda Canaria de Desarrollo Sostenible 2030.",
+      "broader": "sb:SEDK01SBIII.2",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBIII.2.2",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBIII.2.2",
+      "prefLabel": "SEDK01SBIII.2.2 · Reconocimiento de la ética de los cuidados y del ecofeminismo.",
+      "definition": "Reconocimiento de la ética de los cuidados y del ecofeminismo.",
+      "broader": "sb:SEDK01SBIII.2",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBIII.3",
+      "prefLabel": "SEDK01SBIII.3 · Valoración de los hábitos de vida sostenible y del consumo responsable.",
+      "definition": "Valoración de los hábitos de vida sostenible y del consumo responsable.",
+      "broader": "sb:SEDK01SBIII",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEDK01SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "SEDK01SBIII.4",
+      "prefLabel": "SEDK01SBIII.4 · Desarrollo del compromiso activo con la protección de los animales.",
+      "definition": "Desarrollo del compromiso activo con la protección de los animales.",
+      "broader": "sb:SEDK01SBIII",
+      "materia": "materia:SEDK",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    }
+  ]
+}

@@ -1,0 +1,642 @@
+{
+  "materia": "materia:BHTZ",
+  "nodos": [
+    {
+      "id": "materia:BHTZ",
+      "tipo": "Materia",
+      "notation": "BHTZ",
+      "prefLabel": "Historia de la Música y de la Danza (Bachillerato)",
+      "cursos": [
+        "curso:B02"
+      ],
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BHTZC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BHTZC1",
+      "prefLabel": "BHTZC1 · Identificar las características técnicas de la música y de la danza, apreciando su…",
+      "definition": "Identificar las características técnicas de la música y de la danza, apreciando su evolución a lo largo de la historia a través del análisis de las fuentes de estudio disponibles, para reconocer sus rasgos estilísticos y su función en un determinado contexto.",
+      "broader": "materia:BHTZ",
+      "materia": "materia:BHTZ",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BHTZC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BHTZC2",
+      "prefLabel": "BHTZC2 · Relacionar la música y la danza con otras formas de expresión artística,…",
+      "definition": "Relacionar la música y la danza con otras formas de expresión artística, vinculándolas con la evolución del pensamiento humano, para comprender el carácter interdisciplinar del arte y valorar la importancia de su conservación y difusión como patrimonio cultural.",
+      "broader": "materia:BHTZ",
+      "materia": "materia:BHTZ",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BHTZC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BHTZC3",
+      "prefLabel": "BHTZC3 · Interpretar fragmentos musicales o adaptaciones de obras relevantes de la música y de la…",
+      "definition": "Interpretar fragmentos musicales o adaptaciones de obras relevantes de la música y de la danza de diferentes épocas y estilos, a través de la dramatización y el empleo de la voz, el cuerpo y distintos instrumentos, para vivenciar el hecho artístico y comprenderlo desde la propia experiencia.",
+      "broader": "materia:BHTZ",
+      "materia": "materia:BHTZ",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BHTZC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BHTZC4",
+      "prefLabel": "BHTZC4 · Investigar sobre los principales compositores, intérpretes y obras de la historia de la…",
+      "definition": "Investigar sobre los principales compositores, intérpretes y obras de la historia de la música y de la danza, utilizando fuentes de información fiables, para analizar las diferentes corrientes interpretativas y reflexionar sobre la riqueza del patrimonio musical y sobre la propia identidad cultural.",
+      "broader": "materia:BHTZ",
+      "materia": "materia:BHTZ",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BHTZC5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BHTZC5",
+      "prefLabel": "BHTZC5 · Transmitir opiniones e ideas propias, informadas y fundamentadas, sobre la evolución de…",
+      "definition": "Transmitir opiniones e ideas propias, informadas y fundamentadas, sobre la evolución de la música y de la danza, usando un vocabulario específico, formulando argumentos de carácter teórico y estético y analizando críticamente el contexto de creación de las obras, para desarrollar la capacidad comunicativa sobre el hecho musical.",
+      "broader": "materia:BHTZ",
+      "materia": "materia:BHTZ",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BHTZ02BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "BHTZ02BC1",
+      "prefLabel": "Historia de la Música y de la Danza · 2º Bachillerato · bloque competencial C1",
+      "scopeNote": "A través del presente bloque competencial, se persigue constatar si el alumnado es capaz de reconocer y explicar las características técnicas y rasgos estilísticos de obras de compositoras y compositores de diferentes épocas y culturas estudiadas en el aula, demostrando coherencia, fluidez y corrección en su expresión oral y escrita. A su vez, se evaluará su capacidad para vincular estas obras con el contexto en que fueron creadas y para valorar críticamente sus funciones y los factores históricos, sociales y estéticos que las rodean, lo cual permitirá constatar su grado de madurez personal y social, así como el desarrollo de su autonomía y espíritu crítico, contribuyendo de esta manera a los objetivos de la competencia específica. Igualmente se comprobará el desarrollo de actitudes como el respeto y la valoración crítica de la diversidad cultural y artística presente en la sociedad, la adopción de un juicio propio y argumentado, la empatía ante la pluralidad de valores y la necesidad de valorar y conservar el patrimonio artístico. El acercamiento a estas obras, a través de la audición y visionado activo y el análisis de partituras y textos, permitirá evaluar la capacidad para comprender, interpretar y valorar con actitud crítica textos escritos y multimodales. Igualmente se verificará la capacidad para localizar, seleccionar y contrastar de manera autónoma información procedente de diferentes fuentes y aplicar criterios de validez y fiabilidad en los motores de búsqueda en internet, así como organizar de forma adecuada y segura el almacenamiento de la información para referenciarla y reutilizarla en futuras ocasiones.",
+      "broader": "materia:BHTZ",
+      "agrupa": [
+        "ce:BHTZC1"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CP3",
+        "CD1",
+        "CPSAA4",
+        "CC1",
+        "CC3",
+        "CCEC2"
+      ],
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BHTZ02BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "BHTZ02BC2",
+      "prefLabel": "Historia de la Música y de la Danza · 2º Bachillerato · bloque competencial C2",
+      "scopeNote": "La activación del presente bloque competencial permitirá comprobar si el alumnado es capaz de explicar las relaciones entre la música y la danza con otras formas de expresión artística, y valorar críticamente las manifestaciones artísticas como un reflejo de la sociedad en la que han sido creadas. Asimismo, se persigue verificar en qué grado es capaz de identificar los factores históricos y estéticos comunes a las diversas formas de expresión artística y vincularlas con la evolución del pensamiento humano. Se evaluará la participación activa en tareas de audición y visionado, así como la habilidad para analizar los elementos técnicos y estéticos que caracterizan las obras estudiadas, demostrando coherencia, fluidez y corrección en su expresión oral y escrita, e interactuando con el grupo con actitud cooperativa y respetuosa. De igual forma, se valorará la aptitud para realizar búsquedas avanzadas en Internet, localizar, seleccionar y contrastar información, aplicando criterios de validez y calidad, para obtener conclusiones lógicas de forma autónoma. Igualmente se verificará la comprensión, interpretación y valoración crítica de textos y partituras, a través del análisis de las mismas, así como el empleo de las tecnologías digitales, con actitud crítica y responsable, en procesos de indagación. Por último, se evaluará la capacidad para valorar críticamente la importancia del patrimonio cultural y artístico de Canarias y la producción de las mujeres artistas y compositoras; y se comprobará la adquisición de una actitud responsable hacia la conservación y difusión del patrimonio cultural y artístico, contribuyendo de esta manera a la finalidad de la competencia específica.",
+      "broader": "materia:BHTZ",
+      "agrupa": [
+        "ce:BHTZC2"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CP3",
+        "CD1",
+        "CPSAA4",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BHTZ02BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "BHTZ02BC3",
+      "prefLabel": "Historia de la Música y de la Danza · 2º Bachillerato · bloque competencial C3",
+      "scopeNote": "A través del presente bloque competencial, concretado en un único criterio de evaluación, se evaluará en qué medida el alumnado es capaz de  interpretar o dramatizar obras de diferentes épocas y culturas. Se constatará la capacidad para aplicar estrategias y técnicas coreográficas, de dramatización e interpretación instrumental y vocal, asumiendo diversas funciones en dicha práctica y reflexionando sobre el proceso y el resultado obtenido como oportunidad para el aprendizaje. Se verificará que la participación en las actividades de interpretación grupal se realice con una actitud de respeto y responsabilidad, distribuyendo las tareas de manera ecuánime, mostrando sensibilidad hacia las emociones y experiencias de los demás, para consolidar una personalidad empática e independiente y una búsqueda de calidad artística en los objetivos propuestos. Finalmente, se evaluará la capacidad para comprender, interpretar y valorar críticamente partituras con notación convencional y no convencional, como apoyo a la práctica musical, participando en las dinámicas de grupo de manera activa e informada y respondiendo con creatividad y eficacia a los desempeños derivados de la expresión artística. Todo ello permitirá comprender el hecho artístico desde la propia experiencia, contribuyendo de esta manera a la finalidad de la competencia específica.",
+      "broader": "materia:BHTZ",
+      "agrupa": [
+        "ce:BHTZC3"
+      ],
+      "descriptores": [
+        "CCL2",
+        "CPSAA1.1",
+        "CPSAA3.1",
+        "CPSAA3.2",
+        "CE3",
+        "CCEC3.1",
+        "CCEC4.1",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BHTZ02BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "BHTZ02BC4",
+      "prefLabel": "Historia de la Música y de la Danza · 2º Bachillerato · bloque competencial C4",
+      "scopeNote": "A través del presente bloque competencial se constatará la capacidad del alumnado para aplicar estrategias de búsqueda, selección y reelaboración de información sobre las principales compositoras y compositores, intérpretes y obras de la historia de la música y de la danza. Para ello se verificará el empleo autónomo de fuentes diversas, siguiendo criterios de fiabilidad y validez, y respetando los derechos de autoría. A su vez, se verificará si es capaz de comparar distintas versiones de una misma obra, analizar las diferentes corrientes interpretativas y reflexionar sobre la riqueza del patrimonio musical y su propia identidad cultural, contribuyendo de esta manera a la finalidad de la competencia específica. Se evaluará la capacidad para expresar sus conclusiones, de forma oral, escrita o multimodal, con coherencia, fluidez y de manera adecuada al contexto, a través de la participación en coloquios o debates, la redacción de críticas o artículos de opinión y la elaboración de contenidos digitales de forma individual o colectiva. Por último, se valorará la participación activa y respetuosa en la audición de obras de diferentes compositoras y compositores, artistas e intérpretes internacionales, nacionales y canarios, lo que permitirá evaluar la habilidad para identificar las especificidades e intencionalidades de las obras estudiadas y vincularlas con la estética del periodo.",
+      "broader": "materia:BHTZ",
+      "agrupa": [
+        "ce:BHTZC4"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CPSAA4",
+        "CCEC1",
+        "CCEC2",
+        "CD1",
+        "CD2"
+      ],
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BHTZ02BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "BHTZ02BC5",
+      "prefLabel": "Historia de la Música y de la Danza · 2º Bachillerato · bloque competencial C5",
+      "scopeNote": "A través del presente bloque competencial, se verificará si el alumnado es capaz de explicar diversos conceptos teórico-estéticos vinculados a obras estudiadas en el aula y expresar opiniones e ideas propias sobre las diversas manifestaciones musicales y dancísticas. Para ello, se evaluará la fluidez, la corrección y la coherencia en la expresión oral y escrita, y el uso de un vocabulario técnico específico, a través de la creación de reseñas, comentarios y críticas musicales, entre otras producciones. Se valorará igualmente la adopción de un juicio propio y argumentado, y el empleo fiable y responsable de las tecnologías digitales. Se constatará que el alumnado presente una actitud de rechazo ante todo tipo de discriminación y violencia existente en los contextos estudiados, así como la adopción de una actitud proactiva ante la promoción de la igualdad efectiva entre mujeres y hombres. Se evaluará la participación activa y respetuosa en ejercicios de audición y visionado, así como la habilidad para analizar críticamente el contexto de creación de las obras, poniendo en valor el papel de la mujer en la creación musical. Todo ello permitirá desarrollar la capacidad comunicativa sobre el hecho musical, contribuyendo de esta manera a la finalidad de la competencia específica.",
+      "broader": "materia:BHTZ",
+      "agrupa": [
+        "ce:BHTZC5"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "CD2",
+        "CD3",
+        "CPSAA5",
+        "CC1",
+        "CC3",
+        "CCEC1",
+        "CCEC4.2",
+        "CPSAA1.1",
+        "CE3"
+      ],
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BHTZ02CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BHTZ02CE1.1",
+      "prefLabel": "BHTZ02CE1.1 · Reconocer y explicar los rasgos estilísticos y la función de la música y la danza de…",
+      "definition": "Reconocer y explicar los rasgos estilísticos y la función de la música y la danza de diferentes épocas y culturas, a través de la audición y visionado activo, así como del análisis de partituras y textos, para establecer vínculos entre sus características y los hechos históricos, sociales y estéticos de su contexto y para apreciar su evolución a lo largo de la historia.",
+      "broader": "ce:BHTZC1",
+      "bloque": "bc:BHTZ02BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CP3",
+        "CD1",
+        "CPSAA4",
+        "CC1",
+        "CC3",
+        "CCEC2"
+      ],
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BHTZ02CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BHTZ02CE2.1",
+      "prefLabel": "BHTZ02CE2.1 · Explicar la relación entre la música, la danza y otras manifestaciones artísticas, con…",
+      "definition": "Explicar la relación entre la música, la danza y otras manifestaciones artísticas, con especial atención a las de Canarias, identificando los condicionantes históricos y los fundamentos estéticos que comparten, a través de la audición y el visionado activo, el análisis de textos y la indagación, para comprender y analizar su carácter interdisciplinar.",
+      "broader": "ce:BHTZC2",
+      "bloque": "bc:BHTZ02BC2",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CP3",
+        "CD1",
+        "CPSAA4",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BHTZ02CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BHTZ02CE2.2",
+      "prefLabel": "BHTZ02CE2.2 · Valorar críticamente la importancia del patrimonio musical, escénico y artístico como…",
+      "definition": "Valorar críticamente la importancia del patrimonio musical, escénico y artístico como expresión de una época y cultura, con especial atención al de Canarias y a la producción de las mujeres artistas y compositoras, a través de la audición y el visionado activo, el análisis de textos y la indagación, para fomentar la responsabilidad sobre su conservación y difusión como patrimonio cultural.",
+      "broader": "ce:BHTZC2",
+      "bloque": "bc:BHTZ02BC2",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CP3",
+        "CD1",
+        "CPSAA4",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BHTZ02CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BHTZ02CE3.1",
+      "prefLabel": "BHTZ02CE3.1 · Interpretar o dramatizar obras de diferentes épocas y culturas, a través de la práctica…",
+      "definition": "Interpretar o dramatizar obras de diferentes épocas y culturas, a través de la práctica vocal, instrumental, corporal y de danza, asumiendo las diferentes funciones que se asignen y mostrando interés por aproximarse al conocimiento y disfrute del repertorio propuesto, para vivenciar el hecho artístico y comprenderlo desde la propia experiencia.",
+      "broader": "ce:BHTZC3",
+      "bloque": "bc:BHTZ02BC3",
+      "descriptores": [
+        "CCL2",
+        "CPSAA1.1",
+        "CPSAA3.1",
+        "CPSAA3.2",
+        "CE3",
+        "CCEC3.1",
+        "CCEC4.1",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BHTZ02CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BHTZ02CE4.1",
+      "prefLabel": "BHTZ02CE4.1 · Analizar las diferentes corrientes interpretativas, a través de la comparación de…",
+      "definition": "Analizar las diferentes corrientes interpretativas, a través de la comparación de distintas versiones musicales de una misma obra, para identificar su vinculación con la estética del periodo.",
+      "broader": "ce:BHTZC4",
+      "bloque": "bc:BHTZ02BC4",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CPSAA4",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BHTZ02CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BHTZ02CE4.2",
+      "prefLabel": "BHTZ02CE4.2 · Aplicar estrategias de búsqueda, de selección y de reelaboración de información en…",
+      "definition": "Aplicar estrategias de búsqueda, de selección y de reelaboración de información en investigaciones sobre las principales compositoras y compositores, intérpretes y obras de la historia de la música y de la danza, a través de la utilización de fuentes de información fiables, para reconocer la identidad cultural propia y valorar la riqueza del patrimonio musical.",
+      "broader": "ce:BHTZC4",
+      "bloque": "bc:BHTZ02BC4",
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "CD1",
+        "CD2",
+        "CPSAA4",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BHTZ02CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BHTZ02CE5.1",
+      "prefLabel": "BHTZ02CE5.1 · Explicar los conceptos teórico-estéticos vinculados a obras de música y danza, a…",
+      "definition": "Explicar los conceptos teórico-estéticos vinculados a obras de música y danza, a través del uso fiable y responsable de las herramientas tecnológicas en la creación de productos digitales, respetando los derechos de autoría y la propiedad intelectual, para valorar el patrimonio musical y artístico, contrastando sus singularidades y partiendo de su propia identidad.",
+      "broader": "ce:BHTZC5",
+      "bloque": "bc:BHTZ02BC5",
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "CD2",
+        "CD3",
+        "CPSAA5",
+        "CC1",
+        "CC3",
+        "CCEC1",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BHTZ02CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BHTZ02CE5.2",
+      "prefLabel": "BHTZ02CE5.2 · Expresar opiniones e ideas propias, informadas y fundamentadas, sobre el patrimonio…",
+      "definition": "Expresar opiniones e ideas propias, informadas y fundamentadas, sobre el patrimonio musical y dancístico, usando un vocabulario específico, a través del análisis crítico del contexto de creación de las obras y la formulación de argumentos de carácter teórico y estético, para desarrollar la capacidad comunicativa sobre el hecho musical.",
+      "broader": "ce:BHTZC5",
+      "bloque": "bc:BHTZ02BC5",
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "CPSAA1.1",
+        "CC1",
+        "CC3",
+        "CE3",
+        "CCEC1",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "BHTZ02SBI",
+      "prefLabel": "BHTZ02SBI · I. Percepción visual y auditiva",
+      "definition": "Percepción visual y auditiva",
+      "broader": "materia:BHTZ",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "BHTZ02SBII",
+      "prefLabel": "BHTZ02SBII · II. Contextos de creación",
+      "definition": "Contextos de creación",
+      "broader": "materia:BHTZ",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "BHTZ02SBIII",
+      "prefLabel": "BHTZ02SBIII · III. Investigación, opinión crítica y difusión",
+      "definition": "Investigación, opinión crítica y difusión",
+      "broader": "materia:BHTZ",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "BHTZ02SBIV",
+      "prefLabel": "BHTZ02SBIV · IV. Experimentación activa",
+      "definition": "Experimentación activa",
+      "broader": "materia:BHTZ",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "BHTZ02SBI.1",
+      "prefLabel": "BHTZ02SBI.1 · Identificación y análisis de los principales elementos y características de la música y…",
+      "definition": "Identificación y análisis de los principales elementos y características de la música y de la danza.",
+      "broader": "sb:BHTZ02SBI",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "BHTZ02SBI.2",
+      "prefLabel": "BHTZ02SBI.2 · Análisis comparativo de distintas versiones musicales de una misma obra.",
+      "definition": "Análisis comparativo de distintas versiones musicales de una misma obra.",
+      "broader": "sb:BHTZ02SBI",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "BHTZ02SBI.3",
+      "prefLabel": "BHTZ02SBI.3 · Reconocimiento de los rasgos que definen la música y la danza de diferentes periodos…",
+      "definition": "Reconocimiento de los rasgos que definen la música y la danza de diferentes periodos históricos, a través de la audición y el visionado activo.",
+      "broader": "sb:BHTZ02SBI",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "BHTZ02SBI.4",
+      "prefLabel": "BHTZ02SBI.4 · Aplicación de estrategias de escucha y visionado activo, análisis de textos y partituras.",
+      "definition": "Aplicación de estrategias de escucha y visionado activo, análisis de textos y partituras.",
+      "broader": "sb:BHTZ02SBI",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "BHTZ02SBI.5",
+      "prefLabel": "BHTZ02SBI.5 · Análisis con perspectiva de género. Visibilización de la producción de mujeres…",
+      "definition": "Análisis con perspectiva de género. Visibilización de la producción de mujeres compositoras e intérpretes",
+      "broader": "sb:BHTZ02SBI",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "BHTZ02SBII.1",
+      "prefLabel": "BHTZ02SBII.1 · Vinculación entre los factores culturales, sociales, económicos y políticos con la…",
+      "definition": "Vinculación entre los factores culturales, sociales, económicos y políticos con la creación musical. Explicación de la función social de la música y de la danza.",
+      "broader": "sb:BHTZ02SBII",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "BHTZ02SBII.2",
+      "prefLabel": "BHTZ02SBII.2 · Identificación de las características y evolución estética y estilística de la…",
+      "definition": "Identificación de las características y evolución estética y estilística de la música y de la danza a lo largo de la historia.",
+      "broader": "sb:BHTZ02SBII",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "BHTZ02SBII.3",
+      "prefLabel": "BHTZ02SBII.3 · Identificación de los principales estilos de música y danza del patrimonio musical…",
+      "definition": "Identificación de los principales estilos de música y danza del patrimonio musical canario, así como de sus características.",
+      "broader": "sb:BHTZ02SBII",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "BHTZ02SBII.4",
+      "prefLabel": "BHTZ02SBII.4 · Audición y visionado de obras de diferentes compositores y compositoras, artistas e…",
+      "definition": "Audición y visionado de obras de diferentes compositores y compositoras, artistas e intérpretes internacionales, nacionales y locales. Visibilización y valoración de la contribución de las mujeres a la producción cultural y artística.",
+      "broader": "sb:BHTZ02SBII",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBII.5",
+      "tipo": "SaberBasico",
+      "notation": "BHTZ02SBII.5",
+      "prefLabel": "BHTZ02SBII.5 · Contextualización de las principales corrientes, escuelas, autores y autoras,…",
+      "definition": "Contextualización de las principales corrientes, escuelas, autores y autoras, intérpretes y obras representativas de la música y de la danza desde la Antigüedad clásica hasta nuestros días.",
+      "broader": "sb:BHTZ02SBII",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBII.6",
+      "tipo": "SaberBasico",
+      "notation": "BHTZ02SBII.6",
+      "prefLabel": "BHTZ02SBII.6 · Establecimiento de relaciones interdisciplinares entre la música, la danza y las demás…",
+      "definition": "Establecimiento de relaciones interdisciplinares entre la música, la danza y las demás artes.",
+      "broader": "sb:BHTZ02SBII",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBII.7",
+      "tipo": "SaberBasico",
+      "notation": "BHTZ02SBII.7",
+      "prefLabel": "BHTZ02SBII.7 · Interés por conocer, respetar, conservar y difundir el patrimonio musical y dancístico.",
+      "definition": "Interés por conocer, respetar, conservar y difundir el patrimonio musical y dancístico.",
+      "broader": "sb:BHTZ02SBII",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBII.8",
+      "tipo": "SaberBasico",
+      "notation": "BHTZ02SBII.8",
+      "prefLabel": "BHTZ02SBII.8 · Análisis de los contextos de creación con perspectiva de género.",
+      "definition": "Análisis de los contextos de creación con perspectiva de género.",
+      "broader": "sb:BHTZ02SBII",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "BHTZ02SBIII.1",
+      "prefLabel": "BHTZ02SBIII.1 · Aplicación de estrategias de búsqueda, selección, tratamiento y difusión de información.",
+      "definition": "Aplicación de estrategias de búsqueda, selección, tratamiento y difusión de información.",
+      "broader": "sb:BHTZ02SBIII",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "BHTZ02SBIII.2",
+      "prefLabel": "BHTZ02SBIII.2 · Utilización de fuentes de investigación siguiendo criterios de fiabilidad y validez.",
+      "definition": "Utilización de fuentes de investigación siguiendo criterios de fiabilidad y validez.",
+      "broader": "sb:BHTZ02SBIII",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "BHTZ02SBIII.3",
+      "prefLabel": "BHTZ02SBIII.3 · Uso de las tecnologías digitales en la difusión de la música y de la danza.",
+      "definition": "Uso de las tecnologías digitales en la difusión de la música y de la danza.",
+      "broader": "sb:BHTZ02SBIII",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "BHTZ02SBIII.4",
+      "prefLabel": "BHTZ02SBIII.4 · Elaboración de reseñas, comentarios y críticas musicales.",
+      "definition": "Elaboración de reseñas, comentarios y críticas musicales.",
+      "broader": "sb:BHTZ02SBIII",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBIII.5",
+      "tipo": "SaberBasico",
+      "notation": "BHTZ02SBIII.5",
+      "prefLabel": "BHTZ02SBIII.5 · Respeto de los derechos de autoría y de la propiedad intelectual.",
+      "definition": "Respeto de los derechos de autoría y de la propiedad intelectual.",
+      "broader": "sb:BHTZ02SBIII",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "BHTZ02SBIV.1",
+      "prefLabel": "BHTZ02SBIV.1 · Aplicación de técnicas sencillas de interpretación vocal e instrumental en obras…",
+      "definition": "Aplicación de técnicas sencillas de interpretación vocal e instrumental en obras adaptadas o fragmentos musicales representativos del repertorio musical internacional, nacional y local.",
+      "broader": "sb:BHTZ02SBIV",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "BHTZ02SBIV.2",
+      "prefLabel": "BHTZ02SBIV.2 · Aplicación de técnicas sencillas en la práctica de danzas de diferentes épocas y culturas.",
+      "definition": "Aplicación de técnicas sencillas en la práctica de danzas de diferentes épocas y culturas.",
+      "broader": "sb:BHTZ02SBIV",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BHTZ02SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "BHTZ02SBIV.3",
+      "prefLabel": "BHTZ02SBIV.3 · Aplicación de estrategias y técnicas básicas de dramatización.",
+      "definition": "Aplicación de estrategias y técnicas básicas de dramatización.",
+      "broader": "sb:BHTZ02SBIV",
+      "materia": "materia:BHTZ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    }
+  ]
+}

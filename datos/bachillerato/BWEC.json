@@ -1,0 +1,865 @@
+{
+  "materia": "materia:BWEC",
+  "nodos": [
+    {
+      "id": "materia:BWEC",
+      "tipo": "Materia",
+      "notation": "BWEC",
+      "prefLabel": "Tecnología e Ingeniería I (Bachillerato)",
+      "cursos": [
+        "curso:B01"
+      ],
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BWECC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BWECC1",
+      "prefLabel": "BWECC1 · Coordinar y desarrollar proyectos de investigación con una actitud crítica y…",
+      "definition": "Coordinar y desarrollar proyectos de investigación con una actitud crítica y emprendedora, implementando estrategias y técnicas eficientes de resolución de problemas y comunicando los resultados de manera adecuada, para crear y mejorar productos y sistemas de manera continua.",
+      "broader": "materia:BWEC",
+      "materia": "materia:BWEC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BWECC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BWECC2",
+      "prefLabel": "BWECC2 · Seleccionar materiales y elaborar estudios de impacto, aplicando criterios técnicos y de…",
+      "definition": "Seleccionar materiales y elaborar estudios de impacto, aplicando criterios técnicos y de sostenibilidad para fabricar productos de calidad que den respuesta a problemas y tareas planteados, desde un enfoque responsable y ético.",
+      "broader": "materia:BWEC",
+      "materia": "materia:BWEC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BWECC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BWECC3",
+      "prefLabel": "BWECC3 · Utilizar las herramientas digitales adecuadas, analizando sus posibilidades,…",
+      "definition": "Utilizar las herramientas digitales adecuadas, analizando sus posibilidades, configurándolas de acuerdo a sus necesidades y aplicando conocimientos interdisciplinares, para resolver tareas, así como para realizar la presentación de los resultados de una manera óptima.",
+      "broader": "materia:BWEC",
+      "materia": "materia:BWEC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BWECC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BWECC4",
+      "prefLabel": "BWECC4 · Generar conocimientos y mejorar destrezas técnicas, transfiriendo y aplicando saberes de…",
+      "definition": "Generar conocimientos y mejorar destrezas técnicas, transfiriendo y aplicando saberes de otras disciplinas científicas con actitud creativa, para calcular, y resolver problemas o dar respuesta a necesidades de los distintos ámbitos de la ingeniería.",
+      "broader": "materia:BWEC",
+      "materia": "materia:BWEC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BWECC5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BWECC5",
+      "prefLabel": "BWECC5 · Diseñar, crear y evaluar sistemas tecnológicos, aplicando conocimientos de programación…",
+      "definition": "Diseñar, crear y evaluar sistemas tecnológicos, aplicando conocimientos de programación informática, regulación automática y control, así como las posibilidades que ofrecen las tecnologías emergentes, para estudiar, controlar y automatizar tareas.",
+      "broader": "materia:BWEC",
+      "materia": "materia:BWEC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BWECC6",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BWECC6",
+      "prefLabel": "BWECC6 · Analizar y comprender sistemas tecnológicos de los distintos ámbitos de la ingeniería,…",
+      "definition": "Analizar y comprender sistemas tecnológicos de los distintos ámbitos de la ingeniería, estudiando sus características, consumo y eficiencia energética, para evaluar el uso responsable y sostenible que se hace de la tecnología.",
+      "broader": "materia:BWEC",
+      "materia": "materia:BWEC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BWEC01BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "BWEC01BC1",
+      "prefLabel": "Tecnología e Ingeniería I · 1º Bachillerato · bloque competencial C1",
+      "scopeNote": "Con este bloque competencial se persigue constatar que el alumnado dispone de las estrategias de gestión, coordinación y participación propias del trabajo por proyectos, incorporando técnicas específicas de investigación, ideación de soluciones, fabricación y mejora de productos y sistemas de calidad que den respuesta a problemas planteados, desde una perspectiva interdisciplinar y con un enfoque ético y ecosocialmente responsable. Para ello, el alumnado trabajará de forma colaborativa, utilizando diversas técnicas acordes a cada fase, como diagramas de Gantt, metodologías ágiles o pensamiento de diseño (design thinking), con la finalidad de utilizar los métodos y aplicaciones adecuados a su nivel para diseñar y crear soluciones que den respuesta a necesidades planteadas, así como de ofrecer mejoras a las mismas de manera continua, evaluando tanto los productos obtenidos como su diseño y ciclo de vida, desarrollando estrategias de control de calidad, comercialización, logística, transporte y distribución. Asimismo, el alumnado debe ser capaz de localizar, seleccionar, contrastar e interpretar la información para elaborar la documentación técnica necesaria y comunicarla de forma oral, escrita y multimodal, de manera coherente y argumentada, usando un lenguaje inclusivo y no sexista.",
+      "broader": "materia:BWEC",
+      "agrupa": [
+        "ce:BWECC1"
+      ],
+      "descriptores": [
+        "CCL1",
+        "STEM3",
+        "CD1",
+        "CD5",
+        "CE3",
+        "CPSAA1.1",
+        "CD3",
+        "CCL3",
+        "STEM4"
+      ],
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BWEC01BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "BWEC01BC2",
+      "prefLabel": "Tecnología e Ingeniería I · 1º Bachillerato · bloque competencial C2",
+      "scopeNote": "Con este bloque competencial se pretende constatar la adquisición, por parte del alumnado, de estrategias que le permitan seleccionar productos que han sido diseñados y fabricados bajo criterios de sostenibilidad, eficiencia energética y respeto social, tanto por los materiales utilizados en su fabricación como por los procedimientos de conformado aplicados, fomentando con ello una participación activa y responsable en la sociedad actual de consumo. Para ello, el alumnado será capaz de fabricar un producto de calidad que dé respuesta a las necesidades planteadas, trabajando de forma colaborativa y utilizando el pensamiento científico para plantear hipótesis que se contrastan mediante la experimentación y la investigación, con la finalidad de mejorar su entorno, seleccionando y compartiendo la información de manera crítica, valorando las técnicas de fabricación más adecuadas a cada caso, siguiendo criterios de sostenibilidad y respetando las normas de seguridad e higiene. Asimismo, se valorará la capacidad de determinar el ciclo de vida de un producto, analizando su huella ecológica y proponiendo opciones de mejora continua tanto de los productos elaborados como de las técnicas utilizadas.",
+      "broader": "materia:BWEC",
+      "agrupa": [
+        "ce:BWECC2"
+      ],
+      "descriptores": [
+        "STEM2",
+        "CD2",
+        "CPSAA1.1",
+        "CC4",
+        "STEM5",
+        "CD1",
+        "CPSAA4",
+        "CE1"
+      ],
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BWEC01BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "BWEC01BC3",
+      "prefLabel": "Tecnología e Ingeniería I · 1º Bachillerato · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial se pretende contribuir a la alfabetización informacional del alumnado, de manera que aplique herramientas digitales que le permitan responder adecuadamente a las necesidades de la sociedad actual, así como realizar eficazmente el trabajo colaborativo, la comunicación de ideas o la difusión y presentación de trabajos, por lo que se comprobará que es capaz de hacer un uso óptimo de estas herramientas, adecuándolas a cada situación para resolver las tareas planteadas de manera interdisciplinar (proceso de diseño y creación de soluciones, dimensionado, simulación, programación y control de sistemas, fabricación de productos, etc.), aplicando criterios adecuados de búsqueda de información y seleccionando los resultados de manera crítica y responsable para desarrollar soluciones innovadoras y sostenibles de manera colaborativa, así como para presentar y difundir los resultados obtenidos de forma óptima.",
+      "broader": "materia:BWEC",
+      "agrupa": [
+        "ce:BWECC3"
+      ],
+      "descriptores": [
+        "STEM1",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BWEC01BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "BWEC01BC4",
+      "prefLabel": "Tecnología e Ingeniería I · 1º Bachillerato · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial se valorará el desarrollo y adquisición de estrategias por parte del alumnado que le permitan integrar las habilidades, técnicas y conocimientos de las diferentes disciplinas de manera natural, con la finalidad de idear y desarrollar soluciones que den respuesta a problemas planteados integrando saberes de diferentes áreas del conocimiento para obtener soluciones diversas y eficaces. Se comprobará, por tanto, que el alumnado es capaz de proponer y desarrollar respuestas innovadoras y sostenibles a problemas asociados a sistemas e instalaciones mecánicas, eléctricas y electrónicas, aplicando los fundamentos adecuados en cada caso para el desarrollo de montajes o simulaciones, siendo capaz de utilizar las herramientas adquiridas para generar nuevo conocimiento y diseñar soluciones que requieran el uso de mecanismos de transmisión y transformación de movimientos, así como de sistemas eléctricos de corriente continua, realizando los cálculos de magnitudes asociadas y construyendo o simulando las soluciones ideadas, analizándolas de manera crítica para posibilitar una mejora constante de las mismas.",
+      "broader": "materia:BWEC",
+      "agrupa": [
+        "ce:BWECC4"
+      ],
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD2",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BWEC01BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "BWEC01BC5",
+      "prefLabel": "Tecnología e Ingeniería I · 1º Bachillerato · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de comprender el proceso de diseño y desarrollo de un producto desde un punto de vista industrial, analizando los sistemas técnicos para el control automático en máquinas y en robots, así como a través de las tecnologías emergentes (inteligencia artificial, internet de las cosas, big data, etc.) aplicadas al control de objetos. Para ello se comprobará que el alumnado es capaz de controlar el funcionamiento de diversos sistemas tecnológicos y robóticos, aplicando el pensamiento computacional y utilizando lenguajes de programación, así como aplicando las posibilidades que ofrecen las tecnologías emergentes antes mencionadas y los protocolos de comunicación de redes de diferentes dispositivos. También se valorará su capacidad para diseñar, crear y evaluar sistemas tecnológicos de manera colaborativa y segura, utilizando el pensamiento científico, estrategias variadas, dispositivos digitales, herramientas, aplicaciones y servicios en línea, valorando de manera crítica las soluciones innovadoras y sostenibles.",
+      "broader": "materia:BWEC",
+      "agrupa": [
+        "ce:BWECC5"
+      ],
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CE3",
+        "CPSAA1.1"
+      ],
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BWEC01BC6",
+      "tipo": "BloqueCompetencial",
+      "notation": "BWEC01BC6",
+      "prefLabel": "Tecnología e Ingeniería I · 1º Bachillerato · bloque competencial C6",
+      "scopeNote": "A través de este bloque competencial se pretende dotar al alumnado de un criterio informado sobre el impacto a nivel social y medioambiental que generan los sistemas y dispositivos tecnológicos, específicamente los sistemas energéticos y suministros domésticos, así como de las técnicas de ahorro existentes, favoreciendo actitudes ecosocialmente responsables y contribuyendo a la consecución de los Objetivos de Desarrollo Sostenible, por lo que se constatará si es capaz de analizar y evaluar los mercados energéticos en Canarias y en el mundo, además de los distintos sistemas de generación de energía, incluyendo tanto las fuentes de energía renovables como las no renovables, aplicando criterios de eficiencia energética y sostenibilidad para analizar las instalaciones eléctricas, de agua, climatización, de comunicación y domóticas de una vivienda, evaluando, así, el uso responsable y sostenible que se hace de estas tecnologías. Se valorará que el alumnado utilice técnicas del pensamiento científico, aplicando información obtenida de fuentes fiables, seleccionándola, reestructurándola y referenciándola, para examinar las relaciones de inter y ecodependencia entre nuestras formas de vida y el entorno, valorando la huella ecológica generada y adoptando las medidas necesarias para desarrollar un estilo de vida sostenible.",
+      "broader": "materia:BWEC",
+      "agrupa": [
+        "ce:BWECC6"
+      ],
+      "descriptores": [
+        "STEM2",
+        "STEM5",
+        "CD2",
+        "CPSAA2",
+        "CC4",
+        "CE1",
+        "CCL3",
+        "CD1",
+        "CD4"
+      ],
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BWEC01CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BWEC01CE1.1",
+      "prefLabel": "BWEC01CE1.1 · Investigar y diseñar proyectos con sentido crítico y ético que muestren de forma gráfica…",
+      "definition": "Investigar y diseñar proyectos con sentido crítico y ético que muestren de forma gráfica la creación y mejora de un producto, seleccionando, referenciando e interpretando información relacionada, para obtener soluciones tecnológicas sostenibles.",
+      "broader": "ce:BWECC1",
+      "bloque": "bc:BWEC01BC1",
+      "descriptores": [
+        "CCL1",
+        "STEM3",
+        "CD1",
+        "CD5",
+        "CE3"
+      ],
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BWEC01CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BWEC01CE1.2",
+      "prefLabel": "BWEC01CE1.2 · Participar en el desarrollo, gestión y coordinación de proyectos de creación y…",
+      "definition": "Participar en el desarrollo, gestión y coordinación de proyectos de creación y perfeccionamiento de productos viables, sostenibles y socialmente responsables, identificando mejoras y creando prototipos mediante un proceso iterativo de evaluación, con actitud crítica, creativa y emprendedora.",
+      "broader": "ce:BWECC1",
+      "bloque": "bc:BWEC01BC1",
+      "descriptores": [
+        "STEM3",
+        "CD5",
+        "CPSAA1.1",
+        "CE3"
+      ],
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BWEC01CE1.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BWEC01CE1.3",
+      "prefLabel": "BWEC01CE1.3 · Participar de forma colaborativa en tareas tecnológicas, incorporando el uso de recursos…",
+      "definition": "Participar de forma colaborativa en tareas tecnológicas, incorporando el uso de recursos digitales para favorecer la comunicación, ejerciendo la escucha activa y realizando aportaciones al equipo a través del rol asignado, fomentando el bienestar grupal y las relaciones saludables e inclusivas.",
+      "broader": "ce:BWECC1",
+      "bloque": "bc:BWEC01BC1",
+      "descriptores": [
+        "STEM3",
+        "CD3",
+        "CPSAA1.1"
+      ],
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BWEC01CE1.4",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BWEC01CE1.4",
+      "prefLabel": "BWEC01CE1.4 · Elaborar y comunicar la documentación técnica relacionada con las ideas y soluciones…",
+      "definition": "Elaborar y comunicar la documentación técnica relacionada con las ideas y soluciones tecnológicas propuestas, generando diagramas funcionales y haciendo uso de los medios manuales y aplicaciones digitales pertinentes.",
+      "broader": "ce:BWECC1",
+      "bloque": "bc:BWEC01BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM4",
+        "CD3"
+      ],
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BWEC01CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BWEC01CE2.1",
+      "prefLabel": "BWEC01CE2.1 · Determinar el ciclo de vida de un producto, analizando su huella ecológica, planificando…",
+      "definition": "Determinar el ciclo de vida de un producto, analizando su huella ecológica, planificando y aplicando medidas de control de calidad en sus distintas etapas, desde el diseño a la comercialización, utilizando estrategias de mejora continua.",
+      "broader": "ce:BWECC2",
+      "bloque": "bc:BWEC01BC2",
+      "descriptores": [
+        "STEM2",
+        "CD2",
+        "CPSAA1.1",
+        "CC4"
+      ],
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BWEC01CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BWEC01CE2.2",
+      "prefLabel": "BWEC01CE2.2 · Analizar y seleccionar los materiales —tradicionales o de nueva generación— adecuados…",
+      "definition": "Analizar y seleccionar los materiales —tradicionales o de nueva generación— adecuados para la fabricación de modelos o prototipos de calidad, basándose en sus características técnicas y empleando las técnicas de fabricación más adecuadas aplicando criterios técnicos y de sostenibilidad.",
+      "broader": "ce:BWECC2",
+      "bloque": "bc:BWEC01BC2",
+      "descriptores": [
+        "STEM2",
+        "STEM5",
+        "CD1",
+        "CPSAA4",
+        "CC4",
+        "CE1"
+      ],
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BWEC01CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BWEC01CE3.1",
+      "prefLabel": "BWEC01CE3.1 · Resolver las tareas propuestas y presentar los resultados obtenidos, haciendo un uso…",
+      "definition": "Resolver las tareas propuestas y presentar los resultados obtenidos, haciendo un uso óptimo de las herramientas digitales adecuadas a cada situación y respetando los derechos de autoría.",
+      "broader": "ce:BWECC3",
+      "bloque": "bc:BWEC01BC3",
+      "descriptores": [
+        "STEM1",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BWEC01CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BWEC01CE4.1",
+      "prefLabel": "BWEC01CE4.1 · Resolver problemas asociados a sistemas e instalaciones mecánicas, generando soluciones…",
+      "definition": "Resolver problemas asociados a sistemas e instalaciones mecánicas, generando soluciones innovadoras y sostenibles, aplicando fundamentos de mecanismos de transmisión y transformación de movimientos, soporte y unión al desarrollo de montajes o simulaciones digitales.",
+      "broader": "ce:BWECC4",
+      "bloque": "bc:BWEC01BC4",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD2",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BWEC01CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BWEC01CE4.2",
+      "prefLabel": "BWEC01CE4.2 · Resolver problemas asociados a sistemas e instalaciones eléctricas y electrónicas,…",
+      "definition": "Resolver problemas asociados a sistemas e instalaciones eléctricas y electrónicas, desarrollando soluciones innovadoras y sostenibles, aplicando fundamentos de corriente continua y máquinas eléctricas al desarrollo de montajes o simulaciones digitales, utilizando la simbología adecuada para expresar los resultados.",
+      "broader": "ce:BWECC4",
+      "bloque": "bc:BWEC01BC4",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD2",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BWEC01CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BWEC01CE5.1",
+      "prefLabel": "BWEC01CE5.1 · Controlar el funcionamiento de sistemas tecnológicos y robóticos, utilizando lenguajes de…",
+      "definition": "Controlar el funcionamiento de sistemas tecnológicos y robóticos, utilizando lenguajes de programación y aplicando las posibilidades que ofrecen las tecnologías emergentes para crear soluciones innovadoras y sostenibles.",
+      "broader": "ce:BWECC5",
+      "bloque": "bc:BWEC01BC5",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CE3"
+      ],
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BWEC01CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BWEC01CE5.2",
+      "prefLabel": "BWEC01CE5.2 · Automatizar, programar y evaluar movimientos de robots mediante su modelización y…",
+      "definition": "Automatizar, programar y evaluar movimientos de robots mediante su modelización y aplicación de algoritmos sencillos para dar respuestas innovadoras y ecosocialmente sostenibles a necesidades de su entorno.",
+      "broader": "ce:BWECC5",
+      "bloque": "bc:BWEC01BC5",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CPSAA1.1",
+        "CE3"
+      ],
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BWEC01CE5.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BWEC01CE5.3",
+      "prefLabel": "BWEC01CE5.3 · Conocer y comprender conceptos básicos de programación textual, mostrando el progreso…",
+      "definition": "Conocer y comprender conceptos básicos de programación textual, mostrando el progreso paso a paso de la ejecución de un programa a partir de un estado inicial y prediciendo su estado final tras la ejecución para diseñar, crear y evaluar sistemas tecnológicos.",
+      "broader": "ce:BWECC5",
+      "bloque": "bc:BWEC01BC5",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CE3"
+      ],
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BWEC01CE6.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BWEC01CE6.1",
+      "prefLabel": "BWEC01CE6.1 · Evaluar los distintos sistemas de generación de energía eléctrica y mercados energéticos,…",
+      "definition": "Evaluar los distintos sistemas de generación de energía eléctrica y mercados energéticos, estudiando sus características, calculando sus magnitudes y valorando su eficiencia y sostenibilidad.",
+      "broader": "ce:BWECC6",
+      "bloque": "bc:BWEC01BC6",
+      "descriptores": [
+        "STEM2",
+        "STEM5",
+        "CD2",
+        "CPSAA2",
+        "CC4",
+        "CE1"
+      ],
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BWEC01CE6.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BWEC01CE6.2",
+      "prefLabel": "BWEC01CE6.2 · Analizar las diferentes instalaciones de una vivienda desde el punto de vista de su…",
+      "definition": "Analizar las diferentes instalaciones de una vivienda desde el punto de vista de su eficiencia energética, buscando aquellas opciones más comprometidas con la sostenibilidad y fomentando un uso responsable de las mismas.",
+      "broader": "ce:BWECC6",
+      "bloque": "bc:BWEC01BC6",
+      "descriptores": [
+        "CCL3",
+        "STEM2",
+        "STEM5",
+        "CD1",
+        "CD2",
+        "CD4",
+        "CPSAA2",
+        "CC4",
+        "CE1"
+      ],
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "BWEC01SBI",
+      "prefLabel": "BWEC01SBI · I. Proyectos de investigación y desarrollo",
+      "definition": "Proyectos de investigación y desarrollo",
+      "broader": "materia:BWEC",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "BWEC01SBII",
+      "prefLabel": "BWEC01SBII · II. Materiales y fabricación",
+      "definition": "Materiales y fabricación",
+      "broader": "materia:BWEC",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "BWEC01SBIII",
+      "prefLabel": "BWEC01SBIII · III. Sistemas mecánicos",
+      "definition": "Sistemas mecánicos",
+      "broader": "materia:BWEC",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "BWEC01SBIV",
+      "prefLabel": "BWEC01SBIV · IV. Sistemas eléctricos y electrónicos",
+      "definition": "Sistemas eléctricos y electrónicos",
+      "broader": "materia:BWEC",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBV",
+      "tipo": "BloqueSaberes",
+      "notation": "BWEC01SBV",
+      "prefLabel": "BWEC01SBV · V. Sistemas informáticos. Programación",
+      "definition": "Sistemas informáticos. Programación",
+      "broader": "materia:BWEC",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBVI",
+      "tipo": "BloqueSaberes",
+      "notation": "BWEC01SBVI",
+      "prefLabel": "BWEC01SBVI · VI. Sistemas automáticos",
+      "definition": "Sistemas automáticos",
+      "broader": "materia:BWEC",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBVII",
+      "tipo": "BloqueSaberes",
+      "notation": "BWEC01SBVII",
+      "prefLabel": "BWEC01SBVII · VII. Tecnología sostenible",
+      "definition": "Tecnología sostenible",
+      "broader": "materia:BWEC",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBI.1",
+      "prefLabel": "BWEC01SBI.1 · Uso de estrategias de gestión y desarrollo de proyectos como diagramas de Gantt y…",
+      "definition": "Uso de estrategias de gestión y desarrollo de proyectos como diagramas de Gantt y metodologías ágiles.",
+      "broader": "sb:BWEC01SBI",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBI.1.1",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBI.1.1",
+      "prefLabel": "BWEC01SBI.1.1 · Aplicación de técnicas relacionadas con el pensamiento de diseño (design thinking) para…",
+      "definition": "Aplicación de técnicas relacionadas con el pensamiento de diseño (design thinking) para la investigación e ideación de soluciones a problemas planteados y otras técnicas de trabajo en grupo.",
+      "broader": "sb:BWEC01SBI.1",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBI.2",
+      "prefLabel": "BWEC01SBI.2 · Análisis del ciclo de vida de los productos y desarrollo de estrategias de mejora…",
+      "definition": "Análisis del ciclo de vida de los productos y desarrollo de estrategias de mejora continua de los mismos.",
+      "broader": "sb:BWEC01SBI",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBI.2.1",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBI.2.1",
+      "prefLabel": "BWEC01SBI.2.1 · Búsqueda de soluciones relacionadas con la mejora de la planificación y desarrollo del…",
+      "definition": "Búsqueda de soluciones relacionadas con la mejora de la planificación y desarrollo del diseño y comercialización de los productos, teniendo en cuenta aspectos relacionados con la logística, el transporte y la distribución.",
+      "broader": "sb:BWEC01SBI.2",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBI.2.2",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBI.2.2",
+      "prefLabel": "BWEC01SBI.2.2 · Análisis y aplicación de estándares que rigen el control de calidad de un producto, la…",
+      "definition": "Análisis y aplicación de estándares que rigen el control de calidad de un producto, la metrología y la normalización.",
+      "broader": "sb:BWEC01SBI.2",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBI.3",
+      "prefLabel": "BWEC01SBI.3 · Uso de aplicaciones CAD-CAE-CAM para la representación de diagramas funcionales, esquemas…",
+      "definition": "Uso de aplicaciones CAD-CAE-CAM para la representación de diagramas funcionales, esquemas y croquis en el diseño de soluciones que den respuesta a necesidades planteadas.",
+      "broader": "sb:BWEC01SBI",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBI.4",
+      "prefLabel": "BWEC01SBI.4 · Resolución de problemas desde una perspectiva interdisciplinar de la actividad…",
+      "definition": "Resolución de problemas desde una perspectiva interdisciplinar de la actividad tecnológica, fomentando el emprendimiento, la resiliencia, la perseverancia y la creatividad.",
+      "broader": "sb:BWEC01SBI",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBI.5",
+      "prefLabel": "BWEC01SBI.5 · Valoración del error y la reevaluación como parte esencial en la mejora del proceso de…",
+      "definition": "Valoración del error y la reevaluación como parte esencial en la mejora del proceso de aprendizaje. Desarrollo de estrategias que permitan la identificación y gestión de emociones y fomenten la autoconfianza e iniciativa.",
+      "broader": "sb:BWEC01SBI",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBII.1",
+      "prefLabel": "BWEC01SBII.1 · Análisis, clasificación y selección de materiales técnicos y nuevos materiales en función…",
+      "definition": "Análisis, clasificación y selección de materiales técnicos y nuevos materiales en función de sus propiedades y aplicaciones y siguiendo criterios de sostenibilidad, accesibilidad y equidad social.",
+      "broader": "sb:BWEC01SBII",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBII.2",
+      "prefLabel": "BWEC01SBII.2 · Análisis y aplicación de técnicas de fabricación manual y digital para elaborar…",
+      "definition": "Análisis y aplicación de técnicas de fabricación manual y digital para elaborar soluciones que den respuesta a una necesidad planteada. Uso de técnicas de prototipado rápido.",
+      "broader": "sb:BWEC01SBII",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBII.3",
+      "prefLabel": "BWEC01SBII.3 · Aplicación de las normas de seguridad e higiene en el trabajo.",
+      "definition": "Aplicación de las normas de seguridad e higiene en el trabajo.",
+      "broader": "sb:BWEC01SBII",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBIII.1",
+      "prefLabel": "BWEC01SBIII.1 · Análisis de los mecanismos de transmisión y transformación de movimientos, soportes y…",
+      "definition": "Análisis de los mecanismos de transmisión y transformación de movimientos, soportes y técnicas de unión de elementos mecánicos. Desarrollo de aplicaciones prácticas, físicas o simuladas en proyectos, realizando los diseños, cálculos y montajes requeridos.",
+      "broader": "sb:BWEC01SBIII",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBIV.1",
+      "prefLabel": "BWEC01SBIV.1 · Análisis de circuitos y máquinas de corriente continua e identificación de sus elementos…",
+      "definition": "Análisis de circuitos y máquinas de corriente continua e identificación de sus elementos constituyentes. Interpretación y representación esquematizada de circuitos.",
+      "broader": "sb:BWEC01SBIV",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBIV.1.1",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBIV.1.1",
+      "prefLabel": "BWEC01SBIV.1.1 · Desarrollo de aplicaciones prácticas, físicas o simuladas en proyectos, realizando los…",
+      "definition": "Desarrollo de aplicaciones prácticas, físicas o simuladas en proyectos, realizando los cálculos y montajes requeridos.",
+      "broader": "sb:BWEC01SBIV.1",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBV.1",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBV.1",
+      "prefLabel": "BWEC01SBV.1 · Introducción a los fundamentos de la programación textual: características, elementos y…",
+      "definition": "Introducción a los fundamentos de la programación textual: características, elementos y lenguajes.",
+      "broader": "sb:BWEC01SBV",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBV.2",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBV.2",
+      "prefLabel": "BWEC01SBV.2 · Diseño y creación de programas para la resolución de problemas utilizando estrategias…",
+      "definition": "Diseño y creación de programas para la resolución de problemas utilizando estrategias relacionadas con la modularización.",
+      "broader": "sb:BWEC01SBV",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBV.2.1",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBV.2.1",
+      "prefLabel": "BWEC01SBV.2.1 · Aplicación de las fases del proceso de desarrollo de programas informáticos: edición,…",
+      "definition": "Aplicación de las fases del proceso de desarrollo de programas informáticos: edición, compilación o interpretación, ejecución, realización de pruebas y depuración.",
+      "broader": "sb:BWEC01SBV.2",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBV.3",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBV.3",
+      "prefLabel": "BWEC01SBV.3 · Aplicación de las tecnologías emergentes en la realización de proyectos tecnológicos,…",
+      "definition": "Aplicación de las tecnologías emergentes en la realización de proyectos tecnológicos, como el internet de las cosas.",
+      "broader": "sb:BWEC01SBV",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBV.4",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBV.4",
+      "prefLabel": "BWEC01SBV.4 · Análisis y aplicación de los protocolos de comunicación de redes de dispositivos.",
+      "definition": "Análisis y aplicación de los protocolos de comunicación de redes de dispositivos.",
+      "broader": "sb:BWEC01SBV",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBVI.1",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBVI.1",
+      "prefLabel": "BWEC01SBVI.1 · Análisis de los conceptos y elementos constituyentes de los sistemas de control.…",
+      "definition": "Análisis de los conceptos y elementos constituyentes de los sistemas de control. Desarrollo de estrategias para modelización de sistemas sencillos.",
+      "broader": "sb:BWEC01SBVI",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBVI.2",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBVI.2",
+      "prefLabel": "BWEC01SBVI.2 · Aplicación de la automatización programada en los procesos tecnológicos, analizando su…",
+      "definition": "Aplicación de la automatización programada en los procesos tecnológicos, analizando su diseño, programación, construcción y simulación o montaje.",
+      "broader": "sb:BWEC01SBVI",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBVI.3",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBVI.3",
+      "prefLabel": "BWEC01SBVI.3 · Identificación y análisis de los sistemas de supervisión (SCADA): telemetría y…",
+      "definition": "Identificación y análisis de los sistemas de supervisión (SCADA): telemetría y monitorización.",
+      "broader": "sb:BWEC01SBVI",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBVI.4",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBVI.4",
+      "prefLabel": "BWEC01SBVI.4 · Aplicación de las tecnologías emergentes a los sistemas de control.",
+      "definition": "Aplicación de las tecnologías emergentes a los sistemas de control.",
+      "broader": "sb:BWEC01SBVI",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBVI.5",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBVI.5",
+      "prefLabel": "BWEC01SBVI.5 · Aplicación de herramientas para modelización de movimientos y acciones mecánicas…",
+      "definition": "Aplicación de herramientas para modelización de movimientos y acciones mecánicas relacionadas con la robótica.",
+      "broader": "sb:BWEC01SBVI",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBVII.1",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBVII.1",
+      "prefLabel": "BWEC01SBVII.1 · Análisis de los sistemas de producción de energía y de los mercados energéticos en…",
+      "definition": "Análisis de los sistemas de producción de energía y de los mercados energéticos en Canarias y en el mundo. Estudio de las técnicas y criterios de ahorro en los suministros domésticos, valorando la necesidad de realizar un consumo energético sostenible.",
+      "broader": "sb:BWEC01SBVII",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BWEC01SBVII.2",
+      "tipo": "SaberBasico",
+      "notation": "BWEC01SBVII.2",
+      "prefLabel": "BWEC01SBVII.2 · Análisis de las instalaciones eléctricas, de agua y climatización, de comunicación y…",
+      "definition": "Análisis de las instalaciones eléctricas, de agua y climatización, de comunicación y domóticas en viviendas, incluyendo tanto las fuentes de energías renovables como las no renovables, con criterios de eficiencia energética y sostenibilidad.",
+      "broader": "sb:BWEC01SBVII",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    }
+  ]
+}

@@ -1,0 +1,703 @@
+{
+  "materia": "materia:BTEP",
+  "nodos": [
+    {
+      "id": "materia:BTEP",
+      "tipo": "Materia",
+      "notation": "BTEP",
+      "prefLabel": "Técnicas de Expresión Gráfico-Plástica (Bachillerato)",
+      "cursos": [
+        "curso:B02"
+      ],
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BTEPC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BTEPC1",
+      "prefLabel": "BTEPC1 · Analizar obras gráfico-plásticas, valorando sus aspectos formales, comparando las…",
+      "definition": "Analizar obras gráfico-plásticas, valorando sus aspectos formales, comparando las técnicas, materiales y procedimientos empleados en su ejecución y conservación, y reflexionando sobre su posible impacto medioambiental, para conformar un marco personal de referencia que potencie la creatividad y fomente una actitud positiva hacia el patrimonio, a la par que comprometida con la sostenibilidad.",
+      "broader": "materia:BTEP",
+      "materia": "materia:BTEP",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BTEPC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BTEPC2",
+      "prefLabel": "BTEPC2 · Utilizar los distintos elementos y procedimientos propios del lenguaje gráfico-plástico,…",
+      "definition": "Utilizar los distintos elementos y procedimientos propios del lenguaje gráfico-plástico, manifestando dominio técnico y experimentando de manera creativa e innovadora con sus posibilidades y combinaciones, para desarrollar una capacidad de expresión autónoma y personal y para responder a unos objetivos determinados.",
+      "broader": "materia:BTEP",
+      "materia": "materia:BTEP",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BTEPC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BTEPC3",
+      "prefLabel": "BTEPC3 · Planificar el proceso de realización individual y colectiva de obras gráfico-plásticas,…",
+      "definition": "Planificar el proceso de realización individual y colectiva de obras gráfico-plásticas, valorando las posibilidades que ofrecen las distintas técnicas, materiales y procedimientos, así como su adecuación a una determinada propuesta, para responder con eficacia y creatividad a cualquier desempeño relacionado con la producción cultural o artística.",
+      "broader": "materia:BTEP",
+      "materia": "materia:BTEP",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BTEPC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BTEPC4",
+      "prefLabel": "BTEPC4 · Desarrollar proyectos gráfico-plásticos individuales y colaborativos, utilizando con…",
+      "definition": "Desarrollar proyectos gráfico-plásticos individuales y colaborativos, utilizando con destreza diversos materiales, técnicas y procedimientos, para integrar el proceso creativo y responder de manera eficaz, sostenible y creativa a unos objetivos de desempeño determinados.",
+      "broader": "materia:BTEP",
+      "materia": "materia:BTEP",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BTEPC5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BTEPC5",
+      "prefLabel": "BTEPC5 · Evaluar los productos gráfico-plásticos propios y ajenos, valorando su posible impacto…",
+      "definition": "Evaluar los productos gráfico-plásticos propios y ajenos, valorando su posible impacto social y cultural, para potenciar una actitud crítica y responsable que favorezca el desarrollo personal y profesional en el campo de la expresión gráfico-plástica.",
+      "broader": "materia:BTEP",
+      "materia": "materia:BTEP",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BTEP02BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "BTEP02BC1",
+      "prefLabel": "Técnicas de Expresión Gráfico-Plástica · 2º Bachillerato · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de valorar críticamente la sostenibilidad, el impacto en el medioambiente y en la salud, de los procedimientos y materiales utilizados en una creación gráfico-plástica en los distintos periodos artísticos, proponiendo alternativas respetuosas con el medioambiente e incorporando juicios de valor estético o de otro tipo, a partir del estudio de sus aspectos formales. Se analizará la presencia de la mujer como artista y como sujeto de representación a lo largo de la historia. Además, se verificará que es capaz de analizar obras gráfico-plásticas de distintos tipos y épocas, llevando implícita su valoración, para conformar un marco personal de referencia que potencie la creatividad y fomente una actitud positiva hacia el patrimonio tanto local como global, a la par que comprometida con la sostenibilidad y la salud.",
+      "broader": "materia:BTEP",
+      "agrupa": [
+        "ce:BTEPC1"
+      ],
+      "descriptores": [
+        "CCL3",
+        "CP2",
+        "STEM1",
+        "STEM5",
+        "CD1",
+        "CC1",
+        "STEM2",
+        "CPSAA4",
+        "CPSAA2",
+        "CC2",
+        "CC4",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BTEP02BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "BTEP02BC2",
+      "prefLabel": "Técnicas de Expresión Gráfico-Plástica · 2º Bachillerato · bloque competencial C2",
+      "scopeNote": "Con el desarrollo de este bloque competencial, se comprobará que el alumnado es capaz de seleccionar creativamente las técnicas y aplicar soluciones ante las distintas necesidades expresivas y comunicativas, incidiendo en el rigor en la ejecución y en la sostenibilidad del producto final. Se verificará que es capaz de utilizar y experimentar con los recursos, las técnicas y los procedimientos gráfico-plásticos adecuados en función de la situación expresiva o la intencionalidad del desempeño solicitado. Todo ello con la finalidad de desarrollar una capacidad de expresión autónoma y personal y para responder de forma innovadora y creativa a unos objetivos determinados de dominio técnico.",
+      "broader": "materia:BTEP",
+      "agrupa": [
+        "ce:BTEPC2"
+      ],
+      "descriptores": [
+        "STEM1",
+        "CPSAA1.1",
+        "CPSAA1.2",
+        "CCEC4.1",
+        "CC4",
+        "CE3",
+        "CCEC3.1",
+        "CCEC3.2",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BTEP02BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "BTEP02BC3",
+      "prefLabel": "Técnicas de Expresión Gráfico-Plástica · 2º Bachillerato · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de desarrollar una metodología por proyectos, mediante la selección de las técnicas, materiales, procedimientos y lenguajes más adecuados en función de las distintas intenciones comunicativas o creativas, así como el grado de ajuste como oportunidad de mejora y aprendizaje. Todo ello con la finalidad de planificar proyectos gráfico-plásticos variados (dibujos, pinturas, grabados, técnicas mixtas, etc.) individuales o colectivos, así como la organización de los tiempos y de los equipos de trabajo en las propuestas colaborativas, estableciendo las fases de realización y teniendo en cuenta el uso de tecnologías digitales para la búsqueda de información, la comunicación y la gestión del trabajo colaborativo.",
+      "broader": "materia:BTEP",
+      "agrupa": [
+        "ce:BTEPC3"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "STEM3",
+        "CD3",
+        "CPSAA3.2",
+        "CPSAA4",
+        "CE2",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BTEP02BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "BTEP02BC4",
+      "prefLabel": "Técnicas de Expresión Gráfico-Plástica · 2º Bachillerato · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de manifestar una actitud respetuosa, creativa y conciliadora cuando se produzcan diferencias de opinión entre los miembros del grupo, tener en cuenta la seguridad, toxicidad e impacto medioambiental de los diferentes materiales artísticos y utilizar soportes y materiales sostenibles y reciclados cuando sea posible. Expresar ideas, opiniones y sentimientos, mediante la creación de producciones gráfico-plásticas de distintos tipos, referidas a distintos motivos o planteamientos incluyendo la perspectiva de género y la intercultural, interactuando de manera coordinada y colaborativamente, en el desarrollo de producciones gráfico-plásticas individuales y colectivas, aplicando con solvencia y dominio técnico los distintos procedimientos, soportes, utensilios, pigmentos, aglutinantes y disolventes asociados a las diferentes técnicas gráfico-plásticas e interacción entre materiales.",
+      "broader": "materia:BTEP",
+      "agrupa": [
+        "ce:BTEPC4"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "STEM3",
+        "CD3",
+        "CPSAA1.1",
+        "CPSAA3.1",
+        "CPSAA3.2",
+        "CE3",
+        "CCEC3.2",
+        "CCEC4.1",
+        "CD2",
+        "CCEC3.1"
+      ],
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BTEP02BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "BTEP02BC5",
+      "prefLabel": "Técnicas de Expresión Gráfico-Plástica · 2º Bachillerato · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de incorporar una reflexión sobre aspectos relacionados con la sostenibilidad, la propiedad intelectual y las oportunidades de desarrollo personal y profesional que se derivan del conocimiento de las técnicas de expresión gráfico-plástica, así como evaluar los diferentes productos gráfico-plásticos, argumentando con la terminología apropiada el grado de adecuación entre los lenguajes, técnicas, materiales y procedimientos utilizados en relación con la intención prevista, el rigor y la calidad de la ejecución. Todo ello con la finalidad de que los aprendizajes lo capaciten para el desempeño personal y profesional en el campo de la expresión gráfico-plástica, desde el compromiso crítico y responsable con su entorno, incluyendo los seres vivos sintientes.",
+      "broader": "materia:BTEP",
+      "agrupa": [
+        "ce:BTEPC5"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CD2",
+        "CPSAA1.1",
+        "CPSAA1.2",
+        "CPSAA3.1",
+        "CPSAA5",
+        "CC4",
+        "CE2",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTEP02CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTEP02CE1.1",
+      "prefLabel": "BTEP02CE1.1 · Analizar obras gráfico-plásticas de distintos tipos y épocas, identificando los…",
+      "definition": "Analizar obras gráfico-plásticas de distintos tipos y épocas, identificando los materiales, técnicas y procedimientos utilizados, valorando sus efectos expresivos e incorporando juicios de valor estético a partir del estudio de sus aspectos formales, de tal manera que todo ello genere una conciencia cada vez mayor, de respeto hacia el patrimonio y se potencie la creatividad.",
+      "broader": "ce:BTEPC1",
+      "bloque": "bc:BTEP02BC1",
+      "descriptores": [
+        "CCL3",
+        "CP2",
+        "STEM1",
+        "STEM5",
+        "CD1",
+        "CC1"
+      ],
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTEP02CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTEP02CE1.2",
+      "prefLabel": "BTEP02CE1.2 · Comparar los elementos, técnicas y procedimientos empleados en distintas producciones…",
+      "definition": "Comparar los elementos, técnicas y procedimientos empleados en distintas producciones gráfico-plásticas, identificando diferencias y aspectos comunes, estableciendo relaciones entre ellos para conocer en mayor profundidad las obras, su conservación y donde la reflexión sobre la sostenibilidad y la salud estén también presentes.",
+      "broader": "ce:BTEPC1",
+      "bloque": "bc:BTEP02BC1",
+      "descriptores": [
+        "CP2",
+        "STEM2",
+        "STEM5",
+        "CD1",
+        "CPSAA4",
+        "CC1"
+      ],
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTEP02CE1.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTEP02CE1.3",
+      "prefLabel": "BTEP02CE1.3 · Valorar críticamente la sostenibilidad, el impacto medioambiental y en la salud, de los…",
+      "definition": "Valorar críticamente la sostenibilidad, el impacto medioambiental y en la salud, de los procedimientos y materiales utilizados en la creación gráfico-plástica en distintos momentos históricos proponiendo alternativas respetuosas con el medioambiente para crear una conciencia comprometida con el entorno.",
+      "broader": "ce:BTEPC1",
+      "bloque": "bc:BTEP02BC1",
+      "descriptores": [
+        "STEM5",
+        "CPSAA2",
+        "CC2",
+        "CC4",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTEP02CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTEP02CE2.1",
+      "prefLabel": "BTEP02CE2.1 · Seleccionar creativamente los recursos gráfico-plásticos adecuados en función de la…",
+      "definition": "Seleccionar creativamente los recursos gráfico-plásticos adecuados en función de la situación expresiva o la intencionalidad del desempeño solicitado, con la finalidad de dar respuesta a unos objetivos determinados.",
+      "broader": "ce:BTEPC2",
+      "bloque": "bc:BTEP02BC2",
+      "descriptores": [
+        "STEM1",
+        "CPSAA1.1",
+        "CPSAA1.2",
+        "CCEC4.1"
+      ],
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTEP02CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTEP02CE2.2",
+      "prefLabel": "BTEP02CE2.2 · Utilizar de manera creativa y autónoma las técnicas, materiales y procedimientos de la…",
+      "definition": "Utilizar de manera creativa y autónoma las técnicas, materiales y procedimientos de la expresión gráfico-plástica en la resolución de distintas necesidades expresivas y comunicativas, incidiendo en el rigor en la ejecución y en la sostenibilidad del producto final, para desarrollar una capacidad expresiva cada vez más personal.",
+      "broader": "ce:BTEPC2",
+      "bloque": "bc:BTEP02BC2",
+      "descriptores": [
+        "CC4",
+        "CE3",
+        "CCEC3.1",
+        "CCEC3.2",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTEP02CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTEP02CE3.1",
+      "prefLabel": "BTEP02CE3.1 · Planificar el proceso completo de realización de obras gráfico-plásticas variadas,…",
+      "definition": "Planificar el proceso completo de realización de obras gráfico-plásticas variadas, individuales o colectivas, estableciendo las fases de realización, argumentando la selección de las técnicas, materiales, procedimientos y lenguajes más adecuados, identificando las habilidades requeridas en cada caso y organizar los equipos de trabajo repartiendo y asumiendo las tareas con criterio para responder a las distintas intenciones comunicativas o creativas.",
+      "broader": "ce:BTEPC3",
+      "bloque": "bc:BTEP02BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "STEM3",
+        "CD3",
+        "CPSAA3.2",
+        "CPSAA4",
+        "CE2",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTEP02CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTEP02CE4.1",
+      "prefLabel": "BTEP02CE4.1 · Expresar ideas, opiniones y sentimientos mediante la creación de producciones…",
+      "definition": "Expresar ideas, opiniones y sentimientos mediante la creación de producciones gráfico-plásticas individuales y colaborativas de distintos tipos, referidas a distintos motivos o planteamientos, para aplicar con solvencia y dominio técnico los distintos procedimientos, incluidos los digitales.",
+      "broader": "ce:BTEPC4",
+      "bloque": "bc:BTEP02BC4",
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "STEM3",
+        "CD3",
+        "CPSAA1.1",
+        "CPSAA3.1",
+        "CPSAA3.2",
+        "CE3",
+        "CCEC3.2",
+        "CCEC4.1"
+      ],
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTEP02CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTEP02CE4.2",
+      "prefLabel": "BTEP02CE4.2 · Realizar composiciones gráfico-plásticas individuales o colaborativas, interactuando…",
+      "definition": "Realizar composiciones gráfico-plásticas individuales o colaborativas, interactuando coordinada y colaborativamente, manifestando una actitud respetuosa con la autoría, y creativa y conciliadora cuando se produzcan diferencias de opinión entre los miembros del grupo, integrando el uso de materiales reciclados cuando sea posible para aplicar criterios de inclusión y sostenibilidad.",
+      "broader": "ce:BTEPC4",
+      "bloque": "bc:BTEP02BC4",
+      "descriptores": [
+        "CCL5",
+        "STEM3",
+        "CD2",
+        "CPSAA3.1",
+        "CCEC3.1",
+        "CCEC4.1"
+      ],
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BTEP02CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BTEP02CE5.1",
+      "prefLabel": "BTEP02CE5.1 · Evaluar los diferentes productos gráfico-plásticos, argumentando con la terminología…",
+      "definition": "Evaluar los diferentes productos gráfico-plásticos, argumentando con la terminología apropiada, el grado de adecuación entre los lenguajes, técnicas, materiales y procedimientos utilizados en relación con la intención prevista, así como el rigor y la calidad de la ejecución, para incorporar una reflexión sobre aspectos relacionados con la sostenibilidad, la propiedad intelectual y las oportunidades de desarrollo personal y profesional que se derivan del conocimiento de las técnicas de expresión gráfico-plástica.",
+      "broader": "ce:BTEPC5",
+      "bloque": "bc:BTEP02BC5",
+      "descriptores": [
+        "CCL1",
+        "CD2",
+        "CPSAA1.1",
+        "CPSAA1.2",
+        "CPSAA3.1",
+        "CPSAA5",
+        "CC4",
+        "CE2",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "BTEP02SBI",
+      "prefLabel": "BTEP02SBI · I. Aspectos generales.",
+      "definition": "Aspectos generales.",
+      "broader": "materia:BTEP",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "BTEP02SBII",
+      "prefLabel": "BTEP02SBII · II. Técnicas de dibujo",
+      "definition": "Técnicas de dibujo",
+      "broader": "materia:BTEP",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "BTEP02SBIII",
+      "prefLabel": "BTEP02SBIII · III. Técnicas de pintura",
+      "definition": "Técnicas de pintura",
+      "broader": "materia:BTEP",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "BTEP02SBIV",
+      "prefLabel": "BTEP02SBIV · IV. Técnicas de grabado y estampación",
+      "definition": "Técnicas de grabado y estampación",
+      "broader": "materia:BTEP",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBV",
+      "tipo": "BloqueSaberes",
+      "notation": "BTEP02SBV",
+      "prefLabel": "BTEP02SBV · V. Técnicas mixtas y alternativas",
+      "definition": "Técnicas mixtas y alternativas",
+      "broader": "materia:BTEP",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBVI",
+      "tipo": "BloqueSaberes",
+      "notation": "BTEP02SBVI",
+      "prefLabel": "BTEP02SBVI · VI. Proyectos gráfico-plásticos",
+      "definition": "Proyectos gráfico-plásticos",
+      "broader": "materia:BTEP",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBI.1",
+      "prefLabel": "BTEP02SBI.1 · Reconocimiento de los conceptos gráfico-plásticos: forma, color, textura y composición y…",
+      "definition": "Reconocimiento de los conceptos gráfico-plásticos: forma, color, textura y composición y explicación de los distintos materiales: soportes, utensilios, pigmentos, aglutinantes y disolventes. Conocimiento y análisis de su evolución histórica.",
+      "broader": "sb:BTEP02SBI",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBI.2",
+      "prefLabel": "BTEP02SBI.2 · Explicación del peligro de los distintos materiales y productos químicos, así como la…",
+      "definition": "Explicación del peligro de los distintos materiales y productos químicos, así como la manera segura de trabajar con ellos. Visualización de ejemplos de lesiones y enfermedades asociadas a los productos. Conocimiento de materiales ecológicos y reciclables.",
+      "broader": "sb:BTEP02SBI",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBI.3",
+      "prefLabel": "BTEP02SBI.3 · Conocimiento de métodos de conservación y normas de uso y manipulación básicos, para no…",
+      "definition": "Conocimiento de métodos de conservación y normas de uso y manipulación básicos, para no dañar obras de arte.",
+      "broader": "sb:BTEP02SBI",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBI.4",
+      "prefLabel": "BTEP02SBI.4 · Conocimiento sobre la protección de la creatividad, aspectos fundamentales de la…",
+      "definition": "Conocimiento sobre la protección de la creatividad, aspectos fundamentales de la propiedad intelectual, análisis de copias y falsificaciones, acercamiento al conocimiento de la legislación de propiedad intelectual. Conocimiento de las falsificaciones de grandes artistas y reflexión sobre el fenómeno de la falsificación en la actualidad y el certificado digital.",
+      "broader": "sb:BTEP02SBI",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBI.5",
+      "prefLabel": "BTEP02SBI.5 · Adopción de una adecuada perspectiva de género, perspectiva intercultural e inclusiva en…",
+      "definition": "Adopción de una adecuada perspectiva de género, perspectiva intercultural e inclusiva en las producciones gráfico-plásticas. Realización de análisis para detectar malos enfoques en cuanto a igualdad, multiculturalidad e inclusividad en el arte y buscar buenos ejemplos. Conocimiento de otros enfoques en otras culturas y producción de trabajos sencillos con la temática.",
+      "broader": "sb:BTEP02SBI",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBI.6",
+      "prefLabel": "BTEP02SBI.6 · Estrategias de investigación, análisis, interpretación y valoración crítica de productos…",
+      "definition": "Estrategias de investigación, análisis, interpretación y valoración crítica de productos culturales y artísticos.",
+      "broader": "sb:BTEP02SBI",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBII.1",
+      "prefLabel": "BTEP02SBII.1 · Diferenciación del concepto de dibujo frente a pintura, utilizando sus materiales, útiles…",
+      "definition": "Diferenciación del concepto de dibujo frente a pintura, utilizando sus  materiales, útiles y soportes, conociendo sus características y utilizando su terminología específica, mediante la experimentación con cada una de las técnicas secas y húmedas y mixtas estableciendo diferencias mediante la realización de trabajos sencillos con cada material, e intentando descubrir sus posibilidades gráficas.",
+      "broader": "sb:BTEP02SBII",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBIII.1",
+      "prefLabel": "BTEP02SBIII.1 · Diferenciación del concepto de pintura frente a dibujo, conocimiento de sus materiales,…",
+      "definition": "Diferenciación del concepto de pintura frente a dibujo, conocimiento de sus materiales, útiles, soportes, sus características y terminología específica, comparando las características de las técnicas al agua con las oleosas, descubriendo las distintas posibilidades gráficas mediante producciones propias y la clasificación de las técnicas en la historia del arte.",
+      "broader": "sb:BTEP02SBIII",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBIII.2",
+      "prefLabel": "BTEP02SBIII.2 · Conocimiento de las técnicas sólidas, oleosas y mixtas, temple al huevo, encaustos,…",
+      "definition": "Conocimiento de las técnicas sólidas, oleosas y mixtas, temple al huevo, encaustos, pasteles, óleos, óleos miscibles al agua, el fresco y pinturas biodegradables. Conocimiento de cada técnica y su relación entre ellas con la visualización e interpretación de ejemplos en la historia y en el arte actual.",
+      "broader": "sb:BTEP02SBIII",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBIV.1",
+      "prefLabel": "BTEP02SBIV.1 · Experimentación con el concepto de grabado, sus materiales, útiles, maquinaria, soportes…",
+      "definition": "Experimentación con el concepto de grabado, sus materiales, útiles, maquinaria, soportes y terminología específica.",
+      "broader": "sb:BTEP02SBIV",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBIV.2",
+      "prefLabel": "BTEP02SBIV.2 · Conocimiento y experimentación de la monoimpresión y reproducción múltiple, la obra…",
+      "definition": "Conocimiento y experimentación de la monoimpresión y reproducción múltiple, la obra gráfica, monotipia plana y estampación en relieve.",
+      "broader": "sb:BTEP02SBIV",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBIV.3",
+      "prefLabel": "BTEP02SBIV.3 · Conocimiento de la estampación en relieve, xilografía, linóleo.",
+      "definition": "Conocimiento de la estampación en relieve, xilografía, linóleo.",
+      "broader": "sb:BTEP02SBIV",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBIV.4",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBIV.4",
+      "prefLabel": "BTEP02SBIV.4 · Conocimiento de la estampación en hueco, calcografía, técnicas directas e indirectas.",
+      "definition": "Conocimiento de la estampación en hueco, calcografía, técnicas directas e indirectas.",
+      "broader": "sb:BTEP02SBIV",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBIV.5",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBIV.5",
+      "prefLabel": "BTEP02SBIV.5 · Conocimiento de la estampación plana, método plano gráfico, litografía, método…",
+      "definition": "Conocimiento de la estampación plana, método plano gráfico, litografía, método permeográfico, serigrafía, método electrónico, copy Art.",
+      "broader": "sb:BTEP02SBIV",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBIV.6",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBIV.6",
+      "prefLabel": "BTEP02SBIV.6 · Análisis y experimentación, según la infraestructura y materiales del centro, intentando…",
+      "definition": "Análisis y experimentación, según la infraestructura y materiales del centro, intentando descubrir sus potencialidades expresivas y técnicas, con alguna de las técnicas existentes.",
+      "broader": "sb:BTEP02SBIV",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBV.1",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBV.1",
+      "prefLabel": "BTEP02SBV.1 · Utilización de materiales de desecho para llevar a cabo obras con técnicas mixtas con un…",
+      "definition": "Utilización de materiales de desecho para llevar a cabo obras con técnicas mixtas con un sentido sostenible.",
+      "broader": "sb:BTEP02SBV",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBV.2",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBV.2",
+      "prefLabel": "BTEP02SBV.2 · Valoración e investigación de otras técnicas y procedimientos mediante la observación de…",
+      "definition": "Valoración e investigación de otras técnicas y procedimientos mediante la observación de las vanguardias y el arte contemporáneo. Análisis de obras de arte digital y conocimiento de su evolución histórica. Realización de producciones utilizando aplicaciones de arte digital.",
+      "broader": "sb:BTEP02SBV",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBVI.1",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBVI.1",
+      "prefLabel": "BTEP02SBVI.1 · Aplicación de las metodologías por proyectos.",
+      "definition": "Aplicación de las metodologías por proyectos.",
+      "broader": "sb:BTEP02SBVI",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBVI.2",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBVI.2",
+      "prefLabel": "BTEP02SBVI.2 · Desarrollo de estrategias para la planificación y desarrollo de proyectos, teniendo en…",
+      "definition": "Desarrollo de estrategias para la planificación y desarrollo de proyectos, teniendo en cuenta la organización de los equipos de trabajo.",
+      "broader": "sb:BTEP02SBVI",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBVI.3",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBVI.3",
+      "prefLabel": "BTEP02SBVI.3 · Conocimiento del proceso de elaboración de una obra gráfico-plástica.",
+      "definition": "Conocimiento del proceso de elaboración de una obra gráfico-plástica.",
+      "broader": "sb:BTEP02SBVI",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBVI.4",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBVI.4",
+      "prefLabel": "BTEP02SBVI.4 · Acercamiento a la exposición y difusión.",
+      "definition": "Acercamiento a la exposición y difusión.",
+      "broader": "sb:BTEP02SBVI",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBVI.5",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBVI.5",
+      "prefLabel": "BTEP02SBVI.5 · Conocimiento de las estrategias de evaluación de las fases y los resultados de proyectos…",
+      "definition": "Conocimiento de las estrategias de evaluación de las fases y los resultados de proyectos gráficos.",
+      "broader": "sb:BTEP02SBVI",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BTEP02SBVI.6",
+      "tipo": "SaberBasico",
+      "notation": "BTEP02SBVI.6",
+      "prefLabel": "BTEP02SBVI.6 · Valoración del error como oportunidad de mejora y aprendizaje.",
+      "definition": "Valoración del error como oportunidad de mejora y aprendizaje.",
+      "broader": "sb:BTEP02SBVI",
+      "materia": "materia:BTEP",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    }
+  ]
+}

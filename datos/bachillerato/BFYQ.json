@@ -1,0 +1,853 @@
+{
+  "materia": "materia:BFYQ",
+  "nodos": [
+    {
+      "id": "materia:BFYQ",
+      "tipo": "Materia",
+      "notation": "BFYQ",
+      "prefLabel": "Física y Química (Bachillerato)",
+      "cursos": [
+        "curso:B01"
+      ],
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BFYQC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BFYQC1",
+      "prefLabel": "BFYQC1 · Resolver problemas y situaciones relacionados con la física y la química, aplicando las…",
+      "definition": "Resolver problemas y situaciones relacionados con la física y la química, aplicando las leyes y teorías científicas adecuadas, para comprender y explicar los fenómenos naturales y evidenciar el papel de estas ciencias en la mejora del bienestar común y en la realidad cotidiana.",
+      "broader": "materia:BFYQ",
+      "materia": "materia:BFYQ",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BFYQC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BFYQC2",
+      "prefLabel": "BFYQC2 · Razonar, usando el pensamiento científico y las destrezas relacionadas con el trabajo de…",
+      "definition": "Razonar, usando el pensamiento científico y las destrezas relacionadas con el trabajo de la ciencia con solvencia, para aplicarlo a la observación de la naturaleza y el entorno, a la formulación de preguntas e hipótesis y a la validación de las mismas a través de la experimentación, la indagación y la búsqueda de evidencias.",
+      "broader": "materia:BFYQ",
+      "materia": "materia:BFYQ",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BFYQC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BFYQC3",
+      "prefLabel": "BFYQC3 · Manejar con propiedad y solvencia el flujo de información en los diferentes registros de…",
+      "definition": "Manejar con propiedad y solvencia el flujo de información en los diferentes registros de comunicación de la ciencia como la nomenclatura de compuestos químicos, el uso del lenguaje matemático, el uso correcto de las unidades de medida, la seguridad en el trabajo experimental, para la producción e interpretación de información en diferentes formatos y a partir de fuentes diversas.",
+      "broader": "materia:BFYQ",
+      "materia": "materia:BFYQ",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BFYQC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BFYQC4",
+      "prefLabel": "BFYQC4 · Utilizar de forma autónoma, crítica y eficiente plataformas digitales y recursos…",
+      "definition": "Utilizar de forma autónoma, crítica y eficiente plataformas digitales y recursos variados, tanto para el trabajo individual como en equipo, consultando y seleccionando información científica veraz, creando materiales en diversos formatos y comunicando de manera efectiva en diferentes entornos de aprendizaje, para fomentar la creatividad, el desarrollo personal y el aprendizaje individual y social.",
+      "broader": "materia:BFYQ",
+      "materia": "materia:BFYQ",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BFYQC5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BFYQC5",
+      "prefLabel": "BFYQC5 · Trabajar de forma colaborativa en equipos diversos, aplicando habilidades de…",
+      "definition": "Trabajar de forma colaborativa en equipos diversos, aplicando habilidades de coordinación, comunicación, emprendimiento y reparto equilibrado de responsabilidades, para predecir las consecuencias de los avances científicos y su influencia sobre la salud propia y comunitaria y sobre el desarrollo medioambiental sostenible.",
+      "broader": "materia:BFYQ",
+      "materia": "materia:BFYQ",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BFYQC6",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BFYQC6",
+      "prefLabel": "BFYQC6 · Participar de forma activa en la construcción colectiva y evolutiva del conocimiento…",
+      "definition": "Participar de forma activa en la construcción colectiva y evolutiva del conocimiento científico, en su entorno cotidiano y cercano, para convertirse en agentes activos de la difusión del pensamiento científico, la aproximación escéptica a la información científica y tecnológica y la puesta en valor de la preservación del medioambiente y la salud pública, el desarrollo económico y la búsqueda de una sociedad igualitaria.",
+      "broader": "materia:BFYQ",
+      "materia": "materia:BFYQ",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BFYQ01BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "BFYQ01BC1",
+      "prefLabel": "Física y Química · 1º Bachillerato · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se pretende comprobar si el alumnado, ante situaciones problemáticas de índole científica, es capaz de analizar los fenómenos físicos cotidianos que subyacen en ellas y de explicar las causas que los producen, aplicando los conocimientos científicos que se encuentran integrados en los diferentes bloques de saberes básicos, para redundar en una mejor comprensión de las leyes y teorías científicas trabajadas a través de un proceso de retroalimentación, expresando sus conclusiones en diferentes formatos y soportes. A su vez, se quiere corroborar si activa los procesos necesarios para la resolución de los problemas fisicoquímicos planteados (comprensión del problema, organización de la información, selección y empleo de la estrategia apropiada tras sopesar entre varias, razonamiento de los procedimientos seguidos, ejecución precisa y logro de soluciones), así como para el análisis crítico de los resultados obtenidos (argumentación de las soluciones, coherencia del resultado y expresión precisa del mismo, revisión del proceso, tratamiento del error y reformulación del procedimiento si fuera necesario), fortaleciendo su resiliencia en el camino hacia sus objetivos, para construir nuevo conocimiento, sobre la base del razonamiento científico, que le permita forjar una opinión informada sobre los aspectos que afectan a su realidad cercana y actuar con sentido crítico en su mejora.",
+      "broader": "materia:BFYQ",
+      "agrupa": [
+        "ce:BFYQC1"
+      ],
+      "descriptores": [
+        "CCL1",
+        "STEM2",
+        "CD2",
+        "STEM1",
+        "STEM5",
+        "CPSAA1.2"
+      ],
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BFYQ01BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "BFYQ01BC2",
+      "prefLabel": "Física y Química · 1º Bachillerato · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se comprobará si el alumnado es capaz de desarrollar las habilidades necesarias para observar desde una óptica científica los fenómenos naturales y plantear posibles explicaciones a partir de los procedimientos característicos del trabajo científico a través del diseño de procedimientos experimentales, la indagación, la formulación de hipótesis elaboradas de acuerdo con conocimientos fundamentados, la búsqueda de evidencias utilizando diferentes métodos para encontrar respuestas, demostrando soltura en el manejo del trabajo experimental en el laboratorio y en los entornos virtuales, y la validación de dichas hipótesis en base a las relaciones cualitativas y cuantitativas entre las variables estudiadas en términos matemáticos y las principales leyes y teorías de la física y la química incluidas en los diferentes bloques de saberes básicos. Además, se valorará si analiza y comprueba los diferentes resultados obtenidos, asegurándose de su precisión y fiabilidad, valorando el error como una oportunidad de aprendizaje, y si los comunica y comparte a través de herramientas, aplicaciones y servicios en línea, utilizando diversos formatos, de manera clara, rigurosa y de acuerdo a los principios éticos básicos, para establecer las conexiones entre lo meramente académico y las vivencias de la realidad cotidiana y contribuir a la divulgación científica.",
+      "broader": "materia:BFYQ",
+      "agrupa": [
+        "ce:BFYQC2"
+      ],
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "CPSAA5",
+        "CE1"
+      ],
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BFYQ01BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "BFYQ01BC3",
+      "prefLabel": "Física y Química · 1º Bachillerato · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial se valorará si el alumnado comprende la información científica disponible, sea cual sea el formato, y si produce nueva información utilizando el lenguaje de la ciencia con corrección, veracidad y fidelidad. Por tanto, se constatará si es capaz de identificar, seleccionar, organizar e interpretar los datos y la información relativa a procesos fisicoquímicos concretos de cualquiera de los bloques de saberes básicos facilitados en diferentes formatos (enunciados, textos, tablas, gráficas, informes, diagramas, fórmulas, esquemas, modelos, símbolos…), evaluando la calidad de los mismos, extrayendo lo significativo y desechando lo irrelevante, así como si es capaz de generar nueva información con el apoyo de aquellos recursos tecnológicos digitales o de otro tipo que favorezcan su transmisión segura, clara y precisa. Asimismo, se comprobará que puede manejar con rigor distintas variables, diferentes sistemas de unidades y sus símbolos (Sistema Internacional de Medidas, Sistema de Unidades Británico, Magnitudes y Medidas Canarias, etc.), las herramientas matemáticas necesarias y las reglas de nomenclatura avanzadas de la IUPAC para los compuestos inorgánicos y orgánicos, así como poner en práctica las normas de seguridad de los laboratorios científicos y utilizar los materiales, las sustancias y las herramientas sin comprometer la salud individual y colectiva, con la finalidad de reconocer el valor universal del lenguaje científico que permite crear relaciones entre las diferentes disciplinas, y establecer conexiones con una comunidad científica activa, preocupada por conseguir una mejora integral de la sociedad.",
+      "broader": "materia:BFYQ",
+      "agrupa": [
+        "ce:BFYQC3"
+      ],
+      "descriptores": [
+        "CCL1",
+        "STEM4",
+        "CCL2",
+        "CD2",
+        "CCL5"
+      ],
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BFYQ01BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "BFYQ01BC4",
+      "prefLabel": "Física y Química · 1º Bachillerato · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial se verificará si el alumnado es capaz de escoger de entre los distintos recursos existentes aquellos que resultan veraces y adecuados para sus necesidades, ajustados a las tareas que estén desempeñando y al tiempo disponible. Es, por tanto, necesario comprobar que puede emplear de forma crítica, creativa y versátil fuentes digitales y recursos variados cuando consulta, selecciona e interpreta información de manera autónoma, atendiendo a criterios de adecuación, calidad, novedad y garantía; cuando transforma y produce nuevos contenidos, analógicos o digitales, asociados a cualquiera de los bloques de saberes básicos, citando las fuentes y respetando los derechos de autoría, y cuando interacciona con otros miembros de la comunidad educativa al comunicar y compartir información en las diferentes etapas de un proyecto científico, en la realización de actividades o en la resolución de problemas, a través de aquellos entornos de aprendizajes, reales o virtuales, que favorezcan el contacto, la transmisión de información y la eficacia del equipo, analizando críticamente la aportación de todos los miembros del grupo, con la finalidad de favorecer el desarrollo personal y el aprendizaje social produciendo materiales que ofrezcan un valor, no solo para sí, sino también para el resto de la sociedad.",
+      "broader": "materia:BFYQ",
+      "agrupa": [
+        "ce:BFYQC4"
+      ],
+      "descriptores": [
+        "CD1",
+        "CD3",
+        "CE2",
+        "STEM3",
+        "CD2",
+        "CPSAA3.2"
+      ],
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BFYQ01BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "BFYQ01BC5",
+      "prefLabel": "Física y Química · 1º Bachillerato · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial se comprobará si el alumnado es capaz de desarrollar las destrezas propias de la labor científica al participar activamente dentro del entorno colaborativo de un grupo diverso, poniendo en práctica la cooperación en la construcción, producción y comunicación de conocimientos o en la asimilación de conocimientos ya elaborados, al propiciar la participación de todas las personas y la distribución de tareas y responsabilidades de manera equitativa; poniendo en práctica la interacción en el desarrollo de debates informados y argumentados sobre cuestiones medioambientales, sociales y éticas, incluyendo los Objetivos de Desarrollo Sostenible (ODS) y la Agenda Canaria de Desarrollo Sostenible 2030, propiciando la confrontación dialogada desde el respeto a la pluralidad de valores, creencias e ideas, la sensibilidad hacia las emociones y experiencias ajenas, el rechazo a todo tipo de violencia y discriminación, así como la promoción de la igualdad efectiva entre mujeres y hombres, y, por último, poniendo en práctica la evaluación entre iguales al someter las ideas que se plantean en el trabajo a la validación del grupo a través del análisis, la argumentación y la síntesis, para contribuir en equipo a la consecución de objetivos compartidos desde la interdependencia positiva y la responsabilidad compartida.",
+      "broader": "materia:BFYQ",
+      "agrupa": [
+        "ce:BFYQC5"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "STEM3",
+        "CPSAA3.1",
+        "CPSAA3.2",
+        "STEM4",
+        "STEM5",
+        "CC4"
+      ],
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BFYQ01BC6",
+      "tipo": "BloqueCompetencial",
+      "notation": "BFYQ01BC6",
+      "prefLabel": "Física y Química · 1º Bachillerato · bloque competencial C6",
+      "scopeNote": "A través de este bloque competencial,se constatará que el alumnado es capaz de participar activamente en la construcción del conocimiento científico, de decidir sobre los usos de los medios y productos científicos y tecnológicos que la sociedad pone a su disposición con criterios científicamente fundamentados en los conocimientos adquiridos en los diferentes bloques de saberes básicos de la materia. También se constatará que es capaz de valorar la repercusión técnica, social, económica y medioambiental que tienen las distintas aplicaciones de los avances, las investigaciones y los descubrimientos que se hacen, planificando y emprendiendo proyectos colaborativos a partir de la necesidad de afrontar la resolución de situaciones problemáticas personales, locales o globales particularmente relacionadas con los grandes retos ambientales, el desarrollo sostenible y la promoción de la salud, buscando soluciones creativas, sostenibles y éticas, llevando a cabo las iniciativas emprendedoras encontradas, evaluando los propósitos iniciales y el impacto de la ejecución de las acciones, y comunicando los elementos más relevantes del proceso seguido y de las conclusiones alcanzadas en diversos soportes con el apoyo de las tecnologías digitales. Todo ello para crear una ciudadanía comprometida con el mundo en el que vive, capaz de adaptarse a entornos cambiantes y de aportar soluciones a los problemas a los que se enfrentará a lo largo de su vida, permitiéndole madurar intelectualmente.",
+      "broader": "materia:BFYQ",
+      "agrupa": [
+        "ce:BFYQC6"
+      ],
+      "descriptores": [
+        "STEM5",
+        "CPSAA5",
+        "STEM3",
+        "STEM4",
+        "CC4",
+        "CE2"
+      ],
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFYQ01CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFYQ01CE1.1",
+      "prefLabel": "BFYQ01CE1.1 · Aplicar las leyes y teorías científicas en el análisis de fenómenos fisicoquímicos…",
+      "definition": "Aplicar las leyes y teorías científicas en el análisis de fenómenos fisicoquímicos cotidianos, distinguiendo y explicando las causas que los producen, expresando sus conclusiones en diversidad de soportes y medios de comunicación para interpretar con actitud crítica los fenómenos que ocurren a su alrededor a través de la ciencia.",
+      "broader": "ce:BFYQC1",
+      "bloque": "bc:BFYQ01BC1",
+      "descriptores": [
+        "CCL1",
+        "STEM2",
+        "CD2"
+      ],
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFYQ01CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFYQ01CE1.2",
+      "prefLabel": "BFYQ01CE1.2 · Resolver problemas fisicoquímicos planteados a partir de situaciones cotidianas,…",
+      "definition": "Resolver problemas fisicoquímicos planteados a partir de situaciones cotidianas, aplicando las leyes y teorías científicas, seleccionando y empleando estrategias variadas de resolución, razonando los procedimientos seguidos y argumentando la coherencia de los resultados y su correcta y precisa expresión, para encontrar soluciones que permitan transformar su entorno y alcanzar un estilo de vida saludable y sostenible.",
+      "broader": "ce:BFYQC1",
+      "bloque": "bc:BFYQ01BC1",
+      "descriptores": [
+        "CCL1",
+        "STEM1",
+        "STEM2",
+        "STEM5",
+        "CPSAA1.2"
+      ],
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFYQ01CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFYQ01CE2.1",
+      "prefLabel": "BFYQ01CE2.1 · Diseñar procedimientos experimentales que permitan responder a diferentes problemas y…",
+      "definition": "Diseñar procedimientos experimentales que permitan responder a diferentes problemas y observaciones, y formular y validar hipótesis utilizando la indagación, la búsqueda de evidencias procedentes de diversas fuentes y el razonamiento lógico-matemático, analizando los resultados y reformulando el procedimiento, si fuera necesario, para proponer soluciones en el ámbito personal, social y académico.",
+      "broader": "ce:BFYQC2",
+      "bloque": "bc:BFYQ01BC2",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "CPSAA5",
+        "CE1"
+      ],
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFYQ01CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFYQ01CE2.2",
+      "prefLabel": "BFYQ01CE2.2 · Seleccionar y utilizar diferentes métodos, manejando con soltura el trabajo experimental,…",
+      "definition": "Seleccionar y utilizar diferentes métodos, manejando con soltura el trabajo experimental, para encontrar la respuesta a una sola cuestión u observación, analizando y cotejando los diferentes resultados obtenidos, asegurándose de su precisión y fiabilidad, para obtener conclusiones lógicas y valorar el alcance y las limitaciones de los métodos empleados.",
+      "broader": "ce:BFYQC2",
+      "bloque": "bc:BFYQ01BC2",
+      "descriptores": [
+        "STEM1",
+        "STEM2"
+      ],
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFYQ01CE2.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFYQ01CE2.3",
+      "prefLabel": "BFYQ01CE2.3 · Integrar las leyes y teorías científicas conocidas en el proceso de validación de las…",
+      "definition": "Integrar las leyes y teorías científicas conocidas en el proceso de validación de las hipótesis formuladas, aplicando relaciones cualitativas y cuantitativas entre las diferentes variables, de manera que el procedimiento sea más fiable y coherente con el conocimiento científico adquirido, con la finalidad de mejorar sus destrezas en la interpretación de los fenómenos.",
+      "broader": "ce:BFYQC2",
+      "bloque": "bc:BFYQ01BC2",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "CPSAA5"
+      ],
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFYQ01CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFYQ01CE3.1",
+      "prefLabel": "BFYQ01CE3.1 · interpretar y relacionar de manera rigurosa las herramientas y el lenguaje matemático y…",
+      "definition": "interpretar y relacionar de manera rigurosa las herramientas y el lenguaje matemático y los diferentes sistemas de unidades de las magnitudes fisicoquímicas, empleando correctamente su notación y sus equivalencias, haciendo posible una comunicación efectiva con toda la comunidad científica desde el respeto a las normas del lenguaje de las ciencias.",
+      "broader": "ce:BFYQC3",
+      "bloque": "bc:BFYQ01BC3",
+      "descriptores": [
+        "CCL1",
+        "STEM4"
+      ],
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFYQ01CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFYQ01CE3.2",
+      "prefLabel": "BFYQ01CE3.2 · y formular correctamente las sustancias simples, los iones y los compuestos químicos…",
+      "definition": "y formular correctamente las sustancias simples, los iones y los compuestos químicos inorgánicos y orgánicos que aparecen en los textos de distintos ámbitos y de los medios de comunicación, utilizando las normas de la IUPAC como parte de un lenguaje integrador y universal para facilitar la comunicación con toda la comunidad científica.",
+      "broader": "ce:BFYQC3",
+      "bloque": "bc:BFYQ01BC3",
+      "descriptores": [
+        "CCL1",
+        "STEM4"
+      ],
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFYQ01CE3.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFYQ01CE3.3",
+      "prefLabel": "BFYQ01CE3.3 · interpretar, producir y expresar información representada en diferentes formatos relativa…",
+      "definition": "interpretar, producir y expresar información representada en diferentes formatos relativa a un proceso fisicoquímico concreto, relacionando entre sí la información que cada uno de ellos contiene y extrayendo de él lo más relevante, con el apoyo de fuentes y herramientas digitales variadas, para reconocer el carácter universal del lenguaje científico durante la resolución de problemas.",
+      "broader": "ce:BFYQC3",
+      "bloque": "bc:BFYQ01BC3",
+      "descriptores": [
+        "CCL2",
+        "STEM4",
+        "CD2"
+      ],
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFYQ01CE3.4",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFYQ01CE3.4",
+      "prefLabel": "BFYQ01CE3.4 · en práctica y comunicar los conocimientos adquiridos en la experimentación científica en…",
+      "definition": "en práctica y comunicar los conocimientos adquiridos en la experimentación científica en laboratorios —virtuales o reales— o de campo, incluyendo el conocimiento de los productos y materiales y de su normativa básica de uso, así como de las normas de seguridad propias de estos espacios, para valorar y comprender la importancia en el progreso científico y emprendedor de que la experimentación sea eficiente, ética y segura, sin comprometer la integridad física propia ni colectiva.",
+      "broader": "ce:BFYQC3",
+      "bloque": "bc:BFYQ01BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "STEM4"
+      ],
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFYQ01CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFYQ01CE4.1",
+      "prefLabel": "BFYQ01CE4.1 · Seleccionar y utilizar de forma autónoma y eficiente plataformas digitales y recursos…",
+      "definition": "Seleccionar y utilizar de forma autónoma y eficiente plataformas digitales y recursos variados para interactuar con otros miembros de la comunidad educativa en situaciones comunicativas, analizando críticamente las aportaciones de todas las personas o al compartir información a través de diferentes entornos de aprendizaje, reales y virtuales, haciendo un uso riguroso y respetuoso de los mismos para ejercer una ciudadanía responsable y ética.",
+      "broader": "ce:BFYQC4",
+      "bloque": "bc:BFYQ01BC4",
+      "descriptores": [
+        "CD1",
+        "CD3",
+        "CE2"
+      ],
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFYQ01CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFYQ01CE4.2",
+      "prefLabel": "BFYQ01CE4.2 · Trabajar de forma autónoma y versátil, con medios variados, analógicos y digitales, en la…",
+      "definition": "Trabajar de forma autónoma y versátil, con medios variados, analógicos y digitales, en la consulta de información y la creación de contenidos en diversos formatos, individualmente y en grupo, seleccionando y empleando las fuentes y herramientas que se consideren entre las más adecuadas, a partir de la aplicación de criterios de validez, calidad, actualidad, fiabilidad y seguridad, para fomentar la creatividad y mejorar el aprendizaje propio y colectivo.",
+      "broader": "ce:BFYQC4",
+      "bloque": "bc:BFYQ01BC4",
+      "descriptores": [
+        "STEM3",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CPSAA3.2",
+        "CE2"
+      ],
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFYQ01CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFYQ01CE5.1",
+      "prefLabel": "BFYQ01CE5.1 · Participar de manera activa y colaborativa en la construcción del conocimiento…",
+      "definition": "Participar de manera activa y colaborativa en la construcción del conocimiento científico, poniendo en práctica la interacción, la cooperación y la evaluación entre iguales, y alcanzar el consenso en la resolución de un problema o situación de aprendizaje, mejorando la capacidad de cuestionamiento, la reflexión y el debate, para contribuir a la consecución de objetivos compartidos y a la consolidación de una personalidad empática.",
+      "broader": "ce:BFYQC5",
+      "bloque": "bc:BFYQ01BC5",
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "STEM3",
+        "CPSAA3.1",
+        "CPSAA3.2"
+      ],
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFYQ01CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFYQ01CE5.2",
+      "prefLabel": "BFYQ01CE5.2 · Construir, producir y comunicar conocimientos, además de explorar alternativas para…",
+      "definition": "Construir, producir y comunicar conocimientos, además de explorar alternativas para superar la asimilación de conocimientos ya elaborados, a través del trabajo colectivo, encontrando momentos para el análisis, la discusión y la síntesis, para obtener como resultado la elaboración de productos variados presentados en diferentes soportes y formatos.",
+      "broader": "ce:BFYQC5",
+      "bloque": "bc:BFYQ01BC5",
+      "descriptores": [
+        "CCL1",
+        "STEM3",
+        "STEM4",
+        "STEM5",
+        "CPSAA3.2"
+      ],
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFYQ01CE5.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFYQ01CE5.3",
+      "prefLabel": "BFYQ01CE5.3 · Analizar las diferentes cuestiones medioambientales, sociales y éticas relacionadas con…",
+      "definition": "Analizar las diferentes cuestiones medioambientales, sociales y éticas relacionadas con el desarrollo de las ciencias y debatir sobre ellas de manera informada y argumentada, alcanzando un consenso sobre las repercusiones de estos avances y proponiendo soluciones creativas en común a las cuestiones planteadas, para demostrar su compromiso personal y social con el logro de los Objetivos de Desarrollo Sostenible (ODS) en la consecución de una sociedad justa para las generaciones presentes y futuras.",
+      "broader": "ce:BFYQC5",
+      "bloque": "bc:BFYQ01BC5",
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "STEM5",
+        "CPSAA3.1",
+        "CPSAA3.2",
+        "CC4"
+      ],
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFYQ01CE6.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFYQ01CE6.1",
+      "prefLabel": "BFYQ01CE6.1 · Identificar y argumentar científicamente las repercusiones de las acciones que el…",
+      "definition": "Identificar y argumentar científicamente las repercusiones de las acciones que el alumnado acomete en su vida cotidiana, analizando cómo mejorar su forma de vida y proponiendo nuevas acciones para participar activamente en la construcción de una sociedad más justa e igualitaria y alcanzar un estilo de vida saludable y sostenible.",
+      "broader": "ce:BFYQC6",
+      "bloque": "bc:BFYQ01BC6",
+      "descriptores": [
+        "STEM5",
+        "CPSAA5"
+      ],
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFYQ01CE6.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFYQ01CE6.2",
+      "prefLabel": "BFYQ01CE6.2 · Detectar, reflexionar y evaluar las necesidades de la sociedad, especialmente las…",
+      "definition": "Detectar, reflexionar y evaluar las necesidades de la sociedad, especialmente las situaciones problemáticas locales o globales relacionadas con aspectos como la resolución de los grandes retos ambientales, el desarrollo sostenible y la promoción de la salud, para proponer, planear y emprender proyectos colaborativos que permitan aplicar los conocimientos científicos adquiridos y buscar soluciones sostenibles desde la física y la química, analizando críticamente el impacto que tienen las iniciativas, para transformar su entorno, mejorándolo, y así alcanzar un estilo de vida saludable y sostenible.",
+      "broader": "ce:BFYQC6",
+      "bloque": "bc:BFYQ01BC6",
+      "descriptores": [
+        "STEM3",
+        "STEM4",
+        "STEM5",
+        "CPSAA5",
+        "CC4",
+        "CE2"
+      ],
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "BFYQ01SBI",
+      "prefLabel": "BFYQ01SBI · I. Enlace químico y estructura de la materia",
+      "definition": "Enlace químico y estructura de la materia",
+      "broader": "materia:BFYQ",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "BFYQ01SBII",
+      "prefLabel": "BFYQ01SBII · II. Reacciones químicas",
+      "definition": "Reacciones químicas",
+      "broader": "materia:BFYQ",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "BFYQ01SBIII",
+      "prefLabel": "BFYQ01SBIII · III. Química orgánica",
+      "definition": "Química orgánica",
+      "broader": "materia:BFYQ",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "BFYQ01SBIV",
+      "prefLabel": "BFYQ01SBIV · IV. Cinemática",
+      "definition": "Cinemática",
+      "broader": "materia:BFYQ",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBV",
+      "tipo": "BloqueSaberes",
+      "notation": "BFYQ01SBV",
+      "prefLabel": "BFYQ01SBV · V. Estática y dinámica",
+      "definition": "Estática y dinámica",
+      "broader": "materia:BFYQ",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBVI",
+      "tipo": "BloqueSaberes",
+      "notation": "BFYQ01SBVI",
+      "prefLabel": "BFYQ01SBVI · VI. Energía",
+      "definition": "Energía",
+      "broader": "materia:BFYQ",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBI.1",
+      "prefLabel": "BFYQ01SBI.1 · Desarrollo histórico de la tabla periódica, las contribuciones a su elaboración actual y…",
+      "definition": "Desarrollo histórico de la tabla periódica, las contribuciones a su elaboración actual y su importancia como herramienta predictiva de las propiedades fisicoquímicas de los elementos.",
+      "broader": "sb:BFYQ01SBI",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBI.2",
+      "prefLabel": "BFYQ01SBI.2 · El átomo:",
+      "definition": "El átomo:",
+      "broader": "sb:BFYQ01SBI",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBI.2.1",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBI.2.1",
+      "prefLabel": "BFYQ01SBI.2.1 · Análisis de la interacción de la estructura electrónica de los átomos con la radiación…",
+      "definition": "Análisis de la interacción de la estructura electrónica de los átomos con la radiación electromagnética.",
+      "broader": "sb:BFYQ01SBI.2",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBI.2.2",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBI.2.2",
+      "prefLabel": "BFYQ01SBI.2.2 · Determinación de la posición de un elemento en la tabla periódica de acuerdo a su…",
+      "definition": "Determinación de la posición de un elemento en la tabla periódica de acuerdo a su configuración electrónica.",
+      "broader": "sb:BFYQ01SBI.2",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBI.2.3",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBI.2.3",
+      "prefLabel": "BFYQ01SBI.2.3 · Explicación de la similitud en las propiedades de los elementos químicos de cada grupo…",
+      "definition": "Explicación de la similitud en las propiedades de los elementos químicos de cada grupo para predecir comportamientos análogos.",
+      "broader": "sb:BFYQ01SBI.2",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBI.3",
+      "prefLabel": "BFYQ01SBI.3 · El enlace químico:",
+      "definition": "El enlace químico:",
+      "broader": "sb:BFYQ01SBI",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBI.3.1",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBI.3.1",
+      "prefLabel": "BFYQ01SBI.3.1 · Justificación de la estabilidad de los átomos e iones de acuerdo a su configuración…",
+      "definition": "Justificación de la estabilidad de los átomos e iones de acuerdo a su configuración electrónica.",
+      "broader": "sb:BFYQ01SBI.3",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBI.3.2",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBI.3.2",
+      "prefLabel": "BFYQ01SBI.3.2 · Predicción de la formación de enlaces entre los elementos, representación de estos y…",
+      "definition": "Predicción de la formación de enlaces entre los elementos, representación de estos y deducción de cuáles son las propiedades de las sustancias químicas formadas.",
+      "broader": "sb:BFYQ01SBI.3",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBI.3.3",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBI.3.3",
+      "prefLabel": "BFYQ01SBI.3.3 · Comprobación de las propiedades de las sustancias químicas a través de la observación y…",
+      "definition": "Comprobación de las propiedades de las sustancias químicas a través de la observación y la experimentación para mejorar las destrezas científicas.",
+      "broader": "sb:BFYQ01SBI.3",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBI.4",
+      "prefLabel": "BFYQ01SBI.4 · Compuestos químicos inorgánicos:",
+      "definition": "Compuestos químicos inorgánicos:",
+      "broader": "sb:BFYQ01SBI",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBI.4.1",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBI.4.1",
+      "prefLabel": "BFYQ01SBI.4.1 · Nomenclatura de sustancias simples, iones y compuestos binarios y ternarios de la química…",
+      "definition": "Nomenclatura de sustancias simples, iones y compuestos binarios y ternarios de la química inorgánica según las normas de la IUPAC.",
+      "broader": "sb:BFYQ01SBI.4",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBI.4.2",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBI.4.2",
+      "prefLabel": "BFYQ01SBI.4.2 · Aplicación de los compuestos químicos inorgánicos en la industria y en la vida cotidiana.",
+      "definition": "Aplicación de los compuestos químicos inorgánicos en la industria y en la vida cotidiana.",
+      "broader": "sb:BFYQ01SBI.4",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBII.1",
+      "prefLabel": "BFYQ01SBII.1 · Aplicación de las leyes fundamentales de la química a las relaciones estequiométricas en…",
+      "definition": "Aplicación de las leyes fundamentales de la química a las relaciones estequiométricas en las reacciones químicas y en la composición de los compuestos y resolución de cuestiones cuantitativas vinculadas con la vida cotidiana.",
+      "broader": "sb:BFYQ01SBII",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBII.2",
+      "prefLabel": "BFYQ01SBII.2 · Clasificación de las reacciones químicas y su relación con aspectos importantes de la…",
+      "definition": "Clasificación de las reacciones químicas y su relación con aspectos importantes de la sociedad actual como la conservación del medio ambiente o el desarrollo de fármacos, entre otros.",
+      "broader": "sb:BFYQ01SBII",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBII.3",
+      "prefLabel": "BFYQ01SBII.3 · Cálculo de cantidades de materia en sistemas fisicoquímicos concretos, como gases ideales…",
+      "definition": "Cálculo de cantidades de materia en sistemas fisicoquímicos concretos, como gases ideales o disoluciones y sus propiedades en situaciones de la vida cotidiana.",
+      "broader": "sb:BFYQ01SBII",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBII.4",
+      "prefLabel": "BFYQ01SBII.4 · Resolución de problemas estequiométricos aplicados a los procesos industriales más…",
+      "definition": "Resolución de problemas estequiométricos aplicados a los procesos industriales más significativos de la ingeniería química.",
+      "broader": "sb:BFYQ01SBII",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBIII.1",
+      "prefLabel": "BFYQ01SBIII.1 · Justificación de las propiedades físicas y químicas generales de los compuestos orgánicos…",
+      "definition": "Justificación de las propiedades físicas y químicas generales de los compuestos orgánicos a partir de las estructuras químicas de sus grupos funcionales y estudio de las generalidades en las diferentes series homólogas para su aplicación en el mundo real.",
+      "broader": "sb:BFYQ01SBIII",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBIII.2",
+      "prefLabel": "BFYQ01SBIII.2 · Aplicación de las reglas de la IUPAC para formular y nombrar correctamente algunos…",
+      "definition": "Aplicación de las reglas de la IUPAC para formular y nombrar correctamente algunos compuestos orgánicos mono y polifuncionales (hidrocarburos, compuestos oxigenados y compuestos nitrogenados).",
+      "broader": "sb:BFYQ01SBIII",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBIV.1",
+      "prefLabel": "BFYQ01SBIV.1 · Resolución de problemas relativos a situaciones reales de los distintos movimientos que…",
+      "definition": "Resolución de problemas relativos a situaciones reales de los distintos movimientos que puede tener un objeto, con o sin fuerzas externas aplicadas, relacionados con la física y el entorno cotidiano aplicando las ecuaciones de las variables cinemáticas en función del tiempo.",
+      "broader": "sb:BFYQ01SBIV",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBIV.2",
+      "prefLabel": "BFYQ01SBIV.2 · Aplicación al estudio de movimientos rectilíneos y circulares cotidianos de las variables…",
+      "definition": "Aplicación al estudio de movimientos rectilíneos y circulares cotidianos de las variables que influyen en su movimiento y la correcta expresión de las magnitudes y unidades empleadas.",
+      "broader": "sb:BFYQ01SBIV",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBIV.3",
+      "prefLabel": "BFYQ01SBIV.3 · Relación de la trayectoria de un movimiento compuesto con las magnitudes que lo describen…",
+      "definition": "Relación de la trayectoria de un movimiento compuesto con las magnitudes que lo describen para deducir parámetros de interés en movimientos cotidianos y entender las consecuencias que se derivan de dicha composición.",
+      "broader": "sb:BFYQ01SBIV",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBV.1",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBV.1",
+      "prefLabel": "BFYQ01SBV.1 · Predicción, a partir de la composición vectorial, del comportamiento estático o dinámico…",
+      "definition": "Predicción, a partir de la composición vectorial, del comportamiento estático o dinámico de una partícula sobre la que actúa una o más fuerzas, y de un sólido rígido bajo la acción de un par de fuerzas.",
+      "broader": "sb:BFYQ01SBV",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBV.2",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBV.2",
+      "prefLabel": "BFYQ01SBV.2 · Aplicación de la mecánica clásica vectorial a una partícula en relación con su estado de…",
+      "definition": "Aplicación de la mecánica clásica vectorial a una partícula en relación con su estado de reposo o de movimiento, para valorar la importancia de las leyes de la estática o de la dinámica física en otros campos como la ingeniería o el deporte.",
+      "broader": "sb:BFYQ01SBV",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBV.3",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBV.3",
+      "prefLabel": "BFYQ01SBV.3 · Interpretación de las leyes de la dinámica en términos de magnitudes como el momento…",
+      "definition": "Interpretación de las leyes de la dinámica en términos de magnitudes como el momento lineal y el impulso mecánico y su aplicación a situaciones reales.",
+      "broader": "sb:BFYQ01SBV",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBVI.1",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBVI.1",
+      "prefLabel": "BFYQ01SBVI.1 · Aplicación de los conceptos de trabajo y potencia a la elaboración de hipótesis sobre el…",
+      "definition": "Aplicación de los conceptos de trabajo y potencia a la elaboración de hipótesis sobre el consumo energético de sistemas mecánicos o eléctricos del entorno cotidiano y su rendimiento.",
+      "broader": "sb:BFYQ01SBVI",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBVI.2",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBVI.2",
+      "prefLabel": "BFYQ01SBVI.2 · Determinación de la energía potencial y energía cinética de un sistema sencillo y su…",
+      "definition": "Determinación de la energía potencial y energía cinética de un sistema sencillo y su aplicación a la conservación de la energía mecánica en sistemas conservativos y no conservativos para comprender y analizar las causas que producen el movimiento de los objetos en el mundo real.",
+      "broader": "sb:BFYQ01SBVI",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFYQ01SBVI.3",
+      "tipo": "SaberBasico",
+      "notation": "BFYQ01SBVI.3",
+      "prefLabel": "BFYQ01SBVI.3 · Determinación de las variaciones de temperatura que experimenta un sistema y de las…",
+      "definition": "Determinación de las variaciones de temperatura que experimenta un sistema y de las transferencias de energía que se producen con su entorno en función de sus variables termodinámicas.",
+      "broader": "sb:BFYQ01SBVI",
+      "materia": "materia:BFYQ",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    }
+  ]
+}

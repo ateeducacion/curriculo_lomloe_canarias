@@ -1,0 +1,516 @@
+{
+  "materia": "materia:BAMS",
+  "nodos": [
+    {
+      "id": "materia:BAMS",
+      "tipo": "Materia",
+      "notation": "BAMS",
+      "prefLabel": "Análisis Musical I (Bachillerato)",
+      "cursos": [
+        "curso:B01"
+      ],
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BAMSC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BAMSC1",
+      "prefLabel": "BAMSC1 · Analizar los elementos musicales de diferentes obras, utilizando la escucha activa y el…",
+      "definition": "Analizar los elementos musicales de diferentes obras, utilizando la escucha activa y el estudio de partituras, para describir sus características y establecer comparaciones.",
+      "broader": "materia:BAMS",
+      "materia": "materia:BAMS",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BAMSC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BAMSC2",
+      "prefLabel": "BAMSC2 · Establecer relaciones entre los elementos musicales de una composición, a través del…",
+      "definition": "Establecer relaciones entre los elementos musicales de una composición, a través del análisis de su estructura y de los procedimientos compositivos utilizados, para asociar la obra con un género, un estilo y un contexto de creación.",
+      "broader": "materia:BAMS",
+      "materia": "materia:BAMS",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BAMSC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BAMSC3",
+      "prefLabel": "BAMSC3 · Elaborar comentarios y críticas musicales sobre las obras analizadas, utilizando una…",
+      "definition": "Elaborar comentarios y críticas musicales sobre las obras analizadas, utilizando una terminología adecuada y consultando distintas fuentes de información, para expresar juicios personales fundamentados y contribuir a la difusión del patrimonio musical a través de los medios disponibles.",
+      "broader": "materia:BAMS",
+      "materia": "materia:BAMS",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BAMSC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BAMSC4",
+      "prefLabel": "BAMSC4 · Utilizar los procedimientos compositivos fundamentales y las tecnologías digitales,…",
+      "definition": "Utilizar los procedimientos compositivos fundamentales y las tecnologías digitales, empleando los elementos y las estructuras musicales más adecuadas, para crear obras sencillas y realizar improvisaciones.",
+      "broader": "materia:BAMS",
+      "materia": "materia:BAMS",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BAMSC5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BAMSC5",
+      "prefLabel": "BAMSC5 · Investigar sobre los usos de la música con fines terapéuticos y en combinación con otras…",
+      "definition": "Investigar sobre los usos de la música con fines terapéuticos y en combinación con otras formas de expresión artística, utilizando diferentes fuentes de información y analizando las características musicales de las obras, para entender de qué forma inciden determinados rasgos musicales en la salud y en las emociones",
+      "broader": "materia:BAMS",
+      "materia": "materia:BAMS",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BAMS01BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "BAMS01BC1",
+      "prefLabel": "Análisis Musical I · 1º Bachillerato · bloque competencial C1",
+      "scopeNote": "A través del presente bloque competencial, se persigue constatar si el alumnado es capaz de identificar los elementos constitutivos de una obra musical (ritmo, tempo, melodía, armonía, textura, timbre, dinámica y agógica), así como describir sus características. Se evaluará la habilidad para aplicar técnicas de escucha activa y análisis auditivo, así como de estudio y análisis guiado de partituras, tanto con notación convencional como no convencional, demostrando comprensión e interpretación de las obras estudiadas. Se podrá comprobar la habilidad para indagar en las intencionalidades de estas obras, analizando sus contextos y elementos técnicos, demostrando una actitud de recepción activa y deleite ante las manifestaciones artísticas propuestas. De igual forma, se valorará la expresión de sus conclusiones, de forma oral, escrita o multimodal, atendiendo a criterios de fluidez, coherencia y corrección, haciendo uso de una terminología musical adecuada. Igualmente se constatará la participación activa, cooperativa y respetuosa en las interacciones generadas en el aula para intercambiar información y argumentar sus opiniones. Por último, se verificará la existencia de una actitud reflexiva respecto a la promoción y valoración crítica del patrimonio cultural y artístico, de la libertad de expresión y del enriquecimiento personal derivado de la diversidad presente en la sociedad.",
+      "broader": "materia:BAMS",
+      "agrupa": [
+        "ce:BAMSC1"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CP3",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BAMS01BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "BAMS01BC2",
+      "prefLabel": "Análisis Musical I · 1º Bachillerato · bloque competencial C2",
+      "scopeNote": "Mediante este bloque competencial, se valorará si el alumnado es capaz de identificar la estructura formal y los procedimientos compositivos de obras diversas, y asociarlos a un género y estilo determinado. Igualmente se evaluará la habilidad para indagar sobre su contexto, sus elementos técnicos y estéticos y su autoría, destacando la producción de mujeres compositoras, así como de artistas del archipiélago canario. Para ello, el alumnado deberá demostrar capacidades relativas a la búsqueda avanzada de información, con criterio de calidad, fiabilidad y selección crítica, comparando, evaluando y sintetizando datos para obtener conclusiones lógicas con autonomía. Al mismo tiempo, se valorará la expresión de sus conclusiones, de forma oral, escrita o multimodal, atendiendo a criterios de fluidez, coherencia y corrección, haciendo uso de una terminología musical adecuada; y se constatará la participación activa, cooperativa y respetuosa en las interacciones generadas en el aula para intercambiar información y argumentar sus opiniones. Por último, se verificará la existencia de una actitud reflexiva respecto a la promoción y valoración crítica del patrimonio cultural y artístico, de la libertad de expresión y del enriquecimiento personal derivado de la diversidad presente en la sociedad.",
+      "broader": "materia:BAMS",
+      "agrupa": [
+        "ce:BAMSC2"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CP3",
+        "CD1",
+        "CPSAA4",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BAMS01BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "BAMS01BC3",
+      "prefLabel": "Análisis Musical I · 1º Bachillerato · bloque competencial C3",
+      "scopeNote": "A través del presente bloque competencial, se persigue constatar si el alumnado es capaz de expresar opiniones propias sobre las obras estudiadas en el aula, haciendo uso de un vocabulario técnico apropiado. Para ello se verificará la habilidad para elaborar y publicar reseñas musicales, expresándose con fluidez, coherencia y corrección, participando activamente en las interacciones comunicativas del aula, con actitud respetuosa y cooperativa, y poniendo sus prácticas comunicativas al servicio de la convivencia democrática. Se evaluará la capacidad para localizar, analizar y sintetizar datos en la consulta autónoma de fuentes diversas, con respeto a los derechos de autoría y la propiedad intelectual. Igualmente, se valorará la destreza en el manejo de las tecnologías para la elaboración de productos de difusión, así como la existencia de un punto de vista creativo a la hora de comunicar sus conocimientos y opiniones, favoreciendo un uso ético de los sistemas de comunicación. Por último, se comprobará la manifestación de una actitud reflexiva acerca del valor del patrimonio cultural y artístico, y de la diversidad cultural como fuente de enriquecimiento personal.",
+      "broader": "materia:BAMS",
+      "agrupa": [
+        "ce:BAMSC3"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CCL5",
+        "CP3",
+        "CD1",
+        "CD3",
+        "CPSAA4",
+        "CCEC3.1"
+      ],
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BAMS01BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "BAMS01BC4",
+      "prefLabel": "Análisis Musical I · 1º Bachillerato · bloque competencial C4",
+      "scopeNote": "La activación del presente bloque competencial, permitirá evaluar si el alumnado es capaz de reproducir elementos musicales extraídos de los análisis realizados en el aula (patrones melódicos, rítmicos, armónicos y formales), aplicándolos en actividades de interpretación. Igualmente, se evaluará la aplicación de técnicas de interpretación vocal, instrumental o corporal, así como el grado de precisión en la reproducción de los patrones propuestos, lo que permitirá constatar la adquisición de estrategias de memorización. Se constatará la participación activa en las dinámicas e interacciones grupales, con respeto y cooperación, mostrando sensibilidad hacia las emociones y experiencias de los demás, distribuyendo y asumiendo diferentes funciones en el trabajo de grupo, para la consecución de objetivos comunes. Por último, se valorará la aplicación de conocimientos técnicos y habilidades de planificación en los procesos expresivos, experimentando con diversas herramientas y lenguajes artísticos para transmitir sus emociones, ideas, opiniones y sentimientos, enfrentándose a las situaciones artísticas con empatía, autoestima, iniciativa e imaginación.",
+      "broader": "materia:BAMS",
+      "agrupa": [
+        "ce:BAMSC4"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CPSAA3.1",
+        "CPSAA3.2",
+        "CE3",
+        "CCEC2",
+        "CCEC3.1"
+      ],
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BAMS01BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "BAMS01BC5",
+      "prefLabel": "Análisis Musical I · 1º Bachillerato · bloque competencial C5",
+      "scopeNote": "A través del presente bloque competencial, se podrá verificar si el alumnado es capaz de identificar las funciones que cumple la música, así como establecer el vínculo con otras formas de expresión artística. Para ello se valorará su capacidad para analizar sus características y reflexionar sobre cómo estas inciden en las emociones. Se comprobará la habilidad para aplicar estrategias de escucha activa, analizando los contextos y elementos estéticos, con una postura de recepción activa y deleite. Asimismo se constatará la destreza para realizar búsquedas avanzadas, localizar, seleccionar y analizar información de fuentes diversas, respetando los derechos de autoría y obteniendo conclusiones lógicas de manera autónoma. Por último, se evaluará la interpretación y transmisión de sus conclusiones en diversos formatos, con fluidez, coherencia y corrección, haciendo uso de un vocabulario técnico apropiado y con un punto de vista creativo.",
+      "broader": "materia:BAMS",
+      "agrupa": [
+        "ce:BAMSC5"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM4",
+        "CD1",
+        "CPSAA4",
+        "CCEC2"
+      ],
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BAMS01CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BAMS01CE1.1",
+      "prefLabel": "BAMS01CE1.1 · Identificar los elementos que constituyen una obra musical y describir sus…",
+      "definition": "Identificar los elementos que constituyen una obra musical y describir sus características, a través de la escucha activa, el análisis guiado y el estudio de partituras, para favorecer el desarrollo de estrategias perceptivas.",
+      "broader": "ce:BAMSC1",
+      "bloque": "bc:BAMS01BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CP3",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BAMS01CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BAMS01CE2.1",
+      "prefLabel": "BAMS01CE2.1 · Identificar la estructura formal y los procedimientos compositivos de una obra y…",
+      "definition": "Identificar la estructura formal y los procedimientos compositivos de una obra y asociarlos a su género y estilo, a través del análisis auditivo y de partituras, de forma guiada, y la investigación sobre su autoría y la época, para establecer relaciones entre la creación musical y su contexto.",
+      "broader": "ce:BAMSC2",
+      "bloque": "bc:BAMS01BC2",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CP3",
+        "CD1",
+        "CPSAA4",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BAMS01CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BAMS01CE3.1",
+      "prefLabel": "BAMS01CE3.1 · Expresar una opinión propia sobre las obras analizadas, con una terminología musical…",
+      "definition": "Expresar una opinión propia sobre las obras analizadas, con una terminología musical adecuada, a través de la búsqueda de información y la publicación de reseñas musicales, respetando los derechos de autoría y la propiedad intelectual, para contribuir a la difusión del patrimonio cultural y artístico.",
+      "broader": "ce:BAMSC3",
+      "bloque": "bc:BAMS01BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CCL5",
+        "CP3",
+        "CD1",
+        "CD3",
+        "CPSAA4",
+        "CCEC3.1"
+      ],
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BAMS01CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BAMS01CE4.1",
+      "prefLabel": "BAMS01CE4.1 · Reproducir patrones melódicos, rítmicos, armónicos y formales de diversas obras…",
+      "definition": "Reproducir patrones melódicos, rítmicos, armónicos y formales de diversas obras analizadas en el aula, a través de la interpretación vocal, instrumental o corporal, aplicando estrategias de memorización, para valorar el enriquecimiento que supone la participación en propuestas musicales grupales.",
+      "broader": "ce:BAMSC4",
+      "bloque": "bc:BAMS01BC4",
+      "descriptores": [
+        "CCL1",
+        "CPSAA3.1",
+        "CPSAA3.2",
+        "CE3",
+        "CCEC2",
+        "CCEC3.1"
+      ],
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BAMS01CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BAMS01CE5.1",
+      "prefLabel": "BAMS01CE5.1 · Identificar las funciones que cumple la música asociada a otras formas de expresión…",
+      "definition": "Identificar las funciones que cumple la música asociada a otras formas de expresión artística, a través del análisis de sus características y la búsqueda de información, para valorar el efecto que genera en el espectador.",
+      "broader": "ce:BAMSC5",
+      "bloque": "bc:BAMS01BC5",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM4",
+        "CD1",
+        "CPSAA4",
+        "CCEC2"
+      ],
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMS01SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "BAMS01SBI",
+      "prefLabel": "BAMS01SBI · I. Iniciación al análisis musical",
+      "definition": "Iniciación al análisis musical",
+      "broader": "materia:BAMS",
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMS01SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "BAMS01SBII",
+      "prefLabel": "BAMS01SBII · II. La forma musical",
+      "definition": "La forma musical",
+      "broader": "materia:BAMS",
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMS01SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "BAMS01SBIII",
+      "prefLabel": "BAMS01SBIII · III. Interpretación y creación",
+      "definition": "Interpretación y creación",
+      "broader": "materia:BAMS",
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMS01SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "BAMS01SBI.1",
+      "prefLabel": "BAMS01SBI.1 · Consolidación de estrategias de escucha activa.",
+      "definition": "Consolidación de estrategias de escucha activa.",
+      "broader": "sb:BAMS01SBI",
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMS01SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "BAMS01SBI.2",
+      "prefLabel": "BAMS01SBI.2 · Aplicación de técnicas de análisis auditivo guiado en obras de diferentes estilos y…",
+      "definition": "Aplicación de técnicas de análisis auditivo guiado en obras de diferentes estilos y géneros.",
+      "broader": "sb:BAMS01SBI",
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMS01SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "BAMS01SBI.3",
+      "prefLabel": "BAMS01SBI.3 · Aplicación de técnicas de análisis guiado de partituras con apoyo de la audición.",
+      "definition": "Aplicación de técnicas de análisis guiado de partituras con apoyo de la audición.",
+      "broader": "sb:BAMS01SBI",
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMS01SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "BAMS01SBI.4",
+      "prefLabel": "BAMS01SBI.4 · Identificación de los elementos de la música: ritmo, tempo, melodía, armonía, textura,…",
+      "definition": "Identificación de los elementos de la música: ritmo, tempo, melodía, armonía, textura, timbre, dinámica y agógica. Descripción de sus características y relación entre ellos.",
+      "broader": "sb:BAMS01SBI",
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMS01SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "BAMS01SBI.5",
+      "prefLabel": "BAMS01SBI.5 · Empleo del vocabulario musical técnico.",
+      "definition": "Empleo del vocabulario musical técnico.",
+      "broader": "sb:BAMS01SBI",
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMS01SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "BAMS01SBI.6",
+      "prefLabel": "BAMS01SBI.6 · Elaboración y difusión de reseñas musicales con una terminología musical adecuada.…",
+      "definition": "Elaboración y difusión de reseñas musicales con una terminología musical adecuada. Valoración crítica del mensaje musical, rechazando cualquier tipo de discriminación y violencia.",
+      "broader": "sb:BAMS01SBI",
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMS01SBI.7",
+      "tipo": "SaberBasico",
+      "notation": "BAMS01SBI.7",
+      "prefLabel": "BAMS01SBI.7 · Empleo de recursos digitales para la investigación y difusión musical.",
+      "definition": "Empleo de recursos digitales para la investigación y difusión musical.",
+      "broader": "sb:BAMS01SBI",
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMS01SBI.8",
+      "tipo": "SaberBasico",
+      "notation": "BAMS01SBI.8",
+      "prefLabel": "BAMS01SBI.8 · Respeto de los derechos de autoría y la propiedad intelectual.",
+      "definition": "Respeto de los derechos de autoría y la propiedad intelectual.",
+      "broader": "sb:BAMS01SBI",
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMS01SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "BAMS01SBII.1",
+      "prefLabel": "BAMS01SBII.1 · Identificación de los elementos estructurales: célula, motivo, frase y semifrase,…",
+      "definition": "Identificación de los elementos estructurales: célula, motivo, frase y semifrase, período, sección y movimiento; ritmo melódico y armónico; cadencias.",
+      "broader": "sb:BAMS01SBII",
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMS01SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "BAMS01SBII.2",
+      "prefLabel": "BAMS01SBII.2 · Identificación de formas simples, formas compuestas y libres. Formas-tipo. Representación…",
+      "definition": "Identificación de formas simples, formas compuestas y libres. Formas-tipo. Representación de esquemas formales.",
+      "broader": "sb:BAMS01SBII",
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMS01SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "BAMS01SBII.3",
+      "prefLabel": "BAMS01SBII.3 · Identificación de los procedimientos compositivos fundamentales: repetición, variación,…",
+      "definition": "Identificación de los procedimientos compositivos fundamentales: repetición, variación, contraste y desarrollo.",
+      "broader": "sb:BAMS01SBII",
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMS01SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "BAMS01SBII.4",
+      "prefLabel": "BAMS01SBII.4 · Identificación de la función de la música en combinación con otras manifestaciones…",
+      "definition": "Identificación de la función de la música en combinación con otras manifestaciones artísticas.",
+      "broader": "sb:BAMS01SBII",
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMS01SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "BAMS01SBIII.1",
+      "prefLabel": "BAMS01SBIII.1 · Reproducción de patrones melódicos, rítmicos, armónicos y formales, a través de la…",
+      "definition": "Reproducción de patrones melódicos, rítmicos, armónicos y formales, a través de la interpretación vocal, instrumental o corporal.",
+      "broader": "sb:BAMS01SBIII",
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMS01SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "BAMS01SBIII.2",
+      "prefLabel": "BAMS01SBIII.2 · Aplicación de técnicas de interpretación vocal, instrumental o corporal en actividades…",
+      "definition": "Aplicación de técnicas de interpretación vocal, instrumental o corporal en actividades realizadas en el aula.",
+      "broader": "sb:BAMS01SBIII",
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMS01SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "BAMS01SBIII.3",
+      "prefLabel": "BAMS01SBIII.3 · Aplicación de los elementos musicales extraídos de análisis realizados en el aula…",
+      "definition": "Aplicación de los elementos musicales extraídos de análisis realizados en el aula (patrones melódicos, rítmicos, armónicos y formales) en actividades de interpretación.",
+      "broader": "sb:BAMS01SBIII",
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMS01SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "BAMS01SBIII.4",
+      "prefLabel": "BAMS01SBIII.4 · Aplicación de estrategias de memorización en interpretaciones.",
+      "definition": "Aplicación de estrategias de memorización en interpretaciones.",
+      "broader": "sb:BAMS01SBIII",
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMS01SBIII.5",
+      "tipo": "SaberBasico",
+      "notation": "BAMS01SBIII.5",
+      "prefLabel": "BAMS01SBIII.5 · Actitud proactiva, colaborativa y respetuosa en interpretaciones y actividades de…",
+      "definition": "Actitud proactiva, colaborativa y respetuosa en interpretaciones y actividades de expresión realizadas en el aula.",
+      "broader": "sb:BAMS01SBIII",
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMS01SBIII.6",
+      "tipo": "SaberBasico",
+      "notation": "BAMS01SBIII.6",
+      "prefLabel": "BAMS01SBIII.6 · Empleo de recursos digitales para la creación musical.",
+      "definition": "Empleo de recursos digitales para la creación musical.",
+      "broader": "sb:BAMS01SBIII",
+      "materia": "materia:BAMS",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    }
+  ]
+}

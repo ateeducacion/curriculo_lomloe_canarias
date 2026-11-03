@@ -1,0 +1,627 @@
+{
+  "materia": "materia:BAR6",
+  "nodos": [
+    {
+      "id": "materia:BAR6",
+      "tipo": "Materia",
+      "notation": "BAR6",
+      "prefLabel": "Artes Escénicas I (Bachillerato)",
+      "cursos": [
+        "curso:B01"
+      ],
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BAR6C1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BAR6C1",
+      "prefLabel": "BAR6C1 · Analizar manifestaciones escénicas de diferentes épocas y tradiciones, describiendo sus…",
+      "definition": "Analizar manifestaciones escénicas de diferentes épocas y tradiciones, describiendo sus características, estableciendo relaciones con su contexto e identificando posibles influencias y proyecciones, para valorar el patrimonio y enriquecer el imaginario propio.",
+      "broader": "materia:BAR6",
+      "materia": "materia:BAR6",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BAR6C2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BAR6C2",
+      "prefLabel": "BAR6C2 · Explorar las posibilidades expresivas de diferentes sistemas, medios y códigos de…",
+      "definition": "Explorar las posibilidades expresivas de diferentes sistemas, medios y códigos de significación escénica, a través de actividades de carácter práctico, para incorporar su uso al repertorio personal de recursos y desarrollar el criterio de selección de los más adecuados a la intención comunicativa.",
+      "broader": "materia:BAR6",
+      "materia": "materia:BAR6",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BAR6C3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BAR6C3",
+      "prefLabel": "BAR6C3 · Abordar la recreación y representación de la acción dramática, a partir de la…",
+      "definition": "Abordar la recreación y representación de la acción dramática, a partir de la construcción colectiva de escenas que muestren todo tipo de personajes y conflictos, para desarrollar habilidades de comunicación y negociación y reforzar el autoconocimiento, la creatividad, la empatía, la imaginación y el espíritu emprendedor en diversas situaciones y contextos.",
+      "broader": "materia:BAR6",
+      "materia": "materia:BAR6",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BAR6C4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BAR6C4",
+      "prefLabel": "BAR6C4 · Realizar proyectos de creación y difusión escénica, planificando sus fases, seleccionando…",
+      "definition": "Realizar proyectos de creación y difusión escénica, planificando sus fases, seleccionando y estructurando los elementos de significación y asumiendo diferentes funciones con iniciativa y responsabilidad, para expresar una intención comunicativa, enriquecer el entorno cultural e identificar oportunidades de desarrollo personal, social, académico o profesional.",
+      "broader": "materia:BAR6",
+      "materia": "materia:BAR6",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BAR6C5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BAR6C5",
+      "prefLabel": "BAR6C5 · Valorar críticamente manifestaciones escénicas, identificando el público al que se…",
+      "definition": "Valorar críticamente manifestaciones escénicas, identificando el público al que se dirigen y analizando sus características y sus presupuestos artísticos, para desarrollar el criterio estético, difundir el patrimonio y ampliar las posibilidades de disfrute de las artes escénicas.",
+      "broader": "materia:BAR6",
+      "materia": "materia:BAR6",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BAR601BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "BAR601BC1",
+      "prefLabel": "Artes Escénicas I · 1º Bachillerato · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado explica y valora la génesis y la evolución histórica de diferentes modalidades de espectáculo escénico, de diferentes épocas y tradiciones, relacionándolas con su contexto histórico y geográfico, así como con manifestaciones escénicas actuales. De esta manera, se verificará que es capaz de identificar y describir las características fundamentales de los diversos estilos de teatro (textual, gestual, objetos, musical y lírico), así como las características de otras artes escénicas (happening, performance, vídeo-teatro, teatro-danza…), a partir de los elementos de significación más característicos y recurrentes en cada una de ellas, de su evolución a lo largo de la historia y de su papel en la sociedad. Se valorará, además, que el alumnado sea capaz de reflexionar sobre el patrimonio escénico desde una recepción activa que contemple la perspectiva de género y la interculturalidad. Para ello se constatará que el alumnado parte de puestas en escena con un componente artístico (presentaciones orales y escritas, reseñas, reportajes, tertulias, charlas-coloquio, crónicas, críticas, revistas artísticas…), vinculadas con la asistencia o el visionado de espectáculos de diferentes características y procedencias, con especial atención al patrimonio de Canarias en las artes escénicas. De manera se demostrará que el alumnado aprecia la importancia de este patrimonio tanto universal como local, así como que comprende el valor de conservar y transmitir su legado como muestra de una forma de sentir y de pensar marcada por circunstancias históricas, culturales, rituales, ambientales, técnicas, estilísticas o simbólicas de cada periodo, en las que se refleje un comportamiento solidario, tolerante, responsable y asertivo que ayude a la superación de las inhibiciones, miedos y obstáculos comunicativos. A tal fin, el alumnado empleará procesos básicos de indagación e investigación, e integrará las nuevas tecnologías y los medios audiovisuales para la realización de diversos productos propios del contexto académico y social (comentarios de textos dramáticos e imágenes…). Todo ello con la finalidad de valorar el patrimonio escénico.",
+      "broader": "materia:BAR6",
+      "agrupa": [
+        "ce:BAR6C1"
+      ],
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "CP3",
+        "CD1",
+        "CD2",
+        "CPSAA2",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BAR601BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "BAR601BC2",
+      "prefLabel": "Artes Escénicas I · 1º Bachillerato · bloque competencial C2",
+      "scopeNote": "A partir de este bloque competencial se constatará la exploración y el descubrimiento por parte del alumnado de las distintas posibilidades expresivas que ofrecen los diferentes sistemas, medios y códigos de significación escénica, particularmente los presentes en el patrimonio escénico canario. Con el objetivo de enriquecer su repertorio personal de recursos y aprender a seleccionar y a aplicar los más adecuados a cada necesidad o intención comunicativa, el alumnado deberá ser capaz de mostrar capacidades y destrezas lingüísticas orales y escritas, no verbales, gestuales y mímicas a través de la participación en experiencias comunicativas y escénicas (debate, charlas, match de improvisación, trabalenguas, frases de movimiento, ejercicios rítmicos…), demostrando que entiende las artes escénicas como un espacio activo de escucha y de diálogo, y procurando modos de expresión más allá de la palabra que faciliten una comunicación efectiva y fomenten la capacidad en el alumnado de elegir con criterio propio, imaginar, planificar y gestionar proyectos que le posibiliten seguir aprendiendo y participando plenamente en la diversidad de los contextos de la vida. Para conseguir estos fines, las dinámicas de dramatización y juego escénico, la creación colectiva y la improvisación serán los motores del aprendizaje que proporcionarán a los alumnos y alumnas la oportunidad de descubrir y aplicar diferentes técnicas y estrategias para reflexionar sobre todos los elementos y aspectos constitutivos del espectáculo teatral y la diversidad de emociones que este contiene. Asimismo, estas actividades constituirán una herramienta óptima para aprender a seleccionar los recursos plásticos, literarios, tecnológicos, audiovisuales o de otro tipo que mejor se ajustan a las ideas, sentimientos y emociones que se pretenden plasmar sobre el escenario. La práctica de la expresión y comunicación escénica favorece el autoconocimiento, la confianza grupal, la coeducación, la responsabilidad emocional efectiva con uno mismo y con el otro, un compromiso colectivo con la inclusividad y el respeto por la diversidad de ideas y opiniones ajenas en beneficio del trabajo común y del enriquecimiento cultural, todo ello con la finalidad de construir una personalidad autónoma e independiente.",
+      "broader": "materia:BAR6",
+      "agrupa": [
+        "ce:BAR6C2"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CD1",
+        "CPSAA1.1",
+        "CPSAA2",
+        "CC1",
+        "CE3",
+        "CCEC3.1",
+        "CCEC3.2"
+      ],
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BAR601BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "BAR601BC3",
+      "prefLabel": "Artes Escénicas I · 1º Bachillerato · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial, a partir de la recreación y representación de la acción dramática, la lectura y el análisis de obras, el visionado de espectáculos, así como el trabajo en los ensayos, se comprobará la capacidad que tiene el alumnado de crear personajes complementarios a su forma de ser habitual, con lo que enriquecerá su propio mundo y el de sus compañeros y compañeras, siempre desde el respeto a la persona, sus emociones y sus ritmos en el proceso de aprendizaje. Este proceso coeducativo e inclusivo implica una visión integradora corporal, emocional, cognitiva y relacional del alumnado a partir de trabajos de improvisación, dinámicas de movimiento, ejercicios rítmicos, escenas, fantasías, juegos, danzas y coreografías sencillas que brindarán la posibilidad de cambios y descubrimientos gratificantes y útiles en el alumnado desde un enfoque competencial, estimulando así su interacción con el medio cultural y social que le rodea y garantizando, por tanto, el logro de fines formativos que le serán válidos para su vida diaria. Para ello se constituirá espacial y temporalmente un ámbito que posibilite la adquisición de destrezas y técnicas de interpretación individual y grupal. La interpretación individual permite trabajar aspectos como la concentración, la memorización, la expresión personal o la adecuación a las directrices de la dirección. Por su parte, la interpretación grupal favorece el desarrollo de la capacidad de desempeñar diversas funciones o de escuchar a los demás e interactuar con ellos durante la representación. Tanto la asimilación de técnicas de interpretación como la representación de obras dentro o fuera del aula hacen necesaria la adquisición de estrategias y destrezas de regulación emocional que ayuden al alumnado a gestionar adecuadamente la frustración que puede generar el propio proceso de aprendizaje, así como a mantener la concentración y a superar la inseguridad y el miedo escénico durante las actuaciones. La finalidad ulterior de estas estrategias de control y gestión de las emociones será el afianzamiento de la autoestima del alumnado de cara a afrontar con mayor seguridad las situaciones de incertidumbre y los retos a los que habrá de enfrentarse en el futuro.",
+      "broader": "materia:BAR6",
+      "agrupa": [
+        "ce:BAR6C3"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CD2",
+        "CPSAA1.1",
+        "CPSAA2",
+        "CC1",
+        "CE1",
+        "CE3"
+      ],
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BAR601BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "BAR601BC4",
+      "prefLabel": "Artes Escénicas I · 1º Bachillerato · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado, de manera individual o grupal, es capaz de aplicar las fases del proceso creador en la realización de proyectos y participar en propuestas artísticas (piezas teatrales, flashmob, teatro de sombras, cortometrajes, lipdub, vídeos musicales…) que comuniquen sus vivencias e inquietudes, asumiendo diferentes roles y expresando con sentido crítico el impacto afectivo, cognoscitivo y físico que le provoca participar en manifestaciones escénicas propias y ajenas, donde se valoran las destrezas y habilidades expresivas. Asimismo, se comprobará si el alumnado identifica los valores éticos en las producciones artísticas, manifiesta un juicio razonado sobre estas propuestas y las relaciona con otras, empleando medios tecnológicos como instrumentos de expresión literaria, visual, plástica, musical y escénica, con un sentido crítico y ético, disfrutando y valorando los diversos elementos que las constituyen. Además, se constatará que para todo ello el alumnado se integra en dinámicas de grupo creativas que fomenten un comportamiento social, solidario, tolerante, responsable y asertivo que le ayude a contemplar la perspectiva de género y la interculturalidad en las artes escénicas, al mismo tiempo que le facilite superar inhibiciones, miedos y obstáculos comunicativos en los ámbitos personal, social y académico.",
+      "broader": "materia:BAR6",
+      "agrupa": [
+        "ce:BAR6C4"
+      ],
+      "descriptores": [
+        "CCL3",
+        "CD2",
+        "CPSAA3.1",
+        "CC2",
+        "CC3",
+        "CE2",
+        "CE3",
+        "CCEC4.1",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BAR601BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "BAR601BC5",
+      "prefLabel": "Artes Escénicas I · 1º Bachillerato · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial se pretende que el alumnado sea capaz de realizar una visión activa y crítica de manifestaciones artísticas pertenecientes a diferentes contextos históricos y culturales y a diversos campos de las artes, con especial atención al ámbito de Canarias y la visibilidad del papel de las mujeres. En este sentido, el alumnado adquirirá estrategias y técnicas de análisis crítico, el empleo de un vocabulario específico y el desarrollo de nuevas estructuras y herramientas que le ayudarán a articular mejor sus propias valoraciones críticas. Podrá formularlas de forma oral, escrita o multimodal, empleando los conceptos y las estrategias de análisis más adecuadas en cada caso. Para ello se utilizarán diferentes recursos (ficha técnica, diario de aula, reseña, blog, pódcast…) que permitirán al alumnado emitir juicios críticos sobre productos literarios y culturales con apreciación estética y reconocimientos de la diversidad y multiculturalidad para que valore, respete y divulgue los aspectos básicos de la cultura y la historia propias y la de los demás.",
+      "broader": "materia:BAR6",
+      "agrupa": [
+        "ce:BAR6C5"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "CD1",
+        "CD2",
+        "CPSAA4",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BAR601CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BAR601CE1.1",
+      "prefLabel": "BAR601CE1.1 · Identificar las principales características de las manifestaciones escénicas de…",
+      "definition": "Identificar las principales características de las manifestaciones escénicas de diferentes épocas y tradiciones en su contexto histórico, prestando una especial atención a las producciones de mujeres y a las propias del acervo cultural canario, estableciendo relaciones con el hecho escénico actual y mostrando respeto a la diversidad cultural, espíritu crítico y un uso adecuado del vocabulario específico con el fin de valorar el patrimonio y enriquecer el imaginario propio.",
+      "broader": "ce:BAR6C1",
+      "bloque": "bc:BAR601BC1",
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "CP3",
+        "CD1",
+        "CD2",
+        "CPSAA2",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BAR601CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BAR601CE2.1",
+      "prefLabel": "BAR601CE2.1 · Participar con iniciativa, autonomía y emocionalidad competente en actividades de…",
+      "definition": "Participar con iniciativa, autonomía y emocionalidad competente en actividades de carácter práctico, explorando diversos sistemas, medios y códigos de significación escénica con el fin de recrear la acción dramática, el diseño de personajes y la configuración de situaciones y escenas, a partir de las técnicas más adecuadas de entre las que conforman el repertorio personal de recursos.",
+      "broader": "ce:BAR6C2",
+      "bloque": "bc:BAR601BC2",
+      "descriptores": [
+        "CCL1",
+        "CD1",
+        "CPSAA1.1",
+        "CPSAA2",
+        "CC1",
+        "CE3",
+        "CCEC3.1",
+        "CCEC3.2"
+      ],
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BAR601CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BAR601CE3.1",
+      "prefLabel": "BAR601CE3.1 · Emplear técnicas elementales de interpretación, aplicando estrategias de memorización y…",
+      "definition": "Emplear técnicas elementales de interpretación, aplicando estrategias de memorización y valorando los ensayos como espacios de escucha, diálogo y aprendizaje, con el fin de recrear y representar la acción dramática con eficacia y concentración a partir de las indicaciones de la dirección y gestionando adecuadamente las experiencias emocionales, tanto con relación a sí mismo como hacia los demás.",
+      "broader": "ce:BAR6C3",
+      "bloque": "bc:BAR601BC3",
+      "descriptores": [
+        "CCL1",
+        "CD2",
+        "CPSAA1.1",
+        "CPSAA2",
+        "CC1",
+        "CE1",
+        "CE3"
+      ],
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BAR601CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BAR601CE4.1",
+      "prefLabel": "BAR601CE4.1 · Participar activa y conscientemente en la realización de proyectos colectivos de creación…",
+      "definition": "Participar activa y conscientemente en la realización de proyectos colectivos de creación y difusión escénica, asumiendo diferentes funciones con iniciativa y responsabilidad, valorando y respetando las aportaciones y experiencias del resto de integrantes del grupo y evaluando y presentando el proceso creativo para comprender el poder de las artes escénicas como un medio de intervención, transformación de la realidad y conciencia social.",
+      "broader": "ce:BAR6C4",
+      "bloque": "bc:BAR601BC4",
+      "descriptores": [
+        "CCL3",
+        "CD2",
+        "CPSAA3.1",
+        "CC2",
+        "CC3",
+        "CE2",
+        "CE3",
+        "CCEC4.1",
+        "CCEC4.2"
+      ],
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BAR601CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BAR601CE5.1",
+      "prefLabel": "BAR601CE5.1 · Comentar manifestaciones escénicas empleando la terminología adecuada, reelaborando…",
+      "definition": "Comentar manifestaciones escénicas empleando la terminología adecuada, reelaborando información a partir de fuentes fiables, reflexionando críticamente sobre sus características y presupuestos artísticos e identificando el tipo de público al que se dirige un espectáculo determinado para comprender el proceso de recepción y a articular mejor sus propias valoraciones críticas.",
+      "broader": "ce:BAR6C5",
+      "bloque": "bc:BAR601BC5",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "CD1",
+        "CD2",
+        "CPSAA4",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "BAR601SBI",
+      "prefLabel": "BAR601SBI · I. Patrimonio escénico",
+      "definition": "Patrimonio escénico",
+      "broader": "materia:BAR6",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "BAR601SBII",
+      "prefLabel": "BAR601SBII · II. Expresión y comunicación escénica",
+      "definition": "Expresión y comunicación escénica",
+      "broader": "materia:BAR6",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "BAR601SBIII",
+      "prefLabel": "BAR601SBIII · III. Interpretación",
+      "definition": "Interpretación",
+      "broader": "materia:BAR6",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "BAR601SBIV",
+      "prefLabel": "BAR601SBIV · IV. Representación y escenificación",
+      "definition": "Representación y escenificación",
+      "broader": "materia:BAR6",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBV",
+      "tipo": "BloqueSaberes",
+      "notation": "BAR601SBV",
+      "prefLabel": "BAR601SBV · V. Recepción en las artes escénicas",
+      "definition": "Recepción en las artes escénicas",
+      "broader": "materia:BAR6",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBI.1",
+      "prefLabel": "BAR601SBI.1 · Uso adecuado del concepto, tipología, elementos comunes y clasificación de los códigos de…",
+      "definition": "Uso adecuado del concepto, tipología, elementos comunes y clasificación de los códigos de las artes escénicas.",
+      "broader": "sb:BAR601SBI",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBI.2",
+      "prefLabel": "BAR601SBI.2 · Reconocimiento de las claves de las artes escénicas y sus grandes tradiciones (Oriente y…",
+      "definition": "Reconocimiento de las claves de las artes escénicas y sus grandes tradiciones (Oriente y Occidente) y su historia.",
+      "broader": "sb:BAR601SBI",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBI.3",
+      "prefLabel": "BAR601SBI.3 · Descripción y exploración sobre la dramaticidad, teatralidad y performatividad.",
+      "definition": "Descripción y exploración sobre la dramaticidad, teatralidad y performatividad.",
+      "broader": "sb:BAR601SBI",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBI.4",
+      "prefLabel": "BAR601SBI.4 · Reconocimiento, sensibilización y respeto por el patrimonio inmaterial.",
+      "definition": "Reconocimiento, sensibilización y respeto por el patrimonio inmaterial.",
+      "broader": "sb:BAR601SBI",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBII.1",
+      "prefLabel": "BAR601SBII.1 · Reconocimiento, descripción y clasificación de los códigos de significación escénica.",
+      "definition": "Reconocimiento, descripción y clasificación de los códigos de significación escénica.",
+      "broader": "sb:BAR601SBII",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBII.2",
+      "prefLabel": "BAR601SBII.2 · Reconocimiento, descripción y clasificación del espacio escénico como generador de…",
+      "definition": "Reconocimiento, descripción y clasificación del espacio escénico como generador de significado y su convención teatral.",
+      "broader": "sb:BAR601SBII",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBII.3",
+      "prefLabel": "BAR601SBII.3 · Exploración y desarrollo de la escenografía volumétrica y virtual, caracterización,…",
+      "definition": "Exploración y desarrollo de la escenografía volumétrica y virtual, caracterización, iluminación, espacio sonoro, recursos literarios y otros materiales.",
+      "broader": "sb:BAR601SBII",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBII.4",
+      "prefLabel": "BAR601SBII.4 · Exploración y análisis del conflicto dramático: personaje, situación y acción dramática.",
+      "definition": "Exploración y análisis del conflicto dramático: personaje, situación y acción dramática.",
+      "broader": "sb:BAR601SBII",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBII.5",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBII.5",
+      "prefLabel": "BAR601SBII.5 · Utilización de diferentes formas de crear mundos dramáticos para la construcción de…",
+      "definition": "Utilización de diferentes formas de crear mundos dramáticos para la construcción de personajes.",
+      "broader": "sb:BAR601SBII",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBII.6",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBII.6",
+      "prefLabel": "BAR601SBII.6 · Exploración del juego dramático, improvisación, dramatización y creación colectiva.",
+      "definition": "Exploración del juego dramático, improvisación, dramatización y creación colectiva.",
+      "broader": "sb:BAR601SBII",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBIII.1",
+      "prefLabel": "BAR601SBIII.1 · Preparación física y preparación preexpresiva para el cuidado del cuerpo.",
+      "definition": "Preparación física y preparación preexpresiva para el cuidado del cuerpo.",
+      "broader": "sb:BAR601SBIII",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBIII.2",
+      "prefLabel": "BAR601SBIII.2 · Exploración y desarrollo de los instrumentos del intérprete: expresión corporal, gestual,…",
+      "definition": "Exploración y desarrollo de los instrumentos del intérprete: expresión corporal, gestual, oral y rítmico-musical.",
+      "broader": "sb:BAR601SBIII",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBIII.3",
+      "prefLabel": "BAR601SBIII.3 · Reconocimiento y aplicación del personaje dramático: grados de representación, objetivos…",
+      "definition": "Reconocimiento y aplicación del personaje dramático: grados de representación, objetivos y funciones.",
+      "broader": "sb:BAR601SBIII",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBIII.4",
+      "prefLabel": "BAR601SBIII.4 · Conocimiento y comprensión de la partitura interpretativa y su ejecución.",
+      "definition": "Conocimiento y comprensión de la partitura interpretativa y su ejecución.",
+      "broader": "sb:BAR601SBIII",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBIV.1",
+      "prefLabel": "BAR601SBIV.1 · Conocimiento y experimentación del concepto y las características del espectáculo…",
+      "definition": "Conocimiento y experimentación del concepto y las características del espectáculo escénico.",
+      "broader": "sb:BAR601SBIV",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBIV.2",
+      "prefLabel": "BAR601SBIV.2 · Aplicación de las características y tipologías básicas del espectáculo escénico: clásico,…",
+      "definition": "Aplicación de las características y tipologías básicas del espectáculo escénico: clásico, de vanguardia, corporal, occidental, oriental, de objetos, musical, de interior, de calle.",
+      "broader": "sb:BAR601SBIV",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBIV.3",
+      "prefLabel": "BAR601SBIV.3 · Aplicación de las características y tipologías básicas de otras formas de presentación…",
+      "definition": "Aplicación de las características y tipologías básicas de otras formas de presentación escénica: happening, performance, vídeo-teatro o teatro-danza.",
+      "broader": "sb:BAR601SBIV",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBIV.4",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBIV.4",
+      "prefLabel": "BAR601SBIV.4 · Comprensión y ejecución del diseño de un espectáculo: equipos, fases y áreas de trabajo.",
+      "definition": "Comprensión y ejecución del diseño de un espectáculo: equipos, fases y áreas de trabajo.",
+      "broader": "sb:BAR601SBIV",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBIV.5",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBIV.5",
+      "prefLabel": "BAR601SBIV.5 · Eficiencia y eficacia de los ensayos: tipología, finalidades y organización.",
+      "definition": "Eficiencia y eficacia de los ensayos: tipología, finalidades y organización.",
+      "broader": "sb:BAR601SBIV",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBIV.6",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBIV.6",
+      "prefLabel": "BAR601SBIV.6 · Aplicación y reflexión de los elementos fundamentales de la representación de…",
+      "definition": "Aplicación y reflexión de los elementos fundamentales de la representación de espectáculos escénicos.",
+      "broader": "sb:BAR601SBIV",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBIV.7",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBIV.7",
+      "prefLabel": "BAR601SBIV.7 · Conocimiento y experimentación de las estrategias de trabajo en equipo para la resolución…",
+      "definition": "Conocimiento y experimentación de las estrategias de trabajo en equipo para la resolución de conflictos.",
+      "broader": "sb:BAR601SBIV",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBV.1",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBV.1",
+      "prefLabel": "BAR601SBV.1 · Experimentación y reflexión del papel del espectador en diferentes espectáculos escénicos.",
+      "definition": "Experimentación y reflexión del papel del espectador en diferentes espectáculos escénicos.",
+      "broader": "sb:BAR601SBV",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBV.2",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBV.2",
+      "prefLabel": "BAR601SBV.2 · Conocimiento y experimentación de la recepción teatral: catarsis, extrañamiento y…",
+      "definition": "Conocimiento y experimentación de la recepción teatral: catarsis, extrañamiento y participación.",
+      "broader": "sb:BAR601SBV",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBV.3",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBV.3",
+      "prefLabel": "BAR601SBV.3 · Desarrollo del espíritu crítico a través de estrategias y técnicas de análisis de…",
+      "definition": "Desarrollo del espíritu crítico a través de estrategias y técnicas de análisis de manifestaciones escénicas.",
+      "broader": "sb:BAR601SBV",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAR601SBV.4",
+      "tipo": "SaberBasico",
+      "notation": "BAR601SBV.4",
+      "prefLabel": "BAR601SBV.4 · Conocimiento y respeto de la propiedad intelectual para la protección de la creatividad…",
+      "definition": "Conocimiento y respeto de la propiedad intelectual para la protección de la creatividad personal.",
+      "broader": "sb:BAR601SBV",
+      "materia": "materia:BAR6",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    }
+  ]
+}

@@ -1,0 +1,1244 @@
+{
+  "materia": "materia:BQUI",
+  "nodos": [
+    {
+      "id": "materia:BQUI",
+      "tipo": "Materia",
+      "notation": "BQUI",
+      "prefLabel": "Química (Bachillerato)",
+      "cursos": [
+        "curso:B02"
+      ],
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BQUIC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BQUIC1",
+      "prefLabel": "BQUIC1 · Comprender, describir y aplicar los fundamentos de los procesos químicos más importantes,…",
+      "definition": "Comprender, describir y aplicar los fundamentos de los procesos químicos más importantes, atendiendo a su base experimental y a los fenómenos que describen, para reconocer el papel relevante de la química en el desarrollo de la sociedad.",
+      "broader": "materia:BQUI",
+      "materia": "materia:BQUI",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BQUIC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BQUIC2",
+      "prefLabel": "BQUIC2 · Adoptar los modelos y leyes de la química aceptados como base de estudio de las…",
+      "definition": "Adoptar los modelos y leyes de la química aceptados como base de estudio de las propiedades de los sistemas materiales, para inferir soluciones generales a los problemas cotidianos relacionados con las aplicaciones prácticas de la química y sus repercusiones en el medioambiente.",
+      "broader": "materia:BQUI",
+      "materia": "materia:BQUI",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BQUIC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BQUIC3",
+      "prefLabel": "BQUIC3 · Utilizar con corrección los códigos del lenguaje químico (nomenclatura química, unidades,…",
+      "definition": "Utilizar con corrección los códigos del lenguaje químico (nomenclatura química, unidades, ecuaciones, etc.), aplicando sus reglas específicas, para emplearlos como base de una comunicación adecuada entre diferentes comunidades científicas y como herramienta fundamental en la investigación de esta ciencia.",
+      "broader": "materia:BQUI",
+      "materia": "materia:BQUI",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BQUIC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BQUIC4",
+      "prefLabel": "BQUIC4 · Reconocer la importancia del uso responsable de los productos y procesos químicos,…",
+      "definition": "Reconocer la importancia del uso responsable de los productos y procesos químicos, elaborando argumentos informados sobre la influencia positiva que la química tiene sobre la sociedad actual, para contribuir a superar las connotaciones negativas que en multitud de ocasiones se atribuyen al término «químico».",
+      "broader": "materia:BQUI",
+      "materia": "materia:BQUI",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BQUIC5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BQUIC5",
+      "prefLabel": "BQUIC5 · Aplicar técnicas de trabajo propias de las ciencias experimentales y el razonamiento…",
+      "definition": "Aplicar técnicas de trabajo propias de las ciencias experimentales y el razonamiento lógico-matemático en la resolución de problemas de química y en la interpretación de situaciones relacionadas, valorando la importancia de la cooperación, para poner en valor el papel de la química en una sociedad basada en valores éticos y sostenibles.",
+      "broader": "materia:BQUI",
+      "materia": "materia:BQUI",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BQUIC6",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BQUIC6",
+      "prefLabel": "BQUIC6 · Reconocer y analizar la química como un área de conocimiento multidisciplinar y versátil,…",
+      "definition": "Reconocer y analizar la química como un área de conocimiento multidisciplinar y versátil, poniendo de manifiesto las relaciones con otras ciencias y campos de conocimiento, para realizar a través de ella una aproximación holística al conocimiento científico y global.",
+      "broader": "materia:BQUI",
+      "materia": "materia:BQUI",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BQUI02BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "BQUI02BC1",
+      "prefLabel": "Química · 2º Bachillerato · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de poner en funcionamiento los conocimientos adquiridos a través de los saberes básicos propios de las distintas disciplinas de la química, las destrezas características de las metodologías científicas y las actitudes intrínsecas a las ciencias experimentales cuando interpreta y explica las propiedades de los sistemas materiales (origen e interpretación de espectros atómicos, elementos de la tabla periódica y sus propiedades, formación de los enlaces y sus características) y de los principales procesos químicos que suceden en el entorno (reacciones de equilibrio de gases, ácido-base, reacciones de oxidación-reducción y reacciones de compuestos orgánicos). Además, se valorará, a través de la elaboración colaborativa de contenidos en formatos diversos y su posterior difusión, en los que identifican y explican los avances en este campo y de sus aportaciones más relevantes en la tecnología, la economía, la sociedad y el medioambiente, si es capaz de reconocer la naturaleza interdisciplinar de la química que la convierten en una ciencia versátil y viva, por su influencia en la investigación científica y en los ámbitos económico y laboral actuales.",
+      "broader": "materia:BQUI",
+      "agrupa": [
+        "ce:BQUIC1"
+      ],
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CE1",
+        "CCL1"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BQUI02BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "BQUI02BC2",
+      "prefLabel": "Química · 2º Bachillerato · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz no solo de identificar los principios básicos de la química que justifican las propiedades de los sistemas materiales y sus aplicaciones de acuerdo con su composición y de aplicar sus modelos y leyes cuando interpreta y estima las consecuencias de determinados experimentos, los principales fenómenos naturales, los procesos aplicados a la industria y los descubrimientos científicos, sino que, además, es capaz de inferir que existe una base fundamental de carácter químico en el fondo de cada una de las cuestiones medioambientales actuales y que tiene una amplia repercusión en todos los ámbitos (social, económico, político, ético…). Esto se logrará analizando de forma crítica cómo se comunican los principales problemas de la actualidad asociados al desarrollo de la ciencia y la tecnología a través de los medios de comunicación o cómo son percibidos por la ciudadanía a través de la experiencia cotidiana, buscando siempre su relación con los principios básicos de la química, todo ello con la finalidad de que pueda sacar sus propias conclusiones y exponerlas de manera argumentada a través de herramientas digitales, aplicaciones y servicios en línea, utilizando diversos formatos, valorando la relevancia que tiene esta disciplina en la búsqueda de respuestas y soluciones efectivas para consolidar un desarrollo ecosocial sostenible, acorde con los Objetivos de Desarrollo Sostenible (ODS) y la Agenda Canaria de Desarrollo Sostenible 2030.",
+      "broader": "materia:BQUI",
+      "agrupa": [
+        "ce:BQUIC2"
+      ],
+      "descriptores": [
+        "CCL2",
+        "STEM2",
+        "STEM5",
+        "CPSAA4",
+        "CCL1",
+        "STEM4",
+        "CD5",
+        "CE1"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BQUI02BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "BQUI02BC3",
+      "prefLabel": "Química · 2º Bachillerato · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado utiliza acertadamente los códigos de comunicación característicos de la química que le permitan establecer una comunicación efectiva a toda la comunidad científica, no solo cuando nombra y formula diferentes especies químicas aplicando correctamente las normas de nomenclatura de la IUPAC, sino también cuando durante el proceso de resolución de problemas o en la elaboración de informes científicos e investigaciones o en la ejecución de las prácticas experimentales, entre otros ejemplos, utiliza las ecuaciones, las operaciones aritméticas y algebraicas, las magnitudes, sus símbolos y unidades correspondientes o los sistemas de unidades y las conversiones adecuadas dentro de ellos, aplicando con rigor las herramientas matemáticas. Asimismo, se verificará si el alumnado es capaz de poner en práctica todos aquellos comportamientos relacionados con las normas de seguridad en los laboratorios y en otros entornos que los requieran, vinculados a la manipulación de sustancias químicas y la gestión y eliminación de los residuos, y de promover su cumplimiento junto al resto de personas que trabajan en estos espacios, velando así por su propia seguridad, la de la comunidad y la del medioambiente.",
+      "broader": "materia:BQUI",
+      "agrupa": [
+        "ce:BQUIC3"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "STEM4",
+        "CPSAA4",
+        "CE3"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BQUI02BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "BQUI02BC4",
+      "prefLabel": "Química · 2º Bachillerato · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial se comprobará si el alumnado es capaz de utilizar los conocimientos científicos adquiridos en esta disciplina para contribuir a que la sociedad en general, y, particularmente, su entorno cercano, desestime las connotaciones negativas que se le atribuye a lo químico. Por tanto, se valorará si demuestra cuáles son las propiedades, aplicaciones y beneficios de ciertos productos y procesos a partir del análisis de la composición química de los sistemas materiales que se encuentran a su alrededor o que se publicitan en los medios de comunicación, aplicando las metodologías propias del trabajo científico, e informa de ello a través de producciones en diferentes formatos y soportes (informes, artículos, pódcast, etc.), destacando cuáles son los beneficios que el progreso de la química y sus numerosos productos ha tenido sobre el bienestar de la sociedad y en la búsqueda de soluciones alternativas que permitan transformar el entorno de manera sostenible para las generaciones presentes y futuras, y contribuir, de esa forma, a la alfabetización científica de la población. Asimismo, se verificará que es capaz de argumentar con sentido crítico y ético, sobre la base de los principios fundamentales de la química, que los perjuicios para la salud y el medioambiente de determinadas sustancias son causados por el empleo negligente, desinformado, interesado o irresponsable de los productos y procesos que ha generado el desarrollo de la ciencia y la tecnología, para emprender acciones fundamentadas científicamente que ayuden a desmitificar y desestigmatizar la ciencia química desde la pedagogía activa y la comunicación efectiva de la población.",
+      "broader": "materia:BQUI",
+      "agrupa": [
+        "ce:BQUIC4"
+      ],
+      "descriptores": [
+        "STEM1",
+        "STEM5",
+        "CE2",
+        "CCL1",
+        "CPSAA5"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BQUI02BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "BQUI02BC5",
+      "prefLabel": "Química · 2º Bachillerato · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial se comprobará si el alumnado es capaz de poner en práctica los métodos y las estrategias de trabajo en equipos colaborativos comunes a las diferentes disciplinas de las ciencias experimentales, aplicando con solvencia herramientas digitales y recursos variados, incluyendo las experiencias realizadas en laboratorios reales o virtuales; al análisis y resolución de situaciones problemáticas relacionadas con la química en diferentes contextos de la investigación, el mundo laboral y su realidad cotidiana; a la visualización y representación de conceptos químicos de forma eficiente, especialmente aquellos que presentan mayores dificultades de interpretación y asimilación, o al compartir y comunicar los resultados de sus estudios. Al mismo tiempo, se constatará si en el seno de los equipos de trabajo se propicia la participación y la distribución equitativa de las tareas, recursos y responsabilidades, poniendo en valor la contribución que cada persona hace al grupo; si se legitima la pluralidad de valores, creencias e ideas, fortaleciendo las habilidades sociales positivas; si se rechaza todo tipo de discriminación y violencia por razones de género, orientación, ideología, etnia, etc., resolviendo pacíficamente los conflictos que puedan surgir en pos de la consecución de los objetivos compartidos. Finalmente, se valorará si el alumnado obtiene conclusiones argumentadas sobre la importancia de la colaboración entre personas y entidades que buscan el progreso científico desde múltiples disciplinas, destacando las conexiones que se dan entre sus leyes y teorías fundamentales, con la finalidad de contribuir al desarrollo de un pensamiento científico sustentado en valores éticos y sostenibles.",
+      "broader": "materia:BQUI",
+      "agrupa": [
+        "ce:BQUIC5"
+      ],
+      "descriptores": [
+        "STEM2",
+        "STEM3",
+        "CD1",
+        "CD2",
+        "STEM1",
+        "CD3",
+        "CD5",
+        "CPSAA3.2",
+        "CC3"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BQUI02BC6",
+      "tipo": "BloqueCompetencial",
+      "notation": "BQUI02BC6",
+      "prefLabel": "Química · 2º Bachillerato · bloque competencial C6",
+      "scopeNote": "A través de este bloque competencial se verificará que el alumnado comprende que la química es una disciplina profundamente interconectada con otras ciencias. Para ello deberá ser capaz de deducir, describir razonadamente y transmitir cómo los conceptos fundamentales de la química están, por un lado, en la base del desarrollo de otras disciplinas científicas como la biología, la geología, la tecnología, etc., y, por otro lado, cómo se sustentan en el desarrollo de otras disciplinas, particularmente de la física, analizando la relación entre los contenidos, las leyes y teorías propias de la química y de las otras ciencias y campos del conocimiento. Además, se comprobará que el alumnado, individualmente y en grupos, a través del estudio experimental y la observación de situaciones en las que se ponga de manifiesto esta relación interdisciplinar, aplicará herramientas tecnológicas en la indagación y la experimentación, y empleará herramientas lógico-matemáticas en la resolución de problemas y cuestiones que son característicos de la química, con la finalidad de reconocer el carácter interdisciplinar y holístico de esta ciencia.",
+      "broader": "materia:BQUI",
+      "agrupa": [
+        "ce:BQUIC6"
+      ],
+      "descriptores": [
+        "CCL1",
+        "STEM4",
+        "CPSAA3.2",
+        "CC4"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BQUI02CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BQUI02CE1.1",
+      "prefLabel": "BQUI02CE1.1 · Establecer conclusiones acerca de la importancia de la química, su naturaleza…",
+      "definition": "Establecer conclusiones acerca de la importancia de la química, su naturaleza experimental e interdisciplinar a partir de los hechos empíricos fundamentales y sus conexiones con otras áreas en la mejora de la sociedad, el progreso de la ciencia, la tecnología, la economía y el desarrollo sostenible respetuoso con el medioambiente para reconocer el carácter holístico de la investigación y el trabajo científico.",
+      "broader": "ce:BQUIC1",
+      "bloque": "bc:BQUI02BC1",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CE1"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BQUI02CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BQUI02CE1.2",
+      "prefLabel": "BQUI02CE1.2 · Describir e interpretar los principales procesos químicos y las propiedades de los…",
+      "definition": "Describir e interpretar los principales procesos químicos y las propiedades de los sistemas materiales aplicando los conocimientos, las destrezas y las actitudes propios de las distintas disciplinas de la química con el fin de desarrollar el pensamiento científico y comprender su entorno más cercano.",
+      "broader": "ce:BQUIC1",
+      "bloque": "bc:BQUI02BC1",
+      "descriptores": [
+        "CCL1",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CE1"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BQUI02CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BQUI02CE2.1",
+      "prefLabel": "BQUI02CE2.1 · Analizar con actitud crítica cómo se comunican los principales problemas de la actualidad…",
+      "definition": "Analizar con actitud crítica cómo se comunican los principales problemas de la actualidad asociados al desarrollo de la ciencia y la tecnología a través de los medios de comunicación o cómo son observados en la experiencia cotidiana y buscar su relación con los principios de la química para establecer sus propias conclusiones respecto a sus aplicaciones y sus repercusiones.",
+      "broader": "ce:BQUIC2",
+      "bloque": "bc:BQUI02BC2",
+      "descriptores": [
+        "CCL2",
+        "STEM2",
+        "STEM5",
+        "CPSAA4"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BQUI02CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BQUI02CE2.2",
+      "prefLabel": "BQUI02CE2.2 · Identificar y comunicar la presencia e influencia de las bases de la química en…",
+      "definition": "Identificar y comunicar la presencia e influencia de las bases de la química en cuestiones significativas de los ámbitos social, económico, político y ético, estableciendo discusiones argumentadas en el marco contextual de estas bases como cuerpo de conocimiento imprescindible para exponer sus opiniones y ejercer una ciudadanía crítica e informada.",
+      "broader": "ce:BQUIC2",
+      "bloque": "bc:BQUI02BC2",
+      "descriptores": [
+        "CCL1",
+        "STEM2",
+        "STEM4",
+        "STEM5",
+        "CD5",
+        "CE1"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BQUI02CE2.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BQUI02CE2.3",
+      "prefLabel": "BQUI02CE2.3 · Aplicar de manera informada, coherente y razonada los modelos y leyes de la química a las…",
+      "definition": "Aplicar de manera informada, coherente y razonada los modelos y leyes de la química a las explicaciones y predicciones de las consecuencias de experimentos, los fenómenos naturales, los procesos industriales y los descubrimientos científicos para visibilizar su relevancia en la construcción de un mundo más sostenible y saludable.",
+      "broader": "ce:BQUIC2",
+      "bloque": "bc:BQUI02BC2",
+      "descriptores": [
+        "CCL2",
+        "STEM2",
+        "STEM5",
+        "CD5",
+        "CE1"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BQUI02CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BQUI02CE3.1",
+      "prefLabel": "BQUI02CE3.1 · Aplicar correctamente las normas de nomenclatura de la IUPAC al reconocimiento y…",
+      "definition": "Aplicar correctamente las normas de nomenclatura de la IUPAC al reconocimiento y escritura de fórmulas y nombres de diferentes especies químicas como base de un lenguaje universal para la comunicación efectiva en toda la comunidad científica.",
+      "broader": "ce:BQUIC3",
+      "bloque": "bc:BQUI02BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "STEM4"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BQUI02CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BQUI02CE3.2",
+      "prefLabel": "BQUI02CE3.2 · Aplicar con rigor las herramientas matemáticas en el proceso de resolución de problemas,…",
+      "definition": "Aplicar con rigor las herramientas matemáticas en el proceso de resolución de problemas, utilizando las ecuaciones, las operaciones algebraicas y aritméticas y las unidades, para apoyar el desarrollo del pensamiento científico que se alcanza con el estudio de la química.",
+      "broader": "ce:BQUIC3",
+      "bloque": "bc:BQUI02BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "STEM4"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BQUI02CE3.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BQUI02CE3.3",
+      "prefLabel": "BQUI02CE3.3 · Valorar, poner en práctica y promover el respeto de las normas de seguridad relacionadas…",
+      "definition": "Valorar, poner en práctica y promover el respeto de las normas de seguridad relacionadas con la manipulación de sustancias químicas en el laboratorio y en otros entornos, así como los procedimientos para la correcta gestión y eliminación de los residuos, utilizando correctamente los códigos de comunicación característicos de la química para asegurar su salud, la de las demás personas y la del medioambiente.",
+      "broader": "ce:BQUIC3",
+      "bloque": "bc:BQUI02BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "STEM4",
+        "CPSAA4",
+        "CE3"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BQUI02CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BQUI02CE4.1",
+      "prefLabel": "BQUI02CE4.1 · Analizar la composición química de los sistemas materiales que se encuentran en el…",
+      "definition": "Analizar la composición química de los sistemas materiales que se encuentran en el entorno más próximo, en el medio natural y en el entorno industrial y tecnológico, aplicando las metodologías propias del trabajo científico, para demostrar e informar de que sus propiedades, aplicaciones y beneficios están basados en los principios de la química.",
+      "broader": "ce:BQUIC4",
+      "bloque": "bc:BQUI02BC4",
+      "descriptores": [
+        "STEM1",
+        "STEM5",
+        "CE2"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BQUI02CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BQUI02CE4.2",
+      "prefLabel": "BQUI02CE4.2 · Argumentar de manera informada, aplicando las teorías y leyes de la química, que los…",
+      "definition": "Argumentar de manera informada, aplicando las teorías y leyes de la química, que los efectos negativos de determinadas sustancias en el medioambiente y en la salud se deben al uso negligente que se hace de ellos y no a los productos en sí, con la finalidad de desestigmatizar la ciencia química.",
+      "broader": "ce:BQUIC4",
+      "bloque": "bc:BQUI02BC4",
+      "descriptores": [
+        "CCL1",
+        "STEM1",
+        "STEM5",
+        "CPSAA5",
+        "CE2"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BQUI02CE4.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BQUI02CE4.3",
+      "prefLabel": "BQUI02CE4.3 · Explicar cuáles son los beneficios de los numerosos productos de la tecnología química,…",
+      "definition": "Explicar cuáles son los beneficios de los numerosos productos de la tecnología química, empleando como argumento los conocimientos científicos adecuados, para poner de relieve cómo su aplicación ha contribuido al progreso de la sociedad y a la búsqueda de soluciones para transformar el entorno de manera sostenible.",
+      "broader": "ce:BQUIC4",
+      "bloque": "bc:BQUI02BC4",
+      "descriptores": [
+        "CCL1",
+        "STEM1",
+        "STEM5",
+        "CE2"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BQUI02CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BQUI02CE5.1",
+      "prefLabel": "BQUI02CE5.1 · Analizar la importante contribución del trabajo colaborativo entre especialistas de…",
+      "definition": "Analizar la importante contribución del trabajo colaborativo entre especialistas de diferentes disciplinas científicas en la química y las aportaciones de esta al desarrollo del pensamiento científico y crítico a través de las metodologías de trabajo propias de las ciencias, poniendo en relieve las conexiones entre las leyes y teorías de cada una de las disciplinas, para reconocer el carácter holístico de la investigación científica.",
+      "broader": "ce:BQUIC5",
+      "bloque": "bc:BQUI02BC5",
+      "descriptores": [
+        "STEM2",
+        "STEM3",
+        "CD1",
+        "CD2"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BQUI02CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BQUI02CE5.2",
+      "prefLabel": "BQUI02CE5.2 · Resolver problemas y estudiar situaciones relacionadas con la química integrando el uso…",
+      "definition": "Resolver problemas y estudiar situaciones relacionadas con la química integrando el uso de herramientas tecnológicas digitales en el seno de equipos de trabajo colaborativos, legitimando la diversidad de pensamiento y la contribución particular de cada miembro del grupo, y consolidando habilidades sociales positivas para contribuir a la consecución de objetivos compartidos.",
+      "broader": "ce:BQUIC5",
+      "bloque": "bc:BQUI02BC5",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CPSAA3.2",
+        "CC3"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BQUI02CE5.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BQUI02CE5.3",
+      "prefLabel": "BQUI02CE5.3 · Representar y visualizar de forma eficiente los conceptos de química en diversos formatos…",
+      "definition": "Representar y visualizar de forma eficiente los conceptos de química en diversos formatos utilizando herramientas digitales y medios variados, incluyendo experiencias de laboratorio real y virtual, para ampliar sus recursos y generar nuevo conocimiento que permitan progresar en el aprendizaje a lo largo de la vida.",
+      "broader": "ce:BQUIC5",
+      "bloque": "bc:BQUI02BC5",
+      "descriptores": [
+        "STEM1",
+        "STEM3",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD5"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BQUI02CE6.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BQUI02CE6.1",
+      "prefLabel": "BQUI02CE6.1 · Explicar y razonar los conceptos fundamentales que se encuentran en la base de la química…",
+      "definition": "Explicar y razonar los conceptos fundamentales que se encuentran en la base de la química aplicando los conceptos, leyes y teorías de otras disciplinas científicas, especialmente de la física, a través de la experimentación y la indagación, para alcanzar una comprensión profunda de esta disciplina.",
+      "broader": "ce:BQUIC6",
+      "bloque": "bc:BQUI02BC6",
+      "descriptores": [
+        "CCL1",
+        "STEM4",
+        "CPSAA3.2",
+        "CC4"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BQUI02CE6.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BQUI02CE6.2",
+      "prefLabel": "BQUI02CE6.2 · Deducir y transmitir las ideas fundamentales de otras disciplinas científicas, como la…",
+      "definition": "Deducir y transmitir las ideas fundamentales de otras disciplinas científicas, como la biología o la tecnología, analizando la relación entre sus contenidos básicos y las leyes y teorías que son propias de la química, para poner de manifiesto el carácter interdisciplinar y holístico inherente a la química.",
+      "broader": "ce:BQUIC6",
+      "bloque": "bc:BQUI02BC6",
+      "descriptores": [
+        "CCL1",
+        "STEM4"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BQUI02CE6.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BQUI02CE6.3",
+      "prefLabel": "BQUI02CE6.3 · Solucionar problemas y cuestiones de carácter químico utilizando las herramientas…",
+      "definition": "Solucionar problemas y cuestiones de carácter químico utilizando las herramientas provistas por las matemáticas y la tecnología, reconociendo así la relación entre los fenómenos experimentales y naturales y los conceptos propios de esta disciplina.",
+      "broader": "ce:BQUIC6",
+      "bloque": "bc:BQUI02BC6",
+      "descriptores": [
+        "STEM4"
+      ],
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "BQUI02SBI",
+      "prefLabel": "BQUI02SBI · I. Enlace químico y estructura de la materia",
+      "definition": "Enlace químico y estructura de la materia",
+      "broader": "materia:BQUI",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "BQUI02SBII",
+      "prefLabel": "BQUI02SBII · II. Reacciones químicas",
+      "definition": "Reacciones químicas",
+      "broader": "materia:BQUI",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "BQUI02SBIII",
+      "prefLabel": "BQUI02SBIII · III. Química orgánica",
+      "definition": "Química orgánica",
+      "broader": "materia:BQUI",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBI.1",
+      "prefLabel": "BQUI02SBI.1 · Espectros atómicos.",
+      "definition": "Espectros atómicos.",
+      "broader": "sb:BQUI02SBI",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBI.1.1",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBI.1.1",
+      "prefLabel": "BQUI02SBI.1.1 · Descripción del desarrollo histórico del modelo atómico, considerando los espectros…",
+      "definition": "Descripción del desarrollo histórico del modelo atómico, considerando los espectros atómicos como responsables de un cambio de paradigma.",
+      "broader": "sb:BQUI02SBI.1",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBI.1.2",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBI.1.2",
+      "prefLabel": "BQUI02SBI.1.2 · Interpretación de los espectros de emisión y absorción de los elementos y su relación con…",
+      "definition": "Interpretación de los espectros de emisión y absorción de los elementos y su relación con la estructura electrónica del átomo.",
+      "broader": "sb:BQUI02SBI.1",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBI.2",
+      "prefLabel": "BQUI02SBI.2 · Principios cuánticos de la estructura atómica.",
+      "definition": "Principios cuánticos de la estructura atómica.",
+      "broader": "sb:BQUI02SBI",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBI.2.1",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBI.2.1",
+      "prefLabel": "BQUI02SBI.2.1 · Relación entre el fenómeno de los espectros atómicos y la cuantización de la energía.",
+      "definition": "Relación entre el fenómeno de los espectros atómicos y la cuantización de la energía.",
+      "broader": "sb:BQUI02SBI.2",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBI.2.2",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBI.2.2",
+      "prefLabel": "BQUI02SBI.2.2 · Justificación de una estructura electrónica en diferentes niveles: del modelo de Bohr a…",
+      "definition": "Justificación de una estructura electrónica en diferentes niveles: del modelo de Bohr a los modelos mecano-cuánticos.",
+      "broader": "sb:BQUI02SBI.2",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBI.2.3",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBI.2.3",
+      "prefLabel": "BQUI02SBI.2.3 · Explicación de la naturaleza probabilística del concepto de orbital a partir del…",
+      "definition": "Explicación de la naturaleza probabilística del concepto de orbital a partir del principio de incertidumbre de Heisenberg y la doble naturaleza onda-corpúsculo del electrón en el estudio de los números cuánticos y los orbitales atómicos.",
+      "broader": "sb:BQUI02SBI.2",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBI.2.4",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBI.2.4",
+      "prefLabel": "BQUI02SBI.2.4 · Uso del principio de exclusión de Pauli y máxima multiplicidad de Hund para justificar la…",
+      "definition": "Uso del principio de exclusión de Pauli y máxima multiplicidad de Hund para justificar la estructura electrónica del átomo.",
+      "broader": "sb:BQUI02SBI.2",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBI.2.5",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBI.2.5",
+      "prefLabel": "BQUI02SBI.2.5 · Utilización del diagrama de Moeller como herramienta sencilla para escribir la…",
+      "definition": "Utilización del diagrama de Moeller como herramienta sencilla para escribir la configuración electrónica de los elementos químicos.",
+      "broader": "sb:BQUI02SBI.2",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBI.3",
+      "prefLabel": "BQUI02SBI.3 · Tabla periódica y propiedades de los átomos.",
+      "definition": "Tabla periódica y propiedades de los átomos.",
+      "broader": "sb:BQUI02SBI",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBI.3.1",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBI.3.1",
+      "prefLabel": "BQUI02SBI.3.1 · Justificación de la posición de un elemento en la tabla periódica a partir de su…",
+      "definition": "Justificación de la posición de un elemento en la tabla periódica a partir de su configuración electrónica para predecir su reactividad.",
+      "broader": "sb:BQUI02SBI.3",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBI.3.2",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBI.3.2",
+      "prefLabel": "BQUI02SBI.3.2 · Aplicación de las tendencias periódicas en la predicción de los valores de las…",
+      "definition": "Aplicación de las tendencias periódicas en la predicción de los valores de las propiedades de los elementos de la tabla a partir de su posición en la misma.",
+      "broader": "sb:BQUI02SBI.3",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBI.3.3",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBI.3.3",
+      "prefLabel": "BQUI02SBI.3.3 · Descripción del enlace químico y las fuerzas intermoleculares para explicar los…",
+      "definition": "Descripción del enlace químico y las fuerzas intermoleculares para explicar los comportamientos de los compuestos químicos.",
+      "broader": "sb:BQUI02SBI.3",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBI.3.4",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBI.3.4",
+      "prefLabel": "BQUI02SBI.3.4 · Justificación de los tipos de enlace a partir de las características de los elementos…",
+      "definition": "Justificación de los tipos de enlace a partir de las características de los elementos individuales que lo forman para predecir las propiedades de las sustancias químicas.",
+      "broader": "sb:BQUI02SBI.3",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBI.3.5",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBI.3.5",
+      "prefLabel": "BQUI02SBI.3.5 · Análisis de la energía implicada en la formación de moléculas, de cristales y de…",
+      "definition": "Análisis de la energía implicada en la formación de moléculas, de cristales y de estructuras macroscópicas.",
+      "broader": "sb:BQUI02SBI.3",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBI.3.6",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBI.3.6",
+      "prefLabel": "BQUI02SBI.3.6 · Uso de las teorías de Lewis, RPECV e hibridación de orbitales para explicar la…",
+      "definition": "Uso de las teorías de Lewis, RPECV e hibridación de orbitales para explicar la configuración geométrica de compuestos moleculares y las características de los sólidos.",
+      "broader": "sb:BQUI02SBI.3",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBI.3.7",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBI.3.7",
+      "prefLabel": "BQUI02SBI.3.7 · Predicción de las fuerzas intermoleculares a partir de las características del enlace…",
+      "definition": "Predicción de las fuerzas intermoleculares a partir de las características del enlace químico y la geometría de las moléculas y su relación con las propiedades macroscópicas de compuestos moleculares.",
+      "broader": "sb:BQUI02SBI.3",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBI.3.8",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBI.3.8",
+      "prefLabel": "BQUI02SBI.3.8 · Cálculo de la energía intercambiada en la formación de cristales iónicos aplicando el…",
+      "definition": "Cálculo de la energía intercambiada en la formación de cristales iónicos aplicando el ciclo de Born-Haber.",
+      "broader": "sb:BQUI02SBI.3",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBI.3.9",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBI.3.9",
+      "prefLabel": "BQUI02SBI.3.9 · Uso de los modelos de la nube electrónica y la teoría de bandas para explicar las…",
+      "definition": "Uso de los modelos de la nube electrónica y la teoría de bandas para explicar las propiedades características de los cristales metálicos.",
+      "broader": "sb:BQUI02SBI.3",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.1",
+      "prefLabel": "BQUI02SBII.1 · Termodinámica química.",
+      "definition": "Termodinámica química.",
+      "broader": "sb:BQUI02SBII",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.1.1",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.1.1",
+      "prefLabel": "BQUI02SBII.1.1 · Aplicación del primer principio de la termodinámica relacionando los intercambios de…",
+      "definition": "Aplicación del primer principio de la termodinámica relacionando los intercambios de energía entre sistemas a través del calor y del trabajo.",
+      "broader": "sb:BQUI02SBII.1",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.1.2",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.1.2",
+      "prefLabel": "BQUI02SBII.1.2 · Interpretación de ecuaciones termoquímicas y distinción entre procesos endotérmicos y…",
+      "definition": "Interpretación de ecuaciones termoquímicas y distinción entre procesos endotérmicos y exotérmicos aplicando el concepto de la entalpía de reacción.",
+      "broader": "sb:BQUI02SBII.1",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.1.3",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.1.3",
+      "prefLabel": "BQUI02SBII.1.3 · Cálculo de la variación de entalpía de una reacción mediante la ley de Hess a través de…",
+      "definition": "Cálculo de la variación de entalpía de una reacción mediante la ley de Hess a través de la entalpía de formación estándar o de las energías de enlace.",
+      "broader": "sb:BQUI02SBII.1",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.1.4",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.1.4",
+      "prefLabel": "BQUI02SBII.1.4 · Aplicación del segundo principio de la termodinámica interpretando la entropía como…",
+      "definition": "Aplicación del segundo principio de la termodinámica interpretando la entropía como magnitud que afecta a la espontaneidad e irreversibilidad de los procesos químicos.",
+      "broader": "sb:BQUI02SBII.1",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.1.5",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.1.5",
+      "prefLabel": "BQUI02SBII.1.5 · Cálculo de la energía de Gibbs de las reacciones químicas y la espontaneidad de las…",
+      "definition": "Cálculo de la energía de Gibbs de las reacciones químicas y la espontaneidad de las mismas en función de la temperatura del sistema.",
+      "broader": "sb:BQUI02SBII.1",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.2",
+      "prefLabel": "BQUI02SBII.2 · Cinética química.",
+      "definition": "Cinética química.",
+      "broader": "sb:BQUI02SBII",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.2.1",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.2.1",
+      "prefLabel": "BQUI02SBII.2.1 · Interpretación de las reacciones químicas a escala microscópica mediante la teoría de las…",
+      "definition": "Interpretación de las reacciones químicas a escala microscópica mediante la teoría de las colisiones.",
+      "broader": "sb:BQUI02SBII.2",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.2.2",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.2.2",
+      "prefLabel": "BQUI02SBII.2.2 · Descripción de los conceptos de velocidad de reacción y energía de activación.",
+      "definition": "Descripción de los conceptos de velocidad de reacción y energía de activación.",
+      "broader": "sb:BQUI02SBII.2",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.2.3",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.2.3",
+      "prefLabel": "BQUI02SBII.2.3 · Análisis de la influencia de las condiciones de reacción sobre la velocidad de la misma.",
+      "definition": "Análisis de la influencia de las condiciones de reacción sobre la velocidad de la misma.",
+      "broader": "sb:BQUI02SBII.2",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.2.4",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.2.4",
+      "prefLabel": "BQUI02SBII.2.4 · Uso de la ley diferencial de la velocidad de una reacción química y los órdenes de…",
+      "definition": "Uso de la ley diferencial de la velocidad de una reacción química y los órdenes de reacción a partir de datos experimentales de velocidad de reacción para obtener ecuaciones cinéticas.",
+      "broader": "sb:BQUI02SBII.2",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.3",
+      "prefLabel": "BQUI02SBII.3 · Equilibrio químico.",
+      "definition": "Equilibrio químico.",
+      "broader": "sb:BQUI02SBII",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.3.1",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.3.1",
+      "prefLabel": "BQUI02SBII.3.1 · Reconocimiento del equilibrio químico como un proceso dinámico. Ecuaciones de velocidad y…",
+      "definition": "Reconocimiento del equilibrio químico como un proceso dinámico. Ecuaciones de velocidad y aspectos termodinámicos.",
+      "broader": "sb:BQUI02SBII.3",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.3.2",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.3.2",
+      "prefLabel": "BQUI02SBII.3.2 · Expresión de la constante de equilibrio mediante la ley de acción de masas.",
+      "definition": "Expresión de la constante de equilibrio mediante la ley de acción de masas.",
+      "broader": "sb:BQUI02SBII.3",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.3.3",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.3.3",
+      "prefLabel": "BQUI02SBII.3.3 · Cálculo de la constante de equilibrio de reacciones en las que los reactivos se…",
+      "definition": "Cálculo de la constante de equilibrio de reacciones en las que los reactivos se encuentren en el mismo y diferente estado físico. Relación entre KC y KP y producto de solubilidad en equilibrios heterogéneos.",
+      "broader": "sb:BQUI02SBII.3",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.3.4",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.3.4",
+      "prefLabel": "BQUI02SBII.3.4 · Aplicación del principio de Le Châtelier y uso del cociente de reacción para predecir la…",
+      "definition": "Aplicación del principio de Le Châtelier y uso del cociente de reacción para predecir la evolución de sistemas en equilibrio a partir de la variación de las condiciones de concentración, presión o temperatura del sistema.",
+      "broader": "sb:BQUI02SBII.3",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.4",
+      "prefLabel": "BQUI02SBII.4 · Reacciones ácido-base.",
+      "definition": "Reacciones ácido-base.",
+      "broader": "sb:BQUI02SBII",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.4.1",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.4.1",
+      "prefLabel": "BQUI02SBII.4.1 · Justificación de la naturaleza ácida o básica de una sustancia a partir de las teorías de…",
+      "definition": "Justificación de la naturaleza ácida o básica de una sustancia a partir de las teorías de Arrhenius y de Brønsted y Lowry.",
+      "broader": "sb:BQUI02SBII.4",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.4.2",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.4.2",
+      "prefLabel": "BQUI02SBII.4.2 · Cálculo del grado de disociación en disolución acuosa de ácidos y bases débiles.",
+      "definition": "Cálculo del grado de disociación en disolución acuosa de ácidos y bases débiles.",
+      "broader": "sb:BQUI02SBII.4",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.4.3",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.4.3",
+      "prefLabel": "BQUI02SBII.4.3 · Cálculo del pH de disoluciones de ácidos y bases fuertes y débiles.",
+      "definition": "Cálculo del pH de disoluciones de ácidos y bases fuertes y débiles.",
+      "broader": "sb:BQUI02SBII.4",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.4.4",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.4.4",
+      "prefLabel": "BQUI02SBII.4.4 · Expresión de las constantes Ka y Kb a partir de las ecuaciones químicas ajustadas para el…",
+      "definition": "Expresión de las constantes Ka y Kb a partir de las ecuaciones químicas ajustadas para el cálculo de concentraciones en el equilibrio.",
+      "broader": "sb:BQUI02SBII.4",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.4.5",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.4.5",
+      "prefLabel": "BQUI02SBII.4.5 · Análisis e identificación de pares ácido y base conjugados.",
+      "definition": "Análisis e identificación de pares ácido y base conjugados.",
+      "broader": "sb:BQUI02SBII.4",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.4.6",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.4.6",
+      "prefLabel": "BQUI02SBII.4.6 · Predicción del carácter ácido o básico de disoluciones en las que se produce la…",
+      "definition": "Predicción del carácter ácido o básico de disoluciones en las que se produce la hidrólisis de una sal.",
+      "broader": "sb:BQUI02SBII.4",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.4.7",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.4.7",
+      "prefLabel": "BQUI02SBII.4.7 · Estudio de las reacciones de neutralización y su aplicación en las volumetrías ácido base.",
+      "definition": "Estudio de las reacciones de neutralización y su aplicación en las volumetrías ácido base.",
+      "broader": "sb:BQUI02SBII.4",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.4.8",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.4.8",
+      "prefLabel": "BQUI02SBII.4.8 · Identificación de ácidos y bases relevantes a nivel industrial y de consumo, con especial…",
+      "definition": "Identificación de ácidos y bases relevantes a nivel industrial y de consumo, con especial incidencia en el proceso de la conservación del medioambiente.",
+      "broader": "sb:BQUI02SBII.4",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.5",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.5",
+      "prefLabel": "BQUI02SBII.5 · Reacciones redox.",
+      "definition": "Reacciones redox.",
+      "broader": "sb:BQUI02SBII",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.5.1",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.5.1",
+      "prefLabel": "BQUI02SBII.5.1 · Interpretación del concepto de estado de oxidación para determinar las especies que se…",
+      "definition": "Interpretación del concepto de estado de oxidación para determinar las especies que se reducen o se oxidan en una reacción.",
+      "broader": "sb:BQUI02SBII.5",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.5.2",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.5.2",
+      "prefLabel": "BQUI02SBII.5.2 · Ajuste de ecuaciones químicas de oxidación-reducción mediante el método del ion-electrón.",
+      "definition": "Ajuste de ecuaciones químicas de oxidación-reducción mediante el método del ion-electrón.",
+      "broader": "sb:BQUI02SBII.5",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.5.3",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.5.3",
+      "prefLabel": "BQUI02SBII.5.3 · Cálculos estequiométricos en procesos redox.",
+      "definition": "Cálculos estequiométricos en procesos redox.",
+      "broader": "sb:BQUI02SBII.5",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.5.4",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.5.4",
+      "prefLabel": "BQUI02SBII.5.4 · Diseño de volumetrías redox para el cálculo de concentraciones desconocidas.",
+      "definition": "Diseño de volumetrías redox para el cálculo de concentraciones desconocidas.",
+      "broader": "sb:BQUI02SBII.5",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.5.5",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.5.5",
+      "prefLabel": "BQUI02SBII.5.5 · Potencial estándar de un par redox. Espontaneidad de procesos químicos y electroquímicos…",
+      "definition": "Potencial estándar de un par redox. Espontaneidad de procesos químicos y electroquímicos que impliquen a dos pares redox.",
+      "broader": "sb:BQUI02SBII.5",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.5.6",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.5.6",
+      "prefLabel": "BQUI02SBII.5.6 · Aplicación de las leyes de Faraday para calcular la cantidad de carga eléctrica y las…",
+      "definition": "Aplicación de las leyes de Faraday para calcular la cantidad de carga eléctrica y las cantidades de sustancia en un proceso electroquímico.",
+      "broader": "sb:BQUI02SBII.5",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBII.5.7",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBII.5.7",
+      "prefLabel": "BQUI02SBII.5.7 · Empleo de reacciones de oxidación y reducción en la fabricación y funcionamiento de…",
+      "definition": "Empleo de reacciones de oxidación y reducción en la fabricación y funcionamiento de baterías eléctricas, celdas electrolíticas y pilas de combustible, así como en la prevención de la corrosión de metales.",
+      "broader": "sb:BQUI02SBII.5",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBIII.1",
+      "prefLabel": "BQUI02SBIII.1 · Isomería.",
+      "definition": "Isomería.",
+      "broader": "sb:BQUI02SBIII",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBIII.1.1",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBIII.1.1",
+      "prefLabel": "BQUI02SBIII.1.1 · Representación de fórmulas moleculares y desarrolladas de compuestos orgánicos.",
+      "definition": "Representación de fórmulas moleculares y desarrolladas de compuestos orgánicos.",
+      "broader": "sb:BQUI02SBIII.1",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBIII.1.2",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBIII.1.2",
+      "prefLabel": "BQUI02SBIII.1.2 · Identificación de diferentes tipos de isomería estructural e isómeros espaciales de un…",
+      "definition": "Identificación de diferentes tipos de isomería estructural e isómeros espaciales de un compuesto y sus propiedades.",
+      "broader": "sb:BQUI02SBIII.1",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBIII.1.3",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBIII.1.3",
+      "prefLabel": "BQUI02SBIII.1.3 · Manejo de modelos moleculares o técnicas de representación 3D de moléculas.",
+      "definition": "Manejo de modelos moleculares o técnicas de representación 3D de moléculas.",
+      "broader": "sb:BQUI02SBIII.1",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBIII.2",
+      "prefLabel": "BQUI02SBIII.2 · Reactividad orgánica.",
+      "definition": "Reactividad orgánica.",
+      "broader": "sb:BQUI02SBIII",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBIII.2.1",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBIII.2.1",
+      "prefLabel": "BQUI02SBIII.2.1 · Análisis de las principales propiedades químicas de las distintas funciones orgánicas…",
+      "definition": "Análisis de las principales propiedades químicas de las distintas funciones orgánicas para predecir su comportamiento en disolución o en reacciones químicas.",
+      "broader": "sb:BQUI02SBIII.2",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBIII.2.2",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBIII.2.2",
+      "prefLabel": "BQUI02SBIII.2.2 · Descripción de los principales tipos de reacciones orgánicas.",
+      "definition": "Descripción de los principales tipos de reacciones orgánicas.",
+      "broader": "sb:BQUI02SBIII.2",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBIII.2.3",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBIII.2.3",
+      "prefLabel": "BQUI02SBIII.2.3 · Predicción de los productos de la reacción entre compuestos orgánicos y las…",
+      "definition": "Predicción de los productos de la reacción entre compuestos orgánicos y las correspondientes ecuaciones químicas.",
+      "broader": "sb:BQUI02SBIII.2",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBIII.3",
+      "prefLabel": "BQUI02SBIII.3 · Polímeros.",
+      "definition": "Polímeros.",
+      "broader": "sb:BQUI02SBIII",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBIII.3.1",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBIII.3.1",
+      "prefLabel": "BQUI02SBIII.3.1 · Descripción del proceso de formación de los polímeros a partir de sus correspondientes…",
+      "definition": "Descripción del proceso de formación de los polímeros a partir de sus correspondientes monómeros para representar su estructura y analizar sus propiedades derivadas.",
+      "broader": "sb:BQUI02SBIII.3",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BQUI02SBIII.3.2",
+      "tipo": "SaberBasico",
+      "notation": "BQUI02SBIII.3.2",
+      "prefLabel": "BQUI02SBIII.3.2 · Clasificación de los polímeros según su naturaleza, estructura y composición para…",
+      "definition": "Clasificación de los polímeros según su naturaleza, estructura y composición para relacionarlo con sus aplicaciones, propiedades y riesgos medioambientales asociados.",
+      "broader": "sb:BQUI02SBIII.3",
+      "materia": "materia:BQUI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    }
+  ]
+}

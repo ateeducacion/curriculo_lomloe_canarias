@@ -1,0 +1,2726 @@
+{
+  "materia": "materia:SUEC",
+  "nodos": [
+    {
+      "id": "materia:SUEC",
+      "tipo": "Materia",
+      "notation": "SUEC",
+      "prefLabel": "Tecnología y Digitalización (ESO)",
+      "cursos": [
+        "curso:S01",
+        "curso:S02",
+        "curso:S03"
+      ],
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SUECC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SUECC1",
+      "prefLabel": "SUECC1 · Buscar y seleccionar la información adecuada proveniente de diversas fuentes, de manera…",
+      "definition": "Buscar y seleccionar la información adecuada proveniente de diversas fuentes, de manera crítica y segura, aplicando procesos de investigación, métodos de análisis de productos y experimentando con herramientas de simulación, para definir problemas tecnológicos e iniciar procesos de creación de soluciones a partir de la información obtenida.",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SUECC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SUECC2",
+      "prefLabel": "SUECC2 · Abordar problemas tecnológicos con autonomía y actitud creativa, aplicando conocimientos…",
+      "definition": "Abordar problemas tecnológicos con autonomía y actitud creativa, aplicando conocimientos interdisciplinares y trabajando de forma cooperativa y colaborativa, para diseñar y planificar soluciones a un problema o necesidad de forma eficaz, innovadora y sostenible.",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SUECC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SUECC3",
+      "prefLabel": "SUECC3 · Aplicar de forma apropiada y segura distintas técnicas y conocimientos interdisciplinares…",
+      "definition": "Aplicar de forma apropiada y segura distintas técnicas y conocimientos interdisciplinares utilizando operadores, sistemas tecnológicos y herramientas, teniendo en cuenta la planificación y el diseño previo, para construir o fabricar soluciones tecnológicas y sostenibles que den respuesta a necesidades en diferentes contextos.",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SUECC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SUECC4",
+      "prefLabel": "SUECC4 · Describir, representar e intercambiar ideas o soluciones a problemas tecnológicos o…",
+      "definition": "Describir, representar e intercambiar ideas o soluciones a problemas tecnológicos o digitales, utilizando medios de representación, simbología y vocabulario adecuados, así como los instrumentos y recursos disponibles y valorando la utilidad de las herramientas digitales, para comunicar y difundir información y propuestas.",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SUECC5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SUECC5",
+      "prefLabel": "SUECC5 · Desarrollar algoritmos y aplicaciones informáticas en distintos entornos, aplicando los…",
+      "definition": "Desarrollar algoritmos y aplicaciones informáticas en distintos entornos, aplicando los principios del pensamiento computacional e incorporando las tecnologías emergentes, para crear soluciones a problemas concretos, automatizar procesos y aplicarlos en sistemas de control o en robótica.",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SUECC6",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SUECC6",
+      "prefLabel": "SUECC6 · Comprender los fundamentos del funcionamiento de los dispositivos y aplicaciones…",
+      "definition": "Comprender los fundamentos del funcionamiento de los dispositivos y aplicaciones habituales de su entorno digital de aprendizaje, analizando sus componentes y funciones y ajustándolos a sus necesidades, para hacer un uso más eficiente y seguro de los mismos y para detectar y resolver problemas técnicos sencillos.",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SUECC7",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SUECC7",
+      "prefLabel": "SUECC7 · Hacer un uso responsable y ético de la tecnología, mostrando interés por un desarrollo…",
+      "definition": "Hacer un uso responsable y ético de la tecnología, mostrando interés por un desarrollo sostenible, identificando sus repercusiones y valorando la contribución de las tecnologías emergentes, para identificar las aportaciones y el impacto del desarrollo tecnológico en la sociedad y en el entorno.",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SUEC01BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "SUEC01BC1",
+      "prefLabel": "Tecnología y Digitalización · 1º ESO · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se valorará que el alumnado sea capaz, de manera individual y colaborativa y evitando sesgos de género, de definir problemas planteados e iniciar la búsqueda de soluciones a partir de la información dada, y desde una perspectiva interdisciplinar, utilizando el pensamiento científico y estrategias de investigación que le permitan analizar, comprender y examinar productos y sistemas tecnológicos conforme a las diferentes fases del método de proyectos, prestando especial atención a los riesgos que entraña el uso de las tecnologías digitales y adoptando medidas preventivas para la protección de los dispositivos, los datos y la salud personal. En este nivel cobra importancia el hecho de que las fuentes proporcionadas como referencia hayan sido previamente seleccionadas y se haga explícito el procedimiento aplicado para identificar la fiabilidad, veracidad y relevancia de las mismas.",
+      "broader": "materia:SUEC",
+      "agrupa": [
+        "ce:SUECC1"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM2",
+        "CD1",
+        "CD4",
+        "CPSAA4",
+        "CE1",
+        "STEM5"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SUEC01BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "SUEC01BC2",
+      "prefLabel": "Tecnología y Digitalización · 1º ESO · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se comprobará el desarrollo por parte del alumnado de las habilidades blandas que la sociedad demanda. Para ello, este debe ser capaz de trabajar de manera cooperativa y colaborativa, desde una perspectiva interdisciplinar y evitando situaciones que supongan cualquier tipo de discriminación, con la finalidad de planificar, seleccionar y organizar los materiales y herramientas necesarios para construir las soluciones previamente ideadas y diseñadas conforme a las técnicas de representación gráfica dadas y bajo criterios de sostenibilidad, utilizando aplicaciones de software para la representación de esquemas, circuitos, diseños y objetos necesarios, con un enfoque dirigido de aprendizaje-servicio como introducción en la metodología para aprender y aplicar lo aprendido en un entorno cercano. También se valorará si es capaz de comunicar la información relativa a los procesos desarrollados para intercambiar información y crear conocimiento con coherencia y corrección, siguiendo unas pautas establecidas.",
+      "broader": "materia:SUEC",
+      "agrupa": [
+        "ce:SUECC2"
+      ],
+      "descriptores": [
+        "CCL1",
+        "STEM1",
+        "STEM3",
+        "CD2",
+        "CPSAA5",
+        "CE1",
+        "CE3",
+        "STEM4",
+        "CD3",
+        "CPSAA3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SUEC01BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "SUEC01BC3",
+      "prefLabel": "Tecnología y Digitalización · 1º ESO · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado conoce las propiedades de los materiales empleados y desarrolla habilidades técnicas para la fabricación de soluciones tecnológicas creativas, sostenibles y eficaces de manera colaborativa, y evitando sesgos de género, que den respuesta a las necesidades planteadas, siguiendo criterios de seguridad e higiene en el trabajo y aplicando conocimientos relativos a estructuras y operadores mecánicos y eléctricos básicos. También se valorará su capacidad para evaluar de manera guiada el proceso seguido y redefinirlo en caso necesario.",
+      "broader": "materia:SUEC",
+      "agrupa": [
+        "ce:SUECC3"
+      ],
+      "descriptores": [
+        "CCL5",
+        "STEM2",
+        "STEM3",
+        "STEM5",
+        "CD2",
+        "CD5",
+        "CPSAA3",
+        "CC1",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SUEC01BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "SUEC01BC4",
+      "prefLabel": "Tecnología y Digitalización · 1º ESO · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial se pretende evaluar la capacidad del alumnado para representar y comunicar el proceso seguido, desde la fase de ideación hasta la obtención de la solución, utilizando las herramientas digitales adecuadas para diseñar, editar y crear contenido, así como la simbología y el vocabulario técnico apropiados para transmitir la información de manera eficaz. Asimismo, se busca valorar la capacidad para seguir los protocolos establecidos en el trabajo cooperativo y colaborativo y la aplicación de códigos de comunicación y comportamiento específicos del ámbito digital.",
+      "broader": "materia:SUEC",
+      "agrupa": [
+        "ce:SUECC4"
+      ],
+      "descriptores": [
+        "CCL1",
+        "STEM4",
+        "CD2",
+        "CD3",
+        "CPSAA3",
+        "CPSAA4",
+        "CC1",
+        "CE3",
+        "CCEC4"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SUEC01BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "SUEC01BC5",
+      "prefLabel": "Tecnología y Digitalización · 1º ESO · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial se verificará que el alumnado es capaz de aplicar los principios del pensamiento computacional, aplicables en múltiples contextos, para desarrollar programas sencillos que den respuesta a problemas concretos y que permitan su aplicación en robótica educativa, así como para la comprensión del funcionamiento de los distintos dispositivos digitales que conforman el entorno, permitiendo un aprendizaje integral de la materia. También se valorará su capacidad para describir, interpretar y analizar crítica y eficazmente las soluciones y sus implicaciones sociales.",
+      "broader": "materia:SUEC",
+      "agrupa": [
+        "ce:SUECC5"
+      ],
+      "descriptores": [
+        "STEM1",
+        "STEM3",
+        "CD2",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SUEC01BC6",
+      "tipo": "BloqueCompetencial",
+      "notation": "SUEC01BC6",
+      "prefLabel": "Tecnología y Digitalización · 1º ESO · bloque competencial C6",
+      "scopeNote": "En este bloque competencial se comprobará que el alumnado conoce los dispositivos presentes en su entorno digital de aprendizaje y es capaz de identificar los elementos del hardware y del software para utilizarlos de manera segura, adoptando las medidas preventivas necesarias, con el fin de identificar y abordar la resolución de problemas técnicos sencillos. Además, debe ser capaz de utilizar, de manera guiada, herramientas de búsqueda de información, edición y creación de contenidos y de difundirlos en plataformas adecuadas, aplicando estrategias de organización de la información y adoptando las medidas adecuadas de protección de datos y de información apropiadas para garantizar el derecho a la propiedad intelectual y el bienestar emocional y digital.",
+      "broader": "materia:SUEC",
+      "agrupa": [
+        "ce:SUECC6"
+      ],
+      "descriptores": [
+        "CD2",
+        "CD4",
+        "CD5",
+        "CPSAA2",
+        "CCL1",
+        "CPSAA4",
+        "CC2",
+        "CE1",
+        "CD1"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SUEC01BC7",
+      "tipo": "BloqueCompetencial",
+      "notation": "SUEC01BC7",
+      "prefLabel": "Tecnología y Digitalización · 1º ESO · bloque competencial C7",
+      "scopeNote": "Mediante este bloque competencial se comprobará que el alumnado comprende las repercusiones de la actividad tecnológica en general y de las tecnologías emergentes en particular en las condiciones de vida actuales, y que es capaz de analizar y valorar el impacto de las mismas en la sociedad y en el entorno, teniendo en cuenta la particularidad de Canarias como zona ultraperiférica, haciendo referencia, entre otros aspectos, a la igualdad e inclusión social, accesibilidad, obsolescencia e impacto ambiental. Asimismo, deberá ser capaz de promover un uso responsable y ético de la misma conforme a la consecución de los Objetivos de Desarrollo Sostenible y a las metas canarias que responden a los retos identificados en la Agenda Canaria de Desarrollo Sostenible 2030.",
+      "broader": "materia:SUEC",
+      "agrupa": [
+        "ce:SUECC7"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CC2",
+        "CC4"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SUEC02BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "SUEC02BC1",
+      "prefLabel": "Tecnología y Digitalización · 2º ESO · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se valorará que el alumnado sea capaz, de manera individual y colaborativa y evitando sesgos de género, de definir problemas planteados e iniciar la búsqueda de soluciones a partir de la información dada, y desde una perspectiva interdisciplinar, utilizando el pensamiento científico y estrategias de investigación que le permitan analizar, comprender y examinar productos y sistemas tecnológicos conforme a las diferentes fases del método de proyectos, prestando especial atención a los riesgos que entraña el uso de las tecnologías digitales y adoptando medidas preventivas para la protección de los dispositivos, los datos y la salud personal. En este nivel cobra importancia el hecho de que las fuentes proporcionadas como referencia hayan sido previamente seleccionadas y se haga explícito el procedimiento aplicado para identificar la fiabilidad, veracidad y relevancia de las mismas.",
+      "broader": "materia:SUEC",
+      "agrupa": [
+        "ce:SUECC1"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM2",
+        "CD1",
+        "CD4",
+        "CPSAA4",
+        "CE1",
+        "CD2",
+        "STEM5"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SUEC02BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "SUEC02BC2",
+      "prefLabel": "Tecnología y Digitalización · 2º ESO · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se comprobará el desarrollo por parte del alumnado de las habilidades blandas que la sociedad demanda. Para ello, este debe ser capaz de trabajar de manera cooperativa y colaborativa, desde una perspectiva interdisciplinar y evitando situaciones que supongan cualquier tipo de discriminación, con la finalidad de planificar, seleccionar y organizar los materiales y herramientas necesarios para construir las soluciones previamente ideadas y diseñadas conforme a las técnicas de representación gráfica dadas y bajo criterios de sostenibilidad, utilizando aplicaciones de software para la representación de esquemas, circuitos, diseños y objetos necesarios, con un enfoque dirigido de aprendizaje-servicio como introducción en la metodología para aprender y aplicar lo aprendido en un entorno cercano. También se valorará si es capaz de comunicar la información relativa a los procesos desarrollados para intercambiar información y crear conocimiento con coherencia y corrección, siguiendo unas pautas establecidas.",
+      "broader": "materia:SUEC",
+      "agrupa": [
+        "ce:SUECC2"
+      ],
+      "descriptores": [
+        "CCL1",
+        "STEM1",
+        "STEM3",
+        "CD2",
+        "CPSAA5",
+        "CE1",
+        "CE3",
+        "STEM4",
+        "CD3",
+        "CPSAA3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SUEC02BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "SUEC02BC3",
+      "prefLabel": "Tecnología y Digitalización · 2º ESO · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado conoce las propiedades de los materiales empleados y desarrolla habilidades técnicas para la fabricación de soluciones tecnológicas creativas, sostenibles y eficaces de manera colaborativa, y evitando sesgos de género, que den respuesta a las necesidades planteadas, siguiendo criterios de seguridad e higiene en el trabajo y aplicando conocimientos relativos a estructuras y operadores mecánicos y eléctricos básicos. También se valorará su capacidad para evaluar de manera guiada el proceso seguido y redefinirlo en caso necesario.",
+      "broader": "materia:SUEC",
+      "agrupa": [
+        "ce:SUECC3"
+      ],
+      "descriptores": [
+        "CCL5",
+        "STEM2",
+        "STEM3",
+        "STEM5",
+        "CD2",
+        "CD5",
+        "CPSAA3",
+        "CC1",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SUEC02BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "SUEC02BC4",
+      "prefLabel": "Tecnología y Digitalización · 2º ESO · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial se pretende evaluar la capacidad del alumnado para representar y comunicar el proceso seguido, desde la fase de ideación hasta la obtención de la solución, utilizando las herramientas digitales adecuadas para diseñar, editar y crear contenido, así como la simbología y el vocabulario técnico apropiados para transmitir la información de manera eficaz. Asimismo, se busca valorar la capacidad para seguir los protocolos establecidos en el trabajo cooperativo y colaborativo y la aplicación de códigos de comunicación y comportamiento específicos del ámbito digital.",
+      "broader": "materia:SUEC",
+      "agrupa": [
+        "ce:SUECC4"
+      ],
+      "descriptores": [
+        "CCL1",
+        "STEM4",
+        "CD2",
+        "CD3",
+        "CPSAA3",
+        "CPSAA4",
+        "CC1",
+        "CE3",
+        "CCEC4"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SUEC02BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "SUEC02BC5",
+      "prefLabel": "Tecnología y Digitalización · 2º ESO · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial se verificará que el alumnado es capaz de aplicar los principios del pensamiento computacional, aplicables en múltiples contextos, para desarrollar programas sencillos que den respuesta a problemas concretos y que permitan su aplicación en robótica educativa, así como para la comprensión del funcionamiento de los distintos dispositivos digitales que conforman el entorno, permitiendo un aprendizaje integral de la materia. También se valorará su capacidad para describir, interpretar y analizar crítica y eficazmente las soluciones y sus implicaciones sociales.",
+      "broader": "materia:SUEC",
+      "agrupa": [
+        "ce:SUECC5"
+      ],
+      "descriptores": [
+        "STEM1",
+        "STEM3",
+        "CD2",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SUEC02BC6",
+      "tipo": "BloqueCompetencial",
+      "notation": "SUEC02BC6",
+      "prefLabel": "Tecnología y Digitalización · 2º ESO · bloque competencial C6",
+      "scopeNote": "En este bloque competencial se comprobará que el alumnado conoce los dispositivos presentes en su entorno digital de aprendizaje y es capaz de identificar los elementos del hardware y del software para utilizarlos de manera segura, adoptando las medidas preventivas necesarias, con el fin de identificar y abordar la resolución de problemas técnicos sencillos. Además, debe ser capaz de utilizar, de manera guiada, herramientas de búsqueda de información, edición y creación de contenidos y de difundirlos en plataformas adecuadas, aplicando estrategias de organización de la información y adoptando las medidas adecuadas de protección de datos y de información apropiadas para garantizar el derecho a la propiedad intelectual y el bienestar emocional y digital.",
+      "broader": "materia:SUEC",
+      "agrupa": [
+        "ce:SUECC6"
+      ],
+      "descriptores": [
+        "CD2",
+        "CD4",
+        "CD5",
+        "CPSAA2",
+        "CCL1",
+        "CPSAA4",
+        "CPSAA5",
+        "CC2",
+        "CE1",
+        "CD1"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SUEC02BC7",
+      "tipo": "BloqueCompetencial",
+      "notation": "SUEC02BC7",
+      "prefLabel": "Tecnología y Digitalización · 2º ESO · bloque competencial C7",
+      "scopeNote": "Mediante este bloque competencial se comprobará que el alumnado comprende las repercusiones de la actividad tecnológica en general y de las tecnologías emergentes en particular en las condiciones de vida actuales, y que es capaz de analizar y valorar el impacto de las mismas en la sociedad y en el entorno, teniendo en cuenta la particularidad de Canarias como zona ultraperiférica, haciendo referencia, entre otros aspectos, a la igualdad e inclusión social, accesibilidad, obsolescencia e impacto ambiental. Asimismo, deberá ser capaz de promover un uso responsable y ético de la misma conforme a la consecución de los Objetivos de Desarrollo Sostenible y a las metas canarias que responden a los retos identificados en la Agenda Canaria de Desarrollo Sostenible 2030.",
+      "broader": "materia:SUEC",
+      "agrupa": [
+        "ce:SUECC7"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CC2",
+        "CC4"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SUEC03BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "SUEC03BC1",
+      "prefLabel": "Tecnología y Digitalización · 3º ESO · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se valorará que el alumnado sea capaz, de manera individual y colaborativa y evitando sesgos de género, de definir problemas planteados e iniciar la búsqueda de soluciones a partir de la información dada, y desde una perspectiva interdisciplinar, utilizando el pensamiento científico y estrategias de investigación que le permitan analizar, comprender y examinar productos y sistemas tecnológicos conforme a las diferentes fases del método de proyectos, prestando especial atención a los riesgos que entraña el uso de las tecnologías digitales y adoptando medidas preventivas para la protección de los dispositivos, los datos y la salud personal. En este nivel cobra importancia el hecho de que las fuentes proporcionadas como referencia hayan sido previamente seleccionadas y se haga explícito el procedimiento aplicado para identificar la fiabilidad, veracidad y relevancia de las mismas.",
+      "broader": "materia:SUEC",
+      "agrupa": [
+        "ce:SUECC1"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM2",
+        "CD1",
+        "CD4",
+        "CPSAA4",
+        "CE1",
+        "CD2",
+        "STEM5"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SUEC03BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "SUEC03BC2",
+      "prefLabel": "Tecnología y Digitalización · 3º ESO · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se comprobará el desarrollo por parte del alumnado de las habilidades blandas que la sociedad demanda. Para ello, este debe ser capaz de trabajar de manera cooperativa y colaborativa, desde una perspectiva interdisciplinar y evitando situaciones que supongan cualquier tipo de discriminación, con la finalidad de planificar, seleccionar y organizar los materiales y herramientas necesarios para construir las soluciones previamente ideadas y diseñadas conforme a las técnicas de representación gráfica dadas y bajo criterios de sostenibilidad, utilizando aplicaciones de software para la representación de esquemas, circuitos, diseños y objetos necesarios, con un enfoque dirigido de aprendizaje-servicio como introducción en la metodología para aprender y aplicar lo aprendido en un entorno cercano. También se valorará si es capaz de comunicar la información relativa a los procesos desarrollados para intercambiar información y crear conocimiento con coherencia y corrección, siguiendo unas pautas establecidas.",
+      "broader": "materia:SUEC",
+      "agrupa": [
+        "ce:SUECC2"
+      ],
+      "descriptores": [
+        "CCL1",
+        "STEM1",
+        "STEM3",
+        "CD2",
+        "CPSAA5",
+        "CE1",
+        "CE3",
+        "STEM4",
+        "CD3",
+        "CPSAA3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SUEC03BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "SUEC03BC3",
+      "prefLabel": "Tecnología y Digitalización · 3º ESO · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado conoce las propiedades de los materiales empleados y desarrolla habilidades técnicas para la fabricación de soluciones tecnológicas creativas, sostenibles y eficaces de manera colaborativa, y evitando sesgos de género, que den respuesta a las necesidades planteadas, siguiendo criterios de seguridad e higiene en el trabajo y aplicando conocimientos relativos a estructuras y operadores mecánicos y eléctricos básicos. También se valorará su capacidad para evaluar de manera guiada el proceso seguido y redefinirlo en caso necesario.",
+      "broader": "materia:SUEC",
+      "agrupa": [
+        "ce:SUECC3"
+      ],
+      "descriptores": [
+        "CCL5",
+        "STEM2",
+        "STEM3",
+        "STEM5",
+        "CD2",
+        "CD5",
+        "CPSAA3",
+        "CC1",
+        "CE2",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SUEC03BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "SUEC03BC4",
+      "prefLabel": "Tecnología y Digitalización · 3º ESO · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial se pretende evaluar la capacidad del alumnado para representar y comunicar el proceso seguido, desde la fase de ideación hasta la obtención de la solución, utilizando las herramientas digitales adecuadas para diseñar, editar y crear contenido, así como la simbología y el vocabulario técnico apropiados para transmitir la información de manera eficaz. Asimismo, se busca valorar la capacidad para seguir los protocolos establecidos en el trabajo cooperativo y colaborativo y la aplicación de códigos de comunicación y comportamiento específicos del ámbito digital.",
+      "broader": "materia:SUEC",
+      "agrupa": [
+        "ce:SUECC4"
+      ],
+      "descriptores": [
+        "CCL1",
+        "STEM4",
+        "CD2",
+        "CD3",
+        "CPSAA3",
+        "CPSAA4",
+        "CC1",
+        "CE3",
+        "CCEC4"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SUEC03BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "SUEC03BC5",
+      "prefLabel": "Tecnología y Digitalización · 3º ESO · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial se verificará que el alumnado es capaz de aplicar los principios del pensamiento computacional, aplicables en múltiples contextos, para desarrollar programas sencillos que den respuesta a problemas concretos y que permitan su aplicación en robótica educativa, así como para la comprensión del funcionamiento de los distintos dispositivos digitales que conforman el entorno, permitiendo un aprendizaje integral de la materia. También se valorará su capacidad para describir, interpretar y analizar crítica y eficazmente las soluciones y sus implicaciones sociales.",
+      "broader": "materia:SUEC",
+      "agrupa": [
+        "ce:SUECC5"
+      ],
+      "descriptores": [
+        "STEM1",
+        "STEM3",
+        "CD2",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SUEC03BC6",
+      "tipo": "BloqueCompetencial",
+      "notation": "SUEC03BC6",
+      "prefLabel": "Tecnología y Digitalización · 3º ESO · bloque competencial C6",
+      "scopeNote": "En este bloque competencial se comprobará que el alumnado conoce los dispositivos presentes en su entorno digital de aprendizaje y es capaz de identificar los elementos del hardware y del software para utilizarlos de manera segura, adoptando las medidas preventivas necesarias, con el fin de identificar y abordar la resolución de problemas técnicos sencillos. Además, debe ser capaz de utilizar, de manera guiada, herramientas de búsqueda de información, edición y creación de contenidos y de difundirlos en plataformas adecuadas, aplicando estrategias de organización de la información y adoptando las medidas adecuadas de protección de datos y de información apropiadas para garantizar el derecho a la propiedad intelectual y el bienestar emocional y digital.",
+      "broader": "materia:SUEC",
+      "agrupa": [
+        "ce:SUECC6"
+      ],
+      "descriptores": [
+        "CD2",
+        "CD4",
+        "CD5",
+        "CPSAA2",
+        "CCL1",
+        "CPSAA4",
+        "CPSAA5",
+        "CC2",
+        "CE1",
+        "CD1"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SUEC03BC7",
+      "tipo": "BloqueCompetencial",
+      "notation": "SUEC03BC7",
+      "prefLabel": "Tecnología y Digitalización · 3º ESO · bloque competencial C7",
+      "scopeNote": "Mediante este bloque competencial se comprobará que el alumnado comprende las repercusiones de la actividad tecnológica en general y de las tecnologías emergentes en particular en las condiciones de vida actuales, y que es capaz de analizar y valorar el impacto de las mismas en la sociedad y en el entorno, teniendo en cuenta la particularidad de Canarias como zona ultraperiférica, haciendo referencia, entre otros aspectos, a la igualdad e inclusión social, accesibilidad, obsolescencia e impacto ambiental. Asimismo, deberá ser capaz de promover un uso responsable y ético de la misma conforme a la consecución de los Objetivos de Desarrollo Sostenible y a las metas canarias que responden a los retos identificados en la Agenda Canaria de Desarrollo Sostenible 2030.",
+      "broader": "materia:SUEC",
+      "agrupa": [
+        "ce:SUECC7"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CC2",
+        "CC4"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC01CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC01CE1.1",
+      "prefLabel": "SUEC01CE1.1 · Definir problemas o necesidades planteadas, buscando y contrastando información…",
+      "definition": "Definir problemas o necesidades planteadas, buscando y contrastando información procedente de fuentes propuestas de manera crítica y segura, evaluando su fiabilidad y pertinencia para presentar soluciones innovadoras y sostenibles.",
+      "broader": "ce:SUECC1",
+      "bloque": "bc:SUEC01BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM2",
+        "CD1",
+        "CD4",
+        "CPSAA4",
+        "CE1"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC01CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC01CE1.2",
+      "prefLabel": "SUEC01CE1.2 · Comprender y examinar productos tecnológicos sencillos de uso habitual a través del…",
+      "definition": "Comprender y examinar productos tecnológicos sencillos de uso habitual a través del análisis básico de objetos y sistemas empleando el método científico.",
+      "broader": "ce:SUECC1",
+      "bloque": "bc:SUEC01BC1",
+      "descriptores": [
+        "STEM2",
+        "CE1"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC01CE1.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC01CE1.3",
+      "prefLabel": "SUEC01CE1.3 · Identificar problemas y riesgos relacionados con el uso de la tecnología y adoptar…",
+      "definition": "Identificar problemas y riesgos relacionados con el uso de la tecnología y adoptar medidas preventivas para la protección personal y de los dispositivos.",
+      "broader": "ce:SUECC1",
+      "bloque": "bc:SUEC01BC1",
+      "descriptores": [
+        "CCL3",
+        "STEM2",
+        "STEM5",
+        "CD1",
+        "CD4",
+        "CPSAA4",
+        "CE1"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC01CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC01CE2.1",
+      "prefLabel": "SUEC01CE2.1 · Idear, diseñar y comunicar con coherencia y corrección, haciendo uso de bocetos y…",
+      "definition": "Idear, diseñar y comunicar con coherencia y corrección, haciendo uso de bocetos y croquis, soluciones originales a problemas sencillos, aplicando conceptos, técnicas y procedimientos interdisciplinares con actitud emprendedora, perseverante y creativa.",
+      "broader": "ce:SUECC2",
+      "bloque": "bc:SUEC01BC2",
+      "descriptores": [
+        "CCL1",
+        "STEM1",
+        "STEM3",
+        "CD2",
+        "CPSAA5",
+        "CE1",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC01CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC01CE2.2",
+      "prefLabel": "SUEC01CE2.2 · Seleccionar, planificar y organizar de manera guiada los materiales y herramientas, así…",
+      "definition": "Seleccionar, planificar y organizar de manera guiada los materiales y herramientas, así como las tareas necesarias, con sentido crítico, empleando técnicas predeterminadas para la construcción de una solución a un problema planteado, trabajando individualmente o en grupo de manera cooperativa y colaborativa, compartiendo la información necesaria.",
+      "broader": "ce:SUECC2",
+      "bloque": "bc:SUEC01BC2",
+      "descriptores": [
+        "STEM1",
+        "STEM3",
+        "STEM4",
+        "CD3",
+        "CPSAA3",
+        "CE1",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC01CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC01CE3.1",
+      "prefLabel": "SUEC01CE3.1 · Fabricar objetos o modelos de invención individual o grupal de manera guiada mediante…",
+      "definition": "Fabricar objetos o modelos de invención individual o grupal de manera guiada mediante técnicas dirigidas de manipulación y conformación de materiales, empleando herramientas y máquinas adecuadas, aplicando fundamentos básicos de estructuras, mecanismos y circuitos eléctricos y respetando las normas de seguridad y salud con actitud perseverante para obtener las soluciones óptimas a los objetivos planteados, siendo capaz de justificar la elección de un determinado material según sus propiedades.",
+      "broader": "ce:SUECC3",
+      "bloque": "bc:SUEC01BC3",
+      "descriptores": [
+        "CCL5",
+        "STEM2",
+        "STEM3",
+        "STEM5",
+        "CD2",
+        "CD5",
+        "CPSAA3",
+        "CC1",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC01CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC01CE4.1",
+      "prefLabel": "SUEC01CE4.1 · Representar y comunicar, de manera colaborativa, tanto presencialmente como en remoto, y…",
+      "definition": "Representar y comunicar, de manera colaborativa, tanto presencialmente como en remoto, y haciendo uso de medios, soportes y herramientas digitales específicas, el proceso de creación de productos sencillos desde su diseño hasta su difusión, elaborando la documentación técnica y gráfica de carácter básico, empleando la simbología, los formatos y el vocabulario técnico adecuados, con la finalidad de producir una comunicación eficaz con todos los agentes involucrados.",
+      "broader": "ce:SUECC4",
+      "bloque": "bc:SUEC01BC4",
+      "descriptores": [
+        "CCL1",
+        "STEM4",
+        "CD2",
+        "CD3",
+        "CPSAA3",
+        "CPSAA4",
+        "CC1",
+        "CE3",
+        "CCEC4"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC01CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC01CE5.1",
+      "prefLabel": "SUEC01CE5.1 · Describir, interpretar y diseñar soluciones a problemas informáticos sencillos.",
+      "definition": "Describir, interpretar y diseñar soluciones a problemas informáticos sencillos.",
+      "broader": "ce:SUECC5",
+      "bloque": "bc:SUEC01BC5",
+      "descriptores": [
+        "STEM1",
+        "STEM3",
+        "CD2",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC01CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC01CE5.2",
+      "prefLabel": "SUEC01CE5.2 · Programar haciendo uso de diagramas de bloques, aplicaciones sencillas para dispositivos…",
+      "definition": "Programar haciendo uso de diagramas de bloques, aplicaciones sencillas para dispositivos básicos.",
+      "broader": "ce:SUECC5",
+      "bloque": "bc:SUEC01BC5",
+      "descriptores": [
+        "STEM1",
+        "STEM3",
+        "CD2",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC01CE5.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC01CE5.3",
+      "prefLabel": "SUEC01CE5.3 · Automatizar procesos mediante el análisis, construcción y programación de robots…",
+      "definition": "Automatizar procesos mediante el análisis, construcción y programación de robots educativos, valorando su aplicación en la sociedad.",
+      "broader": "ce:SUECC5",
+      "bloque": "bc:SUEC01BC5",
+      "descriptores": [
+        "STEM1",
+        "STEM3",
+        "CD2",
+        "CD5",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC01CE6.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC01CE6.1",
+      "prefLabel": "SUEC01CE6.1 · Emplear de manera eficiente y segura los dispositivos digitales de uso cotidiano en la…",
+      "definition": "Emplear de manera eficiente y segura los dispositivos digitales de uso cotidiano en la resolución de problemas sencillos.",
+      "broader": "ce:SUECC6",
+      "bloque": "bc:SUEC01BC6",
+      "descriptores": [
+        "CD2",
+        "CD4",
+        "CD5",
+        "CPSAA2"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC01CE6.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC01CE6.2",
+      "prefLabel": "SUEC01CE6.2 · Crear contenidos, elaborar materiales y difundirlos en entornos controlados, configurando…",
+      "definition": "Crear contenidos, elaborar materiales y difundirlos en entornos controlados, configurando las herramientas digitales necesarias del entorno de aprendizaje y respetando los derechos de autoría y la etiqueta digital.",
+      "broader": "ce:SUECC6",
+      "bloque": "bc:SUEC01BC6",
+      "descriptores": [
+        "CCL1",
+        "CD2",
+        "CD4",
+        "CD5",
+        "CPSAA4",
+        "CC2",
+        "CE1"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC01CE6.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC01CE6.3",
+      "prefLabel": "SUEC01CE6.3 · Organizar la información aplicando técnicas de almacenamiento seguro.",
+      "definition": "Organizar la información aplicando técnicas de almacenamiento seguro.",
+      "broader": "ce:SUECC6",
+      "bloque": "bc:SUEC01BC6",
+      "descriptores": [
+        "CD1",
+        "CD2",
+        "CD4"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC01CE7.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC01CE7.1",
+      "prefLabel": "SUEC01CE7.1 · Reconocer la influencia de la actividad tecnológica en la sociedad, identificando de…",
+      "definition": "Reconocer la influencia de la actividad tecnológica en la sociedad, identificando de manera básica sus aportaciones y repercusiones y valorando su importancia para el desarrollo sostenible.",
+      "broader": "ce:SUECC7",
+      "bloque": "bc:SUEC01BC7",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CC2",
+        "CC4"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC01CE7.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC01CE7.2",
+      "prefLabel": "SUEC01CE7.2 · Identificar las aportaciones de las tecnologías emergentes al bienestar emocional y…",
+      "definition": "Identificar las aportaciones de las tecnologías emergentes al bienestar emocional y digital, a la igualdad social y a la disminución del impacto ambiental, haciendo un uso responsable y ético de las mismas.",
+      "broader": "ce:SUECC7",
+      "bloque": "bc:SUEC01BC7",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CC2",
+        "CC4"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC02CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC02CE1.1",
+      "prefLabel": "SUEC02CE1.1 · Definir problemas o necesidades planteadas, buscando y contrastando información…",
+      "definition": "Definir problemas o necesidades planteadas, buscando y contrastando información procedente de diferentes fuentes de manera crítica y segura, evaluando su fiabilidad y pertinencia para presentar soluciones innovadoras y sostenibles.",
+      "broader": "ce:SUECC1",
+      "bloque": "bc:SUEC02BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM2",
+        "CD1",
+        "CD4",
+        "CPSAA4",
+        "CE1"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC02CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC02CE1.2",
+      "prefLabel": "SUEC02CE1.2 · Comprender y examinar productos tecnológicos de uso habitual a través del análisis de…",
+      "definition": "Comprender y examinar productos tecnológicos de uso habitual a través del análisis de objetos y sistemas, empleando el método científico y utilizando herramientas de simulación en la construcción de conocimiento para analizar y valorar su impacto en el entorno.",
+      "broader": "ce:SUECC1",
+      "bloque": "bc:SUEC02BC1",
+      "descriptores": [
+        "STEM2",
+        "CD2",
+        "CE1"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC02CE1.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC02CE1.3",
+      "prefLabel": "SUEC02CE1.3 · Adoptar medidas preventivas para la protección de los dispositivos, los datos y la salud…",
+      "definition": "Adoptar medidas preventivas para la protección de los dispositivos, los datos y la salud personal, identificando problemas y riesgos relacionados con el uso de la tecnología y analizándolos de manera ética y crítica.",
+      "broader": "ce:SUECC1",
+      "bloque": "bc:SUEC02BC1",
+      "descriptores": [
+        "CCL3",
+        "STEM2",
+        "STEM5",
+        "CD1",
+        "CD4",
+        "CPSAA4",
+        "CE1"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC02CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC02CE2.1",
+      "prefLabel": "SUEC02CE2.1 · Idear, diseñar y comunicar con coherencia y corrección soluciones originales a problemas…",
+      "definition": "Idear, diseñar y comunicar con coherencia y corrección soluciones originales a problemas definidos, aplicando conceptos, técnicas y procedimientos interdisciplinares con actitud emprendedora, perseverante y creativa.",
+      "broader": "ce:SUECC2",
+      "bloque": "bc:SUEC02BC2",
+      "descriptores": [
+        "CCL1",
+        "STEM1",
+        "STEM3",
+        "CD2",
+        "CPSAA5",
+        "CE1",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC02CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC02CE2.2",
+      "prefLabel": "SUEC02CE2.2 · Seleccionar, planificar y organizar los materiales y herramientas, así como las tareas…",
+      "definition": "Seleccionar, planificar y organizar los materiales y herramientas, así como las tareas necesarias con sentido crítico, empleando técnicas variadas y creativas para la construcción de una solución a un problema planteado, trabajando individualmente o en grupo de manera cooperativa y colaborativa compartiendo la información necesaria.",
+      "broader": "ce:SUECC2",
+      "bloque": "bc:SUEC02BC2",
+      "descriptores": [
+        "STEM1",
+        "STEM3",
+        "STEM4",
+        "CD3",
+        "CPSAA3",
+        "CE1",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC02CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC02CE3.1",
+      "prefLabel": "SUEC02CE3.1 · Fabricar objetos o modelos de invención individual o grupal mediante la manipulación y…",
+      "definition": "Fabricar objetos o modelos de invención individual o grupal mediante la manipulación y conformación de materiales siguiendo el plan de trabajo, previo conocimiento de sus propiedades y justificación de su empleo en las soluciones ideadas, empleando herramientas y máquinas adecuadas, aplicando los fundamentos de estructuras, mecanismos y electricidad y respetando las normas de seguridad y salud con actitud perseverante, para obtener las soluciones óptimas a los objetivos planteados.",
+      "broader": "ce:SUECC3",
+      "bloque": "bc:SUEC02BC3",
+      "descriptores": [
+        "CCL5",
+        "STEM2",
+        "STEM3",
+        "STEM5",
+        "CD2",
+        "CD5",
+        "CPSAA3",
+        "CC1",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC02CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC02CE4.1",
+      "prefLabel": "SUEC02CE4.1 · Representar y comunicar, de manera colaborativa, tanto presencialmente como en remoto, y…",
+      "definition": "Representar y comunicar, de manera colaborativa, tanto presencialmente como en remoto, y haciendo uso de diversos medios, soportes y herramientas digitales, el proceso de creación de un producto desde su diseño hasta su difusión, elaborando la documentación técnica y gráfica y empleando tanto los formatos como el vocabulario técnico adecuados con la finalidad de producir una comunicación eficaz con todos los agentes involucrados.",
+      "broader": "ce:SUECC4",
+      "bloque": "bc:SUEC02BC4",
+      "descriptores": [
+        "CCL1",
+        "STEM4",
+        "CD2",
+        "CD3",
+        "CPSAA3",
+        "CPSAA4",
+        "CC1",
+        "CE3",
+        "CCEC4"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC02CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC02CE5.1",
+      "prefLabel": "SUEC02CE5.1 · Describir, interpretar y diseñar soluciones a problemas informáticos a través de…",
+      "definition": "Describir, interpretar y diseñar soluciones a problemas informáticos a través de algoritmos y diagramas de flujo, aplicando los elementos, técnicas de programación y procesos de corrección de errores que permitan favorecer la construcción del conocimiento de manera más eficiente.",
+      "broader": "ce:SUECC5",
+      "bloque": "bc:SUEC02BC5",
+      "descriptores": [
+        "STEM1",
+        "STEM3",
+        "CD2",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC02CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC02CE5.2",
+      "prefLabel": "SUEC02CE5.2 · Programar aplicaciones sencillas para distintos dispositivos como ordenadores y…",
+      "definition": "Programar aplicaciones sencillas para distintos dispositivos como ordenadores y dispositivos móviles, empleando los elementos de programación de manera apropiada y aplicando herramientas de edición y módulos de inteligencia artificial que incorporen los propios dispositivos utilizados y que añadan funcionalidades a la solución.",
+      "broader": "ce:SUECC5",
+      "bloque": "bc:SUEC02BC5",
+      "descriptores": [
+        "STEM1",
+        "STEM3",
+        "CD2",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC02CE5.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC02CE5.3",
+      "prefLabel": "SUEC02CE5.3 · Automatizar procesos, máquinas y objetos, con conexión a internet, mediante el análisis,…",
+      "definition": "Automatizar procesos, máquinas y objetos, con conexión a internet, mediante el análisis, construcción y programación de robots y sistemas de control, valorando la evolución de las tecnologías digitales y su aplicación en la sociedad.",
+      "broader": "ce:SUECC5",
+      "bloque": "bc:SUEC02BC5",
+      "descriptores": [
+        "STEM1",
+        "STEM3",
+        "CD2",
+        "CD5",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC02CE6.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC02CE6.1",
+      "prefLabel": "SUEC02CE6.1 · Usar de manera eficiente y segura los dispositivos digitales de uso cotidiano en la…",
+      "definition": "Usar de manera eficiente y segura los dispositivos digitales de uso cotidiano en la resolución de problemas sencillos, analizando los componentes y los sistemas de comunicación, conociendo los riesgos y adoptando medidas de seguridad para la protección de datos y equipos.",
+      "broader": "ce:SUECC6",
+      "bloque": "bc:SUEC02BC6",
+      "descriptores": [
+        "CD2",
+        "CD4",
+        "CD5",
+        "CPSAA2"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC02CE6.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC02CE6.2",
+      "prefLabel": "SUEC02CE6.2 · Crear contenidos, elaborar materiales y difundirlos en entornos controlados, configurando…",
+      "definition": "Crear contenidos, elaborar materiales y difundirlos en entornos controlados, configurando las herramientas digitales habituales del entorno de aprendizaje para validar y contrastar la información, favoreciendo el proceso de adquisición de los aprendizajes, ajustándolas a sus necesidades y respetando los derechos de autoría y la etiqueta digital.",
+      "broader": "ce:SUECC6",
+      "bloque": "bc:SUEC02BC6",
+      "descriptores": [
+        "CCL1",
+        "CD2",
+        "CD4",
+        "CD5",
+        "CPSAA4",
+        "CPSAA5",
+        "CC2",
+        "CE1"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC02CE6.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC02CE6.3",
+      "prefLabel": "SUEC02CE6.3 · Organizar la información aplicando técnicas de almacenamiento seguro.",
+      "definition": "Organizar la información aplicando técnicas de almacenamiento seguro.",
+      "broader": "ce:SUECC6",
+      "bloque": "bc:SUEC02BC6",
+      "descriptores": [
+        "CD1",
+        "CD2",
+        "CD4"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC02CE7.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC02CE7.1",
+      "prefLabel": "SUEC02CE7.1 · Reconocer la influencia en la sociedad de los distintos sistemas de producción de…",
+      "definition": "Reconocer la influencia en la sociedad de los distintos sistemas de producción de electricidad y de la actividad tecnológica en general a lo largo de su historia, identificando sus aportaciones y repercusiones y valorando su importancia para el desarrollo sostenible.",
+      "broader": "ce:SUECC7",
+      "bloque": "bc:SUEC02BC7",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CC2",
+        "CC4"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC02CE7.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC02CE7.2",
+      "prefLabel": "SUEC02CE7.2 · Identificar las aportaciones de las tecnologías emergentes al bienestar emocional y…",
+      "definition": "Identificar las aportaciones de las tecnologías emergentes al bienestar emocional y digital, a la igualdad social y a la disminución del impacto ambiental, haciendo un uso responsable y ético de las mismas.",
+      "broader": "ce:SUECC7",
+      "bloque": "bc:SUEC02BC7",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CC2",
+        "CC4"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC03CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC03CE1.1",
+      "prefLabel": "SUEC03CE1.1 · Definir problemas o necesidades planteadas, reales o ficticias, buscando y contrastando…",
+      "definition": "Definir problemas o necesidades planteadas, reales o ficticias, buscando y contrastando información procedente de fuentes variadas de manera crítica y segura, evaluando su fiabilidad y pertinencia para presentar soluciones creativas, innovadoras y sostenibles.",
+      "broader": "ce:SUECC1",
+      "bloque": "bc:SUEC03BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM2",
+        "CD1",
+        "CD4",
+        "CPSAA4",
+        "CE1"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC03CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC03CE1.2",
+      "prefLabel": "SUEC03CE1.2 · Comprender y examinar productos tecnológicos a través del análisis de objetos y sistemas,…",
+      "definition": "Comprender y examinar productos tecnológicos a través del análisis de objetos y sistemas, empleando el método científico y utilizando herramientas de simulación en la construcción de conocimiento para analizar y valorar su impacto en el entorno.",
+      "broader": "ce:SUECC1",
+      "bloque": "bc:SUEC03BC1",
+      "descriptores": [
+        "STEM2",
+        "CD2",
+        "CE1"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC03CE1.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC03CE1.3",
+      "prefLabel": "SUEC03CE1.3 · Adoptar medidas preventivas para la protección de los dispositivos, los datos y la salud…",
+      "definition": "Adoptar medidas preventivas para la protección de los dispositivos, los datos y la salud personal, identificando problemas y riesgos relacionados con el uso de la tecnología y analizándolos de manera ética y crítica.",
+      "broader": "ce:SUECC1",
+      "bloque": "bc:SUEC03BC1",
+      "descriptores": [
+        "CCL3",
+        "STEM2",
+        "STEM5",
+        "CD1",
+        "CD4",
+        "CPSAA4",
+        "CE1"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC03CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC03CE2.1",
+      "prefLabel": "SUEC03CE2.1 · Idear, diseñar y comunicar con coherencia y corrección, soluciones originales a problemas…",
+      "definition": "Idear, diseñar y comunicar con coherencia y corrección, soluciones originales a problemas definidos, aplicando conceptos, técnicas y procedimientos interdisciplinares con actitud emprendedora, perseverante y creativa.",
+      "broader": "ce:SUECC2",
+      "bloque": "bc:SUEC03BC2",
+      "descriptores": [
+        "CCL1",
+        "STEM1",
+        "STEM3",
+        "CD2",
+        "CPSAA5",
+        "CE1",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC03CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC03CE2.2",
+      "prefLabel": "SUEC03CE2.2 · Seleccionar, planificar y organizar los materiales y herramientas, así como las tareas…",
+      "definition": "Seleccionar, planificar y organizar los materiales y herramientas, así como las tareas necesarias con sentido crítico, empleando técnicas variadas y creativas para la construcción de una solución a un problema planteado, trabajando individualmente o en grupo de manera cooperativa y colaborativa compartiendo la información necesaria.",
+      "broader": "ce:SUECC2",
+      "bloque": "bc:SUEC03BC2",
+      "descriptores": [
+        "STEM1",
+        "STEM3",
+        "STEM4",
+        "CD3",
+        "CPSAA3",
+        "CE1",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC03CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC03CE3.1",
+      "prefLabel": "SUEC03CE3.1 · Fabricar objetos o modelos de invención individual o grupal mediante la manipulación y…",
+      "definition": "Fabricar objetos o modelos de invención individual o grupal mediante la manipulación y conformación de materiales siguiendo el plan de trabajo, conociendo las propiedades de los materiales que justifican su incorporación al prototipo, así como sus implicaciones económicas, empleando herramientas y máquinas adecuadas, aplicando los fundamentos de estructuras, mecanismos, electricidad y electrónica y respetando las normas de seguridad y salud con actitud perseverante para obtener las soluciones óptimas a los objetivos planteados.",
+      "broader": "ce:SUECC3",
+      "bloque": "bc:SUEC03BC3",
+      "descriptores": [
+        "CCL5",
+        "STEM2",
+        "STEM3",
+        "STEM5",
+        "CD2",
+        "CD5",
+        "CPSAA3",
+        "CC1",
+        "CE2",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC03CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC03CE4.1",
+      "prefLabel": "SUEC03CE4.1 · Representar y comunicar, de manera colaborativa, tanto presencialmente como en remoto, y…",
+      "definition": "Representar y comunicar, de manera colaborativa, tanto presencialmente como en remoto, y haciendo uso de medios, soportes y herramientas digitales variadas, el proceso de creación de un producto desde su diseño hasta su difusión, elaborando la documentación técnica y gráfica empleando los formatos y el vocabulario técnico adecuados, con la finalidad de producir una comunicación eficaz con todos los agentes involucrados.",
+      "broader": "ce:SUECC4",
+      "bloque": "bc:SUEC03BC4",
+      "descriptores": [
+        "CCL1",
+        "STEM4",
+        "CD2",
+        "CD3",
+        "CPSAA3",
+        "CPSAA4",
+        "CC1",
+        "CE3",
+        "CCEC4"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC03CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC03CE5.1",
+      "prefLabel": "SUEC03CE5.1 · Describir, interpretar y diseñar soluciones a problemas informáticos a través de…",
+      "definition": "Describir, interpretar y diseñar soluciones a problemas informáticos a través de algoritmos y diagramas de flujo, aplicando los elementos y técnicas de programación de manera creativa, utilizando procesos de corrección de errores que permitan favorecer la construcción del conocimiento de manera más eficiente.",
+      "broader": "ce:SUECC5",
+      "bloque": "bc:SUEC03BC5",
+      "descriptores": [
+        "STEM1",
+        "STEM3",
+        "CD2",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC03CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC03CE5.2",
+      "prefLabel": "SUEC03CE5.2 · Programar aplicaciones sencillas para distintos dispositivos como ordenadores y…",
+      "definition": "Programar aplicaciones sencillas para distintos dispositivos como ordenadores y dispositivos móviles, empleando los elementos de programación de manera apropiada y aplicando herramientas de edición y módulos de inteligencia artificial que incorporen los propios dispositivos utilizados y que añadan funcionalidades a la solución.",
+      "broader": "ce:SUECC5",
+      "bloque": "bc:SUEC03BC5",
+      "descriptores": [
+        "STEM1",
+        "STEM3",
+        "CD2",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC03CE5.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC03CE5.3",
+      "prefLabel": "SUEC03CE5.3 · Automatizar procesos, máquinas y objetos, con conexión a internet, mediante el análisis,…",
+      "definition": "Automatizar procesos, máquinas y objetos, con conexión a internet, mediante el análisis, construcción y programación de robots y sistemas de control, valorando la evolución de las tecnologías digitales y su aplicación en la sociedad.",
+      "broader": "ce:SUECC5",
+      "bloque": "bc:SUEC03BC5",
+      "descriptores": [
+        "STEM1",
+        "STEM3",
+        "CD2",
+        "CD5",
+        "CE3"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC03CE6.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC03CE6.1",
+      "prefLabel": "SUEC03CE6.1 · Usar de manera eficiente y segura los dispositivos digitales de uso cotidiano en la…",
+      "definition": "Usar de manera eficiente y segura los dispositivos digitales de uso cotidiano en la resolución de problemas, analizando los componentes y los sistemas de comunicación, conociendo los riesgos y adoptando medidas de seguridad para la protección de datos y equipos.",
+      "broader": "ce:SUECC6",
+      "bloque": "bc:SUEC03BC6",
+      "descriptores": [
+        "CD2",
+        "CD4",
+        "CD5",
+        "CPSAA2"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC03CE6.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC03CE6.2",
+      "prefLabel": "SUEC03CE6.2 · Crear contenidos, elaborar materiales y difundirlos en distintas plataformas,…",
+      "definition": "Crear contenidos, elaborar materiales y difundirlos en distintas plataformas, configurando correctamente las herramientas digitales habituales del entorno de aprendizaje para validar y contrastar la información, favoreciendo el proceso de adquisición de los aprendizajes, ajustándolas a sus necesidades y respetando los derechos de autoría y la etiqueta digital.",
+      "broader": "ce:SUECC6",
+      "bloque": "bc:SUEC03BC6",
+      "descriptores": [
+        "CCL1",
+        "CD2",
+        "CD4",
+        "CD5",
+        "CPSAA4",
+        "CPSAA5",
+        "CC2",
+        "CE1"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC03CE6.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC03CE6.3",
+      "prefLabel": "SUEC03CE6.3 · Organizar la información aplicando técnicas de almacenamiento seguro.",
+      "definition": "Organizar la información aplicando técnicas de almacenamiento seguro.",
+      "broader": "ce:SUECC6",
+      "bloque": "bc:SUEC03BC6",
+      "descriptores": [
+        "CD1",
+        "CD2",
+        "CD4"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC03CE7.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC03CE7.1",
+      "prefLabel": "SUEC03CE7.1 · Identificar y describir los sistemas de producción energética y reconocer la influencia…",
+      "definition": "Identificar y describir los sistemas de producción energética y reconocer la influencia de la actividad tecnológica en la sociedad a lo largo de su historia, identificando sus aportaciones y repercusiones y valorando su importancia para el desarrollo sostenible.",
+      "broader": "ce:SUECC7",
+      "bloque": "bc:SUEC03BC7",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CC2",
+        "CC4"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SUEC03CE7.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SUEC03CE7.2",
+      "prefLabel": "SUEC03CE7.2 · Identificar las aportaciones de las tecnologías emergentes al bienestar emocional y…",
+      "definition": "Identificar las aportaciones de las tecnologías emergentes al bienestar emocional y digital, a la igualdad social y a la disminución del impacto ambiental, haciendo un uso responsable y ético de las mismas.",
+      "broader": "ce:SUECC7",
+      "bloque": "bc:SUEC03BC7",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CC2",
+        "CC4"
+      ],
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "SUEC01SBI",
+      "prefLabel": "SUEC01SBI · I. Proceso de resolución de problemas",
+      "definition": "Proceso de resolución de problemas",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "SUEC01SBII",
+      "prefLabel": "SUEC01SBII · II. Comunicación y difusión de ideas",
+      "definition": "Comunicación y difusión de ideas",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "SUEC01SBIII",
+      "prefLabel": "SUEC01SBIII · III. Pensamiento computacional, programación y robótica",
+      "definition": "Pensamiento computacional, programación y robótica",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "SUEC01SBIV",
+      "prefLabel": "SUEC01SBIV · IV. Digitalización del entorno personal de aprendizaje",
+      "definition": "Digitalización del entorno personal de aprendizaje",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBV",
+      "tipo": "BloqueSaberes",
+      "notation": "SUEC01SBV",
+      "prefLabel": "SUEC01SBV · V. Tecnología sostenible",
+      "definition": "Tecnología sostenible",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "SUEC02SBI",
+      "prefLabel": "SUEC02SBI · I. Proceso de resolución de problemas",
+      "definition": "Proceso de resolución de problemas",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "SUEC02SBII",
+      "prefLabel": "SUEC02SBII · II. Comunicación y difusión de ideas",
+      "definition": "Comunicación y difusión de ideas",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "SUEC02SBIII",
+      "prefLabel": "SUEC02SBIII · III. Pensamiento computacional, programación y robótica",
+      "definition": "Pensamiento computacional, programación y robótica",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "SUEC02SBIV",
+      "prefLabel": "SUEC02SBIV · IV. Digitalización del entorno personal de aprendizaje",
+      "definition": "Digitalización del entorno personal de aprendizaje",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBV",
+      "tipo": "BloqueSaberes",
+      "notation": "SUEC02SBV",
+      "prefLabel": "SUEC02SBV · V. Tecnología sostenible",
+      "definition": "Tecnología sostenible",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "SUEC03SBI",
+      "prefLabel": "SUEC03SBI · I. Proceso de resolución de problemas",
+      "definition": "Proceso de resolución de problemas",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "SUEC03SBII",
+      "prefLabel": "SUEC03SBII · II. Comunicación y difusión de ideas",
+      "definition": "Comunicación y difusión de ideas",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "SUEC03SBIII",
+      "prefLabel": "SUEC03SBIII · III. Pensamiento computacional, programación y robótica",
+      "definition": "Pensamiento computacional, programación y robótica",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "SUEC03SBIV",
+      "prefLabel": "SUEC03SBIV · IV. Digitalización del entorno personal de aprendizaje",
+      "definition": "Digitalización del entorno personal de aprendizaje",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBV",
+      "tipo": "BloqueSaberes",
+      "notation": "SUEC03SBV",
+      "prefLabel": "SUEC03SBV · V. Tecnología sostenible",
+      "definition": "Tecnología sostenible",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBI.1",
+      "prefLabel": "SUEC01SBI.1 · Desarrollo de estrategias y técnicas básicas para la identificación y resolución de…",
+      "definition": "Desarrollo de estrategias y técnicas básicas para la identificación y resolución de problemas en diferentes contextos cercanos al alumnado, haciendo explícitas las fases del método de proyectos.",
+      "broader": "sb:SUEC01SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBI.2",
+      "prefLabel": "SUEC01SBI.2 · Uso guiado de estrategias eficientes para la búsqueda crítica de información durante la…",
+      "definition": "Uso guiado de estrategias eficientes para la búsqueda crítica de información durante la fase de investigación del proyecto y de definición de problemas planteados.",
+      "broader": "sb:SUEC01SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBI.3",
+      "prefLabel": "SUEC01SBI.3 · Observación y análisis guiado de productos y de sistemas tecnológicos sencillos para la…",
+      "definition": "Observación y análisis guiado de productos y de sistemas tecnológicos sencillos para la construcción de conocimiento desde enfoques y ámbitos específicos.",
+      "broader": "sb:SUEC01SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBI.4",
+      "prefLabel": "SUEC01SBI.4 · Construcción de modelos y prototipos sencillos aplicando las técnicas básicas de diseño…",
+      "definition": "Construcción de modelos y prototipos sencillos aplicando las técnicas básicas de diseño de los distintos tipos de estructuras. Estabilidad de estructuras e identificación de esfuerzos en estructuras simples y triangulación para aumentar la rigidez de las mismas.",
+      "broader": "sb:SUEC01SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBI.5",
+      "prefLabel": "SUEC01SBI.5 · Montaje físico o simulado de sistemas y operadores mecánicos básicos.",
+      "definition": "Montaje físico o simulado de sistemas y operadores mecánicos básicos.",
+      "broader": "sb:SUEC01SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBI.6",
+      "prefLabel": "SUEC01SBI.6 · Interpretación, cálculo y diseño de esquemas y circuitos sencillos de electricidad.…",
+      "definition": "Interpretación, cálculo y diseño de esquemas y circuitos sencillos de electricidad. Montaje físico y aplicación en proyectos.",
+      "broader": "sb:SUEC01SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBI.7",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBI.7",
+      "prefLabel": "SUEC01SBI.7 · Análisis y estudio de las propiedades básicas y aplicaciones de la madera. Uso de la…",
+      "definition": "Análisis y estudio de las propiedades básicas y aplicaciones de la madera. Uso de la madera y materiales derivados en los proyectos sugeridos. Consideraciones previas de ahorro e impacto ambiental.",
+      "broader": "sb:SUEC01SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBI.8",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBI.8",
+      "prefLabel": "SUEC01SBI.8 · Utilización de herramientas y técnicas de manipulación y mecanizado de los materiales…",
+      "definition": "Utilización de herramientas y técnicas de manipulación y mecanizado de los materiales empleados en la construcción de objetos y prototipos.",
+      "broader": "sb:SUEC01SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBI.8.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBI.8.1",
+      "prefLabel": "SUEC01SBI.8.1 · Aplicación de las normas de seguridad e higiene durante todas las fases de desarrollo de…",
+      "definition": "Aplicación de las normas de seguridad e higiene durante todas las fases de desarrollo de los proyectos.",
+      "broader": "sb:SUEC01SBI.8",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBI.9",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBI.9",
+      "prefLabel": "SUEC01SBI.9 · Resolución de problemas desde una perspectiva interdisciplinar, propiciando el desarrollo…",
+      "definition": "Resolución de problemas desde una perspectiva interdisciplinar, propiciando el desarrollo de estrategias relacionadas con la perseverancia y la creatividad.",
+      "broader": "sb:SUEC01SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBII.1",
+      "prefLabel": "SUEC01SBII.1 · Uso de habilidades básicas de comunicación interpersonal mediante la utilización de…",
+      "definition": "Uso de habilidades básicas de comunicación interpersonal mediante la utilización de vocabulario técnico ajustado al nivel y la aplicación de las pautas de etiqueta digital propias del entorno virtual.",
+      "broader": "sb:SUEC01SBII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBII.2",
+      "prefLabel": "SUEC01SBII.2 · Aplicación práctica de las normas básicas de acotación en la representación gráfica de…",
+      "definition": "Aplicación práctica de las normas básicas de acotación en la representación gráfica de las soluciones ideadas y representadas mediante bocetos y croquis.",
+      "broader": "sb:SUEC01SBII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBII.3",
+      "prefLabel": "SUEC01SBII.3 · Utilización de aplicaciones sencillas de software para la representación de los esquemas,…",
+      "definition": "Utilización de aplicaciones sencillas de software para la representación de los esquemas, circuitos, planos y objetos requeridos en el diseño de soluciones tecnológicas asequibles.",
+      "broader": "sb:SUEC01SBII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBII.4",
+      "prefLabel": "SUEC01SBII.4 · Uso de herramientas digitales básicas para la elaboración, publicación y difusión de…",
+      "definition": "Uso de herramientas digitales básicas para la elaboración, publicación y difusión de documentación técnica y para la edición de información multimedia relativa a los proyectos.",
+      "broader": "sb:SUEC01SBII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBII.5",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBII.5",
+      "prefLabel": "SUEC01SBII.5 · Elaboración de documentación técnica básica asociada al proceso de ideación, desarrollo y…",
+      "definition": "Elaboración de documentación técnica básica asociada al proceso de ideación, desarrollo y construcción de proyectos.",
+      "broader": "sb:SUEC01SBII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBIII.1",
+      "prefLabel": "SUEC01SBIII.1 · Diseño, uso y aplicación de algoritmos y diagramas de flujo para la resolución de…",
+      "definition": "Diseño, uso y aplicación de algoritmos y diagramas de flujo para la resolución de problemas tecnológicos sencillos.",
+      "broader": "sb:SUEC01SBIII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBIII.2",
+      "prefLabel": "SUEC01SBIII.2 · Montaje y control programado de robots educativos. Introducción a la programación por…",
+      "definition": "Montaje y control programado de robots educativos. Introducción a la programación por bloques.",
+      "broader": "sb:SUEC01SBIII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBIII.3",
+      "prefLabel": "SUEC01SBIII.3 · Iniciación en la aplicación de estrategias de abordaje del error y la reevaluación como…",
+      "definition": "Iniciación en la aplicación de estrategias de abordaje del error y la reevaluación como parte del proceso de aprendizaje en la resolución de problemas y proyectos.",
+      "broader": "sb:SUEC01SBIII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBIV.1",
+      "prefLabel": "SUEC01SBIV.1 · Identificación de los elementos de hardware y software de los dispositivos digitales.…",
+      "definition": "Identificación de los elementos de hardware y software de los dispositivos digitales. Resolución de problemas técnicos sencillos relacionados con su conexión y uso.",
+      "broader": "sb:SUEC01SBIV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBIV.2",
+      "prefLabel": "SUEC01SBIV.2 · Utilización de sistemas de comunicación digital de uso común para la transmisión y…",
+      "definition": "Utilización de sistemas de comunicación digital de uso común para la transmisión y recepción de datos e información, empleando sistemas de mensajería y correo electrónico adecuados a la edad.",
+      "broader": "sb:SUEC01SBIV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBIV.2.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBIV.2.1",
+      "prefLabel": "SUEC01SBIV.2.1 · Identificación de tecnologías inalámbricas para la comunicación.",
+      "definition": "Identificación de tecnologías inalámbricas para la comunicación.",
+      "broader": "sb:SUEC01SBIV.2",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBIV.3",
+      "prefLabel": "SUEC01SBIV.3 · Uso crítico de las distintas herramientas y plataformas de aprendizaje utilizadas.",
+      "definition": "Uso crítico de las distintas herramientas y plataformas de aprendizaje utilizadas.",
+      "broader": "sb:SUEC01SBIV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBIV.4",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBIV.4",
+      "prefLabel": "SUEC01SBIV.4 · Uso responsable de las distintas herramientas de edición y creación de contenidos.…",
+      "definition": "Uso responsable de las distintas herramientas de edición y creación de contenidos. Respeto por la propiedad intelectual y los derechos de autoría.",
+      "broader": "sb:SUEC01SBIV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBIV.5",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBIV.5",
+      "prefLabel": "SUEC01SBIV.5 · Uso de técnicas adecuadas de tratamiento, organización y almacenamiento seguro de la…",
+      "definition": "Uso de técnicas adecuadas de tratamiento, organización y almacenamiento seguro de la información. Creación de copias de seguridad para salvaguardar información relevante.",
+      "broader": "sb:SUEC01SBIV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBIV.6",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBIV.6",
+      "prefLabel": "SUEC01SBIV.6 · Aplicación de medidas adecuadas de seguridad en la red para prevenir amenazas y ataques,…",
+      "definition": "Aplicación de medidas adecuadas de seguridad en la red para prevenir amenazas y ataques, posibilitando la protección de datos y de información. Gestión básica de contraseñas y sistemas de autentificación.",
+      "broader": "sb:SUEC01SBIV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBIV.6.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBIV.6.1",
+      "prefLabel": "SUEC01SBIV.6.1 · Identificación de prácticas de riesgo vinculadas al ciberacoso, la sextorsión, la pérdida…",
+      "definition": "Identificación de prácticas de riesgo vinculadas al ciberacoso, la sextorsión, la pérdida de la intimidad, el acceso a contenidos inadecuados, etc. Desarrollo de estrategias que permitan actuar en consecuencia y fomento de actitudes que favorezcan el bienestar emocional y digital.",
+      "broader": "sb:SUEC01SBIV.6",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBV.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBV.1",
+      "prefLabel": "SUEC01SBV.1 · Reconocimiento de la importancia de la investigación, innovación y creatividad en el…",
+      "definition": "Reconocimiento de la importancia de la investigación, innovación y creatividad en el desarrollo tecnológico.",
+      "broader": "sb:SUEC01SBV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBV.1.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBV.1.1",
+      "prefLabel": "SUEC01SBV.1.1 · Valoración del impacto social y ambiental generado por las tecnologías en el mundo en…",
+      "definition": "Valoración del impacto social y ambiental generado por las tecnologías en el mundo en general y en Canarias en particular.",
+      "broader": "sb:SUEC01SBV.1",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC01SBV.1.2",
+      "tipo": "SaberBasico",
+      "notation": "SUEC01SBV.1.2",
+      "prefLabel": "SUEC01SBV.1.2 · Aspectos éticos relacionados con el desarrollo y obsolescencia programada.",
+      "definition": "Aspectos éticos relacionados con el desarrollo y obsolescencia programada.",
+      "broader": "sb:SUEC01SBV.1",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBI.1",
+      "prefLabel": "SUEC02SBI.1 · Desarrollo de estrategias y técnicas para la identificación y resolución de problemas en…",
+      "definition": "Desarrollo de estrategias y técnicas para la identificación y resolución de problemas en diferentes contextos cercanos al alumnado, haciendo explícitas las fases del método de proyectos.",
+      "broader": "sb:SUEC02SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBI.2",
+      "prefLabel": "SUEC02SBI.2 · Uso de estrategias eficientes para la búsqueda crítica de información durante la fase de…",
+      "definition": "Uso de estrategias eficientes para la búsqueda crítica de información durante la fase de investigación del proyecto y de definición de problemas planteados.",
+      "broader": "sb:SUEC02SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBI.3",
+      "prefLabel": "SUEC02SBI.3 · Observación y análisis de productos y de sistemas tecnológicos para la construcción de…",
+      "definition": "Observación y análisis de productos y de sistemas tecnológicos para la construcción de conocimiento desde distintos enfoques y ámbitos.",
+      "broader": "sb:SUEC02SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBI.4",
+      "prefLabel": "SUEC02SBI.4 · Construcción de modelos y prototipos aplicando las técnicas básicas de diseño de…",
+      "definition": "Construcción de modelos y prototipos aplicando las técnicas básicas de diseño de estructuras.",
+      "broader": "sb:SUEC02SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBI.5",
+      "prefLabel": "SUEC02SBI.5 · Montaje físico y simulado de sistemas y operadores mecánicos básicos. Identificación de…",
+      "definition": "Montaje físico y simulado de sistemas y operadores mecánicos básicos. Identificación de los mismos en sistemas tradicionales utilizados en Canarias para la producción y extracción de recursos, como molinos de viento, molinos de agua, etc.",
+      "broader": "sb:SUEC02SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBI.6",
+      "prefLabel": "SUEC02SBI.6 · Interpretación, cálculo y diseño de esquemas y circuitos básicos de electricidad. Montaje…",
+      "definition": "Interpretación, cálculo y diseño de esquemas y circuitos básicos de electricidad. Montaje físico o simulado y aplicación en proyectos. Identificación y descripción básica de sistemas de producción de electricidad, con especial referencia a Canarias.",
+      "broader": "sb:SUEC02SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBI.7",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBI.7",
+      "prefLabel": "SUEC02SBI.7 · Uso de metales y plásticos, previo análisis de sus propiedades y aplicaciones, además de…",
+      "definition": "Uso de metales y plásticos, previo análisis de sus propiedades y aplicaciones, además de madera y sus derivados en los proyectos propuestos. Consideraciones previas de impacto ambiental y ahorro de materiales.",
+      "broader": "sb:SUEC02SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBI.8",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBI.8",
+      "prefLabel": "SUEC02SBI.8 · Utilización de herramientas y técnicas de manipulación y mecanizado de materiales en la…",
+      "definition": "Utilización de herramientas y técnicas de manipulación y mecanizado de materiales en la construcción de objetos y prototipos. Introducción a la fabricación digital mediante el empleo de la impresión 3D.",
+      "broader": "sb:SUEC02SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBI.8.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBI.8.1",
+      "prefLabel": "SUEC02SBI.8.1 · Aplicación de las normas de seguridad e higiene durante todas las fases de desarrollo de…",
+      "definition": "Aplicación de las normas de seguridad e higiene durante todas las fases de desarrollo de los proyectos.",
+      "broader": "sb:SUEC02SBI.8",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBI.9",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBI.9",
+      "prefLabel": "SUEC02SBI.9 · Resolución de problemas desde una perspectiva interdisciplinar, propiciando el desarrollo…",
+      "definition": "Resolución de problemas desde una perspectiva interdisciplinar, propiciando el desarrollo de estrategias relacionadas con el emprendimiento, la resiliencia, la perseverancia y la creatividad.",
+      "broader": "sb:SUEC02SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBII.1",
+      "prefLabel": "SUEC02SBII.1 · Uso de habilidades básicas de comunicación interpersonal mediante la utilización de…",
+      "definition": "Uso de habilidades básicas de comunicación interpersonal mediante la utilización de vocabulario técnico apropiado y la aplicación de las pautas de etiqueta digital propias del entorno virtual.",
+      "broader": "sb:SUEC02SBII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBII.2",
+      "prefLabel": "SUEC02SBII.2 · Aplicación práctica de las normas básicas de acotación y escalas en la representación…",
+      "definition": "Aplicación práctica de las normas básicas de acotación y escalas en la representación gráfica mediante la proyección de las vistas de las soluciones ideadas. Representación de soluciones mediante perspectiva caballera.",
+      "broader": "sb:SUEC02SBII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBII.3",
+      "prefLabel": "SUEC02SBII.3 · Utilización de aplicaciones sencillas de software CAD en dos y tres dimensiones para la…",
+      "definition": "Utilización de aplicaciones sencillas de software CAD en dos y tres dimensiones para la representación de los esquemas, circuitos, planos y objetos requeridos en el diseño de soluciones tecnológicas.",
+      "broader": "sb:SUEC02SBII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBII.4",
+      "prefLabel": "SUEC02SBII.4 · Uso de herramientas digitales para la elaboración, publicación y difusión de…",
+      "definition": "Uso de herramientas digitales para la elaboración, publicación y difusión de documentación técnica y para la edición de información multimedia relativa a los proyectos.",
+      "broader": "sb:SUEC02SBII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBII.5",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBII.5",
+      "prefLabel": "SUEC02SBII.5 · Elaboración de documentación técnica asociada al proceso de ideación, desarrollo y…",
+      "definition": "Elaboración de documentación técnica asociada al proceso de ideación, desarrollo y construcción de proyectos.",
+      "broader": "sb:SUEC02SBII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBIII.1",
+      "prefLabel": "SUEC02SBIII.1 · Diseño y aplicación de algoritmos y diagramas de flujo para la resolución de problemas…",
+      "definition": "Diseño y aplicación de algoritmos y diagramas de flujo para la resolución de problemas tecnológicos cercanos al alumnado.",
+      "broader": "sb:SUEC02SBIII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBIII.2",
+      "prefLabel": "SUEC02SBIII.2 · Uso de aplicaciones informáticas sencillas, para ordenador y dispositivos móviles, que…",
+      "definition": "Uso de aplicaciones informáticas sencillas, para ordenador y dispositivos móviles, que permitan la implementación de soluciones programadas a los problemas planteados. Introducción a la inteligencia artificial.",
+      "broader": "sb:SUEC02SBIII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBIII.3",
+      "prefLabel": "SUEC02SBIII.3 · Programación y simulación de dispositivos sencillos conectados a internet de uso cercano…",
+      "definition": "Programación y simulación de dispositivos sencillos conectados a internet de uso cercano al alumnado.",
+      "broader": "sb:SUEC02SBIII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBIII.4",
+      "prefLabel": "SUEC02SBIII.4 · Montaje y control programado de robots de manera física o por medio de simuladores.",
+      "definition": "Montaje y control programado de robots de manera física o por medio de simuladores.",
+      "broader": "sb:SUEC02SBIII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBIII.5",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBIII.5",
+      "prefLabel": "SUEC02SBIII.5 · Incorporación de estrategias de abordaje del error, la reevaluación y la depuración de…",
+      "definition": "Incorporación de estrategias de abordaje del error, la reevaluación y la depuración de errores como parte del proceso de aprendizaje en la resolución de problemas y proyectos.",
+      "broader": "sb:SUEC02SBIII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBIV.1",
+      "prefLabel": "SUEC02SBIV.1 · Identificación de los elementos de hardware y software de los dispositivos digitales.…",
+      "definition": "Identificación de los elementos de hardware y software de los dispositivos digitales. Desarrollo de estrategias para identificar y resolver problemas técnicos sencillos.",
+      "broader": "sb:SUEC02SBIV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBIV.2",
+      "prefLabel": "SUEC02SBIV.2 · Utilización de sistemas de comunicación digital de uso común para la transmisión y…",
+      "definition": "Utilización de sistemas de comunicación digital de uso común para la transmisión y recepción de datos e información, empleando sistemas de mensajería y correo electrónico adecuados a la edad.",
+      "broader": "sb:SUEC02SBIV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBIV.2.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBIV.2.1",
+      "prefLabel": "SUEC02SBIV.2.1 · Identificación de tecnologías inalámbricas para la comunicación. Análisis y desarrollo de…",
+      "definition": "Identificación de tecnologías inalámbricas para la comunicación. Análisis y desarrollo de aplicaciones prácticas sencillas.",
+      "broader": "sb:SUEC02SBIV.2",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBIV.3",
+      "prefLabel": "SUEC02SBIV.3 · Configuración, mantenimiento y uso crítico de las distintas herramientas y plataformas de…",
+      "definition": "Configuración, mantenimiento y uso crítico de las distintas herramientas y plataformas de aprendizaje utilizadas.",
+      "broader": "sb:SUEC02SBIV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBIV.4",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBIV.4",
+      "prefLabel": "SUEC02SBIV.4 · Instalación, configuración y uso responsable de las distintas herramientas de edición y…",
+      "definition": "Instalación, configuración y uso responsable de las distintas herramientas de edición y creación de contenidos. Respeto por la propiedad intelectual y los derechos de autoría.",
+      "broader": "sb:SUEC02SBIV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBIV.5",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBIV.5",
+      "prefLabel": "SUEC02SBIV.5 · Uso de técnicas adecuadas de tratamiento, organización y almacenamiento seguro de la…",
+      "definition": "Uso de técnicas adecuadas de tratamiento, organización y almacenamiento seguro de la información. Creación de copias de seguridad para salvaguardar información relevante.",
+      "broader": "sb:SUEC02SBIV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBIV.6",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBIV.6",
+      "prefLabel": "SUEC02SBIV.6 · Aplicación de medidas adecuadas de seguridad en la red para prevenir amenazas y ataques,…",
+      "definition": "Aplicación de medidas adecuadas de seguridad en la red para prevenir amenazas y ataques, posibilitando la protección de datos y de información. Gestión de contraseñas y sistemas de autentificación.",
+      "broader": "sb:SUEC02SBIV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBIV.6.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBIV.6.1",
+      "prefLabel": "SUEC02SBIV.6.1 · Identificación de prácticas de riesgo vinculadas al ciberacoso, la sextorsión, la pérdida…",
+      "definition": "Identificación de prácticas de riesgo vinculadas al ciberacoso, la sextorsión, la pérdida de la intimidad, el acceso a contenidos inadecuados, etc. Desarrollo de estrategias que permitan actuar en consecuencia y fomento de actitudes que favorezcan el bienestar emocional y digital.",
+      "broader": "sb:SUEC02SBIV.6",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBV.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBV.1",
+      "prefLabel": "SUEC02SBV.1 · Reconocimiento de la importancia de la investigación, innovación y creatividad en el…",
+      "definition": "Reconocimiento de la importancia de la investigación, innovación y creatividad en el desarrollo tecnológico.",
+      "broader": "sb:SUEC02SBV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBV.1.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBV.1.1",
+      "prefLabel": "SUEC02SBV.1.1 · Valoración del impacto social y ambiental generado por las tecnologías en el mundo en…",
+      "definition": "Valoración del impacto social y ambiental generado por las tecnologías en el mundo en general y en Canarias en particular.",
+      "broader": "sb:SUEC02SBV.1",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBV.1.2",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBV.1.2",
+      "prefLabel": "SUEC02SBV.1.2 · Análisis y aplicación de las tecnologías emergentes. Aspectos éticos relacionados con el…",
+      "definition": "Análisis y aplicación de las tecnologías emergentes. Aspectos éticos relacionados con el desarrollo y obsolescencia programada.",
+      "broader": "sb:SUEC02SBV.1",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBV.1.3",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBV.1.3",
+      "prefLabel": "SUEC02SBV.1.3 · Identificación de sistemas tradicionales no eléctricos de aprovechamiento de energía en…",
+      "definition": "Identificación de sistemas tradicionales no eléctricos de aprovechamiento de energía en Canarias para la producción de bienes como molinos, molinas, etc.",
+      "broader": "sb:SUEC02SBV.1",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC02SBV.2",
+      "tipo": "SaberBasico",
+      "notation": "SUEC02SBV.2",
+      "prefLabel": "SUEC02SBV.2 · Valoración crítica de la contribución de la tecnología a la consecución de los Objetivos…",
+      "definition": "Valoración crítica de la contribución de la tecnología a la consecución de los Objetivos de Desarrollo Sostenible, en el mundo en general y en Canarias en particular.",
+      "broader": "sb:SUEC02SBV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBI.1",
+      "prefLabel": "SUEC03SBI.1 · Desarrollo de estrategias y técnicas para la identificación y resolución de problemas en…",
+      "definition": "Desarrollo de estrategias y técnicas para la identificación y resolución de problemas en diferentes contextos, haciendo explícitas las fases del método de proyectos.",
+      "broader": "sb:SUEC03SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBI.2",
+      "prefLabel": "SUEC03SBI.2 · Uso de estrategias eficientes para la búsqueda crítica de información durante la fase de…",
+      "definition": "Uso de estrategias eficientes para la búsqueda crítica de información durante la fase de investigación del proyecto y de definición de problemas planteados.",
+      "broader": "sb:SUEC03SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBI.3",
+      "prefLabel": "SUEC03SBI.3 · Observación y análisis de productos de diferente complejidad para la construcción de…",
+      "definition": "Observación y análisis de productos de diferente complejidad para la construcción de conocimiento desde distintos enfoques y ámbitos.",
+      "broader": "sb:SUEC03SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBI.4",
+      "prefLabel": "SUEC03SBI.4 · Construcción de modelos y prototipos aplicando las técnicas de diseño de estructuras, así…",
+      "definition": "Construcción de modelos y prototipos aplicando las técnicas de diseño de estructuras, así como las técnicas apropiadas de conformación, mecanizado y unión en función del material o materiales utilizados y su finalidad.",
+      "broader": "sb:SUEC03SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBI.5",
+      "prefLabel": "SUEC03SBI.5 · Montaje físico y simulado de sistemas y operadores mecánicos combinados. Cálculo de…",
+      "definition": "Montaje físico y simulado de sistemas y operadores mecánicos combinados. Cálculo de magnitudes asociadas a la transmisión y transformación de movimientos.",
+      "broader": "sb:SUEC03SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBI.6",
+      "prefLabel": "SUEC03SBI.6 · Interpretación, cálculo y diseño de esquemas y circuitos de electricidad y electrónica.…",
+      "definition": "Interpretación, cálculo y diseño de esquemas y circuitos de electricidad y electrónica. Montajes físicos o simulados y aplicación en proyectos. Identificación y descripción de sistemas de producción energética mundial y en Canarias con especial referencia a las condiciones de insularidad.",
+      "broader": "sb:SUEC03SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBI.7",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBI.7",
+      "prefLabel": "SUEC03SBI.7 · Uso de materiales tecnológicos variados en los proyectos propuestos. Consideraciones…",
+      "definition": "Uso de materiales tecnológicos variados en los proyectos propuestos. Consideraciones previas de impacto ambiental y de ahorro de material.",
+      "broader": "sb:SUEC03SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBI.8",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBI.8",
+      "prefLabel": "SUEC03SBI.8 · Utilización de herramientas y técnicas de manipulación y mecanizado de materiales en la…",
+      "definition": "Utilización de herramientas y técnicas de manipulación y mecanizado de materiales en la construcción de objetos y prototipos. Aplicación de procesos de fabricación digital de piezas para los proyectos.",
+      "broader": "sb:SUEC03SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBI.8.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBI.8.1",
+      "prefLabel": "SUEC03SBI.8.1 · Aplicación de las normas de seguridad e higiene durante todas las fases de desarrollo de…",
+      "definition": "Aplicación de las normas de seguridad e higiene durante todas las fases de desarrollo de los proyectos.",
+      "broader": "sb:SUEC03SBI.8",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBI.9",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBI.9",
+      "prefLabel": "SUEC03SBI.9 · Resolución de problemas desde una perspectiva interdisciplinar, propiciando el desarrollo…",
+      "definition": "Resolución de problemas desde una perspectiva interdisciplinar, propiciando el desarrollo de estrategias relacionadas con el emprendimiento, la resiliencia, la perseverancia y la creatividad",
+      "broader": "sb:SUEC03SBI",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBII.1",
+      "prefLabel": "SUEC03SBII.1 · Uso de habilidades de comunicación interpersonal mediante la utilización de vocabulario…",
+      "definition": "Uso de habilidades de comunicación interpersonal mediante la utilización de vocabulario técnico apropiado y la aplicación de las pautas de etiqueta digital propias del entorno virtual.",
+      "broader": "sb:SUEC03SBII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBII.2",
+      "prefLabel": "SUEC03SBII.2 · Aplicación práctica de las normas de acotación y escalas en la representación gráfica de…",
+      "definition": "Aplicación práctica de las normas de acotación y escalas en la representación gráfica de las soluciones ideadas.",
+      "broader": "sb:SUEC03SBII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBII.3",
+      "prefLabel": "SUEC03SBII.3 · Utilización de aplicaciones de software CAD en dos y tres dimensiones para la…",
+      "definition": "Utilización de aplicaciones de software CAD en dos y tres dimensiones para la representación de los esquemas, circuitos, planos y objetos requeridos en el diseño de soluciones tecnológicas.",
+      "broader": "sb:SUEC03SBII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBII.4",
+      "prefLabel": "SUEC03SBII.4 · Representación de objetos mediante la utilización de perspectivas isométricas y…",
+      "definition": "Representación de objetos mediante la utilización de perspectivas isométricas y caballeras combinadas con el sistema diédrico.",
+      "broader": "sb:SUEC03SBII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBII.5",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBII.5",
+      "prefLabel": "SUEC03SBII.5 · Uso de herramientas digitales para la elaboración, publicación y difusión de…",
+      "definition": "Uso de herramientas digitales para la elaboración, publicación y difusión de documentación técnica y para la edición de información multimedia relativa a los proyectos.",
+      "broader": "sb:SUEC03SBII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBII.6",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBII.6",
+      "prefLabel": "SUEC03SBII.6 · Elaboración de documentación técnica combinando distintos tipos de esquemas y sistemas de…",
+      "definition": "Elaboración de documentación técnica combinando distintos tipos de esquemas y sistemas de representación asociados al proceso de ideación, desarrollo y construcción de proyectos.",
+      "broader": "sb:SUEC03SBII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBIII.1",
+      "prefLabel": "SUEC03SBIII.1 · Diseño y aplicación de algoritmos y diagramas de flujo para la resolución de problemas…",
+      "definition": "Diseño y aplicación de algoritmos y diagramas de flujo para la resolución de problemas tecnológicos.",
+      "broader": "sb:SUEC03SBIII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBIII.2",
+      "prefLabel": "SUEC03SBIII.2 · Uso de aplicaciones informáticas sencillas, para ordenador y dispositivos móviles, que…",
+      "definition": "Uso de aplicaciones informáticas sencillas, para ordenador y dispositivos móviles, que permitan la implementación de soluciones programadas a los problemas planteados. Desarrollo de soluciones sencillas mediante el uso de inteligencia artificial.",
+      "broader": "sb:SUEC03SBIII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBIII.3",
+      "prefLabel": "SUEC03SBIII.3 · Programación, montaje y simulación de dispositivos sencillos conectados a Internet.",
+      "definition": "Programación, montaje y simulación de dispositivos sencillos conectados a Internet.",
+      "broader": "sb:SUEC03SBIII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBIII.4",
+      "prefLabel": "SUEC03SBIII.4 · Montaje y control programado de robots y placas electrónicas simples de manera física o…",
+      "definition": "Montaje y control programado de robots y placas electrónicas simples de manera física o por medio de simuladores.",
+      "broader": "sb:SUEC03SBIII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBIII.5",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBIII.5",
+      "prefLabel": "SUEC03SBIII.5 · Incorporación de estrategias de abordaje del error, la reevaluación y la depuración de…",
+      "definition": "Incorporación de estrategias de abordaje del error, la reevaluación y la depuración de errores como parte del proceso de aprendizaje en la resolución de problemas y proyectos, mostrando autoconfianza e iniciativa.",
+      "broader": "sb:SUEC03SBIII",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBIV.1",
+      "prefLabel": "SUEC03SBIV.1 · Identificación de los elementos de hardware y software de los dispositivos digitales.…",
+      "definition": "Identificación de los elementos de hardware y software de los dispositivos digitales. Desarrollo de estrategias para identificar y resolver problemas técnicos sencillos.",
+      "broader": "sb:SUEC03SBIV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBIV.2",
+      "prefLabel": "SUEC03SBIV.2 · Utilización de sistemas de comunicación digital de uso común para la transmisión y…",
+      "definition": "Utilización de sistemas de comunicación digital de uso común para la transmisión y recepción de datos e información, empleando sistemas de mensajería y correo electrónico adecuados a la edad.",
+      "broader": "sb:SUEC03SBIV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBIV.2.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBIV.2.1",
+      "prefLabel": "SUEC03SBIV.2.1 · Identificación de tecnologías inalámbricas para la comunicación. Análisis y desarrollo de…",
+      "definition": "Identificación de tecnologías inalámbricas para la comunicación. Análisis y desarrollo de aplicaciones prácticas.",
+      "broader": "sb:SUEC03SBIV.2",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBIV.3",
+      "prefLabel": "SUEC03SBIV.3 · Configuración, mantenimiento y uso crítico de las distintas herramientas y plataformas de…",
+      "definition": "Configuración, mantenimiento y uso crítico de las distintas herramientas y plataformas de aprendizaje utilizadas.",
+      "broader": "sb:SUEC03SBIV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBIV.4",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBIV.4",
+      "prefLabel": "SUEC03SBIV.4 · Instalación, configuración y uso responsable de las distintas herramientas de edición y…",
+      "definition": "Instalación, configuración y uso responsable de las distintas herramientas de edición y creación de contenidos. Identificación de derechos de autoría y respeto por la propiedad intelectual.",
+      "broader": "sb:SUEC03SBIV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBIV.5",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBIV.5",
+      "prefLabel": "SUEC03SBIV.5 · Uso de técnicas adecuadas de tratamiento, organización y almacenamiento seguro de la…",
+      "definition": "Uso de técnicas adecuadas de tratamiento, organización y almacenamiento seguro de la información. Creación de copias de seguridad para salvaguardar información relevante.",
+      "broader": "sb:SUEC03SBIV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBIV.6",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBIV.6",
+      "prefLabel": "SUEC03SBIV.6 · Aplicación de medidas adecuadas de seguridad en la red para prevenir amenazas y ataques,…",
+      "definition": "Aplicación de medidas adecuadas de seguridad en la red para prevenir amenazas y ataques, posibilitando la protección de datos y de información mediante cifrado y establecimiento de contraseñas.",
+      "broader": "sb:SUEC03SBIV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBIV.6.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBIV.6.1",
+      "prefLabel": "SUEC03SBIV.6.1 · Identificación de prácticas de riesgo vinculadas al ciberacoso, la sextorsión, la pérdida…",
+      "definition": "Identificación de prácticas de riesgo vinculadas al ciberacoso, la sextorsión, la pérdida de la intimidad, el acceso a contenidos inadecuados, etc. Desarrollo de estrategias que permitan actuar en consecuencia y fomento de actitudes que favorezcan el bienestar emocional y digital.",
+      "broader": "sb:SUEC03SBIV.6",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBV.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBV.1",
+      "prefLabel": "SUEC03SBV.1 · Reconocimiento de la importancia de la investigación, innovación y creatividad en el…",
+      "definition": "Reconocimiento de la importancia de la investigación, innovación y creatividad en el desarrollo tecnológico.",
+      "broader": "sb:SUEC03SBV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBV.1.1",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBV.1.1",
+      "prefLabel": "SUEC03SBV.1.1 · Valoración del impacto social y ambiental generado por las tecnologías en el mundo en…",
+      "definition": "Valoración del impacto social y ambiental generado por las tecnologías en el mundo en general y en Canarias en particular, destacando aspectos relacionados con su desarrollo agrícola e industrial.",
+      "broader": "sb:SUEC03SBV.1",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBV.1.2",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBV.1.2",
+      "prefLabel": "SUEC03SBV.1.2 · Análisis y aplicación de las tecnologías emergentes. Aspectos éticos relacionados con el…",
+      "definition": "Análisis y aplicación de las tecnologías emergentes. Aspectos éticos relacionados con el desarrollo y la obsolescencia programada.",
+      "broader": "sb:SUEC03SBV.1",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SUEC03SBV.2",
+      "tipo": "SaberBasico",
+      "notation": "SUEC03SBV.2",
+      "prefLabel": "SUEC03SBV.2 · Valoración crítica de la contribución de la Tecnología a la consecución de los Objetivos…",
+      "definition": "Valoración crítica de la contribución de la Tecnología a la consecución de los Objetivos de Desarrollo Sostenible, en el mundo en general y en Canarias en particular.",
+      "broader": "sb:SUEC03SBV",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    }
+  ]
+}

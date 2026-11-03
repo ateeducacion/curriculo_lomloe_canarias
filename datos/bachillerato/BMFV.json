@@ -1,0 +1,849 @@
+{
+  "materia": "materia:BMFV",
+  "nodos": [
+    {
+      "id": "materia:BMFV",
+      "tipo": "Materia",
+      "notation": "BMFV",
+      "prefLabel": "Movimientos Culturales y Artísticos (Bachillerato)",
+      "cursos": [
+        "curso:B02"
+      ],
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BMFVC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BMFVC1",
+      "prefLabel": "BMFVC1 · Analizar producciones de distintos movimientos culturales y artísticos, reflexionando de…",
+      "definition": "Analizar producciones de distintos movimientos culturales y artísticos, reflexionando de forma abierta sobre su contexto histórico y aspectos singulares, para descubrirlos en tanto que representativos del espíritu de una época.",
+      "broader": "materia:BMFV",
+      "materia": "materia:BMFV",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BMFVC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BMFVC2",
+      "prefLabel": "BMFVC2 · Explicar el valor social del patrimonio, reflexionando sobre el compromiso del arte con…",
+      "definition": "Explicar el valor social del patrimonio, reflexionando sobre el compromiso del arte con su época y sobre la importancia de la libertad de expresión en producciones culturales y artísticas, para construir una mirada sobre el arte que reconozca, valore y respete la diversidad cultural.",
+      "broader": "materia:BMFV",
+      "materia": "materia:BMFV",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BMFVC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BMFVC3",
+      "prefLabel": "BMFVC3 · Explorar los diversos lenguajes y valores artísticos de diferentes manifestaciones…",
+      "definition": "Explorar los diversos lenguajes y valores artísticos de diferentes manifestaciones culturales, investigando y analizando a través de diversos medios, con interés y de forma activa, para comprender sus especificidades e intencionalidades y descubrir posibles referentes comunes.",
+      "broader": "materia:BMFV",
+      "materia": "materia:BMFV",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BMFVC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BMFVC4",
+      "prefLabel": "BMFVC4 · Analizar la evolución del arte y la cultura en la historia reciente, identificando los…",
+      "definition": "Analizar la evolución del arte y la cultura en la historia reciente, identificando los distintos ámbitos en los que se producen y manifiestan, así como el valor de la innovación y el papel de las tecnologías, para desarrollar un criterio informado y crítico ante el hecho artístico que favorezca la identificación de oportunidades de desarrollo personal, social, académico y profesional.",
+      "broader": "materia:BMFV",
+      "materia": "materia:BMFV",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BMFVC5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BMFVC5",
+      "prefLabel": "BMFVC5 · Explicar la práctica cultural y artística como un medio de expresión y comunicación…",
+      "definition": "Explicar la práctica cultural y artística como un medio de expresión y comunicación individual y colectivo de ideas, opiniones y sentimientos, a partir de un análisis crítico de diversas manifestaciones culturales y artísticas que incluya también una reflexión sobre su impacto ambiental, económico y social, para profundizar en el conocimiento de la sociedad contemporánea y promover el compromiso personal con la sostenibilidad.",
+      "broader": "materia:BMFV",
+      "materia": "materia:BMFV",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BMFV02BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "BMFV02BC1",
+      "prefLabel": "Movimientos Culturales y Artísticos · 2º Bachillerato · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de relacionar los movimientos culturales y artísticos con el momento histórico en el que surgió cada uno de ellos para descubrir sus semejanzas y diferencias. Para ello el alumnado deberá analizar las producciones culturales y reflexionar sobre ellas, para ponerlas en relación con su contexto temporal y aplicar esto al entorno canario. Asimismo, el alumnado realizará la búsqueda de información de una manera rigurosa —tanto de forma individual como grupal—, se expresará de forma correcta —tanto por escrito como de manera oral, signada o multimodal— y comunicará sus conclusiones de manera creativa. Además, reforzará su identidad personal atendiendo a sus diferencias, contribuyendo a la consecución de la identidad colectiva y valorando el patrimonio cultural desde lo local canario hasta lo universal. El análisis de los distintos movimientos culturales y artísticos se realizará profundizando, reflexionando y asumiendo las relaciones entre naturaleza, arte y cultura, construyendo conocimiento partiendo de esas investigaciones, elaborando productos explicativos como son las infografías, los folletos, los pósteres, revistas o cualquier otra presentación.",
+      "broader": "materia:BMFV",
+      "agrupa": [
+        "ce:BMFVC1"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "CD1",
+        "CC1",
+        "CCEC2",
+        "CC3"
+      ],
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BMFV02BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "BMFV02BC2",
+      "prefLabel": "Movimientos Culturales y Artísticos · 2º Bachillerato · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se verificará que el alumnado participa de forma activa en la conservación del patrimonio, argumentando por qué debe conservarse y comprendiendo el aporte de su conservación a la identidad individual y colectiva. Para ello el alumnado desarrollará proyectos de investigación individuales o colectivos, expresándose con corrección de forma oral, escrita, signada o multimodal, tras haberse documentado de manera rigurosa sobre los valores patrimoniales de las obras estudiadas. Los productos pueden ser paneles divulgativos, exposiciones o ferias, entre otras, usando los distintos espacios del centro educativo. Como resultado, el alumnado valorará de manera personal las creaciones relacionadas con los movimientos culturales y artísticos, especialmente los canarios, y las protagonizados por mujeres, para comprometerse con su conservación y con los ideales de libertad, creatividad y expresión que ayudan a configurar la identidad individual y colectiva. El objeto de estudio será la relación entre naturaleza, arte, cultura, arquitectura y urbanismo.",
+      "broader": "materia:BMFV",
+      "agrupa": [
+        "ce:BMFVC2"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CC1",
+        "CC3",
+        "CCEC2",
+        "CCL3",
+        "CD2",
+        "CE3",
+        "CCEC1"
+      ],
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BMFV02BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "BMFV02BC3",
+      "prefLabel": "Movimientos Culturales y Artísticos · 2º Bachillerato · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado es capaz de establecer relaciones entre diversos lenguajes culturales y artísticos para descubrir y comprender sus similitudes y diferencias, sus rupturas o préstamos, así como las ideas que sustentan cada una de sus manifestaciones. El alumnado investigará y analizará diversos productos culturales a través de diferentes medios y de manera activa e interesada, donde se le facilitará la gestión de la información y de los recursos, tratando de establecer especificidades, intencionalidades y referentes comunes. Se tendrá en cuenta la correcta expresión oral, escrita, signada o multimodal, la fundamentación rigurosa y la relación de lo estudiado con el entorno geográfico, histórico y social de cada producto cultural, del que habrá que descubrir las normas de su lenguaje, los valores que aporta, especialmente los relacionados con Canarias, y los ideales que pretende transmitir, donde es de gran importancia el debate sobre las diferentes propuestas culturales y artísticas. Los objetos de estudio abarcarán disciplinas como bellas artes, literatura, música, fotografía, diseño y moda o publicidad, que podrán ser estudiados mediante pequeñas investigaciones, debates, entrevistas a personas creadoras, pódcasto exposiciones, entre otras.",
+      "broader": "materia:BMFV",
+      "agrupa": [
+        "ce:BMFVC3"
+      ],
+      "descriptores": [
+        "CCL4",
+        "STEM2",
+        "CPSAA5",
+        "CC1",
+        "CCEC2",
+        "CCL3",
+        "CCEC1"
+      ],
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BMFV02BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "BMFV02BC4",
+      "prefLabel": "Movimientos Culturales y Artísticos · 2º Bachillerato · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial se fomentará que el alumnado sea capaz de valorar la importancia de la aportación individual a los diferentes movimientos culturales y artísticos, que se ven enriquecidos por las innovaciones que las iniciativas personales generan, en relación con el entorno geográfico, histórico y social, que resulta así enriquecido, diverso e integrador. Para ello el alumnado estudiará la evolución histórica de los movimientos culturales y artísticos a través de las personas protagonistas y su incidencia en el entorno, perfilando una sociedad diversa, respetuosa e inclusiva. Para ello, el alumnado se expresará con corrección de forma oral, escrita y audiovisual, fundamentando sus afirmaciones en fuentes fiables y produciendo juicios propios sobre la producción de artistas, especialmente de origen canario, las innovaciones que aportaron y el enriquecimiento que supusieron a lo largo de la historia del arte contemporáneo. Se constatará que el alumnado es capaz de elaborar productos tanto de forma individual como colaborativa, donde se dé gran importancia a la observación, la reflexión y el análisis crítico de fuentes y la documentación mediante la realización de informes, estudios o dosieres, exponiéndose de forma oral y con presentaciones infográficas.",
+      "broader": "materia:BMFV",
+      "agrupa": [
+        "ce:BMFVC4"
+      ],
+      "descriptores": [
+        "CCL3",
+        "CD3",
+        "CC1",
+        "CC3",
+        "CPSAA1.2",
+        "CCEC2",
+        "CCEC1"
+      ],
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BMFV02BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "BMFV02BC5",
+      "prefLabel": "Movimientos Culturales y Artísticos · 2º Bachillerato · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial se mostrará que el alumnado es capaz de comprender el papel de los movimientos culturales y artísticos como expresión de ideas, sentimientos y emociones, a través de la observación, para generar empatía con las situaciones ajenas y crecimiento personal. El alumnado deberá expresar con corrección, de forma oral, escrita, signada o multimodal, su rigurosa investigación —tanto individual como grupal, utilizando el pensamiento científico— sobre la expresión en relación con los movimientos culturales y artísticos, expresando, a su vez, sus propios sentimientos a tal efecto. Para ello se partirá de la cultura canaria, valorando en ella la comunicación de ideas, sentimientos y emociones, para recorrer manifestaciones culturales y artísticas de otros ámbitos y llegar al arte más reciente, mediante una aproximación analítica a personas y colectivos destacados a sus obras o aportaciones y a los espacios museísticos y de exposiciones.",
+      "broader": "materia:BMFV",
+      "agrupa": [
+        "ce:BMFVC5"
+      ],
+      "descriptores": [
+        "CCL3",
+        "CPSAA3.1",
+        "CC1",
+        "CC4",
+        "CC3",
+        "CCEC1",
+        "CCEC3.1"
+      ],
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BMFV02CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BMFV02CE1.1",
+      "prefLabel": "BMFV02CE1.1 · Analizar los aspectos singulares de diferentes producciones culturales y artísticas,…",
+      "definition": "Analizar los aspectos singulares de diferentes producciones culturales y artísticas, relacionándolos con sus contextos históricos de forma abierta y respetuosa.",
+      "broader": "ce:BMFVC1",
+      "bloque": "bc:BMFV02BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "CD1",
+        "CC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BMFV02CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BMFV02CE1.2",
+      "prefLabel": "BMFV02CE1.2 · eflexionar sobre los movimientos culturales y artísticos como reflejos del sentir y…",
+      "definition": "eflexionar sobre los movimientos culturales y artísticos como reflejos del sentir y pensar de cada época.",
+      "broader": "ce:BMFVC1",
+      "bloque": "bc:BMFV02BC1",
+      "descriptores": [
+        "CCL3",
+        "CC1",
+        "CC3"
+      ],
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BMFV02CE1.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BMFV02CE1.3",
+      "prefLabel": "BMFV02CE1.3 · Reconocer la identidad cultural canaria en relación con la del territorio canario,…",
+      "definition": "Reconocer la identidad cultural canaria en relación con la del territorio canario, español y la del mundo.",
+      "broader": "ce:BMFVC1",
+      "bloque": "bc:BMFV02BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "CC3",
+        "CCEC2"
+      ],
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BMFV02CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BMFV02CE2.1",
+      "prefLabel": "BMFV02CE2.1 · Fomentar la promoción y conservación del patrimonio, en especial del canario, como factor…",
+      "definition": "Fomentar la promoción y conservación del patrimonio, en especial del canario, como factor esencial para el ser humano y su desarrollo, estableciendo criterios personales acerca de la importancia de los movimientos culturales y artísticos como motores de cambio y evolución de la sociedad.",
+      "broader": "ce:BMFVC2",
+      "bloque": "bc:BMFV02BC2",
+      "descriptores": [
+        "CCL1",
+        "CC1"
+      ],
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BMFV02CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BMFV02CE2.2",
+      "prefLabel": "BMFV02CE2.2 · Argumentar sobre la importancia de la libertad de expresión y de la diversidad cultural,…",
+      "definition": "Argumentar sobre la importancia de la libertad de expresión y de la diversidad cultural, a través de un discurso razonado y comprometido.",
+      "broader": "ce:BMFVC2",
+      "bloque": "bc:BMFV02BC2",
+      "descriptores": [
+        "CCL1",
+        "CC3",
+        "CCEC2"
+      ],
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BMFV02CE2.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BMFV02CE2.3",
+      "prefLabel": "BMFV02CE2.3 · Analizar la importancia de la diversidad cultural y de la libre expresión en el arte a…",
+      "definition": "Analizar la importancia de la diversidad cultural y de la libre expresión en el arte a partir del estudio de manifestaciones culturales y artísticas diversas, incluyendo las realizadas por mujeres o las procedentes de ámbitos diferentes a la cultura occidental.",
+      "broader": "ce:BMFVC2",
+      "bloque": "bc:BMFV02BC2",
+      "descriptores": [
+        "CCL3",
+        "CD2",
+        "CC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BMFV02CE2.4",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BMFV02CE2.4",
+      "prefLabel": "BMFV02CE2.4 · Desarrollar proyectos de investigación individuales o colectivos que muestren una…",
+      "definition": "Desarrollar proyectos de investigación individuales o colectivos que muestren una implicación y una respuesta personales en torno a la libre expresión artística y sus posibles límites, partiendo del análisis de casos concretos.",
+      "broader": "ce:BMFVC2",
+      "bloque": "bc:BMFV02BC2",
+      "descriptores": [
+        "CCL3",
+        "CD2",
+        "CC1",
+        "CC3",
+        "CE3",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BMFV02CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BMFV02CE3.1",
+      "prefLabel": "BMFV02CE3.1 · Indagar sobre los lenguajes y valores artísticos de diferentes propuestas.",
+      "definition": "Indagar sobre los lenguajes y valores artísticos de diferentes propuestas.",
+      "broader": "ce:BMFVC3",
+      "bloque": "bc:BMFV02BC3",
+      "descriptores": [
+        "CCL4",
+        "STEM2",
+        "CPSAA5",
+        "CC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BMFV02CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BMFV02CE3.2",
+      "prefLabel": "BMFV02CE3.2 · Examinar con interés, los diferentes lenguajes artísticos, centrándonos en el arte…",
+      "definition": "Examinar con interés, los diferentes lenguajes artísticos, centrándonos en el arte canario y utilizando diversos medios de recepción.",
+      "broader": "ce:BMFVC3",
+      "bloque": "bc:BMFV02BC3",
+      "descriptores": [
+        "CCL3",
+        "CCL4",
+        "CC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BMFV02CE3.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BMFV02CE3.3",
+      "prefLabel": "BMFV02CE3.3 · Comprender las intencionalidades de diferentes manifestaciones culturales y artísticas,…",
+      "definition": "Comprender las intencionalidades de diferentes manifestaciones culturales y artísticas, considerando y respetando la presencia de referentes comunes como una fuente de riqueza social y personal.",
+      "broader": "ce:BMFVC3",
+      "bloque": "bc:BMFV02BC3",
+      "descriptores": [
+        "CCL3",
+        "CCL4",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BMFV02CE3.4",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BMFV02CE3.4",
+      "prefLabel": "BMFV02CE3.4 · Debatir sobre diferentes propuestas culturales y artísticas, intercambiando las opiniones…",
+      "definition": "Debatir sobre diferentes propuestas culturales y artísticas, intercambiando las opiniones y los sentimientos experimentados, e incorporando juicios de valor vinculados a la apreciación estética de las obras de manera argumentada, constructiva y respetuosa.",
+      "broader": "ce:BMFVC3",
+      "bloque": "bc:BMFV02BC3",
+      "descriptores": [
+        "CCL3",
+        "CCL4",
+        "CPSAA5",
+        "CC1",
+        "CCEC1"
+      ],
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BMFV02CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BMFV02CE4.1",
+      "prefLabel": "BMFV02CE4.1 · Comprender la influencia que los nuevos lenguajes, medios y técnicas han tenido en la…",
+      "definition": "Comprender la influencia que los nuevos lenguajes, medios y técnicas han tenido en la cultura y el arte, en especial en Canarias, disfrutando de su recepción.",
+      "broader": "ce:BMFVC4",
+      "bloque": "bc:BMFV02BC4",
+      "descriptores": [
+        "CCL3",
+        "CD3",
+        "CC1",
+        "CC3"
+      ],
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BMFV02CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BMFV02CE4.2",
+      "prefLabel": "BMFV02CE4.2 · Reconocer la actitud innovadora de personas artistas, especialmente de Canarias.",
+      "definition": "Reconocer la actitud innovadora de personas artistas, especialmente de Canarias.",
+      "broader": "ce:BMFVC4",
+      "bloque": "bc:BMFV02BC4",
+      "descriptores": [
+        "CCL3",
+        "CPSAA1.2",
+        "CC1",
+        "CC3",
+        "CCEC2"
+      ],
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BMFV02CE4.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BMFV02CE4.3",
+      "prefLabel": "BMFV02CE4.3 · Explicar la repercusión y el compromiso social del arte y de la cultura, mostrando…",
+      "definition": "Explicar la repercusión y el compromiso social del arte y de la cultura, mostrando sensibilidad, empatía y respeto hacia la implicación creativa, y valorando las tecnologías como medios de creación y acceso.",
+      "broader": "ce:BMFVC4",
+      "bloque": "bc:BMFV02BC4",
+      "descriptores": [
+        "CCL3",
+        "CD3",
+        "CPSAA1.2",
+        "CC1",
+        "CC3",
+        "CCEC1"
+      ],
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BMFV02CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BMFV02CE5.1",
+      "prefLabel": "BMFV02CE5.1 · Explorar diferentes manifestaciones culturales y artísticas, partiendo de la cultura y…",
+      "definition": "Explorar diferentes manifestaciones culturales y artísticas, partiendo de la cultura y arte de Canarias, evidenciando una actitud de interés, curiosidad y respeto hacia sus posibilidades comunicativas y expresivas.",
+      "broader": "ce:BMFVC5",
+      "bloque": "bc:BMFV02BC5",
+      "descriptores": [
+        "CCL3",
+        "CPSAA3.1",
+        "CC1",
+        "CC4"
+      ],
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BMFV02CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BMFV02CE5.2",
+      "prefLabel": "BMFV02CE5.2 · Visibilizar la práctica creativa como un medio para expresar ideas, sentimientos y…",
+      "definition": "Visibilizar la práctica creativa como un medio para expresar ideas, sentimientos y emociones, exteriorizando sensaciones y conexiones personales con manifestaciones culturales y artísticas contemporáneas.",
+      "broader": "ce:BMFVC5",
+      "bloque": "bc:BMFV02BC5",
+      "descriptores": [
+        "CCL3",
+        "CPSAA3.1",
+        "CC3",
+        "CCEC1",
+        "CCEC3.1"
+      ],
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "BMFV02SBI",
+      "prefLabel": "BMFV02SBI · I. Aspectos generales",
+      "definition": "Aspectos generales",
+      "broader": "materia:BMFV",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "BMFV02SBII",
+      "prefLabel": "BMFV02SBII · II. Naturaleza, arte y cultura",
+      "definition": "Naturaleza, arte y cultura",
+      "broader": "materia:BMFV",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "BMFV02SBIII",
+      "prefLabel": "BMFV02SBIII · III. El arte dentro del arte",
+      "definition": "El arte dentro del arte",
+      "broader": "materia:BMFV",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "BMFV02SBIV",
+      "prefLabel": "BMFV02SBIV · IV. El arte en los espacios urbanos",
+      "definition": "El arte en los espacios urbanos",
+      "broader": "materia:BMFV",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBV",
+      "tipo": "BloqueSaberes",
+      "notation": "BMFV02SBV",
+      "prefLabel": "BMFV02SBV · V. Lenguajes artísticos contemporáneos",
+      "definition": "Lenguajes artísticos contemporáneos",
+      "broader": "materia:BMFV",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBI.1",
+      "prefLabel": "BMFV02SBI.1 · La evolución del concepto de arte.",
+      "definition": "La evolución del concepto de arte.",
+      "broader": "sb:BMFV02SBI",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBI.2",
+      "prefLabel": "BMFV02SBI.2 · Conocimiento de las distintas manifestaciones de la expresión artística.",
+      "definition": "Conocimiento de las distintas manifestaciones de la expresión artística.",
+      "broader": "sb:BMFV02SBI",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBI.3",
+      "prefLabel": "BMFV02SBI.3 · Estudio de los elementos esenciales de los distintos lenguajes artísticos.",
+      "definition": "Estudio de los elementos esenciales de los distintos lenguajes artísticos.",
+      "broader": "sb:BMFV02SBI",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBI.4",
+      "prefLabel": "BMFV02SBI.4 · Análisis de los aspectos fundamentales de los grandes movimientos artístico-culturales…",
+      "definition": "Análisis de los aspectos fundamentales de los grandes movimientos artístico-culturales contemporáneos.",
+      "broader": "sb:BMFV02SBI",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBI.5",
+      "prefLabel": "BMFV02SBI.5 · Identificación y valoración de la expresión artística en su contexto social e histórico.",
+      "definition": "Identificación y valoración de la expresión artística en su contexto social e histórico.",
+      "broader": "sb:BMFV02SBI",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBI.6",
+      "prefLabel": "BMFV02SBI.6 · Reconocimiento y reflexión sobre la función social del arte y la cultura y su impacto…",
+      "definition": "Reconocimiento y reflexión sobre la función social del arte y la cultura y su impacto socioeconómico.",
+      "broader": "sb:BMFV02SBI",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBI.7",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBI.7",
+      "prefLabel": "BMFV02SBI.7 · La importancia de la libertad de expresión y reflexión sobre la censura en el arte.",
+      "definition": "La importancia de la libertad de expresión y reflexión sobre la censura en el arte.",
+      "broader": "sb:BMFV02SBI",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBI.8",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBI.8",
+      "prefLabel": "BMFV02SBI.8 · Identificación y sensibilización sobre la perspectiva de género y la perspectiva…",
+      "definition": "Identificación y sensibilización sobre la perspectiva de género y la perspectiva intercultural en el arte, el respeto a la diversidad y reflexión sobre el uso de estereotipos culturales y artísticos.",
+      "broader": "sb:BMFV02SBI",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBI.9",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBI.9",
+      "prefLabel": "BMFV02SBI.9 · Reflexión de la utilidad del arte como herramienta de expresión individual y colectiva.",
+      "definition": "Reflexión de la utilidad del arte como herramienta de expresión individual y colectiva.",
+      "broader": "sb:BMFV02SBI",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBI.10",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBI.10",
+      "prefLabel": "BMFV02SBI.10 · Uso de estrategias de investigación, análisis, interpretación y valoración crítica de…",
+      "definition": "Uso de estrategias de investigación, análisis, interpretación y valoración crítica de productos culturales y artísticos.",
+      "broader": "sb:BMFV02SBI",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBII.1",
+      "prefLabel": "BMFV02SBII.1 · Estudio sobre la evolución artística desde el plein air a la fotografía de naturaleza.",
+      "definition": "Estudio sobre la evolución artística desde el plein air a la fotografía de naturaleza.",
+      "broader": "sb:BMFV02SBII",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBII.2",
+      "prefLabel": "BMFV02SBII.2 · Acercamiento al empleo del arte para la conciencia ecológica y la sostenibilidad.",
+      "definition": "Acercamiento al empleo del arte para la conciencia ecológica y la sostenibilidad.",
+      "broader": "sb:BMFV02SBII",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBII.3",
+      "prefLabel": "BMFV02SBII.3 · Investigación sobre el arte Povera.",
+      "definition": "Investigación sobre el arte Povera.",
+      "broader": "sb:BMFV02SBII",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBII.4",
+      "prefLabel": "BMFV02SBII.4 · Identificación y análisis del arte ambiental y Land Art.",
+      "definition": "Identificación y análisis del arte ambiental y Land Art.",
+      "broader": "sb:BMFV02SBII",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBIII.1",
+      "prefLabel": "BMFV02SBIII.1 · Conocimiento de la evolución del arte primitivo, oriental, precolombino y africano. y su…",
+      "definition": "Conocimiento de la evolución del arte primitivo, oriental, precolombino y africano. y su papel como inspiración para las vanguardias.",
+      "broader": "sb:BMFV02SBIII",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBIII.2",
+      "prefLabel": "BMFV02SBIII.2 · Reconocimiento y valoración de la pervivencia de lo clásico en el arte y la cultura…",
+      "definition": "Reconocimiento y valoración de la pervivencia de lo clásico en el arte y la cultura contemporánea.",
+      "broader": "sb:BMFV02SBIII",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBIII.3",
+      "prefLabel": "BMFV02SBIII.3 · Introducción al estudio sobre la cultura popular y Pop art. El Arte pop en España y…",
+      "definition": "Introducción al estudio sobre la cultura popular y Pop art. El Arte pop en España y Canarias.",
+      "broader": "sb:BMFV02SBIII",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBIII.4",
+      "prefLabel": "BMFV02SBIII.4 · Iniciación a las relaciones interdisciplinares: literatura, cine, música, fotografía,…",
+      "definition": "Iniciación a las relaciones interdisciplinares: literatura, cine, música, fotografía, artes plásticas, cómic, publicidad, artes escénicas, diseño y moda.",
+      "broader": "sb:BMFV02SBIII",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBIV.1",
+      "prefLabel": "BMFV02SBIV.1 · Análisis de la relación entre arquitectura y sociedad.",
+      "definition": "Análisis de la relación entre arquitectura y sociedad.",
+      "broader": "sb:BMFV02SBIV",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBIV.2",
+      "prefLabel": "BMFV02SBIV.2 · Conocimiento de las principales características, escuelas y obras de la arquitectura en…",
+      "definition": "Conocimiento de las principales características, escuelas y obras de la arquitectura en el arte contemporáneo.",
+      "broader": "sb:BMFV02SBIV",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBIV.3",
+      "prefLabel": "BMFV02SBIV.3 · Identificación de las intervenciones artísticas en proyectos de urbanismo.",
+      "definition": "Identificación de las intervenciones artísticas en proyectos de urbanismo.",
+      "broader": "sb:BMFV02SBIV",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBIV.4",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBIV.4",
+      "prefLabel": "BMFV02SBIV.4 · La utilización del arte mural y trampantojo. Análisis y reflexión sobre el arte urbano.",
+      "definition": "La utilización del arte mural y trampantojo. Análisis y reflexión sobre el arte urbano.",
+      "broader": "sb:BMFV02SBIV",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBIV.5",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBIV.5",
+      "prefLabel": "BMFV02SBIV.5 · Aproximación y valoración a los espacios del arte: museos, salones, ferias, festivales,…",
+      "definition": "Aproximación y valoración a los espacios del arte: museos, salones, ferias, festivales, exhibiciones, galerías, talleres, etc.",
+      "broader": "sb:BMFV02SBIV",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBV.1",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBV.1",
+      "prefLabel": "BMFV02SBV.1 · La exploración del cuerpo humano: happening y performance, arte acción y body art.",
+      "definition": "La exploración del cuerpo humano: happening y performance, arte acción y body art.",
+      "broader": "sb:BMFV02SBV",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBV.2",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBV.2",
+      "prefLabel": "BMFV02SBV.2 · Investigación sobre la relación entre el diseño industrial y las artes decorativas.",
+      "definition": "Investigación sobre la relación entre el diseño industrial y las artes decorativas.",
+      "broader": "sb:BMFV02SBV",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBV.3",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBV.3",
+      "prefLabel": "BMFV02SBV.3 · Aprendizaje y uso de los medios electrónicos, informáticos y digitales en el arte.…",
+      "definition": "Aprendizaje y uso de los medios electrónicos, informáticos y digitales en el arte.  Introducción al videoarte.",
+      "broader": "sb:BMFV02SBV",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBV.4",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBV.4",
+      "prefLabel": "BMFV02SBV.4 · El uso de las instalaciones. Del arte ambiente al arte inmersivo e interactivo.",
+      "definition": "El uso de las instalaciones. Del arte ambiente al arte inmersivo e interactivo.",
+      "broader": "sb:BMFV02SBV",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBV.5",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBV.5",
+      "prefLabel": "BMFV02SBV.5 · Estudio sobre las narrativas seriales en el audiovisual del siglo XXI.",
+      "definition": "Estudio sobre las narrativas seriales en el audiovisual del siglo XXI.",
+      "broader": "sb:BMFV02SBV",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BMFV02SBV.6",
+      "tipo": "SaberBasico",
+      "notation": "BMFV02SBV.6",
+      "prefLabel": "BMFV02SBV.6 · Iniciación al conocimiento de la narrativa multiverso y videojuegos.",
+      "definition": "Iniciación al conocimiento de la narrativa multiverso y videojuegos.",
+      "broader": "sb:BMFV02SBV",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    }
+  ]
+}

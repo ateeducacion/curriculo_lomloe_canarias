@@ -1,0 +1,769 @@
+{
+  "materia": "materia:BXEC",
+  "nodos": [
+    {
+      "id": "materia:BXEC",
+      "tipo": "Materia",
+      "notation": "BXEC",
+      "prefLabel": "Tecnología e Ingeniería II (Bachillerato)",
+      "cursos": [
+        "curso:B02"
+      ],
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BXECC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BXECC1",
+      "prefLabel": "BXECC1 · Coordinar y desarrollar proyectos de investigación con una actitud crítica y…",
+      "definition": "Coordinar y desarrollar proyectos de investigación con una actitud crítica y emprendedora, implementando estrategias y técnicas eficientes de resolución de problemas y comunicando los resultados de manera adecuada, para crear y mejorar productos y sistemas de manera continua.",
+      "broader": "materia:BXEC",
+      "materia": "materia:BXEC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BXECC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BXECC2",
+      "prefLabel": "BXECC2 · Seleccionar materiales y elaborar estudios de impacto, aplicando criterios técnicos y de…",
+      "definition": "Seleccionar materiales y elaborar estudios de impacto, aplicando criterios técnicos y de sostenibilidad para fabricar productos de calidad que den respuesta a problemas y tareas planteados, desde un enfoque responsable y ético.",
+      "broader": "materia:BXEC",
+      "materia": "materia:BXEC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BXECC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BXECC3",
+      "prefLabel": "BXECC3 · Utilizar las herramientas digitales adecuadas, analizando sus posibilidades,…",
+      "definition": "Utilizar las herramientas digitales adecuadas, analizando sus posibilidades, configurándolas de acuerdo a sus necesidades y aplicando conocimientos interdisciplinares, para resolver tareas, así como para realizar la presentación de los resultados de una manera óptima.",
+      "broader": "materia:BXEC",
+      "materia": "materia:BXEC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BXECC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BXECC4",
+      "prefLabel": "BXECC4 · Generar conocimientos y mejorar destrezas técnicas, transfiriendo y aplicando saberes de…",
+      "definition": "Generar conocimientos y mejorar destrezas técnicas, transfiriendo y aplicando saberes de otras disciplinas científicas con actitud creativa, para calcular, y resolver problemas o dar respuesta a necesidades de los distintos ámbitos de la ingeniería.",
+      "broader": "materia:BXEC",
+      "materia": "materia:BXEC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BXECC5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BXECC5",
+      "prefLabel": "BXECC5 · Diseñar, crear y evaluar sistemas tecnológicos, aplicando conocimientos de programación…",
+      "definition": "Diseñar, crear y evaluar sistemas tecnológicos, aplicando conocimientos de programación informática, regulación automática y control, así como las posibilidades que ofrecen las tecnologías emergentes, para estudiar, controlar y automatizar tareas.",
+      "broader": "materia:BXEC",
+      "materia": "materia:BXEC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BXECC6",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BXECC6",
+      "prefLabel": "BXECC6 · Analizar y comprender sistemas tecnológicos de los distintos ámbitos de la ingeniería,…",
+      "definition": "Analizar y comprender sistemas tecnológicos de los distintos ámbitos de la ingeniería, estudiando sus características, consumo y eficiencia energética, para evaluar el uso responsable y sostenible que se hace de la tecnología.",
+      "broader": "materia:BXEC",
+      "materia": "materia:BXEC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BXEC02BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "BXEC02BC1",
+      "prefLabel": "Tecnología e Ingeniería II · 2º Bachillerato · bloque competencial C1",
+      "scopeNote": "Con este bloque competencial se persigue constatar que el alumnado dispone de las destrezas que le permiten participar activamente en procesos de investigación, desarrollo e innovación (I+D+i) propios del desarrollo tecnológico actual y de las demandas relacionadas con la mejora de las tecnologías existentes y con la necesidad de generar nuevas tecnologías. Para ello se verificará que es capaz de aplicar estrategias relacionadas con la resolución de problemas de manera eficiente, la comunicación de los resultados obtenidos de manera adecuada y eficaz, usando un lenguaje inclusivo y no sexista, y la colaboración entre diferentes ámbitos del saber para mejorar los resultados y los productos obtenidos bajo criterios de eficacia, sostenibilidad y respeto social. Es por ello que se constatará que el alumnado coordina y desarrolla proyectos de investigación, participando en el proceso de creación de ideas desde una perspectiva interdisciplinar y en la implementación de soluciones innovadoras y sostenibles para dar respuesta a necesidades planteadas, aportando la documentación técnica necesaria, buscando y referenciando la información, comprobando su veracidad y seleccionando los dispositivos digitales necesarios para comunicar los resultados, trabajar colaborativamente y compartir la información de manera autónoma y eficaz. Asimismo, se comprobará su capacidad para reflexionar sobre los resultados obtenidos y aplicar las técnicas necesarias para su reelaboración, mejorando el producto final obtenido, considerando el error y la reevaluación como parte del proceso de aprendizaje.",
+      "broader": "materia:BXEC",
+      "agrupa": [
+        "ce:BXECC1"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM3",
+        "STEM4",
+        "CD1",
+        "CD3",
+        "CD5",
+        "CPSAA1.1",
+        "CE3"
+      ],
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BXEC02BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "BXEC02BC2",
+      "prefLabel": "Tecnología e Ingeniería II · 2º Bachillerato · bloque competencial C2",
+      "scopeNote": "Con este bloque competencial se verificará que el alumnado es capaz de diseñar y crear productos sostenibles, socialmente responsables, eficientes y de calidad, realizando un correcto diseño de los mismos y una adecuada selección de los materiales utilizados para su construcción. Para ello, se constatará que el alumnado presenta la capacidad de, siguiendo los procedimientos de análisis científico y haciendo uso de las herramientas de búsqueda necesarias, analizar las propiedades técnicas de los materiales y su estructura interna para hacer una selección idónea de los mismos, así como de las técnicas de fabricación industrial adecuadas, siguiendo criterios de sostenibilidad y responsabilidad social. Asimismo, se valorará la capacidad de utilizar las herramientas digitales necesarias para comparar, sintetizar y reelaborar la información necesaria, respetando los derechos de autoría digital, que le permita elaborar estudios de impacto sencillos de manera fundamentada y estructurada.",
+      "broader": "materia:BXEC",
+      "agrupa": [
+        "ce:BXECC2"
+      ],
+      "descriptores": [
+        "STEM2",
+        "STEM5",
+        "CD1",
+        "CPSAA4",
+        "CE1",
+        "CCL1",
+        "CD2",
+        "CPSAA1.1",
+        "CC4"
+      ],
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BXEC02BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "BXEC02BC3",
+      "prefLabel": "Tecnología e Ingeniería II · 2º Bachillerato · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado dispone de las habilidades relacionadas con el uso de herramientas digitales imprescindibles en el proceso de aprendizaje propio de esta etapa para que, configurándolas según sus necesidades y aplicando estrategias de trabajo cooperativo y colaborativo y conocimientos interdisciplinares, contribuya a las distintas fases del desarrollo y gestión de un proyecto con la finalidad de idear y crear soluciones tecnológicas innovadoras y sostenibles, realizando procesos de búsqueda de información, seleccionando las fuentes y organizando los resultados de manera crítica, contrastando su veracidad y respetando las fuentes de información, presentando de manera óptima tanto las soluciones obtenidas como el proceso realizado, incluyendo las fases de simulación y montaje, la programación y control de sistemas o la fabricación de productos, instrumentos esenciales que el alumnado debe conocer para realizar las tareas propias de la materia. Asimismo, se valorará la importancia de la evaluación continuada del proceso para obtener mejoras constantes en los resultados.",
+      "broader": "materia:BXEC",
+      "agrupa": [
+        "ce:BXECC3"
+      ],
+      "descriptores": [
+        "STEM1",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BXEC02BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "BXEC02BC4",
+      "prefLabel": "Tecnología e Ingeniería II · 2º Bachillerato · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial se pretende constatar que el alumnado desarrolla las habilidades necesarias para combinar los distintos saberes procedentes de disciplinas variadas como las matemáticas, la física o la química, así como la experimentación, con la finalidad de obtener soluciones diversas y eficaces a las necesidades y problemas planteados. Para ello se comprobará que es capaz de realizar cálculos relacionados con el estudio y montaje de estructuras sencillas, analizar el funcionamiento de máquinas térmicas y realizar simulaciones y cálculos de eficiencia, e interpretar, resolver y diseñar esquemas y circuitos de sistemas neumáticos, hidráulicos, combinacionales, secuenciales y de corriente alterna. Todo ello utilizando el pensamiento científico, el razonamiento lógico y la experimentación o simulación para resolver los problemas técnicos de forma individual o colaborativa, evitando sesgos de género y desarrollando soluciones tecnológicas innovadoras que permitan favorecer el aprendizaje del alumnado, mejorando los conocimientos y las destrezas técnicas relacionadas.",
+      "broader": "materia:BXEC",
+      "agrupa": [
+        "ce:BXECC4"
+      ],
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD2",
+        "CD5",
+        "CPSAA5",
+        "CE3",
+        "CCL1"
+      ],
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BXEC02BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "BXEC02BC5",
+      "prefLabel": "Tecnología e Ingeniería II · 2º Bachillerato · bloque competencial C5",
+      "scopeNote": "Con este bloque competencial se persigue constatar que el alumnado adquiere las habilidades necesarias para analizar, diseñar y simular, tanto de manera individual como colaborativa, soluciones a problemas tecnológicos planteados que permitan la automatización de procesos a través del empleo de sistemas automáticos, con la finalidad de favorecer la simplificación de tareas y que lleve aparejado el diseño del software aplicado a dispositivos de propósito general como ordenadores o dispositivos móviles, y también a la configuración y puesta en marcha de dispositivos físicos para tareas concretas como las tarjetas microcontroladoras, aplicando conocimientos de programación informática, electrónica digital, regulación automática y control, y analizando estas soluciones de manera crítica para posibilitar una mejora constante de las mismas. Asimismo, deberá conocer y valorar la incorporación de los sistemas informáticos emergentes —como la inteligencia artificial, las analíticas asociadas a las grandes cantidades de datos generadas por los distintos sistemas o el internet de las cosas en aplicaciones cotidianas— y sus implicaciones respecto a la seguridad de los datos y de las personas.",
+      "broader": "materia:BXEC",
+      "agrupa": [
+        "ce:BXECC5"
+      ],
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CPSAA1.1",
+        "CE3"
+      ],
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BXEC02BC6",
+      "tipo": "BloqueCompetencial",
+      "notation": "BXEC02BC6",
+      "prefLabel": "Tecnología e Ingeniería II · 2º Bachillerato · bloque competencial C6",
+      "scopeNote": "A través de este bloque competencial se pretende que el alumnado comprenda las implicaciones sociales y medioambientales que presentan la producción, transporte y empleo de la energía, enfatizando la relevancia de una adecuada gestión en un territorio fragmentado como Canarias, así como el funcionamiento de los diferentes sistemas tecnológicos, tanto en el ámbito industrial como doméstico, realizando una valoración crítica sobre el uso e impacto de la energía en la sociedad y el medioambiente a partir de la investigación y búsqueda contrastada de información, y de generar la documentación relacionada, analizando el funcionamiento de los mercados energéticos, teniendo en cuenta aspectos relacionados con la eficiencia y favoreciendo actitudes relacionadas con el ahorro energético y con un uso responsable de la misma, contribuyendo a la consecución de los Objetivos de Desarrollo Sostenible y la Agenda Canaria de Desarrollo Sostenible 2030.",
+      "broader": "materia:BXEC",
+      "agrupa": [
+        "ce:BXECC6"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM2",
+        "STEM5",
+        "CD1",
+        "CD2",
+        "CD4",
+        "CPSAA2",
+        "CC4",
+        "CE1"
+      ],
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BXEC02CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BXEC02CE1.1",
+      "prefLabel": "BXEC02CE1.1 · Desarrollar, comunicar y difundir proyectos de investigación e innovación, de forma clara…",
+      "definition": "Desarrollar, comunicar y difundir proyectos de investigación e innovación, de forma clara y comprensible, aportando la documentación técnica necesaria, con la finalidad de crear y mejorar productos de forma continua, compartiendo la información para crear conocimiento y mejorarlo.",
+      "broader": "ce:BXECC1",
+      "bloque": "bc:BXEC02BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM3",
+        "STEM4",
+        "CD1",
+        "CD3",
+        "CD5",
+        "CPSAA1.1",
+        "CE3"
+      ],
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BXEC02CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BXEC02CE1.2",
+      "prefLabel": "BXEC02CE1.2 · Plantear soluciones sostenibles a los problemas planteados, con actitud crítica y…",
+      "definition": "Plantear soluciones sostenibles a los problemas planteados, con actitud crítica y emprendedora, perseverando en la consecución de los objetivos propuestos, identificando y gestionando emociones, aceptando y aprendiendo de la crítica razonada y utilizando el error como parte del proceso de aprendizaje.",
+      "broader": "ce:BXECC1",
+      "bloque": "bc:BXEC02BC1",
+      "descriptores": [
+        "STEM3",
+        "CPSAA1.1",
+        "CE3"
+      ],
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BXEC02CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BXEC02CE2.1",
+      "prefLabel": "BXEC02CE2.1 · Analizar la idoneidad de los materiales técnicos utilizados en la fabricación de…",
+      "definition": "Analizar la idoneidad de los materiales técnicos utilizados en la fabricación de productos sostenibles y de calidad, haciendo uso de las herramientas de búsqueda necesarias para estudiar su estructura interna y propiedades, así como tratamientos de modificación y mejora de las mismas.",
+      "broader": "ce:BXECC2",
+      "bloque": "bc:BXEC02BC2",
+      "descriptores": [
+        "STEM2",
+        "STEM5",
+        "CD1",
+        "CPSAA4",
+        "CE1"
+      ],
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BXEC02CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BXEC02CE2.2",
+      "prefLabel": "BXEC02CE2.2 · Utilizar las herramientas digitales adecuadas para elaborar informes sencillos de…",
+      "definition": "Utilizar las herramientas digitales adecuadas para elaborar informes sencillos de evaluación de impacto ambiental de manera fundamentada y estructurada.",
+      "broader": "ce:BXECC2",
+      "bloque": "bc:BXEC02BC2",
+      "descriptores": [
+        "CCL1",
+        "STEM5",
+        "CD2",
+        "CPSAA1.1",
+        "CC4",
+        "CE1"
+      ],
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BXEC02CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BXEC02CE3.1",
+      "prefLabel": "BXEC02CE3.1 · Resolver problemas asociados a las distintas fases del desarrollo y gestión de un…",
+      "definition": "Resolver problemas asociados a las distintas fases del desarrollo y gestión de un proyecto tecnológico, destacando su diseño, simulación, montaje y presentación, aplicando conocimientos interdisciplinares y utilizando las herramientas digitales adecuadas para obtener resultados óptimos.",
+      "broader": "ce:BXECC3",
+      "bloque": "bc:BXEC02BC3",
+      "descriptores": [
+        "STEM1",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BXEC02CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BXEC02CE4.1",
+      "prefLabel": "BXEC02CE4.1 · Calcular y montar estructuras sencillas, estudiando los tipos de cargas a los que se…",
+      "definition": "Calcular y montar estructuras sencillas, estudiando los tipos de cargas a los que se puedan ver sometidas y su estabilidad, aprovechando las herramientas digitales disponibles para simular, interpretar y transmitir los resultados obtenidos.",
+      "broader": "ce:BXECC4",
+      "bloque": "bc:BXEC02BC4",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD2",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BXEC02CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BXEC02CE4.2",
+      "prefLabel": "BXEC02CE4.2 · Analizar las máquinas térmicas como máquinas frigoríficas, bombas de calor y motores…",
+      "definition": "Analizar las máquinas térmicas como máquinas frigoríficas, bombas de calor y motores térmicos, aplicando conocimientos interdisciplinares, para comprender su funcionamiento, realizar simulaciones y cálculos básicos sobre su eficiencia, y transmitir de forma clara y precisa, en diferentes formatos y haciendo uso de las herramientas digitales adecuadas, los elementos más relevantes del análisis.",
+      "broader": "ce:BXECC4",
+      "bloque": "bc:BXEC02BC4",
+      "descriptores": [
+        "CCL1",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4"
+      ],
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BXEC02CE4.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BXEC02CE4.3",
+      "prefLabel": "BXEC02CE4.3 · Interpretar y solucionar esquemas de sistemas neumáticos e hidráulicos, proponiendo ideas…",
+      "definition": "Interpretar y solucionar esquemas de sistemas neumáticos e hidráulicos, proponiendo ideas creativas, a través de montajes o simulaciones, comprendiendo y documentando el funcionamiento de cada uno de sus elementos y del sistema en su totalidad.",
+      "broader": "ce:BXECC4",
+      "bloque": "bc:BXEC02BC4",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BXEC02CE4.4",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BXEC02CE4.4",
+      "prefLabel": "BXEC02CE4.4 · Interpretar y resolver circuitos de corriente alterna mediante montajes o simulaciones,…",
+      "definition": "Interpretar y resolver circuitos de corriente alterna mediante montajes o simulaciones, identificando sus elementos, comprendiendo su funcionamiento y documentando los resultados obtenidos.",
+      "broader": "ce:BXECC4",
+      "bloque": "bc:BXEC02BC4",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BXEC02CE4.5",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BXEC02CE4.5",
+      "prefLabel": "BXEC02CE4.5 · Experimentar y diseñar circuitos combinacionales y secuenciales físicos y simulados…",
+      "definition": "Experimentar y diseñar circuitos combinacionales y secuenciales físicos y simulados aplicando fundamentos de la electrónica digital, comprendiendo y documentando su funcionamiento en el diseño de soluciones tecnológicas creativas.",
+      "broader": "ce:BXECC4",
+      "bloque": "bc:BXEC02BC4",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BXEC02CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BXEC02CE5.1",
+      "prefLabel": "BXEC02CE5.1 · Analizar y simular procesos tecnológicos basados en sistemas de lazo abierto y cerrado…",
+      "definition": "Analizar y simular procesos tecnológicos basados en sistemas de lazo abierto y cerrado para comprender su funcionamiento y finalidad, aplicando técnicas de simplificación y analizando su estabilidad para obtener resultados eficaces.",
+      "broader": "ce:BXECC5",
+      "bloque": "bc:BXEC02BC5",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CPSAA1.1",
+        "CE3"
+      ],
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BXEC02CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BXEC02CE5.2",
+      "prefLabel": "BXEC02CE5.2 · Conocer y evaluar sistemas informáticos emergentes y sus implicaciones en la seguridad de…",
+      "definition": "Conocer y evaluar sistemas informáticos emergentes y sus implicaciones en la seguridad de los datos y la privacidad de las personas, analizando modelos existentes.",
+      "broader": "ce:BXECC5",
+      "bloque": "bc:BXEC02BC5",
+      "descriptores": [
+        "STEM2",
+        "CD2",
+        "CD3",
+        "CD5",
+        "CPSAA1.1"
+      ],
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BXEC02CE6.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BXEC02CE6.1",
+      "prefLabel": "BXEC02CE6.1 · Analizar los distintos sistemas de ingeniería desde el punto de vista de la…",
+      "definition": "Analizar los distintos sistemas de ingeniería desde el punto de vista de la responsabilidad social y la sostenibilidad, realizando búsquedas de información veraz a través del uso de fuentes fiables de información para estudiar las características de eficiencia energética asociadas a los materiales y a los procesos de fabricación de los sistemas tecnológicos y generar documentación con sus especificaciones.",
+      "broader": "ce:BXECC6",
+      "bloque": "bc:BXEC02BC6",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM2",
+        "STEM5",
+        "CD1",
+        "CD2",
+        "CD4",
+        "CPSAA2",
+        "CC4",
+        "CE1"
+      ],
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "BXEC02SBI",
+      "prefLabel": "BXEC02SBI · I. Proyectos de investigación y desarrollo",
+      "definition": "Proyectos de investigación y desarrollo",
+      "broader": "materia:BXEC",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "BXEC02SBII",
+      "prefLabel": "BXEC02SBII · II. Materiales y fabricación",
+      "definition": "Materiales y fabricación",
+      "broader": "materia:BXEC",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "BXEC02SBIII",
+      "prefLabel": "BXEC02SBIII · III. Sistemas mecánicos",
+      "definition": "Sistemas mecánicos",
+      "broader": "materia:BXEC",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "BXEC02SBIV",
+      "prefLabel": "BXEC02SBIV · IV. Sistemas eléctricos y electrónicos",
+      "definition": "Sistemas eléctricos y electrónicos",
+      "broader": "materia:BXEC",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBV",
+      "tipo": "BloqueSaberes",
+      "notation": "BXEC02SBV",
+      "prefLabel": "BXEC02SBV · V. Sistemas informáticos emergentes",
+      "definition": "Sistemas informáticos emergentes",
+      "broader": "materia:BXEC",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBVI",
+      "tipo": "BloqueSaberes",
+      "notation": "BXEC02SBVI",
+      "prefLabel": "BXEC02SBVI · VI. Sistemas automáticos",
+      "definition": "Sistemas automáticos",
+      "broader": "materia:BXEC",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBVII",
+      "tipo": "BloqueSaberes",
+      "notation": "BXEC02SBVII",
+      "prefLabel": "BXEC02SBVII · VII. Tecnología sostenible",
+      "definition": "Tecnología sostenible",
+      "broader": "materia:BXEC",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "BXEC02SBI.1",
+      "prefLabel": "BXEC02SBI.1 · Uso de técnicas y estrategias adecuadas para la gestión y desarrollo de proyectos y para…",
+      "definition": "Uso de técnicas y estrategias adecuadas para la gestión y desarrollo de proyectos y para el trabajo en equipo. Incorporación de metodologías ágiles en función de los tipos, características y aplicaciones necesarias para desarrollar distintos prototipos.",
+      "broader": "sb:BXEC02SBI",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "BXEC02SBI.2",
+      "prefLabel": "BXEC02SBI.2 · Elaboración de la documentación técnica necesaria para la presentación, difusión y…",
+      "definition": "Elaboración de la documentación técnica necesaria para la presentación, difusión y comunicación de las soluciones planteadas, estableciendo las referencias adecuadas.",
+      "broader": "sb:BXEC02SBI",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "BXEC02SBI.3",
+      "prefLabel": "BXEC02SBI.3 · Valoración del error y la reevaluación como parte esencial en la mejora del proceso de…",
+      "definition": "Valoración del error y la reevaluación como parte esencial en la mejora del proceso de aprendizaje. Desarrollo de estrategias que permitan la identificación y gestión de emociones y fomenten la autoconfianza e iniciativa.",
+      "broader": "sb:BXEC02SBI",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "BXEC02SBI.4",
+      "prefLabel": "BXEC02SBI.4 · Resolución de problemas desde una perspectiva interdisciplinar de la actividad…",
+      "definition": "Resolución de problemas desde una perspectiva interdisciplinar de la actividad tecnológica, fomentando el emprendimiento, la resiliencia, la perseverancia y la creatividad.",
+      "broader": "sb:BXEC02SBI",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "BXEC02SBII.1",
+      "prefLabel": "BXEC02SBII.1 · Estudio y análisis de la estructura interna de los materiales, propiedades…",
+      "definition": "Estudio y análisis de la estructura interna de los materiales, propiedades características y procedimientos de ensayo.",
+      "broader": "sb:BXEC02SBII",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "BXEC02SBII.2",
+      "prefLabel": "BXEC02SBII.2 · Estudio y aplicación de técnicas de diseño y tratamientos adecuados para mejorar y…",
+      "definition": "Estudio y aplicación de técnicas de diseño y tratamientos adecuados para mejorar y modificar las propiedades y sostenibilidad de los materiales.",
+      "broader": "sb:BXEC02SBII",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "BXEC02SBII.3",
+      "prefLabel": "BXEC02SBII.3 · Análisis de técnicas de fabricación industrial.",
+      "definition": "Análisis de técnicas de fabricación industrial.",
+      "broader": "sb:BXEC02SBII",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "BXEC02SBII.4",
+      "prefLabel": "BXEC02SBII.4 · Aplicación de las normas de seguridad e higiene en el trabajo.",
+      "definition": "Aplicación de las normas de seguridad e higiene en el trabajo.",
+      "broader": "sb:BXEC02SBII",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "BXEC02SBIII.1",
+      "prefLabel": "BXEC02SBIII.1 · Análisis de estructuras sencillas y aplicación en proyectos y prototipos. Identificación…",
+      "definition": "Análisis de estructuras sencillas y aplicación en proyectos y prototipos. Identificación de Tipos de cargas, estabilidad y realización de cálculos básicos. Montaje o simulación de ejemplos sencillos.",
+      "broader": "sb:BXEC02SBIII",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "BXEC02SBIII.2",
+      "prefLabel": "BXEC02SBIII.2 · Identificación y descripción de las características de las diferentes máquinas térmicas:…",
+      "definition": "Identificación y descripción de las características de las diferentes máquinas térmicas: máquina frigorífica, bomba de calor y motores térmicos. Realización de cálculos básicos asociados a las mismas, implementación de simulaciones y análisis de aplicaciones industriales y domésticas.",
+      "broader": "sb:BXEC02SBIII",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "BXEC02SBIII.3",
+      "prefLabel": "BXEC02SBIII.3 · Descripción, análisis y aplicación de los componentes y principios físicos relacionados…",
+      "definition": "Descripción, análisis y aplicación de los componentes y principios físicos relacionados con los sistemas de neumática e hidráulica. Diseño de circuitos hidráulicos y neumáticos mediante esquemas característicos para la resolución de problemas. Realización de montajes físicos o simulados.",
+      "broader": "sb:BXEC02SBIII",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "BXEC02SBIV.1",
+      "prefLabel": "BXEC02SBIV.1 · Análisis de circuitos de corriente alterna. Aplicación del triángulo de potencias y…",
+      "definition": "Análisis de circuitos de corriente alterna. Aplicación del triángulo de potencias y realización de cálculos, y montajes o simulación de los mismos.",
+      "broader": "sb:BXEC02SBIV",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "BXEC02SBIV.2",
+      "prefLabel": "BXEC02SBIV.2 · Diseño y simplificación de circuitos combinacionales mediante mapas de Karnaugh.…",
+      "definition": "Diseño y simplificación de circuitos combinacionales mediante mapas de Karnaugh. Experimentación en simuladores.",
+      "broader": "sb:BXEC02SBIV",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "BXEC02SBIV.3",
+      "prefLabel": "BXEC02SBIV.3 · Aplicaciones de la electrónica digital secuencial. Experimentación en simuladores.",
+      "definition": "Aplicaciones de la electrónica digital secuencial. Experimentación en simuladores.",
+      "broader": "sb:BXEC02SBIV",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBV.1",
+      "tipo": "SaberBasico",
+      "notation": "BXEC02SBV.1",
+      "prefLabel": "BXEC02SBV.1 · Identificación y análisis de aplicaciones de inteligencia artificial, big data y bases de…",
+      "definition": "Identificación y análisis de aplicaciones de inteligencia artificial, big data y bases de datos distribuidas. Valoración de la importancia de la ciberseguridad, realizando análisis de estrategias y aplicaciones que permitan favorecerla.",
+      "broader": "sb:BXEC02SBV",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBVI.1",
+      "tipo": "SaberBasico",
+      "notation": "BXEC02SBVI.1",
+      "prefLabel": "BXEC02SBVI.1 · Aplicación del álgebra de bloques para la simplificación de sistemas. Identificación de…",
+      "definition": "Aplicación del álgebra de bloques para la simplificación de sistemas. Identificación de condiciones de estabilidad en los sistemas automáticos y experimentación en simuladores.",
+      "broader": "sb:BXEC02SBVI",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBVII.1",
+      "tipo": "SaberBasico",
+      "notation": "BXEC02SBVII.1",
+      "prefLabel": "BXEC02SBVII.1 · Análisis y valoración crítica del impacto social y ambiental generado por los procesos…",
+      "definition": "Análisis y valoración crítica del impacto social y ambiental generado por los procesos tecnológicos.",
+      "broader": "sb:BXEC02SBVII",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BXEC02SBVII.1.1",
+      "tipo": "SaberBasico",
+      "notation": "BXEC02SBVII.1.1",
+      "prefLabel": "BXEC02SBVII.1.1 · Realización de informes sencillos de evaluación ambiental.",
+      "definition": "Realización de informes sencillos de evaluación ambiental.",
+      "broader": "sb:BXEC02SBVII.1",
+      "materia": "materia:BXEC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    }
+  ]
+}

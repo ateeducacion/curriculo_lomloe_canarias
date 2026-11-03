@@ -1,0 +1,44 @@
+name: Publicar versión
+
+on:
+  push:
+    tags: ['v*.*.*']
+
+permissions:
+  contents: write
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Construir ficheros de publicación
+        run: python -m herramientas.construir --comprobar --dist --version "${GITHUB_REF_NAME#v}"
+
+      - name: Contrastar con los documentos oficiales
+        run: python -m herramientas.contrastar
+
+      - name: Crear la versión en GitHub
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          {
+            echo "## Cambios"
+            echo ""
+            echo "Ver CHANGELOG.md."
+            echo ""
+            cat informes/resumen.md
+          } > notas.md
+          gh release create "$GITHUB_REF_NAME" \
+            dist/curriculo.json dist/curriculo.json.sha256 dist/curriculo-csv.zip \
+            --title "Currículo LOMLOE Canarias $GITHUB_REF_NAME" \
+            --notes-file notas.md

@@ -1,0 +1,1253 @@
+# Manifiesto de fuentes oficiales del currículo.
+#
+# Cada documento indica su norma, el enlace oficial y, cuando se ha descargado,
+# el fichero local en fuentes/documentos/, su sha256 y la fecha de descarga.
+# «materias» es una propuesta automática por denominación: REVISAR.
+# «secciones» indica qué rótulo del documento corresponde a qué materia y curso;
+# solo los documentos con fichero y secciones se contrastan en la CI.
+#
+# Enlaces tomados de las páginas de currículos de la Consejería (consultadas el 03-11-2026).
+normas:
+- id: decreto-196-2022
+  titulo: Decreto 196/2022, de 13 de octubre, por el que se establece la ordenación y el currículo de la Educación Infantil en la Comunidad Autónoma de Canarias
+  boletin: BOC n.º 212, de 26-10-2022
+  url: http://www.gobiernodecanarias.org/boc/2022/212/001.html
+  correcciones:
+  - boletin: BOC n.º 214, de 28-10-2022
+    url: http://www.gobiernodecanarias.org/boc/2022/214/002.html
+- id: decreto-211-2022
+  titulo: Decreto 211/2022, de 10 de noviembre, por el que se establece la ordenación y el currículo de la Educación Primaria en la Comunidad Autónoma de Canarias
+  boletin: BOC n.º 231, de 23-11-2022
+  url: http://www.gobiernodecanarias.org/boc/2022/231/001.html
+- id: decreto-30-2023
+  titulo: Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Canarias
+  boletin: BOC n.º 58, de 23-03-2023
+  url: http://www.gobiernodecanarias.org/boc/2023/058/001.html
+- id: decreto-78-2025
+  titulo: Decreto 78/2025, de 2 de junio, por el que se establece el currículo de las materias optativas de la etapa del Bachillerato en la Comunidad Autónoma de Canarias
+  boletin: BOC n.º 112, de 09-06-2025
+  url: https://www.gobiernodecanarias.org/boc/2025/112/2086.html
+- id: decreto-86-2025
+  titulo: Decreto 86/2025, de 30 de junio, por el que se establece el currículo de los ámbitos de los Programas de Diversificación Curricular en la Comunidad Autónoma de Canarias
+  boletin: BOC n.º 133, de 07-07-2025
+  url: https://www.gobiernodecanarias.org/boc/2025/133/2484.html
+anexos_competencias:
+- etapa: etapa:INF
+  titulo: Anexo 1. Competencias clave en la Educación Infantil
+  url: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/infantil/borradores_curriculos/anexo_1_competencias_clave_infantil.pdf
+- etapa: etapa:PRI
+  titulo: Anexo 1. Perfil de salida del alumnado al término de la enseñanza básica (Primaria)
+  url: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/curriculo-primaria/borrador_curriculo_2023/anexo_1_curriculo-educacion-PRIMARIA.pdf
+- etapa: etapa:ESO
+  titulo: Anexo 1. Perfil de salida del alumnado al término de la enseñanza básica y competencias clave en el Bachillerato
+  url: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/secundaria/_galeria/descargas/ordenacion-curriculo-lomloe/anexo-1-decreto-30-ordenacion-curriculo-eso-bachillerato.pdf
+- etapa: etapa:BAC
+  titulo: Anexo 1. Perfil de salida del alumnado al término de la enseñanza básica y competencias clave en el Bachillerato
+  url: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/secundaria/_galeria/descargas/ordenacion-curriculo-lomloe/anexo-1-decreto-30-ordenacion-curriculo-eso-bachillerato.pdf
+pendientes_de_decidir:
+- 'Concreciones del silbo gomero (Primaria y ESO): publicadas como borrador; ¿entran en el corpus?'
+- 'Currículos de Religión: los publica el BOE (Ministerio); ¿entran en el corpus?'
+documentos:
+- id: eso-biologia-y-geologia
+  etapa: S
+  denominacion: Biología y Geología
+  cursos: 1.º, 3.º y 4.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Biologia_geologia_ESO.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SBIG
+- id: eso-cultura-clasica
+  etapa: S
+  denominacion: Cultura Clásica
+  cursos: 3.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Cultura_clasica_ESO.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SCUC
+- id: eso-cultura-y-ciudadania-digital
+  etapa: S
+  denominacion: Cultura y Ciudadanía Digital
+  cursos: 3.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Cultura_y_Ciudadania_digital_ESO.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SCUJ
+- id: eso-digitalizacion
+  etapa: S
+  denominacion: Digitalización
+  cursos: 4.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Digitalizacion_ESO.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SDAG
+- id: eso-economia-personal-y-social
+  etapa: S
+  denominacion: Economía Personal y Social
+  cursos: 3.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Economia_personal_y_social.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SECZ
+- id: eso-economia-y-emprendimiento
+  etapa: S
+  denominacion: Economía y Emprendimiento
+  cursos: 4.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Economia_y_emprendimiento.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SEC3
+- id: eso-educacion-en-valores-civicos-y-eticos
+  etapa: S
+  denominacion: Educación en Valores Cívicos y Éticos
+  cursos: 1.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Educacion_en_valores_civicos_y_eticos.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SEDK
+- id: eso-educacion-fisica
+  etapa: S
+  denominacion: Educación Física
+  cursos: 1.º a 4.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Educacion_Fisica_ESO.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SEFI
+- id: eso-educacion-plastica-visual-y-audiovisual
+  etapa: S
+  denominacion: Educación Plástica, Visual y Audiovisual
+  cursos: 1.º, 2.º y 3.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Educacion_Plastica_Visual_y_Audiovisual_ESO.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SEUP
+- id: eso-expresion-artistica
+  etapa: S
+  denominacion: Expresión Artística
+  cursos: 4.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Expresion_Artistica_ESO.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SEXB
+- id: eso-filosofia
+  etapa: S
+  denominacion: Filosofía
+  cursos: 4.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Filosofia_ESO.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SFIL
+- id: eso-fisica-y-quimica
+  etapa: S
+  denominacion: Física y Química
+  cursos: 2.º, 3.º y 4.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Fisica_quimica_ESO.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SFYQ
+- id: eso-formacion-y-orientacion-personal-y-profesional
+  etapa: S
+  denominacion: Formación y Orientación Personal y Profesional
+  cursos: 4.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Formacion_orientacion_personal_profesional_ESO.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SFO5
+- id: eso-geografia-e-historia
+  etapa: S
+  denominacion: Geografía e Historia
+  cursos: 1.º a 4.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Geografia_historia_ESO.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SGEH
+- id: eso-historia-y-geografia-de-canarias
+  etapa: S
+  denominacion: Historia y Geografía de Canarias
+  cursos: 3.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Historia_geografia_de_Canarias_ESO.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SHOF
+- id: eso-latin
+  etapa: S
+  denominacion: Latín
+  cursos: 4.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Latin_ESO.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SLAT
+- id: eso-lengua-castellana-y-literatura
+  etapa: S
+  denominacion: Lengua Castellana y Literatura
+  cursos: 1.º a 4.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/lengua_castellana_literatura_ESO.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SLCL
+- id: eso-lengua-extranjera
+  etapa: S
+  denominacion: Lengua Extranjera
+  cursos: 1.º a 4.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Lengua_extranjera_ESO.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SLNT
+- id: eso-matematicas
+  etapa: S
+  denominacion: Matemáticas
+  cursos: 1.º a 4.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Matematicas_ESO.odt
+  fichero: eso/Matematicas_ESO.odt
+  sha256: 606aa8993c0e1113bd80e28910cd8be024f304f79c2f9dc130a01d2278311c9b
+  descargado: null
+  nota: Fichero aportado al proyecto; la fecha de descarga original no consta.
+  materias:
+  - SMAT
+  - SMMA
+  - SMMB
+  secciones:
+    1.º ESO:
+      materia: SMAT
+      curso: '01'
+    2.º ESO:
+      materia: SMAT
+      curso: '02'
+    3.º ESO:
+      materia: SMAT
+      curso: '03'
+    Matemáticas A:
+      materia: SMMA
+      curso: '04'
+    Matemáticas B:
+      materia: SMMB
+      curso: '04'
+- id: eso-musica
+  etapa: S
+  denominacion: Música
+  cursos: 1.º a 4.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Musica_ESO.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SMUS
+- id: eso-segunda-lengua-extranjera
+  etapa: S
+  denominacion: Segunda Lengua Extranjera
+  cursos: 1.º a 4.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Segunda_lengua_extranjera_ESO.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SSGA
+  - SSGD
+  - SSGN
+- id: eso-tecnologia
+  etapa: S
+  denominacion: Tecnología
+  cursos: 4.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Tecnologia_ESO.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - STEE
+- id: eso-tecnologia-y-digitalizacion
+  etapa: S
+  denominacion: Tecnología y Digitalización
+  cursos: 1.º, 2.º y 3.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Tecnologia_digitalizacion_ESO.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SUEC
+- id: eso-ambito-linguistico-y-social
+  etapa: S
+  denominacion: Ámbito Lingüístico y Social
+  cursos: PDC 1.º y 2.º
+  norma: decreto-86-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/anexo_1_curriculos_pdc_eso_LS.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SMBS
+- id: eso-ambito-cientifico-tecnologico
+  etapa: S
+  denominacion: Ámbito Científico-Tecnológico
+  cursos: PDC 1.º y 2.º
+  norma: decreto-86-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/anexo_2_curriculo_pdc_eso_ACT.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SAMB
+- id: eso-ambito-practico
+  etapa: S
+  denominacion: Ámbito Práctico
+  cursos: PDC 2.º
+  norma: decreto-86-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/anexo_3_curriculo_pdc_eso__AP.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - SAM3
+- id: primaria-conocimiento-del-medio-natural-social-y-cultural
+  etapa: P
+  denominacion: Conocimiento del Medio Natural, Social y Cultural
+  cursos: ciclos 1.º, 2.º y 3.º
+  norma: decreto-211-2022
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/curriculo-primaria/borrador_curriculo_2023/anexo_2_curriculo-conocimiento_medio.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - PC9N
+- id: primaria-educacion-artistica
+  etapa: P
+  denominacion: Educación Artística
+  cursos: ciclos 1.º, 2.º y 3.º
+  norma: decreto-211-2022
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/curriculo-primaria/borrador_curriculo_2023/anexo_2_curriculo-educacion_artistica.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - PEAR
+- id: primaria-educacion-en-valores-civicos-y-eticos
+  etapa: P
+  denominacion: Educación en Valores Cívicos y Éticos
+  cursos: ciclo 3.º
+  norma: decreto-211-2022
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/curriculo-primaria/borrador_curriculo_2023/anexo_2_curriculo-valores-civicos-eticos.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - PVAL
+- id: primaria-educacion-fisica
+  etapa: P
+  denominacion: Educación Física
+  cursos: ciclos 1.º, 2.º y 3.º
+  norma: decreto-211-2022
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/curriculo-primaria/borrador_curriculo_2023/anexo_2_curriculo-educacion_fisica.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - PEFI
+- id: primaria-lengua-castellana-y-literatura
+  etapa: P
+  denominacion: Lengua Castellana y Literatura
+  cursos: ciclos 1.º, 2.º y 3.º
+  norma: decreto-211-2022
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/curriculo-primaria/borrador_curriculo_2023/anexo_2_curriculo-lengua-castellana.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - PLCL
+- id: primaria-lengua-extranjera
+  etapa: P
+  denominacion: Lengua Extranjera
+  cursos: ciclos 1.º, 2.º y 3.º
+  norma: decreto-211-2022
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/curriculo-primaria/borrador_curriculo_2023/anexo_2__curriculo-lengua-extranjera.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - PPLW
+- id: primaria-educacion-emocional-y-para-la-creatividad
+  etapa: P
+  denominacion: Educación Emocional y para la Creatividad
+  cursos: ciclos 1.º, 2.º y 3.º
+  norma: decreto-211-2022
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/curriculo-primaria/borrador_curriculo_2023/anexo_2_curriculo-educacion_emocional_para_creatividad.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - PEUM
+- id: primaria-segunda-lengua-extranjera
+  etapa: P
+  denominacion: Segunda Lengua Extranjera
+  cursos: ciclo 3.º
+  norma: decreto-211-2022
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/curriculo-primaria/borrador_curriculo_2023/anexo_2_curriculo_segunda_lengua_extranjera.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - PSGA
+  - PSGN
+- id: primaria-matematicas
+  etapa: P
+  denominacion: Matemáticas
+  cursos: ciclos 1.º, 2.º y 3.º
+  norma: decreto-211-2022
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/curriculo-primaria/borrador_curriculo_2022/curriculo-educacion-PRIMARIA_Matematicas.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - PMAT
+- id: infantil-crecimiento-en-armonia
+  etapa: I
+  denominacion: Crecimiento en Armonía
+  cursos: ciclos 1.º y 2.º
+  norma: decreto-196-2022
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/infantil/borradores_curriculos/Area_1_Crecimiento_en_Armonia.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - ICR4
+- id: infantil-descubrimiento-y-exploracion-del-entorno
+  etapa: I
+  denominacion: Descubrimiento y Exploración del Entorno
+  cursos: ciclos 1.º y 2.º
+  norma: decreto-196-2022
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/infantil/borradores_curriculos/area_2_descubrimiento_exploracion_entorno_infantil.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - IDE3
+- id: infantil-comunicacion-y-representacion-de-la-realidad
+  etapa: I
+  denominacion: Comunicación y Representación de la Realidad
+  cursos: ciclos 1.º y 2.º
+  norma: decreto-196-2022
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/infantil/borradores_curriculos/Area_3_Comunicacion_y_Representacion_de_la_Realidad.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - IC4M
+  - IC5M
+- id: bachillerato-analisis-musical-i-y-ii
+  etapa: B
+  denominacion: Análisis Musical I y II
+  cursos: 1.º y 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Analisis_Musical_I_y_II_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BAMS
+  - BAMC
+- id: bachillerato-artes-escenicas-i-y-ii
+  etapa: B
+  denominacion: Artes Escénicas I y II
+  cursos: 1.º y 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Artes_Escenicas_I_y_II_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BAR6
+  - BAR7
+- id: bachillerato-biologia
+  etapa: B
+  denominacion: Biología
+  cursos: 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Biologia_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BBIO
+- id: bachillerato-biologia-geologia-y-ciencias-ambientales
+  etapa: B
+  denominacion: Biología, Geología y Ciencias Ambientales
+  cursos: 1.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Biologia_y_Geologia_y_Ciencias_Ambientales_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BBIR
+- id: bachillerato-ciencias-generales
+  etapa: B
+  denominacion: Ciencias Generales
+  cursos: 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Ciencias_Generales_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BCIK
+- id: bachillerato-coro-y-tecnica-vocal-i-y-ii
+  etapa: B
+  denominacion: Coro y Técnica Vocal I y II
+  cursos: 1.º y 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Coro_y_Tecnica_Vocal_I_y_II_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BCBR
+  - BCHR
+- id: bachillerato-cultura-audiovisual
+  etapa: B
+  denominacion: Cultura Audiovisual
+  cursos: 1.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Cultura_Audiovisual_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BCLD
+- id: bachillerato-dibujo-artistico-i-y-ii
+  etapa: B
+  denominacion: Dibujo Artístico I y II
+  cursos: 1.º y 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Dibujo_Artistico_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BDAI
+  - BDII
+- id: bachillerato-dibujo-tecnico-aplicado-a-las-artes-plasticas-y-al-diseno-i-y-ii
+  etapa: B
+  denominacion: Dibujo Técnico Aplicado a las Artes Plásticas y al Diseño I y II
+  cursos: 1.º y 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Dibujo_Tecnico_Aplicado_a_las_Artes_Plasticas_y_al_Diseno.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BDDB
+  - BDFB
+- id: bachillerato-dibujo-tecnico-i-y-ii
+  etapa: B
+  denominacion: Dibujo Técnico I y II
+  cursos: 1.º y 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Dibujo_Tecnico_I_y_II_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BDBT
+  - BDBC
+- id: bachillerato-diseno
+  etapa: B
+  denominacion: Diseño
+  cursos: 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Diseno_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BDIS
+- id: bachillerato-economia
+  etapa: B
+  denominacion: Economía
+  cursos: 1.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Economia_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BECO
+- id: bachillerato-economia-emprendimiento-y-actividad-empresarial
+  etapa: B
+  denominacion: Economía, Emprendimiento y Actividad Empresarial
+  cursos: 1.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Economia_Emprendimiento_y_Actividad_Empresarial_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BEC1
+- id: bachillerato-educacion-fisica
+  etapa: B
+  denominacion: Educación Física
+  cursos: 1.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Educacion_Fisica_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BEFI
+- id: bachillerato-empresa-y-diseno-de-modelos-de-negocio
+  etapa: B
+  denominacion: Empresa y Diseño de Modelos de Negocio
+  cursos: 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Empresa_y_Diseno_Modelos_de_Negocio_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BEMJ
+- id: bachillerato-filosofia
+  etapa: B
+  denominacion: Filosofía
+  cursos: 1.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Filosofia_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BFIL
+- id: bachillerato-fisica
+  etapa: B
+  denominacion: Física
+  cursos: 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Fisica_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BFIC
+- id: bachillerato-fisica-y-quimica
+  etapa: B
+  denominacion: Física y Química
+  cursos: 1.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Fisica_y_Quimica_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BFYQ
+- id: bachillerato-fundamentos-artisticos
+  etapa: B
+  denominacion: Fundamentos Artísticos
+  cursos: 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Fundamentos_Artisticos_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BFU1
+- id: bachillerato-geografia
+  etapa: B
+  denominacion: Geografía
+  cursos: 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Geografia_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BGER
+- id: bachillerato-geologia-y-ciencias-ambientales
+  etapa: B
+  denominacion: Geología y Ciencias Ambientales
+  cursos: 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Geologia_y_Ciencias_Ambientales_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BGAO
+- id: bachillerato-griego-i-y-ii
+  etapa: B
+  denominacion: Griego I y II
+  cursos: 1.º y 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Griego_I_y_II_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BGRO
+  - BGRE
+- id: bachillerato-historia-de-espana
+  etapa: B
+  denominacion: Historia de España
+  cursos: 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Historia_de_Espana_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BHIA
+- id: bachillerato-historia-de-la-filosofia
+  etapa: B
+  denominacion: Historia de la Filosofía
+  cursos: 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Historia_de_la_Filosofia_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BHFI
+- id: bachillerato-historia-de-la-musica-y-la-danza
+  etapa: B
+  denominacion: Historia de la Música y la Danza
+  cursos: 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Historia_de_la_Musica_y_la_danza_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BHTZ
+- id: bachillerato-historia-del-arte
+  etapa: B
+  denominacion: Historia del Arte
+  cursos: 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Historia_del_Arte_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BHAR
+- id: bachillerato-historia-del-mundo-contemporaneo
+  etapa: B
+  denominacion: Historia del Mundo Contemporáneo
+  cursos: 1.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Historia_del_Mundo_Contemporanea_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BHMC
+- id: bachillerato-latin-i-y-ii
+  etapa: B
+  denominacion: Latín I y II
+  cursos: 1.º y 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Latin_I_y_II_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BLAI
+  - BLII
+- id: bachillerato-lengua-castellana-y-literatura-i-y-ii
+  etapa: B
+  denominacion: Lengua Castellana y Literatura I y II
+  cursos: 1.º y 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Lengua_Literatura_Castellana_I_y_II_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BLEY
+  - BLNG
+- id: bachillerato-lengua-extranjera-i-y-ii
+  etapa: B
+  denominacion: Lengua Extranjera I y II
+  cursos: 1.º y 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Lengua_Extranjera_I_y_II_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BLA1
+  - BLF1
+  - BLI1
+  - BLT1
+  - BLA2
+  - BLF2
+  - BLI2
+  - BLT2
+- id: bachillerato-lenguaje-y-practica-musical
+  etapa: B
+  denominacion: Lenguaje y Práctica Musical
+  cursos: 1.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Lenguaje_practica_musical_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BLPM
+- id: bachillerato-literatura-dramatica
+  etapa: B
+  denominacion: Literatura Dramática
+  cursos: 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Literatura_Dramatica_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BLIX
+- id: bachillerato-literatura-universal
+  etapa: B
+  denominacion: Literatura Universal
+  cursos: 1.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Literatura_Universal_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BLIE
+- id: bachillerato-matematicas-aplicadas-a-las-ciencias-sociales-i-y-ii
+  etapa: B
+  denominacion: Matemáticas Aplicadas a las Ciencias Sociales I y II
+  cursos: 1.º y 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Matematicas_aplicadas_a_las_Cinecias_Sociales_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BMCI
+  - BAII
+- id: bachillerato-matematicas-generales
+  etapa: B
+  denominacion: Matemáticas Generales
+  cursos: 1.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Matematicas_generales_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BMZT
+- id: bachillerato-matematicas-i-y-ii
+  etapa: B
+  denominacion: Matemáticas I y II
+  cursos: 1.º y 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Matematicas_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BMTI
+  - BMII
+- id: bachillerato-movimientos-culturales-y-artisticos
+  etapa: B
+  denominacion: Movimientos Culturales y Artísticos
+  cursos: 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Movimientos_Culturales_y_Artisticos_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BMFV
+- id: bachillerato-proyectos-artisticos
+  etapa: B
+  denominacion: Proyectos Artísticos
+  cursos: 1.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Proyectos_Artisticos_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - B6RO
+- id: bachillerato-quimica
+  etapa: B
+  denominacion: Química
+  cursos: 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Quimica_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BQUI
+- id: bachillerato-segunda-lengua-extranjera-i-y-ii
+  etapa: B
+  denominacion: Segunda Lengua Extranjera I y II
+  cursos: 1.º y 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Segunda_Lengua_Extranjera_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BSA1
+  - BSF1
+  - BSI1
+  - BST1
+  - BSA2
+  - BSF2
+  - BSI2
+  - BST2
+- id: bachillerato-tecnicas-de-expresion-grafico-plastica
+  etapa: B
+  denominacion: Técnicas de Expresión Gráfico-Plástica
+  cursos: 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Tecnicas_de_Expresion_Grafico_Plasticas.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BTEP
+- id: bachillerato-tecnologia-e-ingenieria-i-y-ii
+  etapa: B
+  denominacion: Tecnología e Ingeniería I y II
+  cursos: 1.º y 2.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Tecnologia_e_Ingenieria_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BWEC
+  - BXEC
+- id: bachillerato-volumen
+  etapa: B
+  denominacion: Volumen
+  cursos: 1.º
+  norma: decreto-30-2023
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Volumen_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BVOL
+- id: bachillerato-anatomia-aplicada
+  etapa: B
+  denominacion: Anatomía Aplicada
+  cursos: 1.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Anatomia-Aplicada_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BAAP
+- id: bachillerato-acondicionamiento-fisico
+  etapa: B
+  denominacion: Acondicionamiento Físico
+  cursos: 2.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Acondicionamiento_Fisico_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BACM
+- id: bachillerato-antropologia-y-sociologia
+  etapa: B
+  denominacion: Antropología y Sociología
+  cursos: 2.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Antropologia_y_Sociologia_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BATR
+- id: bachillerato-biologia-humana
+  etapa: B
+  denominacion: Biología Humana
+  cursos: 2.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/biologia_humana_bach.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BBIL
+- id: bachillerato-bioestadistica
+  etapa: B
+  denominacion: Bioestadística
+  cursos: 2.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Bioestadistica_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BBIE
+- id: bachillerato-cultura-cientifica
+  etapa: B
+  denominacion: Cultura Científica
+  cursos: 1.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Cultura_Cientifica_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BCUF
+- id: bachillerato-electrotecnia
+  etapa: B
+  denominacion: Electrotecnia
+  cursos: 2.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Electrotecnia_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BELE
+- id: bachillerato-fotografia
+  etapa: B
+  denominacion: Fotografía
+  cursos: 1.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Fotografia_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BFOT
+- id: bachillerato-fundamentos-de-administracion-y-gestion
+  etapa: B
+  denominacion: Fundamentos de Administración y Gestión
+  cursos: 2.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Fundamentos_de_Administracion_y_Gestion_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BFUE
+- id: bachillerato-historia-de-canarias
+  etapa: B
+  denominacion: Historia de Canarias
+  cursos: 1.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Historia_de_Canarias_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BHIC
+- id: bachillerato-imagen-y-sonido
+  etapa: B
+  denominacion: Imagen y Sonido
+  cursos: 2.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Imagen_y_Sonido_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BIYS
+- id: bachillerato-iniciacion-a-la-astronomia
+  etapa: B
+  denominacion: Iniciación a la Astronomía
+  cursos: 1.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Iniciacion_a_la_Astronomia_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BIAS
+- id: bachillerato-informatica-y-digitalizacion-i-y-ii
+  etapa: B
+  denominacion: Informática y Digitalización I y II
+  cursos: 1.º y 2.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Informatica_y_Digitalizacion_I_y_II_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BIKF
+  - BIQF
+- id: bachillerato-la-mitologia-y-las-artes
+  etapa: B
+  denominacion: La Mitología y las Artes
+  cursos: 2.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/La_Mitologia_y_las_Artes_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BLAM
+- id: bachillerato-literatura-canaria
+  etapa: B
+  denominacion: Literatura Canaria
+  cursos: 2.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Literatura_Canaria_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BLCA
+- id: bachillerato-juegos-y-deportes-tradicionales-de-canarias
+  etapa: B
+  denominacion: Juegos y Deportes Tradicionales de Canarias
+  cursos: 1.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/juegos_deportes_tradicionales_canarias_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias: []
+- id: bachillerato-medio-natural-canario
+  etapa: B
+  denominacion: Medio Natural Canario
+  cursos: 1.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Medio_Natural_Canario_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BMNC
+- id: bachillerato-taller-de-etimologia-grecolatina
+  etapa: B
+  denominacion: Taller de Etimología Grecolatina
+  cursos: 1.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Taller_de_Etimologia_Grecolatina_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BTA5
+- id: bachillerato-talleres-artisticos
+  etapa: B
+  denominacion: Talleres Artísticos
+  cursos: 1.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Talleres_Artisticos_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BTSA
+- id: bachillerato-tecnicas-de-laboratorio
+  etapa: B
+  denominacion: Técnicas de Laboratorio
+  cursos: 1.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Tecnicas_de_laboratorio_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BTIA
+- id: bachillerato-musica-expresion-y-espectaculos
+  etapa: B
+  denominacion: Música, Expresión y Espectáculos
+  cursos: 1.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/musica_expresion_espectaculos_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias: []
+- id: bachillerato-musica-y-sociedad
+  etapa: B
+  denominacion: Música y Sociedad
+  cursos: 2.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Musica_y_Sociedad_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BMYS
+- id: bachillerato-psicologia
+  etapa: B
+  denominacion: Psicología
+  cursos: 2.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Psicologia_BACH.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BPSI
+- id: bachillerato-taller-de-artes-integradas
+  etapa: B
+  denominacion: Taller de Artes Integradas
+  cursos: 2.º (optativa)
+  norma: decreto-78-2025
+  url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Taller_Artes_Integradas.odt
+  fichero: null
+  sha256: null
+  descargado: null
+  materias:
+  - BTA6

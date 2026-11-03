@@ -1,0 +1,44 @@
+name: Validar currículo
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Construir y validar (datos/ debe estar al día)
+        run: python -m herramientas.construir --comprobar --dist
+
+      - name: Contrastar con los documentos oficiales
+        if: always()
+        run: python -m herramientas.contrastar
+
+      - name: Resumen
+        if: always()
+        run: |
+          cat informes/resumen.md >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          cat informes/contraste.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Guardar informes
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: informes
+          path: informes/

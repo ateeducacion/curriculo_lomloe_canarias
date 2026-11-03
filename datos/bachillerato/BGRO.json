@@ -1,0 +1,1249 @@
+{
+  "materia": "materia:BGRO",
+  "nodos": [
+    {
+      "id": "materia:BGRO",
+      "tipo": "Materia",
+      "notation": "BGRO",
+      "prefLabel": "Griego I (Bachillerato)",
+      "cursos": [
+        "curso:B01"
+      ],
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BGROC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BGROC1",
+      "prefLabel": "BGROC1 · Traducir y comprender textos griegos de dificultad creciente y justificarla traducción,…",
+      "definition": "Traducir y comprender textos griegos de dificultad creciente y justificarla traducción, identificando y analizando los aspectos básicos de la lengua griega y sus unidades lingüísticas y reflexionando sobre ellas mediante la comparación con las lenguas de enseñanza y con otras lenguas del repertorio individual del alumnado, para realizar una lectura comprensiva, directa y eficaz y una interpretación razonada de su contenido.",
+      "broader": "materia:BGRO",
+      "materia": "materia:BGRO",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BGROC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BGROC2",
+      "prefLabel": "BGROC2 · Distinguir los étimos y formantes griegos presentes en el léxico de uso cotidiano,…",
+      "definition": "Distinguir los étimos y formantes griegos presentes en el léxico de uso cotidiano, identificando los cambios semánticos que hayan tenido lugar y estableciendo una comparación con las lenguas de enseñanza y otras lenguas del repertorio individual del alumnado, para deducir el significado etimológico del léxico conocido y los significados de léxico nuevo o especializado.",
+      "broader": "materia:BGRO",
+      "materia": "materia:BGRO",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BGROC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BGROC3",
+      "prefLabel": "BGROC3 · Leer, interpretar y comentar textos griegos de diferentes géneros y épocas, asumiendo el…",
+      "definition": "Leer, interpretar y comentar textos griegos de diferentes géneros y épocas, asumiendo el proceso creativo como complejo e inseparable del contexto histórico, social y político y de sus influencias artísticas, para identificar su genealogía y su aportación a la literatura europea.",
+      "broader": "materia:BGRO",
+      "materia": "materia:BGRO",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BGROC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BGROC4",
+      "prefLabel": "BGROC4 · Analizar las características de la civilización griega en el ámbito personal, religioso y…",
+      "definition": "Analizar las características de la civilización griega en el ámbito personal, religioso y sociopolítico, adquiriendo conocimientos sobre el mundo heleno y comparando críticamente el presente y el pasado, para valorar las aportaciones del mundo clásico latino a nuestro entorno como base de una ciudadanía democrática y comprometida.",
+      "broader": "materia:BGRO",
+      "materia": "materia:BGRO",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BGROC5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BGROC5",
+      "prefLabel": "BGROC5 · Valorar críticamente el patrimonio histórico, arqueológico, artístico y cultural heredado…",
+      "definition": "Valorar críticamente el patrimonio histórico, arqueológico, artístico y cultural heredado de la civilización griega, interesándose por su sostenibilidad y reconociéndolo como producto de la creación humana y como testimonio de la historia, para explicar el legado material e inmaterial griego como transmisor de conocimiento y fuente de inspiración de creaciones modernas y contemporáneas.",
+      "broader": "materia:BGRO",
+      "materia": "materia:BGRO",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BGRO01BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "BGRO01BC1",
+      "prefLabel": "Griego I · 1º Bachillerato · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se pretende constatar que el alumnado reconoce el alfabeto griego y sus características fonéticas, gráficas y prosódicas, leyendo textos griegos de manera progresiva y correcta. Deberá ser capaz, además, de analizar morfológica y sintácticamente textos sencillos y aplicar estrategias y herramientas para la traducción de textos griegos y para la resolución de problemas, que contrastará para reformular las hipótesis, al mismo tiempo que lleva a cabo ejercicios muy elementales de retroversión, puesto que la traducción de textos constituye el núcleo del proceso de aprendizaje de las lenguas clásicas. Esto hará que el alumnado sea capaz no solo de expresarse de forma oral y escrita, creando conocimiento e intercambiándolo, sino también de comprender, interpretar y valorar diferentes textos orales,  escritos o multimodales, localizando, seleccionando y contrastando información de diferentes fuentes. Con todo, y a través de actividades de autorreparación, autoevaluación y coevaluación, podrá analizar y valorar, de manera crítica, la diversidad lingüística y cultural, y lograr el desarrollo personal y social.",
+      "broader": "materia:BGRO",
+      "agrupa": [
+        "ce:BGROC1"
+      ],
+      "descriptores": [
+        "CCL2",
+        "CP3",
+        "CD1",
+        "CC1",
+        "CP2",
+        "STEM2",
+        "CCL1",
+        "CCL3",
+        "STEM1",
+        "CPSAA5"
+      ],
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BGRO01BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "BGRO01BC2",
+      "prefLabel": "Griego I · 1º Bachillerato · bloque competencial C2",
+      "scopeNote": "En este bloque competencial se pretende comprobar que el alumnado es capaz de inferir el significado etimológico de los términos griegos mediante el uso de métodos inductivos y deductivos, de modo que permite al alumnado desarrollar y ampliar su repertorio lingüístico individual. Deberá conocer los mecanismos de las lenguas para construir palabras, así como los principales formantes griegos presentes en la lengua cotidiana, las ciencias y la tecnología, al mismo tiempo que busca la adquisición de estrategias que le permitan enriquecer el vocabulario y su expresión oral y escrita para crear lazos léxicos, que faciliten el aprendizaje de otras lenguas o ampliar el conocimiento de las que ya se dominan. Del mismo modo, se pretende que reconozcas helenismos que aparezcan con frecuencias en textos escolares o de otros ámbitos como los medios de comunicación, para comprender la naturaleza propia de la lengua como algo vivo y cambiante a lo largo de los siglos para poner en práctica el uso correcto de la lengua a la hora de analizar, comparar y valorar la información de manera crítica y como desarrollo personal en una sociedad igualitaria y cohesionada.",
+      "broader": "materia:BGRO",
+      "agrupa": [
+        "ce:BGROC2"
+      ],
+      "descriptores": [
+        "CP2",
+        "CP3",
+        "STEM1",
+        "CCL5",
+        "CPSAA4",
+        "CPSAA5"
+      ],
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BGRO01BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "BGRO01BC3",
+      "prefLabel": "Griego I · 1º Bachillerato · bloque competencial C3",
+      "scopeNote": "Desde esta competencia específica se contribuye al desarrollo del alumnado pues deberá ser capaz de interpretar textos clásicos griegos pertenecientes a diferentes géneros y épocas mediante una lectura comprensiva y con actitud crítica, al mismo tiempo que valora la diversidad lingüística y literaria que ofrecen estas obras. Se busca un primer acercamiento a la literatura griega mediante los textos significativos de los distintos géneros y autores, de manera que pueda lograr la autonomía en la lectura y realizar textos en los que refleje los conocimientos adquiridos sobre estas cuestiones y su pervivencia en la literatura posterior, tras un proceso de búsqueda en internet, investigación y comparación de la información, de modo que pueda creación de contenidos digitales y así formar su propio conocimiento en la construcción de la identidad personal y compartirlo en un entorno social, arropado por la diversidad cultural y artística.",
+      "broader": "materia:BGRO",
+      "agrupa": [
+        "ce:BGROC3"
+      ],
+      "descriptores": [
+        "CCL2",
+        "CCL4",
+        "CP3",
+        "CD1",
+        "CCEC1",
+        "CCEC2",
+        "CD2",
+        "CCEC3.2"
+      ],
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BGRO01BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "BGRO01BC4",
+      "prefLabel": "Griego I · 1º Bachillerato · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial se busca comprobar que el alumnado puede entender los tres ejes principales sobre los que se vertebra esta competencia: privado, religioso y sociopolítico, aspectos fundamentales de la sociedad griega, mediante las búsquedas avanzadas de información en distintos soportes, tanto físicos como digitales, pues estas precisan de estrategias para consultar, seleccionar y contrastar información. En este sentido, deberá reconocer varios aspectos como: los enclaves geográficos de mayor relevancia en el devenir de la civilización griega, así como sus hitos históricos, políticos y sociales más relevantes, asociando todos estos aspectos a cada una de las épocas de Grecia; otras religiones basadas en el monoteísmo, el politeísmo o el zoomorfismo; y las características principales de los miembros familiares y sus roles, haciendo especial hincapié en el papel de la mujer en el mundo antiguo. Todo esto tiene como finalidad elaborar producciones haciendo uso de la correcta expresión oral y escrita y solucionar los posibles conflictos mediante la vía del diálogo y de la igualdad de derechos, al mismo tiempo que refuerza un pensamiento propio, crítico, respetuoso y tolerante con la sociedad, en general, y con las personas de su entorno, en particular, sabiendo que existe una variedad diatópica y diacrónica de las distintas culturas, en especial, de la europea occidental.",
+      "broader": "materia:BGRO",
+      "agrupa": [
+        "ce:BGROC4"
+      ],
+      "descriptores": [
+        "CCL3",
+        "CP3",
+        "CC1",
+        "CC2",
+        "CCEC1",
+        "CCL1",
+        "CCL5",
+        "CD1",
+        "CD2",
+        "CPSAA3.1",
+        "CC3"
+      ],
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BGRO01BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "BGRO01BC5",
+      "prefLabel": "Griego I · 1º Bachillerato · bloque competencial C5",
+      "scopeNote": "Este último bloque competencial pretende constatar que el alumnado reconoce y valora el patrimonio, material e inmaterial, que el mundo moderno, en especial, el occidental, debe al legado y a la herencia griegos, analizando los fenómenos históricos y culturales desde un punto de vista objetivo y crítico, pues este es un producto que hay que conservar y preservar por su autenticidad y excepcionalidad histórica. Destaca aquí el uso de la mitología clásica como elemento inspirador para la composición de obras artísticas de todos los tiempos, sobre todo de autores canarios, y el conocimiento del proceso de preservación de yacimientos y monumentos arqueológicos de mayor relevancia dentro de los campos de la ingeniería, el arte y la literatura que se conservan y que están por descubrir. Deberá saber seleccionar los datos adecuados y contrastar la información obtenida a través de diferentes soportes para reflejarlos en la elaboración o reelaboración de producciones de manera guiada en diferentes formatos y plataformas que permitan valorar la pervivencia de lo clásico en Europa y en España, y su repercusión, en particular, en Canarias.",
+      "broader": "materia:BGRO",
+      "agrupa": [
+        "ce:BGROC5"
+      ],
+      "descriptores": [
+        "CCL3",
+        "CP3",
+        "CD2",
+        "CC1",
+        "CC4",
+        "CCEC1",
+        "CCEC2",
+        "CE1"
+      ],
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BGRO01CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BGRO01CE1.1",
+      "prefLabel": "BGRO01CE1.1 · Distinguir los diferentes sistemas de escritura y alfabetos, prestando especial interés…",
+      "definition": "Distinguir los diferentes sistemas de escritura y alfabetos, prestando especial interés en el griego y en sus características fonéticas, gráficas y prosódicas. Reconocer, a su vez, el origen común de las lenguas indoeuropeas y la evolución del griego clásico al moderno, identificando sus diferentes etapas a lo largo de la historia. Todo ello con la finalidad de valorar la lengua como una herramienta comunicativa y cultural, y apreciar la diversidad lingüística que está inmersa en la sociedad actual.",
+      "broader": "ce:BGROC1",
+      "bloque": "bc:BGRO01BC1",
+      "descriptores": [
+        "CCL2",
+        "CP3",
+        "CD1",
+        "CC1"
+      ],
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BGRO01CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BGRO01CE1.2",
+      "prefLabel": "BGRO01CE1.2 · Comprender el concepto de lengua flexiva del griego, reconociendo la flexión nominal y…",
+      "definition": "Comprender el concepto de lengua flexiva del griego, reconociendo la flexión nominal y verbal de las distintas palabras, de manera que sepan clasificarlas mediante su enunciado y declinándolas o conjugándolas según corresponda. A su vez, distinguir las funciones sintácticas de cada caso y su relación con la morfología para una correcta traducción de las palabras y los sintagmas.",
+      "broader": "ce:BGROC1",
+      "bloque": "bc:BGRO01BC1",
+      "descriptores": [
+        "CCL2",
+        "CP2",
+        "STEM2"
+      ],
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BGRO01CE1.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BGRO01CE1.3",
+      "prefLabel": "BGRO01CE1.3 · Realizar lecturas o traducciones directas o inversas de oraciones simples y textos…",
+      "definition": "Realizar lecturas o traducciones directas o inversas de oraciones simples y textos originales o adaptados de dificultad adecuada y progresiva, y preferentemente narrativos, con corrección ortográfica y expresiva, identificando y analizando unidades lingüísticas básicas y regulares de la lengua e iniciándose en el uso adecuado del diccionario bilingüe griego-español, de glosarios o de listas de vocabulario…, con la intención de ir desarrollando destrezas y habilidades propias de los procesos de análisis textual y de la traducción.",
+      "broader": "ce:BGROC1",
+      "bloque": "bc:BGRO01BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CP2",
+        "STEM1",
+        "CD1"
+      ],
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BGRO01CE1.4",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BGRO01CE1.4",
+      "prefLabel": "BGRO01CE1.4 · Revisar y subsanar de manera progresivamente autónoma las traducciones propias y la de…",
+      "definition": "Revisar y subsanar de manera progresivamente autónoma las traducciones propias y la de los compañeros y las compañeras, a partir de los procesos de autoevaluación y coevaluación, realizando propuestas de mejora y adoptando estrategias adecuadas y eficaces para ello.",
+      "broader": "ce:BGROC1",
+      "bloque": "bc:BGRO01BC1",
+      "descriptores": [
+        "CCL1",
+        "CP2",
+        "STEM2",
+        "CPSAA5"
+      ],
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BGRO01CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BGRO01CE2.1",
+      "prefLabel": "BGRO01CE2.1 · Deducir el significado de vocablos griegos de uso común, aplicando estrategias de…",
+      "definition": "Deducir el significado de vocablos griegos de uso común, aplicando estrategias de reconocimiento de étimos y formantes griegos según los cambios fonéticos, morfológicos o semánticos, con el objetivo de aumentar el léxico y el dominio de las lenguas del repertorio del alumnado.",
+      "broader": "ce:BGROC2",
+      "bloque": "bc:BGRO01BC2",
+      "descriptores": [
+        "CP2",
+        "CP3",
+        "STEM1"
+      ],
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BGRO01CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BGRO01CE2.2",
+      "prefLabel": "BGRO01CE2.2 · Reconocer helenismos y neologismos en la lengua propia, especialmente los propios del…",
+      "definition": "Reconocer helenismos y neologismos en la lengua propia, especialmente los propios del léxico científico-técnico, asociándolos con sus etimologías griegas, para comprender los procesos de formación de palabras en las lenguas, como la composición o la derivación, y valorar la diversidad lingüística como fuente de conocimiento y de riqueza.",
+      "broader": "ce:BGROC2",
+      "bloque": "bc:BGRO01BC2",
+      "descriptores": [
+        "CCL5",
+        "CP3",
+        "CPSAA4",
+        "CPSAA5"
+      ],
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BGRO01CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BGRO01CE3.1",
+      "prefLabel": "BGRO01CE3.1 · Leer y comentar textos y fragmentos literarios básicos o adaptados y en diferentes…",
+      "definition": "Leer y comentar textos y fragmentos literarios básicos o adaptados y en diferentes soportes de información y comunicación, identificando conceptos fundamentales para la comprensión de la civilización griega y aplicando estrategias de aprendizaje que impliquen analizar y reflexionar sobre la propia experiencia, con el objetivo de comprender el mundo y la condición humana, e iniciar al alumnado en la lectura de fragmentos y textos clásicos traducidos.",
+      "broader": "ce:BGROC3",
+      "bloque": "bc:BGRO01BC3",
+      "descriptores": [
+        "CCL2",
+        "CCL4",
+        "CP3",
+        "CD1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BGRO01CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BGRO01CE3.2",
+      "prefLabel": "BGRO01CE3.2 · Reconocer e identificar los principales géneros literarios, temas, tópicos y valores…",
+      "definition": "Reconocer e identificar los principales géneros literarios, temas, tópicos y valores éticos o estéticos de la civilización y cultura griegas, partiendo de la lectura de fragmentos significativos de diferentes autores clásicos, con el propósito de identificar su pervivencia en obras o fragmentos literarios posteriores de la cultura europea y occidental y de producir textos individuales o colectivos con intención literaria en distintos soportes, como fuente de desarrollo creativo.",
+      "broader": "ce:BGROC3",
+      "bloque": "bc:BGRO01BC3",
+      "descriptores": [
+        "CCL2",
+        "CCL4",
+        "CP3",
+        "CD1",
+        "CD2",
+        "CCEC2",
+        "CCEC3.2"
+      ],
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BGRO01CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BGRO01CE4.1",
+      "prefLabel": "BGRO01CE4.1 · Identificar los principales hitos históricos, políticos y sociales de Grecia,…",
+      "definition": "Identificar los principales hitos históricos, políticos y sociales de Grecia, comparándolos con los de las sociedades actuales con la intención de favorecer el desarrollo de una cultura y una ciudadanía comprometidas con la memoria colectiva y los valores democráticos, y de fomentar la educación de valores cívicos y normas que impliquen la igualdad de todas las personas como instrumentos válidos en la resolución de conflictos.",
+      "broader": "ce:BGROC4",
+      "bloque": "bc:BGRO01BC4",
+      "descriptores": [
+        "CCL3",
+        "CP3",
+        "CC1",
+        "CC2",
+        "CCEC1"
+      ],
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BGRO01CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BGRO01CE4.2",
+      "prefLabel": "BGRO01CE4.2 · Elaborar trabajos de investigación de manera progresivamente autónoma en distintos…",
+      "definition": "Elaborar trabajos de investigación de manera progresivamente autónoma en distintos soportes de información y comunicación del ámbito educativo, sobre aspectos del legado de la civilización griega en el ámbito personal, religioso y sociopolítico; y reflexionar acerca de su importancia, tratando de forma correcta la información procedente de diferentes fuentes bibliográficas y digitales, calibrando su fiabilidad y pertinencia, aprendiendo a respetar los principios de rigor y propiedad intelectual, y haciendo uso responsable de soportes tecnológicos para la realización de producciones. Todo esto para obtener una visión global e integradora de la pervivencia helena y la tradición clásica, que posibilite el contraste y la empatía de opiniones y el respeto de las argumentaciones ajenas.",
+      "broader": "ce:BGROC4",
+      "bloque": "bc:BGRO01BC4",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "CCL5",
+        "CD1",
+        "CD2",
+        "CPSAA3.1",
+        "CC3",
+        "CCEC1"
+      ],
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BGRO01CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BGRO01CE5.1",
+      "prefLabel": "BGRO01CE5.1 · Investigar e identificar, de manera guiada, el legado material e inmaterial de la…",
+      "definition": "Investigar e identificar, de manera guiada, el legado material e inmaterial de la civilización griega, analizando sus producciones culturales y la influencia que han tenido estas en el mundo occidental, para lograr una actitud cívica que asegure el reconocimiento y la sostenibilidad del patrimonio y el desarrollo de una actitud respetuosa, igualitaria y libre de prejuicios hacia ese legado cultural que constituye el fundamento de nuestra sociedad actual.",
+      "broader": "ce:BGROC5",
+      "bloque": "bc:BGRO01BC5",
+      "descriptores": [
+        "CCL3",
+        "CP3",
+        "CD2",
+        "CC1",
+        "CC4",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BGRO01CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BGRO01CE5.2",
+      "prefLabel": "BGRO01CE5.2 · Explorar las huellas del legado griego, aplicando los conocimientos adquiridos en los que…",
+      "definition": "Explorar las huellas del legado griego, aplicando los conocimientos adquiridos en los que el alumnado reflexione sobre la cultura de los pueblos y su forma de vida y sociedad, con el fin de observar la pervivencia de la Antigüedad clásica, en especial, de la civilización griega en su vida cotidiana y en el patrimonio cultural de Canarias, y presentar sus resultados a través de diferentes soportes de información y comunicación del ámbito educativo.",
+      "broader": "ce:BGROC5",
+      "bloque": "bc:BGRO01BC5",
+      "descriptores": [
+        "CP3",
+        "CD2",
+        "CC1",
+        "CC4",
+        "CE1",
+        "CCEC2"
+      ],
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "BGRO01SBI",
+      "prefLabel": "BGRO01SBI · I. El texto: comprensión y traducción",
+      "definition": "El texto: comprensión y traducción",
+      "broader": "materia:BGRO",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "BGRO01SBII",
+      "prefLabel": "BGRO01SBII · II. Plurilingüismo",
+      "definition": "Plurilingüismo",
+      "broader": "materia:BGRO",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "BGRO01SBIII",
+      "prefLabel": "BGRO01SBIII · III. Educación literaria",
+      "definition": "Educación literaria",
+      "broader": "materia:BGRO",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "BGRO01SBIV",
+      "prefLabel": "BGRO01SBIV · IV. La antigua Grecia",
+      "definition": "La antigua Grecia",
+      "broader": "materia:BGRO",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBV",
+      "tipo": "BloqueSaberes",
+      "notation": "BGRO01SBV",
+      "prefLabel": "BGRO01SBV · V. Legado y patrimonio",
+      "definition": "Legado y patrimonio",
+      "broader": "materia:BGRO",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.1",
+      "prefLabel": "BGRO01SBI.1 · Unidades lingüísticas de la lengua griega",
+      "definition": "Unidades lingüísticas de la lengua griega",
+      "broader": "sb:BGRO01SBI",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.1.1",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.1.1",
+      "prefLabel": "BGRO01SBI.1.1 · Conocimiento del alfabeto, la pronunciación y la acentuación del griego para su correcta…",
+      "definition": "Conocimiento del alfabeto, la pronunciación y la acentuación del griego para su correcta lectura y escritura.",
+      "broader": "sb:BGRO01SBI.1",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.1.2",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.1.2",
+      "prefLabel": "BGRO01SBI.1.2 · Distinción de las clases de palabras (sustantivos, verbos, adjetivos…) y su correcta…",
+      "definition": "Distinción de las clases de palabras (sustantivos, verbos, adjetivos…) y su correcta clasificación.",
+      "broader": "sb:BGRO01SBI.1",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.1.3",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.1.3",
+      "prefLabel": "BGRO01SBI.1.3 · Comprensión del concepto de lengua flexiva: flexión nominal y pronominal (sistema casual…",
+      "definition": "Comprensión del concepto de lengua flexiva: flexión nominal y pronominal (sistema casual y declinaciones) y flexión verbal (sistema de conjugaciones).",
+      "broader": "sb:BGRO01SBI.1",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.1.4",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.1.4",
+      "prefLabel": "BGRO01SBI.1.4 · Reconocimiento de las funciones sintácticas de los casos.",
+      "definition": "Reconocimiento de las funciones sintácticas de los casos.",
+      "broader": "sb:BGRO01SBI.1",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.1.5",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.1.5",
+      "prefLabel": "BGRO01SBI.1.5 · Manejo y análisis de las estructuras oracionales simples y compuestas más frecuentes.",
+      "definition": "Manejo y análisis de las estructuras oracionales simples y compuestas más frecuentes.",
+      "broader": "sb:BGRO01SBI.1",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.1.5.1",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.1.5.1",
+      "prefLabel": "BGRO01SBI.1.5.1",
+      "broader": "sb:BGRO01SBI.1.5",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.1.5.2",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.1.5.2",
+      "prefLabel": "BGRO01SBI.1.5.2",
+      "broader": "sb:BGRO01SBI.1.5",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.1.6",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.1.6",
+      "prefLabel": "BGRO01SBI.1.6 · Clasificación de las formas nominales más habituales del verbo.",
+      "definition": "Clasificación de las formas nominales más habituales del verbo.",
+      "broader": "sb:BGRO01SBI.1",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.1.7",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.1.7",
+      "prefLabel": "BGRO01SBI.1.7 · Reconocimiento general de las estructuras lingüísticas en castellano.",
+      "definition": "Reconocimiento general de las estructuras lingüísticas en castellano.",
+      "broader": "sb:BGRO01SBI.1",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.2",
+      "prefLabel": "BGRO01SBI.2 · La traducción: técnicas, procesos y herramientas",
+      "definition": "La traducción: técnicas, procesos y herramientas",
+      "broader": "sb:BGRO01SBI",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.2.1",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.2.1",
+      "prefLabel": "BGRO01SBI.2.1 · Análisis morfosintáctico como herramienta de traducción.",
+      "definition": "Análisis morfosintáctico como herramienta de traducción.",
+      "broader": "sb:BGRO01SBI.2",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.2.2",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.2.2",
+      "prefLabel": "BGRO01SBI.2.2 · Aplicación de estrategias de traducción:",
+      "definition": "Aplicación de estrategias de traducción:",
+      "broader": "sb:BGRO01SBI.2",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.2.2.1",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.2.2.1",
+      "prefLabel": "BGRO01SBI.2.2.1",
+      "broader": "sb:BGRO01SBI.2.2",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.2.2.2",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.2.2.2",
+      "prefLabel": "BGRO01SBI.2.2.2",
+      "broader": "sb:BGRO01SBI.2.2",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.2.2.3",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.2.2.3",
+      "prefLabel": "BGRO01SBI.2.2.3",
+      "broader": "sb:BGRO01SBI.2.2",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.2.2.4",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.2.2.4",
+      "prefLabel": "BGRO01SBI.2.2.4",
+      "broader": "sb:BGRO01SBI.2.2",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.2.3",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.2.3",
+      "prefLabel": "BGRO01SBI.2.3 · Búsqueda y aplicación de herramientas de traducción: glosarios, diccionarios, atlas o…",
+      "definition": "Búsqueda y aplicación de herramientas de traducción: glosarios, diccionarios, atlas o correctores ortográficos en soporte analógico o digital…",
+      "broader": "sb:BGRO01SBI.2",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.2.4",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.2.4",
+      "prefLabel": "BGRO01SBI.2.4 · Lectura comparada de diferentes traducciones y comentario de textos bilingües a partir de…",
+      "definition": "Lectura comparada de diferentes traducciones y comentario de textos bilingües a partir de terminología metalingüística.",
+      "broader": "sb:BGRO01SBI.2",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.2.5",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.2.5",
+      "prefLabel": "BGRO01SBI.2.5 · Recursos estilísticos frecuentes y su relación con el contenido del texto.",
+      "definition": "Recursos estilísticos frecuentes y su relación con el contenido del texto.",
+      "broader": "sb:BGRO01SBI.2",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.2.6",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.2.6",
+      "prefLabel": "BGRO01SBI.2.6 · Uso de estrategias básicas para la realización de retroversión de frases muy elementales,…",
+      "definition": "Uso de estrategias básicas para la realización de retroversión de frases muy elementales, de manera que se trabaje la morfosintaxis casual de manera activa.",
+      "broader": "sb:BGRO01SBI.2",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.2.7",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.2.7",
+      "prefLabel": "BGRO01SBI.2.7 · Uso de la traducción como instrumento que favorece el razonamiento lógico, la constancia,…",
+      "definition": "Uso de la traducción como instrumento que favorece el razonamiento lógico, la constancia, la memoria, la resolución de problemas y la capacidad de análisis y síntesis.",
+      "broader": "sb:BGRO01SBI.2",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.2.8",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.2.8",
+      "prefLabel": "BGRO01SBI.2.8 · Aceptación del error como parte del proceso de aprendizaje y actitud positiva de…",
+      "definition": "Aceptación del error como parte del proceso de aprendizaje y actitud positiva de superación.",
+      "broader": "sb:BGRO01SBI.2",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBI.2.9",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBI.2.9",
+      "prefLabel": "BGRO01SBI.2.9 · Uso de estrategias y herramientas, analógicas y digitales, individuales y cooperativas,…",
+      "definition": "Uso de estrategias y herramientas, analógicas y digitales, individuales y cooperativas, para la autoevaluación, la coevaluación y la autorreparación.",
+      "broader": "sb:BGRO01SBI.2",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBII.1",
+      "prefLabel": "BGRO01SBII.1 · Identificación de los diferentes sistemas de escritura a lo largo de la historia.",
+      "definition": "Identificación de los diferentes sistemas de escritura a lo largo de la historia.",
+      "broader": "sb:BGRO01SBII",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBII.2",
+      "prefLabel": "BGRO01SBII.2 · Uso de reglas de transcripción del alfabeto griego al castellano.",
+      "definition": "Uso de reglas de transcripción del alfabeto griego al castellano.",
+      "broader": "sb:BGRO01SBII",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBII.3",
+      "prefLabel": "BGRO01SBII.3 · Reconocimiento del origen del griego a partir de las lenguas indoeuropeas.",
+      "definition": "Reconocimiento del origen del griego a partir de las lenguas indoeuropeas.",
+      "broader": "sb:BGRO01SBII",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBII.4",
+      "prefLabel": "BGRO01SBII.4 · Identificación de las etapas de la lengua griega: desde el indoeuropeo hasta el griego…",
+      "definition": "Identificación de las etapas de la lengua griega: desde el indoeuropeo hasta el griego moderno.",
+      "broader": "sb:BGRO01SBII",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBII.5",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBII.5",
+      "prefLabel": "BGRO01SBII.5 · Valoración de la influencia del griego en la evolución del castellano y del resto de…",
+      "definition": "Valoración de la influencia del griego en la evolución del castellano y del resto de lenguas que conforman el repertorio lingüístico individual del alumnado.",
+      "broader": "sb:BGRO01SBII",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBII.6",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBII.6",
+      "prefLabel": "BGRO01SBII.6 · Identificación de lexemas, sufijos y prefijos de origen griego presentes en el léxico de…",
+      "definition": "Identificación de lexemas, sufijos y prefijos de origen griego presentes en el léxico de uso común y en el específico de las ciencias y la técnica, infiriendo el significado y definición de palabras de uso común en las lenguas de enseñanza a partir de sus étimos de origen griego.",
+      "broader": "sb:BGRO01SBII",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBII.7",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBII.7",
+      "prefLabel": "BGRO01SBII.7 · Acercamiento a los procedimientos de derivación y composición de palabras españolas con…",
+      "definition": "Acercamiento a los procedimientos de derivación y composición de palabras españolas con componentes léxicos griegos.",
+      "broader": "sb:BGRO01SBII",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBII.8",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBII.8",
+      "prefLabel": "BGRO01SBII.8 · Empleo de helenismos integrados en las lenguas modernas, en la lengua coloquial y en…",
+      "definition": "Empleo de helenismos integrados en las lenguas modernas, en la lengua coloquial y en diferentes tipos de textos (literarios, periodísticos, publicitarios…), así como en los medios de comunicación y las redes sociales.",
+      "broader": "sb:BGRO01SBII",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBII.9",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBII.9",
+      "prefLabel": "BGRO01SBII.9 · Interés por conocer el significado etimológico de las palabras: la importancia del uso…",
+      "definition": "Interés por conocer el significado etimológico de las palabras: la importancia del uso adecuado del vocabulario como instrumento básico en la comunicación.",
+      "broader": "sb:BGRO01SBII",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBII.10",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBII.10",
+      "prefLabel": "BGRO01SBII.10 · Reconocimiento del griego como instrumento que permite un mejor conocimiento de las…",
+      "definition": "Reconocimiento del griego como instrumento que permite un mejor conocimiento de las lenguas de estudio y un más fácil acercamiento a otras lenguas modernas, romances y no romances.",
+      "broader": "sb:BGRO01SBII",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBII.11",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBII.11",
+      "prefLabel": "BGRO01SBII.11 · Respeto por todas las lenguas y aceptación de las diferencias culturales de las gentes…",
+      "definition": "Respeto por todas las lenguas y aceptación de las diferencias culturales de las gentes que las hablan.",
+      "broader": "sb:BGRO01SBII",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBII.12",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBII.12",
+      "prefLabel": "BGRO01SBII.12 · Reconocimiento de herramientas analógicas y digitales para el aprendizaje, la…",
+      "definition": "Reconocimiento de herramientas analógicas y digitales para el aprendizaje, la comunicación y el desarrollo de proyectos con hablantes o estudiantes de griego clásico a nivel transnacional.",
+      "broader": "sb:BGRO01SBII",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBII.13",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBII.13",
+      "prefLabel": "BGRO01SBII.13 · Reflexión acerca de expresiones y léxico específico básico sobre la comunicación, la…",
+      "definition": "Reflexión acerca de expresiones y léxico específico básico sobre la comunicación, la lengua, el aprendizaje y las herramientas de comunicación y aprendizaje (metalenguaje).",
+      "broader": "sb:BGRO01SBII",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIII.1",
+      "prefLabel": "BGRO01SBIII.1 · Identificación de las diferentes etapas y vías de transmisión de la literatura griega,…",
+      "definition": "Identificación de las diferentes etapas y vías de transmisión de la literatura griega, para contextualizar adecuadamente los autores y géneros en el momento correcto.",
+      "broader": "sb:BGRO01SBIII",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIII.2",
+      "prefLabel": "BGRO01SBIII.2 · Aproximación a los principales géneros de la literatura griega: origen, tipología,…",
+      "definition": "Aproximación a los principales géneros de la literatura griega: origen, tipología, cronología, temas, motivos, tradición, características y principales autores.",
+      "broader": "sb:BGRO01SBIII",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIII.3",
+      "prefLabel": "BGRO01SBIII.3 · Aprendizaje y uso de técnicas básicas para el comentario y análisis lingüístico y…",
+      "definition": "Aprendizaje y uso de técnicas básicas para el comentario y análisis lingüístico y literario de los textos literarios griegos.",
+      "broader": "sb:BGRO01SBIII",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIII.4",
+      "prefLabel": "BGRO01SBIII.4 · Recepción de la literatura griega:",
+      "definition": "Recepción de la literatura griega:",
+      "broader": "sb:BGRO01SBIII",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIII.4.1",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIII.4.1",
+      "prefLabel": "BGRO01SBIII.4.1 · Valoración de la influencia de la literatura griega en la producción cultural europea.",
+      "definition": "Valoración de la influencia de la literatura griega en la producción cultural europea.",
+      "broader": "sb:BGRO01SBIII.4",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIII.4.2",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIII.4.2",
+      "prefLabel": "BGRO01SBIII.4.2 · Aprendizaje de nociones básicas de intertextualidad: aproximación al concepto de mímesis…",
+      "definition": "Aprendizaje de nociones básicas de intertextualidad: aproximación al concepto de mímesis en la antigua Grecia.",
+      "broader": "sb:BGRO01SBIII.4",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIII.5",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIII.5",
+      "prefLabel": "BGRO01SBIII.5 · Identificación de las analogías y diferencias entre los géneros literarios griegos y los…",
+      "definition": "Identificación de las analogías y diferencias entre los géneros literarios griegos y los de la literatura actual.",
+      "broader": "sb:BGRO01SBIII",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIII.6",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIII.6",
+      "prefLabel": "BGRO01SBIII.6 · Iniciación a la crítica literaria: análisis y valoración de la literatura griega.",
+      "definition": "Iniciación a la crítica literaria: análisis y valoración de la literatura griega.",
+      "broader": "sb:BGRO01SBIII",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIII.7",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIII.7",
+      "prefLabel": "BGRO01SBIII.7 · Interés hacia la literatura de autores clásicos como fuente de placer y de conocimiento…",
+      "definition": "Interés hacia la literatura de autores clásicos como fuente de placer y de conocimiento del mundo.",
+      "broader": "sb:BGRO01SBIII",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIII.8",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIII.8",
+      "prefLabel": "BGRO01SBIII.8 · Respeto de la propiedad intelectual y derechos de autor sobre las fuentes consultadas y…",
+      "definition": "Respeto de la propiedad intelectual y derechos de autor sobre las fuentes consultadas y contenidos utilizados: herramientas para el tratamiento de datos bibliográficos y recursos para evitar el plagio.",
+      "broader": "sb:BGRO01SBIII",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIV.1",
+      "prefLabel": "BGRO01SBIV.1 · Identificación de los aspectos más relevantes de la geografía de Grecia.",
+      "definition": "Identificación de los aspectos más relevantes de la geografía de Grecia.",
+      "broader": "sb:BGRO01SBIV",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIV.2",
+      "prefLabel": "BGRO01SBIV.2 · Reconocimiento de las ciudades y los lugares más relevantes de la antigua Grecia y la…",
+      "definition": "Reconocimiento de las ciudades y los lugares más relevantes de la antigua Grecia y la función de de cada uno de estos (ágora, acrópolis, βουλή…), a través de los textos.",
+      "broader": "sb:BGRO01SBIV",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIV.3",
+      "prefLabel": "BGRO01SBIV.3 · Estudio de las etapas y de los periodos históricos de Grecia:",
+      "definition": "Estudio de las etapas y de los periodos históricos de Grecia:",
+      "broader": "sb:BGRO01SBIV",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIV.3.1",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIV.3.1",
+      "prefLabel": "BGRO01SBIV.3.1 · Identificación de las etapas y de los periodos históricos más relevantes de Grecia:…",
+      "definition": "Identificación de las etapas y de los periodos históricos más relevantes de Grecia: épocas arcaica, clásica y helenística.",
+      "broader": "sb:BGRO01SBIV.3",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIV.3.2",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIV.3.2",
+      "prefLabel": "BGRO01SBIV.3.2 · Ubicación en ejes o frisos cronológicos de los hitos y episodios más representativos de…",
+      "definition": "Ubicación en ejes o frisos cronológicos de los hitos y episodios más representativos de la historia del mundo griego entre los siglos VIII a. C. y V d. C.",
+      "broader": "sb:BGRO01SBIV.3",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIV.3.3",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIV.3.3",
+      "prefLabel": "BGRO01SBIV.3.3 · Identificación de las principales leyendas de la historia de Grecia.",
+      "definition": "Identificación de las principales leyendas de la historia de Grecia.",
+      "broader": "sb:BGRO01SBIV.3",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIV.3.4",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIV.3.4",
+      "prefLabel": "BGRO01SBIV.3.4 · Identificación de las personalidades históricas más representativas de Grecia: biografía…",
+      "definition": "Identificación de las personalidades históricas más representativas de Grecia: biografía en contexto e importancia para Europa.",
+      "broader": "sb:BGRO01SBIV.3",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIV.4",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIV.4",
+      "prefLabel": "BGRO01SBIV.4 · Aproximación a la organización política y social de Grecia como parte esencial de la…",
+      "definition": "Aproximación a la organización política y social de Grecia como parte esencial de la historia y cultura de la sociedad actual.",
+      "broader": "sb:BGRO01SBIV",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIV.5",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIV.5",
+      "prefLabel": "BGRO01SBIV.5 · Comparación de las instituciones, creencias y formas de vida de la civilización griega…",
+      "definition": "Comparación de las instituciones, creencias y formas de vida de la civilización griega con la perspectiva sociocultural actual, prestando especial atención atención al papel desempeñado por la mujer en aquel momento histórico.",
+      "broader": "sb:BGRO01SBIV",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIV.6",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIV.6",
+      "prefLabel": "BGRO01SBIV.6 · Valoración de las influencias de la cultura griega en la civilización latina: Graecia…",
+      "definition": "Valoración de las influencias de la cultura griega en la civilización latina: Graecia capta ferum victorem cepit.",
+      "broader": "sb:BGRO01SBIV",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIV.7",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIV.7",
+      "prefLabel": "BGRO01SBIV.7 · Aportación de Grecia a la cultura y al pensamiento de la sociedad occidental como base…",
+      "definition": "Aportación de Grecia a la cultura y al pensamiento de la sociedad occidental como base del desarrollo posterior en las distintas civilizaciones.",
+      "broader": "sb:BGRO01SBIV",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIV.8",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIV.8",
+      "prefLabel": "BGRO01SBIV.8 · Importancia del discurso público para la vida política y social.",
+      "definition": "Importancia del discurso público para la vida política y social.",
+      "broader": "sb:BGRO01SBIV",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIV.9",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIV.9",
+      "prefLabel": "BGRO01SBIV.9 · Relación de Grecia con culturas extranjeras (Persia, Roma…), de manera que el alumnado…",
+      "definition": "Relación de Grecia con culturas extranjeras (Persia, Roma…), de manera que el alumnado reflexione y sea tolerante y respetuoso con las culturas actuales ajenas a él.",
+      "broader": "sb:BGRO01SBIV",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIV.10",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIV.10",
+      "prefLabel": "BGRO01SBIV.10 · Estudio del mar Mediterráneo como encrucijada de culturas del ayer y hoy, y paso del…",
+      "definition": "Estudio del mar Mediterráneo como encrucijada de culturas del ayer y hoy, y paso del conocimiento científico, literario, histórico, artístico y tecnológico entre Asia, Europa y África.",
+      "broader": "sb:BGRO01SBIV",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBIV.11",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBIV.11",
+      "prefLabel": "BGRO01SBIV.11 · Localización de Canarias en el imaginario clásico: visión mítica del archipiélago como…",
+      "definition": "Localización de Canarias en el imaginario clásico: visión mítica del archipiélago como locus amoenus.",
+      "broader": "sb:BGRO01SBIV",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBV.1",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBV.1",
+      "prefLabel": "BGRO01SBV.1 · Reconocimiento del legado, de la herencia y del patrimonio griego en el mundo actual.",
+      "definition": "Reconocimiento del legado, de la herencia y del patrimonio griego en el mundo actual.",
+      "broader": "sb:BGRO01SBV",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBV.2",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBV.2",
+      "prefLabel": "BGRO01SBV.2 · Apreciación de la transmisión textual griega como patrimonio cultural y fuente de…",
+      "definition": "Apreciación de la transmisión textual griega como patrimonio cultural y fuente de conocimiento a través de diferentes culturas y épocas. Reconocimiento de soportes de escritura: tipos y preservación.",
+      "broader": "sb:BGRO01SBV",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBV.3",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBV.3",
+      "prefLabel": "BGRO01SBV.3 · Identificación de la mitología clásica en las manifestaciones artísticas (literatura,…",
+      "definition": "Identificación de la mitología clásica en las manifestaciones artísticas (literatura, artes plásticas y visuales, música…) de la cultura occidental, en general, y de Canarias, en particular.",
+      "broader": "sb:BGRO01SBV",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBV.4",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBV.4",
+      "prefLabel": "BGRO01SBV.4 · Valoración de la educación en la antigua Grecia y distinción entre los modelos educativos…",
+      "definition": "Valoración de la educación en la antigua Grecia y distinción entre los modelos educativos de Atenas y Esparta.",
+      "broader": "sb:BGRO01SBV",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBV.5",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBV.5",
+      "prefLabel": "BGRO01SBV.5 · Reconocimiento de las obras públicas y urbanismo: construcción, conservación,…",
+      "definition": "Reconocimiento de las obras públicas y urbanismo: construcción, conservación, preservación y restauración.",
+      "broader": "sb:BGRO01SBV",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBV.6",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBV.6",
+      "prefLabel": "BGRO01SBV.6 · Valoración del legado inmaterial del mundo griego: las instituciones políticas, las…",
+      "definition": "Valoración del legado inmaterial del mundo griego: las instituciones políticas, las representaciones y los festivales teatrales, las competiciones atléticas…",
+      "broader": "sb:BGRO01SBV",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBV.7",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBV.7",
+      "prefLabel": "BGRO01SBV.7 · Iniciación a las técnicas básicas de debate y de exposición oral.",
+      "definition": "Iniciación a las técnicas básicas de debate y de exposición oral.",
+      "broader": "sb:BGRO01SBV",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBV.8",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBV.8",
+      "prefLabel": "BGRO01SBV.8 · Localización de las principales obras artísticas de la Antigüedad griega y sitios…",
+      "definition": "Localización de las principales obras artísticas de la Antigüedad griega y sitios arqueológicos, museos o festivales relacionados con la Antigüedad clásica.",
+      "broader": "sb:BGRO01SBV",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BGRO01SBV.9",
+      "tipo": "SaberBasico",
+      "notation": "BGRO01SBV.9",
+      "prefLabel": "BGRO01SBV.9 · Identificación del patrimonio cultural griego en la arquitectura y el urbanismo de…",
+      "definition": "Identificación del patrimonio cultural griego en la arquitectura y el urbanismo de Canarias.",
+      "broader": "sb:BGRO01SBV",
+      "materia": "materia:BGRO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    }
+  ]
+}

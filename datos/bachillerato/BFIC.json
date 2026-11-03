@@ -1,0 +1,723 @@
+{
+  "materia": "materia:BFIC",
+  "nodos": [
+    {
+      "id": "materia:BFIC",
+      "tipo": "Materia",
+      "notation": "BFIC",
+      "prefLabel": "Física (Bachillerato)",
+      "cursos": [
+        "curso:B02"
+      ],
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BFICC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BFICC1",
+      "prefLabel": "BFICC1 · Utilizar las teorías, principios y leyes que rigen los procesos físicos más importantes,…",
+      "definition": "Utilizar las teorías, principios y leyes que rigen los procesos físicos más importantes, considerando su base experimental y desarrollo matemático en la resolución de problemas, para reconocer la física como una ciencia relevante implicada en el desarrollo de la tecnología, la economía, la sociedad y la sostenibilidad ambiental.",
+      "broader": "materia:BFIC",
+      "materia": "materia:BFIC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BFICC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BFICC2",
+      "prefLabel": "BFICC2 · Adoptar los modelos, teorías y leyes aceptados de la física como base de estudio de los…",
+      "definition": "Adoptar los modelos, teorías y leyes aceptados de la física como base de estudio de los sistemas naturales y predecir su evolución para inferir soluciones generales a los problemas cotidianos relacionados con las aplicaciones prácticas demandadas por la sociedad en el campo tecnológico, industrial y biosanitario.",
+      "broader": "materia:BFIC",
+      "materia": "materia:BFIC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BFICC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BFICC3",
+      "prefLabel": "BFICC3 · Utilizar el lenguaje de la física con la formulación matemática de sus principios,…",
+      "definition": "Utilizar el lenguaje de la física con la formulación matemática de sus principios, magnitudes, unidades, ecuaciones, etc., para establecer una comunicación adecuada entre diferentes comunidades científicas y como una herramienta fundamental en la investigación.",
+      "broader": "materia:BFIC",
+      "materia": "materia:BFIC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BFICC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BFICC4",
+      "prefLabel": "BFICC4 · Utilizar de forma autónoma, eficiente, crítica y responsable recursos en distintos…",
+      "definition": "Utilizar de forma autónoma, eficiente, crítica y responsable recursos en distintos formatos, plataformas digitales de información y de comunicación en el trabajo individual y colectivo para el fomento de la creatividad mediante la producción y el intercambio de materiales científicos y divulgativos que faciliten acercar la física a la sociedad como un campo de conocimientos accesible.",
+      "broader": "materia:BFIC",
+      "materia": "materia:BFIC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BFICC5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BFICC5",
+      "prefLabel": "BFICC5 · Aplicar técnicas de trabajo e indagación propias de la física, así como la…",
+      "definition": "Aplicar técnicas de trabajo e indagación propias de la física, así como la experimentación, el razonamiento lógico-matemático y la cooperación, en la resolución de problemas y la interpretación de situaciones relacionadas, para poner en valor el papel de la física en una sociedad basada en valores éticos y sostenibles.",
+      "broader": "materia:BFIC",
+      "materia": "materia:BFIC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BFICC6",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BFICC6",
+      "prefLabel": "BFICC6 · Reconocer y analizar el carácter multidisciplinar de la física, considerando su relevante…",
+      "definition": "Reconocer y analizar el carácter multidisciplinar de la física, considerando su relevante recorrido histórico y sus contribuciones al avance del conocimiento científico como un proceso en continua evolución e innovación, para establecer unas bases de conocimiento y relación con otras disciplinas científicas.",
+      "broader": "materia:BFIC",
+      "materia": "materia:BFIC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BFIC02BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "BFIC02BC1",
+      "prefLabel": "Física · 2º Bachillerato · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de comprender las implicaciones de la física en otros campos de la vida cotidiana. Por ello, debe poder percibir y describir los procesos físicos asociados a los fenómenos naturales que se producen en su entorno mediante la observación, la experimentación y la indagación, utilizando las metodologías propias del trabajo científico y deducir cuáles son los fundamentos básicos de la física que han contribuido al desarrollo de otros ámbitos y campos del saber, como la tecnología, la economía, la sociedad y el medioambiente. Además, se constatará si a través de la aplicación de los principios, las leyes y las teorías de la física que explican las interacciones que se producen entre los cuerpos y los sistemas en la naturaleza, el alumnado está en condiciones de resolver, de forma individual o colaborativa, cuestiones y problemas por métodos experimentales o mediante la utilización de desarrollos matemáticos en contextos en los que interviene la física, empleando estrategias variadas de resolución y analizando críticamente las soluciones obtenidas, con el apoyo de dispositivos, herramientas y aplicaciones digitales que le permitan incorporar nuevos conocimientos con la finalidad de desarrollar el pensamiento crítico y la actitud necesaria para contribuir al progreso de la sociedad a través del conocimiento científico adquirido, aportando soluciones sostenibles.",
+      "broader": "materia:BFIC",
+      "agrupa": [
+        "ce:BFICC1"
+      ],
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD5"
+      ],
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BFIC02BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "BFIC02BC2",
+      "prefLabel": "Física · 2º Bachillerato · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se verificará si el alumnado es capaz de adoptar los modelos, las teorías y las leyes relacionados con cualquiera de los bloques de saberes básicos que forman los pilares fundamentales de la física y aplicarlos para predecir la evolución de los sistemas y objetos naturales. Al mismo tiempo, debe ser capaz de interpretar y describir los fenómenos de la naturaleza observados en situaciones cotidianas y sacar conclusiones sobre su relación con los principios de la física. Asimismo, se comprobará, a partir del análisis de diversas situaciones o casos particulares, que es capaz, por un lado, de inferir soluciones generales mediante la observación, la experimentación y la investigación propias del pensamiento científico, teniendo en cuenta las variables de las que dependen, y, por otro lado, que es capaz de examinar críticamente las aplicaciones prácticas que se han desarrollado desde el campo tecnológico, industrial o biosanitario y que han dado lugar a productos y beneficios necesarios para la sociedad, analizando también su impacto, para asumir un compromiso ético con los estilos de vida que conduzcan al logro de los Objetivos de Desarrollo Sostenible y la lucha contra el cambio climático.",
+      "broader": "materia:BFIC",
+      "agrupa": [
+        "ce:BFICC2"
+      ],
+      "descriptores": [
+        "STEM2",
+        "CC4",
+        "STEM5",
+        "CPSAA2"
+      ],
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BFIC02BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "BFIC02BC3",
+      "prefLabel": "Física · 2º Bachillerato · bloque competencial C3",
+      "scopeNote": "Mediante el desarrollo de este bloque competencial se comprobará si el alumnado es capaz de manejar los formalismos propios de la ciencia durante el planteamiento exhaustivo y la discusión reflexiva de procesos físicos relacionados con cualquiera de los bloques de saberes básicos observados directamente del entorno como resultado de la experimentación, la investigación o el uso de herramientas digitales o de los publicados en distintos medios de comunicación. Todo ello a partir de la distinción, análisis y descripción de las causas que los producen y asignando la formulación matemática específica que los contextualiza en base a los principios, las leyes y las teorías científicas aplicadas tras un análisis fundamentado y crítico de dichos procesos. Además, se valorará que durante el proceso de resolución de las actividades y problemas que se le plantean interprete los elementos más relevantes de la información aportada en diferentes formatos (gráficos, tablas, diagramas, fórmulas, símbolos, etc.) y haga un uso riguroso de las herramientas y el lenguaje matemático, vinculando las variables físicas empleadas con su notación y su unidad en el Sistema Internacional de Medidas y manejando con soltura las equivalencias en diferentes sistemas de unidades. Finalmente, se constatará si el alumnado es capaz de transmitir argumentada y respetuosamente los resultados de forma clara y precisa mediante el empleo del mismo lenguaje matemático con sus diversas formas de expresión, donde se valorará su coherencia, así como de intercambiar los planteamientos físicos, su resolución y sus aplicaciones en el mundo que les rodea en distintos entornos y medios, asegurando la claridad de los mensajes que intercambia con el resto del grupo y haciendo un uso eficaz y ético de los diferentes sistemas de comunicación como una herramienta fundamental en la investigación necesaria para obtener avances tecnológicos que tengan en cuenta la conservación del medioambiente.",
+      "broader": "materia:BFIC",
+      "agrupa": [
+        "ce:BFICC3"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "STEM1",
+        "STEM4",
+        "CD3"
+      ],
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BFIC02BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "BFIC02BC4",
+      "prefLabel": "Física · 2º Bachillerato · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial se observará si el alumnado ha adquirido las destrezas para escoger, configurar y emplear de forma autónoma, crítica y eficiente las plataformas y los entornos virtuales de aprendizaje, bien realizando búsquedas avanzadas o consultas de materiales científicos y divulgativos en diferentes formatos e idiomas, aplicando criterios de validez, calidad, actualidad y fiabilidad que respondan a sus necesidades; bien creando repositorios de recursos y materiales producidos por el propio alumnado, es decir, entornos personales de aprendizaje, que son espacios organizados adecuadamente donde almacenar, organizar, mantener y difundir información digital (trabajos científicos, conjunto de datos o software, etc.) de manera segura; bien efectuando intercambios de información con otros miembros del entorno educativo en el contexto de los trabajos colaborativos, gestionando de manera responsable sus acciones, presencia y visibilidad; o bien comunicando y publicando los resultado de sus investigaciones o cualquier otra producción elaborada durante el trabajo individual o el colectivo relacionada con cualquiera de los bloques de saberes básicos, ejerciendo una ciudadanía digital activa, cívica y reflexiva. Todo ello con la finalidad, por un lado, de mejorar en el manejo de estrategias que le permitan el aprendizaje autorregulado y, por otro, de establecer vínculos emocionales entre la física y la sociedad presentándola como un campo de saber accesible y con capacidad transformadora del entorno.",
+      "broader": "materia:BFIC",
+      "agrupa": [
+        "ce:BFICC4"
+      ],
+      "descriptores": [
+        "CP1",
+        "STEM3",
+        "STEM5",
+        "CD1",
+        "CD3",
+        "CPSAA4"
+      ],
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BFIC02BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "BFIC02BC5",
+      "prefLabel": "Física · 2º Bachillerato · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial se constatará si el alumnado es capaz de explicar los fenómenos naturales presentes en el entorno de forma generalizada a partir de la comprobación y el análisis de los resultados experimentales cuando trabaja individual o colaborativamente. Por ello, se valorará si realiza el estudio experimental de determinados procesos físicos relacionados con cualquiera de los bloques de saberes básicos en laboratorios reales cuando sean reproducibles fácilmente o en laboratorios virtuales donde puedan simularse aquellos que no se puedan reproducir; si considera los principios, las leyes y las teorías implicadas en dichos procesos para modificar las variables físicas que los condicionan; si mide, trata y analiza los datos obtenidos para establecer relaciones entre las variables modificadas, empleando las herramientas y el lenguaje matemático en la determinación del grado de precisión de las medidas y en la representación gráfica de las mismas, y si plasma el proceso seguido en la investigación a través de un informe en el formato adecuado que incluya las argumentaciones, las conclusiones, las tablas de datos, las gráficas y las referencias bibliográficas con el apoyo de recursos tecnológicos y la utilización de distintas fuentes documentales, todo ello garantizando la distribución de las tareas, los recursos y las responsabilidades de manera equitativa en pos de la consecución de los objetivos propuestos en el trabajo en equipo. Finalmente, se comprobará si es capaz de obtener conclusiones sobre la importancia de la física en la sociedad desde el punto de vista de la ética y de la sostenibilidad, a partir del debate argumentado sobre sus avances y sus implicaciones en el entorno, con la finalidad de asumir un compromiso sólido con la construcción de una sociedad justa para las generaciones presentes y futuras.",
+      "broader": "materia:BFIC",
+      "agrupa": [
+        "ce:BFICC5"
+      ],
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "CPSAA3.2",
+        "CE3",
+        "CC4"
+      ],
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BFIC02BC6",
+      "tipo": "BloqueCompetencial",
+      "notation": "BFIC02BC6",
+      "prefLabel": "Física · 2º Bachillerato · bloque competencial C6",
+      "scopeNote": "Mediante este bloque competencial se constatará si el alumnado es capaz de inferir que la física constituye una ciencia profundamente implicada en distintos ámbitos de nuestras vidas cotidianas y que forma parte clave del desarrollo científico, tecnológico e industrial al determinar y transmitir cuáles han sido los principales avances científicos en física y su proceso de construcción a través de la historia en los diferentes bloques de saberes básicos que han permitido formalizar las leyes y teorías, así como las metodologías propias del trabajo científico, actualmente aceptadas en toda la comunidad científica, al visibilizar cómo el progreso de la tecnología ha permitido alumbrar nuevos descubrimientos, del mismo modo que las necesidades experimentales para verificar ciertos estudios han supuesto un incentivo en el desarrollo tecnológico, entendiendo la ciencia como un proceso en constante evolución y al analizar las contribuciones recíprocas entre la física, la química, las matemáticas o la biología y establecer las relaciones entre las diferentes disciplinas, imprescindibles para el óptimo desarrollo de las mismas debido al carácter multidisciplinar de la ciencia.",
+      "broader": "materia:BFIC",
+      "agrupa": [
+        "ce:BFICC6"
+      ],
+      "descriptores": [
+        "STEM2",
+        "STEM4",
+        "CPSAA5",
+        "CC1",
+        "CE1"
+      ],
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFIC02CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFIC02CE1.1",
+      "prefLabel": "BFIC02CE1.1 · Relacionar los conocimientos científicos relativos a la física con el desarrollo de la…",
+      "definition": "Relacionar los conocimientos científicos relativos a la física con el desarrollo de la ciencia, la tecnología, la economía, la sociedad y la sostenibilidad ambiental, empleando sus fundamentos teóricos, para apreciar la implicación de la física en diferentes contextos de la vida cotidiana.",
+      "broader": "ce:BFICC1",
+      "bloque": "bc:BFIC02BC1",
+      "descriptores": [
+        "STEM1",
+        "STEM2"
+      ],
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFIC02CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFIC02CE1.2",
+      "prefLabel": "BFIC02CE1.2 · Resolver problemas relacionados con procesos físicos por métodos analíticos y…",
+      "definition": "Resolver problemas relacionados con procesos físicos por métodos analíticos y experimentales utilizando las metodologías propias del trabajo científico, las herramientas matemáticas y digitales y aplicando los principios, las leyes y las teorías que los rigen para extrapolar sus resultados a situaciones reales.",
+      "broader": "ce:BFICC1",
+      "bloque": "bc:BFIC02BC1",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD5"
+      ],
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFIC02CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFIC02CE2.1",
+      "prefLabel": "BFIC02CE2.1 · Analizar e interpretar la evolución de los sistemas naturales utilizando modelos, leyes y…",
+      "definition": "Analizar e interpretar la evolución de los sistemas naturales utilizando modelos, leyes y teorías de la física para explicar cómo y por qué suceden los fenómenos que se producen en el entorno.",
+      "broader": "ce:BFICC2",
+      "bloque": "bc:BFIC02BC2",
+      "descriptores": [
+        "STEM2",
+        "CC4"
+      ],
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFIC02CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFIC02CE2.2",
+      "prefLabel": "BFIC02CE2.2 · Inferir soluciones generales a problemas cotidianos a partir del análisis de situaciones…",
+      "definition": "Inferir soluciones generales a problemas cotidianos a partir del análisis de situaciones particulares y de las variables de las que dependen aplicando modelos, teorías y leyes físicas para que redunden en posibles aplicaciones prácticas necesarias para la sociedad.",
+      "broader": "ce:BFICC2",
+      "bloque": "bc:BFIC02BC2",
+      "descriptores": [
+        "STEM2",
+        "STEM5",
+        "CPSAA2"
+      ],
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFIC02CE2.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFIC02CE2.3",
+      "prefLabel": "BFIC02CE2.3 · Analizar y describir aplicaciones prácticas y productos útiles en el campo tecnológico,…",
+      "definition": "Analizar y describir aplicaciones prácticas y productos útiles en el campo tecnológico, industrial y biosanitario, con base en los modelos, las leyes y las teorías que permitan concebir la física como un valor demandado por la sociedad.",
+      "broader": "ce:BFICC2",
+      "bloque": "bc:BFIC02BC2",
+      "descriptores": [
+        "STEM2",
+        "CC4"
+      ],
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFIC02CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFIC02CE3.1",
+      "prefLabel": "BFIC02CE3.1 · Aplicar la formulación matemática de los principios, leyes y teorías científicas en el…",
+      "definition": "Aplicar la formulación matemática de los principios, leyes y teorías científicas en el análisis de procesos físicos del entorno, como los observados y los publicados en distintos medios de comunicación, identificando, analizando y explicando las causas que los producen, para intercambiar planteamientos físicos en distintos entornos y medios.",
+      "broader": "ce:BFICC3",
+      "bloque": "bc:BFIC02BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "STEM1",
+        "STEM4"
+      ],
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFIC02CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFIC02CE3.2",
+      "prefLabel": "BFIC02CE3.2 · Utilizar de manera rigurosa las herramientas y el lenguaje matemático y asociar las…",
+      "definition": "Utilizar de manera rigurosa las herramientas y el lenguaje matemático y asociar las variables físicas con su notación, su unidad y sus equivalencias en diferentes sistemas de unidades, así como elaborar e interpretar gráficas que relacionen variables físicas, para posibilitar una comunicación efectiva con toda la comunidad científica.",
+      "broader": "ce:BFICC3",
+      "bloque": "bc:BFIC02BC3",
+      "descriptores": [
+        "STEM1",
+        "STEM4",
+        "CD3"
+      ],
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFIC02CE3.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFIC02CE3.3",
+      "prefLabel": "BFIC02CE3.3 · Expresar de forma adecuada y analizar la coherencia de los resultados de situaciones…",
+      "definition": "Expresar de forma adecuada y analizar la coherencia de los resultados de situaciones físicas reales o ideales, argumentando las soluciones obtenidas en la resolución de los ejercicios y problemas que se plantean, como forma de construir nuevos conocimientos.",
+      "broader": "ce:BFICC3",
+      "bloque": "bc:BFIC02BC3",
+      "descriptores": [
+        "CCL1",
+        "STEM1",
+        "STEM4",
+        "CD3"
+      ],
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFIC02CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFIC02CE4.1",
+      "prefLabel": "BFIC02CE4.1 · Consultar, elaborar e intercambiar materiales científicos y divulgativos en distintos…",
+      "definition": "Consultar, elaborar e intercambiar materiales científicos y divulgativos en distintos formatos procedentes de diferentes fuentes en varios idiomas con otros miembros del entorno de aprendizaje, utilizando de forma autónoma plataformas digitales de información y comunicación para hacer más accesible la física y acercar la física a la sociedad.",
+      "broader": "ce:BFICC4",
+      "bloque": "bc:BFIC02BC4",
+      "descriptores": [
+        "CP1",
+        "STEM3",
+        "STEM5",
+        "CD1",
+        "CD3",
+        "CPSAA4"
+      ],
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFIC02CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFIC02CE4.2",
+      "prefLabel": "BFIC02CE4.2 · Seleccionar, configurar y utilizar de forma crítica, ética y responsable plataformas…",
+      "definition": "Seleccionar, configurar y utilizar de forma crítica, ética y responsable plataformas digitales de comunicación, así como otros medios, para producir e intercambiar materiales científicos y divulgativos, fomentando la creatividad y enriqueciendo el aprendizaje en el trabajo individual y colectivo.",
+      "broader": "ce:BFICC4",
+      "bloque": "bc:BFIC02BC4",
+      "descriptores": [
+        "CD3"
+      ],
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFIC02CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFIC02CE5.1",
+      "prefLabel": "BFIC02CE5.1 · Obtener relaciones entre variables físicas al trabajar en laboratorios reales o…",
+      "definition": "Obtener relaciones entre variables físicas al trabajar en laboratorios reales o virtuales, midiendo y tratando los datos experimentales, determinando los errores y utilizando sistemas de representación gráfica para utilizar las estrategias propias del trabajo colaborativo en la investigación científica.",
+      "broader": "ce:BFICC5",
+      "bloque": "bc:BFIC02BC5",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "CPSAA3.2",
+        "CE3"
+      ],
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFIC02CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFIC02CE5.2",
+      "prefLabel": "BFIC02CE5.2 · Reproducir en laboratorios reales o virtuales determinados procesos físicos modificando…",
+      "definition": "Reproducir en laboratorios reales o virtuales determinados procesos físicos modificando las variables que los condicionan, considerando los principios, leyes o teorías implicados y generando, en el formato correspondiente, el informe que recoja todo el proceso tanto en el trabajo individual como en equipo, para formarse como miembros de la comunidad científica futura.",
+      "broader": "ce:BFICC5",
+      "bloque": "bc:BFIC02BC5",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "CPSAA3.2",
+        "CE3"
+      ],
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFIC02CE5.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFIC02CE5.3",
+      "prefLabel": "BFIC02CE5.3 · Debatir de forma argumentada sobre los avances y la implicación de la física en la…",
+      "definition": "Debatir de forma argumentada sobre los avances y la implicación de la física en la sociedad desde el punto de vista de la ética y de la sostenibilidad, para valorarla como una ciencia comprometida con la mejora de las condiciones de vida.",
+      "broader": "ce:BFICC5",
+      "bloque": "bc:BFIC02BC5",
+      "descriptores": [
+        "CC4"
+      ],
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFIC02CE6.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFIC02CE6.1",
+      "prefLabel": "BFIC02CE6.1 · Identificar los principales avances científicos relacionados con la física a lo largo de…",
+      "definition": "Identificar los principales avances científicos relacionados con la física a lo largo de la historia que han contribuido a establecer las leyes y teorías aceptadas actualmente en el conjunto de las disciplinas científicas, para entender la ciencia como un proceso universal y en constante evolución.",
+      "broader": "ce:BFICC6",
+      "bloque": "bc:BFIC02BC6",
+      "descriptores": [
+        "STEM2",
+        "STEM4",
+        "CPSAA5",
+        "CC1",
+        "CE1"
+      ],
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BFIC02CE6.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BFIC02CE6.2",
+      "prefLabel": "BFIC02CE6.2 · Establecer las relaciones de la física con la química, la biología o las matemáticas,…",
+      "definition": "Establecer las relaciones de la física con la química, la biología o las matemáticas, analizando las contribuciones de unas disciplinas sobre otras, para reconocer el carácter multidisciplinar de la ciencia.",
+      "broader": "ce:BFICC6",
+      "bloque": "bc:BFIC02BC6",
+      "descriptores": [
+        "STEM2",
+        "STEM4",
+        "CPSAA5",
+        "CC1"
+      ],
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "BFIC02SBI",
+      "prefLabel": "BFIC02SBI · I. Campo gravitatorio",
+      "definition": "Campo gravitatorio",
+      "broader": "materia:BFIC",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "BFIC02SBII",
+      "prefLabel": "BFIC02SBII · II. Campo electromagnético",
+      "definition": "Campo electromagnético",
+      "broader": "materia:BFIC",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "BFIC02SBIII",
+      "prefLabel": "BFIC02SBIII · III. Vibraciones y ondas",
+      "definition": "Vibraciones y ondas",
+      "broader": "materia:BFIC",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "BFIC02SBIV",
+      "prefLabel": "BFIC02SBIV · IV. Física relativista, cuántica, nuclear y de partículas.",
+      "definition": "Física relativista, cuántica, nuclear y de partículas.",
+      "broader": "materia:BFIC",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "BFIC02SBI.1",
+      "prefLabel": "BFIC02SBI.1 · Determinación y caracterización a través del cálculo vectorial del campo gravitatorio…",
+      "definition": "Determinación y caracterización a través del cálculo vectorial del campo gravitatorio producido por un sistema de masas para determinar sus efectos sobre las variables cinemáticas y dinámicas de objetos inmersos en el campo.",
+      "broader": "sb:BFIC02SBI",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "BFIC02SBI.2",
+      "prefLabel": "BFIC02SBI.2 · Valoración del carácter conservativo del campo por su relación con una fuerza central…",
+      "definition": "Valoración del carácter conservativo del campo por su relación con una fuerza central para realizar cálculos relacionados con el estudio de su movimiento.",
+      "broader": "sb:BFIC02SBI",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "BFIC02SBI.3",
+      "prefLabel": "BFIC02SBI.3 · Análisis de la energía mecánica de un objeto sometido a un campo gravitatorio para la…",
+      "definition": "Análisis de la energía mecánica de un objeto sometido a un campo gravitatorio para la deducción del tipo de movimiento que posee y el cálculo del trabajo o los balances energéticos existentes en desplazamientos entre distintas posiciones, velocidades y tipos de trayectorias.",
+      "broader": "sb:BFIC02SBI",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "BFIC02SBI.4",
+      "prefLabel": "BFIC02SBI.4 · Aplicación de las leyes gravitatorias para explicar el movimiento planetario, de otros…",
+      "definition": "Aplicación de las leyes gravitatorias para explicar el movimiento planetario, de otros cuerpos celestes y de satélites artificiales.",
+      "broader": "sb:BFIC02SBI",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "BFIC02SBI.5",
+      "prefLabel": "BFIC02SBI.5 · Implicación del campo gravitatorio en el estudio de la evolución de objetos astronómicos…",
+      "definition": "Implicación del campo gravitatorio en el estudio de la evolución de objetos astronómicos y del conocimiento del universo para conocer la repercusión de la investigación astrofísica, especialmente en Canarias, en la industria, la tecnología, la economía y en la sociedad.",
+      "broader": "sb:BFIC02SBI",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "BFIC02SBII.1",
+      "prefLabel": "BFIC02SBII.1 · Determinación, a través del cálculo vectorial, de las variables cinemáticas y dinámicas…",
+      "definition": "Determinación, a través del cálculo vectorial, de las variables cinemáticas y dinámicas de cargas eléctricas libres en presencia de los campos eléctrico y magnético para comprender fenómenos naturales y conocer aplicaciones tecnológicas en los que se aprecian estos efectos.",
+      "broader": "sb:BFIC02SBII",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "BFIC02SBII.2",
+      "prefLabel": "BFIC02SBII.2 · Análisis y estudio de la intensidad del campo eléctrico en distribuciones de cargas…",
+      "definition": "Análisis y estudio de la intensidad del campo eléctrico en distribuciones de cargas discretas y continuas para el cálculo e interpretación del flujo de campo eléctrico.",
+      "broader": "sb:BFIC02SBII",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "BFIC02SBII.3",
+      "prefLabel": "BFIC02SBII.3 · Cálculo del trabajo necesario para el desplazamiento de cargas libres entre puntos de…",
+      "definition": "Cálculo del trabajo necesario para el desplazamiento de cargas libres entre puntos de distinto potencial eléctrico y estimación de las magnitudes que se modifican y que permanecen constantes para el estudio de la energía de una distribución de cargas estáticas.",
+      "broader": "sb:BFIC02SBII",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "BFIC02SBII.4",
+      "prefLabel": "BFIC02SBII.4 · Determinación de campos magnéticos generados por hilos con corriente eléctrica en…",
+      "definition": "Determinación de campos magnéticos generados por hilos con corriente eléctrica en distintas configuraciones geométricas (rectilíneos, espiras, solenoides o toros) y análisis de la interacción con cargas eléctricas libres presentes en su entorno para predecir su comportamiento.",
+      "broader": "sb:BFIC02SBII",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBII.5",
+      "tipo": "SaberBasico",
+      "notation": "BFIC02SBII.5",
+      "prefLabel": "BFIC02SBII.5 · Estudio de las líneas de campo eléctrico y magnético producido por distribuciones de…",
+      "definition": "Estudio de las líneas de campo eléctrico y magnético producido por distribuciones de carga sencillas, imanes e hilos con corriente eléctrica en distintas configuraciones geométricas para su caracterización.",
+      "broader": "sb:BFIC02SBII",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBII.6",
+      "tipo": "SaberBasico",
+      "notation": "BFIC02SBII.6",
+      "prefLabel": "BFIC02SBII.6 · Cálculo de la fuerza electromotriz inducida y análisis del funcionamiento de motores,…",
+      "definition": "Cálculo de la fuerza electromotriz inducida y análisis del funcionamiento de motores, generadores y transformadores a partir de sistemas donde se produce una variación del flujo magnético para estimar el sentido de la corriente y valorar sus aplicaciones.",
+      "broader": "sb:BFIC02SBII",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "BFIC02SBIII.1",
+      "prefLabel": "BFIC02SBIII.1 · Interpretación y cálculo de las variables cinemáticas de un cuerpo oscilante y…",
+      "definition": "Interpretación y cálculo de las variables cinemáticas de un cuerpo oscilante y conservación de energía en estos sistemas para la explicación del significado físico de sus parámetros característicos.",
+      "broader": "sb:BFIC02SBIII",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "BFIC02SBIII.2",
+      "prefLabel": "BFIC02SBIII.2 · Análisis de gráficas de oscilación en función de la posición y del tiempo, determinación…",
+      "definition": "Análisis de gráficas de oscilación en función de la posición y del tiempo, determinación de la ecuación de onda que lo describe y relación con el movimiento armónico simple para interpretar distintos tipos de movimientos ondulatorios en la naturaleza.",
+      "broader": "sb:BFIC02SBIII",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "BFIC02SBIII.3",
+      "prefLabel": "BFIC02SBIII.3 · Reconocimiento de situaciones y contextos naturales en los que se ponen de manifiesto…",
+      "definition": "Reconocimiento de situaciones y contextos naturales en los que se ponen de manifiesto distintos fenómenos ondulatorios —en especial las ondas sonoras— e identificación de los cambios en las propiedades de las ondas en función del desplazamiento del emisor y receptor para explicar sus aplicaciones.",
+      "broader": "sb:BFIC02SBIII",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "BFIC02SBIII.4",
+      "prefLabel": "BFIC02SBIII.4 · Conocimiento de la evolución histórica de la naturaleza de la luz y estudio de la…",
+      "definition": "Conocimiento de la evolución histórica de la naturaleza de la luz y estudio de la concepción actual de la misma como onda electromagnética y del espectro electromagnético como elementos clave para explicar procesos cotidianos.",
+      "broader": "sb:BFIC02SBIII",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBIII.5",
+      "tipo": "SaberBasico",
+      "notation": "BFIC02SBIII.5",
+      "prefLabel": "BFIC02SBIII.5 · Demostración de la formación de imágenes en medios y objetos con distinto índice de…",
+      "definition": "Demostración de la formación de imágenes en medios y objetos con distinto índice de refracción y obtención de imágenes en lentes delgadas, espejos planos y curvos para analizar sus aplicaciones y utilidades en distintos campos de la ciencia y la salud.",
+      "broader": "sb:BFIC02SBIII",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "BFIC02SBIV.1",
+      "prefLabel": "BFIC02SBIV.1 · Análisis de los principios fundamentales de la Relatividad Especial para la explicación…",
+      "definition": "Análisis de los principios fundamentales de la Relatividad Especial para la explicación de sus consecuencias como la contracción de la longitud, la dilatación del tiempo, la energía y la masa relativistas.",
+      "broader": "sb:BFIC02SBIV",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "BFIC02SBIV.2",
+      "prefLabel": "BFIC02SBIV.2 · Planteamiento de la dualidad onda-partícula a partir de la hipótesis de De Broglie y del…",
+      "definition": "Planteamiento de la dualidad onda-partícula a partir de la hipótesis de De Broglie y del efecto fotoeléctrico para explicar la dualidad onda-partícula y sus aplicaciones e interpretación del principio de incertidumbre formulado en base al tiempo y la energía.",
+      "broader": "sb:BFIC02SBIV",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "BFIC02SBIV.3",
+      "prefLabel": "BFIC02SBIV.3 · Clasificación de las partículas fundamentales y descripción de sus interacciones…",
+      "definition": "Clasificación de las partículas fundamentales y descripción de sus interacciones fundamentales según el modelo estándar en la física de partículas y descripción de los procesos de intercambio de partículas (bosones) provocados en los aceleradores de partículas.",
+      "broader": "sb:BFIC02SBIV",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BFIC02SBIV.4",
+      "tipo": "SaberBasico",
+      "notation": "BFIC02SBIV.4",
+      "prefLabel": "BFIC02SBIV.4 · Caracterización de los núcleos atómicos, valoración de la estabilidad de isótopos y…",
+      "definition": "Caracterización de los núcleos atómicos, valoración de la estabilidad de isótopos y descripción de la radiactividad natural y de otros procesos nucleares para valorar sus aplicaciones en los campos de la ingeniería, la tecnología y la salud.",
+      "broader": "sb:BFIC02SBIV",
+      "materia": "materia:BFIC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    }
+  ]
+}

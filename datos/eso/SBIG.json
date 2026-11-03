@@ -1,0 +1,2662 @@
+{
+  "materia": "materia:SBIG",
+  "nodos": [
+    {
+      "id": "materia:SBIG",
+      "tipo": "Materia",
+      "notation": "SBIG",
+      "prefLabel": "Biología y Geología (ESO)",
+      "cursos": [
+        "curso:S01",
+        "curso:S03",
+        "curso:S04"
+      ],
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SBIGC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SBIGC1",
+      "prefLabel": "SBIGC1 · Interpretar y transmitir información y datos científicos, argumentando sobre ellos y…",
+      "definition": "Interpretar y transmitir información y datos científicos, argumentando sobre ellos y utilizando diferentes formatos, para analizar conceptos y procesos de las ciencias biológicas y geológicas.",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SBIGC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SBIGC2",
+      "prefLabel": "SBIGC2 · Identificar, localizar y seleccionar información, contrastando su veracidad,…",
+      "definition": "Identificar, localizar y seleccionar información, contrastando su veracidad, organizándola y evaluándola críticamente, para resolver preguntas relacionadas con las ciencias biológicas y geológicas.",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SBIGC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SBIGC3",
+      "prefLabel": "SBIGC3 · Planificar y desarrollar proyectos de investigación, siguiendo los pasos de las…",
+      "definition": "Planificar y desarrollar proyectos de investigación, siguiendo los pasos de las metodologías científicas y cooperando cuando sea necesario, para indagar en aspectos relacionados con las ciencias geológicas y biológicas.",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SBIGC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SBIGC4",
+      "prefLabel": "SBIGC4 · Utilizar el razonamiento y el pensamiento computacional, analizando críticamente las…",
+      "definition": "Utilizar el razonamiento y el pensamiento computacional, analizando críticamente las respuestas y soluciones y reformulando el procedimiento, si fuera necesario, para resolver problemas o dar explicación a procesos de la vida cotidiana relacionados con la biología y la geología.",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SBIGC5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SBIGC5",
+      "prefLabel": "SBIGC5 · Analizar los efectos de determinadas acciones sobre el medio ambiente y la salud,…",
+      "definition": "Analizar los efectos de determinadas acciones sobre el medio ambiente y la salud, basándose en los fundamentos de las ciencias biológicas y de la Tierra, para promover y adoptar hábitos que eviten o minimicen los impactos medioambientales negativos, sean compatibles con un desarrollo sostenible y permitan mantener y mejorar la salud individual y colectiva.",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SBIGC6",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SBIGC6",
+      "prefLabel": "SBIGC6 · Analizar los elementos de un paisaje concreto valorándolo como patrimonio natural y…",
+      "definition": "Analizar los elementos de un paisaje concreto valorándolo como patrimonio natural y utilizando conocimientos sobre Geología y Ciencias de la Tierra para explicar su historia geológica, proponer acciones",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SBIG01BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "SBIG01BC1",
+      "prefLabel": "Biología y Geología · 1º ESO · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se pretende comprobar que el alumnado es capaz de interpretar datos e información científica en diferentes formatos (textos científicos divulgativos sencillos, libros, esquemas, gráficos y tablas, imágenes, páginas web…) para explicar, con corrección y haciendo uso del vocabulario adecuado, conceptos y procesos biológicos y geológicos concretos relacionados con los distintos bloques de saberes básicos de la materia, como las características y propiedades de los minerales y rocas más relevantes, el concepto de especie, las consecuencias de la pérdida de la biodiversidad canaria, las características de los principales reinos de seres vivos, las causas del cambio climático y sus consecuencias sobre los ecosistemas canarios, entre otros, apoyándose en el uso de esquemas, vídeos, presentaciones, etc., y utilizando, cuando sea necesario, alguno de los pasos del diseño de ingeniería (identificación del problema, exploración, diseño, creación, evaluación y mejora). También se pretende constatar si es capaz, a partir de la información obtenida, de elaborar algunas conclusiones con ayuda y compartirlas de forma clara y con actitud respetuosa, utilizando herramientas digitales en la realización de diferentes productos (murales, carteles, presentaciones, exposiciones orales…) de forma colaborativa para facilitar su transmisión y comprensión y generar en las demás personas curiosidad e interés por la ciencia. Todo ello con el fin de que el alumnado comprenda el valor que tiene el intercambio de información y la colaboración entre las personas para el desarrollo de los avances científicos y para el progreso humano.",
+      "broader": "materia:SBIG",
+      "agrupa": [
+        "ce:SBIGC1"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM4",
+        "CCL5",
+        "CD3",
+        "CCEC4",
+        "CD2"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SBIG01BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "SBIG01BC2",
+      "prefLabel": "Biología y Geología · 1º ESO · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de localizar, seleccionar y organizar, de manera guiada, información de diferentes fuentes (libros, revistas, periódicos, páginas web, pódcast, vídeos, etc.), respetando la propiedad intelectual, para resolver preguntas sobre biología y geología relacionados con los distintos bloques de saberes básicos de la materia (los seres vivos, las rocas y los minerales, la contaminación atmosférica y acuática, el medio natural…) y compartir contenidos haciendo uso de herramientas digitales. Asimismo, se pretende verificar si el alumnado realiza autoevaluaciones sobre su proceso de aprendizaje, comprobando las fuentes y tomando conciencia de la necesidad de hacer un uso crítico, legal, seguro, saludable y sostenible de las tecnologías para reconocer la información con base científica y distinguirla de aquellas sin base científica, como pseudociencias, creencias infundadas, bulos, etc., manteniendo una actitud escéptica hacia estos. Finalmente, se quiere constatar que el alumnado valora la contribución de la ciencia a la sociedad y reconoce la labor de las personas dedicadas a ella, con independencia de su etnia, sexo o cultura, destacando a las mujeres científicas, mediante la realización, de forma cooperativa, de referencias bibliográficas o noticias sobre científicas canarias en el campo de las ciencias experimentales, y entendiendo la investigación como una labor colectiva e interdisciplinar en constante evolución. Todo ello con el fin de que el alumnado se inicie en las destrezas necesarias para reconocer la información veraz y distinguirla de aquella que no siempre refleja la realidad.",
+      "broader": "materia:SBIG",
+      "agrupa": [
+        "ce:SBIGC2"
+      ],
+      "descriptores": [
+        "CCL3",
+        "CD1",
+        "CD2",
+        "CPSAA4",
+        "CD4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SBIG01BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "SBIG01BC3",
+      "prefLabel": "Biología y Geología · 1º ESO · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de diseñar y realizar pequeños trabajos de investigación que supongan la experimentación o toma de datos de manera cooperativa relacionados con el medio natural canario, los efectos de la contaminación sobre la salud y el medioambiente, el cambio climático, los seres vivos, la célula, etc., consultando fuentes de información variadas (libros, periódicos, revistas, páginas web….) y aplicando las destrezas propias del trabajo científico en la elaboración de hipótesis, la utilización del material básico de laboratorio y de campo, el respeto a las normas de seguridad, la explicación del proceso seguido y la descripción de las observaciones. También se comprobará que el alumnado es capaz de describir los resultados obtenidos utilizando, cuando sea necesario, herramientas matemáticas y tecnológicas para obtener conclusiones razonadas y comunicarlas, utilizando el vocabulario adecuado, mediante exposiciones verbales, escritas o visuales en diversos soportes. Finalmente, se quiere evaluar si el alumnado es capaz de trabajar de forma colaborativa en las distintas fases del proyecto científico, utilizando espacios virtuales cuando sea necesario, si acepta responsabilidades y persevera en la tarea y si valora el trabajo y la contribución de las demás personas en los procesos de revisión y mejora, favoreciendo la inclusión y el respeto la diversidad y a la igualdad de género. Todo ello con el fin de que el alumnado se inicie en el conocimiento y aplicación de las metodologías científicas a través del desarrollo de pequeños proyectos de investigación, relacionados con su realidad más cercana o con su entorno, trabajando destrezas que le serán de gran utilidad no solo dentro del ámbito científico, sino también en su desarrollo personal, profesional y en su participación social.",
+      "broader": "materia:SBIG",
+      "agrupa": [
+        "ce:SBIGC3"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CCL2",
+        "CE3",
+        "CD1",
+        "CPSAA3",
+        "CD2"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SBIG01BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "SBIG01BC4",
+      "prefLabel": "Biología y Geología · 1º ESO · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de resolver problemas sencillos o explicar procesos biológicos o geológicos de la vida cotidiana relacionados con el medio natural y los seres vivos (conservación y protección de los ecosistemas canarios, la contaminación, causas del cambio climático, relaciones ecosociales de interdependencia y ecodependencia, estrategias para la identificación de especies, biodiversidad…), utilizando datos e información proporcionados por el profesorado, el razonamiento lógico, el pensamiento computacional o recursos digitales (animaciones, simulaciones…). Se evaluará, asimismo, si el alumnado es capaz de analizar de forma razonada la solución a un problema sobre fenómenos biológicos o geológicos de forma cooperativa, reflexionando sobre su viabilidad y proponiendo soluciones alternativas, si esta no lo fuese. Por último, se pretende comprobar si el alumnado muestra persistencia y confianza ante problemas difíciles de solucionar y si desarrolla procesos metacognitivos de retroalimentación para aprender de sus errores. Todo ello con el fin de desarrollar destrezas como el razonamiento lógico, a través de la resolución de problemas y la construcción de los conceptos que el alumnado pueda aplicar en diferentes situaciones de la vida.",
+      "broader": "materia:SBIG",
+      "agrupa": [
+        "ce:SBIGC4"
+      ],
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "CD5",
+        "CCEC4",
+        "CPSAA5",
+        "CE1",
+        "CE3"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SBIG01BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "SBIG01BC5",
+      "prefLabel": "Biología y Geología · 1º ESO · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de relacionar la preservación de la biodiversidad de las islas Canarias, la conservación del medioambiente y la protección de los seres vivos del entorno con el desarrollo sostenible y la calidad de vida, reconociendo y analizando los efectos de determinadas acciones sobre el medioambiente (destrucción de hábitats, sobreexplotación de recursos, cambio climático, contaminación de la atmósfera, pérdida de la biodiversidad… ), mediante la información recabada en salidas de campo y la contenida en fuentes y soportes variados (páginas web, fotografías, vídeos, prensa, etc.), desarrollando un espíritu crítico en defensa de la protección y conservación del medio natural. Asimismo, se pretende constatar que el alumnado analiza las actividades personales y ajenas a partir de los propios razonamientos, de los conocimientos adquiridos, de la información disponible y de los datos recogidos a través de entrevistas a personas del entorno, cuestionarios…, para, a partir de los resultados obtenidos, organizar acciones divulgativas (carteles, folletos, anuncios publicitarios, artículos, exposiciones…) que presenten ideas innovadoras y éticas, con la finalidad de promover en su entorno cercano la adopción de estilos de vida sostenibles que eviten o minimicen los impactos medioambientales negativos, principalmente en Canarias, y mejoren la calidad de vida del entorno próximo y del planeta según el concepto one health (una sola salud): de los seres humanos, de otros seres vivos y del entorno natural.",
+      "broader": "materia:SBIG",
+      "agrupa": [
+        "ce:SBIGC5"
+      ],
+      "descriptores": [
+        "STEM2",
+        "STEM5",
+        "CPSAA1",
+        "CPSAA2",
+        "CC4",
+        "CE1",
+        "CD4",
+        "CC3"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SBIG01BC6",
+      "tipo": "BloqueCompetencial",
+      "notation": "SBIG01BC6",
+      "prefLabel": "Biología y Geología · 1º ESO · bloque competencial C6",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado valora la importancia del paisaje canario como patrimonio natural y analiza, adoptando una postura crítica, la fragilidad de los elementos que lo componen (flora, fauna, minerales, agua, relieve…) a través de la observación de algún paisaje o ecosistema del entorno cercano o de modelos de paisajes (fotos, láminas, vídeos…), exponiendo aquellos factores que pueden afectar negativamente al medio natural y destacando los relacionados con la actividad humana. Asimismo, se pretende evaluar si el alumnado valora la importancia que tiene la Red Canaria de Espacios Naturales Protegidos en la conservación de la naturaleza y en el mantenimiento de la biosfera y si planifica y selecciona, de forma cooperativa, un conjunto de acciones preventivas que ayuden a la restauración y conservación del entorno y a promover una gestión más racional de los recursos naturales, principalmente en Canarias, acorde con los Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030, comunicando sus conclusiones a través de diversas producciones (carteles, pódcast, vídeos, anuncios publicitarios…) en las que se reconozca la fragilidad del medioambiente.",
+      "broader": "materia:SBIG",
+      "agrupa": [
+        "ce:SBIGC6"
+      ],
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM5",
+        "CC4",
+        "CE1",
+        "CCEC1"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SBIG03BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "SBIG03BC1",
+      "prefLabel": "Biología y Geología · 3º ESO · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se pretende comprobar que el alumnado es capaz de interpretar datos e información científica en diferentes formatos (textos científicos divulgativos sencillos, libros, esquemas, gráficos y tablas, imágenes, páginas web…) para explicar, con corrección y haciendo uso del vocabulario adecuado, conceptos y procesos biológicos y geológicos concretos relacionados con los distintos bloques de saberes básicos de la materia, como las características y propiedades de los minerales y rocas más relevantes, el concepto de especie, las consecuencias de la pérdida de la biodiversidad canaria, las características de los principales reinos de seres vivos, las causas del cambio climático y sus consecuencias sobre los ecosistemas canarios, entre otros, apoyándose en el uso de esquemas, vídeos, presentaciones, etc., y utilizando, cuando sea necesario, alguno de los pasos del diseño de ingeniería (identificación del problema, exploración, diseño, creación, evaluación y mejora). También se pretende constatar si es capaz, a partir de la información obtenida, de elaborar algunas conclusiones con ayuda y compartirlas de forma clara y con actitud respetuosa, utilizando herramientas digitales en la realización de diferentes productos (murales, carteles, presentaciones, exposiciones orales…) de forma colaborativa para facilitar su transmisión y comprensión y generar en las demás personas curiosidad e interés por la ciencia. Todo ello con el fin de que el alumnado comprenda el valor que tiene el intercambio de información y la colaboración entre las personas para el desarrollo de los avances científicos y para el progreso humano.",
+      "broader": "materia:SBIG",
+      "agrupa": [
+        "ce:SBIGC1"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM4",
+        "CD2",
+        "CCL5",
+        "CD3",
+        "CCEC4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SBIG03BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "SBIG03BC2",
+      "prefLabel": "Biología y Geología · 3º ESO · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de localizar, seleccionar y organizar, de manera guiada, información de diferentes fuentes (libros, revistas, periódicos, páginas web, pódcast, vídeos, etc.), respetando la propiedad intelectual, para resolver preguntas sobre biología y geología relacionados con los distintos bloques de saberes básicos de la materia (los seres vivos, las rocas y los minerales, la contaminación atmosférica y acuática, el medio natural…) y compartir contenidos haciendo uso de herramientas digitales. Asimismo, se pretende verificar si el alumnado realiza autoevaluaciones sobre su proceso de aprendizaje, comprobando las fuentes y tomando conciencia de la necesidad de hacer un uso crítico, legal, seguro, saludable y sostenible de las tecnologías para reconocer la información con base científica y distinguirla de aquellas sin base científica, como pseudociencias, creencias infundadas, bulos, etc., manteniendo una actitud escéptica hacia estos. Finalmente, se quiere constatar que el alumnado valora la contribución de la ciencia a la sociedad y reconoce la labor de las personas dedicadas a ella, con independencia de su etnia, sexo o cultura, destacando a las mujeres científicas, mediante la realización, de forma cooperativa, de referencias bibliográficas o noticias sobre científicas canarias en el campo de las ciencias experimentales, y entendiendo la investigación como una labor colectiva e interdisciplinar en constante evolución. Todo ello con el fin de que el alumnado se inicie en las destrezas necesarias para reconocer la información veraz y distinguirla de aquella que no siempre refleja la realidad.",
+      "broader": "materia:SBIG",
+      "agrupa": [
+        "ce:SBIGC2"
+      ],
+      "descriptores": [
+        "CCL3",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD4",
+        "CD5",
+        "STEM4",
+        "CPSAA4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SBIG03BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "SBIG03BC3",
+      "prefLabel": "Biología y Geología · 3º ESO · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de diseñar y realizar pequeños trabajos de investigación que supongan la experimentación o toma de datos de manera cooperativa relacionados con el medio natural canario, los efectos de la contaminación sobre la salud y el medioambiente, el cambio climático, los seres vivos, la célula, etc., consultando fuentes de información variadas (libros, periódicos, revistas, páginas web….) y aplicando las destrezas propias del trabajo científico en la elaboración de hipótesis, la utilización del material básico de laboratorio y de campo, el respeto a las normas de seguridad, la explicación del proceso seguido y la descripción de las observaciones. También se comprobará que el alumnado es capaz de describir los resultados obtenidos utilizando, cuando sea necesario, herramientas matemáticas y tecnológicas para obtener conclusiones razonadas y comunicarlas, utilizando el vocabulario adecuado, mediante exposiciones verbales, escritas o visuales en diversos soportes. Finalmente, se quiere evaluar si el alumnado es capaz de trabajar de forma colaborativa en las distintas fases del proyecto científico, utilizando espacios virtuales cuando sea necesario, si acepta responsabilidades y persevera en la tarea y si valora el trabajo y la contribución de las demás personas en los procesos de revisión y mejora, favoreciendo la inclusión y el respeto la diversidad y a la igualdad de género. Todo ello con el fin de que el alumnado se inicie en el conocimiento y aplicación de las metodologías científicas a través del desarrollo de pequeños proyectos de investigación, relacionados con su realidad más cercana o con su entorno, trabajando destrezas que le serán de gran utilidad no solo dentro del ámbito científico, sino también en su desarrollo personal, profesional y en su participación social.",
+      "broader": "materia:SBIG",
+      "agrupa": [
+        "ce:SBIGC3"
+      ],
+      "descriptores": [
+        "CCL1",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CCL2",
+        "CE3",
+        "CCL3",
+        "CD1",
+        "CPSAA3",
+        "CD2"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SBIG03BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "SBIG03BC4",
+      "prefLabel": "Biología y Geología · 3º ESO · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de resolver problemas sencillos o explicar procesos biológicos o geológicos de la vida cotidiana relacionados con el medio natural y los seres vivos (conservación y protección de los ecosistemas canarios, la contaminación, causas del cambio climático, relaciones ecosociales de interdependencia y ecodependencia, estrategias para la identificación de especies, biodiversidad…), utilizando datos e información proporcionados por el profesorado, el razonamiento lógico, el pensamiento computacional o recursos digitales (animaciones, simulaciones…). Se evaluará, asimismo, si el alumnado es capaz de analizar de forma razonada la solución a un problema sobre fenómenos biológicos o geológicos de forma cooperativa, reflexionando sobre su viabilidad y proponiendo soluciones alternativas, si esta no lo fuese. Por último, se pretende comprobar si el alumnado muestra persistencia y confianza ante problemas difíciles de solucionar y si desarrolla procesos metacognitivos de retroalimentación para aprender de sus errores. Todo ello con el fin de desarrollar destrezas como el razonamiento lógico, a través de la resolución de problemas y la construcción de los conceptos que el alumnado pueda aplicar en diferentes situaciones de la vida.",
+      "broader": "materia:SBIG",
+      "agrupa": [
+        "ce:SBIGC4"
+      ],
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "CD5",
+        "CCEC4",
+        "CPSAA5",
+        "CE1",
+        "CE3"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SBIG03BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "SBIG03BC5",
+      "prefLabel": "Biología y Geología · 3º ESO · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de relacionar la preservación de la biodiversidad de las islas Canarias, la conservación del medioambiente y la protección de los seres vivos del entorno con el desarrollo sostenible y la calidad de vida, reconociendo y analizando los efectos de determinadas acciones sobre el medioambiente (destrucción de hábitats, sobreexplotación de recursos, cambio climático, contaminación de la atmósfera, pérdida de la biodiversidad… ), mediante la información recabada en salidas de campo y la contenida en fuentes y soportes variados (páginas web, fotografías, vídeos, prensa, etc.), desarrollando un espíritu crítico en defensa de la protección y conservación del medio natural. Asimismo, se pretende constatar que el alumnado analiza las actividades personales y ajenas a partir de los propios razonamientos, de los conocimientos adquiridos, de la información disponible y de los datos recogidos a través de entrevistas a personas del entorno, cuestionarios…, para, a partir de los resultados obtenidos, organizar acciones divulgativas (carteles, folletos, anuncios publicitarios, artículos, exposiciones…) que presenten ideas innovadoras y éticas, con la finalidad de promover en su entorno cercano la adopción de estilos de vida sostenibles que eviten o minimicen los impactos medioambientales negativos, principalmente en Canarias, y mejoren la calidad de vida del entorno próximo y del planeta según el concepto one health (una sola salud): de los seres humanos, de otros seres vivos y del entorno natural.",
+      "broader": "materia:SBIG",
+      "agrupa": [
+        "ce:SBIGC5"
+      ],
+      "descriptores": [
+        "STEM2",
+        "STEM5",
+        "CPSAA2",
+        "CC4",
+        "CE1",
+        "CD4",
+        "CC3",
+        "CPSAA1"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SBIG03BC6",
+      "tipo": "BloqueCompetencial",
+      "notation": "SBIG03BC6",
+      "prefLabel": "Biología y Geología · 3º ESO · bloque competencial C6",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado valora la importancia del paisaje canario como patrimonio natural y analiza, adoptando una postura crítica, la fragilidad de los elementos que lo componen (flora, fauna, minerales, agua, relieve…) a través de la observación de algún paisaje o ecosistema del entorno cercano o de modelos de paisajes (fotos, láminas, vídeos…), exponiendo aquellos factores que pueden afectar negativamente al medio natural y destacando los relacionados con la actividad humana. Asimismo, se pretende evaluar si el alumnado valora la importancia que tiene la Red Canaria de Espacios Naturales Protegidos en la conservación de la naturaleza y en el mantenimiento de la biosfera y si planifica y selecciona, de forma cooperativa, un conjunto de acciones preventivas que ayuden a la restauración y conservación del entorno y a promover una gestión más racional de los recursos naturales, principalmente en Canarias, acorde con los Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030, comunicando sus conclusiones a través de diversas producciones (carteles, pódcast, vídeos, anuncios publicitarios…) en las que se reconozca la fragilidad del medioambiente.",
+      "broader": "materia:SBIG",
+      "agrupa": [
+        "ce:SBIGC6"
+      ],
+      "descriptores": [
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "STEM5",
+        "CD1",
+        "CC4",
+        "CE1",
+        "CCEC1"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SBIG04BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "SBIG04BC1",
+      "prefLabel": "Biología y Geología · 4º ESO · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se pretende comprobar que el alumnado es capaz de interpretar datos e información científica en diferentes formatos (textos científicos divulgativos sencillos, libros, esquemas, gráficos y tablas, imágenes, páginas web…) para explicar, con corrección y haciendo uso del vocabulario adecuado, conceptos y procesos biológicos y geológicos concretos relacionados con los distintos bloques de saberes básicos de la materia, como las características y propiedades de los minerales y rocas más relevantes, el concepto de especie, las consecuencias de la pérdida de la biodiversidad canaria, las características de los principales reinos de seres vivos, las causas del cambio climático y sus consecuencias sobre los ecosistemas canarios, entre otros, apoyándose en el uso de esquemas, vídeos, presentaciones, etc., y utilizando, cuando sea necesario, alguno de los pasos del diseño de ingeniería (identificación del problema, exploración, diseño, creación, evaluación y mejora). También se pretende constatar si es capaz, a partir de la información obtenida, de elaborar algunas conclusiones con ayuda y compartirlas de forma clara y con actitud respetuosa, utilizando herramientas digitales en la realización de diferentes productos (murales, carteles, presentaciones, exposiciones orales…) de forma colaborativa para facilitar su transmisión y comprensión y generar en las demás personas curiosidad e interés por la ciencia. Todo ello con el fin de que el alumnado comprenda el valor que tiene el intercambio de información y la colaboración entre las personas para el desarrollo de los avances científicos y para el progreso humano.",
+      "broader": "materia:SBIG",
+      "agrupa": [
+        "ce:SBIGC1"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM4",
+        "CD2",
+        "CCL5",
+        "CD3",
+        "CCEC4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SBIG04BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "SBIG04BC2",
+      "prefLabel": "Biología y Geología · 4º ESO · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de localizar, seleccionar y organizar, de manera guiada, información de diferentes fuentes (libros, revistas, periódicos, páginas web, pódcast, vídeos, etc.), respetando la propiedad intelectual, para resolver preguntas sobre biología y geología relacionados con los distintos bloques de saberes básicos de la materia (los seres vivos, las rocas y los minerales, la contaminación atmosférica y acuática, el medio natural…) y compartir contenidos haciendo uso de herramientas digitales. Asimismo, se pretende verificar si el alumnado realiza autoevaluaciones sobre su proceso de aprendizaje, comprobando las fuentes y tomando conciencia de la necesidad de hacer un uso crítico, legal, seguro, saludable y sostenible de las tecnologías para reconocer la información con base científica y distinguirla de aquellas sin base científica, como pseudociencias, creencias infundadas, bulos, etc., manteniendo una actitud escéptica hacia estos. Finalmente, se quiere constatar que el alumnado valora la contribución de la ciencia a la sociedad y reconoce la labor de las personas dedicadas a ella, con independencia de su etnia, sexo o cultura, destacando a las mujeres científicas, mediante la realización, de forma cooperativa, de referencias bibliográficas o noticias sobre científicas canarias en el campo de las ciencias experimentales, y entendiendo la investigación como una labor colectiva e interdisciplinar en constante evolución. Todo ello con el fin de que el alumnado se inicie en las destrezas necesarias para reconocer la información veraz y distinguirla de aquella que no siempre refleja la realidad.",
+      "broader": "materia:SBIG",
+      "agrupa": [
+        "ce:SBIGC2"
+      ],
+      "descriptores": [
+        "CCL3",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD4",
+        "CD5",
+        "STEM4",
+        "CPSAA4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SBIG04BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "SBIG04BC3",
+      "prefLabel": "Biología y Geología · 4º ESO · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de diseñar y realizar pequeños trabajos de investigación que supongan la experimentación o toma de datos de manera cooperativa relacionados con el medio natural canario, los efectos de la contaminación sobre la salud y el medioambiente, el cambio climático, los seres vivos, la célula, etc., consultando fuentes de información variadas (libros, periódicos, revistas, páginas web….) y aplicando las destrezas propias del trabajo científico en la elaboración de hipótesis, la utilización del material básico de laboratorio y de campo, el respeto a las normas de seguridad, la explicación del proceso seguido y la descripción de las observaciones. También se comprobará que el alumnado es capaz de describir los resultados obtenidos utilizando, cuando sea necesario, herramientas matemáticas y tecnológicas para obtener conclusiones razonadas y comunicarlas, utilizando el vocabulario adecuado, mediante exposiciones verbales, escritas o visuales en diversos soportes. Finalmente, se quiere evaluar si el alumnado es capaz de trabajar de forma colaborativa en las distintas fases del proyecto científico, utilizando espacios virtuales cuando sea necesario, si acepta responsabilidades y persevera en la tarea y si valora el trabajo y la contribución de las demás personas en los procesos de revisión y mejora, favoreciendo la inclusión y el respeto la diversidad y a la igualdad de género. Todo ello con el fin de que el alumnado se inicie en el conocimiento y aplicación de las metodologías científicas a través del desarrollo de pequeños proyectos de investigación, relacionados con su realidad más cercana o con su entorno, trabajando destrezas que le serán de gran utilidad no solo dentro del ámbito científico, sino también en su desarrollo personal, profesional y en su participación social.",
+      "broader": "materia:SBIG",
+      "agrupa": [
+        "ce:SBIGC3"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "CD1",
+        "CCL2",
+        "STEM3",
+        "CD2",
+        "CD3",
+        "STEM4",
+        "CE3",
+        "CPSAA3"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SBIG04BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "SBIG04BC4",
+      "prefLabel": "Biología y Geología · 4º ESO · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de resolver problemas sencillos o explicar procesos biológicos o geológicos de la vida cotidiana relacionados con el medio natural y los seres vivos (conservación y protección de los ecosistemas canarios, la contaminación, causas del cambio climático, relaciones ecosociales de interdependencia y ecodependencia, estrategias para la identificación de especies, biodiversidad…), utilizando datos e información proporcionados por el profesorado, el razonamiento lógico, el pensamiento computacional o recursos digitales (animaciones, simulaciones…). Se evaluará, asimismo, si el alumnado es capaz de analizar de forma razonada la solución a un problema sobre fenómenos biológicos o geológicos de forma cooperativa, reflexionando sobre su viabilidad y proponiendo soluciones alternativas, si esta no lo fuese. Por último, se pretende comprobar si el alumnado muestra persistencia y confianza ante problemas difíciles de solucionar y si desarrolla procesos metacognitivos de retroalimentación para aprender de sus errores. Todo ello con el fin de desarrollar destrezas como el razonamiento lógico, a través de la resolución de problemas y la construcción de los conceptos que el alumnado pueda aplicar en diferentes situaciones de la vida.",
+      "broader": "materia:SBIG",
+      "agrupa": [
+        "ce:SBIGC4"
+      ],
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "CD5",
+        "CE1",
+        "CCEC4",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SBIG04BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "SBIG04BC5",
+      "prefLabel": "Biología y Geología · 4º ESO · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de relacionar la preservación de la biodiversidad de las islas Canarias, la conservación del medioambiente y la protección de los seres vivos del entorno con el desarrollo sostenible y la calidad de vida, reconociendo y analizando los efectos de determinadas acciones sobre el medioambiente (destrucción de hábitats, sobreexplotación de recursos, cambio climático, contaminación de la atmósfera, pérdida de la biodiversidad… ), mediante la información recabada en salidas de campo y la contenida en fuentes y soportes variados (páginas web, fotografías, vídeos, prensa, etc.), desarrollando un espíritu crítico en defensa de la protección y conservación del medio natural. Asimismo, se pretende constatar que el alumnado analiza las actividades personales y ajenas a partir de los propios razonamientos, de los conocimientos adquiridos, de la información disponible y de los datos recogidos a través de entrevistas a personas del entorno, cuestionarios…, para, a partir de los resultados obtenidos, organizar acciones divulgativas (carteles, folletos, anuncios publicitarios, artículos, exposiciones…) que presenten ideas innovadoras y éticas, con la finalidad de promover en su entorno cercano la adopción de estilos de vida sostenibles que eviten o minimicen los impactos medioambientales negativos, principalmente en Canarias, y mejoren la calidad de vida del entorno próximo y del planeta según el concepto one health (una sola salud): de los seres humanos, de otros seres vivos y del entorno natural.",
+      "broader": "materia:SBIG",
+      "agrupa": [
+        "ce:SBIGC5"
+      ],
+      "descriptores": [
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CPSAA1",
+        "CC4",
+        "CE1",
+        "CPSAA2",
+        "CC3"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SBIG04BC6",
+      "tipo": "BloqueCompetencial",
+      "notation": "SBIG04BC6",
+      "prefLabel": "Biología y Geología · 4º ESO · bloque competencial C6",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado valora la importancia del paisaje canario como patrimonio natural y analiza, adoptando una postura crítica, la fragilidad de los elementos que lo componen (flora, fauna, minerales, agua, relieve…) a través de la observación de algún paisaje o ecosistema del entorno cercano o de modelos de paisajes (fotos, láminas, vídeos…), exponiendo aquellos factores que pueden afectar negativamente al medio natural y destacando los relacionados con la actividad humana. Asimismo, se pretende evaluar si el alumnado valora la importancia que tiene la Red Canaria de Espacios Naturales Protegidos en la conservación de la naturaleza y en el mantenimiento de la biosfera y si planifica y selecciona, de forma cooperativa, un conjunto de acciones preventivas que ayuden a la restauración y conservación del entorno y a promover una gestión más racional de los recursos naturales, principalmente en Canarias, acorde con los Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030, comunicando sus conclusiones a través de diversas producciones (carteles, pódcast, vídeos, anuncios publicitarios…) en las que se reconozca la fragilidad del medioambiente.",
+      "broader": "materia:SBIG",
+      "agrupa": [
+        "ce:SBIGC6"
+      ],
+      "descriptores": [
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CC4",
+        "STEM5",
+        "CE1",
+        "CCEC1"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG01CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG01CE1.1",
+      "prefLabel": "SBIG01CE1.1 · Explicar conceptos y procesos biológicos y geológicos interpretando información en…",
+      "definition": "Explicar conceptos y procesos biológicos y geológicos interpretando información en diferentes formatos, con el fin de elaborar conclusiones y compartir conocimiento con actitud cooperativa y respetuosa.",
+      "broader": "ce:SBIGC1",
+      "bloque": "bc:SBIG01BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG01CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG01CE1.2",
+      "prefLabel": "SBIG01CE1.2 · ransmitir información sobre procesos biológicos y geológicos o textos científicos…",
+      "definition": "ransmitir información sobre procesos biológicos y geológicos o textos científicos divulgativos sencillos de forma clara y utilizando el vocabulario y los formatos adecuados con el fin de facilitar su comprensión y generar curiosidad e interés por la ciencia.",
+      "broader": "ce:SBIGC1",
+      "bloque": "bc:SBIG01BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL5",
+        "STEM4",
+        "CD3",
+        "CCEC4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG01CE1.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG01CE1.3",
+      "prefLabel": "SBIG01CE1.3 · Explicar fenómenos biológicos y geológicos representándolos mediante modelos y diagramas…",
+      "definition": "Explicar fenómenos biológicos y geológicos representándolos mediante modelos y diagramas utilizando, cuando sea posible, algún paso del diseño de ingeniería y herramientas digitales, para crear nuevos contenidos y generar de forma colaborativa productos comunicativos en diversos soportes.",
+      "broader": "ce:SBIGC1",
+      "bloque": "bc:SBIG01BC1",
+      "descriptores": [
+        "CCL1",
+        "STEM4",
+        "CD2",
+        "CCEC4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG01CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG01CE2.1",
+      "prefLabel": "SBIG01CE2.1 · Localizar, seleccionar y organizar de manera guiada información de distintas fuentes,…",
+      "definition": "Localizar, seleccionar y organizar de manera guiada información de distintas fuentes, respetando la propiedad intelectual, para resolver cuestiones biológicas y geológicas relacionadas con el medio natural",
+      "broader": "ce:SBIGC2",
+      "bloque": "bc:SBIG01BC2",
+      "descriptores": [
+        "CCL3",
+        "CD1",
+        "CD2"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG01CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG01CE2.2",
+      "prefLabel": "SBIG01CE2.2 · Reconocer la información sobre temas biológicos y geológicos con base científica…",
+      "definition": "Reconocer la información sobre temas biológicos y geológicos con base científica comprobando las fuentes con el fin de distinguirla de pseudociencias, bulos, teorías conspiratorias y creencias infundadas, y mantener una actitud escéptica ante estos.",
+      "broader": "ce:SBIGC2",
+      "bloque": "bc:SBIG01BC2",
+      "descriptores": [
+        "CCL3",
+        "CD1",
+        "CPSAA4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG01CE2.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG01CE2.3",
+      "prefLabel": "SBIG01CE2.3 · Valorar, a partir de información procedente de distintas fuentes, la contribución de la…",
+      "definition": "Valorar, a partir de información procedente de distintas fuentes, la contribución de la ciencia a la sociedad y la labor de las personas dedicadas a ella con independencia de su etnia, sexo o cultura, con el fin de comprender su relación con la mejora de la calidad de vida, destacando y reconociendo a las mujeres científicas y entendiendo la investigación como una labor colectiva e interdisciplinar en constante evolución.",
+      "broader": "ce:SBIGC2",
+      "bloque": "bc:SBIG01BC2",
+      "descriptores": [
+        "CCL3",
+        "CD1",
+        "CD2",
+        "CD4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG01CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG01CE3.1",
+      "prefLabel": "SBIG01CE3.1 · Plantear preguntas e hipótesis que puedan ser respondidas utilizando las destrezas…",
+      "definition": "Plantear preguntas e hipótesis que puedan ser respondidas utilizando las destrezas propias del trabajo científico para intentar explicar fenómenos biológicos y geológicos.",
+      "broader": "ce:SBIGC3",
+      "bloque": "bc:SBIG01BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG01CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG01CE3.2",
+      "prefLabel": "SBIG01CE3.2 · Diseñar pequeños proyectos de investigación relacionados con procesos y fenómenos…",
+      "definition": "Diseñar pequeños proyectos de investigación relacionados con procesos y fenómenos biológicos y geológicos que supongan la experimentación, la toma de datos y el análisis de los mismos con la finalidad de poder dar respuesta a preguntas concretas.",
+      "broader": "ce:SBIGC3",
+      "bloque": "bc:SBIG01BC3",
+      "descriptores": [
+        "CCL2",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CE3"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG01CE3.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG01CE3.3",
+      "prefLabel": "SBIG01CE3.3 · Realizar de manera colaborativa experimentos sencillos sobre fenómenos biológicos y…",
+      "definition": "Realizar de manera colaborativa experimentos sencillos sobre fenómenos biológicos y geológicos, utilizando los instrumentos, herramientas o técnicas adecuadas con corrección y respetando las normas de uso y seguridad en el laboratorio, con el fin de fomentar el pensamiento científico, valorar la importancia del trabajo en equipo y comprender el alcance y las limitaciones de la ciencia.",
+      "broader": "ce:SBIGC3",
+      "bloque": "bc:SBIG01BC3",
+      "descriptores": [
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD1",
+        "CPSAA3"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG01CE3.4",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG01CE3.4",
+      "prefLabel": "SBIG01CE3.4 · Describir o interpretar los resultados obtenidos en un proyecto de investigación…",
+      "definition": "Describir o interpretar los resultados obtenidos en un proyecto de investigación utilizando, cuando sea necesario, herramientas matemáticas y tecnológicas para compartir información y obtener conclusiones de manera razonada",
+      "broader": "ce:SBIGC3",
+      "bloque": "bc:SBIG01BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM1",
+        "STEM4",
+        "CD2"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG01CE3.5",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG01CE3.5",
+      "prefLabel": "SBIG01CE3.5 · Cooperar dentro de un proyecto científico asumiendo responsablemente una función…",
+      "definition": "Cooperar dentro de un proyecto científico asumiendo responsablemente una función concreta, utilizando espacios virtuales cuando sea necesario y empleando algunas estrategias de trabajo cooperativo con el fin de aceptar tareas y responsabilidades de manera equitativa, respetando la diversidad y la igualdad de género y favoreciendo la inclusión.",
+      "broader": "ce:SBIGC3",
+      "bloque": "bc:SBIG01BC3",
+      "descriptores": [
+        "CPSAA3"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG01CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG01CE4.1",
+      "prefLabel": "SBIG01CE4.1 · Resolver problemas sencillos de forma guiada o dar explicación a procesos biológicos o…",
+      "definition": "Resolver problemas sencillos de forma guiada o dar explicación a procesos biológicos o geológicos a partir de datos e información proporcionados por el profesorado, el razonamiento lógico, el pensamiento computacional o recursos digitales, valorando la contribución de la ciencia en la construcción del conocimiento, para generar productos colaborativos y presentar ideas sostenibles.",
+      "broader": "ce:SBIGC4",
+      "bloque": "bc:SBIG01BC4",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "CD5",
+        "CCEC4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG01CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG01CE4.2",
+      "prefLabel": "SBIG01CE4.2 · Analizar de forma razonada la solución a un problema sobre fenómenos biológicos y…",
+      "definition": "Analizar de forma razonada la solución a un problema sobre fenómenos biológicos y geológicos con el fin de valorar su viabilidad y buscar, utilizando estrategias de trabajo cooperativo, soluciones alternativas si esta no lo fuese.",
+      "broader": "ce:SBIGC4",
+      "bloque": "bc:SBIG01BC4",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "CPSAA5",
+        "CE1",
+        "CE3"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG01CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG01CE5.1",
+      "prefLabel": "SBIG01CE5.1 · Relacionar la preservación de la biodiversidad en general y de la canaria en particular,…",
+      "definition": "Relacionar la preservación de la biodiversidad en general y de la canaria en particular, la conservación del medioambiente y la protección de los seres vivos del entorno con el desarrollo sostenible y la calidad de vida, valorando la importancia de los recursos naturales y de determinados grupos de seres vivos en el mantenimiento de la salud del planeta con el fin de emprender acciones que contribuyan a la protección y mejora del entorno más próximo.",
+      "broader": "ce:SBIGC5",
+      "bloque": "bc:SBIG01BC5",
+      "descriptores": [
+        "STEM2",
+        "STEM5",
+        "CPSAA1",
+        "CPSAA2",
+        "CC4",
+        "CE1"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG01CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG01CE5.2",
+      "prefLabel": "SBIG01CE5.2 · Proponer y adoptar hábitos sostenibles, a partir de las actividades propias y ajenas,…",
+      "definition": "Proponer y adoptar hábitos sostenibles, a partir de las actividades propias y ajenas, utilizando sus propios razonamientos, los conocimientos adquiridos y la información disponible a través de distintas fuentes, con el objetivo de presentar ideas y soluciones innovadoras, éticas y sostenibles dirigidas a mejorar la calidad de vida del entorno próximo.",
+      "broader": "ce:SBIGC5",
+      "bloque": "bc:SBIG01BC5",
+      "descriptores": [
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CPSAA1",
+        "CPSAA2",
+        "CC3",
+        "CC4",
+        "CE1"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG01CE6.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG01CE6.1",
+      "prefLabel": "SBIG01CE6.1 · Valorar la importancia del paisaje de las islas Canarias como patrimonio natural a través…",
+      "definition": "Valorar la importancia del paisaje de las islas Canarias como patrimonio natural a través del estudio de algunos ecosistemas y analizar la fragilidad de los elementos que lo componen con el fin de planificar acciones preventivas relacionadas con los impactos generados por el ser humano, adoptando una postura crítica ante las alteraciones del medio natural.",
+      "broader": "ce:SBIGC6",
+      "bloque": "bc:SBIG01BC6",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM5",
+        "CC4",
+        "CE1",
+        "CCEC1"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG03CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG03CE1.1",
+      "prefLabel": "SBIG03CE1.1 · Analizar conceptos y procesos biológicos y geológicos interpretando información en…",
+      "definition": "Analizar conceptos y procesos biológicos y geológicos interpretando información en diferentes formatos con el fin de extraer conclusiones propias y fundamentadas.",
+      "broader": "ce:SBIGC1",
+      "bloque": "bc:SBIG03BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM4",
+        "CD2"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG03CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG03CE1.2",
+      "prefLabel": "SBIG03CE1.2 · Transmitir información sobre procesos biológicos y geológicos o trabajos científicos con…",
+      "definition": "Transmitir información sobre procesos biológicos y geológicos o trabajos científicos con rigor y utilizando la terminología y los formatos adecuados con el fin de facilitar su comprensión y establecer interacciones comunicativas constructivas mediante la argumentación fundamentada, respetuosa y flexible.",
+      "broader": "ce:SBIGC1",
+      "bloque": "bc:SBIG03BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL5",
+        "STEM4",
+        "CD3",
+        "CCEC4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG03CE1.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG03CE1.3",
+      "prefLabel": "SBIG03CE1.3 · Analizar y explicar fenómenos biológicos y geológicos representándolos mediante modelos y…",
+      "definition": "Analizar y explicar fenómenos biológicos y geológicos representándolos mediante modelos y diagramas, utilizando, cuando sea necesario, los pasos del diseño de ingeniería y herramientas digitales para guiar el desarrollo de creación de nuevos contenidos y generar productos comunicativos, tanto de forma individual como colaborativa.",
+      "broader": "ce:SBIGC1",
+      "bloque": "bc:SBIG03BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM4",
+        "CD2",
+        "CD3",
+        "CCEC4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG03CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG03CE2.1",
+      "prefLabel": "SBIG03CE2.1 · Localizar, seleccionar, contrastar y organizar de manera autónoma información de…",
+      "definition": "Localizar, seleccionar, contrastar y organizar de manera autónoma información de distintas fuentes, citándolas correctamente y respetando la propiedad intelectual para resolver cuestiones biológicas y geológicas relacionadas con el medio natural.",
+      "broader": "ce:SBIGC2",
+      "bloque": "bc:SBIG03BC2",
+      "descriptores": [
+        "CCL3",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD4",
+        "CD5"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG03CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG03CE2.2",
+      "prefLabel": "SBIG03CE2.2 · Reconocer información sobre temas biológicos y geológicos con base científica aplicando…",
+      "definition": "Reconocer información sobre temas biológicos y geológicos con base científica aplicando criterios de validez, calidad, actualidad y fiabilidad con el fin de evitar los riesgos de manipulación y desinformación y distinguirla de pseudociencias, bulos, teorías conspiratorias y creencias infundadas, manteniendo una actitud escéptica ante estos.",
+      "broader": "ce:SBIGC2",
+      "bloque": "bc:SBIG03BC2",
+      "descriptores": [
+        "CCL3",
+        "STEM4",
+        "CD1",
+        "CPSAA4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG03CE2.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG03CE2.3",
+      "prefLabel": "SBIG03CE2.3 · Valorar, a partir de información procedente de distintas fuentes, la contribución de la…",
+      "definition": "Valorar, a partir de información procedente de distintas fuentes, la contribución de la ciencia a la sociedad y la labor de las personas dedicadas a ella con independencia de su etnia, sexo o cultura, con el fin de tomar conciencia de su importancia para la mejora de la calidad de vida y para el desarrollo de la humanidad, destacando y reconociendo a las mujeres científicas y entendiendo la investigación como una labor colectiva e interdisciplinar en constante evolución.",
+      "broader": "ce:SBIGC2",
+      "bloque": "bc:SBIG03BC2",
+      "descriptores": [
+        "CCL3",
+        "CD1",
+        "CD2",
+        "CD4",
+        "CPSAA4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG03CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG03CE3.1",
+      "prefLabel": "SBIG03CE3.1 · Plantear preguntas e hipótesis que puedan ser respondidas o contrastadas utilizando las…",
+      "definition": "Plantear preguntas e hipótesis que puedan ser respondidas o contrastadas utilizando las destrezas propias del trabajo científico para explicar fenómenos biológicos y geológicos e intentar realizar predicciones sobre estos.",
+      "broader": "ce:SBIGC3",
+      "bloque": "bc:SBIG03BC3",
+      "descriptores": [
+        "CCL1",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG03CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG03CE3.2",
+      "prefLabel": "SBIG03CE3.2 · Diseñar proyectos de investigación que supongan la experimentación, la toma de datos y el…",
+      "definition": "Diseñar proyectos de investigación que supongan la experimentación, la toma de datos y el análisis de fenómenos biológicos y geológicos con la finalidad de poder dar respuesta a preguntas concretas y contrastar una hipótesis planteada",
+      "broader": "ce:SBIGC3",
+      "bloque": "bc:SBIG03BC3",
+      "descriptores": [
+        "CCL2",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "STEM4",
+        "CE3"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG03CE3.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG03CE3.3",
+      "prefLabel": "SBIG03CE3.3 · Realizar, de manera individual o colaborativa, experimentos y tomar datos cuantitativos o…",
+      "definition": "Realizar, de manera individual o colaborativa, experimentos y tomar datos cuantitativos o cualitativos sobre fenómenos biológicos y geológicos para comprobar una hipótesis planteada, utilizando los instrumentos, herramientas o técnicas adecuadas con precisión y corrección y respetando las normas de uso y seguridad en el laboratorio, con el objetivo de fomentar el pensamiento científico y mostrar una actitud crítica acerca del alcance y las limitaciones de la ciencia.",
+      "broader": "ce:SBIGC3",
+      "bloque": "bc:SBIG03BC3",
+      "descriptores": [
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD1",
+        "CPSAA3"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG03CE3.4",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG03CE3.4",
+      "prefLabel": "SBIG03CE3.4 · Interpretar los resultados obtenidos en un proyecto de investigación utilizando, cuando…",
+      "definition": "Interpretar los resultados obtenidos en un proyecto de investigación utilizando, cuando sea necesario, herramientas matemáticas y tecnológicas para obtener conclusiones fundamentadas, reformulando el procedimiento si fuera preciso y comunicando los resultados en el formato adecuado.",
+      "broader": "ce:SBIGC3",
+      "bloque": "bc:SBIG03BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "CD2",
+        "CE3"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG03CE3.5",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG03CE3.5",
+      "prefLabel": "SBIG03CE3.5 · Establecer colaboraciones en las distintas fases del proyecto científico, utilizando…",
+      "definition": "Establecer colaboraciones en las distintas fases del proyecto científico, utilizando espacios virtuales cuando sea necesario y empleando estrategias de trabajo cooperativo con el fin de comprender las perspectivas de las demás personas e incorporarlas al propio aprendizaje, distribuyendo tareas y responsabilidades de manera equitativa, respetando la diversidad y la igualdad de género y favoreciendo la inclusión.",
+      "broader": "ce:SBIGC3",
+      "bloque": "bc:SBIG03BC3",
+      "descriptores": [
+        "CPSAA3"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG03CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG03CE4.1",
+      "prefLabel": "SBIG03CE4.1 · Resolver problemas o dar explicación a procesos biológicos o geológicos identificando las…",
+      "definition": "Resolver problemas o dar explicación a procesos biológicos o geológicos identificando las variables o aspectos relevantes en cada caso para generar productos o soluciones éticas y sostenibles, utilizando datos e información proporcionados por la persona docente, el razonamiento lógico, el pensamiento computacional o recursos digitales.",
+      "broader": "ce:SBIGC4",
+      "bloque": "bc:SBIG03BC4",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "CD5",
+        "CCEC4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG03CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG03CE4.2",
+      "prefLabel": "SBIG03CE4.2 · Analizar críticamente la solución a un problema sobre fenómenos biológicos y geológicos…",
+      "definition": "Analizar críticamente la solución a un problema sobre fenómenos biológicos y geológicos de forma cooperativa, reflexionando sobre el proceso realizado con el fin de valorar su viabilidad y tomar decisiones, si no lo fuese, para presentar soluciones alternativas.",
+      "broader": "ce:SBIGC4",
+      "bloque": "bc:SBIG03BC4",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "CPSAA5",
+        "CE1",
+        "CE3"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG03CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG03CE5.1",
+      "prefLabel": "SBIG03CE5.1 · Relacionar la preservación de la biodiversidad, especialmente la biodiversidad de las…",
+      "definition": "Relacionar la preservación de la biodiversidad, especialmente la biodiversidad de las islas Canarias, y la conservación del medioambiente con el desarrollo sostenible y la calidad de vida, valorando la importancia de los recursos naturales y de determinados grupos de seres vivos en el mantenimiento de la salud de la especie humana con el fin de diseñar y emprender un plan de acción, fundamentado científicamente, que contribuya a la protección y mejora del entorno más próximo y del planeta.",
+      "broader": "ce:SBIGC5",
+      "bloque": "bc:SBIG03BC5",
+      "descriptores": [
+        "STEM2",
+        "STEM5",
+        "CPSAA2",
+        "CC4",
+        "CE1"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG03CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG03CE5.2",
+      "prefLabel": "SBIG03CE5.2 · Proponer y adoptar hábitos sostenibles, a partir del análisis crítico de las actividades…",
+      "definition": "Proponer y adoptar hábitos sostenibles, a partir del análisis crítico de las actividades propias y ajenas, utilizando sus propios razonamientos, los conocimientos adquiridos y la información disponible a través de distintas fuentes, con el objetivo de desarrollar y comunicar ideas y soluciones innovadoras, éticas y sostenibles dirigidas a mejorar la calidad de vida de nuestro planeta.",
+      "broader": "ce:SBIGC5",
+      "bloque": "bc:SBIG03BC5",
+      "descriptores": [
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CPSAA2",
+        "CC3",
+        "CC4",
+        "CE1"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG03CE5.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG03CE5.3",
+      "prefLabel": "SBIG03CE5.3 · Proponer y adoptar hábitos saludables, analizando las acciones propias y ajenas con…",
+      "definition": "Proponer y adoptar hábitos saludables, analizando las acciones propias y ajenas con actitud crítica y teniendo en cuenta los conocimientos sobre el funcionamiento del cuerpo humano, con el objetivo de elaborar un plan de acción con medidas que permitan mantener y mejorar la salud individual y colectiva, argumentando su conveniencia y defendiéndolo de forma razonada ante las demás personas.",
+      "broader": "ce:SBIGC5",
+      "bloque": "bc:SBIG03BC5",
+      "descriptores": [
+        "STEM2",
+        "STEM5",
+        "CPSAA1",
+        "CPSAA2",
+        "CC3",
+        "CC4",
+        "CE1"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG03CE6.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG03CE6.1",
+      "prefLabel": "SBIG03CE6.1 · Interpretar el paisaje de las islas Canarias analizando sus elementos a través de la…",
+      "definition": "Interpretar el paisaje de las islas Canarias analizando sus elementos a través de la observación y de información en diferentes formatos con el fin de reflexionar sobre el impacto ambiental y los riesgos naturales derivados de determinadas acciones humanas, desarrollando proyectos de sensibilización, a nivel local, que promuevan en la sociedad actitudes respetuosas y comprometidas con la naturaleza.",
+      "broader": "ce:SBIGC6",
+      "bloque": "bc:SBIG03BC6",
+      "descriptores": [
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "STEM5",
+        "CD1",
+        "CC4",
+        "CE1",
+        "CCEC1"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG04CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG04CE1.1",
+      "prefLabel": "SBIG04CE1.1 · Analizar conceptos y procesos biológicos y geológicos interpretando información, con…",
+      "definition": "Analizar conceptos y procesos biológicos y geológicos interpretando información, con actitud crítica, en diferentes formatos con el fin de obtener conclusiones propias, formar opiniones fundamentadas y tomar decisiones coherentes para participar en diferentes contextos de manera activa e informada.",
+      "broader": "ce:SBIGC1",
+      "bloque": "bc:SBIG04BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM4",
+        "CD2"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG04CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG04CE1.2",
+      "prefLabel": "SBIG04CE1.2 · Comunicar opiniones propias e información sobre conceptos, procesos y fenómenos…",
+      "definition": "Comunicar opiniones propias e información sobre conceptos, procesos y fenómenos biológicos y geológicos de forma argumentada y con rigor científico, evitando el uso discriminatorio de la lengua y utilizando la terminología y el formato adecuados para facilitar su comprensión y cambiar las propias concepciones a la vista de los datos y posturas aportados por otras personas.",
+      "broader": "ce:SBIGC1",
+      "bloque": "bc:SBIG04BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL5",
+        "STEM4",
+        "CD3"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG04CE1.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG04CE1.3",
+      "prefLabel": "SBIG04CE1.3 · Analizar información y datos científicos para explicar fenómenos biológicos y geológicos…",
+      "definition": "Analizar información y datos científicos para explicar fenómenos biológicos y geológicos representándolos mediante el diseño y la realización de modelos y diagramas, utilizando cuando sea necesario el diseño de ingeniería y las herramientas digitales con ética y responsabilidad para tomar decisiones, construir nuevos conocimientos y generar productos comunicativos de forma creativa y flexible, individual y colaborativamente.",
+      "broader": "ce:SBIGC1",
+      "bloque": "bc:SBIG04BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "STEM4",
+        "CD2",
+        "CCEC4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG04CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG04CE2.1",
+      "prefLabel": "SBIG04CE2.1 · Localizar, seleccionar, contrastar, organizar y analizar críticamente la información de…",
+      "definition": "Localizar, seleccionar, contrastar, organizar y analizar críticamente la información de distintas fuentes, citándolas con respeto por la propiedad intelectual y compartiéndola mediante herramientas o plataformas digitales, para resolver preguntas, adoptando un punto de vista crítico y profundizar en aspectos biológicos y geológicos relacionados con el medio natural.",
+      "broader": "ce:SBIGC2",
+      "bloque": "bc:SBIG04BC2",
+      "descriptores": [
+        "CCL3",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD4",
+        "CD5"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG04CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG04CE2.2",
+      "prefLabel": "SBIG04CE2.2 · Contrastar la veracidad de la información sobre temas biológicos y geológicos utilizando…",
+      "definition": "Contrastar la veracidad de la información sobre temas biológicos y geológicos utilizando fuentes fiables y haciendo un uso seguro, saludable y sostenible de las tecnologías digitales, con el fin de adoptar una actitud crítica y escéptica hacia informaciones sin una base científica y desarrollar el pensamiento crítico.",
+      "broader": "ce:SBIGC2",
+      "bloque": "bc:SBIG04BC2",
+      "descriptores": [
+        "CCL3",
+        "STEM4",
+        "CD1",
+        "CPSAA4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG04CE2.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG04CE2.3",
+      "prefLabel": "SBIG04CE2.3 · Valorar, a partir de información procedente de diversas fuentes, la contribución de la…",
+      "definition": "Valorar, a partir de información procedente de diversas fuentes, la contribución de la ciencia y la labor de las personas dedicadas a ella a la sociedad, visibilizando, reconociendo y evidenciando a las mujeres científicas y algunas de sus aportaciones con el fin de entender que la investigación es una labor colectiva e interdisciplinar que genera nuevos conocimientos y que se encuentra en constante evolución influida por el contexto político y los recursos económicos.",
+      "broader": "ce:SBIGC2",
+      "bloque": "bc:SBIG04BC2",
+      "descriptores": [
+        "CCL3",
+        "CD1",
+        "CD2",
+        "CD4",
+        "CPSAA4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG04CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG04CE3.1",
+      "prefLabel": "SBIG04CE3.1 · Plantear preguntas e hipótesis que puedan ser respondidas o contrastadas utilizando las…",
+      "definition": "Plantear preguntas e hipótesis que puedan ser respondidas o contrastadas utilizando las destrezas propias del trabajo científico para explicar fenómenos biológicos y geológicos y realizar predicciones sobre estos.",
+      "broader": "ce:SBIGC3",
+      "bloque": "bc:SBIG04BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "CD1"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG04CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG04CE3.2",
+      "prefLabel": "SBIG04CE3.2 · Diseñar y realizar proyectos de investigación que supongan la experimentación, la toma de…",
+      "definition": "Diseñar y realizar proyectos de investigación que supongan la experimentación, la toma de datos cuantitativos o cualitativos, la búsqueda y el tratamiento de información de carácter científico a partir de fuentes diversas y el análisis de fenómenos biológicos y geológicos, utilizando los instrumentos, herramientas o técnicas adecuadas con corrección y precisión con el fin de poder dar respuesta a preguntas concretas y contrastar las hipótesis planteadas evitando sesgos.",
+      "broader": "ce:SBIGC3",
+      "bloque": "bc:SBIG04BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "STEM3",
+        "CD1",
+        "CD2",
+        "CD3"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG04CE3.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG04CE3.3",
+      "prefLabel": "SBIG04CE3.3 · Interpretar y analizar críticamente los resultados obtenidos en un proyecto de…",
+      "definition": "Interpretar y analizar críticamente los resultados obtenidos en un proyecto de investigación utilizando, cuando sea necesario, herramientas matemáticas y tecnológicas con el fin de obtener conclusiones razonadas y fundamentadas o valorar la imposibilidad de hacerlo, reformulando el procedimiento si fuera preciso y comunicando los resultados en el formato adecuado.",
+      "broader": "ce:SBIGC3",
+      "bloque": "bc:SBIG04BC3",
+      "descriptores": [
+        "CCL1",
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "CD2",
+        "CE3"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG04CE3.4",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG04CE3.4",
+      "prefLabel": "SBIG04CE3.4 · Establecer colaboraciones, cuando sea necesario, en las distintas fases del proyecto…",
+      "definition": "Establecer colaboraciones, cuando sea necesario, en las distintas fases del proyecto científico para trabajar con mayor eficiencia, distribuyendo y aceptando tareas y responsabilidades de manera equitativa, valorando la importancia de la cooperación en la investigación, respetando la diversidad y la igualdad de género y favoreciendo la inclusión.",
+      "broader": "ce:SBIGC3",
+      "bloque": "bc:SBIG04BC3",
+      "descriptores": [
+        "CPSAA3"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG04CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG04CE4.1",
+      "prefLabel": "SBIG04CE4.1 · Resolver problemas o dar explicación a procesos biológicos o geológicos de la vida…",
+      "definition": "Resolver problemas o dar explicación a procesos biológicos o geológicos de la vida cotidiana identificando las variables o aspectos relevantes en cada caso y planteando modelos simplificados para generar productos o soluciones innovadoras, éticas y sostenibles, utilizando conocimientos, datos e información proporcionados por la persona docente, el razonamiento lógico, el pensamiento computacional o los recursos digitales.",
+      "broader": "ce:SBIGC4",
+      "bloque": "bc:SBIG04BC4",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "CD5",
+        "CE1",
+        "CCEC4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG04CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG04CE4.2",
+      "prefLabel": "SBIG04CE4.2 · Analizar críticamente la solución a un problema sobre fenómenos biológicos y geológicos…",
+      "definition": "Analizar críticamente la solución a un problema sobre fenómenos biológicos y geológicos de forma creativa y cooperativa, valorando el impacto que puedan suponer en el entorno con el fin de reformular los procedimientos y las conclusiones si dicha solución no fuese viable o ante nuevos datos aportados con posterioridad, presentando ideas o propuestas innovadoras, éticas y sostenibles.",
+      "broader": "ce:SBIGC4",
+      "bloque": "bc:SBIG04BC4",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "CPSAA5",
+        "CE1",
+        "CE3"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG04CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG04CE5.1",
+      "prefLabel": "SBIG04CE5.1 · Identificar y analizar los posibles riesgos naturales potenciados por determinadas…",
+      "definition": "Identificar y analizar los posibles riesgos naturales potenciados por determinadas acciones humanas sobre una zona geográfica mundial y local, teniendo en cuenta sus características litológicas, relieve, vegetación y factores socioeconómicos, mediante la información recabada en salidas de campo y la contenida en fuentes y soportes variados, con el fin de tomar conciencia de su impacto medioambiental y emprender acciones fundamentadas científicamente que eviten o minimicen este impacto y fomenten la conservación del medioambiente, así como una relación sostenible con el mismo.",
+      "broader": "ce:SBIGC5",
+      "bloque": "bc:SBIG04BC5",
+      "descriptores": [
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CPSAA1",
+        "CC4",
+        "CE1"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG04CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG04CE5.2",
+      "prefLabel": "SBIG04CE5.2 · Comprender y analizar a partir de documentación científica extraída de diferentes fuentes…",
+      "definition": "Comprender y analizar a partir de documentación científica extraída de diferentes fuentes los riesgos para la salud relacionados con el deterioro del medioambiente, tanto a nivel local como mundial, adoptando medidas preventivas al usar las tecnologías digitales para proteger los datos personales, la salud y el entorno, tomar conciencia de la importancia de mantener estilos de vida sostenibles, ecosocialmente responsables y saludables y proponer acciones que permitan mantener y mejorar la salud individual y colectiva.",
+      "broader": "ce:SBIGC5",
+      "bloque": "bc:SBIG04BC5",
+      "descriptores": [
+        "STEM2",
+        "STEM5",
+        "CD4",
+        "CPSAA1",
+        "CPSAA2",
+        "CC3",
+        "CC4",
+        "CE1"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG04CE6.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG04CE6.1",
+      "prefLabel": "SBIG04CE6.1 · Deducir y explicar la historia geológica de un relieve del entorno próximo identificando…",
+      "definition": "Deducir y explicar la historia geológica de un relieve del entorno próximo identificando sus elementos más relevantes a partir de cortes, mapas u otros sistemas de información geológica, aplicando el pensamiento científico, los principios geológicos básicos y las teorías geológicas más relevantes con el objetivo de reconocer que el relieve es el resultado de la interacción de los procesos geológicos internos y externos.",
+      "broader": "ce:SBIGC6",
+      "bloque": "bc:SBIG04BC6",
+      "descriptores": [
+        "CCL3",
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CC4"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SBIG04CE6.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SBIG04CE6.2",
+      "prefLabel": "SBIG04CE6.2 · Interpretar y analizar los elementos de un paisaje del entorno cercano valorándolo como…",
+      "definition": "Interpretar y analizar los elementos de un paisaje del entorno cercano valorándolo como patrimonio natural y utilizando conocimientos sobre Geología y Ciencias de la Tierra para identificar los posibles riesgos naturales, proponer medidas de predicción, prevención y corrección y reconocer el impacto que las acciones humanas tienen sobre el medioambiente, emprendiendo acciones para preservarlo.",
+      "broader": "ce:SBIGC6",
+      "bloque": "bc:SBIG04BC6",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "STEM5",
+        "CC4",
+        "CE1",
+        "CCEC1"
+      ],
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "SBIG01SBI",
+      "prefLabel": "SBIG01SBI · I. Proyecto científico",
+      "definition": "Proyecto científico",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "SBIG01SBII",
+      "prefLabel": "SBIG01SBII · II. Geología",
+      "definition": "Geología",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "SBIG01SBIII",
+      "prefLabel": "SBIG01SBIII · III. La célula",
+      "definition": "La célula",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "SBIG01SBIV",
+      "prefLabel": "SBIG01SBIV · IV. Seres vivos",
+      "definition": "Seres vivos",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBV",
+      "tipo": "BloqueSaberes",
+      "notation": "SBIG01SBV",
+      "prefLabel": "SBIG01SBV · V. Ecología y sostenibilidad",
+      "definition": "Ecología y sostenibilidad",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "SBIG03SBI",
+      "prefLabel": "SBIG03SBI · I. Proyecto científico",
+      "definition": "Proyecto científico",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "SBIG03SBII",
+      "prefLabel": "SBIG03SBII · II. Geología",
+      "definition": "Geología",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "SBIG03SBIII",
+      "prefLabel": "SBIG03SBIII · III. La célula",
+      "definition": "La célula",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "SBIG03SBIV",
+      "prefLabel": "SBIG03SBIV · IV. Ecología y sostenibilidad",
+      "definition": "Ecología y sostenibilidad",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBV",
+      "tipo": "BloqueSaberes",
+      "notation": "SBIG03SBV",
+      "prefLabel": "SBIG03SBV · V. Cuerpo humano",
+      "definition": "Cuerpo humano",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBVI",
+      "tipo": "BloqueSaberes",
+      "notation": "SBIG03SBVI",
+      "prefLabel": "SBIG03SBVI · VI. Hábitos saludables",
+      "definition": "Hábitos saludables",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBVII",
+      "tipo": "BloqueSaberes",
+      "notation": "SBIG03SBVII",
+      "prefLabel": "SBIG03SBVII · VII. Salud y enfermedad",
+      "definition": "Salud y enfermedad",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "SBIG04SBI",
+      "prefLabel": "SBIG04SBI · I. Proyecto científico",
+      "definition": "Proyecto científico",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "SBIG04SBII",
+      "prefLabel": "SBIG04SBII · II. Geología",
+      "definition": "Geología",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "SBIG04SBIII",
+      "prefLabel": "SBIG04SBIII · III. La célula",
+      "definition": "La célula",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "SBIG04SBIV",
+      "prefLabel": "SBIG04SBIV · IV. Genética y evolución",
+      "definition": "Genética y evolución",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBV",
+      "tipo": "BloqueSaberes",
+      "notation": "SBIG04SBV",
+      "prefLabel": "SBIG04SBV · V. La Tierra en el universo",
+      "definition": "La Tierra en el universo",
+      "broader": "materia:SBIG",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBI.1",
+      "prefLabel": "SBIG01SBI.1 · Aproximación a los pasos del método científico (hipótesis, preguntas y conjeturas) a…",
+      "definition": "Aproximación a los pasos del método científico (hipótesis, preguntas y conjeturas) a través de ejemplos de la vida cotidiana.",
+      "broader": "sb:SBIG01SBI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBI.2",
+      "prefLabel": "SBIG01SBI.2 · Utilización de estrategias para la búsqueda de información, la colaboración y la…",
+      "definition": "Utilización de estrategias para la búsqueda de información, la colaboración y la comunicación de procesos, resultados o ideas científicas.",
+      "broader": "sb:SBIG01SBI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBI.3",
+      "prefLabel": "SBIG01SBI.3 · Reconocimiento y utilización de fuentes fidedignas de información científica para evitar…",
+      "definition": "Reconocimiento y utilización de fuentes fidedignas de información científica para evitar los riesgos de desinformación.",
+      "broader": "sb:SBIG01SBI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBI.4",
+      "prefLabel": "SBIG01SBI.4 · Utilización de herramientas digitales y formatos de uso frecuente en ciencia…",
+      "definition": "Utilización de herramientas digitales y formatos de uso frecuente en ciencia (presentación, gráfica, vídeo, póster, informe, etc.).",
+      "broader": "sb:SBIG01SBI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBI.5",
+      "prefLabel": "SBIG01SBI.5 · Uso de los instrumentos y espacios necesarios (laboratorio, aulas, entorno, huertos,…",
+      "definition": "Uso de los instrumentos y espacios necesarios (laboratorio, aulas, entorno, huertos, etc.) para dar respuesta a cuestiones científicas mediante la experimentación y el trabajo de campo.",
+      "broader": "sb:SBIG01SBI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBI.6",
+      "prefLabel": "SBIG01SBI.6 · Empleo del modelado como método práctico de representación y comprensión de procesos o…",
+      "definition": "Empleo del modelado como método práctico de representación y comprensión de procesos o elementos de la naturaleza.",
+      "broader": "sb:SBIG01SBI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBI.7",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBI.7",
+      "prefLabel": "SBIG01SBI.7 · Comprensión del papel de la mujer en la ciencia y la relevancia de las personas que se…",
+      "definition": "Comprensión del papel de la mujer en la ciencia y la relevancia de las personas que se dedican a ella en Canarias para apreciar su contribución a la sociedad y fomentar las vocaciones científicas (STEAM).",
+      "broader": "sb:SBIG01SBI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBII.1",
+      "prefLabel": "SBIG01SBII.1 · Indagación acerca de las características y propiedades de los minerales y rocas más…",
+      "definition": "Indagación acerca de las características y propiedades de los minerales y rocas más relevantes y sus aplicaciones más frecuentes en el ámbito de la vida cotidiana.",
+      "broader": "sb:SBIG01SBII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBII.2",
+      "prefLabel": "SBIG01SBII.2 · Uso de claves dicotómicas y de la observación para clasificar las rocas: sedimentarias,…",
+      "definition": "Uso de claves dicotómicas y de la observación para clasificar las rocas: sedimentarias, metamórficas e ígneas. Interpretación del ciclo de las rocas.",
+      "broader": "sb:SBIG01SBII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBII.3",
+      "prefLabel": "SBIG01SBII.3 · Identificación de rocas y minerales de Canarias y su localización en paisajes concretos.",
+      "definition": "Identificación de rocas y minerales de Canarias y su localización en paisajes concretos.",
+      "broader": "sb:SBIG01SBII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBII.4",
+      "prefLabel": "SBIG01SBII.4 · Reconocimiento de la importancia de la explotación sostenible y del uso de minerales y…",
+      "definition": "Reconocimiento de la importancia de la explotación sostenible y del uso de minerales y rocas, valorando tanto la limitación de cada recurso como el impacto de la explotación minera en los países productores.",
+      "broader": "sb:SBIG01SBII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBIII.1",
+      "prefLabel": "SBIG01SBIII.1 · Identificación de la célula como unidad estructural y funcional de los seres vivos a…",
+      "definition": "Identificación de la célula como unidad estructural y funcional de los seres vivos a partir de la comparativa entre la materia inerte y la materia viva.",
+      "broader": "sb:SBIG01SBIII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBIII.2",
+      "prefLabel": "SBIG01SBIII.2 · Utilización de la microscopía óptica e interpretación de imágenes para indagar sobre las…",
+      "definition": "Utilización de la microscopía óptica e interpretación de imágenes para indagar sobre las diferencias y semejanzas entre la célula procariota, la célula eucariota animal y la célula eucariota vegetal.",
+      "broader": "sb:SBIG01SBIII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBIV.1",
+      "prefLabel": "SBIG01SBIV.1 · Reconocimiento de los rasgos que permiten determinar el concepto de especie.",
+      "definition": "Reconocimiento de los rasgos que permiten determinar el concepto de especie.",
+      "broader": "sb:SBIG01SBIV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBIV.2",
+      "prefLabel": "SBIG01SBIV.2 · Clasificación de los seres vivos en los principales reinos a partir de la comparación de…",
+      "definition": "Clasificación de los seres vivos en los principales reinos a partir de la comparación de sus características.",
+      "broader": "sb:SBIG01SBIV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBIV.3",
+      "prefLabel": "SBIG01SBIV.3 · Utilización de estrategias para la identificación y clasificación de las especies del…",
+      "definition": "Utilización de estrategias para la identificación y clasificación de las especies del entorno en los principales grupos taxonómicos (guías, claves dicotómicas, herramientas digitales, visu, etc.).",
+      "broader": "sb:SBIG01SBIV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBIV.4",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBIV.4",
+      "prefLabel": "SBIG01SBIV.4 · Valoración de la biodiversidad canaria como patrimonio natural único. Estudio de las…",
+      "definition": "Valoración de la biodiversidad canaria como patrimonio natural único. Estudio de las consecuencias de su pérdida y medidas para su conservación.",
+      "broader": "sb:SBIG01SBIV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBIV.5",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBIV.5",
+      "prefLabel": "SBIG01SBIV.5 · Fomento de la sensibilidad y empatía hacia los seres vivos y reconocimiento de los…",
+      "definition": "Fomento de la sensibilidad y empatía hacia los seres vivos y reconocimiento de los animales como seres sintientes.",
+      "broader": "sb:SBIG01SBIV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBV.1",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBV.1",
+      "prefLabel": "SBIG01SBV.1 · Descripción de las características de los ecosistemas acuáticos y terrestres de Canarias…",
+      "definition": "Descripción de las características de los ecosistemas acuáticos y terrestres de Canarias a través del estudio de los componentes bióticos, abióticos y de las relaciones intraespecíficas e interespecíficas entre sus elementos.",
+      "broader": "sb:SBIG01SBV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBV.2",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBV.2",
+      "prefLabel": "SBIG01SBV.2 · Valoración de la variedad y riqueza de los ecosistemas canarios. Estrategias para su…",
+      "definition": "Valoración de la variedad y riqueza de los ecosistemas canarios. Estrategias para su cuidado, conservación y protección.",
+      "broader": "sb:SBIG01SBV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBV.3",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBV.3",
+      "prefLabel": "SBIG01SBV.3 · Importancia de la atmósfera y la hidrosfera en el mantenimiento de la vida en la tierra.",
+      "definition": "Importancia de la atmósfera y la hidrosfera en el mantenimiento de la vida en la tierra.",
+      "broader": "sb:SBIG01SBV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBV.4",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBV.4",
+      "prefLabel": "SBIG01SBV.4 · Investigación sobre la contaminación atmosférica y acuática y sus repercusiones en el…",
+      "definition": "Investigación sobre la contaminación atmosférica y acuática y sus repercusiones en el medioambiente y la salud. Formulación de propuestas que contribuyan a mejorar su calidad.",
+      "broader": "sb:SBIG01SBV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBV.5",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBV.5",
+      "prefLabel": "SBIG01SBV.5 · Identificación de las causas del cambio climático y sus consecuencias sobre los…",
+      "definition": "Identificación de las causas del cambio climático y sus consecuencias sobre los ecosistemas canarios. Implantación de un modelo de desarrollo sostenible como única alternativa posible para el logro de los Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030.",
+      "broader": "sb:SBIG01SBV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBV.6",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBV.6",
+      "prefLabel": "SBIG01SBV.6 · Diseño e implementación de un plan de vida saludable y sostenible como opción de cambio…",
+      "definition": "Diseño e implementación de un plan de vida saludable y sostenible como opción de cambio individual para mejorar colectivamente la salud del planeta.",
+      "broader": "sb:SBIG01SBV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBV.7",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBV.7",
+      "prefLabel": "SBIG01SBV.7 · Valoración de las relaciones ecosociales de interdependencia y ecodependencia como…",
+      "definition": "Valoración de las relaciones ecosociales de interdependencia y ecodependencia como alternativas de transformación ante la actual situación de emergencia socio-climática.",
+      "broader": "sb:SBIG01SBV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBV.8",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBV.8",
+      "prefLabel": "SBIG01SBV.8 · Análisis de la relación entre la salud medioambiental, humana y de otros seres vivos: one…",
+      "definition": "Análisis de la relación entre la salud medioambiental, humana y de otros seres vivos: one health (una sola salud).",
+      "broader": "sb:SBIG01SBV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG01SBV.9",
+      "tipo": "SaberBasico",
+      "notation": "SBIG01SBV.9",
+      "prefLabel": "SBIG01SBV.9 · Importancia de adoptar estilos de vida sostenibles (consumo responsable, movilidad…",
+      "definition": "Importancia de adoptar estilos de vida sostenibles (consumo responsable, movilidad sostenible, economía circular, etc.) y saludables (salud física, mental y social) para contribuir al bienestar de las personas y del planeta.",
+      "broader": "sb:SBIG01SBV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBI.1",
+      "prefLabel": "SBIG03SBI.1 · Aplicación de las destrezas y habilidades propias del trabajo científico para explicar…",
+      "definition": "Aplicación de las destrezas y habilidades propias del trabajo científico para explicar fenómenos biológicos y geológicos.",
+      "broader": "sb:SBIG03SBI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBI.2",
+      "prefLabel": "SBIG03SBI.2 · Estrategias para la búsqueda de información, la colaboración y la comunicación de…",
+      "definition": "Estrategias para la búsqueda de información, la colaboración y la comunicación de procesos, resultados o ideas científicas: herramientas digitales y formatos de uso frecuente en ciencia (presentación, gráfica, vídeo, póster, informe, etc.). Contraste de la información científica y uso de fuentes fidedignas para evitar los riesgos de la desinformación.",
+      "broader": "sb:SBIG03SBI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBI.3",
+      "prefLabel": "SBIG03SBI.3 · Realización de trabajo experimental de laboratorio o de campo, utilizando los…",
+      "definition": "Realización de trabajo experimental de laboratorio o de campo, utilizando los instrumentos y espacios necesarios (laboratorio, aulas, entorno, huertos, etc.) de forma adecuada, para la resolución de problemas científicos.",
+      "broader": "sb:SBIG03SBI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBI.4",
+      "prefLabel": "SBIG03SBI.4 · Construcción de modelos que expliquen procesos o elementos de la naturaleza.",
+      "definition": "Construcción de modelos que expliquen procesos o elementos de la naturaleza.",
+      "broader": "sb:SBIG03SBI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBI.5",
+      "prefLabel": "SBIG03SBI.5 · Uso de métodos de análisis de resultados o conclusiones de un proyecto científico.…",
+      "definition": "Uso de métodos de análisis de resultados o conclusiones de un proyecto científico. Diferenciación entre correlación y causalidad.",
+      "broader": "sb:SBIG03SBI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBI.6",
+      "prefLabel": "SBIG03SBI.6 · Valoración de la labor de la mujer en la ciencia y la relevancia de las personas que se…",
+      "definition": "Valoración de la labor de la mujer en la ciencia y la relevancia de las personas que se dedican a ella en Canarias para apreciar su contribución a la sociedad y fomentar las vocaciones científicas (STEAM).",
+      "broader": "sb:SBIG03SBI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBII.1",
+      "prefLabel": "SBIG03SBII.1 · Interpretación de la estructura de la geosfera para establecer la relación entre la…",
+      "definition": "Interpretación de la estructura de la geosfera para establecer la relación entre la energía interna, los modelos del interior terrestre (geoquímico y geofísico) y los límites de las principales placas tectónicas.",
+      "broader": "sb:SBIG03SBII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBII.2",
+      "prefLabel": "SBIG03SBII.2 · Investigación sobre los tipos de volcanes y su actividad en función de las…",
+      "definition": "Investigación sobre los tipos de volcanes y su actividad en función de las características del magma, con especial atención al vulcanismo canario.",
+      "broader": "sb:SBIG03SBII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBII.3",
+      "prefLabel": "SBIG03SBII.3 · Valoración de la importancia de conocer los riesgos volcánicos y sísmicos en Canarias,…",
+      "definition": "Valoración de la importancia de conocer los riesgos volcánicos y sísmicos en Canarias, así como las medidas preventivas y su posible predicción. Identificación y función de los organismos gubernamentales para la gestión de fenómenos sísmicos y volcánicos.",
+      "broader": "sb:SBIG03SBII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBIII.1",
+      "prefLabel": "SBIG03SBIII.1 · Catalogación de los niveles de organización de la materia viva: células, tejidos, órganos…",
+      "definition": "Catalogación de los niveles de organización de la materia viva: células, tejidos, órganos y aparatos o sistemas.",
+      "broader": "sb:SBIG03SBIII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBIII.2",
+      "prefLabel": "SBIG03SBIII.2 · Valoración de la importancia de la célula como unidad de vida. Diferenciación de los…",
+      "definition": "Valoración de la importancia de la célula como unidad de vida. Diferenciación de los distintos tipos celulares: célula procariota, célula eucariota animal y célula eucariota vegetal. Descripción de la función de los orgánulos más importantes.",
+      "broader": "sb:SBIG03SBIII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBIII.3",
+      "prefLabel": "SBIG03SBIII.3 · Relación entre la función de los diferentes tejidos y las características de las células…",
+      "definition": "Relación entre la función de los diferentes tejidos y las características de las células que los forman.",
+      "broader": "sb:SBIG03SBIII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBIII.4",
+      "prefLabel": "SBIG03SBIII.4 · Aplicación de técnicas de preparación de muestras para la observación de células y…",
+      "definition": "Aplicación de técnicas de preparación de muestras para la observación de células y tejidos al microscopio óptico (epidermis de cebolla, mucosa bucal).",
+      "broader": "sb:SBIG03SBIII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBIV.1",
+      "prefLabel": "SBIG03SBIV.1 · Análisis de las interacciones entre la atmósfera, la hidrosfera, la geosfera y la…",
+      "definition": "Análisis de las interacciones entre la atmósfera, la hidrosfera, la geosfera y la biosfera para comprender la formación y evolución del suelo y del modelado del relieve.",
+      "broader": "sb:SBIG03SBIV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBIV.2",
+      "prefLabel": "SBIG03SBIV.2 · Valoración de la importancia del suelo en el mantenimiento de los ecosistemas. Análisis…",
+      "definition": "Valoración de la importancia del suelo en el mantenimiento de los ecosistemas. Análisis de los problemas que provocan su erosión y contaminación. Reconocimiento de la necesidad de adoptar medidas para preservar y hacer un uso responsable y sostenible de este recurso.",
+      "broader": "sb:SBIG03SBIV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBIV.3",
+      "prefLabel": "SBIG03SBIV.3 · Relación entre la situación de emergencia climática y las iniciativas de adaptación,…",
+      "definition": "Relación entre la situación de emergencia climática y las iniciativas de adaptación, mitigación y resiliencia para conocer las consecuencias de las acciones diarias en el planeta y generar empatía hacia el entorno natural y social.",
+      "broader": "sb:SBIG03SBIV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBIV.4",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBIV.4",
+      "prefLabel": "SBIG03SBIV.4 · Análisis de la situación medioambiental actual de Canarias y su relación con los…",
+      "definition": "Análisis de la situación medioambiental actual de Canarias y su relación con los Objetivos de Desarrollo Sostenible (ODS) y la Agenda Canaria de Desarrollo Sostenible 2030.",
+      "broader": "sb:SBIG03SBIV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBIV.5",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBIV.5",
+      "prefLabel": "SBIG03SBIV.5 · Adquisición urgente de estilos de vida sostenibles y saludables (one health) como…",
+      "definition": "Adquisición urgente de estilos de vida sostenibles y saludables (one health) como respuesta a la necesidad de transformación del actual modelo socioeconómico hacia un modelo ecosocial que priorice la justicia social, la igualdad y la sostenibilidad.",
+      "broader": "sb:SBIG03SBIV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBV.1",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBV.1",
+      "prefLabel": "SBIG03SBV.1 · Diferenciación entre los procesos de alimentación y nutrición. Descripción de la…",
+      "definition": "Diferenciación entre los procesos de alimentación y nutrición. Descripción de la anatomía, fisiología y patología de los aparatos implicados en la nutrición (aparatos digestivo, respiratorio, circulatorio, excretor) para comprender su funcionamiento y fomentar el autocuidado.",
+      "broader": "sb:SBIG03SBV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBV.2",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBV.2",
+      "prefLabel": "SBIG03SBV.2 · Categorización de los tipos de receptores sensoriales, asignación de los órganos de los…",
+      "definition": "Categorización de los tipos de receptores sensoriales, asignación de los órganos de los sentidos y reconocimiento del papel de los centros de coordinación (sistema nervioso y endocrino) en el cuerpo humano.",
+      "broader": "sb:SBIG03SBV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBV.3",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBV.3",
+      "prefLabel": "SBIG03SBV.3 · Descripción de las características básicas y funcionamiento del aparato reproductor…",
+      "definition": "Descripción de las características básicas y funcionamiento del aparato reproductor masculino y femenino. Identificación de las principales etapas del ciclo menstrual, las hormonas que lo regulan y los acontecimientos fundamentales de la fecundación, el embarazo y el parto.",
+      "broader": "sb:SBIG03SBV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBV.4",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBV.4",
+      "prefLabel": "SBIG03SBV.4 · Relación entre los principales sistemas y aparatos del organismo implicados en las de…",
+      "definition": "Relación entre los principales sistemas y aparatos del organismo implicados en las de nutrición, relación y reproducción mediante la aplicación de conocimientos de fisiología y anatomía.",
+      "broader": "sb:SBIG03SBV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBVI.1",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBVI.1",
+      "prefLabel": "SBIG03SBVI.1 · Apreciación de la importancia de mantener una dieta saludable. Elaboración de dietas…",
+      "definition": "Apreciación de la importancia de mantener una dieta saludable. Elaboración de dietas equilibradas mediante el uso de balances calóricos, gasto energético diario, cálculo del IMC, porcentaje de nutrientes y otros.",
+      "broader": "sb:SBIG03SBVI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBVI.2",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBVI.2",
+      "prefLabel": "SBIG03SBVI.2 · Investigación sobre los trastornos de la conducta alimentaria. Importancia del…",
+      "definition": "Investigación sobre los trastornos de la conducta alimentaria. Importancia del autocuidado para un adecuado desarrollo del bienestar emocional (autoconcepto, autoestima, asertividad, sentido crítico, resiliencia…).",
+      "broader": "sb:SBIG03SBVI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBVI.3",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBVI.3",
+      "prefLabel": "SBIG03SBVI.3 · Reconocimiento de la educación sexual como parte de un desarrollo integral que diferencie…",
+      "definition": "Reconocimiento de la educación sexual como parte de un desarrollo integral que diferencie los conceptos sexo y sexualidad y ponga en valor el respeto hacia la libertad, la diversidad sexual y la igualdad de género.",
+      "broader": "sb:SBIG03SBVI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBVI.4",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBVI.4",
+      "prefLabel": "SBIG03SBVI.4 · Concienciación sobre la importancia de adquirir prácticas sexuales saludables,…",
+      "definition": "Concienciación sobre la importancia de adquirir prácticas sexuales saludables, responsables y consentidas. Prevención de infecciones de transmisión sexual (ITS) y de embarazos no deseados. El uso adecuado de métodos anticonceptivos y de métodos de prevención de ITS.",
+      "broader": "sb:SBIG03SBVI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBVI.5",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBVI.5",
+      "prefLabel": "SBIG03SBVI.5 · Reflexión sobre las adicciones con sustancia (drogas legales e ilegales) y sin sustancia…",
+      "definition": "Reflexión sobre las adicciones con sustancia (drogas legales e ilegales) y sin sustancia (conductuales: tecnologías, ludopatía), sus efectos perjudiciales sobre la salud de las personas consumidoras y de quienes están en su entorno próximo.",
+      "broader": "sb:SBIG03SBVI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBVI.6",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBVI.6",
+      "prefLabel": "SBIG03SBVI.6 · Diseño e implementación de un plan de vida saludable que contemple la salud física,…",
+      "definition": "Diseño e implementación de un plan de vida saludable que contemple la salud física, mental y social como paradigmas de bienestar para el desarrollo de una vida plena.",
+      "broader": "sb:SBIG03SBVI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBVII.1",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBVII.1",
+      "prefLabel": "SBIG03SBVII.1 · Clasificación de las enfermedades según su etiología: enfermedades infecciosas y no…",
+      "definition": "Clasificación de las enfermedades según su etiología: enfermedades infecciosas y no infecciosas para conocer medidas de prevención y tratamientos. Diferenciación entre los conceptos de pandemia, epidemia, endemia y brote epidémico. Importancia del uso adecuado de los antibióticos.",
+      "broader": "sb:SBIG03SBVII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBVII.2",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBVII.2",
+      "prefLabel": "SBIG03SBVII.2 · Indagación acerca de la prevalencia en Canarias de determinadas enfermedades y su…",
+      "definition": "Indagación acerca de la prevalencia en Canarias de determinadas enfermedades y su relación, en algunos casos, con la falta de hábitos saludables.",
+      "broader": "sb:SBIG03SBVII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBVII.3",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBVII.3",
+      "prefLabel": "SBIG03SBVII.3 · Descripción del funcionamiento básico de los mecanismos de defensa: barreras externas y…",
+      "definition": "Descripción del funcionamiento básico de los mecanismos de defensa: barreras externas y sistema inmunitario. Reconocimiento de su implicación en la prevención y superación de enfermedades infecciosas.",
+      "broader": "sb:SBIG03SBVII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBVII.4",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBVII.4",
+      "prefLabel": "SBIG03SBVII.4 · Análisis crítico de estudios científicos para valorar la relevancia de las vacunas como…",
+      "definition": "Análisis crítico de estudios científicos para valorar la relevancia de las vacunas como medida de prevención de enfermedades infecciosas y su papel en la mejora de la calidad de vida humana.",
+      "broader": "sb:SBIG03SBVII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG03SBVII.5",
+      "tipo": "SaberBasico",
+      "notation": "SBIG03SBVII.5",
+      "prefLabel": "SBIG03SBVII.5 · Apreciación de la importancia de los trasplantes y de la donación de células, sangre y…",
+      "definition": "Apreciación de la importancia de los trasplantes y de la donación de células, sangre y órganos para el beneficio social y personal, valorando la figura de la ciudadanía española como referente mundial en la donación de órganos y de la ciudadanía de Canarias, en particular, en la donación de sangre.",
+      "broader": "sb:SBIG03SBVII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBI.1",
+      "prefLabel": "SBIG04SBI.1 · Formulación de hipótesis, preguntas y conjeturas aplicando las destrezas y habilidades…",
+      "definition": "Formulación de hipótesis, preguntas y conjeturas aplicando las destrezas y habilidades propias del trabajo científico para explicar fenómenos biológicos y geológicos.",
+      "broader": "sb:SBIG04SBI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBI.2",
+      "prefLabel": "SBIG04SBI.2 · Empleo de estrategias para la búsqueda de información, la colaboración y la comunicación…",
+      "definition": "Empleo de estrategias para la búsqueda de información, la colaboración y la comunicación de procesos, resultados o ideas científicas: herramientas digitales y formatos de uso frecuente en ciencia (presentación gráfica, vídeo, póster, informe, etc.). Utilización de fuentes fidedignas de información científica para evitar los riesgos de manipulación y desinformación.",
+      "broader": "sb:SBIG04SBI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBI.3",
+      "prefLabel": "SBIG04SBI.3 · Diseño de proyectos de investigación que supongan la experimentación y el trabajo de…",
+      "definition": "Diseño de proyectos de investigación que supongan la experimentación y el trabajo de campo utilizando los instrumentos y espacios necesarios (laboratorio, aulas, entorno, etc.) de forma adecuada y precisa para responder a cuestiones científicas. Importancia de la realización de controles experimentales (positivos y negativos) para la obtención de resultados científicos objetivos y fiables.",
+      "broader": "sb:SBIG04SBI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBI.4",
+      "prefLabel": "SBIG04SBI.4 · Utilización de modelos para la representación y comprensión de procesos o elementos de la…",
+      "definition": "Utilización de modelos para la representación y comprensión de procesos o elementos de la naturaleza.",
+      "broader": "sb:SBIG04SBI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBI.5",
+      "prefLabel": "SBIG04SBI.5 · Aplicación de métodos de observación y de toma de datos de fenómenos naturales.",
+      "definition": "Aplicación de métodos de observación y de toma de datos de fenómenos naturales.",
+      "broader": "sb:SBIG04SBI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBI.6",
+      "prefLabel": "SBIG04SBI.6 · Uso de métodos de análisis de resultados o conclusiones de un proyecto científico.…",
+      "definition": "Uso de métodos de análisis de resultados o conclusiones de un proyecto científico. Diferenciación entre correlación y causalidad.",
+      "broader": "sb:SBIG04SBI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBI.7",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBI.7",
+      "prefLabel": "SBIG04SBI.7 · Valoración crítica de la contribución de la ciencia a la sociedad y la labor de las…",
+      "definition": "Valoración crítica de la contribución de la ciencia a la sociedad y la labor de las personas dedicadas a ella, destacando y visibilizando a las mujeres científicas, especialmente a las investigadoras canarias, para fomentar la vocación científica y acabar con la brecha de género en el ámbito de la ciencia y de la tecnología.",
+      "broader": "sb:SBIG04SBI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBI.8",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBI.8",
+      "prefLabel": "SBIG04SBI.8 · Reconocimiento de la ciencia como labor colectiva, interdisciplinar y en continua…",
+      "definition": "Reconocimiento de la ciencia como labor colectiva, interdisciplinar y en continua construcción, influida por el contexto político y los recursos económicos.",
+      "broader": "sb:SBIG04SBI",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBII.1",
+      "prefLabel": "SBIG04SBII.1 · Diferenciación entre relieve y paisaje. Identificación de las principales formas del…",
+      "definition": "Diferenciación entre relieve y paisaje. Identificación de las principales formas del modelado del relieve y de los procesos que operan para su formación (externos e internos). Estudio de los tipos de paisajes, destacando los más característicos de las islas Canarias, valorando su importancia como recurso natural, cultural y económico para contribuir a su conservación y mejora.",
+      "broader": "sb:SBIG04SBII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBII.2",
+      "prefLabel": "SBIG04SBII.2 · Análisis de los métodos de estudio del interior de la Tierra para explicar su estructura…",
+      "definition": "Análisis de los métodos de estudio del interior de la Tierra para explicar su estructura y composición. Comparación de los modelos geodinámico y geoquímico.",
+      "broader": "sb:SBIG04SBII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBII.3",
+      "prefLabel": "SBIG04SBII.3 · Análisis e interpretación de los fenómenos derivados de la dinámica de la geosfera,…",
+      "definition": "Análisis e interpretación de los fenómenos derivados de la dinámica de la geosfera, mediante la aplicación de los postulados de la tectónica de placas. Descripción y comparación de las principales teorías sobre el origen y evolución de las islas Canarias.",
+      "broader": "sb:SBIG04SBII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBII.4",
+      "prefLabel": "SBIG04SBII.4 · Diferenciación entre los procesos geológicos externos e internos y relación de estos con…",
+      "definition": "Diferenciación entre los procesos geológicos externos e internos y relación de estos con los riesgos naturales, con especial atención a aquellos que afectan al archipiélago canario. Identificación de las principales medidas de prevención. Interpretación de mapas de riesgos naturales de Canarias.",
+      "broader": "sb:SBIG04SBII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBII.5",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBII.5",
+      "prefLabel": "SBIG04SBII.5 · Realización de perfiles topográficos e interpretación de cortes geológicos sencillos…",
+      "definition": "Realización de perfiles topográficos e interpretación de cortes geológicos sencillos aplicando los principios de horizontalidad, superposición, intersección, sucesión faunística, etc., para explicar la historia geológica de una zona.",
+      "broader": "sb:SBIG04SBII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBIII.1",
+      "prefLabel": "SBIG04SBIII.1 · Comparación de la organización del núcleo y de sus componentes (cromatina, cromosomas) en…",
+      "definition": "Comparación de la organización del núcleo y de sus componentes (cromatina, cromosomas) en las fases del ciclo celular.",
+      "broader": "sb:SBIG04SBIII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBIII.2",
+      "prefLabel": "SBIG04SBIII.2 · Descripción y reconocimiento de los diferentes procesos que tienen lugar en la mitosis y…",
+      "definition": "Descripción y reconocimiento de los diferentes procesos que tienen lugar en la mitosis y la meiosis, diferenciando su significado biológico.",
+      "broader": "sb:SBIG04SBIII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBIII.3",
+      "prefLabel": "SBIG04SBIII.3 · Identificación de las distintas fases de la mitosis a través de la observación de…",
+      "definition": "Identificación de las distintas fases de la mitosis a través de la observación de imágenes microscópicas. Preparación y tratamiento de muestras microscópicas de células para la observación de la mitosis.",
+      "broader": "sb:SBIG04SBIII",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBIV.1",
+      "prefLabel": "SBIG04SBIV.1 · Análisis comparativo de los tipos y composición química de ácidos nucleicos,…",
+      "definition": "Análisis comparativo de los tipos y composición química de ácidos nucleicos, relacionándolos con su función.",
+      "broader": "sb:SBIG04SBIV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBIV.2",
+      "prefLabel": "SBIG04SBIV.2 · Reconocimiento de la importancia biológica del ADN como molécula responsable del…",
+      "definition": "Reconocimiento de la importancia biológica del ADN como molécula responsable del almacenamiento, conservación y transmisión de la información genética. Relación con el concepto de gen. Identificación de las características principales del proceso de replicación.",
+      "broader": "sb:SBIG04SBIV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBIV.3",
+      "prefLabel": "SBIG04SBIV.3 · Utilización del código genético, reconociendo sus características, para ilustrar los…",
+      "definition": "Utilización del código genético, reconociendo sus características, para ilustrar los mecanismos de expresión génica y resolver problemas relacionados con esta.",
+      "broader": "sb:SBIG04SBIV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBIV.4",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBIV.4",
+      "prefLabel": "SBIG04SBIV.4 · Búsqueda y selección de información fiable en fuentes variadas sobre las enfermedades…",
+      "definition": "Búsqueda y selección de información fiable en fuentes variadas sobre las enfermedades hereditarias más frecuentes y su alcance social. Relación entre las mutaciones genéticas y el cáncer.",
+      "broader": "sb:SBIG04SBIV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBIV.5",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBIV.5",
+      "prefLabel": "SBIG04SBIV.5 · Valoración del papel de las mutaciones en la biodiversidad genética y su relación con la…",
+      "definition": "Valoración del papel de las mutaciones en la biodiversidad genética y su relación con la evolución.",
+      "broader": "sb:SBIG04SBIV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBIV.6",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBIV.6",
+      "prefLabel": "SBIG04SBIV.6 · Comprensión del proceso evolutivo de las características de una especie determinada,…",
+      "definition": "Comprensión del proceso evolutivo de las características de una especie determinada, estableciendo la relación entre variabilidad genética, mutaciones y selección natural.",
+      "broader": "sb:SBIG04SBIV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBIV.7",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBIV.7",
+      "prefLabel": "SBIG04SBIV.7 · Argumentación acerca de las pruebas de la evolución y de las principales teorías,…",
+      "definition": "Argumentación acerca de las pruebas de la evolución y de las principales teorías, diferenciando lamarkismo, darwinismo y neodarwinismo, valorando el carácter no dogmático de las teorías científicas.",
+      "broader": "sb:SBIG04SBIV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBIV.8",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBIV.8",
+      "prefLabel": "SBIG04SBIV.8 · Indagación sobre las aplicaciones y consecuencias de las técnicas de ingeniería genética…",
+      "definition": "Indagación sobre las aplicaciones y consecuencias de las técnicas de ingeniería genética (ADN recombinante, OMG, PCR) a partir de diferentes fuentes de información. Análisis crítico desde una perspectiva social, científica y ética de las técnicas del ADN.",
+      "broader": "sb:SBIG04SBIV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBIV.9",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBIV.9",
+      "prefLabel": "SBIG04SBIV.9 · Definición de los conceptos de fenotipo y genotipo estableciendo sus diferencias y la…",
+      "definition": "Definición de los conceptos de fenotipo y genotipo estableciendo sus diferencias y la relación con el material genético y su expresión.",
+      "broader": "sb:SBIG04SBIV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBIV.10",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBIV.10",
+      "prefLabel": "SBIG04SBIV.10 · Aplicación de los principios básicos de la genética mendeliana en la resolución de…",
+      "definition": "Aplicación de los principios básicos de la genética mendeliana en la resolución de problemas sencillos de herencia genética de caracteres con relación de dominancia y recesividad con uno o dos genes.",
+      "broader": "sb:SBIG04SBIV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBIV.11",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBIV.11",
+      "prefLabel": "SBIG04SBIV.11 · Utilización de estrategias de resolución de problemas sencillos de herencia del sexo y de…",
+      "definition": "Utilización de estrategias de resolución de problemas sencillos de herencia del sexo y de herencia genética de caracteres con relación de codominancia, dominancia incompleta, alelismo múltiple y ligada al sexo con uno o dos genes.",
+      "broader": "sb:SBIG04SBIV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBV.1",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBV.1",
+      "prefLabel": "SBIG04SBV.1 · Identificación de las principales ideas sobre el origen del universo y la formación y…",
+      "definition": "Identificación de las principales ideas sobre el origen del universo y la formación y evolución de las galaxias.",
+      "broader": "sb:SBIG04SBV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBV.2",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBV.2",
+      "prefLabel": "SBIG04SBV.2 · Exposición sobre las características y organización del sistema solar y su concepción a…",
+      "definition": "Exposición sobre las características y organización del sistema solar y su concepción a lo largo de la historia.",
+      "broader": "sb:SBIG04SBV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBV.3",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBV.3",
+      "prefLabel": "SBIG04SBV.3 · Análisis y valoración de las condiciones naturales del cielo en Canarias como recurso…",
+      "definition": "Análisis y valoración de las condiciones naturales del cielo en Canarias como recurso turístico sostenible y de la relevancia de la «ley del cielo» para la protección de la calidad astronómica de los observatorios del Instituto de Astrofísica de Canarias.",
+      "broader": "sb:SBIG04SBV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBV.4",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBV.4",
+      "prefLabel": "SBIG04SBV.4 · Apreciación de la importancia de los estudios realizados en los observatorios…",
+      "definition": "Apreciación de la importancia de los estudios realizados en los observatorios astronómicos de Canarias y del trabajo de los científicos y científicas para el conocimiento del universo.",
+      "broader": "sb:SBIG04SBV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBV.5",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBV.5",
+      "prefLabel": "SBIG04SBV.5 · Análisis y discusión de las hipótesis sobre el origen de la vida en la Tierra,…",
+      "definition": "Análisis y discusión de las hipótesis sobre el origen de la vida en la Tierra, diferenciando las que tienen base científica de las influenciadas por las ideas religiosas de la época.",
+      "broader": "sb:SBIG04SBV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SBIG04SBV.6",
+      "tipo": "SaberBasico",
+      "notation": "SBIG04SBV.6",
+      "prefLabel": "SBIG04SBV.6 · Reconocimiento de la astrobiología como disciplina científica multidisciplinar que…",
+      "definition": "Reconocimiento de la astrobiología como disciplina científica multidisciplinar que estudia el origen, la evolución y la distribución de la vida en el universo. Conocimiento de las principales líneas de investigación en el campo de la astrobiología.",
+      "broader": "sb:SBIG04SBV",
+      "materia": "materia:SBIG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    }
+  ]
+}

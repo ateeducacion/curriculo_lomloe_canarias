@@ -1,0 +1,1878 @@
+{
+  "materia": "materia:SEUP",
+  "nodos": [
+    {
+      "id": "materia:SEUP",
+      "tipo": "Materia",
+      "notation": "SEUP",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual (ESO)",
+      "cursos": [
+        "curso:S01",
+        "curso:S02",
+        "curso:S03"
+      ],
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SEUPC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SEUPC1",
+      "prefLabel": "SEUPC1 · Analizar manifestaciones artísticas, contextualizándolas, describiendo sus aspectos…",
+      "definition": "Analizar manifestaciones artísticas, contextualizándolas, describiendo sus aspectos esenciales y valorando el proceso de creación y el resultado final, para educar la mirada, alimentar el imaginario, reforzar la confianza y ampliar las posibilidades de disfrute del patrimonio cultural y artístico.",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SEUPC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SEUPC2",
+      "prefLabel": "SEUPC2 · Explicar las producciones plásticas, visuales y audiovisuales propias, comparándolas…",
+      "definition": "Explicar las producciones plásticas, visuales y audiovisuales propias, comparándolas con las de sus iguales y con algunas de las que conforman el patrimonio cultural y artístico, justificando las opiniones y teniendo en cuenta el progreso desde la intención hasta la realización, para valorar el intercambio, las experiencias compartidas y el diálogo intercultural, así como para superar estereotipos.",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SEUPC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SEUPC3",
+      "prefLabel": "SEUPC3 · Analizar diferentes propuestas plásticas, visuales y audiovisuales, mostrando respeto y…",
+      "definition": "Analizar diferentes propuestas plásticas, visuales y audiovisuales, mostrando respeto y desarrollando la capacidad de observación e interiorización de la experiencia y del disfrute estético, para enriquecer la cultura artística individual y alimentar el imaginario.",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SEUPC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SEUPC4",
+      "prefLabel": "SEUPC4 · Explorar las técnicas, los lenguajes y las intenciones de diferentes producciones…",
+      "definition": "Explorar las técnicas, los lenguajes y las intenciones de diferentes producciones culturales y artísticas, analizando, de forma abierta y respetuosa, tanto el proceso como el producto final, su recepción y su contexto, para descubrir las diversas posibilidades que ofrecen como fuente generadora de ideas y respuestas.",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SEUPC5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SEUPC5",
+      "prefLabel": "SEUPC5 · Realizar producciones artísticas individuales o colectivas con creatividad e…",
+      "definition": "Realizar producciones artísticas individuales o colectivas con creatividad e imaginación, seleccionando y aplicando herramientas, técnicas y soportes en función de la intencionalidad, para expresar la visión del mundo, las emociones y los sentimientos propios, así como para mejorar la capacidad de comunicación y desarrollar la reflexión crítica y la autoconfianza.",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SEUPC6",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SEUPC6",
+      "prefLabel": "SEUPC6 · Apropiarse de las referencias culturales y artísticas del entorno, identificando sus…",
+      "definition": "Apropiarse de las referencias culturales y artísticas del entorno, identificando sus singularidades, para enriquecer las creaciones propias y desarrollar la identidad personal, cultural y social.",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SEUPC7",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SEUPC7",
+      "prefLabel": "SEUPC7 · Aplicar las principales técnicas, recursos y convenciones de los lenguajes artísticos,…",
+      "definition": "Aplicar las principales técnicas, recursos y convenciones de los lenguajes artísticos, incorporando, de forma creativa, las posibilidades que ofrecen las diversas tecnologías, para integrarlos y enriquecer el diseño y la realización de un proyecto artístico.",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SEUPC8",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SEUPC8",
+      "prefLabel": "SEUPC8 · Compartir producciones y manifestaciones artísticas, adaptando el proyecto a la…",
+      "definition": "Compartir producciones y manifestaciones artísticas, adaptando el proyecto a la intención y a las características del público destinatario, para valorar distintas oportunidades de desarrollo personal.",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP01BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP01BC1",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 1º ESO · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se constatará que el alumnado, mediante el análisis de las formas geométricas en el arte y en el entorno del patrimonio arquitectónico, puede reconocer los factores históricos y sociales más relevantes que rodean a diferentes producciones plásticas, visuales y audiovisuales, así como su función y finalidad; y expresarlo de forma oral o escrita. Asimismo, con el análisis guiado o no de obras de arte, se verificará si es capaz de valorar la importancia de la conservación, protección y difusión del patrimonio cultural, desde el más cercano hasta alcanzar el conjunto de la humanidad, con interés, actitud cooperativa y perspectiva de género. Por último, se comprobará si ha llegado a entender cómo todo esto se convierte en el testimonio de los valores y convicciones del individuo y de la sociedad en su conjunto.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC1"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CPSAA3",
+        "CC1",
+        "CC2"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP01BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP01BC2",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 1º ESO · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se comprobará que alumnado explica razonadamente, de manera oral o escrita, la importancia del proceso que media entre la realidad, el imaginario y la producción, por medio del análisis de elementos visuales y sus posibilidades expresivas, forma, color y textura, y que es capaz, para ello, de expresar hechos, conceptos, pensamientos, opiniones o sentimientos. También se valorará si supera estereotipos y muestra un comportamiento respetuoso con la diversidad cultural. Además, se constatará que analiza, de forma guiada, diversas producciones artísticas, incluidas las del patrimonio cultural y artístico, entre otros, la obra de Cristino de Vera y José Aguiar, mediante elementos básicos del lenguaje visual (el punto, la línea y el plano) como posibilidad expresiva y comunicativa; y participa activamente en el trabajo en grupo valorando el intercambio, las experiencias compartidas y el diálogo intercultural. Todo esto con la finalidad de comprobar si supera prejuicios, especialmente comunes en lo relativo a la percepción de las producciones artísticas y culturales, amplía sus horizontes y establece un juicio crítico y autocrítico.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC2"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CPSAA1",
+        "CPSAA3",
+        "CC3",
+        "CC1",
+        "CCEC1",
+        "CCEC3"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP01BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP01BC3",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 1º ESO · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial se persigue constatar si el alumnado selecciona y describe propuestas plásticas, visuales y audiovisuales de diversos tipos y épocas, con especial atención a las de Canarias, mediante los elementos que intervienen en composiciones básicas, así como de los esquemas compositivos, de manera individual, grupal o colaborativa, con el uso de diferentes herramientas digitales en cualquier medio o soporte. Asimismo, se comprobará si lo hace con curiosidad y desde una perspectiva de género, con énfasis en el estudio de producciones artísticas ejecutadas por mujeres; así como, si comparte con respeto impresiones y emociones, y expresa su opinión de forma abierta. Por último, se comprobará si ha conseguido construir una cultura artística personal más amplia y alimentar el imaginario. Todo ello con la intención de fomentar la cimentación de una mirada empática y despojada de prejuicios, y de que comprenda que todas estas producciones han marcado el camino para llegar hasta donde nos encontramos hoy.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC3"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CC1",
+        "CC3",
+        "CCL2",
+        "CD1",
+        "CPSAA4",
+        "CCEC2"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP01BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP01BC4",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 1º ESO · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial se comprobará si el alumnado puede analizar de forma guiada las especificidades de los lenguajes de diferentes producciones culturales y artísticas con el uso de diferentes herramientas digitales; descubrir las diversas posibilidades que ofrecen como fuente generadora de ideas y respuestas; establecer conexiones entre ellas e incorporarlas creativamente en las producciones propias, de manera individual, grupal y colaborativa; así como, demostrar respeto por las normas, empatía, equidad y espíritu constructivo. Asimismo, se pretende constatar si, mediante procesos creativos y a través de operaciones plásticas (reproducir, aislar, transformar y asociar), es capaz de reconocer e interpretar los rasgos particulares de diversas técnicas y lenguajes artísticos, con el uso de textos orales, signados, escritos o multimodales; y mostrar interés por las manifestaciones artísticas y culturales, especialmente las de Canarias. Por último, se observará si consigue interiorizar las diversas posibilidades que ofrecen los diferentes lenguajes como fuente generadora de ideas y nuevas respuestas. Todo esto con la intención de que el alumnado se percate de la multiplicidad de las producciones, las técnicas y los lenguajes empleados como un valor generador de riqueza a todos los niveles, por lo que debe entender su naturaleza diversa desde el acercamiento, tanto a sus modos de producción y de diseño en el proceso de creación como a los de recepción.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC4"
+      ],
+      "descriptores": [
+        "CCL2",
+        "CD1",
+        "CD2",
+        "CPSAA3",
+        "CC3",
+        "CCEC2"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP01BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP01BC5",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 1º ESO · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial se comprobará si el alumnado es capaz de expresar ideas, emociones y su visión del mundo en diferentes producciones plásticas, visuales y audiovisuales, con diversas herramientas, técnicas y soportes, seleccionadas de manera crítica, con una actitud cooperativa y respetuosa. Asimismo, se verificará también si realiza diferentes tipos de producciones artísticas, individuales o colectivas, por medio de la introducción a la geometría plana y a los trazados geométricos básicos, entre los que estarán presentes ejemplos de la arquitectura, pintura y escultura tradicional canaria; justifica el proceso creativo con iniciativa y autoconfianza, así como con racionalidad, empatía y sensibilidad; y selecciona técnicas y soportes adecuados. Por último, se observará si mejora con todo esto su capacidad de comunicación y desarrolla la reflexión crítica y la autoconfianza. Todo esto con la finalidad de que compruebe que para el desarrollo de su identidad personal es indispensable el conocimiento del contexto artístico y cultural de la sociedad en la que experimenta sus vivencias.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC5"
+      ],
+      "descriptores": [
+        "CCL2",
+        "CPSAA4",
+        "CC3",
+        "CCEC3",
+        "CCEC4",
+        "CPSAA3"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP01BC6",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP01BC6",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 1º ESO · bloque competencial C6",
+      "scopeNote": "A través de este bloque competencial se comprobará si el alumnado es capaz de explicar su pertenencia a un contexto cultural concreto, con la búsqueda, la selección y el tratamiento de la información, de manera guiada, en fuentes diversas. Para ello se constatara que es capaz de utilizar creativamente referencias culturales y artísticas del entorno en la elaboración de producciones propias, con actitud dialogante, argumentativa, respetuosa y opuesta a cualquier tipo de discriminación o violencia, con el uso de diferentes herramientas digitales, mediante técnicas básicas de expresión gráfico-plástica en dos dimensiones y técnicas secas y húmedas, y a travésdel estudio de artistas como Lola Massieu y Pepe Dámado. Por último, se valorará si consigue enriquecer sus creaciones y desarrollar su propia identidad personal, cultural y social. Todo esto con el propósito de que se de cuenta de que llevar a buen término una producción artística es el resultado de un proceso complejo que implica el conocimiento de los materiales, herramientas y técnicas propios del medio de expresión artística escogido, así como sus posibilidades de empleo, la experimentación con los diferentes resultados conseguidos y los efectos producidos en el público receptor de la obra.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC6"
+      ],
+      "descriptores": [
+        "CCL2",
+        "CD1",
+        "CC1",
+        "CPSAA3",
+        "CCEC3"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP01BC7",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP01BC7",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 1º ESO · bloque competencial C7",
+      "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado puede realizar un proyecto artístico, con creatividad y de forma consciente, de manera individual, grupal y colaborativa, analizando el lenguaje y la comunicación visual, así como sus finalidades (informativa, comunicativa, expresiva y estética), contextos y funciones, al igual que emplear diferentes lenguajes, materiales, soportes y herramientas. Por último, se comprobará que integra y enriquece el diseño con todos estos saberes en la realización de un proyecto artístico, por medio de la concienciación y el respeto del paisaje canario. Todo ello para que se dé cuenta de que por la multiplicidad de lenguajes artísticos, desde los más tradicionales hasta los más recientes, debe aprender a hacer un uso informado y progresivo de estos, sentando las bases para que más adelante pueda profundizar en sus potencialidades expresivas.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC7"
+      ],
+      "descriptores": [
+        "CCL3",
+        "STEM3",
+        "CD1",
+        "CD5",
+        "CC1",
+        "CC3",
+        "CCEC4"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP01BC8",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP01BC8",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 1º ESO · bloque competencial C8",
+      "scopeNote": "A través de este bloque competencial se constatará que el alumnado reconoce diferentes usos y funciones de las producciones y manifestaciones artísticas, así como argumenta sus conclusiones acerca de las oportunidades personales, sociales y económicas que se pueden generar. También se comprobará que utiliza, con una intención previa, la lectura y el análisis de imágenes visuales y audiovisuales para la creación de sus producciones, organizando y desarrollando las diferentes etapas del proceso, de forma individual o colectiva, y aprendiendo de sus errores. Asimismo se comprobará su capacidad para exponer las diferentes fases de elaboración y el resultado final, mediante el desarrollo aplicaciones informáticas sencillas. Todo esto con la intención de que asimile que la obra artística alcanza todo su sentido y potencialidad cuando llega al público y produce un efecto sobre él.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC8"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CD3",
+        "CCEC4",
+        "STEM3",
+        "CPSAA3",
+        "CPSAA5"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP02BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP02BC1",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 2º ESO · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se constatará que el alumnado, mediante el análisis de las formas geométricas en el arte y en el entorno del patrimonio arquitectónico, puede reconocer los factores históricos y sociales más relevantes que rodean a diferentes producciones plásticas, visuales y audiovisuales, así como su función y finalidad; y expresarlo de forma oral o escrita. Asimismo, con el análisis guiado o no de obras de arte, se verificará si es capaz de valorar la importancia de la conservación, protección y difusión del patrimonio cultural, desde el más cercano hasta alcanzar el conjunto de la humanidad, con interés, actitud cooperativa y perspectiva de género. Por último, se comprobará si ha llegado a entender cómo todo esto se convierte en el testimonio de los valores y convicciones del individuo y de la sociedad en su conjunto.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC1"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CP3",
+        "CPSAA3",
+        "CC1",
+        "CC2",
+        "CCEC1"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP02BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP02BC2",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 2º ESO · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se comprobará que alumnado explica razonadamente, de manera oral o escrita, la importancia del proceso que media entre la realidad, el imaginario y la producción, por medio del análisis de elementos visuales y sus posibilidades expresivas, forma, color y textura, y que es capaz, para ello, de expresar hechos, conceptos, pensamientos, opiniones o sentimientos. También se valorará si supera estereotipos y muestra un comportamiento respetuoso con la diversidad cultural. Además, se constatará que analiza, de forma guiada, diversas producciones artísticas, incluidas las del patrimonio cultural y artístico, entre otros, la obra de Cristino de Vera y José Aguiar, mediante elementos básicos del lenguaje visual (el punto, la línea y el plano) como posibilidad expresiva y comunicativa; y participa activamente en el trabajo en grupo valorando el intercambio, las experiencias compartidas y el diálogo intercultural. Todo esto con la finalidad de comprobar si supera prejuicios, especialmente comunes en lo relativo a la percepción de las producciones artísticas y culturales, amplía sus horizontes y establece un juicio crítico y autocrítico.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC2"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "CPSAA1",
+        "CPSAA3",
+        "CC3",
+        "CCL2",
+        "CC1",
+        "CCEC1",
+        "CCEC3"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP02BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP02BC3",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 2º ESO · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial se persigue constatar si el alumnado selecciona y describe propuestas plásticas, visuales y audiovisuales de diversos tipos y épocas, con especial atención a las de Canarias, mediante los elementos que intervienen en composiciones básicas, así como de los esquemas compositivos, de manera individual, grupal o colaborativa, con el uso de diferentes herramientas digitales en cualquier medio o soporte. Asimismo, se comprobará si lo hace con curiosidad y desde una perspectiva de género, con énfasis en el estudio de producciones artísticas ejecutadas por mujeres; así como, si comparte con respeto impresiones y emociones, y expresa su opinión de forma abierta. Por último, se comprobará si ha conseguido construir una cultura artística personal más amplia y alimentar el imaginario. Todo ello con la intención de fomentar la cimentación de una mirada empática y despojada de prejuicios, y de que comprenda que todas estas producciones han marcado el camino para llegar hasta donde nos encontramos hoy.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC3"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CC1",
+        "CC3",
+        "CCEC2",
+        "CCL2",
+        "CD1",
+        "CD2",
+        "CPSAA4"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP02BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP02BC4",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 2º ESO · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial se comprobará si el alumnado puede analizar de forma guiada las especificidades de los lenguajes de diferentes producciones culturales y artísticas con el uso de diferentes herramientas digitales; descubrir las diversas posibilidades que ofrecen como fuente generadora de ideas y respuestas; establecer conexiones entre ellas e incorporarlas creativamente en las producciones propias, de manera individual, grupal y colaborativa; así como, demostrar respeto por las normas, empatía, equidad y espíritu constructivo. Asimismo, se pretende constatar si, mediante procesos creativos y a través de operaciones plásticas (reproducir, aislar, transformar y asociar), es capaz de reconocer e interpretar los rasgos particulares de diversas técnicas y lenguajes artísticos, con el uso de textos orales, signados, escritos o multimodales; y mostrar interés por las manifestaciones artísticas y culturales, especialmente las de Canarias. Por último, se observará si consigue interiorizar las diversas posibilidades que ofrecen los diferentes lenguajes como fuente generadora de ideas y nuevas respuestas. Todo esto con la intención de que el alumnado se percate de la multiplicidad de las producciones, las técnicas y los lenguajes empleados como un valor generador de riqueza a todos los niveles, por lo que debe entender su naturaleza diversa desde el acercamiento, tanto a sus modos de producción y de diseño en el proceso de creación como a los de recepción.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC4"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CP3",
+        "CD1",
+        "CD2",
+        "CPSAA3",
+        "CC3",
+        "CCEC2"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP02BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP02BC5",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 2º ESO · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial se comprobará si el alumnado es capaz de expresar ideas, emociones y su visión del mundo en diferentes producciones plásticas, visuales y audiovisuales, con diversas herramientas, técnicas y soportes, seleccionadas de manera crítica, con una actitud cooperativa y respetuosa. Asimismo, se verificará también si realiza diferentes tipos de producciones artísticas, individuales o colectivas, por medio de la introducción a la geometría plana y a los trazados geométricos básicos, entre los que estarán presentes ejemplos de la arquitectura, pintura y escultura tradicional canaria; justifica el proceso creativo con iniciativa y autoconfianza, así como con racionalidad, empatía y sensibilidad; y selecciona técnicas y soportes adecuados. Por último, se observará si mejora con todo esto su capacidad de comunicación y desarrolla la reflexión crítica y la autoconfianza. Todo esto con la finalidad de que compruebe que para el desarrollo de su identidad personal es indispensable el conocimiento del contexto artístico y cultural de la sociedad en la que experimenta sus vivencias.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC5"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CD2",
+        "CPSAA1",
+        "CPSAA3",
+        "CPSAA4",
+        "CC3",
+        "CCEC3",
+        "CCEC4"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP02BC6",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP02BC6",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 2º ESO · bloque competencial C6",
+      "scopeNote": "A través de este bloque competencial se comprobará si el alumnado es capaz de explicar su pertenencia a un contexto cultural concreto, con la búsqueda, la selección y el tratamiento de la información, de manera guiada, en fuentes diversas. Para ello se constatara que es capaz de utilizar creativamente referencias culturales y artísticas del entorno en la elaboración de producciones propias, con actitud dialogante, argumentativa, respetuosa y opuesta a cualquier tipo de discriminación o violencia, con el uso de diferentes herramientas digitales, mediante técnicas básicas de expresión gráfico-plástica en dos dimensiones y técnicas secas y húmedas, y a travésdel estudio de artistas como Lola Massieu y Pepe Dámado. Por último, se valorará si consigue enriquecer sus creaciones y desarrollar su propia identidad personal, cultural y social. Todo esto con el propósito de que se de cuenta de que llevar a buen término una producción artística es el resultado de un proceso complejo que implica el conocimiento de los materiales, herramientas y técnicas propios del medio de expresión artística escogido, así como sus posibilidades de empleo, la experimentación con los diferentes resultados conseguidos y los efectos producidos en el público receptor de la obra.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC6"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CP3",
+        "CD1",
+        "CC1",
+        "CD2",
+        "CPSAA3",
+        "CCEC3"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP02BC7",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP02BC7",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 2º ESO · bloque competencial C7",
+      "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado puede realizar un proyecto artístico, con creatividad y de forma consciente, de manera individual, grupal y colaborativa, analizando el lenguaje y la comunicación visual, así como sus finalidades (informativa, comunicativa, expresiva y estética), contextos y funciones, al igual que emplear diferentes lenguajes, materiales, soportes y herramientas. Por último, se comprobará que integra y enriquece el diseño con todos estos saberes en la realización de un proyecto artístico, por medio de la concienciación y el respeto del paisaje canario. Todo ello para que se dé cuenta de que por la multiplicidad de lenguajes artísticos, desde los más tradicionales hasta los más recientes, debe aprender a hacer un uso informado y progresivo de estos, sentando las bases para que más adelante pueda profundizar en sus potencialidades expresivas.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC7"
+      ],
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "STEM3",
+        "CD1",
+        "CD2",
+        "CD5",
+        "CPSAA3",
+        "CPSAA4",
+        "CC1",
+        "CC3",
+        "CE1",
+        "CE2",
+        "CCEC4"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP02BC8",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP02BC8",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 2º ESO · bloque competencial C8",
+      "scopeNote": "A través de este bloque competencial se constatará que el alumnado reconoce diferentes usos y funciones de las producciones y manifestaciones artísticas, así como argumenta sus conclusiones acerca de las oportunidades personales, sociales y económicas que se pueden generar. También se comprobará que utiliza, con una intención previa, la lectura y el análisis de imágenes visuales y audiovisuales para la creación de sus producciones, organizando y desarrollando las diferentes etapas del proceso, de forma individual o colectiva, y aprendiendo de sus errores. Asimismo se comprobará su capacidad para exponer las diferentes fases de elaboración y el resultado final, mediante el desarrollo aplicaciones informáticas sencillas. Todo esto con la intención de que asimile que la obra artística alcanza todo su sentido y potencialidad cuando llega al público y produce un efecto sobre él.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC8"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CD3",
+        "CPSAA3",
+        "CCEC4",
+        "STEM3",
+        "CPSAA5",
+        "CE3",
+        "CD2"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP03BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP03BC1",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 3º ESO · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se constatará que el alumnado, mediante el análisis de las formas geométricas en el arte y en el entorno del patrimonio arquitectónico, puede reconocer los factores históricos y sociales más relevantes que rodean a diferentes producciones plásticas, visuales y audiovisuales, así como su función y finalidad; y expresarlo de forma oral o escrita. Asimismo, con el análisis guiado o no de obras de arte, se verificará si es capaz de valorar la importancia de la conservación, protección y difusión del patrimonio cultural, desde el más cercano hasta alcanzar el conjunto de la humanidad, con interés, actitud cooperativa y perspectiva de género. Por último, se comprobará si ha llegado a entender cómo todo esto se convierte en el testimonio de los valores y convicciones del individuo y de la sociedad en su conjunto.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC1"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CPSAA3",
+        "CC1",
+        "CC2",
+        "CCEC1"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP03BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP03BC2",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 3º ESO · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se comprobará que alumnado explica razonadamente, de manera oral o escrita, la importancia del proceso que media entre la realidad, el imaginario y la producción, por medio del análisis de elementos visuales y sus posibilidades expresivas, forma, color y textura, y que es capaz, para ello, de expresar hechos, conceptos, pensamientos, opiniones o sentimientos. También se valorará si supera estereotipos y muestra un comportamiento respetuoso con la diversidad cultural. Además, se constatará que analiza, de forma guiada, diversas producciones artísticas, incluidas las del patrimonio cultural y artístico, entre otros, la obra de Cristino de Vera y José Aguiar, mediante elementos básicos del lenguaje visual (el punto, la línea y el plano) como posibilidad expresiva y comunicativa; y participa activamente en el trabajo en grupo valorando el intercambio, las experiencias compartidas y el diálogo intercultural. Todo esto con la finalidad de comprobar si supera prejuicios, especialmente comunes en lo relativo a la percepción de las producciones artísticas y culturales, amplía sus horizontes y establece un juicio crítico y autocrítico.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC2"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CPSAA1",
+        "CPSAA3",
+        "CC3",
+        "CC1",
+        "CCEC1",
+        "CCEC3"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP03BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP03BC3",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 3º ESO · bloque competencial C3",
+      "scopeNote": "A través de este bloque competencial se persigue constatar si el alumnado selecciona y describe propuestas plásticas, visuales y audiovisuales de diversos tipos y épocas, con especial atención a las de Canarias, mediante los elementos que intervienen en composiciones básicas, así como de los esquemas compositivos, de manera individual, grupal o colaborativa, con el uso de diferentes herramientas digitales en cualquier medio o soporte. Asimismo, se comprobará si lo hace con curiosidad y desde una perspectiva de género, con énfasis en el estudio de producciones artísticas ejecutadas por mujeres; así como, si comparte con respeto impresiones y emociones, y expresa su opinión de forma abierta. Por último, se comprobará si ha conseguido construir una cultura artística personal más amplia y alimentar el imaginario. Todo ello con la intención de fomentar la cimentación de una mirada empática y despojada de prejuicios, y de que comprenda que todas estas producciones han marcado el camino para llegar hasta donde nos encontramos hoy.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC3"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CC1",
+        "CC3",
+        "CCL2",
+        "CD1",
+        "CPSAA4",
+        "CCEC2"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP03BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP03BC4",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 3º ESO · bloque competencial C4",
+      "scopeNote": "A través de este bloque competencial se comprobará si el alumnado puede analizar de forma guiada las especificidades de los lenguajes de diferentes producciones culturales y artísticas con el uso de diferentes herramientas digitales; descubrir las diversas posibilidades que ofrecen como fuente generadora de ideas y respuestas; establecer conexiones entre ellas e incorporarlas creativamente en las producciones propias, de manera individual, grupal y colaborativa; así como, demostrar respeto por las normas, empatía, equidad y espíritu constructivo. Asimismo, se pretende constatar si, mediante procesos creativos y a través de operaciones plásticas (reproducir, aislar, transformar y asociar), es capaz de reconocer e interpretar los rasgos particulares de diversas técnicas y lenguajes artísticos, con el uso de textos orales, signados, escritos o multimodales; y mostrar interés por las manifestaciones artísticas y culturales, especialmente las de Canarias. Por último, se observará si consigue interiorizar las diversas posibilidades que ofrecen los diferentes lenguajes como fuente generadora de ideas y nuevas respuestas. Todo esto con la intención de que el alumnado se percate de la multiplicidad de las producciones, las técnicas y los lenguajes empleados como un valor generador de riqueza a todos los niveles, por lo que debe entender su naturaleza diversa desde el acercamiento, tanto a sus modos de producción y de diseño en el proceso de creación como a los de recepción.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC4"
+      ],
+      "descriptores": [
+        "CCL2",
+        "CD1",
+        "CD2",
+        "CPSAA3",
+        "CC3",
+        "CCEC2"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP03BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP03BC5",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 3º ESO · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial se comprobará si el alumnado es capaz de expresar ideas, emociones y su visión del mundo en diferentes producciones plásticas, visuales y audiovisuales, con diversas herramientas, técnicas y soportes, seleccionadas de manera crítica, con una actitud cooperativa y respetuosa. Asimismo, se verificará también si realiza diferentes tipos de producciones artísticas, individuales o colectivas, por medio de la introducción a la geometría plana y a los trazados geométricos básicos, entre los que estarán presentes ejemplos de la arquitectura, pintura y escultura tradicional canaria; justifica el proceso creativo con iniciativa y autoconfianza, así como con racionalidad, empatía y sensibilidad; y selecciona técnicas y soportes adecuados. Por último, se observará si mejora con todo esto su capacidad de comunicación y desarrolla la reflexión crítica y la autoconfianza. Todo esto con la finalidad de que compruebe que para el desarrollo de su identidad personal es indispensable el conocimiento del contexto artístico y cultural de la sociedad en la que experimenta sus vivencias.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC5"
+      ],
+      "descriptores": [
+        "CCL2",
+        "CPSAA4",
+        "CC3",
+        "CCEC3",
+        "CCEC4",
+        "CPSAA3"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP03BC6",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP03BC6",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 3º ESO · bloque competencial C6",
+      "scopeNote": "A través de este bloque competencial se comprobará si el alumnado es capaz de explicar su pertenencia a un contexto cultural concreto, con la búsqueda, la selección y el tratamiento de la información, de manera guiada, en fuentes diversas. Para ello se constatara que es capaz de utilizar creativamente referencias culturales y artísticas del entorno en la elaboración de producciones propias, con actitud dialogante, argumentativa, respetuosa y opuesta a cualquier tipo de discriminación o violencia, con el uso de diferentes herramientas digitales, mediante técnicas básicas de expresión gráfico-plástica en dos dimensiones y técnicas secas y húmedas, y a travésdel estudio de artistas como Lola Massieu y Pepe Dámado. Por último, se valorará si consigue enriquecer sus creaciones y desarrollar su propia identidad personal, cultural y social. Todo esto con el propósito de que se de cuenta de que llevar a buen término una producción artística es el resultado de un proceso complejo que implica el conocimiento de los materiales, herramientas y técnicas propios del medio de expresión artística escogido, así como sus posibilidades de empleo, la experimentación con los diferentes resultados conseguidos y los efectos producidos en el público receptor de la obra.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC6"
+      ],
+      "descriptores": [
+        "CCL2",
+        "CD1",
+        "CC1",
+        "CPSAA3",
+        "CCEC3"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP03BC7",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP03BC7",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 3º ESO · bloque competencial C7",
+      "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado puede realizar un proyecto artístico, con creatividad y de forma consciente, de manera individual, grupal y colaborativa, analizando el lenguaje y la comunicación visual, así como sus finalidades (informativa, comunicativa, expresiva y estética), contextos y funciones, al igual que emplear diferentes lenguajes, materiales, soportes y herramientas. Por último, se comprobará que integra y enriquece el diseño con todos estos saberes en la realización de un proyecto artístico, por medio de la concienciación y el respeto del paisaje canario. Todo ello para que se dé cuenta de que por la multiplicidad de lenguajes artísticos, desde los más tradicionales hasta los más recientes, debe aprender a hacer un uso informado y progresivo de estos, sentando las bases para que más adelante pueda profundizar en sus potencialidades expresivas.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC7"
+      ],
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "STEM3",
+        "CD1",
+        "CD5",
+        "CC1",
+        "CC3",
+        "CCEC4"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SEUP03BC8",
+      "tipo": "BloqueCompetencial",
+      "notation": "SEUP03BC8",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 3º ESO · bloque competencial C8",
+      "scopeNote": "A través de este bloque competencial se constatará que el alumnado reconoce diferentes usos y funciones de las producciones y manifestaciones artísticas, así como argumenta sus conclusiones acerca de las oportunidades personales, sociales y económicas que se pueden generar. También se comprobará que utiliza, con una intención previa, la lectura y el análisis de imágenes visuales y audiovisuales para la creación de sus producciones, organizando y desarrollando las diferentes etapas del proceso, de forma individual o colectiva, y aprendiendo de sus errores. Asimismo se comprobará su capacidad para exponer las diferentes fases de elaboración y el resultado final, mediante el desarrollo aplicaciones informáticas sencillas. Todo esto con la intención de que asimile que la obra artística alcanza todo su sentido y potencialidad cuando llega al público y produce un efecto sobre él.",
+      "broader": "materia:SEUP",
+      "agrupa": [
+        "ce:SEUPC8"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CD3",
+        "CCEC4",
+        "STEM3",
+        "CPSAA3",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP01CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP01CE1.1",
+      "prefLabel": "SEUP01CE1.1 · Reconocer, de forma guiada, los factores históricos, sociales y culturales que rodean…",
+      "definition": "Reconocer, de forma guiada, los factores históricos, sociales y culturales que rodean algunas producciones plásticas, explicando de manera escrita sus particularidades, con interés, respeto y actitud cooperativa, desde una perspectiva de género, para entender la necesidad de protección y conservación del patrimonio cultural y artístico, con especial atención al de Canarias.",
+      "broader": "ce:SEUPC1",
+      "bloque": "bc:SEUP01BC1",
+      "descriptores": [
+        "CCL1",
+        "CPSAA3",
+        "CC1",
+        "CC2"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP01CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP01CE2.1",
+      "prefLabel": "SEUP01CE2.1 · Explicar la importancia del proceso que media entre la realidad, el imaginario y la…",
+      "definition": "Explicar la importancia del proceso que media entre la realidad, el imaginario y la producción, participando activamente en el trabajo en grupo, identificando hechos, conceptos, pensamientos, opiniones o sentimientos de manera escrita, superando estereotipos y mostrando un comportamiento respetuoso con la diversidad cultural, para valorar el intercambio, las experiencias compartidas y el diálogo intercultural.",
+      "broader": "ce:SEUPC2",
+      "bloque": "bc:SEUP01BC2",
+      "descriptores": [
+        "CCL1",
+        "CPSAA1",
+        "CPSAA3",
+        "CC3"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP01CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP01CE2.2",
+      "prefLabel": "SEUP01CE2.2 · Analizar, de forma guiada, diversas producciones artísticas, incluidas las del patrimonio…",
+      "definition": "Analizar, de forma guiada, diversas producciones artísticas, incluidas las del patrimonio cultural y artístico, especialmente el de Canarias, así como las propias y las de sus iguales, con interés y con una actitud cooperativa, iniciándose en una mirada estética hacia el mundo y respetando la diversidad de las expresiones culturales, para valorar el intercambio, las experiencias compartidas y el diálogo intercultural, así como para superar estereotipos.",
+      "broader": "ce:SEUPC2",
+      "bloque": "bc:SEUP01BC2",
+      "descriptores": [
+        "CC1",
+        "CCEC1",
+        "CCEC3"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP01CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP01CE3.1",
+      "prefLabel": "SEUP01CE3.1 · Seleccionar propuestas plásticas, visuales y audiovisuales de diversos tipos y épocas,…",
+      "definition": "Seleccionar propuestas plásticas, visuales y audiovisuales de diversos tipos y épocas, con especial atención a las de Canarias, describiéndolas de forma escrita y de manera individual, grupal o colaborativa, e identificándolas con curiosidad y respeto desde una perspectiva de género, para enriquecer la cultura artística personal y alimentar el imaginario.",
+      "broader": "ce:SEUPC3",
+      "bloque": "bc:SEUP01BC3",
+      "descriptores": [
+        "CCL1",
+        "CC1",
+        "CC3"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP01CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP01CE3.2",
+      "prefLabel": "SEUP01CE3.2 · Argumentar el disfrute producido por la recepción del arte en todas sus formas y…",
+      "definition": "Argumentar el disfrute producido por la recepción del arte en todas sus formas y vertientes, a través de la identificación de diferentes propuestas plásticas, visuales y audiovisuales, incluidas las contemporáneas, y del uso de diferentes herramientas digitales, en cualquier medio o soporte, mostrando, con respeto, impresiones y emociones, y expresando la opinión personal de forma abierta, para fomentar la curiosidad y la creatividad.",
+      "broader": "ce:SEUPC3",
+      "bloque": "bc:SEUP01BC3",
+      "descriptores": [
+        "CCL2",
+        "CD1",
+        "CPSAA4",
+        "CCEC2"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP01CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP01CE4.1",
+      "prefLabel": "SEUP01CE4.1 · Reconocer e interpretar de forma guiada los rasgos particulares de diversas técnicas y…",
+      "definition": "Reconocer e interpretar de forma guiada los rasgos particulares de diversas técnicas y lenguajes artísticos, utilizando textos escritos, así como sus distintos procesos y resultados en función de los contextos sociales, históricos, geográficos y tecnológicos, buscando, mediante el uso de diferentes herramientas digitales, la información con interés y eficacia, para descubrir las diversas posibilidades que ofrecen como fuente generadora de ideas y respuestas.",
+      "broader": "ce:SEUPC4",
+      "bloque": "bc:SEUP01BC4",
+      "descriptores": [
+        "CCL2",
+        "CD1",
+        "CD2"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP01CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP01CE4.2",
+      "prefLabel": "SEUP01CE4.2 · Analizar y reconocer, de forma guiada, las especificidades de los lenguajes de diferentes…",
+      "definition": "Analizar y reconocer, de forma guiada, las especificidades de los lenguajes de diferentes producciones culturales y artísticas, de manera individual, grupal y colaborativa, demostrando respeto por las normas, empatía, equidad y espíritu constructivo, y mostrando interés por las manifestaciones artísticas y culturales más destacadas del patrimonio histórico de Canarias, para descubrir las diversas posibilidades que ofrecen los métodos y las técnicas artísticas como fuentes generadoras de ideas.",
+      "broader": "ce:SEUPC4",
+      "bloque": "bc:SEUP01BC4",
+      "descriptores": [
+        "CPSAA3",
+        "CC3",
+        "CCEC2"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP01CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP01CE5.1",
+      "prefLabel": "SEUP01CE5.1 · Expresar de forma guiada ideas y sentimientos en diferentes producciones plásticas,…",
+      "definition": "Expresar de forma guiada ideas y sentimientos en diferentes producciones plásticas, visuales y audiovisuales, probando diversas herramientas, técnicas y soportes, con respeto a la propiedad intelectual y con actitud cooperativa y respetuosa, y desarrollando la capacidad de comunicación, para potenciar la autoconfianza.",
+      "broader": "ce:SEUPC5",
+      "bloque": "bc:SEUP01BC5",
+      "descriptores": [
+        "CCL2",
+        "CPSAA4",
+        "CC3",
+        "CCEC3",
+        "CCEC4"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP01CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP01CE5.2",
+      "prefLabel": "SEUP01CE5.2 · Realizar diferentes tipos de producciones artísticas individuales o colectivas con las…",
+      "definition": "Realizar diferentes tipos de producciones artísticas individuales o colectivas con las técnicas y los soportes adecuados al propósito, con actitud cooperativa y respetuosa, reconociendo el proceso creativo, mostrando iniciativa y autoconfianza, integrando racionalidad, empatía y sensibilidad, para expresar la visión del mundo, las emociones y los sentimientos propios, así como para mejorar la capacidad de comunicación y desarrollar la reflexión crítica.",
+      "broader": "ce:SEUPC5",
+      "bloque": "bc:SEUP01BC5",
+      "descriptores": [
+        "CPSAA3",
+        "CPSAA4",
+        "CC3",
+        "CCEC4"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP01CE6.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP01CE6.1",
+      "prefLabel": "SEUP01CE6.1 · Explicar de forma guiada su pertenencia a un contexto cultural concreto, especialmente el…",
+      "definition": "Explicar de forma guiada su pertenencia a un contexto cultural concreto, especialmente el de Canarias, utilizando la búsqueda, selección y tratamiento de información de fuentes diversas, a través de la observación de los aspectos formales y de los factores sociales que determinan diversas producciones culturales y artísticas actuales, para enriquecer las creaciones propias y desarrollar la identidad personal, cultural y social.",
+      "broader": "ce:SEUPC6",
+      "bloque": "bc:SEUP01BC6",
+      "descriptores": [
+        "CCL2",
+        "CD1",
+        "CC1"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP01CE6.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP01CE6.2",
+      "prefLabel": "SEUP01CE6.2 · Utilizar creativamente referencias culturales y artísticas del entorno en la elaboración…",
+      "definition": "Utilizar creativamente referencias culturales y artísticas del entorno en la elaboración de producciones propias, mediante el uso de diferentes herramientas digitales, mostrando una visión personal con una actitud respetuosa y opuesta a cualquier tipo de discriminación o violencia, para enriquecer las creaciones artísticas y desarrollar una cultura emprendedora.",
+      "broader": "ce:SEUPC6",
+      "bloque": "bc:SEUP01BC6",
+      "descriptores": [
+        "CD1",
+        "CPSAA3",
+        "CCEC3"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP01CE7.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP01CE7.1",
+      "prefLabel": "SEUP01CE7.1 · Realizar un proyecto artístico creativo, de manera individual, grupal y colaborativa,…",
+      "definition": "Realizar un proyecto artístico creativo, de manera individual, grupal y colaborativa, valorando la importancia de la sostenibilidad, ajustándose al objetivo propuesto, utilizando de forma guiada distintas técnicas visuales o audiovisuales, seleccionadas en la generación de mensajes propios, y mostrando interés y curiosidad por la evolución de las tecnologías digitales e iniciativa en el empleo de lenguajes, materiales, soportes y herramientas, para enriquecer el diseño y aprender de sus errores en el proceso de construcción del conocimiento.",
+      "broader": "ce:SEUPC7",
+      "bloque": "bc:SEUP01BC7",
+      "descriptores": [
+        "CCL3",
+        "STEM3",
+        "CD1",
+        "CD5",
+        "CC1",
+        "CC3",
+        "CCEC4"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP01CE8.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP01CE8.1",
+      "prefLabel": "SEUP01CE8.1 · Reconocer los diferentes usos y funciones de las producciones y manifestaciones…",
+      "definition": "Reconocer los diferentes usos y funciones de las producciones y manifestaciones artísticas, así como las oportunidades que pueden generar, mostrando una actitud abierta, cooperativa y respetuosa, interés por conocer su importancia en la sociedad, con especial atención a la de Canarias, y curiosidad por la evolución de las tecnologías digitales, para valorar distintas oportunidades de desarrollo personal.",
+      "broader": "ce:SEUPC8",
+      "bloque": "bc:SEUP01BC8",
+      "descriptores": [
+        "CCL1",
+        "CD3",
+        "CCEC4"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP01CE8.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP01CE8.2",
+      "prefLabel": "SEUP01CE8.2 · Desarrollar producciones y manifestaciones artísticas con una intención previa, de forma…",
+      "definition": "Desarrollar producciones y manifestaciones artísticas con una intención previa, de forma individual o colectiva, aprendiendo de sus errores en el proceso de construcción del conocimiento, conociendo las diferentes etapas y considerando las características del público destinatario, para valorar las oportunidades personales, sociales y económicas que se le ofrecen.",
+      "broader": "ce:SEUPC8",
+      "bloque": "bc:SEUP01BC8",
+      "descriptores": [
+        "STEM3",
+        "CD3",
+        "CPSAA3",
+        "CPSAA5"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP02CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP02CE1.1",
+      "prefLabel": "SEUP02CE1.1 · Reconocer los factores históricos, sociales y culturales que rodean las producciones…",
+      "definition": "Reconocer los factores históricos, sociales y culturales que rodean las producciones plásticas, visuales y audiovisuales más relevantes, describiendo de manera oral, escrita o gráfica sus particularidades, con interés, respeto y actitud cooperativa, desde una perspectiva de género, para entender cómo se convierten en el testimonio de valores y convicciones de cada persona y de la sociedad en su conjunto, y darse cuenta de la necesidad de protección y conservación del patrimonio cultural y artístico, con especial atención al de Canarias.",
+      "broader": "ce:SEUPC1",
+      "bloque": "bc:SEUP02BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CP3",
+        "CPSAA3",
+        "CC1",
+        "CC2",
+        "CCEC1"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP02CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP02CE2.1",
+      "prefLabel": "SEUP02CE2.1 · Explicar, de forma razonada, la importancia del proceso que media entre la realidad, el…",
+      "definition": "Explicar, de forma razonada, la importancia del proceso que media entre la realidad, el imaginario y la producción, participando activamente en el trabajo en grupo, comunicando hechos, conceptos, pensamientos, opiniones o sentimientos, superando estereotipos y mostrando un comportamiento respetuoso con la diversidad cultural, para valorar el intercambio, las experiencias compartidas y el diálogo intercultural.",
+      "broader": "ce:SEUPC2",
+      "bloque": "bc:SEUP02BC2",
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "CPSAA1",
+        "CPSAA3",
+        "CC3"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP02CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP02CE2.2",
+      "prefLabel": "SEUP02CE2.2 · Analizar diversas producciones artísticas, incluidas las del patrimonio cultural y…",
+      "definition": "Analizar diversas producciones artísticas, incluidas las del patrimonio cultural y artístico de Canarias, así como las propias y las de sus iguales, con interés y actitud cooperativa, desarrollando una mirada estética hacia el mundo y apreciando la diversidad de las expresiones culturales, para valorar el intercambio, las experiencias compartidas y el diálogo intercultural, así como para superar estereotipos.",
+      "broader": "ce:SEUPC2",
+      "bloque": "bc:SEUP02BC2",
+      "descriptores": [
+        "CCL2",
+        "CC1",
+        "CC3",
+        "CCEC1",
+        "CCEC3"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP02CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP02CE3.1",
+      "prefLabel": "SEUP02CE3.1 · Seleccionar y describir propuestas plásticas, visuales y audiovisuales de diferentes…",
+      "definition": "Seleccionar y describir propuestas plásticas, visuales y audiovisuales de diferentes tipos y épocas, con especial atención a las de Canarias, describiéndolas de forma oral o escrita y de manera individual o grupal, y explicándolas con curiosidad y respeto, incluyendo la perspectiva de género, para enriquecer la cultura artística personal y alimentar el imaginario.",
+      "broader": "ce:SEUPC3",
+      "bloque": "bc:SEUP02BC3",
+      "descriptores": [
+        "CCL1",
+        "CC1",
+        "CC3",
+        "CCEC2"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP02CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP02CE3.2",
+      "prefLabel": "SEUP02CE3.2 · Argumentar el disfrute producido por la recepción del arte en todas sus formas y…",
+      "definition": "Argumentar el disfrute producido por la recepción del arte en todas sus formas y vertientes, a través de análisis de diferentes propuestas plásticas, visuales y audiovisuales, incluidas las contemporáneas, y del uso de diferentes herramientas digitales, en cualquier medio o soporte, valorando con respeto impresiones y emociones, y expresando la opinión personal de forma abierta, para fomentar la curiosidad y la creatividad.",
+      "broader": "ce:SEUPC3",
+      "bloque": "bc:SEUP02BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CD1",
+        "CD2",
+        "CPSAA4",
+        "CCEC2"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP02CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP02CE4.1",
+      "prefLabel": "SEUP02CE4.1 · Reconocer e interpretar los rasgos particulares de diversas técnicas y lenguajes…",
+      "definition": "Reconocer e interpretar los rasgos particulares de diversas técnicas y lenguajes artísticos, utilizando textos orales o escritos, así como sus distintos procesos y resultados en función de los contextos sociales, históricos, geográficos y tecnológicos, analizando, mediante el uso de diferentes herramientas digitales, la información con interés y eficacia, para descubrir las diversas posibilidades que ofrecen como fuente generadora de ideas y respuestas.",
+      "broader": "ce:SEUPC4",
+      "bloque": "bc:SEUP02BC4",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CP3",
+        "CD1",
+        "CD2"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP02CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP02CE4.2",
+      "prefLabel": "SEUP02CE4.2 · Analizar de forma guiada las especificidades de los lenguajes de diferentes producciones…",
+      "definition": "Analizar de forma guiada las especificidades de los lenguajes de diferentes producciones culturales y artísticas, estableciendo conexiones entre ellas, de manera individual, grupal y colaborativa, demostrando respeto por las normas, empatía, equidad y espíritu constructivo, y mostrando interés por las manifestaciones artísticas y culturales más destacadas del patrimonio histórico de Canarias, para descubrir las diversas posibilidades que ofrecen los métodos y las técnicas artísticas como fuentes generadoras de ideas.",
+      "broader": "ce:SEUPC4",
+      "bloque": "bc:SEUP02BC4",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CP3",
+        "CPSAA3",
+        "CC3",
+        "CCEC2"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP02CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP02CE5.1",
+      "prefLabel": "SEUP02CE5.1 · Expresar ideas y sentimientos en diferentes producciones plásticas, visuales y…",
+      "definition": "Expresar ideas y sentimientos en diferentes producciones plásticas, visuales y audiovisuales, empleando diversas herramientas, técnicas y soportes seleccionados, archivándolos para su reutilización, con respeto a la propiedad intelectual y con actitud cooperativa y respetuosa, y desarrollando la capacidad de comunicación y reflexión, para potenciar la autoconfianza.",
+      "broader": "ce:SEUPC5",
+      "bloque": "bc:SEUP02BC5",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CD2",
+        "CPSAA1",
+        "CPSAA3",
+        "CPSAA4",
+        "CC3",
+        "CCEC3",
+        "CCEC4"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP02CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP02CE5.2",
+      "prefLabel": "SEUP02CE5.2 · Realizar diferentes tipos de producciones artísticas individuales o colectivas con las…",
+      "definition": "Realizar diferentes tipos de producciones artísticas individuales o colectivas con las técnicas y los soportes adecuados al propósito, con actitud cooperativa y respetuosa, reconociendo el proceso creativo, mostrando iniciativa y autoconfianza, integrando racionalidad, empatía y sensibilidad, para expresar la visión del mundo, las emociones y los sentimientos propios, así como para mejorar la capacidad de comunicación y desarrollar la reflexión crítica.",
+      "broader": "ce:SEUPC5",
+      "bloque": "bc:SEUP02BC5",
+      "descriptores": [
+        "CPSAA3",
+        "CPSAA4",
+        "CC3",
+        "CCEC4"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP02CE6.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP02CE6.1",
+      "prefLabel": "SEUP02CE6.1 · Explicar de forma guiada su pertenencia a un contexto cultural concreto, especialmente el…",
+      "definition": "Explicar de forma guiada su pertenencia a un contexto cultural concreto, especialmente el de Canarias, utilizando la búsqueda, selección y tratamiento de información de fuentes diversas, a través de la observación de los aspectos formales y de los factores sociales que determinan diversas producciones culturales y artísticas actuales, para enriquecer las creaciones propias y desarrollar la identidad personal, cultural y social.",
+      "broader": "ce:SEUPC6",
+      "bloque": "bc:SEUP02BC6",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CP3",
+        "CD1",
+        "CC1"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP02CE6.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP02CE6.2",
+      "prefLabel": "SEUP02CE6.2 · Utilizar creativamente referencias culturales y artísticas del entorno en la elaboración…",
+      "definition": "Utilizar creativamente referencias culturales y artísticas del entorno en la elaboración de producciones propias, mediante el uso de diferentes herramientas digitales, mostrando una visión personal con actitud respetuosa y opuesta a cualquier tipo de discriminación o violencia, para enriquecer las creaciones artísticas y desarrollar una cultura emprendedora.",
+      "broader": "ce:SEUPC6",
+      "bloque": "bc:SEUP02BC6",
+      "descriptores": [
+        "CD1",
+        "CD2",
+        "CPSAA3",
+        "CCEC3"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP02CE7.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP02CE7.1",
+      "prefLabel": "SEUP02CE7.1 · Realizar un proyecto artístico, con creatividad y de forma consciente, de manera…",
+      "definition": "Realizar un proyecto artístico, con creatividad y de forma consciente, de manera individual, grupal y colaborativa, valorando la importancia de la sostenibilidad, ajustándose al objetivo propuesto, aplicando distintas técnicas visuales o audiovisuales seleccionadas en la generación de mensajes propios y mostrando interés y curiosidad por la evolución de las tecnologías digitales e iniciativa en el empleo de lenguajes, materiales, soportes y herramientas, para integrarlos y enriquecer el diseño, y aprender de sus errores en el proceso de construcción del conocimiento a través de la autoevaluación de su proceso de aprendizaje.",
+      "broader": "ce:SEUPC7",
+      "bloque": "bc:SEUP02BC7",
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "STEM3",
+        "CD1",
+        "CD2",
+        "CD5",
+        "CPSAA3",
+        "CPSAA4",
+        "CC1",
+        "CC3",
+        "CE1",
+        "CE2",
+        "CCEC4"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP02CE8.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP02CE8.1",
+      "prefLabel": "SEUP02CE8.1 · Reconocer los diferentes usos y funciones de las producciones y manifestaciones…",
+      "definition": "Reconocer los diferentes usos y funciones de las producciones y manifestaciones artísticas, así como las oportunidades que pueden generar, manifestando una actitud abierta, cooperativa y respetuosa, mostrando interés por conocer su importancia en la sociedad, con especial atención a la de Canarias, y curiosidad por la evolución de las tecnologías digitales, para valorar distintas oportunidades de desarrollo personal.",
+      "broader": "ce:SEUPC8",
+      "bloque": "bc:SEUP02BC8",
+      "descriptores": [
+        "CCL1",
+        "CD3",
+        "CPSAA3",
+        "CCEC4"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP02CE8.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP02CE8.2",
+      "prefLabel": "SEUP02CE8.2 · Desarrollar producciones y manifestaciones artísticas con una intención previa, de forma…",
+      "definition": "Desarrollar producciones y manifestaciones artísticas con una intención previa, de forma individual o colectiva, aprendiendo de sus errores en el proceso de construcción del conocimiento, analizando las diferentes etapas y teniendo en consideración las características del público destinatario, para valorar las oportunidades personales, sociales y económicas que se le ofrecen.",
+      "broader": "ce:SEUPC8",
+      "bloque": "bc:SEUP02BC8",
+      "descriptores": [
+        "STEM3",
+        "CD3",
+        "CPSAA3",
+        "CPSAA5",
+        "CE3",
+        "CCEC4"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP02CE8.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP02CE8.3",
+      "prefLabel": "SEUP02CE8.3 · Exponer los procesos de elaboración y el resultado final de producciones y…",
+      "definition": "Exponer los procesos de elaboración y el resultado final de producciones y manifestaciones artísticas y culturales, realizadas de forma individual o colectiva, con actitud respetuosa y cooperativa, considerando la experiencia como una oportunidad para aprender, utilizando aplicaciones informáticas de cierta complejidad y valorando las oportunidades de desarrollo personal que ofrecen, para reconocer los errores y buscar las soluciones y las estrategias más adecuadas con la intención de mejorarlas.",
+      "broader": "ce:SEUPC8",
+      "bloque": "bc:SEUP02BC8",
+      "descriptores": [
+        "CCL1",
+        "CD2",
+        "CD3",
+        "CPSAA3",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP03CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP03CE1.1",
+      "prefLabel": "SEUP03CE1.1 · Reconocer los factores históricos, sociales y culturales que rodean las producciones…",
+      "definition": "Reconocer los factores históricos, sociales y culturales que rodean las producciones plásticas, visuales y audiovisuales más relevantes, así como su función y finalidad, describiendo de manera oral, escrita o gráfica sus particularidades, con interés, respeto y actitud cooperativa, desde una perspectiva de género, para entender cómo se convierten en el testimonio valores y convicciones de cada persona y de la sociedad en su conjunto, y la necesidad de protección y conservación del patrimonio cultural y artístico, con especial atención al de Canarias.",
+      "broader": "ce:SEUPC1",
+      "bloque": "bc:SEUP03BC1",
+      "descriptores": [
+        "CCL1",
+        "CPSAA3",
+        "CC1",
+        "CC2",
+        "CCEC1"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP03CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP03CE2.1",
+      "prefLabel": "SEUP03CE2.1 · Explicar, de forma razonada, la importancia del proceso que media entre la realidad, el…",
+      "definition": "Explicar, de forma razonada, la importancia del proceso que media entre la realidad, el imaginario y la producción, participando activamente en el trabajo en grupo, expresando hechos, conceptos, pensamientos, opiniones o sentimientos de manera oral, escrita y gráfica, superando estereotipos y mostrando un comportamiento respetuoso con la diversidad cultural, para valorar el intercambio, las experiencias compartidas y el diálogo intercultural.",
+      "broader": "ce:SEUPC2",
+      "bloque": "bc:SEUP03BC2",
+      "descriptores": [
+        "CCL1",
+        "CPSAA1",
+        "CPSAA3",
+        "CC3"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP03CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP03CE2.2",
+      "prefLabel": "SEUP03CE2.2 · Analizar diversas producciones artísticas, incluidas las del patrimonio cultural y…",
+      "definition": "Analizar diversas producciones artísticas, incluidas las del patrimonio cultural y artístico, especialmente el de Canarias, así como las propias y las de sus iguales, con interés y actitud cooperativa manifestando una mirada estética hacia el mundo, respetando y disfrutando la diversidad de las expresiones culturales, para valorar el intercambio, las experiencias compartidas y el diálogo intercultural, así como para superar estereotipos.",
+      "broader": "ce:SEUPC2",
+      "bloque": "bc:SEUP03BC2",
+      "descriptores": [
+        "CC1",
+        "CCEC1",
+        "CCEC3"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP03CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP03CE3.1",
+      "prefLabel": "SEUP03CE3.1 · Seleccionar propuestas plásticas, visuales y audiovisuales de diversos tipos y épocas,…",
+      "definition": "Seleccionar propuestas plásticas, visuales y audiovisuales de diversos tipos y épocas, con especial atención a las de Canarias, describiéndolas de forma oral , escrita y gráfica, y de manera individual, grupal o colaborativa, así como analizándolas y explicándolas con curiosidad y respeto desde una perspectiva de género, para enriquecer la cultura artística individual y alimentar el imaginario.",
+      "broader": "ce:SEUPC3",
+      "bloque": "bc:SEUP03BC3",
+      "descriptores": [
+        "CCL1",
+        "CC1",
+        "CC3"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP03CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP03CE3.2",
+      "prefLabel": "SEUP03CE3.2 · Argumentar el disfrute producido por la recepción del arte en todas sus formas y…",
+      "definition": "Argumentar el disfrute producido por la recepción del arte en todas sus formas y vertientes, a través del análisis y de la explicación de diferentes propuestas plásticas, visuales y audiovisuales, incluidas las contemporáneas, y del uso de diferentes herramientas digitales, en cualquier medio o soporte, compartiendo con respeto impresiones y emociones, y expresando la opinión personal de forma abierta, para fomentar la curiosidad y la creatividad.",
+      "broader": "ce:SEUPC3",
+      "bloque": "bc:SEUP03BC3",
+      "descriptores": [
+        "CCL2",
+        "CD1",
+        "CPSAA4",
+        "CCEC2"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP03CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP03CE4.1",
+      "prefLabel": "SEUP03CE4.1 · Reconocer e interpretar los rasgos particulares de diversas técnicas y lenguajes…",
+      "definition": "Reconocer e interpretar los rasgos particulares de diversas técnicas y lenguajes artísticos, utilizando textos orales, signados, escritos o multimodales, así como sus distintos procesos y resultados en función de los contextos sociales, históricos, geográficos y tecnológicos, buscando y analizando, mediante el uso de diferentes herramientas digitales, la información con interés y eficacia, para descubrir las diversas posibilidades que ofrecen como fuente generadora de ideas.",
+      "broader": "ce:SEUPC4",
+      "bloque": "bc:SEUP03BC4",
+      "descriptores": [
+        "CCL2",
+        "CD1",
+        "CD2"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP03CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP03CE4.2",
+      "prefLabel": "SEUP03CE4.2 · Analizar especificidades de los lenguajes de diferentes producciones culturales y…",
+      "definition": "Analizar especificidades de los lenguajes de diferentes producciones culturales y artísticas, estableciendo conexiones entre ellas e incorporándolas creativamente en las producciones propias, de manera individual, grupal y colaborativa, demostrando respeto por las normas, empatía, equidad y espíritu constructivo, y mostrando interés por las manifestaciones artísticas y culturales más destacadas del patrimonio histórico de Canarias, para descubrir las diversas posibilidades que ofrecen los métodos y las técnicas artísticas como fuentes generadoras de ideas.",
+      "broader": "ce:SEUPC4",
+      "bloque": "bc:SEUP03BC4",
+      "descriptores": [
+        "CPSAA3",
+        "CC3",
+        "CCEC2"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP03CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP03CE5.1",
+      "prefLabel": "SEUP03CE5.1 · Expresar ideas y sentimientos en diferentes producciones plásticas, visuales y…",
+      "definition": "Expresar ideas y sentimientos en diferentes producciones plásticas, visuales y audiovisuales, escogiendo diversas herramientas, técnicas y soportes de acuerdo a las necesidades, archivándolos para su reutilización, con respeto a la propiedad intelectual y con actitud cooperativa y respetuosa, y desarrollando la capacidad de comunicación y la reflexión crítica, para potenciar la autoconfianza.",
+      "broader": "ce:SEUPC5",
+      "bloque": "bc:SEUP03BC5",
+      "descriptores": [
+        "CCL2",
+        "CPSAA4",
+        "CC3",
+        "CCEC3",
+        "CCEC4"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP03CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP03CE5.2",
+      "prefLabel": "SEUP03CE5.2 · Realizar diferentes tipos de producciones artísticas individuales o colectivas, con…",
+      "definition": "Realizar diferentes tipos de producciones artísticas individuales o colectivas, con actitud cooperativa y respetuosa, justificando el proceso creativo, mostrando iniciativa y autoconfianza, integrando racionalidad, empatía y sensibilidad, y seleccionando las técnicas y los soportes adecuados al propósito, para expresar la visión del mundo, las emociones y los sentimientos propios, así como para mejorar la capacidad de comunicación y desarrollar la reflexión crítica.",
+      "broader": "ce:SEUPC5",
+      "bloque": "bc:SEUP03BC5",
+      "descriptores": [
+        "CPSAA3",
+        "CPSAA4",
+        "CC3",
+        "CCEC4"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP03CE6.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP03CE6.1",
+      "prefLabel": "SEUP03CE6.1 · Explicar de forma guiada su pertenencia a un contexto cultural concreto, especialmente el…",
+      "definition": "Explicar de forma guiada su pertenencia a un contexto cultural concreto, especialmente el de Canarias, utilizando la búsqueda, selección y tratamiento de información de fuentes diversas, a través de la observación de los aspectos formales y de los factores sociales que determinan diversas producciones culturales y artísticas actuales, para enriquecer las creaciones propias y desarrollar la identidad personal, cultural y social.",
+      "broader": "ce:SEUPC6",
+      "bloque": "bc:SEUP03BC6",
+      "descriptores": [
+        "CCL2",
+        "CD1",
+        "CC1"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP03CE6.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP03CE6.2",
+      "prefLabel": "SEUP03CE6.2 · Utilizar creativamente referencias culturales y artísticas del entorno en la elaboración…",
+      "definition": "Utilizar creativamente referencias culturales y artísticas del entorno en la elaboración de producciones propias , mediante el uso de diferentes herramientas digitales, mostrando una visión personal, con actitud respetuosa y opuesta a cualquier tipo de discriminación o violencia, para enriquecer las creaciones artísticas y desarrollar una cultura emprendedora.",
+      "broader": "ce:SEUPC6",
+      "bloque": "bc:SEUP03BC6",
+      "descriptores": [
+        "CD1",
+        "CPSAA3",
+        "CCEC3"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP03CE7.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP03CE7.1",
+      "prefLabel": "SEUP03CE7.1 · Realizar un proyecto artístico, con creatividad y de forma consciente, de manera…",
+      "definition": "Realizar un proyecto artístico, con creatividad y de forma consciente, de manera individual, grupal y colaborativa, valorando la importancia de la sostenibilidad, ajustándose al objetivo propuesto, experimentando con distintas técnicas visuales o audiovisuales en la generación de mensajes propios, y mostrando interés y curiosidad por la evolución de las tecnologías digitales e iniciativa en el empleo de lenguajes, materiales, soportes y herramientas, para enriquecer el diseño y aprender de sus errores en el proceso de construcción del conocimiento.",
+      "broader": "ce:SEUPC7",
+      "bloque": "bc:SEUP03BC7",
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "STEM3",
+        "CD1",
+        "CD5",
+        "CC1",
+        "CC3",
+        "CCEC4"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP03CE8.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP03CE8.1",
+      "prefLabel": "SEUP03CE8.1 · Reconocer los diferentes usos y funciones de las producciones y manifestaciones…",
+      "definition": "Reconocer los diferentes usos y funciones de las producciones y manifestaciones artísticas, así como las oportunidades que pueden generar, mostrando una actitud abierta, cooperativa y respetuosa, interés por conocer su importancia en la sociedad, con especial atención a la de Canarias, y curiosidad por la evolución de las tecnologías digitales, para valorar distintas oportunidades de desarrollo personal.",
+      "broader": "ce:SEUPC8",
+      "bloque": "bc:SEUP03BC8",
+      "descriptores": [
+        "CCL1",
+        "CD3",
+        "CCEC4"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP03CE8.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP03CE8.2",
+      "prefLabel": "SEUP03CE8.2 · Desarrollar producciones y manifestaciones artísticas con una intención previa, de forma…",
+      "definition": "Desarrollar producciones y manifestaciones artísticas con una intención previa, de forma individual o colectiva, aprendiendo de sus errores en el proceso de construcción del conocimiento, organizando y desarrollando las diferentes etapas y teniendo en consideración las características del público destinatario , para valorar las oportunidades personales, sociales y económicas que se le ofrecen.",
+      "broader": "ce:SEUPC8",
+      "bloque": "bc:SEUP03BC8",
+      "descriptores": [
+        "STEM3",
+        "CD3",
+        "CPSAA3",
+        "CPSAA5"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SEUP03CE8.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SEUP03CE8.3",
+      "prefLabel": "SEUP03CE8.3 · Exponer los procesos de elaboración y el resultado final de producciones y…",
+      "definition": "Exponer los procesos de elaboración y el resultado final de producciones y manifestaciones artísticas y culturales, realizadas de forma individual o colectiva, con actitud respetuosa y cooperativa, considerando la experiencia como una oportunidad para aprender, utilizando aplicaciones informáticas y valorando las oportunidades de desarrollo personal que ofrecen, para reconocer los errores y buscar las soluciones y las estrategias más adecuadas con la intención de mejorarlas.",
+      "broader": "ce:SEUPC8",
+      "bloque": "bc:SEUP03BC8",
+      "descriptores": [
+        "CCL1",
+        "CPSAA3",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP01SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "SEUP01SBI",
+      "prefLabel": "SEUP01SBI · I. Patrimonio artístico y cultural",
+      "definition": "Patrimonio artístico y cultural",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP01SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "SEUP01SBII",
+      "prefLabel": "SEUP01SBII · II. Elementos formales de la imagen y del lenguaje visual. La expresión gráfica",
+      "definition": "Elementos formales de la imagen y del lenguaje visual. La expresión gráfica",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP01SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "SEUP01SBIII",
+      "prefLabel": "SEUP01SBIII · III. Expresión artística y gráfico-plástica: técnicas y procedimientos",
+      "definition": "Expresión artística y gráfico-plástica: técnicas y procedimientos",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP01SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "SEUP01SBIV",
+      "prefLabel": "SEUP01SBIV · IV. Imagen y comunicación visual y audiovisual",
+      "definition": "Imagen y comunicación visual y audiovisual",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP02SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "SEUP02SBI",
+      "prefLabel": "SEUP02SBI · I. Patrimonio artístico y cultural",
+      "definition": "Patrimonio artístico y cultural",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP02SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "SEUP02SBII",
+      "prefLabel": "SEUP02SBII · II. Elementos formales de la imagen y del lenguaje visual. La expresión gráfica",
+      "definition": "Elementos formales de la imagen y del lenguaje visual. La expresión gráfica",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP02SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "SEUP02SBIII",
+      "prefLabel": "SEUP02SBIII · III. Expresión artística y gráfico-plástica: técnicas y procedimientos",
+      "definition": "Expresión artística y gráfico-plástica: técnicas y procedimientos",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP02SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "SEUP02SBIV",
+      "prefLabel": "SEUP02SBIV · IV. Imagen y comunicación visual y audiovisual",
+      "definition": "Imagen y comunicación visual y audiovisual",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP03SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "SEUP03SBI",
+      "prefLabel": "SEUP03SBI · I. Patrimonio artístico y cultural",
+      "definition": "Patrimonio artístico y cultural",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP03SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "SEUP03SBII",
+      "prefLabel": "SEUP03SBII · II. Elementos formales de la imagen y del lenguaje visual. La expresión gráfica",
+      "definition": "Elementos formales de la imagen y del lenguaje visual. La expresión gráfica",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP03SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "SEUP03SBIII",
+      "prefLabel": "SEUP03SBIII · III. Expresión artística y gráfico-plástica: técnicas y procedimientos",
+      "definition": "Expresión artística y gráfico-plástica: técnicas y procedimientos",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP03SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "SEUP03SBIV",
+      "prefLabel": "SEUP03SBIV · IV. Imagen y comunicación visual y audiovisual",
+      "definition": "Imagen y comunicación visual y audiovisual",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP01SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "SEUP01SBI.1",
+      "prefLabel": "SEUP01SBI.1 · Análisis de las formas geométricas en el arte y en el entorno. Patrimonio…",
+      "definition": "Análisis de las formas geométricas en el arte y en el entorno. Patrimonio arquitectónico.",
+      "broader": "sb:SEUP01SBI",
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP01SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "SEUP01SBII.1",
+      "prefLabel": "SEUP01SBII.1 · Análisis de los elementos básicos del lenguaje visual: el punto, la línea y el plano.…",
+      "definition": "Análisis de los elementos básicos del lenguaje visual: el punto, la línea y el plano. Posibilidades expresivas y comunicativas. Obras de artistas canarios.",
+      "broader": "sb:SEUP01SBII",
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP01SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "SEUP01SBII.2",
+      "prefLabel": "SEUP01SBII.2 · Análisis, con el estudio de obras de artistas plásticos canarios, de los elementos…",
+      "definition": "Análisis, con el estudio de obras de artistas plásticos canarios, de los elementos visuales, conceptos y posibilidades expresivas: forma, color y textura.",
+      "broader": "sb:SEUP01SBII",
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP01SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "SEUP01SBII.3",
+      "prefLabel": "SEUP01SBII.3 · Selección y descripción de los elementos que intervienen en composiciones básicas. Los…",
+      "definition": "Selección y descripción de los elementos que intervienen en composiciones básicas. Los esquemas compositivos.",
+      "broader": "sb:SEUP01SBII",
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP01SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "SEUP01SBIII.1",
+      "prefLabel": "SEUP01SBIII.1 · Reconocimiento y constatación del proceso creativo a través de operaciones plásticas:…",
+      "definition": "Reconocimiento y constatación del proceso creativo a través de operaciones plásticas: reproducir, aislar, transformar y asociar.",
+      "broader": "sb:SEUP01SBIII",
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP01SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "SEUP01SBIII.2",
+      "prefLabel": "SEUP01SBIII.2 · Introducción a la geometría plana y trazados geométricos básicos.",
+      "definition": "Introducción a la geometría plana y trazados geométricos básicos.",
+      "broader": "sb:SEUP01SBIII",
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP01SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "SEUP01SBIII.3",
+      "prefLabel": "SEUP01SBIII.3 · Uso de técnicas básicas de expresión gráfico-plástica en dos dimensiones. Técnicas…",
+      "definition": "Uso de técnicas básicas de expresión gráfico-plástica en dos dimensiones. Técnicas secas y húmedas. Su uso en el arte y sus características expresivas: estudio de artistas como Lola Massieu y Pepe Dámaso, entre otros.",
+      "broader": "sb:SEUP01SBIII",
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP01SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "SEUP01SBIV.1",
+      "prefLabel": "SEUP01SBIV.1 · Análisis del lenguaje y la comunicación visual. Finalidades: informativa, comunicativa,…",
+      "definition": "Análisis del lenguaje y la comunicación visual. Finalidades: informativa, comunicativa, expresiva y estética. Contextos y funciones.",
+      "broader": "sb:SEUP01SBIV",
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP01SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "SEUP01SBIV.2",
+      "prefLabel": "SEUP01SBIV.2 · Uso de imágenes visuales y audiovisuales: lectura y análisis.",
+      "definition": "Uso de imágenes visuales y audiovisuales: lectura y análisis.",
+      "broader": "sb:SEUP01SBIV",
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP02SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "SEUP02SBI.1",
+      "prefLabel": "SEUP02SBI.1 · Análisis de los géneros artísticos.",
+      "definition": "Análisis de los géneros artísticos.",
+      "broader": "sb:SEUP02SBI",
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP02SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "SEUP02SBII.1",
+      "prefLabel": "SEUP02SBII.1 · Análisis del lenguaje visual como forma de comunicación.",
+      "definition": "Análisis del lenguaje visual como forma de comunicación.",
+      "broader": "sb:SEUP02SBII",
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP02SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "SEUP02SBII.2",
+      "prefLabel": "SEUP02SBII.2 · Selección y descripción de los elementos que intervienen en composiciones básicas. Los…",
+      "definition": "Selección y descripción de los elementos que intervienen en composiciones básicas. Los esquemas compositivos.",
+      "broader": "sb:SEUP02SBII",
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP02SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "SEUP02SBIII.1",
+      "prefLabel": "SEUP02SBIII.1 · Estudio del proceso creativo: mapas mentales.",
+      "definition": "Estudio del proceso creativo: mapas mentales.",
+      "broader": "sb:SEUP02SBIII",
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP02SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "SEUP02SBIII.2",
+      "prefLabel": "SEUP02SBIII.2 · Construcción de polígonos regulares e irregulares en función de sus lados y ángulos:…",
+      "definition": "Construcción de polígonos regulares e irregulares en función de sus lados y ángulos: triángulos y cuadriláteros.",
+      "broader": "sb:SEUP02SBIII",
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP02SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "SEUP02SBIII.3",
+      "prefLabel": "SEUP02SBIII.3 · Elaboración de técnicas básicas de expresión gráfico-plástica en dos dimensiones.…",
+      "definition": "Elaboración de técnicas básicas de expresión gráfico-plástica en dos dimensiones. Técnicas secas, húmedas y mixtas. Su uso en el arte y sus características expresivas.",
+      "broader": "sb:SEUP02SBIII",
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP02SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "SEUP02SBIV.1",
+      "prefLabel": "SEUP02SBIV.1 · Análisis del lenguaje y la comunicación visual. Finalidad o función. Grados de…",
+      "definition": "Análisis del lenguaje y la comunicación visual. Finalidad o función. Grados de iconicidad de las imágenes.",
+      "broader": "sb:SEUP02SBIV",
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP02SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "SEUP02SBIV.2",
+      "prefLabel": "SEUP02SBIV.2 · Aplicación de mensajes visuales y audiovisuales publicitarios: lectura y análisis.",
+      "definition": "Aplicación de mensajes visuales y audiovisuales publicitarios: lectura y análisis.",
+      "broader": "sb:SEUP02SBIV",
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP03SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "SEUP03SBI.1",
+      "prefLabel": "SEUP03SBI.1 · Análisis de manifestaciones culturales y artísticas más importantes, incluidas las…",
+      "definition": "Análisis de manifestaciones culturales y artísticas más importantes, incluidas las contemporáneas y las pertenecientes al patrimonio local: sus aspectos formales y su relación con el contexto histórico.",
+      "broader": "sb:SEUP03SBI",
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP03SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "SEUP03SBII.1",
+      "prefLabel": "SEUP03SBII.1 · Análisis de la percepción visual. Introducción a los principios perceptivos, elementos…",
+      "definition": "Análisis de la percepción visual. Introducción a los principios perceptivos, elementos y factores.",
+      "broader": "sb:SEUP03SBII",
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP03SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "SEUP03SBII.2",
+      "prefLabel": "SEUP03SBII.2 · Selección y descripción de la composición. Conceptos de equilibrio, proporción y ritmo…",
+      "definition": "Selección y descripción de la composición. Conceptos de equilibrio, proporción y ritmo aplicados a la organización de formas en el plano y en el espacio.",
+      "broader": "sb:SEUP03SBII",
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP03SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "SEUP03SBIII.1",
+      "prefLabel": "SEUP03SBIII.1 · Objetivos de Desarrollo Sostenible.",
+      "definition": "Objetivos de Desarrollo Sostenible.",
+      "broader": "sb:SEUP03SBIII",
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP03SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "SEUP03SBIII.2",
+      "prefLabel": "SEUP03SBIII.2 · Construcción de polígonos regulares e irregulares en función de sus lados y ángulos: del…",
+      "definition": "Construcción de polígonos regulares e irregulares en función de sus lados y ángulos: del pentágono hasta el octógono.",
+      "broader": "sb:SEUP03SBIII",
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP03SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "SEUP03SBIII.3",
+      "prefLabel": "SEUP03SBIII.3 · Uso de técnicas básicas de expresión gráfico-plástica en tres dimensiones. Su uso en…",
+      "definition": "Uso de técnicas básicas de expresión gráfico-plástica en tres dimensiones. Su uso en el arte y sus características expresivas.",
+      "broader": "sb:SEUP03SBIII",
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP03SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "SEUP03SBIV.1",
+      "prefLabel": "SEUP03SBIV.1 · Objetivos de Desarrollo Sostenible.",
+      "definition": "Objetivos de Desarrollo Sostenible.",
+      "broader": "sb:SEUP03SBIV",
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SEUP03SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "SEUP03SBIV.2",
+      "prefLabel": "SEUP03SBIV.2 · Sociedad de la información.",
+      "definition": "Sociedad de la información.",
+      "broader": "sb:SEUP03SBIV",
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    }
+  ]
+}

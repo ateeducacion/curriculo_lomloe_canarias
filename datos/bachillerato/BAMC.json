@@ -1,0 +1,597 @@
+{
+  "materia": "materia:BAMC",
+  "nodos": [
+    {
+      "id": "materia:BAMC",
+      "tipo": "Materia",
+      "notation": "BAMC",
+      "prefLabel": "Análisis Musical II (Bachillerato)",
+      "cursos": [
+        "curso:B02"
+      ],
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BAMCC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BAMCC1",
+      "prefLabel": "BAMCC1 · Analizar los elementos musicales de diferentes obras, utilizando la escucha activa y el…",
+      "definition": "Analizar los elementos musicales de diferentes obras, utilizando la escucha activa y el estudio de partituras, para describir sus características y establecer comparaciones.",
+      "broader": "materia:BAMC",
+      "materia": "materia:BAMC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BAMCC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BAMCC2",
+      "prefLabel": "BAMCC2 · Establecer relaciones entre los elementos musicales de una composición, a través del…",
+      "definition": "Establecer relaciones entre los elementos musicales de una composición, a través del análisis de su estructura y de los procedimientos compositivos utilizados, para asociar la obra con un género, un estilo y un contexto de creación.",
+      "broader": "materia:BAMC",
+      "materia": "materia:BAMC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BAMCC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BAMCC3",
+      "prefLabel": "BAMCC3 · Elaborar comentarios y críticas musicales sobre las obras analizadas, utilizando una…",
+      "definition": "Elaborar comentarios y críticas musicales sobre las obras analizadas, utilizando una terminología adecuada y consultando distintas fuentes de información, para expresar juicios personales fundamentados y contribuir a la difusión del patrimonio musical a través de los medios disponibles.",
+      "broader": "materia:BAMC",
+      "materia": "materia:BAMC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BAMCC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BAMCC4",
+      "prefLabel": "BAMCC4 · Utilizar los procedimientos compositivos fundamentales y las tecnologías digitales,…",
+      "definition": "Utilizar los procedimientos compositivos fundamentales y las tecnologías digitales, empleando los elementos y las estructuras musicales más adecuadas, para crear obras sencillas y realizar improvisaciones.",
+      "broader": "materia:BAMC",
+      "materia": "materia:BAMC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "ce:BAMCC5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "BAMCC5",
+      "prefLabel": "BAMCC5 · Investigar sobre los usos de la música con fines terapéuticos y en combinación con otras…",
+      "definition": "Investigar sobre los usos de la música con fines terapéuticos y en combinación con otras formas de expresión artística, utilizando diferentes fuentes de información y analizando las características musicales de las obras, para entender de qué forma inciden determinados rasgos musicales en la salud y en las emociones",
+      "broader": "materia:BAMC",
+      "materia": "materia:BAMC",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BAMC02BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "BAMC02BC1",
+      "prefLabel": "Análisis Musical II · 2º Bachillerato · bloque competencial C1",
+      "scopeNote": "A través del presente bloque competencial, se persigue constatar si el alumnado es capaz de describir y comparar los elementos constitutivos de diferentes obras musicales (ritmo, tempo, melodía, armonía, textura, timbre, dinámica y agógica), así como sus características. Se podrá evaluar la habilidad para indagar en las intencionalidades de las obras estudiadas, analizando sus contextos, lenguajes, elementos técnicos y estéticos, demostrando una actitud de recepción activa y deleite ante las manifestaciones artísticas propuestas. De igual forma, se valorará la expresión de sus conclusiones, de forma oral, escrita o multimodal, atendiendo a criterios de fluidez, coherencia y corrección, haciendo uso de una terminología musical adecuada. Igualmente se comprobará la participación activa, cooperativa y respetuosa en las interacciones generadas en el aula para intercambiar información y argumentar sus opiniones. Se constatará la habilidad para aplicar técnicas de escucha activa y análisis auditivo, así como de estudio y análisis de partituras, tanto con notación convencional como no convencional, demostrando comprensión, interpretación y valoración crítica de las obras estudiadas. Por último, se verificará la existencia de una actitud proactiva respecto a la promoción y valoración crítica del patrimonio cultural y artístico, de la libertad de expresión y del enriquecimiento personal derivado de la diversidad presente en la sociedad.",
+      "broader": "materia:BAMC",
+      "agrupa": [
+        "ce:BAMCC1"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CP3",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BAMC02BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "BAMC02BC2",
+      "prefLabel": "Análisis Musical II · 2º Bachillerato · bloque competencial C2",
+      "scopeNote": "Mediante este bloque competencial, se valorará si el alumnado es capaz de identificar y describir la estructura formal y los procedimientos compositivos de obras diversas, y asociarlos a un género y estilo determinado. Igualmente se evaluará la habilidad para indagar sobre su contexto, sus elementos técnicos y estéticos y su autoría, destacando la producción de mujeres compositoras, así como de artistas del archipiélago canario. Estas indagaciones abarcarán, también, el estudio de las formas musicales y su evolución, debiendo demostrar el alumnado capacidades relativas a la búsqueda avanzada de información, con criterio de calidad, fiabilidad y selección crítica, comparando, evaluando y sintetizando datos para obtener conclusiones lógicas con autonomía. Al mismo tiempo, se valorará la expresión de sus conclusiones, de forma oral, escrita o multimodal, atendiendo a criterios de fluidez, coherencia y corrección, haciendo uso de una terminología musical adecuada, y se constatará la participación activa, cooperativa y respetuosa en las interacciones generadas en el aula para intercambiar información y argumentar sus opiniones. Por último, se verificará la existencia de una actitud proactiva respecto a la promoción y valoración crítica del patrimonio cultural y artístico, de la libertad de expresión y del enriquecimiento personal derivado de la diversidad presente en la sociedad.",
+      "broader": "materia:BAMC",
+      "agrupa": [
+        "ce:BAMCC2"
+      ],
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "CP3",
+        "CD1",
+        "CPSAA4",
+        "CC1",
+        "CCEC1",
+        "CCEC2",
+        "CCL1"
+      ],
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BAMC02BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "BAMC02BC3",
+      "prefLabel": "Análisis Musical II · 2º Bachillerato · bloque competencial C3",
+      "scopeNote": "A través del presente bloque competencial, concretado en un único criterio de evaluación, se persigue constatar si el alumnado es capaz de expresar juicios personales, justificados y argumentados sobre las obras estudiadas en el aula, haciendo uso de un vocabulario técnico apropiado. Para ello se verificará la habilidad para elaborar y publicar comentarios y críticas musicales, expresándose con fluidez, coherencia y corrección, participando activamente en las interacciones comunicativas del aula, con actitud respetuosa y cooperativa, y poniendo sus prácticas comunicativas al servicio de la convivencia democrática. También se evaluará la capacidad para localizar, comparar, analizar y sintetizar datos en la consulta autónoma de fuentes diversas, con respeto a los derechos de autoría y la propiedad intelectual. Igualmente, se valorará la destreza en el manejo de las tecnologías para la elaboración de productos de difusión, así como la existencia de un punto de vista crítico y creativo a la hora de comunicar sus conocimientos y opiniones, favoreciendo un uso ético de los sistemas de comunicación. Por último, se verificará la consolidación de valores relativos a la reflexión y valoración crítica del patrimonio cultural y artístico, así como la existencia de una actitud proactiva hacia su difusión y a la valoración de la diversidad cultural como fuente de enriquecimiento personal.",
+      "broader": "materia:BAMC",
+      "agrupa": [
+        "ce:BAMCC3"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CCL5",
+        "CP3",
+        "CD1",
+        "CD3",
+        "CPSAA4",
+        "CCEC3.1"
+      ],
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BAMC02BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "BAMC02BC4",
+      "prefLabel": "Análisis Musical II · 2º Bachillerato · bloque competencial C4",
+      "scopeNote": "Mediante este bloque competencial, concretado en un único criterio de evaluación, se podrá verificar si el alumnado es capaz de realizar ejercicios de improvisación y creación de obras sencillas, demostrando habilidad para seleccionar, organizar y reutilizar con creatividad materiales y recursos previamente analizados en el aula, así como conocimiento y destreza en la aplicación de los procedimientos compositivos fundamentales. A su vez se valorará la capacidad para configurar y utilizar las tecnologías digitales en los procesos de improvisación y creación, con eficacia y responsabilidad, aportando ideas innovadoras y tomando decisiones con sentido crítico y ético. Se evaluará la participación activa en las dinámicas e interacciones grupales, con respeto y cooperación, mostrando sensibilidad hacia las emociones y experiencias de los demás, distribuyendo y asumiendo diferentes funciones en el trabajo de grupo, para la consecución de objetivos comunes. Por último, se constatará la aplicación de conocimientos técnicos y habilidades de planificación en los procesos creativos, experimentando con diversas herramientas expresivas y lenguajes artísticos para transmitir sus emociones, ideas, opiniones y sentimientos, enfrentándose a las situaciones expresivas y creativas con empatía, autoestima, iniciativa e imaginación.",
+      "broader": "materia:BAMC",
+      "agrupa": [
+        "ce:BAMCC4"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CD2",
+        "CD3",
+        "CPSAA3.1",
+        "CPSAA3.2",
+        "CE3",
+        "CCEC3.1",
+        "CCEC3.2"
+      ],
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "bc:BAMC02BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "BAMC02BC5",
+      "prefLabel": "Análisis Musical II · 2º Bachillerato · bloque competencial C5",
+      "scopeNote": "A través del presente bloque competencial, se podrá verificar si el alumnado es capaz de analizar los usos terapéuticos de la música. Para ello se constatará su capacidad para experimentar y reflexionar sobre el vínculo entre la música y las emociones, así como valorar y describir los diversos rasgos musicales que pueden influir en la salud y los estados de ánimo. Se comprobará la habilidad para aplicar estrategias de escucha activa, analizando los contextos, lenguajes y elementos técnicos y estéticos, con una postura de recepción activa y deleite. Se valorará la destreza para realizar búsquedas avanzadas, localizar, seleccionar, analizar, y contrastar información de fuentes diversas, respetando los derechos de autoría y obteniendo conclusiones lógicas de manera autónoma. Por último, se evaluará la interpretación y transmisión de los elementos más relevantes de sus indagaciones en diversos formatos, con fluidez, coherencia y corrección, haciendo uso de un vocabulario técnico apropiado y con un punto de vista creativo y crítico.",
+      "broader": "materia:BAMC",
+      "agrupa": [
+        "ce:BAMCC5"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM4",
+        "CD1",
+        "CPSAA4",
+        "CCEC2"
+      ],
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BAMC02CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BAMC02CE1.1",
+      "prefLabel": "BAMC02CE1.1 · Describir y comparar los elementos que constituyen diferentes obras musicales y sus…",
+      "definition": "Describir y comparar los elementos que constituyen diferentes obras musicales y sus características, estableciendo analogías y diferencias entre ellas, a través de la escucha activa, el análisis y el estudio de partituras, para favorecer la consolidación de estrategias perceptivas.",
+      "broader": "ce:BAMCC1",
+      "bloque": "bc:BAMC02BC1",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CP3",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BAMC02CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BAMC02CE2.1",
+      "prefLabel": "BAMC02CE2.1 · Distinguir los principales géneros y estilos musicales que se desarrollan en la historia,…",
+      "definition": "Distinguir los principales géneros y estilos musicales que se desarrollan en la historia, a través del análisis e indagación sobre los factores que inciden en la evolución de las formas musicales, para favorecer la construcción de una visión global de la creación musical.",
+      "broader": "ce:BAMCC2",
+      "bloque": "bc:BAMC02BC2",
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "CP3",
+        "CD1",
+        "CPSAA4",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BAMC02CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BAMC02CE2.2",
+      "prefLabel": "BAMC02CE2.2 · Identificar y describir la estructura formal y los procedimientos compositivos de una…",
+      "definition": "Identificar y describir la estructura formal y los procedimientos compositivos de una obra y asociarlos a su género y estilo, a través del análisis auditivo y de partituras y de la investigación sobre su autoría y época, para establecer relaciones entre la creación musical y su contexto.",
+      "broader": "ce:BAMCC2",
+      "bloque": "bc:BAMC02BC2",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CP3",
+        "CD1",
+        "CPSAA4",
+        "CC1",
+        "CCEC1",
+        "CCEC2"
+      ],
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BAMC02CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BAMC02CE3.1",
+      "prefLabel": "BAMC02CE3.1 · Expresar juicios personales sobre las obras analizadas, justificando y argumentando su…",
+      "definition": "Expresar juicios personales sobre las obras analizadas, justificando y argumentando su opinión con una terminología musical adecuada, a través de la publicación de críticas musicales y comentarios propios, investigando y seleccionando información, respetando los derechos de autoría y la propiedad intelectual, para mostrar una actitud proactiva hacia la difusión del patrimonio cultural y artístico.",
+      "broader": "ce:BAMCC3",
+      "bloque": "bc:BAMC02BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CCL5",
+        "CP3",
+        "CD1",
+        "CD3",
+        "CPSAA4",
+        "CCEC3.1"
+      ],
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BAMC02CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BAMC02CE4.1",
+      "prefLabel": "BAMC02CE4.1 · Realizar improvisaciones o pequeñas composiciones, a través de la utilización de…",
+      "definition": "Realizar improvisaciones o pequeñas composiciones, a través de la utilización de procedimientos compositivos fundamentales, la aplicación de patrones melódicos, rítmicos, armónicos y formales de diversas obras analizadas en el aula y el empleo eficaz de las tecnologías digitales, para valorar el enriquecimiento que supone la participación en proyectos musicales grupales.",
+      "broader": "ce:BAMCC4",
+      "bloque": "bc:BAMC02BC4",
+      "descriptores": [
+        "CCL1",
+        "CD2",
+        "CD3",
+        "CPSAA3.1",
+        "CPSAA3.2",
+        "CE3",
+        "CCEC3.1",
+        "CCEC3.2"
+      ],
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "crit:BAMC02CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "BAMC02CE5.1",
+      "prefLabel": "BAMC02CE5.1 · Analizar los usos terapéuticos de la música y describir sus características, a través de…",
+      "definition": "Analizar los usos terapéuticos de la música y describir sus características, a través de la audición y la búsqueda de información, para valorar cómo inciden determinados rasgos musicales en la salud y en las emociones.",
+      "broader": "ce:BAMCC5",
+      "bloque": "bc:BAMC02BC5",
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "STEM4",
+        "CD1",
+        "CPSAA4",
+        "CCEC2"
+      ],
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "BAMC02SBI",
+      "prefLabel": "BAMC02SBI · I. Técnicas de análisis musical",
+      "definition": "Técnicas de análisis musical",
+      "broader": "materia:BAMC",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "BAMC02SBII",
+      "prefLabel": "BAMC02SBII · II. La forma musical y su contexto de creación",
+      "definition": "La forma musical y su contexto de creación",
+      "broader": "materia:BAMC",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "BAMC02SBIII",
+      "prefLabel": "BAMC02SBIII · III. Interpretación y creación",
+      "definition": "Interpretación y creación",
+      "broader": "materia:BAMC",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBI.1",
+      "prefLabel": "BAMC02SBI.1 · Aplicación de técnicas de análisis auditivo en obras de diferentes estilos y géneros.",
+      "definition": "Aplicación de técnicas de análisis auditivo en obras de diferentes estilos y géneros.",
+      "broader": "sb:BAMC02SBI",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBI.2",
+      "prefLabel": "BAMC02SBI.2 · Aplicación de técnicas de análisis de partituras con apoyo de la audición.",
+      "definition": "Aplicación de técnicas de análisis de partituras con apoyo de la audición.",
+      "broader": "sb:BAMC02SBI",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBI.3",
+      "prefLabel": "BAMC02SBI.3 · La comparación como técnica analítica.",
+      "definition": "La comparación como técnica analítica.",
+      "broader": "sb:BAMC02SBI",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBI.4",
+      "prefLabel": "BAMC02SBI.4 · Descripción y comparación de los elementos de la música: ritmo, tempo, melodía, armonía,…",
+      "definition": "Descripción y comparación de los elementos de la música: ritmo, tempo, melodía, armonía, textura, timbre, dinámica y agógica. Descripción y descripción de sus características.",
+      "broader": "sb:BAMC02SBI",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBI.5",
+      "prefLabel": "BAMC02SBI.5 · Empleo del vocabulario musical técnico.",
+      "definition": "Empleo del vocabulario musical técnico.",
+      "broader": "sb:BAMC02SBI",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBI.6",
+      "prefLabel": "BAMC02SBI.6 · Empleo de recursos digitales para la investigación y difusión musical.",
+      "definition": "Empleo de recursos digitales para la investigación y difusión musical.",
+      "broader": "sb:BAMC02SBI",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBI.7",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBI.7",
+      "prefLabel": "BAMC02SBI.7 · Aplicación de técnicas para el análisis del contexto de creación. Reflexión sobre el…",
+      "definition": "Aplicación de técnicas para el análisis del contexto de creación. Reflexión sobre el pensamiento de la persona creadora, los condicionantes contextuales y la interpretación de la obra.",
+      "broader": "sb:BAMC02SBI",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBI.8",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBI.8",
+      "prefLabel": "BAMC02SBI.8 · Elaboración y difusión de comentarios y críticas musicales, expresando juicios…",
+      "definition": "Elaboración y difusión de comentarios y críticas musicales, expresando juicios personales, con una terminología adecuada. Valoración crítica del mensaje musical, rechazando cualquier tipo de discriminación y violencia.",
+      "broader": "sb:BAMC02SBI",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBI.9",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBI.9",
+      "prefLabel": "BAMC02SBI.9 · Respeto de los derechos de autoría y la propiedad intelectual.",
+      "definition": "Respeto de los derechos de autoría y la propiedad intelectual.",
+      "broader": "sb:BAMC02SBI",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBII.1",
+      "prefLabel": "BAMC02SBII.1 · Identificación y descripción de los elementos estructurales: célula, motivo, frase y…",
+      "definition": "Identificación y descripción de los elementos estructurales: célula, motivo, frase y semifrase, período, sección y movimiento; ritmo melódico y armónico; cadencias.",
+      "broader": "sb:BAMC02SBII",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBII.2",
+      "prefLabel": "BAMC02SBII.2 · Identificación y descripción de formas simples, formas compuestas y libres.",
+      "definition": "Identificación y descripción de formas simples, formas compuestas y libres.",
+      "broader": "sb:BAMC02SBII",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBII.3",
+      "prefLabel": "BAMC02SBII.3 · Formas-tipo. Representación de esquemas formales.",
+      "definition": "Formas-tipo. Representación de esquemas formales.",
+      "broader": "sb:BAMC02SBII",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBII.4",
+      "prefLabel": "BAMC02SBII.4 · Identificación y descripción de los procedimientos compositivos fundamentales:…",
+      "definition": "Identificación y descripción de los procedimientos compositivos fundamentales: repetición, variación, contraste y desarrollo.",
+      "broader": "sb:BAMC02SBII",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBII.5",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBII.5",
+      "prefLabel": "BAMC02SBII.5 · Identificación de la función de la música en combinación con otras manifestaciones…",
+      "definition": "Identificación de la función de la música en combinación con otras manifestaciones artísticas.",
+      "broader": "sb:BAMC02SBII",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBII.6",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBII.6",
+      "prefLabel": "BAMC02SBII.6 · Análisis de las características sonoras y estilísticas de la música culta occidental,…",
+      "definition": "Análisis de las características sonoras y estilísticas de la música culta occidental, desde la Edad Media hasta la actualidad. Formas y géneros musicales. Evolución organológica.",
+      "broader": "sb:BAMC02SBII",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBII.7",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBII.7",
+      "prefLabel": "BAMC02SBII.7 · Análisis de las características sonoras y estilísticas de la música popular, con especial…",
+      "definition": "Análisis de las características sonoras y estilísticas de la música popular, con especial atención a las músicas urbanas y contemporáneas.",
+      "broader": "sb:BAMC02SBII",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBII.8",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBII.8",
+      "prefLabel": "BAMC02SBII.8 · Análisis de las características sonoras y estilísticas de las tradiciones musicales de…",
+      "definition": "Análisis de las características sonoras y estilísticas de las tradiciones musicales de diferentes culturas, con especial atención a las de Canarias.",
+      "broader": "sb:BAMC02SBII",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBII.9",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBII.9",
+      "prefLabel": "BAMC02SBII.9 · Análisis y descripción de los usos terapéuticos de la música.",
+      "definition": "Análisis y descripción de los usos terapéuticos de la música.",
+      "broader": "sb:BAMC02SBII",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBIII.1",
+      "prefLabel": "BAMC02SBIII.1 · Creación de improvisaciones o pequeñas composiciones, a través de la aplicación de…",
+      "definition": "Creación de improvisaciones o pequeñas composiciones, a través de la aplicación de técnicas y recursos trabajados en el aula.",
+      "broader": "sb:BAMC02SBIII",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBIII.2",
+      "prefLabel": "BAMC02SBIII.2 · Aplicación de técnicas de improvisación, a partir de recursos musicales extraídos de…",
+      "definition": "Aplicación de técnicas de improvisación, a partir de recursos musicales extraídos de análisis realizados en el aula.",
+      "broader": "sb:BAMC02SBIII",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBIII.3",
+      "prefLabel": "BAMC02SBIII.3 · Aplicación de procedimientos de composición fundamentales en ejercicios de creación, a…",
+      "definition": "Aplicación de procedimientos de composición fundamentales en ejercicios de creación, a partir de recursos musicales extraídos de análisis realizados en el aula.",
+      "broader": "sb:BAMC02SBIII",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBIII.4",
+      "prefLabel": "BAMC02SBIII.4 · Empleo de tecnologías digitales en ejercicios de improvisación o creación musical.",
+      "definition": "Empleo de tecnologías digitales en ejercicios de improvisación o creación musical.",
+      "broader": "sb:BAMC02SBIII",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
+      "id": "sb:BAMC02SBIII.5",
+      "tipo": "SaberBasico",
+      "notation": "BAMC02SBIII.5",
+      "prefLabel": "BAMC02SBIII.5 · Actitud proactiva, colaborativa y respetuosa en actividades de expresión y creación…",
+      "definition": "Actitud proactiva, colaborativa y respetuosa en actividades de expresión y creación realizadas en el aula.",
+      "broader": "sb:BAMC02SBIII",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    }
+  ]
+}

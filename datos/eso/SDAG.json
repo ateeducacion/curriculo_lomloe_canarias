@@ -1,0 +1,659 @@
+{
+  "materia": "materia:SDAG",
+  "nodos": [
+    {
+      "id": "materia:SDAG",
+      "tipo": "Materia",
+      "notation": "SDAG",
+      "prefLabel": "Digitalización (ESO)",
+      "cursos": [
+        "curso:S04"
+      ],
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SDAGC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SDAGC1",
+      "prefLabel": "SDAGC1 · Identificar y resolver problemas técnicos sencillos, conectar y configurar dispositivos a…",
+      "definition": "Identificar y resolver problemas técnicos sencillos, conectar y configurar dispositivos a redes domésticas, aplicando los conocimientos de hardware y sistemas operativos, para gestionar las herramientas e instalaciones informáticas y de comunicación de uso cotidiano.",
+      "broader": "materia:SDAG",
+      "materia": "materia:SDAG",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SDAGC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SDAGC2",
+      "prefLabel": "SDAGC2 · Configurar el entorno personal de aprendizaje, interactuando y aprovechando los recursos…",
+      "definition": "Configurar el entorno personal de aprendizaje, interactuando y aprovechando los recursos del ámbito digital, para optimizar y gestionar el aprendizaje permanente.",
+      "broader": "materia:SDAG",
+      "materia": "materia:SDAG",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SDAGC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SDAGC3",
+      "prefLabel": "SDAGC3 · Desarrollar hábitos que fomenten el bienestar digital, aplicando medidas preventivas y…",
+      "definition": "Desarrollar hábitos que fomenten el bienestar digital, aplicando medidas preventivas y correctivas, para proteger dispositivos, datos personales y la propia salud.",
+      "broader": "materia:SDAG",
+      "materia": "materia:SDAG",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SDAGC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SDAGC4",
+      "prefLabel": "SDAGC4 · Ejercer una ciudadanía digital crítica, conociendo las posibles acciones que realizar en…",
+      "definition": "Ejercer una ciudadanía digital crítica, conociendo las posibles acciones que realizar en la red, e identificando sus repercusiones, para hacer un uso activo, responsable y ético de la tecnología.",
+      "broader": "materia:SDAG",
+      "materia": "materia:SDAG",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SDAG04BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "SDAG04BC1",
+      "prefLabel": "Digitalización · 4º ESO · bloque competencial C1",
+      "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado es capaz de utilizar estrategias relacionadas con la reutilización de materiales, el ahorro energético y la resolución de problemas técnicos sencillos que puedan surgir, fomentando una actitud participativa y libre de estereotipos sexistas, escogiendo la mejor solución entre diversas opciones y siempre valorando la seguridad y el bienestar personal y colectivo. Es por ello que con este bloque se valorará en qué medida el alumnado es capaz de analizar, seleccionar y emplear diferentes estrategias ágiles de planificación y gestión, aprendiendo de sus errores para favorecer la construcción del conocimiento con la finalidad de conectar dispositivos, instalar, configurar, mantener y gestionar sistemas operativos, herramientas de comunicación y redes locales tales como una red doméstica, mostrando una actitud crítica y proactiva en la identificación y resolución de problemas sencillos, reformulando y aprendiendo de sus errores y adoptando medidas preventivas para garantizar la seguridad de los dispositivos y de las personas, así como para asegurar el derecho a la propiedad intelectual y fomentar el uso saludable de las tecnologías.",
+      "broader": "materia:SDAG",
+      "agrupa": [
+        "ce:SDAGC1"
+      ],
+      "descriptores": [
+        "CD4",
+        "CPSAA5",
+        "CE3",
+        "CD5",
+        "STEM1",
+        "STEM2",
+        "CPSAA1"
+      ],
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SDAG04BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "SDAG04BC2",
+      "prefLabel": "Digitalización · 4º ESO · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se persigue verificar que el alumnado es capaz de gestionar y mantener de forma autónoma y activa un aprendizaje permanente. Es por ello que se hace necesaria la optimización de la búsqueda y el procesamiento de la información bajo unos criterios de responsabilidad y seguridad, desarrollando una actitud crítica que le permita integrar los recursos digitales en su proceso formativo de manera ética y responsable siguiendo las normas básicas de seguridad en la red. En este bloque competencial se constatará la capacidad del alumnado de configurar su propio entorno personal de aprendizaje, estableciendo una gestión adecuada, para construir nuevo conocimiento; creando, programando, integrando y reelaborando contenidos digitales mediante estrategias de búsqueda, selección, archivo y tratamiento de la información; utilizando fuentes fiables, validando, contrastando la información y respetando las licencias de uso y la propiedad intelectual en la referencia y generación de nuevo contenido, apreciando y valorando la identidad cultural canaria, así como para intercambiar información y transmitir opiniones. Asimismo, se valorará su participación activa, respetuosa y colaborativa en los espacios virtuales de comunicación y plataformas de aprendizaje colaborativo.",
+      "broader": "materia:SDAG",
+      "agrupa": [
+        "ce:SDAGC2"
+      ],
+      "descriptores": [
+        "CD2",
+        "CD3",
+        "CCL3",
+        "CD1",
+        "CPSAA4",
+        "CC1",
+        "CCEC1",
+        "CCL1",
+        "CPSAA5",
+        "CE3",
+        "CCEC4",
+        "CCL5"
+      ],
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SDAG04BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "SDAG04BC3",
+      "prefLabel": "Digitalización · 4º ESO · bloque competencial C3",
+      "scopeNote": "Mediante este bloque competencial se persigue comprobar que el alumnado es capaz de utilizar estrategias que le permitan hacer un uso crítico y responsable de las herramientas digitales. Además, en este bloque se constatará que el alumnado desarrolla hábitos de vida saludable a nivel físico y mental que fomenten el bienestar digital y emocional, emprendiendo acciones de medidas preventivas y correctivas para hacer frente a riesgos, amenazas y ataques a dispositivos. Asimismo, se pretende comprobar que el alumnado dispone de las herramientas necesarias para proteger sus datos personales, identificando y analizando los riesgos, aplicando principios de seguridad para la gestión de sus identidades virtuales relacionadas con la protección de su identidad, su reputación digital, su privacidad y su huella digital en la participación en actividades comunitarias, favoreciendo con ello un uso responsable de las redes. También se verificará la capacidad para detectar situaciones de violencia y de riesgo en la red, como ciberacoso o sextorsión, violencia de género y LGTBI+ fobias, así como el conocimiento disponible sobre las estrategias que debe utilizar para actuar en consecuencia, localizando y contrastando los riesgos y tomando conciencia de la importancia de las amenazas al bienestar personal.",
+      "broader": "materia:SDAG",
+      "agrupa": [
+        "ce:SDAGC3"
+      ],
+      "descriptores": [
+        "CD3",
+        "CD4",
+        "CPSAA2",
+        "CC2",
+        "STEM5",
+        "CCL1",
+        "CCL5",
+        "CD1",
+        "CPSAA5",
+        "CC3"
+      ],
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SDAG04BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "SDAG04BC4",
+      "prefLabel": "Digitalización · 4º ESO · bloque competencial C4",
+      "scopeNote": "Con este bloque competencial se pretende valorar el desarrollo en el alumnado de una adecuada ciudadanía digital a través de la adopción de una serie de criterios éticos, responsables, de accesibilidad y seguridad en la comunicación, donde se fomente el empleo de herramientas para detectar el ciberacoso, la violencia de género, actitudes relacionadas con LGTBI+ fobias o la suplantación de identidades. Por lo tanto, este bloque competencial va dirigido a comprobar en qué medida el alumnado se comunica, participa, colabora e interactúa en la red, aplicando las normas de la etiqueta digital, respetando las licencias de uso y la propiedad intelectual y valorando la importancia de ejercer la libertad de expresión de manera ética y responsable, desarrollando una actitud dialogante y respetuosa, manteniendo un compromiso con la igualdad de género, analizando de forma crítica los mensajes que se reciben y transmiten con la finalidad de ejercer una adecuada ciudadanía digital. Asimismo, se valorará la capacidad de realizar gestiones administrativas y acciones relacionadas con el comercio electrónico, identificando, analizando y comprendiendo el impacto social de las mismas, teniendo en cuenta la brecha territorial canaria y favoreciendo el desarrollo de herramientas adecuadas para detectar información falsa y fraude y actuar en consecuencia, permitiendo hacer un uso crítico, ético, legal, seguro y sostenible tanto de la red como de las herramientas relacionadas. De la misma manera, también se identificarán y valorarán los beneficios de la existencia y la participación en actividades de cibervoluntariado y de las comunidades de hardware y software libre para entender las bases de un estilo de vida ecosocialmente responsable.",
+      "broader": "materia:SDAG",
+      "agrupa": [
+        "ce:SDAGC4"
+      ],
+      "descriptores": [
+        "CCL3",
+        "CD1",
+        "CD3",
+        "CD4",
+        "CPSAA1",
+        "CC1",
+        "CCL1",
+        "CCL2",
+        "CC4",
+        "CCL5",
+        "CC2",
+        "CC3",
+        "CE1"
+      ],
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SDAG04CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SDAG04CE1.1",
+      "prefLabel": "SDAG04CE1.1 · Conectar dispositivos y gestionar redes locales utilizando las herramientas necesarias…",
+      "definition": "Conectar dispositivos y gestionar redes locales utilizando las herramientas necesarias para identificar los riesgos y adoptar las medidas de seguridad pertinentes, aplicando los conocimientos y procesos asociados a sistemas de comunicación alámbrica e inalámbrica mostrando una actitud proactiva.",
+      "broader": "ce:SDAGC1",
+      "bloque": "bc:SDAG04BC1",
+      "descriptores": [
+        "CD4",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SDAG04CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SDAG04CE1.2",
+      "prefLabel": "SDAG04CE1.2 · Instalar y mantener sistemas operativos, adoptando las medidas preventivas necesarias…",
+      "definition": "Instalar y mantener sistemas operativos, adoptando las medidas preventivas necesarias para mantener la seguridad y configurar sus características, teniendo en cuenta la evolución de las tecnologías digitales, permitiendo dar respuesta a sus necesidades personales.",
+      "broader": "ce:SDAGC1",
+      "bloque": "bc:SDAG04BC1",
+      "descriptores": [
+        "CD4",
+        "CD5"
+      ],
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SDAG04CE1.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SDAG04CE1.3",
+      "prefLabel": "SDAG04CE1.3 · Identificar y resolver problemas técnicos sencillos, analizando componentes y funciones…",
+      "definition": "Identificar y resolver problemas técnicos sencillos, analizando componentes y funciones de los dispositivos digitales, aplicando criterios de reutilización de materiales y ahorro energético, evaluando las soluciones de manera crítica, identificando los riesgos y adoptando las medidas necesarias, planificando y reformulando el procedimiento si fuera necesario y mostrando interés y motivación hacia el aprendizaje para el desarrollo de soluciones tecnológicas creativas.",
+      "broader": "ce:SDAGC1",
+      "bloque": "bc:SDAG04BC1",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "CD4",
+        "CPSAA1",
+        "CPSAA5"
+      ],
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SDAG04CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SDAG04CE2.1",
+      "prefLabel": "SDAG04CE2.1 · Gestionar el aprendizaje en el ámbito digital, configurando el entorno personal de…",
+      "definition": "Gestionar el aprendizaje en el ámbito digital, configurando el entorno personal de aprendizaje mediante la integración de recursos digitales de manera autónoma y responsable para el desarrollo de una adecuada ciudadanía digital.",
+      "broader": "ce:SDAGC2",
+      "bloque": "bc:SDAG04BC2",
+      "descriptores": [
+        "CD2",
+        "CD3"
+      ],
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SDAG04CE2.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SDAG04CE2.2",
+      "prefLabel": "SDAG04CE2.2 · Buscar, localizar, seleccionar y archivar información procedente de diferentes fuentes en…",
+      "definition": "Buscar, localizar, seleccionar y archivar información procedente de diferentes fuentes en función de sus necesidades, contrastando la fiabilidad de la información y haciendo uso de las herramientas del entorno personal de aprendizaje con sentido crítico para reutilizar la información y generar nuevo contenido, respetando la propiedad intelectual y siguiendo las normas básicas de seguridad en la red, apreciando y valorando la identidad cultural canaria.",
+      "broader": "ce:SDAGC2",
+      "bloque": "bc:SDAG04BC2",
+      "descriptores": [
+        "CCL3",
+        "CD1",
+        "CPSAA4",
+        "CC1",
+        "CCEC1"
+      ],
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SDAG04CE2.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SDAG04CE2.3",
+      "prefLabel": "SDAG04CE2.3 · Crear, programar, integrar y reelaborar contenidos digitales de forma individual o…",
+      "definition": "Crear, programar, integrar y reelaborar contenidos digitales de forma individual o colectiva seleccionando, de manera razonada, las herramientas más apropiadas para generar nuevo conocimiento, y para elaborar productos culturales y artísticos de manera creativa, respetando los derechos de autoría y licencias de uso.",
+      "broader": "ce:SDAGC2",
+      "bloque": "bc:SDAG04BC2",
+      "descriptores": [
+        "CCL1",
+        "CD2",
+        "CPSAA5",
+        "CE3",
+        "CCEC4"
+      ],
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SDAG04CE2.4",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SDAG04CE2.4",
+      "prefLabel": "SDAG04CE2.4 · Interactuar en espacios virtuales de comunicación y plataformas de aprendizaje…",
+      "definition": "Interactuar en espacios virtuales de comunicación y plataformas de aprendizaje colaborativo, compartiendo y publicando información y datos, adaptándose a diferentes audiencias con una actitud participativa y respetuosa, para desarrollar estrategias que le permitan mejorar en el proceso de construcción del conocimiento.",
+      "broader": "ce:SDAGC2",
+      "bloque": "bc:SDAG04BC2",
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "CD3",
+        "CPSAA5"
+      ],
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SDAG04CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SDAG04CE3.1",
+      "prefLabel": "SDAG04CE3.1 · Proteger los datos personales y la huella digital generada en internet, configurando las…",
+      "definition": "Proteger los datos personales y la huella digital generada en internet, configurando las condiciones de privacidad y asumiendo una participación comprometida, tolerante y de respeto por la diversidad en las redes sociales y espacios virtuales de trabajo para desarrollar hábitos de vida saludable a nivel físico y mental.",
+      "broader": "ce:SDAGC3",
+      "bloque": "bc:SDAG04BC3",
+      "descriptores": [
+        "CD3",
+        "CD4",
+        "CPSAA2",
+        "CC2"
+      ],
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SDAG04CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SDAG04CE3.2",
+      "prefLabel": "SDAG04CE3.2 · Configurar y actualizar contraseñas, sistemas operativos y antivirus de forma periódica,…",
+      "definition": "Configurar y actualizar contraseñas, sistemas operativos y antivirus de forma periódica, para proteger los distintos dispositivos digitales de uso habitual y los datos personales, aplicando principios de ética y seguridad.",
+      "broader": "ce:SDAGC3",
+      "bloque": "bc:SDAG04BC3",
+      "descriptores": [
+        "STEM5",
+        "CD4"
+      ],
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SDAG04CE3.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SDAG04CE3.3",
+      "prefLabel": "SDAG04CE3.3 · Identificar y analizar, de manera crítica, situaciones que representan una amenaza en la…",
+      "definition": "Identificar y analizar, de manera crítica, situaciones que representan una amenaza en la red, saber cómo reaccionar y seleccionar la mejor solución entre diversas opciones, valorando la seguridad y el bienestar emocional personal y colectivo, fomentando actitudes dialogantes, democráticas y respetuosas para consolidar hábitos de vida saludables a nivel físico y mental, desarrollando estrategias que le permitan mejorar en el proceso de construcción del conocimiento.",
+      "broader": "ce:SDAGC3",
+      "bloque": "bc:SDAG04BC3",
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "CD1",
+        "CD4",
+        "CPSAA2",
+        "CPSAA5",
+        "CC2",
+        "CC3"
+      ],
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SDAG04CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SDAG04CE4.1",
+      "prefLabel": "SDAG04CE4.1 · Hacer un uso ético de los datos y las herramientas digitales, mostrando interés y…",
+      "definition": "Hacer un uso ético de los datos y las herramientas digitales, mostrando interés y motivación hacia el aprendizaje, entendiendo la necesidad de mantener una actitud colaborativa y respetuosa en su participación activa en la red, aplicando las normas de etiqueta digital y respetando la privacidad, las licencias de uso y propiedad intelectual en la comunicación, para desarrollar una adecuada ciudadanía digital.",
+      "broader": "ce:SDAGC4",
+      "bloque": "bc:SDAG04BC4",
+      "descriptores": [
+        "CCL3",
+        "CD1",
+        "CD3",
+        "CD4",
+        "CPSAA1",
+        "CC1"
+      ],
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SDAG04CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SDAG04CE4.2",
+      "prefLabel": "SDAG04CE4.2 · Identificar, analizar y comprender el impacto social relacionado con las aportaciones de…",
+      "definition": "Identificar, analizar y comprender el impacto social relacionado con las aportaciones de las tecnologías digitales en las gestiones administrativas y el comercio electrónico, siendo consciente de la brecha sociocultural, territorial canaria y de género existente para el acceso, uso y aprovechamiento de dichas tecnologías en diversos colectivos para desarrollar un estilo de vida ecosocialmente responsable.",
+      "broader": "ce:SDAGC4",
+      "bloque": "bc:SDAG04BC4",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CC1",
+        "CC4"
+      ],
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SDAG04CE4.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SDAG04CE4.3",
+      "prefLabel": "SDAG04CE4.3 · Analizar y valorar la importancia de la oportunidad, facilidad y libertad de expresión…",
+      "definition": "Analizar y valorar la importancia de la oportunidad, facilidad y libertad de expresión que suponen los medios digitales conectados, permitiendo la participación en actividades comunitarias, analizando de forma crítica los mensajes que se reciben y transmiten, teniendo en cuenta su objetividad, ideología, intencionalidad, sesgos, perspectiva de género y caducidad para desarrollar una actitud dialogante y respetuosa en las interacciones que se realicen.",
+      "broader": "ce:SDAGC4",
+      "bloque": "bc:SDAG04BC4",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL5",
+        "CC2",
+        "CC3",
+        "CE1"
+      ],
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SDAG04CE4.4",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SDAG04CE4.4",
+      "prefLabel": "SDAG04CE4.4 · Analizar la necesidad de hacer un uso y desarrollo ecosocialmente responsable de las…",
+      "definition": "Analizar la necesidad de hacer un uso y desarrollo ecosocialmente responsable de las tecnologías digitales, así como valorar los beneficios globales que generan, teniendo en cuenta criterios de accesibilidad, sostenibilidad e impacto social y ambiental.",
+      "broader": "ce:SDAGC4",
+      "bloque": "bc:SDAG04BC4",
+      "descriptores": [
+        "CCL1",
+        "CD4",
+        "CC4",
+        "CE1"
+      ],
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SDAG04SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "SDAG04SBI",
+      "prefLabel": "SDAG04SBI · I. Dispositivos digitales, sistemas operativos y de comunicación",
+      "definition": "Dispositivos digitales, sistemas operativos y de comunicación",
+      "broader": "materia:SDAG",
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SDAG04SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "SDAG04SBII",
+      "prefLabel": "SDAG04SBII · II. Digitalización del entorno personal de aprendizaje",
+      "definition": "Digitalización del entorno personal de aprendizaje",
+      "broader": "materia:SDAG",
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SDAG04SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "SDAG04SBIII",
+      "prefLabel": "SDAG04SBIII · III. Seguridad y bienestar digital",
+      "definition": "Seguridad y bienestar digital",
+      "broader": "materia:SDAG",
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SDAG04SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "SDAG04SBIV",
+      "prefLabel": "SDAG04SBIV · IV. Ciudadanía digital crítica",
+      "definition": "Ciudadanía digital crítica",
+      "broader": "materia:SDAG",
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SDAG04SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "SDAG04SBI.1",
+      "prefLabel": "SDAG04SBI.1 · Configuración y montaje de los elementos que constituyen la arquitectura de los…",
+      "definition": "Configuración y montaje de los elementos que constituyen la arquitectura de los ordenadores y desarrollo de estrategias eficaces para la resolución de los problemas relacionados que permitan la adquisición de hábitos de reutilización de materiales y ahorro energético.",
+      "broader": "sb:SDAG04SBI",
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SDAG04SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "SDAG04SBI.2",
+      "prefLabel": "SDAG04SBI.2 · Instalación de sistemas operativos y la configuración de usuario.",
+      "definition": "Instalación de sistemas operativos y la configuración de usuario.",
+      "broader": "sb:SDAG04SBI",
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SDAG04SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "SDAG04SBI.3",
+      "prefLabel": "SDAG04SBI.3 · Identificación de los dispositivos constituyentes de una red de comunicación doméstica y…",
+      "definition": "Identificación de los dispositivos constituyentes de una red de comunicación doméstica y análisis de su funcionamiento para realizar su adecuada conexión y configuración.",
+      "broader": "sb:SDAG04SBI",
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SDAG04SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "SDAG04SBI.4",
+      "prefLabel": "SDAG04SBI.4 · Configuración y conexión de dispositivos conectados al IoT (internet de las cosas) y…",
+      "definition": "Configuración y conexión de dispositivos conectados al IoT (internet de las cosas) y dispositivos wearables (dispositivos vestibles).",
+      "broader": "sb:SDAG04SBI",
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SDAG04SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "SDAG04SBII.1",
+      "prefLabel": "SDAG04SBII.1 · Aplicación de estrategias básicas para la búsqueda, selección y archivo de la…",
+      "definition": "Aplicación de estrategias básicas para la búsqueda, selección y archivo de la información, contrastando críticamente fuentes diversas y evaluando su fiabilidad.",
+      "broader": "sb:SDAG04SBII",
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SDAG04SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "SDAG04SBII.2",
+      "prefLabel": "SDAG04SBII.2 · Edición y creación de contenidos.",
+      "definition": "Edición y creación de contenidos.",
+      "broader": "sb:SDAG04SBII",
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SDAG04SBII.2.1",
+      "tipo": "SaberBasico",
+      "notation": "SDAG04SBII.2.1",
+      "prefLabel": "SDAG04SBII.2.1 · Uso de aplicaciones de productividad para favorecer la edición y creación de contenidos…",
+      "definition": "Uso de aplicaciones de productividad para favorecer la edición y creación de contenidos digitales.",
+      "broader": "sb:SDAG04SBII.2",
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SDAG04SBII.2.2",
+      "tipo": "SaberBasico",
+      "notation": "SDAG04SBII.2.2",
+      "prefLabel": "SDAG04SBII.2.2 · Empleo de herramientas necesarias para el desarrollo de aplicaciones sencillas en…",
+      "definition": "Empleo de herramientas necesarias para el desarrollo de aplicaciones sencillas en dispositivos móviles y web, realidad virtual, aumentada y mixta.",
+      "broader": "sb:SDAG04SBII.2",
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SDAG04SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "SDAG04SBII.3",
+      "prefLabel": "SDAG04SBII.3 · Estrategias básicas para la publicación, comunicación, colaboración y difusión…",
+      "definition": "Estrategias básicas para la publicación, comunicación, colaboración y difusión responsable en redes.",
+      "broader": "sb:SDAG04SBII",
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SDAG04SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "SDAG04SBIII.1",
+      "prefLabel": "SDAG04SBIII.1 · Identificación y análisis de los riesgos, amenazas y ataques que pueden afectar a la…",
+      "definition": "Identificación y análisis de los riesgos, amenazas y ataques que pueden afectar a la seguridad de los dispositivos para la aplicación de medidas preventivas y correctivas.",
+      "broader": "sb:SDAG04SBIII",
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SDAG04SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "SDAG04SBIII.2",
+      "prefLabel": "SDAG04SBIII.2 · Estrategias para mejorar la seguridad en la red y la protección de datos en aspectos…",
+      "definition": "Estrategias para mejorar la seguridad en la red y la protección de datos en aspectos relacionados con la identidad, reputación digital, privacidad y huella digital, que permitan aplicar medidas preventivas en la configuración de redes sociales y la gestión de identidades virtuales.",
+      "broader": "sb:SDAG04SBIII",
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SDAG04SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "SDAG04SBIII.3",
+      "prefLabel": "SDAG04SBIII.3 · Herramientas que permitan la identificación de situaciones de violencia y riesgo en la…",
+      "definition": "Herramientas que permitan la identificación de situaciones de violencia y riesgo en la red (ciberacoso, sextorsión, acceso a contenidos inadecuados, dependencia tecnológica, violencia de género, LGTBI+ fobias, racismo, xenofobia, etc.) que afecten al bienestar personal. Desarrollo de estrategias que permitan dar respuesta adecuada a estas situaciones, preservando la salud física, mental y emocional y adoptando prácticas de uso saludable.",
+      "broader": "sb:SDAG04SBIII",
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SDAG04SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "SDAG04SBIV.1",
+      "prefLabel": "SDAG04SBIV.1 · Estrategias básicas para ejercer una adecuada ciudadanía digital en la interacción en la…",
+      "definition": "Estrategias básicas para ejercer una adecuada ciudadanía digital en la interacción en la red, siguiendo las indicaciones de la etiqueta digital y respetando la libertad de expresión, la diversidad en las redes sociales y espacios virtuales, la propiedad intelectual y licencias de uso.",
+      "broader": "sb:SDAG04SBIV",
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SDAG04SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "SDAG04SBIV.2",
+      "prefLabel": "SDAG04SBIV.2 · Formación en la educación mediática mediante el desarrollo de estrategias comunicativas y…",
+      "definition": "Formación en la educación mediática mediante el desarrollo de estrategias comunicativas y uso crítico de la red, aplicando herramientas para la detección de noticias falsas y fraudes en el periodismo digital, blogosfera, etc.",
+      "broader": "sb:SDAG04SBIV",
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SDAG04SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "SDAG04SBIV.3",
+      "prefLabel": "SDAG04SBIV.3 · Introducción a las aplicaciones relacionadas con las gestiones administrativas, servicios…",
+      "definition": "Introducción a las aplicaciones relacionadas con las gestiones administrativas, servicios públicos en línea, registros digitales y certificados oficiales para ejercer una ciudadanía digital responsable y activa. Implicaciones de la condición de zona ultraperiférica.",
+      "broader": "sb:SDAG04SBIV",
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SDAG04SBIV.4",
+      "tipo": "SaberBasico",
+      "notation": "SDAG04SBIV.4",
+      "prefLabel": "SDAG04SBIV.4 · Identificación de los principales elementos del comercio electrónico, como facturas…",
+      "definition": "Identificación de los principales elementos del comercio electrónico, como facturas digitales, formas de pago y criptomonedas.",
+      "broader": "sb:SDAG04SBIV",
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SDAG04SBIV.5",
+      "tipo": "SaberBasico",
+      "notation": "SDAG04SBIV.5",
+      "prefLabel": "SDAG04SBIV.5 · Aplicación de criterios éticos en el uso de datos, empleo y desarrollo de herramientas…",
+      "definition": "Aplicación de criterios éticos en el uso de datos, empleo y desarrollo de herramientas digitales relacionadas con la inteligencia artificial, sesgos algorítmicos e ideológicos, obsolescencia programada, soberanía tecnológica y digitalización sostenible.",
+      "broader": "sb:SDAG04SBIV",
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SDAG04SBIV.6",
+      "tipo": "SaberBasico",
+      "notation": "SDAG04SBIV.6",
+      "prefLabel": "SDAG04SBIV.6 · Análisis y valoración de las acciones de activismo en línea relacionadas con la…",
+      "definition": "Análisis y valoración de las acciones de activismo en línea relacionadas con la participación en plataformas de iniciativa ciudadana, cibervoluntariado y en comunidades de hardware y software libres.",
+      "broader": "sb:SDAG04SBIV",
+      "materia": "materia:SDAG",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    }
+  ]
+}

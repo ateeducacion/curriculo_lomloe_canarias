@@ -1,0 +1,996 @@
+{
+  "materia": "materia:SCUJ",
+  "nodos": [
+    {
+      "id": "materia:SCUJ",
+      "tipo": "Materia",
+      "notation": "SCUJ",
+      "prefLabel": "Cultura y Ciudadanía Digital (ESO)",
+      "cursos": [
+        "curso:S03"
+      ],
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SCUJC1",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SCUJC1",
+      "prefLabel": "SCUJC1 · Buscar, organizar, almacenar e interpretar información en distintos formatos, mediante la…",
+      "definition": "Buscar, organizar, almacenar e interpretar información en distintos formatos, mediante la aplicación de estrategias de búsqueda, valorando sesgos, validez, calidad, actualidad, accesibilidad y fiabilidad de las fuentes y contenidos digitales, para organizar, almacenar y reutilizar dicha información con posterioridad y crear su propio entorno personal de aprendizaje.",
+      "broader": "materia:SCUJ",
+      "materia": "materia:SCUJ",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SCUJC2",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SCUJC2",
+      "prefLabel": "SCUJC2 · Crear y reutilizar contenidos digitales accesibles de forma individual y cooperativa en…",
+      "definition": "Crear y reutilizar contenidos digitales accesibles de forma individual y cooperativa en distintos formatos, utilizando tecnologías digitales, respetando los derechos de autoría y la propiedad intelectual, para expresar ideas, conocimientos, sentimientos e inquietudes de forma inclusiva, creativa y eficaz.",
+      "broader": "materia:SCUJ",
+      "materia": "materia:SCUJ",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SCUJC3",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SCUJC3",
+      "prefLabel": "SCUJC3 · Aplicar estrategias de pensamiento computacional y programación para resolver problemas,…",
+      "definition": "Aplicar estrategias de pensamiento computacional y programación para resolver problemas, analizando críticamente las soluciones de forma eficaz y reformulando el procedimiento, si fuera necesario.",
+      "broader": "materia:SCUJ",
+      "materia": "materia:SCUJ",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SCUJC4",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SCUJC4",
+      "prefLabel": "SCUJC4 · Comunicar y compartir contenidos digitales de forma colaborativa, mediante el empleo de…",
+      "definition": "Comunicar y compartir contenidos digitales de forma colaborativa, mediante el empleo de tecnologías digitales accesibles, utilizando estrategias de comunicación que respeten la etiqueta digital, la privacidad, los derechos de autoría y la propiedad intelectual, con la finalidad de construir una ciudadanía e identidad digital responsables.",
+      "broader": "materia:SCUJ",
+      "materia": "materia:SCUJ",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SCUJC5",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SCUJC5",
+      "prefLabel": "SCUJC5 · Aplicar medidas de seguridad, para proteger los dispositivos, los datos personales, la…",
+      "definition": "Aplicar medidas de seguridad, para proteger los dispositivos, los datos personales, la privacidad y los contenidos asociados al uso de las tecnologías digitales, identificando los riesgos y beneficios, personales, sociales y medioambientales y haciendo un uso crítico, responsable, seguro, saludable y sostenible de ellas.",
+      "broader": "materia:SCUJ",
+      "materia": "materia:SCUJ",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "ce:SCUJC6",
+      "tipo": "CompetenciaEspecifica",
+      "notation": "SCUJC6",
+      "prefLabel": "SCUJC6 · Utilizar de manera innovadora las tecnologías digitales, evaluando, seleccionando,…",
+      "definition": "Utilizar de manera innovadora las tecnologías digitales, evaluando, seleccionando, configurando y personalizando las distintas herramientas para comprender, resolver o derivar los problemas cotidianos, así como los relativos al funcionamiento de dispositivos, identificando las necesidades detectadas, para desenvolverse en el mundo digital en cualquier ámbito, promoviendo el desarrollo de la competencia digital propia o de otras personas.",
+      "broader": "materia:SCUJ",
+      "materia": "materia:SCUJ",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SCUJ03BC1",
+      "tipo": "BloqueCompetencial",
+      "notation": "SCUJ03BC1",
+      "prefLabel": "Cultura y Ciudadanía Digital · 3º ESO · bloque competencial C1",
+      "scopeNote": "Con este bloque competencial se comprobará que el alumnado es capaz de integrarse de manera adecuada y competente en una sociedad digital, evitando así situaciones de vulnerabilidad y exclusión social. Para ello, se constatará que el alumnado afianza, por un lado, los conocimientos adquiridos en relación con la alfabetización digital y, por otro, adquiere estrategias más eficientes para la búsqueda, selección, análisis crítico y almacenamiento de la información. Para ello, se verificará que es capaz de aplicar técnicas de búsqueda en función de las necesidades y temas de interés, incluyendo contenidos relativos a la identidad cultural canaria, y que atiende a la seguridad configurando los navegadores con sitios de confianza haciendo uso de «favoritos», siendo precavido en la autorización para el uso de las cookies, creando un protocolo para la detección de noticias falsas, etc. Se verificará también que el alumnado es capaz de seleccionar los resultados de dichas búsquedas de manera reflexiva, así como evaluar su calidad, diferenciando información de opinión, siendo crítico con el nivel de accesibilidad que tienen y siendo consciente de la infodemia, además de ser capaz de buscar fuentes fiables para contrastar y obtener conclusiones relevantes. Asimismo, se comprobará su capacidad de organizar el almacenamiento de la información de forma segura, haciendo uso del formato adecuado en función de su complejidad, para poder referenciarla y reutilizarla con posterioridad, llevando a cabo para ello una gestión adecuada de su entorno digital de aprendizaje. Todo ello en un proceso continuo de mejora en el que el alumnado debe desarrollar procesos metacognitivos para aprender de sus errores.",
+      "broader": "materia:SCUJ",
+      "agrupa": [
+        "ce:SCUJC1"
+      ],
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "CD1",
+        "CD2",
+        "CPSAA5",
+        "CC3"
+      ],
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SCUJ03BC2",
+      "tipo": "BloqueCompetencial",
+      "notation": "SCUJ03BC2",
+      "prefLabel": "Cultura y Ciudadanía Digital · 3º ESO · bloque competencial C2",
+      "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de expresarse a través de las tecnologías digitales, utilizando y gestionando su entorno personal digital de aprendizaje, aplicando estrategias de tratamiento de la información y diferentes herramientas digitales para modificar, mejorar e integrar contenidos e información, incluidos elementos creados con inteligencia artificial (música, imágenes…), reflexionando sobre la automatización de estos contenidos y la dificultad de distinguirlos de las creaciones humanas, y creando otros, incluyendo los elaborados con tecnologías emergentes. Asimismo, se tendrá en cuenta si reelabora de forma personal, colaborativa o cooperativa la información con estructura y redacción originales y accesibles (lectura fácil…), incluyendo referencias de las fuentes consultadas (periódicos digitales, blogs, tuits, vídeos, etc.) y entrecomillando las citas textuales si las usa. Este proceso de creación le permitirá expresar con creatividad y eficacia, y seleccionando el formato adecuado, ideas, conocimientos, sentimientos, poniendo sus prácticas comunicativas al servicio de la convivencia democrática, de modo que se desarrollen estrategias adecuadas para aprender a gestionar eficazmente sus emociones y considerar la experiencia como una oportunidad para aprender, realizando tanto autoevaluaciones como coevaluaciones de las producciones creadas (atendiendo a equilibro en las composiciones gráficas, facilidad de lectura y comprensión, estructuración adecuada, detección de usos discriminatorios, uso de lenguaje verbal y no verbal…). Además, con este bloque se busca que el alumnado comprenda y valore la importancia de los derechos de propiedad intelectual para utilizar y compartir los contenidos digitales, haciendo hincapié en los patrimoniales, de forma responsable y lícita.",
+      "broader": "materia:SCUJ",
+      "agrupa": [
+        "ce:SCUJC2"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CCL5",
+        "CD1",
+        "CD2",
+        "CPSAA3",
+        "CE3",
+        "CCEC3",
+        "CCEC4"
+      ],
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SCUJ03BC3",
+      "tipo": "BloqueCompetencial",
+      "notation": "SCUJ03BC3",
+      "prefLabel": "Cultura y Ciudadanía Digital · 3º ESO · bloque competencial C3",
+      "scopeNote": "Con este bloque competencial se comprobará que el alumnado es capaz de resolver problemas aplicando estrategias de pensamiento computacional. Se constatará su capacidad para hacer uso de dispositivos tecnológicos con el fin de generar secuencias de instrucciones y algoritmos (de manera funcional o creativa) que permitan aplicar estrategias de pensamiento recursivo y herramientas como los diagramas de flujo, tanto de forma individual como en equipo, que contribuyan a la resolución de problemas concretos y a la ejecución de tareas sencillas. De este modo, se comprobará que el alumnado conoce y valora la existencia de objetos inteligentes de uso cotidiano (dispositivos de iluminación, termostatos, sistemas de seguridad del hogar, cámaras de vigilancia, teléfonos móviles, relojes, electrodomésticos…), lo que se ha dado en llamar el internet de las cosas (IoT). Todo esto con el fin de reconocer en la programación, la robótica y el pensamiento computacional una vía a través de la cual ofrecer soluciones que pueden dar respuesta a muchas de las necesidades personales y colectivas que se plantean en la sociedad, desde una perspectiva inclusiva, con valores vinculados a la equidad y a la lucha contra la desigualdad. Además, se comprobará que el alumnado es capaz de analizar, evaluar y reflexionar con actitud crítica sobre las soluciones y propuestas generadas, distribuyendo y aceptando tareas y responsabilidades de manera equitativa para, posteriormente, depurar errores y reformularlas si fuera necesario, valorando el proceso de coevaluación y autoevaluación como una oportunidad para aprender.",
+      "broader": "materia:SCUJ",
+      "agrupa": [
+        "ce:SCUJC3"
+      ],
+      "descriptores": [
+        "STEM1",
+        "STEM3",
+        "CD2",
+        "CD5",
+        "CE3",
+        "CCL2",
+        "CPSAA3",
+        "CPSAA4",
+        "CPSAA5"
+      ],
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SCUJ03BC4",
+      "tipo": "BloqueCompetencial",
+      "notation": "SCUJ03BC4",
+      "prefLabel": "Cultura y Ciudadanía Digital · 3º ESO · bloque competencial C4",
+      "scopeNote": "Con este bloque competencial se persigue constatar que el alumnado es capaz de integrarse en la ciudadanía digital como persona crítica, informada y responsable, para lo cual se comprobará que selecciona herramientas y tecnologías digitales accesibles y apropiadas según el contexto, con la finalidad de comunicarse de forma síncrona y asíncrona, de compartir datos y contenidos digitales y de realizar procesos de colaboración, todo ello aplicando normas de comportamiento y desarrollando habilidades adecuadas para desenvolverse con respeto y empatía, al igual que de forma segura, para proteger la privacidad y construir una identidad digital positiva, actuando además de manera crítica a la hora de promover estereotipos que atenten contra la autoestima (retoque fotográfico para promover cánones de belleza irreales, etc.) o de colaborar en la difusión de noticias no contrastadas… Además, se verificará que el alumnado conoce y respeta la normativa sobre derechos de autoría y propiedad intelectual, así como sus derechos y deberes digitales, como el acceso universal al entorno digital, para participar en la sociedad de manera activa, cívica y reflexiva.",
+      "broader": "materia:SCUJ",
+      "agrupa": [
+        "ce:SCUJC4"
+      ],
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CD2",
+        "CD3",
+        "CPSAA3",
+        "CCEC4",
+        "CCL5",
+        "CD4",
+        "CC1"
+      ],
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SCUJ03BC5",
+      "tipo": "BloqueCompetencial",
+      "notation": "SCUJ03BC5",
+      "prefLabel": "Cultura y Ciudadanía Digital · 3º ESO · bloque competencial C5",
+      "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado es capaz de reconocer la necesidad de hacer un uso seguro y responsable de las tecnologías digitales, así como de la búsqueda del bienestar digital, tanto físico, como mental y social, verificando que conoce este aspecto e implementa prácticas saludables, como pueden ser periodos de desconexión, momentos para el descanso ocular, adopción de hábitos ergonómicos o prevención de adicciones…, entre otras. Se comprobará que entiende los beneficios que proporcionan dichas tecnologías en la sociedad actual, a la vez que es capaz de detectar los riesgos y amenazas de los entornos digitales (ciberacoso, sexting, grooming, ciberbullying, libre acceso a contenidos inapropiados, suplantación de identidad, phishing, conductas discriminatorias de cualquier tipo, etc.) y de actuar en consecuencia, de forma proactiva o reactiva. Asimismo, se verificará que conoce la importancia de tener actualizado el sistema operativo y software; sabe qué datos pueden considerarse personales; conoce los derechos de acceso, rectificación, oposición, supresión (derecho al olvido), portabilidad, limitación del tratamiento y de no ser objeto de decisiones individualizadas (ARCO-POL); conoce los riesgos del geoetiquetado, etc. También se constatará que reflexiona sobre las características de las publicaciones que debe tener un perfil personal en redes sociales y uno profesional, y que adopta medidas preventivas de protección de dispositivos, datos personales y privacidad a través del uso de contraseñas seguras con el fin de salvaguardar la reputación y huella digital, implementando además medidas básicas de seguridad si se comparten dispositivos, como pueden ser la navegación de incógnito, cerrar sesión, borrar historial, impedir que se guarden contraseñas en el navegador… Además, se buscará que el alumnado adopte prácticas sostenibles, o al menos reflexione sobre ellas, que ayuden a preservar el medioambiente y proteger nuestro patrimonio natural, proponiendo fórmulas de consumo responsable, siendo consciente del impacto ambiental que implica la compra y consumo compulsivos de dispositivos tecnológicos, teniendo en cuenta los Objetivos de Desarrollo Sostenible (ODS) y la Agenda Canaria 2030.",
+      "broader": "materia:SCUJ",
+      "agrupa": [
+        "ce:SCUJC5"
+      ],
+      "descriptores": [
+        "CD4",
+        "CPSAA2",
+        "CC1",
+        "CC2",
+        "CE1",
+        "CCL2",
+        "STEM5"
+      ],
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "bc:SCUJ03BC6",
+      "tipo": "BloqueCompetencial",
+      "notation": "SCUJ03BC6",
+      "prefLabel": "Cultura y Ciudadanía Digital · 3º ESO · bloque competencial C6",
+      "scopeNote": "En este bloque competencial se constatará que el alumnado adquiere destrezas relativas tanto a la configuración de herramientas y dispositivos tecnológicos (resolver problemas de conectividad a la red más habituales, instalar equipos y periféricos, configurar de forma personalizada los escritorios, consultar foros para resolver dudas técnicas…), como a la resolución de otras situaciones cotidianas a través de entornos digitales (petición de una cita médica, compra o transacción financiera, búsqueda de empleo o de ofertas formativas, traducción de texto en otro idioma, participación en actividades de ocio…), de manera creativa e innovadora, y desarrollando procesos metacognitivos de retroalimentación para aprender de sus errores. Asimismo, se comprobará que el alumnado valora el desarrollar una adecuada competencia digital como fórmula para combatir el riesgo de exclusión social, teniendo en cuenta además su especial relevancia en Canarias debido a la condición de insularidad y orografía que dificulta el acceso físico a bienes y servicios, y siendo, además, consciente de la necesidad social de fomentar el aprendizaje permanente, por lo que se le orientará en el desarrollo de estrategias adecuadas para identificar las necesidades de mejora o de actualización de la competencia digital propia o de otras personas y actuar en consecuencia para favorecer el desarrollo de la misma ideando prácticas de aprendizaje servicio que implementar en su entorno más inmediato.",
+      "broader": "materia:SCUJ",
+      "agrupa": [
+        "ce:SCUJC6"
+      ],
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "CD2",
+        "CD5",
+        "CPSAA5",
+        "CE3",
+        "CCL2",
+        "STEM4"
+      ],
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SCUJ03CE1.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SCUJ03CE1.1",
+      "prefLabel": "SCUJ03CE1.1 · Realizar búsquedas avanzadas en la red, aplicando estrategias de filtrado de datos,…",
+      "definition": "Realizar búsquedas avanzadas en la red, aplicando estrategias de filtrado de datos, información y contenido digital, usando operadores lógicos para almacenarlos y organizarlos de tal forma que permita recuperarlos y referenciarlos en un uso posterior.",
+      "broader": "ce:SCUJC1",
+      "bloque": "bc:SCUJ03BC1",
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "CD1"
+      ],
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SCUJ03CE1.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SCUJ03CE1.2",
+      "prefLabel": "SCUJ03CE1.2 · Reflexionar sobre la fiabilidad de las fuentes y los motores de búsqueda, así como sobre…",
+      "definition": "Reflexionar sobre la fiabilidad de las fuentes y los motores de búsqueda, así como sobre la información y opinión obtenida, considerando los sesgos de cualquier tipo que pudiera haber implicados en ese proceso y la pertinencia de los datos obtenidos para crear su propio entorno personal de aprendizaje.",
+      "broader": "ce:SCUJC1",
+      "bloque": "bc:SCUJ03BC1",
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "CD1",
+        "CD2",
+        "CPSAA5",
+        "CC3"
+      ],
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SCUJ03CE1.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SCUJ03CE1.3",
+      "prefLabel": "SCUJ03CE1.3 · Conocer protocolos y estándares de accesibilidad y reflexionar de manera crítica sobre…",
+      "definition": "Conocer protocolos y estándares de accesibilidad y reflexionar de manera crítica sobre ello, cuando se consume información u opinión en fuentes consultadas, así como cuando se crean recursos digitales propios, para entender la importancia de la accesibilidad de todas las personas potenciales usuarias, independientemente de sus características personales o contextuales.",
+      "broader": "ce:SCUJC1",
+      "bloque": "bc:SCUJ03BC1",
+      "descriptores": [
+        "CD1",
+        "CPSAA5",
+        "CC3"
+      ],
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SCUJ03CE2.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SCUJ03CE2.1",
+      "prefLabel": "SCUJ03CE2.1 · Emplear las tecnologías digitales para crear contenidos de forma individual, colaborativa…",
+      "definition": "Emplear las tecnologías digitales para crear contenidos de forma individual, colaborativa o cooperativa que permitan expresar ideas, opiniones, conocimientos o sentimientos en distintos lenguajes y formatos, de forma accesible, respetando los derechos de autoría y las licencias de uso, reelaborándolos de forma personal y original.",
+      "broader": "ce:SCUJC2",
+      "bloque": "bc:SCUJ03BC2",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "CCL5",
+        "CD1",
+        "CD2",
+        "CPSAA3",
+        "CE3",
+        "CCEC3",
+        "CCEC4"
+      ],
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SCUJ03CE3.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SCUJ03CE3.1",
+      "prefLabel": "SCUJ03CE3.1 · Programar y desarrollar una secuencia de instrucciones aplicando estrategias de…",
+      "definition": "Programar y desarrollar una secuencia de instrucciones aplicando estrategias de pensamiento computacional y programación para que un sistema informático, robot u objetos inteligentes (el internet de las cosas [IoT]) resuelvan un problema determinado o realicen una tarea específica.",
+      "broader": "ce:SCUJC3",
+      "bloque": "bc:SCUJ03BC3",
+      "descriptores": [
+        "STEM1",
+        "STEM3",
+        "CD2",
+        "CD5",
+        "CE3"
+      ],
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SCUJ03CE3.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SCUJ03CE3.2",
+      "prefLabel": "SCUJ03CE3.2 · Analizar de manera crítica y eficaz las soluciones o propuestas, con el fin de reformular…",
+      "definition": "Analizar de manera crítica y eficaz las soluciones o propuestas, con el fin de reformular el procedimiento, si fuese necesario.",
+      "broader": "ce:SCUJC3",
+      "bloque": "bc:SCUJ03BC3",
+      "descriptores": [
+        "CCL2",
+        "STEM3",
+        "CPSAA3",
+        "CPSAA4",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SCUJ03CE4.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SCUJ03CE4.1",
+      "prefLabel": "SCUJ03CE4.1 · Crear, de forma colaborativa y creativa, contenidos digitales utilizando diferentes…",
+      "definition": "Crear, de forma colaborativa y creativa, contenidos digitales utilizando diferentes tecnologías accesibles, seleccionando los medios más apropiados para cada contexto de comunicación.",
+      "broader": "ce:SCUJC4",
+      "bloque": "bc:SCUJ03BC4",
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CD2",
+        "CD3",
+        "CPSAA3",
+        "CCEC4"
+      ],
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SCUJ03CE4.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SCUJ03CE4.2",
+      "prefLabel": "SCUJ03CE4.2 · Conocer y aplicar las normas de comportamiento en la red, etiqueta digital, y desarrollar…",
+      "definition": "Conocer y aplicar las normas de comportamiento en la red, etiqueta digital, y desarrollar las habilidades para desenvolverse con respeto y empatía al utilizar las tecnologías digitales e interactuar en estos entornos, protegiendo la identidad digital propia y ajena.",
+      "broader": "ce:SCUJC4",
+      "bloque": "bc:SCUJ03BC4",
+      "descriptores": [
+        "CCL2",
+        "CCL5",
+        "CD3",
+        "CD4",
+        "CPSAA3",
+        "CC1"
+      ],
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SCUJ03CE4.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SCUJ03CE4.3",
+      "prefLabel": "SCUJ03CE4.3 · Conocer los derechos y deberes digitales, especialmente los relativos a la autoría, a la…",
+      "definition": "Conocer los derechos y deberes digitales, especialmente los relativos a la autoría, a la propiedad intelectual, a la privacidad y a la accesibilidad universal en el entorno digital, para compartir datos y contenidos digitales y participar en la sociedad a través del uso de tecnologías digitales adecuadas de manera responsable.",
+      "broader": "ce:SCUJC4",
+      "bloque": "bc:SCUJ03BC4",
+      "descriptores": [
+        "CCL2",
+        "CD2",
+        "CD3",
+        "CD4",
+        "CC1"
+      ],
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SCUJ03CE5.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SCUJ03CE5.1",
+      "prefLabel": "SCUJ03CE5.1 · Conocer los beneficios, y los riesgos y amenazas de los entornos digitales, adoptando…",
+      "definition": "Conocer los beneficios, y los riesgos y amenazas de los entornos digitales, adoptando medidas de actuación y prevención para un uso seguro de dichos entornos, identificando y actuando de forma crítica ante situaciones de ciberacoso o situaciones discriminatorias de cualquier índole o suplantación de identidad, entre otros, y aplicando estrategias para proteger los datos personales y la privacidad.",
+      "broader": "ce:SCUJC5",
+      "bloque": "bc:SCUJ03BC5",
+      "descriptores": [
+        "CD4",
+        "CPSAA2",
+        "CC1",
+        "CC2",
+        "CE1"
+      ],
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SCUJ03CE5.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SCUJ03CE5.2",
+      "prefLabel": "SCUJ03CE5.2 · Reflexionar sobre la necesidad de desarrollar prácticas saludables tanto a nivel físico,…",
+      "definition": "Reflexionar sobre la necesidad de desarrollar prácticas saludables tanto a nivel físico, mental y social en el uso de las tecnologías digitales y hacer propuestas para llevarlas a cabo.",
+      "broader": "ce:SCUJC5",
+      "bloque": "bc:SCUJ03BC5",
+      "descriptores": [
+        "CCL2",
+        "STEM5",
+        "CD4",
+        "CPSAA2",
+        "CC1"
+      ],
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SCUJ03CE5.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SCUJ03CE5.3",
+      "prefLabel": "SCUJ03CE5.3 · Analizar y valorar los efectos de las tecnologías digitales en el bienestar personal y la…",
+      "definition": "Analizar y valorar los efectos de las tecnologías digitales en el bienestar personal y la inclusión social, así como sus efectos sobre el medioambiente, aplicando criterios éticos y sostenibles en su uso.",
+      "broader": "ce:SCUJC5",
+      "bloque": "bc:SCUJ03BC5",
+      "descriptores": [
+        "CCL2",
+        "STEM5",
+        "CD4",
+        "CC2",
+        "CE1"
+      ],
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SCUJ03CE6.1",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SCUJ03CE6.1",
+      "prefLabel": "SCUJ03CE6.1 · Utilizar las tecnologías digitales para satisfacer necesidades, y comprender y resolver…",
+      "definition": "Utilizar las tecnologías digitales para satisfacer necesidades, y comprender y resolver situaciones problemáticas en entornos digitales, o derivarlas, tanto de forma individual como colectiva.",
+      "broader": "ce:SCUJC6",
+      "bloque": "bc:SCUJ03BC6",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "CD2",
+        "CD5",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SCUJ03CE6.2",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SCUJ03CE6.2",
+      "prefLabel": "SCUJ03CE6.2 · Configurar de forma segura y personalizada los entornos digitales según las necesidades…",
+      "definition": "Configurar de forma segura y personalizada los entornos digitales según las necesidades detectadas.",
+      "broader": "ce:SCUJC6",
+      "bloque": "bc:SCUJ03BC6",
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "CD2",
+        "CD5",
+        "CE3"
+      ],
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "crit:SCUJ03CE6.3",
+      "tipo": "CriterioEvaluacion",
+      "notation": "SCUJ03CE6.3",
+      "prefLabel": "SCUJ03CE6.3 · Identificar las necesidades de actualización de la propia competencia digital y de…",
+      "definition": "Identificar las necesidades de actualización de la propia competencia digital y de personas de su entorno y contribuir a su mejora.",
+      "broader": "ce:SCUJC6",
+      "bloque": "bc:SCUJ03BC6",
+      "descriptores": [
+        "CCL2",
+        "STEM4",
+        "CD2",
+        "CPSAA5",
+        "CE3"
+      ],
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBI",
+      "tipo": "BloqueSaberes",
+      "notation": "SCUJ03SBI",
+      "prefLabel": "SCUJ03SBI · I. Alfabetización mediática, tratamiento y organización de la información",
+      "definition": "Alfabetización mediática, tratamiento y organización de la información",
+      "broader": "materia:SCUJ",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBII",
+      "tipo": "BloqueSaberes",
+      "notation": "SCUJ03SBII",
+      "prefLabel": "SCUJ03SBII · II. Creación de contenidos digitales",
+      "definition": "Creación de contenidos digitales",
+      "broader": "materia:SCUJ",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBIII",
+      "tipo": "BloqueSaberes",
+      "notation": "SCUJ03SBIII",
+      "prefLabel": "SCUJ03SBIII · III. Pensamiento computacional y programación",
+      "definition": "Pensamiento computacional y programación",
+      "broader": "materia:SCUJ",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBIV",
+      "tipo": "BloqueSaberes",
+      "notation": "SCUJ03SBIV",
+      "prefLabel": "SCUJ03SBIV · IV. Comunicación, colaboración y ciudadanía digital",
+      "definition": "Comunicación, colaboración y ciudadanía digital",
+      "broader": "materia:SCUJ",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBV",
+      "tipo": "BloqueSaberes",
+      "notation": "SCUJ03SBV",
+      "prefLabel": "SCUJ03SBV · V. Uso responsable y bienestar digital",
+      "definition": "Uso responsable y bienestar digital",
+      "scopeNote": "gestión consciente de la cesión de datos que se produce cuando se accede a los entornos digitales y conocimiento de sus políticas de privacidad",
+      "broader": "materia:SCUJ",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBVI",
+      "tipo": "BloqueSaberes",
+      "notation": "SCUJ03SBVI",
+      "prefLabel": "SCUJ03SBVI · VI. Resolución de problemas",
+      "definition": "Resolución de problemas",
+      "broader": "materia:SCUJ",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBI.1",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBI.1",
+      "prefLabel": "SCUJ03SBI.1 · Conocimiento y aplicación de estrategias de búsqueda, filtrado y selección de la…",
+      "definition": "Conocimiento y aplicación de estrategias de búsqueda, filtrado y selección de la información y contenidos digitales.",
+      "broader": "sb:SCUJ03SBI",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBI.2",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBI.2",
+      "prefLabel": "SCUJ03SBI.2 · Evaluación de la fiabilidad de las fuentes consultadas y de la información obtenida, con…",
+      "definition": "Evaluación de la fiabilidad de las fuentes consultadas y de la información obtenida, con actitud crítica, conociendo los posibles sesgos y aplicando un protocolo consensuado.",
+      "broader": "sb:SCUJ03SBI",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBI.3",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBI.3",
+      "prefLabel": "SCUJ03SBI.3 · Análisis de las consecuencias de la infodemia y la sobrecarga de información para la…",
+      "definition": "Análisis de las consecuencias de la infodemia y la sobrecarga de información para la población.",
+      "broader": "sb:SCUJ03SBI",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBI.4",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBI.4",
+      "prefLabel": "SCUJ03SBI.4 · Análisis de las ventajas y desventajas del uso de motores de búsqueda impulsados por la…",
+      "definition": "Análisis de las ventajas y desventajas del uso de motores de búsqueda impulsados por la inteligencia artificial (IA).",
+      "broader": "sb:SCUJ03SBI",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBI.5",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBI.5",
+      "prefLabel": "SCUJ03SBI.5 · Análisis de los factores que influyen en los resultados de búsquedas, flujos de actividad…",
+      "definition": "Análisis de los factores que influyen en los resultados de búsquedas, flujos de actividad de las redes sociales y recomendaciones de contenido (términos de búsqueda utilizados, contexto, dispositivo, regulaciones locales y el comportamiento en línea anterior del usuario a través de internet).",
+      "broader": "sb:SCUJ03SBI",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBI.6",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBI.6",
+      "prefLabel": "SCUJ03SBI.6 · Identificación y análisis crítico del grado de accesibilidad de los recursos consultados…",
+      "definition": "Identificación y análisis crítico del grado de accesibilidad de los recursos consultados y creados, a partir del conocimiento de estándares de calidad relativos a la organización de los menús y submenús, de los contenidos, uso de claves de lectura fácil, etc., para promover la inclusividad.",
+      "broader": "sb:SCUJ03SBI",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBI.7",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBI.7",
+      "prefLabel": "SCUJ03SBI.7 · Desarrollo y aplicación de técnicas de tratamiento, organización y almacenamiento seguro…",
+      "definition": "Desarrollo y aplicación de técnicas de tratamiento, organización y almacenamiento seguro de la información con el fin de que pueda ser recuperada y referenciada.",
+      "broader": "sb:SCUJ03SBI",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBII.1",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBII.1",
+      "prefLabel": "SCUJ03SBII.1 · Conocimiento y aplicación de estrategias de tratamiento de información y uso de…",
+      "definition": "Conocimiento y aplicación de estrategias de tratamiento de información y uso de diferentes herramientas para crear contenidos digitales accesibles en diferentes formatos (DUA, lectura fácil, etc.).",
+      "broader": "sb:SCUJ03SBII",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBII.2",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBII.2",
+      "prefLabel": "SCUJ03SBII.2 · Modificación, perfeccionamiento, mejora e integración de contenidos e información para…",
+      "definition": "Modificación, perfeccionamiento, mejora e integración de contenidos e información para crear otros nuevos y originales.",
+      "broader": "sb:SCUJ03SBII",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBII.3",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBII.3",
+      "prefLabel": "SCUJ03SBII.3 · La importancia de los bienes y servicios públicos para la economía.",
+      "definition": "La importancia de los bienes y servicios públicos para la economía.",
+      "broader": "sb:SCUJ03SBII",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBII.4",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBII.4",
+      "prefLabel": "SCUJ03SBII.4 · Selección del formato adecuado para la elaboración de contenidos digitales según su…",
+      "definition": "Selección del formato adecuado para la elaboración de contenidos digitales según su finalidad y el público al que se dirigen.",
+      "broader": "sb:SCUJ03SBII",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBII.5",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBII.5",
+      "prefLabel": "SCUJ03SBII.5 · Identificación de herramientas y técnicas para crear contenido digital accesible…",
+      "definition": "Identificación de herramientas y técnicas para crear contenido digital accesible siguiendo las normas y directrices oficiales.",
+      "broader": "sb:SCUJ03SBII",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBII.6",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBII.6",
+      "prefLabel": "SCUJ03SBII.6 · Uso de la realidad aumentada (AR) para crear contenido digital e interacción en entornos…",
+      "definition": "Uso de la realidad aumentada (AR) para crear contenido digital e interacción en entornos de realidad virtual (VR).",
+      "broader": "sb:SCUJ03SBII",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBII.7",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBII.7",
+      "prefLabel": "SCUJ03SBII.7 · Respeto hacia las normas de derechos de autoría, licencias de uso y accesibilidad…",
+      "definition": "Respeto hacia las normas de derechos de autoría, licencias de uso y accesibilidad universal, que se aplican a los datos, la información digital y los contenidos en entornos digitales.",
+      "broader": "sb:SCUJ03SBII",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBIII.1",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBIII.1",
+      "prefLabel": "SCUJ03SBIII.1 · El papel del dinero en la economía.",
+      "definition": "El papel del dinero en la economía.",
+      "broader": "sb:SCUJ03SBIII",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBIII.2",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBIII.2",
+      "prefLabel": "SCUJ03SBIII.2 · Programación de objetos inteligentes (el internet de las cosas [IoT]) y aplicación de…",
+      "definition": "Programación de objetos inteligentes (el internet de las cosas [IoT]) y aplicación de principios de inteligencia artificial (IA).",
+      "broader": "sb:SCUJ03SBIII",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBIII.3",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBIII.3",
+      "prefLabel": "SCUJ03SBIII.3 · Programación de robots sencillos de manera física o simulada.",
+      "definition": "Programación de robots sencillos de manera física o simulada.",
+      "broader": "sb:SCUJ03SBIII",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBIII.4",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBIII.4",
+      "prefLabel": "SCUJ03SBIII.4 · Análisis crítico, evaluación y reflexión sobre las soluciones y propuestas realizadas.",
+      "definition": "Análisis crítico, evaluación y reflexión sobre las soluciones y propuestas realizadas.",
+      "broader": "sb:SCUJ03SBIII",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBIII.5",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBIII.5",
+      "prefLabel": "SCUJ03SBIII.5 · Depuración de errores y reformulación de las soluciones y propuestas, si fuese necesario,…",
+      "definition": "Depuración de errores y reformulación de las soluciones y propuestas, si fuese necesario, gestionando adecuadamente las emociones.",
+      "broader": "sb:SCUJ03SBIII",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBIV.1",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBIV.1",
+      "prefLabel": "SCUJ03SBIV.1 · Selección de medios de comunicación digital, síncronos y asíncronos, adecuados según la…",
+      "definition": "Selección de medios de comunicación digital, síncronos y asíncronos, adecuados según la audiencia, el contexto y el propósito de la comunicación.",
+      "broader": "sb:SCUJ03SBIV",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBIV.2",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBIV.2",
+      "prefLabel": "SCUJ03SBIV.2 · Aplicar estrategias para la selección de herramientas y tecnologías digitales apropiadas…",
+      "definition": "Aplicar estrategias para la selección de herramientas y tecnologías digitales apropiadas para compartir datos, información y contenidos digitales, y para realizar procesos de colaboración.",
+      "broader": "sb:SCUJ03SBIV",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBIV.3",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBIV.3",
+      "prefLabel": "SCUJ03SBIV.3 · Aplicación de las normas de comportamiento al utilizar las tecnologías e interactuar en…",
+      "definition": "Aplicación de las normas de comportamiento al utilizar las tecnologías e interactuar en entornos digitales y de los requisitos de accesibilidad para que la comunicación sea inclusiva para todas las personas usuarias.",
+      "broader": "sb:SCUJ03SBIV",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBIV.4",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBIV.4",
+      "prefLabel": "SCUJ03SBIV.4 · Identificación de patrones de consumo y análisis de los beneficios y perjuicios…",
+      "definition": "Identificación de patrones de consumo y análisis de los beneficios y perjuicios individuales, sociales y medioambientales de las pautas de consumo actuales.",
+      "broader": "sb:SCUJ03SBIV",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBIV.5",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBIV.5",
+      "prefLabel": "SCUJ03SBIV.5 · Toma de conciencia de la huella digital que se deja a través de actividades cotidianas y…",
+      "definition": "Toma de conciencia de la huella digital que se deja a través de actividades cotidianas y aplicación de medidas para protegerla, teniendo en cuenta su relación con la reputación digital.",
+      "broader": "sb:SCUJ03SBIV",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBIV.6",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBIV.6",
+      "prefLabel": "SCUJ03SBIV.6 · Conocimiento, análisis y valoración de los derechos y deberes digitales.",
+      "definition": "Conocimiento, análisis y valoración de los derechos y deberes digitales.",
+      "broader": "sb:SCUJ03SBIV",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBIV.7",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBIV.7",
+      "prefLabel": "SCUJ03SBIV.7 · Valoración de las actitudes responsables y constructivas en internet como base de los…",
+      "definition": "Valoración de las actitudes responsables y constructivas en internet como base de los derechos humanos, junto con los valores como el respeto a la dignidad humana, la libertad, la democracia y la igualdad.",
+      "broader": "sb:SCUJ03SBIV",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBV.1",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBV.1",
+      "prefLabel": "SCUJ03SBV.1 · Conocimiento de los beneficios que proporcionan las tecnologías digitales, entre otros,…",
+      "definition": "Conocimiento de los beneficios que proporcionan las tecnologías digitales, entre otros, la interacción e inclusión social, el trabajo colaborativo, el acceso e intercambio de información, etc., haciendo un uso responsable de ellas, y los riesgos derivados del aislamiento y exclusión de quienes no las utilizan o no pueden acceder a ellas.",
+      "broader": "sb:SCUJ03SBV",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBV.2",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBV.2",
+      "prefLabel": "SCUJ03SBV.2 · Análisis y valoración de los riesgos y amenazas de los entornos digitales, como pueden…",
+      "definition": "Análisis y valoración de los riesgos y amenazas de los entornos digitales, como pueden ser el ciberacoso, sexting, grooming, ciberbullying, libre acceso a contenidos inapropiados, suplantación de identidad, phishing, etc., así como conductas discriminatorias de cualquier tipo (por diversidad funcional, orientación sexual, etnia, raza, religión…) y las sanciones de las que pueden ser objeto, tanto dentro del centro educativo como en la sociedad en general.",
+      "broader": "sb:SCUJ03SBV",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBV.3",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBV.3",
+      "prefLabel": "SCUJ03SBV.3 · Aplicación de medidas de actuación y prevención para el uso seguro de entornos digitales…",
+      "definition": "Aplicación de medidas de actuación y prevención para el uso seguro de entornos digitales (antivirus, firewall, uso de contraseñas seguras y diversas para el acceso a diferentes aplicaciones o entornos, uso de protocolos de autenticación de dos factores…); actualización de sistema operativo y software; evitación del uso de redes wifi abiertas y especialmente cuando se realizan operaciones como banca online, etc.; gestión consciente del geoetiquetado en las navegaciones en internet, etc.",
+      "broader": "sb:SCUJ03SBV",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBV.4",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBV.4",
+      "prefLabel": "SCUJ03SBV.4 · Conocimiento básico de la normativa relativa a la protección de datos personales",
+      "definition": "Conocimiento básico de la normativa relativa a la protección de datos personales",
+      "broader": "sb:SCUJ03SBV",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBV.5",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBV.5",
+      "prefLabel": "SCUJ03SBV.5 · Conocimiento de la existencia y el uso de los certificados digitales, sistemas de firma y…",
+      "definition": "Conocimiento de la existencia y el uso de los certificados digitales, sistemas de firma y autenticación y de otras medidas de seguridad asociadas a su identidad digital.",
+      "broader": "sb:SCUJ03SBV",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBV.6",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBV.6",
+      "prefLabel": "SCUJ03SBV.6 · Aplicación de prácticas saludables a nivel físico y emocional en el uso de las…",
+      "definition": "Aplicación de prácticas saludables a nivel físico y emocional en el uso de las tecnologías digitales, como periodos de descanso, hábitos ergonómicos, control consciente del tiempo de conexión, etc.",
+      "broader": "sb:SCUJ03SBV",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBV.7",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBV.7",
+      "prefLabel": "SCUJ03SBV.7 · Conciencia del impacto medioambiental y social que acompaña a las tecnologías digitales y…",
+      "definition": "Conciencia del impacto medioambiental y social que acompaña a las tecnologías digitales y a su uso, así como la protección de nuestro patrimonio natural.",
+      "broader": "sb:SCUJ03SBV",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBVI.1",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBVI.1",
+      "prefLabel": "SCUJ03SBVI.1 · Aplicación de estrategias para identificar y solucionar o derivar problemas técnicos al…",
+      "definition": "Aplicación de estrategias para identificar y solucionar o derivar problemas técnicos al manejar dispositivos y utilizar entornos digitales.",
+      "broader": "sb:SCUJ03SBVI",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBVI.2",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBVI.2",
+      "prefLabel": "SCUJ03SBVI.2 · Selección de herramientas digitales para resolver necesidades de manera innovadora y…",
+      "definition": "Selección de herramientas digitales para resolver necesidades de manera innovadora y creativa.",
+      "broader": "sb:SCUJ03SBVI",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBVI.3",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBVI.3",
+      "prefLabel": "SCUJ03SBVI.3 · Configuración y personalización de entornos digitales según necesidades.",
+      "definition": "Configuración y personalización de entornos digitales según necesidades.",
+      "broader": "sb:SCUJ03SBVI",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBVI.4",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBVI.4",
+      "prefLabel": "SCUJ03SBVI.4 · Resolución de situaciones problemáticas de cualquier tipo en entornos digitales, de una…",
+      "definition": "Resolución de situaciones problemáticas de cualquier tipo en entornos digitales, de una manera innovadora, individual o colectiva. Identificación de buenas prácticas en Canarias, usando las tecnologías, que implementan iniciativas para la mejora de la vida de las personas.",
+      "broader": "sb:SCUJ03SBVI",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "sb:SCUJ03SBVI.5",
+      "tipo": "SaberBasico",
+      "notation": "SCUJ03SBVI.5",
+      "prefLabel": "SCUJ03SBVI.5 · Desarrollo de estrategias de búsqueda para detectar fortalezas y debilidades relacionadas…",
+      "definition": "Desarrollo de estrategias de búsqueda para detectar fortalezas y debilidades relacionadas tanto con la propia competencia digital como con la ajena y aplicación de estrategias para contribuir a la mejora de esta competencia.",
+      "broader": "sb:SCUJ03SBVI",
+      "materia": "materia:SCUJ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    }
+  ]
+}
