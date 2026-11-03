@@ -82,5 +82,11 @@ proponer una corrección, incorporar una exportación nueva y publicar una versi
 
 ## Licencia
 
-**Pendiente de decisión.** Hasta que se fije, no se debe reutilizar fuera del proyecto.
-Los textos curriculares proceden de normas publicadas en el BOC.
+- **Datos** (`datos/`, `correcciones/`, `config/` y los ficheros de cada versión):
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es).
+- **Código** (`herramientas/`, `esquema/`, `.github/`): [GPL-3.0](LICENSE).
+
+Los textos curriculares proceden de normas publicadas en el BOC y, según el artículo 13 de
+la Ley de Propiedad Intelectual, no son objeto de propiedad intelectual: la licencia de los
+datos cubre la estructura, los identificadores, las relaciones y las correcciones del corpus,
+no los textos normativos. Detalle y forma de cita en [`LICENCIA-DATOS.md`](LICENCIA-DATOS.md).

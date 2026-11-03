@@ -76,6 +76,7 @@ def construir(version=None):
             'version': version or conf.get('version', '0.0.0'),
             'base': {**conf['base'], 'sha256': sha256(base)},
             'normas': conf.get('normas', []),
+            'licencia': conf.get('licencia'),
             'correcciones_aplicadas': [c['id'] for c in resumen_corr if c['estado'] == 'aprobada'],
         },
         'nodos': lista,

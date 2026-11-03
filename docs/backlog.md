@@ -153,6 +153,7 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
   - [ ] ¿Se unifican las competencias de Matemáticas A y B con las de Matemáticas?
   - [ ] Códigos de materia inconsistentes: `TSA`/`TA7`, `PLW`/`LNT`, `VAL`/`EDK`.
 - [ ] **4.4 Licencia del corpus y fecha de la exportación** de ProIDEAC (`config/corpus.yaml`).
+  Licencia hecha: datos CC BY 4.0 con la aclaración del art. 13 TRLPI (`LICENCIA-DATOS.md`); código GPL-3.0. Falta la fecha de la exportación.
 - [x] **4.5 Formatos de Infantil y de los ámbitos**: descargar un ODT de cada y adaptar el lector.
   Hecho con los 6 documentos (3 áreas de Infantil y 3 ámbitos): ciclos de Infantil, criterios de
   Infantil en una sola fila y sin descriptores, bloques de saberes «Bloque I. …» y `secciones`

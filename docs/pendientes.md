@@ -43,9 +43,7 @@ Científica): ver la fase 2 de [`backlog.md`](backlog.md).
 - `config/descriptores.csv`: verificado contra el anexo 1 de cada decreto (03-11-2026).
 - `config/corpus.yaml`: fecha de la exportación de ProIDEAC.
 - `CODEOWNERS`: sustituir los equipos marcados como PENDIENTE y activar la protección de la rama `main`.
-- Licencia del repositorio.
 - `fuentes/manifiesto.yaml`: revisar las materias propuestas para cada documento y descargar los ODT.
-- Lector de ODT: adaptarlo a los formatos de Infantil, Primaria y ámbitos cuando se descarguen.
 
 ## Integración con Omeka S
 

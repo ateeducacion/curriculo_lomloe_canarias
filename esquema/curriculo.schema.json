@@ -16,6 +16,7 @@
         "generado": {"type": "string"},
         "base": {"type": "object"},
         "normas": {"type": "array"},
+        "licencia": {"type": ["object", "null"]},
         "correcciones_aplicadas": {"type": "array", "items": {"type": "string"}}
       }
     },

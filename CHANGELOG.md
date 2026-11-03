@@ -24,6 +24,7 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
   Lengua Castellana de 3.º ESO y el enunciado de la competencia 2 de Segunda Lengua Extranjera.
 
 ### Cambiado
+- Licencias: datos con CC BY 4.0 (con la aclaración del art. 13 TRLPI sobre los textos normativos) y código con GPL-3.0; `curriculo.json` incluye la licencia en su cabecera.
 - El importador trata como aviso un saber repetido de forma idéntica y reconstruye el código de un saber
   repetido cuyo texto indica otro apartado (`sb:BBIE02SBIII.3.1`).
 - `config/incidencias_aceptadas.yaml` queda vacío: el corpus no tiene errores.
