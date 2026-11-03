@@ -1,0 +1,20 @@
+id: '0011'
+titulo: 'Bioestadística (Bachillerato): 2 enunciados de competencia ausentes en la exportación'
+motivo: La exportación de ProIDEAC no trae estos textos. Se toman del documento oficial; generada con `contrastar --proponer`
+  (los saberes se emparejan por contenido).
+fuente:
+  documento: bachillerato-bioestadistica
+  fichero: fuentes/documentos/bachillerato/Bioestadistica_BACH.odt
+  sha256: c95c38cb2462874613bd342f9cb2b138cd2f51cc3e53ed1ca064c7e853bcfed4
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: ce:BBIEC2
+  campo: definition
+  valor: Verificar la validez de las posibles soluciones de un problema, empleando el razonamiento y la argumentación para
+    contrastar su idoneidad.
+- nodo: ce:BBIEC6
+  campo: definition
+  valor: Comunicar las ideas matemáticas, de forma individual y colectiva, empleando el soporte, la terminología y el rigor
+    apropiados, para organizar y consolidar el pensamiento matemático.

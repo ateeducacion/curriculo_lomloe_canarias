@@ -1,4 +1,4 @@
-"""Lector de los ODT oficiales de currículo (formato de materias de ESO y Bachillerato).
+"""Lector de los ODT oficiales de currículo (formato de materias de Primaria, ESO y Bachillerato).
 
 Se guía por la estructura del documento (tablas de bloques competenciales, niveles de
 lista de los saberes y unos pocos rótulos fijos), no por estilos ni posiciones.
@@ -44,7 +44,7 @@ def _secuencia(cuerpo):
             tag = c.tag.split('}')[1]
             if tag == 'list':
                 recorrer(c, prof + 1)
-            elif tag in ('list-item', 'section'):
+            elif tag in ('list-item', 'list-header', 'section'):
                 recorrer(c, prof)
             elif tag in ('p', 'h'):
                 s = _texto(c)
@@ -61,7 +61,8 @@ def _parrafos_celda(celda):
 
 
 def _codigos(parrafos):
-    return [c.strip() for c in ','.join(parrafos).replace(';', ',').split(',') if c.strip()]
+    # Algunos documentos cierran la lista de descriptores con punto («CC3.»).
+    return [c.strip().rstrip('.') for c in ','.join(parrafos).replace(';', ',').split(',') if c.strip().rstrip('.')]
 
 
 def _tabla_bloque(tabla, avisos):
@@ -86,7 +87,7 @@ def _tabla_bloque(tabla, avisos):
         if plano[0] == 'Explicación del bloque competencial':
             bloque['explicacion'] = ' '.join(plano[1:])
             continue
-        m = re.match(r'^(\d+)\.(\d+)\.\s+(.*)$', fila[0][0] if fila[0] else '')
+        m = re.match(r'^(\d+)\.(\d+)\.?\s*(.*)$', fila[0][0] if fila[0] else '')
         if not m:
             avisos.append('Fila de tabla no reconocida: ' + ' | '.join(plano)[:80])
             continue
@@ -113,7 +114,9 @@ def leer(ruta, secciones):
             if x in secciones:
                 actual = {'bloques_competenciales': [], 'saberes': []}
                 doc['secciones'][x] = actual
-                ce_expl, modo = None, None
+                # Algunos documentos (p. ej. Cultura Científica de Bachillerato) omiten el
+                # rótulo «Bloques competenciales» y empiezan la sección con las tablas.
+                ce_expl, modo = None, 'bc'
                 continue
             if actual is None:
                 if x == 'Saberes básicos' or x.startswith('Situaciones de aprendizaje'):

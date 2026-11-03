@@ -7,6 +7,7 @@ propia copia.
 
 > **Estado:** versión 0.x, en preparación. Hay incidencias heredadas de la exportación
 > de origen y decisiones pendientes: ver [`docs/pendientes.md`](docs/pendientes.md).
+> Plan de trabajo hasta la 1.0.0: [`docs/backlog.md`](docs/backlog.md).
 
 ## Qué hay en el repositorio
 

@@ -1,0 +1,26 @@
+id: '0016'
+titulo: 'Bioestadística (Bachillerato): saber III.3.2 exportado con el código III.1.2'
+motivo: 'La exportación codifica los dos saberes del apartado III.3 «Inclusión, respeto y diversidad» como III.1.1 y III.1.2.
+  El importador reconstruye el primero como III.3.1 porque su código choca con el III.1.1 real; el segundo no choca con nada
+  y queda colgado de III.1. El documento oficial lo numera 3.2: se crea III.3.2 y se retira III.1.2.'
+fuente:
+  documento: bachillerato-bioestadistica
+  fichero: fuentes/documentos/bachillerato/Bioestadistica_BACH.odt
+  sha256: c95c38cb2462874613bd342f9cb2b138cd2f51cc3e53ed1ca064c7e853bcfed4
+  ubicacion: 2.º Bachillerato, saberes básicos, III. Sentido socioafectivo, apartado 3
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: sb:BBIE02SBIII.3.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: BBIE02SBIII.3.2
+    definition: Valoración de la contribución de las matemáticas y el papel de científicas y científicos a lo largo de la
+      historia en el avance de las ciencias de la vida y la salud.
+    broader: sb:BBIE02SBIII.3
+    materia: materia:BBIE
+    curso: curso:B02
+    etapa: etapa:BAC
+- nodo: sb:BBIE02SBIII.1.2
+  accion: eliminar

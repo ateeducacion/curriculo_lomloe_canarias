@@ -1,0 +1,58 @@
+id: '0013'
+titulo: 'Educación en Valores Cívicos y Éticos (Primaria): descriptor CE7 en lugar de CE2'
+motivo: El descriptor CE7 no existe en Primaria. En el documento oficial, el bloque competencial 2 y el criterio 2.1 del tercer
+  ciclo llevan CE2; la exportación trae CE7. Se sustituye conservando el resto de descriptores.
+fuente:
+  documento: primaria-educacion-en-valores-civicos-y-eticos
+  fichero: fuentes/documentos/primaria/anexo_2_curriculo-valores-civicos-eticos.odt
+  sha256: 0e00f8a233f117bfeea46281a3a2957409e6786cae26ab573e82e4785616e770
+  ubicacion: Tercer ciclo, bloque competencial 2 (cabecera y criterio 2.1)
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: bc:PEDK05BC2
+  campo: descriptores
+  valor:
+  - CCL5
+  - CD3
+  - CC1
+  - CC2
+  - CE1
+  - CE2
+  - CP3
+  - CPSAA3
+  - CPSAA4
+  - CC3
+  - CCEC1
+- nodo: bc:PEDK06BC2
+  campo: descriptores
+  valor:
+  - CCL5
+  - CD3
+  - CC1
+  - CC2
+  - CE1
+  - CE2
+  - CP3
+  - CPSAA3
+  - CPSAA4
+  - CC3
+  - CCEC1
+- nodo: crit:PEDK05CE2.1
+  campo: descriptores
+  valor:
+  - CCL5
+  - CD3
+  - CC1
+  - CC2
+  - CE1
+  - CE2
+- nodo: crit:PEDK06CE2.1
+  campo: descriptores
+  valor:
+  - CCL5
+  - CD3
+  - CC1
+  - CC2
+  - CE1
+  - CE2
