@@ -10,22 +10,39 @@ los documentos oficiales y publica el resumen en la pestaña de la ejecución.
    nombre que tiene en la URL.
 2. Ejecuta `python -m herramientas.registrar_fuentes`: anota ruta, sha256 y fecha en el manifiesto.
 3. Revisa en el manifiesto las `materias` propuestas para ese documento.
-4. Para que se contraste, añade `secciones`: qué rótulo del documento corresponde a qué
-   materia y curso. Ejemplo (Matemáticas de ESO):
+4. Ejecuta `python -m herramientas.contrastar` y revisa `informes/contraste.md`.
 
-   ```yaml
-   secciones:
-     1.º ESO: {materia: SMAT, curso: '01'}
-     Matemáticas A: {materia: SMMA, curso: '04'}
-   ```
-5. Ejecuta `python -m herramientas.contrastar` y revisa `informes/contraste.md`.
+Las secciones del documento (qué rótulo corresponde a qué materia y curso) se deducen de
+los cursos de cada materia en `config/materias.csv`: «1.º ESO», «2.º Bachillerato»,
+«Tercer ciclo Educación Primaria» (que se contrasta con 5.º y 6.º)… Si varias materias del
+documento comparten curso (Matemáticas A y B en 4.º ESO), la sección se busca por su
+denominación. Solo si un documento usa otros rótulos hay que escribir `secciones` en el
+manifiesto; sustituyen a las deducidas:
 
-El lector de ODT está probado con el formato de las materias de ESO. Otros formatos
-(Infantil, Primaria, ámbitos) pueden necesitar ajustes en `herramientas/odt.py`.
+```yaml
+secciones:
+  1.º ESO: {materia: SMAT, curso: '01'}
+  Tercer ciclo Educación Primaria: [{materia: PMAT, curso: '05'}, {materia: PMAT, curso: '06'}]
+```
+
+El lector de ODT está probado con el formato de las materias de Primaria, ESO y
+Bachillerato. Infantil y los ámbitos pueden necesitar ajustes en `herramientas/odt.py`.
 
 ## Proponer una corrección
 
-Crea `correcciones/NNNN-descripcion-breve.yaml` (ver el formato en
+Los huecos del corpus que un documento permite rellenar (enunciados de competencia y textos
+de saber que faltan) no hace falta escribirlos a mano:
+
+```bash
+python -m herramientas.contrastar --proponer
+```
+
+escribe una corrección `propuesta` por documento, con la fuente y su sha256. Los saberes se
+emparejan por contenido, no por número; los tramos que no casan uno a uno aparecen en el
+informe como «revisar a mano». No toca las correcciones existentes ni repite nodos que ya
+cubren.
+
+Para el resto, crea `correcciones/NNNN-descripcion-breve.yaml` (ver el formato en
 `herramientas/correcciones.py` y los ejemplos 0001 y 0002) con `estado: propuesta`.
 La persona responsable del currículo la revisa y cambia el estado a `aprobada`, indicando
 `aprobada_por`. Después:

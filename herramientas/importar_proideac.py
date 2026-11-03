@@ -15,7 +15,7 @@ class Importacion:
     def __init__(self):
         self.nodos = OrderedDict()
         self.avisos = []
-        self.items_saber = set()
+        self.items_saber = {}  # código -> registro de la exportación
 
     def aviso(self, regla, nivel, nodo, detalle):
         self.avisos.append({'regla': regla, 'nivel': nivel, 'nodo': nodo, 'detalle': detalle})
@@ -186,9 +186,13 @@ def _importar_saber(imp, letra, etapa_id, cid, nn, mid, item, titulo_bloque):
         padre = id_k
     hoja = imp.nodos[f'sb:{cod}']
     if cod in imp.items_saber:
-        imp.aviso('codigo_duplicado', 'error', hoja['id'], 'Saber repetido en la exportación; se conserva el primero')
+        if imp.items_saber[cod] == item:
+            # Registro idéntico repetido: no se pierde nada al descartarlo.
+            imp.aviso('registro_repetido', 'aviso', hoja['id'], 'Saber repetido de forma idéntica en la exportación')
+        else:
+            imp.aviso('codigo_duplicado', 'error', hoja['id'], 'Saber repetido en la exportación; se conserva el primero')
         return
-    imp.items_saber.add(cod)
+    imp.items_saber[cod] = item
     numero = '.'.join(nums)
     textos = [item.get(c) for c in ('subtitulo_nivel_1', 'subtitulo_nivel_2', 'subtitulo_nivel_3') if item.get(c)]
     sin_numero = []
