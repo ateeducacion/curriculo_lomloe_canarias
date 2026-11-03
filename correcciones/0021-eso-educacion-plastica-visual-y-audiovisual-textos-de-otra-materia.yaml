@@ -1,0 +1,23 @@
+id: '0021'
+titulo: 'Educación Plástica, Visual y Audiovisual (Educación Secundaria Obligatoria): 3 textos de saber de otra materia'
+motivo: La exportación asigna a estos saberes un texto de otra materia (encabezados mezclados entre materias). Se toma el
+  texto del documento oficial en la misma posición. Generada con `contrastar --proponer`.
+fuente:
+  documento: eso-educacion-plastica-visual-y-audiovisual
+  fichero: fuentes/documentos/eso/Educacion_Plastica_Visual_y_Audiovisual_ESO.odt
+  sha256: 2725925a2b96dec2f2191c4e0527bb47139cc0a45c363157b7f4598a18670112
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: sb:SEUP03SBIII.1
+  campo: definition
+  valor: 'Estudio de factores y etapas del proceso creativo: elección de materiales y técnicas, realización de bocetos.'
+- nodo: sb:SEUP03SBIV.1
+  campo: definition
+  valor: Uso de la Imagen fija y en movimiento, origen y evolución. Introducción a las diferentes características del cómic,
+    la fotografía, el cine, la animación y los formatos digitales.
+- nodo: sb:SEUP03SBIV.2
+  campo: definition
+  valor: Aplicación de técnicas básicas para la realización de producciones audiovisuales sencillas, de forma individual
+    o en grupo. Experimentación en entornos virtuales de aprendizaje, incluidos los más cercanos.

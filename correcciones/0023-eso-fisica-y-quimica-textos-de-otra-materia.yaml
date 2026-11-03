@@ -1,0 +1,44 @@
+id: '0023'
+titulo: 'Física y Química (Educación Secundaria Obligatoria): 7 textos de saber de otra materia'
+motivo: La exportación asigna a estos saberes un texto de otra materia (encabezados mezclados entre materias). Se toma el
+  texto del documento oficial en la misma posición. Generada con `contrastar --proponer`.
+fuente:
+  documento: eso-fisica-y-quimica
+  fichero: fuentes/documentos/eso/Fisica_quimica_ESO.odt
+  sha256: 15a856ae13e6dd6415a1d9666e0afff3b822618e57d60ae72cd308c015c802b3
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: sb:SFYQ03SBI.2
+  campo: definition
+  valor: 'Trabajo experimental y proyectos de investigación: selección de estrategias en la resolución de problemas y en el
+    desarrollo de investigaciones mediante la indagación, la deducción y la búsqueda de evidencias, haciendo deducciones válidas
+    de las observaciones y obteniendo conclusiones.'
+- nodo: sb:SFYQ03SBI.3
+  campo: definition
+  valor: Conocimiento y utilización de diversos entornos y recursos de aprendizaje científico como el laboratorio o los entornos
+    virtuales para adquirir destrezas científicas.
+- nodo: sb:SFYQ03SBI.4
+  campo: definition
+  valor: Aplicación de las normas de uso de los espacios específicos de la ciencia y en especial del laboratorio de Física
+    y Química, asegurando y protegiendo así la salud propia y comunitaria, la seguridad en las redes y el respeto hacia el
+    medioambiente.
+- nodo: sb:SFYQ03SBI.7
+  campo: definition
+  valor: Valoración de la cultura científica y del papel de científicos y científicas en los principales hitos históricos
+    y actuales de la física y la química en el avance y la mejora de la sociedad.
+- nodo: sb:SFYQ03SBIII.3
+  campo: definition
+  valor: Aplicación de la ley de conservación de la masa para validar experimentalmente el modelo atómico-molecular de la
+    materia.
+- nodo: sb:SFYQ03SBIV.3
+  campo: definition
+  valor: Observación de situaciones cotidianas o de laboratorio que permiten entender cómo se comportan los sistemas materiales
+    ante la acción de las fuerzas y predecir los efectos de estas en situaciones cotidianas a partir de la aplicación de las
+    leyes de Newton.
+- nodo: sb:SFYQ03SBV.4
+  campo: definition
+  valor: Explicación de las formas de obtención de energía eléctrica y elaboración fundamentada de hipótesis sobre la repercusión
+    del uso de fuentes de energía renovables o no renovables. Concienciación sobre la necesidad del ahorro energético y la
+    conservación sostenible del medioambiente. Valoración del uso de la energía eléctrica en Canarias.

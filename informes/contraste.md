@@ -1,10 +1,67 @@
 # Contraste con los documentos oficiales
 
+## eso-cultura-y-ciudadania-digital — contrastado
+- texto de saber distinto: 4 (p. ej. sb:SCUJ03SBII.3, sb:SCUJ03SBIII.1, sb:SCUJ03SBIV.4, sb:SCUJ03SBV.4)
+- descripción de bloque de saberes distinto: 1 (p. ej. sb:SCUJ03SBV)
+- corregible desde el documento (textos de saber de otra materia): 3
+
+## eso-economia-personal-y-social — contrastado
+- texto de saber distinto: 2 (p. ej. sb:SECZ03SBI.3.3, sb:SECZ03SBIII.3)
+- corregible desde el documento (textos de saber de otra materia): 1
+
+## eso-educacion-fisica — contrastado
+- explicación de bloque distinto: 15 (p. ej. bc:SEFI02BC1, bc:SEFI02BC2, bc:SEFI02BC3, bc:SEFI02BC4, bc:SEFI02BC5)
+- corregible desde el documento (explicaciones de bloque copiadas de otro curso): 15
+
+## eso-educacion-plastica-visual-y-audiovisual — contrastado
+- explicación de bloque distinto: 16 (p. ej. bc:SEUP02BC1, bc:SEUP02BC2, bc:SEUP02BC3, bc:SEUP02BC4, bc:SEUP02BC5)
+- descriptores de bloque distinto: 3 (p. ej. bc:SEUP01BC2, bc:SEUP01BC5, bc:SEUP03BC2)
+- texto de saber distinto: 3 (p. ej. sb:SEUP03SBIII.1, sb:SEUP03SBIV.1, sb:SEUP03SBIV.2)
+- corregible desde el documento (textos de saber de otra materia): 3
+- corregible desde el documento (explicaciones de bloque copiadas de otro curso): 16
+
+## eso-fisica-y-quimica — contrastado
+- explicación de bloque distinto: 12 (p. ej. bc:SFYQ03BC1, bc:SFYQ03BC2, bc:SFYQ03BC3, bc:SFYQ03BC4, bc:SFYQ03BC5)
+- texto de saber distinto: 8 (p. ej. sb:SFYQ02SBI.5.2, sb:SFYQ03SBI.2, sb:SFYQ03SBI.3, sb:SFYQ03SBI.4, sb:SFYQ03SBI.7)
+- corregible desde el documento (textos de saber de otra materia): 7
+- corregible desde el documento (explicaciones de bloque copiadas de otro curso): 12
+
+## eso-geografia-e-historia — contrastado
+- explicación de bloque distinto: 25 (p. ej. bc:SGEH02BC1, bc:SGEH02BC2, bc:SGEH02BC3, bc:SGEH02BC4, bc:SGEH02BC5)
+- corregible desde el documento (explicaciones de bloque copiadas de otro curso): 25
+
+## eso-historia-y-geografia-de-canarias — contrastado
+- descriptores de bloque distinto: 3 (p. ej. bc:SHOF03BC3, bc:SHOF03BC4, bc:SHOF03BC6)
+- texto de saber distinto: 2 (p. ej. sb:SHOF03SBII.4, sb:SHOF03SBIII.1)
+- explicación de bloque distinto: 1 (p. ej. bc:SHOF03BC1)
+- corregible desde el documento (textos de saber de otra materia): 2
+
+## eso-lengua-castellana-y-literatura — contrastado
+- explicación de bloque distinto: 30 (p. ej. bc:SLCL02BC1, bc:SLCL02BC2, bc:SLCL02BC3, bc:SLCL02BC4, bc:SLCL02BC5)
+- descripción de bloque de saberes distinto: 7 (p. ej. sb:SLCL01SBII, sb:SLCL02SBII, sb:SLCL02SBIV, sb:SLCL03SBII, sb:SLCL03SBIV)
+- título de bloque de saberes distinto: 6 (p. ej. sb:SLCL01SBII, sb:SLCL02SBII, sb:SLCL02SBIV, sb:SLCL03SBII, sb:SLCL03SBIV)
+- descriptores de bloque distinto: 2 (p. ej. bc:SLCL03BC2, bc:SLCL03BC3)
+- texto de saber distinto: 2 (p. ej. sb:SLCL03SBI.2, sb:SLCL04SBIV.2)
+- corregible desde el documento (título y descripción de los bloques de saberes): 12
+- corregible desde el documento (explicaciones de bloque copiadas de otro curso): 30
+
+## eso-lengua-extranjera — contrastado
+- explicación de bloque distinto: 18 (p. ej. bc:SLNT02BC1, bc:SLNT02BC2, bc:SLNT02BC3, bc:SLNT02BC4, bc:SLNT02BC5)
+- texto de saber distinto: 6 (p. ej. sb:SLNT03SBI.2, sb:SLNT03SBI.3, sb:SLNT03SBII.2, sb:SLNT03SBII.3, sb:SLNT03SBIII.1)
+- corregible desde el documento (textos de saber de otra materia): 6
+- corregible desde el documento (explicaciones de bloque copiadas de otro curso): 18
+
 ## eso-matematicas — contrastado
 Sin diferencias.
 
+## eso-segunda-lengua-extranjera — contrastado
+- explicación de bloque distinto: 54 (p. ej. bc:SSGA02BC1, bc:SSGA02BC2, bc:SSGA02BC3, bc:SSGA02BC4, bc:SSGA02BC5)
+- enunciado de competencia distinto: 12 (p. ej. ce:SSGAC2, ce:SSGDC2, ce:SSGNC2, ce:SSGAC2, ce:SSGDC2)
+- corregible desde el documento (explicaciones de bloque copiadas de otro curso): 54
+
 ## eso-tecnologia-y-digitalizacion — contrastado
 - explicación de bloque distinto: 14 (p. ej. bc:SUEC02BC1, bc:SUEC02BC2, bc:SUEC02BC3, bc:SUEC02BC4, bc:SUEC02BC5)
+- corregible desde el documento (explicaciones de bloque copiadas de otro curso): 14
 
 ## primaria-educacion-en-valores-civicos-y-eticos — contrastado
 - texto de saber distinto: 42 (p. ej. sb:PEDK05SBI.2, sb:PEDK05SBI.3, sb:PEDK05SBI.4, sb:PEDK05SBI.5, sb:PEDK05SBI.7)
@@ -15,6 +72,14 @@ Sin diferencias.
 - nodo del corpus que no está en el documento: 6 (p. ej. sb:PEDK05SBII.3.8, sb:PEDK05SBII.3.9, sb:PEDK05SBII.3.10, sb:PEDK06SBII.3.8, sb:PEDK06SBII.3.9)
 - falta en el corpus: texto de saber: 2 (p. ej. sb:PEDK05SBII.2.4, sb:PEDK06SBII.2.4)
 
+## primaria-educacion-fisica — contrastado
+- explicación de bloque distinto: 30 (p. ej. bc:PEFI01BC1, bc:PEFI01BC2, bc:PEFI01BC3, bc:PEFI01BC4, bc:PEFI01BC5)
+- texto de saber distinto: 24 (p. ej. sb:PEFI01SBIII.2, sb:PEFI01SBIV.4, sb:PEFI01SBV.2, sb:PEFI02SBIII.2, sb:PEFI02SBIV.4)
+- descriptores de bloque distinto: 12 (p. ej. bc:PEFI01BC1, bc:PEFI01BC3, bc:PEFI01BC4, bc:PEFI01BC5, bc:PEFI02BC1)
+- texto de criterio distinto: 8 (p. ej. crit:PEFI03CE1.1, crit:PEFI03CE2.2, crit:PEFI04CE1.1, crit:PEFI04CE2.2, crit:PEFI05CE1.1)
+- descripción de bloque de saberes distinto: 6 (p. ej. sb:PEFI01SBIII, sb:PEFI02SBIII, sb:PEFI03SBIII, sb:PEFI04SBIII, sb:PEFI05SBIII)
+- corregible desde el documento (explicaciones de bloque copiadas de otro curso): 12
+
 ## primaria-matematicas — contrastado
 - texto de saber distinto: 98 (p. ej. sb:PMAT01SBI.2.3, sb:PMAT01SBI.2.4, sb:PMAT01SBI.2.5, sb:PMAT01SBI.2.6, sb:PMAT01SBI.2.7)
 - texto de criterio distinto: 46 (p. ej. crit:PMAT01CE3.1, crit:PMAT01CE3.2, crit:PMAT01CE4.2, crit:PMAT01CE5.1, crit:PMAT01CE6.1)
@@ -22,6 +87,7 @@ Sin diferencias.
 - falta en el corpus: texto de saber: 16 (p. ej. sb:PMAT01SBI.2.12, sb:PMAT01SBI.2.13, sb:PMAT01SBI.2.14, sb:PMAT01SBI.2.15, sb:PMAT02SBI.2.12)
 - nodo del corpus que no está en el documento: 14 (p. ej. sb:PMAT01SBI.2.2.1, sb:PMAT01SBI.2.2.2, sb:PMAT01SBI.2.2.3, sb:PMAT01SBI.2.2.4, sb:PMAT02SBI.2.2.1)
 - descriptores de criterio distinto: 1 (p. ej. crit:PMAT02CE1.1)
+- corregible desde el documento (explicaciones de bloque copiadas de otro curso): 4
 
 ## bachillerato-filosofia — contrastado
 - descriptores de bloque distinto: 3 (p. ej. bc:BFIL01BC4, bc:BFIL01BC7, bc:BFIL01BC9)

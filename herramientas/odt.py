@@ -130,9 +130,12 @@ def leer(ruta, secciones):
                 modo = 'sb'
             elif modo == 'sb' and RE_ROMANO.match(x):
                 m = RE_ROMANO.match(x)
-                bloque = {'romano': m.group(1), 'titulo': m.group(2).strip(), 'hijos': []}
+                bloque = {'romano': m.group(1), 'titulo': m.group(2).strip(), 'descripcion': None, 'hijos': []}
                 actual['saberes'].append(bloque)
                 pila = [bloque]
+            elif modo == 'sb' and pila and not pila[0]['hijos'] and pila[0]['descripcion'] is None:
+                # Párrafo entre el título del bloque y sus saberes (p. ej. Lengua Castellana, ESO).
+                pila[0]['descripcion'] = x
             else:
                 doc['avisos'].append(f'Párrafo no clasificado: {x[:70]}')
         elif tipo == 'tabla' and actual is not None and modo == 'bc':

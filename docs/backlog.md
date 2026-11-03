@@ -96,15 +96,25 @@ Notas de la aprobación:
 Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`, y las 175
 `explicacion_repetida_entre_cursos`. **Depende de** 2.2–2.4.
 
-- [ ] **3.1 Descargar y registrar el segundo lote**:
+- [x] **3.1 Descargar y registrar el segundo lote**:
   - ESO: Lengua Extranjera, Física y Química, Historia y Geografía de Canarias, Cultura y
     Ciudadanía Digital, Lengua Castellana y Literatura, Educación Plástica, Segunda Lengua
     Extranjera, Educación Física, Geografía e Historia, Economía Personal y Social.
   - Primaria: Educación Física.
-- [ ] **3.2 Contrastar y proponer correcciones** de los textos mezclados entre materias.
-- [ ] **3.3 Clasificar las explicaciones repetidas entre cursos**: corrección si el ODT las
-  distingue; nota justificativa si también son iguales en el ODT.
-- [ ] **3.4 Aprobación** y reconstrucción.
+
+  Hecho (03-11-2026). El lector ya admite descripciones de bloque de saberes (Lengua
+  Castellana) y rótulos de curso compartidos por varias materias (Segunda Lengua Extranjera).
+- [x] **3.2 Contrastar y proponer correcciones** de los textos mezclados entre materias.
+  Hecho: `contrastar --proponer` detecta además textos de saber de otra materia, explicaciones
+  copiadas de otro curso y bloques con título y descripción juntos. Correcciones 0017–0033
+  (generadas) y 0034–0035 (manuales), pendientes de aprobación. Con todas aprobadas, 107 de
+  los 110 avisos `encabezado_no_corresponde` y `texto_en_conflicto` quedan explicados (el nodo
+  coincide con el documento). Los avisos seguirán apareciendo porque los produce el importador
+  al leer la exportación; los otros 3 son de Educación Física de Primaria (ver 3.7).
+- [x] **3.3 Clasificar las explicaciones repetidas entre cursos** de las materias descargadas:
+  las 196 que el documento distingue se corrigen (avisos: de 171 a 110). Los 110 que quedan
+  son de materias sin documento descargado: se revisarán al contrastarlas (5.1).
+- [ ] **3.4 Aprobación** de 0017–0035 y reconstrucción.
 - [ ] **3.5 Códigos incoherentes con la numeración del texto**: 88 registros de la exportación
   (casi todos de 3.º ESO, más Historia de Canarias y Bioestadística) tienen un código cuyo
   apartado no coincide con el número de su encabezado. Hoy el importador solo reconstruye el
@@ -112,9 +122,15 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
 - [ ] **3.6 Comparar saberes por contenido en el informe de contraste**, como ya hace
   `--proponer`: la comparación por número da falsos positivos cuando la exportación y el
   documento anidan distinto (Matemáticas de Primaria, Filosofía).
-- [ ] **3.7 Diferencias de versión**: en Educación en Valores Cívicos y Éticos de Primaria
-  el ODT y la exportación difieren en muchos textos y descriptores. Comprobar cuál
-  corresponde al Decreto 211/2022 publicado en el BOC.
+- [ ] **3.7 Diferencias de versión**: en Educación en Valores Cívicos y Éticos y en Educación
+  Física de Primaria, el ODT y la exportación difieren en muchos textos, explicaciones y
+  descriptores. Comprobar cuál corresponde al Decreto 211/2022 publicado en el BOC.
+- [ ] **3.8 Descriptores de bloque**: en Plástica, Historia de Canarias, Lengua Castellana y
+  Educación Física de Primaria los descriptores de algunos bloques no coinciden con la
+  cabecera de la tabla del documento. Comprobar si el importador los toma de los criterios.
+- [ ] **3.9 Restos menores**: dobles espacios o espacios de no separación (Economía Personal y
+  Social, Física y Química, Cultura y Ciudadanía Digital) y una descripción de bloque truncada
+  en Cultura y Ciudadanía Digital (`sb:SCUJ03SBV`).
 
 ## Fase 4 — Completar la configuración y las decisiones
 

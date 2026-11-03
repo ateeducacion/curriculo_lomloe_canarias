@@ -1,0 +1,23 @@
+id: '0017'
+titulo: 'Cultura y Ciudadanía Digital (Educación Secundaria Obligatoria): 3 textos de saber de otra materia'
+motivo: La exportación asigna a estos saberes un texto de otra materia (encabezados mezclados entre materias). Se toma el
+  texto del documento oficial en la misma posición. Generada con `contrastar --proponer`.
+fuente:
+  documento: eso-cultura-y-ciudadania-digital
+  fichero: fuentes/documentos/eso/Cultura_y_Ciudadania_digital_ESO.odt
+  sha256: 74b4390fcf70fca13056a338916cbfab9ca3e8abfee26b5192887fe5ae9ac768
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: sb:SCUJ03SBII.3
+  campo: definition
+  valor: Desarrollo de formas de expresión a través de la creación de medios digitales.
+- nodo: sb:SCUJ03SBIII.1
+  campo: definition
+  valor: 'Conocimiento y aplicación de estrategias de pensamiento computacional y programación. Generación de secuencias de
+    instrucciones o algoritmos sencillos, para resolver problemas o ejecutar tareas simples o rutinarias, siguiendo, entre
+    otras, la rutina de pensamiento: «Pienso, programo, pruebo».'
+- nodo: sb:SCUJ03SBIV.4
+  campo: definition
+  valor: Adquisición y aplicación de estrategias para construir una identidad digital positiva.

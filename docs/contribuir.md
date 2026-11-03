@@ -37,10 +37,12 @@ de saber que faltan) no hace falta escribirlos a mano:
 python -m herramientas.contrastar --proponer
 ```
 
-escribe una corrección `propuesta` por documento, con la fuente y su sha256. Los saberes se
-emparejan por contenido, no por número; los tramos que no casan uno a uno aparecen en el
-informe como «revisar a mano». No toca las correcciones existentes ni repite nodos que ya
-cubren.
+escribe una corrección `propuesta` por documento y tipo de error, con la fuente y su sha256.
+Tipos: textos ausentes en la exportación, explicaciones de bloque copiadas de otro curso,
+textos de saber de otra materia y bloques de saberes con título y descripción juntos (ver
+`CATEGORIAS` en `herramientas/contrastar.py`). Los saberes sin texto se emparejan por
+contenido, no por número; los tramos que no casan uno a uno aparecen en el informe como
+«revisar a mano». No toca las correcciones existentes ni repite cambios que ya cubren.
 
 Para el resto, crea `correcciones/NNNN-descripcion-breve.yaml` (ver el formato en
 `herramientas/correcciones.py` y los ejemplos 0001 y 0002) con `estado: propuesta`.
