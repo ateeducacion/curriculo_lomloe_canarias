@@ -77,19 +77,19 @@ Tareas:
   el de Tecnología y Digitalización era un registro idéntico (ahora es un aviso) y el de
   Bioestadística, un saber de III.3 exportado como III.1.1 (ahora se reconstruye su código a
   partir del texto). Simulando la aprobación de todas se resuelven las 140 incidencias.
-- [ ] **2.6 Aprobación** de las correcciones (0001, 0002 y las nuevas) por la persona responsable
-  del currículo (`estado: aprobada`, `aprobada_por`).
-- [ ] **2.7 Reconstruir y vaciar** `config/incidencias_aceptadas.yaml`:
+- [x] **2.6 Aprobación** de las correcciones (0001, 0002 y las nuevas) por la persona responsable
+  del currículo (`estado: aprobada`, `aprobada_por`). Hecho: 0001–0016 aprobadas el 03-11-2026.
+- [x] **2.7 Reconstruir y vaciar** `config/incidencias_aceptadas.yaml`:
   `python -m herramientas.construir` y retirar las incidencias resueltas.
-  Cierre: lista vacía y CI en verde. **Depende de** 2.6.
+  Cierre: lista vacía y CI en verde. **Depende de** 2.6. Hecho: el corpus no tiene ningún error.
 
-Puntos para la persona que aprueba:
+Notas de la aprobación:
 
-- 0015 (Filosofía III.1.8) conserva los códigos planos de ProIDEAC y crea III.1.8.7; el
-  documento anida tres de esos saberes bajo III.1.8.4. Decidir si se respeta la jerarquía
-  del documento (cambia identificadores).
-- 0012 (Cultura Científica): el documento oficial repite «Contaminación lumínica» en
-  II.2.4.1 y II.2.4.3. Probable errata del documento; confirmar el texto correcto.
+- 0015 (Filosofía III.1.8) se aprueba con los códigos planos de ProIDEAC y el nuevo III.1.8.7,
+  aunque el documento anida tres de esos saberes bajo III.1.8.4. Si se decide respetar la
+  jerarquía del documento, hará falta otra corrección (cambia identificadores).
+- 0012 (Cultura Científica) se aprueba con el texto del documento, que repite «Contaminación
+  lumínica» en II.2.4.1 y II.2.4.3. Queda por confirmar con la Consejería si es una errata.
 
 ## Fase 3 — Revisar las materias con encabezados contaminados
 

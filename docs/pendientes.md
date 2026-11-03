@@ -11,15 +11,13 @@ Las tareas para resolverlo, en orden, en [`backlog.md`](backlog.md).
   cadena con formato de credencial. Conviene que el proceso de exportación de ProIDEAC no
   vuelva a introducir valores de este tipo.
 
-## Errores heredados de la exportación (aceptados provisionalmente)
+## Errores heredados de la exportación
 
-Correcciones 0003–0016 propuestas (pendientes de aprobación): resuelven las 138 restantes.
-
-| Regla | Casos | Qué ocurre | Cómo se resuelve |
-|---|---|---|---|
-| `ce_sin_enunciado` | 39 | Matemáticas (Primaria, ESO y Bachillerato) y Bioestadística: los bloques competenciales agrupan dos competencias y la exportación solo conserva el enunciado de la primera | Correcciones desde los ODT. Las de Matemáticas ESO ya están propuestas (0001) |
-| `saber_sin_texto` | 95 | Saberes de tercer nivel (p. ej. `BCUF01SBII.2.4.1`) cuyo texto no está en la exportación | Correcciones desde los ODT |
-| `descriptor_desconocido` | 4 | Descriptor `CE7` en Educación en Valores Cívicos y Éticos de Primaria (5.º y 6.º) | Comprobar en el ODT qué descriptor es |
+Resueltos. Los 140 errores de la primera construcción se han corregido desde los documentos
+oficiales (correcciones 0001–0016, aprobadas el 03-11-2026) y con dos reglas del importador
+(registros repetidos y códigos reconstruidos a partir del apartado). `config/incidencias_aceptadas.yaml`
+está vacío. Quedan dos dudas de la aprobación (Filosofía III.1.8 y una posible errata en Cultura
+Científica): ver la fase 2 de [`backlog.md`](backlog.md).
 
 ## Avisos relevantes
 
