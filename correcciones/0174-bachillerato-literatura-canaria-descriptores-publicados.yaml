@@ -1,0 +1,72 @@
+id: '0174'
+titulo: 'Literatura Canaria (Bachillerato): 5 descriptores publicados en el BOC'
+motivo: Los descriptores de estos criterios no coinciden con los del documento oficial, y la lista del documento es la que
+  figura completa en el BOC (fuentes/boletines). Los de cada bloque se recalculan como la unión de los de sus criterios, igual
+  que hace el importador. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-literatura-canaria
+  fichero: fuentes/documentos/bachillerato/Literatura_Canaria_BACH.odt
+  sha256: 23fa11b62597706ad68b8269a5aa939a82ed93dc5d1e642e39d73bd51552229d
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: bc:BLCA02BC1
+  campo: descriptores
+  valor:
+  - CCL1
+  - CCL2
+  - CCL4
+  - CC1
+  - CCEC1
+  - CCL3
+  - STEM5
+  - CCEC2
+- nodo: bc:BLCA02BC4
+  campo: descriptores
+  valor:
+  - CCL1
+  - CCL2
+  - CCL3
+  - STEM5
+  - CPSAA5
+  - CC4
+  - CCEC2
+  - CCL5
+  - CP3
+  - CD2
+  - CD3
+  - CPSAA3.1
+  - CPSAA3.2
+  - CCEC4.1
+- nodo: crit:BLCA02CE1.2
+  campo: descriptores
+  valor:
+  - CCL3
+  - STEM5
+  - CC1
+  - CCEC2
+- nodo: crit:BLCA02CE4.1
+  campo: descriptores
+  valor:
+  - CCL1
+  - CCL2
+  - CCL3
+  - STEM5
+  - CPSAA5
+  - CC4
+  - CCEC2
+- nodo: crit:BLCA02CE4.2
+  campo: descriptores
+  valor:
+  - CCL1
+  - CCL3
+  - CCL5
+  - CP3
+  - STEM5
+  - CD2
+  - CD3
+  - CPSAA3.1
+  - CPSAA3.2
+  - CCEC2
+  - CCEC4.1

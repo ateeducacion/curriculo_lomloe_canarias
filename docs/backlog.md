@@ -133,9 +133,15 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
   Hecho (04-11-2026): los ODT son la versión publicada. En Primaria, donde difieren, el texto
   del ODT está en el BOC y el de la exportación no en 410 casos, y al revés en 6. Los textos
   de los cinco decretos están en `fuentes/boletines/` y `contrastar --proponer` los usa (5.1).
-- [ ] **3.8 Descriptores de bloque**: en Plástica, Historia de Canarias, Lengua Castellana y
+- [x] **3.8 Descriptores de bloque**: en Plástica, Historia de Canarias, Lengua Castellana y
   Educación Física de Primaria los descriptores de algunos bloques no coinciden con la
   cabecera de la tabla del documento. Comprobar si el importador los toma de los criterios.
+  Hecho (04-11-2026): sí, el corpus calcula los del bloque como la unión de los de sus
+  criterios. El contraste compara el bloque con esa unión en el documento; en 97 bloques es
+  la cabecera del documento la que no cuadra con sus propios criterios, y eso se anota como
+  incoherencia del documento, no como diferencia del corpus. Los descriptores de criterio se
+  deciden con el BOC (lista completa): correcciones 0166–0175. Errata en el BOC: «CCE3» en
+  Lengua Castellana de 1.º y 2.º de Primaria (criterio 7.2), que se deja como está.
 - [ ] **3.9 Restos menores**: dobles espacios o espacios de no separación (Economía Personal y
   Social, Física y Química, Cultura y Ciudadanía Digital) y una descripción de bloque truncada
   en Cultura y Ciudadanía Digital (`sb:SCUJ03SBV`).

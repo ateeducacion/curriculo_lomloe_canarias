@@ -1,0 +1,44 @@
+id: '0170'
+titulo: 'Lengua Extranjera (Educación Primaria): 4 descriptores publicados en el BOC'
+motivo: Los descriptores de estos criterios no coinciden con los del documento oficial, y la lista del documento es la que
+  figura completa en el BOC (fuentes/boletines). Los de cada bloque se recalculan como la unión de los de sus criterios, igual
+  que hace el importador. Generada con `contrastar --proponer`.
+fuente:
+  documento: primaria-lengua-extranjera
+  fichero: fuentes/documentos/primaria/anexo_2__curriculo-lengua-extranjera.odt
+  sha256: 6baef7fe62a16acfc2ccb342f736e6c8765a3cd9c60de08a28f08b94cffd26e9
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: bc:PLNT03BC4
+  campo: descriptores
+  valor:
+  - CCL5
+  - CP1
+  - CP3
+  - CPSAA1
+  - CPSAA3
+  - CCEC1
+  - CP2
+  - STEM1
+- nodo: bc:PLNT04BC4
+  campo: descriptores
+  valor:
+  - CCL5
+  - CP1
+  - CP3
+  - CPSAA1
+  - CPSAA3
+  - CCEC1
+  - CP2
+  - STEM1
+- nodo: crit:PLNT03CE4.2
+  campo: descriptores
+  valor: &id001
+  - CP2
+  - STEM1
+  - CPSAA3
+- nodo: crit:PLNT04CE4.2
+  campo: descriptores
+  valor: *id001

@@ -1,0 +1,42 @@
+id: '0166'
+titulo: 'Ámbito Científico-Tecnológico (Educación Secundaria Obligatoria): 2 descriptores publicados en el BOC'
+motivo: Los descriptores de estos criterios no coinciden con los del documento oficial, y la lista del documento es la que
+  figura completa en el BOC (fuentes/boletines). Los de cada bloque se recalculan como la unión de los de sus criterios, igual
+  que hace el importador. Generada con `contrastar --proponer`.
+fuente:
+  documento: eso-ambito-cientifico-tecnologico
+  fichero: fuentes/documentos/eso/anexo_2_curriculo_pdc_eso_ACT.odt
+  sha256: 64d8f26e9c715b667e231f20a70e91c7e1e54cfc4389a09e25d10a7ca5afe6e9
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: bc:SAMB04BC6
+  campo: descriptores
+  valor:
+  - CCL2
+  - CCL3
+  - STEM1
+  - STEM2
+  - STEM3
+  - CD1
+  - CD4
+  - CPSAA2
+  - CC3
+  - CC4
+  - CE1
+  - STEM5
+- nodo: crit:SAMB04CE6.1
+  campo: descriptores
+  valor:
+  - CCL2
+  - CCL3
+  - STEM1
+  - STEM2
+  - STEM3
+  - CD1
+  - CD4
+  - CPSAA2
+  - CC3
+  - CC4
+  - CE1

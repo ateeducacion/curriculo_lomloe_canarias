@@ -24,7 +24,7 @@ import yaml
 
 from . import boletin, odt
 from .comun import (CORRECCIONES, ETAPAS, FUENTES, INFORMES, escribir_json, leer_json, leer_yaml,
-                    materias_config, sha256)
+                    descriptores_por_etapa, materias_config, sha256)
 
 CICLOS = {1: 'Primer', 2: 'Segundo', 3: 'Tercer'}
 
@@ -46,6 +46,10 @@ CATEGORIAS = {
                    'El texto de la exportación solo difiere del documento oficial en la puntuación, y la del '
                    'documento es la que figura en el BOC (comprobado contra fuentes/boletines). Revisar con '
                    'atención: en las tablas, el texto extraído del BOC intercala los descriptores.'),
+    'descriptores': ('descriptores-publicados', 'descriptores publicados en el BOC',
+                     'Los descriptores de estos criterios no coinciden con los del documento oficial, y la lista del '
+                     'documento es la que figura completa en el BOC (fuentes/boletines). Los de cada bloque se '
+                     'recalculan como la unión de los de sus criterios, igual que hace el importador.'),
     'espacios': ('espacios', 'textos que solo difieren en espacios',
                  'El texto de la exportación solo difiere del documento oficial en espacios (dobles, de no '
                  'separación o al principio o final). Se toma el del documento.'),
@@ -133,7 +137,9 @@ def contrastar(nodos, manifiesto, materias=None):
                 leido['avisos'].append('Materias y cursos sin sección en el documento: '
                                        + ', '.join(m + n for m, n in faltan))
             secciones = {r: secciones[r] for r in leido['secciones']}
-        dif, huecos, revisar, explicaciones, textos = [], {}, [], {}, []
+        dif, huecos, revisar, explicaciones, textos, avisos_doc = [], {}, [], {}, [], []
+        bol = boletin.de_norma(manifiesto, doc.get('norma'))
+        conocidos = descriptores_por_etapa().get(ETAPAS[doc['etapa']][0], set())
 
         def d(tipo, nodo, detalle=''):
             dif.append({'tipo': tipo, 'nodo': nodo, 'detalle': detalle})
@@ -158,13 +164,11 @@ def contrastar(nodos, manifiesto, materias=None):
                     _cmp(d, nodos, bc, 'scopeNote', b['explicacion'], 'explicación de bloque', textos)
                     if bc in nodos and b['explicacion']:
                         explicaciones[bc] = b['explicacion']
-                    _cmp(d, nodos, bc, 'descriptores', b['descriptores'], 'descriptores de bloque')
+                    _descriptores_bloque(d, nodos, bc, b, pref, nn, bol, conocidos, huecos, avisos_doc)
                 for cr in b['criterios']:
                     cid = f'crit:{pref}{nn}CE{cr["num"]}'
                     vistos.add(cid)
                     _cmp(d, nodos, cid, 'definition', cr['texto'], 'texto de criterio', textos)
-                    if cr['descriptores'] is not None:
-                        _cmp(d, nodos, cid, 'descriptores', cr['descriptores'], 'descriptores de criterio')
             for b in sec['saberes']:
                 base = f'sb:{pref}{nn}SB{b["romano"]}'
                 vistos.add(base)
@@ -186,14 +190,68 @@ def contrastar(nodos, manifiesto, materias=None):
                 if nid.startswith(prefijos) and nid not in vistos:
                     d('nodo del corpus que no está en el documento', nid)
         _explicaciones_copiadas(nodos, explicaciones, huecos)
-        _version_publicada(nodos, textos, boletin.de_norma(manifiesto, doc.get('norma')), huecos)
+        _version_publicada(nodos, textos, bol, huecos)
         resultados.append({'documento': doc['id'], 'estado': 'contrastado', 'avisos_lectura': leido['avisos'],
-                           'diferencias': dif, 'huecos': list(huecos.values()), 'revisar': revisar})
+                           'diferencias': dif, 'huecos': list(huecos.values()), 'revisar': revisar,
+                           'avisos_documento': avisos_doc})
     return resultados
 
 
 def _hueco(huecos, categoria, nodo, campo, valor):
     huecos[(nodo, campo)] = {'categoria': categoria, 'nodo': nodo, 'campo': campo, 'valor': valor}
+
+
+def _union(listas):
+    """Unión de listas de descriptores conservando el orden de aparición, como el importador."""
+    salida = []
+    for lista in listas:
+        salida += [x for x in lista if x not in salida]
+    return salida
+
+
+def _descriptores_bloque(d, nodos, bc, b, pref, nn, bol, conocidos, huecos, avisos_doc):
+    """Descriptores de los criterios de un bloque y del propio bloque.
+
+    El corpus calcula los del bloque como la unión de los de sus criterios. Por eso el bloque
+    se compara con esa unión en el documento, no con la cabecera de su tabla; si la cabecera
+    no cuadra con los criterios, o trae códigos que no existen, es una incoherencia del
+    documento y se anota aparte. En Infantil los criterios no llevan descriptores y el
+    bloque se compara con la cabecera.
+    """
+    criterios = [(f'crit:{pref}{nn}CE{cr["num"]}', cr['descriptores']) for cr in b['criterios']]
+    con_descriptores = [(cid, ds) for cid, ds in criterios if ds is not None and cid in nodos]
+    for cid, ds in con_descriptores:
+        actual = nodos[cid].get('descriptores') or []
+        if set(actual) == set(ds):
+            continue
+        d('descriptores de criterio distinto', cid, f'documento: {ds}')
+        desconocidos = [x for x in ds if x not in conocidos]
+        if desconocidos:
+            # Errata en el propio documento (y en el BOC, p. ej. «CCE3»): no se puede saber qué código era.
+            avisos_doc.append(f'{cid}: los descriptores del criterio traen códigos que no existen: {", ".join(desconocidos)}')
+        elif bol is not None and bol.contiene_descriptores(ds) and not bol.contiene_descriptores(actual):
+            _hueco(huecos, 'descriptores', cid, 'descriptores', ds)
+    if bc not in nodos:
+        return
+    cabecera = b['descriptores']
+    desconocidos = [x for x in cabecera if x not in conocidos]
+    if desconocidos:
+        avisos_doc.append(f'{bc}: la cabecera del bloque trae códigos que no existen: {", ".join(desconocidos)}')
+    if con_descriptores:
+        esperado = _union(ds for _, ds in con_descriptores)
+        if set(cabecera) != set(esperado):
+            avisos_doc.append(f'{bc}: la cabecera del bloque no coincide con sus criterios '
+                              f'(cabecera: {", ".join(cabecera)}; criterios: {", ".join(esperado)})')
+    else:
+        esperado = [x for x in cabecera if x in conocidos]
+    actual = nodos[bc].get('descriptores') or []
+    if set(actual) == set(esperado):
+        return
+    d('descriptores de bloque distinto', bc, f'documento: {esperado}')
+    corregidos = [huecos[(cid, 'descriptores')]['valor'] if (cid, 'descriptores') in huecos
+                  else nodos[cid].get('descriptores') or [] for cid, _ in con_descriptores]
+    if con_descriptores and set(_union(corregidos)) == set(esperado):
+        _hueco(huecos, 'descriptores', bc, 'descriptores', esperado)
 
 
 def _version_publicada(nodos, textos, bol, huecos):
@@ -419,6 +477,9 @@ def informe_md(resultados):
                           f"saberes en ese tramo)")
         for a in r.get('avisos_lectura', []):
             lineas.append(f'- aviso de lectura: {a}')
+        if r.get('avisos_documento'):
+            lineas.append(f"- incoherencias del propio documento (no son diferencias del corpus): "
+                          f"{len(r['avisos_documento'])}, p. ej. {r['avisos_documento'][0]}")
         lineas.append('')
     return '\n'.join(lineas)
 

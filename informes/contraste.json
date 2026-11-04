@@ -5,11 +5,6 @@
     "avisos_lectura": [],
     "diferencias": [
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SBIG01BC3",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'STEM1', 'STEM2', 'STEM3', 'STEM4', 'CD1', 'CD2', 'CPSA\""
-      },
-      {
         "tipo": "enunciado de competencia distinto",
         "nodo": "ce:SBIGC6",
         "detalle": "documento: 'Analizar los elementos de un paisaje concreto valorándolo como patrimonio natura'"
@@ -18,11 +13,6 @@
         "tipo": "enunciado de competencia distinto",
         "nodo": "ce:SBIGC6",
         "detalle": "documento: 'Analizar los elementos de un paisaje concreto valorándolo como patrimonio natura'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SBIG04BC3",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'STEM1', 'STEM2', 'STEM3', 'STEM4', 'CD1', 'CD2', 'CPSA\""
       },
       {
         "tipo": "enunciado de competencia distinto",
@@ -31,7 +21,11 @@
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:SBIG01BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CPSAA3, CC3; criterios: CCL1, CCL3, STEM1, STEM2, STEM3, STEM4, CCL2, CE3, CD1, CPSAA3, CD2)",
+      "bc:SBIG04BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CPSAA3, CE3; criterios: CCL1, CCL3, STEM1, STEM2, CD1, CCL2, STEM3, CD2, CD3, STEM4, CE3, CPSAA3)"
+    ]
   },
   {
     "documento": "eso-cultura-clasica",
@@ -39,7 +33,8 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "eso-cultura-y-ciudadania-digital",
@@ -58,7 +53,8 @@
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "eso-digitalizacion",
@@ -66,7 +62,8 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "eso-economia-personal-y-social",
@@ -74,7 +71,8 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "eso-economia-y-emprendimiento",
@@ -88,21 +86,19 @@
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "eso-educacion-en-valores-civicos-y-eticos",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SEDK01BC2",
-        "detalle": "documento: \"['CCL5', 'CP3', 'CD3', 'CC1', 'CC2', 'CC3', 'CCEC1']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:SEDK01BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL5, CP3, CD3, CC1, CC2, CC3, CCEC1; criterios: CCL5, CD3, CC1, CC3, CP3, CC2, CD1, CCEC1)"
+    ]
   },
   {
     "documento": "eso-educacion-fisica",
@@ -110,45 +106,32 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "eso-educacion-plastica-visual-y-audiovisual",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SEUP01BC2",
-        "detalle": "documento: \"['CCL1', 'CPSAA1', 'CPSAA3', 'CC1', 'CC3', 'CCEC3']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SEUP01BC5",
-        "detalle": "documento: \"['CCL2', 'CPSAA1', 'CPSAA4', 'CC3', 'CCEC3', 'CCEC4']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SEUP03BC2",
-        "detalle": "documento: \"['CCL1', 'CPSAA1', 'CPSAA3', 'CC1', 'CC3', 'CCEC1']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:SEUP01BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CPSAA1, CPSAA3, CC1, CC3, CCEC3; criterios: CCL1, CPSAA1, CPSAA3, CC3, CC1, CCEC1, CCEC3)",
+      "bc:SEUP01BC5: la cabecera del bloque no coincide con sus criterios (cabecera: CCL2, CPSAA1, CPSAA4, CC3, CCEC3, CCEC4; criterios: CCL2, CPSAA4, CC3, CCEC3, CCEC4, CPSAA3)",
+      "bc:SEUP03BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CPSAA1, CPSAA3, CC1, CC3, CCEC1; criterios: CCL1, CPSAA1, CPSAA3, CC3, CC1, CCEC1, CCEC3)"
+    ]
   },
   {
     "documento": "eso-expresion-artistica",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SEXB04BC2",
-        "detalle": "documento: \"['CD2', 'CPSAA1', 'CC1', 'CC3', 'CE1', 'CCEC3', 'CCEC4']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:SEXB04BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CD2, CPSAA1, CC1, CC3, CE1, CCEC3, CCEC4; criterios: CD2, CC3, CCEC2, CPSAA1, CE1, CCEC3)"
+    ]
   },
   {
     "documento": "eso-filosofia",
@@ -156,7 +139,8 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "eso-fisica-y-quimica",
@@ -164,7 +148,8 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "eso-formacion-y-orientacion-personal-y-profesional",
@@ -172,7 +157,8 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "eso-geografia-e-historia",
@@ -180,31 +166,21 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "eso-historia-y-geografia-de-canarias",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SHOF03BC3",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'STEM2', 'CD1', 'CPSAA3', 'CC1', 'CC2', 'CC3', 'CC4', 'CE1']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SHOF03BC4",
-        "detalle": "documento: \"['CCL3', 'STEM2', 'STEM4', 'CD1', 'CD2', 'CPSAA3', 'CPSAA5', 'CC1', 'CE3', 'CCEC\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SHOF03BC6",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'CCL5', 'CD1', 'CD2', 'CC1', 'CC4', 'CCEC1', 'CCEC2']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:SHOF03BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL3, STEM2, CD1, CPSAA3, CC1, CC2, CC3, CC4, CE1; criterios: STEM3, CC1, CC2, CC3, CC4, CE1, STEM2, CCL1, CCL3, CD1, CPSAA3)",
+      "bc:SHOF03BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL3, STEM2, STEM4, CD1, CD2, CPSAA3, CPSAA5, CC1, CE3, CCEC1; criterios: CCL1, CCL2, CCL3, CP3, CD1, CD2, CPSAA3, CPSAA5, CC1, CE3, CCEC1, CCL5, CC2, CC3)",
+      "bc:SHOF03BC6: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL3, CCL5, CD1, CD2, CC1, CC4, CCEC1, CCEC2; criterios: CCL1, CP3, CC1, CC4, CCEC1, CCEC2, CCL3, CD1, CD2, CCEC4, CCL5)"
+    ]
   },
   {
     "documento": "eso-latin",
@@ -212,7 +188,8 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "eso-lengua-castellana-y-literatura",
@@ -220,23 +197,17 @@
     "avisos_lectura": [],
     "diferencias": [
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SLCL03BC2",
-        "detalle": "documento: \"['CCL2', 'CCL5', 'CP2', 'STEM1', 'CD1', 'CD2', 'CD3', 'CPSAA4', 'CE3']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SLCL03BC3",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'CCL5', 'STEM1', 'CD1', 'CD2', 'CD3', 'CPSAA4', 'CC2', 'CE1']\""
-      },
-      {
         "tipo": "texto de saber distinto",
         "nodo": "sb:SLCL04SBIV.2",
         "detalle": "documento: 'Análisis y valoración en uso de la lengua como sistema y de sus unidades básicas'"
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:SLCL03BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL2, CCL5, CP2, STEM1, CD1, CD2, CD3, CPSAA4, CE3; criterios: CCL2, CCL5, CP2, STEM1, CD1, CD2, CD3, CPSAA4, CC3)",
+      "bc:SLCL03BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL3, CCL5, STEM1, CD1, CD2, CD3, CPSAA4, CC2, CE1; criterios: CCL1, CCL3, STEM1, CD1, CD2, CD3, CPSAA4, CE1, CCL5, CP2, CC2)"
+    ]
   },
   {
     "documento": "eso-lengua-extranjera",
@@ -244,7 +215,8 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "eso-matematicas",
@@ -252,7 +224,8 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "eso-musica",
@@ -260,7 +233,8 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "eso-segunda-lengua-extranjera",
@@ -268,7 +242,8 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "eso-tecnologia",
@@ -276,7 +251,8 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "eso-tecnologia-y-digitalizacion",
@@ -284,7 +260,8 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "eso-ambito-linguistico-y-social",
@@ -295,11 +272,6 @@
         "tipo": "enunciado de competencia distinto",
         "nodo": "ce:SMBSC1",
         "detalle": "documento: 'Comprender, interpretar y producir textos orales, escritos y multimodales con fl'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SMBS03BC4",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL4', 'CPSAA4', 'CC1', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4']\""
       },
       {
         "tipo": "texto de saber distinto",
@@ -380,11 +352,6 @@
         "tipo": "explicación de bloque distinto",
         "nodo": "bc:SMBS04BC4",
         "detalle": "documento: 'A través de esta competencia se comprobará que el alumnado es capaz de seleccion'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SMBS04BC4",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL4', 'CPSAA4', 'CC1', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4']\""
       },
       {
         "tipo": "texto de saber distinto",
@@ -478,7 +445,11 @@
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:SMBS03BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL4, CPSAA4, CC1, CCEC1, CCEC2, CCEC3, CCEC4; criterios: CCL1, CCL2, CCL4, CC1, CCEC1, CCEC2, CD2, CPSAA4, CCEC3, CCEC4)",
+      "bc:SMBS04BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL4, CPSAA4, CC1, CCEC1, CCEC2, CCEC3, CCEC4; criterios: CCL1, CCL2, CCL4, CC1, CCEC1, CCEC2, CD2, CPSAA4, CCEC3, CCEC4)"
+    ]
   },
   {
     "documento": "eso-ambito-cientifico-tecnologico",
@@ -576,18 +547,57 @@
         "detalle": "documento: 'Este bloque competencial tiene el propósito de evaluar en el alumnado la capacid'"
       },
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SAMB04BC6",
-        "detalle": "documento: \"['CCL2', 'CCL3', 'STEM1', 'STEM2', 'STEM3', 'STEM5', 'CD1', 'CD4', 'CPSAA2', 'CC\""
-      },
-      {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:SAMB04CE6.1",
-        "detalle": "documento: \"['CCL2', 'CCL3', 'STEM1', 'STEM2', 'STEM3', 'CD1', 'CD4', 'CPSAA2', 'CC3', 'CC4'\""
+        "detalle": "documento: ['CCL2', 'CCL3', 'STEM1', 'STEM2', 'STEM3', 'CD1', 'CD4', 'CPSAA2', 'CC3', 'CC4', 'CE1']"
+      },
+      {
+        "tipo": "descriptores de bloque distinto",
+        "nodo": "bc:SAMB04BC6",
+        "detalle": "documento: ['CCL2', 'CCL3', 'STEM1', 'STEM2', 'STEM3', 'CD1', 'CD4', 'CPSAA2', 'CC3', 'CC4', 'CE1', 'STEM5']"
       }
     ],
-    "huecos": [],
-    "revisar": []
+    "huecos": [
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:SAMB04CE6.1",
+        "campo": "descriptores",
+        "valor": [
+          "CCL2",
+          "CCL3",
+          "STEM1",
+          "STEM2",
+          "STEM3",
+          "CD1",
+          "CD4",
+          "CPSAA2",
+          "CC3",
+          "CC4",
+          "CE1"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "bc:SAMB04BC6",
+        "campo": "descriptores",
+        "valor": [
+          "CCL2",
+          "CCL3",
+          "STEM1",
+          "STEM2",
+          "STEM3",
+          "CD1",
+          "CD4",
+          "CPSAA2",
+          "CC3",
+          "CC4",
+          "CE1",
+          "STEM5"
+        ]
+      }
+    ],
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "eso-ambito-practico",
@@ -605,14 +615,14 @@
         "detalle": "documento: 'A través de este bloque competencial se comprobará que el alumnado sea capaz de '"
       },
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SAM304BC4",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'CCL5', 'STEM4', 'CD1', 'CD2', 'CD3', 'CPSAA4', 'CPSAA5\""
-      },
-      {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:SAM304CE4.4",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL5', 'STEM4', 'CD3', 'CPSAA5']\""
+        "detalle": "documento: ['CCL1', 'CCL2', 'CCL5', 'STEM4', 'CD3', 'CPSAA5']"
+      },
+      {
+        "tipo": "descriptores de bloque distinto",
+        "nodo": "bc:SAM304BC4",
+        "detalle": "documento: ['CD2', 'CD3', 'CCL2', 'CCL3', 'CD1', 'CPSAA4', 'CC1', 'CCEC1', 'CCL1', 'CPSAA5', 'CE3', 'CCEC4', 'CCL5', 'STEM4']"
       },
       {
         "tipo": "falta en el corpus: texto de saber",
@@ -625,8 +635,44 @@
         "detalle": "documento: 'Configuración y montaje de los elementos que constituyen la arquitectura de los '"
       }
     ],
-    "huecos": [],
-    "revisar": []
+    "huecos": [
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:SAM304CE4.4",
+        "campo": "descriptores",
+        "valor": [
+          "CCL1",
+          "CCL2",
+          "CCL5",
+          "STEM4",
+          "CD3",
+          "CPSAA5"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "bc:SAM304BC4",
+        "campo": "descriptores",
+        "valor": [
+          "CD2",
+          "CD3",
+          "CCL2",
+          "CCL3",
+          "CD1",
+          "CPSAA4",
+          "CC1",
+          "CCEC1",
+          "CCL1",
+          "CPSAA5",
+          "CE3",
+          "CCEC4",
+          "CCL5",
+          "STEM4"
+        ]
+      }
+    ],
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "primaria-conocimiento-del-medio-natural-social-y-cultural",
@@ -1135,7 +1181,8 @@
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "primaria-educacion-artistica",
@@ -1224,7 +1271,8 @@
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "primaria-educacion-en-valores-civicos-y-eticos",
@@ -1232,19 +1280,24 @@
     "avisos_lectura": [],
     "diferencias": [
       {
+        "tipo": "descriptores de criterio distinto",
+        "nodo": "crit:PEDK05CE1.1",
+        "detalle": "documento: ['CCL1', 'CCL3', 'CD1', 'CD4', 'CPSAA5', 'CC1', 'CC2', 'CC3']"
+      },
+      {
+        "tipo": "descriptores de criterio distinto",
+        "nodo": "crit:PEDK05CE1.2",
+        "detalle": "documento: ['CCL1', 'CCL3', 'CD1', 'CD4', 'CPSAA4', 'CC1', 'CC2', 'CC3']"
+      },
+      {
         "tipo": "descriptores de bloque distinto",
         "nodo": "bc:PEDK05BC1",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'CD1', 'CD4', 'CPSAA4', 'CPSAA5', 'CC1', 'CC2', 'CC3']\""
+        "detalle": "documento: ['CCL1', 'CCL3', 'CD1', 'CD4', 'CPSAA5', 'CC1', 'CC2', 'CC3', 'CPSAA4']"
       },
       {
         "tipo": "texto de criterio distinto",
         "nodo": "crit:PEDK05CE1.1",
         "detalle": "documento: 'Construir un adecuado concepto de sí mismo o sí misma en relación con otras pers'"
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PEDK05CE1.1",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'CD1', 'CD4', 'CPSAA5', 'CC1', 'CC2', 'CC3']\""
       },
       {
         "tipo": "texto de criterio distinto",
@@ -1253,8 +1306,8 @@
       },
       {
         "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PEDK05CE1.2",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'CD1', 'CD4', 'CPSAA4', 'CC1', 'CC2', 'CC3']\""
+        "nodo": "crit:PEDK05CE2.4",
+        "detalle": "documento: ['CCL5', 'CC1', 'CC2', 'CC3', 'CE1', 'CE2']"
       },
       {
         "tipo": "texto de criterio distinto",
@@ -1268,38 +1321,33 @@
       },
       {
         "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PEDK05CE2.4",
-        "detalle": "documento: \"['CCL5', 'CC1', 'CC2', 'CC3', 'CE1', 'CE2']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEDK05BC3",
-        "detalle": "documento: \"['CCL2', 'CCL5', 'CD2', 'STEM1', 'STEM5', 'CPSAA2', 'CC3', 'CC4', 'CE1', 'CE3', \""
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
         "nodo": "crit:PEDK05CE3.1",
-        "detalle": "documento: \"['CCL2', 'CCL5', 'CD2', 'STEM1', 'STEM5', 'CPSAA2', 'CC3', 'CC4', 'CE1', 'CCEC4'\""
+        "detalle": "documento: ['CCL2', 'CCL5', 'CD2', 'STEM1', 'STEM5', 'CPSAA2', 'CC3', 'CC4', 'CE1', 'CCEC4']"
       },
       {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:PEDK05CE3.2",
-        "detalle": "documento: \"['CCL2', 'CCL5', 'CD2', 'STEM1', 'STEM5', 'CPSAA2', 'CC3', 'CC4', 'CE1', 'CE3', \""
+        "detalle": "documento: ['CCL2', 'CCL5', 'CD2', 'STEM1', 'STEM5', 'CPSAA2', 'CC3', 'CC4', 'CE1', 'CE3', 'CCEC4']"
+      },
+      {
+        "tipo": "descriptores de bloque distinto",
+        "nodo": "bc:PEDK05BC3",
+        "detalle": "documento: ['CCL2', 'CCL5', 'CD2', 'STEM1', 'STEM5', 'CPSAA2', 'CC3', 'CC4', 'CE1', 'CCEC4', 'CE3']"
+      },
+      {
+        "tipo": "descriptores de criterio distinto",
+        "nodo": "crit:PEDK05CE4.1",
+        "detalle": "documento: ['CCL1', 'CCL5', 'CP3', 'CPSAA1', 'CPSAA2', 'CPSAA3', 'CC2', 'CC3', 'CC4', 'CE1', 'CE3', 'CCEC3']"
       },
       {
         "tipo": "descriptores de bloque distinto",
         "nodo": "bc:PEDK05BC4",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'CP3', 'CPSAA1', 'CPSAA2', 'CPSAA3', 'CC2', 'CC3', 'CC4', 'CE1'\""
+        "detalle": "documento: ['CCL1', 'CCL5', 'CP3', 'CPSAA1', 'CPSAA2', 'CPSAA3', 'CC2', 'CC3', 'CC4', 'CE1', 'CE3', 'CCEC3']"
       },
       {
         "tipo": "texto de criterio distinto",
         "nodo": "crit:PEDK05CE4.1",
         "detalle": "documento: 'Expresar y gestionar equilibradamente las emociones, y desarrollar una actitud d'"
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PEDK05CE4.1",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'CP3', 'CPSAA1', 'CPSAA2', 'CPSAA3', 'CC2', 'CC3', 'CC4', 'CE1'\""
       },
       {
         "tipo": "texto de saber distinto",
@@ -1337,19 +1385,24 @@
         "detalle": ""
       },
       {
+        "tipo": "descriptores de criterio distinto",
+        "nodo": "crit:PEDK06CE1.1",
+        "detalle": "documento: ['CCL1', 'CCL3', 'CD1', 'CD4', 'CPSAA5', 'CC1', 'CC2', 'CC3']"
+      },
+      {
+        "tipo": "descriptores de criterio distinto",
+        "nodo": "crit:PEDK06CE1.2",
+        "detalle": "documento: ['CCL1', 'CCL3', 'CD1', 'CD4', 'CPSAA4', 'CC1', 'CC2', 'CC3']"
+      },
+      {
         "tipo": "descriptores de bloque distinto",
         "nodo": "bc:PEDK06BC1",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'CD1', 'CD4', 'CPSAA4', 'CPSAA5', 'CC1', 'CC2', 'CC3']\""
+        "detalle": "documento: ['CCL1', 'CCL3', 'CD1', 'CD4', 'CPSAA5', 'CC1', 'CC2', 'CC3', 'CPSAA4']"
       },
       {
         "tipo": "texto de criterio distinto",
         "nodo": "crit:PEDK06CE1.1",
         "detalle": "documento: 'Construir un adecuado concepto de sí mismo o sí misma en relación con otras pers'"
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PEDK06CE1.1",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'CD1', 'CD4', 'CPSAA5', 'CC1', 'CC2', 'CC3']\""
       },
       {
         "tipo": "texto de criterio distinto",
@@ -1358,8 +1411,8 @@
       },
       {
         "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PEDK06CE1.2",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'CD1', 'CD4', 'CPSAA4', 'CC1', 'CC2', 'CC3']\""
+        "nodo": "crit:PEDK06CE2.4",
+        "detalle": "documento: ['CCL5', 'CC1', 'CC2', 'CC3', 'CE1', 'CE2']"
       },
       {
         "tipo": "texto de criterio distinto",
@@ -1373,38 +1426,33 @@
       },
       {
         "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PEDK06CE2.4",
-        "detalle": "documento: \"['CCL5', 'CC1', 'CC2', 'CC3', 'CE1', 'CE2']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEDK06BC3",
-        "detalle": "documento: \"['CCL2', 'CCL5', 'CD2', 'STEM1', 'STEM5', 'CPSAA2', 'CC3', 'CC4', 'CE1', 'CE3', \""
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
         "nodo": "crit:PEDK06CE3.1",
-        "detalle": "documento: \"['CCL2', 'CCL5', 'CD2', 'STEM1', 'STEM5', 'CPSAA2', 'CC3', 'CC4', 'CE1', 'CCEC4'\""
+        "detalle": "documento: ['CCL2', 'CCL5', 'CD2', 'STEM1', 'STEM5', 'CPSAA2', 'CC3', 'CC4', 'CE1', 'CCEC4']"
       },
       {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:PEDK06CE3.2",
-        "detalle": "documento: \"['CCL2', 'CCL5', 'CD2', 'STEM1', 'STEM5', 'CPSAA2', 'CC3', 'CC4', 'CE1', 'CE3', \""
+        "detalle": "documento: ['CCL2', 'CCL5', 'CD2', 'STEM1', 'STEM5', 'CPSAA2', 'CC3', 'CC4', 'CE1', 'CE3', 'CCEC4']"
+      },
+      {
+        "tipo": "descriptores de bloque distinto",
+        "nodo": "bc:PEDK06BC3",
+        "detalle": "documento: ['CCL2', 'CCL5', 'CD2', 'STEM1', 'STEM5', 'CPSAA2', 'CC3', 'CC4', 'CE1', 'CCEC4', 'CE3']"
+      },
+      {
+        "tipo": "descriptores de criterio distinto",
+        "nodo": "crit:PEDK06CE4.1",
+        "detalle": "documento: ['CCL1', 'CCL5', 'CP3', 'CPSAA1', 'CPSAA2', 'CPSAA3', 'CC2', 'CC3', 'CC4', 'CE1', 'CE3', 'CCEC3']"
       },
       {
         "tipo": "descriptores de bloque distinto",
         "nodo": "bc:PEDK06BC4",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'CP3', 'CPSAA1', 'CPSAA2', 'CPSAA3', 'CC2', 'CC3', 'CC4', 'CE1'\""
+        "detalle": "documento: ['CCL1', 'CCL5', 'CP3', 'CPSAA1', 'CPSAA2', 'CPSAA3', 'CC2', 'CC3', 'CC4', 'CE1', 'CE3', 'CCEC3']"
       },
       {
         "tipo": "texto de criterio distinto",
         "nodo": "crit:PEDK06CE4.1",
         "detalle": "documento: 'Expresar y gestionar equilibradamente las emociones, y desarrollar una actitud d'"
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PEDK06CE4.1",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'CP3', 'CPSAA1', 'CPSAA2', 'CPSAA3', 'CC2', 'CC3', 'CC4', 'CE1'\""
       },
       {
         "tipo": "texto de saber distinto",
@@ -1442,8 +1490,222 @@
         "detalle": ""
       }
     ],
-    "huecos": [],
-    "revisar": []
+    "huecos": [
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:PEDK05CE1.1",
+        "campo": "descriptores",
+        "valor": [
+          "CCL1",
+          "CCL3",
+          "CD1",
+          "CD4",
+          "CPSAA5",
+          "CC1",
+          "CC2",
+          "CC3"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:PEDK05CE3.1",
+        "campo": "descriptores",
+        "valor": [
+          "CCL2",
+          "CCL5",
+          "CD2",
+          "STEM1",
+          "STEM5",
+          "CPSAA2",
+          "CC3",
+          "CC4",
+          "CE1",
+          "CCEC4"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:PEDK05CE3.2",
+        "campo": "descriptores",
+        "valor": [
+          "CCL2",
+          "CCL5",
+          "CD2",
+          "STEM1",
+          "STEM5",
+          "CPSAA2",
+          "CC3",
+          "CC4",
+          "CE1",
+          "CE3",
+          "CCEC4"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "bc:PEDK05BC3",
+        "campo": "descriptores",
+        "valor": [
+          "CCL2",
+          "CCL5",
+          "CD2",
+          "STEM1",
+          "STEM5",
+          "CPSAA2",
+          "CC3",
+          "CC4",
+          "CE1",
+          "CCEC4",
+          "CE3"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:PEDK05CE4.1",
+        "campo": "descriptores",
+        "valor": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "CPSAA1",
+          "CPSAA2",
+          "CPSAA3",
+          "CC2",
+          "CC3",
+          "CC4",
+          "CE1",
+          "CE3",
+          "CCEC3"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "bc:PEDK05BC4",
+        "campo": "descriptores",
+        "valor": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "CPSAA1",
+          "CPSAA2",
+          "CPSAA3",
+          "CC2",
+          "CC3",
+          "CC4",
+          "CE1",
+          "CE3",
+          "CCEC3"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:PEDK06CE1.1",
+        "campo": "descriptores",
+        "valor": [
+          "CCL1",
+          "CCL3",
+          "CD1",
+          "CD4",
+          "CPSAA5",
+          "CC1",
+          "CC2",
+          "CC3"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:PEDK06CE3.1",
+        "campo": "descriptores",
+        "valor": [
+          "CCL2",
+          "CCL5",
+          "CD2",
+          "STEM1",
+          "STEM5",
+          "CPSAA2",
+          "CC3",
+          "CC4",
+          "CE1",
+          "CCEC4"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:PEDK06CE3.2",
+        "campo": "descriptores",
+        "valor": [
+          "CCL2",
+          "CCL5",
+          "CD2",
+          "STEM1",
+          "STEM5",
+          "CPSAA2",
+          "CC3",
+          "CC4",
+          "CE1",
+          "CE3",
+          "CCEC4"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "bc:PEDK06BC3",
+        "campo": "descriptores",
+        "valor": [
+          "CCL2",
+          "CCL5",
+          "CD2",
+          "STEM1",
+          "STEM5",
+          "CPSAA2",
+          "CC3",
+          "CC4",
+          "CE1",
+          "CCEC4",
+          "CE3"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:PEDK06CE4.1",
+        "campo": "descriptores",
+        "valor": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "CPSAA1",
+          "CPSAA2",
+          "CPSAA3",
+          "CC2",
+          "CC3",
+          "CC4",
+          "CE1",
+          "CE3",
+          "CCEC3"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "bc:PEDK06BC4",
+        "campo": "descriptores",
+        "valor": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "CPSAA1",
+          "CPSAA2",
+          "CPSAA3",
+          "CC2",
+          "CC3",
+          "CC4",
+          "CE1",
+          "CE3",
+          "CCEC3"
+        ]
+      }
+    ],
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "primaria-educacion-fisica",
@@ -1451,19 +1713,9 @@
     "avisos_lectura": [],
     "diferencias": [
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI01BC1",
-        "detalle": "documento: \"['STEM2', 'STEM5', 'CPSAA2', 'CPSAA5', 'CE3']\""
-      },
-      {
         "tipo": "explicación de bloque distinto",
         "nodo": "bc:PEFI01BC2",
         "detalle": "documento: 'A través de este bloque competencial el alumnado resolverá problemas motrices, a'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI01BC3",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'CPSAA1', 'CPSAA3', 'CPSAA5', 'CC2', 'CC3']\""
       },
       {
         "tipo": "explicación de bloque distinto",
@@ -1471,19 +1723,9 @@
         "detalle": "documento: 'A través de este bloque competencial el alumnado experimentará y practicará dife'"
       },
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI01BC4",
-        "detalle": "documento: \"['CC3', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4']\""
-      },
-      {
         "tipo": "explicación de bloque distinto",
         "nodo": "bc:PEFI01BC5",
         "detalle": "documento: 'A través de este bloque competencial se constatará que el alumnado es capaz de p'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI01BC5",
-        "detalle": "documento: \"['STEM5', 'CC2', 'CC4', 'CE1', 'CE3']\""
       },
       {
         "tipo": "descripción de bloque de saberes distinto",
@@ -1496,19 +1738,9 @@
         "detalle": "documento: 'Iniciación en la coordinación de acciones con compañeros y compañeras en situaci'"
       },
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI02BC1",
-        "detalle": "documento: \"['STEM2', 'STEM5', 'CPSAA2', 'CPSAA5', 'CE3']\""
-      },
-      {
         "tipo": "explicación de bloque distinto",
         "nodo": "bc:PEFI02BC2",
         "detalle": "documento: 'A través de este bloque competencial el alumnado resolverá problemas motrices, a'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI02BC3",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'CPSAA1', 'CPSAA3', 'CPSAA5', 'CC2', 'CC3']\""
       },
       {
         "tipo": "explicación de bloque distinto",
@@ -1516,19 +1748,9 @@
         "detalle": "documento: 'A través de este bloque competencial el alumnado experimentará y practicará dife'"
       },
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI02BC4",
-        "detalle": "documento: \"['CC3', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4']\""
-      },
-      {
         "tipo": "explicación de bloque distinto",
         "nodo": "bc:PEFI02BC5",
         "detalle": "documento: 'A través de este bloque competencial se constatará que el alumnado es capaz de p'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI02BC5",
-        "detalle": "documento: \"['STEM5', 'CC2', 'CC4', 'CE1', 'CE3']\""
       },
       {
         "tipo": "descripción de bloque de saberes distinto",
@@ -1544,16 +1766,6 @@
         "tipo": "texto de criterio distinto",
         "nodo": "crit:PEFI03CE2.2",
         "detalle": "documento: 'Adquirir un progresivo control y dominio corporal, empleando los componentes cua'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI03BC4",
-        "detalle": "documento: \"['CC3', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI03BC5",
-        "detalle": "documento: \"['STEM5', 'CC2', 'CC4', 'CE1', 'CE3']\""
       },
       {
         "tipo": "texto de saber distinto",
@@ -1574,16 +1786,6 @@
         "tipo": "texto de criterio distinto",
         "nodo": "crit:PEFI04CE2.2",
         "detalle": "documento: 'Adquirir un progresivo control y dominio corporal, empleando los componentes cua'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI04BC4",
-        "detalle": "documento: \"['CC3', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI04BC5",
-        "detalle": "documento: \"['STEM5', 'CC2', 'CC4', 'CE1', 'CE3']\""
       },
       {
         "tipo": "texto de saber distinto",
@@ -1622,7 +1824,21 @@
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:PEFI01BC1: la cabecera del bloque no coincide con sus criterios (cabecera: STEM2, STEM5, CPSAA2, CPSAA5, CE3; criterios: STEM5, CPSAA2, CPSAA5)",
+      "bc:PEFI01BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CPSAA1, CPSAA3, CPSAA5, CC2, CC3; criterios: CPSAA1, CPSAA3, CPSAA5, CCL1, CCL5, CC2)",
+      "bc:PEFI01BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CC3, CCEC1, CCEC2, CCEC3, CCEC4; criterios: CCEC1, CCEC2)",
+      "bc:PEFI01BC5: la cabecera del bloque no coincide con sus criterios (cabecera: STEM5, CC2, CC4, CE1, CE3; criterios: STEM5, CC4)",
+      "bc:PEFI02BC1: la cabecera del bloque no coincide con sus criterios (cabecera: STEM2, STEM5, CPSAA2, CPSAA5, CE3; criterios: STEM5, CPSAA2, CPSAA5)",
+      "bc:PEFI02BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CPSAA1, CPSAA3, CPSAA5, CC2, CC3; criterios: CPSAA1, CPSAA3, CPSAA5, CCL1, CCL5, CC2)",
+      "bc:PEFI02BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CC3, CCEC1, CCEC2, CCEC3, CCEC4; criterios: CCEC1, CCEC2)",
+      "bc:PEFI02BC5: la cabecera del bloque no coincide con sus criterios (cabecera: STEM5, CC2, CC4, CE1, CE3; criterios: STEM5, CC4)",
+      "bc:PEFI03BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CC3, CCEC1, CCEC2, CCEC3, CCEC4; criterios: CC3, CCEC1, CCEC2, CCEC3)",
+      "bc:PEFI03BC5: la cabecera del bloque no coincide con sus criterios (cabecera: STEM5, CC2, CC4, CE1, CE3; criterios: STEM5, CC4, CE1, CE3)",
+      "bc:PEFI04BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CC3, CCEC1, CCEC2, CCEC3, CCEC4; criterios: CC3, CCEC1, CCEC2, CCEC3)",
+      "bc:PEFI04BC5: la cabecera del bloque no coincide con sus criterios (cabecera: STEM5, CC2, CC4, CE1, CE3; criterios: STEM5, CC4, CE1, CE3)"
+    ]
   },
   {
     "documento": "primaria-lengua-castellana-y-literatura",
@@ -1635,24 +1851,24 @@
         "detalle": "documento: 'Comprender e interpretar textos orales y multimodales, identificando el sentido '"
       },
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PLCL01BC6",
-        "detalle": "documento: \"['CCL3', 'CD1', 'CD2', 'CD3', 'CD4', 'CPSAA5', 'CC2', 'CE3']\""
-      },
-      {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:PLCL01CE6.1",
-        "detalle": "documento: \"['CCL3', 'CD1', 'CD2', 'CD3', 'CD4', 'CPSAA5', 'CC2', 'CE3']\""
+        "detalle": "documento: ['CCL3', 'CD1', 'CD2', 'CD3', 'CD4', 'CPSAA5', 'CC2', 'CE3']"
       },
       {
         "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PLCL01BC7",
-        "detalle": "documento: \"['CCL1', 'CCL4', 'CD3', 'CPSAA1', 'CC3', 'CCEC1', 'CCEC2', 'CCEC3']\""
+        "nodo": "bc:PLCL01BC6",
+        "detalle": "documento: ['CCL3', 'CD1', 'CD2', 'CD3', 'CD4', 'CPSAA5', 'CC2', 'CE3']"
       },
       {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:PLCL01CE7.2",
-        "detalle": "documento: \"['CCL1', 'CCL4', 'CD3', 'CPSAA1', 'CCE3', 'CCEC1', 'CCEC2', 'CCEC3']\""
+        "detalle": "documento: ['CCL1', 'CCL4', 'CD3', 'CPSAA1', 'CCE3', 'CCEC1', 'CCEC2', 'CCEC3']"
+      },
+      {
+        "tipo": "descriptores de bloque distinto",
+        "nodo": "bc:PLCL01BC7",
+        "detalle": "documento: ['CCL4', 'CPSAA1', 'CCEC1', 'CCEC2', 'CCL1', 'CD3', 'CCE3', 'CCEC3']"
       },
       {
         "tipo": "texto de criterio distinto",
@@ -1680,24 +1896,24 @@
         "detalle": "documento: 'Comprender e interpretar textos orales y multimodales, identificando el sentido '"
       },
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PLCL02BC6",
-        "detalle": "documento: \"['CCL3', 'CD1', 'CD2', 'CD3', 'CD4', 'CPSAA5', 'CC2', 'CE3']\""
-      },
-      {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:PLCL02CE6.1",
-        "detalle": "documento: \"['CCL3', 'CD1', 'CD2', 'CD3', 'CD4', 'CPSAA5', 'CC2', 'CE3']\""
+        "detalle": "documento: ['CCL3', 'CD1', 'CD2', 'CD3', 'CD4', 'CPSAA5', 'CC2', 'CE3']"
       },
       {
         "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PLCL02BC7",
-        "detalle": "documento: \"['CCL1', 'CCL4', 'CD3', 'CPSAA1', 'CC3', 'CCEC1', 'CCEC2', 'CCEC3']\""
+        "nodo": "bc:PLCL02BC6",
+        "detalle": "documento: ['CCL3', 'CD1', 'CD2', 'CD3', 'CD4', 'CPSAA5', 'CC2', 'CE3']"
       },
       {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:PLCL02CE7.2",
-        "detalle": "documento: \"['CCL1', 'CCL4', 'CD3', 'CPSAA1', 'CCE3', 'CCEC1', 'CCEC2', 'CCEC3']\""
+        "detalle": "documento: ['CCL1', 'CCL4', 'CD3', 'CPSAA1', 'CCE3', 'CCEC1', 'CCEC2', 'CCEC3']"
+      },
+      {
+        "tipo": "descriptores de bloque distinto",
+        "nodo": "bc:PLCL02BC7",
+        "detalle": "documento: ['CCL4', 'CPSAA1', 'CCEC1', 'CCEC2', 'CCL1', 'CD3', 'CCE3', 'CCEC3']"
       },
       {
         "tipo": "texto de criterio distinto",
@@ -1750,19 +1966,14 @@
         "detalle": "documento: 'Educación literaria'"
       },
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PLCL05BC1",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'CP2', 'CP3', 'CC1', 'CC2', 'CCEC1', 'CCEC3']\""
+        "tipo": "descriptores de criterio distinto",
+        "nodo": "crit:PLCL05CE8.2",
+        "detalle": "documento: ['CCL1', 'CCL2', 'CCL4', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4']"
       },
       {
         "tipo": "descriptores de bloque distinto",
         "nodo": "bc:PLCL05BC8",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL4', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4']\""
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PLCL05CE8.2",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL4', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4']\""
+        "detalle": "documento: ['CCL2', 'CCL4', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4', 'CCL1']"
       },
       {
         "tipo": "texto de saber distinto",
@@ -1810,19 +2021,14 @@
         "detalle": ""
       },
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PLCL06BC1",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'CP2', 'CP3', 'CC1', 'CC2', 'CCEC1', 'CCEC3']\""
+        "tipo": "descriptores de criterio distinto",
+        "nodo": "crit:PLCL06CE8.2",
+        "detalle": "documento: ['CCL1', 'CCL2', 'CCL4', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4']"
       },
       {
         "tipo": "descriptores de bloque distinto",
         "nodo": "bc:PLCL06BC8",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL4', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4']\""
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PLCL06CE8.2",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL4', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4']\""
+        "detalle": "documento: ['CCL2', 'CCL4', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4', 'CCL1']"
       },
       {
         "tipo": "texto de saber distinto",
@@ -1870,8 +2076,77 @@
         "detalle": ""
       }
     ],
-    "huecos": [],
-    "revisar": []
+    "huecos": [
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:PLCL01CE6.1",
+        "campo": "descriptores",
+        "valor": [
+          "CCL3",
+          "CD1",
+          "CD2",
+          "CD3",
+          "CD4",
+          "CPSAA5",
+          "CC2",
+          "CE3"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "bc:PLCL01BC6",
+        "campo": "descriptores",
+        "valor": [
+          "CCL3",
+          "CD1",
+          "CD2",
+          "CD3",
+          "CD4",
+          "CPSAA5",
+          "CC2",
+          "CE3"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:PLCL02CE6.1",
+        "campo": "descriptores",
+        "valor": [
+          "CCL3",
+          "CD1",
+          "CD2",
+          "CD3",
+          "CD4",
+          "CPSAA5",
+          "CC2",
+          "CE3"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "bc:PLCL02BC6",
+        "campo": "descriptores",
+        "valor": [
+          "CCL3",
+          "CD1",
+          "CD2",
+          "CD3",
+          "CD4",
+          "CPSAA5",
+          "CC2",
+          "CE3"
+        ]
+      }
+    ],
+    "revisar": [],
+    "avisos_documento": [
+      "crit:PLCL01CE7.2: los descriptores del criterio traen códigos que no existen: CCE3",
+      "bc:PLCL01BC7: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL4, CD3, CPSAA1, CC3, CCEC1, CCEC2, CCEC3; criterios: CCL4, CPSAA1, CCEC1, CCEC2, CCL1, CD3, CCE3, CCEC3)",
+      "crit:PLCL02CE7.2: los descriptores del criterio traen códigos que no existen: CCE3",
+      "bc:PLCL02BC7: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL4, CD3, CPSAA1, CC3, CCEC1, CCEC2, CCEC3; criterios: CCL4, CPSAA1, CCEC1, CCEC2, CCL1, CD3, CCE3, CCEC3)",
+      "bc:PLCL05BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CP2, CP3, CC1, CC2, CCEC1, CCEC3; criterios: CCL1, CCL5, CP2, CP3, CC1, CC2, CCEC1, CCEC2)",
+      "bc:PLCL06BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CP2, CP3, CC1, CC2, CCEC1, CCEC3; criterios: CCL1, CCL5, CP2, CP3, CC1, CC2, CCEC1, CCEC2)"
+    ]
   },
   {
     "documento": "primaria-lengua-extranjera",
@@ -1914,19 +2189,19 @@
         "detalle": "documento: 'Seleccionar y utilizar, de forma codirigida, en contextos de interacción, estrat'"
       },
       {
+        "tipo": "descriptores de criterio distinto",
+        "nodo": "crit:PLNT03CE4.2",
+        "detalle": "documento: ['CP2', 'STEM1', 'CPSAA3']"
+      },
+      {
         "tipo": "descriptores de bloque distinto",
         "nodo": "bc:PLNT03BC4",
-        "detalle": "documento: \"['CCL5', 'CP1', 'CP2', 'CP3', 'STEM1', 'CPSAA1', 'CPSAA3', 'CCEC1']\""
+        "detalle": "documento: ['CCL5', 'CP1', 'CP3', 'CPSAA1', 'CPSAA3', 'CCEC1', 'CP2', 'STEM1']"
       },
       {
         "tipo": "texto de criterio distinto",
         "nodo": "crit:PLNT03CE4.2",
         "detalle": "documento: 'Seleccionar e implementar, de forma codirigida, estrategias básicas en situacion'"
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PLNT03CE4.2",
-        "detalle": "documento: \"['CP2', 'STEM1', 'CPSAA3']\""
       },
       {
         "tipo": "texto de criterio distinto",
@@ -1969,19 +2244,19 @@
         "detalle": "documento: 'Seleccionar y utilizar, de forma codirigida, en contextos de interacción, estrat'"
       },
       {
+        "tipo": "descriptores de criterio distinto",
+        "nodo": "crit:PLNT04CE4.2",
+        "detalle": "documento: ['CP2', 'STEM1', 'CPSAA3']"
+      },
+      {
         "tipo": "descriptores de bloque distinto",
         "nodo": "bc:PLNT04BC4",
-        "detalle": "documento: \"['CCL5', 'CP1', 'CP2', 'CP3', 'STEM1', 'CPSAA1', 'CPSAA3', 'CCEC1']\""
+        "detalle": "documento: ['CCL5', 'CP1', 'CP3', 'CPSAA1', 'CPSAA3', 'CCEC1', 'CP2', 'STEM1']"
       },
       {
         "tipo": "texto de criterio distinto",
         "nodo": "crit:PLNT04CE4.2",
         "detalle": "documento: 'Seleccionar e implementar, de forma codirigida, estrategias básicas en situacion'"
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PLNT04CE4.2",
-        "detalle": "documento: \"['CP2', 'STEM1', 'CPSAA3']\""
       },
       {
         "tipo": "texto de criterio distinto",
@@ -2109,8 +2384,60 @@
         "detalle": "documento: 'Dimensiones interpersonal e intrapersonal'"
       }
     ],
-    "huecos": [],
-    "revisar": []
+    "huecos": [
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:PLNT03CE4.2",
+        "campo": "descriptores",
+        "valor": [
+          "CP2",
+          "STEM1",
+          "CPSAA3"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "bc:PLNT03BC4",
+        "campo": "descriptores",
+        "valor": [
+          "CCL5",
+          "CP1",
+          "CP3",
+          "CPSAA1",
+          "CPSAA3",
+          "CCEC1",
+          "CP2",
+          "STEM1"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:PLNT04CE4.2",
+        "campo": "descriptores",
+        "valor": [
+          "CP2",
+          "STEM1",
+          "CPSAA3"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "bc:PLNT04BC4",
+        "campo": "descriptores",
+        "valor": [
+          "CCL5",
+          "CP1",
+          "CP3",
+          "CPSAA1",
+          "CPSAA3",
+          "CCEC1",
+          "CP2",
+          "STEM1"
+        ]
+      }
+    ],
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "primaria-educacion-emocional-y-para-la-creatividad",
@@ -2123,19 +2450,19 @@
         "detalle": "documento: 'Reconocer las emociones en las demás personas expresando sentimientos hacia ella'"
       },
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEUM01BC4",
-        "detalle": "documento: \"['CCL3', 'STEM3', 'STEM5', 'CD1', 'CD2', 'CD3', 'CD5', 'CPSAA3', 'CPSAA5', 'CE1'\""
-      },
-      {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:PEUM01CE4.1",
-        "detalle": "documento: \"['CCL3', 'CPSAA5', 'CE1', 'CE2', 'CE3', 'CCEC3', 'CCEC4']\""
+        "detalle": "documento: ['CCL3', 'CPSAA5', 'CE1', 'CE2', 'CE3', 'CCEC3', 'CCEC4']"
       },
       {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:PEUM01CE4.2",
-        "detalle": "documento: \"['STEM3', 'STEM5', 'CD1', 'CD2', 'CD3', 'CD5', 'CPSAA3', 'CPSAA5']\""
+        "detalle": "documento: ['STEM3', 'STEM5', 'CD1', 'CD2', 'CD3', 'CD5', 'CPSAA3', 'CPSAA5']"
+      },
+      {
+        "tipo": "descriptores de bloque distinto",
+        "nodo": "bc:PEUM01BC4",
+        "detalle": "documento: ['CCL3', 'CPSAA5', 'CE1', 'CE2', 'CE3', 'CCEC3', 'CCEC4', 'STEM3', 'STEM5', 'CD1', 'CD2', 'CD3', 'CD5', 'CPSAA3']"
       },
       {
         "tipo": "título de bloque de saberes distinto",
@@ -2173,19 +2500,19 @@
         "detalle": "documento: 'Reconocer las emociones en las demás personas expresando sentimientos hacia ella'"
       },
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEUM02BC4",
-        "detalle": "documento: \"['CCL3', 'STEM3', 'STEM5', 'CD1', 'CD2', 'CD3', 'CD5', 'CPSAA3', 'CPSAA5', 'CE1'\""
-      },
-      {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:PEUM02CE4.1",
-        "detalle": "documento: \"['CCL3', 'CPSAA5', 'CE1', 'CE2', 'CE3', 'CCEC3', 'CCEC4']\""
+        "detalle": "documento: ['CCL3', 'CPSAA5', 'CE1', 'CE2', 'CE3', 'CCEC3', 'CCEC4']"
       },
       {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:PEUM02CE4.2",
-        "detalle": "documento: \"['STEM3', 'STEM5', 'CD1', 'CD2', 'CD3', 'CD5', 'CPSAA3', 'CPSAA5']\""
+        "detalle": "documento: ['STEM3', 'STEM5', 'CD1', 'CD2', 'CD3', 'CD5', 'CPSAA3', 'CPSAA5']"
+      },
+      {
+        "tipo": "descriptores de bloque distinto",
+        "nodo": "bc:PEUM02BC4",
+        "detalle": "documento: ['CCL3', 'CPSAA5', 'CE1', 'CE2', 'CE3', 'CCEC3', 'CCEC4', 'STEM3', 'STEM5', 'CD1', 'CD2', 'CD3', 'CD5', 'CPSAA3']"
       },
       {
         "tipo": "título de bloque de saberes distinto",
@@ -2428,8 +2755,110 @@
         "detalle": "documento: 'Interés por las experiencias e ideas comunes, y receptividad frente a lo diferen'"
       }
     ],
-    "huecos": [],
-    "revisar": []
+    "huecos": [
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:PEUM01CE4.1",
+        "campo": "descriptores",
+        "valor": [
+          "CCL3",
+          "CPSAA5",
+          "CE1",
+          "CE2",
+          "CE3",
+          "CCEC3",
+          "CCEC4"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:PEUM01CE4.2",
+        "campo": "descriptores",
+        "valor": [
+          "STEM3",
+          "STEM5",
+          "CD1",
+          "CD2",
+          "CD3",
+          "CD5",
+          "CPSAA3",
+          "CPSAA5"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "bc:PEUM01BC4",
+        "campo": "descriptores",
+        "valor": [
+          "CCL3",
+          "CPSAA5",
+          "CE1",
+          "CE2",
+          "CE3",
+          "CCEC3",
+          "CCEC4",
+          "STEM3",
+          "STEM5",
+          "CD1",
+          "CD2",
+          "CD3",
+          "CD5",
+          "CPSAA3"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:PEUM02CE4.1",
+        "campo": "descriptores",
+        "valor": [
+          "CCL3",
+          "CPSAA5",
+          "CE1",
+          "CE2",
+          "CE3",
+          "CCEC3",
+          "CCEC4"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:PEUM02CE4.2",
+        "campo": "descriptores",
+        "valor": [
+          "STEM3",
+          "STEM5",
+          "CD1",
+          "CD2",
+          "CD3",
+          "CD5",
+          "CPSAA3",
+          "CPSAA5"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "bc:PEUM02BC4",
+        "campo": "descriptores",
+        "valor": [
+          "CCL3",
+          "CPSAA5",
+          "CE1",
+          "CE2",
+          "CE3",
+          "CCEC3",
+          "CCEC4",
+          "STEM3",
+          "STEM5",
+          "CD1",
+          "CD2",
+          "CD3",
+          "CD5",
+          "CPSAA3"
+        ]
+      }
+    ],
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "primaria-segunda-lengua-extranjera",
@@ -2578,7 +3007,8 @@
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "primaria-matematicas",
@@ -2613,7 +3043,7 @@
       {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:PMAT02CE1.1",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'STEM1', 'STEM2', 'STEM4', 'CPSAA5', 'CE1', 'CE3']\""
+        "detalle": "documento: ['CCL1', 'CCL2', 'STEM1', 'STEM2', 'STEM4', 'CPSAA5', 'CE1', 'CE3']"
       },
       {
         "tipo": "texto de criterio distinto",
@@ -2772,7 +3202,8 @@
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "infantil-crecimiento-en-armonia",
@@ -2780,7 +3211,8 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "infantil-descubrimiento-y-exploracion-del-entorno",
@@ -2790,21 +3222,26 @@
       {
         "tipo": "descriptores de bloque distinto",
         "nodo": "bc:IDE301BC2",
-        "detalle": "documento: \"['CCL', 'STEM', 'CD', 'CE', 'CPSSAA']\""
+        "detalle": "documento: ['CCL', 'STEM', 'CD', 'CE']"
       },
       {
         "tipo": "descriptores de bloque distinto",
         "nodo": "bc:IDE302BC2",
-        "detalle": "documento: \"['CCL', 'STEM', 'CD', 'CE', 'CPSSAA']\""
+        "detalle": "documento: ['CCL', 'STEM', 'CD', 'CE']"
       },
       {
         "tipo": "descriptores de bloque distinto",
         "nodo": "bc:IDE303BC2",
-        "detalle": "documento: \"['CCL', 'STEM', 'CD', 'CE', 'CPSSAA']\""
+        "detalle": "documento: ['CCL', 'STEM', 'CD', 'CE']"
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:IDE301BC2: la cabecera del bloque trae códigos que no existen: CPSSAA",
+      "bc:IDE302BC2: la cabecera del bloque trae códigos que no existen: CPSSAA",
+      "bc:IDE303BC2: la cabecera del bloque trae códigos que no existen: CPSSAA"
+    ]
   },
   {
     "documento": "infantil-comunicacion-y-representacion-de-la-realidad",
@@ -2814,47 +3251,43 @@
       {
         "tipo": "descriptores de bloque distinto",
         "nodo": "bc:IC4M01BC5",
-        "detalle": "documento: \"['CCL', 'CP', 'CC', 'CCEC']\""
+        "detalle": "documento: ['CCL', 'CP', 'CC', 'CCEC']"
       },
       {
         "tipo": "descriptores de bloque distinto",
         "nodo": "bc:IC4M02BC5",
-        "detalle": "documento: \"['CCL', 'CP', 'CC', 'CCEC']\""
+        "detalle": "documento: ['CCL', 'CP', 'CC', 'CCEC']"
       },
       {
         "tipo": "descriptores de bloque distinto",
         "nodo": "bc:IC4M03BC5",
-        "detalle": "documento: \"['CCL', 'CP', 'CC', 'CCEC']\""
+        "detalle": "documento: ['CCL', 'CP', 'CC', 'CCEC']"
       },
       {
         "tipo": "descriptores de bloque distinto",
         "nodo": "bc:IC5M01BC5",
-        "detalle": "documento: \"['CCL', 'CP', 'CC', 'CCEC']\""
+        "detalle": "documento: ['CCL', 'CP', 'CC', 'CCEC']"
       },
       {
         "tipo": "descriptores de bloque distinto",
         "nodo": "bc:IC5M02BC5",
-        "detalle": "documento: \"['CCL', 'CP', 'CC', 'CCEC']\""
+        "detalle": "documento: ['CCL', 'CP', 'CC', 'CCEC']"
       },
       {
         "tipo": "descriptores de bloque distinto",
         "nodo": "bc:IC5M03BC5",
-        "detalle": "documento: \"['CCL', 'CP', 'CC', 'CCEC']\""
+        "detalle": "documento: ['CCL', 'CP', 'CC', 'CCEC']"
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-analisis-musical-i-y-ii",
     "estado": "contrastado",
     "avisos_lectura": [],
     "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BAMS01BC4",
-        "detalle": "documento: \"['CCL1', 'CPSAA3.1', 'CPSAA3.2', 'CE3', 'CCEC3.1', 'CCEC3.2']\""
-      },
       {
         "tipo": "enunciado de competencia distinto",
         "nodo": "ce:BAMSC5",
@@ -2867,7 +3300,10 @@
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BAMS01BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CPSAA3.1, CPSAA3.2, CE3, CCEC3.1, CCEC3.2; criterios: CCL1, CPSAA3.1, CPSAA3.2, CE3, CCEC2, CCEC3.1)"
+    ]
   },
   {
     "documento": "bachillerato-artes-escenicas-i-y-ii",
@@ -2875,7 +3311,8 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-biologia",
@@ -2883,45 +3320,32 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-biologia-geologia-y-ciencias-ambientales",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BBIR01BC1",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'CP2', 'STEM2', 'STEM4', 'CD1', 'CD3', 'CPSAA4', 'CC3',\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BBIR01BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CP2, STEM2, STEM4, CD1, CD3, CPSAA4, CC3, CCEC3.2; criterios: CCL2, CCL3, CP2, STEM2, STEM4, CD1, CPSAA3.2, CCL1, CD3, CC3, CPSAA4, CCEC3.2)"
+    ]
   },
   {
     "documento": "bachillerato-ciencias-generales",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BCIK02BC2",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'STEM1', 'STEM2', 'STEM4', 'CD1', 'CPSAA1.1']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BCIK02BC3",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'STEM2', 'STEM4', 'CD2', 'CPSAA2', 'CC4', 'CCEC1']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BCIK02BC6",
-        "detalle": "documento: \"['CCL3', 'STEM3', 'STEM4', 'CD1', 'CD2', 'CD3', 'CPSAA3.2', 'CPSAA4', 'CC3']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BCIK02BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, STEM1, STEM2, STEM4, CD1, CPSAA1.1; criterios: CCL1, CCL2, STEM1, STEM2, STEM4, CPSAA1.1)",
+      "bc:BCIK02BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, STEM2, STEM4, CD2, CPSAA2, CC4, CCEC1; criterios: CCL1, CCL2, STEM2, STEM4, CPSAA2, CC4, CCEC1)",
+      "bc:BCIK02BC6: la cabecera del bloque no coincide con sus criterios (cabecera: CCL3, STEM3, STEM4, CD1, CD2, CD3, CPSAA3.2, CPSAA4, CC3; criterios: CCL3, STEM4, CD1, CD2, CPSAA4, CD3, CPSAA3.2, CC3)"
+    ]
   },
   {
     "documento": "bachillerato-coro-y-tecnica-vocal-i-y-ii",
@@ -2932,29 +3356,24 @@
         "tipo": "texto de criterio distinto",
         "nodo": "crit:BCBR01CE1.1",
         "detalle": "documento: 'Analizar piezas vocales sencillas de distintos géneros y culturas, con especial '"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BCHR02BC4",
-        "detalle": "documento: \"['CCL5', 'CD2', 'CD3', 'CD5', 'CPSAA1.1', 'CPSAA1.2', 'CE3', 'CCEC3.1', 'CCEC4.1\""
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BCHR02BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL5, CD2, CD3, CD5, CPSAA1.1, CPSAA1.2, CE3, CCEC3.1, CCEC4.1, CCEC4.2; criterios: CCL5, CD2, CD3, CPSAA1.1, CPSAA1.2, CE3, CCEC3.1, CCEC4.1, CCEC4.2)"
+    ]
   },
   {
     "documento": "bachillerato-cultura-audiovisual",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BCLD01BC2",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'CD2', 'CD3', 'CPSAA1.1', 'CPSAA1.2', 'CC3', 'CE3', 'CCEC3.1', \""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BCLD01BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CD2, CD3, CPSAA1.1, CPSAA1.2, CC3, CE3, CCEC3.1, CCEC3.2; criterios: CCL5, CD2, CPSAA1.2, CPSAA3.1, CCEC3.1, CCL1, CD3, CPSAA1.1, CC3, CE3, CCEC3.2)"
+    ]
   },
   {
     "documento": "bachillerato-dibujo-artistico-i-y-ii",
@@ -2962,47 +3381,30 @@
     "avisos_lectura": [],
     "diferencias": [
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BDAI01BC3",
-        "detalle": "documento: \"['CD2', 'CPSAA1.1', 'CPSAA1.2', 'CC1', 'CC2', 'CCEC3.1']\""
-      },
-      {
         "tipo": "texto de criterio distinto",
         "nodo": "crit:BDAI01CE5.2",
         "detalle": "documento: 'Expresar ideas, opiniones, sentimientos y emociones a través de creaciones gráfi'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BDII02BC1",
-        "detalle": "documento: \"['CCL1', 'CP3', 'CD1', 'CPSAA4', 'CC1', 'CC3', 'CCEC1', 'CCEC2']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BDII02BC9",
-        "detalle": "documento: \"['CCL5', 'STEM2', 'STEM3', 'CPSAA3.1', 'CPSAA3.2', 'CPSAA5', 'CE1', 'CE3', 'CCEC\""
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BDAI01BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CD2, CPSAA1.1, CPSAA1.2, CC1, CC2, CCEC3.1; criterios: CD2, CPSAA1.1, CPSAA1.2, CPSAA3.1, CC1, CC2)",
+      "bc:BDII02BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CP3, CD1, CPSAA4, CC1, CC3, CCEC1, CCEC2; criterios: CCL1, CP3, CD1, CPSAA4, CC1, CCEC1, CCEC2, CC3, CCEC3.1)",
+      "bc:BDII02BC9: la cabecera del bloque no coincide con sus criterios (cabecera: CCL5, STEM2, STEM3, CPSAA3.1, CPSAA3.2, CPSAA5, CE1, CE3, CCEC4.1, CCEC4.2; criterios: STEM3, CPSAA3.1, CPSAA3.2, CE3, CCEC4.1, CCEC4.2, CCL5, STEM2, CE1)"
+    ]
   },
   {
     "documento": "bachillerato-dibujo-tecnico-aplicado-a-las-artes-plasticas-y-al-diseno-i-y-ii",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BDDB01BC5",
-        "detalle": "documento: \"['STEM3', 'CD2', 'CD3', 'CPSAA3.1', 'CPSAA5', 'CE3', 'CCEC3.2']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BDFB02BC2",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'STEM2', 'CD2', 'CPSAA1.1', 'CPSAA5', 'CCEC3.1', 'CCEC4.1']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BDDB01BC5: la cabecera del bloque no coincide con sus criterios (cabecera: STEM3, CD2, CD3, CPSAA3.1, CPSAA5, CE3, CCEC3.2; criterios: STEM3, CD2, CPSAA3.1, CPSAA5, CCEC3.1, CD3, CE3)",
+      "bc:BDFB02BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, STEM2, CD2, CPSAA1.1, CPSAA5, CCEC3.1, CCEC4.1; criterios: CCL1, CCL5, STEM3, CD2, CPSAA1.1, CCEC3.1, STEM2, CPSAA5, CCEC4.1)"
+    ]
   },
   {
     "documento": "bachillerato-dibujo-tecnico-i-y-ii",
@@ -3030,11 +3432,6 @@
         "detalle": "documento: 'Documentar gráficamente objetos sencillos mediante sus vistas acotadas, aplicand'"
       },
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BDBT01BC5",
-        "detalle": "documento: \"['CP2', 'STEM2', 'STEM3', 'STEM4', 'CD1', 'CD2', 'CD3']\""
-      },
-      {
         "tipo": "texto de criterio distinto",
         "nodo": "crit:BDBT01CE5.2",
         "detalle": "documento: 'Recrear virtualmente piezas en tres dimensiones aplicando operaciones algebraica'"
@@ -3046,40 +3443,33 @@
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BDBT01BC5: la cabecera del bloque no coincide con sus criterios (cabecera: CP2, STEM2, STEM3, STEM4, CD1, CD2, CD3; criterios: STEM2, STEM3, STEM4, CD1, CD3, CP2, CD2, CE3)"
+    ]
   },
   {
     "documento": "bachillerato-diseno",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BDIS02BC5",
-        "detalle": "documento: \"['STEM3', 'CPSAA1.1', 'CC1', 'CC4', 'CE1', 'CE2', 'CE3', 'CCEC3.1', 'CCEC3.2', '\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BDIS02BC6",
-        "detalle": "documento: \"['STEM3', 'CD2', 'CD3', 'CPSAA2', 'CC4', 'CE1', 'CE3', 'CCEC3.2', 'CCEC4.1', 'CC\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BDIS02BC5: la cabecera del bloque no coincide con sus criterios (cabecera: STEM3, CPSAA1.1, CC1, CC4, CE1, CE2, CE3, CCEC3.1, CCEC3.2, CCEC4.1, CCEC4.2; criterios: STEM3, CD2, CE1, CE3, CCEC3.1, CCEC4.1, CCEC4.2, CPSAA1.1, CC1, CC4, CE2, CCEC3.2)",
+      "bc:BDIS02BC6: la cabecera del bloque no coincide con sus criterios (cabecera: STEM3, CD2, CD3, CPSAA2, CC4, CE1, CE3, CCEC3.2, CCEC4.1, CCEC4.2; criterios: STEM3, CD2, CE3, CCEC4.1, CCEC4.2, CE1, CD3, CPSAA2)"
+    ]
   },
   {
     "documento": "bachillerato-economia",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BECO01BC2",
-        "detalle": "documento: \"['CCL2', 'CCL3', 'STEM2', 'CPSAA4', 'CC3', 'CE1', 'CE2']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BECO01BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL2, CCL3, STEM2, CPSAA4, CC3, CE1, CE2; criterios: CCL2, CCL3, CE1, CE2, CE3, STEM2, CPSAA4)"
+    ]
   },
   {
     "documento": "bachillerato-economia-emprendimiento-y-actividad-empresarial",
@@ -3090,15 +3480,13 @@
         "tipo": "explicación de bloque distinto",
         "nodo": "bc:BEC101BC2",
         "detalle": "documento: 'Con la evaluación de este bloque competencial se comprobará la capacidad del alu'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BEC101BC3",
-        "detalle": "documento: \"['STEM2', 'STEM5', 'CD1', 'CPSAA2', 'CC1', 'CC4', 'CE1', 'CE2', 'CCEC3.1']\""
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BEC101BC3: la cabecera del bloque no coincide con sus criterios (cabecera: STEM2, STEM5, CD1, CPSAA2, CC1, CC4, CE1, CE2, CCEC3.1; criterios: STEM2, STEM5, CD1, CPSAA2, CC4, CPSAA1.2, CC1, CE1, CE2, CCEC3.1)"
+    ]
   },
   {
     "documento": "bachillerato-educacion-fisica",
@@ -3112,7 +3500,8 @@
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-empresa-y-diseno-de-modelos-de-negocio",
@@ -3120,31 +3509,21 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-filosofia",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BFIL01BC4",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'STEM1', 'CPSAA3.1', 'CPSAA3.2', 'CC2', 'CC3', 'CCEC1', 'CCEC4.\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BFIL01BC7",
-        "detalle": "documento: \"['CCL2', 'CCL3', 'CD1', 'CPSAA2', 'CPSAA3.1', 'CPSAA4', 'CC1', 'CC3', 'CC4', 'CC\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BFIL01BC9",
-        "detalle": "documento: \"['CD2', 'CPSAA1.1', 'CPSAA3.1', 'CC2', 'CC3', 'CCEC1', 'CCEC2', 'CCEC3.1', 'CCEC\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BFIL01BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, STEM1, CPSAA3.1, CPSAA3.2, CC2, CC3, CCEC1, CCEC4.1; criterios: CCL1, CCL5, STEM1, CPSAA1.1, CPSAA3.2, CC2, CC3, CCEC1, CCEC4.1)",
+      "bc:BFIL01BC7: la cabecera del bloque no coincide con sus criterios (cabecera: CCL2, CCL3, CD1, CPSAA2, CPSAA3.1, CPSAA4, CC1, CC3, CC4, CCEC1; criterios: CCL2, CCL3, CD1, CPSAA2, CPSAA3.1, CPSAA4, CC1, CC4, CCEC1)",
+      "bc:BFIL01BC9: la cabecera del bloque no coincide con sus criterios (cabecera: CD2, CPSAA1.1, CPSAA3.1, CC2, CC3, CCEC1, CCEC2, CCEC3.1, CCEC3.2; criterios: CD2, CPSAA1.1, CPSAA3.1, CC2, CC3, CCEC1, CCEC2, CCEC3.1)"
+    ]
   },
   {
     "documento": "bachillerato-fisica",
@@ -3152,7 +3531,8 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-fisica-y-quimica",
@@ -3181,7 +3561,8 @@
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-fundamentos-artisticos",
@@ -3189,7 +3570,8 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-geografia",
@@ -3197,26 +3579,20 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-geologia-y-ciencias-ambientales",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BGAO02BC1",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'CP2', 'STEM2', 'STEM4', 'CD1', 'CD3', 'CPSAA4', 'CC3',\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BGAO02BC5",
-        "detalle": "documento: \"['CCL3', 'STEM2', 'STEM5', 'CD1', 'CD4', 'CPSAA2', 'CC2', 'CC4', 'CE1', 'CCEC1']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BGAO02BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CP2, STEM2, STEM4, CD1, CD3, CPSAA4, CC3, CCEC3.2; criterios: CCL2, CCL3, CP2, STEM2, STEM4, CD1, CPSAA4, CCL1, CD3, CPSAA3.2, CC3, CCEC3.2)",
+      "bc:BGAO02BC5: la cabecera del bloque no coincide con sus criterios (cabecera: CCL3, STEM2, STEM5, CD1, CD4, CPSAA2, CC2, CC4, CE1, CCEC1; criterios: CCL3, STEM2, STEM5, CD1, CPSAA2, CC2, CC4, CE1, CCEC1)"
+    ]
   },
   {
     "documento": "bachillerato-griego-i-y-ii",
@@ -3229,47 +3605,30 @@
         "detalle": "documento: 'Analizar las características de la civilización griega en el ámbito personal, re'"
       },
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BGRE02BC1",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'CP2', 'CP3', 'STEM1', 'STEM2', 'CD1', 'CPSAA5', 'CC1']\""
-      },
-      {
         "tipo": "enunciado de competencia distinto",
         "nodo": "ce:BGREC4",
         "detalle": "documento: 'Analizar las características de la civilización griega en el ámbito personal, re'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BGRE02BC5",
-        "detalle": "documento: \"['CCL3', 'CP3', 'CD2', 'CC1', 'CC2', 'CC4', 'CCEC1', 'CCEC2']\""
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BGRE02BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CP2, CP3, STEM1, STEM2, CD1, CPSAA5, CC1; criterios: CCL2, CP2, STEM2, CCL1, CCL3, STEM1, CD1, CPSAA5)",
+      "bc:BGRE02BC5: la cabecera del bloque no coincide con sus criterios (cabecera: CCL3, CP3, CD2, CC1, CC2, CC4, CCEC1, CCEC2; criterios: CCL3, CP3, CD2, CC1, CC2, CC4, CCEC1, CCEC2, CE1)"
+    ]
   },
   {
     "documento": "bachillerato-historia-de-espana",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BHIA02BC3",
-        "detalle": "documento: \"['STEM1', 'STEM4', 'CD2', 'CPSAA1.2', 'CPSAA2', 'CC1', 'CC4', 'CE1']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BHIA02BC6",
-        "detalle": "documento: \"['CCL3', 'STEM4', 'CD1', 'CPSAA1.1', 'CPSAA3.2', 'CC1', 'CC2', 'CC3', 'CCEC1', '\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BHIA02BC8",
-        "detalle": "documento: \"['CCL1', 'STEM3', 'CD2', 'CPSAA1.1', 'CPSAA3.1', 'CPSAA4', 'CC1', 'CC3', 'CE3', \""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BHIA02BC3: la cabecera del bloque no coincide con sus criterios (cabecera: STEM1, STEM4, CD2, CPSAA1.2, CPSAA2, CC1, CC4, CE1; criterios: STEM1, STEM2, CD2, CPSAA1.2, CPSAA2, CC1, CC4, CE1, STEM4)",
+      "bc:BHIA02BC6: la cabecera del bloque no coincide con sus criterios (cabecera: CCL3, STEM4, CD1, CPSAA1.1, CPSAA3.2, CC1, CC2, CC3, CCEC1, CCEC2; criterios: CCL3, STEM4, CD1, CPSAA1.1, CPSAA3.2, CPSAA4, CC1, CC2, CC3, CCEC1, CCEC2)",
+      "bc:BHIA02BC8: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, STEM3, CD2, CPSAA1.1, CPSAA3.1, CPSAA4, CC1, CC3, CE3, CCEC3.2; criterios: CCL1, STEM3, CD2, CPSAA1.1, CPSAA3.1, CPSAA4, CC1, CC3, CE3, CCEC3.2, CC2, CE2)"
+    ]
   },
   {
     "documento": "bachillerato-historia-de-la-filosofia",
@@ -3277,126 +3636,81 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-historia-de-la-musica-y-la-danza",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BHTZ02BC5",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'CD2', 'CD3', 'CPSAA5', 'CC1', 'CC3', 'CE3', 'CCEC1', 'CCEC4.2'\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BHTZ02BC5: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CD2, CD3, CPSAA5, CC1, CC3, CE3, CCEC1, CCEC4.2; criterios: CCL1, CCL5, CD2, CD3, CPSAA5, CC1, CC3, CCEC1, CCEC4.2, CPSAA1.1, CE3)"
+    ]
   },
   {
     "documento": "bachillerato-historia-del-arte",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BHAR02BC3",
-        "detalle": "documento: \"['CP3', 'CPSAA1.2', 'CPSAA3.2', 'CC1', 'CC3', 'CCEC1', 'CCEC2', 'CCEC3.1']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BHAR02BC5",
-        "detalle": "documento: \"['CP3', 'CD2', 'CPSAA3.1', 'CPSAA3.2', 'CC1', 'CC2', 'CC3', 'CCEC1', 'CCEC2', 'C\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BHAR02BC6",
-        "detalle": "documento: \"['CP3', 'CPSAA3.2', 'CC1', 'CC2', 'CC3', 'CCEC1', 'CCEC2', 'CCEC3.2']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BHAR02BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CP3, CPSAA1.2, CPSAA3.2, CC1, CC3, CCEC1, CCEC2, CCEC3.1; criterios: CP3, CPSAA1.2, CPSAA3.2, CC1, CC2, CCEC1, CCEC2, CCEC3.1, CC3)",
+      "bc:BHAR02BC5: la cabecera del bloque no coincide con sus criterios (cabecera: CP3, CD2, CPSAA3.1, CPSAA3.2, CC1, CC2, CC3, CCEC1, CCEC2, CCEC3.2; criterios: CP3, CPSAA3.1, CPSAA3.2, CC2, CC3, CCEC1, CCEC3.2, CC1, CD1, CCEC2)",
+      "bc:BHAR02BC6: la cabecera del bloque no coincide con sus criterios (cabecera: CP3, CPSAA3.2, CC1, CC2, CC3, CCEC1, CCEC2, CCEC3.2; criterios: CC2, CC3, CCEC1, CCEC2, CE1, CP3, CPSAA3.2, CC1, CCEC3.2)"
+    ]
   },
   {
     "documento": "bachillerato-historia-del-mundo-contemporaneo",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BHMC01BC6",
-        "detalle": "documento: \"['CCL2', 'CCL3', 'STEM4', 'STEM5', 'CD1', 'CD3', 'CD4', 'CPSAA2', 'CPSAA4', 'CPS\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BHMC01BC6: la cabecera del bloque no coincide con sus criterios (cabecera: CCL2, CCL3, STEM4, STEM5, CD1, CD3, CD4, CPSAA2, CPSAA4, CPSAA5, CC3, CC4, CE1, CE2; criterios: STEM5, CD3, CPSAA2, CPSAA5, CC3, CC4, CE1, CE2, CCL2, CCL3, STEM4, CD1, CPSAA4)"
+    ]
   },
   {
     "documento": "bachillerato-latin-i-y-ii",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BLII02BC1",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'CP2', 'CP3', 'STEM1', 'STEM2', 'CD1', 'CPSAA5', 'CC1']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BLII02BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CP2, CP3, STEM1, STEM2, CD1, CPSAA5, CC1; criterios: CCL2, CP2, STEM2, CCL1, CCL3, STEM1, CD1, CPSAA5)"
+    ]
   },
   {
     "documento": "bachillerato-lengua-castellana-y-literatura-i-y-ii",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BLEY01BC1",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'CP2', 'CP3', 'CD1', 'CC1', 'CC2', 'CE3', 'CCEC1']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BLNG02BC1",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'CP2', 'CP3', 'CD1', 'CC1', 'CC2', 'CE3', 'CCEC1']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BLNG02BC9",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CP2', 'STEM1', 'STEM2', 'CPSAA5']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BLEY01BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CP2, CP3, CD1, CC1, CC2, CE3, CCEC1; criterios: CCL1, CP2, CP3, CD1, CCEC1, CCL5, CC1, CC2, CC3)",
+      "bc:BLNG02BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CP2, CP3, CD1, CC1, CC2, CE3, CCEC1; criterios: CCL1, CP2, CP3, CD1, CCEC1, CCL5, CC1, CC2, CC3)",
+      "bc:BLNG02BC9: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CP2, STEM1, STEM2, CPSAA5; criterios: CCL1, CCL2, CCL3, CP2, STEM1, STEM2, CPSAA5)"
+    ]
   },
   {
     "documento": "bachillerato-lengua-extranjera-i-y-ii",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BLA101BC2",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'CP1', 'CP2', 'STEM1', 'CD3', 'CCEC3.1']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BLF101BC2",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'CP1', 'CP2', 'STEM1', 'CD3', 'CCEC3.1']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BLI101BC2",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'CP1', 'CP2', 'STEM1', 'CD3', 'CCEC3.1']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BLT101BC2",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'CP1', 'CP2', 'STEM1', 'CD3', 'CCEC3.1']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BLA101BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CP1, CP2, STEM1, CD3, CCEC3.1; criterios: CCL1, CCL5, CP1, CD3, CCEC3.1, CP2, STEM1, CPSAA5)",
+      "bc:BLF101BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CP1, CP2, STEM1, CD3, CCEC3.1; criterios: CCL1, CCL5, CP1, CD3, CCEC3.1, CP2, STEM1, CPSAA5)",
+      "bc:BLI101BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CP1, CP2, STEM1, CD3, CCEC3.1; criterios: CCL1, CCL5, CP1, CD3, CCEC3.1, CP2, STEM1, CPSAA5)",
+      "bc:BLT101BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CP1, CP2, STEM1, CD3, CCEC3.1; criterios: CCL1, CCL5, CP1, CD3, CCEC3.1, CP2, STEM1, CPSAA5)"
+    ]
   },
   {
     "documento": "bachillerato-lenguaje-y-practica-musical",
@@ -3404,28 +3718,78 @@
     "avisos_lectura": [],
     "diferencias": [
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BLPM01BC3",
-        "detalle": "documento: \"['CCL2', 'CPSAA1.1', 'CPSAA1.2', 'CE3', 'CCEC3.1', 'CCEC3.2']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BLPM01BC4",
-        "detalle": "documento: \"['CCL5', 'STEM3', 'CD2', 'CD3', 'CPSAA3.2', 'CC2', 'CE1', 'CE3', 'CCEC4.1', 'CCE\""
-      },
-      {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:BLPM01CE4.1",
-        "detalle": "documento: \"['CCL5', 'STEM3', 'CD2', 'CD3', 'CPSAA3.2', 'CC2', 'CE1', 'CE3', 'CCEC4.1', 'CCE\""
+        "detalle": "documento: ['CCL5', 'STEM3', 'CD2', 'CD3', 'CPSAA3.2', 'CC2', 'CE1', 'CE3', 'CCEC4.1', 'CCEC4.2']"
       },
       {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:BLPM01CE4.2",
-        "detalle": "documento: \"['CCL5', 'STEM3', 'CD2', 'CD3', 'CPSAA3.2', 'CC2', 'CE1', 'CE3', 'CCEC4.1', 'CCE\""
+        "detalle": "documento: ['CCL5', 'STEM3', 'CD2', 'CD3', 'CPSAA3.2', 'CC2', 'CE1', 'CE3', 'CCEC4.1', 'CCEC4.2']"
+      },
+      {
+        "tipo": "descriptores de bloque distinto",
+        "nodo": "bc:BLPM01BC4",
+        "detalle": "documento: ['CCL5', 'STEM3', 'CD2', 'CD3', 'CPSAA3.2', 'CC2', 'CE1', 'CE3', 'CCEC4.1', 'CCEC4.2']"
       }
     ],
-    "huecos": [],
-    "revisar": []
+    "huecos": [
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:BLPM01CE4.1",
+        "campo": "descriptores",
+        "valor": [
+          "CCL5",
+          "STEM3",
+          "CD2",
+          "CD3",
+          "CPSAA3.2",
+          "CC2",
+          "CE1",
+          "CE3",
+          "CCEC4.1",
+          "CCEC4.2"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:BLPM01CE4.2",
+        "campo": "descriptores",
+        "valor": [
+          "CCL5",
+          "STEM3",
+          "CD2",
+          "CD3",
+          "CPSAA3.2",
+          "CC2",
+          "CE1",
+          "CE3",
+          "CCEC4.1",
+          "CCEC4.2"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "bc:BLPM01BC4",
+        "campo": "descriptores",
+        "valor": [
+          "CCL5",
+          "STEM3",
+          "CD2",
+          "CD3",
+          "CPSAA3.2",
+          "CC2",
+          "CE1",
+          "CE3",
+          "CCEC4.1",
+          "CCEC4.2"
+        ]
+      }
+    ],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BLPM01BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL2, CPSAA1.1, CPSAA1.2, CE3, CCEC3.1, CCEC3.2; criterios: CCL2, CPSAA1.1, CPSAA1.2, CPSAA3.1, CPSAA3.2, CE3, CCEC3.1, CCEC3.2)"
+    ]
   },
   {
     "documento": "bachillerato-literatura-dramatica",
@@ -3433,87 +3797,65 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-literatura-universal",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BLIE01BC4",
-        "detalle": "documento: \"['CCL4', 'CD2', 'CD3', 'CPSAA5', 'CC1', 'CCEC1', 'CCEC2', 'CCEC4.1', 'CCEC4.2']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BLIE01BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL4, CD2, CD3, CPSAA5, CC1, CCEC1, CCEC2, CCEC4.1, CCEC4.2; criterios: CCL4, CD2, CD3, CC1, CCEC1, CCEC2, CCEC4.1, CCEC4.2)"
+    ]
   },
   {
     "documento": "bachillerato-matematicas-aplicadas-a-las-ciencias-sociales-i-y-ii",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BAII02BC7",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'STEM1', 'STEM2', 'STEM3', 'STEM4', 'CD1', 'CD2', 'CD3'\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BAII02BC7: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CPSAA3.2, CE3, CCEC4.1, CCEC4.2; criterios: CCL2, STEM2, STEM4, CD1, CD2, CD3, CD5, CE3, CCEC4.1, CCEC4.2, CCL1, CCL3, STEM1, STEM3, CCEC3.2)"
+    ]
   },
   {
     "documento": "bachillerato-matematicas-generales",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BMZT01BC3",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'STEM1', 'STEM2', 'STEM3', 'STEM4', 'CD1', 'CD2', 'CD5', 'CE3']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BMZT01BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD5, CE3; criterios: CCL1, STEM1, STEM2, STEM4, CD1, CD2, CD5, CE3, CCL2, STEM3, CD3)"
+    ]
   },
   {
     "documento": "bachillerato-matematicas-i-y-ii",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BMTI01BC1",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'STEM1', 'STEM2', 'STEM3', 'CD2', 'CD3', 'CD5', 'CPSAA4', 'CPSA\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BMTI01BC3",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'STEM1', 'STEM2', 'STEM3', 'STEM4', 'CD1', 'CD2', 'CD3', 'CD5',\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BMII02BC7",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'STEM1', 'STEM2', 'STEM3', 'STEM4', 'CD1', 'CD2', 'CD3'\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BMTI01BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, STEM1, STEM2, STEM3, CD2, CD3, CD5, CPSAA4, CPSAA5, CE3; criterios: CCL2, STEM1, STEM2, STEM3, CD2, CD3, CD5, CPSAA4, CPSAA5, CE3, CCL1, CC3)",
+      "bc:BMTI01BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CC3, CE3; criterios: CCL1, STEM1, STEM2, STEM4, CD1, CD2, CD3, CD5, CE3, CCL2, STEM3)",
+      "bc:BMII02BC7: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CE3, CCEC4.1, CCEC4.2; criterios: CCL2, STEM2, STEM4, CD1, CD2, CD3, CD5, CE3, CCEC4.1, CCEC4.2, CCL1, CCL3, STEM1, STEM3, CCEC3.2)"
+    ]
   },
   {
     "documento": "bachillerato-movimientos-culturales-y-artisticos",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BMFV02BC4",
-        "detalle": "documento: \"['CCL3', 'CD3', 'CPSAA1.2', 'CC1', 'CC3', 'CCEC3.1', 'CCEC3.2']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BMFV02BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL3, CD3, CPSAA1.2, CC1, CC3, CCEC3.1, CCEC3.2; criterios: CCL3, CD3, CC1, CC3, CPSAA1.2, CCEC2, CCEC1)"
+    ]
   },
   {
     "documento": "bachillerato-proyectos-artisticos",
@@ -3524,15 +3866,13 @@
         "tipo": "texto de criterio distinto",
         "nodo": "crit:B6RO01CE3.3",
         "detalle": "documento: 'Identificar oportunidades de desarrollo personal, social, académico o profesiona'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:B6RO01BC5",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'CD1', 'CD2', 'CPSAA4', 'CPSAA5', 'CCEC2', 'CCEC4.2']\""
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:B6RO01BC5: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CD1, CD2, CPSAA4, CPSAA5, CCEC2, CCEC4.2; criterios: CCL2, CCL3, CD1, CD2, CPSAA4, CPSAA5, CCEC2, CCEC4.2)"
+    ]
   },
   {
     "documento": "bachillerato-quimica",
@@ -3540,7 +3880,8 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-segunda-lengua-extranjera-i-y-ii",
@@ -3548,21 +3889,19 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-tecnicas-de-expresion-grafico-plastica",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BTEP02BC1",
-        "detalle": "documento: \"['CCL3', 'CP2', 'CP3', 'STEM1', 'STEM2', 'STEM5', 'CD1', 'CPSAA2', 'CPSAA4', 'CC\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BTEP02BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL3, CP2, CP3, STEM1, STEM2, STEM5, CD1, CPSAA2, CPSAA4, CC1, CC2, CC4, CCEC1, CCEC2; criterios: CCL3, CP2, STEM1, STEM5, CD1, CC1, STEM2, CPSAA4, CPSAA2, CC2, CC4, CCEC1, CCEC2)"
+    ]
   },
   {
     "documento": "bachillerato-tecnologia-e-ingenieria-i-y-ii",
@@ -3570,7 +3909,8 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-volumen",
@@ -3578,7 +3918,8 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-anatomia-aplicada",
@@ -3597,7 +3938,8 @@
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-acondicionamiento-fisico",
@@ -3605,7 +3947,8 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-antropologia-y-sociologia",
@@ -3634,7 +3977,8 @@
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-biologia-humana",
@@ -3657,16 +4001,6 @@
         "detalle": "documento: 'Establecer colaboraciones dentro y fuera del centro educativo en las distintas f'"
       },
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BBIL02BC4",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'STEM2', 'STEM5', 'CD4', 'CPSAA2', 'CPSAA3.2', 'CC3', 'CC4', 'C\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BBIL02BC5",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'STEM3', 'STEM4', 'STEM5', 'CPSAA2', 'CPSAA5', 'CC3', 'CC4', 'C\""
-      },
-      {
         "tipo": "texto de saber distinto",
         "nodo": "sb:BBIL02SBIV.6",
         "detalle": "documento: 'Análisis de los efectos perjudiciales de las adicciones con sustancia (drogas le'"
@@ -3683,7 +4017,11 @@
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BBIL02BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL3, STEM2, STEM5, CD4, CPSAA2, CPSAA3.2, CC3, CC4, CE1; criterios: STEM2, STEM5, CPSAA2, CC3, CE1, CCL1, CCL3, CD4, CC4)",
+      "bc:BBIL02BC5: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, STEM3, STEM4, STEM5, CPSAA2, CPSAA5, CC3, CC4, CE3; criterios: CCL5, STEM2, CPSAA2, CC4, CE3, CCL1, STEM4, STEM5, CPSAA5, CC3, STEM3)"
+    ]
   },
   {
     "documento": "bachillerato-bioestadistica",
@@ -3712,7 +4050,8 @@
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-cultura-cientifica",
@@ -3723,29 +4062,24 @@
         "tipo": "enunciado de competencia distinto",
         "nodo": "ce:BCUFC2",
         "detalle": "documento: 'Localizar y utilizar fuentes fiables, identificando, seleccionando y organizando'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BCUF01BC5",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'CP2', 'STEM1', 'STEM2', 'STEM5', 'CD1', 'CD4', 'CD5', 'CPSAA2'\""
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BCUF01BC5: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL3, CP2, STEM1, STEM2, STEM5, CD1, CD4, CD5, CPSAA2, CC4, CE1; criterios: CCL3, STEM1, STEM5, CD1, CD4, CC4, CP2, STEM2, CPSAA4, CE1, CCL1, CD5)"
+    ]
   },
   {
     "documento": "bachillerato-electrotecnia",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BELE02BC4",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'STEM2', 'STEM4', 'CD2', 'CD3', 'CD4', 'CPSAA1.1', 'CPS\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BELE02BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, STEM2, STEM4, CD2, CD3, CD4, CPSAA1.1, CPSAA3.2; criterios: CCL1, CCL3, STEM2, STEM4, CD2, CD3, CD4, CPSAA1.1, CPSAA3.2, CE1, CE3, CCL2, STEM5, CPSAA2, CC4)"
+    ]
   },
   {
     "documento": "bachillerato-fotografia",
@@ -3753,18 +4087,16 @@
     "avisos_lectura": [],
     "diferencias": [
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BFOT01BC2",
-        "detalle": "documento: \"['CCL3', 'STEM2', 'STEM4', 'CD3', 'CD4', 'CPSAA2', 'CPSAA3.1', 'CC3', 'CC4', 'CE\""
-      },
-      {
         "tipo": "título de bloque de saberes distinto",
         "nodo": "sb:BFOT01SBI",
         "detalle": "documento: 'Evolución de la fotografía'"
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BFOT01BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL3, STEM2, STEM4, CD3, CD4, CPSAA2, CPSAA3.1, CC3, CC4, CE1, CCEC1, CCEC3.1, CCEC3.2; criterios: CCL3, STEM2, CD3, CD4, CPSAA3.1, CPSAA3.2, CC3, CC4, CE1, CCEC1, CCL2, STEM4, CCEC2, CCEC3.1)"
+    ]
   },
   {
     "documento": "bachillerato-fundamentos-de-administracion-y-gestion",
@@ -3775,11 +4107,6 @@
         "tipo": "explicación de bloque distinto",
         "nodo": "bc:BFUE02BC2",
         "detalle": "documento: 'Con esta competencia específica se podrá verificar la capacidad del alumnado par'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BFUE02BC3",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'CCL5', 'STEM2', 'STEM4', 'STEM5', 'CD2', 'CD3', 'CPSAA\""
       },
       {
         "tipo": "texto de saber distinto",
@@ -3793,7 +4120,10 @@
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BFUE02BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CCL5, STEM2, STEM4, STEM5, CD2, CD3, CPSAA1.2, CPSAA3.1, CPSAA3.2, CPSAA4, CPSAA5, CC2, CC3, CC4, CE1, CE2, CE3, CCEC3.1, CCEC4.1; criterios: CCL2, CCL3, CCL5, CE2, CE3, CCEC3.2, CCEC4.1, STEM4, CD2, CD3, CPSAA1.2, CPSAA3.2, CPSAA4, CC3, CE1, CCEC3.1, CCL1, STEM2, STEM5, CPSAA3.1, CPSAA5, CC4)"
+    ]
   },
   {
     "documento": "bachillerato-historia-de-canarias",
@@ -3801,18 +4131,16 @@
     "avisos_lectura": [],
     "diferencias": [
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BHIC01BC4",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'CP3', 'STEM2', 'CD1', 'CD2', 'CPSAA3.1', 'CPSAA4', 'CP\""
-      },
-      {
         "tipo": "texto de saber distinto",
         "nodo": "sb:BHIC01SBIII.5",
         "detalle": "documento: 'Análisis del impacto de las principales corrientes culturales y científicas en C'"
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BHIC01BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CP3, STEM2, CD1, CD2, CPSAA3.1, CPSAA4, CPSAA5, CC2, CC3, CE3; criterios: CCL1, CCL2, CCL3, STEM2, CD1, CPSAA4, CE3, CP3, CD2, CCEC1, CPSAA3.1, CCL5, STEM1, CPSAA5, CC2, CC3, CC4)"
+    ]
   },
   {
     "documento": "bachillerato-imagen-y-sonido",
@@ -3831,7 +4159,8 @@
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-iniciacion-a-la-astronomia",
@@ -3865,7 +4194,8 @@
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-informatica-y-digitalizacion-i-y-ii",
@@ -3878,24 +4208,9 @@
         "detalle": "documento: 'Identificar y analizar el funcionamiento de los diferentes elementos que forman '"
       },
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BIKF01BC1",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'STEM1', 'STEM2', 'STEM5', 'CD1', 'CD4', 'CD5', 'CPSAA1.1', 'CP\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BIKF01BC2",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'CD1', 'CD2', 'CD3', 'STEM3', 'CPSAA5', 'CE3', 'CCEC4.1']\""
-      },
-      {
         "tipo": "enunciado de competencia distinto",
         "nodo": "ce:BIKFC3",
         "detalle": "documento: 'Identificar y aplicar, valorando y contrastando fuentes variadas de información,'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BIKF01BC3",
-        "detalle": "documento: \"['CCL5', 'CD3', 'CD4', 'CD5', 'CPSAA1.2', 'CPSAA2', 'CPSAA3.1', 'CE2', 'CC1', 'C\""
       },
       {
         "tipo": "enunciado de competencia distinto",
@@ -3903,24 +4218,24 @@
         "detalle": "documento: 'Identificar y analizar el funcionamiento de los diferentes elementos que forman '"
       },
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BIQF02BC1",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'STEM1', 'STEM2', 'STEM5', 'CD1', 'CD4', 'CD5', 'CPSAA1.1', 'CP\""
-      },
-      {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:BIQF02CE1.1",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'STEM1', 'CD1', 'CD4', 'CD5', 'CPSAA1.1']\""
+        "detalle": "documento: ['CCL1', 'CCL3', 'STEM1', 'CD1', 'CD4', 'CD5', 'CPSAA1.1']"
       },
       {
         "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BIQF02BC2",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'CCL5', 'CD1', 'CD2', 'CD3', 'CD4', 'STEM3', 'CPSAA4', 'CPSAA5'\""
+        "nodo": "bc:BIQF02BC1",
+        "detalle": "documento: ['CCL1', 'CCL3', 'STEM1', 'CD1', 'CD4', 'CD5', 'CPSAA1.1', 'STEM2', 'STEM5', 'CPSAA5', 'CE3']"
       },
       {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:BIQF02CE2.1",
-        "detalle": "documento: \"['CD2', 'CD3', 'STEM3', 'CPSAA5', 'CE3']\""
+        "detalle": "documento: ['CD2', 'CD3', 'STEM3', 'CPSAA5', 'CE3']"
+      },
+      {
+        "tipo": "descriptores de bloque distinto",
+        "nodo": "bc:BIQF02BC2",
+        "detalle": "documento: ['CD2', 'CD3', 'STEM3', 'CPSAA5', 'CE3', 'CCL1', 'CCL3', 'CD1', 'CCL5', 'CD4', 'CPSAA4', 'CC1']"
       },
       {
         "tipo": "enunciado de competencia distinto",
@@ -3928,19 +4243,19 @@
         "detalle": "documento: 'Identificar y aplicar, valorando y contrastando fuentes variadas de información,'"
       },
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BIQF02BC3",
-        "detalle": "documento: \"['CCL2', 'CCL5', 'CD3', 'CD4', 'CD5', 'CPSAA1.2', 'CPSAA2', 'CPSAA3.1', 'CC1', '\""
-      },
-      {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:BIQF02CE3.2",
-        "detalle": "documento: \"['CCL2', 'CPSAA1.2', 'CC1', 'CC2']\""
+        "detalle": "documento: ['CCL2', 'CPSAA1.2', 'CC1', 'CC2']"
       },
       {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:BIQF02CE3.3",
-        "detalle": "documento: \"['CCL5', 'CD3', 'CD4', 'CD5', 'CPSAA3.1', 'CPSAA2', 'CC2']\""
+        "detalle": "documento: ['CCL5', 'CD3', 'CD4', 'CD5', 'CPSAA3.1', 'CPSAA2', 'CC2']"
+      },
+      {
+        "tipo": "descriptores de bloque distinto",
+        "nodo": "bc:BIQF02BC3",
+        "detalle": "documento: ['CD4', 'CD5', 'CPSAA2', 'CC1', 'CC2', 'CCL2', 'CPSAA1.2', 'CCL5', 'CD3', 'CPSAA3.1']"
       },
       {
         "tipo": "texto de saber distinto",
@@ -3953,22 +4268,130 @@
         "detalle": "documento: 'Identificación y análisis de los distintos sistemas de codificación y almacenami'"
       }
     ],
-    "huecos": [],
-    "revisar": []
+    "huecos": [
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:BIQF02CE1.1",
+        "campo": "descriptores",
+        "valor": [
+          "CCL1",
+          "CCL3",
+          "STEM1",
+          "CD1",
+          "CD4",
+          "CD5",
+          "CPSAA1.1"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "bc:BIQF02BC1",
+        "campo": "descriptores",
+        "valor": [
+          "CCL1",
+          "CCL3",
+          "STEM1",
+          "CD1",
+          "CD4",
+          "CD5",
+          "CPSAA1.1",
+          "STEM2",
+          "STEM5",
+          "CPSAA5",
+          "CE3"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:BIQF02CE2.1",
+        "campo": "descriptores",
+        "valor": [
+          "CD2",
+          "CD3",
+          "STEM3",
+          "CPSAA5",
+          "CE3"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "bc:BIQF02BC2",
+        "campo": "descriptores",
+        "valor": [
+          "CD2",
+          "CD3",
+          "STEM3",
+          "CPSAA5",
+          "CE3",
+          "CCL1",
+          "CCL3",
+          "CD1",
+          "CCL5",
+          "CD4",
+          "CPSAA4",
+          "CC1"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:BIQF02CE3.2",
+        "campo": "descriptores",
+        "valor": [
+          "CCL2",
+          "CPSAA1.2",
+          "CC1",
+          "CC2"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:BIQF02CE3.3",
+        "campo": "descriptores",
+        "valor": [
+          "CCL5",
+          "CD3",
+          "CD4",
+          "CD5",
+          "CPSAA3.1",
+          "CPSAA2",
+          "CC2"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "bc:BIQF02BC3",
+        "campo": "descriptores",
+        "valor": [
+          "CD4",
+          "CD5",
+          "CPSAA2",
+          "CC1",
+          "CC2",
+          "CCL2",
+          "CPSAA1.2",
+          "CCL5",
+          "CD3",
+          "CPSAA3.1"
+        ]
+      }
+    ],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BIKF01BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL3, STEM1, STEM2, STEM5, CD1, CD4, CD5, CPSAA1.1, CPSAA5, CE3; criterios: CCL3, STEM2, CD1, STEM1, STEM5, CD4, CD5, CPSAA1.1, CE3, CPSAA5)",
+      "bc:BIKF01BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL3, CD1, CD2, CD3, STEM3, CPSAA5, CE3, CCEC4.1; criterios: CCL1, CCL3, CD1, CD2, CD3, CPSAA5, CE3, CCEC4.1)",
+      "bc:BIKF01BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL5, CD3, CD4, CD5, CPSAA1.2, CPSAA2, CPSAA3.1, CE2, CC1, CC2; criterios: CCL5, CD3, CD4, CD5, CPSAA1.2, CPSAA2, CPSAA3.1, CC1, CC2)"
+    ]
   },
   {
     "documento": "bachillerato-la-mitologia-y-las-artes",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BLAM02BC1",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'CCL4', 'CP3', 'CD1', 'CD2', 'CPSAA4', 'CC1', 'CCEC1']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BLAM02BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CCL4, CP3, CD1, CD2, CPSAA4, CC1, CCEC1; criterios: CCL1, CCL3, CD1, CD2, CPSAA4, CC1, CCL2, CP3, CCEC1)"
+    ]
   },
   {
     "documento": "bachillerato-literatura-canaria",
@@ -3976,29 +4399,29 @@
     "avisos_lectura": [],
     "diferencias": [
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BLCA02BC1",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'CCL4', 'STEM5', 'CC1', 'CCEC1', 'CCEC2']\""
-      },
-      {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:BLCA02CE1.2",
-        "detalle": "documento: \"['CCL3', 'STEM5', 'CC1', 'CCEC2']\""
+        "detalle": "documento: ['CCL3', 'STEM5', 'CC1', 'CCEC2']"
       },
       {
         "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BLCA02BC4",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'CCL5', 'CP3', 'STEM5', 'CD2', 'CD3', 'CPSAA3.1', 'CPSA\""
+        "nodo": "bc:BLCA02BC1",
+        "detalle": "documento: ['CCL1', 'CCL2', 'CCL4', 'CC1', 'CCEC1', 'CCL3', 'STEM5', 'CCEC2']"
       },
       {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:BLCA02CE4.1",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'STEM5', 'CPSAA5', 'CC4', 'CCEC2']\""
+        "detalle": "documento: ['CCL1', 'CCL2', 'CCL3', 'STEM5', 'CPSAA5', 'CC4', 'CCEC2']"
       },
       {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:BLCA02CE4.2",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'CCL5', 'CP3', 'STEM5', 'CD2', 'CD3', 'CPSAA3.1', 'CPSAA3.2', '\""
+        "detalle": "documento: ['CCL1', 'CCL3', 'CCL5', 'CP3', 'STEM5', 'CD2', 'CD3', 'CPSAA3.1', 'CPSAA3.2', 'CCEC2', 'CCEC4.1']"
+      },
+      {
+        "tipo": "descriptores de bloque distinto",
+        "nodo": "bc:BLCA02BC4",
+        "detalle": "documento: ['CCL1', 'CCL2', 'CCL3', 'STEM5', 'CPSAA5', 'CC4', 'CCEC2', 'CCL5', 'CP3', 'CD2', 'CD3', 'CPSAA3.1', 'CPSAA3.2', 'CCEC4.1']"
       },
       {
         "tipo": "texto de saber distinto",
@@ -4021,8 +4444,89 @@
         "detalle": ""
       }
     ],
-    "huecos": [],
-    "revisar": []
+    "huecos": [
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:BLCA02CE1.2",
+        "campo": "descriptores",
+        "valor": [
+          "CCL3",
+          "STEM5",
+          "CC1",
+          "CCEC2"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "bc:BLCA02BC1",
+        "campo": "descriptores",
+        "valor": [
+          "CCL1",
+          "CCL2",
+          "CCL4",
+          "CC1",
+          "CCEC1",
+          "CCL3",
+          "STEM5",
+          "CCEC2"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:BLCA02CE4.1",
+        "campo": "descriptores",
+        "valor": [
+          "CCL1",
+          "CCL2",
+          "CCL3",
+          "STEM5",
+          "CPSAA5",
+          "CC4",
+          "CCEC2"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:BLCA02CE4.2",
+        "campo": "descriptores",
+        "valor": [
+          "CCL1",
+          "CCL3",
+          "CCL5",
+          "CP3",
+          "STEM5",
+          "CD2",
+          "CD3",
+          "CPSAA3.1",
+          "CPSAA3.2",
+          "CCEC2",
+          "CCEC4.1"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "bc:BLCA02BC4",
+        "campo": "descriptores",
+        "valor": [
+          "CCL1",
+          "CCL2",
+          "CCL3",
+          "STEM5",
+          "CPSAA5",
+          "CC4",
+          "CCEC2",
+          "CCL5",
+          "CP3",
+          "CD2",
+          "CD3",
+          "CPSAA3.1",
+          "CPSAA3.2",
+          "CCEC4.1"
+        ]
+      }
+    ],
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-juegos-y-deportes-tradicionales-de-canarias",
@@ -4030,18 +4534,14 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-medio-natural-canario",
     "estado": "contrastado",
     "avisos_lectura": [],
     "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BMNC01BC1",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'CCL5', 'CP2', 'STEM2', 'STEM4', 'CD1', 'CD3', 'CPSAA4'\""
-      },
       {
         "tipo": "enunciado de competencia distinto",
         "nodo": "ce:BMNCC3",
@@ -4056,11 +4556,6 @@
         "tipo": "explicación de bloque distinto",
         "nodo": "bc:BMNC01BC4",
         "detalle": "documento: 'A través de este bloque competencial, se comprobará que el alumnado es capaz de '"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BMNC01BC4",
-        "detalle": "documento: \"['CCL1', 'STEM5', 'CD1', 'CPSAA2', 'CPSAA4', 'CC1', 'CC4', 'CE1', 'CE3']\""
       },
       {
         "tipo": "texto de saber distinto",
@@ -4084,35 +4579,33 @@
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BMNC01BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CCL5, CP2, STEM2, STEM4, CD1, CD3, CPSAA4, CC3, CCEC3.2; criterios: CCL2, CCL3, CP2, STEM2, STEM4, CD1, CD3, CPSAA4, CC3, CCEC3.2, CCL1, CPSAA3.2, CCL5)",
+      "bc:BMNC01BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, STEM5, CD1, CPSAA2, CPSAA4, CC1, CC4, CE1, CE3; criterios: CCL3, CD1, CPSAA4, CC4, STEM5, CE1, CCL1, CPSAA2, CC1, CE3)"
+    ]
   },
   {
     "documento": "bachillerato-taller-de-etimologia-grecolatina",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BTA501BC1",
-        "detalle": "documento: \"['CCL1', 'CP2', 'CP3', 'STEM1', 'CD1']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BTA501BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CP2, CP3, STEM1, CD1; criterios: CCL1, CP2, STEM1, CP3)"
+    ]
   },
   {
     "documento": "bachillerato-talleres-artisticos",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BTA701BC1",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'CCL5', 'CP2', 'CD1', 'CD2', 'CPSAA1.2', 'CPSAA4', 'CC1\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BTA701BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CCL5, CP2, CD1, CD2, CPSAA1.2, CPSAA4, CC1, CC3, CE3, CCEC2, CCEC3.1; criterios: CCL3, CD1, CPSAA4, CC1, CCEC2, CCL1, CCL2, CP2, CD2, CE3, CCEC3.1, CCL5, CPSAA1.1, CC3)"
+    ]
   },
   {
     "documento": "bachillerato-tecnicas-de-laboratorio",
@@ -4126,31 +4619,21 @@
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-musica-expresion-y-espectaculos",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BMUW01BC1",
-        "detalle": "documento: \"['CPSAA1.1', 'CPSAA3.1', 'CCEC3.1', 'CCEC3.2', 'CCEC4.1', 'CCEC4.2']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BMUW01BC3",
-        "detalle": "documento: \"['CCL1', 'CPSAA3.1', 'CCEC1', 'CCEC2']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BMUW01BC4",
-        "detalle": "documento: \"['CCEC3.1', 'CCEC3.2', 'CCEC4.1', 'CCEC4.2']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BMUW01BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CPSAA1.1, CPSAA3.1, CCEC3.1, CCEC3.2, CCEC4.1, CCEC4.2; criterios: CPSAA1.1, CPSAA3.1, CCEC3.1, CCEC3.2, CCEC4.1, CCEC4.2, CPSAA3.2)",
+      "bc:BMUW01BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CPSAA3.1, CCEC1, CCEC2; criterios: CCL1, CPSAA3.1, CCEC3.1, CCEC3.2)",
+      "bc:BMUW01BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCEC3.1, CCEC3.2, CCEC4.1, CCEC4.2; criterios: CPSAA3.1, CPSAA3.2, CCEC4.1, CCEC4.2)"
+    ]
   },
   {
     "documento": "bachillerato-musica-y-sociedad",
@@ -4158,7 +4641,8 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-psicologia",
@@ -4176,14 +4660,14 @@
         "detalle": "documento: 'Identificar y comprender y explicar las características de la Psicología básica,'"
       },
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BPSI02BC3",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'STEM2', 'STEM4', 'STEM5', 'CD1', 'CPSAA1.2', 'CPSAA2',\""
-      },
-      {
         "tipo": "descriptores de criterio distinto",
         "nodo": "crit:BPSI02CE3.2",
-        "detalle": "documento: \"['CCL2', 'CCL3', 'STEM2', 'STEM4', 'CD1']\""
+        "detalle": "documento: ['CCL2', 'CCL3', 'STEM2', 'STEM4', 'CD1']"
+      },
+      {
+        "tipo": "descriptores de bloque distinto",
+        "nodo": "bc:BPSI02BC3",
+        "detalle": "documento: ['CCL2', 'CCL3', 'STEM2', 'STEM4', 'STEM5', 'CD1', 'CPSAA1.2', 'CPSAA4', 'CCL1', 'CPSAA2']"
       },
       {
         "tipo": "texto de saber distinto",
@@ -4196,21 +4680,49 @@
         "detalle": ""
       }
     ],
-    "huecos": [],
-    "revisar": []
+    "huecos": [
+      {
+        "categoria": "descriptores",
+        "nodo": "crit:BPSI02CE3.2",
+        "campo": "descriptores",
+        "valor": [
+          "CCL2",
+          "CCL3",
+          "STEM2",
+          "STEM4",
+          "CD1"
+        ]
+      },
+      {
+        "categoria": "descriptores",
+        "nodo": "bc:BPSI02BC3",
+        "campo": "descriptores",
+        "valor": [
+          "CCL2",
+          "CCL3",
+          "STEM2",
+          "STEM4",
+          "STEM5",
+          "CD1",
+          "CPSAA1.2",
+          "CPSAA4",
+          "CCL1",
+          "CPSAA2"
+        ]
+      }
+    ],
+    "revisar": [],
+    "avisos_documento": []
   },
   {
     "documento": "bachillerato-taller-de-artes-integradas",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BTA602BC3",
-        "detalle": "documento: \"['CCL1', 'CD1', 'CD2', 'CPSAA1.1', 'CPSAA5', 'CC1', 'CCEC3.1']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BTA602BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CD1, CD2, CPSAA1.1, CPSAA5, CC1, CCEC3.1; criterios: CCL1, CD1, CD2, CPSAA1.1, CPSAA5, CC1, CCEC3.1, CPSAA1.2)"
+    ]
   }
 ]

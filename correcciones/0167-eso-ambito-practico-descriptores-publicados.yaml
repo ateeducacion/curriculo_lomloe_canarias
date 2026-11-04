@@ -1,0 +1,39 @@
+id: '0167'
+titulo: 'Ámbito Práctico (Educación Secundaria Obligatoria): 2 descriptores publicados en el BOC'
+motivo: Los descriptores de estos criterios no coinciden con los del documento oficial, y la lista del documento es la que
+  figura completa en el BOC (fuentes/boletines). Los de cada bloque se recalculan como la unión de los de sus criterios, igual
+  que hace el importador. Generada con `contrastar --proponer`.
+fuente:
+  documento: eso-ambito-practico
+  fichero: fuentes/documentos/eso/anexo_3_curriculo_pdc_eso__AP.odt
+  sha256: 548c53378ed12f099d77f459aac883b926f79bae6673ca72b901b70839ce8962
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: bc:SAM304BC4
+  campo: descriptores
+  valor:
+  - CD2
+  - CD3
+  - CCL2
+  - CCL3
+  - CD1
+  - CPSAA4
+  - CC1
+  - CCEC1
+  - CCL1
+  - CPSAA5
+  - CE3
+  - CCEC4
+  - CCL5
+  - STEM4
+- nodo: crit:SAM304CE4.4
+  campo: descriptores
+  valor:
+  - CCL1
+  - CCL2
+  - CCL5
+  - STEM4
+  - CD3
+  - CPSAA5

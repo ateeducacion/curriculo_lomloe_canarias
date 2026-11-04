@@ -13,6 +13,11 @@ _CABECERA = re.compile(r'^\s*(Boletín Oficial de Canarias núm\.|https?://|boc-
                        r'(Lunes|Martes|Miércoles|Jueves|Viernes|Sábado|Domingo) \d+ de )')
 
 
+_DESC = r'(?:CCL|CP|STEM|CD|CPSAA|CC|CE|CCEC)\d(?:\.\d)?'
+_DESCRIPTOR_ANTES = re.compile(_DESC + r',\s*$')
+_DESCRIPTOR_DESPUES = re.compile(r'(?:\.\d|,\s*' + _DESC + ')')
+
+
 def _palabras(s):
     return re.sub(r'\W+', ' ', (s or '').lower()).strip()
 
@@ -36,6 +41,20 @@ class Boletin:
     def contiene_literal(self, s):
         """Como contiene(), pero con la puntuación exacta (espacios y comillas normalizados)."""
         return _buscar(_literal(s), self.literal)
+
+    def contiene_descriptores(self, lista):
+        """La lista de descriptores aparece completa en el boletín, sin otros descriptores pegados."""
+        if not lista:
+            return False
+        s = ', '.join(lista)
+        pos = self.literal.find(s)
+        while pos >= 0:
+            antes = self.literal[max(0, pos - 12):pos]
+            despues = self.literal[pos + len(s):pos + len(s) + 12]
+            if not _DESCRIPTOR_ANTES.search(antes) and not _DESCRIPTOR_DESPUES.match(despues):
+                return True
+            pos = self.literal.find(s, pos + 1)
+        return False
 
     def exacto(self, s):
         """El texto aparece completo, sin tolerar ningún trozo que no se encuentre."""
