@@ -1,0 +1,26 @@
+id: '0151'
+titulo: 'Matemáticas (Educación Primaria): 4 textos que solo difieren en espacios'
+motivo: El texto de la exportación solo difiere del documento oficial en espacios (dobles, de no separación o al principio
+  o final). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: primaria-matematicas
+  fichero: fuentes/documentos/primaria/curriculo-educacion-PRIMARIA_Matematicas.odt
+  sha256: 30849bd07eb61b4b8b06e0902c7fcf1f1bd9908936b14d183c0741a5e19eec59
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: sb:PMAT01SBI.2.3
+  campo: definition
+  valor: 'Comprensión y utilización de estrategias flexibles de cálculo para la resta con números naturales hasta 999: resta
+    de una unidad, dos unidades y decenas completas a números de dos y tres cifras.'
+- nodo: sb:PMAT01SBI.2.5
+  campo: definition
+  valor: Uso de la resta como acción de completar a los órdenes de unidades desde el sustraendo hasta el minuendo.
+- nodo: sb:PMAT02SBI.2.3
+  campo: definition
+  valor: 'Comprensión y utilización de estrategias flexibles de cálculo para la resta con números naturales hasta 999: resta
+    de una unidad, dos unidades y decenas completas a números de dos y tres cifras.'
+- nodo: sb:PMAT02SBI.2.5
+  campo: definition
+  valor: Uso de la resta como acción de completar a los órdenes de unidades desde el sustraendo hasta el minuendo.

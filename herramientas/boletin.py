@@ -37,8 +37,12 @@ class Boletin:
         """Como contiene(), pero con la puntuación exacta (espacios y comillas normalizados)."""
         return _buscar(_literal(s), self.literal)
 
+    def exacto(self, s):
+        """El texto aparece completo, sin tolerar ningún trozo que no se encuentre."""
+        return _buscar(_palabras(s), self.palabras, tolerancia=0)
 
-def _buscar(n, en):
+
+def _buscar(n, en, tolerancia=1):
     """Busca el texto por trozos de 10 palabras completas, en orden.
 
     Se tolera que falle un trozo de cada texto largo: un salto de página en medio puede
@@ -55,7 +59,7 @@ def _buscar(n, en):
         j = f' {en} '.find(f' {trozo} ', pos)
         if j < 0:
             fallos += 1
-            if fallos > 1:
+            if fallos > tolerancia:
                 return False
             continue
         pos = j + len(trozo)

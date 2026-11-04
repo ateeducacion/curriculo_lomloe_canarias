@@ -216,8 +216,12 @@ def _version_publicada(nodos, textos, bol, huecos):
         if bol is None:
             continue
         if bol.contiene(actual) and bol.contiene(esperado):
-            # Mismas palabras en el boletín: decide la puntuación exacta.
-            if not (bol.contiene_literal(esperado) and not bol.contiene_literal(actual)):
+            if _norma(actual) == _norma(esperado):
+                # Mismas palabras: decide la puntuación exacta.
+                if not (bol.contiene_literal(esperado) and not bol.contiene_literal(actual)):
+                    continue
+            elif not (bol.exacto(esperado) and not bol.exacto(actual)):
+                # Los dos aparecen tolerando un trozo: solo decide si uno aparece completo y el otro no.
                 continue
         elif not bol.contiene(esperado) or bol.contiene(actual):
             continue
@@ -342,12 +346,47 @@ def proponer(resultados, manifiesto):
     return escritos
 
 
-def _saberes(d, nodos, padre, hijos, vistos, textos=None):
-    for i, h in enumerate(hijos, 1):
-        nid = f'{padre}.{i}'
-        vistos.add(nid)
-        _cmp(d, nodos, nid, 'definition', h['texto'], 'texto de saber', textos)
-        _saberes(d, nodos, nid, h['hijos'], vistos, textos)
+def _saberes(d, nodos, base, hijos, vistos, textos=None):
+    """Compara los saberes de un bloque emparejándolos por contenido, no por número.
+
+    La exportación y el documento no siempre numeran ni anidan igual (un subsaber de la
+    exportación puede ser un saber del mismo nivel en el documento), así que comparar por
+    posición da diferencias falsas. Se alinean las dos listas en orden; dentro de un tramo
+    que no coincide, se empareja por posición si los tramos tienen el mismo tamaño y, si
+    no, por parecido. Los saberes del documento sin pareja se informan como ausentes; los
+    del corpus quedan fuera de `vistos` y se informan como sobrantes.
+    """
+    ids = sorted((k for k in nodos if k.startswith(base + '.')), key=_natural)
+    con_hijos = {k.rsplit('.', 1)[0] for k in ids}
+    doc = []
+
+    def aplanar(padre, hs):
+        for i, h in enumerate(hs, 1):
+            doc.append((f'{padre}.{i}', h['texto']))
+            aplanar(f'{padre}.{i}', h['hijos'])
+    aplanar(base, hijos)
+    a = [_norma(nodos[k].get('definition')) for k in ids]
+    b = [_norma(t) for _, t in doc]
+    parejas, sueltos = [], []
+    for op, i1, i2, j1, j2 in difflib.SequenceMatcher(None, a, b, autojunk=False).get_opcodes():
+        if op == 'equal' or i2 - i1 == j2 - j1:
+            parejas += list(zip(ids[i1:i2], doc[j1:j2]))
+            continue
+        libres = list(range(i1, i2))
+        for j in range(j1, j2):
+            mejor = max(libres, key=lambda i: difflib.SequenceMatcher(None, a[i], b[j]).ratio(), default=None)
+            if mejor is not None and difflib.SequenceMatcher(None, a[mejor], b[j]).ratio() >= 0.5:
+                parejas.append((ids[mejor], doc[j]))
+                libres.remove(mejor)
+            else:
+                sueltos.append(doc[j])
+    for k, (_, texto) in parejas:
+        vistos.add(k)
+        _cmp(d, nodos, k, 'definition', texto, 'texto de saber', textos)
+    for ruta, texto in sueltos:
+        d('falta en el corpus: texto de saber', ruta, f'documento: {texto[:80]!r}')
+    # Los encabezados vacíos con subsaberes son estructura de la exportación, no saberes sobrantes.
+    vistos.update(k for k in ids if k in con_hijos and not nodos[k].get('definition'))
 
 
 def _cmp(d, nodos, nid, campo, esperado, etiqueta, textos=None):

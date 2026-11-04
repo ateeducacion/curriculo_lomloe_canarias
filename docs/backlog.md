@@ -121,9 +121,12 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
   (casi todos de 3.º ESO, más Historia de Canarias y Bioestadística) tienen un código cuyo
   apartado no coincide con el número de su encabezado. Hoy el importador solo reconstruye el
   código cuando además choca con otro (caso de Bioestadística). Decidir si la regla se extiende.
-- [ ] **3.6 Comparar saberes por contenido en el informe de contraste**, como ya hace
+- [x] **3.6 Comparar saberes por contenido en el informe de contraste**, como ya hace
   `--proponer`: la comparación por número da falsos positivos cuando la exportación y el
   documento anidan distinto (Matemáticas de Primaria, Filosofía).
+  Hecho (04-11-2026): los saberes de cada bloque se alinean por contenido antes de
+  compararlos (diferencias: de 895 a 819). Al emparejar bien afloran textos cortados y de
+  otra versión; con la búsqueda exacta en el BOC, correcciones 0137–0165 (29 ficheros).
 - [x] **3.7 Diferencias de versión**: en Educación en Valores Cívicos y Éticos y en Educación
   Física de Primaria, el ODT y la exportación difieren en muchos textos, explicaciones y
   descriptores. Comprobar cuál corresponde al Decreto 211/2022 publicado en el BOC.

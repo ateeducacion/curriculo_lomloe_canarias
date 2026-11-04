@@ -1,0 +1,17 @@
+id: '0155'
+titulo: 'Antropología y Sociología (Bachillerato): 1 textos de la versión publicada en el BOC'
+motivo: El texto de la exportación no coincide con el publicado en el BOC y el del documento oficial sí (comprobado contra
+  fuentes/boletines). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-antropologia-y-sociologia
+  fichero: fuentes/documentos/bachillerato/Antropologia_y_Sociologia_BACH.odt
+  sha256: 0e74853af05905a1e053010552dc02dd9e2df6ae4ef250fefb5c308531ed1afb
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: ce:BATRC2
+  campo: definition
+  valor: Comparar y confrontar la diversidad de culturas y formas de organización social, indagando en los aspectos sociales,
+    políticos, económicos y simbólicos que las conforman, atendiendo a los saberes propios de la antropología y la sociología,
+    para debatir y argumentar de forma rigurosa acerca de los diferentes modos de vida.

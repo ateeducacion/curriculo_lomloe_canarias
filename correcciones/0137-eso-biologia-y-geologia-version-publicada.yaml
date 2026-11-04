@@ -1,0 +1,17 @@
+id: '0137'
+titulo: 'Biología y Geología (Educación Secundaria Obligatoria): 1 textos de la versión publicada en el BOC'
+motivo: El texto de la exportación no coincide con el publicado en el BOC y el del documento oficial sí (comprobado contra
+  fuentes/boletines). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: eso-biologia-y-geologia
+  fichero: fuentes/documentos/eso/Biologia_geologia_ESO.odt
+  sha256: c33804f4d036b158a54e5c094f7f79fe188ea0ffa66b3cc4201ea8bc921ff8c3
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: crit:SBIG01CE1.2
+  campo: definition
+  valor: Transmitir información sobre procesos biológicos y geológicos o textos científicos divulgativos sencillos de forma
+    clara y utilizando el vocabulario y los formatos adecuados con el fin de facilitar su comprensión y generar curiosidad
+    e interés por la ciencia.

@@ -1,0 +1,18 @@
+id: '0154'
+titulo: 'Latín I y II (Bachillerato): 1 textos de la versión publicada en el BOC'
+motivo: El texto de la exportación no coincide con el publicado en el BOC y el del documento oficial sí (comprobado contra
+  fuentes/boletines). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-latin-i-y-ii
+  fichero: fuentes/documentos/bachillerato/Latin_I_y_II_BACH.odt
+  sha256: 95331b0c8e940dda5d4d8bb6e961ec6fe741b0a0ec7a869967e53ec7c9d04b5f
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: crit:BLII02CE2.2
+  campo: definition
+  valor: Explicar cambios fonéticos, morfológicos o semánticos desde la lengua latina a las lenguas romances, especialmente
+    a las lenguas y modalidades de España, analizando prejuicios y estereotipos lingüísticos, y valorando la diversidad lingüística
+    como fuente de conocimiento y de riqueza, con el objetivo de entender la lengua como un ente vivo y cambiante propio del
+    ser humano, y que depende en su funcionamiento del contexto comunicativo diastrático, diafásico o diatópico.
