@@ -114,6 +114,8 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
 - [x] **3.3 Clasificar las explicaciones repetidas entre cursos** de las materias descargadas:
   las 196 que el documento distingue se corrigen (avisos: de 171 a 110). Los 110 que quedan
   son de materias sin documento descargado: se revisarán al contrastarlas (5.1).
+  Nota: tras corregir Infantil, el aviso cuenta también los cursos de un mismo ciclo, que
+  comparten la explicación oficial (Infantil y Primaria). Conviene que la regla los excluya.
 - [x] **3.4 Aprobación** de 0017–0035 y reconstrucción. Hecho: aprobadas el 03-11-2026.
 - [ ] **3.5 Códigos incoherentes con la numeración del texto**: 88 registros de la exportación
   (casi todos de 3.º ESO, más Historia de Canarias y Bioestadística) tienen un código cuyo
@@ -142,7 +144,9 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
   (anotado en la columna `nota`).
 - [ ] **4.2 Cobertura** (decisiones de la persona responsable, 04-11-2026):
   - [ ] Optativas que faltan en la exportación (*Juegos y Deportes Tradicionales de Canarias*,
-    *Música, Expresión y Espectáculos*): crearlas desde su ODT.
+    *Música, Expresión y Espectáculos*): crearlas desde su ODT. Códigos `JUI` y `MUW` (1.º de
+    Bachillerato), asignados el 04-11-2026. Correcciones 0042 y 0043 propuestas, generadas con
+    `herramientas.materia_desde_odt`; pendientes de aprobación.
   - [x] ¿Los ámbitos de diversificación de la exportación (`SMBS`, `SAMB`, `SAM3`) corresponden al
     Decreto 86/2025? Sí: de 139 competencias y criterios, 119 son idénticos al ODT y casi todos
     los demás son retoques menores. Difieren de verdad la competencia 4 del Ámbito Lingüístico y

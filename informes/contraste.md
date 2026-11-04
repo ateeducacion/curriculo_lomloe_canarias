@@ -43,24 +43,19 @@ Sin diferencias.
 ## eso-ambito-linguistico-y-social — contrastado
 - texto de saber distinto: 30 (p. ej. sb:SMBS03SBI.2.2, sb:SMBS03SBI.3.2, sb:SMBS03SBI.3.3, sb:SMBS03SBII.3, sb:SMBS03SBII.4)
 - nodo del corpus que no está en el documento: 21 (p. ej. sb:SMBS03SBI.2.3, sb:SMBS03SBII.6, sb:SMBS03SBII.7, sb:SMBS03SBV.2.4, sb:SMBS03SBV.3.3)
-- explicación de bloque distinto: 9 (p. ej. bc:SMBS03BC1, bc:SMBS03BC6, bc:SMBS04BC1, bc:SMBS04BC3, bc:SMBS04BC4)
+- explicación de bloque distinto: 5 (p. ej. bc:SMBS03BC1, bc:SMBS03BC6, bc:SMBS04BC1, bc:SMBS04BC4, bc:SMBS04BC6)
 - texto de criterio distinto: 4 (p. ej. crit:SMBS03CE1.5, crit:SMBS03CE6.2, crit:SMBS04CE1.4, crit:SMBS04CE5.1)
 - enunciado de competencia distinto: 3 (p. ej. ce:SMBSC1, ce:SMBSC4, ce:SMBSC4)
 - descriptores de bloque distinto: 2 (p. ej. bc:SMBS03BC4, bc:SMBS04BC4)
-- título de bloque de saberes distinto: 2 (p. ej. sb:SMBS03SBI, sb:SMBS04SBI)
-- descripción de bloque de saberes distinto: 2 (p. ej. sb:SMBS03SBI, sb:SMBS04SBI)
 - falta en el corpus: texto de saber: 1 (p. ej. sb:SMBS04SBVII.2.2)
-- corregible desde el documento (título y descripción de los bloques de saberes): 4
-- corregible desde el documento (explicaciones de bloque copiadas de otro curso): 4
 
 ## eso-ambito-cientifico-tecnologico — contrastado
 - texto de saber distinto: 12 (p. ej. sb:SAMB03SBI.1, sb:SAMB03SBI.4, sb:SAMB03SBI.4.1, sb:SAMB03SBI.4.4, sb:SAMB03SBI.5.3)
-- explicación de bloque distinto: 11 (p. ej. bc:SAMB03BC1, bc:SAMB03BC2, bc:SAMB03BC3, bc:SAMB03BC4, bc:SAMB03BC6)
+- explicación de bloque distinto: 10 (p. ej. bc:SAMB03BC1, bc:SAMB03BC2, bc:SAMB03BC3, bc:SAMB03BC4, bc:SAMB03BC6)
 - texto de criterio distinto: 10 (p. ej. crit:SAMB03CE1.2, crit:SAMB03CE2.1, crit:SAMB03CE4.4, crit:SAMB03CE4.5, crit:SAMB03CE5.3)
 - enunciado de competencia distinto: 2 (p. ej. ce:SAMBC1, ce:SAMBC5)
 - descriptores de bloque distinto: 1 (p. ej. bc:SAMB04BC6)
 - descriptores de criterio distinto: 1 (p. ej. crit:SAMB04CE6.1)
-- corregible desde el documento (explicaciones de bloque copiadas de otro curso): 1
 
 ## eso-ambito-practico — contrastado
 - texto de saber distinto: 5 (p. ej. sb:SAM304SBI.1.3, sb:SAM304SBII.1, sb:SAM304SBVI.1, sb:SAM304SBVI.2, sb:SAM304SBVI.3)
@@ -95,20 +90,14 @@ Sin diferencias.
 - descriptores de criterio distinto: 1 (p. ej. crit:PMAT02CE1.1)
 
 ## infantil-crecimiento-en-armonia — contrastado
-- explicación de bloque distinto: 12 (p. ej. bc:ICR404BC1, bc:ICR404BC2, bc:ICR404BC3, bc:ICR404BC4, bc:ICR405BC1)
 - texto de saber distinto: 6 (p. ej. sb:ICR404SBI.3.2, sb:ICR404SBII.4, sb:ICR405SBI.3.2, sb:ICR405SBII.4, sb:ICR406SBI.3.2)
-- corregible desde el documento (explicaciones de bloque copiadas de otro curso): 12
 
 ## infantil-descubrimiento-y-exploracion-del-entorno — contrastado
-- explicación de bloque distinto: 9 (p. ej. bc:IDE304BC1, bc:IDE304BC2, bc:IDE304BC3, bc:IDE305BC1, bc:IDE305BC2)
 - descriptores de bloque distinto: 3 (p. ej. bc:IDE301BC2, bc:IDE302BC2, bc:IDE303BC2)
-- corregible desde el documento (explicaciones de bloque copiadas de otro curso): 9
 
 ## infantil-comunicacion-y-representacion-de-la-realidad — contrastado
-- explicación de bloque distinto: 30 (p. ej. bc:IC4M04BC1, bc:IC4M04BC2, bc:IC4M04BC3, bc:IC4M04BC4, bc:IC4M04BC5)
 - descriptores de bloque distinto: 6 (p. ej. bc:IC4M01BC5, bc:IC4M02BC5, bc:IC4M03BC5, bc:IC5M01BC5, bc:IC5M02BC5)
 - texto de saber distinto: 6 (p. ej. sb:IC4M04SBV.3, sb:IC4M05SBV.3, sb:IC4M06SBV.3, sb:IC5M04SBV.3, sb:IC5M05SBV.3)
-- corregible desde el documento (explicaciones de bloque copiadas de otro curso): 30
 
 ## bachillerato-filosofia — contrastado
 - descriptores de bloque distinto: 3 (p. ej. bc:BFIL01BC4, bc:BFIL01BC7, bc:BFIL01BC9)
@@ -144,4 +133,22 @@ Sin diferencias.
 ## bachillerato-cultura-cientifica — contrastado
 - enunciado de competencia distinto: 1 (p. ej. ce:BCUFC2)
 - descriptores de bloque distinto: 1 (p. ej. bc:BCUF01BC5)
+
+## bachillerato-juegos-y-deportes-tradicionales-de-canarias — contrastado
+- falta en el corpus: texto de saber: 9 (p. ej. sb:BJUI01SBI.1, sb:BJUI01SBI.2, sb:BJUI01SBI.3, sb:BJUI01SBI.4, sb:BJUI01SBII.1)
+- falta en el corpus: texto de criterio: 6 (p. ej. crit:BJUI01CE1.1, crit:BJUI01CE1.2, crit:BJUI01CE1.3, crit:BJUI01CE2.1, crit:BJUI01CE2.2)
+- falta en el corpus: descriptores de criterio: 6 (p. ej. crit:BJUI01CE1.1, crit:BJUI01CE1.2, crit:BJUI01CE1.3, crit:BJUI01CE2.1, crit:BJUI01CE2.2)
+- falta en el corpus: enunciado de competencia: 2 (p. ej. ce:BJUIC1, ce:BJUIC2)
+- falta en el corpus: explicación de bloque: 2 (p. ej. bc:BJUI01BC1, bc:BJUI01BC2)
+- falta en el corpus: descriptores de bloque: 2 (p. ej. bc:BJUI01BC1, bc:BJUI01BC2)
+- falta en el corpus: título de bloque de saberes: 2 (p. ej. sb:BJUI01SBI, sb:BJUI01SBII)
+
+## bachillerato-musica-expresion-y-espectaculos — contrastado
+- falta en el corpus: texto de saber: 25 (p. ej. sb:BMUW01SBI.1, sb:BMUW01SBI.2, sb:BMUW01SBI.3, sb:BMUW01SBI.4, sb:BMUW01SBII.1)
+- falta en el corpus: texto de criterio: 5 (p. ej. crit:BMUW01CE1.1, crit:BMUW01CE1.2, crit:BMUW01CE2.1, crit:BMUW01CE3.1, crit:BMUW01CE4.1)
+- falta en el corpus: descriptores de criterio: 5 (p. ej. crit:BMUW01CE1.1, crit:BMUW01CE1.2, crit:BMUW01CE2.1, crit:BMUW01CE3.1, crit:BMUW01CE4.1)
+- falta en el corpus: enunciado de competencia: 4 (p. ej. ce:BMUWC1, ce:BMUWC2, ce:BMUWC3, ce:BMUWC4)
+- falta en el corpus: explicación de bloque: 4 (p. ej. bc:BMUW01BC1, bc:BMUW01BC2, bc:BMUW01BC3, bc:BMUW01BC4)
+- falta en el corpus: descriptores de bloque: 4 (p. ej. bc:BMUW01BC1, bc:BMUW01BC2, bc:BMUW01BC3, bc:BMUW01BC4)
+- falta en el corpus: título de bloque de saberes: 4 (p. ej. sb:BMUW01SBI, sb:BMUW01SBII, sb:BMUW01SBIII, sb:BMUW01SBIV)
 

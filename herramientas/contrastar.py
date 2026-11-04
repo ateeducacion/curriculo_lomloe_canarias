@@ -23,7 +23,7 @@ from collections import Counter
 import yaml
 
 from . import odt
-from .comun import (CORRECCIONES, DIST, ETAPAS, FUENTES, INFORMES, escribir_json, leer_json, leer_yaml,
+from .comun import (CORRECCIONES, ETAPAS, FUENTES, INFORMES, escribir_json, leer_json, leer_yaml,
                     materias_config, sha256)
 
 CICLOS = {1: 'Primer', 2: 'Segundo', 3: 'Tercer'}
@@ -343,12 +343,13 @@ def informe_md(resultados):
 
 def main(argv=None):
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--corpus', default=str(DIST / 'curriculo.json'))
+    p.add_argument('--corpus', help='curriculo.json ya construido (p. ej. dist/curriculo.json); '
+                                    'por defecto se construye el corpus en el momento')
     p.add_argument('--proponer', action='store_true',
                    help='escribe en correcciones/ las correcciones propuestas para los huecos del corpus')
     args = p.parse_args(argv)
-    from pathlib import Path
-    if Path(args.corpus).exists():
+    # No se usa dist/ por defecto: puede ser de una construcción anterior y dar un contraste desfasado.
+    if args.corpus:
         corpus = leer_json(args.corpus)
     else:
         from .construir import construir

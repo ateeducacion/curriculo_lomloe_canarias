@@ -29,6 +29,18 @@ El lector de ODT está probado con los formatos de Infantil, Primaria, ESO, Bach
 los ámbitos de diversificación (estos con `secciones` en el manifiesto, porque sus rótulos
 —«Curso 1.º. Ámbito…»— no siguen el curso de la ESO).
 
+## Crear una materia que no está en la exportación
+
+Añádela a `config/materias.csv` (código, código en identificadores, denominación, cursos y
+documento), pon su código en las `materias` del documento en el manifiesto y ejecuta:
+
+```bash
+python -m herramientas.materia_desde_odt <id-del-documento>
+```
+
+Escribe una corrección `propuesta` que crea todos sus nodos desde el ODT, pasándolo por el
+importador para que tengan la misma forma que los importados.
+
 ## Proponer una corrección
 
 Los huecos del corpus que un documento permite rellenar (enunciados de competencia y textos

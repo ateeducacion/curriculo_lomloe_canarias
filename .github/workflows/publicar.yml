@@ -25,7 +25,7 @@ jobs:
         run: python -m herramientas.construir --comprobar --dist --version "${GITHUB_REF_NAME#v}"
 
       - name: Contrastar con los documentos oficiales
-        run: python -m herramientas.contrastar
+        run: python -m herramientas.contrastar --corpus dist/curriculo.json
 
       - name: Crear la versión en GitHub
         env:

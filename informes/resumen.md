@@ -79,3 +79,5 @@
 | 0039-infantil-crecimiento-en-armonia-explicaciones-copiadas.yaml | aprobada | 12 | Crecimiento en Armonía (Educación Infantil): 12 explicaciones de bloque copiadas de otro curso |
 | 0040-infantil-descubrimiento-y-exploracion-del-entorno-explicaciones-copiadas.yaml | aprobada | 9 | Descubrimiento y Exploración del Entorno (Educación Infantil): 9 explicaciones de bloque copiadas de otro curso |
 | 0041-infantil-comunicacion-y-representacion-de-la-realidad-explicaciones-copiadas.yaml | aprobada | 30 | Comunicación y Representación de la Realidad (Educación Infantil): 30 explicaciones de bloque copiadas de otro curso |
+| 0042-bachillerato-juegos-y-deportes-tradicionales-de-canarias-materia-ausente.yaml | propuesta | 22 | Juegos y Deportes Tradicionales de Canarias (Bachillerato): materia ausente en la exportación |
+| 0043-bachillerato-musica-expresion-y-espectaculos-materia-ausente.yaml | propuesta | 43 | Música, Expresión y Espectáculos (Bachillerato): materia ausente en la exportación |
