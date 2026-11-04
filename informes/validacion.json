@@ -2766,7 +2766,7 @@
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PLCL01BC1",
-      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC1, bc:PLCL02BC1, bc:PLCL03BC1, bc:PLCL04BC1, bc:PLCL05BC1, bc:PLCL06BC1"
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC1, bc:PLCL02BC1"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
@@ -2825,6 +2825,12 @@
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
+      "nodo": "bc:PLCL03BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL03BC1, bc:PLCL04BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
       "nodo": "bc:PLCL03BC2",
       "detalle": "Misma explicación del bloque competencial en bc:PLCL03BC2, bc:PLCL04BC2"
     },
@@ -2875,6 +2881,12 @@
       "nivel": "aviso",
       "nodo": "bc:PLCL03BC10",
       "detalle": "Misma explicación del bloque competencial en bc:PLCL03BC10, bc:PLCL04BC10"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL05BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL05BC1, bc:PLCL06BC1"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
@@ -3239,12 +3251,6 @@
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
-      "nodo": "bc:SMBS03BC1",
-      "detalle": "Misma explicación del bloque competencial en bc:SMBS03BC1, bc:SMBS04BC1"
-    },
-    {
-      "regla": "explicacion_repetida_entre_cursos",
-      "nivel": "aviso",
       "nodo": "bc:SMBS03BC2",
       "detalle": "Misma explicación del bloque competencial en bc:SMBS03BC2, bc:SMBS04BC2"
     },
@@ -3253,12 +3259,6 @@
       "nivel": "aviso",
       "nodo": "bc:SMBS03BC4",
       "detalle": "Misma explicación del bloque competencial en bc:SMBS03BC4, bc:SMBS04BC4"
-    },
-    {
-      "regla": "explicacion_repetida_entre_cursos",
-      "nivel": "aviso",
-      "nodo": "bc:SMBS03BC6",
-      "detalle": "Misma explicación del bloque competencial en bc:SMBS03BC6, bc:SMBS04BC6"
     }
   ]
 }

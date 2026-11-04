@@ -174,32 +174,32 @@
 | 0134-bachillerato-psicologia-version-publicada.yaml | aprobada | 6 | Psicología (Bachillerato): 6 textos de la versión publicada en el BOC |
 | 0135-bachillerato-psicologia-puntuacion-publicada.yaml | aprobada | 9 | Psicología (Bachillerato): 9 textos con la puntuación publicada en el BOC |
 | 0136-bachillerato-psicologia-espacios.yaml | aprobada | 3 | Psicología (Bachillerato): 3 textos que solo difieren en espacios |
-| 0137-eso-biologia-y-geologia-version-publicada.yaml | propuesta | 1 | Biología y Geología (Educación Secundaria Obligatoria): 1 textos de la versión publicada en el BOC |
-| 0138-eso-ambito-linguistico-y-social-version-publicada.yaml | propuesta | 5 | Ámbito Lingüístico y Social (Educación Secundaria Obligatoria): 5 textos de la versión publicada en el BOC |
-| 0139-eso-ambito-cientifico-tecnologico-version-publicada.yaml | propuesta | 3 | Ámbito Científico-Tecnológico (Educación Secundaria Obligatoria): 3 textos de la versión publicada en el BOC |
-| 0140-eso-ambito-practico-version-publicada.yaml | propuesta | 3 | Ámbito Práctico (Educación Secundaria Obligatoria): 3 textos de la versión publicada en el BOC |
-| 0141-primaria-conocimiento-del-medio-natural-social-y-cultural-version-publicada.yaml | propuesta | 12 | Conocimiento del Medio Natural, Social y Cultural (Educación Primaria): 12 textos de la versión publicada en el BOC |
-| 0142-primaria-educacion-artistica-version-publicada.yaml | propuesta | 10 | Educación Artística (Educación Primaria): 10 textos de la versión publicada en el BOC |
-| 0143-primaria-educacion-en-valores-civicos-y-eticos-version-publicada.yaml | propuesta | 8 | Educación en Valores Cívicos y Éticos (Educación Primaria): 8 textos de la versión publicada en el BOC |
-| 0144-primaria-educacion-en-valores-civicos-y-eticos-puntuacion-publicada.yaml | propuesta | 2 | Educación en Valores Cívicos y Éticos (Educación Primaria): 2 textos con la puntuación publicada en el BOC |
-| 0145-primaria-educacion-fisica-version-publicada.yaml | propuesta | 2 | Educación Física (Educación Primaria): 2 textos de la versión publicada en el BOC |
-| 0146-primaria-lengua-castellana-y-literatura-version-publicada.yaml | propuesta | 12 | Lengua Castellana y Literatura (Educación Primaria): 12 textos de la versión publicada en el BOC |
-| 0147-primaria-lengua-extranjera-version-publicada.yaml | propuesta | 16 | Lengua Extranjera (Educación Primaria): 16 textos de la versión publicada en el BOC |
-| 0148-primaria-educacion-emocional-y-para-la-creatividad-version-publicada.yaml | propuesta | 24 | Educación Emocional y para la Creatividad (Educación Primaria): 24 textos de la versión publicada en el BOC |
-| 0149-primaria-segunda-lengua-extranjera-version-publicada.yaml | propuesta | 20 | Segunda Lengua Extranjera (Educación Primaria): 20 textos de la versión publicada en el BOC |
-| 0150-primaria-matematicas-version-publicada.yaml | propuesta | 4 | Matemáticas (Educación Primaria): 4 textos de la versión publicada en el BOC |
-| 0151-primaria-matematicas-espacios.yaml | propuesta | 4 | Matemáticas (Educación Primaria): 4 textos que solo difieren en espacios |
-| 0152-bachillerato-coro-y-tecnica-vocal-i-y-ii-version-publicada.yaml | propuesta | 3 | Coro y Técnica Vocal I y II (Bachillerato): 3 textos de la versión publicada en el BOC |
-| 0153-bachillerato-dibujo-tecnico-i-y-ii-version-publicada.yaml | propuesta | 9 | Dibujo Técnico I y II (Bachillerato): 9 textos de la versión publicada en el BOC |
-| 0154-bachillerato-latin-i-y-ii-version-publicada.yaml | propuesta | 1 | Latín I y II (Bachillerato): 1 textos de la versión publicada en el BOC |
-| 0155-bachillerato-antropologia-y-sociologia-version-publicada.yaml | propuesta | 1 | Antropología y Sociología (Bachillerato): 1 textos de la versión publicada en el BOC |
-| 0156-bachillerato-biologia-humana-version-publicada.yaml | propuesta | 3 | Biología Humana (Bachillerato): 3 textos de la versión publicada en el BOC |
-| 0157-bachillerato-bioestadistica-version-publicada.yaml | propuesta | 1 | Bioestadística (Bachillerato): 1 textos de la versión publicada en el BOC |
-| 0158-bachillerato-fundamentos-de-administracion-y-gestion-version-publicada.yaml | propuesta | 2 | Fundamentos de Administración y Gestión (Bachillerato): 2 textos de la versión publicada en el BOC |
-| 0159-bachillerato-historia-de-canarias-version-publicada.yaml | propuesta | 2 | Historia de Canarias (Bachillerato): 2 textos de la versión publicada en el BOC |
-| 0160-bachillerato-iniciacion-a-la-astronomia-version-publicada.yaml | propuesta | 2 | Iniciación a la Astronomía (Bachillerato): 2 textos de la versión publicada en el BOC |
-| 0161-bachillerato-informatica-y-digitalizacion-i-y-ii-version-publicada.yaml | propuesta | 2 | Informática y Digitalización I y II (Bachillerato): 2 textos de la versión publicada en el BOC |
-| 0162-bachillerato-literatura-canaria-version-publicada.yaml | propuesta | 2 | Literatura Canaria (Bachillerato): 2 textos de la versión publicada en el BOC |
-| 0163-bachillerato-medio-natural-canario-version-publicada.yaml | propuesta | 1 | Medio Natural Canario (Bachillerato): 1 textos de la versión publicada en el BOC |
-| 0164-bachillerato-taller-de-etimologia-grecolatina-version-publicada.yaml | propuesta | 1 | Taller de Etimología Grecolatina (Bachillerato): 1 textos de la versión publicada en el BOC |
-| 0165-bachillerato-psicologia-version-publicada.yaml | propuesta | 2 | Psicología (Bachillerato): 2 textos de la versión publicada en el BOC |
+| 0137-eso-biologia-y-geologia-version-publicada.yaml | aprobada | 1 | Biología y Geología (Educación Secundaria Obligatoria): 1 textos de la versión publicada en el BOC |
+| 0138-eso-ambito-linguistico-y-social-version-publicada.yaml | aprobada | 5 | Ámbito Lingüístico y Social (Educación Secundaria Obligatoria): 5 textos de la versión publicada en el BOC |
+| 0139-eso-ambito-cientifico-tecnologico-version-publicada.yaml | aprobada | 3 | Ámbito Científico-Tecnológico (Educación Secundaria Obligatoria): 3 textos de la versión publicada en el BOC |
+| 0140-eso-ambito-practico-version-publicada.yaml | aprobada | 3 | Ámbito Práctico (Educación Secundaria Obligatoria): 3 textos de la versión publicada en el BOC |
+| 0141-primaria-conocimiento-del-medio-natural-social-y-cultural-version-publicada.yaml | aprobada | 12 | Conocimiento del Medio Natural, Social y Cultural (Educación Primaria): 12 textos de la versión publicada en el BOC |
+| 0142-primaria-educacion-artistica-version-publicada.yaml | aprobada | 10 | Educación Artística (Educación Primaria): 10 textos de la versión publicada en el BOC |
+| 0143-primaria-educacion-en-valores-civicos-y-eticos-version-publicada.yaml | aprobada | 8 | Educación en Valores Cívicos y Éticos (Educación Primaria): 8 textos de la versión publicada en el BOC |
+| 0144-primaria-educacion-en-valores-civicos-y-eticos-puntuacion-publicada.yaml | aprobada | 2 | Educación en Valores Cívicos y Éticos (Educación Primaria): 2 textos con la puntuación publicada en el BOC |
+| 0145-primaria-educacion-fisica-version-publicada.yaml | aprobada | 2 | Educación Física (Educación Primaria): 2 textos de la versión publicada en el BOC |
+| 0146-primaria-lengua-castellana-y-literatura-version-publicada.yaml | aprobada | 12 | Lengua Castellana y Literatura (Educación Primaria): 12 textos de la versión publicada en el BOC |
+| 0147-primaria-lengua-extranjera-version-publicada.yaml | aprobada | 16 | Lengua Extranjera (Educación Primaria): 16 textos de la versión publicada en el BOC |
+| 0148-primaria-educacion-emocional-y-para-la-creatividad-version-publicada.yaml | aprobada | 24 | Educación Emocional y para la Creatividad (Educación Primaria): 24 textos de la versión publicada en el BOC |
+| 0149-primaria-segunda-lengua-extranjera-version-publicada.yaml | aprobada | 20 | Segunda Lengua Extranjera (Educación Primaria): 20 textos de la versión publicada en el BOC |
+| 0150-primaria-matematicas-version-publicada.yaml | aprobada | 4 | Matemáticas (Educación Primaria): 4 textos de la versión publicada en el BOC |
+| 0151-primaria-matematicas-espacios.yaml | aprobada | 4 | Matemáticas (Educación Primaria): 4 textos que solo difieren en espacios |
+| 0152-bachillerato-coro-y-tecnica-vocal-i-y-ii-version-publicada.yaml | aprobada | 3 | Coro y Técnica Vocal I y II (Bachillerato): 3 textos de la versión publicada en el BOC |
+| 0153-bachillerato-dibujo-tecnico-i-y-ii-version-publicada.yaml | aprobada | 9 | Dibujo Técnico I y II (Bachillerato): 9 textos de la versión publicada en el BOC |
+| 0154-bachillerato-latin-i-y-ii-version-publicada.yaml | aprobada | 1 | Latín I y II (Bachillerato): 1 textos de la versión publicada en el BOC |
+| 0155-bachillerato-antropologia-y-sociologia-version-publicada.yaml | aprobada | 1 | Antropología y Sociología (Bachillerato): 1 textos de la versión publicada en el BOC |
+| 0156-bachillerato-biologia-humana-version-publicada.yaml | aprobada | 3 | Biología Humana (Bachillerato): 3 textos de la versión publicada en el BOC |
+| 0157-bachillerato-bioestadistica-version-publicada.yaml | aprobada | 1 | Bioestadística (Bachillerato): 1 textos de la versión publicada en el BOC |
+| 0158-bachillerato-fundamentos-de-administracion-y-gestion-version-publicada.yaml | aprobada | 2 | Fundamentos de Administración y Gestión (Bachillerato): 2 textos de la versión publicada en el BOC |
+| 0159-bachillerato-historia-de-canarias-version-publicada.yaml | aprobada | 2 | Historia de Canarias (Bachillerato): 2 textos de la versión publicada en el BOC |
+| 0160-bachillerato-iniciacion-a-la-astronomia-version-publicada.yaml | aprobada | 2 | Iniciación a la Astronomía (Bachillerato): 2 textos de la versión publicada en el BOC |
+| 0161-bachillerato-informatica-y-digitalizacion-i-y-ii-version-publicada.yaml | aprobada | 2 | Informática y Digitalización I y II (Bachillerato): 2 textos de la versión publicada en el BOC |
+| 0162-bachillerato-literatura-canaria-version-publicada.yaml | aprobada | 2 | Literatura Canaria (Bachillerato): 2 textos de la versión publicada en el BOC |
+| 0163-bachillerato-medio-natural-canario-version-publicada.yaml | aprobada | 1 | Medio Natural Canario (Bachillerato): 1 textos de la versión publicada en el BOC |
+| 0164-bachillerato-taller-de-etimologia-grecolatina-version-publicada.yaml | aprobada | 1 | Taller de Etimología Grecolatina (Bachillerato): 1 textos de la versión publicada en el BOC |
+| 0165-bachillerato-psicologia-version-publicada.yaml | aprobada | 2 | Psicología (Bachillerato): 2 textos de la versión publicada en el BOC |
