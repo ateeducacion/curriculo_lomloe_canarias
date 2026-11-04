@@ -1,0 +1,26 @@
+id: '0105'
+titulo: 'Literatura Universal (Bachillerato): 4 título y descripción de los bloques de saberes'
+motivo: 'La exportación junta en el título del bloque de saberes su título y su descripción. Se separan como en el documento
+  oficial: título en definition y descripción en scopeNote. Generada con `contrastar --proponer`.'
+fuente:
+  documento: bachillerato-literatura-universal
+  fichero: fuentes/documentos/bachillerato/Literatura_Universal_BACH.odt
+  sha256: bea3c620012b61d2b884453543a87e38854b249c79d26d1612549e34a6033621
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: sb:BLIE01SBI
+  campo: definition
+  valor: Lectura y recepción literaria guiada
+- nodo: sb:BLIE01SBI
+  campo: scopeNote
+  valor: 'Construcción compartida de la interpretación de clásicos de la literatura universal inscritos en itinerarios temáticos
+    que establezcan relaciones intertextuales entre obras y fragmentos de diferentes géneros, épocas, contextos culturales
+    y códigos artísticos, así como con sus respectivos contextos de producción, de acuerdo a los siguientes ejes y estrategias:'
+- nodo: sb:BLIE01SBII
+  campo: definition
+  valor: Lectura y recepción literaria autónoma
+- nodo: sb:BLIE01SBII
+  campo: scopeNote
+  valor: 'Lectura autónoma de obras relevantes del patrimonio universal desarrollando las siguientes estrategias:'

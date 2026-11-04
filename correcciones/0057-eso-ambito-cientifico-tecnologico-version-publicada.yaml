@@ -1,5 +1,5 @@
 id: '0057'
-titulo: 'Ámbito Científico-Tecnológico (Educación Secundaria Obligatoria): 11 textos de la versión publicada en el BOC'
+titulo: 'Ámbito Científico-Tecnológico (Educación Secundaria Obligatoria): 12 textos de la versión publicada en el BOC'
 motivo: El texto de la exportación no coincide con el publicado en el BOC y el del documento oficial sí (comprobado contra
   fuentes/boletines). Se toma el del documento. Generada con `contrastar --proponer`.
 fuente:
@@ -46,21 +46,6 @@ cambios:
     de las tecnologías. Todo ello con la finalidad de que el alumnado se familiarice con los flujos de información multidireccional
     característicos de las disciplinas científico-tecnológicas, refuerce las destrezas necesarias para construir conocimiento
     y fomente su curiosidad por la ciencia y la tecnología, a la vez que se prepara para ejercer su autonomía personal.
-- nodo: bc:SAMB04BC2
-  campo: scopeNote
-  valor: A través de este bloque competencial se comprobará si el alumnado analiza, manteniendo una actitud crítica, información
-    científico-tecnológica en diferentes formatos (textos, gráficos, tablas, diagramas, imágenes, páginas web…), y la representa
-    mediante el diseño y la realización de modelos y diagramas, utilizando diversos medios y soportes para interpretar y explicar
-    con rigor científico procesos matemáticos y fenómenos físico-químicos, tecnológicos, biológicos y geológicos concretos,
-    relacionados con los distintos bloques de saberes básicos del ámbito. Asimismo, se evaluará si es capaz de comunicar de
-    forma clara y precisa, mediante exposiciones orales, escritas o visuales en diversos soportes y con el apoyo de las tecnologías
-    digitales, opiniones propias, conjeturas y conclusiones argumentadas y fundamentadas, empleando el lenguaje científico-técnico
-    apropiado, evitando el uso discriminatorio de la lengua y mostrando una actitud dialogante y respetuosa para conseguir
-    una comunicación efectiva, ética y responsable. Finalmente, se valorará la capacidad del alumnado para crear y reelaborar
-    contenidos accesibles en diferentes formatos, a partir de la información obtenida, tanto de forma individual como colaborativa,
-    seleccionando, configurando y utilizando de manera crítica y creativa las herramientas digitales más adecuadas, respetando
-    los derechos de autoría y las licencias de uso, y reflexionando sobre el proceso realizado. Todo ello con el fin de comprender
-    la importancia que tiene el intercambio de información y la colaboración entre individuos en la ciencia y la tecnología.
 - nodo: bc:SAMB04BC3
   campo: scopeNote
   valor: Este bloque competencial tiene el propósito de evaluar si el alumnado es capaz de identificar, comprender y gestionar
@@ -123,11 +108,23 @@ cambios:
   valor: Analizar el funcionamiento de los dispositivos digitales y resolver problemas técnicos sencillos, identificando sus
     componentes, evaluando sus funciones y aplicando criterios de reutilización de materiales y ahorro energético, con el
     fin de hacer un uso seguro y eficiente de estos.
+- nodo: crit:SAMB03CE6.3
+  campo: definition
+  valor: Explicar, a partir de la búsqueda en diferentes fuentes, la contribución de la ciencia y la tecnología a la sociedad
+    y la labor de las personas dedicadas a ella, visibilizando a las mujeres científicas, ingenieras y técnicas, con el fin
+    de entender que la investigación es una labor colectiva e interdisciplinar que genera avances y que se encuentra en constante
+    evolución.
 - nodo: crit:SAMB04CE4.4
   campo: definition
   valor: Interpretar fenómenos de índole científico-tecnológico y explicarlos en términos de los principios, las teorías y
     las leyes científicas, estableciendo, aplicando y analizando las conexiones existentes entre el mundo real, las matemáticas
     y las ciencias y la tecnología para comprender lo que ocurre a su alrededor.
+- nodo: crit:SAMB04CE6.3
+  campo: definition
+  valor: Valorar, a partir de la búsqueda en diferentes fuentes, la contribución de la ciencia y la tecnológía a la sociedad
+    y la labor de las personas dedicadas a ella, visibilizando a las mujeres científicas, ingenieras y técnicas, con el fin
+    de fomentar las vocaciones STEAM y percibir la investigación como una labor colectiva e interdisciplinar que genera avances
+    y que se encuentra en constante evolución, influida por el contexto político y los recursos económicos.
 - nodo: sb:SAMB03SBI.4.4
   campo: definition
   valor: Realización de montajes físicos o simulados de circuitos eléctricos y electrónicos y operadores mecánicos para la

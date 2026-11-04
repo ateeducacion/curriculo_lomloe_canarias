@@ -1,0 +1,55 @@
+id: 0069
+titulo: 'Lengua Castellana y Literatura (Educación Primaria): 8 textos con la puntuación publicada en el BOC'
+motivo: 'El texto de la exportación solo difiere del documento oficial en la puntuación, y la del documento es la que figura
+  en el BOC (comprobado contra fuentes/boletines). Revisar con atención: en las tablas, el texto extraído del BOC intercala
+  los descriptores. Generada con `contrastar --proponer`.'
+fuente:
+  documento: primaria-lengua-castellana-y-literatura
+  fichero: fuentes/documentos/primaria/anexo_2_curriculo-lengua-castellana.odt
+  sha256: 36db66a2635e6f3476e5d7aac7db76993daa925cbf5a615742a6229259efa140
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: crit:PLCL01CE2.1
+  campo: definition
+  valor: Comprender el sentido de textos orales y multimodales, reconociendo las ideas principales y los mensajes explícitos,
+    de manera individual y cooperativa, dando una opinión razonada sobre el contenido, para responder a diferentes necesidades
+    comunicativas.
+- nodo: crit:PLCL02CE2.1
+  campo: definition
+  valor: Comprender el sentido de textos orales y multimodales, reconociendo las ideas principales y los mensajes explícitos,
+    de manera individual y cooperativa, dando una opinión razonada sobre el contenido, para responder a diferentes necesidades
+    comunicativas.
+- nodo: crit:PLCL05CE10.1
+  campo: definition
+  valor: Planificar y utilizar estrategias, de manera autónoma, para la deliberación argumentada y la gestión dialogada de
+    conflictos, rechazando los usos lingüísticos discriminatorios y los abusos de poder a través de la palabra, reflexionando
+    de manera cooperativa sobre distintos aspectos verbales y no verbales que rigen la comunicación, teniendo en cuenta la
+    perspectiva de género y las diferencias culturales para contribuir a una sociedad respetuosa.
+- nodo: crit:PLCL06CE10.1
+  campo: definition
+  valor: Planificar y utilizar estrategias, de manera autónoma, para la deliberación argumentada y la gestión dialogada de
+    conflictos, rechazando los usos lingüísticos discriminatorios y los abusos de poder a través de la palabra, reflexionando
+    de manera cooperativa sobre distintos aspectos verbales y no verbales que rigen la comunicación, teniendo en cuenta la
+    perspectiva de género y las diferencias culturales para contribuir a una sociedad respetuosa.
+- nodo: sb:PLCL01SBII.3.7
+  campo: definition
+  valor: Iniciación en la alfabetización mediática e informacional, aplicando estrategias para la búsqueda guiada de información
+    en fuentes documentales variadas y con distintos soportes y formatos. Comunicación y opinión razonada, de manera acompañada,
+    de la información. Reconocimiento de la autoría y respeto por la propiedad intelectual. Uso guiado de la biblioteca, así
+    como de recursos digitales del aula.
+- nodo: sb:PLCL01SBIV.4
+  campo: definition
+  valor: Aplicación, de manera acompañada, de los signos de puntuación, teniendo en cuenta la modalidad oracional, tanto para
+    organizar el texto escrito como para expresar la intención comunicativa.
+- nodo: sb:PLCL02SBII.3.7
+  campo: definition
+  valor: Iniciación en la alfabetización mediática e informacional, aplicando estrategias para la búsqueda guiada de información
+    en fuentes documentales variadas y con distintos soportes y formatos. Comunicación y opinión razonada, de manera acompañada,
+    de la información. Reconocimiento de la autoría y respeto por la propiedad intelectual. Uso guiado de la biblioteca, así
+    como de recursos digitales del aula.
+- nodo: sb:PLCL02SBIV.4
+  campo: definition
+  valor: Aplicación, de manera acompañada, de los signos de puntuación, teniendo en cuenta la modalidad oracional, tanto para
+    organizar el texto escrito como para expresar la intención comunicativa.

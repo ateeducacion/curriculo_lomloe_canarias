@@ -1,0 +1,26 @@
+id: '0112'
+titulo: 'Antropología y Sociología (Bachillerato): 3 textos de la versión publicada en el BOC'
+motivo: El texto de la exportación no coincide con el publicado en el BOC y el del documento oficial sí (comprobado contra
+  fuentes/boletines). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-antropologia-y-sociologia
+  fichero: fuentes/documentos/bachillerato/Antropologia_y_Sociologia_BACH.odt
+  sha256: 0e74853af05905a1e053010552dc02dd9e2df6ae4ef250fefb5c308531ed1afb
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: ce:BATRC1
+  campo: definition
+  valor: Emplear los métodos y técnicas de trabajo de la sociología y la antropología en la explicación de hechos, fenómenos
+    o relaciones sobre las que se investiga, con la intención de fundamentar los resultados de los trabajos de investigación,
+    desde una perspectiva de respeto a la diversidad cultural y social.
+- nodo: crit:BATR02CE3.2
+  campo: definition
+  valor: Afrontar los retos, las tareas o los proyectos, asumiendo compromisos y responsabilidades, en todas las dimensiones
+    de su vida social, incluyendo la afectivo-sexual, cooperando y tomando decisiones con criterio, y respetando y valorando
+    las actitudes encaminadas a mejorar la convivencia.
+- nodo: sb:BATR02SBII.6
+  campo: definition
+  valor: Valoración de los contrastes de género y del binomio sexo-género, así como de las diferentes orientaciones e identidades
+    sexuales, en las diferentes culturas y sociedades.

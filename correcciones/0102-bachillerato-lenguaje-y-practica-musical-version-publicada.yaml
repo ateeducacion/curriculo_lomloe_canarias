@@ -1,0 +1,16 @@
+id: '0102'
+titulo: 'Lenguaje y Práctica Musical (Bachillerato): 1 textos de la versión publicada en el BOC'
+motivo: El texto de la exportación no coincide con el publicado en el BOC y el del documento oficial sí (comprobado contra
+  fuentes/boletines). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-lenguaje-y-practica-musical
+  fichero: fuentes/documentos/bachillerato/Lenguaje_practica_musical_BACH.odt
+  sha256: 0935c1a516419e34343819b8445e8d4243a4d1cc5c47b0c8d162489bd6c42341
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: sb:BLPM01SBI.3.4
+  campo: definition
+  valor: 'Descripción de la forma musical en obras estudiadas en el aula: unidades estructurales; formas simples y complejas.
+    Comparación con otros elementos de la obra.'

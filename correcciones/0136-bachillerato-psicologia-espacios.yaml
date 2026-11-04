@@ -1,0 +1,54 @@
+id: '0136'
+titulo: 'Psicología (Bachillerato): 3 textos que solo difieren en espacios'
+motivo: El texto de la exportación solo difiere del documento oficial en espacios (dobles, de no separación o al principio
+  o final). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-psicologia
+  fichero: fuentes/documentos/bachillerato/Psicologia_BACH.odt
+  sha256: f7fddd96cf6d160607677a429daf28cdc2b6464998ab654d76a0d9542e91d99b
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: bc:BPSI02BC5
+  campo: scopeNote
+  valor: A través de esta competencia se verificará que el alumnado comprende el proceso de socialización como la interiorización
+    de actitudes, normas y valores sociales que tienen influencia en el desarrollo de la personalidad y en la conducta de
+    las personas. Se verificará que comprende el papel de los grupos sociales en la conformación del autoconcepto y la autoestima.
+    Se constatará que describe el concepto de pertenencia a un grupo y que entiende el papel que fenómenos como los estereotipos,
+    los prejuicios y la discriminación juegan en las relaciones intergrupales, identificando estrategias para la eliminación
+    de los mismos y para favorecer la cohesión social. Se comprobará que conoce el proceso de toma de decisiones y que comprende
+    el papel que en él juegan las emociones y las recompensas. Se verificará que conoce el concepto de inteligencia emocional
+    y que describe las aportaciones de los principales autores (Mayer y Salovey, Goleman…) reconociendo y explicando la importancia
+    de desarrollar habilidades socieomocionales tanto para dirigir la propia conducta como las interacciones con las demás
+    personas. Se constatará que comprende el concepto de inteligencia artificial y analiza de forma crítica su influencia
+    en las condiciones de vida de las personas. Se verificará que analiza los fenómenos de masas (deportivos, artísticos,
+    religiosos, políticos…), su naturaleza y pautas de comportamiento, identificando distintos tipos de liderazgo y la influencia
+    de factores como la persuasión, la conformidad social, la aceptación social, la obediencia social, etc. con el fin de
+    evitar situaciones de vulnerabilidad y generar rechazo hacia actitudes y conductas contrarias a la convivencia democrática.
+    Se constatará que el alumnado comprende las nuevas formas de interacción social en entornos virtuales analizando sus ventajas
+    e inconvenientes, seleccionando, configurando y utilizando con ética y responsabilidad dispositivos digitales, identificando
+    riesgos y aplicando estrategias para el uso seguro de internet, con el fin de poder ejercer una ciudadanía digital activa,
+    cívica y reflexiva. Mediante la adquisición de esta competencia, el alumnado deberá ser capaz de identificar actitudes,
+    hábitos y conductas promotoras de la salud física y mental propia y ajena y de desarrollar competencias socioemocionales,
+    habilidades sociales y comunicativas para ponerlas al servicio de una convivencia democrática.
+- nodo: bc:BPSI02BC6
+  campo: scopeNote
+  valor: A través de esta competencia se constatará que el alumnado conoce los distintos tipos de organizaciones y las clasifica
+    en función de diferentes criterios (fin, tamaño, sector y forma jurídica) y que identifica y describe elementos característicos
+    de los grupos de trabajo, equipos de trabajo y equipos de alto rendimiento reconociendo el valor enriquecedor de la diversidad
+    y la multidisciplinariedad. Se comprobará que el alumnado distingue entre los conceptos de eficacia y eficiencia y que
+    comprende la relación entre estrés y rendimiento. Se verificará que describe los distintos tipos de liderazgo y comprende
+    su repercusión en el bienestar de las personas, así como en el rendimiento de los grupos y equipos de trabajo y por lo
+    tanto, en las organizaciones. Se constatará que comprende el concepto de cultura emprendedora y que aprecia los cambios
+    producidos por el avance tecnológico y el desarrollo de la inteligencia artificial en las nuevas formas de funcionamiento
+    de equipos y organizaciones, debatiendo con actitud crítica sobre sus ventajas e inconvenientes y estableciendo analogías
+    con el funcionamiento de grupos y equipos de trabajo en el contexto académico. Se verificará que conoce y aplica con ética
+    y responsabilidad diferentes Tecnologías de la Información y la comunicación (TIC), Tecnologías de Aprendizaje y Conocimiento
+    (TAC) y Tecnologías del Empoderamiento y la Participación (TEP). El alumnado deberá ser capaz de evaluar necesidades y
+    oportunidades y afrontar retos mediante la ejecución de ideas y soluciones innovadoras en el ámbito académico. Además
+    deberá ser capaz de desarrollar estrategias y destrezas que optimicen los recursos personales y materiales, tanto analógicos
+    como digitales para obtener un mayor rendimiento del trabajo colaborativo y en equipo.
+- nodo: sb:BPSI02SBI.1.3
+  campo: definition
+  valor: Psicología básica y aplicada, técnica y métodos de investigación.

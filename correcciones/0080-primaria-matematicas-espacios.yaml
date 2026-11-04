@@ -1,0 +1,36 @@
+id: 0080
+titulo: 'Matemáticas (Educación Primaria): 6 textos que solo difieren en espacios'
+motivo: El texto de la exportación solo difiere del documento oficial en espacios (dobles, de no separación o al principio
+  o final). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: primaria-matematicas
+  fichero: fuentes/documentos/primaria/curriculo-educacion-PRIMARIA_Matematicas.odt
+  sha256: 30849bd07eb61b4b8b06e0902c7fcf1f1bd9908936b14d183c0741a5e19eec59
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: sb:PMAT03SBII.2.3
+  campo: definition
+  valor: Estrategias de comparación directa e indirecta y ordenación de medidas de la misma magnitud, aplicando las equivalencias
+    entre unidades de uso habitual del sistema métrico decimal en problemas de la vida cotidiana.
+- nodo: sb:PMAT03SBIV.2.1
+  campo: definition
+  valor: Ejecución de un proceso pautado de modelización usando materiales manipulativos o representaciones diversas (gráficas,
+    tablas, etc.) para facilitar la comprensión y la resolución de problemas de la vida cotidiana.
+- nodo: sb:PMAT04SBII.2.3
+  campo: definition
+  valor: Estrategias de comparación directa e indirecta y ordenación de medidas de la misma magnitud, aplicando las equivalencias
+    entre unidades de uso habitual del sistema métrico decimal en problemas de la vida cotidiana.
+- nodo: sb:PMAT04SBIV.2.1
+  campo: definition
+  valor: Ejecución de un proceso pautado de modelización usando materiales manipulativos o representaciones diversas (gráficas,
+    tablas, etc.) para facilitar la comprensión y la resolución de problemas de la vida cotidiana.
+- nodo: sb:PMAT05SBI.3.1
+  campo: definition
+  valor: 'Construcción del sistema de numeración de base 10 (números naturales y decimales hasta las milésimas): aplicación
+    de las relaciones que genera en las operaciones.'
+- nodo: sb:PMAT06SBI.3.1
+  campo: definition
+  valor: 'Construcción del sistema de numeración de base 10 (números naturales y decimales hasta las milésimas): aplicación
+    de las relaciones que genera en las operaciones.'

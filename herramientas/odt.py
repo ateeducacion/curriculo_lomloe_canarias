@@ -5,6 +5,7 @@ lista de los saberes y unos pocos rótulos fijos), no por estilos ni posiciones.
 Qué sección del documento corresponde a qué materia y curso lo indica el manifiesto.
 """
 import re
+import unicodedata
 import zipfile
 import xml.etree.ElementTree as ET
 
@@ -35,7 +36,7 @@ def _texto(el):
                 out.append(c.tail)
     rec(el)
     # Los espacios de no separación del documento se tratan como espacios normales.
-    return re.sub(r'[ \t\r\n\xa0]+', ' ', ''.join(out)).strip(' ')
+    return unicodedata.normalize('NFC', re.sub(r'[ \t\r\n\xa0]+', ' ', ''.join(out)).strip(' '))
 
 
 def _secuencia(cuerpo):

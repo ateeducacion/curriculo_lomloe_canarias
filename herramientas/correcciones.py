@@ -17,12 +17,14 @@ Solo se aplican las correcciones con estado «aprobada». Si un cambio ya no alt
 nada (la fuente ya trae ese valor), se avisa de que la corrección puede retirarse.
 """
 from .comun import CORRECCIONES, leer_yaml
+from .importar_proideac import _nfc
 
 CAMPOS_EDITABLES = {'definition', 'scopeNote', 'prefLabel', 'descriptores', 'agrupa', 'broader', 'bloque'}
 
 
 def cargar():
-    return [(ruta.name, leer_yaml(ruta)) for ruta in sorted(CORRECCIONES.glob('*.yaml'))]
+    # Los valores se normalizan a NFC, como los textos importados.
+    return [(ruta.name, _nfc(leer_yaml(ruta))) for ruta in sorted(CORRECCIONES.glob('*.yaml'))]
 
 
 def aplicar(nodos):

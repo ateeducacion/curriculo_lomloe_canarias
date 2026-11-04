@@ -42,6 +42,10 @@ CATEGORIAS = {
     'version': ('version-publicada', 'textos de la versión publicada en el BOC',
                 'El texto de la exportación no coincide con el publicado en el BOC y el del documento oficial sí '
                 '(comprobado contra fuentes/boletines). Se toma el del documento.'),
+    'puntuacion': ('puntuacion-publicada', 'textos con la puntuación publicada en el BOC',
+                   'El texto de la exportación solo difiere del documento oficial en la puntuación, y la del '
+                   'documento es la que figura en el BOC (comprobado contra fuentes/boletines). Revisar con '
+                   'atención: en las tablas, el texto extraído del BOC intercala los descriptores.'),
     'espacios': ('espacios', 'textos que solo difieren en espacios',
                  'El texto de la exportación solo difiere del documento oficial en espacios (dobles, de no '
                  'separación o al principio o final). Se toma el del documento.'),
@@ -219,7 +223,7 @@ def _version_publicada(nodos, textos, bol, huecos):
             continue
         if nid.startswith('sb:') and difflib.SequenceMatcher(None, _norma(actual), _norma(esperado)).ratio() < 0.6:
             continue
-        _hueco(huecos, 'version', nid, campo, esperado)
+        _hueco(huecos, 'puntuacion' if _norma(actual) == _norma(esperado) else 'version', nid, campo, esperado)
 
 
 def _explicaciones_copiadas(nodos, explicaciones, huecos):

@@ -1,0 +1,31 @@
+id: '0117'
+titulo: 'Bioestadística (Bachillerato): 6 textos con la puntuación publicada en el BOC'
+motivo: 'El texto de la exportación solo difiere del documento oficial en la puntuación, y la del documento es la que figura
+  en el BOC (comprobado contra fuentes/boletines). Revisar con atención: en las tablas, el texto extraído del BOC intercala
+  los descriptores. Generada con `contrastar --proponer`.'
+fuente:
+  documento: bachillerato-bioestadistica
+  fichero: fuentes/documentos/bachillerato/Bioestadistica_BACH.odt
+  sha256: c95c38cb2462874613bd342f9cb2b138cd2f51cc3e53ed1ca064c7e853bcfed4
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: sb:BBIE02SBII.2
+  campo: definition
+  valor: Incertidumbre.
+- nodo: sb:BBIE02SBII.3
+  campo: definition
+  valor: Distribuciones de probabilidad.
+- nodo: sb:BBIE02SBII.4
+  campo: definition
+  valor: Inferencia.
+- nodo: sb:BBIE02SBIII.1
+  campo: definition
+  valor: Creencia, actitudes y emociones.
+- nodo: sb:BBIE02SBIII.2
+  campo: definition
+  valor: Trabajo en equipo y toma de decisiones.
+- nodo: sb:BBIE02SBIII.3
+  campo: definition
+  valor: Inclusión, respeto y diversidad.

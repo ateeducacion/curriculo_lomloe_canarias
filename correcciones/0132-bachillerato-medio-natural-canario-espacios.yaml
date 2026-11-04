@@ -1,0 +1,17 @@
+id: '0132'
+titulo: 'Medio Natural Canario (Bachillerato): 1 textos que solo difieren en espacios'
+motivo: El texto de la exportación solo difiere del documento oficial en espacios (dobles, de no separación o al principio
+  o final). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-medio-natural-canario
+  fichero: fuentes/documentos/bachillerato/Medio_Natural_Canario_BACH.odt
+  sha256: d6900742638ca1356be7eef989d8724fd41807ab642f8524599594aaa4cc40da
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: sb:BMNC01SBI.2
+  campo: definition
+  valor: Empleo de estrategias para la búsqueda, la selección, el análisis y la interpretación de información relacionada
+    con el medio natural canario, procedente de fuentes fiables, incluidas las tecnologías digitales y sus posibilidades interactivas
+    y colaborativas, como destreza para evitar los riesgos de manipulación y desinformación.

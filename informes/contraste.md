@@ -109,7 +109,7 @@ Sin diferencias.
 - enunciado de competencia distinto: 2 (p. ej. ce:SAMBC1, ce:SAMBC5)
 - descriptores de bloque distinto: 1 (p. ej. bc:SAMB04BC6)
 - descriptores de criterio distinto: 1 (p. ej. crit:SAMB04CE6.1)
-- corregible desde el documento (textos de la versión publicada en el BOC): 11
+- corregible desde el documento (textos de la versión publicada en el BOC): 12
 - corregible desde el documento (textos que solo difieren en espacios): 1
 
 ## eso-ambito-practico — contrastado
@@ -126,7 +126,8 @@ Sin diferencias.
 - texto de criterio distinto: 118 (p. ej. crit:PC9N01CE1.1, crit:PC9N01CE2.3, crit:PC9N01CE2.5, crit:PC9N01CE3.1, crit:PC9N01CE3.3)
 - explicación de bloque distinto: 54 (p. ej. bc:PC9N01BC1, bc:PC9N01BC2, bc:PC9N01BC3, bc:PC9N01BC4, bc:PC9N01BC5)
 - enunciado de competencia distinto: 6 (p. ej. ce:PC9NC1, ce:PC9NC1, ce:PC9NC9, ce:PC9NC9, ce:PC9NC1)
-- corregible desde el documento (textos de la versión publicada en el BOC): 240
+- corregible desde el documento (textos de la versión publicada en el BOC): 186
+- corregible desde el documento (textos con la puntuación publicada en el BOC): 54
 
 ## primaria-educacion-artistica — contrastado
 - texto de saber distinto: 56 (p. ej. sb:PEAR01SBII.2, sb:PEAR01SBIII.1, sb:PEAR01SBIV.1, sb:PEAR01SBIV.2, sb:PEAR01SBIV.4)
@@ -151,7 +152,8 @@ Sin diferencias.
 - descriptores de bloque distinto: 12 (p. ej. bc:PEFI01BC1, bc:PEFI01BC3, bc:PEFI01BC4, bc:PEFI01BC5, bc:PEFI02BC1)
 - texto de criterio distinto: 8 (p. ej. crit:PEFI03CE1.1, crit:PEFI03CE2.2, crit:PEFI04CE1.1, crit:PEFI04CE2.2, crit:PEFI05CE1.1)
 - descripción de bloque de saberes distinto: 6 (p. ej. sb:PEFI01SBIII, sb:PEFI02SBIII, sb:PEFI03SBIII, sb:PEFI04SBIII, sb:PEFI05SBIII)
-- corregible desde el documento (textos de la versión publicada en el BOC): 32
+- corregible desde el documento (textos de la versión publicada en el BOC): 30
+- corregible desde el documento (textos con la puntuación publicada en el BOC): 2
 
 ## primaria-lengua-castellana-y-literatura — contrastado
 - explicación de bloque distinto: 56 (p. ej. bc:PLCL01BC1, bc:PLCL01BC2, bc:PLCL01BC3, bc:PLCL01BC4, bc:PLCL01BC7)
@@ -163,7 +165,8 @@ Sin diferencias.
 - enunciado de competencia distinto: 2 (p. ej. ce:PLCLC2, ce:PLCLC2)
 - nodo del corpus que no está en el documento: 2 (p. ej. sb:PLCL05SBIV.7, sb:PLCL06SBIV.7)
 - corregible desde el documento (explicaciones de bloque copiadas de otro curso): 12
-- corregible desde el documento (textos de la versión publicada en el BOC): 58
+- corregible desde el documento (textos de la versión publicada en el BOC): 50
+- corregible desde el documento (textos con la puntuación publicada en el BOC): 8
 - corregible desde el documento (textos que solo difieren en espacios): 2
 
 ## primaria-lengua-extranjera — contrastado
@@ -173,7 +176,8 @@ Sin diferencias.
 - título de bloque de saberes distinto: 6 (p. ej. sb:PLNT01SBIV, sb:PLNT02SBIV, sb:PLNT03SBIV, sb:PLNT04SBIV, sb:PLNT05SBIV)
 - descriptores de bloque distinto: 2 (p. ej. bc:PLNT03BC4, bc:PLNT04BC4)
 - descriptores de criterio distinto: 2 (p. ej. crit:PLNT03CE4.2, crit:PLNT04CE4.2)
-- corregible desde el documento (textos de la versión publicada en el BOC): 140
+- corregible desde el documento (textos de la versión publicada en el BOC): 124
+- corregible desde el documento (textos con la puntuación publicada en el BOC): 16
 
 ## primaria-educacion-emocional-y-para-la-creatividad — contrastado
 - texto de saber distinto: 128 (p. ej. sb:PEUM01SBI.3, sb:PEUM01SBI.5, sb:PEUM01SBI.7, sb:PEUM01SBII.2, sb:PEUM01SBII.3)
@@ -182,14 +186,16 @@ Sin diferencias.
 - título de bloque de saberes distinto: 14 (p. ej. sb:PEUM01SBI, sb:PEUM01SBII, sb:PEUM01SBIII, sb:PEUM01SBIV, sb:PEUM02SBI)
 - descriptores de criterio distinto: 4 (p. ej. crit:PEUM01CE4.1, crit:PEUM01CE4.2, crit:PEUM02CE4.1, crit:PEUM02CE4.2)
 - descriptores de bloque distinto: 2 (p. ej. bc:PEUM01BC4, bc:PEUM02BC4)
-- corregible desde el documento (textos de la versión publicada en el BOC): 106
+- corregible desde el documento (textos de la versión publicada en el BOC): 80
+- corregible desde el documento (textos con la puntuación publicada en el BOC): 26
 
 ## primaria-segunda-lengua-extranjera — contrastado
 - texto de saber distinto: 48 (p. ej. sb:PSGA05SBI.1, sb:PSGA05SBI.3, sb:PSGA05SBI.4, sb:PSGA05SBI.5, sb:PSGA05SBI.6)
 - texto de criterio distinto: 36 (p. ej. crit:PSGA05CE1.1, crit:PSGA05CE1.2, crit:PSGA05CE2.2, crit:PSGA05CE4.1, crit:PSGA05CE4.2)
 - explicación de bloque distinto: 24 (p. ej. bc:PSGA05BC1, bc:PSGA05BC2, bc:PSGA05BC3, bc:PSGA05BC4, bc:PSGA05BC5)
 - título de bloque de saberes distinto: 4 (p. ej. sb:PSGA05SBIV, sb:PSGA06SBIV, sb:PSGN05SBIV, sb:PSGN06SBIV)
-- corregible desde el documento (textos de la versión publicada en el BOC): 64
+- corregible desde el documento (textos de la versión publicada en el BOC): 60
+- corregible desde el documento (textos con la puntuación publicada en el BOC): 4
 
 ## primaria-matematicas — contrastado
 - texto de saber distinto: 96 (p. ej. sb:PMAT01SBI.2.3, sb:PMAT01SBI.2.4, sb:PMAT01SBI.2.5, sb:PMAT01SBI.2.6, sb:PMAT01SBI.2.7)
@@ -198,7 +204,8 @@ Sin diferencias.
 - falta en el corpus: texto de saber: 16 (p. ej. sb:PMAT01SBI.2.12, sb:PMAT01SBI.2.13, sb:PMAT01SBI.2.14, sb:PMAT01SBI.2.15, sb:PMAT02SBI.2.12)
 - nodo del corpus que no está en el documento: 14 (p. ej. sb:PMAT01SBI.2.2.1, sb:PMAT01SBI.2.2.2, sb:PMAT01SBI.2.2.3, sb:PMAT01SBI.2.2.4, sb:PMAT02SBI.2.2.1)
 - descriptores de criterio distinto: 1 (p. ej. crit:PMAT02CE1.1)
-- corregible desde el documento (textos de la versión publicada en el BOC): 116
+- corregible desde el documento (textos de la versión publicada en el BOC): 76
+- corregible desde el documento (textos con la puntuación publicada en el BOC): 40
 - corregible desde el documento (textos ausentes en la exportación): 2
 - corregible desde el documento (textos que solo difieren en espacios): 6
 
@@ -260,7 +267,6 @@ Sin diferencias.
 - texto de criterio distinto: 13 (p. ej. crit:BDBT01CE1.1, crit:BDBT01CE2.1, crit:BDBT01CE2.2, crit:BDBT01CE2.3, crit:BDBT01CE3.1)
 - enunciado de competencia distinto: 2 (p. ej. ce:BDBTC2, ce:BDBCC2)
 - descriptores de bloque distinto: 1 (p. ej. bc:BDBT01BC5)
-- corregible desde el documento (textos de la versión publicada en el BOC): 1
 
 ## bachillerato-diseno — contrastado
 - descriptores de bloque distinto: 2 (p. ej. bc:BDIS02BC5, bc:BDIS02BC6)
@@ -354,9 +360,7 @@ Sin diferencias.
 - corregible desde el documento (textos que solo difieren en espacios): 2
 
 ## bachillerato-lengua-extranjera-i-y-ii — contrastado
-- enunciado de competencia distinto: 16 (p. ej. ce:BLA1C2, ce:BLA1C4, ce:BLF1C2, ce:BLF1C4, ce:BLI1C2)
 - descriptores de bloque distinto: 4 (p. ej. bc:BLA101BC2, bc:BLF101BC2, bc:BLI101BC2, bc:BLT101BC2)
-- corregible desde el documento (textos de la versión publicada en el BOC): 16
 
 ## bachillerato-lenguaje-y-practica-musical — contrastado
 - descriptores de bloque distinto: 2 (p. ej. bc:BLPM01BC3, bc:BLPM01BC4)
@@ -407,8 +411,7 @@ Sin diferencias.
 Sin diferencias.
 
 ## bachillerato-segunda-lengua-extranjera-i-y-ii — contrastado
-- enunciado de competencia distinto: 16 (p. ej. ce:BSA1C2, ce:BSA1C4, ce:BSF1C2, ce:BSF1C4, ce:BSI1C2)
-- corregible desde el documento (textos de la versión publicada en el BOC): 16
+Sin diferencias.
 
 ## bachillerato-tecnicas-de-expresion-grafico-plastica — contrastado
 - descriptores de bloque distinto: 1 (p. ej. bc:BTEP02BC1)
@@ -436,7 +439,8 @@ Sin diferencias.
 - texto de criterio distinto: 2 (p. ej. crit:BATR02CE1.1, crit:BATR02CE3.2)
 - título de bloque de saberes distinto: 1 (p. ej. sb:BATR02SBII)
 - texto de saber distinto: 1 (p. ej. sb:BATR02SBII.6)
-- corregible desde el documento (textos de la versión publicada en el BOC): 4
+- corregible desde el documento (textos de la versión publicada en el BOC): 3
+- corregible desde el documento (textos con la puntuación publicada en el BOC): 1
 
 ## bachillerato-biologia-humana — contrastado
 - texto de saber distinto: 18 (p. ej. sb:BBIL02SBI.3, sb:BBIL02SBII.1, sb:BBIL02SBII.2, sb:BBIL02SBIII.3, sb:BBIL02SBIII.4)
@@ -445,13 +449,15 @@ Sin diferencias.
 - enunciado de competencia distinto: 3 (p. ej. ce:BBILC1, ce:BBILC3, ce:BBILC5)
 - descriptores de bloque distinto: 2 (p. ej. bc:BBIL02BC4, bc:BBIL02BC5)
 - corregible desde el documento (textos de la versión publicada en el BOC): 24
+- corregible desde el documento (textos con la puntuación publicada en el BOC): 4
 
 ## bachillerato-bioestadistica — contrastado
 - texto de saber distinto: 8 (p. ej. sb:BBIE02SBII.2, sb:BBIE02SBII.3, sb:BBIE02SBII.4, sb:BBIE02SBIII.1, sb:BBIE02SBIII.2)
 - explicación de bloque distinto: 3 (p. ej. bc:BBIE02BC1, bc:BBIE02BC3, bc:BBIE02BC4)
 - texto de criterio distinto: 2 (p. ej. crit:BBIE02CE4.1, crit:BBIE02CE6.2)
-- corregible desde el documento (textos de la versión publicada en el BOC): 7
+- corregible desde el documento (textos de la versión publicada en el BOC): 1
 - corregible desde el documento (textos que solo difieren en espacios): 1
+- corregible desde el documento (textos con la puntuación publicada en el BOC): 6
 
 ## bachillerato-cultura-cientifica — contrastado
 - enunciado de competencia distinto: 1 (p. ej. ce:BCUFC2)
@@ -478,15 +484,16 @@ Sin diferencias.
 - texto de criterio distinto: 1 (p. ej. crit:BHIC01CE1.3)
 - descriptores de bloque distinto: 1 (p. ej. bc:BHIC01BC4)
 - corregible desde el documento (textos que solo difieren en espacios): 2
-- corregible desde el documento (textos de la versión publicada en el BOC): 5
+- corregible desde el documento (textos de la versión publicada en el BOC): 4
 - corregible desde el documento (textos ausentes en la exportación): 1
+- corregible desde el documento (textos con la puntuación publicada en el BOC): 1
 
 ## bachillerato-imagen-y-sonido — contrastado
 - texto de saber distinto: 4 (p. ej. sb:BIYS02SBIII.2, sb:BIYS02SBIII.4, sb:BIYS02SBIV.5, sb:BIYS02SBIV.8)
 - explicación de bloque distinto: 2 (p. ej. bc:BIYS02BC1, bc:BIYS02BC3)
 - enunciado de competencia distinto: 1 (p. ej. ce:BIYSC4)
 - corregible desde el documento (textos que solo difieren en espacios): 1
-- corregible desde el documento (textos de la versión publicada en el BOC): 4
+- corregible desde el documento (textos con la puntuación publicada en el BOC): 4
 
 ## bachillerato-iniciacion-a-la-astronomia — contrastado
 - texto de saber distinto: 5 (p. ej. sb:BIAS01SBI.8, sb:BIAS01SBII.7, sb:BIAS01SBII.10, sb:BIAS01SBV.4, sb:BIAS01SBVI.8)
@@ -527,7 +534,7 @@ Sin diferencias.
 - descriptores de bloque distinto: 2 (p. ej. bc:BMNC01BC1, bc:BMNC01BC4)
 - explicación de bloque distinto: 2 (p. ej. bc:BMNC01BC3, bc:BMNC01BC4)
 - título de bloque de saberes distinto: 1 (p. ej. sb:BMNC01SBII)
-- corregible desde el documento (textos de la versión publicada en el BOC): 3
+- corregible desde el documento (textos de la versión publicada en el BOC): 2
 - corregible desde el documento (textos que solo difieren en espacios): 1
 
 ## bachillerato-taller-de-etimologia-grecolatina — contrastado
@@ -555,8 +562,9 @@ Sin diferencias.
 - descriptores de bloque distinto: 1 (p. ej. bc:BPSI02BC3)
 - descriptores de criterio distinto: 1 (p. ej. crit:BPSI02CE3.2)
 - nodo del corpus que no está en el documento: 1 (p. ej. sb:BPSI02SBVI.9)
-- corregible desde el documento (textos de la versión publicada en el BOC): 15
+- corregible desde el documento (textos de la versión publicada en el BOC): 6
 - corregible desde el documento (textos que solo difieren en espacios): 3
+- corregible desde el documento (textos con la puntuación publicada en el BOC): 9
 
 ## bachillerato-taller-de-artes-integradas — contrastado
 - descriptores de bloque distinto: 1 (p. ej. bc:BTA602BC3)

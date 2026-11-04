@@ -28,6 +28,7 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
 - Licencia de los datos (CC BY 4.0) y verificación de `config/descriptores.csv` contra los anexos 1.
 
 ### Cambiado
+- Todos los textos se normalizan a Unicode NFC al importar (587 textos de la exportación traían las tildes descompuestas); no cambia ningún texto a la vista.
 - Licencias: datos con CC BY 4.0 (con la aclaración del art. 13 TRLPI sobre los textos normativos) y código con GPL-3.0; `curriculo.json` incluye la licencia en su cabecera.
 - El importador trata como aviso un saber repetido de forma idéntica y reconstruye el código de un saber
   repetido cuyo texto indica otro apartado (`sb:BBIE02SBIII.3.1`).

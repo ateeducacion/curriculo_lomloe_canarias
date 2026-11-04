@@ -1,0 +1,21 @@
+id: 0119
+titulo: 'Fotografía (Bachillerato): 2 textos de la versión publicada en el BOC'
+motivo: El texto de la exportación no coincide con el publicado en el BOC y el del documento oficial sí (comprobado contra
+  fuentes/boletines). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-fotografia
+  fichero: fuentes/documentos/bachillerato/Fotografia_BACH.odt
+  sha256: 5b762eeed39249e7c280cb5f65903c04948b85c2f8a21899b4a5abbcfd04d7e3
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: ce:BFOTC2
+  campo: definition
+  valor: Conocer y utilizar los procesos de la composición fotográfica, identificando y seleccionando las técnicas, herramientas
+    y reglas básicas necesarias, a través de la búsqueda de información en fuentes fiables, para crear imágenes y comunicar
+    ideas, emociones con creatividad o sentimientos; y tomendo conciencia de la realidad del entorno natural y artificial,
+    de su desarrollo sostenible y de su uso ético.
+- nodo: sb:BFOT01SBIII
+  campo: definition
+  valor: Edición y tratamiento de la imagen digital

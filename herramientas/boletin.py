@@ -5,6 +5,7 @@ cuyo enlace y sha256 están en el manifiesto (`boletin_pdf`, `boletin_pdf_sha256
 Se quitan las cabeceras y pies de página y se unen las palabras partidas a final de línea.
 """
 import re
+import unicodedata
 
 from .comun import FUENTES
 
@@ -23,7 +24,7 @@ def _literal(s):
 
 class Boletin:
     def __init__(self, texto):
-        lineas = [l for l in texto.splitlines() if not _CABECERA.match(l)]
+        lineas = [l for l in unicodedata.normalize('NFC', texto).splitlines() if not _CABECERA.match(l)]
         unido = re.sub(r'(\w)-\n(\w)', r'\1\2', '\n'.join(lineas))
         self.palabras = _palabras(unido)
         self.literal = _literal(unido)
