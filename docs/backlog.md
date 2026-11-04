@@ -192,7 +192,14 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
   04-11-2026. Todos los textos se normalizan a NFC: 587 de la exportación traían las tildes
   descompuestas. Resultado: las diferencias bajan de 2.048 a 895 y 31 documentos coinciden
   por completo con el corpus. Lo que queda está clasificado más arriba (3.6, 3.8, puntuación
-  que el BOC no decide y textos que no están en el BOC). Simulando su aprobación, las diferencias bajan de
+  que el BOC no decide y textos que no están en el BOC).
+  Después de 3.6 y 3.8, cada diferencia lleva su explicación en el informe: automática si se
+  puede comprobar con el BOC (el corpus es el publicado, puntuación que el BOC no fija,
+  errata del documento…) o una nota en `config/notas_contraste.yaml`. El texto del BOC se
+  limpia de los descriptores que pdftotext intercala en las tablas. Nuevas categorías de
+  `--proponer`: textos cortados y textos de otro curso. Correcciones 0176–0210 propuestas;
+  con ellas quedan 356 diferencias, 127 sin explicar, que necesitan revisión manual.
+  Cierre: «sin explicar: 0» en `informes/contraste.md`. Simulando su aprobación, las diferencias bajan de
   2.048 a 907. Lo que queda: saberes numerados de forma distinta (3.6), descriptores de
   bloque (3.8), diferencias de puntuación que el BOC no permite decidir y unos 60 textos que no
   están en el BOC en ninguna de las dos versiones (revisión manual).

@@ -213,3 +213,38 @@
 | 0173-bachillerato-informatica-y-digitalizacion-i-y-ii-descriptores-publicados.yaml | aprobada | 7 | Informática y Digitalización I y II (Bachillerato): 7 descriptores publicados en el BOC |
 | 0174-bachillerato-literatura-canaria-descriptores-publicados.yaml | aprobada | 5 | Literatura Canaria (Bachillerato): 5 descriptores publicados en el BOC |
 | 0175-bachillerato-psicologia-descriptores-publicados.yaml | aprobada | 2 | Psicología (Bachillerato): 2 descriptores publicados en el BOC |
+| 0176-eso-biologia-y-geologia-textos-cortados.yaml | propuesta | 1 | Biología y Geología (Educación Secundaria Obligatoria): 1 textos cortados en la exportación |
+| 0177-eso-cultura-y-ciudadania-digital-textos-cortados.yaml | propuesta | 1 | Cultura y Ciudadanía Digital (Educación Secundaria Obligatoria): 1 textos cortados en la exportación |
+| 0178-eso-ambito-linguistico-y-social-textos-cortados.yaml | propuesta | 9 | Ámbito Lingüístico y Social (Educación Secundaria Obligatoria): 9 textos cortados en la exportación |
+| 0179-eso-ambito-linguistico-y-social-textos-de-otro-curso.yaml | propuesta | 2 | Ámbito Lingüístico y Social (Educación Secundaria Obligatoria): 2 textos de otro curso |
+| 0180-eso-ambito-cientifico-tecnologico-textos-cortados.yaml | propuesta | 5 | Ámbito Científico-Tecnológico (Educación Secundaria Obligatoria): 5 textos cortados en la exportación |
+| 0181-eso-ambito-cientifico-tecnologico-textos-de-otro-curso.yaml | propuesta | 2 | Ámbito Científico-Tecnológico (Educación Secundaria Obligatoria): 2 textos de otro curso |
+| 0182-primaria-conocimiento-del-medio-natural-social-y-cultural-version-publicada.yaml | propuesta | 34 | Conocimiento del Medio Natural, Social y Cultural (Educación Primaria): 34 textos de la versión publicada en el BOC |
+| 0183-primaria-conocimiento-del-medio-natural-social-y-cultural-puntuacion-publicada.yaml | propuesta | 8 | Conocimiento del Medio Natural, Social y Cultural (Educación Primaria): 8 textos con la puntuación publicada en el BOC |
+| 0184-primaria-conocimiento-del-medio-natural-social-y-cultural-textos-cortados.yaml | propuesta | 5 | Conocimiento del Medio Natural, Social y Cultural (Educación Primaria): 5 textos cortados en la exportación |
+| 0185-primaria-conocimiento-del-medio-natural-social-y-cultural-textos-de-otro-curso.yaml | propuesta | 2 | Conocimiento del Medio Natural, Social y Cultural (Educación Primaria): 2 textos de otro curso |
+| 0186-primaria-educacion-artistica-version-publicada.yaml | propuesta | 6 | Educación Artística (Educación Primaria): 6 textos de la versión publicada en el BOC |
+| 0187-primaria-educacion-artistica-textos-cortados.yaml | propuesta | 8 | Educación Artística (Educación Primaria): 8 textos cortados en la exportación |
+| 0188-primaria-educacion-en-valores-civicos-y-eticos-version-publicada.yaml | propuesta | 6 | Educación en Valores Cívicos y Éticos (Educación Primaria): 6 textos de la versión publicada en el BOC |
+| 0189-primaria-educacion-fisica-version-publicada.yaml | propuesta | 2 | Educación Física (Educación Primaria): 2 textos de la versión publicada en el BOC |
+| 0190-primaria-educacion-fisica-textos-cortados.yaml | propuesta | 8 | Educación Física (Educación Primaria): 8 textos cortados en la exportación |
+| 0191-primaria-lengua-castellana-y-literatura-version-publicada.yaml | propuesta | 2 | Lengua Castellana y Literatura (Educación Primaria): 2 textos de la versión publicada en el BOC |
+| 0192-primaria-lengua-castellana-y-literatura-textos-de-otro-curso.yaml | propuesta | 2 | Lengua Castellana y Literatura (Educación Primaria): 2 textos de otro curso |
+| 0193-primaria-lengua-extranjera-version-publicada.yaml | propuesta | 6 | Lengua Extranjera (Educación Primaria): 6 textos de la versión publicada en el BOC |
+| 0194-primaria-lengua-extranjera-textos-de-otro-curso.yaml | propuesta | 4 | Lengua Extranjera (Educación Primaria): 4 textos de otro curso |
+| 0195-primaria-educacion-emocional-y-para-la-creatividad-version-publicada.yaml | propuesta | 8 | Educación Emocional y para la Creatividad (Educación Primaria): 8 textos de la versión publicada en el BOC |
+| 0196-primaria-educacion-emocional-y-para-la-creatividad-textos-de-otro-curso.yaml | propuesta | 6 | Educación Emocional y para la Creatividad (Educación Primaria): 6 textos de otro curso |
+| 0197-primaria-segunda-lengua-extranjera-version-publicada.yaml | propuesta | 4 | Segunda Lengua Extranjera (Educación Primaria): 4 textos de la versión publicada en el BOC |
+| 0198-primaria-segunda-lengua-extranjera-puntuacion-publicada.yaml | propuesta | 4 | Segunda Lengua Extranjera (Educación Primaria): 4 textos con la puntuación publicada en el BOC |
+| 0199-primaria-matematicas-version-publicada.yaml | propuesta | 6 | Matemáticas (Educación Primaria): 6 textos de la versión publicada en el BOC |
+| 0200-primaria-matematicas-puntuacion-publicada.yaml | propuesta | 2 | Matemáticas (Educación Primaria): 2 textos con la puntuación publicada en el BOC |
+| 0201-primaria-matematicas-textos-cortados.yaml | propuesta | 4 | Matemáticas (Educación Primaria): 4 textos cortados en la exportación |
+| 0202-bachillerato-coro-y-tecnica-vocal-i-y-ii-textos-cortados.yaml | propuesta | 1 | Coro y Técnica Vocal I y II (Bachillerato): 1 textos cortados en la exportación |
+| 0203-bachillerato-dibujo-artistico-i-y-ii-textos-cortados.yaml | propuesta | 1 | Dibujo Artístico I y II (Bachillerato): 1 textos cortados en la exportación |
+| 0204-bachillerato-dibujo-tecnico-i-y-ii-textos-cortados.yaml | propuesta | 2 | Dibujo Técnico I y II (Bachillerato): 2 textos cortados en la exportación |
+| 0205-bachillerato-fisica-y-quimica-textos-cortados.yaml | propuesta | 3 | Física y Química (Bachillerato): 3 textos cortados en la exportación |
+| 0206-bachillerato-proyectos-artisticos-textos-cortados.yaml | propuesta | 1 | Proyectos Artísticos (Bachillerato): 1 textos cortados en la exportación |
+| 0207-bachillerato-antropologia-y-sociologia-textos-cortados.yaml | propuesta | 1 | Antropología y Sociología (Bachillerato): 1 textos cortados en la exportación |
+| 0208-bachillerato-bioestadistica-textos-cortados.yaml | propuesta | 1 | Bioestadística (Bachillerato): 1 textos cortados en la exportación |
+| 0209-bachillerato-fundamentos-de-administracion-y-gestion-textos-cortados.yaml | propuesta | 1 | Fundamentos de Administración y Gestión (Bachillerato): 1 textos cortados en la exportación |
+| 0210-bachillerato-medio-natural-canario-textos-cortados.yaml | propuesta | 1 | Medio Natural Canario (Bachillerato): 1 textos cortados en la exportación |

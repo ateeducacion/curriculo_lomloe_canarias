@@ -1,0 +1,38 @@
+id: 0199
+titulo: 'Matemáticas (Educación Primaria): 6 textos de la versión publicada en el BOC'
+motivo: El texto de la exportación no coincide con el publicado en el BOC y el del documento oficial sí (comprobado contra
+  fuentes/boletines). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: primaria-matematicas
+  fichero: fuentes/documentos/primaria/curriculo-educacion-PRIMARIA_Matematicas.odt
+  sha256: 30849bd07eb61b4b8b06e0902c7fcf1f1bd9908936b14d183c0741a5e19eec59
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: crit:PMAT01CE6.2
+  campo: definition
+  valor: Comunicar de forma verbal o gráfica ideas y procesos matemáticos, utilizando lenguaje matemático adecuado e intercambiando
+    información, para dar significado y permanencia a las ideas matemáticas.
+- nodo: crit:PMAT02CE6.2
+  campo: definition
+  valor: Comunicar de forma verbal o gráfica ideas y procesos matemáticos, utilizando lenguaje matemático adecuado e intercambiando
+    información, para dar significado y permanencia a las ideas matemáticas.
+- nodo: crit:PMAT05CE2.2
+  campo: definition
+  valor: Elegir y utilizar las operaciones pertinentes para la resolución de problemas que combinen las estructuras aditiva
+    y multiplicativa; plantear problemas coherentes que se resuelvan con operaciones dadas, utilizando la calculadora cuando
+    las cantidades lo precisen; y ofrecer representaciones gráficas adecuadas y argumentarlas.
+- nodo: crit:PMAT05CE2.3
+  campo: definition
+  valor: Comprobar la validez de las soluciones del problema y su coherencia en el contexto planteado, reflexionando sobre
+    el proceso seguido, planteándose preguntas y expresando sus conclusiones verbalmente o por escrito.
+- nodo: crit:PMAT06CE2.2
+  campo: definition
+  valor: Elegir y utilizar las operaciones pertinentes para la resolución de problemas que combinen las estructuras aditiva
+    y multiplicativa; plantear problemas coherentes que se resuelvan con operaciones dadas, utilizando la calculadora cuando
+    las cantidades lo precisen; y ofrecer representaciones gráficas adecuadas y argumentarlas.
+- nodo: crit:PMAT06CE2.3
+  campo: definition
+  valor: Comprobar la validez de las soluciones del problema y su coherencia en el contexto planteado, reflexionando sobre
+    el proceso seguido, planteándose preguntas y expresando sus conclusiones verbalmente o por escrito.

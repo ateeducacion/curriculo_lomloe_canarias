@@ -14,6 +14,7 @@ _CABECERA = re.compile(r'^\s*(Boletín Oficial de Canarias núm\.|https?://|boc-
 
 
 _DESC = r'(?:CCL|CP|STEM|CD|CPSAA|CC|CE|CCEC)\d(?:\.\d)?'
+_SECUENCIA_CODIGOS = re.compile(r'\s*\b' + _DESC + r'(?:\s*,\s*' + _DESC + r')*[.,]?(?=\s|$)')
 _DESCRIPTOR_ANTES = re.compile(_DESC + r',\s*$')
 _DESCRIPTOR_DESPUES = re.compile(r'(?:\.\d|,\s*' + _DESC + ')')
 
@@ -31,7 +32,11 @@ class Boletin:
     def __init__(self, texto):
         lineas = [l for l in unicodedata.normalize('NFC', texto).splitlines() if not _CABECERA.match(l)]
         unido = re.sub(r'(\w)-\n(\w)', r'\1\2', '\n'.join(lineas))
-        self.palabras = _palabras(unido)
+        # En las tablas, pdftotext intercala los descriptores en mitad del criterio
+        # («…de diseño CCL1, STEM1, STEM2 utilizando…»): para buscar textos se quitan.
+        sin_codigos = _SECUENCIA_CODIGOS.sub(' ', unido)
+        self.palabras = _palabras(sin_codigos)
+        self.literal_textos = _literal(sin_codigos)
         self.literal = _literal(unido)
 
     def contiene(self, s):
@@ -40,7 +45,7 @@ class Boletin:
 
     def contiene_literal(self, s):
         """Como contiene(), pero con la puntuación exacta (espacios y comillas normalizados)."""
-        return _buscar(_literal(s), self.literal)
+        return _buscar(_literal(s), self.literal_textos)
 
     def contiene_descriptores(self, lista):
         """La lista de descriptores aparece completa en el boletín, sin otros descriptores pegados."""

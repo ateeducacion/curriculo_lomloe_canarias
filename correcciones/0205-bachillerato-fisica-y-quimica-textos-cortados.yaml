@@ -1,0 +1,29 @@
+id: '0205'
+titulo: 'Física y Química (Bachillerato): 3 textos cortados en la exportación'
+motivo: El texto de la exportación es solo un trozo del texto del documento oficial, que figura completo en el BOC (fuentes/boletines).
+  Se toma el texto completo. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-fisica-y-quimica
+  fichero: fuentes/documentos/bachillerato/Fisica_y_Quimica_BACH.odt
+  sha256: 5f4e59cde291d731447b68ac71eadd383c1474021fef93473aaa1ee412a77049
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: crit:BFYQ01CE3.1
+  campo: definition
+  valor: Utilizar, interpretar y relacionar de manera rigurosa las herramientas y el lenguaje matemático y los diferentes
+    sistemas de unidades de las magnitudes fisicoquímicas, empleando correctamente su notación y sus equivalencias, haciendo
+    posible una comunicación efectiva con toda la comunidad científica desde el respeto a las normas del lenguaje de las ciencias.
+- nodo: crit:BFYQ01CE3.2
+  campo: definition
+  valor: Nombrar y formular correctamente las sustancias simples, los iones y los compuestos químicos inorgánicos y orgánicos
+    que aparecen en los textos de distintos ámbitos y de los medios de comunicación, utilizando las normas de la IUPAC como
+    parte de un lenguaje integrador y universal para facilitar la comunicación con toda la comunidad científica.
+- nodo: crit:BFYQ01CE3.4
+  campo: definition
+  valor: Poner en práctica y comunicar los conocimientos adquiridos en la experimentación científica en laboratorios —virtuales
+    o reales— o de campo, incluyendo el conocimiento de los productos y materiales y de su normativa básica de uso, así como
+    de las normas de seguridad propias de estos espacios, para valorar y comprender la importancia en el progreso científico
+    y emprendedor de que la experimentación sea eficiente, ética y segura, sin comprometer la integridad física propia ni
+    colectiva.

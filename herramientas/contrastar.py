@@ -23,7 +23,7 @@ from collections import Counter
 import yaml
 
 from . import boletin, odt
-from .comun import (CORRECCIONES, ETAPAS, FUENTES, INFORMES, escribir_json, leer_json, leer_yaml,
+from .comun import (CONFIG, CORRECCIONES, ETAPAS, FUENTES, INFORMES, escribir_json, leer_json, leer_yaml,
                     descriptores_por_etapa, materias_config, sha256)
 
 CICLOS = {1: 'Primer', 2: 'Segundo', 3: 'Tercer'}
@@ -50,6 +50,12 @@ CATEGORIAS = {
                      'Los descriptores de estos criterios no coinciden con los del documento oficial, y la lista del '
                      'documento es la que figura completa en el BOC (fuentes/boletines). Los de cada bloque se '
                      'recalculan como la unión de los de sus criterios, igual que hace el importador.'),
+    'cortado': ('textos-cortados', 'textos cortados en la exportación',
+                'El texto de la exportación es solo un trozo del texto del documento oficial, que figura completo '
+                'en el BOC (fuentes/boletines). Se toma el texto completo.'),
+    'otro_curso': ('textos-de-otro-curso', 'textos de otro curso',
+                   'El texto de la exportación es el que el documento oficial da a otro curso o ciclo de la misma '
+                   'materia; los dos figuran en el BOC. Se toma el que corresponde a este curso.'),
     'espacios': ('espacios', 'textos que solo difieren en espacios',
                  'El texto de la exportación solo difiere del documento oficial en espacios (dobles, de no '
                  'separación o al principio o final). Se toma el del documento.'),
@@ -111,6 +117,8 @@ def _secciones(doc, materias):
 
 def contrastar(nodos, manifiesto, materias=None):
     materias = materias_config() if materias is None else materias
+    notas = {(n['nodo'], n.get('tipo')): n['motivo'] for n in (leer_yaml(CONFIG / 'notas_contraste.yaml') or {}).get('notas') or []} \
+        if (CONFIG / 'notas_contraste.yaml').exists() else {}
     materias_de_texto = {}
     for n in nodos.values():
         if n.get('definition'):
@@ -141,8 +149,8 @@ def contrastar(nodos, manifiesto, materias=None):
         bol = boletin.de_norma(manifiesto, doc.get('norma'))
         conocidos = descriptores_por_etapa().get(ETAPAS[doc['etapa']][0], set())
 
-        def d(tipo, nodo, detalle=''):
-            dif.append({'tipo': tipo, 'nodo': nodo, 'detalle': detalle})
+        def d(tipo, nodo, detalle='', campo=None, esperado=None, **extra):
+            dif.append({'tipo': tipo, 'nodo': nodo, 'detalle': detalle, 'campo': campo, 'esperado': esperado, **extra})
 
         for rotulo, conf in ((r, c) for r, cs in secciones.items() for c in cs):
             sec = leido['secciones'].get(rotulo)
@@ -190,7 +198,8 @@ def contrastar(nodos, manifiesto, materias=None):
                 if nid.startswith(prefijos) and nid not in vistos:
                     d('nodo del corpus que no está en el documento', nid)
         _explicaciones_copiadas(nodos, explicaciones, huecos)
-        _version_publicada(nodos, textos, bol, huecos)
+        _explicar(dif, nodos, bol, conocidos, notas)
+        _version_publicada(nodos, textos, bol, huecos, _textos_documento(leido))
         resultados.append({'documento': doc['id'], 'estado': 'contrastado', 'avisos_lectura': leido['avisos'],
                            'diferencias': dif, 'huecos': list(huecos.values()), 'revisar': revisar,
                            'avisos_documento': avisos_doc})
@@ -199,6 +208,58 @@ def contrastar(nodos, manifiesto, materias=None):
 
 def _hueco(huecos, categoria, nodo, campo, valor):
     huecos[(nodo, campo)] = {'categoria': categoria, 'nodo': nodo, 'campo': campo, 'valor': valor}
+
+
+def _explicar(dif, nodos, bol, conocidos, notas):
+    """Añade a cada diferencia su explicación, si la hay, para que ninguna quede sin justificar.
+
+    Explicaciones automáticas, comprobables con el texto del BOC (fuentes/boletines):
+    - el valor del corpus es el publicado en el BOC y el del documento no;
+    - solo cambia la puntuación y el texto extraído del BOC no permite decidirla;
+    - un saber del corpus que falta en el documento está publicado en el BOC;
+    - un saber del documento que falta en el corpus no está publicado en el BOC;
+    - los descriptores del documento traen códigos que no existen en la etapa;
+    - los descriptores de un bloque derivan de criterios cuyas diferencias están explicadas.
+    El resto necesita una nota en config/notas_contraste.yaml (nodo, tipo y motivo) o una corrección.
+    """
+    for x in dif:
+        nota = notas.get((x['nodo'], x['tipo'])) or notas.get((x['nodo'], None))
+        x['explicacion'] = f'nota: {nota}' if nota else (_explicacion_automatica(x, nodos, bol, conocidos) if bol else None)
+    pendientes = {x['nodo'] for x in dif if x['tipo'] == 'descriptores de criterio distinto' and not x['explicacion']}
+    for x in dif:
+        if x['tipo'] == 'descriptores de bloque distinto' and not x['explicacion'] and not pendientes & set(x.get('criterios') or []) \
+                and x.get('criterios'):
+            x['explicacion'] = 'los descriptores del bloque derivan de los de sus criterios, cuyas diferencias están explicadas'
+
+
+def _explicacion_automatica(x, nodos, bol, conocidos):
+    tipo, campo, esperado = x['tipo'], x.get('campo'), x.get('esperado')
+    actual = (nodos.get(x['nodo']) or {}).get(campo) if campo else None
+    if campo == 'descriptores':
+        if esperado and any(c not in conocidos for c in esperado):
+            return 'el documento trae códigos de descriptor que no existen en la etapa (errata)'
+        if actual and bol.contiene_descriptores(actual) and not bol.contiene_descriptores(esperado or []):
+            return 'la lista del corpus es la publicada en el BOC; la del documento no'
+        return None
+    if tipo == 'nodo del corpus que no está en el documento':
+        texto = (nodos.get(x['nodo']) or {}).get('definition')
+        return 'el saber del corpus está publicado en el BOC; falta en el documento' if texto and bol.exacto(texto) else None
+    if tipo.startswith('falta en el corpus'):
+        return 'el texto del documento no está publicado en el BOC' if esperado and not bol.contiene(esperado) else None
+    if not (actual and esperado):
+        return None
+    if _norma(actual) == _norma(esperado):
+        if bol.contiene_literal(actual) and not bol.contiene_literal(esperado):
+            return 'la puntuación del corpus es la publicada en el BOC'
+        if bol.contiene_literal(actual) == bol.contiene_literal(esperado):
+            return 'solo cambia la puntuación y el texto del BOC no permite decidirla'
+        return None
+    if bol.exacto(actual) and not bol.exacto(esperado):
+        return 'el texto del corpus es el publicado en el BOC; el del documento no'
+    if x['nodo'].startswith('ce:') and bol.exacto(actual) and bol.exacto(esperado):
+        return ('la competencia tiene un enunciado distinto en cada curso en el BOC; el corpus guarda '
+                'uno por materia (limitación del modelo)')
+    return None
 
 
 def _union(listas):
@@ -224,7 +285,7 @@ def _descriptores_bloque(d, nodos, bc, b, pref, nn, bol, conocidos, huecos, avis
         actual = nodos[cid].get('descriptores') or []
         if set(actual) == set(ds):
             continue
-        d('descriptores de criterio distinto', cid, f'documento: {ds}')
+        d('descriptores de criterio distinto', cid, f'documento: {ds}', 'descriptores', ds)
         desconocidos = [x for x in ds if x not in conocidos]
         if desconocidos:
             # Errata en el propio documento (y en el BOC, p. ej. «CCE3»): no se puede saber qué código era.
@@ -247,14 +308,25 @@ def _descriptores_bloque(d, nodos, bc, b, pref, nn, bol, conocidos, huecos, avis
     actual = nodos[bc].get('descriptores') or []
     if set(actual) == set(esperado):
         return
-    d('descriptores de bloque distinto', bc, f'documento: {esperado}')
+    d('descriptores de bloque distinto', bc, f'documento: {esperado}', 'descriptores', esperado,
+      criterios=[cid for cid, _ in con_descriptores])
     corregidos = [huecos[(cid, 'descriptores')]['valor'] if (cid, 'descriptores') in huecos
                   else nodos[cid].get('descriptores') or [] for cid, _ in con_descriptores]
     if con_descriptores and set(_union(corregidos)) == set(esperado):
         _hueco(huecos, 'descriptores', bc, 'descriptores', esperado)
 
 
-def _version_publicada(nodos, textos, bol, huecos):
+def _contiene_otro_saber(nodos, nid, texto):
+    """El texto incluye el de otro saber del mismo bloque: el documento ha juntado dos saberes."""
+    if not nid.startswith('sb:'):
+        return False
+    bloque = nid.split('.', 1)[0]
+    return any(k != nid and k.startswith(bloque + '.') and n.get('definition')
+               and len(_norma(n['definition'])) > 20 and _norma(n['definition']) in texto
+               for k, n in nodos.items())
+
+
+def _version_publicada(nodos, textos, bol, huecos, textos_doc=frozenset()):
     """Textos del corpus que no están en el BOC cuando el del documento sí lo está.
 
     En los saberes se exige además que ambos textos se parezcan: si no, lo más probable es que
@@ -272,6 +344,16 @@ def _version_publicada(nodos, textos, bol, huecos):
             _hueco(huecos, 'espacios', nid, campo, esperado)
             continue
         if bol is None:
+            continue
+        na, ne = _norma(actual), _norma(esperado)
+        if _contiene_otro_saber(nodos, nid, ne):
+            continue
+        if na != ne and bol.exacto(esperado) and na in ne:
+            _hueco(huecos, 'cortado', nid, campo, esperado)
+            continue
+        if (na != ne and not nid.startswith('ce:') and na in textos_doc and bol.exacto(actual)
+                and bol.exacto(esperado)):
+            _hueco(huecos, 'otro_curso', nid, campo, esperado)
             continue
         if bol.contiene(actual) and bol.contiene(esperado):
             if _norma(actual) == _norma(esperado):
@@ -300,7 +382,13 @@ def _explicaciones_copiadas(nodos, explicaciones, huecos):
 
 
 def _textos_documento(leido):
+    """Todos los textos del documento (normalizados): competencias, criterios, explicaciones y saberes."""
     textos = set()
+    for sec in leido['secciones'].values():
+        for b in sec['bloques_competenciales']:
+            textos.update(_norma(c['enunciado']) for c in b['competencias'])
+            textos.update(_norma(c['texto']) for c in b['criterios'])
+            textos.add(_norma(b['explicacion']))
 
     def rec(hs):
         for h in hs:
@@ -442,34 +530,44 @@ def _saberes(d, nodos, base, hijos, vistos, textos=None):
         vistos.add(k)
         _cmp(d, nodos, k, 'definition', texto, 'texto de saber', textos)
     for ruta, texto in sueltos:
-        d('falta en el corpus: texto de saber', ruta, f'documento: {texto[:80]!r}')
+        d('falta en el corpus: texto de saber', ruta, f'documento: {texto[:80]!r}', 'definition', texto)
     # Los encabezados vacíos con subsaberes son estructura de la exportación, no saberes sobrantes.
     vistos.update(k for k in ids if k in con_hijos and not nodos[k].get('definition'))
 
 
 def _cmp(d, nodos, nid, campo, esperado, etiqueta, textos=None):
     if nid not in nodos:
-        d(f'falta en el corpus: {etiqueta}', nid)
+        d(f'falta en el corpus: {etiqueta}', nid, '', campo, esperado)
     elif campo == 'descriptores' and set(nodos[nid].get(campo) or []) == set(esperado or []):
         return
     elif nodos[nid].get(campo) != esperado:
-        d(f'{etiqueta} distinto', nid, f'documento: {str(esperado)[:80]!r}')
+        d(f'{etiqueta} distinto', nid, f'documento: {str(esperado)[:80]!r}', campo, esperado)
         if textos is not None and campo in ('definition', 'scopeNote'):
             textos.append((nid, campo, esperado))
 
 
 def informe_md(resultados):
-    lineas = ['# Contraste con los documentos oficiales', '']
+    total = sum(len(r['diferencias']) for r in resultados)
+    sin = sum(1 for r in resultados for x in r['diferencias'] if not x.get('explicacion'))
+    lineas = ['# Contraste con los documentos oficiales', '',
+              f'- Documentos contrastados: {len(resultados)}; sin diferencias: '
+              f"{sum(1 for r in resultados if not r['diferencias'])}",
+              f'- Diferencias: {total}; explicadas: {total - sin}; **sin explicar: {sin}**', '']
     if not resultados:
         lineas.append('Ningún documento del manifiesto tiene fichero local.')
     for r in resultados:
         lineas.append(f"## {r['documento']} — {r['estado']}")
-        tipos = Counter(x['tipo'] for x in r['diferencias'])
-        if not tipos:
+        sin = [x for x in r['diferencias'] if not x.get('explicacion')]
+        tipos = Counter(x['tipo'] for x in sin)
+        if not r['diferencias']:
             lineas.append('Sin diferencias.')
+        elif not sin:
+            lineas.append(f"Sin diferencias por explicar ({len(r['diferencias'])} explicadas).")
         for t, n in tipos.most_common():
-            ejemplos = [x['nodo'] for x in r['diferencias'] if x['tipo'] == t][:5]
-            lineas.append(f'- {t}: {n} (p. ej. {", ".join(ejemplos)})')
+            ejemplos = [x['nodo'] for x in sin if x['tipo'] == t][:5]
+            lineas.append(f'- sin explicar — {t}: {n} (p. ej. {", ".join(ejemplos)})')
+        for e, n in Counter(x['explicacion'] for x in r['diferencias'] if x.get('explicacion')).most_common():
+            lineas.append(f'- explicadas — {e}: {n}')
         for cat, n in Counter(h['categoria'] for h in r.get('huecos', [])).items():
             lineas.append(f"- corregible desde el documento ({CATEGORIAS[cat][1]}): {n}")
         for x in r.get('revisar', []):

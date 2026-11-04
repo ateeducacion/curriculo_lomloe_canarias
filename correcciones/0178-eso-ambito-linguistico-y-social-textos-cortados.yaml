@@ -1,0 +1,44 @@
+id: 0178
+titulo: 'Ámbito Lingüístico y Social (Educación Secundaria Obligatoria): 9 textos cortados en la exportación'
+motivo: El texto de la exportación es solo un trozo del texto del documento oficial, que figura completo en el BOC (fuentes/boletines).
+  Se toma el texto completo. Generada con `contrastar --proponer`.
+fuente:
+  documento: eso-ambito-linguistico-y-social
+  fichero: fuentes/documentos/eso/anexo_1_curriculos_pdc_eso_LS.odt
+  sha256: 81b1c093d073bb40f625301a50832d4c4a68d6fdb6953728644a01360c8e1dac
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: ce:SMBSC1
+  campo: definition
+  valor: Comprender, interpretar y producir textos orales, escritos y multimodales con fluidez, coherencia, cohesión y registro
+    adecuados, atendiendo a la corrección gramatical y ortográfica, para comunicarse de manera eficaz, cooperativa y respetuosa,
+    construir conocimiento y dar respuesta a demandas comunicativas concretas, partiendo de la variedad dialectal canaria.
+- nodo: sb:SMBS04SBV.2.3
+  campo: definition
+  valor: Valoración de las alianzas e instituciones internacionales, y de la mediación y las misiones de paz.
+- nodo: sb:SMBS04SBV.3.2
+  campo: definition
+  valor: Valoración de la conquista de derechos en las sociedades democráticas contemporáneas.
+- nodo: sb:SMBS04SBV.3.3
+  campo: definition
+  valor: Valoración crítica de los compromisos internacionales de nuestro país en favor de la paz, la seguridad y la cooperación
+    internacional.
+- nodo: sb:SMBS04SBV.5.1
+  campo: definition
+  valor: Reflexión sobre la mediación y gestión pacífica de conflictos, y el apoyo a las víctimas de la violencia y del terrorismo.
+- nodo: sb:SMBS04SBVI.2.3
+  campo: definition
+  valor: Explicación de rasgos de las principales variedades dialectales del español a partir de las del español de Canarias.
+- nodo: sb:SMBS04SBVI.2.4
+  campo: definition
+  valor: Reconocimiento y explicación de las diferencias entre los rasgos propios de las variedades dialectales (fónicos,
+    gramaticales y léxicos), y los relativos a los sociolectos y los registros.
+- nodo: sb:SMBS04SBVII.1.1
+  campo: definition
+  valor: Elaboración de juicios propios y argumentados ante problemas de actualidad contextualizados históricamente. Defensa
+    y exposición crítica de los mismos a través de presentaciones y debates.
+- nodo: sb:SMBS04SBVII.5.2
+  campo: definition
+  valor: Indagación sobre las relaciones históricas, económicas, sociales y culturales de Canarias con África y América.

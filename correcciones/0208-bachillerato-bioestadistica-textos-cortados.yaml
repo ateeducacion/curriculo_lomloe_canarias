@@ -1,0 +1,16 @@
+id: 0208
+titulo: 'Bioestadística (Bachillerato): 1 textos cortados en la exportación'
+motivo: El texto de la exportación es solo un trozo del texto del documento oficial, que figura completo en el BOC (fuentes/boletines).
+  Se toma el texto completo. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-bioestadistica
+  fichero: fuentes/documentos/bachillerato/Bioestadistica_BACH.odt
+  sha256: c95c38cb2462874613bd342f9cb2b138cd2f51cc3e53ed1ca064c7e853bcfed4
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: sb:BBIE02SBIII.3.1
+  campo: definition
+  valor: '3.1 Destrezas para desarrollar una comunicación efectiva: la escucha activa, la formulación de preguntas o solicitud
+    y prestación de ayuda, cuando sea necesario.'
