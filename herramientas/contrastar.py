@@ -22,7 +22,7 @@ from collections import Counter
 
 import yaml
 
-from . import odt
+from . import boletin, odt
 from .comun import (CORRECCIONES, ETAPAS, FUENTES, INFORMES, escribir_json, leer_json, leer_yaml,
                     materias_config, sha256)
 
@@ -39,6 +39,12 @@ CATEGORIAS = {
     'otra_materia': ('textos-de-otra-materia', 'textos de saber de otra materia',
                      'La exportación asigna a estos saberes un texto de otra materia (encabezados mezclados '
                      'entre materias). Se toma el texto del documento oficial en la misma posición.'),
+    'version': ('version-publicada', 'textos de la versión publicada en el BOC',
+                'El texto de la exportación no coincide con el publicado en el BOC y el del documento oficial sí '
+                '(comprobado contra fuentes/boletines). Se toma el del documento.'),
+    'espacios': ('espacios', 'textos que solo difieren en espacios',
+                 'El texto de la exportación solo difiere del documento oficial en espacios (dobles, de no '
+                 'separación o al principio o final). Se toma el del documento.'),
     'titulo_y_descripcion': ('titulo-y-descripcion-de-bloques', 'título y descripción de los bloques de saberes',
                              'La exportación junta en el título del bloque de saberes su título y su descripción. '
                              'Se separan como en el documento oficial: título en definition y descripción en scopeNote.'),
@@ -123,7 +129,7 @@ def contrastar(nodos, manifiesto, materias=None):
                 leido['avisos'].append('Materias y cursos sin sección en el documento: '
                                        + ', '.join(m + n for m, n in faltan))
             secciones = {r: secciones[r] for r in leido['secciones']}
-        dif, huecos, revisar, explicaciones = [], {}, [], {}
+        dif, huecos, revisar, explicaciones, textos = [], {}, [], {}, []
 
         def d(tipo, nodo, detalle=''):
             dif.append({'tipo': tipo, 'nodo': nodo, 'detalle': detalle})
@@ -137,7 +143,7 @@ def contrastar(nodos, manifiesto, materias=None):
             for b in sec['bloques_competenciales']:
                 for c in b['competencias']:
                     ce = f'ce:{pref}C{c["num"]}'
-                    _cmp(d, nodos, ce, 'definition', c['enunciado'], 'enunciado de competencia')
+                    _cmp(d, nodos, ce, 'definition', c['enunciado'], 'enunciado de competencia', textos)
                     if ce in nodos and not nodos[ce].get('definition') and c['enunciado']:
                         _hueco(huecos, 'ausente', ce, 'definition', c['enunciado'])
                     expl = leido['explicacion_competencias'].get(c['num'])
@@ -145,28 +151,28 @@ def contrastar(nodos, manifiesto, materias=None):
                         d('explicación de competencia distinta', ce)
                 if b['competencias']:
                     bc = f'bc:{pref}{nn}BC{b["competencias"][0]["num"]}'
-                    _cmp(d, nodos, bc, 'scopeNote', b['explicacion'], 'explicación de bloque')
+                    _cmp(d, nodos, bc, 'scopeNote', b['explicacion'], 'explicación de bloque', textos)
                     if bc in nodos and b['explicacion']:
                         explicaciones[bc] = b['explicacion']
                     _cmp(d, nodos, bc, 'descriptores', b['descriptores'], 'descriptores de bloque')
                 for cr in b['criterios']:
                     cid = f'crit:{pref}{nn}CE{cr["num"]}'
                     vistos.add(cid)
-                    _cmp(d, nodos, cid, 'definition', cr['texto'], 'texto de criterio')
+                    _cmp(d, nodos, cid, 'definition', cr['texto'], 'texto de criterio', textos)
                     if cr['descriptores'] is not None:
                         _cmp(d, nodos, cid, 'descriptores', cr['descriptores'], 'descriptores de criterio')
             for b in sec['saberes']:
                 base = f'sb:{pref}{nn}SB{b["romano"]}'
                 vistos.add(base)
-                _cmp(d, nodos, base, 'definition', b['titulo'], 'título de bloque de saberes')
+                _cmp(d, nodos, base, 'definition', b['titulo'], 'título de bloque de saberes', textos)
                 if b.get('descripcion') or (nodos.get(base) or {}).get('scopeNote'):
-                    _cmp(d, nodos, base, 'scopeNote', b.get('descripcion'), 'descripción de bloque de saberes')
+                    _cmp(d, nodos, base, 'scopeNote', b.get('descripcion'), 'descripción de bloque de saberes', textos)
                 bs = nodos.get(base) or {}
                 if (b.get('descripcion') and not bs.get('scopeNote')
                         and _norma(bs.get('definition')) == _norma(b['titulo'] + ' ' + b['descripcion'])):
                     _hueco(huecos, 'titulo_y_descripcion', base, 'definition', b['titulo'])
                     _hueco(huecos, 'titulo_y_descripcion', base, 'scopeNote', b['descripcion'])
-                _saberes(d, nodos, base, b['hijos'], vistos)
+                _saberes(d, nodos, base, b['hijos'], vistos, textos)
                 _huecos_saberes(nodos, base, b['hijos'], huecos, revisar)
                 if doc.get('norma') != 'decreto-86-2025':
                     # Los ámbitos integran por diseño saberes de otras materias.
@@ -176,6 +182,7 @@ def contrastar(nodos, manifiesto, materias=None):
                 if nid.startswith(prefijos) and nid not in vistos:
                     d('nodo del corpus que no está en el documento', nid)
         _explicaciones_copiadas(nodos, explicaciones, huecos)
+        _version_publicada(nodos, textos, boletin.de_norma(manifiesto, doc.get('norma')), huecos)
         resultados.append({'documento': doc['id'], 'estado': 'contrastado', 'avisos_lectura': leido['avisos'],
                            'diferencias': dif, 'huecos': list(huecos.values()), 'revisar': revisar})
     return resultados
@@ -183,6 +190,36 @@ def contrastar(nodos, manifiesto, materias=None):
 
 def _hueco(huecos, categoria, nodo, campo, valor):
     huecos[(nodo, campo)] = {'categoria': categoria, 'nodo': nodo, 'campo': campo, 'valor': valor}
+
+
+def _version_publicada(nodos, textos, bol, huecos):
+    """Textos del corpus que no están en el BOC cuando el del documento sí lo está.
+
+    En los saberes se exige además que ambos textos se parezcan: si no, lo más probable es que
+    el documento y la exportación numeren distinto y se estén comparando saberes diferentes.
+    """
+    for nid, campo, esperado in textos:
+        actual = (nodos.get(nid) or {}).get(campo)
+        if not esperado or actual == esperado or (nid, campo) in huecos:
+            continue
+        if not actual:
+            if bol is not None and bol.contiene(esperado):
+                _hueco(huecos, 'ausente', nid, campo, esperado)
+            continue
+        if re.sub(r'\s+', ' ', actual.replace('\xa0', ' ')).strip() == esperado:
+            _hueco(huecos, 'espacios', nid, campo, esperado)
+            continue
+        if bol is None:
+            continue
+        if bol.contiene(actual) and bol.contiene(esperado):
+            # Mismas palabras en el boletín: decide la puntuación exacta.
+            if not (bol.contiene_literal(esperado) and not bol.contiene_literal(actual)):
+                continue
+        elif not bol.contiene(esperado) or bol.contiene(actual):
+            continue
+        if nid.startswith('sb:') and difflib.SequenceMatcher(None, _norma(actual), _norma(esperado)).ratio() < 0.6:
+            continue
+        _hueco(huecos, 'version', nid, campo, esperado)
 
 
 def _explicaciones_copiadas(nodos, explicaciones, huecos):
@@ -301,21 +338,23 @@ def proponer(resultados, manifiesto):
     return escritos
 
 
-def _saberes(d, nodos, padre, hijos, vistos):
+def _saberes(d, nodos, padre, hijos, vistos, textos=None):
     for i, h in enumerate(hijos, 1):
         nid = f'{padre}.{i}'
         vistos.add(nid)
-        _cmp(d, nodos, nid, 'definition', h['texto'], 'texto de saber')
-        _saberes(d, nodos, nid, h['hijos'], vistos)
+        _cmp(d, nodos, nid, 'definition', h['texto'], 'texto de saber', textos)
+        _saberes(d, nodos, nid, h['hijos'], vistos, textos)
 
 
-def _cmp(d, nodos, nid, campo, esperado, etiqueta):
+def _cmp(d, nodos, nid, campo, esperado, etiqueta, textos=None):
     if nid not in nodos:
         d(f'falta en el corpus: {etiqueta}', nid)
     elif campo == 'descriptores' and set(nodos[nid].get(campo) or []) == set(esperado or []):
         return
     elif nodos[nid].get(campo) != esperado:
         d(f'{etiqueta} distinto', nid, f'documento: {str(esperado)[:80]!r}')
+        if textos is not None and campo in ('definition', 'scopeNote'):
+            textos.append((nid, campo, esperado))
 
 
 def informe_md(resultados):

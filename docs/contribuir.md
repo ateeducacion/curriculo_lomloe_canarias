@@ -29,6 +29,13 @@ El lector de ODT está probado con los formatos de Infantil, Primaria, ESO, Bach
 los ámbitos de diversificación (estos con `secciones` en el manifiesto, porque sus rótulos
 —«Curso 1.º. Ámbito…»— no siguen el curso de la ESO).
 
+## Textos del BOC
+
+`fuentes/boletines/` guarda el texto de cada decreto tal como lo extrae `pdftotext` (poppler,
+sin opciones) del PDF del BOC. El enlace y el sha256 del PDF están en el manifiesto
+(`boletin_pdf`, `boletin_pdf_sha256`). Sirven para decidir qué versión de un texto es la
+publicada cuando el documento y la exportación no coinciden.
+
 ## Crear una materia que no está en la exportación
 
 Añádela a `config/materias.csv` (código, código en identificadores, denominación, cursos y
@@ -51,7 +58,8 @@ python -m herramientas.contrastar --proponer
 ```
 
 escribe una corrección `propuesta` por documento y tipo de error, con la fuente y su sha256.
-Tipos: textos ausentes en la exportación, explicaciones de bloque copiadas de otro curso,
+Tipos: textos de la versión publicada en el BOC (el del documento está en `fuentes/boletines/`
+y el del corpus no), textos que solo difieren en espacios, textos ausentes en la exportación, explicaciones de bloque copiadas de otro curso,
 textos de saber de otra materia y bloques de saberes con título y descripción juntos (ver
 `CATEGORIAS` en `herramientas/contrastar.py`). Los saberes sin texto se emparejan por
 contenido, no por número; los tramos que no casan uno a uno aparecen en el informe como

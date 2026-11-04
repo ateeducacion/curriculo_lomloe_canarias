@@ -1,0 +1,15 @@
+id: '0113'
+titulo: 'Historia de Canarias (Bachillerato): 1 textos ausentes en la exportación'
+motivo: La exportación de ProIDEAC no trae estos textos. Se toman del documento oficial (los saberes se emparejan por contenido).
+  Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-historia-de-canarias
+  fichero: fuentes/documentos/bachillerato/Historia_de_Canarias_BACH.odt
+  sha256: 1ad211f157783894b356eca4f5030c3645ce48a4fc4fe66a494c0b88fe65d6ad
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: sb:BHIC01SBI.1
+  campo: definition
+  valor: Métodos de investigación para la construcción del conocimiento de la Historia.

@@ -1,0 +1,40 @@
+id: '0045'
+titulo: 'Biología y Geología (Educación Secundaria Obligatoria): 3 textos que solo difieren en espacios'
+motivo: El texto de la exportación solo difiere del documento oficial en espacios (dobles, de no separación o al principio
+  o final). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: eso-biologia-y-geologia
+  fichero: fuentes/documentos/eso/Biologia_geologia_ESO.odt
+  sha256: c33804f4d036b158a54e5c094f7f79fe188ea0ffa66b3cc4201ea8bc921ff8c3
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: bc:SBIG01BC3
+  campo: scopeNote
+  valor: A través de este bloque competencial se comprobará que el alumnado es capaz de diseñar y realizar pequeños trabajos
+    de investigación que supongan la experimentación o toma de datos de manera cooperativa relacionados con el medio natural
+    canario, los efectos de la contaminación sobre la salud y el medioambiente, el cambio climático, los seres vivos, la célula,
+    etc., consultando fuentes de información variadas (libros, periódicos, revistas, páginas web….) y aplicando las destrezas
+    propias del trabajo científico en la elaboración de hipótesis, la utilización del material básico de laboratorio y de
+    campo, el respeto a las normas de seguridad, la explicación del proceso seguido y la descripción de las observaciones.
+    También se comprobará que el alumnado es capaz de describir los resultados obtenidos utilizando, cuando sea necesario,
+    herramientas matemáticas y tecnológicas para obtener conclusiones razonadas y comunicarlas, utilizando el vocabulario
+    adecuado, mediante exposiciones verbales, escritas o visuales en diversos soportes. Finalmente, se quiere evaluar si el
+    alumnado es capaz de trabajar de forma colaborativa en las distintas fases del proyecto científico, utilizando espacios
+    virtuales cuando sea necesario, si acepta responsabilidades y persevera en la tarea y si valora el trabajo y la contribución
+    de las demás personas en los procesos de revisión y mejora, favoreciendo la inclusión y el respeto la diversidad y a la
+    igualdad de género. Todo ello con el fin de que el alumnado se inicie en el conocimiento y aplicación de las metodologías
+    científicas a través del desarrollo de pequeños proyectos de investigación, relacionados con su realidad más cercana o
+    con su entorno, trabajando destrezas que le serán de gran utilidad no solo dentro del ámbito científico, sino también
+    en su desarrollo personal, profesional y en su participación social.
+- nodo: sb:SBIG03SBII.3
+  campo: definition
+  valor: Valoración de la importancia de conocer los riesgos volcánicos y sísmicos en Canarias, así como las medidas preventivas
+    y su posible predicción. Identificación y función de los organismos gubernamentales para la gestión de fenómenos sísmicos
+    y volcánicos.
+- nodo: sb:SBIG03SBVI.4
+  campo: definition
+  valor: Concienciación sobre la importancia de adquirir prácticas sexuales saludables, responsables y consentidas. Prevención
+    de infecciones de transmisión sexual (ITS) y de embarazos no deseados. El uso adecuado de métodos anticonceptivos y de
+    métodos de prevención de ITS.

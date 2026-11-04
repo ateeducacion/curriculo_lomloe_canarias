@@ -1,0 +1,17 @@
+id: 0089
+titulo: 'Historia de España (Bachillerato): 1 textos que solo difieren en espacios'
+motivo: El texto de la exportación solo difiere del documento oficial en espacios (dobles, de no separación o al principio
+  o final). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-historia-de-espana
+  fichero: fuentes/documentos/bachillerato/Historia_de_Espana_BACH.odt
+  sha256: 1249909e16ff3084abf0d5d94c2f7eeb14798741a0ba559e8ccb49d6f67c2e15
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: sb:BHIA02SBI.2.7
+  campo: definition
+  valor: 'Análisis de las grandes reformas estructurales y el origen histórico de las mismas, dentro de la II República. Descripción
+    de las transformaciones democráticas de España: realizaciones sociales, políticas y culturales; reacciones antidemocráticas
+    contra las reformas.'

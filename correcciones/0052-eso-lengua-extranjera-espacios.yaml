@@ -1,0 +1,25 @@
+id: '0052'
+titulo: 'Lengua Extranjera (Educación Secundaria Obligatoria): 1 textos que solo difieren en espacios'
+motivo: El texto de la exportación solo difiere del documento oficial en espacios (dobles, de no separación o al principio
+  o final). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: eso-lengua-extranjera
+  fichero: fuentes/documentos/eso/Lengua_extranjera_ESO.odt
+  sha256: 02f02285ec33ec8380caaf22b32eb86bfed12063865f50b3748f8a55dea2d159
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: bc:SLNT01BC1
+  campo: scopeNote
+  valor: Mediante este bloque competencial se confirmará que el alumnado es capaz de identificar información pertinente y
+    específica, así como de interpretar el sentido global y las ideas principales de textos breves y sencillos, utilizando
+    recursos para el aprendizaje, como diccionarios u otros tipos de recursos. Además, también se pretende corroborar que
+    el alumnado interpreta el contenido de textos orales, escritos o multimodales, breves y sencillos sobre temas cotidianos,
+    poniendo en marcha un repertorio de estrategias elementales como apoyarse en imágenes y palabras clave o aplicar técnicas
+    de búsqueda de información específica para mejorar la comprensión. Asimismo, se trata de verificar que el alumnado aplica,
+    de manera guiada, los conocimientos y las estrategias elementales de búsqueda y selección de información para adquirir
+    conocimiento y para ampliar su repertorio lingüístico individual, con léxico de uso común y de interés para el alumnado.
+    Además, se trata de corroborar que el alumnado reconoce modelos contextuales frecuentes en la comprensión de textos orales,
+    escritos y multimodales, breves y sencillos, literarios y no literarios, relativos a la salud, la actividad física, el
+    medioambiente, la comunicación y la tecnología, entre otros, que le ayuden a mejorar progresivamente el nivel de comprensión.

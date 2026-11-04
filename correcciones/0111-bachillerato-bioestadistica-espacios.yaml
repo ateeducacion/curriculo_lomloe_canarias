@@ -1,0 +1,17 @@
+id: '0111'
+titulo: 'Bioestadística (Bachillerato): 1 textos que solo difieren en espacios'
+motivo: El texto de la exportación solo difiere del documento oficial en espacios (dobles, de no separación o al principio
+  o final). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-bioestadistica
+  fichero: fuentes/documentos/bachillerato/Bioestadistica_BACH.odt
+  sha256: c95c38cb2462874613bd342f9cb2b138cd2f51cc3e53ed1ca064c7e853bcfed4
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: crit:BBIE02CE6.2
+  campo: definition
+  valor: Reconocer el lenguaje matemático presente en diferentes medios de comunicación, comprendiendo, interpretando y detectando
+    errores en el razonamiento estadístico y probabilístico para comunicar de forma veraz la información y desarrollar una
+    actitud crítica.

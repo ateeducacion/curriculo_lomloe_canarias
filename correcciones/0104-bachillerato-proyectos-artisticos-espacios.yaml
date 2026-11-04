@@ -1,0 +1,25 @@
+id: '0104'
+titulo: 'Proyectos Artísticos (Bachillerato): 2 textos que solo difieren en espacios'
+motivo: El texto de la exportación solo difiere del documento oficial en espacios (dobles, de no separación o al principio
+  o final). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-proyectos-artisticos
+  fichero: fuentes/documentos/bachillerato/Proyectos_Artisticos_BACH.odt
+  sha256: 6def894eee2d0fb70db5342e7e1831f1d7a393ef3b119268dc0bb0007372b0ad
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: bc:B6RO01BC2
+  campo: scopeNote
+  valor: Con el desarrollo de este bloque competencial, se comprobará que el alumnado es capaz de establecer el plan de trabajo
+    de un proyecto artístico y organizar correctamente todas sus fases, donde además tendrá que evaluar la sostenibilidad,
+    y ajustar el plan a los plazos, a las características del espacio y, en su caso, al presupuesto previsto. Se verificará
+    por tanto que el alumnado consiga el resultado esperado a través de la evaluación de los recursos y factores propios de
+    un proyecto. Para ello se comprobará también que el alumnado es capaz de proponer soluciones creativas en la organización
+    de un proyecto artístico y buscar el máximo aprovechamiento de los recursos disponibles para ello.
+- nodo: sb:B6RO01SBI.3
+  campo: definition
+  valor: Experimentación con las distintas maneras de superar los bloqueos creativos. Desarrollo de estrategias de superación
+    del bloqueo creativo e investigación en las distintas corrientes artísticas que han utilizado técnicas de desbloqueo,
+    especialmente en las vanguardias del siglo XX en el mundo y en Canarias en particular.

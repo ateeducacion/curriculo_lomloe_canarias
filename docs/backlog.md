@@ -124,9 +124,12 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
 - [ ] **3.6 Comparar saberes por contenido en el informe de contraste**, como ya hace
   `--proponer`: la comparación por número da falsos positivos cuando la exportación y el
   documento anidan distinto (Matemáticas de Primaria, Filosofía).
-- [ ] **3.7 Diferencias de versión**: en Educación en Valores Cívicos y Éticos y en Educación
+- [x] **3.7 Diferencias de versión**: en Educación en Valores Cívicos y Éticos y en Educación
   Física de Primaria, el ODT y la exportación difieren en muchos textos, explicaciones y
   descriptores. Comprobar cuál corresponde al Decreto 211/2022 publicado en el BOC.
+  Hecho (04-11-2026): los ODT son la versión publicada. En Primaria, donde difieren, el texto
+  del ODT está en el BOC y el de la exportación no en 410 casos, y al revés en 6. Los textos
+  de los cinco decretos están en `fuentes/boletines/` y `contrastar --proponer` los usa (5.1).
 - [ ] **3.8 Descriptores de bloque**: en Plástica, Historia de Canarias, Lengua Castellana y
   Educación Física de Primaria los descriptores de algunos bloques no coinciden con la
   cabecera de la tabla del documento. Comprobar si el importador los toma de los criterios.
@@ -173,6 +176,13 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
 
 - [ ] **5.1 Contrastar los 105 documentos.** Ninguna diferencia sin explicar: o hay corrección,
   o una nota que justifica que el corpus es correcto. **Depende de** fases 2–4.
+  En curso: los 105 documentos registrados y leídos sin avisos. `contrastar --proponer` compara
+  además con el texto del BOC y propone el texto del documento cuando es el publicado
+  (categoría «versión publicada») y limpia diferencias de solo espacios. Correcciones 0044–0127
+  (84 ficheros, 1.141 cambios) propuestas. Simulando su aprobación, las diferencias bajan de
+  2.048 a 907. Lo que queda: saberes numerados de forma distinta (3.6), descriptores de
+  bloque (3.8), diferencias de puntuación que el BOC no permite decidir y unos 60 textos que no
+  están en el BOC en ninguna de las dos versiones (revisión manual).
 - [ ] **5.2 Pruebas automáticas** (pytest) del importador, el lector de ODT, el contraste y las
   correcciones, ejecutadas en la CI.
 - [ ] **5.3 Exportación RDF**: salida SKOS en Turtle en la publicación, con el modelo acordado

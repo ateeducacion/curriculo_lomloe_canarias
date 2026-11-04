@@ -1,0 +1,16 @@
+id: 0082
+titulo: 'Diseño (Bachillerato): 1 textos que solo difieren en espacios'
+motivo: El texto de la exportación solo difiere del documento oficial en espacios (dobles, de no separación o al principio
+  o final). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-diseno
+  fichero: fuentes/documentos/bachillerato/Diseno_BACH.odt
+  sha256: 89e85984ffaa4f66ba3924718acdfbdd6d5eff5bed3466fe994570da6843b6b7
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: sb:BDIS02SBIV.3
+  campo: definition
+  valor: Valoración de los conceptos básicos de antropometría, ergonomía y biónica, y su aplicación al diseño de producto
+    y de espacios.

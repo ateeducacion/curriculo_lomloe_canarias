@@ -1,0 +1,17 @@
+id: 0084
+titulo: 'Física y Química (Bachillerato): 1 textos de la versión publicada en el BOC'
+motivo: El texto de la exportación no coincide con el publicado en el BOC y el del documento oficial sí (comprobado contra
+  fuentes/boletines). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-fisica-y-quimica
+  fichero: fuentes/documentos/bachillerato/Fisica_y_Quimica_BACH.odt
+  sha256: 5f4e59cde291d731447b68ac71eadd383c1474021fef93473aaa1ee412a77049
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: ce:BFYQC2
+  campo: definition
+  valor: Razonar con solvencia, usando el pensamiento científico y las destrezas relacionadas con el trabajo de la ciencia,
+    para aplicarlos a la observación de la naturaleza y el entorno, a la formulación de preguntas e hipótesis y a la validación
+    de las mismas a través de la experimentación, la indagación y la búsqueda de evidencias.

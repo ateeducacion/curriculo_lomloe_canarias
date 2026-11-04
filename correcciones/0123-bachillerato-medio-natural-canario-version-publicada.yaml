@@ -1,0 +1,36 @@
+id: '0123'
+titulo: 'Medio Natural Canario (Bachillerato): 3 textos de la versión publicada en el BOC'
+motivo: El texto de la exportación no coincide con el publicado en el BOC y el del documento oficial sí (comprobado contra
+  fuentes/boletines). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-medio-natural-canario
+  fichero: fuentes/documentos/bachillerato/Medio_Natural_Canario_BACH.odt
+  sha256: d6900742638ca1356be7eef989d8724fd41807ab642f8524599594aaa4cc40da
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: bc:BMNC01BC3
+  campo: scopeNote
+  valor: A través de este bloque competencial, se pretende que el alumnado sea capaz de plantear hipótesis o diseñar un proyecto
+    de investigación en sí, de forma cooperativa, acerca de procesos naturales, relacionados con cualquiera de los bloques
+    de saberes básicos de la materia, y de contrastar sus planteamientos mediante la observación del entorno a través, fundamentalmente,
+    de salidas de campo (reconocimiento de muestras sobre el terreno, toma de datos, identificación de impactos…), pero también
+    de la experimentación en el laboratorio (manejo de la lupa y los microscopios petrográfico y biológico, utilización de
+    claves de identificación, interpretación de mapas topográficos y geológicos…) y de la localización y selección de información
+    en fuentes diversas (BIOCAN, GRAFCAN, páginas web, artículos científicos y divulgativos…), aplicando las metodologías
+    propias de la ciencia, así como el razonamiento matemático, y utilizando con corrección y precisión procedimientos, materiales
+    e instrumentos adecuados. Asimismo, se pretende constatar que el alumnado comunica empleando terminología científica y
+    comparte los resultados y el procedimiento seguido, a través de herramientas, aplicaciones y servicios en línea, utilizando
+    diversos formatos (informes, murales, artículos, pódcast…), de manera clara, rigurosa, es decir, con un vocabulario científico
+    adecuado y de acuerdo a los principios éticos básicos, pero adoptando un punto de vista creativo e innovador para contribuir
+    a la divulgación científica, hacer accesible la información a toda la comunidad educativa y adquirir, de esta forma, un
+    compromiso con la mejora del entorno y de la sociedad.
+- nodo: ce:BMNCC5
+  campo: definition
+  valor: Identificar las causas y las consecuencias de los problemas medioambientales que afectan al medio natural canario,
+    para, basándose en fundamentos científicos, diseñar, promover y poner en acción iniciativas relacionadas con su conservación
+    y sostenibilidad, y proponer soluciones innovadoras que contribuyan a su mejora.
+- nodo: sb:BMNC01SBII
+  campo: definition
+  valor: La singularidad del archipiélago canario

@@ -1,0 +1,48 @@
+id: '0062'
+titulo: 'Educación Artística (Educación Primaria): 8 textos que solo difieren en espacios'
+motivo: El texto de la exportación solo difiere del documento oficial en espacios (dobles, de no separación o al principio
+  o final). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: primaria-educacion-artistica
+  fichero: fuentes/documentos/primaria/anexo_2_curriculo-educacion_artistica.odt
+  sha256: 3f4f37e848a598d5ae0fd0c89c44d39003073af771f4e6630814f2bcd1e590bf
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: sb:PEAR01SBIII.1
+  campo: definition
+  valor: 'Acercamiento a las principales manifestaciones artísticas del patrimonio cultural de Canarias: pintura, escultura,
+    arquitectura, cerámica y artesanía.'
+- nodo: sb:PEAR01SBIV.4
+  campo: definition
+  valor: 'Práctica instrumental, vocal y corporal de manifestaciones propias del patrimonio cultural y artístico de Canarias
+    y de diferentes estilos, épocas y culturas: aproximación a la experimentación, exploración creativa e interpretación a
+    partir de posibilidades sonoras y expresivas.'
+- nodo: sb:PEAR02SBIII.1
+  campo: definition
+  valor: 'Acercamiento a las principales manifestaciones artísticas del patrimonio cultural de Canarias: pintura, escultura,
+    arquitectura, cerámica y artesanía.'
+- nodo: sb:PEAR02SBIV.4
+  campo: definition
+  valor: 'Práctica instrumental, vocal y corporal de manifestaciones propias del patrimonio cultural y artístico de Canarias
+    y de diferentes estilos, épocas y culturas: aproximación a la experimentación, exploración creativa e interpretación a
+    partir de posibilidades sonoras y expresivas.'
+- nodo: sb:PEAR05SBI.1
+  campo: definition
+  valor: Análisis de propuestas del patrimonio cultural y artístico de Canarias y de diferentes corrientes estéticas, procedencias
+    y épocas producidas por creadoras y creadores locales, regionales, nacionales e internacionales.
+- nodo: sb:PEAR05SBIV.4
+  campo: definition
+  valor: 'Práctica instrumental, vocal y corporal de manifestaciones propias del patrimonio cultural y artístico de Canarias
+    y de diferentes estilos, épocas y culturas: experimentación, exploración creativa, interpretación, improvisación y composición
+    a partir de sus posibilidades sonoras y expresivas.'
+- nodo: sb:PEAR06SBI.1
+  campo: definition
+  valor: Análisis de propuestas del patrimonio cultural y artístico de Canarias y de diferentes corrientes estéticas, procedencias
+    y épocas producidas por creadoras y creadores locales, regionales, nacionales e internacionales.
+- nodo: sb:PEAR06SBIV.4
+  campo: definition
+  valor: 'Práctica instrumental, vocal y corporal de manifestaciones propias del patrimonio cultural y artístico de Canarias
+    y de diferentes estilos, épocas y culturas: experimentación, exploración creativa, interpretación, improvisación y composición
+    a partir de sus posibilidades sonoras y expresivas.'

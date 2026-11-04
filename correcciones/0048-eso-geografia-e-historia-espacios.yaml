@@ -1,0 +1,15 @@
+id: 0048
+titulo: 'Geografía e Historia (Educación Secundaria Obligatoria): 1 textos que solo difieren en espacios'
+motivo: El texto de la exportación solo difiere del documento oficial en espacios (dobles, de no separación o al principio
+  o final). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: eso-geografia-e-historia
+  fichero: fuentes/documentos/eso/Geografia_historia_ESO.odt
+  sha256: 9b5c5ba96666c999487436cf4cfb70409f271fb8e726c8827a8388120ac41007
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: propuesta
+aprobada_por: null
+cambios:
+- nodo: sb:SGEH01SBII.7.1
+  campo: definition
+  valor: Identificación de los roles de las mujeres, las personas esclavas y extranjeras.
