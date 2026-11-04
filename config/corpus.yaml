@@ -5,7 +5,8 @@ version: 0.1.0
 base:
   origen: Exportación de ProIDEAC
   fichero: fuentes/proideac/exportacion-1/curriculo_unificado_ordenado.json
-  fecha_exportacion: null   # PENDIENTE: fecha en que se generó la exportación
+  fecha_exportacion: desconocida
+  incorporada: '2026-11-03'   # fecha en que se añadió al repositorio
   sha256_original: fa6c88121960bd3c153164912e276aff830c392cd957b4dd9a4d59b1a23737b8
   nota: >-
     Copia de la exportación con una única modificación: se sustituyó una clave de

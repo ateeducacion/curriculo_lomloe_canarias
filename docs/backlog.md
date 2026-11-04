@@ -140,7 +140,7 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
   Bachillerato (38, columna derecha, con CPSAA1, CPSAA3, CCEC3 y CCEC4 desdoblados). Infantil
   tiene 8 competencias sin descriptores; su anexo abrevia «CEC» la que el corpus llama CCEC
   (anotado en la columna `nota`).
-- [ ] **4.2 Cobertura** (decisiones de la persona responsable):
+- [ ] **4.2 Cobertura** (decisiones de la persona responsable, 04-11-2026):
   - [ ] Optativas que faltan en la exportación (*Juegos y Deportes Tradicionales de Canarias*,
     *Música, Expresión y Espectáculos*): crearlas desde su ODT.
   - [x] ¿Los ámbitos de diversificación de la exportación (`SMBS`, `SAMB`, `SAM3`) corresponden al
@@ -148,18 +148,22 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
     los demás son retoques menores. Difieren de verdad la competencia 4 del Ámbito Lingüístico y
     Social y dos criterios del Ámbito Práctico, y hay saberes del ODT que la exportación no trae
     (revisar a mano, junto con 3.6).
-  - [ ] ¿Entran el silbo gomero y Religión?
-- [ ] **4.3 Modelo** (decisiones):
-  - [ ] ¿Se unifican las competencias de Matemáticas A y B con las de Matemáticas?
-  - [ ] Códigos de materia inconsistentes: `TSA`/`TA7`, `PLW`/`LNT`, `VAL`/`EDK`.
-- [ ] **4.4 Licencia del corpus y fecha de la exportación** de ProIDEAC (`config/corpus.yaml`).
-  Licencia hecha: datos CC BY 4.0 con la aclaración del art. 13 TRLPI (`LICENCIA-DATOS.md`); código GPL-3.0. Falta la fecha de la exportación.
+  - [x] ¿Entran el silbo gomero y Religión? No (registrado en `excluidos` del manifiesto).
+- [x] **4.3 Modelo** (decisiones del 04-11-2026):
+  - [x] ¿Se unifican las competencias de Matemáticas A y B con las de Matemáticas? No: se
+    mantienen sus propios nodos y no cambia ningún identificador.
+  - [x] Códigos de materia inconsistentes: `TSA`/`TA7`, `PLW`/`LNT`, `VAL`/`EDK`. Se conservan
+    los identificadores de ProIDEAC; el catálogo mantiene las dos columnas.
+- [x] **4.4 Licencia del corpus y fecha de la exportación** de ProIDEAC (`config/corpus.yaml`).
+  Datos CC BY 4.0 con la aclaración del art. 13 TRLPI (`LICENCIA-DATOS.md`); código GPL-3.0.
+  Fecha de la exportación: desconocida (se anota la de incorporación, 03-11-2026).
 - [x] **4.5 Formatos de Infantil y de los ámbitos**: descargar un ODT de cada y adaptar el lector.
   Hecho con los 6 documentos (3 áreas de Infantil y 3 ámbitos): ciclos de Infantil, criterios de
   Infantil en una sola fila y sin descriptores, bloques de saberes «Bloque I. …» y `secciones`
   manuales para los ámbitos. Correcciones propuestas 0036–0041 (explicaciones copiadas de otro
   curso, 55 en total, y título y descripción de bloques en el Ámbito Lingüístico y Social).
-- [ ] **4.6 CODEOWNERS** con los equipos reales y protección de la rama `main`.
+- [ ] **4.6 CODEOWNERS** con los equipos reales y protección de la rama `main`. Aplazado
+  (04-11-2026): no bloquea la 1.0.0.
 
 ## Fase 5 — Preparar la 1.0.0
 
