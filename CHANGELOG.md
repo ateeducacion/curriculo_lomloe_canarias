@@ -26,6 +26,7 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
 - Documentos oficiales de Infantil y de los ámbitos de diversificación; correcciones 0036–0041 (explicaciones de bloque copiadas de otro curso en Infantil y ámbitos, y bloques de saberes del Ámbito Lingüístico y Social).
 - Optativas de 1.º de Bachillerato creadas desde su documento oficial: Juegos y Deportes Tradicionales de Canarias (`BJUI`) y Música, Expresión y Espectáculos (`BMUW`) (correcciones 0042 y 0043, herramienta `materia_desde_odt`).
 - Licencia de los datos (CC BY 4.0) y verificación de `config/descriptores.csv` contra los anexos 1.
+- Correcciones 0044–0136: 771 textos de la versión publicada en el BOC, 175 de puntuación publicada, 104 de espacios, 36 explicaciones copiadas de otro curso, 22 títulos y descripciones de bloques de saberes y 4 textos ausentes. Texto de los cinco decretos en el BOC (`fuentes/boletines/`).
 
 ### Cambiado
 - Todos los textos se normalizan a Unicode NFC al importar (587 textos de la exportación traían las tildes descompuestas); no cambia ningún texto a la vista.

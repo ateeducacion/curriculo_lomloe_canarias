@@ -16,15 +16,27 @@ Formato de un fichero de corrección:
 Solo se aplican las correcciones con estado «aprobada». Si un cambio ya no altera
 nada (la fuente ya trae ese valor), se avisa de que la corrección puede retirarse.
 """
+import re
+
 from .comun import CORRECCIONES, leer_yaml
 from .importar_proideac import _nfc
+
+
+def _limpiar(x):
+    """Textos en NFC, sin espacios de no separación, repetidos ni en los extremos, como los importados."""
+    if isinstance(x, str):
+        return re.sub(r'[ \xa0]{2,}|\xa0', ' ', _nfc(x)).strip()
+    if isinstance(x, dict):
+        return {k: _limpiar(v) for k, v in x.items()}
+    if isinstance(x, list):
+        return [_limpiar(v) for v in x]
+    return x
 
 CAMPOS_EDITABLES = {'definition', 'scopeNote', 'prefLabel', 'descriptores', 'agrupa', 'broader', 'bloque'}
 
 
 def cargar():
-    # Los valores se normalizan a NFC, como los textos importados.
-    return [(ruta.name, _nfc(leer_yaml(ruta))) for ruta in sorted(CORRECCIONES.glob('*.yaml'))]
+    return [(ruta.name, _limpiar(leer_yaml(ruta))) for ruta in sorted(CORRECCIONES.glob('*.yaml'))]
 
 
 def aplicar(nodos):

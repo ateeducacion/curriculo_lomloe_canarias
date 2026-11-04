@@ -2139,24 +2139,6 @@
       "detalle": "La exportación no incluye el texto de este encabezado"
     },
     {
-      "regla": "encabezado_sin_texto",
-      "nivel": "aviso",
-      "nodo": "sb:BHIC01SBI.1",
-      "detalle": "Encabezado de saberes sin texto"
-    },
-    {
-      "regla": "encabezado_sin_texto",
-      "nivel": "aviso",
-      "nodo": "sb:PMAT03SBI.3.1",
-      "detalle": "Encabezado de saberes sin texto"
-    },
-    {
-      "regla": "encabezado_sin_texto",
-      "nivel": "aviso",
-      "nodo": "sb:PMAT04SBI.3.1",
-      "detalle": "Encabezado de saberes sin texto"
-    },
-    {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:IC4M01BC1",
@@ -2364,79 +2346,235 @@
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PC9N01BC1",
-      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC1, bc:PC9N02BC1, bc:PC9N03BC1, bc:PC9N04BC1, bc:PC9N05BC1, bc:PC9N06BC1"
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC1, bc:PC9N02BC1"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PC9N01BC2",
-      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC2, bc:PC9N02BC2, bc:PC9N03BC2, bc:PC9N04BC2, bc:PC9N05BC2, bc:PC9N06BC2"
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC2, bc:PC9N02BC2"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PC9N01BC3",
-      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC3, bc:PC9N02BC3, bc:PC9N03BC3, bc:PC9N04BC3, bc:PC9N05BC3, bc:PC9N06BC3"
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC3, bc:PC9N02BC3"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PC9N01BC4",
-      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC4, bc:PC9N02BC4, bc:PC9N03BC4, bc:PC9N04BC4, bc:PC9N05BC4, bc:PC9N06BC4"
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC4, bc:PC9N02BC4"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PC9N01BC5",
-      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC5, bc:PC9N02BC5, bc:PC9N03BC5, bc:PC9N04BC5, bc:PC9N05BC5, bc:PC9N06BC5"
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC5, bc:PC9N02BC5"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PC9N01BC6",
-      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC6, bc:PC9N02BC6, bc:PC9N03BC6, bc:PC9N04BC6, bc:PC9N05BC6, bc:PC9N06BC6"
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC6, bc:PC9N02BC6"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PC9N01BC7",
-      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC7, bc:PC9N02BC7, bc:PC9N03BC7, bc:PC9N04BC7, bc:PC9N05BC7, bc:PC9N06BC7"
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC7, bc:PC9N02BC7"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PC9N01BC8",
-      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC8, bc:PC9N02BC8, bc:PC9N03BC8, bc:PC9N04BC8, bc:PC9N05BC8, bc:PC9N06BC8"
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC8, bc:PC9N02BC8"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PC9N01BC9",
-      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC9, bc:PC9N02BC9, bc:PC9N03BC9, bc:PC9N04BC9, bc:PC9N05BC9, bc:PC9N06BC9"
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N01BC9, bc:PC9N02BC9"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N03BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N03BC1, bc:PC9N04BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N03BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N03BC2, bc:PC9N04BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N03BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N03BC3, bc:PC9N04BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N03BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N03BC4, bc:PC9N04BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N03BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N03BC5, bc:PC9N04BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N03BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N03BC6, bc:PC9N04BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N03BC7",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N03BC7, bc:PC9N04BC7"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N03BC8",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N03BC8, bc:PC9N04BC8"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N03BC9",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N03BC9, bc:PC9N04BC9"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N05BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N05BC1, bc:PC9N06BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N05BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N05BC2, bc:PC9N06BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N05BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N05BC3, bc:PC9N06BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N05BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N05BC4, bc:PC9N06BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N05BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N05BC5, bc:PC9N06BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N05BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N05BC6, bc:PC9N06BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N05BC7",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N05BC7, bc:PC9N06BC7"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N05BC8",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N05BC8, bc:PC9N06BC8"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PC9N05BC9",
+      "detalle": "Misma explicación del bloque competencial en bc:PC9N05BC9, bc:PC9N06BC9"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PEAR01BC1",
-      "detalle": "Misma explicación del bloque competencial en bc:PEAR01BC1, bc:PEAR02BC1, bc:PEAR03BC1, bc:PEAR04BC1, bc:PEAR05BC1, bc:PEAR06BC1"
+      "detalle": "Misma explicación del bloque competencial en bc:PEAR01BC1, bc:PEAR02BC1"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PEAR01BC2",
-      "detalle": "Misma explicación del bloque competencial en bc:PEAR01BC2, bc:PEAR02BC2, bc:PEAR03BC2, bc:PEAR04BC2, bc:PEAR05BC2, bc:PEAR06BC2"
+      "detalle": "Misma explicación del bloque competencial en bc:PEAR01BC2, bc:PEAR02BC2"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PEAR01BC3",
-      "detalle": "Misma explicación del bloque competencial en bc:PEAR01BC3, bc:PEAR02BC3, bc:PEAR03BC3, bc:PEAR04BC3, bc:PEAR05BC3, bc:PEAR06BC3"
+      "detalle": "Misma explicación del bloque competencial en bc:PEAR01BC3, bc:PEAR02BC3"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PEAR01BC4",
-      "detalle": "Misma explicación del bloque competencial en bc:PEAR01BC4, bc:PEAR02BC4, bc:PEAR03BC4, bc:PEAR04BC4, bc:PEAR05BC4, bc:PEAR06BC4"
+      "detalle": "Misma explicación del bloque competencial en bc:PEAR01BC4, bc:PEAR02BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEAR03BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PEAR03BC1, bc:PEAR04BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEAR03BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:PEAR03BC2, bc:PEAR04BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEAR03BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PEAR03BC3, bc:PEAR04BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEAR03BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:PEAR03BC4, bc:PEAR04BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEAR05BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PEAR05BC1, bc:PEAR06BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEAR05BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:PEAR05BC2, bc:PEAR06BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEAR05BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PEAR05BC3, bc:PEAR06BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEAR05BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:PEAR05BC4, bc:PEAR06BC4"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
@@ -2466,7 +2604,7 @@
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PEFI01BC1",
-      "detalle": "Misma explicación del bloque competencial en bc:PEFI01BC1, bc:PEFI02BC1, bc:PEFI03BC1, bc:PEFI04BC1, bc:PEFI05BC1, bc:PEFI06BC1"
+      "detalle": "Misma explicación del bloque competencial en bc:PEFI01BC1, bc:PEFI02BC1"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
@@ -2478,7 +2616,7 @@
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PEFI01BC3",
-      "detalle": "Misma explicación del bloque competencial en bc:PEFI01BC3, bc:PEFI02BC3, bc:PEFI03BC3, bc:PEFI04BC3, bc:PEFI05BC3, bc:PEFI06BC3"
+      "detalle": "Misma explicación del bloque competencial en bc:PEFI01BC3, bc:PEFI02BC3"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
@@ -2495,8 +2633,20 @@
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
+      "nodo": "bc:PEFI03BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PEFI03BC1, bc:PEFI04BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
       "nodo": "bc:PEFI03BC2",
       "detalle": "Misma explicación del bloque competencial en bc:PEFI03BC2, bc:PEFI04BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEFI03BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PEFI03BC3, bc:PEFI04BC3"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
@@ -2513,8 +2663,20 @@
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
+      "nodo": "bc:PEFI05BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PEFI05BC1, bc:PEFI06BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
       "nodo": "bc:PEFI05BC2",
       "detalle": "Misma explicación del bloque competencial en bc:PEFI05BC2, bc:PEFI06BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEFI05BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PEFI05BC3, bc:PEFI06BC3"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
@@ -2532,25 +2694,73 @@
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PEUM01BC1",
-      "detalle": "Misma explicación del bloque competencial en bc:PEUM01BC1, bc:PEUM02BC1, bc:PEUM03BC1, bc:PEUM04BC1, bc:PEUM05BC1, bc:PEUM06BC1"
+      "detalle": "Misma explicación del bloque competencial en bc:PEUM01BC1, bc:PEUM02BC1"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PEUM01BC2",
-      "detalle": "Misma explicación del bloque competencial en bc:PEUM01BC2, bc:PEUM02BC2, bc:PEUM03BC2, bc:PEUM04BC2, bc:PEUM05BC2, bc:PEUM06BC2"
+      "detalle": "Misma explicación del bloque competencial en bc:PEUM01BC2, bc:PEUM02BC2"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PEUM01BC3",
-      "detalle": "Misma explicación del bloque competencial en bc:PEUM01BC3, bc:PEUM02BC3, bc:PEUM03BC3, bc:PEUM04BC3, bc:PEUM05BC3, bc:PEUM06BC3"
+      "detalle": "Misma explicación del bloque competencial en bc:PEUM01BC3, bc:PEUM02BC3"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PEUM01BC4",
-      "detalle": "Misma explicación del bloque competencial en bc:PEUM01BC4, bc:PEUM02BC4, bc:PEUM03BC4, bc:PEUM04BC4, bc:PEUM05BC4, bc:PEUM06BC4"
+      "detalle": "Misma explicación del bloque competencial en bc:PEUM01BC4, bc:PEUM02BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEUM03BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PEUM03BC1, bc:PEUM04BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEUM03BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:PEUM03BC2, bc:PEUM04BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEUM03BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PEUM03BC3, bc:PEUM04BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEUM03BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:PEUM03BC4, bc:PEUM04BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEUM05BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PEUM05BC1, bc:PEUM06BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEUM05BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:PEUM05BC2, bc:PEUM06BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEUM05BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PEUM05BC3, bc:PEUM06BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PEUM05BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:PEUM05BC4, bc:PEUM06BC4"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
@@ -2562,103 +2772,283 @@
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PLCL01BC2",
-      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC2, bc:PLCL02BC2, bc:PLCL03BC2, bc:PLCL04BC2, bc:PLCL05BC2, bc:PLCL06BC2"
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC2, bc:PLCL02BC2"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PLCL01BC3",
-      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC3, bc:PLCL02BC3, bc:PLCL03BC3, bc:PLCL04BC3, bc:PLCL05BC3, bc:PLCL06BC3"
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC3, bc:PLCL02BC3"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PLCL01BC4",
-      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC4, bc:PLCL02BC4, bc:PLCL03BC4, bc:PLCL04BC4, bc:PLCL05BC4, bc:PLCL06BC4"
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC4, bc:PLCL02BC4"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PLCL01BC5",
-      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC5, bc:PLCL02BC5, bc:PLCL03BC5, bc:PLCL04BC5, bc:PLCL05BC5, bc:PLCL06BC5"
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC5, bc:PLCL02BC5"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PLCL01BC6",
-      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC6, bc:PLCL02BC6, bc:PLCL03BC6, bc:PLCL04BC6, bc:PLCL05BC6, bc:PLCL06BC6"
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC6, bc:PLCL02BC6"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PLCL01BC7",
-      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC7, bc:PLCL02BC7, bc:PLCL03BC7, bc:PLCL04BC7, bc:PLCL05BC7, bc:PLCL06BC7"
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC7, bc:PLCL02BC7"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PLCL01BC8",
-      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC8, bc:PLCL02BC8, bc:PLCL03BC8, bc:PLCL04BC8, bc:PLCL05BC8, bc:PLCL06BC8"
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC8, bc:PLCL02BC8"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PLCL01BC9",
-      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC9, bc:PLCL02BC9, bc:PLCL03BC9, bc:PLCL04BC9, bc:PLCL05BC9, bc:PLCL06BC9"
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC9, bc:PLCL02BC9"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PLCL01BC10",
-      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC10, bc:PLCL02BC10, bc:PLCL03BC10, bc:PLCL04BC10, bc:PLCL05BC10, bc:PLCL06BC10"
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL01BC10, bc:PLCL02BC10"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL03BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL03BC2, bc:PLCL04BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL03BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL03BC3, bc:PLCL04BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL03BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL03BC4, bc:PLCL04BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL03BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL03BC5, bc:PLCL04BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL03BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL03BC6, bc:PLCL04BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL03BC7",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL03BC7, bc:PLCL04BC7"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL03BC8",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL03BC8, bc:PLCL04BC8"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL03BC9",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL03BC9, bc:PLCL04BC9"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL03BC10",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL03BC10, bc:PLCL04BC10"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL05BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL05BC2, bc:PLCL06BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL05BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL05BC3, bc:PLCL06BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL05BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL05BC4, bc:PLCL06BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL05BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL05BC5, bc:PLCL06BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL05BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL05BC6, bc:PLCL06BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL05BC7",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL05BC7, bc:PLCL06BC7"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL05BC8",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL05BC8, bc:PLCL06BC8"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL05BC9",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL05BC9, bc:PLCL06BC9"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLCL05BC10",
+      "detalle": "Misma explicación del bloque competencial en bc:PLCL05BC10, bc:PLCL06BC10"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PLNT01BC1",
-      "detalle": "Misma explicación del bloque competencial en bc:PLNT01BC1, bc:PLNT02BC1, bc:PLNT03BC1, bc:PLNT04BC1, bc:PLNT05BC1, bc:PLNT06BC1"
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT01BC1, bc:PLNT02BC1"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PLNT01BC2",
-      "detalle": "Misma explicación del bloque competencial en bc:PLNT01BC2, bc:PLNT02BC2, bc:PLNT03BC2, bc:PLNT04BC2, bc:PLNT05BC2, bc:PLNT06BC2"
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT01BC2, bc:PLNT02BC2"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PLNT01BC3",
-      "detalle": "Misma explicación del bloque competencial en bc:PLNT01BC3, bc:PLNT02BC3, bc:PLNT03BC3, bc:PLNT04BC3, bc:PLNT05BC3, bc:PLNT06BC3"
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT01BC3, bc:PLNT02BC3"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PLNT01BC4",
-      "detalle": "Misma explicación del bloque competencial en bc:PLNT01BC4, bc:PLNT02BC4, bc:PLNT03BC4, bc:PLNT04BC4, bc:PLNT05BC4, bc:PLNT06BC4"
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT01BC4, bc:PLNT02BC4"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PLNT01BC5",
-      "detalle": "Misma explicación del bloque competencial en bc:PLNT01BC5, bc:PLNT02BC5, bc:PLNT03BC5, bc:PLNT04BC5, bc:PLNT05BC5, bc:PLNT06BC5"
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT01BC5, bc:PLNT02BC5"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PLNT01BC6",
-      "detalle": "Misma explicación del bloque competencial en bc:PLNT01BC6, bc:PLNT02BC6, bc:PLNT03BC6, bc:PLNT04BC6, bc:PLNT05BC6, bc:PLNT06BC6"
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT01BC6, bc:PLNT02BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLNT03BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT03BC1, bc:PLNT04BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLNT03BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT03BC2, bc:PLNT04BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLNT03BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT03BC3, bc:PLNT04BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLNT03BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT03BC4, bc:PLNT04BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLNT03BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT03BC5, bc:PLNT04BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLNT03BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT03BC6, bc:PLNT04BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLNT05BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT05BC1, bc:PLNT06BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLNT05BC2",
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT05BC2, bc:PLNT06BC2"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLNT05BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT05BC3, bc:PLNT06BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLNT05BC4",
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT05BC4, bc:PLNT06BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLNT05BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT05BC5, bc:PLNT06BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PLNT05BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:PLNT05BC6, bc:PLNT06BC6"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PMAT01BC1",
-      "detalle": "Misma explicación del bloque competencial en bc:PMAT01BC1, bc:PMAT02BC1, bc:PMAT03BC1, bc:PMAT04BC1, bc:PMAT05BC1, bc:PMAT06BC1"
+      "detalle": "Misma explicación del bloque competencial en bc:PMAT01BC1, bc:PMAT02BC1"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PMAT01BC3",
-      "detalle": "Misma explicación del bloque competencial en bc:PMAT01BC3, bc:PMAT02BC3, bc:PMAT03BC3, bc:PMAT04BC3, bc:PMAT05BC3, bc:PMAT06BC3"
+      "detalle": "Misma explicación del bloque competencial en bc:PMAT01BC3, bc:PMAT02BC3"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
@@ -2670,19 +3060,31 @@
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PMAT01BC5",
-      "detalle": "Misma explicación del bloque competencial en bc:PMAT01BC5, bc:PMAT02BC5, bc:PMAT03BC5, bc:PMAT04BC5, bc:PMAT05BC5, bc:PMAT06BC5"
+      "detalle": "Misma explicación del bloque competencial en bc:PMAT01BC5, bc:PMAT02BC5"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PMAT01BC6",
-      "detalle": "Misma explicación del bloque competencial en bc:PMAT01BC6, bc:PMAT02BC6, bc:PMAT03BC6, bc:PMAT04BC6, bc:PMAT05BC6, bc:PMAT06BC6"
+      "detalle": "Misma explicación del bloque competencial en bc:PMAT01BC6, bc:PMAT02BC6"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:PMAT01BC7",
-      "detalle": "Misma explicación del bloque competencial en bc:PMAT01BC7, bc:PMAT02BC7, bc:PMAT03BC7, bc:PMAT04BC7, bc:PMAT05BC7, bc:PMAT06BC7"
+      "detalle": "Misma explicación del bloque competencial en bc:PMAT01BC7, bc:PMAT02BC7"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT03BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PMAT03BC1, bc:PMAT04BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT03BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PMAT03BC3, bc:PMAT04BC3"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
@@ -2693,8 +3095,56 @@
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
+      "nodo": "bc:PMAT03BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:PMAT03BC5, bc:PMAT04BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT03BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:PMAT03BC6, bc:PMAT04BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT03BC7",
+      "detalle": "Misma explicación del bloque competencial en bc:PMAT03BC7, bc:PMAT04BC7"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT05BC1",
+      "detalle": "Misma explicación del bloque competencial en bc:PMAT05BC1, bc:PMAT06BC1"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT05BC3",
+      "detalle": "Misma explicación del bloque competencial en bc:PMAT05BC3, bc:PMAT06BC3"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
       "nodo": "bc:PMAT05BC4",
       "detalle": "Misma explicación del bloque competencial en bc:PMAT05BC4, bc:PMAT06BC4"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT05BC5",
+      "detalle": "Misma explicación del bloque competencial en bc:PMAT05BC5, bc:PMAT06BC5"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT05BC6",
+      "detalle": "Misma explicación del bloque competencial en bc:PMAT05BC6, bc:PMAT06BC6"
+    },
+    {
+      "regla": "explicacion_repetida_entre_cursos",
+      "nivel": "aviso",
+      "nodo": "bc:PMAT05BC7",
+      "detalle": "Misma explicación del bloque competencial en bc:PMAT05BC7, bc:PMAT06BC7"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
@@ -2771,68 +3221,14 @@
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
-      "nodo": "bc:SAMB03BC1",
-      "detalle": "Misma explicación del bloque competencial en bc:SAMB03BC1, bc:SAMB04BC1"
-    },
-    {
-      "regla": "explicacion_repetida_entre_cursos",
-      "nivel": "aviso",
       "nodo": "bc:SAMB03BC2",
       "detalle": "Misma explicación del bloque competencial en bc:SAMB03BC2, bc:SAMB04BC2"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
-      "nodo": "bc:SAMB03BC3",
-      "detalle": "Misma explicación del bloque competencial en bc:SAMB03BC3, bc:SAMB04BC3"
-    },
-    {
-      "regla": "explicacion_repetida_entre_cursos",
-      "nivel": "aviso",
-      "nodo": "bc:SAMB03BC4",
-      "detalle": "Misma explicación del bloque competencial en bc:SAMB03BC4, bc:SAMB04BC4"
-    },
-    {
-      "regla": "explicacion_repetida_entre_cursos",
-      "nivel": "aviso",
       "nodo": "bc:SAMB03BC6",
       "detalle": "Misma explicación del bloque competencial en bc:SAMB03BC6, bc:SAMB04BC6"
-    },
-    {
-      "regla": "explicacion_repetida_entre_cursos",
-      "nivel": "aviso",
-      "nodo": "bc:SBIG01BC1",
-      "detalle": "Misma explicación del bloque competencial en bc:SBIG01BC1, bc:SBIG03BC1, bc:SBIG04BC1"
-    },
-    {
-      "regla": "explicacion_repetida_entre_cursos",
-      "nivel": "aviso",
-      "nodo": "bc:SBIG01BC2",
-      "detalle": "Misma explicación del bloque competencial en bc:SBIG01BC2, bc:SBIG03BC2, bc:SBIG04BC2"
-    },
-    {
-      "regla": "explicacion_repetida_entre_cursos",
-      "nivel": "aviso",
-      "nodo": "bc:SBIG01BC3",
-      "detalle": "Misma explicación del bloque competencial en bc:SBIG01BC3, bc:SBIG03BC3, bc:SBIG04BC3"
-    },
-    {
-      "regla": "explicacion_repetida_entre_cursos",
-      "nivel": "aviso",
-      "nodo": "bc:SBIG01BC4",
-      "detalle": "Misma explicación del bloque competencial en bc:SBIG01BC4, bc:SBIG03BC4, bc:SBIG04BC4"
-    },
-    {
-      "regla": "explicacion_repetida_entre_cursos",
-      "nivel": "aviso",
-      "nodo": "bc:SBIG01BC5",
-      "detalle": "Misma explicación del bloque competencial en bc:SBIG01BC5, bc:SBIG03BC5, bc:SBIG04BC5"
-    },
-    {
-      "regla": "explicacion_repetida_entre_cursos",
-      "nivel": "aviso",
-      "nodo": "bc:SBIG01BC6",
-      "detalle": "Misma explicación del bloque competencial en bc:SBIG01BC6, bc:SBIG03BC6, bc:SBIG04BC6"
     },
     {
       "regla": "explicacion_repetida_entre_cursos",
@@ -2863,30 +3259,6 @@
       "nivel": "aviso",
       "nodo": "bc:SMBS03BC6",
       "detalle": "Misma explicación del bloque competencial en bc:SMBS03BC6, bc:SMBS04BC6"
-    },
-    {
-      "regla": "explicacion_repetida_entre_cursos",
-      "nivel": "aviso",
-      "nodo": "bc:SMUS01BC1",
-      "detalle": "Misma explicación del bloque competencial en bc:SMUS01BC1, bc:SMUS02BC1, bc:SMUS03BC1, bc:SMUS04BC1"
-    },
-    {
-      "regla": "explicacion_repetida_entre_cursos",
-      "nivel": "aviso",
-      "nodo": "bc:SMUS01BC2",
-      "detalle": "Misma explicación del bloque competencial en bc:SMUS01BC2, bc:SMUS02BC2, bc:SMUS03BC2, bc:SMUS04BC2"
-    },
-    {
-      "regla": "explicacion_repetida_entre_cursos",
-      "nivel": "aviso",
-      "nodo": "bc:SMUS01BC3",
-      "detalle": "Misma explicación del bloque competencial en bc:SMUS01BC3, bc:SMUS02BC3, bc:SMUS03BC3, bc:SMUS04BC3"
-    },
-    {
-      "regla": "explicacion_repetida_entre_cursos",
-      "nivel": "aviso",
-      "nodo": "bc:SMUS01BC4",
-      "detalle": "Misma explicación del bloque competencial en bc:SMUS01BC4, bc:SMUS02BC4, bc:SMUS03BC4, bc:SMUS04BC4"
     }
   ]
 }

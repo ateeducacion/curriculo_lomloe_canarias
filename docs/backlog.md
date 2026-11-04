@@ -179,8 +179,11 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
   En curso: los 105 documentos registrados y leídos sin avisos. `contrastar --proponer` compara
   además con el texto del BOC y propone el texto del documento cuando es el publicado
   (categorías «versión publicada» y, aparte, «puntuación publicada») y limpia diferencias de
-  solo espacios. Correcciones 0044–0136 (93 ficheros, 1.112 cambios) propuestas. Todos los
-  textos se normalizan a NFC: 587 de la exportación traían las tildes descompuestas. Simulando su aprobación, las diferencias bajan de
+  solo espacios. Correcciones 0044–0136 (93 ficheros, 1.112 cambios), aprobadas el
+  04-11-2026. Todos los textos se normalizan a NFC: 587 de la exportación traían las tildes
+  descompuestas. Resultado: las diferencias bajan de 2.048 a 895 y 31 documentos coinciden
+  por completo con el corpus. Lo que queda está clasificado más arriba (3.6, 3.8, puntuación
+  que el BOC no decide y textos que no están en el BOC). Simulando su aprobación, las diferencias bajan de
   2.048 a 907. Lo que queda: saberes numerados de forma distinta (3.6), descriptores de
   bloque (3.8), diferencias de puntuación que el BOC no permite decidir y unos 60 textos que no
   están en el BOC en ninguna de las dos versiones (revisión manual).
