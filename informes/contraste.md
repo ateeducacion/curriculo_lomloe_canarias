@@ -89,17 +89,11 @@ Sin diferencias.
 - texto de saber distinto: 6 (p. ej. sb:SAMB03SBI.4, sb:SAMB03SBI.4.1, sb:SAMB03SBI.5.3, sb:SAMB03SBI.7, sb:SAMB03SBI.8.2)
 - texto de criterio distinto: 4 (p. ej. crit:SAMB03CE1.2, crit:SAMB03CE2.1, crit:SAMB03CE5.3, crit:SAMB04CE1.2)
 - enunciado de competencia distinto: 2 (p. ej. ce:SAMBC1, ce:SAMBC5)
-- descriptores de criterio distinto: 1 (p. ej. crit:SAMB04CE6.1)
-- descriptores de bloque distinto: 1 (p. ej. bc:SAMB04BC6)
-- corregible desde el documento (descriptores publicados en el BOC): 2
 
 ## eso-ambito-practico — contrastado
 - falta en el corpus: texto de saber: 2 (p. ej. sb:SAM304SBII.1, sb:SAM304SBVI.1)
 - texto de criterio distinto: 1 (p. ej. crit:SAM304CE1.1)
 - explicación de bloque distinto: 1 (p. ej. bc:SAM304BC4)
-- descriptores de criterio distinto: 1 (p. ej. crit:SAM304CE4.4)
-- descriptores de bloque distinto: 1 (p. ej. bc:SAM304BC4)
-- corregible desde el documento (descriptores publicados en el BOC): 2
 
 ## primaria-conocimiento-del-medio-natural-social-y-cultural — contrastado
 - texto de criterio distinto: 56 (p. ej. crit:PC9N01CE3.1, crit:PC9N01CE3.3, crit:PC9N01CE4.2, crit:PC9N01CE5.1, crit:PC9N01CE5.2)
@@ -111,13 +105,12 @@ Sin diferencias.
 - texto de saber distinto: 4 (p. ej. sb:PEAR03SBI.3, sb:PEAR03SBIV.1, sb:PEAR04SBI.3, sb:PEAR04SBIV.1)
 
 ## primaria-educacion-en-valores-civicos-y-eticos — contrastado
-- descriptores de criterio distinto: 12 (p. ej. crit:PEDK05CE1.1, crit:PEDK05CE1.2, crit:PEDK05CE2.4, crit:PEDK05CE3.1, crit:PEDK05CE3.2)
 - texto de criterio distinto: 10 (p. ej. crit:PEDK05CE1.1, crit:PEDK05CE1.2, crit:PEDK05CE2.2, crit:PEDK05CE2.4, crit:PEDK05CE4.1)
-- descriptores de bloque distinto: 6 (p. ej. bc:PEDK05BC1, bc:PEDK05BC3, bc:PEDK05BC4, bc:PEDK06BC1, bc:PEDK06BC3)
 - texto de saber distinto: 6 (p. ej. sb:PEDK05SBI.3, sb:PEDK05SBI.9, sb:PEDK05SBII.2.2, sb:PEDK06SBI.3, sb:PEDK06SBI.9)
 - nodo del corpus que no está en el documento: 6 (p. ej. sb:PEDK05SBII.3.1, sb:PEDK05SBII.3.3, sb:PEDK05SBII.3.9, sb:PEDK06SBII.3.1, sb:PEDK06SBII.3.3)
+- descriptores de criterio distinto: 4 (p. ej. crit:PEDK05CE1.2, crit:PEDK05CE2.4, crit:PEDK06CE1.2, crit:PEDK06CE2.4)
+- descriptores de bloque distinto: 2 (p. ej. bc:PEDK05BC1, bc:PEDK06BC1)
 - falta en el corpus: texto de saber: 2 (p. ej. sb:PEDK05SBII.2.3, sb:PEDK06SBII.2.3)
-- corregible desde el documento (descriptores publicados en el BOC): 12
 
 ## primaria-educacion-fisica — contrastado
 - texto de saber distinto: 8 (p. ej. sb:PEFI01SBIII.2, sb:PEFI02SBIII.2, sb:PEFI03SBI.1, sb:PEFI03SBIII.4, sb:PEFI04SBI.1)
@@ -129,29 +122,22 @@ Sin diferencias.
 ## primaria-lengua-castellana-y-literatura — contrastado
 - texto de saber distinto: 16 (p. ej. sb:PLCL01SBIII.1, sb:PLCL02SBIII.1, sb:PLCL05SBI.2, sb:PLCL05SBII.2.3, sb:PLCL05SBII.3.1)
 - texto de criterio distinto: 8 (p. ej. crit:PLCL01CE8.2, crit:PLCL01CE10.1, crit:PLCL02CE8.2, crit:PLCL02CE10.1, crit:PLCL03CE1.1)
-- descriptores de criterio distinto: 6 (p. ej. crit:PLCL01CE6.1, crit:PLCL01CE7.2, crit:PLCL02CE6.1, crit:PLCL02CE7.2, crit:PLCL05CE8.2)
-- descriptores de bloque distinto: 6 (p. ej. bc:PLCL01BC6, bc:PLCL01BC7, bc:PLCL02BC6, bc:PLCL02BC7, bc:PLCL05BC8)
 - título de bloque de saberes distinto: 6 (p. ej. sb:PLCL01SBIII, sb:PLCL02SBIII, sb:PLCL03SBIII, sb:PLCL04SBIII, sb:PLCL05SBIII)
+- descriptores de criterio distinto: 4 (p. ej. crit:PLCL01CE7.2, crit:PLCL02CE7.2, crit:PLCL05CE8.2, crit:PLCL06CE8.2)
+- descriptores de bloque distinto: 4 (p. ej. bc:PLCL01BC7, bc:PLCL02BC7, bc:PLCL05BC8, bc:PLCL06BC8)
 - enunciado de competencia distinto: 2 (p. ej. ce:PLCLC2, ce:PLCLC2)
 - nodo del corpus que no está en el documento: 2 (p. ej. sb:PLCL05SBIV.4, sb:PLCL06SBIV.4)
-- corregible desde el documento (descriptores publicados en el BOC): 4
 - incoherencias del propio documento (no son diferencias del corpus): 6, p. ej. crit:PLCL01CE7.2: los descriptores del criterio traen códigos que no existen: CCE3
 
 ## primaria-lengua-extranjera — contrastado
 - texto de criterio distinto: 18 (p. ej. crit:PLNT01CE4.1, crit:PLNT02CE4.1, crit:PLNT03CE3.2, crit:PLNT03CE4.2, crit:PLNT03CE6.1)
 - texto de saber distinto: 18 (p. ej. sb:PLNT01SBIII.2, sb:PLNT02SBIII.2, sb:PLNT03SBI.4, sb:PLNT03SBII.1, sb:PLNT03SBIV.4)
 - título de bloque de saberes distinto: 6 (p. ej. sb:PLNT01SBIV, sb:PLNT02SBIV, sb:PLNT03SBIV, sb:PLNT04SBIV, sb:PLNT05SBIV)
-- descriptores de criterio distinto: 2 (p. ej. crit:PLNT03CE4.2, crit:PLNT04CE4.2)
-- descriptores de bloque distinto: 2 (p. ej. bc:PLNT03BC4, bc:PLNT04BC4)
-- corregible desde el documento (descriptores publicados en el BOC): 4
 
 ## primaria-educacion-emocional-y-para-la-creatividad — contrastado
 - texto de saber distinto: 34 (p. ej. sb:PEUM01SBIII.1, sb:PEUM01SBIV.6, sb:PEUM02SBIII.1, sb:PEUM02SBIV.6, sb:PEUM03SBI.4)
 - título de bloque de saberes distinto: 14 (p. ej. sb:PEUM01SBI, sb:PEUM01SBII, sb:PEUM01SBIII, sb:PEUM01SBIV, sb:PEUM02SBI)
 - texto de criterio distinto: 8 (p. ej. crit:PEUM01CE3.2, crit:PEUM02CE3.2, crit:PEUM03CE2.2, crit:PEUM03CE4.1, crit:PEUM04CE2.2)
-- descriptores de criterio distinto: 4 (p. ej. crit:PEUM01CE4.1, crit:PEUM01CE4.2, crit:PEUM02CE4.1, crit:PEUM02CE4.2)
-- descriptores de bloque distinto: 2 (p. ej. bc:PEUM01BC4, bc:PEUM02BC4)
-- corregible desde el documento (descriptores publicados en el BOC): 6
 
 ## primaria-segunda-lengua-extranjera — contrastado
 - texto de criterio distinto: 20 (p. ej. crit:PSGA05CE1.1, crit:PSGA05CE2.2, crit:PSGA05CE4.1, crit:PSGA05CE4.2, crit:PSGA05CE5.3)
@@ -288,9 +274,7 @@ Sin diferencias.
 - incoherencias del propio documento (no son diferencias del corpus): 4, p. ej. bc:BLA101BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CP1, CP2, STEM1, CD3, CCEC3.1; criterios: CCL1, CCL5, CP1, CD3, CCEC3.1, CP2, STEM1, CPSAA5)
 
 ## bachillerato-lenguaje-y-practica-musical — contrastado
-- descriptores de criterio distinto: 2 (p. ej. crit:BLPM01CE4.1, crit:BLPM01CE4.2)
-- descriptores de bloque distinto: 1 (p. ej. bc:BLPM01BC4)
-- corregible desde el documento (descriptores publicados en el BOC): 3
+Sin diferencias.
 - incoherencias del propio documento (no son diferencias del corpus): 1, p. ej. bc:BLPM01BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL2, CPSAA1.1, CPSAA1.2, CE3, CCEC3.1, CCEC3.2; criterios: CCL2, CPSAA1.1, CPSAA1.2, CPSAA3.1, CPSAA3.2, CE3, CCEC3.1, CCEC3.2)
 
 ## bachillerato-literatura-dramatica — contrastado
@@ -391,10 +375,7 @@ Sin diferencias.
 
 ## bachillerato-informatica-y-digitalizacion-i-y-ii — contrastado
 - enunciado de competencia distinto: 4 (p. ej. ce:BIKFC1, ce:BIKFC3, ce:BIQFC1, ce:BIQFC3)
-- descriptores de criterio distinto: 4 (p. ej. crit:BIQF02CE1.1, crit:BIQF02CE2.1, crit:BIQF02CE3.2, crit:BIQF02CE3.3)
-- descriptores de bloque distinto: 3 (p. ej. bc:BIQF02BC1, bc:BIQF02BC2, bc:BIQF02BC3)
 - texto de saber distinto: 2 (p. ej. sb:BIQF02SBI.1, sb:BIQF02SBI.2)
-- corregible desde el documento (descriptores publicados en el BOC): 7
 - incoherencias del propio documento (no son diferencias del corpus): 3, p. ej. bc:BIKF01BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL3, STEM1, STEM2, STEM5, CD1, CD4, CD5, CPSAA1.1, CPSAA5, CE3; criterios: CCL3, STEM2, CD1, STEM1, STEM5, CD4, CD5, CPSAA1.1, CE3, CPSAA5)
 
 ## bachillerato-la-mitologia-y-las-artes — contrastado
@@ -402,12 +383,9 @@ Sin diferencias.
 - incoherencias del propio documento (no son diferencias del corpus): 1, p. ej. bc:BLAM02BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CCL4, CP3, CD1, CD2, CPSAA4, CC1, CCEC1; criterios: CCL1, CCL3, CD1, CD2, CPSAA4, CC1, CCL2, CP3, CCEC1)
 
 ## bachillerato-literatura-canaria — contrastado
-- descriptores de criterio distinto: 3 (p. ej. crit:BLCA02CE1.2, crit:BLCA02CE4.1, crit:BLCA02CE4.2)
-- descriptores de bloque distinto: 2 (p. ej. bc:BLCA02BC1, bc:BLCA02BC4)
 - nodo del corpus que no está en el documento: 2 (p. ej. sb:BLCA02SBIV.4, sb:BLCA02SBIV.5)
 - texto de saber distinto: 1 (p. ej. sb:BLCA02SBIV.3)
 - falta en el corpus: texto de saber: 1 (p. ej. sb:BLCA02SBIV.2)
-- corregible desde el documento (descriptores publicados en el BOC): 5
 
 ## bachillerato-juegos-y-deportes-tradicionales-de-canarias — contrastado
 Sin diferencias.
@@ -439,11 +417,8 @@ Sin diferencias.
 ## bachillerato-psicologia — contrastado
 - explicación de bloque distinto: 1 (p. ej. bc:BPSI02BC1)
 - texto de criterio distinto: 1 (p. ej. crit:BPSI02CE2.1)
-- descriptores de criterio distinto: 1 (p. ej. crit:BPSI02CE3.2)
-- descriptores de bloque distinto: 1 (p. ej. bc:BPSI02BC3)
 - texto de saber distinto: 1 (p. ej. sb:BPSI02SBVI.8)
 - nodo del corpus que no está en el documento: 1 (p. ej. sb:BPSI02SBVI.9)
-- corregible desde el documento (descriptores publicados en el BOC): 2
 
 ## bachillerato-taller-de-artes-integradas — contrastado
 Sin diferencias.

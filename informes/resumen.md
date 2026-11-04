@@ -203,13 +203,13 @@
 | 0163-bachillerato-medio-natural-canario-version-publicada.yaml | aprobada | 1 | Medio Natural Canario (Bachillerato): 1 textos de la versión publicada en el BOC |
 | 0164-bachillerato-taller-de-etimologia-grecolatina-version-publicada.yaml | aprobada | 1 | Taller de Etimología Grecolatina (Bachillerato): 1 textos de la versión publicada en el BOC |
 | 0165-bachillerato-psicologia-version-publicada.yaml | aprobada | 2 | Psicología (Bachillerato): 2 textos de la versión publicada en el BOC |
-| 0166-eso-ambito-cientifico-tecnologico-descriptores-publicados.yaml | propuesta | 2 | Ámbito Científico-Tecnológico (Educación Secundaria Obligatoria): 2 descriptores publicados en el BOC |
-| 0167-eso-ambito-practico-descriptores-publicados.yaml | propuesta | 2 | Ámbito Práctico (Educación Secundaria Obligatoria): 2 descriptores publicados en el BOC |
-| 0168-primaria-educacion-en-valores-civicos-y-eticos-descriptores-publicados.yaml | propuesta | 12 | Educación en Valores Cívicos y Éticos (Educación Primaria): 12 descriptores publicados en el BOC |
-| 0169-primaria-lengua-castellana-y-literatura-descriptores-publicados.yaml | propuesta | 4 | Lengua Castellana y Literatura (Educación Primaria): 4 descriptores publicados en el BOC |
-| 0170-primaria-lengua-extranjera-descriptores-publicados.yaml | propuesta | 4 | Lengua Extranjera (Educación Primaria): 4 descriptores publicados en el BOC |
-| 0171-primaria-educacion-emocional-y-para-la-creatividad-descriptores-publicados.yaml | propuesta | 6 | Educación Emocional y para la Creatividad (Educación Primaria): 6 descriptores publicados en el BOC |
-| 0172-bachillerato-lenguaje-y-practica-musical-descriptores-publicados.yaml | propuesta | 3 | Lenguaje y Práctica Musical (Bachillerato): 3 descriptores publicados en el BOC |
-| 0173-bachillerato-informatica-y-digitalizacion-i-y-ii-descriptores-publicados.yaml | propuesta | 7 | Informática y Digitalización I y II (Bachillerato): 7 descriptores publicados en el BOC |
-| 0174-bachillerato-literatura-canaria-descriptores-publicados.yaml | propuesta | 5 | Literatura Canaria (Bachillerato): 5 descriptores publicados en el BOC |
-| 0175-bachillerato-psicologia-descriptores-publicados.yaml | propuesta | 2 | Psicología (Bachillerato): 2 descriptores publicados en el BOC |
+| 0166-eso-ambito-cientifico-tecnologico-descriptores-publicados.yaml | aprobada | 2 | Ámbito Científico-Tecnológico (Educación Secundaria Obligatoria): 2 descriptores publicados en el BOC |
+| 0167-eso-ambito-practico-descriptores-publicados.yaml | aprobada | 2 | Ámbito Práctico (Educación Secundaria Obligatoria): 2 descriptores publicados en el BOC |
+| 0168-primaria-educacion-en-valores-civicos-y-eticos-descriptores-publicados.yaml | aprobada | 12 | Educación en Valores Cívicos y Éticos (Educación Primaria): 12 descriptores publicados en el BOC |
+| 0169-primaria-lengua-castellana-y-literatura-descriptores-publicados.yaml | aprobada | 4 | Lengua Castellana y Literatura (Educación Primaria): 4 descriptores publicados en el BOC |
+| 0170-primaria-lengua-extranjera-descriptores-publicados.yaml | aprobada | 4 | Lengua Extranjera (Educación Primaria): 4 descriptores publicados en el BOC |
+| 0171-primaria-educacion-emocional-y-para-la-creatividad-descriptores-publicados.yaml | aprobada | 6 | Educación Emocional y para la Creatividad (Educación Primaria): 6 descriptores publicados en el BOC |
+| 0172-bachillerato-lenguaje-y-practica-musical-descriptores-publicados.yaml | aprobada | 3 | Lenguaje y Práctica Musical (Bachillerato): 3 descriptores publicados en el BOC |
+| 0173-bachillerato-informatica-y-digitalizacion-i-y-ii-descriptores-publicados.yaml | aprobada | 7 | Informática y Digitalización I y II (Bachillerato): 7 descriptores publicados en el BOC |
+| 0174-bachillerato-literatura-canaria-descriptores-publicados.yaml | aprobada | 5 | Literatura Canaria (Bachillerato): 5 descriptores publicados en el BOC |
+| 0175-bachillerato-psicologia-descriptores-publicados.yaml | aprobada | 2 | Psicología (Bachillerato): 2 descriptores publicados en el BOC |
