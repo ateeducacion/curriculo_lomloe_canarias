@@ -161,7 +161,7 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
   Hecho con los 6 documentos (3 áreas de Infantil y 3 ámbitos): ciclos de Infantil, criterios de
   Infantil en una sola fila y sin descriptores, bloques de saberes «Bloque I. …» y `secciones`
   manuales para los ámbitos. Correcciones propuestas 0036–0041 (explicaciones copiadas de otro
-  curso, 55 en total, y título y descripción de bloques en el Ámbito Lingüístico y Social).
+  curso, 55 en total, y título y descripción de bloques en el Ámbito Lingüístico y Social). Aprobadas el 04-11-2026.
 - [ ] **4.6 CODEOWNERS** con los equipos reales y protección de la rama `main`. Aplazado
   (04-11-2026): no bloquea la 1.0.0.
 

@@ -26,7 +26,7 @@
 | aviso | codigo_saber_reconstruido | 43 |
 | aviso | encabezado_no_corresponde | 83 |
 | aviso | encabezado_sin_texto | 6 |
-| aviso | explicacion_repetida_entre_cursos | 110 |
+| aviso | explicacion_repetida_entre_cursos | 122 |
 | aviso | registro_repetido | 1 |
 | aviso | saber_con_hijos | 51 |
 | aviso | saber_sin_numeracion | 1 |
@@ -73,9 +73,9 @@
 | 0033-primaria-matematicas-explicaciones-copiadas.yaml | aprobada | 4 | Matemáticas (Educación Primaria): 4 explicaciones de bloque copiadas de otro curso |
 | 0034-lengua-castellana-eso-saber-i-2-de-3-eso.yaml | aprobada | 1 | Lengua Castellana y Literatura (3.º ESO): texto del saber I.2 tomado de otro bloque |
 | 0035-segunda-lengua-extranjera-eso-enunciado-ce2.yaml | aprobada | 3 | Segunda Lengua Extranjera (ESO): coma sobrante en el enunciado de la competencia 2 |
-| 0036-eso-ambito-linguistico-y-social-explicaciones-copiadas.yaml | propuesta | 4 | Ámbito Lingüístico y Social (Educación Secundaria Obligatoria): 4 explicaciones de bloque copiadas de otro curso |
-| 0037-eso-ambito-linguistico-y-social-titulo-y-descripcion-de-bloques.yaml | propuesta | 4 | Ámbito Lingüístico y Social (Educación Secundaria Obligatoria): 4 título y descripción de los bloques de saberes |
-| 0038-eso-ambito-cientifico-tecnologico-explicaciones-copiadas.yaml | propuesta | 1 | Ámbito Científico-Tecnológico (Educación Secundaria Obligatoria): 1 explicaciones de bloque copiadas de otro curso |
-| 0039-infantil-crecimiento-en-armonia-explicaciones-copiadas.yaml | propuesta | 12 | Crecimiento en Armonía (Educación Infantil): 12 explicaciones de bloque copiadas de otro curso |
-| 0040-infantil-descubrimiento-y-exploracion-del-entorno-explicaciones-copiadas.yaml | propuesta | 9 | Descubrimiento y Exploración del Entorno (Educación Infantil): 9 explicaciones de bloque copiadas de otro curso |
-| 0041-infantil-comunicacion-y-representacion-de-la-realidad-explicaciones-copiadas.yaml | propuesta | 30 | Comunicación y Representación de la Realidad (Educación Infantil): 30 explicaciones de bloque copiadas de otro curso |
+| 0036-eso-ambito-linguistico-y-social-explicaciones-copiadas.yaml | aprobada | 4 | Ámbito Lingüístico y Social (Educación Secundaria Obligatoria): 4 explicaciones de bloque copiadas de otro curso |
+| 0037-eso-ambito-linguistico-y-social-titulo-y-descripcion-de-bloques.yaml | aprobada | 4 | Ámbito Lingüístico y Social (Educación Secundaria Obligatoria): 4 título y descripción de los bloques de saberes |
+| 0038-eso-ambito-cientifico-tecnologico-explicaciones-copiadas.yaml | aprobada | 1 | Ámbito Científico-Tecnológico (Educación Secundaria Obligatoria): 1 explicaciones de bloque copiadas de otro curso |
+| 0039-infantil-crecimiento-en-armonia-explicaciones-copiadas.yaml | aprobada | 12 | Crecimiento en Armonía (Educación Infantil): 12 explicaciones de bloque copiadas de otro curso |
+| 0040-infantil-descubrimiento-y-exploracion-del-entorno-explicaciones-copiadas.yaml | aprobada | 9 | Descubrimiento y Exploración del Entorno (Educación Infantil): 9 explicaciones de bloque copiadas de otro curso |
+| 0041-infantil-comunicacion-y-representacion-de-la-realidad-explicaciones-copiadas.yaml | aprobada | 30 | Comunicación y Representación de la Realidad (Educación Infantil): 30 explicaciones de bloque copiadas de otro curso |
