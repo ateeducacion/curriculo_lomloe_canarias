@@ -135,20 +135,8 @@ Sin diferencias.
 - descriptores de bloque distinto: 1 (p. ej. bc:BCUF01BC5)
 
 ## bachillerato-juegos-y-deportes-tradicionales-de-canarias — contrastado
-- falta en el corpus: texto de saber: 9 (p. ej. sb:BJUI01SBI.1, sb:BJUI01SBI.2, sb:BJUI01SBI.3, sb:BJUI01SBI.4, sb:BJUI01SBII.1)
-- falta en el corpus: texto de criterio: 6 (p. ej. crit:BJUI01CE1.1, crit:BJUI01CE1.2, crit:BJUI01CE1.3, crit:BJUI01CE2.1, crit:BJUI01CE2.2)
-- falta en el corpus: descriptores de criterio: 6 (p. ej. crit:BJUI01CE1.1, crit:BJUI01CE1.2, crit:BJUI01CE1.3, crit:BJUI01CE2.1, crit:BJUI01CE2.2)
-- falta en el corpus: enunciado de competencia: 2 (p. ej. ce:BJUIC1, ce:BJUIC2)
-- falta en el corpus: explicación de bloque: 2 (p. ej. bc:BJUI01BC1, bc:BJUI01BC2)
-- falta en el corpus: descriptores de bloque: 2 (p. ej. bc:BJUI01BC1, bc:BJUI01BC2)
-- falta en el corpus: título de bloque de saberes: 2 (p. ej. sb:BJUI01SBI, sb:BJUI01SBII)
+Sin diferencias.
 
 ## bachillerato-musica-expresion-y-espectaculos — contrastado
-- falta en el corpus: texto de saber: 25 (p. ej. sb:BMUW01SBI.1, sb:BMUW01SBI.2, sb:BMUW01SBI.3, sb:BMUW01SBI.4, sb:BMUW01SBII.1)
-- falta en el corpus: texto de criterio: 5 (p. ej. crit:BMUW01CE1.1, crit:BMUW01CE1.2, crit:BMUW01CE2.1, crit:BMUW01CE3.1, crit:BMUW01CE4.1)
-- falta en el corpus: descriptores de criterio: 5 (p. ej. crit:BMUW01CE1.1, crit:BMUW01CE1.2, crit:BMUW01CE2.1, crit:BMUW01CE3.1, crit:BMUW01CE4.1)
-- falta en el corpus: enunciado de competencia: 4 (p. ej. ce:BMUWC1, ce:BMUWC2, ce:BMUWC3, ce:BMUWC4)
-- falta en el corpus: explicación de bloque: 4 (p. ej. bc:BMUW01BC1, bc:BMUW01BC2, bc:BMUW01BC3, bc:BMUW01BC4)
-- falta en el corpus: descriptores de bloque: 4 (p. ej. bc:BMUW01BC1, bc:BMUW01BC2, bc:BMUW01BC3, bc:BMUW01BC4)
-- falta en el corpus: título de bloque de saberes: 4 (p. ej. sb:BMUW01SBI, sb:BMUW01SBII, sb:BMUW01SBIII, sb:BMUW01SBIV)
+- descriptores de bloque distinto: 3 (p. ej. bc:BMUW01BC1, bc:BMUW01BC3, bc:BMUW01BC4)
 

@@ -34,7 +34,8 @@ Científica): ver la fase 2 de [`backlog.md`](backlog.md).
 ## Cobertura
 
 - Hay documentos oficiales sin materia en la exportación: *Juegos y Deportes Tradicionales de Canarias* y
-  *Música, Expresión y Espectáculos* (optativas del Decreto 78/2025). Se crearán desde su ODT.
+  *Música, Expresión y Espectáculos* (optativas del Decreto 78/2025). Creadas desde su ODT con los códigos
+  `JUI` y `MUW`, que no proceden de ProIDEAC (correcciones 0042 y 0043).
 - Los ámbitos de diversificación de la exportación (`SMBS`, `SAMB`, `SAM3`) corresponden al Decreto 86/2025,
   con algunas diferencias de texto que se revisan con el contraste.
 - No entran las concreciones del silbo gomero ni los currículos de Religión.

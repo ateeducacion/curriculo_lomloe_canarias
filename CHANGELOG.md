@@ -24,6 +24,8 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
   Lengua Castellana de 3.º ESO y el enunciado de la competencia 2 de Segunda Lengua Extranjera.
 
 - Documentos oficiales de Infantil y de los ámbitos de diversificación; correcciones 0036–0041 (explicaciones de bloque copiadas de otro curso en Infantil y ámbitos, y bloques de saberes del Ámbito Lingüístico y Social).
+- Optativas de 1.º de Bachillerato creadas desde su documento oficial: Juegos y Deportes Tradicionales de Canarias (`BJUI`) y Música, Expresión y Espectáculos (`BMUW`) (correcciones 0042 y 0043, herramienta `materia_desde_odt`).
+- Licencia de los datos (CC BY 4.0) y verificación de `config/descriptores.csv` contra los anexos 1.
 
 ### Cambiado
 - Licencias: datos con CC BY 4.0 (con la aclaración del art. 13 TRLPI sobre los textos normativos) y código con GPL-3.0; `curriculo.json` incluye la licencia en su cabecera.

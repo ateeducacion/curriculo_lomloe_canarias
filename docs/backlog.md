@@ -142,11 +142,11 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
   Bachillerato (38, columna derecha, con CPSAA1, CPSAA3, CCEC3 y CCEC4 desdoblados). Infantil
   tiene 8 competencias sin descriptores; su anexo abrevia «CEC» la que el corpus llama CCEC
   (anotado en la columna `nota`).
-- [ ] **4.2 Cobertura** (decisiones de la persona responsable, 04-11-2026):
-  - [ ] Optativas que faltan en la exportación (*Juegos y Deportes Tradicionales de Canarias*,
+- [x] **4.2 Cobertura** (decisiones de la persona responsable, 04-11-2026):
+  - [x] Optativas que faltan en la exportación (*Juegos y Deportes Tradicionales de Canarias*,
     *Música, Expresión y Espectáculos*): crearlas desde su ODT. Códigos `JUI` y `MUW` (1.º de
     Bachillerato), asignados el 04-11-2026. Correcciones 0042 y 0043 propuestas, generadas con
-    `herramientas.materia_desde_odt`; pendientes de aprobación.
+    `herramientas.materia_desde_odt`; aprobadas el 04-11-2026.
   - [x] ¿Los ámbitos de diversificación de la exportación (`SMBS`, `SAMB`, `SAM3`) corresponden al
     Decreto 86/2025? Sí: de 139 competencias y criterios, 119 son idénticos al ODT y casi todos
     los demás son retoques menores. Difieren de verdad la competencia 4 del Ámbito Lingüístico y

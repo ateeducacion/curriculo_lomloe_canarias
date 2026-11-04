@@ -6,14 +6,14 @@
 |---|---|
 | Etapa | 4 |
 | Curso | 18 |
-| Materia | 136 |
-| CompetenciaEspecifica | 798 |
-| BloqueCompetencial | 1312 |
-| CriterioEvaluacion | 3126 |
-| BloqueSaberes | 1041 |
-| SaberBasico | 8729 |
+| Materia | 138 |
+| CompetenciaEspecifica | 804 |
+| BloqueCompetencial | 1318 |
+| CriterioEvaluacion | 3137 |
+| BloqueSaberes | 1047 |
+| SaberBasico | 8763 |
 
-**Total:** 15164
+**Total:** 15229
 
 ## Incidencias
 
@@ -79,5 +79,5 @@
 | 0039-infantil-crecimiento-en-armonia-explicaciones-copiadas.yaml | aprobada | 12 | Crecimiento en Armonía (Educación Infantil): 12 explicaciones de bloque copiadas de otro curso |
 | 0040-infantil-descubrimiento-y-exploracion-del-entorno-explicaciones-copiadas.yaml | aprobada | 9 | Descubrimiento y Exploración del Entorno (Educación Infantil): 9 explicaciones de bloque copiadas de otro curso |
 | 0041-infantil-comunicacion-y-representacion-de-la-realidad-explicaciones-copiadas.yaml | aprobada | 30 | Comunicación y Representación de la Realidad (Educación Infantil): 30 explicaciones de bloque copiadas de otro curso |
-| 0042-bachillerato-juegos-y-deportes-tradicionales-de-canarias-materia-ausente.yaml | propuesta | 22 | Juegos y Deportes Tradicionales de Canarias (Bachillerato): materia ausente en la exportación |
-| 0043-bachillerato-musica-expresion-y-espectaculos-materia-ausente.yaml | propuesta | 43 | Música, Expresión y Espectáculos (Bachillerato): materia ausente en la exportación |
+| 0042-bachillerato-juegos-y-deportes-tradicionales-de-canarias-materia-ausente.yaml | aprobada | 22 | Juegos y Deportes Tradicionales de Canarias (Bachillerato): materia ausente en la exportación |
+| 0043-bachillerato-musica-expresion-y-espectaculos-materia-ausente.yaml | aprobada | 43 | Música, Expresión y Espectáculos (Bachillerato): materia ausente en la exportación |
