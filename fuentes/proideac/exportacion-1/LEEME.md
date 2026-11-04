@@ -2,7 +2,7 @@
 
 - **Fichero:** `curriculo_unificado_ordenado.json`
 - **Origen:** exportación de la aplicación ProIDEAC aportada al proyecto.
-- **Fecha de exportación:** pendiente de confirmar.
+- **Fecha de exportación:** desconocida. Se incorporó al repositorio el 03-11-2026.
 - **sha256 del fichero original:** `fa6c88121960bd3c153164912e276aff830c392cd957b4dd9a4d59b1a23737b8`
 
 ## Única modificación respecto al original

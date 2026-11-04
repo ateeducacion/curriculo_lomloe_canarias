@@ -27,26 +27,24 @@ Científica): ver la fase 2 de [`backlog.md`](backlog.md).
 - **Explicaciones de bloque idénticas entre cursos** (`explicacion_repetida_entre_cursos`): en Matemáticas ESO se
   confirmó que era un error (corrección 0002). En otras materias puede ser correcto: hay que revisarlo con los ODT.
 - **Códigos de materia inconsistentes**: en tres materias el código del catálogo no coincide con el de sus
-  identificadores (`TSA`/`TA7`, `PLW`/`LNT`, `VAL`/`EDK`). Se mantienen ambos en `config/materias.csv`.
+  identificadores (`TSA`/`TA7`, `PLW`/`LNT`, `VAL`/`EDK`). Se mantienen ambos en `config/materias.csv` y los
+  identificadores no cambian (decisión del 04-11-2026).
 - **Códigos de saber reconstruidos** (42): venían truncados o con punto final; se reparan a partir del número del texto.
 
 ## Cobertura
 
 - Hay documentos oficiales sin materia en la exportación: *Juegos y Deportes Tradicionales de Canarias* y
-  *Música, Expresión y Espectáculos* (optativas del Decreto 78/2025).
-- Comprobar si los ámbitos de diversificación de la exportación (`SMBS`, `SAMB`, `SAM3`) corresponden al
-  Decreto 86/2025 o a una versión anterior.
-- Decidir si entran las concreciones del silbo gomero y los currículos de Religión (publicados por el BOE).
+  *Música, Expresión y Espectáculos* (optativas del Decreto 78/2025). Creadas desde su ODT con los códigos
+  `JUI` y `MUW`, que no proceden de ProIDEAC (correcciones 0042 y 0043).
+- Los ámbitos de diversificación de la exportación (`SMBS`, `SAMB`, `SAM3`) corresponden al Decreto 86/2025,
+  con algunas diferencias de texto que se revisan con el contraste.
+- No entran las concreciones del silbo gomero ni los currículos de Religión.
 
 ## Configuración por completar
 
-- `config/descriptores.csv`: lista construida a partir de los códigos usados en la exportación;
-  **verificar contra el anexo 1 de cada decreto** (columna `verificado`).
-- `config/corpus.yaml`: fecha de la exportación de ProIDEAC.
-- `CODEOWNERS`: sustituir los equipos marcados como PENDIENTE y activar la protección de la rama `main`.
-- Licencia del repositorio.
+- `config/descriptores.csv`: verificado contra el anexo 1 de cada decreto (03-11-2026).
+- `CODEOWNERS`: sustituir los equipos marcados como PENDIENTE y activar la protección de la rama `main` (aplazado).
 - `fuentes/manifiesto.yaml`: revisar las materias propuestas para cada documento y descargar los ODT.
-- Lector de ODT: adaptarlo a los formatos de Infantil, Primaria y ámbitos cuando se descarguen.
 
 ## Integración con Omeka S
 

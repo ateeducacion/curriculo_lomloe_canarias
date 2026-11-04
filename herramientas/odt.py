@@ -14,7 +14,7 @@ NS = {'text': 'urn:oasis:names:tc:opendocument:xmlns:text:1.0',
       'table': 'urn:oasis:names:tc:opendocument:xmlns:table:1.0',
       'office': 'urn:oasis:names:tc:opendocument:xmlns:office:1.0'}
 T, TB = '{%s}' % NS['text'], '{%s}' % NS['table']
-RE_ROMANO = re.compile(rf'^({ROMANO})\.\s+(.+)$')
+RE_ROMANO = re.compile(rf'^(?:Bloque\s+)?({ROMANO})\.\s+(.+)$')  # «Bloque I. …» en los ámbitos
 
 
 def _texto(el):
@@ -82,6 +82,16 @@ def _tabla_bloque(tabla, avisos):
               'criterios': [], 'explicacion': None}
     for fila in filas[1:]:
         plano = [x for c in fila for x in c]
+        if plano and plano[0] == 'Criterios de evaluación' and len(plano) > 1:
+            # Infantil: todos los criterios en la misma fila que el rótulo y sin descriptores.
+            for x in plano[1:]:
+                m = re.match(r'^(\d+)\.(\d+)\.?\s*(.*)$', x)
+                if m:
+                    bloque['criterios'].append({'num': f'{m.group(1)}.{m.group(2)}', 'competencia': int(m.group(1)),
+                                                'texto': m.group(3).strip(), 'descriptores': None})
+                elif bloque['criterios']:
+                    bloque['criterios'][-1]['texto'] += ' ' + x
+            continue
         if not plano or plano[0] == 'Criterios de evaluación':
             continue
         if plano[0] == 'Explicación del bloque competencial':
@@ -130,9 +140,12 @@ def leer(ruta, secciones):
                 modo = 'sb'
             elif modo == 'sb' and RE_ROMANO.match(x):
                 m = RE_ROMANO.match(x)
-                bloque = {'romano': m.group(1), 'titulo': m.group(2).strip(), 'hijos': []}
+                bloque = {'romano': m.group(1), 'titulo': m.group(2).strip(), 'descripcion': None, 'hijos': []}
                 actual['saberes'].append(bloque)
                 pila = [bloque]
+            elif modo == 'sb' and pila and not pila[0]['hijos'] and pila[0]['descripcion'] is None:
+                # Párrafo entre el título del bloque y sus saberes (p. ej. Lengua Castellana, ESO).
+                pila[0]['descripcion'] = x
             else:
                 doc['avisos'].append(f'Párrafo no clasificado: {x[:70]}')
         elif tipo == 'tabla' and actual is not None and modo == 'bc':

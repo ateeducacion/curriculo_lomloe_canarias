@@ -25,8 +25,21 @@ secciones:
   Tercer ciclo Educación Primaria: [{materia: PMAT, curso: '05'}, {materia: PMAT, curso: '06'}]
 ```
 
-El lector de ODT está probado con el formato de las materias de Primaria, ESO y
-Bachillerato. Infantil y los ámbitos pueden necesitar ajustes en `herramientas/odt.py`.
+El lector de ODT está probado con los formatos de Infantil, Primaria, ESO, Bachillerato y
+los ámbitos de diversificación (estos con `secciones` en el manifiesto, porque sus rótulos
+—«Curso 1.º. Ámbito…»— no siguen el curso de la ESO).
+
+## Crear una materia que no está en la exportación
+
+Añádela a `config/materias.csv` (código, código en identificadores, denominación, cursos y
+documento), pon su código en las `materias` del documento en el manifiesto y ejecuta:
+
+```bash
+python -m herramientas.materia_desde_odt <id-del-documento>
+```
+
+Escribe una corrección `propuesta` que crea todos sus nodos desde el ODT, pasándolo por el
+importador para que tengan la misma forma que los importados.
 
 ## Proponer una corrección
 
@@ -37,10 +50,12 @@ de saber que faltan) no hace falta escribirlos a mano:
 python -m herramientas.contrastar --proponer
 ```
 
-escribe una corrección `propuesta` por documento, con la fuente y su sha256. Los saberes se
-emparejan por contenido, no por número; los tramos que no casan uno a uno aparecen en el
-informe como «revisar a mano». No toca las correcciones existentes ni repite nodos que ya
-cubren.
+escribe una corrección `propuesta` por documento y tipo de error, con la fuente y su sha256.
+Tipos: textos ausentes en la exportación, explicaciones de bloque copiadas de otro curso,
+textos de saber de otra materia y bloques de saberes con título y descripción juntos (ver
+`CATEGORIAS` en `herramientas/contrastar.py`). Los saberes sin texto se emparejan por
+contenido, no por número; los tramos que no casan uno a uno aparecen en el informe como
+«revisar a mano». No toca las correcciones existentes ni repite cambios que ya cubren.
 
 Para el resto, crea `correcciones/NNNN-descripcion-breve.yaml` (ver el formato en
 `herramientas/correcciones.py` y los ejemplos 0001 y 0002) con `estado: propuesta`.

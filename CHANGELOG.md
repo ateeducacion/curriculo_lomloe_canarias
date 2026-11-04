@@ -18,8 +18,17 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
   descriptor CE7 de Valores Cívicos (Primaria) y saberes perdidos o mal codificados en Matemáticas (Primaria),
   Filosofía y Bioestadística. Se crean 6 saberes y se retira `sb:BBIE02SBIII.1.2` (pasa a III.3.2).
 - `contrastar` deduce las secciones de los documentos y propone correcciones (`--proponer`).
+- Documentos oficiales de diez materias de ESO y de Educación Física de Primaria, y su contraste con el corpus.
+- Correcciones 0017–0035: 196 explicaciones de bloque copiadas de otro curso, 22 textos de saber de otra
+  materia (3.º ESO), título y descripción de los bloques de saberes de Lengua Castellana (ESO), un saber de
+  Lengua Castellana de 3.º ESO y el enunciado de la competencia 2 de Segunda Lengua Extranjera.
+
+- Documentos oficiales de Infantil y de los ámbitos de diversificación; correcciones 0036–0041 (explicaciones de bloque copiadas de otro curso en Infantil y ámbitos, y bloques de saberes del Ámbito Lingüístico y Social).
+- Optativas de 1.º de Bachillerato creadas desde su documento oficial: Juegos y Deportes Tradicionales de Canarias (`BJUI`) y Música, Expresión y Espectáculos (`BMUW`) (correcciones 0042 y 0043, herramienta `materia_desde_odt`).
+- Licencia de los datos (CC BY 4.0) y verificación de `config/descriptores.csv` contra los anexos 1.
 
 ### Cambiado
+- Licencias: datos con CC BY 4.0 (con la aclaración del art. 13 TRLPI sobre los textos normativos) y código con GPL-3.0; `curriculo.json` incluye la licencia en su cabecera.
 - El importador trata como aviso un saber repetido de forma idéntica y reconstruye el código de un saber
   repetido cuyo texto indica otro apartado (`sb:BBIE02SBIII.3.1`).
 - `config/incidencias_aceptadas.yaml` queda vacío: el corpus no tiene errores.

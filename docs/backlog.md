@@ -96,15 +96,27 @@ Notas de la aprobación:
 Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`, y las 175
 `explicacion_repetida_entre_cursos`. **Depende de** 2.2–2.4.
 
-- [ ] **3.1 Descargar y registrar el segundo lote**:
+- [x] **3.1 Descargar y registrar el segundo lote**:
   - ESO: Lengua Extranjera, Física y Química, Historia y Geografía de Canarias, Cultura y
     Ciudadanía Digital, Lengua Castellana y Literatura, Educación Plástica, Segunda Lengua
     Extranjera, Educación Física, Geografía e Historia, Economía Personal y Social.
   - Primaria: Educación Física.
-- [ ] **3.2 Contrastar y proponer correcciones** de los textos mezclados entre materias.
-- [ ] **3.3 Clasificar las explicaciones repetidas entre cursos**: corrección si el ODT las
-  distingue; nota justificativa si también son iguales en el ODT.
-- [ ] **3.4 Aprobación** y reconstrucción.
+
+  Hecho (03-11-2026). El lector ya admite descripciones de bloque de saberes (Lengua
+  Castellana) y rótulos de curso compartidos por varias materias (Segunda Lengua Extranjera).
+- [x] **3.2 Contrastar y proponer correcciones** de los textos mezclados entre materias.
+  Hecho: `contrastar --proponer` detecta además textos de saber de otra materia, explicaciones
+  copiadas de otro curso y bloques con título y descripción juntos. Correcciones 0017–0033
+  (generadas) y 0034–0035 (manuales), pendientes de aprobación. Con todas aprobadas, 107 de
+  los 110 avisos `encabezado_no_corresponde` y `texto_en_conflicto` quedan explicados (el nodo
+  coincide con el documento). Los avisos seguirán apareciendo porque los produce el importador
+  al leer la exportación; los otros 3 son de Educación Física de Primaria (ver 3.7).
+- [x] **3.3 Clasificar las explicaciones repetidas entre cursos** de las materias descargadas:
+  las 196 que el documento distingue se corrigen (avisos: de 171 a 110). Los 110 que quedan
+  son de materias sin documento descargado: se revisarán al contrastarlas (5.1).
+  Nota: tras corregir Infantil, el aviso cuenta también los cursos de un mismo ciclo, que
+  comparten la explicación oficial (Infantil y Primaria). Conviene que la regla los excluya.
+- [x] **3.4 Aprobación** de 0017–0035 y reconstrucción. Hecho: aprobadas el 03-11-2026.
 - [ ] **3.5 Códigos incoherentes con la numeración del texto**: 88 registros de la exportación
   (casi todos de 3.º ESO, más Historia de Canarias y Bioestadística) tienen un código cuyo
   apartado no coincide con el número de su encabezado. Hoy el importador solo reconstruye el
@@ -112,26 +124,50 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
 - [ ] **3.6 Comparar saberes por contenido en el informe de contraste**, como ya hace
   `--proponer`: la comparación por número da falsos positivos cuando la exportación y el
   documento anidan distinto (Matemáticas de Primaria, Filosofía).
-- [ ] **3.7 Diferencias de versión**: en Educación en Valores Cívicos y Éticos de Primaria
-  el ODT y la exportación difieren en muchos textos y descriptores. Comprobar cuál
-  corresponde al Decreto 211/2022 publicado en el BOC.
+- [ ] **3.7 Diferencias de versión**: en Educación en Valores Cívicos y Éticos y en Educación
+  Física de Primaria, el ODT y la exportación difieren en muchos textos, explicaciones y
+  descriptores. Comprobar cuál corresponde al Decreto 211/2022 publicado en el BOC.
+- [ ] **3.8 Descriptores de bloque**: en Plástica, Historia de Canarias, Lengua Castellana y
+  Educación Física de Primaria los descriptores de algunos bloques no coinciden con la
+  cabecera de la tabla del documento. Comprobar si el importador los toma de los criterios.
+- [ ] **3.9 Restos menores**: dobles espacios o espacios de no separación (Economía Personal y
+  Social, Física y Química, Cultura y Ciudadanía Digital) y una descripción de bloque truncada
+  en Cultura y Ciudadanía Digital (`sb:SCUJ03SBV`).
 
 ## Fase 4 — Completar la configuración y las decisiones
 
-- [ ] **4.1 Descriptores**: descargar los anexos 1 (PDF, enlaces en `anexos_competencias` del
+- [x] **4.1 Descriptores**: descargar los anexos 1 (PDF, enlaces en `anexos_competencias` del
   manifiesto), verificar `config/descriptores.csv` y marcar `verificado: si`.
-- [ ] **4.2 Cobertura** (decisiones de la persona responsable):
-  - [ ] Optativas que faltan en la exportación (*Juegos y Deportes Tradicionales de Canarias*,
-    *Música, Expresión y Espectáculos*): crearlas desde su ODT.
-  - [ ] ¿Los ámbitos de diversificación de la exportación (`SMBS`, `SAMB`, `SAM3`) corresponden al
-    Decreto 86/2025?
-  - [ ] ¿Entran el silbo gomero y Religión?
-- [ ] **4.3 Modelo** (decisiones):
-  - [ ] ¿Se unifican las competencias de Matemáticas A y B con las de Matemáticas?
-  - [ ] Códigos de materia inconsistentes: `TSA`/`TA7`, `PLW`/`LNT`, `VAL`/`EDK`.
-- [ ] **4.4 Licencia del corpus y fecha de la exportación** de ProIDEAC (`config/corpus.yaml`).
-- [ ] **4.5 Formatos de Infantil y de los ámbitos**: descargar un ODT de cada y adaptar el lector.
-- [ ] **4.6 CODEOWNERS** con los equipos reales y protección de la rama `main`.
+  Hecho: coinciden Primaria (34), ESO (34, columna izquierda del anexo del Decreto 30/2023) y
+  Bachillerato (38, columna derecha, con CPSAA1, CPSAA3, CCEC3 y CCEC4 desdoblados). Infantil
+  tiene 8 competencias sin descriptores; su anexo abrevia «CEC» la que el corpus llama CCEC
+  (anotado en la columna `nota`).
+- [x] **4.2 Cobertura** (decisiones de la persona responsable, 04-11-2026):
+  - [x] Optativas que faltan en la exportación (*Juegos y Deportes Tradicionales de Canarias*,
+    *Música, Expresión y Espectáculos*): crearlas desde su ODT. Códigos `JUI` y `MUW` (1.º de
+    Bachillerato), asignados el 04-11-2026. Correcciones 0042 y 0043 propuestas, generadas con
+    `herramientas.materia_desde_odt`; aprobadas el 04-11-2026.
+  - [x] ¿Los ámbitos de diversificación de la exportación (`SMBS`, `SAMB`, `SAM3`) corresponden al
+    Decreto 86/2025? Sí: de 139 competencias y criterios, 119 son idénticos al ODT y casi todos
+    los demás son retoques menores. Difieren de verdad la competencia 4 del Ámbito Lingüístico y
+    Social y dos criterios del Ámbito Práctico, y hay saberes del ODT que la exportación no trae
+    (revisar a mano, junto con 3.6).
+  - [x] ¿Entran el silbo gomero y Religión? No (registrado en `excluidos` del manifiesto).
+- [x] **4.3 Modelo** (decisiones del 04-11-2026):
+  - [x] ¿Se unifican las competencias de Matemáticas A y B con las de Matemáticas? No: se
+    mantienen sus propios nodos y no cambia ningún identificador.
+  - [x] Códigos de materia inconsistentes: `TSA`/`TA7`, `PLW`/`LNT`, `VAL`/`EDK`. Se conservan
+    los identificadores de ProIDEAC; el catálogo mantiene las dos columnas.
+- [x] **4.4 Licencia del corpus y fecha de la exportación** de ProIDEAC (`config/corpus.yaml`).
+  Datos CC BY 4.0 con la aclaración del art. 13 TRLPI (`LICENCIA-DATOS.md`); código GPL-3.0.
+  Fecha de la exportación: desconocida (se anota la de incorporación, 03-11-2026).
+- [x] **4.5 Formatos de Infantil y de los ámbitos**: descargar un ODT de cada y adaptar el lector.
+  Hecho con los 6 documentos (3 áreas de Infantil y 3 ámbitos): ciclos de Infantil, criterios de
+  Infantil en una sola fila y sin descriptores, bloques de saberes «Bloque I. …» y `secciones`
+  manuales para los ámbitos. Correcciones propuestas 0036–0041 (explicaciones copiadas de otro
+  curso, 55 en total, y título y descripción de bloques en el Ámbito Lingüístico y Social). Aprobadas el 04-11-2026.
+- [ ] **4.6 CODEOWNERS** con los equipos reales y protección de la rama `main`. Aplazado
+  (04-11-2026): no bloquea la 1.0.0.
 
 ## Fase 5 — Preparar la 1.0.0
 

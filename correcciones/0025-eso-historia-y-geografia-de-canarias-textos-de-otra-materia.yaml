@@ -1,0 +1,22 @@
+id: '0025'
+titulo: 'Historia y Geografía de Canarias (Educación Secundaria Obligatoria): 2 textos de saber de otra materia'
+motivo: La exportación asigna a estos saberes un texto de otra materia (encabezados mezclados entre materias). Se toma el
+  texto del documento oficial en la misma posición. Generada con `contrastar --proponer`.
+fuente:
+  documento: eso-historia-y-geografia-de-canarias
+  fichero: fuentes/documentos/eso/Historia_geografia_de_Canarias_ESO.odt
+  sha256: 7a0621b9460f2bbf0298921a6abd6881029146e1b098b17cd75f9693eb2bf61f
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: sb:SHOF03SBII.4
+  campo: definition
+  valor: Estudio de la demografía en Canarias. Ordenación del territorio y transformación del espacio. La huella humana y
+    la protección del medio natural canario. Análisis de la variedad de ecosistemas insulares a partir de la Red Canaria
+    de Espacios Naturales Protegidos.
+- nodo: sb:SHOF03SBIII.1
+  campo: definition
+  valor: 'Estudio del patrimonio natural canario: conocimiento, respeto y valoración de su riqueza y diversidad. Contribución
+    desde la sensibilización al disfrute, transmisión y cuidado del patrimonio natural canario, partiendo de la aproximación
+    a los fundamentos jurídicos y administrativos que puedan garantizar la gestión y conservación.'

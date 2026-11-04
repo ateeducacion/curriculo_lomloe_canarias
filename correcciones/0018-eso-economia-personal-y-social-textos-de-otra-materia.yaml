@@ -1,0 +1,15 @@
+id: 0018
+titulo: 'Economía Personal y Social (Educación Secundaria Obligatoria): 1 textos de saber de otra materia'
+motivo: La exportación asigna a estos saberes un texto de otra materia (encabezados mezclados entre materias). Se toma el
+  texto del documento oficial en la misma posición. Generada con `contrastar --proponer`.
+fuente:
+  documento: eso-economia-personal-y-social
+  fichero: fuentes/documentos/eso/Economia_personal_y_social.odt
+  sha256: 853176cd0642f49118c6522b938af261b9dbd6d4320cbaa019b41f4d9479fbfb
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: sb:SECZ03SBIII.3
+  campo: definition
+  valor: Estudio de la economía circular como modelo de producción y consumo alternativo. Estudio de casos.

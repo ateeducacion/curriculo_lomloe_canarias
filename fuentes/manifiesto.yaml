@@ -44,9 +44,9 @@ anexos_competencias:
 - etapa: etapa:BAC
   titulo: Anexo 1. Perfil de salida del alumnado al término de la enseñanza básica y competencias clave en el Bachillerato
   url: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/secundaria/_galeria/descargas/ordenacion-curriculo-lomloe/anexo-1-decreto-30-ordenacion-curriculo-eso-bachillerato.pdf
-pendientes_de_decidir:
-- 'Concreciones del silbo gomero (Primaria y ESO): publicadas como borrador; ¿entran en el corpus?'
-- 'Currículos de Religión: los publica el BOE (Ministerio); ¿entran en el corpus?'
+excluidos:
+- 'Concreciones del silbo gomero (Primaria y ESO): publicadas como borrador. No entran en el corpus (decisión del 04-11-2026).'
+- 'Currículos de Religión: los publica el BOE (Ministerio). No entran en el corpus (decisión del 04-11-2026).'
 documentos:
 - id: eso-biologia-y-geologia
   etapa: S
@@ -76,9 +76,9 @@ documentos:
   cursos: 3.º
   norma: decreto-30-2023
   url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Cultura_y_Ciudadania_digital_ESO.odt
-  fichero: null
-  sha256: null
-  descargado: null
+  fichero: eso/Cultura_y_Ciudadania_digital_ESO.odt
+  sha256: 74b4390fcf70fca13056a338916cbfab9ca3e8abfee26b5192887fe5ae9ac768
+  descargado: '2026-11-03'
   materias:
   - SCUJ
 - id: eso-digitalizacion
@@ -98,9 +98,9 @@ documentos:
   cursos: 3.º
   norma: decreto-30-2023
   url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Economia_personal_y_social.odt
-  fichero: null
-  sha256: null
-  descargado: null
+  fichero: eso/Economia_personal_y_social.odt
+  sha256: 853176cd0642f49118c6522b938af261b9dbd6d4320cbaa019b41f4d9479fbfb
+  descargado: '2026-11-03'
   materias:
   - SECZ
 - id: eso-economia-y-emprendimiento
@@ -131,9 +131,9 @@ documentos:
   cursos: 1.º a 4.º
   norma: decreto-30-2023
   url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Educacion_Fisica_ESO.odt
-  fichero: null
-  sha256: null
-  descargado: null
+  fichero: eso/Educacion_Fisica_ESO.odt
+  sha256: e275ea4326004bdb4de2adf25ca208f42e3bcde467b1b448732f412dcf16234e
+  descargado: '2026-11-03'
   materias:
   - SEFI
 - id: eso-educacion-plastica-visual-y-audiovisual
@@ -142,9 +142,9 @@ documentos:
   cursos: 1.º, 2.º y 3.º
   norma: decreto-30-2023
   url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Educacion_Plastica_Visual_y_Audiovisual_ESO.odt
-  fichero: null
-  sha256: null
-  descargado: null
+  fichero: eso/Educacion_Plastica_Visual_y_Audiovisual_ESO.odt
+  sha256: 2725925a2b96dec2f2191c4e0527bb47139cc0a45c363157b7f4598a18670112
+  descargado: '2026-11-03'
   materias:
   - SEUP
 - id: eso-expresion-artistica
@@ -175,9 +175,9 @@ documentos:
   cursos: 2.º, 3.º y 4.º
   norma: decreto-30-2023
   url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Fisica_quimica_ESO.odt
-  fichero: null
-  sha256: null
-  descargado: null
+  fichero: eso/Fisica_quimica_ESO.odt
+  sha256: 15a856ae13e6dd6415a1d9666e0afff3b822618e57d60ae72cd308c015c802b3
+  descargado: '2026-11-03'
   materias:
   - SFYQ
 - id: eso-formacion-y-orientacion-personal-y-profesional
@@ -197,9 +197,9 @@ documentos:
   cursos: 1.º a 4.º
   norma: decreto-30-2023
   url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Geografia_historia_ESO.odt
-  fichero: null
-  sha256: null
-  descargado: null
+  fichero: eso/Geografia_historia_ESO.odt
+  sha256: 9b5c5ba96666c999487436cf4cfb70409f271fb8e726c8827a8388120ac41007
+  descargado: '2026-11-03'
   materias:
   - SGEH
 - id: eso-historia-y-geografia-de-canarias
@@ -208,9 +208,9 @@ documentos:
   cursos: 3.º
   norma: decreto-30-2023
   url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Historia_geografia_de_Canarias_ESO.odt
-  fichero: null
-  sha256: null
-  descargado: null
+  fichero: eso/Historia_geografia_de_Canarias_ESO.odt
+  sha256: 7a0621b9460f2bbf0298921a6abd6881029146e1b098b17cd75f9693eb2bf61f
+  descargado: '2026-11-03'
   materias:
   - SHOF
 - id: eso-latin
@@ -230,9 +230,9 @@ documentos:
   cursos: 1.º a 4.º
   norma: decreto-30-2023
   url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/lengua_castellana_literatura_ESO.odt
-  fichero: null
-  sha256: null
-  descargado: null
+  fichero: eso/lengua_castellana_literatura_ESO.odt
+  sha256: 04a45cae3b2805ab047e1a13f730d1ab7a17e7f35d317d950c65ff09bb152f4c
+  descargado: '2026-11-03'
   materias:
   - SLCL
 - id: eso-lengua-extranjera
@@ -241,9 +241,9 @@ documentos:
   cursos: 1.º a 4.º
   norma: decreto-30-2023
   url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Lengua_extranjera_ESO.odt
-  fichero: null
-  sha256: null
-  descargado: null
+  fichero: eso/Lengua_extranjera_ESO.odt
+  sha256: 02f02285ec33ec8380caaf22b32eb86bfed12063865f50b3748f8a55dea2d159
+  descargado: '2026-11-03'
   materias:
   - SLNT
 - id: eso-matematicas
@@ -277,9 +277,9 @@ documentos:
   cursos: 1.º a 4.º
   norma: decreto-30-2023
   url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Segunda_lengua_extranjera_ESO.odt
-  fichero: null
-  sha256: null
-  descargado: null
+  fichero: eso/Segunda_lengua_extranjera_ESO.odt
+  sha256: a11d229c2507a98cc16ad2f662b1213393ce6ef432ccd040f2435695cf78f3d6
+  descargado: '2026-11-03'
   materias:
   - SSGA
   - SSGD
@@ -312,33 +312,51 @@ documentos:
   cursos: PDC 1.º y 2.º
   norma: decreto-86-2025
   url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/anexo_1_curriculos_pdc_eso_LS.odt
-  fichero: null
-  sha256: null
-  descargado: null
+  fichero: eso/anexo_1_curriculos_pdc_eso_LS.odt
+  sha256: 81b1c093d073bb40f625301a50832d4c4a68d6fdb6953728644a01360c8e1dac
+  descargado: '2026-11-03'
   materias:
   - SMBS
+  secciones:
+    Curso 1.º. Ámbito Lingüístico y Social:
+      materia: SMBS
+      curso: '03'
+    Curso 2.º. Ámbito Lingüístico y Social:
+      materia: SMBS
+      curso: '04'
 - id: eso-ambito-cientifico-tecnologico
   etapa: S
   denominacion: Ámbito Científico-Tecnológico
   cursos: PDC 1.º y 2.º
   norma: decreto-86-2025
   url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/anexo_2_curriculo_pdc_eso_ACT.odt
-  fichero: null
-  sha256: null
-  descargado: null
+  fichero: eso/anexo_2_curriculo_pdc_eso_ACT.odt
+  sha256: 64d8f26e9c715b667e231f20a70e91c7e1e54cfc4389a09e25d10a7ca5afe6e9
+  descargado: '2026-11-03'
   materias:
   - SAMB
+  secciones:
+    Curso 1.º. Ámbito Científico Tecnológico:
+      materia: SAMB
+      curso: '03'
+    Curso 2.º. Ámbito Científico Tecnológico:
+      materia: SAMB
+      curso: '04'
 - id: eso-ambito-practico
   etapa: S
   denominacion: Ámbito Práctico
   cursos: PDC 2.º
   norma: decreto-86-2025
   url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/anexo_3_curriculo_pdc_eso__AP.odt
-  fichero: null
-  sha256: null
-  descargado: null
+  fichero: eso/anexo_3_curriculo_pdc_eso__AP.odt
+  sha256: 548c53378ed12f099d77f459aac883b926f79bae6673ca72b901b70839ce8962
+  descargado: '2026-11-03'
   materias:
   - SAM3
+  secciones:
+    Curso 2.º Ámbito Práctico:
+      materia: SAM3
+      curso: '04'
 - id: primaria-conocimiento-del-medio-natural-social-y-cultural
   etapa: P
   denominacion: Conocimiento del Medio Natural, Social y Cultural
@@ -378,9 +396,9 @@ documentos:
   cursos: ciclos 1.º, 2.º y 3.º
   norma: decreto-211-2022
   url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/curriculo-primaria/borrador_curriculo_2023/anexo_2_curriculo-educacion_fisica.odt
-  fichero: null
-  sha256: null
-  descargado: null
+  fichero: primaria/anexo_2_curriculo-educacion_fisica.odt
+  sha256: 24c8a6c7f9c1cf7414f747c0dc48fb58e8bb21fff3bb91f99e15698aae6b671e
+  descargado: '2026-11-03'
   materias:
   - PEFI
 - id: primaria-lengua-castellana-y-literatura
@@ -445,9 +463,9 @@ documentos:
   cursos: ciclos 1.º y 2.º
   norma: decreto-196-2022
   url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/infantil/borradores_curriculos/Area_1_Crecimiento_en_Armonia.odt
-  fichero: null
-  sha256: null
-  descargado: null
+  fichero: infantil/Area_1_Crecimiento_en_Armonia.odt
+  sha256: 661708b03152323740af3e35c4f121573712d940f1a77e5c6b24e35aeb95989b
+  descargado: '2026-11-03'
   materias:
   - ICR4
 - id: infantil-descubrimiento-y-exploracion-del-entorno
@@ -456,9 +474,9 @@ documentos:
   cursos: ciclos 1.º y 2.º
   norma: decreto-196-2022
   url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/infantil/borradores_curriculos/area_2_descubrimiento_exploracion_entorno_infantil.odt
-  fichero: null
-  sha256: null
-  descargado: null
+  fichero: infantil/area_2_descubrimiento_exploracion_entorno_infantil.odt
+  sha256: 3e36658da4d27fa91502e80d267e74b99b6b9817f38feda264134dad996b1772
+  descargado: '2026-11-03'
   materias:
   - IDE3
 - id: infantil-comunicacion-y-representacion-de-la-realidad
@@ -467,9 +485,9 @@ documentos:
   cursos: ciclos 1.º y 2.º
   norma: decreto-196-2022
   url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/infantil/borradores_curriculos/Area_3_Comunicacion_y_Representacion_de_la_Realidad.odt
-  fichero: null
-  sha256: null
-  descargado: null
+  fichero: infantil/Area_3_Comunicacion_y_Representacion_de_la_Realidad.odt
+  sha256: 767e4e7dd8a49b4250e275f573607ca1208d0669adcf9da59ea36f3fcb3f3b40
+  descargado: '2026-11-03'
   materias:
   - IC4M
   - IC5M
@@ -1144,10 +1162,11 @@ documentos:
   cursos: 1.º (optativa)
   norma: decreto-78-2025
   url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/juegos_deportes_tradicionales_canarias_BACH.odt
-  fichero: null
-  sha256: null
-  descargado: null
-  materias: []
+  fichero: bachillerato/juegos_deportes_tradicionales_canarias_BACH.odt
+  sha256: 6b4e244263051a3bba95aade9ebe12e368a4857bd2c20ad5c69f4cf8c20568ad
+  descargado: '2026-11-04'
+  materias:
+  - BJUI
 - id: bachillerato-medio-natural-canario
   etapa: B
   denominacion: Medio Natural Canario
@@ -1198,10 +1217,11 @@ documentos:
   cursos: 1.º (optativa)
   norma: decreto-78-2025
   url_odt: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/musica_expresion_espectaculos_BACH.odt
-  fichero: null
-  sha256: null
-  descargado: null
-  materias: []
+  fichero: bachillerato/musica_expresion_espectaculos_BACH.odt
+  sha256: 68e32efbec4a6049b4de1d521d0b015e58b2fe4148b7d84b66a1151f6b2d6436
+  descargado: '2026-11-04'
+  materias:
+  - BMUW
 - id: bachillerato-musica-y-sociedad
   etapa: B
   denominacion: Música y Sociedad

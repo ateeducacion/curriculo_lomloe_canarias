@@ -6,14 +6,14 @@
 |---|---|
 | Etapa | 4 |
 | Curso | 18 |
-| Materia | 136 |
-| CompetenciaEspecifica | 798 |
-| BloqueCompetencial | 1312 |
-| CriterioEvaluacion | 3126 |
-| BloqueSaberes | 1041 |
-| SaberBasico | 8729 |
+| Materia | 138 |
+| CompetenciaEspecifica | 804 |
+| BloqueCompetencial | 1318 |
+| CriterioEvaluacion | 3137 |
+| BloqueSaberes | 1047 |
+| SaberBasico | 8763 |
 
-**Total:** 15164
+**Total:** 15229
 
 ## Incidencias
 
@@ -26,7 +26,7 @@
 | aviso | codigo_saber_reconstruido | 43 |
 | aviso | encabezado_no_corresponde | 83 |
 | aviso | encabezado_sin_texto | 6 |
-| aviso | explicacion_repetida_entre_cursos | 171 |
+| aviso | explicacion_repetida_entre_cursos | 122 |
 | aviso | registro_repetido | 1 |
 | aviso | saber_con_hijos | 51 |
 | aviso | saber_sin_numeracion | 1 |
@@ -54,3 +54,30 @@
 | 0014-matematicas-primaria-saberes-con-codigo-truncado.yaml | aprobada | 8 | Matemáticas (Primaria, 3.º y 4.º): saberes de I.2.10 e I.2.12 perdidos por códigos truncados |
 | 0015-filosofia-bachillerato-saberes-iii-1-8.yaml | aprobada | 7 | Filosofía (Bachillerato): textos de los saberes III.1.8 y saber III.1.8.7 ausente |
 | 0016-bioestadistica-saberes-iii-3.yaml | aprobada | 2 | Bioestadística (Bachillerato): saber III.3.2 exportado con el código III.1.2 |
+| 0017-eso-cultura-y-ciudadania-digital-textos-de-otra-materia.yaml | aprobada | 3 | Cultura y Ciudadanía Digital (Educación Secundaria Obligatoria): 3 textos de saber de otra materia |
+| 0018-eso-economia-personal-y-social-textos-de-otra-materia.yaml | aprobada | 1 | Economía Personal y Social (Educación Secundaria Obligatoria): 1 textos de saber de otra materia |
+| 0019-eso-educacion-fisica-explicaciones-copiadas.yaml | aprobada | 15 | Educación Física (Educación Secundaria Obligatoria): 15 explicaciones de bloque copiadas de otro curso |
+| 0020-eso-educacion-plastica-visual-y-audiovisual-explicaciones-copiadas.yaml | aprobada | 16 | Educación Plástica, Visual y Audiovisual (Educación Secundaria Obligatoria): 16 explicaciones de bloque copiadas de otro curso |
+| 0021-eso-educacion-plastica-visual-y-audiovisual-textos-de-otra-materia.yaml | aprobada | 3 | Educación Plástica, Visual y Audiovisual (Educación Secundaria Obligatoria): 3 textos de saber de otra materia |
+| 0022-eso-fisica-y-quimica-explicaciones-copiadas.yaml | aprobada | 12 | Física y Química (Educación Secundaria Obligatoria): 12 explicaciones de bloque copiadas de otro curso |
+| 0023-eso-fisica-y-quimica-textos-de-otra-materia.yaml | aprobada | 7 | Física y Química (Educación Secundaria Obligatoria): 7 textos de saber de otra materia |
+| 0024-eso-geografia-e-historia-explicaciones-copiadas.yaml | aprobada | 25 | Geografía e Historia (Educación Secundaria Obligatoria): 25 explicaciones de bloque copiadas de otro curso |
+| 0025-eso-historia-y-geografia-de-canarias-textos-de-otra-materia.yaml | aprobada | 2 | Historia y Geografía de Canarias (Educación Secundaria Obligatoria): 2 textos de saber de otra materia |
+| 0026-eso-lengua-castellana-y-literatura-explicaciones-copiadas.yaml | aprobada | 30 | Lengua Castellana y Literatura (Educación Secundaria Obligatoria): 30 explicaciones de bloque copiadas de otro curso |
+| 0027-eso-lengua-castellana-y-literatura-titulo-y-descripcion-de-bloques.yaml | aprobada | 12 | Lengua Castellana y Literatura (Educación Secundaria Obligatoria): 12 título y descripción de los bloques de saberes |
+| 0028-eso-lengua-extranjera-explicaciones-copiadas.yaml | aprobada | 18 | Lengua Extranjera (Educación Secundaria Obligatoria): 18 explicaciones de bloque copiadas de otro curso |
+| 0029-eso-lengua-extranjera-textos-de-otra-materia.yaml | aprobada | 6 | Lengua Extranjera (Educación Secundaria Obligatoria): 6 textos de saber de otra materia |
+| 0030-eso-segunda-lengua-extranjera-explicaciones-copiadas.yaml | aprobada | 54 | Segunda Lengua Extranjera (Educación Secundaria Obligatoria): 54 explicaciones de bloque copiadas de otro curso |
+| 0031-eso-tecnologia-y-digitalizacion-explicaciones-copiadas.yaml | aprobada | 14 | Tecnología y Digitalización (Educación Secundaria Obligatoria): 14 explicaciones de bloque copiadas de otro curso |
+| 0032-primaria-educacion-fisica-explicaciones-copiadas.yaml | aprobada | 12 | Educación Física (Educación Primaria): 12 explicaciones de bloque copiadas de otro curso |
+| 0033-primaria-matematicas-explicaciones-copiadas.yaml | aprobada | 4 | Matemáticas (Educación Primaria): 4 explicaciones de bloque copiadas de otro curso |
+| 0034-lengua-castellana-eso-saber-i-2-de-3-eso.yaml | aprobada | 1 | Lengua Castellana y Literatura (3.º ESO): texto del saber I.2 tomado de otro bloque |
+| 0035-segunda-lengua-extranjera-eso-enunciado-ce2.yaml | aprobada | 3 | Segunda Lengua Extranjera (ESO): coma sobrante en el enunciado de la competencia 2 |
+| 0036-eso-ambito-linguistico-y-social-explicaciones-copiadas.yaml | aprobada | 4 | Ámbito Lingüístico y Social (Educación Secundaria Obligatoria): 4 explicaciones de bloque copiadas de otro curso |
+| 0037-eso-ambito-linguistico-y-social-titulo-y-descripcion-de-bloques.yaml | aprobada | 4 | Ámbito Lingüístico y Social (Educación Secundaria Obligatoria): 4 título y descripción de los bloques de saberes |
+| 0038-eso-ambito-cientifico-tecnologico-explicaciones-copiadas.yaml | aprobada | 1 | Ámbito Científico-Tecnológico (Educación Secundaria Obligatoria): 1 explicaciones de bloque copiadas de otro curso |
+| 0039-infantil-crecimiento-en-armonia-explicaciones-copiadas.yaml | aprobada | 12 | Crecimiento en Armonía (Educación Infantil): 12 explicaciones de bloque copiadas de otro curso |
+| 0040-infantil-descubrimiento-y-exploracion-del-entorno-explicaciones-copiadas.yaml | aprobada | 9 | Descubrimiento y Exploración del Entorno (Educación Infantil): 9 explicaciones de bloque copiadas de otro curso |
+| 0041-infantil-comunicacion-y-representacion-de-la-realidad-explicaciones-copiadas.yaml | aprobada | 30 | Comunicación y Representación de la Realidad (Educación Infantil): 30 explicaciones de bloque copiadas de otro curso |
+| 0042-bachillerato-juegos-y-deportes-tradicionales-de-canarias-materia-ausente.yaml | aprobada | 22 | Juegos y Deportes Tradicionales de Canarias (Bachillerato): materia ausente en la exportación |
+| 0043-bachillerato-musica-expresion-y-espectaculos-materia-ausente.yaml | aprobada | 43 | Música, Expresión y Espectáculos (Bachillerato): materia ausente en la exportación |
