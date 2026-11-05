@@ -187,6 +187,9 @@ def _dist(corpus):
                 w.writerow({k: '|'.join(v) if isinstance(v, list) else
                             json.dumps(v, ensure_ascii=False) if isinstance(v, dict) else v for k, v in n.items()})
             z.writestr(f'{tipo}.csv', buf.getvalue())
+    from . import exportar_rdf
+    exportar_rdf.escribir(corpus, DIST)
+    (DIST / 'curriculo.ttl.sha256').write_text(f"{sha256(DIST / 'curriculo.ttl')}  curriculo.ttl\n", encoding='utf-8')
 
 
 def main(argv=None):

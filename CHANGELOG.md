@@ -41,6 +41,8 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
 - Nodos retirados como obsoletos (`accion: retirar`, `obsoleto`, `sustituido_por`).
 - Correcciones 0267–0269: enunciados de competencia de Griego I y II, Antropología y Sociología y Cultura Científica (la competencia 2 repetía la 1).
 
+- Exportación RDF (`herramientas/exportar_rdf.py`): `curriculo.ttl` en SKOS con doble tipado schema.org, URIs en GitHub Pages (base configurable en `config/corpus.yaml`), descriptores operativos como esquema propio; vocabulario `vocabulario/cur.ttl` y formas SHACL validadas en la CI. El release incluye `curriculo.ttl`, su sha256 y `cur.ttl`.
+
 ### Cambiado
 - Los bloques competenciales y de saberes cuelgan de su `MateriaCurso`, no de la materia (los identificadores no cambian).
 - `contrastar` ya no da por explicada una competencia con otro enunciado en otro curso: el modelo guarda el de cada curso.

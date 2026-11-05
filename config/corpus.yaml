@@ -19,4 +19,9 @@ licencia:
     Los textos normativos no son objeto de propiedad intelectual (art. 13 TRLPI). La licencia
     se aplica a la estructura, los identificadores, las relaciones y las correcciones del corpus.
     Ver LICENCIA-DATOS.md.
+rdf:
+  # Base de las URIs de los nodos: <base>id/<prefijo>/<código> (crit:SMAT01CE1.1 →
+  # <base>id/crit/SMAT01CE1.1). Provisional en GitHub Pages; se valorará w3id.org. Cambiarla
+  # cambia todas las URIs: el vocabulario (vocabulario/cur.ttl) usa <base>def/cur#.
+  base: https://ateeducacion.github.io/curriculo_lomloe_canarias/
 normas: [decreto-196-2022, decreto-211-2022, decreto-30-2023, decreto-78-2025, decreto-86-2025]

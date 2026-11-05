@@ -49,3 +49,37 @@ Matemáticas de 1.º ESO son los que tienen `materia_curso: asig:SMAT01`).
    y, si procede, `sustituido_por`). Así no se rompen los enlaces de quien lo usaba. Ningún
    nodo vigente puede colgar de uno retirado. `accion: eliminar` solo se usa antes de la 1.0,
    para limpiar nodos que nunca se publicaron.
+
+## Datos enlazados (RDF)
+
+`python -m herramientas.exportar_rdf` (y `construir --dist`) genera `curriculo.ttl`: el corpus
+en SKOS, en Turtle. Las clases y propiedades propias están en [`vocabulario/cur.ttl`](../vocabulario/cur.ttl),
+que se puede importar en Omeka S como vocabulario (prefijo `cur`).
+
+- **URIs**: `<base>id/<prefijo>/<código>`, p. ej.
+  `https://ateeducacion.github.io/curriculo_lomloe_canarias/id/crit/SMAT01CE1.1`. La base está en
+  `config/corpus.yaml` (`rdf.base`); es provisional en GitHub Pages y se valorará w3id.org. Las
+  URIs no llevan versión: la versión es del esquema de conceptos (`owl:versionInfo`).
+- **Cada nodo** es `skos:Concept`, de su clase `cur:<Tipo>` (subclase de `skos:Concept`) y
+  `schema:DefinedTerm`, en el esquema `<base>id/curriculo` (`skos:inScheme` y
+  `schema:inDefinedTermSet`). El doble tipado con schema.org permite enlazarlo desde recursos
+  descritos con LRMI (`lrmi:teaches`, `lrmi:assesses`).
+- **Campos**: los de la tabla de arriba. `broader` y `narrower` se escriben los dos (los
+  consumidores no suelen inferir). Los enunciados por curso son nodos `cur:EnunciadoEnCurso`
+  con `cur:curso` y `skos:definition`.
+- **Descriptores operativos**: esquema `<base>id/descriptores`, generado desde
+  `config/descriptores.csv`. Cada descriptor (`<base>id/descriptor/ESO/CCL1`) cuelga de su
+  competencia clave (`<base>id/competencia-clave/CCL`) y los criterios y bloques los enlazan con
+  `cur:descriptorOperativo`.
+- **Validación**: [`esquema/curriculo.shacl.ttl`](../esquema/curriculo.shacl.ttl) comprueba lo que
+  el esquema JSON no puede, que cada enlace apunta a un nodo de la clase correcta. La CI valida
+  el Turtle que se publica (`exportar_rdf --ttl dist/curriculo.ttl --validar`).
+
+### Integración con Omeka S
+
+Omeka S importa vocabularios (clases y propiedades) desde Turtle, pero no ítems: el Turtle es
+para publicar los datos enlazados y `cur.ttl` para importar el vocabulario. La carga de los
+nodos como ítems la hará un módulo que lee `curriculo.json` de una versión fijada, comprueba su
+sha256, localiza cada ítem por `dcterms:identifier` (el `id` del corpus) y lo actualiza sin
+cambiar su identificador interno, para no romper los enlaces de los recursos; crea los nuevos y
+marca los retirados (decisiones del 05-11-2026).

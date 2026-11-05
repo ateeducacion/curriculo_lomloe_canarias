@@ -1,0 +1,102 @@
+@prefix cur:     <https://ateeducacion.github.io/curriculo_lomloe_canarias/def/cur#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+
+# Vocabulario del corpus del currículo LOMLOE de Canarias.
+# Las clases son subclases de skos:Concept; los nodos usan además las propiedades de SKOS
+# (prefLabel, definition, scopeNote, notation, broader/narrower). Se puede importar en
+# Omeka S como vocabulario (prefijo «cur», espacio de nombres de arriba).
+
+<https://ateeducacion.github.io/curriculo_lomloe_canarias/def/cur>
+    a owl:Ontology ;
+    rdfs:label "Currículo LOMLOE de Canarias"@es , "LOMLOE curriculum of the Canary Islands"@en ;
+    rdfs:comment "Clases y propiedades del corpus del currículo LOMLOE de Canarias."@es ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    owl:versionInfo "1.0.0" .
+
+# ---- Clases ----
+
+cur:Etapa a owl:Class ; rdfs:subClassOf skos:Concept ;
+    rdfs:label "Etapa"@es , "Stage"@en ;
+    rdfs:comment "Etapa educativa: Infantil, Primaria, ESO o Bachillerato."@es .
+
+cur:Curso a owl:Class ; rdfs:subClassOf skos:Concept ;
+    rdfs:label "Curso"@es , "Year"@en ;
+    rdfs:comment "Curso de una etapa (1.º ESO…)."@es .
+
+cur:Materia a owl:Class ; rdfs:subClassOf skos:Concept ;
+    rdfs:label "Materia"@es , "Subject"@en ;
+    rdfs:comment "Materia o área de una etapa, común a los cursos en que se imparte."@es .
+
+cur:MateriaCurso a owl:Class ; rdfs:subClassOf skos:Concept ;
+    rdfs:label "Materia en un curso"@es , "Subject in a year"@en ;
+    rdfs:comment "La materia en un curso concreto (Matemáticas de 1.º ESO). Es el nodo con el que se cataloga un recurso."@es .
+
+cur:CompetenciaEspecifica a owl:Class ; rdfs:subClassOf skos:Concept ;
+    rdfs:label "Competencia específica"@es , "Specific competence"@en .
+
+cur:BloqueCompetencial a owl:Class ; rdfs:subClassOf skos:Concept ;
+    rdfs:label "Bloque competencial"@es , "Competence block"@en ;
+    rdfs:comment "Competencias específicas de una materia en un curso, con sus criterios de evaluación, su explicación y sus descriptores operativos."@es .
+
+cur:CriterioEvaluacion a owl:Class ; rdfs:subClassOf skos:Concept ;
+    rdfs:label "Criterio de evaluación"@es , "Assessment criterion"@en .
+
+cur:BloqueSaberes a owl:Class ; rdfs:subClassOf skos:Concept ;
+    rdfs:label "Bloque de saberes básicos"@es , "Block of basic knowledge"@en .
+
+cur:SaberBasico a owl:Class ; rdfs:subClassOf skos:Concept ;
+    rdfs:label "Saber básico"@es , "Basic knowledge"@en ;
+    rdfs:comment "Saber básico o apartado de saberes (los que tienen saberes debajo son encabezados)."@es .
+
+cur:CompetenciaClave a owl:Class ; rdfs:subClassOf skos:Concept ;
+    rdfs:label "Competencia clave"@es , "Key competence"@en .
+
+cur:DescriptorOperativo a owl:Class ; rdfs:subClassOf skos:Concept ;
+    rdfs:label "Descriptor operativo"@es , "Operational descriptor"@en ;
+    rdfs:comment "Descriptor operativo de una competencia clave en una etapa (perfil de salida). En Infantil, la propia competencia clave."@es .
+
+cur:EnunciadoEnCurso a owl:Class ;
+    rdfs:label "Enunciado en un curso"@es , "Statement in a year"@en ;
+    rdfs:comment "Enunciado de una competencia específica en los cursos en que difiere del general."@es .
+
+# ---- Propiedades ----
+
+cur:etapa a owl:ObjectProperty ;
+    rdfs:label "etapa"@es , "stage"@en ; rdfs:range cur:Etapa ;
+    rdfs:comment "Etapa a la que pertenece el nodo (atajo para filtrar)."@es .
+
+cur:curso a owl:ObjectProperty ;
+    rdfs:label "curso"@es , "year"@en ; rdfs:range cur:Curso ;
+    rdfs:comment "Curso del nodo; en una materia, cursos en que se imparte."@es .
+
+cur:materia a owl:ObjectProperty ;
+    rdfs:label "materia"@es , "subject"@en ; rdfs:range cur:Materia ;
+    rdfs:comment "Materia a la que pertenece el nodo (atajo para filtrar)."@es .
+
+cur:materiaCurso a owl:ObjectProperty ;
+    rdfs:label "materia en curso"@es , "subject in a year"@en ; rdfs:range cur:MateriaCurso ;
+    rdfs:comment "Materia en un curso a la que pertenece el nodo (atajo para filtrar)."@es .
+
+cur:agrupa a owl:ObjectProperty ;
+    rdfs:label "agrupa"@es , "groups"@en ;
+    rdfs:domain cur:BloqueCompetencial ; rdfs:range cur:CompetenciaEspecifica ;
+    rdfs:comment "Competencias específicas que agrupa un bloque competencial."@es .
+
+cur:bloqueCompetencial a owl:ObjectProperty ;
+    rdfs:label "bloque competencial"@es , "competence block"@en ;
+    rdfs:domain cur:CriterioEvaluacion ; rdfs:range cur:BloqueCompetencial ;
+    rdfs:comment "Bloque competencial del criterio de evaluación."@es .
+
+cur:descriptorOperativo a owl:ObjectProperty ;
+    rdfs:label "descriptor operativo"@es , "operational descriptor"@en ;
+    rdfs:range cur:DescriptorOperativo ;
+    rdfs:comment "Descriptor operativo vinculado a un criterio de evaluación o a un bloque competencial."@es .
+
+cur:enunciadoEnCurso a owl:ObjectProperty ;
+    rdfs:label "enunciado en un curso"@es , "statement in a year"@en ;
+    rdfs:domain cur:CompetenciaEspecifica ; rdfs:range cur:EnunciadoEnCurso ;
+    rdfs:comment "Enunciado de la competencia en un curso en que difiere del general (skos:definition y cur:curso)."@es .

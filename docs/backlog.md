@@ -209,7 +209,13 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
   competencia por curso (`enunciados_curso`); nodos retirados como obsoletos (`accion: retirar`,
   `obsoleto`, `sustituido_por`) en lugar de borrarlos. Correcciones 0263–0269. Contraste: 104 de
   105 documentos coinciden; quedan 4 erratas de descriptores del ODT.
-- [ ] **5.3 Exportación RDF**: salida SKOS en Turtle en la publicación, con el modelo acordado
+- [x] **5.3 Exportación RDF**: salida SKOS en Turtle en la publicación, con el modelo acordado
   para Omeka S.
+  Hecho (05-11-2026): `herramientas/exportar_rdf.py` genera `curriculo.ttl` (unas 307.000
+  tripletas): SKOS con doble tipado schema.org, URIs `<base>id/<prefijo>/<código>` en GitHub
+  Pages (base configurable), descriptores operativos como esquema propio. Vocabulario
+  `vocabulario/cur.ttl` importable en Omeka S; formas SHACL en `esquema/curriculo.shacl.ttl`,
+  validadas en la CI; el release incluye `curriculo.ttl`, su sha256 y `cur.ttl`. Ver
+  `docs/modelo.md`, «Datos enlazados».
 - [ ] **5.4 Revisar la documentación** (README, modelo, contribuir, pendientes).
 - [ ] **5.5 Publicar v1.0.0**: CHANGELOG, `version` en `config/corpus.yaml`, etiqueta `v1.0.0`.

@@ -23,8 +23,10 @@ config/
   incidencias_aceptadas.yaml  errores conocidos que de momento no bloquean la CI
 correcciones/              una corrección por fichero, con motivo, fuente y estado
 datos/                     corpus construido: un JSON por materia (+ niveles.json)
-esquema/                   JSON Schema del corpus
-herramientas/              importación, corrección, validación, contraste y construcción
+esquema/                   JSON Schema del corpus y formas SHACL del RDF
+vocabulario/               vocabulario RDF del corpus (cur.ttl)
+herramientas/              importación, corrección, validación, contraste, construcción y RDF
+tests/                     pruebas automáticas (pytest)
 informes/                  último informe de construcción y de contraste
 docs/                      modelo de datos, cómo contribuir y pendientes
 ```
@@ -67,6 +69,9 @@ Cada versión se publica como *release* de GitHub con:
 - `curriculo.json` y `curriculo.json.sha256`: el corpus completo; es lo que deben consumir
   otros sistemas.
 - `curriculo-csv.zip`: un CSV por tipo de nodo, para revisión o herramientas de hoja de cálculo.
+- `curriculo.ttl` y `curriculo.ttl.sha256`: el corpus como datos enlazados (SKOS en Turtle), y
+  `cur.ttl`, el vocabulario de sus clases y propiedades (importable en Omeka S). Ver
+  [`docs/modelo.md`](docs/modelo.md#datos-enlazados-rdf).
 
 Numeración: **parche** = correcciones de texto; **menor** = nodos nuevos o retirados;
 **mayor** = cambio de marco normativo o de modelo de datos.
@@ -85,7 +90,8 @@ proponer una corrección, incorporar una exportación nueva y publicar una versi
 
 - **Datos** (`datos/`, `correcciones/`, `config/` y los ficheros de cada versión):
   [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es).
-- **Código** (`herramientas/`, `esquema/`, `.github/`): [GPL-3.0](LICENSE).
+- **Código** (`herramientas/`, `esquema/`, `tests/`, `.github/`): [GPL-3.0](LICENSE). El vocabulario
+  (`vocabulario/cur.ttl`) se publica con los datos, con CC BY 4.0.
 
 Los textos curriculares proceden de normas publicadas en el BOC y, según el artículo 13 de
 la Ley de Propiedad Intelectual, no son objeto de propiedad intelectual: la licencia de los

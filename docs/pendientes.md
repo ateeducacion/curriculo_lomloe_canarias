@@ -95,5 +95,13 @@ diferencias del corpus: el corpus sigue el documento oficial.
 
 ## Integración con Omeka S
 
-- Correspondencia entre los identificadores de este corpus y los `dcterms:identifier` de los ítems
-  ya cargados (12.546 según la memoria del proyecto), para el modo de adopción del módulo.
+Modelo y decisiones en [`modelo.md`](modelo.md#integración-con-omeka-s). Pendiente:
+
+- **Módulo de sincronización** (repositorio aparte): lee `curriculo.json`, localiza los ítems por
+  `dcterms:identifier` y aplica los cambios tras la aprobación de una persona.
+- **Instancia de desarrollo.** Es una primera aproximación (12.474 ítems `schema:DefinedTerm`,
+  cargados de la misma exportación de ProIDEAC). Comparada el 05-11-2026: coinciden los códigos
+  de los 3.026 criterios, 7.805 saberes y 759 competencias, así que una tabla de correspondencias
+  es directa. Falta decidir si se migran sus recursos o se carga de cero.
+- **URIs resolubles.** Las URIs apuntan a GitHub Pages, que aún no las sirve: hay que publicar en
+  Pages una página (o el Turtle) por nodo, o pasar a w3id.org con redirección.
