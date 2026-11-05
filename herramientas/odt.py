@@ -164,7 +164,8 @@ def leer(ruta, secciones):
                 doc['avisos'].append(f'Salto de nivel en saberes: {x[:70]}')
                 continue
             padre = pila[-1]
-            nodo = {'texto': x, 'hijos': []}
+            # Numeración escrita a mano en el texto (p. ej. «3.2 Valoración…» en Bioestadística).
+            nodo = {'texto': re.sub(r'^\d+(?:\.\d+)+\.?\s+', '', x), 'hijos': []}
             padre['hijos'].append(nodo)
             pila.append(nodo)
     doc['explicacion_competencias'] = {k: ' '.join(v) for k, v in doc['explicacion_competencias'].items()}
