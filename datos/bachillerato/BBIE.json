@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BBIE02",
+      "tipo": "MateriaCurso",
+      "notation": "BBIE02",
+      "prefLabel": "Bioestadística · 2º Bachillerato",
+      "broader": "materia:BBIE",
+      "materia": "materia:BBIE",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BBIEC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BBIEC1",
@@ -87,7 +97,7 @@
       "notation": "BBIE02BC1",
       "prefLabel": "Bioestadística · 2º Bachillerato · bloque competencial C1 + C2",
       "scopeNote": "A través de este bloque competencial se persigue que el alumnado sea capaz de modelizar y resolver, de forma autónoma, problemas relacionados con las ciencias de la vida,la salud, y medioambientales especialmente contextualizados en la Comunidad Autónoma de Canarias, como aplicación práctica de la estadística y la probabilidad a situaciones reales de las ciencias que nos ocupan. Todo ello haciendo uso de diferentes tecnologías digitales, como calculadoras, hojas de cálculo o programas de representación gráfica, entre otras; seleccionando y configurando las más adecuadas en función de la tarea; y describiendo de forma oral, escrita o gráfica, el proceso realizado. Para ello, se comprobará que el alumnado selecciona los datos u objetos relevantes de un problema, identifica sus relaciones y los codifica al lenguaje matemático o a un lenguaje fácil de interpretar por un sistema informático. Además, se evaluará que emplea diferentes estrategias para su resolución, como la analogía con otros problemas, la estimación, el ensayo y el error, la descomposición en problemas más sencillos, entre otras, seleccionando la más adecuada según su eficiencia. También, se persigue que el alumnado sea capaz de obtener todas las soluciones posibles de un problema, de demostrar la validez matemática de dichas soluciones, así como de seleccionar de entre ellas las más adecuadas en función del contexto, usando diferentes modos de comprobación de soluciones o de estrategias para validarlas, y evaluar su alcance.",
-      "broader": "materia:BBIE",
+      "broader": "asig:BBIE02",
       "agrupa": [
         "ce:BBIEC1",
         "ce:BBIEC2"
@@ -107,6 +117,7 @@
         "CCL1"
       ],
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -116,7 +127,7 @@
       "notation": "BBIE02BC3",
       "prefLabel": "Bioestadística · 2º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se pretende comprobar si el alumnado es capaz de formular, investigar y comprobar hipótesis y resolver problemas del ámbito de las ciencias de la vida y de la salud y medioambientales, de forma autónoma y creativa, siguiendo un procedimiento totalmente estructurado (planteamiento del problema a investigar, estado de la cuestión, objetivos, hipótesis, metodología, resultados, conclusiones...), integrando el uso de tecnologías digitales en él, seleccionando la más adecuada para la tarea a realizar y utilizando varias fuentes de información, con el fin de que el alumnado mejore su destreza para interpretar, modelizar fenómenos y resolver problemas.",
-      "broader": "materia:BBIE",
+      "broader": "asig:BBIE02",
       "agrupa": [
         "ce:BBIEC3"
       ],
@@ -134,6 +145,7 @@
         "CE3"
       ],
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -143,7 +155,7 @@
       "notation": "BBIE02BC4",
       "prefLabel": "Bioestadística · 2º Bachillerato · bloque competencial C4",
       "scopeNote": "Se persigue con este bloque competencial constatar que el alumnado es capaz de investigar y utilizar el pensamiento científico para conectar ideas, conceptos y procedimientos matemáticos, al resolver situaciones problemáticas,especialmente del entorno de Canarias, por medio del uso de tecnologías digitales; así como de establecer y aplicar relaciones entre las matemáticas y otras áreas del conocimiento asociadas a las ciencias de la vida y la salud. Además, se pretende comprobar que el alumnado analiza y valora la aportación de las investigaciones al progreso de la humanidad, y el papel de científicas y científicos a lo largo de la historia.",
-      "broader": "materia:BBIE",
+      "broader": "asig:BBIE02",
       "agrupa": [
         "ce:BBIEC4"
       ],
@@ -162,6 +174,7 @@
         "CCEC1"
       ],
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -171,7 +184,7 @@
       "notation": "BBIE02BC5",
       "prefLabel": "Bioestadística · 2º Bachillerato · bloque competencial C5 + C6",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de representar y comunicar, de forma individual y colectiva, ideas, conceptos, procedimientos, conclusiones, conjeturas y razonamientos, usando el lenguaje oral, escrito o multimodal, con veracidad, claridad y con la terminología apropiada, seleccionando, utilizando y combinando las formas de representación matemática (gráficas, tablas, diagramas, fórmulas, esquemas, símbolos...) y las tecnologías digitales más adecuadas a cada tarea, con el apoyo de diversos medios y soportes en su presentación. Asimismo, se evaluará que el alumnado reconoce y emplea el lenguaje matemático presente en los medios de comunicación, comprendiendo, interpretando y detectando errores en el razonamiento estadístico y probabilístico.",
-      "broader": "materia:BBIE",
+      "broader": "asig:BBIE02",
       "agrupa": [
         "ce:BBIEC5",
         "ce:BBIEC6"
@@ -195,6 +208,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -204,7 +218,7 @@
       "notation": "BBIE02BC7",
       "prefLabel": "Bioestadística · 2º Bachillerato · bloque competencial C7",
       "scopeNote": "A través de este bloque competencial se persigue que el alumnado utilice destrezas personales y sociales que le permitan aceptar la crítica razonada y aprender de ella, respetando los distintos puntos de vista con actitud dialogante, positiva y cooperativa, al hacer frente a las diferentes situaciones que se le propongan, e integrando el error como parte del proceso de aprendizaje. Asimismo, se comprobará que utiliza esas destrezas para participar en las tareas del equipo de forma constructiva y empática, gestionando las decisiones y funciones de manera responsable, buscando el logro de los objetivos del grupo y normalizando situaciones de convivencia en igualdad.",
-      "broader": "materia:BBIE",
+      "broader": "asig:BBIE02",
       "agrupa": [
         "ce:BBIEC7"
       ],
@@ -221,6 +235,7 @@
         "CC2"
       ],
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -246,6 +261,7 @@
         "CE3"
       ],
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -266,6 +282,7 @@
         "CE3"
       ],
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -289,6 +306,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -310,6 +328,7 @@
         "CE3"
       ],
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -335,6 +354,7 @@
         "CE3"
       ],
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -358,6 +378,7 @@
         "CE3"
       ],
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -380,6 +401,7 @@
         "CCEC1"
       ],
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -404,6 +426,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -426,6 +449,7 @@
         "CE3"
       ],
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -448,6 +472,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -469,6 +494,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -491,6 +517,7 @@
         "CE2"
       ],
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -515,6 +542,7 @@
         "CE2"
       ],
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -524,8 +552,9 @@
       "notation": "BBIE02SBI",
       "prefLabel": "BBIE02SBI · I. Sentido de la medida",
       "definition": "Sentido de la medida",
-      "broader": "materia:BBIE",
+      "broader": "asig:BBIE02",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -535,8 +564,9 @@
       "notation": "BBIE02SBII",
       "prefLabel": "BBIE02SBII · II. Sentido estocástico",
       "definition": "Sentido estocástico",
-      "broader": "materia:BBIE",
+      "broader": "asig:BBIE02",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -546,8 +576,9 @@
       "notation": "BBIE02SBIII",
       "prefLabel": "BBIE02SBIII · III. Sentido socioafectivo",
       "definition": "Sentido socioafectivo",
-      "broader": "materia:BBIE",
+      "broader": "asig:BBIE02",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -559,6 +590,7 @@
       "definition": "Medición.",
       "broader": "sb:BBIE02SBI",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -570,6 +602,7 @@
       "definition": "La probabilidad como medida de la incertidumbre asociada a fenómenos aleatorios.",
       "broader": "sb:BBIE02SBI.1",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -581,6 +614,7 @@
       "definition": "Organización y análisis de datos.",
       "broader": "sb:BBIE02SBII",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -592,6 +626,7 @@
       "definition": "Organización de los datos procedentes de variables bidimensionales: tabla de contingencia, distribución conjunta y distribuciones marginales y condicionadas. Análisis de la dependencia estadística.",
       "broader": "sb:BBIE02SBII.1",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -603,6 +638,7 @@
       "definition": "Cálculo de medias y desviaciones típicas marginales y condicionadas, diferenciando los datos unidimensionales de los bidimensionales.",
       "broader": "sb:BBIE02SBII.1",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -614,6 +650,7 @@
       "definition": "Estudio de la dependencia e independencia de dos variables estadísticas. Nube de puntos. Diferencia entre correlación y causalidad.",
       "broader": "sb:BBIE02SBII.1",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -625,6 +662,7 @@
       "definition": "Estudio de la relación entre dos variables mediante la regresión lineal y cuadrática: valoración gráfica de la pertinencia del ajuste.",
       "broader": "sb:BBIE02SBII.1",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -636,6 +674,7 @@
       "definition": "Coeficientes de correlación lineal y de determinación: cuantificación de la relación lineal, predicción y valoración de su fiabilidad en contextos de las ciencias de la vida y la salud.",
       "broader": "sb:BBIE02SBII.1",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -647,6 +686,7 @@
       "definition": "Diseño de estudios estadísticos relacionados con las ciencias de la vida y la salud utilizando tecnologías digitales.",
       "broader": "sb:BBIE02SBII.1",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -658,6 +698,7 @@
       "definition": "Calculadora, hoja de cálculo o software específico en la organización y el análisis de datos estadísticos.",
       "broader": "sb:BBIE02SBII.1",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -669,6 +710,7 @@
       "definition": "Incertidumbre.",
       "broader": "sb:BBIE02SBII",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -680,6 +722,7 @@
       "definition": "Cálculo de probabilidades aplicando la regla de Laplace en experimentos simples y compuestos.",
       "broader": "sb:BBIE02SBII.2",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -691,6 +734,7 @@
       "definition": "Técnicas de recuento en el cálculo de probabilidades. Diagrama en árbol y tabla de contingencia.",
       "broader": "sb:BBIE02SBII.2",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -702,6 +746,7 @@
       "definition": "Probabilidad condicionada e independencia de sucesos aleatorios.",
       "broader": "sb:BBIE02SBII.2",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -713,6 +758,7 @@
       "definition": "Teoremas de la probabilidad total y de Bayes: resolución de problemas e interpretación del teorema de Bayes para actualizar la probabilidad a partir de la observación y la experimentación y la toma de decisiones en condiciones de incertidumbre.",
       "broader": "sb:BBIE02SBII.2",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -724,6 +770,7 @@
       "definition": "Test de diagnóstico. Índices predictivos. Marcadores.",
       "broader": "sb:BBIE02SBII.2",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -735,6 +782,7 @@
       "definition": "Distribuciones de probabilidad.",
       "broader": "sb:BBIE02SBII",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -746,6 +794,7 @@
       "definition": "Variables aleatorias discretas y continuas. Cálculo e interpretación del valor esperado de variables aleatorias.",
       "broader": "sb:BBIE02SBII.3",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -757,6 +806,7 @@
       "definition": "Parámetros de la distribución. Distribuciones binomial y normal.",
       "broader": "sb:BBIE02SBII.3",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -768,6 +818,7 @@
       "definition": "Modelización de fenómenos estocásticos mediante las distribuciones de probabilidad binomial y normal. Cálculo de probabilidades asociadas mediante tecnologías digitales.",
       "broader": "sb:BBIE02SBII.3",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -779,6 +830,7 @@
       "definition": "Estimación de probabilidades mediante la aproximación de la binomial por la normal.",
       "broader": "sb:BBIE02SBII.3",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -790,6 +842,7 @@
       "definition": "Inferencia.",
       "broader": "sb:BBIE02SBII",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -801,6 +854,7 @@
       "definition": "Selección de una muestra en una población mediante diferentes métodos. Tamaño y representatividad de la muestra.",
       "broader": "sb:BBIE02SBII.4",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -812,6 +866,7 @@
       "definition": "Cálculo de los parámetros de una población y estadísticos obtenidos a partir de una muestra. Estimación puntual.",
       "broader": "sb:BBIE02SBII.4",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -823,6 +878,7 @@
       "definition": "Media muestral y la proporción muestral. Media y desviación típica.",
       "broader": "sb:BBIE02SBII.4",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -834,6 +890,7 @@
       "definition": "Estudio de la distribución de la media muestral en una población normal.",
       "broader": "sb:BBIE02SBII.4",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -845,6 +902,7 @@
       "definition": "Teorema central del límite. Distribución de la media muestral y de la proporción muestral en el caso de muestras grandes.",
       "broader": "sb:BBIE02SBII.4",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -856,6 +914,7 @@
       "definition": "Intervalos de confianza basados en la distribución normal: construcción, análisis y toma de decisiones en situaciones contextualizadas. Cálculo del error.",
       "broader": "sb:BBIE02SBII.4",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -867,6 +926,7 @@
       "definition": "Análisis de información estadística presente en los medios de comunicación y otros ámbitos de la vida cotidiana",
       "broader": "sb:BBIE02SBII.4",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -878,6 +938,7 @@
       "definition": "Contraste de hipótesis y decisión estadística",
       "broader": "sb:BBIE02SBII",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -889,6 +950,7 @@
       "definition": "Diferencia entre estadístico y parámetro.",
       "broader": "sb:BBIE02SBII.5",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -900,6 +962,7 @@
       "definition": "Determinación de la hipótesis nula y la alternativa en contrastes de hipótesis, unilaterales y bilaterales.",
       "broader": "sb:BBIE02SBII.5",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -911,6 +974,7 @@
       "definition": "Cálculo del estadístico de contraste para la media y la proporción muestral.",
       "broader": "sb:BBIE02SBII.5",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -922,6 +986,7 @@
       "definition": "Determinación de las regiones de aceptación y rechazo en los contrastes de hipótesis de la media y de la proporción poblacional mediante la experimentación.",
       "broader": "sb:BBIE02SBII.5",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -933,6 +998,7 @@
       "definition": "Extracción de conclusiones en base a las pruebas de hipótesis, reflexionando sobre los dos tipos de errores: tipo I y tipo II, y tomando decisiones estadísticas fundamentadas.",
       "broader": "sb:BBIE02SBII.5",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -944,6 +1010,7 @@
       "definition": "Creencia, actitudes y emociones.",
       "broader": "sb:BBIE02SBIII",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -955,6 +1022,7 @@
       "definition": "Tratamiento del error individual y colectivo como elemento movilizador de saberes previos adquiridos y generador de oportunidades de aprendizaje en el aula de matemáticas.",
       "broader": "sb:BBIE02SBIII.1",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -966,6 +1034,7 @@
       "definition": "Trabajo en equipo y toma de decisiones.",
       "broader": "sb:BBIE02SBIII",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -977,6 +1046,7 @@
       "definition": "Reconocimiento y aceptación de diversos planteamientos en la resolución de problemas y tareas matemáticas, transformando los enfoques de los demás en nuevas y mejoradas estrategias propias, mostrando empatía y respeto en el proceso.",
       "broader": "sb:BBIE02SBIII.2",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -988,6 +1058,7 @@
       "definition": "Técnicas y estrategias de trabajo en equipo para la resolución de problemas y tareas matemáticas en grupos heterogéneos.",
       "broader": "sb:BBIE02SBIII.2",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -999,6 +1070,7 @@
       "definition": "Inclusión, respeto y diversidad.",
       "broader": "sb:BBIE02SBIII",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1010,6 +1082,7 @@
       "definition": "Destrezas para desarrollar una comunicación efectiva: la escucha activa, la formulación de preguntas o solicitud y prestación de ayuda, cuando sea necesario.",
       "broader": "sb:BBIE02SBIII.3",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1021,6 +1094,7 @@
       "definition": "Valoración de la contribución de las matemáticas y el papel de científicas y científicos a lo largo de la historia en el avance de las ciencias de la vida y la salud.",
       "broader": "sb:BBIE02SBIII.3",
       "materia": "materia:BBIE",
+      "materia_curso": "asig:BBIE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     }

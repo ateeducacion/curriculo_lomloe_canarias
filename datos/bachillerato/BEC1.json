@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BEC101",
+      "tipo": "MateriaCurso",
+      "notation": "BEC101",
+      "prefLabel": "Economía, Emprendimiento y Actividad Empresarial · 1º Bachillerato",
+      "broader": "materia:BEC1",
+      "materia": "materia:BEC1",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BEC1C1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BEC1C1",
@@ -77,7 +87,7 @@
       "notation": "BEC101BC1",
       "prefLabel": "Economía, Emprendimiento y Actividad Empresarial · 1º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado es capaz de comprender la complejidad del estudio de la realidad socioeconómica debido a la naturaleza multicausal de las variables que inciden en los problemas económicos y que condicionan la toma de decisiones individuales y colectivas. Para ello se constatará que reconoce la importancia de la economía como ciencia social no experimental, comprobando que describe, con ejemplificaciones, cómo el método científico dicta reglas generales o principios, conformando las teorías económicas, las cuales se desarrollan empleando la modelización como herramienta de análisis económico, verificando que ilustra esta modelización mediante el manejo del modelo de la frontera de posibilidades de producción y explicando cómo, a través de la incorporación de supuestos simplificadores, de la recogida de datos o de la aplicación de procesos inductivos o deductivos, los modelos económicos pueden ser comparados con la realidad para contrastar las teorías establecidas y obtener conclusiones objetivas y rigurosas, apreciando las dificultades para el establecimiento de leyes generales y mostrando una actitud crítica acerca del alcance y limitaciones de los métodos empleados. En otro orden de cosas, se verificará que analiza la realidad social a partir del recorrido por diferentes corrientes y teorías de pensamiento, comenzando por las diferentes perspectivas del análisis económico, como la del individualismo metodológico, estudiando el homo economicus, y del enfoque sistémico del funcionamiento de la sociedad, destacando las relaciones entre sus componentes. En segundo lugar, se comprobará que explica, desde la perspectiva sociológica, cómo las pautas y procesos sociales influyen en las decisiones individuales. En tercer lugar, se verificará que valora con espíritu crítico los aspectos en los que la filosofía económica centra su estudio, como pueden ser los principios, los aspectos morales, las cuestiones epistemológicas y metodológicas de la ciencia económica, la teoría de la elección racional, el estudio de la justicia y la eficiencia redistributiva, etc. Finalmente, se constatará que distingue las distintas ramas de estudio de la economía, diferenciando las proposiciones positivas, por un lado, entre las que se encuentran las de la teoría económica y de la economía aplicada y, por otro lado, las proposiciones normativas, impregnadas de juicios de valor, interpretando y valorando con actitud crítica textos de los medios de comunicación y participando de forma activa e informada en diversas dinámicas en diferentes contextos.",
-      "broader": "materia:BEC1",
+      "broader": "asig:BEC101",
       "agrupa": [
         "ce:BEC1C1"
       ],
@@ -96,6 +106,7 @@
         "CE2"
       ],
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -105,7 +116,7 @@
       "notation": "BEC101BC2",
       "prefLabel": "Economía, Emprendimiento y Actividad Empresarial · 1º Bachillerato · bloque competencial C2",
       "scopeNote": "Con la evaluación de este bloque competencial se comprobará la capacidad del alumnado para analizar de forma integral el problema de la escasez económica y sus implicaciones, estudiando la aparición del coste de oportunidad, aplicando los principios económicos en las elecciones entre bienes y servicios en diferentes simulaciones del ámbito personal, social y académico y explicando el valor de uso y de cambio de los bienes, a través de ejemplos como la paradoja del valor. Asimismo, se verificará que valora la relación existente entre escasez, eficiencia y equidad en nuestras sociedades, comparando de forma crítica las características, ventajas e inconvenientes de los distintos sistemas económicos y debatiendo de forma activa e informada sobre las realidades socioeconómicas de distintos países. Seguidamente se constatará que describe cómo los precios orientan las decisiones en el mercado a través de la teoría de la «mano invisible» y que distingue el papel de los agentes en la economía desde la perspectiva del análisis coste-beneficio, utilizando el modelo económico del flujo circular de la renta, para transferir sus conocimientos desde contextos microeconómicos a contextos macroeconómicos, y valorando las distintas implicaciones de los fallos del mercado mediante el estudio de casos prácticos de actualidad contextualizados especialmente en la realidad socioeconómica canaria. Además, se comprobará la capacidad del alumnado para analizar la oferta y la demanda, interpretando cómo y en qué medida las modificaciones en las variables que les afectan provocan cambios en el equilibrio del mercado, estudiando los movimientos y desplazamientos de sus curvas y la elasticidad precio de la demanda y mostrando una actitud crítica acerca del alcance y limitaciones de los métodos empleados. Del mismo modo, a través de la utilización del modelo de demanda agregada y oferta agregada se verificará su capacidad para analizar las situaciones de equilibrio y desequilibrios a corto plazo con relación al nivel general de precios, el pleno empleo de los recursos y el nivel de producción global, y comprendiendo las fluctuaciones de la actividad económica a través de la evolución y análisis estadístico de los principales agregados macroeconómicos, con especial atención a la economía canaria, que justifican la intervención del sector público mediante la aplicación de las políticas económicas para mejorar el empleo, controlar la inflación y lograr el desarrollo económico y el bienestar social. Adicionalmente, la consecución de los aprendizajes de este bloque competencial proporcionará al alumnado una educación financiera básica al facilitarle la información y las herramientas para la necesaria planificación y gestión de la inversión, el ahorro y el consumo. Para ello, se verificará, en primer lugar, que es capaz de explicar la tipología, las funciones y la fijación del precio del dinero en función del riesgo y el beneficio, así como los distintos medios de pago asociados a las transacciones y, en segundo lugar, que describe el entorno financiero, tradicional y de banca online mediante el análisis del papel de los bancos en la economía y la búsqueda de información comparativa en internet de las características y el funcionamiento de los productos financieros y los seguros, y valorando, mediante el estudio de casos prácticos, los beneficios y los factores personales para invertir, así como los riesgos del crédito y del endeudamiento, para contribuir así a la consolidación de su madurez personal y social. Por último, se persigue constatar si el alumnado es capaz, desde otras perspectivas, de valorar el comportamiento humano en el proceso de toma de decisiones económicas para lograr el bienestar, estudiando con actitud crítica textos escritos o multimodales que pongan de manifiesto la relación entre filosofía y economía, interpretando las conexiones entre felicidad, consumo y maximización del bienestar social a través de las teorías éticas del utilitarismo, como las de John Stuart Mill o la paradoja de Easterlin, así como la relación de la economía con la sociología, valorando las conexiones entre bienestar social y calidad de vida, y con la psicología, a través del reconocimiento que del bienestar hace la psicología positiva. Además, se valorará que reflexiona, para construir conocimiento, sobre los fallos de la racionalidad económica en la toma de decisiones de las personas (efectos relatividad, manada, dotación, etc.), sobre la economía del comportamiento, la psicología económica y la teoría de la decisión.",
-      "broader": "materia:BEC1",
+      "broader": "asig:BEC101",
       "agrupa": [
         "ce:BEC1C2"
       ],
@@ -119,6 +130,7 @@
         "CE2"
       ],
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -128,7 +140,7 @@
       "notation": "BEC101BC3",
       "prefLabel": "Economía, Emprendimiento y Actividad Empresarial · 1º Bachillerato · bloque competencial C3",
       "scopeNote": "Con la evaluación de esta competencia se persigue constatar que el alumnado analiza diversos casos prácticos o problemáticas reales, tanto canarias como globales, en los que se pongan de manifiesto las relaciones entre economía y ecología, situaciones de inequidad y exclusión social, etc. Para ello se comprobará que reflexiona sobre las relaciones de inter y ecodependencia entre las formas de vida y el entorno y sobre la huella ecológica de las acciones humanas y empresariales, mediante el estudio de las soluciones que plantean el nuevo Plan de acción para una economía circular de la Comisión Europea en el contexto del Pacto Verde Europeo, la Ley Canaria de Economía Circular, los indicadores de desarrollo sostenible de Canarias o las estrategias de la Agenda Canaria 2030 y consultando, por ejemplo, el Boletín por la Transición Ecológica de Canarias, las guías, apps y juegos interactivos de acciones ODS desarrollados por la Organización de las Naciones Unidas y otras instituciones, confiando en la información y el conocimiento como motor de desarrollo, y planeando y emprendiendo acciones que preserven el medioambiente y favorezcan el desarrollo económico y la inclusión social, para crear valor y transformar su entorno de forma sostenible y ética, adquiriendo compromisos como ciudadanos. Además, se comprobará la capacidad del alumnado para realizar análisis críticos y fundamentados de los retos económicos actuales mediante la transferencia de conocimientos aprendidos y la aplicación de herramientas económicas y empresariales, identificando y evaluando los diferentes aspectos del problema, necesidades y oportunidades, comprendiendo las causas complejas que los originan, agravan o mejoran y valorando las repercusiones medioambientales, económicas y sociales sobre el bienestar individual y común. Para su estudio se utilizará el análisis del método de casos en los que se planteen grandes retos desde una visión sistémica (relacionados con la globalización, el desarrollo económico, el consumo responsable, la degradación medioambiental, etc.) para presentar y ejecutar ideas y soluciones a las diversas problemáticas que debe afrontar la sociedad, mediante la aplicación de estrategias y destrezas de trabajo colaborativo y en equipo, que le permita desarrollar, con empatía y generosidad, una personalidad autónoma, una actitud sostenible y responsable socialmente, gestionando constructivamente la participación social y su propia actividad para dirigir su vida.",
-      "broader": "materia:BEC1",
+      "broader": "asig:BEC101",
       "agrupa": [
         "ce:BEC1C3"
       ],
@@ -145,6 +157,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -154,7 +167,7 @@
       "notation": "BEC101BC4",
       "prefLabel": "Economía, Emprendimiento y Actividad Empresarial · 1º Bachillerato · bloque competencial C4",
       "scopeNote": "Con el desarrollo de esta competencia específica se persigue constatar si el alumnado es capaz de identificar las fortalezas y debilidades propias, reflexionando y haciendo uso de herramientas y estrategias de autoconocimiento, como el análisis interno DAFO o el autodiagnóstico de actitudes emprendedoras (como, por ejemplo, el que ofrece la Dirección General de Industria y de la Pequeña y Mediana Empresa), valorando previamente las competencias sociales, cualidades personales y hábitos que poseen las personas emprendedoras e intraemprendedoras, como la creatividad, la empatía, la capacidad de iniciativa y de enfrentarse a los retos, para aprender de ellas, adquirir o potenciar esas cualidades, mediante el estudio de casos de personas emprendedoras de éxito o de su entorno cercano, las visitas a empresas, asociaciones y centros de emprendimiento, etc., potenciando así su inteligencia emocional, siendo consciente de las diferencias con la inteligencia ejecutiva y mostrando sensibilidad hacia las emociones y experiencias de las demás personas. Asimismo, se constatará la capacidad del alumnado para desarrollar su espíritu emprendedor y entrenar la creatividad y proactividad mediante el análisis de experiencias reales de emprendimiento que pongan de manifiesto cómo se lleva a cabo el proceso de creación y puesta en marcha del proyecto emprendedor a través la búsqueda de necesidades y oportunidades de negocio en el entorno, estudiando especialmente las que ofrece el Régimen Económico y Fiscal de Canarias y verificando que reflexiona con espíritu crítico sobre la importancia que para el éxito del proyecto tiene la aplicación de la misión y visión propias de las personas emprendedoras, la gestión que hace de los grupos, la aplicación de la teoría de las relaciones humanas, las creencias limitantes acerca del emprendimiento, la necesidad de proteger la idea, el producto y la marca, y percibiendo los errores y fracasos como una oportunidad para aprender, para todo lo cual analizará la evolución de la actividad emprendedora, la tendencia a emprender, las motivaciones, las aptitudes, la percepción de oportunidades, etc., empleando, por ejemplo, el análisis DAFO del empresariado en Canarias y el estudio de los informes GEM (Global Entrepreneurship Monitor) que se editan anualmente.",
-      "broader": "materia:BEC1",
+      "broader": "asig:BEC101",
       "agrupa": [
         "ce:BEC1C4"
       ],
@@ -169,6 +182,7 @@
         "CE3"
       ],
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -178,7 +192,7 @@
       "notation": "BEC101BC5",
       "prefLabel": "Economía, Emprendimiento y Actividad Empresarial · 1º Bachillerato · bloque competencial C5",
       "scopeNote": "Este bloque competencial persigue constatar que el alumnado comprende cómo la adaptación a los cambios y tendencias en el entorno y la adopción de nuevos modelos de negocio y de estrategias empresariales brindan a la empresa nuevas oportunidades de desarrollo. Para ello se comprobará que distingue los nuevos modelos de negocio (long tail, freemiun, modelo nube o software as a service (SaaS), modelo suscripción, modelo dropshipping, etc.) a través de la búsqueda de información empresarial y el análisis de casos de grandes empresas con estrategias innovadoras que han cambiado el concepto de empresa en su sector o de otras más pequeñas y cercanas cuya propuesta de valor es efectiva en diferentes entornos rurales y urbanos, canarios y globales, en los que se verificará que identifica las ventajas, las claves del éxito y los factores de riesgo de su modelo de negocio empleando el método DAFO de análisis interno y externo. Adicionalmente, se comprobará su capacidad para evaluar, con sentido crítico y ético, la sostenibilidad, la madurez técnica y el impacto de las nuevas tendencias empresariales en los futuros modelos de negocio de las empresas, como pueden ser la conversión a empresas más locales, la adaptación a la automatización y a la digitalización, tanto en las relaciones laborales como comerciales, que modifican el concepto de lugar de trabajo, y el auge de la internacionalización, de la economía colaborativa, el cuidado individual y de otras personas, etc., analizando los cambios que generan en la filosofía y en la organización de las empresas, mediante la búsqueda de información en internet y la lectura de artículos de prensa especializados para obtener conclusiones lógicas de forma autónoma. Y, finalmente, se constatará que analiza la evolución de las estrategias empresariales para el desarrollo de nuevos mercados y clientes, estudiando los tipos de mercados existentes, la evolución que ha experimentado el concepto de marketing empresarial y las etapas del proceso de investigación comercial necesarias para obtener información de los mercados, analizando casos de empresas concretas, especialmente del ámbito empresarial canario, que hayan generado nuevas oportunidades explotando nuevos nichos de mercado a través de la aplicación de estrategias como pueden ser las de segmentación, las denominadas de «océanos rojos y azules» o las de marketing digital, verificando que reconoce diversas acciones como pueden ser el marketing de contenidos, la identificación del buyer persona del negocio, las características del marketing efectivo por correo electrónico, vídeo, live streaming o redes sociales, así como la importancia del posicionamiento web o SEO (Search Engine Optimization), entre otras.",
-      "broader": "materia:BEC1",
+      "broader": "asig:BEC101",
       "agrupa": [
         "ce:BEC1C5"
       ],
@@ -195,6 +209,7 @@
         "CE2"
       ],
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -204,7 +219,7 @@
       "notation": "BEC101BC6",
       "prefLabel": "Economía, Emprendimiento y Actividad Empresarial · 1º Bachillerato · bloque competencial C6",
       "scopeNote": "Con el desarrollo de este bloque competencial se persigue constatar la capacidad del alumnado para analizar la transformación tecnológica, económica y social de nuestra sociedad, comparando, evaluando y sintetizando datos, información e ideas sobre la creciente preocupación por las consecuencias que el cuidado del medioambiente, el bienestar y la salud, el uso de la tecnología o los cambios en la pirámide poblacional tienen en los distintos sectores económicos, para obtener conclusiones lógicas de forma autónoma sobre las transformaciones que generan. En este sentido, se verificará que reconoce los cambios que estas transformaciones provocan en la actividad empresarial, a partir del estudio de casos prácticos de empresas de diversos sectores y contextos, canarios y globales, que han incorporado objetivos de responsabilidad social corporativa a sus propósitos de empresa como respuesta a los problemas y desafíos actuales, investigando ejemplos de innovación en la utilización de los recursos escasos, en la aplicación de la convergencia digital para acabar con las desigualdades, en el desarrollo de la biotecnología, los materiales de próxima generación y las tecnologías limpias, entre otros. De igual modo se constatará que es capaz de analizar cómo afecta la transformación digital a la actividad empresarial, mostrando interés y curiosidad por la evolución de las tecnologías digitales, el desarrollo sostenible y uso ético del big data, de los sistemas de gestión empresarial en la nube, la ciberseguridad, las tecnologías móviles, el internet de las cosas (IdC), los robots y los cobots, la realidad extendida (XR), el metaverso como interacción entre el mundo real y virtual, las plataformas colaborativas, el blockchain y otras tecnologías susceptibles de modificar nuestra forma de trabajar y vivir. Paralelamente, también se verificará que reflexiona sobre la transformación del mercado de trabajo y la automatización de los procesos, valorando la apuesta de las empresas por el liderazgo y el talento humano, la adaptabilidad a nuevos escenarios, los proyectos colaborativos, la tecnología al servicio de los trabajadores, y poniendo en valor a la mujer en la actividad empresarial, incorporando a su cultura empresarial acciones sobre la conciliación, la estabilidad laboral, el desarrollo de la carrera, la cultura de la flexibilidad horaria, etc. Para todo ello se verificará que comprende, interpreta y valora con actitud crítica textos de diversa procedencia y se comprobará que participa en diferentes contextos, adoptando un juicio propio y argumentado, proponiendo alternativas y nuevas soluciones a los desafíos actuales que enfrenta la empresa, mediante la investigación colaborativa y la aplicación de estrategias y destrezas de trabajo en equipo.",
-      "broader": "materia:BEC1",
+      "broader": "asig:BEC101",
       "agrupa": [
         "ce:BEC1C6"
       ],
@@ -220,6 +235,7 @@
         "CE2"
       ],
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -246,6 +262,7 @@
         "CE2"
       ],
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -267,6 +284,7 @@
         "CE2"
       ],
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -286,6 +304,7 @@
         "CC4"
       ],
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -307,6 +326,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -327,6 +347,7 @@
         "CE2"
       ],
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -346,6 +367,7 @@
         "CE3"
       ],
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -366,6 +388,7 @@
         "CE1"
       ],
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -386,6 +409,7 @@
         "CE2"
       ],
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -404,6 +428,7 @@
         "CE1"
       ],
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -425,6 +450,7 @@
         "CE2"
       ],
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -434,8 +460,9 @@
       "notation": "BEC101SBI",
       "prefLabel": "BEC101SBI · I. Economía",
       "definition": "Economía",
-      "broader": "materia:BEC1",
+      "broader": "asig:BEC101",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -445,8 +472,9 @@
       "notation": "BEC101SBII",
       "prefLabel": "BEC101SBII · II. Emprendimiento",
       "definition": "Emprendimiento",
-      "broader": "materia:BEC1",
+      "broader": "asig:BEC101",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -456,8 +484,9 @@
       "notation": "BEC101SBIII",
       "prefLabel": "BEC101SBIII · III. Actividad empresarial",
       "definition": "Actividad empresarial",
-      "broader": "materia:BEC1",
+      "broader": "asig:BEC101",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -469,6 +498,7 @@
       "definition": "El estudio de la Economía y su relación con otras disciplinas",
       "broader": "sb:BEC101SBI",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -480,6 +510,7 @@
       "definition": "La importancia de la economía como ciencia social. Principales problemas para el análisis económico: la complejidad de la realidad y la incorporación de supuestos simplificadores.",
       "broader": "sb:BEC101SBI.1",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -491,6 +522,7 @@
       "definition": "La utilización del método científico en economía. Dificultades para el establecimiento de leyes generales. La modelización matemática como herramienta para el análisis económico: el modelo de la Frontera de Posibilidades de Producción. Otras ejemplificaciones.",
       "broader": "sb:BEC101SBI.1",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -502,6 +534,7 @@
       "definition": "La diferenciación de las ramas de estudio de la ciencia económica.",
       "broader": "sb:BEC101SBI.1",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -513,6 +546,7 @@
       "definition": "El análisis económico y el individualismo metodológico. Otras alternativas de análisis de la realidad social. Perspectiva sociológica: el grupo social como unidad de análisis económico.",
       "broader": "sb:BEC101SBI.1",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -524,6 +558,7 @@
       "definition": "Los individuos y el comportamiento racional. Fallos de la racionalidad. La economía del comportamiento, la psicología económica y la teoría de la decisión. Ejemplificaciones.",
       "broader": "sb:BEC101SBI.1",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -535,6 +570,7 @@
       "definition": "Reflexión sobre la maximización de la utilidad de los agentes económicos. La relación entre filosofía y economía: el utilitarismo y la felicidad. El bienestar social y la calidad de vida desde una perspectiva sociológica. El bienestar en la psicología positiva.",
       "broader": "sb:BEC101SBI.1",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -546,6 +582,7 @@
       "definition": "La relación entre economía y ecología: el cambio climático, el desarrollo sostenible y la economía circular. Los Objetivos de Desarrollo Sostenible (ODS) y de la Agenda Canaria de Desarrollo Sostenible 2030 y los retos económicos actuales: estudio de los indicadores de desarrollo sostenible de Canarias y de los planes de acción para la economía circular de Europa y Canarias.",
       "broader": "sb:BEC101SBI.1",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -557,6 +594,7 @@
       "definition": "Análisis de la escasez y del problema económico",
       "broader": "sb:BEC101SBI",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -568,6 +606,7 @@
       "definition": "Las implicaciones de la escasez económica: la aparición del coste de oportunidad y la necesidad de elegir. La explicación de la paradoja del valor, el valor de uso y el valor de cambio de los bienes.",
       "broader": "sb:BEC101SBI.2",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -579,6 +618,7 @@
       "definition": "La escasez y los sistemas de asignación de recursos. Explicación de las características, ventajas e inconvenientes de los distintos sistemas económicos. La maximización del bienestar social y el debate entre escasez, eficiencia y equidad desde un punto de vista ético.",
       "broader": "sb:BEC101SBI.2",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -590,6 +630,7 @@
       "definition": "El funcionamiento del mercado: el modelo del flujo circular de la renta y el análisis económico de la oferta y demanda.",
       "broader": "sb:BEC101SBI.2",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -601,6 +642,7 @@
       "definition": "Los fallos del mercado y la intervención del sector público. Fallos del sector público y sus implicaciones.",
       "broader": "sb:BEC101SBI.2",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -612,6 +654,7 @@
       "definition": "El modelo de oferta y demanda agregada. Análisis de las interrelaciones que existen entre los diversos elementos y agregados de la realidad económica.",
       "broader": "sb:BEC101SBI.2",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -623,6 +666,7 @@
       "definition": "La descripción del entorno financiero: el dinero, las transacciones y los intermediarios financieros. La planificación y gestión de las finanzas personales: análisis del riesgo y beneficio.",
       "broader": "sb:BEC101SBI.2",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -634,6 +678,7 @@
       "definition": "La persona emprendedora e intraemprendedora: valoración de sus competencias, cualidades y hábitos. Autoevaluación de la persona emprendedora: herramientas. El estudio de la inteligencia emocional y la inteligencia ejecutiva.",
       "broader": "sb:BEC101SBII",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -645,6 +690,7 @@
       "definition": "Competencias sociales: tipos y aplicación. La gestión de grupos y la teoría de las relaciones humanas.",
       "broader": "sb:BEC101SBII",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -656,6 +702,7 @@
       "definition": "El espíritu emprendedor: búsqueda de necesidades y oportunidades. Entrenamiento de la creatividad y proactividad. Análisis de experiencias de emprendimiento: estudio de casos de Canarias y del Régimen Económico y Fiscal de Canarias como marco de oportunidades para emprender.",
       "broader": "sb:BEC101SBII",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -667,6 +714,7 @@
       "definition": "Creencias sobre emprendimiento. El miedo a emprender: la gestión del error como una oportunidad para aprender. Análisis DAFO del empresariado en Canarias: dificultades y oportunidades para el emprendimiento.",
       "broader": "sb:BEC101SBII",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -678,6 +726,7 @@
       "definition": "Misión y visión de la persona emprendedora. Creación y puesta en marcha de su proyecto emprendedor. Protección de la idea, el producto y la marca.",
       "broader": "sb:BEC101SBII",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -689,6 +738,7 @@
       "definition": "La identificación de los nuevos modelos de negocio. Análisis de casos: análisis interno y externo. DAFO.",
       "broader": "sb:BEC101SBIII",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -700,6 +750,7 @@
       "definition": "Las tendencias empresariales y la empresa del futuro. El lugar de trabajo.",
       "broader": "sb:BEC101SBIII",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -711,6 +762,7 @@
       "definition": "La investigación de mercados y de clientes. Aplicación del marketing digital y nuevos modelos de negocio.",
       "broader": "sb:BEC101SBIII",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -722,6 +774,7 @@
       "definition": "Estrategias y gestión en la empresa. Estudio de casos.",
       "broader": "sb:BEC101SBIII",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -733,6 +786,7 @@
       "definition": "La transformación económica, social y digital. La revolución tecnológica y los modelos de negocio. Innovación y sostenibilidad.",
       "broader": "sb:BEC101SBIII.4",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -744,6 +798,7 @@
       "definition": "Cultura empresarial e incorporación de la responsabilidad social corporativa. La gestión del talento y el liderazgo. Reflexión sobre mujer y actividad empresarial.",
       "broader": "sb:BEC101SBIII.4",
       "materia": "materia:BEC1",
+      "materia_curso": "asig:BEC101",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

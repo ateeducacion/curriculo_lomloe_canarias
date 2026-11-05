@@ -1,0 +1,22 @@
+id: '0264'
+titulo: 'Lengua Castellana y Literatura (Educación Primaria): enunciados de competencia que cambian según el curso'
+motivo: 'El documento oficial da a estas competencias un enunciado distinto en algunos cursos. La competencia guarda como
+  enunciado (definition) el más repetido y, en enunciados_curso, el de los cursos en que difiere (decisión del 05-11-2026:
+  enunciado por curso antes de la 1.0).'
+fuente:
+  documento: primaria-lengua-castellana-y-literatura
+  fichero: fuentes/documentos/primaria/anexo_2_curriculo-lengua-castellana.odt
+  sha256: 36db66a2635e6f3476e5d7aac7db76993daa925cbf5a615742a6229259efa140
+  ubicacion: Tablas de bloques competenciales de cada curso
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: ce:PLCLC2
+  campo: enunciados_curso
+  valor:
+    curso:P01: Comprender e interpretar textos orales y multimodales, identificando el sentido general y la información más
+      relevante, y valorando con ayuda aspectos formales y de contenido básicos, para construir conocimiento y responder a
+      diferentes necesidades comunicativas.
+    curso:P02: Comprender e interpretar textos orales y multimodales, identificando el sentido general y la información más
+      relevante, y valorando con ayuda aspectos formales y de contenido básicos, para construir conocimiento y responder a
+      diferentes necesidades comunicativas.

@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BLPM01",
+      "tipo": "MateriaCurso",
+      "notation": "BLPM01",
+      "prefLabel": "Lenguaje y Práctica Musical · 1º Bachillerato",
+      "broader": "materia:BLPM",
+      "materia": "materia:BLPM",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BLPMC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BLPMC1",
@@ -67,7 +77,7 @@
       "notation": "BLPM01BC1",
       "prefLabel": "Lenguaje y Práctica Musical · 1º Bachillerato · bloque competencial C1",
       "scopeNote": "A través del presente bloque competencial, se constatará si el alumnado es capaz de describir los elementos del lenguaje musical y los recursos expresivos presentes en las obras, fragmentos o ejercicios auditivos realizados en el aula, así como explicar sus características, haciendo uso de un vocabulario musical específico, demostrando fluidez, coherencia y corrección en su expresión oral y escrita. De igual forma, se valorará el grado de desarrollo de estrategias de atención en la escucha activa, así como la existencia de una actitud crítica y respetuosa sobre la diversidad cultural existente en la sociedad, mediante la audición de obras de diferentes estilos, épocas y culturas. Se verificará su capacidad para reflexionar sobre aspectos subjetivos y emocionales experimentados a través de la escucha y para explicar sus conclusiones con coherencia, precisión, creatividad y espíritu crítico, por medio de la elaboración y publicación de reseñas, artículos de opinión o productos audiovisuales, de forma autónoma para hacer eficaz su aprendizaje, contribuyendo de esta manera a la finalidad de la competencia específica. Por último, se evaluará la participación activa en las dinámicas grupales, mostrando cooperación, respeto y sensibilidad hacia las emociones y experiencias de las demás personas, y favoreciendo los procesos de socialización y de construcción de la identidad personal derivados de la práctica artística. Para todo ello se pondrá especial énfasis en la audición de obras propias del patrimonio artístico canario, aspecto que permitirá, a su vez, constatar la existencia de una actitud reflexiva y proactiva sobre la promoción, valoración y conservación del patrimonio cultural y artístico.",
-      "broader": "materia:BLPM",
+      "broader": "asig:BLPM01",
       "agrupa": [
         "ce:BLPMC1"
       ],
@@ -81,6 +91,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -90,7 +101,7 @@
       "notation": "BLPM01BC2",
       "prefLabel": "Lenguaje y Práctica Musical · 1º Bachillerato · bloque competencial C2",
       "scopeNote": "La activación del presente bloque competencial, concretado en un único criterio de evaluación, permitirá verificar si el alumnado es capaz de describir y comparar los elementos del lenguaje musical y su representación gráfica, así como las características técnicas y estéticas presentes en partituras estudiadas en el aula, pertenecientes a obras de compositoras y compositores de diversas épocas, estilos y culturas. Para ello se constatará su capacidad para analizar partituras con notación convencional y no convencional. Se valorará la habilidad para investigar las especificidades e intencionalidades de las obras estudiadas y para reflexionar sobre la evolución de la grafía musical a lo largo de la historia, adquiriendo autonomía para hacer eficaz su aprendizaje, contribuyendo a su vez a la finalidad de la competencia específica. Igualmente, se evaluará si el alumnado es capaz de expresar sus conclusiones con fluidez, corrección, coherencia y precisión, tanto de manera escrita como oral o multimodal, a través de la elaboración y difusión de comentarios críticos, informes o productos audiovisuales. Por último, se valorará la participación activa en las dinámicas grupales, mostrando una actitud cooperativa y respetuosa en las interacciones comunicativas, así como una postura de recepción activa y deleite ante el producto artístico.",
-      "broader": "materia:BLPM",
+      "broader": "asig:BLPM01",
       "agrupa": [
         "ce:BLPMC2"
       ],
@@ -103,6 +114,7 @@
         "CCEC2"
       ],
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -112,7 +124,7 @@
       "notation": "BLPM01BC3",
       "prefLabel": "Lenguaje y Práctica Musical · 1º Bachillerato · bloque competencial C3",
       "scopeNote": "A través del presente bloque competencial se constatará la capacidad del alumnado para aplicar técnicas vocales, instrumentales y coreográficas en la interpretación de obras musicales y de danza, reflexionando sobre el proceso y el resultado obtenido como oportunidad para el aprendizaje. De igual forma se verificará la habilidad para generar ideas musicales o coreográficas a través de la aplicación de estrategias y técnicas de improvisación, favoreciendo la comprensión de la música como forma de expresión mediante la ejecución autónoma de propuestas musicales diversas, contribuyendo de esta manera a la finalidad de la competencia específica. Asimismo se evaluará si el alumnado es capaz de leer, comprender y valorar, con actitud crítica, partituras con grafía convencional y no convencional, y desarrollar estrategias de memorización musical. Para todo ello se valorará la actitud proactiva y respetuosa ante el proceso de ensayo, entendiéndolo necesariamente como espacio de escucha y aprendizaje. Por último, se verificará su capacidad para enfrentarse a situaciones creativas y expresivas con una actitud empática y colaborativa, con iniciativa e imaginación, considerando la participación social como una oportunidad para el desarrollo de una personalidad autónoma.",
-      "broader": "materia:BLPM",
+      "broader": "asig:BLPM01",
       "agrupa": [
         "ce:BLPMC3"
       ],
@@ -127,6 +139,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -136,7 +149,7 @@
       "notation": "BLPM01BC4",
       "prefLabel": "Lenguaje y Práctica Musical · 1º Bachillerato · bloque competencial C4",
       "scopeNote": "La puesta en práctica del presente bloque competencial permitirá valorar en qué medida el alumnado es capaz de planificar y desarrollar proyectos musicales colaborativos y de asumir diversas funciones a lo largo del proceso creativo, a través de la selección e integración de diversos medios, soportes, técnicas y recursos artísticos. Se constatará su participación con una actitud proactiva, cooperativa y respetuosa, poniendo sus prácticas comunicativas al servicio de la convivencia democrática y de la resolución dialogada de los conflictos. Asimismo, se verificará su capacidad para aplicar los aprendizajes adquiridos previamente, seleccionando, reelaborando o creando materiales musicales a través del uso de las tecnologías digitales, incorporándolas de manera responsable en la difusión de los productos y ejerciendo una ciudadanía digital activa, cívica y reflexiva. A su vez se evaluará si el alumnado es capaz de comprender la producción artística como un medio para visibilizar y difundir valores fundamentados en el compromiso ético con la igualdad, la cohesión social, el desarrollo sostenible y el logro de la ciudadanía mundial, y entenderla como una oportunidad de desarrollo personal, social, académico y profesional, contribuyendo de esta manera a la finalidad de la competencia específica. Por último, se evaluará la capacidad para reflexionar sobre el proceso realizado y el resultado obtenido, considerando tanto la experiencia de éxito como de fracaso una oportunidad para aprender.",
-      "broader": "materia:BLPM",
+      "broader": "asig:BLPM01",
       "agrupa": [
         "ce:BLPMC4"
       ],
@@ -153,6 +166,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -162,7 +176,7 @@
       "notation": "BLPM01BC5",
       "prefLabel": "Lenguaje y Práctica Musical · 1º Bachillerato · bloque competencial C5",
       "scopeNote": "A través del presente bloque competencial se constatará la capacidad del alumnado para planificar, desarrollar y difundir proyectos musicales y audiovisuales, empleando diversos medios, soportes, técnicas y recursos artísticos. De igual forma se verificará el uso responsable de las herramientas digitales, respetando los derechos de autoría y ejerciendo una ciudadanía digital activa, cívica y reflexiva. A su vez se evaluará la habilidad para utilizar herramientas de grabación y edición de sonido, producción audiovisual y edición de partituras, de forma eficaz y autónoma, aplicándolas a procesos de escritura, creación y difusión, y comprendiendo las posibilidades que ofrecen las tecnologías digitales en el ámbito musical, contribuyendo de esta manera a la finalidad de la competencia específica. Se verificará, además, que la participación en los proyectos grupales se realice con una actitud proactiva, creativa, cooperativa, con sentido crítico y búsqueda de calidad en el producto artístico, reflexionando sobre el proceso realizado y el resultado obtenido, considerando tanto la experiencia de éxito como de fracaso una oportunidad para aprender.",
-      "broader": "materia:BLPM",
+      "broader": "asig:BLPM01",
       "agrupa": [
         "ce:BLPMC5"
       ],
@@ -176,6 +190,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -197,6 +212,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -217,6 +233,7 @@
         "CCEC2"
       ],
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -237,6 +254,7 @@
         "CE3"
       ],
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -256,6 +274,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -280,6 +299,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -304,6 +324,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -325,6 +346,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -334,8 +356,9 @@
       "notation": "BLPM01SBI",
       "prefLabel": "BLPM01SBI · I. Lenguaje musical",
       "definition": "Lenguaje musical",
-      "broader": "materia:BLPM",
+      "broader": "asig:BLPM01",
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -345,8 +368,9 @@
       "notation": "BLPM01SBII",
       "prefLabel": "BLPM01SBII · II. Práctica musical",
       "definition": "Práctica musical",
-      "broader": "materia:BLPM",
+      "broader": "asig:BLPM01",
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -358,6 +382,7 @@
       "definition": "Lectura, escritura, descripción y comparación de la representación gráfica de los parámetros del sonido, con notación convencional y no convencional.",
       "broader": "sb:BLPM01SBI",
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -369,6 +394,7 @@
       "definition": "Reconocimiento auditivo de estructuras tonales y modales. Realización escrita de dictados sencillos a una voz.",
       "broader": "sb:BLPM01SBI",
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -380,6 +406,7 @@
       "definition": "Descripción y comparación de los elementos del lenguaje musical y de su representación gráfica.",
       "broader": "sb:BLPM01SBI",
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -391,6 +418,7 @@
       "definition": "Descripción de la melodía en obras estudiadas en el aula: intervalos y tipos de escalas. Comparación con otros elementos de la obra.",
       "broader": "sb:BLPM01SBI.3",
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -402,6 +430,7 @@
       "definition": "Descripción del ritmo en obras estudiadas en el aula: ritmos irregulares y libres; polirritmias y polimetrías, grupos de valoración especial. Comparación con otros elementos de la obra.",
       "broader": "sb:BLPM01SBI.3",
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -413,6 +442,7 @@
       "definition": "Descripción de la armonía en obras estudiadas en el aula: el fenómeno físico armónico; círculo de quintas, principales funciones armónicas en la tonalidad; acordes; enlaces y cadencias; modulaciones y progresiones tonales; la modalidad. Comparación con otros elementos de la obra.",
       "broader": "sb:BLPM01SBI.3",
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -424,6 +454,7 @@
       "definition": "Descripción de la forma musical en obras estudiadas en el aula: unidades estructurales; formas simples y complejas. Comparación con otros elementos de la obra.",
       "broader": "sb:BLPM01SBI.3",
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -435,6 +466,7 @@
       "definition": "Análisis de partituras con notación convencional y no convencional. Introducción a la notación de la música contemporánea.",
       "broader": "sb:BLPM01SBI",
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -446,6 +478,7 @@
       "definition": "Descripción de los elementos expresivos de la música (dinámica, agógica y articulación), así como de las sensaciones que estos generan.",
       "broader": "sb:BLPM01SBI",
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -457,6 +490,7 @@
       "definition": "Descripción de los elementos musicales de obras de la música culta occidental, folclore y músicas populares urbanas estudiadas en el aula.",
       "broader": "sb:BLPM01SBI",
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -468,6 +502,7 @@
       "definition": "Empleo de un vocabulario técnico específico en las comunicaciones sobre el hecho musical.",
       "broader": "sb:BLPM01SBI",
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -479,6 +514,7 @@
       "definition": "Aplicación de estrategias de escucha o visionado activo de obras musicales.",
       "broader": "sb:BLPM01SBII",
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -490,6 +526,7 @@
       "definition": "Lectura de partituras con grafía convencional y no convencional. Interiorización y memorización de estructuras musicales sencillas.",
       "broader": "sb:BLPM01SBII",
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -501,6 +538,7 @@
       "definition": "Práctica interpretativa de estructuras tonales y modales.",
       "broader": "sb:BLPM01SBII",
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -512,6 +550,7 @@
       "definition": "Desarrollo y aplicación de técnicas de interpretación vocal, instrumental o corporal, con o sin acompañamiento.",
       "broader": "sb:BLPM01SBII",
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -523,6 +562,7 @@
       "definition": "Desarrollo y aplicación de estrategias y técnicas de improvisación sobre esquemas rítmico-melódicos y armónicos establecidos o libres, adaptados al nivel. Comprensión de la música como forma de expresión.",
       "broader": "sb:BLPM01SBII",
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -534,6 +574,7 @@
       "definition": "Actitud proactiva y respetuosa en la planificación y desarrollo de proyectos musicales colaborativos.",
       "broader": "sb:BLPM01SBII",
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -545,6 +586,7 @@
       "definition": "Empleo de técnicas y aplicaciones informáticas de edición y producción sonora, musical y audiovisual.",
       "broader": "sb:BLPM01SBII",
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -556,6 +598,7 @@
       "definition": "Planificación, desarrollo y difusión de proyectos musicales. Respeto de la propiedad intelectual, los derechos de autoría y la protección de datos.",
       "broader": "sb:BLPM01SBII",
       "materia": "materia:BLPM",
+      "materia_curso": "asig:BLPM01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

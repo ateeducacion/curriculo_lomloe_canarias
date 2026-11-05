@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BCBR01",
+      "tipo": "MateriaCurso",
+      "notation": "BCBR01",
+      "prefLabel": "Coro y Técnica Vocal I · 1º Bachillerato",
+      "broader": "materia:BCBR",
+      "materia": "materia:BCBR",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BCBRC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BCBRC1",
@@ -57,7 +67,7 @@
       "notation": "BCBR01BC1",
       "prefLabel": "Coro y Técnica Vocal I · 1º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se comprobará si el alumnado es capaz de analizar piezas vocales sencillas y explicar sus cualidades estilísticas básicas, incluyendo una aproximación al estudio de la relación entre el texto y la música, así como otras características de la interpretación y la puesta en escena, demostrando coherencia y corrección en su expresión oral y escrita. Para ello se seleccionará un repertorio variado de piezas vocales, de dificultad adaptada al nivel, abarcando el patrimonio musical de Canarias, de otras culturas y de diferentes épocas y estilos del ámbito occidental. El repertorio seleccionado incluirá también la música popular, la música urbana y la contemporánea, prestando especial atención a las producciones de las compositoras, intérpretes femeninas y directoras de agrupaciones vocales. En estas audiciones, el alumnado deberá demostrar una actitud de recepción activa, de manera que las escuchen o visionen, y sea capaz de comprender y valorar críticamente la diversidad lingüística y cultural presente en la sociedad y el patrimonio artístico de cualquier época. Por último, se verificará en qué medida el alumnado es capaz de aplicar los recursos interpretativos y escénicos de las piezas analizadas a las propias producciones e interpretaciones, realizando con rigor sus prácticas artísticas y armonizando los aprendizajes con sus propios objetivos, lo que contribuye a desarrollar el criterio estético y ampliar las posibilidades de disfrute de la música.",
-      "broader": "materia:BCBR",
+      "broader": "asig:BCBR01",
       "agrupa": [
         "ce:BCBRC1"
       ],
@@ -71,6 +81,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -80,7 +91,7 @@
       "notation": "BCBR01BC2",
       "prefLabel": "Coro y Técnica Vocal I · 1º Bachillerato · bloque competencial C2",
       "scopeNote": "La activación de este bloque competencial permitirá comprobar si el alumnado es capaz de adquirir y aplicar técnicas vocales y corporales, y desarrollar las habilidades propias del canto, ampliando las posibilidades de la voz y el cuerpo como instrumentos de comunicación. A través de la realización de ejercicios, vocalizaciones e improvisaciones en grupo, se constatará en qué medida el alumnado es capaz de entonar intervalos melódicos y armónicos sencillos, desarrollando el oído armónico y la afinación, y poniendo en práctica los elementos de la producción vocal (respiración, emisión, articulación y resonancia). Estas actividades constituirán un medio para que el alumnado explore su propia voz y demuestre que es capaz de reconocer su propio sonido y el sonido de sus compañeras y compañeros del coro, reforzando el autoconocimiento, la autoestima y la autoconfianza. Se evaluará a su vez que el alumnado sea capaz de adaptar su voz a las necesidades del conjunto, mostrando una actitud democrática, respeto por la diversidad y sensibilidad hacia las emociones y experiencias de las demás personas del grupo. Asimismo, se pondrá especial atención al cuidado de la voz y la postura corporal, y se comprobará que el alumnado es capaz de adoptar y consolidar hábitos saludables a través del canto, contribuyendo a su bienestar físico y emocional y al del grupo.",
-      "broader": "materia:BCBR",
+      "broader": "asig:BCBR01",
       "agrupa": [
         "ce:BCBRC2"
       ],
@@ -93,6 +104,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -102,7 +114,7 @@
       "notation": "BCBR01BC3",
       "prefLabel": "Coro y Técnica Vocal I · 1º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se comprobará si el alumnado es capaz de interpretar piezas vocales de distintas épocas y culturas, adaptadas al nivel, demostrando adecuación al conjunto y a las pautas de la dirección, ampliando así su capacidad expresiva. La participación en distintas formaciones vocales permitirá evaluar la capacidad del alumnado para contribuir a la búsqueda de sonido del conjunto en la práctica vocal, al equilibrio entre las voces y los planos sonoros, mostrando una actitud de escucha activa. De igual forma, se constatará la adquisición de actitudes y valores inherentes a la práctica coral (actitud escénica adecuada, respeto por el público y compromiso con los objetivos grupales), lo que favorecerá la socialización y la empatía con las demás personas, fortaleciendo el optimismo y la búsqueda de objetivos, y mostrando sensibilidad hacia las emociones y experiencias ajenas. Asimismo, se valorará la aplicación de la lectura básica de partituras, con notación convencional y no convencional, y la adquisición de estrategias de memorización en el aprendizaje e interpretación de piezas vocales, propiciando el desarrollo de la autonomía para hacer eficaz su aprendizaje. Para ello se seleccionará un repertorio variado de piezas vocales, de dificultad adaptada al nivel, abarcando el patrimonio musical de Canarias, de otras culturas y de diferentes épocas y estilos del ámbito occidental. El repertorio seleccionado incluirá también la música popular, la música urbana y la contemporánea, prestando especial atención a las producciones de las compositoras e intérpretes femeninas. Igualmente se comprobará que el alumnado es capaz de valorar críticamente la diversidad lingüística y cultural presente en la sociedad y el patrimonio artístico de cualquier época. Por último, se evaluará la habilidad para incorporar la percusión corporal y otros diseños coreográficos a las interpretaciones del conjunto, contribuyendo al descubrimiento de las posibilidades expresivas de la voz y el cuerpo, y a la consolidación de los valores colectivos de la práctica coral.",
-      "broader": "materia:BCBR",
+      "broader": "asig:BCBR01",
       "agrupa": [
         "ce:BCBRC3"
       ],
@@ -116,6 +128,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -125,7 +138,7 @@
       "notation": "BCBR01BC4",
       "prefLabel": "Coro y Técnica Vocal I · 1º Bachillerato · bloque competencial C4",
       "scopeNote": "Este bloque competencial permitirá constatar en qué medida el alumnado es capaz de participar en proyectos escénicos colaborativos con la finalidad de favorecer su crecimiento artístico y personal. Se verificará el empleo responsable y la integración de herramientas digitales para la creación de productos musicales y audiovisuales en el desarrollo de proyectos, de forma que el alumnado sea capaz de incorporarlas a su entorno personal de aprendizaje y ejerza una ciudadanía digital activa, lo que implica el uso seguro, saludable, sostenible, crítico y responsable de las tecnologías digitales. Asimismo se evaluará la implicación, la participación y la cooperación, de manera que el alumnado demuestre conciencia de grupo, afrontando retos con sentido crítico y ético, y fortaleciendo el optimismo, la resiliencia y la búsqueda de objetivos de forma autónoma, para hacer eficaz su aprendizaje. A su vez, se comprobará que el alumnado es capaz de integrar el canto coral con otros lenguajes artísticos, utilizando estos proyectos como un vehículo para la difusión de valores como la participación solidaria en la mejora del entorno social, la búsqueda del desarrollo sostenible o la igualdad de derechos, entre otros. Por último, se valorará en qué medida el alumnado es capaz de mostrar una actitud escénica adecuada y respeto por el público, desarrollando actitudes y valores inherentes a la práctica de conjunto, lo que contribuye a enriquecer el entorno cultural e identificar oportunidades de desarrollo personal, social, académico o profesional.",
-      "broader": "materia:BCBR",
+      "broader": "asig:BCBR01",
       "agrupa": [
         "ce:BCBRC4"
       ],
@@ -141,6 +154,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -162,6 +176,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -182,6 +197,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -203,6 +219,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -226,6 +243,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -235,8 +253,9 @@
       "notation": "BCBR01SBI",
       "prefLabel": "BCBR01SBI · I. Análisis",
       "definition": "Análisis",
-      "broader": "materia:BCBR",
+      "broader": "asig:BCBR01",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -246,8 +265,9 @@
       "notation": "BCBR01SBII",
       "prefLabel": "BCBR01SBII · II. Técnica vocal",
       "definition": "Técnica vocal",
-      "broader": "materia:BCBR",
+      "broader": "asig:BCBR01",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -257,8 +277,9 @@
       "notation": "BCBR01SBIII",
       "prefLabel": "BCBR01SBIII · III. Práctica de conjunto",
       "definition": "Práctica de conjunto",
-      "broader": "materia:BCBR",
+      "broader": "asig:BCBR01",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -270,6 +291,7 @@
       "definition": "Aplicación de estrategias de escucha activa en el análisis y la interpretación musical.",
       "broader": "sb:BCBR01SBI",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -281,6 +303,7 @@
       "definition": "Análisis de los recursos interpretativos y escénicos de piezas vocales y aplicación en las producciones propias.",
       "broader": "sb:BCBR01SBI",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -292,6 +315,7 @@
       "definition": "Análisis y descripción de las características básicas de piezas vocales sencillas de diferentes épocas y estilos de la música culta occidental, con grado de dificultad acorde al nivel.",
       "broader": "sb:BCBR01SBI",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -303,6 +327,7 @@
       "definition": "Análisis y descripción de las características básicas de piezas vocales sencillas tradicionales de distintas culturas, con grado de dificultad acorde al nivel.",
       "broader": "sb:BCBR01SBI",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -314,6 +339,7 @@
       "definition": "Análisis y descripción de las características básicas de piezas vocales sencillas de la música popular, con especial atención a las músicas urbanas y contemporáneas, con grado de dificultad acorde al nivel.",
       "broader": "sb:BCBR01SBI",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -325,6 +351,7 @@
       "definition": "Análisis y descripción de las características de piezas vocales de la música culta, tradicional y popular, urbana y contemporánea, producida en Canarias, con grado de dificultad acorde al nivel.",
       "broader": "sb:BCBR01SBI",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -336,6 +363,7 @@
       "definition": "Análisis con perspectiva de género. Visibilización de la producción de mujeres compositoras, intérpretes femeninas y directoras de agrupaciones vocales, así como de referentes femeninos del patrimonio canario.",
       "broader": "sb:BCBR01SBI",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -347,6 +375,7 @@
       "definition": "Aplicación del análisis del texto y su métrica como base de la articulación, la velocidad y la precisión rítmica.",
       "broader": "sb:BCBR01SBI",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -358,6 +387,7 @@
       "definition": "Práctica de la relajación y la concentración en los ejercicios e interpretaciones vocales.",
       "broader": "sb:BCBR01SBII",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -369,6 +399,7 @@
       "definition": "Práctica de los elementos de la producción vocal: respiración, emisión, articulación, resonancia y dinámica.",
       "broader": "sb:BCBR01SBII",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -380,6 +411,7 @@
       "definition": "Realización de ejercicios, vocalizaciones e improvisaciones en grupo.",
       "broader": "sb:BCBR01SBII",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -391,6 +423,7 @@
       "definition": "Adquisición y aplicación de técnicas vocales y de expresión corporal en la interpretación. Relación de la emisión vocal y el movimiento.",
       "broader": "sb:BCBR01SBII",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -402,6 +435,7 @@
       "definition": "Adquisición de hábitos saludables en la práctica vocal: cuidado de la voz y postura del cuerpo.",
       "broader": "sb:BCBR01SBII",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -413,6 +447,7 @@
       "definition": "Desarrollo del oído armónico y la afinación: entonación de intervalos melódicos y armónicos sencillos.",
       "broader": "sb:BCBR01SBII",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -424,6 +459,7 @@
       "definition": "Interpretación de un repertorio de piezas corales, con grado de dificultad acorde al nivel, de diferentes épocas y estilos del ámbito occidental, así como de otros ámbitos culturales, con especial atención a las de Canarias, con o sin acompañamiento instrumental.",
       "broader": "sb:BCBR01SBIII",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -435,6 +471,7 @@
       "definition": "Visibilización de la producción musical de las mujeres, compositoras e intérpretes femeninas, en el repertorio seleccionado.",
       "broader": "sb:BCBR01SBIII",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -446,6 +483,7 @@
       "definition": "Búsqueda de sonido del conjunto en la práctica coral: respiración, ataque, afinación, articulación, ritmo, fraseo y dinámica. Equilibrio entre las voces y los planos sonoros.",
       "broader": "sb:BCBR01SBIII",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -457,6 +495,7 @@
       "definition": "Aplicación de la lectura básica de partituras, con notación convencional y no convencional, en el aprendizaje e interpretación de piezas vocales.",
       "broader": "sb:BCBR01SBIII",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -468,6 +507,7 @@
       "definition": "Aplicación de estrategias de memorización en el aprendizaje de piezas vocales.",
       "broader": "sb:BCBR01SBIII",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -479,6 +519,7 @@
       "definition": "Incorporación de la percusión corporal y otros diseños coreográficos a la práctica vocal de conjunto.",
       "broader": "sb:BCBR01SBIII",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -490,6 +531,7 @@
       "definition": "Adecuación de la interpretación a las indicaciones y gestos de la dirección coral.",
       "broader": "sb:BCBR01SBIII",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -501,6 +543,7 @@
       "definition": "Desarrollo de actitudes y valores inherentes a la práctica de conjunto: actitud escénica adecuada, respeto por el público y compromiso con los objetivos grupales.",
       "broader": "sb:BCBR01SBIII",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -512,6 +555,7 @@
       "definition": "Empleo de las herramientas digitales en proyectos escénicos.",
       "broader": "sb:BCBR01SBIII",
       "materia": "materia:BCBR",
+      "materia_curso": "asig:BCBR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

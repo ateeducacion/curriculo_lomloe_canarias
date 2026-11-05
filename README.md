@@ -55,7 +55,7 @@ python -m pytest                             # pruebas automáticas
 
 ## Modelo de datos (resumen)
 
-Cada nodo es un concepto (SKOS) de uno de estos tipos: `Etapa`, `Curso`, `Materia`,
+Cada nodo es un concepto (SKOS) de uno de estos tipos: `Etapa`, `Curso`, `Materia`, `MateriaCurso`,
 `CompetenciaEspecifica`, `BloqueCompetencial`, `CriterioEvaluacion`, `BloqueSaberes` y
 `SaberBasico`. Los identificadores conservan los códigos de ProIDEAC
 (`crit:SMAT01CE1.1`, `sb:SMAT01SBI.1.1`…). Detalle en [`docs/modelo.md`](docs/modelo.md).

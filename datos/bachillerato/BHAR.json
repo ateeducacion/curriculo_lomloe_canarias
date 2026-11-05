@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BHAR02",
+      "tipo": "MateriaCurso",
+      "notation": "BHAR02",
+      "prefLabel": "Historia del Arte · 2º Bachillerato",
+      "broader": "materia:BHAR",
+      "materia": "materia:BHAR",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BHARC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BHARC1",
@@ -97,7 +107,7 @@
       "notation": "BHAR02BC1",
       "prefLabel": "Historia del Arte · 2º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de relacionar los saberes de Historia del Arte con su contexto geográfico, histórico y social para permitir la comparación de los diferentes productos artísticos de forma crítica, valorando su diversidad. Esto se podrá constatar en el alumnado localizando, analizando y contrastando información de forma autónoma para generar juicios propios que sean convenientemente expresados. Con todo ello, se verificará que las alumnas y los alumnos reconocerán tanto la diversidad de manifestaciones artísticas en su conjunto como el análisis de obras de arte concretas, investigando de forma individual o grupal, partiendo de la definición de arte, valorando su papel como medio de comunicación y culminando la aplicación de lo anterior a las artes plásticas y la arquitectura, mediante acciones informativas como dosieres, paneles divulgativos, murales u otro de formatos.",
-      "broader": "materia:BHAR",
+      "broader": "asig:BHAR02",
       "agrupa": [
         "ce:BHARC1"
       ],
@@ -112,6 +122,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -121,7 +132,7 @@
       "notation": "BHAR02BC2",
       "prefLabel": "Historia del Arte · 2º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se verificará que el alumnado es capaz de utilizar el arte como motivo de comunicación y de expresión de ideas, deseos y emociones. Esto se comprobará con el uso del vocabulario correcto para generar juicios propios que consigan fundamentar sentimientos y cimentar la empatía y el respeto por las expresiones ajenas, evitando actitudes discriminatorias. En el ámbito personal conlleva que el alumnado adquirirá la autonomía expresiva a la par que correcta, la autoafirmación personal y el respeto ante expresiones externas, que se conseguirán elaborando y expresando con coherencia y fluidez juicios y emociones propios acerca de las obras de arte y mostrando respeto y empatía por las opiniones, expresiones y emociones de los demás, así como utilizando la terminología y el vocabulario específico de la materia y demostrando un conocimiento básico de diversos lenguajes artísticos aprendidos. Los saberes que las alumnas y los alumnos adquirirán en este bloque versarán sobre el arte como forma de comunicación, la subjetividad, terminología y vocabulario artísticos específicos y herramientas de análisis de las obras de arte.",
-      "broader": "materia:BHAR",
+      "broader": "asig:BHAR02",
       "agrupa": [
         "ce:BHARC2"
       ],
@@ -137,6 +148,7 @@
         "CE3"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -146,7 +158,7 @@
       "notation": "BHAR02BC3",
       "prefLabel": "Historia del Arte · 2º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se persigue que el alumnado pueda conocer las distintas funciones del arte. Por un lado, las relacionadas con el decurso de la historia y, por otro, su utilización religiosa, ideológica, política, social, económica, expresiva o propiamente estética, su producción y su percepción, lo que generará, por parte del alumnado, una comprensión global de las funciones del arte y fomentará su juicio crítico. Todo ello conllevará la necesidad de investigar, analizar, contrastar, opinar y expresar con corrección, tanto de forma individual como en trabajo colaborativo, con el fin de conseguir una imagen propia y colectiva integradora. Para ello se evaluará tanto la distinción, el análisis y la comprensión como la elaboración de un juicio crítico personal sobre las funciones del arte desde la prehistoria hasta la actualidad, que puede ser expresado mediante exposiciones audiovisuales, tablones, conferencias, debates, etc.",
-      "broader": "materia:BHAR",
+      "broader": "asig:BHAR02",
       "agrupa": [
         "ce:BHARC3"
       ],
@@ -162,6 +174,7 @@
         "CC3"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -171,7 +184,7 @@
       "notation": "BHAR02BC4",
       "prefLabel": "Historia del Arte · 2º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado reconoce los movimientos artísticos que se han sucedido o han convivido a lo largo de la historia, lo que permitirá establecer una mejor relación con el entorno y se traduce en la apreciación, el respeto y la conservación del patrimonio. También se verificará que reconoce los mecanismos de influencia, préstamo, continuidad y ruptura para la comprensión del hecho artístico y la elaboración de un discurso personal. Relacionado con todo ello, el alumnado deberá investigar, analizar, comparar, opinar y expresar con corrección, alejado de actitudes discriminatorias y no inclusivas, sus conclusiones, que serán evaluadas con su aplicación a movimientos canarios, españoles y universales en su contexto histórico y cultural, utilizando las herramientas de análisis de las obras de arte: elementos técnicos, formales, y estilísticos; estudios iconográfico y de significado, identificación, contextualización y relevancia de la obra, y análisis comparativo. Se valorará que el alumnado trabaje, de forma individual o colectiva, realizando producciones encaminadas a la difusión en los diferentes espacios del centro.",
-      "broader": "materia:BHAR",
+      "broader": "asig:BHAR02",
       "agrupa": [
         "ce:BHARC4"
       ],
@@ -188,6 +201,7 @@
         "CCEC1"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -197,7 +211,7 @@
       "notation": "BHAR02BC5",
       "prefLabel": "Historia del Arte · 2º Bachillerato · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se promoverá que el alumnado sea capaz de relacionar los movimientos artísticos con las personalidades individuales, estableciendo su contexto geográfico, histórico, social, político, cultural y biográfico con la intención de concebir la creación artística como fruto de un tiempo determinado y la producción colectiva como la suma de individualidades, donde se dará visibilidad a las mujeres artistas. Para ello el alumnado deberá investigar, analizar, comparar y comunicar de forma correcta sus conclusiones, fomentando su empatía y expresando sus emociones a través de comentarios histórico-artísticos, reflexiones sobre la creación artística y fichas biográficas de distintas autoras y autores. Los saberes que el alumnado adquirirá están en consonancia con las herramientas para el análisis de las obras de arte: elementos técnicos, formales, y estilísticos; estudios iconográficos y de significado, identificación, contextualización y relevancia de la obra, y análisis comparativo. Se constatará todo lo anterior con la difusión mediante producciones, donde se hagan también planteamientos éticos, como pueden ser síntesis, exposiciones, infografías, pósteres, murales digitales o paneles informativos.",
-      "broader": "materia:BHAR",
+      "broader": "asig:BHAR02",
       "agrupa": [
         "ce:BHARC5"
       ],
@@ -214,6 +228,7 @@
         "CCEC2"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -223,7 +238,7 @@
       "notation": "BHAR02BC6",
       "prefLabel": "Historia del Arte · 2º Bachillerato · bloque competencial C6",
       "scopeNote": "A través de este bloque competencial se concienciará al alumnado en la conservación del patrimonio artístico. Este propósito se enmarca en la necesidad de mejorar el entorno de las mujeres y los hombres para conseguir un desarrollo sostenible en los ámbitos local, nacional e internacional. La investigación, el análisis, la comparación y la correcta comunicación de conclusiones deberán conseguir la asunción de valores tendentes, por un lado, a la conservación del patrimonio y, por el otro, a la mejora del entorno, basándose en un modelo de desarrollo sostenible en los ámbitos canario, nacional e internacional. Se constatará que el alumnado conoce y valora el patrimonio canario, sin olvidar el español y el universal, poniendo en valor los procesos de adquisición, conservación, exhibición y uso sostenible relacionado con él, así como, en su papel conformador de la identidad individual y colectiva, teniendo en cuenta las diferencias. Los alumnos y las alumnas adquirirán los saberes involucrados en la relación del arte con la realidad y el espacio. Se verificará, por último, la puesta en valor, difusión y administración de esa riqueza patrimonial con producciones y planteamientos éticos mediante dosieres, síntesis, exposiciones o cualquier producto.",
-      "broader": "materia:BHAR",
+      "broader": "asig:BHAR02",
       "agrupa": [
         "ce:BHARC6"
       ],
@@ -239,6 +254,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -248,7 +264,7 @@
       "notation": "BHAR02BC7",
       "prefLabel": "Historia del Arte · 2º Bachillerato · bloque competencial C7",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de apreciar la relatividad de las concepciones estéticas y, en particular, de la noción de belleza. Esta relatividad debe propiciar la apertura y el respeto hacia concepciones diferentes a las suyas sin menoscabo de que dicha percepción ayude a afianzar la propia imagen individual y colectiva. Para ello, se potenciará en el alumnado la investigación, el análisis y la comparación, que deben promover la sensibilidad del alumnado para con manifestaciones estéticas ajenas a las suyas, aplicando dichos criterios a la generación de argumentos propios sobre distintos cánones de belleza y en obras de diversos estilos y lugares, reconociendo estereotipos sexistas y no inclusivos. Las alumnas y los alumnos adquirirán los saberes referentes a las relaciones del arte con la identidad individual y social del arte, pudiendo hacer síntesis, exposiciones, infografías, pósteres y murales digitales, paneles informativos o papel.",
-      "broader": "materia:BHAR",
+      "broader": "asig:BHAR02",
       "agrupa": [
         "ce:BHARC7"
       ],
@@ -264,6 +280,7 @@
         "CPSAA1.1"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -273,7 +290,7 @@
       "notation": "BHAR02BC8",
       "prefLabel": "Historia del Arte · 2º Bachillerato · bloque competencial C8",
       "scopeNote": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de superar las diferencias de género en nuestra sociedad. En este sentido se trata de verificar que las alumnas y los alumnos incorporan al estudio de la Historia del Arte una perspectiva de género que evidencie los trabajos realizados por mujeres, además de la imagen de la mujer promovida en cada movimiento artístico, con el objetivo de colaborar en la consecución de una sociedad igualitaria. En este sentido, se fomentará la investigación, el análisis, la comparación y la comunicación de conclusiones, que debe tender a la consecución de una sociedad más democrática, sensible a situaciones ajenas, respetuosa y solidaria. La finalidad es que el alumnado conozca las principales figuras femeninas de la Historia del Arte, dando visibilidad a la mujer como artista, analizando el contexto político, social y cultural en el que desarrolló su producción artística. También se quiere constatar que el alumnado reconoce el esfuerzo de estas artistas por hacerse valer en ese contexto, conociendo y difundiendo sus aportaciones. Finalmente, se pretende que el alumnado conozca y examine críticamente la imagen que se ha dado de la mujer en la Historia del Arte, mediante el análisis comparativo de obras de distintas épocas y culturas, en las que esté representada la figura femenina, sirviendo para evaluar esta competencia, en el marco de la dimensión individual y social del arte.",
-      "broader": "materia:BHAR",
+      "broader": "asig:BHAR02",
       "agrupa": [
         "ce:BHARC8"
       ],
@@ -288,6 +305,7 @@
         "CC1"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -310,6 +328,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -329,6 +348,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -351,6 +371,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -369,6 +390,7 @@
         "CCEC2"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -391,6 +413,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -412,6 +435,7 @@
         "CCEC2"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -431,6 +455,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -455,6 +480,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -475,6 +501,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -496,6 +523,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -517,6 +545,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -538,6 +567,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -556,6 +586,7 @@
         "CCEC2"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -575,6 +606,7 @@
         "CCEC2"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -596,6 +628,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -618,6 +651,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -640,6 +674,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -661,6 +696,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -683,6 +719,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -705,6 +742,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -714,8 +752,9 @@
       "notation": "BHAR02SBI",
       "prefLabel": "BHAR02SBI · I. Aproximación a la Historia del Arte",
       "definition": "Aproximación a la Historia del Arte",
-      "broader": "materia:BHAR",
+      "broader": "asig:BHAR02",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -725,8 +764,9 @@
       "notation": "BHAR02SBII",
       "prefLabel": "BHAR02SBII · II. El arte y sus funciones a lo largo de la historia",
       "definition": "El arte y sus funciones a lo largo de la historia",
-      "broader": "materia:BHAR",
+      "broader": "asig:BHAR02",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -736,8 +776,9 @@
       "notation": "BHAR02SBIII",
       "prefLabel": "BHAR02SBIII · III. Dimensión individual y social del arte",
       "definition": "Dimensión individual y social del arte",
-      "broader": "materia:BHAR",
+      "broader": "asig:BHAR02",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -747,8 +788,9 @@
       "notation": "BHAR02SBIV",
       "prefLabel": "BHAR02SBIV · IV. Realidad, espacio y territorio en el arte",
       "definition": "Realidad, espacio y territorio en el arte",
-      "broader": "materia:BHAR",
+      "broader": "asig:BHAR02",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -760,6 +802,7 @@
       "definition": "Debate sobre la definición de arte y su concepto del arte a lo largo de la historia.",
       "broader": "sb:BHAR02SBI",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -771,6 +814,7 @@
       "definition": "Estudio sobre el lenguaje artístico: el arte como forma de comunicación. La variedad de códigos y lenguajes. Conocimiento de la variedad de símbolos e iconografía en el arte. La subjetividad creadora. La complejidad de la interpretación. El juicio estético.",
       "broader": "sb:BHAR02SBI",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -782,6 +826,7 @@
       "definition": "Aproximación al aprendizaje de la terminología y vocabulario específico del arte en la arquitectura y las artes plásticas.",
       "broader": "sb:BHAR02SBI",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -793,6 +838,7 @@
       "definition": "Uso de las herramientas para el análisis de la obra de arte: elementos técnicos, formales, y estilísticos. Estudio iconográfico y significado, identificación, contextualización y relevancia de la obra. El análisis comparativo.",
       "broader": "sb:BHAR02SBI",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -804,6 +850,7 @@
       "definition": "Análisis de las influencias, préstamos, continuidades y rupturas en la Historia del Arte.",
       "broader": "sb:BHAR02SBI",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -815,6 +862,7 @@
       "definition": "Comprensión del arte como instrumento mágico-ritual a lo largo de la historia.",
       "broader": "sb:BHAR02SBII",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -826,6 +874,7 @@
       "definition": "Reconocimiento del arte como dispositivo de dominación y control: desde las primeras civilizaciones urbanas hasta la sociedad contemporánea.",
       "broader": "sb:BHAR02SBII",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -837,6 +886,7 @@
       "definition": "Valoración del arte como instrumento propagandístico: desde el Mundo Antiguo hasta la actual sociedad de consumo.",
       "broader": "sb:BHAR02SBII",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -848,6 +898,7 @@
       "definition": "Conocimiento de la función didáctica y religiosa del arte en las sociedades teocéntricas.",
       "broader": "sb:BHAR02SBII",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -859,6 +910,7 @@
       "definition": "Identificación del mecenazgo y el coleccionismo como elementos de diferenciación social en el arte.",
       "broader": "sb:BHAR02SBII",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -870,6 +922,7 @@
       "definition": "Utilización del arte como medio de progreso, crítica y transformación sociocultural desde el pensamiento ilustrado hasta la actualidad.",
       "broader": "sb:BHAR02SBII",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -881,6 +934,7 @@
       "definition": "Análisis del arte como idioma de sentimientos y emociones.",
       "broader": "sb:BHAR02SBII",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -892,6 +946,7 @@
       "definition": "Utilización del arte como expresión de los avances tecnológicos: desde la Revolución Industrial hasta la era digital.",
       "broader": "sb:BHAR02SBII",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -903,6 +958,7 @@
       "definition": "Reflexión sobre la necesidad de representarnos. Estudio de la imagen del cuerpo humano. El género del retrato. La evolución en la imagen del artista. Arte e identidad individual.",
       "broader": "sb:BHAR02SBIII",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -914,6 +970,7 @@
       "definition": "Análisis y estudio de las escuelas, regionalismos y búsqueda de identidad. Las escuelas en el arte de Canarias.",
       "broader": "sb:BHAR02SBIII",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -925,6 +982,7 @@
       "definition": "Igualdad.",
       "broader": "sb:BHAR02SBIII",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -936,6 +994,7 @@
       "definition": "Identificación y análisis de la representación de la mujer en el arte desde una perspectiva crítica.",
       "broader": "sb:BHAR02SBIII.3",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -947,6 +1006,7 @@
       "definition": "Valoración de la mujer como artista. La lucha por la visibilidad a lo largo de la historia del arte.",
       "broader": "sb:BHAR02SBIII.3",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -958,6 +1018,7 @@
       "definition": "Reconocimiento de la revolución de la fotografía y del cine. El arte y la realidad, imitación e interpretación.",
       "broader": "sb:BHAR02SBIV",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -969,6 +1030,7 @@
       "definition": "Estudio sobre la creación de espacios arquitectónicos.",
       "broader": "sb:BHAR02SBIV",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -980,6 +1042,7 @@
       "definition": "Identificación y análisis de la pintura y la perspectiva a través de la conquista de la tercera dimensión.",
       "broader": "sb:BHAR02SBIV",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -991,6 +1054,7 @@
       "definition": "Indagación sobre la intervención del arte en el urbanismo.",
       "broader": "sb:BHAR02SBIV",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1002,6 +1066,7 @@
       "definition": "Concienciación sobre la función del arte en el medio ambiente. La naturaleza y la representación de las emociones.",
       "broader": "sb:BHAR02SBIV",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1013,6 +1078,7 @@
       "definition": "Reconocimiento de la contribución del arte a los Objetivos de Desarrollo Sostenible y a la Agenda Canaria de Desarrollo Sostenible 2030. Aproximación a la arquitectura, urbanismo y diseño sostenible.",
       "broader": "sb:BHAR02SBIV",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1024,6 +1090,7 @@
       "definition": "Valoración y reflexión sobre el patrimonio artístico: preservación, conservación y usos sostenibles. La utilidad de la museografía y museología. Conocimiento de la realidad museística canaria.",
       "broader": "sb:BHAR02SBIV",
       "materia": "materia:BHAR",
+      "materia_curso": "asig:BHAR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     }

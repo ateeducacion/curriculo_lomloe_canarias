@@ -12,6 +12,16 @@
       "etapa": "etapa:ESO"
     },
     {
+      "id": "asig:SCUC03",
+      "tipo": "MateriaCurso",
+      "notation": "SCUC03",
+      "prefLabel": "Cultura Clásica · 3º ESO",
+      "broader": "materia:SCUC",
+      "materia": "materia:SCUC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
       "id": "ce:SCUCC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "SCUCC1",
@@ -67,7 +77,7 @@
       "notation": "SCUC03BC1",
       "prefLabel": "Cultura Clásica · 3º ESO · bloque competencial C1",
       "scopeNote": "Este bloque competencial pretende constatar que el alumnado puede reconocer y valorar la pervivencia de Grecia y Roma en la actualidad, herencia cultural que el mundo occidental ha recibido de las civilizaciones griegas y romanas, y que se observa en los diferentes ámbitos de la vida y sociedad. Este conocimiento del legado clásico se presenta en un amplio abanico de expresiones culturales para su análisis como los elementos mitológicos que aparecen en el arte, los textos literarios modernos inspirados en autores clásicos, los monumentos artísticos y arquitectónicos que perviven o la vigencia de las instituciones públicas, y prestará especial importancia a aquel legado presente en la Península Ibérica y al que ha podido repercutir en Canarias. Para ahondar en esto, deberá realizar búsquedas de información y contrastar su veracidad, de manera que elabore productos escolares individuales o grupales de diverso tipo en los que demuestre la continuidad e influencia del mundo clásico en toda la cultura europea, mediante el uso de plataformas virtuales, y en los que se den solución a los posibles problemas que puedan surgir durante el proceso de construcción del conocimiento. Así pues, tendrá como objetivo principal respetar y valorar la diversidad de la cultura y el patrimonio, expresar ideas en las que demuestre un estilo de vida sostenible y desarrollar su autoestima a través de las diferentes intencionalidades de las creaciones artísticas.",
-      "broader": "materia:SCUC",
+      "broader": "asig:SCUC03",
       "agrupa": [
         "ce:SCUCC1"
       ],
@@ -87,6 +97,7 @@
         "CCEC3"
       ],
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -96,7 +107,7 @@
       "notation": "SCUC03BC2",
       "prefLabel": "Cultura Clásica · 3º ESO · bloque competencial C2",
       "scopeNote": "Con este bloque competencial se persigue verificar que el alumnado reconoce el origen y la importancia de las lenguas clásicas, el griego y el latín, y también sus diferentes sistemas de escritura y alfabetos. Para comprender el mundo actual es inevitable analizar estas lenguas por todo lo que han supuesto en el desarrollo de la cultura occidental, ya que han sido consideradas lenguas de culto desde la propia Antigüedad clásica hasta el Renacimiento, lo que supone que durante varios siglos gran parte de la cultura europea fue escrita en lengua griega y, sobre todo, en lengua latina. Por esta razón, se comprobará que el alumnado valora la presencia de estas lenguas en el mundo actual, reconociendo los diferentes grupos lingüísticos indoeuropeos y la procedencia de las lenguas habladas en Europa y en España, y su origen común, para lo que localizará y comparará, de manera específica, el grupo de lenguas romances, de modo que aprenda a respetar la diversidad lingüística y cultural de los diferentes pueblos y de su entorno canario, promoviendo un uso ético y solidario del lenguaje. Asimismo, se comprobará también que identifica etimologías y expresiones grecolatinas en textos de diversa índole, especialmente los del ámbito científico y técnico, puesto que son las lenguas clásicas las que sirven para generar la mayor parte del vocabulario específico de este campo, para fomentar un mayor dominio del castellano, posibilitando un aumento del caudal léxico individual y una mejora en la expresión escrita y oral. Se constatará, además, el uso de recursos y herramientas digitales para la búsqueda o verificación de la información (diccionarios digitales, glosarios en línea…) o elaboración de actividades o proyectos que, desde una perspectiva multidisciplinar, fomenten el reconocimiento y la utilización de los formantes grecolatinos.",
-      "broader": "materia:SCUC",
+      "broader": "asig:SCUC03",
       "agrupa": [
         "ce:SCUCC2"
       ],
@@ -111,6 +122,7 @@
         "CE3"
       ],
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -120,7 +132,7 @@
       "notation": "SCUC03BC3",
       "prefLabel": "Cultura Clásica · 3º ESO · bloque competencial C3",
       "scopeNote": "El estudio de las civilizaciones griegas y romanas está directamente ligado al conocimiento de nuestras raíces, ya que no es posible comprender la sociedad actual sin sus referencias. A través del presente bloque competencial se comprobará que el alumnado puede distinguir, mediante la creación de textos, fuentes cartográficas, ejes cronológicos u otros productos escolares en distintos soportes, las fronteras territoriales que han existido en Europa, Asia y África bajo el dominio de Grecia y Roma, valorando la importancia del Mare Nostrum como eje tricontinental estratégico: continente europeo, africano y asiático, y de expansión político-social y cultural, de manera que identifique los principales lugares geográficos y la localización de yacimientos arqueológicos actuales, y reconozca, a su vez, la importancia de la península ibérica como enclave de coexistencia entre distintas civilizaciones. Deberá ser capaz, asimismo, de apreciar los momentos históricos más relevantes de la civilización occidental europea de la Antigüedad clásica, explicando eventos y personajes históricos de especial relevancia, y haciendo hincapié en el proceso de romanización de Hispania. Todo esto tendrá como objetivo fomentar en el alumnado un espíritu crítico y empático con los cambios sociales producidos en la historia que dan identidad a la sociedad actual y que reflexione sobre su proceso de aprendizaje para validar y sustentar la información.",
-      "broader": "materia:SCUC",
+      "broader": "asig:SCUC03",
       "agrupa": [
         "ce:SCUCC3"
       ],
@@ -135,6 +147,7 @@
         "CP3"
       ],
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -144,7 +157,7 @@
       "notation": "SCUC03BC4",
       "prefLabel": "Cultura Clásica · 3º ESO · bloque competencial C4",
       "scopeNote": "En este bloque competencial se verificará que el alumnado conozca, ayudándose de la búsqueda de información en diferentes formatos y a través de la lectura comprensiva de textos de diversa índole, los aspectos más relevantes de la organización política, social y laboral de Grecia y Roma, que abarca desde la vida más personal de las personas que vivieron en estas civilizaciones, haciendo referencia a las diferentes formas de ocio y negocio, hasta la celebración de grandes festividades cívico-religiosas, como los festivales de teatro o los célebres Juegos Olímpicos, de vital importancia para la vida política de la ciudad. Para lograr una mejor comprensión de la civilización grecorromana deberá observar también las divisiones y desigualdades sociales existentes, y la estructura de las familias grecorromanas y sus características, prestando especial atención al papel de la mujer en esas sociedades. También se podrá comprobar que contrasta el pasado clásico con el presente que lo rodea, a través de realización de productos escolares de diverso tipo, individual o en grupo, en los que valore la presencia de estas formas de organización social y de ocio en la actualidad, o en los que compare las manifestaciones y las fiestas religiosas del pasado clásico con las actuales. Con ello el alumnado podrá valorar las características de las distintas culturas que han confluido en Europa a lo largo de la historia y argumentar, al mismo tiempo, desde un punto de vista crítico, opiniones desde el respeto, y la empatía sobre la forma de vivir, de relacionarse, de trabajar o de divertirse los distintos pueblos y colectividades.",
-      "broader": "materia:SCUC",
+      "broader": "asig:SCUC03",
       "agrupa": [
         "ce:SCUCC4"
       ],
@@ -160,6 +173,7 @@
         "CCL1"
       ],
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -169,7 +183,7 @@
       "notation": "SCUC03BC5",
       "prefLabel": "Cultura Clásica · 3º ESO · bloque competencial C5",
       "scopeNote": "En este bloque competencial se persigue comprobar que el alumnado es capaz reconocer e identificar las características principales de las figuras mitológicas más destacables de su época, haciendo uso de la lectura y la investigación en fuentes digitales o analógicas. Deberá poder reconocer, por ende, los elementos fundamentales de la mitología grecolatina como divinidades, personajes legendarios o episodios más destacados, poniendo especial interés a los elementos relacionados con las Islas Canarias. Los aprendizajes de este bloque competencial permitirán que el alumnado conozca los personajes de las leyendas y la mitología clásicas, y los compare con los actuales, indicando las principales semejanzas y diferencias entre unos y otros, y asociándolas a otros rasgos culturales propios de cada época, de manera que comprueba cuánto hay de los mitos de la antigüedad clásica en los mitos nuevos y cómo la mayor parte de estos son una actualización de aquellos, y valora cómo llega la propia sociedad a considerarlos un modelo de comportamiento. Todo ello, con la finalidad de analizar los aspectos básicos que en cada caso se asocian a la tradición grecolatina y de enjuiciar las causas de la consolidación de esos arquetipos en la vida presente, poniendo interés en su cotejo con la mitología aborigen canaria. Se verificará que el alumnado es consciente de la influencia que ha ejercido el mundo mitológico clásico en el proceso creativo de las diferentes expresiones artísticas como la literatura, la música, la pintura o el cine; que disfruta con estas producciones; y que puede, además, elaborar productos escolares, en grupo o de forma individual, en los que reflexione sobre la transmisión y la influencia clásica a lo largo de la historia en Occidente, desde la consciencia artística, el respeto y el espíritu crítico.",
-      "broader": "materia:SCUC",
+      "broader": "asig:SCUC03",
       "agrupa": [
         "ce:SCUCC5"
       ],
@@ -190,6 +204,7 @@
         "CCEC3"
       ],
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -210,6 +225,7 @@
         "CCEC2"
       ],
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -234,6 +250,7 @@
         "CCEC3"
       ],
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -252,6 +269,7 @@
         "CP3"
       ],
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -272,6 +290,7 @@
         "CE3"
       ],
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -292,6 +311,7 @@
         "CCEC1"
       ],
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -314,6 +334,7 @@
         "CCEC1"
       ],
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -336,6 +357,7 @@
         "CC2"
       ],
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -357,6 +379,7 @@
         "CC1"
       ],
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -377,6 +400,7 @@
         "CC1"
       ],
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -397,6 +421,7 @@
         "CCEC2"
       ],
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -418,6 +443,7 @@
         "CCEC2"
       ],
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -443,6 +469,7 @@
         "CCEC3"
       ],
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -452,8 +479,9 @@
       "notation": "SCUC03SBI",
       "prefLabel": "SCUC03SBI · I. Mundo mítico y mundo histórico",
       "definition": "Mundo mítico y mundo histórico",
-      "broader": "materia:SCUC",
+      "broader": "asig:SCUC03",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -463,8 +491,9 @@
       "notation": "SCUC03SBII",
       "prefLabel": "SCUC03SBII · II. Plurilingüismo y léxico grecolatino",
       "definition": "Plurilingüismo y léxico grecolatino",
-      "broader": "materia:SCUC",
+      "broader": "asig:SCUC03",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -474,8 +503,9 @@
       "notation": "SCUC03SBIII",
       "prefLabel": "SCUC03SBIII · III. Sociedad y vida cotidiana",
       "definition": "Sociedad y vida cotidiana",
-      "broader": "materia:SCUC",
+      "broader": "asig:SCUC03",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -485,8 +515,9 @@
       "notation": "SCUC03SBIV",
       "prefLabel": "SCUC03SBIV · IV. Legado clásico: arte y literatura",
       "definition": "Legado clásico: arte y literatura",
-      "broader": "materia:SCUC",
+      "broader": "asig:SCUC03",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -498,6 +529,7 @@
       "definition": "Identificación en mapas del marco geográfico de las civilizaciones griega y romana, ubicando los principales puntos de interés geográfico o arqueológico que resulten determinantes para comprender el desarrollo de Grecia y Roma.",
       "broader": "sb:SCUC03SBI",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -509,6 +541,7 @@
       "definition": "Descripción de los principales eventos de la historia grecorromana, así como de sus etapas más representativas, situándolos en ejes cronológicos y valorando sus consecuencias para la posteridad.",
       "broader": "sb:SCUC03SBI",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -520,6 +553,7 @@
       "definition": "Reconocimiento de los personajes históricos más relevantes de Grecia y Roma, y valoración del papel que desempeñaron en el proceso histórico de su momento y de la posterior trascendencia histórica que tuvieron.",
       "broader": "sb:SCUC03SBI",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -531,6 +565,7 @@
       "definition": "Comparación de las civilizaciones griega y romana con otras anteriores o posteriores, valorando con ejemplos su influencia en la sociedad occidental actual e identificando el papel de las dos civilizaciones como puente entre oriente y occidente, y entre países del norte y del sur.",
       "broader": "sb:SCUC03SBI",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -542,6 +577,7 @@
       "definition": "Definición del concepto de mito en la Antigüedad clásica y su importancia social, cultural y religiosa en estas civilizaciones, señalando las semejanzas y diferencias con los mitos de otras culturas, especialmente con la cultura aborigen canaria.",
       "broader": "sb:SCUC03SBI",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -553,6 +589,7 @@
       "definition": "Reconocimiento de las principales divinidades del panteón grecorromano, que nuestra tradición cultural ha heredado del mundo clásico, identificando sus características, atributos y ámbitos de influencia.",
       "broader": "sb:SCUC03SBI",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -564,6 +601,7 @@
       "definition": "Identificación de los héroes, las heroínas y los seres mitológicos más importantes y representativos de la mitología clásica, así como de sus historias y ciclos míticos, comparándolos con los actuales y reconociendo su importancia en la cultura.",
       "broader": "sb:SCUC03SBI",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -575,6 +613,7 @@
       "definition": "Descripción y análisis de elementos mitológicos básicos a través de ejemplos de las artes plásticas, visuales y musicales.",
       "broader": "sb:SCUC03SBI",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -586,6 +625,7 @@
       "definition": "Reconocimiento de los mitos y las leyendas del mundo antiguo clásico relacionados con Canarias.",
       "broader": "sb:SCUC03SBI",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -597,6 +637,7 @@
       "definition": "Conocimiento de las principales constelaciones relacionadas con la mitología clásica con el objetivo de apreciar las características únicas del cielo de Canarias para la observación del cosmos.",
       "broader": "sb:SCUC03SBI",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -608,6 +649,7 @@
       "definition": "Utilización de herramientas analógicas o digitales para la elaboración de productos sobre el mundo mítico grecolatino, y sobre los personajes y la historia de Grecia y Roma.",
       "broader": "sb:SCUC03SBI",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -619,6 +661,7 @@
       "definition": "Identificación de los distintos tipos de escritura destacando los alfabetos y algunas de sus características más relevantes, para valorar la importancia de la comunicación escrita en la evolución y desarrollo de las personas y los pueblos.",
       "broader": "sb:SCUC03SBII",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -630,6 +673,7 @@
       "definition": "Enumeración y localización en fuentes cartográficas de las principales ramas de la familia de las lenguas indoeuropeas (lenguas romances procedentes del latín, lenguas germánicas, lenguas célticas, lenguas baltoeslavas y lengua griega), de modo que diferencia y acepta la diversidad desde el respeto.",
       "broader": "sb:SCUC03SBII",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -641,6 +685,7 @@
       "definition": "Aproximación elemental a la evolución de las lenguas romances como un proceso de transformación natural e intrínseco del ser humano en las sociedades a partir de un punto común.",
       "broader": "sb:SCUC03SBII",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -652,6 +697,7 @@
       "definition": "Distinción de las diferentes lenguas habladas dentro del territorio español, tanto de origen romance como no romance, ubicando en fuentes cartográficas las zonas en las que se utilizan, siendo consciente de la importancia de cada una de ellas como riqueza cultural de España y poniendo en valor el habla canaria.",
       "broader": "sb:SCUC03SBII",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -663,6 +709,7 @@
       "definition": "Reconocimiento de los helenismos y latinismos más frecuentes en el léxico de las diferentes lenguas de España para su incorporación en el vocabulario del alumnado.",
       "broader": "sb:SCUC03SBII",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -674,6 +721,7 @@
       "definition": "Identificación de los vocablos científico-técnicos que proceden de las raíces griegas o latinas más importantes, con el objetivo de analizar su origen, inferir su significado y adquirir la terminología necesaria para comprender textos especializados.",
       "broader": "sb:SCUC03SBII",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -685,6 +733,7 @@
       "definition": "Uso de los principales étimos grecolatinos como base de la composición y derivación del vocabulario usado en español u otras lenguas propias del alumnado, y en algunos canarismos.",
       "broader": "sb:SCUC03SBII",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -696,6 +745,7 @@
       "definition": "Utilización de herramientas analógicas o digitales para la elaboración de productos sobre el significado de las palabras de origen griego y latino.",
       "broader": "sb:SCUC03SBII",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -707,6 +757,7 @@
       "definition": "Descripción de la organización de la sociedad grecolatina distinguiendo las características de las clases sociales y los roles de cada una, de manera que relaciona los valores, los derechos y las libertades de esa época con la actual desde un punto de vista crítico y empático.",
       "broader": "sb:SCUC03SBIII",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -718,6 +769,7 @@
       "definition": "Identificación de los papeles que desempeñaban los diferentes componentes de la familia, parangonándolos con los actuales y destacando, sobre todo, a la mujer como persona semejante en derechos y deberes al hombre.",
       "broader": "sb:SCUC03SBIII",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -729,6 +781,7 @@
       "definition": "Reconocimiento de los principales sistemas políticos de la Antigüedad clásica y de la importancia de estos dentro de las sociedades griega y romana como origen y base del espíritu democrático de la sociedad actual.",
       "broader": "sb:SCUC03SBIII",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -740,6 +793,7 @@
       "definition": "Descripción de las diversas formas de trabajo y de ocio dentro del mundo grecorromano, analizando la finalidad y las personas destinatarias, y valorándolas como parte de la identidad cívica global y, en concreto, europea.",
       "broader": "sb:SCUC03SBIII",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -751,6 +805,7 @@
       "definition": "Aproximación a las fiestas religiosas, juegos deportivos y espectáculos de Grecia y Roma para su valoración como herencia inmaterial de la cultura grecolatina a la sociedad occidental.",
       "broader": "sb:SCUC03SBIII",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -762,6 +817,7 @@
       "definition": "Utilización de herramientas analógicas o digitales para la elaboración de productos en los que se establezcan paralelismos entre las principales instituciones políticas, sociales y culturales europeas del mundo grecolatino, y las de las sociedades actuales.",
       "broader": "sb:SCUC03SBIII",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -773,6 +829,7 @@
       "definition": "Descripción de productos culturales de la civilización grecolatina que han pervivido hasta la actualidad, encuadrándolos en el período histórico correspondiente y señalando ejemplos que demuestran su vigencia.",
       "broader": "sb:SCUC03SBIV",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -784,6 +841,7 @@
       "definition": "Identificación de la pervivencia de la mitología clásica mediante el análisis y la descripción de manifestaciones artísticas en las que están presentes.",
       "broader": "sb:SCUC03SBIV",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -795,6 +853,7 @@
       "definition": "Apreciación de obras artísticas griegas y romanas a través del estudio de ejemplos significativos, haciendo referencia a su contexto histórico o cultural.",
       "broader": "sb:SCUC03SBIV",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -806,6 +865,7 @@
       "definition": "Identificación y valoración del patrimonio cultural clásico en el arte, la arquitectura y el urbanismo de Canarias.",
       "broader": "sb:SCUC03SBIV",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -817,6 +877,7 @@
       "definition": "Localización en fuentes cartográficas analógicas o digitales y descripción de monumentos clásicos de la Península Ibérica, fomentando una actitud de respeto hacia su conservación y preservación del patrimonio.",
       "broader": "sb:SCUC03SBIV",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -828,6 +889,7 @@
       "definition": "Valoración de la presencia del archipiélago canario en el imaginario clásico a través de la lectura de fragmentos de textos literarios grecolatinos.",
       "broader": "sb:SCUC03SBIV",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -839,6 +901,7 @@
       "definition": "Utilización de herramientas analógicas o digitales para la búsqueda y el tratamiento de la información, con el fin de elaborar productos sobre la pervivencia de lo clásico en la actualidad.",
       "broader": "sb:SCUC03SBIV",
       "materia": "materia:SCUC",
+      "materia_curso": "asig:SCUC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     }

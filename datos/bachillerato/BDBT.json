@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BDBT01",
+      "tipo": "MateriaCurso",
+      "notation": "BDBT01",
+      "prefLabel": "Dibujo Técnico I · 1º Bachillerato",
+      "broader": "materia:BDBT",
+      "materia": "materia:BDBT",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BDBTC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BDBTC1",
@@ -67,7 +77,7 @@
       "notation": "BDBT01BC1",
       "prefLabel": "Dibujo Técnico I · 1º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se verificará si el alumnado interpreta e identifica, a lo largo del tiempo, la relación entre las matemáticas y el dibujo geométrico, realizando búsquedas avanzadas en internet, así como evaluando y sintetizando la información con el propósito de estudiar el desarrollo histórico del dibujo técnico, tomando como ejemplo obras de arquitectura y de ingeniería moderna en Canarias (parroquias, santuarios, catedrales, ermitas, construcciones domésticas…), y las vanguardias arquitectónicas y últimas tendencias (Santiago Calatrava, Óscar Tusquets, Javier Mena y Ramón Chesa, entre otros) como parte de su expresión artística; y analizando sus campos de acción y aplicaciones (dibujo arquitectónico, mecánico, eléctrico y electrónico, geológico, urbanístico, etc.) desde los orígenes de la geometría (Thales, Pitágoras, Euclides, Hipatia de Alejandría). Asimismo, se constatará si consigue, con todo ello, analizar las estructuras geométricas y los elementos técnicos utilizados en las distintas obras estudiadas.",
-      "broader": "materia:BDBT",
+      "broader": "asig:BDBT01",
       "agrupa": [
         "ce:BDBTC1"
       ],
@@ -84,6 +94,7 @@
         "CCEC2"
       ],
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -93,7 +104,7 @@
       "notation": "BDBT01BC2",
       "prefLabel": "Dibujo Técnico I · 1º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se constatará si el alumnado resuelve gráficamente cálculos matemáticos y transformaciones básicas; si aplica conceptos y propiedades de la geometría plana (lugar geométrico, el arco capaz, las aplicaciones de construcciones fundamentales, la proporcionalidad, la equivalencia y la semejanza); y si para todo esto utiliza herramientas e instrumentos adecuados y emplea destrezas que agilicen el trabajo colaborativo y en equipo para la resolución de problemas matemáticos de cierta complejidad de manera gráfica. También se verificará si traza gráficamente construcciones poligonales (triángulos, cuadriláteros y polígonos regulares ); y se basa en sus propiedades y métodos de construcción, interpretando los elementos más relevantes de forma autónoma. Y, por último, se evaluará si traza gráficamente tangencias y curvas; aplica métodos inductivos y deductivos con rigor; valora aspectos como la precisión, la claridad y la limpieza en las ejecuciones; consigue un trabajo bien hecho; y propone ideas creativas para resolver de esta manera las operaciones básicas de geometría plana.",
-      "broader": "materia:BDBT",
+      "broader": "asig:BDBT01",
       "agrupa": [
         "ce:BDBTC2"
       ],
@@ -108,6 +119,7 @@
         "STEM1"
       ],
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -117,7 +129,7 @@
       "notation": "BDBT01BC3",
       "prefLabel": "Dibujo Técnico I · 1º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se comprobará si el alumnado resuelve problemas geométricos mediante abatimientos, giros y cambios de plano, basándose en los fundamentos del sistema diédrico: representación de punto, recta y plano, trazas con planos de proyección, determinación del plano, pertenencia, relaciones entre elementos (intersecciones, paralelismo y perpendicularidad) y obtención de distancias; y si para ello evalúa el proceso de la construcción del conocimiento y hace eficaz el aprendizaje. Se constatará también si define elementos y figuras planas en sistemas axonométricos y valora su importancia como métodos de representación espacial mediante el sistema axonométrico ortogonal y oblicuo, las perspectivas isométrica y caballera, la disposición de los ejes, el uso de los coeficientes de reducción y la representación de los elementos básicos: punto, recta y plano, con el propósito de aplicar conocimientos técnicos específicos; y si reflexiona sobre el proceso realizado y el resultado obtenido. Asimismo, se confirmará si el alumnado representa elementos básicos en el sistema de planos acotados; hace uso de sus fundamentos; identifica los elementos para la interpretación en el plano; y aplica estrategias y destrezas que agilicen el trabajo en equipo. Del mismo modo, se observará si dibuja elementos en el espacio empleando la perspectiva cónica, representando de forma precisa las perspectivas frontal y oblicua, seleccionando métodos inductivos y deductivos y utilizando herramientas e instrumentos adecuados. Por último, se evaluará si para todo ello expresa y calcula las soluciones a problemas geométricos de representación espacial; así como interpreta y recrea gráficamente la realidad tridimensional sobre la superficie del plano.",
-      "broader": "materia:BDBT",
+      "broader": "asig:BDBT01",
       "agrupa": [
         "ce:BDBTC3"
       ],
@@ -131,6 +143,7 @@
         "CE3"
       ],
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -140,7 +153,7 @@
       "notation": "BDBT01BC4",
       "prefLabel": "Dibujo Técnico I · 1º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se verificará que el alumnado es capaz de documentar gráficamente objetos sencillos mediante sus vistas acotadas; aplicar la normativa UNE e ISO en la utilización de sintaxis, entendiendo el concepto de normalización y sus aplicaciones (simbología industrial y arquitectónica), a través de la elección de vistas necesarias, líneas normalizadas y acotaciónes correspondientes; y ayudarse para ello de formatos digitales. También se evaluará si utiliza el croquis y el boceto hasta la formalización final por medio de planos de taller y de construcción; aprecia la utilización de los mismos como elementos de reflexión en la aproximación e indagación de alternativas y soluciones a los procesos de trabajo, aplicando escalas (numéricas y gráficas), formatos y doblado de planos, buscando objetivos de forma autónoma; y se inicia, con ello, en la documentación gráfica de proyectos arquitectónicos e ingenieriles.",
-      "broader": "materia:BDBT",
+      "broader": "asig:BDBT01",
       "agrupa": [
         "ce:BDBTC4"
       ],
@@ -156,6 +169,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -165,7 +179,7 @@
       "notation": "BDBT01BC5",
       "prefLabel": "Dibujo Técnico I · 1º Bachillerato · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se comprobará si el alumnado es capaz de crear figuras planas y figuras tridimensionales mediante programas de dibujo vectorial (aplicaciones vectoriales 2D-3D); y tener en cuenta los fundamentos de diseño de piezas en tres dimensiones aplicados a representaciones en el plano y en el espacio, haciendo uso de dispositivos digitales y realizando búsquedas avanzadas en internet, a fin de organizar el almacenamiento de la información de manera adecuada y con medidas de seguridad. También se verificará si puede recrear virtualmente piezas en tres dimensiones por medio de operaciones algebraicas, tomando en consideración el modelado de caja y la combinación de operaciones básicas con operaciones primitivas; y conformar, de esta manera, piezas complejas a partir de otras piezas más sencillas. Y por último, se verificará si consigue virtualizar objetos y espacios en dos dimensiones y tres dimensiones utilizando el pensamiento científico; y aplicarlos a procesos de creación de proyectos en grupo, de ingeniería y arquitectura.",
-      "broader": "materia:BDBT",
+      "broader": "asig:BDBT01",
       "agrupa": [
         "ce:BDBTC5"
       ],
@@ -180,6 +194,7 @@
         "CE3"
       ],
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -204,6 +219,7 @@
         "CCEC2"
       ],
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -223,6 +239,7 @@
         "CE2"
       ],
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -240,6 +257,7 @@
         "CE2"
       ],
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -257,6 +275,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -274,6 +293,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -291,6 +311,7 @@
         "CE2"
       ],
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -308,6 +329,7 @@
         "CE2"
       ],
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -326,6 +348,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -343,6 +366,7 @@
         "CE3"
       ],
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -364,6 +388,7 @@
         "CE3"
       ],
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -383,6 +408,7 @@
         "CE3"
       ],
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -402,6 +428,7 @@
         "CD3"
       ],
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -422,6 +449,7 @@
         "CE3"
       ],
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -431,8 +459,9 @@
       "notation": "BDBT01SBI",
       "prefLabel": "BDBT01SBI · I. Fundamentos geométricos",
       "definition": "Fundamentos geométricos",
-      "broader": "materia:BDBT",
+      "broader": "asig:BDBT01",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -442,8 +471,9 @@
       "notation": "BDBT01SBII",
       "prefLabel": "BDBT01SBII · II. Geometría proyectiva",
       "definition": "Geometría proyectiva",
-      "broader": "materia:BDBT",
+      "broader": "asig:BDBT01",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -453,8 +483,9 @@
       "notation": "BDBT01SBIII",
       "prefLabel": "BDBT01SBIII · III. Normalización y documentación gráfica de proyectos",
       "definition": "Normalización y documentación gráfica de proyectos",
-      "broader": "materia:BDBT",
+      "broader": "asig:BDBT01",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -464,8 +495,9 @@
       "notation": "BDBT01SBIV",
       "prefLabel": "BDBT01SBIV · IV. Sistemas CAD",
       "definition": "Sistemas CAD",
-      "broader": "materia:BDBT",
+      "broader": "asig:BDBT01",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -477,6 +509,7 @@
       "definition": "Estudio del desarrollo histórico del dibujo técnico. Campos de acción y aplicaciones: dibujo arquitectónico, mecánico, eléctrico y electrónico, geológico, urbanístico, etc.",
       "broader": "sb:BDBT01SBI",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -488,6 +521,7 @@
       "definition": "Análisis de los orígenes de la geometría. Thales, Pitágoras, Euclides, Hipatia de Alejandría.",
       "broader": "sb:BDBT01SBI",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -499,6 +533,7 @@
       "definition": "Aplicación de conceptos de lugar geométrico. Arco capaz. Aplicaciones de los lugares geométricos a las construcciones fundamentales.",
       "broader": "sb:BDBT01SBI",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -510,6 +545,7 @@
       "definition": "Aplicaciones de proporcionalidad, equivalencia y semejanza.",
       "broader": "sb:BDBT01SBI",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -521,6 +557,7 @@
       "definition": "Trazado de triángulos, cuadriláteros y polígonos regulares. Propiedades y métodos de construcción.",
       "broader": "sb:BDBT01SBI",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -532,6 +569,7 @@
       "definition": "Trazado de tangencias básicas. Curvas técnicas.",
       "broader": "sb:BDBT01SBI",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -543,6 +581,7 @@
       "definition": "Valoración del interés por el rigor en los razonamientos y la precisión, la claridad y la limpieza en las ejecuciones.",
       "broader": "sb:BDBT01SBI",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -554,6 +593,7 @@
       "definition": "Estudio de los fundamentos de la geometría proyectiva.",
       "broader": "sb:BDBT01SBII",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -565,6 +605,7 @@
       "definition": "Sistema diédrico: representación de punto, recta y plano. Trazas con planos de proyección. Determinación del plano. Pertenencia.",
       "broader": "sb:BDBT01SBII",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -576,6 +617,7 @@
       "definition": "Relaciones entre elementos: representación de intersecciones, paralelismo y perpendicularidad. Obtención de distancias.",
       "broader": "sb:BDBT01SBII",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -587,6 +629,7 @@
       "definition": "Representación del sistema axonométrico, ortogonal y oblicuo. Perspectivas isométrica y caballera. Disposición de los ejes y uso de los coeficientes de reducción. Elementos básicos: punto, recta, plano.",
       "broader": "sb:BDBT01SBII",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -598,6 +641,7 @@
       "definition": "Representación del sistema de planos acotados. Fundamentos y elementos básicos. Identificación de elementos para su interpretación en planos.",
       "broader": "sb:BDBT01SBII",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -609,6 +653,7 @@
       "definition": "Empleo del sistema cónico: fundamentos y elementos del sistema. Perspectiva frontal y oblicua.",
       "broader": "sb:BDBT01SBII",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -620,6 +665,7 @@
       "definition": "Aplicación de escalas numéricas y gráficas. Construcción y uso.",
       "broader": "sb:BDBT01SBIII",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -631,6 +677,7 @@
       "definition": "Aplicación formatos. Doblado de planos.",
       "broader": "sb:BDBT01SBIII",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -642,6 +689,7 @@
       "definition": "Reconocimiento del concepto de normalización. Las normas fundamentales UNE e ISO. Aplicaciones de la normalización: simbología industrial y arquitectónica.",
       "broader": "sb:BDBT01SBIII",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -653,6 +701,7 @@
       "definition": "Elección de vistas necesarias. Líneas normalizadas. Acotación.",
       "broader": "sb:BDBT01SBIII",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -664,6 +713,7 @@
       "definition": "Aplicaciones vectoriales 2D-3D.",
       "broader": "sb:BDBT01SBIV",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -675,6 +725,7 @@
       "definition": "Estudio fundamentos de diseño de piezas en tres dimensiones.",
       "broader": "sb:BDBT01SBIV",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -686,6 +737,7 @@
       "definition": "Estudio de modelado de caja. Operaciones básicas con primitivas.",
       "broader": "sb:BDBT01SBIV",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -697,6 +749,7 @@
       "definition": "Aplicaciones de trabajo en grupo para conformar piezas complejas a partir de otras más sencillas.",
       "broader": "sb:BDBT01SBIV",
       "materia": "materia:BDBT",
+      "materia_curso": "asig:BDBT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

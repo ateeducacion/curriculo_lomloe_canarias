@@ -17,6 +17,66 @@
       "etapa": "etapa:PRI"
     },
     {
+      "id": "asig:PEFI01",
+      "tipo": "MateriaCurso",
+      "notation": "PEFI01",
+      "prefLabel": "Educación Física · 1º Primaria",
+      "broader": "materia:PEFI",
+      "materia": "materia:PEFI",
+      "curso": "curso:P01",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "asig:PEFI02",
+      "tipo": "MateriaCurso",
+      "notation": "PEFI02",
+      "prefLabel": "Educación Física · 2º Primaria",
+      "broader": "materia:PEFI",
+      "materia": "materia:PEFI",
+      "curso": "curso:P02",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "asig:PEFI03",
+      "tipo": "MateriaCurso",
+      "notation": "PEFI03",
+      "prefLabel": "Educación Física · 3º Primaria",
+      "broader": "materia:PEFI",
+      "materia": "materia:PEFI",
+      "curso": "curso:P03",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "asig:PEFI04",
+      "tipo": "MateriaCurso",
+      "notation": "PEFI04",
+      "prefLabel": "Educación Física · 4º Primaria",
+      "broader": "materia:PEFI",
+      "materia": "materia:PEFI",
+      "curso": "curso:P04",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "asig:PEFI05",
+      "tipo": "MateriaCurso",
+      "notation": "PEFI05",
+      "prefLabel": "Educación Física · 5º Primaria",
+      "broader": "materia:PEFI",
+      "materia": "materia:PEFI",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "asig:PEFI06",
+      "tipo": "MateriaCurso",
+      "notation": "PEFI06",
+      "prefLabel": "Educación Física · 6º Primaria",
+      "broader": "materia:PEFI",
+      "materia": "materia:PEFI",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
       "id": "ce:PEFIC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "PEFIC1",
@@ -72,7 +132,7 @@
       "notation": "PEFI01BC1",
       "prefLabel": "Educación Física · 1º Primaria · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial el alumnado desarrollará un estilo de vida activo y saludable, integrando la actividad física y comportamientos que favorezcan la salud mental, física y social mediante experiencias motrices con responsabilidad individual y colectiva. Para ello, se comprobará que el alumnado adquiere conocimientos sobre la exploración de las posibilidades de la motricidad a partir de diferentes tipos de situaciones motrices lúdicas, como es el juego motor, incluyendo los alternativos y modificados, aportando hábitos de higiene corporal, hidratación, respiración, relajación y educación postural. Se constatará que el alumnado toma conciencia de diferentes medidas de seguridad aplicables al inicio, el desarrollo y la finalización de la práctica de la actividad física (activación, vuelta a la calma, vestimenta y calzado adecuado para la práctica deportiva, relajación, descansos e hidratación), tratando de reducir el riesgo de lesiones o accidentes, e implicando comportamientos que favorezcan la convivencia y la igualdad. Todo ello con la finalidad de participar en situaciones motrices lúdicas de forma segura, contribuyendo a preservar el medioambiente y la salud física y mental, iniciando el reconocimiento de las propias posibilidades y limitaciones, y reconociendo los riesgos para la salud, interiorizando hábitos saludables, éticos y medidas de seguridad.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI01",
       "agrupa": [
         "ce:PEFIC1"
       ],
@@ -82,6 +142,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -91,7 +152,7 @@
       "notation": "PEFI01BC2",
       "prefLabel": "Educación Física · 1º Primaria · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial el alumnado resolverá problemas motrices, aplicando sus capacidades perceptivo-motrices, coordinación, equilibrio, lateralidad y estructuración espacio-temporal; y las habilidades motrices básicas locomotrices (desplazamientos, saltos, giros,…), no locomotrices (balancearse, empujar,…) y de manipulación (lanzamientos y recepciones,…), tomando conciencia del dominio de su propio cuerpo en situaciones en movimiento o estáticas, con el uso de materiales y con la incertidumbre derivada del entorno y el resto de participantes. Para ello, se implican los mecanismos de percepción, decisión y ejecución en situaciones motrices lúdicas diversas, ajustando las conductas motrices a los objetivos motores establecidos, teniendo en cuenta los estímulos internos percibidos (cansancio, sed, calor, frío,…) el espacio, el tiempo, los materiales y la interacción con el resto de participantes. Se constatará que inicia un progresivo control y dominio del cuerpo, aplicando sus habilidades motrices básicas y capacidades perceptivo-motrices en situaciones motrices lúdicas, llevando a cabo retos motores de carácter individual y colaborativos, siguiendo orientaciones para resolver problemas motores que tengan lugar en contextos de carácter real o simulado. Todo ello con la finalidad de que el alumnado descubra y reflexione sobre las posibles respuestas motrices para resolver un problema motor a través de métodos guiados de carácter inductivo (generando conductas motrices a partir de respuestas concretas) y deductivo (utilizando aprendizajes adquiridos en situaciones lúdicas específicas), reconociendo sus limitaciones y la posibilidad de mejorar a través de la búsqueda de ayuda y el esfuerzo.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI01",
       "agrupa": [
         "ce:PEFIC2"
       ],
@@ -101,6 +162,7 @@
         "CPSAA4"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -110,7 +172,7 @@
       "notation": "PEFI01BC3",
       "prefLabel": "Educación Física · 1º Primaria · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de desarrollar procesos de autorregulación e interacción en el marco de la práctica motriz, incidiendo por tanto en los ámbitos personal y social. Para ello, el alumnado deberá ser capaz de participar en situaciones motrices lúdicas respetando las normas y reglas del juego, actuando con deportividad y juego limpio, resolviendo los conflictos de forma dialógica, justa y respetuosa; con actitud cooperativa, favoreciendo el desarrollo de las habilidades sociales. Se constatará que identifica y gestiona las emociones derivadas de la interacción en contexto motrices con la ayuda del docente, mediante estrategias sencillas, y es capaz de verbalizarlas expresándose de manera clara y adecuada y sabiendo reconocer sus limitaciones para disfrutar de la actividad física. Todo ello con la finalidad de que el alumnado respete las experiencias y acepte las características y el nivel de las demás personas de forma empática e inclusiva, demostrando una actitud positiva frente a las actuaciones contrarias a la convivencia y haciendo uso de conductas que favorezcan la inclusión y la igualdad de género en situaciones motrices.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI01",
       "agrupa": [
         "ce:PEFIC3"
       ],
@@ -123,6 +185,7 @@
         "CC2"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -132,7 +195,7 @@
       "notation": "PEFI01BC4",
       "prefLabel": "Educación Física · 1º Primaria · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial el alumnado experimentará y practicará diferentes manifestaciones lúdicas y artístico-expresivas, reconociendo su influencia y sus aportaciones a la cultura tradicional y contemporánea, para integrarlas dentro del repertorio de actuaciones motrices que se utilizan regularmente en la vida cotidiana mostrando actitudes de igualdad. Se constatará que el alumnado es capaz de experimentar juegos motores, composiciones con o sin soporte musical propios de la cultura canaria, y de otras. Todo ello con la finalidad de que el alumnado reconozca y respete los aspectos fundamentales del patrimonio cultural y artístico, iniciándose en el disfrute y conocimiento de las especificidades e intencionalidades de las manifestaciones artísticas más destacadas de cualquier época, reconociendo y respetando las diferencias culturales. Se evaluará que reconoce y respeta los aspectos fundamentales del patrimonio cultural y artístico, iniciándose en el disfrute y conocimiento de las especificidades e intencionalidades de las manifestaciones artísticas más destacadas de cualquier época, reconociendo y respetando las diferencias culturales.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI01",
       "agrupa": [
         "ce:PEFIC4"
       ],
@@ -141,6 +204,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -150,7 +214,7 @@
       "notation": "PEFI01BC5",
       "prefLabel": "Educación Física · 1º Primaria · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de participar en diferentes medios naturales y urbanos como contextos de práctica motriz. Para ello, el alumnado deberá demostrar que es capaz de participar en actividades lúdicas en diversos espacios del entorno natural y urbano de forma segura, reconociendo las posibilidades motrices de los espacios de juego y esparcimiento infantil, así como del material para el desarrollo de la motricidad. Todo ello con la finalidad de que el alumnado actúe con actitudes de respeto y conservación hacia los diferentes entornos y adopte hábitos de vida sostenibles, tanto mediante la utilización de materiales fabricados como iniciándose en la educación vial para peatones a través de una movilidad segura, saludable y sostenible, participando así de forma activa en su cuidado y mejora.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI01",
       "agrupa": [
         "ce:PEFIC5"
       ],
@@ -159,6 +223,7 @@
         "CC4"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -168,7 +233,7 @@
       "notation": "PEFI02BC1",
       "prefLabel": "Educación Física · 2º Primaria · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial el alumnado desarrollará un estilo de vida activo y saludable, integrando la actividad física y comportamientos que favorezcan la salud mental, física y social mediante experiencias motrices con responsabilidad individual y colectiva. Para ello, se comprobará que el alumnado adquiere conocimientos sobre la exploración de las posibilidades de la motricidad a partir de diferentes tipos de situaciones motrices lúdicas, como es el juego motor, incluyendo los alternativos y modificados, aportando hábitos de higiene corporal, hidratación, respiración, relajación y educación postural. Se constatará que el alumnado toma conciencia de diferentes medidas de seguridad aplicables al inicio, el desarrollo y la finalización de la práctica de la actividad física (activación, vuelta a la calma, vestimenta y calzado adecuado para la práctica deportiva, relajación, descansos e hidratación), tratando de reducir el riesgo de lesiones o accidentes, e implicando comportamientos que favorezcan la convivencia y la igualdad. Todo ello con la finalidad de participar en situaciones motrices lúdicas de forma segura, contribuyendo a preservar el medioambiente y la salud física y mental, iniciando el reconocimiento de las propias posibilidades y limitaciones, y reconociendo los riesgos para la salud, interiorizando hábitos saludables, éticos y medidas de seguridad.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI02",
       "agrupa": [
         "ce:PEFIC1"
       ],
@@ -178,6 +243,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -187,7 +253,7 @@
       "notation": "PEFI02BC2",
       "prefLabel": "Educación Física · 2º Primaria · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial el alumnado resolverá problemas motrices, aplicando sus capacidades perceptivo-motrices, coordinación, equilibrio, lateralidad y estructuración espacio-temporal; y las habilidades motrices básicas locomotrices (desplazamientos, saltos, giros,…), no locomotrices (balancearse, empujar,…) y de manipulación (lanzamientos y recepciones,…), tomando conciencia del dominio de su propio cuerpo en situaciones en movimiento o estáticas, con el uso de materiales y con la incertidumbre derivada del entorno y el resto de participantes. Para ello, se implican los mecanismos de percepción, decisión y ejecución en situaciones motrices lúdicas diversas, ajustando las conductas motrices a los objetivos motores establecidos, teniendo en cuenta los estímulos internos percibidos (cansancio, sed, calor, frío,…) el espacio, el tiempo, los materiales y la interacción con el resto de participantes. Se constatará que inicia un progresivo control y dominio del cuerpo, aplicando sus habilidades motrices básicas y capacidades perceptivo-motrices en situaciones motrices lúdicas, llevando a cabo retos motores de carácter individual y colaborativos, siguiendo orientaciones para resolver problemas motores que tengan lugar en contextos de carácter real o simulado. Todo ello con la finalidad de que el alumnado descubra y reflexione sobre las posibles respuestas motrices para resolver un problema motor a través de métodos guiados de carácter inductivo (generando conductas motrices a partir de respuestas concretas) y deductivo (utilizando aprendizajes adquiridos en situaciones lúdicas específicas), reconociendo sus limitaciones y la posibilidad de mejorar a través de la búsqueda de ayuda y el esfuerzo.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI02",
       "agrupa": [
         "ce:PEFIC2"
       ],
@@ -197,6 +263,7 @@
         "CPSAA4"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -206,7 +273,7 @@
       "notation": "PEFI02BC3",
       "prefLabel": "Educación Física · 2º Primaria · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de desarrollar procesos de autorregulación e interacción en el marco de la práctica motriz, incidiendo por tanto en los ámbitos personal y social. Para ello, el alumnado deberá ser capaz de participar en situaciones motrices lúdicas respetando las normas y reglas del juego, actuando con deportividad y juego limpio, resolviendo los conflictos de forma dialógica, justa y respetuosa; con actitud cooperativa, favoreciendo el desarrollo de las habilidades sociales. Se constatará que identifica y gestiona las emociones derivadas de la interacción en contexto motrices con la ayuda del docente, mediante estrategias sencillas, y es capaz de verbalizarlas expresándose de manera clara y adecuada y sabiendo reconocer sus limitaciones para disfrutar de la actividad física. Todo ello con la finalidad de que el alumnado respete las experiencias y acepte las características y el nivel de las demás personas de forma empática e inclusiva, demostrando una actitud positiva frente a las actuaciones contrarias a la convivencia y haciendo uso de conductas que favorezcan la inclusión y la igualdad de género en situaciones motrices.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI02",
       "agrupa": [
         "ce:PEFIC3"
       ],
@@ -219,6 +286,7 @@
         "CC2"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -228,7 +296,7 @@
       "notation": "PEFI02BC4",
       "prefLabel": "Educación Física · 2º Primaria · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial el alumnado experimentará y practicará diferentes manifestaciones lúdicas y artístico-expresivas, reconociendo su influencia y sus aportaciones a la cultura tradicional y contemporánea, para integrarlas dentro del repertorio de actuaciones motrices que se utilizan regularmente en la vida cotidiana mostrando actitudes de igualdad. Se constatará que el alumnado es capaz de experimentar juegos motores, composiciones con o sin soporte musical propios de la cultura canaria, y de otras. Todo ello con la finalidad de que el alumnado reconozca y respete los aspectos fundamentales del patrimonio cultural y artístico, iniciándose en el disfrute y conocimiento de las especificidades e intencionalidades de las manifestaciones artísticas más destacadas de cualquier época, reconociendo y respetando las diferencias culturales. Se evaluará que reconoce y respeta los aspectos fundamentales del patrimonio cultural y artístico, iniciándose en el disfrute y conocimiento de las especificidades e intencionalidades de las manifestaciones artísticas más destacadas de cualquier época, reconociendo y respetando las diferencias culturales.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI02",
       "agrupa": [
         "ce:PEFIC4"
       ],
@@ -237,6 +305,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -246,7 +315,7 @@
       "notation": "PEFI02BC5",
       "prefLabel": "Educación Física · 2º Primaria · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de participar en diferentes medios naturales y urbanos como contextos de práctica motriz. Para ello, el alumnado deberá demostrar que es capaz de participar en actividades lúdicas en diversos espacios del entorno natural y urbano de forma segura, reconociendo las posibilidades motrices de los espacios de juego y esparcimiento infantil, así como del material para el desarrollo de la motricidad. Todo ello con la finalidad de que el alumnado actúe con actitudes de respeto y conservación hacia los diferentes entornos y adopte hábitos de vida sostenibles, tanto mediante la utilización de materiales fabricados como iniciándose en la educación vial para peatones a través de una movilidad segura, saludable y sostenible, participando así de forma activa en su cuidado y mejora.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI02",
       "agrupa": [
         "ce:PEFIC5"
       ],
@@ -255,6 +324,7 @@
         "CC4"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -264,7 +334,7 @@
       "notation": "PEFI03BC1",
       "prefLabel": "Educación Física · 3º Primaria · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial el alumnado desarrollará un estilo de vida activo y saludable, integrando la actividad física y comportamientos que favorezcan la salud mental, física y social mediante experiencias motrices con responsabilidad individual y colectiva. Para ello, el alumnado debe demostrar que adquiere hábitos de educación postural, hidratación, relajación, respiración e higiene, utilizando la actividad física como alternativa en el tiempo libre. Se verificará que identifica las ventajas de consumir alimentos de origen natural frente a los procesados y ultraprocesados. Se constatará que aplica medidas de seguridad al inicio, en el desarrollo y la finalización de la práctica de la actividad física (activación adaptada a la actividad física, vuelta a la calma, vestimenta y calzado adecuado para la práctica deportiva), identificando situaciones peligrosas durante la actividad física y aplicando comportamientos saludables, de respeto a las diferencias individuales y que favorezcan la igualdad. Todo ello con la finalidad de que el alumnado muestre evidencias en relación a su participación en experiencias motrices que ayudan a preservar la salud y el medioambiente, reflexionando y explicando situaciones de juego, adoptando hábitos saludables para un bienestar físico y mental, con actitudes éticas y de seguridad, identificando y discriminando situaciones de riesgo en las experiencias motrices vivenciadas, iniciándose en el reconocimiento de posibilidades y limitaciones propias.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI03",
       "agrupa": [
         "ce:PEFIC1"
       ],
@@ -276,6 +346,7 @@
         "CE3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -285,7 +356,7 @@
       "notation": "PEFI03BC2",
       "prefLabel": "Educación Física · 3º Primaria · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial el alumnado resolverá problemas motores, aplicando sus capacidades físicas básicas (fuerza, velocidad, resistencia y flexibilidad) y resultantes, las capacidades perceptivo-motrices (coordinación, equilibrio, lateralidad y estructuración espacio-temporal) y las habilidades motrices básicas (saltos, giros, desplazamientos, lanzamientos y recepciones) y genéricas (bote, conducción, golpeo…), tomando conciencia del dominio de su propio cuerpo, y teniendo en cuenta situaciones en movimiento o estáticas, con el uso de materiales y con la incertidumbre derivada del entorno y del resto de participantes. Para ello, el alumnado debe demostrar que adopta decisiones en juegos motores y actividades deportivas individuales, de cooperación, de oposición y de cooperación-oposición, en función de lo que percibe, ajustando sus conductas motrices a los objetivos de la situación y a las características del espacio, del tiempo, de los materiales y a la interacción con los otros participantes. Además, se constatará que adquiere un progresivo control y dominio corporal, empleando los componentes cualitativos y adaptando los componentes cuantitativos de la motricidad a las situaciones motrices lúdicas, llevando a cabo retos motores de carácter individual y colaborativo, y teniendo en cuenta estímulos internos y externos para ofrecer respuestas motrices en contextos reales o simulados. Todo ello con la finalidad de que el alumnado utilice, mediante alguna orientación, métodos inductivos (generando conductas motrices a partir de respuestas concretas) y deductivos (utilizando aprendizajes adquiridos en situaciones lúdicas específicas), para resolver problemas motores implicando el esfuerzo y la dedicación personal, reconociendo sus limitaciones y buscando la superación personal a través de autoevaluación y la coevaluación.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI03",
       "agrupa": [
         "ce:PEFIC2"
       ],
@@ -295,6 +366,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -304,7 +376,7 @@
       "notation": "PEFI03BC3",
       "prefLabel": "Educación Física · 3º Primaria · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de desarrollar procesos de autorregulación e interacción en el marco de la práctica motriz, incidiendo por tanto en los ámbitos personal y social. Para ello, el alumnado deberá demostrar habilidades sociales de acogida, inclusión, cooperación; actitudes de respeto hacia las normas y reglas; y actuar con deportividad y juego limpio en situaciones motrices lúdicas. Se constatará que controla la impulsividad y gestiona las emociones propias, los pensamientos y sentimientos a partir de experiencias motrices, empleando para ello estrategias sencillas. Se evaluará que pone sus prácticas comunicativas al servicio de la convivencia democrática, expresándose de manera clara y respetuosa para favorecer la resolución de los conflictos de forma dialógica y justa al participar en diferentes tipos de actividades comunitarias, siendo consciente y consecuente con los principios democráticos y valorando las aportaciones de compañeros y adversarios (coevaluación) demostrando una actitud empática e inclusiva. Todo ello con la finalidad de que el alumnado reflexione y dialogue sobre valores y problemas éticos de actualidad, mostrando un compromiso activo de cambio frente a los estereotipos, la discriminación, la violencia, el cuidado del entorno haciendo uso de conductas que favorezcan la convivencia en situaciones motrices y valorando su disposición positiva hacia el esfuerzo físico sabiendo reconocer sus propias limitaciones.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI03",
       "agrupa": [
         "ce:PEFIC3"
       ],
@@ -318,6 +390,7 @@
         "CC3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -327,7 +400,7 @@
       "notation": "PEFI03BC4",
       "prefLabel": "Educación Física · 3º Primaria · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial el alumnado es capaz de distinguir y practicar diferentes manifestaciones lúdicas, físico-deportiva y artístico-expresivas, valorando su influencia y sus aportaciones a la cultura tradicional y contemporánea, para integrarlas dentro del repertorio de actuaciones motrices que se utilizan regularmente en la vida cotidiana. Se constatará que el alumnado es capaz de participar activamente en juegos motores y deportes tradicionales de Canarias así como de otras culturas generando interacciones positivas hacia la igualdad. También se comprobará que el alumnado es capaz de reproducir composiciones artístico-expresivas de Canarias y otras culturas, y participar en composiciones con o sin soporte musical, transmitiendo sensaciones, emociones e ideas mediante el ritmo y movimiento. Todo ello con la finalidad de que el alumnado reconozca, respete y disfrute de las manifestaciones culturales y artísticas integrando sus capacidades afectivas con actitud abierta e inclusiva, utilizando de forma creativa distintas representaciones artísticas con técnicas corporales, visuales y sonoras. Se constatará que reflexiona y dialoga sobre problemas éticos diferencias culturales, ideológicas, rechaza prejuicios y se opone a cualquier forma de discriminación, reconociendo y respetando los aspectos del patrimonio cultural y artístico de cualquier época, comprendiendo las diferencias culturales.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI03",
       "agrupa": [
         "ce:PEFIC4"
       ],
@@ -338,6 +411,7 @@
         "CCEC3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -347,7 +421,7 @@
       "notation": "PEFI03BC5",
       "prefLabel": "Educación Física · 3º Primaria · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de valorar diferentes medios naturales y urbanos como contextos de práctica motriz. Para ello, el alumnado deberá demostrar que es capaz de practicar actividad física en los distintos espacios del entorno natural y urbano de forma segura, siendo consciente de las relaciones sistémicas entre las acciones humanas y el entorno e iniciándose en la adopción de hábitos de vida sostenibles, tanto favoreciendo la reutilización de materiales como a través de una educación vial que favorezca una movilidad segura, saludable y sostenible. Se comprobará que participa en acciones fundamentadas científicamente para preservar la salud y conservar el medioambiente previniendo y sensibilizando sobre la generación de residuos y su correcta gestión, atendiendo a las particulares características del territorio canario. Se constatará que sus actuaciones se fundamentan en un análisis previo de la situación, reconociendo el estado del material para las actividades en el medio natural y urbano a través de una valoración previa y actuando ante posibles desperfectos. Todo ello con la finalidad de que el alumnado reconozca necesidades y retos a afrontar y utilice destrezas creativas para identificar y proponer ideas y soluciones originales.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI03",
       "agrupa": [
         "ce:PEFIC5"
       ],
@@ -358,6 +432,7 @@
         "CE3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -367,7 +442,7 @@
       "notation": "PEFI04BC1",
       "prefLabel": "Educación Física · 4º Primaria · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial el alumnado desarrollará un estilo de vida activo y saludable, integrando la actividad física y comportamientos que favorezcan la salud mental, física y social mediante experiencias motrices con responsabilidad individual y colectiva. Para ello, el alumnado debe demostrar que adquiere hábitos de educación postural, hidratación, relajación, respiración e higiene, utilizando la actividad física como alternativa en el tiempo libre. Se verificará que identifica las ventajas de consumir alimentos de origen natural frente a los procesados y ultraprocesados. Se constatará que aplica medidas de seguridad al inicio, en el desarrollo y la finalización de la práctica de la actividad física (activación adaptada a la actividad física, vuelta a la calma, vestimenta y calzado adecuado para la práctica deportiva), identificando situaciones peligrosas durante la actividad física y aplicando comportamientos saludables, de respeto a las diferencias individuales y que favorezcan la igualdad. Todo ello con la finalidad de que el alumnado muestre evidencias en relación a su participación en experiencias motrices que ayudan a preservar la salud y el medioambiente, reflexionando y explicando situaciones de juego, adoptando hábitos saludables para un bienestar físico y mental, con actitudes éticas y de seguridad, identificando y discriminando situaciones de riesgo en las experiencias motrices vivenciadas, iniciándose en el reconocimiento de posibilidades y limitaciones propias.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI04",
       "agrupa": [
         "ce:PEFIC1"
       ],
@@ -379,6 +454,7 @@
         "CE3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -388,7 +464,7 @@
       "notation": "PEFI04BC2",
       "prefLabel": "Educación Física · 4º Primaria · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial el alumnado resolverá problemas motores, aplicando sus capacidades físicas básicas (fuerza, velocidad, resistencia y flexibilidad) y resultantes, las capacidades perceptivo-motrices (coordinación, equilibrio, lateralidad y estructuración espacio-temporal) y las habilidades motrices básicas (saltos, giros, desplazamientos, lanzamientos y recepciones) y genéricas (bote, conducción, golpeo…), tomando conciencia del dominio de su propio cuerpo, y teniendo en cuenta situaciones en movimiento o estáticas, con el uso de materiales y con la incertidumbre derivada del entorno y del resto de participantes. Para ello, el alumnado debe demostrar que adopta decisiones en juegos motores y actividades deportivas individuales, de cooperación, de oposición y de cooperación-oposición, en función de lo que percibe, ajustando sus conductas motrices a los objetivos de la situación y a las características del espacio, del tiempo, de los materiales y a la interacción con los otros participantes. Además, se constatará que adquiere un progresivo control y dominio corporal, empleando los componentes cualitativos y adaptando los componentes cuantitativos de la motricidad a las situaciones motrices lúdicas, llevando a cabo retos motores de carácter individual y colaborativo, y teniendo en cuenta estímulos internos y externos para ofrecer respuestas motrices en contextos reales o simulados. Todo ello con la finalidad de que el alumnado utilice, mediante alguna orientación, métodos inductivos (generando conductas motrices a partir de respuestas concretas) y deductivos (utilizando aprendizajes adquiridos en situaciones lúdicas específicas), para resolver problemas motores implicando el esfuerzo y la dedicación personal, reconociendo sus limitaciones y buscando la superación personal a través de autoevaluación y la coevaluación.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI04",
       "agrupa": [
         "ce:PEFIC2"
       ],
@@ -398,6 +474,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -407,7 +484,7 @@
       "notation": "PEFI04BC3",
       "prefLabel": "Educación Física · 4º Primaria · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de desarrollar procesos de autorregulación e interacción en el marco de la práctica motriz, incidiendo por tanto en los ámbitos personal y social. Para ello, el alumnado deberá demostrar habilidades sociales de acogida, inclusión, cooperación; actitudes de respeto hacia las normas y reglas; y actuar con deportividad y juego limpio en situaciones motrices lúdicas. Se constatará que controla la impulsividad y gestiona las emociones propias, los pensamientos y sentimientos a partir de experiencias motrices, empleando para ello estrategias sencillas. Se evaluará que pone sus prácticas comunicativas al servicio de la convivencia democrática, expresándose de manera clara y respetuosa para favorecer la resolución de los conflictos de forma dialógica y justa al participar en diferentes tipos de actividades comunitarias, siendo consciente y consecuente con los principios democráticos y valorando las aportaciones de compañeros y adversarios (coevaluación) demostrando una actitud empática e inclusiva. Todo ello con la finalidad de que el alumnado reflexione y dialogue sobre valores y problemas éticos de actualidad, mostrando un compromiso activo de cambio frente a los estereotipos, la discriminación, la violencia, el cuidado del entorno haciendo uso de conductas que favorezcan la convivencia en situaciones motrices y valorando su disposición positiva hacia el esfuerzo físico sabiendo reconocer sus propias limitaciones.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI04",
       "agrupa": [
         "ce:PEFIC3"
       ],
@@ -421,6 +498,7 @@
         "CC3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -430,7 +508,7 @@
       "notation": "PEFI04BC4",
       "prefLabel": "Educación Física · 4º Primaria · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial el alumnado es capaz de distinguir y practicar diferentes manifestaciones lúdicas, físico-deportiva y artístico-expresivas, valorando su influencia y sus aportaciones a la cultura tradicional y contemporánea, para integrarlas dentro del repertorio de actuaciones motrices que se utilizan regularmente en la vida cotidiana. Se constatará que el alumnado es capaz de participar activamente en juegos motores y deportes tradicionales de Canarias así como de otras culturas generando interacciones positivas hacia la igualdad. También se comprobará que el alumnado es capaz de reproducir composiciones artístico-expresivas de Canarias y otras culturas, y participar en composiciones con o sin soporte musical, transmitiendo sensaciones, emociones e ideas mediante el ritmo y movimiento. Todo ello con la finalidad de que el alumnado reconozca, respete y disfrute de las manifestaciones culturales y artísticas integrando sus capacidades afectivas con actitud abierta e inclusiva, utilizando de forma creativa distintas representaciones artísticas con técnicas corporales, visuales y sonoras. Se constatará que reflexiona y dialoga sobre problemas éticos diferencias culturales, ideológicas, rechaza prejuicios y se opone a cualquier forma de discriminación, reconociendo y respetando los aspectos del patrimonio cultural y artístico de cualquier época, comprendiendo las diferencias culturales.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI04",
       "agrupa": [
         "ce:PEFIC4"
       ],
@@ -441,6 +519,7 @@
         "CCEC3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -450,7 +529,7 @@
       "notation": "PEFI04BC5",
       "prefLabel": "Educación Física · 4º Primaria · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de valorar diferentes medios naturales y urbanos como contextos de práctica motriz. Para ello, el alumnado deberá demostrar que es capaz de practicar actividad física en los distintos espacios del entorno natural y urbano de forma segura, siendo consciente de las relaciones sistémicas entre las acciones humanas y el entorno e iniciándose en la adopción de hábitos de vida sostenibles, tanto favoreciendo la reutilización de materiales como a través de una educación vial que favorezca una movilidad segura, saludable y sostenible. Se comprobará que participa en acciones fundamentadas científicamente para preservar la salud y conservar el medioambiente previniendo y sensibilizando sobre la generación de residuos y su correcta gestión, atendiendo a las particulares características del territorio canario. Se constatará que sus actuaciones se fundamentan en un análisis previo de la situación, reconociendo el estado del material para las actividades en el medio natural y urbano a través de una valoración previa y actuando ante posibles desperfectos. Todo ello con la finalidad de que el alumnado reconozca necesidades y retos a afrontar y utilice destrezas creativas para identificar y proponer ideas y soluciones originales.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI04",
       "agrupa": [
         "ce:PEFIC5"
       ],
@@ -461,6 +540,7 @@
         "CE3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -470,7 +550,7 @@
       "notation": "PEFI05BC1",
       "prefLabel": "Educación Física · 5º Primaria · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial el alumnado desarrollará un estilo de vida activo y saludable, integrando la actividad física y aquellos comportamientos que favorezcan la salud mental, física y social, mediante experiencias motrices, con responsabilidad individual y colectiva, aplicando las medidas de seguridad, para percibir y disfrutar de la práctica motriz como espacio para la interacción social. Para ello, el alumnado debe demostrar que adquiere conocimientos sobre los efectos beneficiosos del deporte y la actividad física, los procesos de activación corporal, como preparación para la práctica de forma general o específica, la autorregulación del esfuerzo ante diferentes situaciones motrices, así como la relajación y la higiene personal y postural, con el fin de generar una predisposición a transferir lo aprendido a la vida cotidiana. Se constatará que interioriza las medidas de seguridad en relación a la práctica de la actividad física, su vestimenta, los materiales utilizados, la activación y las acciones motrices ejecutadas, discriminando situaciones peligrosas, evitándolas a partir de la interiorización de conductas adecuadas para la salud y las relaciones sociales con el resto de participantes. Se verificará, asimismo, que integra las ventajas de consumir alimentos de origen natural frente a los procesados y ultraprocesados. Todo ello con la finalidad de que el alumnado muestre evidencias relacionadas con la aplicación de un estilo de vida saludable, que incorpore la reflexión, la experimentación y el sentido crítico de aspectos relacionados con la corporeidad y las situaciones de riesgo, actuando con ética, seguridad y responsabilidad ante las tareas planificadas. Se valorará asimismo la capacidad para reconocer las limitaciones propias y tratar de superarlas (autoevaluación), al igual que la colaboración en la mejora de sus iguales a través de la retroalimentación aplicada a las situaciones motrices (coevaluación).",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI05",
       "agrupa": [
         "ce:PEFIC1"
       ],
@@ -482,6 +562,7 @@
         "CE3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -491,7 +572,7 @@
       "notation": "PEFI05BC2",
       "prefLabel": "Educación Física · 5º Primaria · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial el alumnado resolverá problemas motrices, aplicando sus capacidades físicas básicas (fuerza, velocidad, resistencia y flexibilidad) y resultantes, las capacidades perceptivo-motrices (coordinación, equilibrio, lateralidad y estructuración espacio-temporal) y las habilidades motrices básicas (saltos, giros, desplazamientos, lanzamientos y recepciones), genéricas (bote, conducción, golpeo…) e iniciación a las específicas (entendidas como la combinación de las habilidades motrices básicas y su aplicación al deporte), tomando conciencia del dominio de su propio cuerpo teniendo en cuenta situaciones en movimiento o estáticas, con el uso de materiales y con la incertidumbre derivada del entorno y el resto de participantes. Para ello, el alumnado aplica respuestas significativas a situaciones motrices de carácter individual, de oposición, de cooperación y de cooperación-oposición, teniendo en cuenta el espacio, el tiempo, los materiales utilizados y la interacción con el resto de participantes, implicando los tres mecanismos: percepción, decisión y ejecución. Se constatará que controla y domina su propio cuerpo y aplica las habilidades motrices, perceptivo-motrices, capacidades coordinativas y las capacidades físicas básicas para dar respuesta a situaciones motrices variadas y cercanas a su contexto, mediante la planificación y la autorregulación de retos motores individuales o colaborativos, con unas metas a alcanzar, realizando un seguimiento y valorando su evolución y creando productos que den respuesta a un problema motor. Todo ello con la finalidad de que el alumnado seleccione y utilice acciones motrices y estrategias en función de la lógica interna de los juegos motores o deportes, adaptándose a la incertidumbre que se puede generar en las distintas situaciones motrices y el reconocimiento de sus propias conductas motrices y las de las demás personas. Se valorará su capacidad de reflexión y de sentido crítico con las propias limitaciones, organizando y planificando objetivos a corto plazo para la mejora a partir de la retroalimentación de la auto y coevaluación, reconociendo el esfuerzo y la dedicación como aspectos fundamentales para el aprendizaje.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI05",
       "agrupa": [
         "ce:PEFIC2"
       ],
@@ -501,6 +582,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -510,7 +592,7 @@
       "notation": "PEFI05BC3",
       "prefLabel": "Educación Física · 5º Primaria · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de desarrollar procesos de autorregulación e interacción en el marco de la práctica motriz, incidiendo por tanto en los ámbitos personal y social. Para ello, deberá intervenir en situaciones motrices lúdicas demostrando predisposición, esfuerzo, perseverancia, habilidades sociales y haciendo uso de estrategias de trabajo en equipo. Además, en la resolución constructiva de conflictos en situaciones motrices, aplicará el diálogo, expresándose de forma clara y con respeto hacia las demás personas. Se comprobará que identifica e implementa conductas positivas hacia la convivencia mostrando una actitud crítica y un compromiso activo de cambio frente a los estereotipos, la discriminación, la violencia y aceptando la diversidad de género, capacidades o competencia motriz. Se evaluará que interviene en las distintas prácticas motrices respetando las normas y reglas del juego, con deportividad (juego limpio), haciendo uso de actitudes cooperativas y expresándose con asertividad, reconociendo las actuaciones de personas compañeras y oponentes (coevaluación). Se constatará que gestiona sus emociones y la impulsividad, que reconoce y respeta las de los demás, con actitud empática e inclusiva, poniendo sus prácticas comunicativas al servicio de la convivencia democrática, la gestión dialógica y justa de los conflictos de forma consciente y respetuosa con los principios democráticos y la igualdad de derecho de todas las personas. Todo ello con la finalidad de que el alumnado reflexione y dialogue sobre valores y problemas éticos de actualidad, que entienda la necesidad de respetar diferentes culturas e ideologías y de cuidar el entorno.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI05",
       "agrupa": [
         "ce:PEFIC3"
       ],
@@ -524,6 +606,7 @@
         "CC3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -533,7 +616,7 @@
       "notation": "PEFI05BC4",
       "prefLabel": "Educación Física · 5º Primaria · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial el alumnado reconocerá y practicará diferentes manifestaciones lúdicas, físico-deportivas y artístico-expresivas propias de la cultura motriz, valorando y transmitiendo su influencia y sus aportaciones para integrarlas en el ámbito educativo y a la vida cotidiana. Se comprobará que el alumnado es capaz de participar activamente en juegos motores y deportes de la cultura tradicional de Canarias, así como de otras culturas generando interacciones positivas hacia la igualdad entre personas reconociendo el esfuerzo y la dedicación de distintos referentes deportivos. Se constatará que el alumnado es capaz de reproducir composiciones artístico-expresivas de Canarias y otras culturas, y crear composiciones con o sin soporte musical, transmitiendo sensaciones, emociones e ideas mediante el ritmo y movimiento. Todo ello con la finalidad de que el alumnado reconozca, reflexione y dialogue sobre valores y problemas éticos de actualidad y entienda la necesidad de respetar diferentes culturas e ideologías, cuidar el entorno, rechazar prejuicios y estereotipos sexistas en el deporte, oponiéndose a cualquier forma de discriminación y violencia, reconociendo y respetando los aspectos fundamentales del patrimonio cultural de cualquier época, comprendiendo las manifestaciones culturales y artísticas integrando sus capacidades afectivas con actitud abierta e inclusiva, utilizando de forma creativa distintas representaciones artísticas con técnicas corporales, visuales y sonoras.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI05",
       "agrupa": [
         "ce:PEFIC4"
       ],
@@ -546,6 +629,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -555,7 +639,7 @@
       "notation": "PEFI05BC5",
       "prefLabel": "Educación Física · 5º Primaria · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de valorar diferentes medios naturales y urbanos como contextos de práctica motriz. Para ello, el alumnado deberá demostrar que es capaz de adaptar las acciones motrices a la incertidumbre de los espacios del entorno natural y urbano de forma eficiente y segura, previa valoración de posibles riesgos y posibilidades para la práctica de actividad física y actuando desde una perspectiva ecosostenible, cuidando el entorno, los animales y las plantas que en él conviven, como servicio a la comunidad. Se verificará que comprende las relaciones sistémicas entre las acciones humanas y el entorno, y se inicia en la adopción de hábitos de vida sostenibles valorando y utilizando la educación vial desde la actividad física y deportiva a través de una movilidad segura, saludable y sostenible, participando en acciones fundamentadas científicamente para preservar la salud y el medioambiente, aplicando principios de ética y seguridad. Se evaluará si es capaz de participar en actividades comunitarias contribuyendo a la resolución dialogada y justa de los conflictos de forma consciente y respetuosa con los principios democráticos y si asume retos y adopta medidas de responsabilidad individual durante la práctica motriz para que sea respetuosa con el entorno mediante la construcción y reutilización de materiales. Se constatará que realiza las tareas planificadas, cooperando con otros para llevarlas a cabo valorando el proceso realizado, así como el resultado obtenido y considerando tanto la experiencia de éxito como de fracaso, una oportunidad para aprender. Todo ello con la finalidad de que el alumnado reconozca necesidades y retos a afrontar y utilice destrezas creativas para identificar y proponer ideas valiosas y soluciones originales, tomando conciencia de las consecuencias y efectos que estas ideas puedan generar en el entorno.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI05",
       "agrupa": [
         "ce:PEFIC5"
       ],
@@ -567,6 +651,7 @@
         "CE3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -576,7 +661,7 @@
       "notation": "PEFI06BC1",
       "prefLabel": "Educación Física · 6º Primaria · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial el alumnado desarrollará un estilo de vida activo y saludable, integrando la actividad física y aquellos comportamientos que favorezcan la salud mental, física y social, mediante experiencias motrices, con responsabilidad individual y colectiva, aplicando las medidas de seguridad, para percibir y disfrutar de la práctica motriz como espacio para la interacción social. Para ello, el alumnado debe demostrar que adquiere conocimientos sobre los efectos beneficiosos del deporte y la actividad física, los procesos de activación corporal, como preparación para la práctica de forma general o específica, la autorregulación del esfuerzo ante diferentes situaciones motrices, así como la relajación y la higiene personal y postural, con el fin de generar una predisposición a transferir lo aprendido a la vida cotidiana. Se constatará que interioriza las medidas de seguridad en relación a la práctica de la actividad física, su vestimenta, los materiales utilizados, la activación y las acciones motrices ejecutadas, discriminando situaciones peligrosas, evitándolas a partir de la interiorización de conductas adecuadas para la salud y las relaciones sociales con el resto de participantes. Se verificará, asimismo, que integra las ventajas de consumir alimentos de origen natural frente a los procesados y ultraprocesados. Todo ello con la finalidad de que el alumnado muestre evidencias relacionadas con la aplicación de un estilo de vida saludable, que incorpore la reflexión, la experimentación y el sentido crítico de aspectos relacionados con la corporeidad y las situaciones de riesgo, actuando con ética, seguridad y responsabilidad ante las tareas planificadas. Se valorará asimismo la capacidad para reconocer las limitaciones propias y tratar de superarlas (autoevaluación), al igual que la colaboración en la mejora de sus iguales a través de la retroalimentación aplicada a las situaciones motrices (coevaluación).",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI06",
       "agrupa": [
         "ce:PEFIC1"
       ],
@@ -588,6 +673,7 @@
         "CE3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -597,7 +683,7 @@
       "notation": "PEFI06BC2",
       "prefLabel": "Educación Física · 6º Primaria · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial el alumnado resolverá problemas motrices, aplicando sus capacidades físicas básicas (fuerza, velocidad, resistencia y flexibilidad) y resultantes, las capacidades perceptivo-motrices (coordinación, equilibrio, lateralidad y estructuración espacio-temporal) y las habilidades motrices básicas (saltos, giros, desplazamientos, lanzamientos y recepciones), genéricas (bote, conducción, golpeo…) e iniciación a las específicas (entendidas como la combinación de las habilidades motrices básicas y su aplicación al deporte), tomando conciencia del dominio de su propio cuerpo teniendo en cuenta situaciones en movimiento o estáticas, con el uso de materiales y con la incertidumbre derivada del entorno y el resto de participantes. Para ello, el alumnado aplica respuestas significativas a situaciones motrices de carácter individual, de oposición, de cooperación y de cooperación-oposición, teniendo en cuenta el espacio, el tiempo, los materiales utilizados y la interacción con el resto de participantes, implicando los tres mecanismos: percepción, decisión y ejecución. Se constatará que controla y domina su propio cuerpo y aplica las habilidades motrices, perceptivo-motrices, capacidades coordinativas y las capacidades físicas básicas para dar respuesta a situaciones motrices variadas y cercanas a su contexto, mediante la planificación y la autorregulación de retos motores individuales o colaborativos, con unas metas a alcanzar, realizando un seguimiento y valorando su evolución y creando productos que den respuesta a un problema motor. Todo ello con la finalidad de que el alumnado seleccione y utilice acciones motrices y estrategias en función de la lógica interna de los juegos motores o deportes, adaptándose a la incertidumbre que se puede generar en las distintas situaciones motrices y el reconocimiento de sus propias conductas motrices y las de las demás personas. Se valorará su capacidad de reflexión y de sentido crítico con las propias limitaciones, organizando y planificando objetivos a corto plazo para la mejora a partir de la retroalimentación de la auto y coevaluación, reconociendo el esfuerzo y la dedicación como aspectos fundamentales para el aprendizaje.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI06",
       "agrupa": [
         "ce:PEFIC2"
       ],
@@ -607,6 +693,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -616,7 +703,7 @@
       "notation": "PEFI06BC3",
       "prefLabel": "Educación Física · 6º Primaria · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de desarrollar procesos de autorregulación e interacción en el marco de la práctica motriz, incidiendo por tanto en los ámbitos personal y social. Para ello, deberá intervenir en situaciones motrices lúdicas demostrando predisposición, esfuerzo, perseverancia, habilidades sociales y haciendo uso de estrategias de trabajo en equipo. Además, en la resolución constructiva de conflictos en situaciones motrices, aplicará el diálogo, expresándose de forma clara y con respeto hacia las demás personas. Se comprobará que identifica e implementa conductas positivas hacia la convivencia mostrando una actitud crítica y un compromiso activo de cambio frente a los estereotipos, la discriminación, la violencia y aceptando la diversidad de género, capacidades o competencia motriz. Se evaluará que interviene en las distintas prácticas motrices respetando las normas y reglas del juego, con deportividad (juego limpio), haciendo uso de actitudes cooperativas y expresándose con asertividad, reconociendo las actuaciones de personas compañeras y oponentes (coevaluación). Se constatará que gestiona sus emociones y la impulsividad, que reconoce y respeta las de los demás, con actitud empática e inclusiva, poniendo sus prácticas comunicativas al servicio de la convivencia democrática, la gestión dialógica y justa de los conflictos de forma consciente y respetuosa con los principios democráticos y la igualdad de derecho de todas las personas. Todo ello con la finalidad de que el alumnado reflexione y dialogue sobre valores y problemas éticos de actualidad, que entienda la necesidad de respetar diferentes culturas e ideologías y de cuidar el entorno.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI06",
       "agrupa": [
         "ce:PEFIC3"
       ],
@@ -630,6 +717,7 @@
         "CC3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -639,7 +727,7 @@
       "notation": "PEFI06BC4",
       "prefLabel": "Educación Física · 6º Primaria · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial el alumnado reconocerá y practicará diferentes manifestaciones lúdicas, físico-deportivas y artístico-expresivas propias de la cultura motriz, valorando y transmitiendo su influencia y sus aportaciones para integrarlas en el ámbito educativo y a la vida cotidiana. Se comprobará que el alumnado es capaz de participar activamente en juegos motores y deportes de la cultura tradicional de Canarias, así como de otras culturas generando interacciones positivas hacia la igualdad entre personas reconociendo el esfuerzo y la dedicación de distintos referentes deportivos. Se constatará que el alumnado es capaz de reproducir composiciones artístico-expresivas de Canarias y otras culturas, y crear composiciones con o sin soporte musical, transmitiendo sensaciones, emociones e ideas mediante el ritmo y movimiento. Todo ello con la finalidad de que el alumnado reconozca, reflexione y dialogue sobre valores y problemas éticos de actualidad y entienda la necesidad de respetar diferentes culturas e ideologías, cuidar el entorno, rechazar prejuicios y estereotipos sexistas en el deporte, oponiéndose a cualquier forma de discriminación y violencia, reconociendo y respetando los aspectos fundamentales del patrimonio cultural de cualquier época, comprendiendo las manifestaciones culturales y artísticas integrando sus capacidades afectivas con actitud abierta e inclusiva, utilizando de forma creativa distintas representaciones artísticas con técnicas corporales, visuales y sonoras.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI06",
       "agrupa": [
         "ce:PEFIC4"
       ],
@@ -652,6 +740,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -661,7 +750,7 @@
       "notation": "PEFI06BC5",
       "prefLabel": "Educación Física · 6º Primaria · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de valorar diferentes medios naturales y urbanos como contextos de práctica motriz. Para ello, el alumnado deberá demostrar que es capaz de adaptar las acciones motrices a la incertidumbre de los espacios del entorno natural y urbano de forma eficiente y segura, previa valoración de posibles riesgos y posibilidades para la práctica de actividad física y actuando desde una perspectiva ecosostenible, cuidando el entorno, los animales y las plantas que en él conviven, como servicio a la comunidad. Se verificará que comprende las relaciones sistémicas entre las acciones humanas y el entorno, y se inicia en la adopción de hábitos de vida sostenibles valorando y utilizando la educación vial desde la actividad física y deportiva a través de una movilidad segura, saludable y sostenible, participando en acciones fundamentadas científicamente para preservar la salud y el medioambiente, aplicando principios de ética y seguridad. Se evaluará si es capaz de participar en actividades comunitarias contribuyendo a la resolución dialogada y justa de los conflictos de forma consciente y respetuosa con los principios democráticos y si asume retos y adopta medidas de responsabilidad individual durante la práctica motriz para que sea respetuosa con el entorno mediante la construcción y reutilización de materiales. Se constatará que realiza las tareas planificadas, cooperando con otros para llevarlas a cabo valorando el proceso realizado, así como el resultado obtenido y considerando tanto la experiencia de éxito como de fracaso, una oportunidad para aprender. Todo ello con la finalidad de que el alumnado reconozca necesidades y retos a afrontar y utilice destrezas creativas para identificar y proponer ideas valiosas y soluciones originales, tomando conciencia de las consecuencias y efectos que estas ideas puedan generar en el entorno.",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI06",
       "agrupa": [
         "ce:PEFIC5"
       ],
@@ -673,6 +762,7 @@
         "CE3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -690,6 +780,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -706,6 +797,7 @@
         "CPSAA2"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -722,6 +814,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -739,6 +832,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -756,6 +850,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -773,6 +868,7 @@
         "CC2"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -788,6 +884,7 @@
         "CCEC1"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -804,6 +901,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -820,6 +918,7 @@
         "CC4"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -837,6 +936,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -853,6 +953,7 @@
         "CPSAA2"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -869,6 +970,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -886,6 +988,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -903,6 +1006,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -920,6 +1024,7 @@
         "CC2"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -935,6 +1040,7 @@
         "CCEC1"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -951,6 +1057,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -967,6 +1074,7 @@
         "CC4"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -985,6 +1093,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1002,6 +1111,7 @@
         "CE3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1019,6 +1129,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1036,6 +1147,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1053,6 +1165,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1071,6 +1184,7 @@
         "CC3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1087,6 +1201,7 @@
         "CCEC1"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1104,6 +1219,7 @@
         "CCEC3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1122,6 +1238,7 @@
         "CE3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1140,6 +1257,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1157,6 +1275,7 @@
         "CE3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1174,6 +1293,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1191,6 +1311,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1208,6 +1329,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1226,6 +1348,7 @@
         "CC3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1242,6 +1365,7 @@
         "CCEC1"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1259,6 +1383,7 @@
         "CCEC3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1277,6 +1402,7 @@
         "CE3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1295,6 +1421,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1313,6 +1440,7 @@
         "CE3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1330,6 +1458,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1347,6 +1476,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1364,6 +1494,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1382,6 +1513,7 @@
         "CC3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1398,6 +1530,7 @@
         "CCEC1"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1417,6 +1550,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1436,6 +1570,7 @@
         "CE3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1454,6 +1589,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1472,6 +1608,7 @@
         "CE3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1489,6 +1626,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1506,6 +1644,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1523,6 +1662,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1541,6 +1681,7 @@
         "CC3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1557,6 +1698,7 @@
         "CCEC1"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1576,6 +1718,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1595,6 +1738,7 @@
         "CE3"
       ],
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1604,8 +1748,9 @@
       "notation": "PEFI01SBI",
       "prefLabel": "PEFI01SBI · I. Vida activa y saludable",
       "definition": "Vida activa y saludable",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI01",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -1615,8 +1760,9 @@
       "notation": "PEFI01SBII",
       "prefLabel": "PEFI01SBII · II. Organización y gestión de la actividad física",
       "definition": "Organización y gestión de la actividad física",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI01",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -1626,8 +1772,9 @@
       "notation": "PEFI01SBIII",
       "prefLabel": "PEFI01SBIII · III. Resolución de problemas en situaciones motrices",
       "definition": "Resolución de problemas en situaciones motrices",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI01",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -1637,8 +1784,9 @@
       "notation": "PEFI01SBIV",
       "prefLabel": "PEFI01SBIV · IV. Autorregulación emocional e interacción social en situaciones motrices",
       "definition": "Autorregulación emocional e interacción social en situaciones motrices",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI01",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -1648,8 +1796,9 @@
       "notation": "PEFI01SBV",
       "prefLabel": "PEFI01SBV · V. Manifestaciones de la cultura motriz",
       "definition": "Manifestaciones de la cultura motriz",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI01",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -1659,8 +1808,9 @@
       "notation": "PEFI01SBVI",
       "prefLabel": "PEFI01SBVI · VI. Interacción eficiente y sostenible con el entorno",
       "definition": "Interacción eficiente y sostenible con el entorno",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI01",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -1670,8 +1820,9 @@
       "notation": "PEFI02SBI",
       "prefLabel": "PEFI02SBI · I. Vida activa y saludable",
       "definition": "Vida activa y saludable",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI02",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -1681,8 +1832,9 @@
       "notation": "PEFI02SBII",
       "prefLabel": "PEFI02SBII · II. Organización y gestión de la actividad física",
       "definition": "Organización y gestión de la actividad física",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI02",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -1692,8 +1844,9 @@
       "notation": "PEFI02SBIII",
       "prefLabel": "PEFI02SBIII · III. Resolución de problemas en situaciones motrices",
       "definition": "Resolución de problemas en situaciones motrices",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI02",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -1703,8 +1856,9 @@
       "notation": "PEFI02SBIV",
       "prefLabel": "PEFI02SBIV · IV. Autorregulación emocional e interacción social en situaciones motrices",
       "definition": "Autorregulación emocional e interacción social en situaciones motrices",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI02",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -1714,8 +1868,9 @@
       "notation": "PEFI02SBV",
       "prefLabel": "PEFI02SBV · V. Manifestaciones de la cultura motriz",
       "definition": "Manifestaciones de la cultura motriz",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI02",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -1725,8 +1880,9 @@
       "notation": "PEFI02SBVI",
       "prefLabel": "PEFI02SBVI · VI. Interacción eficiente y sostenible con el entorno",
       "definition": "Interacción eficiente y sostenible con el entorno",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI02",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -1736,8 +1892,9 @@
       "notation": "PEFI03SBI",
       "prefLabel": "PEFI03SBI · I. Vida activa y saludable",
       "definition": "Vida activa y saludable",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI03",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1747,8 +1904,9 @@
       "notation": "PEFI03SBII",
       "prefLabel": "PEFI03SBII · II. Organización y gestión de la actividad física",
       "definition": "Organización y gestión de la actividad física",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI03",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1758,8 +1916,9 @@
       "notation": "PEFI03SBIII",
       "prefLabel": "PEFI03SBIII · III. Resolución de problemas en situaciones motrices",
       "definition": "Resolución de problemas en situaciones motrices",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI03",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1769,8 +1928,9 @@
       "notation": "PEFI03SBIV",
       "prefLabel": "PEFI03SBIV · IV. Autorregulación emocional e interacción social en situaciones motrices",
       "definition": "Autorregulación emocional e interacción social en situaciones motrices",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI03",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1780,8 +1940,9 @@
       "notation": "PEFI03SBV",
       "prefLabel": "PEFI03SBV · V. Manifestaciones de la cultura motriz",
       "definition": "Manifestaciones de la cultura motriz",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI03",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1791,8 +1952,9 @@
       "notation": "PEFI03SBVI",
       "prefLabel": "PEFI03SBVI · VI. Interacción eficiente y sostenible con el entorno",
       "definition": "Interacción eficiente y sostenible con el entorno",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI03",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1802,8 +1964,9 @@
       "notation": "PEFI04SBI",
       "prefLabel": "PEFI04SBI · I. Vida activa y saludable",
       "definition": "Vida activa y saludable",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI04",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1813,8 +1976,9 @@
       "notation": "PEFI04SBII",
       "prefLabel": "PEFI04SBII · II. Organización y gestión de la actividad física",
       "definition": "Organización y gestión de la actividad física",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI04",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1824,8 +1988,9 @@
       "notation": "PEFI04SBIII",
       "prefLabel": "PEFI04SBIII · III. Resolución de problemas en situaciones motrices",
       "definition": "Resolución de problemas en situaciones motrices",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI04",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1835,8 +2000,9 @@
       "notation": "PEFI04SBIV",
       "prefLabel": "PEFI04SBIV · IV. Autorregulación emocional e interacción social en situaciones motrices",
       "definition": "Autorregulación emocional e interacción social en situaciones motrices",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI04",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1846,8 +2012,9 @@
       "notation": "PEFI04SBV",
       "prefLabel": "PEFI04SBV · V. Manifestaciones de la cultura motriz",
       "definition": "Manifestaciones de la cultura motriz",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI04",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1857,8 +2024,9 @@
       "notation": "PEFI04SBVI",
       "prefLabel": "PEFI04SBVI · VI. Interacción eficiente y sostenible con el entorno",
       "definition": "Interacción eficiente y sostenible con el entorno",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI04",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1868,8 +2036,9 @@
       "notation": "PEFI05SBI",
       "prefLabel": "PEFI05SBI · I. Vida activa y saludable",
       "definition": "Vida activa y saludable",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI05",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1879,8 +2048,9 @@
       "notation": "PEFI05SBII",
       "prefLabel": "PEFI05SBII · II. Organización y gestión de la actividad física",
       "definition": "Organización y gestión de la actividad física",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI05",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1890,8 +2060,9 @@
       "notation": "PEFI05SBIII",
       "prefLabel": "PEFI05SBIII · III. Resolución de problemas en situaciones motrices",
       "definition": "Resolución de problemas en situaciones motrices",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI05",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1901,8 +2072,9 @@
       "notation": "PEFI05SBIV",
       "prefLabel": "PEFI05SBIV · IV. Autorregulación emocional e interacción social en situaciones motrices",
       "definition": "Autorregulación emocional e interacción social en situaciones motrices",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI05",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1912,8 +2084,9 @@
       "notation": "PEFI05SBV",
       "prefLabel": "PEFI05SBV · V. Manifestaciones de la cultura motriz",
       "definition": "Manifestaciones de la cultura motriz",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI05",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1923,8 +2096,9 @@
       "notation": "PEFI05SBVI",
       "prefLabel": "PEFI05SBVI · VI. Interacción eficiente y sostenible con el entorno",
       "definition": "Interacción eficiente y sostenible con el entorno",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI05",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1934,8 +2108,9 @@
       "notation": "PEFI06SBI",
       "prefLabel": "PEFI06SBI · I. Vida activa y saludable",
       "definition": "Vida activa y saludable",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI06",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1945,8 +2120,9 @@
       "notation": "PEFI06SBII",
       "prefLabel": "PEFI06SBII · II. Organización y gestión de la actividad física",
       "definition": "Organización y gestión de la actividad física",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI06",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1956,8 +2132,9 @@
       "notation": "PEFI06SBIII",
       "prefLabel": "PEFI06SBIII · III. Resolución de problemas en situaciones motrices",
       "definition": "Resolución de problemas en situaciones motrices",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI06",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1967,8 +2144,9 @@
       "notation": "PEFI06SBIV",
       "prefLabel": "PEFI06SBIV · IV. Autorregulación emocional e interacción social en situaciones motrices",
       "definition": "Autorregulación emocional e interacción social en situaciones motrices",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI06",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1978,8 +2156,9 @@
       "notation": "PEFI06SBV",
       "prefLabel": "PEFI06SBV · V. Manifestaciones de la cultura motriz",
       "definition": "Manifestaciones de la cultura motriz",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI06",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1989,8 +2168,9 @@
       "notation": "PEFI06SBVI",
       "prefLabel": "PEFI06SBVI · VI. Interacción eficiente y sostenible con el entorno",
       "definition": "Interacción eficiente y sostenible con el entorno",
-      "broader": "materia:PEFI",
+      "broader": "asig:PEFI06",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -2002,6 +2182,7 @@
       "definition": "Iniciación en los efectos físicos beneficiosos de un estilo de vida activo y saludable. Cuidado del cuerpo, higiene personal, educación postural, descanso tras la actividad física e hidratación.",
       "broader": "sb:PEFI01SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2013,6 +2194,7 @@
       "definition": "Autoconocimiento e identificación de fortalezas y debilidades sociales, físicas y mentales, para alcanzar el bienestar social a través de la motricidad.",
       "broader": "sb:PEFI01SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2024,6 +2206,7 @@
       "definition": "Utilización de la actividad física como práctica social saludable.",
       "broader": "sb:PEFI01SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2035,6 +2218,7 @@
       "definition": "Respeto a todas las personas con independencia de sus características personales.",
       "broader": "sb:PEFI01SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2046,6 +2230,7 @@
       "definition": "Experimentación de diversas prácticas físicas en contextos variados.",
       "broader": "sb:PEFI01SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2057,6 +2242,7 @@
       "definition": "Cuidado del material utilizado en la actividad a desarrollar.",
       "broader": "sb:PEFI01SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2068,6 +2254,7 @@
       "definition": "Preparación de la vestimenta deportiva para la práctica de actividad física.",
       "broader": "sb:PEFI01SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2079,6 +2266,7 @@
       "definition": "Iniciación en hábitos generales de higiene corporal.",
       "broader": "sb:PEFI01SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2090,6 +2278,7 @@
       "definition": "Experimentación de retos motores sencillos.",
       "broader": "sb:PEFI01SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2101,6 +2290,7 @@
       "definition": "Prevención de lesiones en las prácticas motrices mediante juegos motores de activación y vuelta a la calma.",
       "broader": "sb:PEFI01SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2112,6 +2302,7 @@
       "definition": "Aproximación a la toma de decisiones en situaciones motrices lúdicas mediante la adecuación de las acciones a las capacidades y las limitaciones personales en situaciones motrices individuales.",
       "broader": "sb:PEFI01SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2123,6 +2314,7 @@
       "definition": "Iniciación en la coordinación de acciones con compañeros y compañeras en situaciones cooperativas; la adecuación de la acción a la ubicación de la persona adversaria en situaciones motrices de persecución y de interacción con un móvil.",
       "broader": "sb:PEFI01SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2134,6 +2326,7 @@
       "definition": "Experimentación de la posición corporal o la distancia adecuada en situaciones de oposición de contacto.",
       "broader": "sb:PEFI01SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2145,6 +2338,7 @@
       "definition": "Uso de las capacidades perceptivo-motrices en contexto de práctica mediante la integración del esquema corporal, la conciencia corporal, la lateralidad y su proyección en el espacio; la coordinación óculo-pédica y óculo-manual; y el equilibrio estático y dinámico.",
       "broader": "sb:PEFI01SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2156,6 +2350,7 @@
       "definition": "Experimentación de las habilidades y destrezas motrices básicas locomotrices, no locomotrices y manipulativas.",
       "broader": "sb:PEFI01SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2167,6 +2362,7 @@
       "definition": "Variación y adecuación de la acción motriz ante estímulos internos.",
       "broader": "sb:PEFI01SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2178,6 +2374,7 @@
       "definition": "Identificación, experimentación y manifestación de emociones, pensamientos y sentimientos a partir de experiencias motrices.",
       "broader": "sb:PEFI01SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2189,6 +2386,7 @@
       "definition": "Verbalización de emociones derivadas de la interacción en contextos motrices.",
       "broader": "sb:PEFI01SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2200,6 +2398,7 @@
       "definition": "Respeto a las reglas y normas de juego.",
       "broader": "sb:PEFI01SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2211,6 +2410,7 @@
       "definition": "Reconocimiento de conductas favorables a la convivencia positiva y la igualdad de género, e inclusivas y de respeto a las demás personas en situaciones motrices, mediante estrategias de identificación de conductas discriminatorias o contrarias a la convivencia.",
       "broader": "sb:PEFI01SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2222,6 +2422,7 @@
       "definition": "Aproximación a los juegos motores y danzas de Canarias y otras culturas como manifestación de la cultura motriz.",
       "broader": "sb:PEFI01SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2233,6 +2434,7 @@
       "definition": "Reproducción de gestos, muecas, posturas y otros elementos perceptibles para comunicar sensaciones, emociones y sentimientos.",
       "broader": "sb:PEFI01SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2244,6 +2446,7 @@
       "definition": "Experimentación y reproducción de actividades rítmico-musicales y de carácter artístico-expresivo.",
       "broader": "sb:PEFI01SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2255,6 +2458,7 @@
       "definition": "Reconocimiento de referentes en el deporte canario de distintos géneros.",
       "broader": "sb:PEFI01SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2266,6 +2470,7 @@
       "definition": "Iniciación a la educación vial para peatones mediante una movilidad segura, saludable y sostenible.",
       "broader": "sb:PEFI01SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2277,6 +2482,7 @@
       "definition": "Identificación de las posibilidades motrices de los espacios de juego y esparcimiento infantil.",
       "broader": "sb:PEFI01SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2288,6 +2494,7 @@
       "definition": "Experimentación de las posibilidades de uso del material para el desarrollo de la motricidad.",
       "broader": "sb:PEFI01SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2299,6 +2506,7 @@
       "definition": "Realización de actividades físicas seguras en el medio natural y urbano.",
       "broader": "sb:PEFI01SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2310,6 +2518,7 @@
       "definition": "Aproximación al cuidado del entorno próximo y seres vivos que en él conviven, durante la práctica segura de actividades físicas en el medio natural y urbano.",
       "broader": "sb:PEFI01SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2321,6 +2530,7 @@
       "definition": "Iniciación en los efectos físicos beneficiosos de un estilo de vida activo y saludable. Cuidado del cuerpo, higiene personal, educación postural, descanso tras la actividad física e hidratación.",
       "broader": "sb:PEFI02SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2332,6 +2542,7 @@
       "definition": "Autoconocimiento e identificación de fortalezas y debilidades sociales, físicas y mentales, para alcanzar el bienestar social a través de la motricidad.",
       "broader": "sb:PEFI02SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2343,6 +2554,7 @@
       "definition": "Utilización de la actividad física como práctica social saludable.",
       "broader": "sb:PEFI02SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2354,6 +2566,7 @@
       "definition": "Respeto a todas las personas con independencia de sus características personales.",
       "broader": "sb:PEFI02SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2365,6 +2578,7 @@
       "definition": "Experimentación de diversas prácticas físicas en contextos variados.",
       "broader": "sb:PEFI02SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2376,6 +2590,7 @@
       "definition": "Cuidado del material utilizado en la actividad a desarrollar.",
       "broader": "sb:PEFI02SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2387,6 +2602,7 @@
       "definition": "Preparación de la vestimenta deportiva para la práctica de actividad física.",
       "broader": "sb:PEFI02SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2398,6 +2614,7 @@
       "definition": "Iniciación en hábitos generales de higiene corporal.",
       "broader": "sb:PEFI02SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2409,6 +2626,7 @@
       "definition": "Experimentación de retos motores sencillos.",
       "broader": "sb:PEFI02SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2420,6 +2638,7 @@
       "definition": "Prevención de lesiones en las prácticas motrices mediante juegos motores de activación y vuelta a la calma.",
       "broader": "sb:PEFI02SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2431,6 +2650,7 @@
       "definition": "Aproximación a la toma de decisiones en situaciones motrices lúdicas mediante la adecuación de las acciones a las capacidades y las limitaciones personales en situaciones motrices individuales.",
       "broader": "sb:PEFI02SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2442,6 +2662,7 @@
       "definition": "Iniciación en la coordinación de acciones con compañeros y compañeras en situaciones cooperativas; la adecuación de la acción a la ubicación de la persona adversaria en situaciones motrices de persecución y de interacción con un móvil.",
       "broader": "sb:PEFI02SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2453,6 +2674,7 @@
       "definition": "Experimentación de la posición corporal o la distancia adecuada en situaciones de oposición de contacto.",
       "broader": "sb:PEFI02SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2464,6 +2686,7 @@
       "definition": "Uso de las capacidades perceptivo-motrices en contexto de práctica mediante la integración del esquema corporal, la conciencia corporal, la lateralidad y su proyección en el espacio; la coordinación óculo-pédica y óculo-manual; y el equilibrio estático y dinámico.",
       "broader": "sb:PEFI02SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2475,6 +2698,7 @@
       "definition": "Experimentación de las habilidades y destrezas motrices básicas locomotrices, no locomotrices y manipulativas.",
       "broader": "sb:PEFI02SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2486,6 +2710,7 @@
       "definition": "Variación y adecuación de la acción motriz ante estímulos internos.",
       "broader": "sb:PEFI02SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2497,6 +2722,7 @@
       "definition": "Identificación, experimentación y manifestación de emociones, pensamientos y sentimientos a partir de experiencias motrices.",
       "broader": "sb:PEFI02SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2508,6 +2734,7 @@
       "definition": "Verbalización de emociones derivadas de la interacción en contextos motrices.",
       "broader": "sb:PEFI02SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2519,6 +2746,7 @@
       "definition": "Respeto a las reglas y normas de juego.",
       "broader": "sb:PEFI02SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2530,6 +2758,7 @@
       "definition": "Reconocimiento de conductas favorables a la convivencia positiva y la igualdad de género, e inclusivas y de respeto a las demás personas en situaciones motrices, mediante estrategias de identificación de conductas discriminatorias o contrarias a la convivencia.",
       "broader": "sb:PEFI02SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2541,6 +2770,7 @@
       "definition": "Aproximación a los juegos motores y danzas de Canarias y otras culturas como manifestación de la cultura motriz.",
       "broader": "sb:PEFI02SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2552,6 +2782,7 @@
       "definition": "Reproducción de gestos, muecas, posturas y otros elementos perceptibles para comunicar sensaciones, emociones y sentimientos.",
       "broader": "sb:PEFI02SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2563,6 +2794,7 @@
       "definition": "Experimentación y reproducción de actividades rítmico-musicales y de carácter artístico-expresivo.",
       "broader": "sb:PEFI02SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2574,6 +2806,7 @@
       "definition": "Reconocimiento de referentes en el deporte canario de distintos géneros.",
       "broader": "sb:PEFI02SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2585,6 +2818,7 @@
       "definition": "Iniciación a la educación vial para peatones mediante una movilidad segura, saludable y sostenible.",
       "broader": "sb:PEFI02SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2596,6 +2830,7 @@
       "definition": "Identificación de las posibilidades motrices de los espacios de juego y esparcimiento infantil.",
       "broader": "sb:PEFI02SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2607,6 +2842,7 @@
       "definition": "Experimentación de las posibilidades de uso del material para el desarrollo de la motricidad.",
       "broader": "sb:PEFI02SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2618,6 +2854,7 @@
       "definition": "Realización de actividades físicas seguras en el medio natural y urbano.",
       "broader": "sb:PEFI02SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2629,6 +2866,7 @@
       "definition": "Aproximación al cuidado del entorno próximo y seres vivos que en él conviven, durante la práctica segura de actividades físicas en el medio natural y urbano.",
       "broader": "sb:PEFI02SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2640,6 +2878,7 @@
       "definition": "Interiorización de los efectos físicos y psicológicos beneficiosos de un estilo de vida activo. Factores básicos del cuidado del cuerpo, hidratación, educación postural en acciones motrices. Identificación de las características de los alimentos naturales, procesados y ultraprocesados, y del efecto de su consumo en la salud.",
       "broader": "sb:PEFI03SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2651,6 +2890,7 @@
       "definition": "Respeto y aceptación del propio cuerpo, desarrollando el autoconocimiento a través de la identificación de fortalezas, debilidades, posibilidades y limitaciones en aspectos sociales, físicos y mentales.",
       "broader": "sb:PEFI03SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2662,6 +2902,7 @@
       "definition": "Reconocimiento de hábitos de ocio nocivos y utilización de la actividad física como hábito y alternativa saludable.",
       "broader": "sb:PEFI03SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2673,6 +2914,7 @@
       "definition": "Aceptación de las habilidades y el propio cuerpo y el de los demás, evitando el exceso de competitividad.",
       "broader": "sb:PEFI03SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2684,6 +2926,7 @@
       "definition": "Práctica de actividad física con fines catárticos, lúdicos y cooperativos. Respeto hacia las elecciones de los demás.",
       "broader": "sb:PEFI03SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2695,6 +2938,7 @@
       "definition": "Cuidado y preparación del material según la actividad a desarrollar.",
       "broader": "sb:PEFI03SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2706,6 +2950,7 @@
       "definition": "Seguimiento de pautas de higiene personal relacionadas con la actividad física.",
       "broader": "sb:PEFI03SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2717,6 +2962,7 @@
       "definition": "Planificación y autorregulación de retos motores siguiendo mecanismos básicos para ejecutar lo planificado.",
       "broader": "sb:PEFI03SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2728,6 +2974,7 @@
       "definition": "Prevención de lesiones en las prácticas motrices con mecanismos de prevención y control corporal.",
       "broader": "sb:PEFI03SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2739,6 +2986,7 @@
       "definition": "Iniciación en situaciones de juego a la toma de decisiones mediante la distribución racional del esfuerzo en situaciones motrices individuales.",
       "broader": "sb:PEFI03SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2750,6 +2998,7 @@
       "definition": "Iniciación en situaciones de juego a la toma de decisiones mediante la ubicación en el espacio en situaciones cooperativas; y la ubicación en el espacio y reubicación tras cada acción en situaciones motrices de persecución y de interacción con un móvil.",
       "broader": "sb:PEFI03SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2761,6 +3010,7 @@
       "definition": "Anticipación a las decisiones ofensivas de la persona adversaria en situaciones de oposición de contacto y el pase a compañeros desmarcados o compañeras desmarcadas o en situación ventajosa en situaciones motrices de colaboración-oposición de persecución y de interacción con un móvil.",
       "broader": "sb:PEFI03SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2772,6 +3022,7 @@
       "definition": "Uso de las capacidades perceptivo-motrices en contexto de práctica mediante la integración del esquema corporal; el control tónico-postural e independencia segmentaria en situaciones motrices; la definición de la lateralidad; la coordinación dinámica general y segmentaria; y el equilibrio estático y dinámico.",
       "broader": "sb:PEFI03SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2783,6 +3034,7 @@
       "definition": "Experimentación de las habilidades y destrezas motrices básicas y genéricas locomotrices, no locomotrices, manipulativas y combinación de estas.",
       "broader": "sb:PEFI03SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2794,6 +3046,7 @@
       "definition": "Variación y adecuación de la acción motriz ante estímulos internos y externos.",
       "broader": "sb:PEFI03SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2805,6 +3058,7 @@
       "definition": "Reconocimiento de las capacidades físicas básicas.",
       "broader": "sb:PEFI03SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2816,6 +3070,7 @@
       "definition": "Reconocimiento y gestión de emociones propias, pensamientos y sentimientos a partir de experiencias motrices.",
       "broader": "sb:PEFI03SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2827,6 +3082,7 @@
       "definition": "Uso de estrategias de escucha activa y de negociación para la resolución de conflictos en contextos motrices.",
       "broader": "sb:PEFI03SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2838,6 +3094,7 @@
       "definition": "Iniciación a la deportividad.",
       "broader": "sb:PEFI03SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2849,6 +3106,7 @@
       "definition": "Empleo de conductas favorables a la convivencia positiva.",
       "broader": "sb:PEFI03SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2860,6 +3118,7 @@
       "definition": "Iniciación a los juegos motores, deportes y danzas de Canarias y otras culturas como manifestación de la interculturalidad.",
       "broader": "sb:PEFI03SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2871,6 +3130,7 @@
       "definition": "Expresión de sensaciones, sentimientos, emociones e ideas simples a través del cuerpo y el movimiento.",
       "broader": "sb:PEFI03SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2882,6 +3142,7 @@
       "definition": "Reproducción y construcción de actividades rítmico-musicales con carácter expresivo.",
       "broader": "sb:PEFI03SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2893,6 +3154,7 @@
       "definition": "Reconocimiento y valoración de referentes de distintos géneros y competiciones.",
       "broader": "sb:PEFI03SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2904,6 +3166,7 @@
       "definition": "Iniciación a la educación vial para vehículos sin motor a través de una movilidad segura, saludable y sostenible.",
       "broader": "sb:PEFI03SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2915,6 +3178,7 @@
       "definition": "Prevención y sensibilización sobre la generación de residuos y su correcta gestión, atendiendo a las particulares características del territorio canario.",
       "broader": "sb:PEFI03SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2926,6 +3190,7 @@
       "definition": "Reconocimiento del estado del material para actividades en el medio natural y urbano a través de una valoración previa y actuación ante desperfectos.",
       "broader": "sb:PEFI03SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2937,6 +3202,7 @@
       "definition": "Realización de actividades físicas en el medio natural y urbano buscando un disfrute seguro y favoreciendo su mantenimiento.",
       "broader": "sb:PEFI03SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2948,6 +3214,7 @@
       "definition": "Iniciación al cuidado del entorno próximo y de los seres vivos que en él conviven, durante la práctica segura de actividades físicas en el medio natural y urbano.",
       "broader": "sb:PEFI03SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2959,6 +3226,7 @@
       "definition": "Interiorización de los efectos físicos y psicológicos beneficiosos de un estilo de vida activo. Factores básicos del cuidado del cuerpo, hidratación, educación postural en acciones motrices. Identificación de las características de los alimentos naturales, procesados y ultraprocesados, y del efecto de su consumo en la salud.",
       "broader": "sb:PEFI04SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -2970,6 +3238,7 @@
       "definition": "Respeto y aceptación del propio cuerpo, desarrollando el autoconocimiento a través de la identificación de fortalezas, debilidades, posibilidades y limitaciones en aspectos sociales, físicos y mentales.",
       "broader": "sb:PEFI04SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -2981,6 +3250,7 @@
       "definition": "Reconocimiento de hábitos de ocio nocivos y utilización de la actividad física como hábito y alternativa saludable.",
       "broader": "sb:PEFI04SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -2992,6 +3262,7 @@
       "definition": "Aceptación de las habilidades y el propio cuerpo y el de los demás, evitando el exceso de competitividad.",
       "broader": "sb:PEFI04SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3003,6 +3274,7 @@
       "definition": "Práctica de actividad física con fines catárticos, lúdicos y cooperativos. Respeto hacia las elecciones de los demás.",
       "broader": "sb:PEFI04SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3014,6 +3286,7 @@
       "definition": "Cuidado y preparación del material según la actividad a desarrollar.",
       "broader": "sb:PEFI04SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3025,6 +3298,7 @@
       "definition": "Seguimiento de pautas de higiene personal relacionadas con la actividad física.",
       "broader": "sb:PEFI04SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3036,6 +3310,7 @@
       "definition": "Planificación y autorregulación de retos motores siguiendo mecanismos básicos para ejecutar lo planificado.",
       "broader": "sb:PEFI04SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3047,6 +3322,7 @@
       "definition": "Prevención de lesiones en las prácticas motrices con mecanismos de prevención y control corporal.",
       "broader": "sb:PEFI04SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3058,6 +3334,7 @@
       "definition": "Iniciación en situaciones de juego a la toma de decisiones mediante la distribución racional del esfuerzo en situaciones motrices individuales.",
       "broader": "sb:PEFI04SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3069,6 +3346,7 @@
       "definition": "Iniciación en situaciones de juego a la toma de decisiones mediante la ubicación en el espacio en situaciones cooperativas; y la ubicación en el espacio y reubicación tras cada acción en situaciones motrices de persecución y de interacción con un móvil.",
       "broader": "sb:PEFI04SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3080,6 +3358,7 @@
       "definition": "Anticipación a las decisiones ofensivas de la persona adversaria en situaciones de oposición de contacto y el pase a compañeros desmarcados o compañeras desmarcadas o en situación ventajosa en situaciones motrices de colaboración-oposición de persecución y de interacción con un móvil.",
       "broader": "sb:PEFI04SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3091,6 +3370,7 @@
       "definition": "Uso de las capacidades perceptivo-motrices en contexto de práctica mediante la integración del esquema corporal; el control tónico-postural e independencia segmentaria en situaciones motrices; la definición de la lateralidad; la coordinación dinámica general y segmentaria; y el equilibrio estático y dinámico.",
       "broader": "sb:PEFI04SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3102,6 +3382,7 @@
       "definition": "Experimentación de las habilidades y destrezas motrices básicas y genéricas locomotrices, no locomotrices, manipulativas y combinación de estas.",
       "broader": "sb:PEFI04SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3113,6 +3394,7 @@
       "definition": "Variación y adecuación de la acción motriz ante estímulos internos y externos.",
       "broader": "sb:PEFI04SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3124,6 +3406,7 @@
       "definition": "Reconocimiento de las capacidades físicas básicas.",
       "broader": "sb:PEFI04SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3135,6 +3418,7 @@
       "definition": "Reconocimiento y gestión de emociones propias, pensamientos y sentimientos a partir de experiencias motrices.",
       "broader": "sb:PEFI04SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3146,6 +3430,7 @@
       "definition": "Uso de estrategias de escucha activa y de negociación para la resolución de conflictos en contextos motrices.",
       "broader": "sb:PEFI04SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3157,6 +3442,7 @@
       "definition": "Iniciación a la deportividad.",
       "broader": "sb:PEFI04SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3168,6 +3454,7 @@
       "definition": "Empleo de conductas favorables a la convivencia positiva.",
       "broader": "sb:PEFI04SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3179,6 +3466,7 @@
       "definition": "Iniciación a los juegos motores, deportes y danzas de Canarias y otras culturas como manifestación de la interculturalidad.",
       "broader": "sb:PEFI04SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3190,6 +3478,7 @@
       "definition": "Expresión de sensaciones, sentimientos, emociones e ideas simples a través del cuerpo y el movimiento.",
       "broader": "sb:PEFI04SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3201,6 +3490,7 @@
       "definition": "Reproducción y construcción de actividades rítmico-musicales con carácter expresivo.",
       "broader": "sb:PEFI04SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3212,6 +3502,7 @@
       "definition": "Reconocimiento y valoración de referentes de distintos géneros y competiciones.",
       "broader": "sb:PEFI04SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3223,6 +3514,7 @@
       "definition": "Iniciación a la educación vial para vehículos sin motor a través de una movilidad segura, saludable y sostenible.",
       "broader": "sb:PEFI04SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3234,6 +3526,7 @@
       "definition": "Prevención y sensibilización sobre la generación de residuos y su correcta gestión, atendiendo a las particulares características del territorio canario.",
       "broader": "sb:PEFI04SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3245,6 +3538,7 @@
       "definition": "Reconocimiento del estado del material para actividades en el medio natural y urbano a través de una valoración previa y actuación ante desperfectos.",
       "broader": "sb:PEFI04SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3256,6 +3550,7 @@
       "definition": "Realización de actividades físicas en el medio natural y urbano buscando un disfrute seguro y favoreciendo su mantenimiento.",
       "broader": "sb:PEFI04SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3267,6 +3562,7 @@
       "definition": "Iniciación al cuidado del entorno próximo y de los seres vivos que en él conviven, durante la práctica segura de actividades físicas en el medio natural y urbano.",
       "broader": "sb:PEFI04SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3278,6 +3574,7 @@
       "definition": "Implementación de un estilo de vida activo y saludable, con beneficios físicos, psicológicos y sociales. Responsabilización personal en el cuidado del cuerpo mediante la hidratación, la educación postural en acciones motrices específicas y el consumo de alimentos naturales frente a los procesados y ultraprocesados.",
       "broader": "sb:PEFI05SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3289,6 +3586,7 @@
       "definition": "Respeto y aceptación del propio cuerpo y el ajeno, consolidando el autoconcepto y teniendo en cuenta la perspectiva de género.",
       "broader": "sb:PEFI05SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3300,6 +3598,7 @@
       "definition": "Identificación de los efectos producidos por los malos hábitos relacionados con la salud y la práctica de la actividad física.",
       "broader": "sb:PEFI05SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3311,6 +3610,7 @@
       "definition": "Reconocimiento del esfuerzo en el deporte profesional. Aceptación de las diferentes tipologías corporales, evitando estereotipos de género y competencia motriz.",
       "broader": "sb:PEFI05SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3322,6 +3622,7 @@
       "definition": "Desarrollo de la actividad física con fines catárticos y hedonistas, lúdicos, competitivos y agonísticos.",
       "broader": "sb:PEFI05SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3333,6 +3634,7 @@
       "definition": "Prevención de actitudes consumistas en torno al equipamiento. Valoración y selección del equipamiento básico para una práctica físico-deportiva segura y cómoda.",
       "broader": "sb:PEFI05SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3344,6 +3646,7 @@
       "definition": "Aplicación de hábitos autónomos de higiene corporal en acciones cotidianas.",
       "broader": "sb:PEFI05SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3355,6 +3658,7 @@
       "definition": "Planificación y autorregulación de retos motores a través del seguimiento y valoración durante el proceso y del resultado.",
       "broader": "sb:PEFI05SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3366,6 +3670,7 @@
       "definition": "Prevención de lesiones y accidentes en las prácticas motrices, aplicando la activación y vuelta a la calma. Cumplimiento de las normas de seguridad, mostrando compromiso de responsabilidad hacia la seguridad propia y de las demás personas.",
       "broader": "sb:PEFI05SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3377,6 +3682,7 @@
       "definition": "Aplicación de actuaciones básicas de primeros auxilios en la práctica de actividad física.",
       "broader": "sb:PEFI05SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3388,6 +3694,7 @@
       "definition": "Aplicación de toma de decisiones en juegos y deportes, mediante la selección de acciones en función del entorno en situaciones motrices individuales.",
       "broader": "sb:PEFI05SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3399,6 +3706,7 @@
       "definition": "Selección de acciones para el ajuste espacio-temporal en la interacción con los compañeros y compañeras en situaciones cooperativas, y selección de zonas de envío de un móvil desde donde sea difícil devolverlo, en situaciones motrices de persecución y de interacción con él.",
       "broader": "sb:PEFI05SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3410,6 +3718,7 @@
       "definition": "Selección adecuada de las habilidades motrices en situaciones de oposición de contacto; el desmarque y ubicación en un lugar desde el que se constituya un apoyo para las demás personas participantes en situaciones motrices de colaboración-oposición de persecución y de interacción con un móvil.",
       "broader": "sb:PEFI05SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3421,6 +3730,7 @@
       "definition": "Uso de las capacidades perceptivo-motrices en contexto de práctica a través de la integración del esquema corporal; el equilibrio estático y dinámico en situaciones de complejidad creciente; la organización espacial (percepción de distancias y trayectoria, orientación en el espacio), temporal (simultaneidad y sucesión de acciones) y espacio-temporal (ritmo, ajuste perceptivo en el envío y en la interceptación de trayectorias de móviles).",
       "broader": "sb:PEFI05SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3432,6 +3742,7 @@
       "definition": "Iniciación de las habilidades motrices específicas asociadas a la técnica en actividades físico-deportivas.",
       "broader": "sb:PEFI05SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3443,6 +3754,7 @@
       "definition": "Identificación de estímulos internos o externos que exijan un reajuste instantáneo de la acción motriz.",
       "broader": "sb:PEFI05SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3454,6 +3766,7 @@
       "definition": "Reconocimiento de las capacidades físicas básicas y resultantes (coordinación, equilibrio y agilidad).",
       "broader": "sb:PEFI05SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3465,6 +3778,7 @@
       "definition": "Aplicación de estrategias de afrontamiento y gestión de la ansiedad en situaciones motrices.",
       "broader": "sb:PEFI05SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3476,6 +3790,7 @@
       "definition": "Uso de estrategias de trabajo en equipo para la resolución constructiva de conflictos en situaciones motrices colectivas.",
       "broader": "sb:PEFI05SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3487,6 +3802,7 @@
       "definition": "Aplicación del juego limpio.",
       "broader": "sb:PEFI05SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3498,6 +3814,7 @@
       "definition": "Identificación, abordaje e implementación de conductas positivas hacia la convivencia en situaciones motrices, aceptando la diversidad de género, capacidades o competencia motriz.",
       "broader": "sb:PEFI05SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3509,6 +3826,7 @@
       "definition": "Valoración y transmisión de la cultura motriz a través de los juegos motores, deportes y danzas de Canarias y de otras culturas, como seña de identidad cultural.",
       "broader": "sb:PEFI05SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3520,6 +3838,7 @@
       "definition": "Utilización del cuerpo y el movimiento para transmitir sensaciones, sentimientos, emociones e ideas complejas en situaciones motrices expresivas.",
       "broader": "sb:PEFI05SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3531,6 +3850,7 @@
       "definition": "Diseño de actividades rítmico-musicales con carácter expresivo.",
       "broader": "sb:PEFI05SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3542,6 +3862,7 @@
       "definition": "Identificación y abordaje del sexismo en el deporte amateur y profesional.",
       "broader": "sb:PEFI05SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3553,6 +3874,7 @@
       "definition": "Conocimiento y práctica de deportes asociados a grandes eventos locales, nacionales o internacionales.",
       "broader": "sb:PEFI05SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3564,6 +3886,7 @@
       "definition": "Utilización y valoración de la educación vial desde la actividad física y deportiva a través de una movilidad segura, saludable y sostenible.",
       "broader": "sb:PEFI05SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3575,6 +3898,7 @@
       "definition": "Valoración previa y actuación ante la posibilidad de riesgos de accidente durante la práctica en el medio natural y urbano.",
       "broader": "sb:PEFI05SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3586,6 +3910,7 @@
       "definition": "Prácticas de consumo responsable mediante la construcción y reutilización de materiales para la práctica motriz.",
       "broader": "sb:PEFI05SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3597,6 +3922,7 @@
       "definition": "Realización de actividades físicas en el medio natural y urbano.",
       "broader": "sb:PEFI05SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3608,6 +3934,7 @@
       "definition": "Valoración y transmisión del cuidado del entorno próximo y seres vivos que en él conviven, durante la práctica de actividad física en el medio natural y urbano.",
       "broader": "sb:PEFI05SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3619,6 +3946,7 @@
       "definition": "Implementación de un estilo de vida activo y saludable, con beneficios físicos, psicológicos y sociales. Responsabilización personal en el cuidado del cuerpo mediante la hidratación, la educación postural en acciones motrices específicas y el consumo de alimentos naturales frente a los procesados y ultraprocesados.",
       "broader": "sb:PEFI06SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3630,6 +3958,7 @@
       "definition": "Respeto y aceptación del propio cuerpo y el ajeno, consolidando el autoconcepto y teniendo en cuenta la perspectiva de género.",
       "broader": "sb:PEFI06SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3641,6 +3970,7 @@
       "definition": "Identificación de los efectos producidos por los malos hábitos relacionados con la salud y la práctica de la actividad física.",
       "broader": "sb:PEFI06SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3652,6 +3982,7 @@
       "definition": "Reconocimiento del esfuerzo en el deporte profesional. Aceptación de las diferentes tipologías corporales, evitando estereotipos de género y competencia motriz.",
       "broader": "sb:PEFI06SBI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3663,6 +3994,7 @@
       "definition": "Desarrollo de la actividad física con fines catárticos y hedonistas, lúdicos, competitivos y agonísticos.",
       "broader": "sb:PEFI06SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3674,6 +4006,7 @@
       "definition": "Prevención de actitudes consumistas en torno al equipamiento. Valoración y selección del equipamiento básico para una práctica físico-deportiva segura y cómoda.",
       "broader": "sb:PEFI06SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3685,6 +4018,7 @@
       "definition": "Aplicación de hábitos autónomos de higiene corporal en acciones cotidianas.",
       "broader": "sb:PEFI06SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3696,6 +4030,7 @@
       "definition": "Planificación y autorregulación de retos motores a través del seguimiento y valoración durante el proceso y del resultado.",
       "broader": "sb:PEFI06SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3707,6 +4042,7 @@
       "definition": "Prevención de lesiones y accidentes en las prácticas motrices, aplicando la activación y vuelta a la calma. Cumplimiento de las normas de seguridad, mostrando compromiso de responsabilidad hacia la seguridad propia y de las demás personas.",
       "broader": "sb:PEFI06SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3718,6 +4054,7 @@
       "definition": "Aplicación de actuaciones básicas de primeros auxilios en la práctica de actividad física.",
       "broader": "sb:PEFI06SBII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3729,6 +4066,7 @@
       "definition": "Aplicación de toma de decisiones en juegos y deportes, mediante la selección de acciones en función del entorno en situaciones motrices individuales.",
       "broader": "sb:PEFI06SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3740,6 +4078,7 @@
       "definition": "Selección de acciones para el ajuste espacio-temporal en la interacción con los compañeros y compañeras en situaciones cooperativas, y selección de zonas de envío de un móvil desde donde sea difícil devolverlo, en situaciones motrices de persecución y de interacción con él.",
       "broader": "sb:PEFI06SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3751,6 +4090,7 @@
       "definition": "Selección adecuada de las habilidades motrices en situaciones de oposición de contacto; el desmarque y ubicación en un lugar desde el que se constituya un apoyo para las demás personas participantes en situaciones motrices de colaboración-oposición de persecución y de interacción con un móvil.",
       "broader": "sb:PEFI06SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3762,6 +4102,7 @@
       "definition": "Uso de las capacidades perceptivo-motrices en contexto de práctica a través de la integración del esquema corporal; el equilibrio estático y dinámico en situaciones de complejidad creciente; la organización espacial (percepción de distancias y trayectoria, orientación en el espacio), temporal (simultaneidad y sucesión de acciones) y espacio-temporal (ritmo, ajuste perceptivo en el envío y en la interceptación de trayectorias de móviles).",
       "broader": "sb:PEFI06SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3773,6 +4114,7 @@
       "definition": "Iniciación de las habilidades motrices específicas asociadas a la técnica en actividades físico-deportivas.",
       "broader": "sb:PEFI06SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3784,6 +4126,7 @@
       "definition": "Identificación de estímulos internos o externos que exijan un reajuste instantáneo de la acción motriz.",
       "broader": "sb:PEFI06SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3795,6 +4138,7 @@
       "definition": "Reconocimiento de las capacidades físicas básicas y resultantes (coordinación, equilibrio y agilidad).",
       "broader": "sb:PEFI06SBIII",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3806,6 +4150,7 @@
       "definition": "Aplicación de estrategias de afrontamiento y gestión de la ansiedad en situaciones motrices.",
       "broader": "sb:PEFI06SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3817,6 +4162,7 @@
       "definition": "Uso de estrategias de trabajo en equipo para la resolución constructiva de conflictos en situaciones motrices colectivas.",
       "broader": "sb:PEFI06SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3828,6 +4174,7 @@
       "definition": "Aplicación del juego limpio.",
       "broader": "sb:PEFI06SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3839,6 +4186,7 @@
       "definition": "Identificación, abordaje e implementación de conductas positivas hacia la convivencia en situaciones motrices, aceptando la diversidad de género, capacidades o competencia motriz.",
       "broader": "sb:PEFI06SBIV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3850,6 +4198,7 @@
       "definition": "Valoración y transmisión de la cultura motriz a través de los juegos motores, deportes y danzas de Canarias y de otras culturas, como seña de identidad cultural.",
       "broader": "sb:PEFI06SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3861,6 +4210,7 @@
       "definition": "Utilización del cuerpo y el movimiento para transmitir sensaciones, sentimientos, emociones e ideas complejas en situaciones motrices expresivas.",
       "broader": "sb:PEFI06SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3872,6 +4222,7 @@
       "definition": "Diseño de actividades rítmico-musicales con carácter expresivo.",
       "broader": "sb:PEFI06SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3883,6 +4234,7 @@
       "definition": "Identificación y abordaje del sexismo en el deporte amateur y profesional.",
       "broader": "sb:PEFI06SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3894,6 +4246,7 @@
       "definition": "Conocimiento y práctica de deportes asociados a grandes eventos locales, nacionales o internacionales.",
       "broader": "sb:PEFI06SBV",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3905,6 +4258,7 @@
       "definition": "Utilización y valoración de la educación vial desde la actividad física y deportiva a través de una movilidad segura, saludable y sostenible.",
       "broader": "sb:PEFI06SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3916,6 +4270,7 @@
       "definition": "Valoración previa y actuación ante la posibilidad de riesgos de accidente durante la práctica en el medio natural y urbano.",
       "broader": "sb:PEFI06SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3927,6 +4282,7 @@
       "definition": "Prácticas de consumo responsable mediante la construcción y reutilización de materiales para la práctica motriz.",
       "broader": "sb:PEFI06SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3938,6 +4294,7 @@
       "definition": "Realización de actividades físicas en el medio natural y urbano.",
       "broader": "sb:PEFI06SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3949,6 +4306,7 @@
       "definition": "Valoración y transmisión del cuidado del entorno próximo y seres vivos que en él conviven, durante la práctica de actividad física en el medio natural y urbano.",
       "broader": "sb:PEFI06SBVI",
       "materia": "materia:PEFI",
+      "materia_curso": "asig:PEFI06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     }

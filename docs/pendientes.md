@@ -48,9 +48,13 @@ tenerlo en cuenta:
 - Saberes que el ODT omite (3): `sb:PLCL05SBIV.4`, `sb:PLCL06SBIV.4` y `sb:BPSI02SBVI.9` están en el
   BOC y no en el ODT; se retiran del corpus.
 
-Quedan 19 diferencias con el ODT, explicadas en `informes/contraste.md`: 4 erratas de descriptores
-del ODT (códigos que no existen en la etapa; el corpus conserva la lista válida) y 15 de
-competencias cuyo enunciado cambia según el curso (el modelo guarda uno por materia).
+Quedan 4 diferencias con el ODT, explicadas en `informes/contraste.md`: erratas de descriptores
+del ODT de Lengua Castellana y Literatura (Primaria, 1.º y 2.º, criterio 7.2 y su bloque), con
+códigos que no existen en la etapa; el corpus conserva la lista válida. Las competencias cuyo
+enunciado cambia según el curso guardan el de cada curso en `enunciados_curso` (correcciones
+0263–0266); al hacerlo aparecieron cuatro enunciados que la explicación «limitación del modelo»
+ocultaba y se corrigieron con el ODT (0267–0269; en Cultura Científica la competencia 2 repetía
+el enunciado de la 1).
 
 ## Erratas del BOC
 

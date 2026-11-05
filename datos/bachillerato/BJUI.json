@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BJUI01",
+      "tipo": "MateriaCurso",
+      "notation": "BJUI01",
+      "prefLabel": "Juegos y Deportes Tradicionales de Canarias · 1º Bachillerato",
+      "broader": "materia:BJUI",
+      "materia": "materia:BJUI",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BJUIC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BJUIC1",
@@ -37,7 +47,7 @@
       "notation": "BJUI01BC1",
       "prefLabel": "Juegos y Deportes Tradicionales de Canarias · 1º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se promoverá que el alumnado conozca, practique y difunda la diversidad de juegos motores tradicionales dirigidos a la infancia y la adolescencia en Canarias. Se busca identificar los estereotipos sexistas y las desigualdades de género, fomentando la inclusión y el desarrollo emocional que favorece su práctica, así como difundir su conexión con el entorno y la transmisión intergeneracional.",
-      "broader": "materia:BJUI",
+      "broader": "asig:BJUI01",
       "agrupa": [
         "ce:BJUIC1"
       ],
@@ -52,6 +62,7 @@
         "STEM3"
       ],
       "materia": "materia:BJUI",
+      "materia_curso": "asig:BJUI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -61,7 +72,7 @@
       "notation": "BJUI01BC2",
       "prefLabel": "Juegos y Deportes Tradicionales de Canarias · 1º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se propiciará que el alumnado desarrolle la capacidad de identificar, valorar y poner en práctica actividades ludomotrices y deportivas tradicionales canarias, reconociendo, caracterizando y valorando el contexto sociocultural canario, diferenciando las que tienen un origen anterior a la conquista y colonización europea y las que se incorporaron con el posterior aporte humano y cultural, y reconociendo el proceso de deportivización adquirido por algunas de ellas. A través de este bloque competencial se propiciará que el alumnado conozca, ponga en práctica y difunda la variedad de juegos motores y deportes tradicionales de Canarias, potenciando la inclusión y el desarrollo emocional que favorece su práctica y difundiendo su vinculación con el entorno y la transmisión intergeneracional.",
-      "broader": "materia:BJUI",
+      "broader": "asig:BJUI01",
       "agrupa": [
         "ce:BJUIC2"
       ],
@@ -76,6 +87,7 @@
         "STEM2"
       ],
       "materia": "materia:BJUI",
+      "materia_curso": "asig:BJUI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -97,6 +109,7 @@
         "CCEC2"
       ],
       "materia": "materia:BJUI",
+      "materia_curso": "asig:BJUI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -117,6 +130,7 @@
         "CCEC2"
       ],
       "materia": "materia:BJUI",
+      "materia_curso": "asig:BJUI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -139,6 +153,7 @@
         "CCEC2"
       ],
       "materia": "materia:BJUI",
+      "materia_curso": "asig:BJUI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -160,6 +175,7 @@
         "CCEC2"
       ],
       "materia": "materia:BJUI",
+      "materia_curso": "asig:BJUI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -180,6 +196,7 @@
         "CCEC2"
       ],
       "materia": "materia:BJUI",
+      "materia_curso": "asig:BJUI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -202,6 +219,7 @@
         "CCEC2"
       ],
       "materia": "materia:BJUI",
+      "materia_curso": "asig:BJUI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -211,8 +229,9 @@
       "notation": "BJUI01SBI",
       "prefLabel": "BJUI01SBI · I. Juegos motores tradicionales infantiles y de adolescentes",
       "definition": "Juegos motores tradicionales infantiles y de adolescentes",
-      "broader": "materia:BJUI",
+      "broader": "asig:BJUI01",
       "materia": "materia:BJUI",
+      "materia_curso": "asig:BJUI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -222,8 +241,9 @@
       "notation": "BJUI01SBII",
       "prefLabel": "BJUI01SBII · II. Juegos motores y deportes tradicionales de adultos de Canarias",
       "definition": "Juegos motores y deportes tradicionales de adultos de Canarias",
-      "broader": "materia:BJUI",
+      "broader": "asig:BJUI01",
       "materia": "materia:BJUI",
+      "materia_curso": "asig:BJUI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -235,6 +255,7 @@
       "definition": "Conocimiento y comprensión de los juegos motores tradicionales infantiles y de adolescentes de Canarias.",
       "broader": "sb:BJUI01SBI",
       "materia": "materia:BJUI",
+      "materia_curso": "asig:BJUI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -246,6 +267,7 @@
       "definition": "Utilización de los materiales y espacios del entorno para la práctica de los juegos motores tradicionales infantiles y de adolescentes de Canarias.",
       "broader": "sb:BJUI01SBI",
       "materia": "materia:BJUI",
+      "materia_curso": "asig:BJUI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -257,6 +279,7 @@
       "definition": "Análisis de los estereotipos sexistas y la desigualdad de género en el juego motor infantil y adolescente de Canarias.",
       "broader": "sb:BJUI01SBI",
       "materia": "materia:BJUI",
+      "materia_curso": "asig:BJUI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -268,6 +291,7 @@
       "definition": "Inclusión y desarrollo emocional en las actividades ludomotrices tradicionales infantiles y de adolescentes de Canarias.",
       "broader": "sb:BJUI01SBI",
       "materia": "materia:BJUI",
+      "materia_curso": "asig:BJUI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -279,6 +303,7 @@
       "definition": "Conocimiento y comprensión de los juegos motores y deportes tradicionales de Canarias.",
       "broader": "sb:BJUI01SBII",
       "materia": "materia:BJUI",
+      "materia_curso": "asig:BJUI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -290,6 +315,7 @@
       "definition": "Utilización de los materiales y espacios del entorno para la práctica de los juegos motores y deportes tradicionales de Canarias.",
       "broader": "sb:BJUI01SBII",
       "materia": "materia:BJUI",
+      "materia_curso": "asig:BJUI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -301,6 +327,7 @@
       "definition": "Análisis de los estereotipos sexistas y la desigualdad de género en los juegos motores y deportes tradicionales de Canarias.",
       "broader": "sb:BJUI01SBII",
       "materia": "materia:BJUI",
+      "materia_curso": "asig:BJUI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -312,6 +339,7 @@
       "definition": "Inclusión y desarrollo emocional en las actividades ludomotrices y deportes tradicionales de Canarias.",
       "broader": "sb:BJUI01SBII",
       "materia": "materia:BJUI",
+      "materia_curso": "asig:BJUI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -323,6 +351,7 @@
       "definition": "Contribución a las relaciones intergeneracionales mediante la transmisión de los juegos motores y deportes tradicionales de Canarias, favoreciendo en paralelo su conocimiento del valor patrimonial.",
       "broader": "sb:BJUI01SBII",
       "materia": "materia:BJUI",
+      "materia_curso": "asig:BJUI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

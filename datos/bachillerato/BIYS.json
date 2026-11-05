@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BIYS02",
+      "tipo": "MateriaCurso",
+      "notation": "BIYS02",
+      "prefLabel": "Imagen y Sonido · 2º Bachillerato",
+      "broader": "materia:BIYS",
+      "materia": "materia:BIYS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BIYSC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BIYSC1",
@@ -57,7 +67,7 @@
       "notation": "BIYS02BC1",
       "prefLabel": "Imagen y Sonido · 2º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se pretende valorar si el alumnado es capaz de diferenciar y analizar, críticamente, tanto de manera individual como colaborativa, las características, las cualidades, las tipologías y la intencionalidad comunicativa del lenguaje audiovisual, haciendo uso de herramientas digitales adecuadas, respetando la protección de datos y los derechos de autoría, evitando sesgos de género y aplicando las técnicas de este tipo de lenguaje, a partir del visionado y audición de diferentes obras y productos visuales, sonoros y audiovisuales (videoclips, planos cinematográficos, cuñas y spots, making-of, trailers…) y de su evolución histórica (aportaciones tecnológicas y expresivas del sonido en el proceso de transformación del cine mudo al sonoro, evolución de las teorías del montaje audiovisual…), de manera que reconozca y comprenda la funcionalidad estética y narrativa de sus diferentes elementos y su coherencia con el montaje final. Además, debe ser capaz de reconocer e identificar la tipología y la intencionalidad comunicativa de los diferentes géneros, relacionando su desarrollo y evolución con los hitos históricos relevantes.",
-      "broader": "materia:BIYS",
+      "broader": "asig:BIYS02",
       "agrupa": [
         "ce:BIYSC1"
       ],
@@ -76,6 +86,7 @@
         "CCEC2"
       ],
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -85,7 +96,7 @@
       "notation": "BIYS02BC2",
       "prefLabel": "Imagen y Sonido · 2º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se pretende valorar si el alumnado es capaz de elaborar, de manera individual o colaborativa, guiones literarios de ficción, integrando las posibilidades expresivas del sonido y de la imagen en un producto audiovisual o programa de radio. Para ello debe aplicar, utilizando los recursos técnicos y las herramientas digitales adecuadas, las fases estandarizadas de elaboración de un guion literario, de manera que obtenga una estructura narrativa coherente y que cumpla con la finalidad comunicativa planteada. Asimismo, debe ser capaz de elaborar guiones técnicos, storyboards o escaletas que contengan las indicaciones técnicas precisas que permitan la ejecución adecuada del proyecto planteado. Para ello, tendrá que justificar y valorar la solución aportada, según los recursos utilizados que favorezcan la continuidad durante el proceso de montaje y teniendo en cuenta el tratamiento del tiempo, del espacio y de la idea o del contenido, con el fin de que el producto presente una estructura narrativa completa y coherente con las intenciones comunicativas.",
-      "broader": "materia:BIYS",
+      "broader": "asig:BIYS02",
       "agrupa": [
         "ce:BIYSC2"
       ],
@@ -105,6 +116,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -114,7 +126,7 @@
       "notation": "BIYS02BC3",
       "prefLabel": "Imagen y Sonido · 2º Bachillerato · bloque competencial C3",
       "scopeNote": "Con este bloque competencial se pretende comprobar si el alumnado es capaz de reconocer las cualidades técnicas de dispositivos específicos de captación de imagen y sonido (cámaras fotográficas y de vídeo, equipos de sonido, cámaras de cine, micrófonos, ópticas…), con la finalidad de seleccionar aquellos que sean más adecuados al propósito que se plantea y de utilizarlos para realizar grabaciones de piezas audiovisuales (producciones, doblaje, publicidad, efectos sonoros, diaporamas…), que cumplan con la finalidad comunicativa planteada y con la planificación previa. Asimismo, se comprobará que el alumnado es capaz de identificar los dispositivos y las aplicaciones digitales necesarias para llevar a cabo una retransmisión audiovisual o sonora en directo a través de Internet.",
-      "broader": "materia:BIYS",
+      "broader": "asig:BIYS02",
       "agrupa": [
         "ce:BIYSC3"
       ],
@@ -130,6 +142,7 @@
         "CD4"
       ],
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -139,7 +152,7 @@
       "notation": "BIYS02BC4",
       "prefLabel": "Imagen y Sonido · 2º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se pretende comprobar si el alumnado es capaz de elaborar, de manera individual o colaborativa, montajes audiovisuales y sonoros, empleando técnicas de edición lineal y no lineal para combinar fuentes propias, captadas en fases previas al desarrollo de un proyecto audiovisual, y fuentes accesibles en Internet de manera legítima. Para ello, debe ser capaz de identificar las características necesarias en el equipo técnico y las aplicaciones digitales que le permitan acometer la postproducción conforme al plan de trabajo previsto, a través de los guiones técnicos o escaletas previamente compartidas; aplicar las técnicas necesarias para procesar las diferentes fuentes multimedia; generar un archivo de proyecto que permita el procesado en distintos momentos de la edición; y obtener un producto final que responda a la estructura narrativa, favorezca la inclusividad y resulte coherente con las intenciones comunicativas.",
-      "broader": "materia:BIYS",
+      "broader": "asig:BIYS02",
       "agrupa": [
         "ce:BIYSC4"
       ],
@@ -155,6 +168,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -181,6 +195,7 @@
         "CCEC2"
       ],
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -206,6 +221,7 @@
         "CCEC2"
       ],
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -233,6 +249,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -260,6 +277,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -281,6 +299,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -302,6 +321,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -320,6 +340,7 @@
         "CE3"
       ],
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -341,6 +362,7 @@
         "CE3"
       ],
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -362,6 +384,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -383,6 +406,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -392,8 +416,9 @@
       "notation": "BIYS02SBI",
       "prefLabel": "BIYS02SBI · I. Expresión, diseño y lenguaje audiovisual",
       "definition": "Expresión, diseño y lenguaje audiovisual",
-      "broader": "materia:BIYS",
+      "broader": "asig:BIYS02",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -403,8 +428,9 @@
       "notation": "BIYS02SBII",
       "prefLabel": "BIYS02SBII · II. Guion y preproducción audiovisual",
       "definition": "Guion y preproducción audiovisual",
-      "broader": "materia:BIYS",
+      "broader": "asig:BIYS02",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -414,8 +440,9 @@
       "notation": "BIYS02SBIII",
       "prefLabel": "BIYS02SBIII · III. Producción sonora y audiovisual",
       "definition": "Producción sonora y audiovisual",
-      "broader": "materia:BIYS",
+      "broader": "asig:BIYS02",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -425,8 +452,9 @@
       "notation": "BIYS02SBIV",
       "prefLabel": "BIYS02SBIV · IV. Edición y postproducción audiovisual",
       "definition": "Edición y postproducción audiovisual",
-      "broader": "materia:BIYS",
+      "broader": "asig:BIYS02",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -438,6 +466,7 @@
       "definition": "Recorrido crítico por la historia del cine, de la radio y de la televisión.",
       "broader": "sb:BIYS02SBI",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -449,6 +478,7 @@
       "definition": "Análisis de productos audiovisuales.",
       "broader": "sb:BIYS02SBI",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -460,6 +490,7 @@
       "definition": "Reconocimiento de géneros radiofónicos, televisivos y cinematográficos.",
       "broader": "sb:BIYS02SBI",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -471,6 +502,7 @@
       "definition": "Análisis de la evolución tecnológica de los medios audiovisuales.",
       "broader": "sb:BIYS02SBI",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -482,6 +514,7 @@
       "definition": "Diferenciación y análisis de los elementos morfológicos, dinámicos y escalares de la imagen.",
       "broader": "sb:BIYS02SBI",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -493,6 +526,7 @@
       "definition": "Análisis de la expresión sonora y sus componentes.",
       "broader": "sb:BIYS02SBI",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -504,6 +538,7 @@
       "definition": "Análisis de los elementos morfológicos, sintácticos, semánticos y estéticos del lenguaje audiovisual.",
       "broader": "sb:BIYS02SBI",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -515,6 +550,7 @@
       "definition": "Reconocimiento de las fases, los procesos y los roles en la producción audiovisual.",
       "broader": "sb:BIYS02SBI",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -526,6 +562,7 @@
       "definition": "Valoración de la producción audiovisual canaria.",
       "broader": "sb:BIYS02SBI",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -537,6 +574,7 @@
       "definition": "Reconocimiento y elaboración de diferentes tipos y formatos de guiones audiovisuales.",
       "broader": "sb:BIYS02SBII",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -548,6 +586,7 @@
       "definition": "Aplicación de los procesos y de las técnicas narrativas referidas al guion literario.",
       "broader": "sb:BIYS02SBII",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -559,6 +598,7 @@
       "definition": "Análisis y adaptación de la expresión sonora a los guiones audiovisuales.",
       "broader": "sb:BIYS02SBII",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -570,6 +610,7 @@
       "definition": "Creación de guiones técnicos, storyboards y escaletas, valorando la conveniencia de utilizar aplicaciones específicas.",
       "broader": "sb:BIYS02SBII",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -581,6 +622,7 @@
       "definition": "Aplicación de recursos narrativos en el guion técnico.",
       "broader": "sb:BIYS02SBII",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -592,6 +634,7 @@
       "definition": "Análisis y aplicación de los elementos necesarios para la preproducción audiovisual (unidades narrativas, tiempo cinematográfico, valores de plano, ángulos y movimientos de cámara…).",
       "broader": "sb:BIYS02SBII",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -603,6 +646,7 @@
       "definition": "Descripción y aplicación de los parámetros básicos de la luz y el sonido.",
       "broader": "sb:BIYS02SBIII",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -614,6 +658,7 @@
       "definition": "Reconocimiento de las prestaciones técnicas de equipos y accesorios de audio (líneas de audio, pértigas, grúas, jirafas, conectores…).",
       "broader": "sb:BIYS02SBIII",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -625,6 +670,7 @@
       "definition": "Aplicación de técnicas básicas de la composición fotográfica.",
       "broader": "sb:BIYS02SBIII",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -636,6 +682,7 @@
       "definition": "Aplicación de técnicas y ajustes para la grabación sonora en estudio y en exteriores (uso de las pértigas, técnicas de seguimiento, colocación de micrófonos…).",
       "broader": "sb:BIYS02SBIII",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -647,6 +694,7 @@
       "definition": "Mantenimiento de la continuidad en el montaje fílmico (raccord).",
       "broader": "sb:BIYS02SBIII",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -658,6 +706,7 @@
       "definition": "Identificación de la edición lineal y no lineal de vídeo.",
       "broader": "sb:BIYS02SBIV",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -669,6 +718,7 @@
       "definition": "Reconocimiento de los equipos y periféricos para la edición multimedia: tipos y características básicas.",
       "broader": "sb:BIYS02SBIV",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -680,6 +730,7 @@
       "definition": "Identificación de las diferencias entre archivos de proyectos y archivos finales en la producción audiovisual y consideraciones a tener en cuenta durante el montaje final.",
       "broader": "sb:BIYS02SBIV",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -691,6 +742,7 @@
       "definition": "Reconocimiento y uso de aplicaciones digitales para la edición fotográfica, sonora y de vídeo.",
       "broader": "sb:BIYS02SBIV",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -702,6 +754,7 @@
       "definition": "Aplicación de técnicas de montaje cinematográfico (transiciones, créditos, etalonaje…).",
       "broader": "sb:BIYS02SBIV",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -713,6 +766,7 @@
       "definition": "Determinación de los dispositivos y de las aplicaciones digitales necesarias para una retransmisión en directo a través de Internet.",
       "broader": "sb:BIYS02SBIV",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -724,6 +778,7 @@
       "definition": "Identificación de derechos vinculados a la protección de datos y a la autoría. relacionados con el consumo y producción de obras multimedia.",
       "broader": "sb:BIYS02SBIV",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -735,6 +790,7 @@
       "definition": "Incorporación de elementos, en las técnicas de edición, que favorezcan la inclusividad, tales como subtítulos…",
       "broader": "sb:BIYS02SBIV",
       "materia": "materia:BIYS",
+      "materia_curso": "asig:BIYS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     }

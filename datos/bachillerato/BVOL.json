@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BVOL01",
+      "tipo": "MateriaCurso",
+      "notation": "BVOL01",
+      "prefLabel": "Volumen · 1º Bachillerato",
+      "broader": "materia:BVOL",
+      "materia": "materia:BVOL",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BVOLC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BVOLC1",
@@ -57,7 +67,7 @@
       "notation": "BVOL01BC1",
       "prefLabel": "Volumen · 1º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de desarrollar las destrezas necesarias para poder analizar y explicar los diferentes elementos de configuración formal y espacial del lenguaje tridimensional a través del estudio contextualizado de obras de diferentes épocas y culturas, reconociendo el valor de la diversidad del patrimonio, así como la riqueza creativa y estética inherente a ella, profundizando con especial interés en el patrimonio cultural y artístico canario. Se verificará además que el alumnado es capaz de desarrollar un espíritu crítico y de respeto de las opiniones de las demás personas, incorporando la perspectiva de género y la interculturalidad que le permitan reflexionar sobre la conformación del canon artístico dominante y reconocer la aportación a esta disciplina de artistas mujeres y de culturas no occidentales. Se comprobará, además, que las distintas técnicas, los materiales y los elementos compositivos empleados pueden ser analizados por el alumnado a través de las tecnologías digitales, utilizando bibliotecas o colecciones analógicas y digitales, de modo que puedan trabajar con una amplia gama de ellos, aplicando criterios de validez y fiabilidad de la información obtenida, de forma crítica, abarcando formas, estructuras y proporciones. Todo ello con la finalidad de que las experiencias artísticas contribuyan al desarrollo de su personalidad y amplíen su repertorio de recursos, facilitando la aplicación de los aprendizajes adquiridos a propuestas volumétricas propias, equilibradas y creativas.",
-      "broader": "materia:BVOL",
+      "broader": "asig:BVOL01",
       "agrupa": [
         "ce:BVOLC1"
       ],
@@ -71,6 +81,7 @@
         "CCEC2"
       ],
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -80,7 +91,7 @@
       "notation": "BVOL01BC2",
       "prefLabel": "Volumen · 1º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de analizar y explicar los aspectos más importantes de la configuración tridimensional, partiendo del análisis de los elementos formales, funcionales y estructurales de obras de diferentes artistas, con el apoyo de bibliografía analógica y digital específica y de motores de búsqueda en internet, con especial atención a los artistas y las artistas canarios, con una postura de recepción activa y deleite. Así mismo, se verificará que puede poner en práctica mecanismos de percepción de formas volumétricas a través del estudio de los diferentes elementos de configuración formal y espacial, que ayudan al desarrollo de una visión analítica y sintética de los objetos artísticos tridimensionales que nos rodean. También se comprobará que es capaz de elaborar formas volumétricas atendiendo a una función comunicativa concreta, pudiendo aplicar el grado de iconicidad adecuado a su intención creativa y realizar un análisis de la forma externa como proyección ordenada de la estructura interna. Todo ello con la finalidad de verificar que su capacidad creativa le permite realizar producciones volumétricas reflexionando sobre la libertad de expresión, la igualdad y el respeto a la propiedad intelectual, además de aprender a proteger tanto la creatividad propia, como la ajena.",
-      "broader": "materia:BVOL",
+      "broader": "asig:BVOL01",
       "agrupa": [
         "ce:BVOLC2"
       ],
@@ -95,6 +106,7 @@
         "CCL5"
       ],
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -104,7 +116,7 @@
       "notation": "BVOL01BC3",
       "prefLabel": "Volumen · 1º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de desarrollar la creatividad, el pensamiento divergente, la autonomía y la iniciativa personal. Se verificará que reconoce las características técnicas, comunicativas, funcionales y expresivas de los materiales y también utiliza la terminología específica del volumen. Para ello, realizará un proceso de selección de técnicas, herramientas y materiales más adecuados para la elaboración de composiciones tridimensionales, atendiendo a los requisitos formales, funcionales, estéticos y expresivos de la obra tridimensional, la seguridad e higiene en el taller y la gestión de los residuos producidos en la elaboración de las diferentes propuestas, demostrando un compromiso ético y ecosocialmente responsable. Todo ello con la finalidad de producir composiciones tridimensionales mediante la aplicación de elementos estructurales de la forma para resolver de manera creativa problemas de configuración formal y espacial, y valorar las cualidades expresivas del lenguaje tridimensional en las composiciones propias y ajenas.",
-      "broader": "materia:BVOL",
+      "broader": "asig:BVOL01",
       "agrupa": [
         "ce:BVOLC3"
       ],
@@ -117,6 +129,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -126,7 +139,7 @@
       "notation": "BVOL01BC4",
       "prefLabel": "Volumen · 1º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de utilizar metodologías por proyectos, al planificar, realizar, evaluar y presentar proyectos tridimensionales individuales o colaborativos, organizando correctamente sus fases, desde la ideación a la propuesta final. Se comprobará la participación activa en la realización de proyectos artísticos en la que se distribuyan de forma razonada las tareas, asumiendo diferentes funciones, mostrando valor y respeto a las aportaciones y experiencias de las demás personas, así como ejerciendo una ciudadanía digital activa, identificando las oportunidades de desarrollo personal, social, académico y profesional. Se verificará que el alumnado es capaz de evaluar, presentar y compartir el producto de su trabajo utilizando las herramientas más apropiadas, analizando y mostrando la trazabilidad de los objetivos planteados así como diseñando la difusión de los mismos. Todo ello con la finalidad de construir sus propios procesos de aprendizaje al afrontar retos y aportar soluciones diversas, creativas e innovadoras, a su vez evaluar la viabilidad y sostenibilidad de las propuestas y seleccionar las técnicas, las herramientas y los materiales más adecuados a las intenciones expresivas, funcionales y comunicativas como medio de expresión de su identidad personal, su autoestima y su autonomía.",
-      "broader": "materia:BVOL",
+      "broader": "asig:BVOL01",
       "agrupa": [
         "ce:BVOLC4"
       ],
@@ -145,6 +158,7 @@
         "CCL3"
       ],
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -166,6 +180,7 @@
         "CCEC2"
       ],
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -187,6 +202,7 @@
         "CCEC2"
       ],
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -208,6 +224,7 @@
         "CCEC2"
       ],
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -226,6 +243,7 @@
         "CCEC2"
       ],
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -246,6 +264,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -265,6 +284,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -285,6 +305,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -304,6 +325,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -313,8 +335,9 @@
       "notation": "BVOL01SBI",
       "prefLabel": "BVOL01SBI · I. Técnicas y materiales de configuración",
       "definition": "Técnicas y materiales de configuración",
-      "broader": "materia:BVOL",
+      "broader": "asig:BVOL01",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -324,8 +347,9 @@
       "notation": "BVOL01SBII",
       "prefLabel": "BVOL01SBII · II. Elementos de configuración formal y espacial",
       "definition": "Elementos de configuración formal y espacial",
-      "broader": "materia:BVOL",
+      "broader": "asig:BVOL01",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -335,8 +359,9 @@
       "notation": "BVOL01SBIII",
       "prefLabel": "BVOL01SBIII · III. Análisis de la representación tridimensional",
       "definition": "Análisis de la representación tridimensional",
-      "broader": "materia:BVOL",
+      "broader": "asig:BVOL01",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -346,8 +371,9 @@
       "notation": "BVOL01SBIV",
       "prefLabel": "BVOL01SBIV · IV. El volumen en proyectos tridimensionales",
       "definition": "El volumen en proyectos tridimensionales",
-      "broader": "materia:BVOL",
+      "broader": "asig:BVOL01",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -359,6 +385,7 @@
       "definition": "Reconocimiento y prevención de los factores de riesgo que implica el trabajo en el taller de Volumen como la manipulación de materiales y herramientas, aplicando y usando las medidas de seguridad e higiene necesarias para evitar dichos riesgos.",
       "broader": "sb:BVOL01SBI",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -370,6 +397,7 @@
       "definition": "Identificación y experimentación con materiales y herramientas de configuración tridimensional incluyendo los materiales sostenibles, naturales, efímeros e innovadores.",
       "broader": "sb:BVOL01SBI",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -381,6 +409,7 @@
       "definition": "Reconocimiento y análisis de las características técnicas, comunicativas, funcionales y expresivas de los materiales y utilización de terminología específica del volumen.",
       "broader": "sb:BVOL01SBI",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -392,6 +421,7 @@
       "definition": "Valoración de la importancia del mantenimiento y conservación de equipamientos, y sensibilización sobre el uso responsable de recursos y del reciclaje.",
       "broader": "sb:BVOL01SBI",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -403,6 +433,7 @@
       "definition": "Reconocimiento y aplicación de procedimientos de configuración tridimensional, por ejemplo: técnicas aditivas (modelado, escayola directa), sustractivas (talla), constructivas (estructuras e instalaciones) y de reproducción (moldeado y vaciado, sacado de puntos, pantógrafo, impresión 3D).",
       "broader": "sb:BVOL01SBI",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -414,6 +445,7 @@
       "definition": "Distinción y uso de formas tridimensionales y de su lenguaje. Identificación y aplicación de los elementos estructurales de la forma: línea, plano, arista, vértice, superficie, volumen, texturas (visuales y táctiles), concavidades, convexidades, vacío, espacio, masa, escala, color.",
       "broader": "sb:BVOL01SBII",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -425,6 +457,7 @@
       "definition": "Análisis y aplicación de los fundamentos de la composición espacial (campos de fuerza, equilibrio, dinamismo, etc.) y de la relación entre forma, escala y proporción.",
       "broader": "sb:BVOL01SBII",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -436,6 +469,7 @@
       "definition": "Reconocimiento de la relación entre forma y estructura. Análisis de la forma externa como proyección ordenada de fuerzas internas.",
       "broader": "sb:BVOL01SBII",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -447,6 +481,7 @@
       "definition": "Análisis y experimentación con los elementos de relación (dirección, posición, espacio y gravedad).",
       "broader": "sb:BVOL01SBII",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -458,6 +493,7 @@
       "definition": "Estudio y aplicación del movimiento en el volumen y su representación en la escultura. Análisis de elementos móviles en la obra de arte tridimensional.",
       "broader": "sb:BVOL01SBII",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -469,6 +505,7 @@
       "definition": "Estudio de la luz como elemento generador y modelador de formas y espacios.",
       "broader": "sb:BVOL01SBII",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -480,6 +517,7 @@
       "definition": "Identificación y utilización de las cualidades emotivas y expresivas de los medios gráfico-plásticos en cuerpos volumétricos.",
       "broader": "sb:BVOL01SBII",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -491,6 +529,7 @@
       "definition": "Estudio de esculturas y obras de arte tridimensionales en el patrimonio artístico y cultural, con especial atención al patrimonio canario, a través del análisis de su contexto histórico y la valoración de las principales características técnicas, formales, estéticas y comunicativas.",
       "broader": "sb:BVOL01SBIII",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -502,6 +541,7 @@
       "definition": "Reflexión sobre la perspectiva de género, a través del reconocimiento de las mujeres en esta disciplina, y sobre la perspectiva intercultural como parte del enriquecimiento patrimonial.",
       "broader": "sb:BVOL01SBIII",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -513,6 +553,7 @@
       "definition": "Diferenciación entre arte objetual y conceptual valorando la instalación artística como medio de expresión.",
       "broader": "sb:BVOL01SBIII",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -524,6 +565,7 @@
       "definition": "Identificación de los grados de iconicidad, hiperrealismo, realismo, abstracción, síntesis, estilización, etc, en las representaciones escultóricas presentes en diversos movimientos y estilos y su relación con los objetivos comunicativos. Diferenciación entre relieve y escultura exenta.",
       "broader": "sb:BVOL01SBIII",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -535,6 +577,7 @@
       "definition": "Reconocimiento de las posibilidades plásticas y expresivas del lenguaje tridimensional y su uso creativo en la ideación y realización de obra original.",
       "broader": "sb:BVOL01SBIII",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -546,6 +589,7 @@
       "definition": "Reconocimiento y respeto de los fundamentos de la propiedad intelectual. Protección de las expresiones culturales y artísticas tradicionales reflexionando sobre los conceptos inspiración, plagio o apropiación.",
       "broader": "sb:BVOL01SBIII",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -557,6 +601,7 @@
       "definition": "Selección de fuentes bibliográficas analógicas y digitales de acceso a obras volumétricas de diferentes épocas y culturas: sitios web, acceso digital a museos, bibliotecas o colecciones digitales, etc.",
       "broader": "sb:BVOL01SBIII",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -568,6 +613,7 @@
       "definition": "Conocimiento y aplicación de los principios y fundamentos del diseño tridimensional.",
       "broader": "sb:BVOL01SBIV",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -579,6 +625,7 @@
       "definition": "Reconocimiento de las tipologías de formas volumétricas adaptadas al diseño de objetos elementales como medio de estudio y de análisis.",
       "broader": "sb:BVOL01SBIV",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -590,6 +637,7 @@
       "definition": "Conocimiento y uso de la metodología de proyectos aplicada al diseño de formas y estructuras tridimensionales. Generación y selección de propuestas, y desarrollo de la planificación, gestión y evaluación de proyectos, para la posterior difusión de resultados.",
       "broader": "sb:BVOL01SBIV",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -601,6 +649,7 @@
       "definition": "Realización de proyectos aplicando estructuras tridimensionales: modularidad, repetición, gradación y ritmo en el espacio.",
       "broader": "sb:BVOL01SBIV",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -612,6 +661,7 @@
       "definition": "Realización de proyectos de producciones artísticas volumétricas: secuenciación, aplicación de las fases y trabajo en equipo.",
       "broader": "sb:BVOL01SBIV",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -623,6 +673,7 @@
       "definition": "Desarrollo de estrategias de trabajo en equipo planificando la distribución de tareas, liderazgo compartido, coordinación y cooperación así como la gestión y resolución de conflictos.",
       "broader": "sb:BVOL01SBIV",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -634,6 +685,7 @@
       "definition": "Creación de piezas volumétricas sencillas en función del tipo de producto propuesto desarrollando diseños sostenibles e inclusivos y valorando la sostenibilidad e impacto de los proyectos artísticos en el medioambiente.",
       "broader": "sb:BVOL01SBIV",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -645,6 +697,7 @@
       "definition": "Conocimiento de oportunidades de desarrollo personal, social, académico y profesional vinculadas con la materia.",
       "broader": "sb:BVOL01SBIV",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -656,6 +709,7 @@
       "definition": "Defensa de la propiedad intelectual para la protección de la creatividad personal.",
       "broader": "sb:BVOL01SBIV",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -667,6 +721,7 @@
       "definition": "Planificación y diseño de montajes expositivos para la difusión de la obra personal del alumnado.",
       "broader": "sb:BVOL01SBIV",
       "materia": "materia:BVOL",
+      "materia_curso": "asig:BVOL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

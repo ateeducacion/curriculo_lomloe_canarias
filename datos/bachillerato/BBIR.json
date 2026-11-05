@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BBIR01",
+      "tipo": "MateriaCurso",
+      "notation": "BBIR01",
+      "prefLabel": "Biología, Geología y Ciencias ambientales · 1º Bachillerato",
+      "broader": "materia:BBIR",
+      "materia": "materia:BBIR",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BBIRC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BBIRC1",
@@ -77,7 +87,7 @@
       "notation": "BBIR01BC1",
       "prefLabel": "Biología, Geología y Ciencias ambientales · 1º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se comprobará si el alumnado es capaz de analizar críticamente conceptos, procesos y experimentos relacionados con los saberes básicos de cualquiera de los bloques de la materia, interpretando información de carácter científico en diferentes formatos (en forma de artículos, gráficos, tablas, diagramas, fórmulas, esquemas, etc.) y extrayendo las ideas más relevantes para comunicar sus conclusiones y opiniones de forma razonada, precisa, veraz y con creatividad, utilizando la terminología científica y formatos variados (exposición oral, pósteres, plataformas virtuales, presentación, etc.), tanto de forma analógica como a través de medios digitales. Igualmente se pretende evaluar si el alumnado argumenta (en debates, foros u otras vías) sobre los conocimientos adquiridos, defendiendo de manera lógica y fundamentada su postura, con una actitud con una actitud empática y colaborativa, abierta, receptiva y respetuosa ante la opinión de otras personas, afrontando con actitud dialogante la pluralidad de valores e ideas y desarrollando la resiliencia frente a retos, así como la flexibilidad para dar un giro a las propias ideas ante argumentos ajenos.",
-      "broader": "materia:BBIR",
+      "broader": "asig:BBIR01",
       "agrupa": [
         "ce:BBIRC1"
       ],
@@ -96,6 +106,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -105,7 +116,7 @@
       "notation": "BBIR01BC2",
       "prefLabel": "Biología, Geología y Ciencias ambientales · 1º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de plantear y resolver cuestiones de forma autónoma, siguiendo su propia curiosidad y mostrando iniciativa, sobre procesos, fenómenos, acontecimientos, mecanismos, etc., biológicos, geológicos y medioambientales relacionados con cualquiera de los bloques de saberes básicos de la materia, seleccionando, organizando, analizando y evaluando críticamente la información procedente de fuentes diversas (libros, revistas y artículos científicos, entrevistas, páginas web, vídeos, imágenes de microscopía, motores de búsqueda…), que le permitan enriquecer su repertorio lingüístico individual. También se quiere constatar que el alumnado contrasta la veracidad de la información utilizando fuentes fiables y aplicando criterios de validez, calidad, actualidad y fiabilidad y que respeta los derechos de autoría, citando las fuentes en todos sus informes, presentaciones y comunicaciones y haciendo un uso crítico, legal, seguro, saludable y sostenible de las tecnologías digitales. Asimismo, se quiere valorar si el alumnado adopta una actitud critica y escéptica hacia informaciones sin una base científica y si argumenta sobre la contribución de la ciencia a la sociedad y la labor de las personas dedicadas a ella, destacando a las mujeres científicas, especialmente en el campo de la biología, la geología y las ciencias ambientales. Finalmente, se evaluará si el alumnado valora la importancia del trabajo colectivo, interdisciplinar y en continua construcción que realizan las personas científicas y realiza indagaciones de forma cooperativa, utilizando diferentes plataformas digitales de búsqueda y gestionando de manera responsable sus acciones, presencia y visibilidad en la red, sobre algunas figuras referentes de la ciencia canaria a lo largo de la historia y en la actualidad, e identifica y localiza los principales centros de investigación de Canarias, presentando el resultado mediante exposiciones, comunicaciones e informes, entre otros, y en diferentes soportes.",
-      "broader": "materia:BBIR",
+      "broader": "asig:BBIR01",
       "agrupa": [
         "ce:BBIRC2"
       ],
@@ -122,6 +133,7 @@
         "CC3"
       ],
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -131,7 +143,7 @@
       "notation": "BBIR01BC3",
       "prefLabel": "Biología, Geología y Ciencias ambientales · 1º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de diseñar, planear y realizar proyectos de investigación o prácticas de laboratorio de forma cooperativa, que incluyan un plan de búsqueda, contraste y análisis de diversos tipos de información procedente de fuentes variadas, especialmente de las tecnologías digitales, así como la selección de instrumentos, herramientas o técnicas adecuadas. Además, se evaluará si el alumnado aplica las destrezas y procedimientos esenciales de las metodologías científicas, como el planteamiento de preguntas, la formulación y el contraste de hipótesis, la toma de datos cuantitativos y cualitativos, la interpretación, análisis y comunicación de resultados o la reformulación de los procedimientos, en caso necesario, para indagar y explicar fenómenos biológicos, geológicos o ambientales relacionados con todos los bloques de saberes básicos de la materia, aportando soluciones a problemas y aceptando y respondiendo adecuadamente ante la incertidumbre. También se quiere constatar que el alumnado desarrolla actitudes propias del trabajo científico como el rigor, la precisión, la objetividad, la autodisciplina, el cuestionamiento de lo obvio, la creatividad, la curiosidad, el espíritu emprendedor, la resiliencia…, y que hace un uso correcto del vocabulario científico y de las herramientas tecnológicas a la hora de comunicar las conclusiones o crear y compartir contenidos, aplicando medidas de seguridad y respetando, en todo momento, los derechos de autoría. Por último, se pretende evaluar si el alumnado valora la importancia del trabajo cooperativo en la investigación y si establece colaboraciones dentro y fuera del centro educativo en las distintas fases del proyecto, evaluando su desempeño individual y el de sus iguales, desde la fase de diseño hasta la ejecución definitiva (tiempos, objetivos, secuencia de acciones, reparto de roles, normas de funcionamiento del grupo, etc.), respetando la diversidad y favoreciendo la inclusión.",
-      "broader": "materia:BBIR",
+      "broader": "asig:BBIR01",
       "agrupa": [
         "ce:BBIRC3"
       ],
@@ -150,6 +162,7 @@
         "CPSAA3.2"
       ],
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -159,7 +172,7 @@
       "notation": "BBIR01BC4",
       "prefLabel": "Biología, Geología y Ciencias ambientales · 1º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de resolver problemas o dar explicaciones coherentes a procesos biológicos, geológicos o ambientales, de forma individual o cooperativa, relacionados con cualquiera de los bloques de saberes básicos de la materia (ecología y sostenibilidad, historia de la Tierra y la vida, dinámica y composición terrestres, fisiología e histología animal y vegetal o los microorganismos y formas acelulares) a partir de los conocimientos propios y de datos e información recabados de diversas fuentes: observación directa del entorno o indirecta a través de animaciones y simulaciones, experimentación en el laboratorio, páginas web, artículos científicos, etc. Además, se constatará que es capaz de aplicar el razonamiento lógico, la metodología científica y el pensamiento computacional para contrastar las hipótesis y representar y analizar críticamente las soluciones y respuestas halladas. Se trata de verificar que el alumnado reflexiona sobre los procedimientos utilizados y los reformula si la solución propuesta no es viable o ante nuevos datos aportados, mostrando creatividad, apertura a la colaboración, optimismo y resiliencia para continuar a pesar de la falta de éxito inmediato. Finalmente, se pretende comprobar que el alumnado desarrolla procesos autorregulados de aprendizaje y transmite el conocimiento adquirido, junto con el procedimiento seguido, ante otras personas, utilizando para ello diversas formas de expresión (informes, murales, artículos…) y diferentes soportes, preferiblemente digitales.",
-      "broader": "materia:BBIR",
+      "broader": "asig:BBIR01",
       "agrupa": [
         "ce:BBIRC4"
       ],
@@ -176,6 +189,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -185,7 +199,7 @@
       "notation": "BBIR01BC5",
       "prefLabel": "Biología, Geología y Ciencias ambientales · 1º Bachillerato · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se pretende evaluar si el alumnado es capaz de analizar las causas y deducir las consecuencias ecológicas, sociales y económicas de los principales problemas medioambientales (sobreexplotación de recursos, gestión inadecuada de residuos, contaminación atmosférica por el uso de energías no renovables, deforestación para obtener tierras de cultivo o pastos, pérdida de biodiversidad, destrucción de hábitats, instalación de especies invasoras, cambio climático, utilización de compuestos xenobióticos, etc.) desde una perspectiva individual, local y global a partir de sus propios conocimientos, de los datos e información recopilada en fuentes y soportes variados (páginas web, libros, artículos e informes científicos, foros especializados, entrevistas a personas expertas, etc.) y de la aportada por el equipo docente, compartiendo sus conclusiones a través de comunicaciones orales, escritas, signadas o multimodales. También se quiere comprobar si el alumnado reflexiona y expone argumentos sobre la sostenibilidad de las actividades cotidianas mediante la identificación de indicadores como la huella ecológica y la adopción de estilos de vida coherentes con un modelo de desarrollo sostenible, comprendiendo la relación entre la salud medioambiental, humana y de otros seres vivos —one health (una sola salud)—. Por último, se pretende constatar que el alumnado es capaz de aplicar de forma crítica y consecuente los principios, ideales y valores relativos al proceso de integración europea, la Constitución española, los derechos humanos y el patrimonio cultural propios para proponer y poner en práctica iniciativas fundamentadas científicamente que contribuyan al logro de los Objetivos de Desarrollo Sostenible y concretados en la Agenda Canaria de Desarrollo Sostenible 2030, y que defiendan y promuevan estilos de vida sostenibles y saludables que ayuden a prevenir el deterioro medioambiental a través del diseño de proyectos que desarrollen ideas y soluciones innovadoras y que incluyan la realización de campañas, exposiciones, debates, mesas redondas, etc. Todo ello con el fin de tomar conciencia del valor ecológico, científico, social y económico del mundo natural y comprender que la degradación medioambiental es sinónimo de desigualdad, refugiados climáticos, catástrofes naturales y otros tipos de crisis humanitarias.",
-      "broader": "materia:BBIR",
+      "broader": "asig:BBIR01",
       "agrupa": [
         "ce:BBIRC5"
       ],
@@ -202,6 +216,7 @@
         "CE3"
       ],
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -211,7 +226,7 @@
       "notation": "BBIR01BC6",
       "prefLabel": "Biología, Geología y Ciencias ambientales · 1º Bachillerato · bloque competencial C6",
       "scopeNote": "A través de este bloque competencial se pretende evaluar si el alumnado aplica los principales métodos de datación de materiales geológicos (geocronología absoluta y relativa) y utiliza los principios geológicos básicos (los fósiles guía y los principios de superposición de estratos, superposición de fenómenos y correlación) y el razonamiento lógico para reconstruir la historia representada en cortes geológicos, indicando la edad relativa de los estratos, las discordancias y las etapas de deformación. Se trata de averiguar si el alumnado interpreta mapas y cortes geológicos sencillos utilizando el mapa topográfico y las relaciones entre el relieve y las estructuras existentes, y elabora producciones en distintos soportes en los que identifica, a partir de documentación científica extraída de diferentes fuentes, los principales acontecimientos en la historia geológica de la Tierra y los relaciona con determinados elementos del registro geológico, con la magnitud temporal en la que se desarrollaron y con los sucesos que ocurren en la actualidad, reconociendo el origen natural de los cambios climáticos pasados y valorando la influencia de la actividad humana en el cambio climático actual, para adoptar, de forma autónoma, un estilo de vida sostenible y promover la conservación del patrimonio paleontológico canario. Finalmente, se verificará si el alumnado aprecia la pertinencia de la información seleccionada y presenta sus conclusiones de forma argumentada utilizando diversas formas de expresión para comunicarlas, citando las fuentes y empleando la terminología científica. Todo ello con el fin de comprender la escala de tiempo geológico y la relevancia de los principales eventos geológicos y biológicos de nuestro planeta, adquiriendo una actitud de aprecio por la ciencia y el medio natural en general y el canario en particular.",
-      "broader": "materia:BBIR",
+      "broader": "asig:BBIR01",
       "agrupa": [
         "ce:BBIRC6"
       ],
@@ -226,6 +241,7 @@
         "CCEC1"
       ],
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -247,6 +263,7 @@
         "CPSAA3.2"
       ],
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -268,6 +285,7 @@
         "CC3"
       ],
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -288,6 +306,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -311,6 +330,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -334,6 +354,7 @@
         "CC3"
       ],
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -354,6 +375,7 @@
         "CC3"
       ],
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -377,6 +399,7 @@
         "CE3"
       ],
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -400,6 +423,7 @@
         "CE3"
       ],
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -421,6 +445,7 @@
         "CD3"
       ],
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -439,6 +464,7 @@
         "CPSAA3.2"
       ],
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -461,6 +487,7 @@
         "CE1"
       ],
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -481,6 +508,7 @@
         "CE1"
       ],
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -500,6 +528,7 @@
         "CE1"
       ],
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -522,6 +551,7 @@
         "CE3"
       ],
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -543,6 +573,7 @@
         "CC4"
       ],
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -559,6 +590,7 @@
         "CCEC1"
       ],
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -568,8 +600,9 @@
       "notation": "BBIR01SBI",
       "prefLabel": "BBIR01SBI · I. Proyecto científico",
       "definition": "Proyecto científico",
-      "broader": "materia:BBIR",
+      "broader": "asig:BBIR01",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -579,8 +612,9 @@
       "notation": "BBIR01SBII",
       "prefLabel": "BBIR01SBII · II. Ecología y sostenibilidad",
       "definition": "Ecología y sostenibilidad",
-      "broader": "materia:BBIR",
+      "broader": "asig:BBIR01",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -590,8 +624,9 @@
       "notation": "BBIR01SBIII",
       "prefLabel": "BBIR01SBIII · III. Historia de la Tierra y la vida",
       "definition": "Historia de la Tierra y la vida",
-      "broader": "materia:BBIR",
+      "broader": "asig:BBIR01",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -601,8 +636,9 @@
       "notation": "BBIR01SBIV",
       "prefLabel": "BBIR01SBIV · IV. La dinámica y composición terrestres",
       "definition": "La dinámica y composición terrestres",
-      "broader": "materia:BBIR",
+      "broader": "asig:BBIR01",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -612,8 +648,9 @@
       "notation": "BBIR01SBV",
       "prefLabel": "BBIR01SBV · V. Fisiología e histología animal",
       "definition": "Fisiología e histología animal",
-      "broader": "materia:BBIR",
+      "broader": "asig:BBIR01",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -623,8 +660,9 @@
       "notation": "BBIR01SBVI",
       "prefLabel": "BBIR01SBVI · VI. Fisiología e histología vegetal",
       "definition": "Fisiología e histología vegetal",
-      "broader": "materia:BBIR",
+      "broader": "asig:BBIR01",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -634,8 +672,9 @@
       "notation": "BBIR01SBVII",
       "prefLabel": "BBIR01SBVII · VII. Los microorganismos y formas acelulares",
       "definition": "Los microorganismos y formas acelulares",
-      "broader": "materia:BBIR",
+      "broader": "asig:BBIR01",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -647,6 +686,7 @@
       "definition": "Formulación de hipótesis, preguntas, problemas y conjeturas como herramientas para la elaboración de planteamientos con perspectiva científica.",
       "broader": "sb:BBIR01SBI",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -658,6 +698,7 @@
       "definition": "Empleo de estrategias para la búsqueda de información, colaboración, comunicación e interacción con instituciones científicas: herramientas digitales, formatos de presentación de procesos, resultados e ideas (diapositivas, gráficos, vídeos, pósteres, informes y otros).",
       "broader": "sb:BBIR01SBI",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -669,6 +710,7 @@
       "definition": "Búsqueda, reconocimiento y uso de fuentes fiables de información como destreza para evitar los riesgos de manipulación y desinformación.",
       "broader": "sb:BBIR01SBI",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -680,6 +722,7 @@
       "definition": "Diseño, planificación y realización de experiencias científicas de laboratorio o de campo aplicando procedimientos de contraste de hipótesis y controles experimentales.",
       "broader": "sb:BBIR01SBI",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -691,6 +734,7 @@
       "definition": "Aplicación de métodos de análisis de resultados científicos: organización, representación y uso de herramientas estadísticas como fase final de un proyecto de investigación.",
       "broader": "sb:BBIR01SBI",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -702,6 +746,7 @@
       "definition": "Utilización de vocabulario científico, formatos (informes, vídeos, modelos, gráficos y otros) y herramientas digitales como estrategias para la comunicación científica.",
       "broader": "sb:BBIR01SBI",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -713,6 +758,7 @@
       "definition": "Valoración crítica de la contribución del trabajo científico a las ciencias biológicas, geológicas y ambientales y a la sociedad. Reconocimiento de la labor de las personas dedicadas a la ciencia, destacando a las mujeres científicas.",
       "broader": "sb:BBIR01SBI",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -724,6 +770,7 @@
       "definition": "Indagación sobre los principales centros de investigación de Canarias y figuras referentes de la ciencia canaria a lo largo de la historia y en la actualidad, destacando las relacionadas con el campo de las ciencias biológicas, geológicas y ambientales.",
       "broader": "sb:BBIR01SBI",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -735,6 +782,7 @@
       "definition": "Análisis de la evolución histórica del saber científico: la ciencia como labor colectiva, interdisciplinar y en continua construcción.",
       "broader": "sb:BBIR01SBI",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -746,6 +794,7 @@
       "definition": "Reconocimiento del medioambiente como motor económico y social: importancia de la evaluación de impacto ambiental y de la gestión sostenible de recursos y residuos para comprender la irreversibilidad de la mayoría de los cambios en el medio. Relación entre la salud medioambiental, humana y de otros seres vivos —one health (una sola salud)—.",
       "broader": "sb:BBIR01SBII",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -757,6 +806,7 @@
       "definition": "Reflexión y argumentación sobre la sostenibilidad de las actividades cotidianas mediante la identificación de indicadores de sostenibilidad, como la huella ecológica y la adopción de estilos de vida compatibles y coherentes con un modelo de desarrollo sostenible.",
       "broader": "sb:BBIR01SBII",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -768,6 +818,7 @@
       "definition": "Localización y análisis crítico de iniciativas locales y globales para promover un modelo de desarrollo sostenible.",
       "broader": "sb:BBIR01SBII",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -779,6 +830,7 @@
       "definition": "Interpretación y descripción de la dinámica de los ecosistemas: flujos de energía y ciclos de la materia (carbono, nitrógeno, fósforo y azufre). Análisis de las relaciones de interdependencia y relaciones tróficas. Resolución de problemas.",
       "broader": "sb:BBIR01SBII",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -790,6 +842,7 @@
       "definition": "Relación entre el ciclo del carbono y el cambio climático: análisis de sus causas y consecuencias sobre la salud, la economía, la ecología y la sociedad. Reflexión y debate sobre las estrategias de mitigación, adaptación y resiliencia para afrontar el cambio climático.",
       "broader": "sb:BBIR01SBII",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -801,6 +854,7 @@
       "definition": "Análisis de la importancia de la biodiversidad, de las causas de su pérdida y de sus consecuencias ambientales y sociales. Elaboración de propuestas de acciones concretas para evitar la pérdida de biodiversidad en Canarias a partir del conocimiento de la restauración de especies y recuperación de espacios degradados.",
       "broader": "sb:BBIR01SBII",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -812,6 +866,7 @@
       "definition": "Investigación acerca del problema de los residuos, a nivel mundial y local, con propuestas de estrategias para la prevención y gestión adecuada de los mismos, y de los efectos de la utilización de compuestos xenobióticos sobre la naturaleza y sobre la salud humana y de otros seres vivos.",
       "broader": "sb:BBIR01SBII",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -823,6 +878,7 @@
       "definition": "Análisis del concepto tiempo en geología: magnitud, escala y métodos de datación. Resolución de problemas de datación absoluta y relativa.",
       "broader": "sb:BBIR01SBIII",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -834,6 +890,7 @@
       "definition": "Estudio de los principales acontecimientos geológicos acontecidos en la evolución de la Tierra a partir de la información extraída de diferentes fuentes.",
       "broader": "sb:BBIR01SBIII",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -845,6 +902,7 @@
       "definition": "Aplicación de los principios geológicos (superposición de los estratos, sucesión faunística y de eventos, actualismo, etc.) para la reconstrucción de la historia geológica de una zona.",
       "broader": "sb:BBIR01SBIII",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -856,6 +914,7 @@
       "definition": "Estudio de la historia de la vida en la Tierra: principales cambios en los grandes grupos de seres vivos y justificación desde la perspectiva evolutiva para comprender la transformación antropológica actual. Reconocimiento de la importancia de la conservación del patrimonio paleontológico canario.",
       "broader": "sb:BBIR01SBIII",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -867,6 +926,7 @@
       "definition": "Interpretación de los sistemas de clasificación de los principales grupos taxonómicos de los seres vivos. Descripción de sus características e identificación mediante la observación y el uso de claves. Reconocimiento de la importancia de las islas Canarias como laboratorios de biodiversidad.",
       "broader": "sb:BBIR01SBIII",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -878,6 +938,7 @@
       "definition": "Entender las proyecciones futuras de acceso al aire limpio y agua potable en todo el planeta.",
       "broader": "sb:BBIR01SBIV",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -889,6 +950,7 @@
       "definition": "Análisis de la estructura, composición y dinámica de la geosfera. Caracterización de los métodos de estudio directos e indirectos e interpretación de los datos obtenidos a través de ellos.",
       "broader": "sb:BBIR01SBIV",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -900,6 +962,7 @@
       "definition": "Relación entre la tectónica de placas y los procesos orogénicos, volcánicos y sísmicos que se manifiestan en la formación de relieves y rocas. Diferenciación entre los tipos de bordes. Análisis y discusión de las principales hipótesis sobre el origen de las islas Canarias.",
       "broader": "sb:BBIR01SBIV",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -911,6 +974,7 @@
       "definition": "Estudio de los procesos geológicos externos: agentes causales y consecuencias sobre el relieve. Identificación y descripción de las formas principales de modelado del relieve y de los factores que contribuyen a definirlas (elementos climatológicos, hidrográficos, geológicos, antrópicos, etc.).",
       "broader": "sb:BBIR01SBIV",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -922,6 +986,7 @@
       "definition": "Análisis de los factores y procesos de edafogénesis en la formación de los principales tipos de suelos. Conceptualización de edafodiversidad y valoración de la importancia de su conservación.",
       "broader": "sb:BBIR01SBIV",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -933,6 +998,7 @@
       "definition": "Estudio de algunos de los acontecimientos naturales constitutivos de riesgo (procesos geológicos, actividades humanas, etc.), mundiales o locales, especialmente los de las islas Canarias. Determinación de las estrategias de predicción, prevención y corrección más adecuadas que deben tomarse para evitarlos.",
       "broader": "sb:BBIR01SBIV",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -944,6 +1010,7 @@
       "definition": "Clasificación e identificación de las rocas según su origen y composición, destacando las rocas más abundantes de Canarias. Descripción del ciclo litológico.",
       "broader": "sb:BBIR01SBIV",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -955,6 +1022,7 @@
       "definition": "Clasificación químico-estructural e identificación de minerales y rocas. Valoración de la importancia de minerales y rocas de Canarias.",
       "broader": "sb:BBIR01SBIV",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -966,6 +1034,7 @@
       "definition": "Indagación acerca de los usos cotidianos de los minerales y las rocas y argumentación de la importancia de realizar una gestión y promoción responsable y respetuosa con los derechos humanos y con el medioambiente de las explotaciones mineras.",
       "broader": "sb:BBIR01SBIV",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -977,6 +1046,7 @@
       "definition": "Reconocimiento de la necesidad de apreciar, valorar, respetar y proteger el patrimonio geológico en general, y de Canarias en particular, como una oportunidad para la conservación del medio natural.",
       "broader": "sb:BBIR01SBIV",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -988,6 +1058,7 @@
       "definition": "Caracterización de la nutrición heterótrofa. Comparación entre los órganos y procesos de nutrición implicados en diferentes grupos taxonómicos.",
       "broader": "sb:BBIR01SBV",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -999,6 +1070,7 @@
       "definition": "Descripción de la función de relación: sistemas de coordinación (nervioso y endocrino), receptores sensoriales y órganos efectores.",
       "broader": "sb:BBIR01SBV",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1010,6 +1082,7 @@
       "definition": "Distinción entre los tipos y estructuras implicadas en la reproducción de los diferentes grupos taxonómicos. Argumentación de la importancia biológica de la reproducción.",
       "broader": "sb:BBIR01SBV",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1021,6 +1094,7 @@
       "definition": "Caracterización de la nutrición autótrofa. Descripción de los procesos que ocurren en cada una de las fases de la fotosíntesis. Argumentación sobre su importancia para la vida en la Tierra.",
       "broader": "sb:BBIR01SBVI",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1032,6 +1106,7 @@
       "definition": "Diferenciación entre la savia bruta y la savia elaborada: composición, formación y mecanismos de transporte.",
       "broader": "sb:BBIR01SBVI",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1043,6 +1118,7 @@
       "definition": "Definición de la función de relación en vegetales: tropismos y nastias. Reconocimiento de la influencia de las fitohormonas (auxinas, citoquininas, etileno, etc.) como reguladoras del crecimiento y desarrollo de las plantas e identificación de las aplicaciones más importantes en la agricultura.",
       "broader": "sb:BBIR01SBVI",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1054,6 +1130,7 @@
       "definition": "Interpretación de los ciclos reproductivos de los vegetales. Distinción entre los mecanismos de reproducción sexual y asexual y valoración de su relevancia evolutiva.",
       "broader": "sb:BBIR01SBVI",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1065,6 +1142,7 @@
       "definition": "Identificación de las fases de la reproducción sexual en plantas superiores y explicación de los procesos implicados (polinización, fecundación, dispersión de la semilla y el fruto), estableciendo su relación con el ecosistema.",
       "broader": "sb:BBIR01SBVI",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1076,6 +1154,7 @@
       "definition": "Relación entre las adaptaciones de los vegetales al medio y el ecosistema en el que se desarrollan.",
       "broader": "sb:BBIR01SBVI",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1087,6 +1166,7 @@
       "definition": "Definición del concepto y tipos de microorganismos.",
       "broader": "sb:BBIR01SBVII",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1098,6 +1178,7 @@
       "definition": "Comparación entre eubacterias y arqueobacterias.",
       "broader": "sb:BBIR01SBVII",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1109,6 +1190,7 @@
       "definition": "Análisis del metabolismo bacteriano y de la intervención de los microorganismos en los ecosistemas (simbiosis y ciclos biogeoquímicos), la industria (fermentaciones, producción de medicamentos, etc.), la salud humana (epidemias, zoonosis, etc.) y la biotecnología (obtención de fármacos, vacunas, etc.) para valorar su importancia en el mantenimiento del equilibrio en la biosfera y su papel en la salud humana.",
       "broader": "sb:BBIR01SBVII",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1120,6 +1202,7 @@
       "definition": "Análisis de las principales técnicas de aislamiento, cultivo, esterilización e identificación de microorganismos.",
       "broader": "sb:BBIR01SBVII",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1131,6 +1214,7 @@
       "definition": "Identificación y explicación de los mecanismos de transferencia genética horizontal en bacterias, reconociendo la contribución activa de estos procesos a la diseminación de la resistencia a antibióticos. Reflexión sobre el problema, de escala global, que genera la resistencia a antibióticos en las bacterias (medioambiente, salud humana, etc.).",
       "broader": "sb:BBIR01SBVII",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1142,6 +1226,7 @@
       "definition": "Descripción de las características básicas y los mecanismos de infección de las formas acelulares (virus, viroides y priones). Valoración de la importancia biológica de los virus (bioinsecticidas, mantenimiento del equilibrio ecológico, fabricación de vacunas, tratamiento de enfermedades, etc.).",
       "broader": "sb:BBIR01SBVII",
       "materia": "materia:BBIR",
+      "materia_curso": "asig:BBIR01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

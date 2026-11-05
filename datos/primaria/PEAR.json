@@ -17,6 +17,66 @@
       "etapa": "etapa:PRI"
     },
     {
+      "id": "asig:PEAR01",
+      "tipo": "MateriaCurso",
+      "notation": "PEAR01",
+      "prefLabel": "Educación Artística · 1º Primaria",
+      "broader": "materia:PEAR",
+      "materia": "materia:PEAR",
+      "curso": "curso:P01",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "asig:PEAR02",
+      "tipo": "MateriaCurso",
+      "notation": "PEAR02",
+      "prefLabel": "Educación Artística · 2º Primaria",
+      "broader": "materia:PEAR",
+      "materia": "materia:PEAR",
+      "curso": "curso:P02",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "asig:PEAR03",
+      "tipo": "MateriaCurso",
+      "notation": "PEAR03",
+      "prefLabel": "Educación Artística · 3º Primaria",
+      "broader": "materia:PEAR",
+      "materia": "materia:PEAR",
+      "curso": "curso:P03",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "asig:PEAR04",
+      "tipo": "MateriaCurso",
+      "notation": "PEAR04",
+      "prefLabel": "Educación Artística · 4º Primaria",
+      "broader": "materia:PEAR",
+      "materia": "materia:PEAR",
+      "curso": "curso:P04",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "asig:PEAR05",
+      "tipo": "MateriaCurso",
+      "notation": "PEAR05",
+      "prefLabel": "Educación Artística · 5º Primaria",
+      "broader": "materia:PEAR",
+      "materia": "materia:PEAR",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "asig:PEAR06",
+      "tipo": "MateriaCurso",
+      "notation": "PEAR06",
+      "prefLabel": "Educación Artística · 6º Primaria",
+      "broader": "materia:PEAR",
+      "materia": "materia:PEAR",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
       "id": "ce:PEARC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "PEARC1",
@@ -62,7 +122,7 @@
       "notation": "PEAR01BC1",
       "prefLabel": "Educación Artística · 1º Primaria · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de descubrir y describir manifestaciones artísticas del patrimonio cultural y artístico de Canarias y de otras culturas, de diferentes géneros, corrientes estéticas, estilos y épocas, producidas por creadoras y creadores locales, regionales, nacionales e internacionales, con especial atención a las obras de mujeres y a la perspectiva de género. Para ello, el alumnado deberá demostrar una recepción activa de las mismas, mediante experiencias sensoriales, de manera que escuchen, observen, toquen, sientan o visionen y exploren sus características con actitud abierta e interés, estableciendo relaciones entre ellas y con su contexto histórico y social, y demostrando que aprecian las diferencias; además de con curiosidad, sensibilidad, respeto y valoración hacia la diversidad de las mismas. Se comprobará que el alumnado es capaz de realizar búsquedas guiadas en internet, con el debido acompañamiento, relacionadas con estas manifestaciones artísticas, aplicando estrategias básicas de análisis. Todo ello con la finalidad de que el alumnado descubra, reconozca y aprecie las especificidades en intencionalidades de las diversas manifestaciones culturales y artísticas del entorno próximo, comprendiendo la necesidad de respetarlas y conservarlas. Asimismo, esta competencia implica reconocer y apreciar las especificidades e intencionalidades de las manifestaciones del patrimonio cultural y artístico de las islas y de diferentes corrientes estilísticas de su entorno próximo, valorando sus diferencias y la necesidad de respetarlas, teniendo en cuenta la perspectiva de género.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR01",
       "agrupa": [
         "ce:PEARC1"
       ],
@@ -74,6 +134,7 @@
         "CCL1"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -83,7 +144,7 @@
       "notation": "PEAR01BC2",
       "prefLabel": "Educación Artística · 1º Primaria · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de seleccionar y aplicar estrategias elementales de tratamiento de la información (localizar, seleccionar, contrastar…) para la búsqueda guiada de información de fuentes diversas, incluyendo las digitales, sobre distintas manifestaciones que forman parte del patrimonio cultural y artístico de Canarias, y de diferentes corrientes estéticas, procedencias y épocas, producidas por creadoras y creadores locales, regionales, nacionales e internacionales, de las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas, a través de distintos canales y medios de acceso sencillos, reconociendo sus lenguajes y elementos técnicos característicos (vocabulario específico, técnicas, materiales, medios, soportes y profesiones vinculadas). Así mismo, se verificará que el alumnado comprende sus diferencias y similitudes, y valora la diversidad como factor de diálogo y elemento para la mejora de la convivencia. Se comprobará que el alumnado reconoce las sensaciones y emociones básicas producidas por diferentes manifestaciones culturales y artísticas, a partir de su análisis y comprensión, de manera que pueda alcanzar y afianzar un sentido progresivo de pertenencia e identidad, siendo capaz de cooperar con sus iguales, con una actitud abierta, dialogante, respetuosa e inclusiva, y teniendo en cuenta la perspectiva de género. Todo ello con la finalidad de disfrutar de las mismas, entender su valor, respetar su autoría y empezar a desarrollar una sensibilidad artística propia.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR01",
       "agrupa": [
         "ce:PEARC2"
       ],
@@ -98,6 +159,7 @@
         "CCEC1"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -107,7 +169,7 @@
       "notation": "PEAR01BC3",
       "prefLabel": "Educación Artística · 1º Primaria · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de expresar y comunicar, de manera creativa, ideas, sentimientos y emociones mediante la experimentación guiada con elementos de los lenguajes artísticos y la utilización de algunas herramientas (instrumentos artísticos y herramientas digitales), integrando su propio cuerpo, interactuando con el entorno y desarrollando sus capacidades afectivas. Para ello, se comprobará que el alumnado tiene la capacidad de explorar, conocer, descubrir y manejar diferentes códigos, técnicas, materiales, instrumentos, medios y soportes, con actitud abierta e inclusiva. En este sentido, el alumnado deberá demostrar que utiliza, de manera creativa, elementos configurativos básicos de los lenguajes visual, audiovisual, musical y dramático, en diferentes contextos comunicativos, por medio de la práctica instrumental, vocal y corporal, de manifestaciones propias del patrimonio cultural y artístico de Canarias y de diferentes estilos, épocas y culturas. Del mismo modo, se verificará que el alumnado elabora propuestas artísticas sencillas, de manera guiada, atendiendo a las fases del proceso creativo, utilizando algunas de las posibilidades expresivas del cuerpo, el sonido, la imagen, herramientas analógicas y tecnologías digitales básicas, mostrando confianza en las propias capacidades, aplicando estrategias de aprendizaje autorregulado y denotando aprecio por las aportaciones de otras personas del grupo. Todo ello con la finalidad de que el alumnado muestre interés tanto por el proceso como por el producto final en producciones plásticas, visuales, audiovisuales, musicales, escénicas y performativas; disfrute del arte; comprenda sus posibilidades comunicativas y expresivas; se inicie en la percepción de la intencionalidad en las manifestaciones culturales; y llegue a producir obras propias como medio para canalizar sus ideas, sentimientos y emociones.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR01",
       "agrupa": [
         "ce:PEARC3"
       ],
@@ -122,6 +184,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -131,7 +194,7 @@
       "notation": "PEAR01BC4",
       "prefLabel": "Educación Artística · 1º Primaria · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de participar, diseñar y compartir activamente y de manera guiada, mediante un proceso cooperativo, en producciones culturales y artísticas creativas. Se comprobará que puede planificar propuestas para lograr un objetivo final y comunicar la experiencia creativa en espacios y canales sencillos con el fin de desarrollar la creatividad, la noción de autoría y el sentido de pertenencia. De esta manera, se verificará que el alumnado puede realizar, de forma guiada, proyectos sencillos diseñando, fabricando y evaluando diferentes prototipos o modelos, y atendiendo tanto a las fases del proceso creativo como a la evaluación, al interés y a la valoración del proceso y el producto final. Asimismo, se comprobará que el alumnado expresa, de manera elemental, hechos, conceptos, pensamientos, opiniones o sentimientos de forma creativa y democrática, utilizando elementos, técnicas, materiales y herramientas elementales propios de la expresión plástica, visual, musical, dramática, dancística, audiovisual y performativa. Finalmente, se constará que el alumnado conoce y respeta la diversidad lingüística y cultural presente en las islas y en otros lugares y culturas. De la misma manera, se verificará que es capaz de reconocer necesidades y retos que afrontar, elaborar ideas originales, planificar tareas y cooperar en equipo, haciendo un uso responsable de los recursos y entendiendo las características y funciones de las diferentes profesiones vinculadas con las artes.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR01",
       "agrupa": [
         "ce:PEARC4"
       ],
@@ -149,6 +212,7 @@
         "CD2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -158,7 +222,7 @@
       "notation": "PEAR02BC1",
       "prefLabel": "Educación Artística · 2º Primaria · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de descubrir y describir manifestaciones artísticas del patrimonio cultural y artístico de Canarias y de otras culturas, de diferentes géneros, corrientes estéticas, estilos y épocas, producidas por creadoras y creadores locales, regionales, nacionales e internacionales, con especial atención a las obras de mujeres y a la perspectiva de género. Para ello, el alumnado deberá demostrar una recepción activa de las mismas, mediante experiencias sensoriales, de manera que escuchen, observen, toquen, sientan o visionen y exploren sus características con actitud abierta e interés, estableciendo relaciones entre ellas y con su contexto histórico y social, y demostrando que aprecian las diferencias; además de con curiosidad, sensibilidad, respeto y valoración hacia la diversidad de las mismas. Se comprobará que el alumnado es capaz de realizar búsquedas guiadas en internet, con el debido acompañamiento, relacionadas con estas manifestaciones artísticas, aplicando estrategias básicas de análisis. Todo ello con la finalidad de que el alumnado descubra, reconozca y aprecie las especificidades en intencionalidades de las diversas manifestaciones culturales y artísticas del entorno próximo, comprendiendo la necesidad de respetarlas y conservarlas. Asimismo, esta competencia implica reconocer y apreciar las especificidades e intencionalidades de las manifestaciones del patrimonio cultural y artístico de las islas y de diferentes corrientes estilísticas de su entorno próximo, valorando sus diferencias y la necesidad de respetarlas, teniendo en cuenta la perspectiva de género.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR02",
       "agrupa": [
         "ce:PEARC1"
       ],
@@ -170,6 +234,7 @@
         "CCL1"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -179,7 +244,7 @@
       "notation": "PEAR02BC2",
       "prefLabel": "Educación Artística · 2º Primaria · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de seleccionar y aplicar estrategias elementales de tratamiento de la información (localizar, seleccionar, contrastar…) para la búsqueda guiada de información de fuentes diversas, incluyendo las digitales, sobre distintas manifestaciones que forman parte del patrimonio cultural y artístico de Canarias, y de diferentes corrientes estéticas, procedencias y épocas, producidas por creadoras y creadores locales, regionales, nacionales e internacionales, de las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas, a través de distintos canales y medios de acceso sencillos, reconociendo sus lenguajes y elementos técnicos característicos (vocabulario específico, técnicas, materiales, medios, soportes y profesiones vinculadas). Así mismo, se verificará que el alumnado comprende sus diferencias y similitudes, y valora la diversidad como factor de diálogo y elemento para la mejora de la convivencia. Se comprobará que el alumnado reconoce las sensaciones y emociones básicas producidas por diferentes manifestaciones culturales y artísticas, a partir de su análisis y comprensión, de manera que pueda alcanzar y afianzar un sentido progresivo de pertenencia e identidad, siendo capaz de cooperar con sus iguales, con una actitud abierta, dialogante, respetuosa e inclusiva, y teniendo en cuenta la perspectiva de género. Todo ello con la finalidad de disfrutar de las mismas, entender su valor, respetar su autoría y empezar a desarrollar una sensibilidad artística propia.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR02",
       "agrupa": [
         "ce:PEARC2"
       ],
@@ -194,6 +259,7 @@
         "CCEC1"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -203,7 +269,7 @@
       "notation": "PEAR02BC3",
       "prefLabel": "Educación Artística · 2º Primaria · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de expresar y comunicar, de manera creativa, ideas, sentimientos y emociones mediante la experimentación guiada con elementos de los lenguajes artísticos y la utilización de algunas herramientas (instrumentos artísticos y herramientas digitales), integrando su propio cuerpo, interactuando con el entorno y desarrollando sus capacidades afectivas. Para ello, se comprobará que el alumnado tiene la capacidad de explorar, conocer, descubrir y manejar diferentes códigos, técnicas, materiales, instrumentos, medios y soportes, con actitud abierta e inclusiva. En este sentido, el alumnado deberá demostrar que utiliza, de manera creativa, elementos configurativos básicos de los lenguajes visual, audiovisual, musical y dramático, en diferentes contextos comunicativos, por medio de la práctica instrumental, vocal y corporal, de manifestaciones propias del patrimonio cultural y artístico de Canarias y de diferentes estilos, épocas y culturas. Del mismo modo, se verificará que el alumnado elabora propuestas artísticas sencillas, de manera guiada, atendiendo a las fases del proceso creativo, utilizando algunas de las posibilidades expresivas del cuerpo, el sonido, la imagen, herramientas analógicas y tecnologías digitales básicas, mostrando confianza en las propias capacidades, aplicando estrategias de aprendizaje autorregulado y denotando aprecio por las aportaciones de otras personas del grupo. Todo ello con la finalidad de que el alumnado muestre interés tanto por el proceso como por el producto final en producciones plásticas, visuales, audiovisuales, musicales, escénicas y performativas; disfrute del arte; comprenda sus posibilidades comunicativas y expresivas; se inicie en la percepción de la intencionalidad en las manifestaciones culturales; y llegue a producir obras propias como medio para canalizar sus ideas, sentimientos y emociones.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR02",
       "agrupa": [
         "ce:PEARC3"
       ],
@@ -218,6 +284,7 @@
         "CPSAA5"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -227,7 +294,7 @@
       "notation": "PEAR02BC4",
       "prefLabel": "Educación Artística · 2º Primaria · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de participar, diseñar y compartir activamente y de manera guiada, mediante un proceso cooperativo, en producciones culturales y artísticas creativas. Se comprobará que puede planificar propuestas para lograr un objetivo final y comunicar la experiencia creativa en espacios y canales sencillos con el fin de desarrollar la creatividad, la noción de autoría y el sentido de pertenencia. De esta manera, se verificará que el alumnado puede realizar, de forma guiada, proyectos sencillos diseñando, fabricando y evaluando diferentes prototipos o modelos, y atendiendo tanto a las fases del proceso creativo como a la evaluación, al interés y a la valoración del proceso y el producto final. Asimismo, se comprobará que el alumnado expresa, de manera elemental, hechos, conceptos, pensamientos, opiniones o sentimientos de forma creativa y democrática, utilizando elementos, técnicas, materiales y herramientas elementales propios de la expresión plástica, visual, musical, dramática, dancística, audiovisual y performativa. Finalmente, se constará que el alumnado conoce y respeta la diversidad lingüística y cultural presente en las islas y en otros lugares y culturas. De la misma manera, se verificará que es capaz de reconocer necesidades y retos que afrontar, elaborar ideas originales, planificar tareas y cooperar en equipo, haciendo un uso responsable de los recursos y entendiendo las características y funciones de las diferentes profesiones vinculadas con las artes.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR02",
       "agrupa": [
         "ce:PEARC4"
       ],
@@ -245,6 +312,7 @@
         "CD2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -254,7 +322,7 @@
       "notation": "PEAR03BC1",
       "prefLabel": "Educación Artística · 3º Primaria · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de reconocer y describir manifestaciones artísticas del patrimonio cultural y artístico de Canarias y de otras culturas, de diferentes géneros, corrientes estéticas, estilos y épocas, producidas por creadoras y creadores locales, regionales, nacionales e internacionales, con especial atención a las obras de mujeres y a la perspectiva de género. Para ello, el alumnado deberá demostrar una recepción activa de las mismas, mediante experiencias sensoriales, de manera que escuchen, observen, toquen, sientan o visionen, y exploren sus características con actitud abierta e interés, estableciendo relaciones entre ellas y con su contexto histórico y social, y demostrando que comprenden las diferencias; además de con curiosidad, sensibilidad, respeto y valoración hacia la diversidad de las mismas. Se comprobará que el alumnado es capaz de realizar búsquedas guiadas en internet, con el debido acompañamiento, relacionadas con estas manifestaciones artísticas, aplicando estrategias básicas de análisis. Todo ello con la finalidad de que el alumnado descubra, reconozca y aprecie las especificidades en intencionalidades de las diversas manifestaciones culturales y artísticas, comprendiendo la necesidad de respetarlas y conservarlas.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR03",
       "agrupa": [
         "ce:PEARC1"
       ],
@@ -268,6 +336,7 @@
         "CCL1"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -277,7 +346,7 @@
       "notation": "PEAR03BC2",
       "prefLabel": "Educación Artística · 3º Primaria · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de seleccionar y aplicar estrategias sencillas de tratamiento de la información (localizar, seleccionar, contrastar…) para la búsqueda guiada de información de fuentes diversas, incluyendo las digitales, sobre distintas manifestaciones que forman parte del patrimonio cultural y artístico de Canarias y de diferentes corrientes estéticas, procedencias y épocas, producidas por creadoras y creadores locales, regionales, nacionales e internacionales, de las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas, a través de distintos canales y medios de acceso, distinguiendo sus lenguajes y elementos técnicos característicos (vocabulario específico, técnicas, materiales, medios, soportes y profesiones vinculadas). Así mismo, se verificará que el alumnado comprende sus diferencias y similitudes, y valora la diversidad como factor de diálogo y elemento para la mejora de la convivencia. Se comprobará que el alumnado distingue las sensaciones y emociones producidas por diferentes manifestaciones culturales y artísticas, a partir de su análisis y comprensión, de manera que pueda, alcanzar y afianzar un sentido progresivo de pertenencia e identidad, siendo capaz de cooperar con sus iguales, con una actitud abierta, dialogante, respetuosa e inclusiva, y teniendo en cuenta la perspectiva de género. Todo ello con la finalidad de disfrutar de las mismas, entender su valor, respetar su autoría y empezar a desarrollar una sensibilidad artística propia.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR03",
       "agrupa": [
         "ce:PEARC2"
       ],
@@ -291,6 +360,7 @@
         "CCEC1"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -300,7 +370,7 @@
       "notation": "PEAR03BC3",
       "prefLabel": "Educación Artística · 3º Primaria · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de expresar y comunicar de manera creativa ideas, sentimientos y emociones mediante la experimentación con elementos básicos de los lenguajes artísticos y la utilización de diferentes herramientas (instrumentos artísticos y herramientas digitales), integrando su propio cuerpo, interactuando con el entorno y desarrollando sus capacidades afectivas. Para ello, se comprobará que el alumnado tiene la capacidad de explorar, conocer, descubrir y manejar diferentes códigos, técnicas, materiales, instrumentos, medios y soportes, con actitud abierta e inclusiva. En este sentido, el alumnado deberá demostrar que utiliza de manera creativa elementos configurativos básicos de los lenguajes visual, audiovisual, musical y dramático, en diferentes contextos comunicativos, por medio de la práctica instrumental, vocal y corporal de manifestaciones propias del patrimonio cultural y artístico de Canarias y de diferentes estilos, épocas y culturas. Del mismo modo, se verificará que el alumnado elabora propuestas artísticas sencillas, atendiendo a las fases del proceso creativo, utilizando las posibilidades expresivas del cuerpo, el sonido, la imagen, herramientas analógicas y tecnologías digitales básicas, mostrando confianza en las propias capacidades, aplicando estrategias de aprendizaje autorregulado y valorando las aportaciones de otras personas del grupo. Todo ello con la finalidad de que el alumnado muestre interés tanto por el proceso como por el producto final en producciones plásticas, visuales, audiovisuales, musicales, escénicas y performativas; disfrute del arte; comprenda sus posibilidades comunicativas y expresivas; perciba la intencionalidad en las manifestaciones culturales; y llegue a producir obras propias como medio para canalizar sus ideas, sentimientos y emociones desde una visión informada.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR03",
       "agrupa": [
         "ce:PEARC3"
       ],
@@ -317,6 +387,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -326,7 +397,7 @@
       "notation": "PEAR03BC4",
       "prefLabel": "Educación Artística · 3º Primaria · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de participar, elaborar y compartir activamente y mediante un proceso cooperativo, en producciones culturales y artísticas creativas. Para ello, se comprobará que planifica propuestas para lograr un objetivo final y comunica la experiencia en diferentes espacios y canales para desarrollar la creatividad, la noción de autoría y el sentido de pertenencia. En este sentido, el alumnado deberá poder realizar proyectos, de forma guiada, diseñando, fabricando y evaluando diferentes prototipos o modelos, valorando tanto las fases del proceso creativo como el producto final. Asimismo, se comprobará que puede expresar hechos, conceptos, pensamientos, opiniones o sentimientos de forma creativa y democrática, utilizando elementos, técnicas, materiales y herramientas sencillas propios de la expresión plástica, visual, musical, dramática, dancística, audiovisual y performativa; y de conocer y respetar la diversidad lingüística y cultural presente en las islas y en otros lugares y culturas. De la misma manera, se verificará que es capaz de reconocer necesidades y retos que afrontar y elaborar ideas originales, planificar tareas y cooperar con otros y otras en equipo, haciendo un uso responsable de los recursos y entendiendo las características y funciones de las diferentes profesiones vinculadas con las artes.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR03",
       "agrupa": [
         "ce:PEARC4"
       ],
@@ -346,6 +417,7 @@
         "CD2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -355,7 +427,7 @@
       "notation": "PEAR04BC1",
       "prefLabel": "Educación Artística · 4º Primaria · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de reconocer y describir manifestaciones artísticas del patrimonio cultural y artístico de Canarias y de otras culturas, de diferentes géneros, corrientes estéticas, estilos y épocas, producidas por creadoras y creadores locales, regionales, nacionales e internacionales, con especial atención a las obras de mujeres y a la perspectiva de género. Para ello, el alumnado deberá demostrar una recepción activa de las mismas, mediante experiencias sensoriales, de manera que escuchen, observen, toquen, sientan o visionen, y exploren sus características con actitud abierta e interés, estableciendo relaciones entre ellas y con su contexto histórico y social, y demostrando que comprenden las diferencias; además de con curiosidad, sensibilidad, respeto y valoración hacia la diversidad de las mismas. Se comprobará que el alumnado es capaz de realizar búsquedas guiadas en internet, con el debido acompañamiento, relacionadas con estas manifestaciones artísticas, aplicando estrategias básicas de análisis. Todo ello con la finalidad de que el alumnado descubra, reconozca y aprecie las especificidades en intencionalidades de las diversas manifestaciones culturales y artísticas, comprendiendo la necesidad de respetarlas y conservarlas.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR04",
       "agrupa": [
         "ce:PEARC1"
       ],
@@ -369,6 +441,7 @@
         "CCL1"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -378,7 +451,7 @@
       "notation": "PEAR04BC2",
       "prefLabel": "Educación Artística · 4º Primaria · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de seleccionar y aplicar estrategias sencillas de tratamiento de la información (localizar, seleccionar, contrastar…) para la búsqueda guiada de información de fuentes diversas, incluyendo las digitales, sobre distintas manifestaciones que forman parte del patrimonio cultural y artístico de Canarias y de diferentes corrientes estéticas, procedencias y épocas, producidas por creadoras y creadores locales, regionales, nacionales e internacionales, de las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas, a través de distintos canales y medios de acceso, distinguiendo sus lenguajes y elementos técnicos característicos (vocabulario específico, técnicas, materiales, medios, soportes y profesiones vinculadas). Así mismo, se verificará que el alumnado comprende sus diferencias y similitudes, y valora la diversidad como factor de diálogo y elemento para la mejora de la convivencia. Se comprobará que el alumnado distingue las sensaciones y emociones producidas por diferentes manifestaciones culturales y artísticas, a partir de su análisis y comprensión, de manera que pueda, alcanzar y afianzar un sentido progresivo de pertenencia e identidad, siendo capaz de cooperar con sus iguales, con una actitud abierta, dialogante, respetuosa e inclusiva, y teniendo en cuenta la perspectiva de género. Todo ello con la finalidad de disfrutar de las mismas, entender su valor, respetar su autoría y empezar a desarrollar una sensibilidad artística propia.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR04",
       "agrupa": [
         "ce:PEARC2"
       ],
@@ -392,6 +465,7 @@
         "CCEC1"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -401,7 +475,7 @@
       "notation": "PEAR04BC3",
       "prefLabel": "Educación Artística · 4º Primaria · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de expresar y comunicar de manera creativa ideas, sentimientos y emociones mediante la experimentación con elementos básicos de los lenguajes artísticos y la utilización de diferentes herramientas (instrumentos artísticos y herramientas digitales), integrando su propio cuerpo, interactuando con el entorno y desarrollando sus capacidades afectivas. Para ello, se comprobará que el alumnado tiene la capacidad de explorar, conocer, descubrir y manejar diferentes códigos, técnicas, materiales, instrumentos, medios y soportes, con actitud abierta e inclusiva. En este sentido, el alumnado deberá demostrar que utiliza de manera creativa elementos configurativos básicos de los lenguajes visual, audiovisual, musical y dramático, en diferentes contextos comunicativos, por medio de la práctica instrumental, vocal y corporal de manifestaciones propias del patrimonio cultural y artístico de Canarias y de diferentes estilos, épocas y culturas. Del mismo modo, se verificará que el alumnado elabora propuestas artísticas sencillas, atendiendo a las fases del proceso creativo, utilizando las posibilidades expresivas del cuerpo, el sonido, la imagen, herramientas analógicas y tecnologías digitales básicas, mostrando confianza en las propias capacidades, aplicando estrategias de aprendizaje autorregulado y valorando las aportaciones de otras personas del grupo. Todo ello con la finalidad de que el alumnado muestre interés tanto por el proceso como por el producto final en producciones plásticas, visuales, audiovisuales, musicales, escénicas y performativas; disfrute del arte; comprenda sus posibilidades comunicativas y expresivas; perciba la intencionalidad en las manifestaciones culturales; y llegue a producir obras propias como medio para canalizar sus ideas, sentimientos y emociones desde una visión informada.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR04",
       "agrupa": [
         "ce:PEARC3"
       ],
@@ -418,6 +492,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -427,7 +502,7 @@
       "notation": "PEAR04BC4",
       "prefLabel": "Educación Artística · 4º Primaria · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de participar, elaborar y compartir activamente y mediante un proceso cooperativo, en producciones culturales y artísticas creativas. Para ello, se comprobará que planifica propuestas para lograr un objetivo final y comunica la experiencia en diferentes espacios y canales para desarrollar la creatividad, la noción de autoría y el sentido de pertenencia. En este sentido, el alumnado deberá poder realizar proyectos, de forma guiada, diseñando, fabricando y evaluando diferentes prototipos o modelos, valorando tanto las fases del proceso creativo como el producto final. Asimismo, se comprobará que puede expresar hechos, conceptos, pensamientos, opiniones o sentimientos de forma creativa y democrática, utilizando elementos, técnicas, materiales y herramientas sencillas propios de la expresión plástica, visual, musical, dramática, dancística, audiovisual y performativa; y de conocer y respetar la diversidad lingüística y cultural presente en las islas y en otros lugares y culturas. De la misma manera, se verificará que es capaz de reconocer necesidades y retos que afrontar y elaborar ideas originales, planificar tareas y cooperar con otros y otras en equipo, haciendo un uso responsable de los recursos y entendiendo las características y funciones de las diferentes profesiones vinculadas con las artes.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR04",
       "agrupa": [
         "ce:PEARC4"
       ],
@@ -447,6 +522,7 @@
         "CD2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -456,7 +532,7 @@
       "notation": "PEAR05BC1",
       "prefLabel": "Educación Artística · 5º Primaria · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de distinguir y describir manifestaciones artísticas del patrimonio cultural y artístico de Canarias y de otras culturas, de diferentes géneros, corrientes estéticas, estilos y épocas, producidas por creadoras y creadores locales, regionales, nacionales e internacionales, con especial atención a las obras de mujeres y a la perspectiva de género. Para ello, el alumnado deberá demostrar una recepción activa de las mismas, de manera que las escuchen, observen o visionen, y exploren sus características con actitud abierta e interés, estableciendo relaciones entre ellas y con su contexto histórico y social, y demostrando que comprenden las diferencias; además de con curiosidad, sensibilidad, respeto y valoración hacia la diversidad de las mismas. Se comprobará que el alumnado es capaz de realizar búsquedas guiadas en internet, con el debido acompañamiento, relacionadas con estas manifestaciones artísticas, aplicando estrategias básicas de análisis. Todo ello con la finalidad de que el alumnado descubra, reconozca y aprecie las especificidades en intencionalidades de las diversas manifestaciones culturales y artísticas, comprendiendo la necesidad de respetarlas y conservarlas.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR05",
       "agrupa": [
         "ce:PEARC1"
       ],
@@ -471,6 +547,7 @@
         "CCL1"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -480,7 +557,7 @@
       "notation": "PEAR05BC2",
       "prefLabel": "Educación Artística · 5º Primaria · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de seleccionar y aplicar estrategias sencillas de tratamiento de la información (localizar, seleccionar, contrastar…) para la búsqueda de información, tanto de manera individual como cooperativa, de fuentes diversas, incluyendo las digitales, sobre distintas manifestaciones que forman parte del patrimonio cultural y artístico de Canarias y de diferentes corrientes estéticas, procedencias y épocas, producidas por creadoras y creadores locales, regionales, nacionales e internacionales, de las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas, a través de distintos canales y medios de acceso, comparando su significado, lenguajes y elementos técnicos característicos (vocabulario específico, técnicas, materiales, medios, soportes y profesiones vinculadas). Asimismo, se verificará que el alumnado comprende sus diferencias y similitudes, y valora la diversidad como factor de diálogo y elemento para la mejora de la convivencia. Se comprobará que el alumnado valora las sensaciones y emociones producidas por diferentes manifestaciones culturales y artísticas, a partir de su análisis y comprensión, de manera que pueda alcanzar y afianzar un sentido progresivo de pertenencia e identidad, siendo capaz de cooperar con sus iguales, con una actitud abierta, dialogante, respetuosa e inclusiva y teniendo en cuenta la perspectiva de género. Todo ello con la finalidad de disfrutar de las mismas, entender su valor, respetar su autoría y empezar a desarrollar una sensibilidad artística propia.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR05",
       "agrupa": [
         "ce:PEARC2"
       ],
@@ -497,6 +574,7 @@
         "CC3"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -506,7 +584,7 @@
       "notation": "PEAR05BC3",
       "prefLabel": "Educación Artística · 5º Primaria · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de expresar y comunicar de manera creativa ideas, sentimientos y emociones mediante la experimentación con elementos de los distintos lenguajes e instrumentos artísticos y la utilización de diferentes herramientas (instrumentos artísticos y herramientas digitales), integrando su propio cuerpo, interactuando con el entorno y desarrollando sus capacidades afectivas. Para ello, se comprobará que el alumnado tiene la capacidad de explorar, conocer, descubrir y manejar diferentes códigos, técnicas, materiales, instrumentos, medios y soportes, con actitud abierta e inclusiva y perfeccionando la ejecución. En este sentido, el alumnado deberá demostrar que utiliza de manera creativa elementos configurativos de los lenguajes visual, audiovisual, musical y dramático, en diferentes contextos comunicativos, por medio de la práctica instrumental, vocal y corporal de manifestaciones propias del patrimonio cultural y artístico de Canarias y de diferentes estilos, géneros, épocas y culturas. Del mismo modo, se verificará que el alumnado elabora propuestas artísticas personales, atendiendo a las fases del proceso creativo, utilizando las posibilidades expresivas del cuerpo, el sonido, la imagen, herramientas analógicas y tecnologías digitales, mostrando confianza en las propias capacidades, aplicando estrategias de aprendizaje autorregulado y valorando las aportaciones de otras personas del grupo como fuente de conocimiento. Todo ello con la finalidad de que el alumnado muestre interés tanto por el proceso como por el producto final en producciones plásticas, visuales, audiovisuales, musicales, escénicas y performativas; disfrute del arte; comprenda sus posibilidades comunicativas y expresivas; perciba la intencionalidad en las manifestaciones culturales; y llegue a producir obras propias como medio para canalizar sus ideas, sentimientos y emociones, desde una visión crítica e informada.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR05",
       "agrupa": [
         "ce:PEARC3"
       ],
@@ -523,6 +601,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -532,7 +611,7 @@
       "notation": "PEAR05BC4",
       "prefLabel": "Educación Artística · 5º Primaria · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de planificar y diseñar proyectos relacionados con las artes a través de la interacción en grupo, desempeñando funciones asignadas y con el objetivo común de un producto consensuado, como medio para desarrollar la igualdad, el respeto a la diversidad, la creatividad y el sentido emprendedor. De esta manera, el alumnado deberá utilizar elementos de diferentes lenguajes y técnicas artísticas para elaborar sus propuestas. Asimismo, deberá reconocer necesidades y retos que afrontar, planificar tareas y cooperar con el equipo para lograr un objetivo final, haciendo un uso responsable de los recursos y entendiendo las características y funciones de las diferentes profesiones vinculadas con las artes. Finalmente, se verificará que el alumnado es capaz de comunicar la experiencia creativa en diferentes espacios y canales, verbalizando tanto las fases del proceso como el resultado final, desarrollando sus capacidades creativas y sirviéndose de la experiencia para entender la noción de autoría y el sentido de pertenencia.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR05",
       "agrupa": [
         "ce:PEARC4"
       ],
@@ -552,6 +631,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -561,7 +641,7 @@
       "notation": "PEAR06BC1",
       "prefLabel": "Educación Artística · 6º Primaria · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de distinguir y describir manifestaciones artísticas del patrimonio cultural y artístico de Canarias y de otras culturas, de diferentes géneros, corrientes estéticas, estilos y épocas, producidas por creadoras y creadores locales, regionales, nacionales e internacionales, con especial atención a las obras de mujeres y a la perspectiva de género. Para ello, el alumnado deberá demostrar una recepción activa de las mismas, de manera que las escuchen, observen o visionen, y exploren sus características con actitud abierta e interés, estableciendo relaciones entre ellas y con su contexto histórico y social, y demostrando que comprenden las diferencias; además de con curiosidad, sensibilidad, respeto y valoración hacia la diversidad de las mismas. Se comprobará que el alumnado es capaz de realizar búsquedas guiadas en internet, con el debido acompañamiento, relacionadas con estas manifestaciones artísticas, aplicando estrategias básicas de análisis. Todo ello con la finalidad de que el alumnado descubra, reconozca y aprecie las especificidades en intencionalidades de las diversas manifestaciones culturales y artísticas, comprendiendo la necesidad de respetarlas y conservarlas.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR06",
       "agrupa": [
         "ce:PEARC1"
       ],
@@ -576,6 +656,7 @@
         "CCL1"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -585,7 +666,7 @@
       "notation": "PEAR06BC2",
       "prefLabel": "Educación Artística · 6º Primaria · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de seleccionar y aplicar estrategias sencillas de tratamiento de la información (localizar, seleccionar, contrastar…) para la búsqueda de información, tanto de manera individual como cooperativa, de fuentes diversas, incluyendo las digitales, sobre distintas manifestaciones que forman parte del patrimonio cultural y artístico de Canarias y de diferentes corrientes estéticas, procedencias y épocas, producidas por creadoras y creadores locales, regionales, nacionales e internacionales, de las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas, a través de distintos canales y medios de acceso, comparando su significado, lenguajes y elementos técnicos característicos (vocabulario específico, técnicas, materiales, medios, soportes y profesiones vinculadas). Asimismo, se verificará que el alumnado comprende sus diferencias y similitudes, y valora la diversidad como factor de diálogo y elemento para la mejora de la convivencia. Se comprobará que el alumnado valora las sensaciones y emociones producidas por diferentes manifestaciones culturales y artísticas, a partir de su análisis y comprensión, de manera que pueda alcanzar y afianzar un sentido progresivo de pertenencia e identidad, siendo capaz de cooperar con sus iguales, con una actitud abierta, dialogante, respetuosa e inclusiva y teniendo en cuenta la perspectiva de género. Todo ello con la finalidad de disfrutar de las mismas, entender su valor, respetar su autoría y empezar a desarrollar una sensibilidad artística propia.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR06",
       "agrupa": [
         "ce:PEARC2"
       ],
@@ -602,6 +683,7 @@
         "CC3"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -611,7 +693,7 @@
       "notation": "PEAR06BC3",
       "prefLabel": "Educación Artística · 6º Primaria · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de expresar y comunicar de manera creativa ideas, sentimientos y emociones mediante la experimentación con elementos de los distintos lenguajes e instrumentos artísticos y la utilización de diferentes herramientas (instrumentos artísticos y herramientas digitales), integrando su propio cuerpo, interactuando con el entorno y desarrollando sus capacidades afectivas. Para ello, se comprobará que el alumnado tiene la capacidad de explorar, conocer, descubrir y manejar diferentes códigos, técnicas, materiales, instrumentos, medios y soportes, con actitud abierta e inclusiva y perfeccionando la ejecución. En este sentido, el alumnado deberá demostrar que utiliza de manera creativa elementos configurativos de los lenguajes visual, audiovisual, musical y dramático, en diferentes contextos comunicativos, por medio de la práctica instrumental, vocal y corporal de manifestaciones propias del patrimonio cultural y artístico de Canarias y de diferentes estilos, géneros, épocas y culturas. Del mismo modo, se verificará que el alumnado elabora propuestas artísticas personales, atendiendo a las fases del proceso creativo, utilizando las posibilidades expresivas del cuerpo, el sonido, la imagen, herramientas analógicas y tecnologías digitales, mostrando confianza en las propias capacidades, aplicando estrategias de aprendizaje autorregulado y valorando las aportaciones de otras personas del grupo como fuente de conocimiento. Todo ello con la finalidad de que el alumnado muestre interés tanto por el proceso como por el producto final en producciones plásticas, visuales, audiovisuales, musicales, escénicas y performativas; disfrute del arte; comprenda sus posibilidades comunicativas y expresivas; perciba la intencionalidad en las manifestaciones culturales; y llegue a producir obras propias como medio para canalizar sus ideas, sentimientos y emociones, desde una visión crítica e informada.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR06",
       "agrupa": [
         "ce:PEARC3"
       ],
@@ -628,6 +710,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -637,7 +720,7 @@
       "notation": "PEAR06BC4",
       "prefLabel": "Educación Artística · 6º Primaria · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de planificar y diseñar proyectos relacionados con las artes a través de la interacción en grupo, desempeñando funciones asignadas y con el objetivo común de un producto consensuado, como medio para desarrollar la igualdad, el respeto a la diversidad, la creatividad y el sentido emprendedor. De esta manera, el alumnado deberá utilizar elementos de diferentes lenguajes y técnicas artísticas para elaborar sus propuestas. Asimismo, deberá reconocer necesidades y retos que afrontar, planificar tareas y cooperar con el equipo para lograr un objetivo final, haciendo un uso responsable de los recursos y entendiendo las características y funciones de las diferentes profesiones vinculadas con las artes. Finalmente, se verificará que el alumnado es capaz de comunicar la experiencia creativa en diferentes espacios y canales, verbalizando tanto las fases del proceso como el resultado final, desarrollando sus capacidades creativas y sirviéndose de la experiencia para entender la noción de autoría y el sentido de pertenencia.",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR06",
       "agrupa": [
         "ce:PEARC4"
       ],
@@ -657,6 +740,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -675,6 +759,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -693,6 +778,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -712,6 +798,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -732,6 +819,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -750,6 +838,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -770,6 +859,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -791,6 +881,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -815,6 +906,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -840,6 +932,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -863,6 +956,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -881,6 +975,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -899,6 +994,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -918,6 +1014,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -938,6 +1035,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -956,6 +1054,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -976,6 +1075,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -997,6 +1097,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -1021,6 +1122,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -1046,6 +1148,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -1069,6 +1172,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -1089,6 +1193,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1109,6 +1214,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1126,6 +1232,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1146,6 +1253,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1165,6 +1273,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1189,6 +1298,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1210,6 +1320,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1236,6 +1347,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1263,6 +1375,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1290,6 +1403,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -1310,6 +1424,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1330,6 +1445,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1347,6 +1463,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1367,6 +1484,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1386,6 +1504,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1410,6 +1529,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1431,6 +1551,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1457,6 +1578,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1484,6 +1606,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1511,6 +1634,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -1532,6 +1656,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1552,6 +1677,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1574,6 +1700,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1595,6 +1722,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1614,6 +1742,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1638,6 +1767,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1661,6 +1791,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1688,6 +1819,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1715,6 +1847,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1741,6 +1874,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1762,6 +1896,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1782,6 +1917,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1804,6 +1940,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1825,6 +1962,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1844,6 +1982,7 @@
         "CCEC2"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1868,6 +2007,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1891,6 +2031,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1918,6 +2059,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1945,6 +2087,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1971,6 +2114,7 @@
         "CCEC4"
       ],
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1980,8 +2124,9 @@
       "notation": "PEAR01SBI",
       "prefLabel": "PEAR01SBI · I. Recepción y análisis",
       "definition": "Recepción y análisis",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR01",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -1991,8 +2136,9 @@
       "notation": "PEAR01SBII",
       "prefLabel": "PEAR01SBII · II. Creación e interpretación",
       "definition": "Creación e interpretación",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR01",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2002,8 +2148,9 @@
       "notation": "PEAR01SBIII",
       "prefLabel": "PEAR01SBIII · III. Artes plásticas, visuales y audiovisuales",
       "definition": "Artes plásticas, visuales y audiovisuales",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR01",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2013,8 +2160,9 @@
       "notation": "PEAR01SBIV",
       "prefLabel": "PEAR01SBIV · IV. Música y artes escénicas y performativas",
       "definition": "Música y artes escénicas y performativas",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR01",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2024,8 +2172,9 @@
       "notation": "PEAR02SBI",
       "prefLabel": "PEAR02SBI · I. Recepción y análisis",
       "definition": "Recepción y análisis",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR02",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2035,8 +2184,9 @@
       "notation": "PEAR02SBII",
       "prefLabel": "PEAR02SBII · II. Creación e interpretación",
       "definition": "Creación e interpretación",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR02",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2046,8 +2196,9 @@
       "notation": "PEAR02SBIII",
       "prefLabel": "PEAR02SBIII · III. Artes plásticas, visuales y audiovisuales",
       "definition": "Artes plásticas, visuales y audiovisuales",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR02",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2057,8 +2208,9 @@
       "notation": "PEAR02SBIV",
       "prefLabel": "PEAR02SBIV · IV. Música y artes escénicas y performativas",
       "definition": "Música y artes escénicas y performativas",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR02",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2068,8 +2220,9 @@
       "notation": "PEAR03SBI",
       "prefLabel": "PEAR03SBI · I. Recepción y análisis",
       "definition": "Recepción y análisis",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR03",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2079,8 +2232,9 @@
       "notation": "PEAR03SBII",
       "prefLabel": "PEAR03SBII · II. Creación e interpretación",
       "definition": "Creación e interpretación",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR03",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2090,8 +2244,9 @@
       "notation": "PEAR03SBIII",
       "prefLabel": "PEAR03SBIII · III. Artes plásticas, visuales y audiovisuales",
       "definition": "Artes plásticas, visuales y audiovisuales",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR03",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2101,8 +2256,9 @@
       "notation": "PEAR03SBIV",
       "prefLabel": "PEAR03SBIV · IV. Música y artes escénicas y performativas",
       "definition": "Música y artes escénicas y performativas",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR03",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2112,8 +2268,9 @@
       "notation": "PEAR04SBI",
       "prefLabel": "PEAR04SBI · I. Recepción y análisis",
       "definition": "Recepción y análisis",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR04",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -2123,8 +2280,9 @@
       "notation": "PEAR04SBII",
       "prefLabel": "PEAR04SBII · II. Creación e interpretación",
       "definition": "Creación e interpretación",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR04",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -2134,8 +2292,9 @@
       "notation": "PEAR04SBIII",
       "prefLabel": "PEAR04SBIII · III. Artes plásticas, visuales y audiovisuales",
       "definition": "Artes plásticas, visuales y audiovisuales",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR04",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -2145,8 +2304,9 @@
       "notation": "PEAR04SBIV",
       "prefLabel": "PEAR04SBIV · IV. Música y artes escénicas y performativas",
       "definition": "Música y artes escénicas y performativas",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR04",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -2156,8 +2316,9 @@
       "notation": "PEAR05SBI",
       "prefLabel": "PEAR05SBI · I. Recepción y análisis",
       "definition": "Recepción y análisis",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR05",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -2167,8 +2328,9 @@
       "notation": "PEAR05SBII",
       "prefLabel": "PEAR05SBII · II. Creación e interpretación",
       "definition": "Creación e interpretación",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR05",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -2178,8 +2340,9 @@
       "notation": "PEAR05SBIII",
       "prefLabel": "PEAR05SBIII · III. Artes plásticas, visuales y audiovisuales",
       "definition": "Artes plásticas, visuales y audiovisuales",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR05",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -2189,8 +2352,9 @@
       "notation": "PEAR05SBIV",
       "prefLabel": "PEAR05SBIV · IV. Música y artes escénicas y performativas",
       "definition": "Música y artes escénicas y performativas",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR05",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -2200,8 +2364,9 @@
       "notation": "PEAR06SBI",
       "prefLabel": "PEAR06SBI · I. Recepción y análisis",
       "definition": "Recepción y análisis",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR06",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -2211,8 +2376,9 @@
       "notation": "PEAR06SBII",
       "prefLabel": "PEAR06SBII · II. Creación e interpretación",
       "definition": "Creación e interpretación",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR06",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -2222,8 +2388,9 @@
       "notation": "PEAR06SBIII",
       "prefLabel": "PEAR06SBIII · III. Artes plásticas, visuales y audiovisuales",
       "definition": "Artes plásticas, visuales y audiovisuales",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR06",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -2233,8 +2400,9 @@
       "notation": "PEAR06SBIV",
       "prefLabel": "PEAR06SBIV · IV. Música y artes escénicas y performativas",
       "definition": "Música y artes escénicas y performativas",
-      "broader": "materia:PEAR",
+      "broader": "asig:PEAR06",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -2246,6 +2414,7 @@
       "definition": "Aproximación a las principales propuestas del patrimonio cultural y artístico de Canarias y de diferentes corrientes estéticas, procedencias y épocas producidas por creadores y creadoras locales, regionales y nacionales.",
       "broader": "sb:PEAR01SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2257,6 +2426,7 @@
       "definition": "Iniciación en la adquisición de estrategias básicas de recepción activa.",
       "broader": "sb:PEAR01SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2268,6 +2438,7 @@
       "definition": "Asimilación de las normas elementales de comportamiento y actitud positiva ante el hecho artístico. Valoración del silencio como condición indispensable para la adecuada recepción de propuestas artísticas.",
       "broader": "sb:PEAR01SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2279,6 +2450,7 @@
       "definition": "Empleo de vocabulario específico básico de las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas.",
       "broader": "sb:PEAR01SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2290,6 +2462,7 @@
       "definition": "Utilización de recursos digitales básicos para las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas.",
       "broader": "sb:PEAR01SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2301,6 +2474,7 @@
       "definition": "Aproximación a las fases del proceso creativo: planificación guiada y experimentación.",
       "broader": "sb:PEAR01SBII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2312,6 +2486,7 @@
       "definition": "Reconocimiento de profesiones vinculadas con las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas: artesanía, pintura, música, escultura, maquetación, diseño gráfico, iluminación y sonido, realización…",
       "broader": "sb:PEAR01SBII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2323,6 +2498,7 @@
       "definition": "Interés tanto por el proceso como por el producto final en producciones plásticas, visuales, audiovisuales, musicales, escénicas y performativas.",
       "broader": "sb:PEAR01SBII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2334,6 +2510,7 @@
       "definition": "Acercamiento a las principales manifestaciones artísticas del patrimonio cultural de Canarias: pintura, escultura, arquitectura, cerámica y artesanía.",
       "broader": "sb:PEAR01SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2345,6 +2522,7 @@
       "definition": "Iniciación a la cultura visual. Uso de técnicas y estrategias básicas de lectura de la imagen en el mundo actual.",
       "broader": "sb:PEAR01SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2356,6 +2534,7 @@
       "definition": "Empleo de elementos configurativos básicos del lenguaje visual: punto, línea, plano, textura, color, forma y espacio.",
       "broader": "sb:PEAR01SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2367,6 +2546,7 @@
       "definition": "Uso de materiales, instrumentos, soportes y técnicas elementales utilizados en la expresión plástica y visual.",
       "broader": "sb:PEAR01SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2378,6 +2558,7 @@
       "definition": "Uso de medios, soportes y materiales de expresión plástica y visual. Empleo de técnicas bidimensionales y tridimensionales básicas en dibujos y modelados sencillos.",
       "broader": "sb:PEAR01SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2389,6 +2570,7 @@
       "definition": "Utilización de herramientas adecuadas para el registro de imagen y sonido.",
       "broader": "sb:PEAR01SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2400,6 +2582,7 @@
       "definition": "Aplicación de estrategias y técnicas básicas de composición de historias audiovisuales sencillas.",
       "broader": "sb:PEAR01SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2411,6 +2594,7 @@
       "definition": "Descubrimiento del cine como forma de narración audiovisual.",
       "broader": "sb:PEAR01SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2422,6 +2606,7 @@
       "definition": "Discriminación auditiva, clasificación y representación del sonido, de sus cualidades y de las líneas rítmico-melódicas, a través de grafías convencionales y no convencionales.",
       "broader": "sb:PEAR01SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2433,6 +2618,7 @@
       "definition": "Discriminación visual y auditiva de los instrumentos musicales convencionales, objetos sonoros, cotidiáfonos, así como de los de la música tradicional y popular canaria. Clasificación de la voz y los instrumentos en tipos, familias y agrupaciones.",
       "broader": "sb:PEAR01SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2444,6 +2630,7 @@
       "definition": "Experimentación y reconocimiento del carácter y el tempo.",
       "broader": "sb:PEAR01SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2455,6 +2642,7 @@
       "definition": "Práctica instrumental, vocal y corporal de manifestaciones propias del patrimonio cultural y artístico de Canarias y de diferentes estilos, épocas y culturas: aproximación a la experimentación, exploración creativa e interpretación a partir de posibilidades sonoras y expresivas.",
       "broader": "sb:PEAR01SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2466,6 +2654,7 @@
       "definition": "Construcción asistida de instrumentos musicales con materiales de uso común, reutilizados y del entorno.",
       "broader": "sb:PEAR01SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2477,6 +2666,7 @@
       "definition": "Aplicación de conceptos elementales de lenguajes musicales básicos en la interpretación de propuestas musicales vocales e instrumentales. Valoración del silencio como elemento indispensable en la música.",
       "broader": "sb:PEAR01SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2488,6 +2678,7 @@
       "definition": "Experimentación y exploración del cuerpo y sus posibilidades motrices en ejecuciones individuales y grupales vinculadas con el movimiento, la danza, la dramatización y la representación teatral como medios de expresión, diversión e interacción social.",
       "broader": "sb:PEAR01SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2499,6 +2690,7 @@
       "definition": "Práctica de técnicas dramáticas y dancísticas elementales.",
       "broader": "sb:PEAR01SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2510,6 +2702,7 @@
       "definition": "Experimentación, exploración e interpretación de danzas tradicionales y populares de Canarias.",
       "broader": "sb:PEAR01SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2521,6 +2714,7 @@
       "definition": "Experimentación de las posibilidades expresivas y creativas básicas de la expresión corporal y dramática.",
       "broader": "sb:PEAR01SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR01",
       "curso": "curso:P01",
       "etapa": "etapa:PRI"
     },
@@ -2532,6 +2726,7 @@
       "definition": "Aproximación a las principales propuestas del patrimonio cultural y artístico de Canarias y de diferentes corrientes estéticas, procedencias y épocas producidas por creadores y creadoras locales, regionales y nacionales.",
       "broader": "sb:PEAR02SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2543,6 +2738,7 @@
       "definition": "Iniciación en la adquisición de estrategias básicas de recepción activa.",
       "broader": "sb:PEAR02SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2554,6 +2750,7 @@
       "definition": "Asimilación de las normas elementales de comportamiento y actitud positiva ante el hecho artístico. Valoración del silencio como condición indispensable para la adecuada recepción de propuestas artísticas.",
       "broader": "sb:PEAR02SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2565,6 +2762,7 @@
       "definition": "Empleo de vocabulario específico básico de las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas.",
       "broader": "sb:PEAR02SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2576,6 +2774,7 @@
       "definition": "Utilización de recursos digitales básicos para las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas.",
       "broader": "sb:PEAR02SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2587,6 +2786,7 @@
       "definition": "Aproximación a las fases del proceso creativo: planificación guiada y experimentación.",
       "broader": "sb:PEAR02SBII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2598,6 +2798,7 @@
       "definition": "Reconocimiento de profesiones vinculadas con las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas: artesanía, pintura, música, escultura, maquetación, diseño gráfico, iluminación y sonido, realización…",
       "broader": "sb:PEAR02SBII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2609,6 +2810,7 @@
       "definition": "Interés tanto por el proceso como por el producto final en producciones plásticas, visuales, audiovisuales, musicales, escénicas y performativas.",
       "broader": "sb:PEAR02SBII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2620,6 +2822,7 @@
       "definition": "Acercamiento a las principales manifestaciones artísticas del patrimonio cultural de Canarias: pintura, escultura, arquitectura, cerámica y artesanía.",
       "broader": "sb:PEAR02SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2631,6 +2834,7 @@
       "definition": "Iniciación a la cultura visual. Uso de técnicas y estrategias básicas de lectura de la imagen en el mundo actual.",
       "broader": "sb:PEAR02SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2642,6 +2846,7 @@
       "definition": "Empleo de elementos configurativos básicos del lenguaje visual: punto, línea, plano, textura, color, forma y espacio.",
       "broader": "sb:PEAR02SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2653,6 +2858,7 @@
       "definition": "Uso de materiales, instrumentos, soportes y técnicas elementales utilizados en la expresión plástica y visual.",
       "broader": "sb:PEAR02SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2664,6 +2870,7 @@
       "definition": "Uso de medios, soportes y materiales de expresión plástica y visual. Empleo de técnicas bidimensionales y tridimensionales básicas en dibujos y modelados sencillos.",
       "broader": "sb:PEAR02SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2675,6 +2882,7 @@
       "definition": "Utilización de herramientas adecuadas para el registro de imagen y sonido.",
       "broader": "sb:PEAR02SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2686,6 +2894,7 @@
       "definition": "Aplicación de estrategias y técnicas básicas de composición de historias audiovisuales sencillas.",
       "broader": "sb:PEAR02SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2697,6 +2906,7 @@
       "definition": "Descubrimiento del cine como forma de narración audiovisual.",
       "broader": "sb:PEAR02SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2708,6 +2918,7 @@
       "definition": "Discriminación auditiva, clasificación y representación del sonido, de sus cualidades y de las líneas rítmico-melódicas, a través de grafías convencionales y no convencionales.",
       "broader": "sb:PEAR02SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2719,6 +2930,7 @@
       "definition": "Discriminación visual y auditiva de los instrumentos musicales convencionales, objetos sonoros, cotidiáfonos, así como de los de la música tradicional y popular canaria. Clasificación de la voz y los instrumentos en tipos, familias y agrupaciones.",
       "broader": "sb:PEAR02SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2730,6 +2942,7 @@
       "definition": "Experimentación y reconocimiento del carácter y el tempo.",
       "broader": "sb:PEAR02SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2741,6 +2954,7 @@
       "definition": "Práctica instrumental, vocal y corporal de manifestaciones propias del patrimonio cultural y artístico de Canarias y de diferentes estilos, épocas y culturas: aproximación a la experimentación, exploración creativa e interpretación a partir de posibilidades sonoras y expresivas.",
       "broader": "sb:PEAR02SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2752,6 +2966,7 @@
       "definition": "Construcción asistida de instrumentos musicales con materiales de uso común, reutilizados y del entorno.",
       "broader": "sb:PEAR02SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2763,6 +2978,7 @@
       "definition": "Aplicación de conceptos elementales de lenguajes musicales básicos en la interpretación de propuestas musicales vocales e instrumentales. Valoración del silencio como elemento indispensable en la música.",
       "broader": "sb:PEAR02SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2774,6 +2990,7 @@
       "definition": "Experimentación y exploración del cuerpo y sus posibilidades motrices en ejecuciones individuales y grupales vinculadas con el movimiento, la danza, la dramatización y la representación teatral como medios de expresión, diversión e interacción social.",
       "broader": "sb:PEAR02SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2785,6 +3002,7 @@
       "definition": "Práctica de técnicas dramáticas y dancísticas elementales.",
       "broader": "sb:PEAR02SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2796,6 +3014,7 @@
       "definition": "Experimentación, exploración e interpretación de danzas tradicionales y populares de Canarias.",
       "broader": "sb:PEAR02SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2807,6 +3026,7 @@
       "definition": "Experimentación de las posibilidades expresivas y creativas básicas de la expresión corporal y dramática.",
       "broader": "sb:PEAR02SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR02",
       "curso": "curso:P02",
       "etapa": "etapa:PRI"
     },
@@ -2818,6 +3038,7 @@
       "definition": "Análisis de propuestas del patrimonio cultural y artístico de Canarias, de diferentes corrientes estéticas, procedencias y épocas, producidas por creadores y creadoras locales, regionales y nacionales.",
       "broader": "sb:PEAR03SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2829,6 +3050,7 @@
       "definition": "Adquisición de estrategias de recepción activa.",
       "broader": "sb:PEAR03SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2840,6 +3062,7 @@
       "definition": "Valoración del silencio como elemento y condición indispensable. Asimilación de las normas comunes de comportamiento y actitud positiva ante el hecho artístico. Valoración del silencio como condición indispensable para la adecuada recepción de propuestas artísticas",
       "broader": "sb:PEAR03SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2851,6 +3074,7 @@
       "definition": "Empleo de vocabulario específico, de uso común, en las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas.",
       "broader": "sb:PEAR03SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2862,6 +3086,7 @@
       "definition": "Utilización de recursos digitales en las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas.",
       "broader": "sb:PEAR03SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2873,6 +3098,7 @@
       "definition": "Adquisición de estrategias básicas de análisis de propuestas artísticas desde una perspectiva de género.",
       "broader": "sb:PEAR03SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2884,6 +3110,7 @@
       "definition": "Aplicación de las fases del proceso creativo: planificación, interpretación y experimentación.",
       "broader": "sb:PEAR03SBII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2895,6 +3122,7 @@
       "definition": "Reconocimiento de profesiones vinculadas con las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas: artesanía, pintura, música, escultura, maquetación, diseño gráfico, iluminación y sonido, realización…",
       "broader": "sb:PEAR03SBII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2906,6 +3134,7 @@
       "definition": "Valoración e interés tanto por el proceso como por el producto final en producciones plásticas, visuales, audiovisuales, musicales, escénicas y performativas.",
       "broader": "sb:PEAR03SBII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2917,6 +3146,7 @@
       "definition": "Reconocimiento de las manifestaciones artísticas del patrimonio cultural de Canarias: pintura, escultura, arquitectura, cerámica y artesanía.",
       "broader": "sb:PEAR03SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2928,6 +3158,7 @@
       "definition": "Iniciación a la cultura visual. Uso de técnicas y estrategias básicas de lectura e interpretación de la imagen en el mundo actual.",
       "broader": "sb:PEAR03SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2939,6 +3170,7 @@
       "definition": "Empleo de elementos configurativos básicos del lenguaje visual y sus posibilidades expresivas: punto, línea, plano, textura, color, forma y espacio.",
       "broader": "sb:PEAR03SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2950,6 +3182,7 @@
       "definition": "Utilización de materiales, instrumentos, soportes y técnicas de uso común utilizados en la expresión plástica y visual.",
       "broader": "sb:PEAR03SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2961,6 +3194,7 @@
       "definition": "Uso de medios, soportes y materiales de expresión plástica y visual. Empleo de técnicas bidimensionales y tridimensionales en dibujos y modelados sencillos.",
       "broader": "sb:PEAR03SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2972,6 +3206,7 @@
       "definition": "Reconocimiento de técnicas, materiales y recursos informáticos y tecnológicos básicos. Aplicación para la captura y manipulación de producciones plásticas y visuales.",
       "broader": "sb:PEAR03SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2983,6 +3218,7 @@
       "definition": "Registro y edición básica de elementos audiovisuales: conceptos, tecnologías, técnicas y recursos elementales y de manejo sencillo.",
       "broader": "sb:PEAR03SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -2994,6 +3230,7 @@
       "definition": "Aplicación de estrategias y técnicas de uso común para la composición de historias audiovisuales.",
       "broader": "sb:PEAR03SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -3005,6 +3242,7 @@
       "definition": "Identificación del cine como forma de narración audiovisual.",
       "broader": "sb:PEAR03SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -3016,6 +3254,7 @@
       "definition": "Acercamiento a géneros y formatos de producciones audiovisuales: cortometraje, videoclip, documental, spot, reportaje…",
       "broader": "sb:PEAR03SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -3027,6 +3266,7 @@
       "definition": "Aproximación a las herramientas y técnicas básicas de animación.",
       "broader": "sb:PEAR03SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -3038,6 +3278,7 @@
       "definition": "Descubrimiento de las características elementales del lenguaje audiovisual multimodal: texto, audio, imagen…",
       "broader": "sb:PEAR03SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -3049,6 +3290,7 @@
       "definition": "Iniciación a la realización de producciones multimodales con diversas herramientas.",
       "broader": "sb:PEAR03SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -3060,6 +3302,7 @@
       "definition": "Identificación visual y auditiva, clasificación y representación elemental del sonido, de sus cualidades y de estructuras rítmico-melódicas, a través de grafías convencionales y no convencionales.",
       "broader": "sb:PEAR03SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -3071,6 +3314,7 @@
       "definition": "Identificación visual y auditiva de los instrumentos musicales convencionales, objetos sonoros, cotidiáfonos, así como de los de la música tradicional y popular canaria. Clasificación de la voz y los instrumentos en familias y agrupaciones.",
       "broader": "sb:PEAR03SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -3082,6 +3326,7 @@
       "definition": "Experimentación y reconocimiento del carácter, el tempo, el compás y el género musical.",
       "broader": "sb:PEAR03SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -3093,6 +3338,7 @@
       "definition": "Práctica instrumental, vocal y corporal de manifestaciones propias del patrimonio cultural y artístico de Canarias y de diferentes estilos, épocas y culturas: experimentación, exploración creativa, interpretación e improvisación a partir de sus posibilidades sonoras y expresivas.",
       "broader": "sb:PEAR03SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -3104,6 +3350,7 @@
       "definition": "Construcción guiada de instrumentos musicales con materiales de uso común, reutilizados y del entorno.",
       "broader": "sb:PEAR03SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -3115,6 +3362,7 @@
       "definition": "Aplicación de conceptos básicos de lenguajes musicales en la interpretación y en la improvisación de propuestas musicales vocales e instrumentales. Valoración del silencio como elemento indispensable en la música.",
       "broader": "sb:PEAR03SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -3126,6 +3374,7 @@
       "definition": "Utilización de herramientas digitales básicas de grabación y edición de audio en la audición y conocimiento de obras diversas.",
       "broader": "sb:PEAR03SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -3137,6 +3386,7 @@
       "definition": "Experimentación y exploración del cuerpo y sus posibilidades motrices y creativas en ejecuciones individuales y grupales vinculadas con el movimiento, la danza, la dramatización y la representación teatral como medios de expresión, diversión e interacción social.",
       "broader": "sb:PEAR03SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -3148,6 +3398,7 @@
       "definition": "Aplicación de técnicas dramáticas, dancísticas y de elementos básicos de lenguajes expresivos. Experimentación con actos performativos elementales e improvisación guiada.",
       "broader": "sb:PEAR03SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -3159,6 +3410,7 @@
       "definition": "Experimentación, exploración e interpretación de danzas tradicionales y populares de Canarias.",
       "broader": "sb:PEAR03SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -3170,6 +3422,7 @@
       "definition": "Exploración de las posibilidades expresivas y creativas de uso común de la expresión corporal y dramática.",
       "broader": "sb:PEAR03SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -3181,6 +3434,7 @@
       "definition": "Reconocimiento de los elementos básicos de la representación escénica: roles, materiales y espacios.",
       "broader": "sb:PEAR03SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR03",
       "curso": "curso:P03",
       "etapa": "etapa:PRI"
     },
@@ -3192,6 +3446,7 @@
       "definition": "Análisis de propuestas del patrimonio cultural y artístico de Canarias, de diferentes corrientes estéticas, procedencias y épocas, producidas por creadores y creadoras locales, regionales y nacionales.",
       "broader": "sb:PEAR04SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3203,6 +3458,7 @@
       "definition": "Adquisición de estrategias de recepción activa.",
       "broader": "sb:PEAR04SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3214,6 +3470,7 @@
       "definition": "Valoración del silencio como elemento y condición indispensable. Asimilación de las normas comunes de comportamiento y actitud positiva ante el hecho artístico. Valoración del silencio como condición indispensable para la adecuada recepción de propuestas artísticas",
       "broader": "sb:PEAR04SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3225,6 +3482,7 @@
       "definition": "Empleo de vocabulario específico, de uso común, en las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas.",
       "broader": "sb:PEAR04SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3236,6 +3494,7 @@
       "definition": "Utilización de recursos digitales en las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas.",
       "broader": "sb:PEAR04SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3247,6 +3506,7 @@
       "definition": "Adquisición de estrategias básicas de análisis de propuestas artísticas desde una perspectiva de género.",
       "broader": "sb:PEAR04SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3258,6 +3518,7 @@
       "definition": "Aplicación de las fases del proceso creativo: planificación, interpretación y experimentación.",
       "broader": "sb:PEAR04SBII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3269,6 +3530,7 @@
       "definition": "Reconocimiento de profesiones vinculadas con las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas: artesanía, pintura, música, escultura, maquetación, diseño gráfico, iluminación y sonido, realización…",
       "broader": "sb:PEAR04SBII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3280,6 +3542,7 @@
       "definition": "Valoración e interés tanto por el proceso como por el producto final en producciones plásticas, visuales, audiovisuales, musicales, escénicas y performativas.",
       "broader": "sb:PEAR04SBII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3291,6 +3554,7 @@
       "definition": "Reconocimiento de las manifestaciones artísticas del patrimonio cultural de Canarias: pintura, escultura, arquitectura, cerámica y artesanía.",
       "broader": "sb:PEAR04SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3302,6 +3566,7 @@
       "definition": "Iniciación a la cultura visual. Uso de técnicas y estrategias básicas de lectura e interpretación de la imagen en el mundo actual.",
       "broader": "sb:PEAR04SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3313,6 +3578,7 @@
       "definition": "Empleo de elementos configurativos básicos del lenguaje visual y sus posibilidades expresivas: punto, línea, plano, textura, color, forma y espacio.",
       "broader": "sb:PEAR04SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3324,6 +3590,7 @@
       "definition": "Utilización de materiales, instrumentos, soportes y técnicas de uso común utilizados en la expresión plástica y visual.",
       "broader": "sb:PEAR04SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3335,6 +3602,7 @@
       "definition": "Uso de medios, soportes y materiales de expresión plástica y visual. Empleo de técnicas bidimensionales y tridimensionales en dibujos y modelados sencillos.",
       "broader": "sb:PEAR04SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3346,6 +3614,7 @@
       "definition": "Reconocimiento de técnicas, materiales y recursos informáticos y tecnológicos básicos. Aplicación para la captura y manipulación de producciones plásticas y visuales.",
       "broader": "sb:PEAR04SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3357,6 +3626,7 @@
       "definition": "Registro y edición básica de elementos audiovisuales: conceptos, tecnologías, técnicas y recursos elementales y de manejo sencillo.",
       "broader": "sb:PEAR04SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3368,6 +3638,7 @@
       "definition": "Aplicación de estrategias y técnicas de uso común para la composición de historias audiovisuales.",
       "broader": "sb:PEAR04SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3379,6 +3650,7 @@
       "definition": "Identificación del cine como forma de narración audiovisual.",
       "broader": "sb:PEAR04SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3390,6 +3662,7 @@
       "definition": "Acercamiento a géneros y formatos de producciones audiovisuales: cortometraje, videoclip, documental, spot, reportaje…",
       "broader": "sb:PEAR04SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3401,6 +3674,7 @@
       "definition": "Aproximación a las herramientas y técnicas básicas de animación.",
       "broader": "sb:PEAR04SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3412,6 +3686,7 @@
       "definition": "Descubrimiento de las características elementales del lenguaje audiovisual multimodal: texto, audio, imagen…",
       "broader": "sb:PEAR04SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3423,6 +3698,7 @@
       "definition": "Iniciación a la realización de producciones multimodales con diversas herramientas.",
       "broader": "sb:PEAR04SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3434,6 +3710,7 @@
       "definition": "Identificación visual y auditiva, clasificación y representación elemental del sonido, de sus cualidades y de estructuras rítmico-melódicas, a través de grafías convencionales y no convencionales.",
       "broader": "sb:PEAR04SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3445,6 +3722,7 @@
       "definition": "Identificación visual y auditiva de los instrumentos musicales convencionales, objetos sonoros, cotidiáfonos, así como de los de la música tradicional y popular canaria. Clasificación de la voz y los instrumentos en familias y agrupaciones.",
       "broader": "sb:PEAR04SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3456,6 +3734,7 @@
       "definition": "Experimentación y reconocimiento del carácter, el tempo, el compás y el género musical.",
       "broader": "sb:PEAR04SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3467,6 +3746,7 @@
       "definition": "Práctica instrumental, vocal y corporal de manifestaciones propias del patrimonio cultural y artístico de Canarias y de diferentes estilos, épocas y culturas: experimentación, exploración creativa, interpretación e improvisación a partir de sus posibilidades sonoras y expresivas.",
       "broader": "sb:PEAR04SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3478,6 +3758,7 @@
       "definition": "Construcción guiada de instrumentos musicales con materiales de uso común, reutilizados y del entorno.",
       "broader": "sb:PEAR04SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3489,6 +3770,7 @@
       "definition": "Aplicación de conceptos básicos de lenguajes musicales en la interpretación y en la improvisación de propuestas musicales vocales e instrumentales. Valoración del silencio como elemento indispensable en la música.",
       "broader": "sb:PEAR04SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3500,6 +3782,7 @@
       "definition": "Utilización de herramientas digitales básicas de grabación y edición de audio en la audición y conocimiento de obras diversas.",
       "broader": "sb:PEAR04SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3511,6 +3794,7 @@
       "definition": "Experimentación y exploración del cuerpo y sus posibilidades motrices y creativas en ejecuciones individuales y grupales vinculadas con el movimiento, la danza, la dramatización y la representación teatral como medios de expresión, diversión e interacción social.",
       "broader": "sb:PEAR04SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3522,6 +3806,7 @@
       "definition": "Aplicación de técnicas dramáticas, dancísticas y de elementos básicos de lenguajes expresivos. Experimentación con actos performativos elementales e improvisación guiada.",
       "broader": "sb:PEAR04SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3533,6 +3818,7 @@
       "definition": "Experimentación, exploración e interpretación de danzas tradicionales y populares de Canarias.",
       "broader": "sb:PEAR04SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3544,6 +3830,7 @@
       "definition": "Exploración de las posibilidades expresivas y creativas de uso común de la expresión corporal y dramática.",
       "broader": "sb:PEAR04SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3555,6 +3842,7 @@
       "definition": "Reconocimiento de los elementos básicos de la representación escénica: roles, materiales y espacios.",
       "broader": "sb:PEAR04SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR04",
       "curso": "curso:P04",
       "etapa": "etapa:PRI"
     },
@@ -3566,6 +3854,7 @@
       "definition": "Análisis de propuestas del patrimonio cultural y artístico de Canarias y de diferentes corrientes estéticas, procedencias y épocas producidas por creadoras y creadores locales, regionales, nacionales e internacionales.",
       "broader": "sb:PEAR05SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3577,6 +3866,7 @@
       "definition": "Aplicación de estrategias de recepción activa.",
       "broader": "sb:PEAR05SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3588,6 +3878,7 @@
       "definition": "Asimilación de las normas de comportamiento y actitud positiva ante el hecho artístico. Valoración del silencio como condición indispensable para la adecuada recepción de propuestas artísticas.",
       "broader": "sb:PEAR05SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3599,6 +3890,7 @@
       "definition": "Empleo de vocabulario específico de las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas.",
       "broader": "sb:PEAR05SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3610,6 +3902,7 @@
       "definition": "Utilización y selección de recursos digitales en las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas.",
       "broader": "sb:PEAR05SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3621,6 +3914,7 @@
       "definition": "Aplicación de estrategias básicas para el análisis de propuestas artísticas desde una perspectiva de género. Identificación de estereotipos sexistas.",
       "broader": "sb:PEAR05SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3632,6 +3926,7 @@
       "definition": "Aplicación de las fases del proceso creativo: planificación, interpretación, experimentación y evaluación.",
       "broader": "sb:PEAR05SBII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3643,6 +3938,7 @@
       "definition": "Reconocimiento de profesiones vinculadas con las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas: artesanía, pintura, música, escultura, maquetación, diseño gráfico, iluminación y sonido, realización…",
       "broader": "sb:PEAR05SBII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3654,6 +3950,7 @@
       "definition": "Evaluación, valoración e interés tanto por el proceso como por el producto final en producciones plásticas, visuales, audiovisuales, musicales, escénicas y performativas.",
       "broader": "sb:PEAR05SBII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3665,6 +3962,7 @@
       "definition": "Uso responsable de bancos de imágenes y sonidos: respeto a las licencias de uso, derechos de autoría y distribución de contenidos generados por otras personas.",
       "broader": "sb:PEAR05SBII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3676,6 +3974,7 @@
       "definition": "Reconocimiento de manifestaciones artísticas del patrimonio cultural de Canarias: pintura, escultura, arquitectura, cerámica y artesanía.",
       "broader": "sb:PEAR05SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3687,6 +3986,7 @@
       "definition": "Iniciación a la cultura visual. Uso de técnicas y estrategias de lectura, análisis e interpretación de la imagen en el mundo actual. Identificación de estereotipos sexistas.",
       "broader": "sb:PEAR05SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3698,6 +3998,7 @@
       "definition": "Empleo de elementos configurativos del lenguaje visual y sus posibilidades expresivas: punto, línea, plano, textura, color, forma y espacio.",
       "broader": "sb:PEAR05SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3709,6 +4010,7 @@
       "definition": "Utilización de materiales, instrumentos, soportes y técnicas en la expresión plástica y visual.",
       "broader": "sb:PEAR05SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3720,6 +4022,7 @@
       "definition": "Uso de medios, soportes y materiales de expresión plástica y visual. Empleo de técnicas bidimensionales y tridimensionales en dibujos y modelados.",
       "broader": "sb:PEAR05SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3731,6 +4034,7 @@
       "definition": "Reconocimiento de técnicas, materiales y recursos informáticos y tecnológicos. Aplicación para la captura, creación, manipulación y difusión de producciones plásticas y visuales.",
       "broader": "sb:PEAR05SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3742,6 +4046,7 @@
       "definition": "Registro y edición de elementos audiovisuales: conceptos, tecnologías, técnicas y recursos elementales y de manejo sencillo.",
       "broader": "sb:PEAR05SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3753,6 +4058,7 @@
       "definition": "Aplicación de estrategias y técnicas de composición de historias audiovisuales.",
       "broader": "sb:PEAR05SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3764,6 +4070,7 @@
       "definition": "Valoración del cine como forma de narración audiovisual.",
       "broader": "sb:PEAR05SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3775,6 +4082,7 @@
       "definition": "Identificación de géneros y formatos de producciones audiovisuales: cortometraje, videoclip, documental, spot, reportaje…",
       "broader": "sb:PEAR05SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3786,6 +4094,7 @@
       "definition": "Manejo de herramientas y técnicas básicas de animación.",
       "broader": "sb:PEAR05SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3797,6 +4106,7 @@
       "definition": "Reconocimiento de las características del lenguaje audiovisual multimodal: texto, audio, imagen…",
       "broader": "sb:PEAR05SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3808,6 +4118,7 @@
       "definition": "Realización de producciones multimodales con diversas herramientas.",
       "broader": "sb:PEAR05SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3819,6 +4130,7 @@
       "definition": "Identificación visual y auditiva, clasificación y representación del sonido, de sus cualidades y de estructuras rítmico-melódicas a través de grafías convencionales y no convencionales.",
       "broader": "sb:PEAR05SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3830,6 +4142,7 @@
       "definition": "Identificación visual y auditiva de los instrumentos musicales convencionales, no convencionales, digitales, cotidiáfonos, así como de los de la música tradicional y popular canaria. Clasificación de la voz y los instrumentos en familias y agrupaciones.",
       "broader": "sb:PEAR05SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3841,6 +4154,7 @@
       "definition": "Experimentación y reconocimiento del carácter, el tempo, el compás, la textura, la armonía, la forma y el género musical.",
       "broader": "sb:PEAR05SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3852,6 +4166,7 @@
       "definition": "Práctica instrumental, vocal y corporal de manifestaciones propias del patrimonio cultural y artístico de Canarias y de diferentes estilos, épocas y culturas: experimentación, exploración creativa, interpretación, improvisación y composición a partir de sus posibilidades sonoras y expresivas.",
       "broader": "sb:PEAR05SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3863,6 +4178,7 @@
       "definition": "Construcción de instrumentos musicales con materiales de uso común, reutilizados y del entorno.",
       "broader": "sb:PEAR05SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3874,6 +4190,7 @@
       "definition": "Aplicación de conceptos fundamentales de lenguajes musicales en la interpretación y en la improvisación de propuestas musicales vocales e instrumentales. Valoración del silencio como elemento indispensable en la música.",
       "broader": "sb:PEAR05SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3885,6 +4202,7 @@
       "definition": "Utilización de herramientas digitales de grabación, edición de audio y edición de partituras en la audición, el conocimiento, la interpretación, la grabación, la reproducción, la improvisación y la creación de obras diversas.",
       "broader": "sb:PEAR05SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3896,6 +4214,7 @@
       "definition": "Experimentación y exploración del cuerpo y sus posibilidades motrices, dramáticas y creativas en ejecuciones individuales y grupales vinculadas con el movimiento, la danza, la dramatización y la representación teatral como medios de expresión, diversión e interacción social. Fomento de la autoestima y la conciencia corporal positiva.",
       "broader": "sb:PEAR05SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3907,6 +4226,7 @@
       "definition": "Aplicación de técnicas dramáticas y dancísticas, de elementos básicos de lenguajes expresivos y de nociones elementales de biomecánica. Introducción a los métodos interpretativos. Experimentación con actos performativos elementales e improvisación guiada y creativa.",
       "broader": "sb:PEAR05SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3918,6 +4238,7 @@
       "definition": "Experimentación, exploración e interpretación de danzas tradicionales y populares de Canarias.",
       "broader": "sb:PEAR05SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3929,6 +4250,7 @@
       "definition": "Aplicación de las posibilidades expresivas y creativas de la expresión corporal y dramática.",
       "broader": "sb:PEAR05SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3940,6 +4262,7 @@
       "definition": "Empleo de los elementos de la representación escénica, la teatralidad y la estructura dramática básica.",
       "broader": "sb:PEAR05SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3951,6 +4274,7 @@
       "definition": "Aproximación a los géneros escénicos. Valoración de la importancia de la interpretación dramática en el proceso artístico y del patrimonio vinculado a las artes escénicas.",
       "broader": "sb:PEAR05SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -3962,6 +4286,7 @@
       "definition": "Análisis de propuestas del patrimonio cultural y artístico de Canarias y de diferentes corrientes estéticas, procedencias y épocas producidas por creadoras y creadores locales, regionales, nacionales e internacionales.",
       "broader": "sb:PEAR06SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3973,6 +4298,7 @@
       "definition": "Aplicación de estrategias de recepción activa.",
       "broader": "sb:PEAR06SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3984,6 +4310,7 @@
       "definition": "Asimilación de las normas de comportamiento y actitud positiva ante el hecho artístico. Valoración del silencio como condición indispensable para la adecuada recepción de propuestas artísticas.",
       "broader": "sb:PEAR06SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -3995,6 +4322,7 @@
       "definition": "Empleo de vocabulario específico de las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas.",
       "broader": "sb:PEAR06SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4006,6 +4334,7 @@
       "definition": "Utilización y selección de recursos digitales en las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas.",
       "broader": "sb:PEAR06SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4017,6 +4346,7 @@
       "definition": "Aplicación de estrategias básicas para el análisis de propuestas artísticas desde una perspectiva de género. Identificación de estereotipos sexistas.",
       "broader": "sb:PEAR06SBI",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4028,6 +4358,7 @@
       "definition": "Aplicación de las fases del proceso creativo: planificación, interpretación, experimentación y evaluación.",
       "broader": "sb:PEAR06SBII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4039,6 +4370,7 @@
       "definition": "Reconocimiento de profesiones vinculadas con las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas: artesanía, pintura, música, escultura, maquetación, diseño gráfico, iluminación y sonido, realización…",
       "broader": "sb:PEAR06SBII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4050,6 +4382,7 @@
       "definition": "Evaluación, valoración e interés tanto por el proceso como por el producto final en producciones plásticas, visuales, audiovisuales, musicales, escénicas y performativas.",
       "broader": "sb:PEAR06SBII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4061,6 +4394,7 @@
       "definition": "Uso responsable de bancos de imágenes y sonidos: respeto a las licencias de uso, derechos de autoría y distribución de contenidos generados por otras personas.",
       "broader": "sb:PEAR06SBII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4072,6 +4406,7 @@
       "definition": "Reconocimiento de manifestaciones artísticas del patrimonio cultural de Canarias: pintura, escultura, arquitectura, cerámica y artesanía.",
       "broader": "sb:PEAR06SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4083,6 +4418,7 @@
       "definition": "Iniciación a la cultura visual. Uso de técnicas y estrategias de lectura, análisis e interpretación de la imagen en el mundo actual. Identificación de estereotipos sexistas.",
       "broader": "sb:PEAR06SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4094,6 +4430,7 @@
       "definition": "Empleo de elementos configurativos del lenguaje visual y sus posibilidades expresivas: punto, línea, plano, textura, color, forma y espacio.",
       "broader": "sb:PEAR06SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4105,6 +4442,7 @@
       "definition": "Utilización de materiales, instrumentos, soportes y técnicas en la expresión plástica y visual.",
       "broader": "sb:PEAR06SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4116,6 +4454,7 @@
       "definition": "Uso de medios, soportes y materiales de expresión plástica y visual. Empleo de técnicas bidimensionales y tridimensionales en dibujos y modelados.",
       "broader": "sb:PEAR06SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4127,6 +4466,7 @@
       "definition": "Reconocimiento de técnicas, materiales y recursos informáticos y tecnológicos. Aplicación para la captura, creación, manipulación y difusión de producciones plásticas y visuales.",
       "broader": "sb:PEAR06SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4138,6 +4478,7 @@
       "definition": "Registro y edición de elementos audiovisuales: conceptos, tecnologías, técnicas y recursos elementales y de manejo sencillo.",
       "broader": "sb:PEAR06SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4149,6 +4490,7 @@
       "definition": "Aplicación de estrategias y técnicas de composición de historias audiovisuales.",
       "broader": "sb:PEAR06SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4160,6 +4502,7 @@
       "definition": "Valoración del cine como forma de narración audiovisual.",
       "broader": "sb:PEAR06SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4171,6 +4514,7 @@
       "definition": "Identificación de géneros y formatos de producciones audiovisuales: cortometraje, videoclip, documental, spot, reportaje…",
       "broader": "sb:PEAR06SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4182,6 +4526,7 @@
       "definition": "Manejo de herramientas y técnicas básicas de animación.",
       "broader": "sb:PEAR06SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4193,6 +4538,7 @@
       "definition": "Reconocimiento de las características del lenguaje audiovisual multimodal: texto, audio, imagen…",
       "broader": "sb:PEAR06SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4204,6 +4550,7 @@
       "definition": "Realización de producciones multimodales con diversas herramientas.",
       "broader": "sb:PEAR06SBIII",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4215,6 +4562,7 @@
       "definition": "Identificación visual y auditiva, clasificación y representación del sonido, de sus cualidades y de estructuras rítmico-melódicas a través de grafías convencionales y no convencionales.",
       "broader": "sb:PEAR06SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4226,6 +4574,7 @@
       "definition": "Identificación visual y auditiva de los instrumentos musicales convencionales, no convencionales, digitales, cotidiáfonos, así como de los de la música tradicional y popular canaria. Clasificación de la voz y los instrumentos en familias y agrupaciones.",
       "broader": "sb:PEAR06SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4237,6 +4586,7 @@
       "definition": "Experimentación y reconocimiento del carácter, el tempo, el compás, la textura, la armonía, la forma y el género musical.",
       "broader": "sb:PEAR06SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4248,6 +4598,7 @@
       "definition": "Práctica instrumental, vocal y corporal de manifestaciones propias del patrimonio cultural y artístico de Canarias y de diferentes estilos, épocas y culturas: experimentación, exploración creativa, interpretación, improvisación y composición a partir de sus posibilidades sonoras y expresivas.",
       "broader": "sb:PEAR06SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4259,6 +4610,7 @@
       "definition": "Construcción de instrumentos musicales con materiales de uso común, reutilizados y del entorno.",
       "broader": "sb:PEAR06SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4270,6 +4622,7 @@
       "definition": "Aplicación de conceptos fundamentales de lenguajes musicales en la interpretación y en la improvisación de propuestas musicales vocales e instrumentales. Valoración del silencio como elemento indispensable en la música.",
       "broader": "sb:PEAR06SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4281,6 +4634,7 @@
       "definition": "Utilización de herramientas digitales de grabación, edición de audio y edición de partituras en la audición, el conocimiento, la interpretación, la grabación, la reproducción, la improvisación y la creación de obras diversas.",
       "broader": "sb:PEAR06SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4292,6 +4646,7 @@
       "definition": "Experimentación y exploración del cuerpo y sus posibilidades motrices, dramáticas y creativas en ejecuciones individuales y grupales vinculadas con el movimiento, la danza, la dramatización y la representación teatral como medios de expresión, diversión e interacción social. Fomento de la autoestima y la conciencia corporal positiva.",
       "broader": "sb:PEAR06SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4303,6 +4658,7 @@
       "definition": "Aplicación de técnicas dramáticas y dancísticas, de elementos básicos de lenguajes expresivos y de nociones elementales de biomecánica. Introducción a los métodos interpretativos. Experimentación con actos performativos elementales e improvisación guiada y creativa.",
       "broader": "sb:PEAR06SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4314,6 +4670,7 @@
       "definition": "Experimentación, exploración e interpretación de danzas tradicionales y populares de Canarias.",
       "broader": "sb:PEAR06SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4325,6 +4682,7 @@
       "definition": "Aplicación de las posibilidades expresivas y creativas de la expresión corporal y dramática.",
       "broader": "sb:PEAR06SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4336,6 +4694,7 @@
       "definition": "Empleo de los elementos de la representación escénica, la teatralidad y la estructura dramática básica.",
       "broader": "sb:PEAR06SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -4347,6 +4706,7 @@
       "definition": "Aproximación a los géneros escénicos. Valoración de la importancia de la interpretación dramática en el proceso artístico y del patrimonio vinculado a las artes escénicas.",
       "broader": "sb:PEAR06SBIV",
       "materia": "materia:PEAR",
+      "materia_curso": "asig:PEAR06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     }

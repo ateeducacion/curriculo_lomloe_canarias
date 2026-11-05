@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BEMJ02",
+      "tipo": "MateriaCurso",
+      "notation": "BEMJ02",
+      "prefLabel": "Empresa y Diseño de Modelos de Negocio · 2º Bachillerato",
+      "broader": "materia:BEMJ",
+      "materia": "materia:BEMJ",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BEMJC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BEMJC1",
@@ -67,7 +77,7 @@
       "notation": "BEMJ02BC1",
       "prefLabel": "Empresa y Diseño de Modelos de Negocio · 2º Bachillerato · bloque competencial C1",
       "scopeNote": "Con el desarrollo de esta competencia específica se evaluará la capacidad del alumnado para valorar con actitud crítica el impacto de las actividades empresariales y su digitalización en el desarrollo social y económico, empleando el método de estudio de casos y el análisis de información procedente de diversas fuentes como pueden ser vídeos, artículos periodísticos, informes económicos-empresariales (como los informes de medición del emprendimiento GEM —Global Entrepreneurship Monitor—, los de la Confederación Canaria de Empresarios, etc.), entrevistas a empresarios y empresarias del entorno cercano con perfil creativo y emprendedor, visitas a empresas o centros de emprendimiento, etc., para construir conocimiento sobre el papel transformador de las empresas y del emprendimiento en el funcionamiento global de la economía actual. A continuación, se comprobará que es capaz de analizar la importancia de la I+D+i en el desarrollo empresarial y de explicar las teorías, los tipos, las tendencias emergentes y las estrategias de innovación, evaluando su sostenibilidad y la influencia que puedan tener en el entorno y en el progreso de la sociedad, a través del estudio de experiencias de innovación, tanto locales como globales, para fomentar su creatividad y espíritu emprendedor en diferentes ámbitos o de la presentación de contenidos digitales creados, integrados o reelaborados de forma individual o colectiva, referidos a casos de éxito de innovación empresarial, de creatividad emprendedora de empresarios y empresarias, de aplicación de nuevas soluciones y tendencias tecnológicas innovadoras con impacto en el desarrollo económico a nivel local y global, etc.",
-      "broader": "materia:BEMJ",
+      "broader": "asig:BEMJ02",
       "agrupa": [
         "ce:BEMJC1"
       ],
@@ -88,6 +98,7 @@
         "CD5"
       ],
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -97,7 +108,7 @@
       "notation": "BEMJ02BC2",
       "prefLabel": "Empresa y Diseño de Modelos de Negocio · 2º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de esta competencia específica se verificará la capacidad del alumnado para identificar la influencia del entorno general y específico en la actividad de las empresas, investigando las peculiaridades del entorno y la utilización de los instrumentos del Régimen Económico y Fiscal de Canarias (REF) en el ámbito empresarial canario, así como las estrategias competitivas que adoptan las empresas ante los cambios económicos y sociales, para lo que analiza diversos casos prácticos aplicando criterios de validez, calidad y actualidad en las búsquedas avanzadas de información empresarial. A continuación, se evaluará que analiza los elementos, las funciones, la aportación de valor de las empresas a la economía y su tipología aplicando distintos criterios de clasificación y las formas jurídicas que adoptan, en relación con las responsabilidades legales de las personas propietarias y gestoras y con las exigencias del capital requerido para su constitución. Además, se comprobará que identifica el marco jurídico que regula las actividades empresariales y que investiga las características básicas del tejido empresarial, tanto nacional como canario, mediante la consulta de diversos datos y series estadísticas oficiales (Instituto Nacional de Estadística, Instituto Canario de Estadística, DGIPYME, etc.), transmitiendo de forma precisa los conocimientos empresariales adquiridos. Adicionalmente, se verificará si el alumnado identifica las distintas decisiones empresariales de localización y dimensión, evaluando con sentido crítico y ético, las ventajas e inconvenientes que presentan las pymes y las economías de escala para el crecimiento empresarial. Finalmente, se constatará si valora el esfuerzo que realizan las empresas para integrar los Objetivos de Desarrollo Sostenible (ODS) y de la Agenda Canaria 2030 en sus compromisos éticos de responsabilidad social corporativa (RSC), analizando de forma crítica las relaciones de inter y ecodependencia entre las formas de vida y el entorno, de la huella ecológica empresarial y las posibles implicaciones sociales de su actividad en el entorno, en especial las políticas de igualdad y de inclusión en las empresas, a través de la localización, selección y contraste de manera autónoma de información empresarial procedente de diferentes fuentes.",
-      "broader": "materia:BEMJ",
+      "broader": "asig:BEMJ02",
       "agrupa": [
         "ce:BEMJC2"
       ],
@@ -113,6 +124,7 @@
         "CE1"
       ],
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -122,7 +134,7 @@
       "notation": "BEMJ02BC3",
       "prefLabel": "Empresa y Diseño de Modelos de Negocio · 2º Bachillerato · bloque competencial C3",
       "scopeNote": "En el desarrollo de este bloque competencial se evaluará la capacidad emprendedora del alumnado en la toma de decisiones empresariales y para ello se comprobará que es capaz de analizar las características organizativas y funcionales de la empresa comparando los planteamientos de distintos modelos de negocios (long tail, freemiun, multiplataforma y app, entre otros) aplicados a contextos locales o globales, así como de proponer ideas de negocios innovadoras participando en procesos grupales de exploración del entorno y de organización de ideas, utilizando técnicas como design thinking o pensamiento visual, aplicando dinámicas de ideación (como pueden ser brainstorming, Walt Disney —pensamiento soñador, realista, crítico—, seis sombreros para pensar, brainwriting, etc.), así como procesos de divergencia y convergencia en la creatividad de ideas en el diseño de modelos de negocios, para construir una propuesta de valor innovadora y sostenible socialmente. Además, se verificará que el alumnado participa activamente en la toma de decisiones para desarrollar las ideas o las mejoras propuestas de los modelos de negocio, empleando la herramienta del lienzo de negocio Canvas, contemplando los posibles escenarios futuros detectados y transfiriendo a su modelo de negocio los conocimientos adquiridos sobre las áreas funcionales de la empresa. En este sentido, para el estudio de la función comercial de la empresa, se comprobará su capacidad para tomar decisiones fundamentadas sobre la propuesta de valor, los canales de distribución, las relaciones con clientes, las fuentes de ingresos y las estrategias de marketing necesarias para llevar a la práctica las propuestas innovadoras del modelo de negocio, para lo que compara, analiza, evalúa y sintetiza datos e información de diferentes fuentes sobre la competencia, las oportunidades y los nichos del mercado, explicando el segmento de los potenciales clientes al que se dirigen mediante la elaboración de un mapa de empatía, con el fin de obtener conclusiones de forma autónoma sobre sus necesidades y puntos de vista del proyecto empresarial. En cambio, para el estudio de la función productiva de la empresa se evaluará su capacidad para analizar la eficiencia productiva esperada a través de la medición de los indicadores de la productividad y de sus variaciones, determinando las actividades, los recursos y las asociaciones claves necesarias para el desarrollo de las propuestas del modelo de negocio y calculando la estructura de los diferentes tipos de costes del proyecto. Para todo ello se verificará que utiliza el método científico, planteándose hipótesis a través de diversos casos prácticos productivos y contrastándolas mediante herramientas de cálculo adecuadas, apreciando la importancia de la precisión y la veracidad y mostrando una actitud crítica acerca de los métodos empleados. Finalmente, se comprobará que integra a su modelo de negocio los saberes sobre la gestión de los recursos humanos y las relaciones laborales de la empresa mediante el análisis de la contratación y las habilidades que demanda el mercado de trabajo y la adopción de un juicio propio y argumentado ante problemas éticos del mercado de trabajo, afrontando con actitud dialogante la pluralidad de valores e ideas, rechazando todo tipo de discriminación y promoviendo activamente la igualdad efectiva entre mujeres y hombres.",
-      "broader": "materia:BEMJ",
+      "broader": "asig:BEMJ02",
       "agrupa": [
         "ce:BEMJC3"
       ],
@@ -143,6 +155,7 @@
         "CD1"
       ],
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -152,7 +165,7 @@
       "notation": "BEMJ02BC4",
       "prefLabel": "Empresa y Diseño de Modelos de Negocio · 2º Bachillerato · bloque competencial C4",
       "scopeNote": "En la evaluación de esta competencia se verificará que el alumnado es capaz de aplicar estrategias y destrezas comunicativas eficaces y adecuadas al contexto que le permitan enriquecer de forma sistemática su repertorio lingüístico individual, con actitud respetuosa en la gestión e intercambio de información. Se comprobará, por tanto, que demuestra capacidad para analizar y sintetizar datos, información e ideas sobre la utilidad y posibles aplicaciones del modelo de negocio propuesto, utilizando herramientas de organización y comunicación de ideas (como pensamiento visual o visual thinking, entre otras) para la preparación de la presentación del prototipado de bienes y servicios realizado. A continuación, se constatará que participa proactivamente en la exposición del proyecto o idea de negocio al entorno empresarial y que se expresa, a partir de sus experiencias, con fluidez, coherencia, corrección y adecuación en los diferentes contextos sociales, profesionales y académicos, en una o más lenguas, además de la lengua o lenguas familiares, y empleando, de manera rigurosa y crítica, diversas herramientas de presentación (narración de historias o storytelling, el discurso en el ascensor o elevator pitch o rocket pitch, entre otras metodologías). Paralelamente, se constatará que incorpora a su entorno personal de aprendizaje dispositivos digitales, herramientas, aplicaciones y servicios en línea para comunicarse, tanto en el ámbito interno como en el externo, adoptando un punto de vista creativo y respetuoso con la propiedad intelectual, y se comprobará con todo ello, como proceso de retroalimentación, que es capaz de validar y contrastar las ideas y soluciones desarrolladas que le faciliten el proceso de toma de decisiones sobre la solución adoptada.",
-      "broader": "materia:BEMJ",
+      "broader": "asig:BEMJ02",
       "agrupa": [
         "ce:BEMJC4"
       ],
@@ -171,6 +184,7 @@
         "CE1"
       ],
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -180,7 +194,7 @@
       "notation": "BEMJ02BC5",
       "prefLabel": "Empresa y Diseño de Modelos de Negocio · 2º Bachillerato · bloque competencial C5",
       "scopeNote": "Con esta competencia específica se persigue evaluar el proceso de validación y las estrategias empresariales aplicadas por el alumnado en el proyecto empresarial dentro de un contexto determinado, empleando el método de la simulación en los análisis económicos y financieros que realice y valorándose la utilización de dispositivos, herramientas y aplicaciones, como la hoja de cálculo. Para ello se verificará, en primer lugar, que el alumnado analiza, con sentido crítico y ético, el entorno del modelo de negocio propuesto, estudiando las variables macroeconómicas y las fuerzas competitivas del sector a partir de la previsión de las tendencias claves del momento y, en segundo lugar, se comprobará que realiza una evaluación previa del mismo a través de conocimientos y herramientas económicas y empresariales, analizando las fortalezas y debilidades empleando el método DAFO, realizando una previsión de ingresos y costes y calculando el umbral de rentabilidad, para reflexionar sobre los resultados obtenidos y las oportunidades para llevar a la acción la iniciativa emprendedora. Seguidamente, siguiendo con la simulación, se constatará la implicación del alumnado para redactar en un plan de negocio básico la justificación de todas las decisiones y las estrategias empresariales adoptadas para alcanzar los objetivos previstos en un entorno competitivo, transmitiendo de esta forma una perspectiva integral de todo proceso llevado a cabo. Además, se evaluará su capacidad para analizar los procesos de toma de decisiones empresariales mediante la aplicación de distintos criterios de las matrices de decisión (Laplace, optimista, pesimista, etc.), estudiando los resultados esperados en relación con los distintos ambientes de decisión. A continuación, se evaluará la capacidad del alumnado para validar de forma ágil un modelo de negocio en un escenario simulado aplicando la metodología lean startup y sus correspondientes herramientas, reconociendo las peculiaridades diferenciadoras de esta metodología, valorando las ventajas que el desarrollo de clientes y de producto ágil, la experimentación, los lanzamientos de productos iterativos y el aprendizaje validado tienen para alcanzar el éxito del modelo de negocio en el mercado. Asimismo, se constatará la capacidad del alumnado para identificar las distintas modalidades de propiedad intelectual e industrial a las que puede acogerse para proteger la idea, el producto o la marca propuestas. Por último, se comprobará que el alumnado es capaz de analizar la estructura económico-financiera simulada de una empresa, valorando la importancia de las inversiones y aplicando diversos métodos de selección de proyectos de inversión, como pueden ser el plazo de recuperación y el valor actualizado neto, interpretando y transmitiendo las variables más relevantes en diferentes formatos cómo fórmulas o tablas. Asimismo, se verificará que evalúa, a partir de diversas necesidades de inversión, las características, ventajas e inconvenientes de las diferentes alternativas de financiación externa e interna disponibles para obtener los recursos financieros necesarios para la puesta en marcha de los proyectos de negocio emprendedores. Además, se constatará que el alumnado reconoce la importancia que el tratamiento, análisis e interpretación de la información contable y de los estados financieros tienen sobre las decisiones empresariales, elaborando y analizando balances de situación y cuentas de pérdidas y ganancias, aplicando diversas herramientas de análisis específicos e indicando las posibles soluciones a los desequilibrios encontrados.",
-      "broader": "materia:BEMJ",
+      "broader": "asig:BEMJ02",
       "agrupa": [
         "ce:BEMJC5"
       ],
@@ -198,6 +212,7 @@
         "CD2"
       ],
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -224,6 +239,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -248,6 +264,7 @@
         "CE1"
       ],
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -266,6 +283,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -284,6 +302,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -306,6 +325,7 @@
         "CE1"
       ],
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -327,6 +347,7 @@
         "CE3"
       ],
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -347,6 +368,7 @@
         "CE2"
       ],
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -365,6 +387,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -386,6 +409,7 @@
         "CE1"
       ],
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -406,6 +430,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -427,6 +452,7 @@
         "CE1"
       ],
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -446,6 +472,7 @@
         "CE3"
       ],
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -464,6 +491,7 @@
         "CE2"
       ],
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -483,6 +511,7 @@
         "CE3"
       ],
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -502,6 +531,7 @@
         "CE3"
       ],
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -511,8 +541,9 @@
       "notation": "BEMJ02SBI",
       "prefLabel": "BEMJ02SBI · I. La empresa y el análisis de su entorno",
       "definition": "La empresa y el análisis de su entorno",
-      "broader": "materia:BEMJ",
+      "broader": "asig:BEMJ02",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -522,8 +553,9 @@
       "notation": "BEMJ02SBII",
       "prefLabel": "BEMJ02SBII · II. El modelo de negocio y de gestión. Herramientas para innovar en modelos de negocio",
       "definition": "El modelo de negocio y de gestión. Herramientas para innovar en modelos de negocio",
-      "broader": "materia:BEMJ",
+      "broader": "asig:BEMJ02",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -533,8 +565,9 @@
       "notation": "BEMJ02SBIII",
       "prefLabel": "BEMJ02SBIII · III. Estrategia empresarial y métodos de análisis de la realidad empresarial: estudio de casos y simulación",
       "definition": "Estrategia empresarial y métodos de análisis de la realidad empresarial: estudio de casos y simulación",
-      "broader": "materia:BEMJ",
+      "broader": "asig:BEMJ02",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -546,6 +579,7 @@
       "definition": "Identificación del perfil del empresario o la empresaria.",
       "broader": "sb:BEMJ02SBI",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -557,6 +591,7 @@
       "definition": "Explicación del papel transformador de la actividad empresarial y del emprendimiento en la sociedad. Reflexión sobre mujer y emprendimiento.",
       "broader": "sb:BEMJ02SBI",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -568,6 +603,7 @@
       "definition": "La digitalización e innovación en la empresa.",
       "broader": "sb:BEMJ02SBI",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -579,6 +615,7 @@
       "definition": "Explicación de las teorías de la innovación, los tipos de innovación, las tendencias emergentes y las estrategias de innovación.",
       "broader": "sb:BEMJ02SBI.3",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -590,6 +627,7 @@
       "definition": "La influencia de la investigación, desarrollo e innovación (I+D+i) en el desarrollo social y empresarial.",
       "broader": "sb:BEMJ02SBI.3",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -601,6 +639,7 @@
       "definition": "Estudio de las características de las empresas.",
       "broader": "sb:BEMJ02SBI",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -612,6 +651,7 @@
       "definition": "Los elementos y las funciones de las empresas en la economía. La cadena de valor empresarial.",
       "broader": "sb:BEMJ02SBI.4",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -623,6 +663,7 @@
       "definition": "La clasificación de las empresas. Las características del tejido empresarial español y canario.",
       "broader": "sb:BEMJ02SBI.4",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -634,6 +675,7 @@
       "definition": "Las formas jurídicas empresariales: exigencias de capital y responsabilidad patrimonial. El marco jurídico que regula la actividad empresarial.",
       "broader": "sb:BEMJ02SBI.4",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -645,6 +687,7 @@
       "definition": "Análisis del entorno empresarial: estrategias y decisiones empresariales.",
       "broader": "sb:BEMJ02SBI",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -656,6 +699,7 @@
       "definition": "El estudio de los factores de entorno general y específico.",
       "broader": "sb:BEMJ02SBI.5",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -667,6 +711,7 @@
       "definition": "La investigación de las características del entorno empresarial canario.",
       "broader": "sb:BEMJ02SBI.5",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -678,6 +723,7 @@
       "definition": "Las claves empresariales de los instrumentos del Régimen Económico y Fiscal de Canarias (REF).",
       "broader": "sb:BEMJ02SBI.5",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -689,6 +735,7 @@
       "definition": "La competencia y la cuota de mercado. La identificación de las estrategias competitivas.",
       "broader": "sb:BEMJ02SBI.5",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -700,6 +747,7 @@
       "definition": "Las decisiones de localización y dimensión empresarial. Evaluación de las ventajas e inconvenientes de las pymes y de las economías de escala.",
       "broader": "sb:BEMJ02SBI.5",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -711,6 +759,7 @@
       "definition": "La responsabilidad social corporativa (RSC): análisis de la influencia de la empresa en el entorno. Estudio de casos prácticos.",
       "broader": "sb:BEMJ02SBI",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -722,6 +771,7 @@
       "definition": "Concepto e identificación de los ámbitos de la RSC.",
       "broader": "sb:BEMJ02SBI.6",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -733,6 +783,7 @@
       "definition": "La relación entre la Responsabilidad Social Corporativa, los Objetivos de Desarrollo Sostenible (ODS) y la Agenda Canaria 2030. La responsabilidad medioambiental de la empresa.",
       "broader": "sb:BEMJ02SBI.6",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -744,6 +795,7 @@
       "definition": "Análisis de las políticas de igualdad y de inclusión en las empresas.",
       "broader": "sb:BEMJ02SBI.6",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -755,6 +807,7 @@
       "definition": "El reconocimiento de la innovación en los nuevos modelos de negocio.",
       "broader": "sb:BEMJ02SBII",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -766,6 +819,7 @@
       "definition": "El desarrollo del lienzo de modelo de negocio y de gestión Canvas: concepto, áreas, bloques, utilidad y patrones de modelos de negocio.",
       "broader": "sb:BEMJ02SBII",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -777,6 +831,7 @@
       "definition": "La creatividad aplicada al diseño de modelo de negocio y de gestión.",
       "broader": "sb:BEMJ02SBII",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -788,6 +843,7 @@
       "definition": "El proceso de creatividad: divergencia y convergencia.",
       "broader": "sb:BEMJ02SBII.3",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -799,6 +855,7 @@
       "definition": "Dinámicas de generación de nuevas ideas de modelos de negocio.",
       "broader": "sb:BEMJ02SBII.3",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -810,6 +867,7 @@
       "definition": "El estudio de la función comercial de las empresas.",
       "broader": "sb:BEMJ02SBII",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -821,6 +879,7 @@
       "definition": "Valoración de la competencia, oportunidades y nichos de mercado. La segmentación de clientes y la propuesta de valor.",
       "broader": "sb:BEMJ02SBII.4",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -832,6 +891,7 @@
       "definition": "El punto de vista de los clientes: elaboración del mapa de empatía.",
       "broader": "sb:BEMJ02SBII.4",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -843,6 +903,7 @@
       "definition": "Las decisiones comerciales sobre las estrategias de marketing y las variables del marketing-mix.",
       "broader": "sb:BEMJ02SBII.4",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -854,6 +915,7 @@
       "definition": "Desarrollo de los canales de distribución, las relaciones con clientes y las fuentes de ingresos en el modelo de negocio.",
       "broader": "sb:BEMJ02SBII.4",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -865,6 +927,7 @@
       "definition": "El estudio de la función productiva.",
       "broader": "sb:BEMJ02SBII",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -876,6 +939,7 @@
       "definition": "Desarrollo de las actividades claves, los recursos claves y asociaciones claves. Estructura de costes: clasificación y cálculo de costes en el modelo de negocio.",
       "broader": "sb:BEMJ02SBII.5",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -887,6 +951,7 @@
       "definition": "Análisis de la eficiencia productiva: medición de la productividad.",
       "broader": "sb:BEMJ02SBII.5",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -898,6 +963,7 @@
       "definition": "La gestión de los recursos humanos. Formación y funcionamiento de equipos ágiles. Habilidades que demanda el mercado de trabajo. La contratación y las relaciones laborales de la empresa.",
       "broader": "sb:BEMJ02SBII",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -909,6 +975,7 @@
       "definition": "Las herramientas de organización y comunicación de ideas.",
       "broader": "sb:BEMJ02SBII",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -920,6 +987,7 @@
       "definition": "El pensamiento visual o visual thinking. Capacidad de síntesis.",
       "broader": "sb:BEMJ02SBII.7",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -931,6 +999,7 @@
       "definition": "El prototipado: concepto y utilidad. Posibilidades de prototipado: bienes, servicios y aplicaciones.",
       "broader": "sb:BEMJ02SBII.7",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -942,6 +1011,7 @@
       "definition": "Las herramientas de presentación de un proyecto o comunicación de una idea: narración de historias o storytelling, discurso en el ascensor o elevator pitch y otras metodologías.",
       "broader": "sb:BEMJ02SBII.7",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -953,6 +1023,7 @@
       "definition": "Los escenarios: exploración de ideas, escenarios futuros y nuevos modelos de negocio.",
       "broader": "sb:BEMJ02SBII",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -964,6 +1035,7 @@
       "definition": "Otras herramientas para innovar en modelos de negocio y de gestión.",
       "broader": "sb:BEMJ02SBII",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -975,6 +1047,7 @@
       "definition": "El análisis del entorno del modelo de negocio. La previsión de las tendencias clave del entorno: estudio de las variables macroeconómicas y de las fuerzas competitivas del sector.",
       "broader": "sb:BEMJ02SBIII",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -986,6 +1059,7 @@
       "definition": "La evaluación previa de modelos de negocio: análisis DAFO.",
       "broader": "sb:BEMJ02SBIII",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -997,6 +1071,7 @@
       "definition": "Análisis previsional de ingresos y costes y el umbral de rentabilidad.",
       "broader": "sb:BEMJ02SBIII",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1008,6 +1083,7 @@
       "definition": "La validación del modelo de negocio. Metodología lean startup: herramientas, desarrollo de clientes y desarrollo de producto ágil.",
       "broader": "sb:BEMJ02SBIII",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1019,6 +1095,7 @@
       "definition": "La valoración de la protección de la idea, del producto y de la marca.",
       "broader": "sb:BEMJ02SBIII",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1030,6 +1107,7 @@
       "definition": "El proceso de toma de decisiones en la empresa: la matriz y ambientes de decisión. Las decisiones estratégicas empresariales: tipos de estrategias. Redacción de un plan de negocio básico.",
       "broader": "sb:BEMJ02SBIII",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1041,6 +1119,7 @@
       "definition": "Simulación en hoja de cálculo: herramienta para la toma de decisiones.",
       "broader": "sb:BEMJ02SBIII",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1052,6 +1131,7 @@
       "definition": "El análisis de la función financiera.",
       "broader": "sb:BEMJ02SBIII",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1063,6 +1143,7 @@
       "definition": "Análisis de la estructura económica y financiera de la empresa.",
       "broader": "sb:BEMJ02SBIII.8",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1074,6 +1155,7 @@
       "definition": "Las decisiones de inversión: concepto y tipos de inversión. Valoración y selección de inversiones: plazo de recuperación y valor actual neto.",
       "broader": "sb:BEMJ02SBIII.8",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1085,6 +1167,7 @@
       "definition": "Estudio de los recursos financieros. Análisis de fuentes alternativas de financiación interna y externa.",
       "broader": "sb:BEMJ02SBIII.8",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1096,6 +1179,7 @@
       "definition": "La información en la empresa: obligaciones contables.",
       "broader": "sb:BEMJ02SBIII",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1107,6 +1191,7 @@
       "definition": "Composición y valoración del patrimonio.",
       "broader": "sb:BEMJ02SBIII.9",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1118,6 +1203,7 @@
       "definition": "Explicación de las cuentas anuales e imagen fiel.",
       "broader": "sb:BEMJ02SBIII.9",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1129,6 +1215,7 @@
       "definition": "Elaboración de balance y cuenta de pérdidas y ganancias.",
       "broader": "sb:BEMJ02SBIII.9",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1140,6 +1227,7 @@
       "definition": "El análisis de resultados: estudio de mercado, análisis e interpretación de la información contable y análisis de estados financieros.",
       "broader": "sb:BEMJ02SBIII",
       "materia": "materia:BEMJ",
+      "materia_curso": "asig:BEMJ02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     }

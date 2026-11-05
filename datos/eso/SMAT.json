@@ -14,6 +14,36 @@
       "etapa": "etapa:ESO"
     },
     {
+      "id": "asig:SMAT01",
+      "tipo": "MateriaCurso",
+      "notation": "SMAT01",
+      "prefLabel": "Matemáticas · 1º ESO",
+      "broader": "materia:SMAT",
+      "materia": "materia:SMAT",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "asig:SMAT02",
+      "tipo": "MateriaCurso",
+      "notation": "SMAT02",
+      "prefLabel": "Matemáticas · 2º ESO",
+      "broader": "materia:SMAT",
+      "materia": "materia:SMAT",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "asig:SMAT03",
+      "tipo": "MateriaCurso",
+      "notation": "SMAT03",
+      "prefLabel": "Matemáticas · 3º ESO",
+      "broader": "materia:SMAT",
+      "materia": "materia:SMAT",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
       "id": "ce:SMATC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "SMATC1",
@@ -119,7 +149,7 @@
       "notation": "SMAT01BC1",
       "prefLabel": "Matemáticas · 1º ESO · bloque competencial C1 + C2",
       "scopeNote": "A través de este bloque competencial se persigue que el alumnado sea capaz de resolver problemas de la vida cotidiana y propios de las matemáticas de cualquiera de los bloques de los saberes básicos, siguiendo todas las fases de resolución, haciendo uso de herramientas manuales o digitales, como regletas, fichas, dados, calculadoras, hojas de cálculo, programas de representación gráfica o geometría dinámica, entre otros. Para ello se comprobará que el alumnado sea capaz de interpretar problemas matemáticos, identificando los datos y el objetivo, definiendo la relación que existe entre ellos y representando la información mediante herramientas de modelización como diagramas, expresiones simbólicas, gráficas, etc. Además, se pretende comprobar si el alumnado aplica estrategias apropiadas, como la analogía con otros problemas, estimación, ensayo y error, resolución de manera inversa (ir hacia atrás), descomposición en problemas más sencillos, búsqueda de patrones, etc., buscando un cambio de estrategia cuando sea necesario y transformando el error en oportunidad de aprendizaje. También se evaluará que sea capaz de obtener las soluciones óptimas de un problema.",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT01",
       "agrupa": [
         "ce:SMATC1",
         "ce:SMATC2"
@@ -139,6 +169,7 @@
         "CC3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -148,7 +179,7 @@
       "notation": "SMAT01BC3",
       "prefLabel": "Matemáticas · 1º ESO · bloque competencial C3 + C4",
       "scopeNote": "A través de este bloque competencial se pretende que el alumnado, empleando métodos inductivos, deductivos y lógicos propios del razonamiento matemático, sea capaz de identificar y comprobar, de forma guiada por medio de la experimentación y la indagación, conjeturas numéricas y algebraicas sencillas, utilizando para tal fin herramientas digitales o manuales. Del mismo modo, se persigue que pueda reconocer patrones, analizar relaciones cuantitativas, así como desarrollar métodos con los que resolver problemas, actuando con curiosidad y perseverancia, para obtener e intercambiar conclusiones relevantes y generar nuevo conocimiento. Asimismo, este bloque competencial trata de comprobar, por un lado, que el alumnado es capaz de reconocer las partes más simples en las que se puede descomponer un problema para facilitar su interpretación y su tratamiento computacional, así como las posibles variantes del mismo; y por otro, que sabe modelizar diferentes situaciones y fenómenos de la vida cotidiana, apoyándose en representaciones matemáticas y en el lenguaje algebraico.",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT01",
       "agrupa": [
         "ce:SMATC3",
         "ce:SMATC4"
@@ -167,6 +198,7 @@
         "CD3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -176,7 +208,7 @@
       "notation": "SMAT01BC5",
       "prefLabel": "Matemáticas · 1º ESO · bloque competencial C5 + C6",
       "scopeNote": "Se persigue con este bloque competencial constatar que el alumnado es capaz de detectar conexiones entre diferentes procesos matemáticos, comenzando a desarrollar una visión coherente e integrada de las matemáticas, así como que sabe identificar las matemáticas implicadas en otras materias y en contextos reales reconociendo situaciones susceptibles de ser formuladas y resueltas mediante métodos propios del razonamiento científico, herramientas y estrategias matemáticas. También se evaluará que el alumnado reconoce la aportación de las matemáticas al progreso de la humanidad. En particular, su presencia y uso en diferentes contextos de las islas Canarias y su contribución a la superación de los retos que demanda la sociedad actual.",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT01",
       "agrupa": [
         "ce:SMATC5",
         "ce:SMATC6"
@@ -194,6 +226,7 @@
         "CCEC1"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -203,7 +236,7 @@
       "notation": "SMAT01BC7",
       "prefLabel": "Matemáticas · 1º ESO · bloque competencial C7 + C8",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de representar y comunicar, de forma individual y colectiva, ideas, conceptos, procedimientos, conclusiones, conjeturas y razonamientos asociados a cualquiera de los bloques de saberes básicos, utilizando el lenguaje oral, escrito o gráfico, con coherencia, claridad y terminología apropiada y empleando diversos medios y soportes en su presentación, así como reconocer y emplear el lenguaje matemático presente en la vida cotidiana y en los diferentes contextos.",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT01",
       "agrupa": [
         "ce:SMATC7",
         "ce:SMATC8"
@@ -224,6 +257,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -233,7 +267,7 @@
       "notation": "SMAT01BC9",
       "prefLabel": "Matemáticas · 1º ESO · bloque competencial C9 + C10",
       "scopeNote": "A través de este bloque competencial, que se trabajará de manera interrelacionada con el resto de bloques de la materia, se persigue que el alumnado desarrolle destrezas personales y sociales, así como actitudes con las que entender e identificar las emociones propias y las de los y las demás al trabajar individualmente o en grupo, identificando fortalezas y debilidades, mostrando actitud positiva y perseverante, reconociendo las situaciones de incertidumbre y escuchando la crítica razonada para entender el error como una oportunidad de aprendizaje. Asimismo, se evaluará que al trabajar en grupos heterogéneos el alumnado participa comunicándose de manera adecuada, evitando los conflictos, ayudando en el reparto de tareas, asumiendo el rol asignado y reconociendo la diversidad presente en el aula y en la sociedad.",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT01",
       "agrupa": [
         "ce:SMATC9",
         "ce:SMATC10"
@@ -254,6 +288,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -263,7 +298,7 @@
       "notation": "SMAT02BC1",
       "prefLabel": "Matemáticas · 2º ESO · bloque competencial C1 + C2",
       "scopeNote": "A través de este bloque competencial se persigue que el alumnado sea capaz de resolver problemas de la vida cotidiana y propios de las matemáticas de cualquiera de los bloques de los saberes básicos, siguiendo todas las fases de resolución, haciendo uso de herramientas manuales o digitales, como regletas, fichas, dados, calculadoras, hojas de cálculo, programas de representación gráfica o geometría dinámica, entre otros. Para ello se comprobará que el alumnado sea capaz de interpretar problemas matemáticos, identificando los datos y el objetivo, definiendo la relación que existe entre ellos y representando la información mediante herramientas de modelización como diagramas, expresiones simbólicas, gráficas, etc. Además, se pretende comprobar si el alumnado aplica estrategias, como la analogía con otros problemas, estimación, ensayo y error, resolución de manera inversa (ir hacia atrás), descomposición en problemas más sencillos, búsqueda de patrones, etc., buscando un cambio de estrategia cuando sea necesario y transformando el error en oportunidad de aprendizaje. También se evaluará que sea capaz de obtener las soluciones óptimas de un problema.",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT02",
       "agrupa": [
         "ce:SMATC1",
         "ce:SMATC2"
@@ -283,6 +318,7 @@
         "CC3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -292,7 +328,7 @@
       "notation": "SMAT02BC3",
       "prefLabel": "Matemáticas · 2º ESO · bloque competencial C3 + C4",
       "scopeNote": "A través de este bloque competencial se pretende que el alumnado, empleando métodos inductivos, deductivos y lógicos propios del razonamiento matemático, sea capaz de formular y comprobar, de forma guiada, por medio de la experimentación y la indagación, conjeturas sencillas; utilizando para tal fin distintos materiales y herramientas digitales. Del mismo modo, se persigue que pueda reconocer patrones numéricos, analizar relaciones cuantitativas, así como desarrollar métodos con los que resolver problemas, actuando con curiosidad y perseverancia, para obtener e intercambiar conclusiones relevantes y generar nuevo conocimiento. Asimismo, este bloque competencial trata de comprobar que el alumnado sabe reconocer las variantes de un problema y las partes más simples en las que este se puede descomponer, a fin de facilitar su interpretación y su tratamiento computacional, y también, que el alumnado es capaz de modelizar diferentes situaciones de la vida cotidiana, apoyándose en representaciones matemáticas, en el lenguaje algebraico, y en aplicaciones informáticas sencillas.",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT02",
       "agrupa": [
         "ce:SMATC3",
         "ce:SMATC4"
@@ -311,6 +347,7 @@
         "CD3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -320,7 +357,7 @@
       "notation": "SMAT02BC5",
       "prefLabel": "Matemáticas · 2º ESO · bloque competencial C5 + C6",
       "scopeNote": "Se persigue con este bloque competencial constatar que el alumnado es capaz de establecer conexiones entre diferentes procesos matemáticos, comenzando a desarrollar una visión coherente e integrada de las matemáticas, así como que sabe identificar las matemáticas implicadas en otras materias y en contextos reales reconociendo situaciones susceptibles de ser formuladas y resueltas mediante métodos propios del razonamiento científico, herramientas y estrategias matemáticas. También se evaluará que el alumnado reconoce la aportación de las matemáticas al progreso de la humanidad. En particular, su presencia y uso en diferentes contextos de las islas Canarias y su contribución a la superación de los retos que demanda la sociedad actual.",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT02",
       "agrupa": [
         "ce:SMATC5",
         "ce:SMATC6"
@@ -338,6 +375,7 @@
         "CCEC1"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -347,7 +385,7 @@
       "notation": "SMAT02BC7",
       "prefLabel": "Matemáticas · 2º ESO · bloque competencial C7 + C8",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de representar y comunicar, de forma individual y colectiva, ideas, conceptos, procedimientos, conclusiones, conjeturas y razonamientos asociados a cualquiera de los bloques de saberes básicos, utilizando el lenguaje oral, escrito o gráfico, con coherencia, claridad y terminología apropiada y empleando diversos medios y soportes en su presentación, así como reconocer y emplear el lenguaje matemático presente en la vida cotidiana y en los diferentes contextos.",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT02",
       "agrupa": [
         "ce:SMATC7",
         "ce:SMATC8"
@@ -368,6 +406,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -377,7 +416,7 @@
       "notation": "SMAT02BC9",
       "prefLabel": "Matemáticas · 2º ESO · bloque competencial C9 + C10",
       "scopeNote": "A través de este bloque competencial, que se trabajará de manera interrelacionada con el resto de bloques de la materia, se persigue que el alumnado desarrolle destrezas personales y sociales, así como actitudes con las que entender y gestionar las emociones propias y las de los y las demás al trabajar individualmente o en grupo, seleccionando fortalezas y debilidades, mostrando actitud positiva y perseverante, gestionando las situaciones de incertidumbre y aceptando la crítica razonada para reconocer el error como una oportunidad de aprendizaje. Asimismo, se evaluará que el alumnado participa de manera activa, al trabajar en grupos heterogéneos, comunicándose de manera adecuada, practicando la escucha activa, realizando el trabajo en equipo, gestionando los conflictos y ayudando en el reparto de tareas, asumiendo el rol asignado, así como reconociendo y aceptando la diversidad presente en el aula y en la sociedad.",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT02",
       "agrupa": [
         "ce:SMATC9",
         "ce:SMATC10"
@@ -398,6 +437,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -407,7 +447,7 @@
       "notation": "SMAT03BC1",
       "prefLabel": "Matemáticas · 3º ESO · bloque competencial C1 + C2",
       "scopeNote": "A través de este bloque competencial se persigue que el alumnado sea capaz de resolver problemas de la vida cotidiana y propios de las matemáticas de cualquiera de los bloques de los saberes básicos, siguiendo todas las fases de resolución, haciendo uso de diferentes herramientas manuales o digitales, como regletas, fichas, dados, calculadoras, hojas de cálculo, programas de representación gráfica o geometría dinámica, entre otros, seleccionando la más adecuada en función de la tarea. Para ello se comprobará que el alumnado sea capaz de interpretar problemas matemáticos, identificando los datos y el objetivo, definiendo la relación que existe entre ellos y representando la información mediante herramientas de modelización como diagramas, expresiones simbólicas, gráficas, etc. Además, se pretende comprobar si el alumnado aplica estrategias, como la analogía con otros problemas, estimación, ensayo y error, resolución de manera inversa (ir hacia atrás), descomposición en problemas más sencillos, búsqueda de patrones, etc., valorando su eficacia e idoneidad en la resolución de problemas, buscando un cambio de estrategia cuando sea necesario y transformando el error en oportunidad de aprendizaje. También se evaluará que sea capaz de obtener todas las soluciones posibles de un problema, así como seleccionar de entre ellas las óptimas, valorando tanto la corrección matemática como sus implicaciones desde diferentes perspectivas (de género, de sostenibilidad, de consumo responsable, etc.).",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT03",
       "agrupa": [
         "ce:SMATC1",
         "ce:SMATC2"
@@ -427,6 +467,7 @@
         "CC3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -436,7 +477,7 @@
       "notation": "SMAT03BC3",
       "prefLabel": "Matemáticas · 3º ESO · bloque competencial C3 + C4",
       "scopeNote": "A través de este bloque competencial se pretende que el alumnado, empleando métodos inductivos, deductivos y lógicos propios del razonamiento matemático, sea capaz de formular, comprobar y valorar, de forma guiada, por medio de la experimentación y la indagación, conjeturas sencillas; utilizando para tal fin diversos materiales y herramientas digitales, así como que sepa reconocer patrones. Además, se trata de comprobar que es capaz de plantear variantes de un problema, seleccionando distintas estrategias para su resolución, y que sabe descomponer un problema en partes más simples para facilitar su interpretación y su tratamiento computacional, haciendo un uso responsable de las tecnologías digitales que tiene a su alcance. Por último, se persigue que el alumnado sea capaz de modelizar diferentes situaciones y fenómenos de la vida cotidiana interpretando, modificando y generalizando distintos algoritmos.",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT03",
       "agrupa": [
         "ce:SMATC3",
         "ce:SMATC4"
@@ -455,6 +496,7 @@
         "CD3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -464,7 +506,7 @@
       "notation": "SMAT03BC5",
       "prefLabel": "Matemáticas · 3º ESO · bloque competencial C5 + C6",
       "scopeNote": "Se persigue con este bloque competencial constatar que el alumnado es capaz de establecer conexiones entre diferentes procesos matemáticos, comenzando a desarrollar una visión coherente e integrada de las matemáticas, así como que sabe identificar las matemáticas implicadas en otras materias y en contextos reales reconociendo situaciones susceptibles de ser formuladas y resueltas mediante métodos propios del razonamiento científico, herramientas y estrategias matemáticas. También se evaluará que el alumnado reconoce la aportación de las matemáticas al progreso de la humanidad. En particular su presencia y uso en diferentes contextos de las islas Canarias y su contribución a la superación de los retos que demanda la sociedad actual.",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT03",
       "agrupa": [
         "ce:SMATC5",
         "ce:SMATC6"
@@ -482,6 +524,7 @@
         "CCEC1"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -491,7 +534,7 @@
       "notation": "SMAT03BC7",
       "prefLabel": "Matemáticas · 3º ESO · bloque competencial C7 + C8",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de representar y comunicar, de forma individual y colectiva, ideas, conceptos, procedimientos, conclusiones, conjeturas y razonamientos asociados a cualquiera de los bloques de saberes básicos, utilizando el lenguaje oral, escrito o gráfico, con coherencia, claridad y terminología apropiada y empleando diversos medios y soportes en su presentación, así como reconocer y emplear el lenguaje matemático presente en la vida cotidiana y en los diferentes contextos.",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT03",
       "agrupa": [
         "ce:SMATC7",
         "ce:SMATC8"
@@ -512,6 +555,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -521,7 +565,7 @@
       "notation": "SMAT03BC9",
       "prefLabel": "Matemáticas · 3º ESO · bloque competencial C9 + C10",
       "scopeNote": "A través de este bloque competencial, que se trabajará de manera interrelacionada con el resto de bloques de la materia, se persigue que el alumnado desarrolle destrezas personales y sociales, así como actitudes con las que entender, identificar y gestionar las emociones propias y las de los y las demás al trabajar individualmente o en grupo, valorando fortalezas y debilidades, mostrando actitud positiva y perseverante, gestionando las situaciones de incertidumbre y aceptando la crítica razonada para reconocer el error como una oportunidad de aprendizaje. Asimismo, se evaluará que el alumnado participa de manera activa y reflexiva al trabajar en grupos heterogéneos, comunicándose de forma asertiva, practicando la escucha activa, realizando el trabajo en equipo, gestionando los conflictos y el reparto de tareas, responsabilizándose del rol asignado y favoreciendo la aceptación de la diversidad presente en el aula y en la sociedad.",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT03",
       "agrupa": [
         "ce:SMATC9",
         "ce:SMATC10"
@@ -542,6 +586,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -562,6 +607,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -582,6 +628,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -602,6 +649,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -623,6 +671,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -646,6 +695,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -667,6 +717,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -685,6 +736,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -706,6 +758,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -725,6 +778,7 @@
         "CD2"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -745,6 +799,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -764,6 +819,7 @@
         "CCEC1"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -787,6 +843,7 @@
         "CCEC4"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -809,6 +866,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -830,6 +888,7 @@
         "CD3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -847,6 +906,7 @@
         "CE2"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -866,6 +926,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -888,6 +949,7 @@
         "CC3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -910,6 +972,7 @@
         "CC3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -930,6 +993,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -950,6 +1014,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -970,6 +1035,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -991,6 +1057,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1014,6 +1081,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1035,6 +1103,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1053,6 +1122,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1074,6 +1144,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1093,6 +1164,7 @@
         "CD2"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1113,6 +1185,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1132,6 +1205,7 @@
         "CCEC1"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1155,6 +1229,7 @@
         "CCEC4"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1177,6 +1252,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1198,6 +1274,7 @@
         "CD3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1215,6 +1292,7 @@
         "CE2"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1234,6 +1312,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1256,6 +1335,7 @@
         "CC3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1278,6 +1358,7 @@
         "CC3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1298,6 +1379,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1318,6 +1400,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1338,6 +1421,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1359,6 +1443,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1382,6 +1467,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1403,6 +1489,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1421,6 +1508,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1442,6 +1530,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1461,6 +1550,7 @@
         "CD2"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1481,6 +1571,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1500,6 +1591,7 @@
         "CCEC1"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1523,6 +1615,7 @@
         "CCEC4"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1545,6 +1638,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1566,6 +1660,7 @@
         "CD3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1583,6 +1678,7 @@
         "CE2"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1602,6 +1698,7 @@
         "CE3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1624,6 +1721,7 @@
         "CC3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1646,6 +1744,7 @@
         "CC3"
       ],
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1655,8 +1754,9 @@
       "notation": "SMAT01SBI",
       "prefLabel": "SMAT01SBI · I. Sentido numérico",
       "definition": "Sentido numérico",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT01",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1666,8 +1766,9 @@
       "notation": "SMAT01SBII",
       "prefLabel": "SMAT01SBII · II. Sentido de la medida",
       "definition": "Sentido de la medida",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT01",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1677,8 +1778,9 @@
       "notation": "SMAT01SBIII",
       "prefLabel": "SMAT01SBIII · III. Sentido espacial",
       "definition": "Sentido espacial",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT01",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1688,8 +1790,9 @@
       "notation": "SMAT01SBIV",
       "prefLabel": "SMAT01SBIV · IV. Sentido algebraico",
       "definition": "Sentido algebraico",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT01",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1699,8 +1802,9 @@
       "notation": "SMAT01SBV",
       "prefLabel": "SMAT01SBV · V. Sentido estocástico",
       "definition": "Sentido estocástico",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT01",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1710,8 +1814,9 @@
       "notation": "SMAT01SBVI",
       "prefLabel": "SMAT01SBVI · VI. Sentido socioafectivo",
       "definition": "Sentido socioafectivo",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT01",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1721,8 +1826,9 @@
       "notation": "SMAT02SBI",
       "prefLabel": "SMAT02SBI · I. Sentido numérico",
       "definition": "Sentido numérico",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT02",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1732,8 +1838,9 @@
       "notation": "SMAT02SBII",
       "prefLabel": "SMAT02SBII · II. Sentido de la medida",
       "definition": "Sentido de la medida",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT02",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1743,8 +1850,9 @@
       "notation": "SMAT02SBIII",
       "prefLabel": "SMAT02SBIII · III. Sentido espacial",
       "definition": "Sentido espacial",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT02",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1754,8 +1862,9 @@
       "notation": "SMAT02SBIV",
       "prefLabel": "SMAT02SBIV · IV. Sentido algebraico",
       "definition": "Sentido algebraico",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT02",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1765,8 +1874,9 @@
       "notation": "SMAT02SBV",
       "prefLabel": "SMAT02SBV · V. Sentido estocástico",
       "definition": "Sentido estocástico",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT02",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1776,8 +1886,9 @@
       "notation": "SMAT02SBVI",
       "prefLabel": "SMAT02SBVI · VI. Sentido socioafectivo",
       "definition": "Sentido socioafectivo",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT02",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1787,8 +1898,9 @@
       "notation": "SMAT03SBI",
       "prefLabel": "SMAT03SBI · I. Sentido numérico",
       "definition": "Sentido numérico",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT03",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1798,8 +1910,9 @@
       "notation": "SMAT03SBII",
       "prefLabel": "SMAT03SBII · II. Sentido de la medida",
       "definition": "Sentido de la medida",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT03",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1809,8 +1922,9 @@
       "notation": "SMAT03SBIII",
       "prefLabel": "SMAT03SBIII · III. Sentido espacial",
       "definition": "Sentido espacial",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT03",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1820,8 +1934,9 @@
       "notation": "SMAT03SBIV",
       "prefLabel": "SMAT03SBIV · IV. Sentido algebraico",
       "definition": "Sentido algebraico",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT03",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1831,8 +1946,9 @@
       "notation": "SMAT03SBV",
       "prefLabel": "SMAT03SBV · V. Sentido estocástico",
       "definition": "Sentido estocástico",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT03",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1842,8 +1958,9 @@
       "notation": "SMAT03SBVI",
       "prefLabel": "SMAT03SBVI · VI. Sentido socioafectivo",
       "definition": "Sentido socioafectivo",
-      "broader": "materia:SMAT",
+      "broader": "asig:SMAT03",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1855,6 +1972,7 @@
       "definition": "Conteo.",
       "broader": "sb:SMAT01SBI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1866,6 +1984,7 @@
       "definition": "Estrategias variadas de conteo, recuento sistemático y adaptación del conteo al tamaño de los números en situaciones de la vida cotidiana.",
       "broader": "sb:SMAT01SBI.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1877,6 +1996,7 @@
       "definition": "Cantidad.",
       "broader": "sb:SMAT01SBI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1888,6 +2008,7 @@
       "definition": "Estimaciones y aproximaciones por defecto y por exceso con la precisión requerida. Redondeo y truncamiento.",
       "broader": "sb:SMAT01SBI.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1899,6 +2020,7 @@
       "definition": "Uso de números enteros, fracciones, decimales y raíces para expresar cantidades en contextos de la vida cotidiana con la precisión requerida.",
       "broader": "sb:SMAT01SBI.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1910,6 +2032,7 @@
       "definition": "Diferentes formas de representación de números enteros, fraccionarios y decimales (diagramas, recta numérica, material manipulativo, etc.).",
       "broader": "sb:SMAT01SBI.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1921,6 +2044,7 @@
       "definition": "Interpretación de porcentajes mayores que 100 y menores que 1.",
       "broader": "sb:SMAT01SBI.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1932,6 +2056,7 @@
       "definition": "Sentido de las operaciones.",
       "broader": "sb:SMAT01SBI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1943,6 +2068,7 @@
       "definition": "Aplicación de estrategias de cálculo mental con números naturales, fracciones, decimales y porcentajes (multiplicar por 0,5 y 50 % como mitad, multiplicar por 0,25 y 25 % como mitad de mitad, multiplicar por 0,1 y 10 % como la décima parte, 20 % como el doble del 10 %, etc.).",
       "broader": "sb:SMAT01SBI.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1954,6 +2080,7 @@
       "definition": "Operaciones sencillas (no más de dos operaciones encadenadas y un paréntesis) con números enteros, fraccionarios o decimales en situaciones contextualizadas.",
       "broader": "sb:SMAT01SBI.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1965,6 +2092,7 @@
       "definition": "Comprensión y utilización de las relaciones inversas, entre la adición y la sustracción, la multiplicación y la división, elevar al cuadrado y extraer la raíz cuadrada, para simplificar y resolver problemas.",
       "broader": "sb:SMAT01SBI.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1976,6 +2104,7 @@
       "definition": "Interpretación del significado de los efectos de las operaciones aritméticas con números enteros, fracciones y expresiones decimales (por ejemplo: multiplicar para aumentar y reducir y dividir para repartir, agrupar, reducir, comparar, y reducir a la unidad).",
       "broader": "sb:SMAT01SBI.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1987,6 +2116,7 @@
       "definition": "Propiedades de las operaciones (suma, resta, multiplicación, división y potenciación): cálculos de manera eficiente con números naturales, enteros, fraccionarios y decimales, tanto mentalmente como de forma manual, con calculadora u hoja de cálculo.",
       "broader": "sb:SMAT01SBI.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1998,6 +2128,7 @@
       "definition": "Relaciones.",
       "broader": "sb:SMAT01SBI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2009,6 +2140,7 @@
       "definition": "Utilización de factores, múltiplos y divisores. Factorización en números primos para resolver problemas mediante estrategias o herramientas diversas.",
       "broader": "sb:SMAT01SBI.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2020,6 +2152,7 @@
       "definition": "Comparación y ordenación de enteros, fracciones y decimales: situación exacta o aproximada en la recta numérica. Utilización de la expresión decimal de una fracción para comparar y ordenar fracciones.",
       "broader": "sb:SMAT01SBI.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2031,6 +2164,7 @@
       "definition": "Selección y utilización de la representación más adecuada de una misma cantidad para cada situación o problema.",
       "broader": "sb:SMAT01SBI.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2042,6 +2176,7 @@
       "definition": "Relación entre fracción, porcentaje y decimal.",
       "broader": "sb:SMAT01SBI.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2053,6 +2188,7 @@
       "definition": "Patrones y regularidades numéricas en contextos diferentes al del cálculo (patrones geométricos, numéricos, números triangulares, cuadrados, pentagonales, etc.).",
       "broader": "sb:SMAT01SBI.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2064,6 +2200,7 @@
       "definition": "Razonamiento proporcional.",
       "broader": "sb:SMAT01SBI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2075,6 +2212,7 @@
       "definition": "Razones y proporciones: comprensión, interpretación y representación de relaciones cuantitativas.",
       "broader": "sb:SMAT01SBI.5",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2086,6 +2224,7 @@
       "definition": "Proporcionalidad directa e inversa: comprensión y resolución de problemas sencillos relacionados con proporciones entre dos magnitudes en diferentes contextos (escalas, cambio de divisas, velocidad y tiempo, etc.), y con diferentes métodos (reducción a la unidad, uso de la constante de proporcionalidad, tablas de proporcionalidad, etc.).",
       "broader": "sb:SMAT01SBI.5",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2097,6 +2236,7 @@
       "definition": "Porcentajes: comprensión y resolución de problemas sencillos relacionados con aumentos y disminuciones porcentuales en distintos contextos (rebajas y subidas de precios, impuestos, etc.) y con diferentes métodos.",
       "broader": "sb:SMAT01SBI.5",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2108,6 +2248,7 @@
       "definition": "Educación financiera.",
       "broader": "sb:SMAT01SBI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2119,6 +2260,7 @@
       "definition": "Métodos para la toma de decisiones de consumo responsable: relaciones calidad-precio y valor-precio en contextos cotidianos.",
       "broader": "sb:SMAT01SBI.6",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2130,6 +2272,7 @@
       "definition": "Magnitud.",
       "broader": "sb:SMAT01SBII",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2141,6 +2284,7 @@
       "definition": "Atributos mensurables de los objetos físicos y matemáticos: investigación y relación entre los mismos.",
       "broader": "sb:SMAT01SBII.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2152,6 +2296,7 @@
       "definition": "Elección de las unidades y operaciones adecuadas en problemas que impliquen medida.",
       "broader": "sb:SMAT01SBII.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2163,6 +2308,7 @@
       "definition": "Estimación y relaciones.",
       "broader": "sb:SMAT01SBII",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2174,6 +2320,7 @@
       "definition": "Formulación de conjeturas sobre medidas o relaciones entre las mismas basadas en estimaciones.",
       "broader": "sb:SMAT01SBII.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2185,6 +2332,7 @@
       "definition": "Toma de decisión justificada del grado de precisión requerida en situaciones de medida.",
       "broader": "sb:SMAT01SBII.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2196,6 +2344,7 @@
       "definition": "Medición.",
       "broader": "sb:SMAT01SBII",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2207,6 +2356,7 @@
       "definition": "Longitudes y áreas en figuras planas: deducción, interpretación y aplicación a situaciones reales. Composición y descomposición de figuras complejas en figuras simples.",
       "broader": "sb:SMAT01SBII.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2218,6 +2368,7 @@
       "definition": "Representaciones de objetos geométricos con propiedades fijadas, como las longitudes de los lados o las medidas de los ángulos.",
       "broader": "sb:SMAT01SBII.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2229,6 +2380,7 @@
       "definition": "La probabilidad como medida asociada a la incertidumbre de experimentos aleatorios.",
       "broader": "sb:SMAT01SBII.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2240,6 +2392,7 @@
       "definition": "Formas geométricas de dos y tres dimensiones.",
       "broader": "sb:SMAT01SBIII",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2251,6 +2404,7 @@
       "definition": "Figuras geométricas planas: descripción y clasificación en función de sus propiedades o características.",
       "broader": "sb:SMAT01SBIII.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2262,6 +2416,7 @@
       "definition": "Construcciones geométricas con herramientas manipulativas y digitales (programas de geometría dinámica, realidad aumentada, etc.).",
       "broader": "sb:SMAT01SBIII.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2273,6 +2428,7 @@
       "definition": "Visualización, razonamiento y modelización geométrica.",
       "broader": "sb:SMAT01SBIII",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2284,6 +2440,7 @@
       "definition": "Modelización geométrica: relaciones numéricas y algebraicas en la resolución de problemas con herramientas manipulativas y digitales (programas de geometría dinámica, realidad aumentada, etc.).",
       "broader": "sb:SMAT01SBIII.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2295,6 +2452,7 @@
       "definition": "Relaciones geométricas en contextos matemáticos y no matemáticos (arte, ciencia, vida diaria…). Aplicaciones al contexto propio de la Comunidad Autónoma de Canarias.",
       "broader": "sb:SMAT01SBIII.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2306,6 +2464,7 @@
       "definition": "Patrones.",
       "broader": "sb:SMAT01SBIV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2317,6 +2476,7 @@
       "definition": "Patrones: identificación y comprensión, determinando la regla de formación de diversas estructuras en casos sencillos.",
       "broader": "sb:SMAT01SBIV.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2328,6 +2488,7 @@
       "definition": "Modelo matemático.",
       "broader": "sb:SMAT01SBIV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2339,6 +2500,7 @@
       "definition": "Modelización de situaciones de la vida cotidiana usando representaciones matemáticas y el lenguaje algebraico.",
       "broader": "sb:SMAT01SBIV.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2350,6 +2512,7 @@
       "definition": "Deducción de conclusiones razonables sobre una situación de la vida cotidiana una vez modelizada.",
       "broader": "sb:SMAT01SBIV.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2361,6 +2524,7 @@
       "definition": "Variable.",
       "broader": "sb:SMAT01SBIV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2372,6 +2536,7 @@
       "definition": "Variable: comprensión del concepto en sus diferentes naturalezas.",
       "broader": "sb:SMAT01SBIV.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2383,6 +2548,7 @@
       "definition": "Valor numérico contextualizado en situaciones reales sencillas.",
       "broader": "sb:SMAT01SBIV.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2394,6 +2560,7 @@
       "definition": "Igualdad y desigualdad.",
       "broader": "sb:SMAT01SBIV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2405,6 +2572,7 @@
       "definition": "Relaciones lineales en situaciones de la vida cotidiana o matemáticamente relevantes: expresión mediante álgebra simbólica.",
       "broader": "sb:SMAT01SBIV.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2416,6 +2584,7 @@
       "definition": "Equivalencia de expresiones algebraicas en la resolución de problemas basados en relaciones lineales.",
       "broader": "sb:SMAT01SBIV.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2427,6 +2596,7 @@
       "definition": "Estrategias de búsqueda de soluciones en ecuaciones lineales en situaciones de la vida cotidiana.",
       "broader": "sb:SMAT01SBIV.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2438,6 +2608,7 @@
       "definition": "Ecuaciones: resolución e interpretación mediante el uso de la tecnología en situaciones diversas.",
       "broader": "sb:SMAT01SBIV.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2449,6 +2620,7 @@
       "definition": "Pensamiento computacional.",
       "broader": "sb:SMAT01SBIV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2460,6 +2632,7 @@
       "definition": "Generalización y transferencia de procesos de resolución de problemas a otras situaciones.",
       "broader": "sb:SMAT01SBIV.5",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2471,6 +2644,7 @@
       "definition": "Organización y análisis de datos.",
       "broader": "sb:SMAT01SBV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2482,6 +2656,7 @@
       "definition": "Estrategias de recogida y organización de datos de situaciones de la vida cotidiana que involucran una sola variable.",
       "broader": "sb:SMAT01SBV.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2493,6 +2668,7 @@
       "definition": "Análisis e interpretación de tablas y gráficos estadísticos de variables cualitativas, cuantitativas discretas y cuantitativas continuas en contextos reales.",
       "broader": "sb:SMAT01SBV.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2504,6 +2680,7 @@
       "definition": "Gráficos estadísticos: representación mediante diferentes medios incluidos los tecnológicos (calculadora, hoja de cálculo, aplicaciones, etc.) y elección del más adecuado.",
       "broader": "sb:SMAT01SBV.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2515,6 +2692,7 @@
       "definition": "Medidas de centralización: interpretación y cálculo con apoyo tecnológico en situaciones reales. Media y moda. Mediana solo para variables cuantitativas discretas.",
       "broader": "sb:SMAT01SBV.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2526,6 +2704,7 @@
       "definition": "Medidas de dispersión (rango): significado e interpretación.",
       "broader": "sb:SMAT01SBV.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2537,6 +2716,7 @@
       "definition": "Incertidumbre.",
       "broader": "sb:SMAT01SBV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2548,6 +2728,7 @@
       "definition": "Identificación de fenómenos deterministas y aleatorios. Espacio muestral y sucesos (equiprobables y no equiprobables).",
       "broader": "sb:SMAT01SBV.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2559,6 +2740,7 @@
       "definition": "Interpretación de la probabilidad asociada a la incertidumbre de experimentos aleatorios.",
       "broader": "sb:SMAT01SBV.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2570,6 +2752,7 @@
       "definition": "Asignación de probabilidades mediante la regla de Laplace.",
       "broader": "sb:SMAT01SBV.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2581,6 +2764,7 @@
       "definition": "Asignación de la probabilidad a partir de la experimentación y el concepto de frecuencia relativa.",
       "broader": "sb:SMAT01SBV.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2592,6 +2776,7 @@
       "definition": "Planificación y realización de experiencias sencillas para analizar el comportamiento de fenómenos aleatorios.",
       "broader": "sb:SMAT01SBV.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2603,6 +2788,7 @@
       "definition": "Inferencia.",
       "broader": "sb:SMAT01SBV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2614,6 +2800,7 @@
       "definition": "Formulación de preguntas adecuadas que permitan conocer las características de interés de una población.",
       "broader": "sb:SMAT01SBV.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2625,6 +2812,7 @@
       "definition": "Datos relevantes para dar respuesta a cuestiones planteadas en investigaciones estadísticas: presentación de la información procedente de una muestra mediante herramientas digitales.",
       "broader": "sb:SMAT01SBV.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2636,6 +2824,7 @@
       "definition": "Extracción de conclusiones a partir de una muestra.",
       "broader": "sb:SMAT01SBV.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2647,6 +2836,7 @@
       "definition": "Creencias, actitudes y emociones.",
       "broader": "sb:SMAT01SBVI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2658,6 +2848,7 @@
       "definition": "Autoconciencia y autorregulación: reconocimiento y gestión de las emociones que intervienen en el aprendizaje.",
       "broader": "sb:SMAT01SBVI.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2669,6 +2860,7 @@
       "definition": "Desarrollo de la curiosidad, la iniciativa, la perseverancia y la resiliencia hacia el aprendizaje de las matemáticas.",
       "broader": "sb:SMAT01SBVI.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2680,6 +2872,7 @@
       "definition": "Desarrollo de flexibilidad cognitiva, abierto a un cambio de estrategia, cuando sea necesario, transformando el error en oportunidad de aprendizaje.",
       "broader": "sb:SMAT01SBVI.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2691,6 +2884,7 @@
       "definition": "Trabajo en equipo y toma de decisiones.",
       "broader": "sb:SMAT01SBVI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2702,6 +2896,7 @@
       "definition": "Técnicas cooperativas para optimizar el trabajo en equipo y compartir y construir conocimiento matemático.",
       "broader": "sb:SMAT01SBVI.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2713,6 +2908,7 @@
       "definition": "Conductas empáticas y estrategias de gestión de conflictos.",
       "broader": "sb:SMAT01SBVI.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2724,6 +2920,7 @@
       "definition": "Inclusión, respeto y diversidad.",
       "broader": "sb:SMAT01SBVI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2735,6 +2932,7 @@
       "definition": "Actitudes inclusivas y aceptación de la diversidad presente en el aula y en la sociedad.",
       "broader": "sb:SMAT01SBVI.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2746,6 +2944,7 @@
       "definition": "La contribución de las matemáticas al desarrollo de los distintos ámbitos del conocimiento humano desde una perspectiva de género.",
       "broader": "sb:SMAT01SBVI.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2757,6 +2956,7 @@
       "definition": "Conteo.",
       "broader": "sb:SMAT02SBI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2768,6 +2968,7 @@
       "definition": "Estrategias variadas de conteo, recuento sistemático y adaptación del conteo al tamaño de los números en situaciones de la vida cotidiana.",
       "broader": "sb:SMAT02SBI.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2779,6 +2980,7 @@
       "definition": "Cantidad.",
       "broader": "sb:SMAT02SBI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2790,6 +2992,7 @@
       "definition": "Interpretación de números grandes y pequeños, reconocimiento y utilización de la notación exponencial, científica y de la calculadora.",
       "broader": "sb:SMAT02SBI.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2801,6 +3004,7 @@
       "definition": "Estimaciones y aproximaciones con la precisión requerida en problemas contextualizados.",
       "broader": "sb:SMAT02SBI.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2812,6 +3016,7 @@
       "definition": "Uso de números enteros, fracciones, decimales y raíces para expresar cantidades en contextos de la vida cotidiana con la precisión requerida.",
       "broader": "sb:SMAT02SBI.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2823,6 +3028,7 @@
       "definition": "Diferentes formas de representación de números enteros, fraccionarios y decimales (diagramas, recta numérica, material manipulativo, etc.).",
       "broader": "sb:SMAT02SBI.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2834,6 +3040,7 @@
       "definition": "Interpretación de porcentajes mayores que 100 y menores que 1.",
       "broader": "sb:SMAT02SBI.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2845,6 +3052,7 @@
       "definition": "Sentido de las operaciones.",
       "broader": "sb:SMAT02SBI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2856,6 +3064,7 @@
       "definition": "Aplicación de estrategias de cálculo mental con números naturales, fracciones, decimales y porcentajes (multiplicar por 0,5 y 50 % como mitad, multiplicar por 0,25 y 25 % como mitad de mitad, multiplicar por 0,1 y 10 % como la décima parte, 20 % como el doble del 10 %, etc.).",
       "broader": "sb:SMAT02SBI.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2867,6 +3076,7 @@
       "definition": "Operaciones con números enteros, fraccionarios o decimales en situaciones contextualizadas.",
       "broader": "sb:SMAT02SBI.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2878,6 +3088,7 @@
       "definition": "Comprensión y utilización de las relaciones inversas, entre la adición y la sustracción, la multiplicación y la división, elevar al cuadrado y extraer la raíz cuadrada, para simplificar y resolver problemas.",
       "broader": "sb:SMAT02SBI.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2889,6 +3100,7 @@
       "definition": "Interpretación del significado de los efectos de las operaciones aritméticas con números enteros, fracciones y expresiones decimales (por ejemplo: multiplicar para aumentar y reducir y dividir para repartir, agrupar, reducir, comparar, y reducir a la unidad).",
       "broader": "sb:SMAT02SBI.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2900,6 +3112,7 @@
       "definition": "Propiedades de las operaciones (suma, resta, multiplicación, división y potenciación): cálculos de manera eficiente con números naturales, enteros, fraccionarios y decimales tanto mentalmente como de forma manual, con calculadora u hoja de cálculo.",
       "broader": "sb:SMAT02SBI.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2911,6 +3124,7 @@
       "definition": "Relaciones.",
       "broader": "sb:SMAT02SBI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2922,6 +3136,7 @@
       "definition": "Selección y utilización de la representación más adecuada de una misma cantidad para cada situación o problema.",
       "broader": "sb:SMAT02SBI.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2933,6 +3148,7 @@
       "definition": "Relación entre fracción, porcentaje y decimal.",
       "broader": "sb:SMAT02SBI.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2944,6 +3160,7 @@
       "definition": "Patrones y regularidades numéricas en contextos diferentes al del cálculo (patrones geométricos, numéricos, etc.).",
       "broader": "sb:SMAT02SBI.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2955,6 +3172,7 @@
       "definition": "Razonamiento proporcional.",
       "broader": "sb:SMAT02SBI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2966,6 +3184,7 @@
       "definition": "Proporcionalidad directa e inversa: comprensión y resolución de problemas relacionados con proporciones entre dos magnitudes en diferentes contextos (escalas, cambio de divisas, velocidad y tiempo, etc.), y con diferentes métodos (reducción a la unidad, uso de la constante de proporcionalidad, tablas de proporcionalidad, etc.).",
       "broader": "sb:SMAT02SBI.5",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2977,6 +3196,7 @@
       "definition": "Porcentajes: comprensión y resolución de problemas relacionados con aumentos y disminuciones porcentuales en distintos contextos (rebajas y subidas de precios, impuestos, etc.) y con diferentes métodos.",
       "broader": "sb:SMAT02SBI.5",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2988,6 +3208,7 @@
       "definition": "Educación financiera.",
       "broader": "sb:SMAT02SBI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2999,6 +3220,7 @@
       "definition": "Métodos para la toma de decisiones de consumo responsable: relaciones calidad-precio y valor-precio en contextos cotidianos.",
       "broader": "sb:SMAT02SBI.6",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3010,6 +3232,7 @@
       "definition": "Magnitud.",
       "broader": "sb:SMAT02SBII",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3021,6 +3244,7 @@
       "definition": "Atributos mensurables de los objetos físicos y matemáticos: investigación y relación entre los mismos. Medidas canarias.",
       "broader": "sb:SMAT02SBII.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3032,6 +3256,7 @@
       "definition": "Elección de las unidades y operaciones adecuadas en problemas que impliquen medida.",
       "broader": "sb:SMAT02SBII.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3043,6 +3268,7 @@
       "definition": "Estimación y relaciones.",
       "broader": "sb:SMAT02SBII",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3054,6 +3280,7 @@
       "definition": "Formulación de conjeturas sobre medidas o relaciones entre las mismas basadas en estimaciones.",
       "broader": "sb:SMAT02SBII.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3065,6 +3292,7 @@
       "definition": "Toma de decisión justificada del grado de precisión requerida en situaciones de medida.",
       "broader": "sb:SMAT02SBII.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3076,6 +3304,7 @@
       "definition": "Interpretación y cálculo del error. Error absoluto y error relativo.",
       "broader": "sb:SMAT02SBII.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3087,6 +3316,7 @@
       "definition": "Medición.",
       "broader": "sb:SMAT02SBII",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3098,6 +3328,7 @@
       "definition": "Longitudes y áreas en figuras planas y tridimensionales: deducción, interpretación y aplicación. Composición y descomposición de figuras complejas en figuras simples.",
       "broader": "sb:SMAT02SBII.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3109,6 +3340,7 @@
       "definition": "Longitudes, áreas y volúmenes en figuras tridimensionales sencillas: prisma, pirámide y cilindro.",
       "broader": "sb:SMAT02SBII.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3120,6 +3352,7 @@
       "definition": "Representaciones planas de objetos tridimensionales en la visualización y resolución de problemas de áreas.",
       "broader": "sb:SMAT02SBII.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3131,6 +3364,7 @@
       "definition": "Representaciones de objetos geométricos con propiedades fijadas, como las longitudes de los lados o las medidas de los ángulos.",
       "broader": "sb:SMAT02SBII.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3142,6 +3376,7 @@
       "definition": "La probabilidad como medida asociada a la incertidumbre de experimentos aleatorios.",
       "broader": "sb:SMAT02SBII.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3153,6 +3388,7 @@
       "definition": "Formas geométricas de dos y tres dimensiones.",
       "broader": "sb:SMAT02SBIII",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3164,6 +3400,7 @@
       "definition": "Figuras geométricas planas y tridimensionales: descripción y clasificación en función de sus propiedades o características.",
       "broader": "sb:SMAT02SBIII.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3175,6 +3412,7 @@
       "definition": "Relación pitagórica en figuras planas: identificación y aplicación.",
       "broader": "sb:SMAT02SBIII.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3186,6 +3424,7 @@
       "definition": "Construcción de figuras geométricas con herramientas manipulativas y digitales (programas de geometría dinámica, realidad aumentada, etc.).",
       "broader": "sb:SMAT02SBIII.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3197,6 +3436,7 @@
       "definition": "Localización y sistemas de representación.",
       "broader": "sb:SMAT02SBIII",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3208,6 +3448,7 @@
       "definition": "Relaciones espaciales: localización y descripción mediante coordenadas cartesianas y otros sistemas de representación.",
       "broader": "sb:SMAT02SBIII.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3219,6 +3460,7 @@
       "definition": "Visualización, razonamiento y modelización geométrica.",
       "broader": "sb:SMAT02SBIII",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3230,6 +3472,7 @@
       "definition": "Modelización geométrica: relaciones numéricas y algebraicas en la resolución de problemas con herramientas manipulativas y digitales (programas de geometría dinámica, realidad aumentada, etc.).",
       "broader": "sb:SMAT02SBIII.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3241,6 +3484,7 @@
       "definition": "Relaciones geométricas en contextos matemáticos y no matemáticos (arte, ciencia, vida diaria…). Aplicaciones al contexto propio de la Comunidad Autónoma de Canarias.",
       "broader": "sb:SMAT02SBIII.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3252,6 +3496,7 @@
       "definition": "Patrones.",
       "broader": "sb:SMAT02SBIV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3263,6 +3508,7 @@
       "definition": "Patrones: identificación y comprensión, determinando la regla de formación de diversas estructuras.",
       "broader": "sb:SMAT02SBIV.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3274,6 +3520,7 @@
       "definition": "Modelo matemático.",
       "broader": "sb:SMAT02SBIV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3285,6 +3532,7 @@
       "definition": "Modelización de situaciones de la vida cotidiana usando representaciones matemáticas y el lenguaje algebraico.",
       "broader": "sb:SMAT02SBIV.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3296,6 +3544,7 @@
       "definition": "Deducción de conclusiones razonables sobre una situación de la vida cotidiana una vez modelizada.",
       "broader": "sb:SMAT02SBIV.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3307,6 +3556,7 @@
       "definition": "Variable.",
       "broader": "sb:SMAT02SBIV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3318,6 +3568,7 @@
       "definition": "Variable: comprensión del concepto en sus diferentes naturalezas.",
       "broader": "sb:SMAT02SBIV.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3329,6 +3580,7 @@
       "definition": "Valor numérico contextualizado en situaciones reales.",
       "broader": "sb:SMAT02SBIV.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3340,6 +3592,7 @@
       "definition": "Igualdad y desigualdad.",
       "broader": "sb:SMAT02SBIV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3351,6 +3604,7 @@
       "definition": "Relaciones lineales en situaciones de la vida cotidiana o matemáticamente relevantes: expresión mediante álgebra simbólica.",
       "broader": "sb:SMAT02SBIV.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3362,6 +3616,7 @@
       "definition": "Equivalencia de expresiones algebraicas en la resolución de problemas basados en relaciones lineales.",
       "broader": "sb:SMAT02SBIV.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3373,6 +3628,7 @@
       "definition": "Estrategias de búsqueda de soluciones en ecuaciones y sistemas lineales en situaciones de la vida cotidiana.",
       "broader": "sb:SMAT02SBIV.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3384,6 +3640,7 @@
       "definition": "Ecuaciones: resolución e interpretación mediante el uso de la tecnología en situaciones diversas.",
       "broader": "sb:SMAT02SBIV.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3395,6 +3652,7 @@
       "definition": "Relaciones y funciones.",
       "broader": "sb:SMAT02SBIV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3406,6 +3664,7 @@
       "definition": "Relaciones cuantitativas en situaciones de la vida cotidiana y clases de funciones que las modelizan.",
       "broader": "sb:SMAT02SBIV.5",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3417,6 +3676,7 @@
       "definition": "Relaciones lineales: identificación y comparación en diferentes contextos de varios modos de representación: tablas, gráficas o expresiones algebraicas, y sus propiedades a partir de ellas.",
       "broader": "sb:SMAT02SBIV.5",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3428,6 +3688,7 @@
       "definition": "Gráficas de funciones contextualizadas. Estudio del crecimiento y decrecimiento, continuidad y discontinuidad. Identificación de los puntos de corte con los ejes y de los máximos y mínimos relativos.",
       "broader": "sb:SMAT02SBIV.5",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3439,6 +3700,7 @@
       "definition": "Deducción de la información relevante de una función mediante el uso de diferentes representaciones simbólicas.",
       "broader": "sb:SMAT02SBIV.5",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3450,6 +3712,7 @@
       "definition": "Pensamiento computacional.",
       "broader": "sb:SMAT02SBIV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3461,6 +3724,7 @@
       "definition": "Generalización y transferencia de procesos de resolución de problemas a otras situaciones.",
       "broader": "sb:SMAT02SBIV.6",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3472,6 +3736,7 @@
       "definition": "Estrategias de formulación de cuestiones susceptibles de ser analizadas mediante programas y otras herramientas.",
       "broader": "sb:SMAT02SBIV.6",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3483,6 +3748,7 @@
       "definition": "Organización y análisis de datos.",
       "broader": "sb:SMAT02SBV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3494,6 +3760,7 @@
       "definition": "Estrategias de recogida y organización de datos de situaciones de la vida cotidiana que involucran una sola variable. Diferencia entre variable y valores individuales.",
       "broader": "sb:SMAT02SBV.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3505,6 +3772,7 @@
       "definition": "Análisis e interpretación de tablas y gráficos estadísticos de variables cualitativas, cuantitativas discretas y cuantitativas continuas en contextos reales.",
       "broader": "sb:SMAT02SBV.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3516,6 +3784,7 @@
       "definition": "Gráficos estadísticos: representación mediante diferentes medios, incluidos los tecnológicos (calculadora, hoja de cálculo, aplicaciones, etc.), y elección del más adecuado.",
       "broader": "sb:SMAT02SBV.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3527,6 +3796,7 @@
       "definition": "Medidas de centralización: interpretación y cálculo con apoyo tecnológico en situaciones reales. Media y moda. Mediana solo para variables cuantitativas discretas.",
       "broader": "sb:SMAT02SBV.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3538,6 +3808,7 @@
       "definition": "Medidas de dispersión (rango): significado e interpretación.",
       "broader": "sb:SMAT02SBV.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3549,6 +3820,7 @@
       "definition": "Estudio y comparación de dos conjuntos de datos de la misma variable a partir de su representación gráfica.",
       "broader": "sb:SMAT02SBV.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3560,6 +3832,7 @@
       "definition": "Incertidumbre.",
       "broader": "sb:SMAT02SBV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3571,6 +3844,7 @@
       "definition": "Identificación de fenómenos deterministas y aleatorios. Espacio muestral y sucesos (equiprobables y no equiprobables).",
       "broader": "sb:SMAT02SBV.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3582,6 +3856,7 @@
       "definition": "Interpretación de la probabilidad asociada a la incertidumbre de experimentos aleatorios.",
       "broader": "sb:SMAT02SBV.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3593,6 +3868,7 @@
       "definition": "Asignación de probabilidades mediante la regla de Laplace.",
       "broader": "sb:SMAT02SBV.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3604,6 +3880,7 @@
       "definition": "Asignación de la probabilidad a partir de la experimentación y el concepto de frecuencia relativa.",
       "broader": "sb:SMAT02SBV.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3615,6 +3892,7 @@
       "definition": "Planificación y realización de experiencias sencillas para analizar el comportamiento de fenómenos aleatorios.",
       "broader": "sb:SMAT02SBV.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3626,6 +3904,7 @@
       "definition": "Inferencia.",
       "broader": "sb:SMAT02SBV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3637,6 +3916,7 @@
       "definition": "Formulación de preguntas adecuadas que permitan conocer las características de interés de una población.",
       "broader": "sb:SMAT02SBV.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3648,6 +3928,7 @@
       "definition": "Datos relevantes para dar respuesta a cuestiones planteadas en investigaciones estadísticas: presentación de la información procedente de una muestra mediante herramientas digitales.",
       "broader": "sb:SMAT02SBV.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3659,6 +3940,7 @@
       "definition": "Extracción de conclusiones a partir de una muestra, con el fin de emitir juicios y tomar decisiones adecuadas.",
       "broader": "sb:SMAT02SBV.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3670,6 +3952,7 @@
       "definition": "Creencias, actitudes y emociones.",
       "broader": "sb:SMAT02SBVI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3681,6 +3964,7 @@
       "definition": "Autoconciencia y autorregulación: reconocimiento y gestión de las emociones que intervienen en el aprendizaje.",
       "broader": "sb:SMAT02SBVI.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3692,6 +3976,7 @@
       "definition": "Desarrollo de la curiosidad, la iniciativa, la perseverancia y la resiliencia hacia el aprendizaje de las matemáticas.",
       "broader": "sb:SMAT02SBVI.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3703,6 +3988,7 @@
       "definition": "Desarrollo de flexibilidad cognitiva, abierto a un cambio de estrategia cuando sea necesario, transformando el error en oportunidad de aprendizaje.",
       "broader": "sb:SMAT02SBVI.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3714,6 +4000,7 @@
       "definition": "Trabajo en equipo y toma de decisiones.",
       "broader": "sb:SMAT02SBVI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3725,6 +4012,7 @@
       "definition": "Técnicas cooperativas para optimizar el trabajo en equipo y compartir y construir conocimiento matemático.",
       "broader": "sb:SMAT02SBVI.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3736,6 +4024,7 @@
       "definition": "Conductas empáticas y estrategias de gestión de conflictos.",
       "broader": "sb:SMAT02SBVI.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3747,6 +4036,7 @@
       "definition": "Inclusión, respeto y diversidad.",
       "broader": "sb:SMAT02SBVI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3758,6 +4048,7 @@
       "definition": "Actitudes inclusivas y aceptación de la diversidad presente en el aula y en la sociedad.",
       "broader": "sb:SMAT02SBVI.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3769,6 +4060,7 @@
       "definition": "La contribución de las matemáticas al desarrollo de los distintos ámbitos del conocimiento humano desde una perspectiva de género.",
       "broader": "sb:SMAT02SBVI.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -3780,6 +4072,7 @@
       "definition": "Conteo.",
       "broader": "sb:SMAT03SBI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -3791,6 +4084,7 @@
       "definition": "Estrategias variadas de conteo, recuento sistemático y adaptación del conteo al tamaño de los números en situaciones de la vida cotidiana.",
       "broader": "sb:SMAT03SBI.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -3802,6 +4096,7 @@
       "definition": "Cantidad.",
       "broader": "sb:SMAT03SBI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -3813,6 +4108,7 @@
       "definition": "Interpretación de números grandes y pequeños, reconocimiento y utilización de la notación exponencial, científica y de la calculadora.",
       "broader": "sb:SMAT03SBI.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -3824,6 +4120,7 @@
       "definition": "Estimaciones y aproximaciones con la precisión requerida en problemas contextualizados.",
       "broader": "sb:SMAT03SBI.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -3835,6 +4132,7 @@
       "definition": "Uso de números enteros, fracciones, decimales y raíces para expresar cantidades en contextos de la vida cotidiana con la precisión requerida.",
       "broader": "sb:SMAT03SBI.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -3846,6 +4144,7 @@
       "definition": "Estimación de raíces aproximadas.",
       "broader": "sb:SMAT03SBI.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -3857,6 +4156,7 @@
       "definition": "Sentido de las operaciones.",
       "broader": "sb:SMAT03SBI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -3868,6 +4168,7 @@
       "definition": "Aplicación de estrategias de cálculo mental con números naturales, fracciones, decimales y porcentajes (multiplicar por 0,5 y 50 % como mitad, multiplicar por 0,25 y 25 % como mitad de mitad, multiplicar por 0,1 y 10 % como la décima parte, 20 % como el doble del 10 %, etc.).",
       "broader": "sb:SMAT03SBI.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -3879,6 +4180,7 @@
       "definition": "Operaciones con números enteros, fraccionarios o decimales en situaciones contextualizadas.",
       "broader": "sb:SMAT03SBI.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -3890,6 +4192,7 @@
       "definition": "Operaciones con cantidades en notación científica usando la calculadora.",
       "broader": "sb:SMAT03SBI.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -3901,6 +4204,7 @@
       "definition": "Propiedades de las operaciones (suma, resta, multiplicación, división y potenciación): cálculos de manera eficiente con números naturales, enteros, fraccionarios y decimales tanto mentalmente como de forma manual, con calculadora u hoja de cálculo.",
       "broader": "sb:SMAT03SBI.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -3912,6 +4216,7 @@
       "definition": "Relaciones.",
       "broader": "sb:SMAT03SBI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -3923,6 +4228,7 @@
       "definition": "Selección y utilización de la representación más adecuada de una misma cantidad para cada situación o problema.",
       "broader": "sb:SMAT03SBI.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -3934,6 +4240,7 @@
       "definition": "Patrones y regularidades numéricas en contextos diferentes al del cálculo (patrones geométricos, numéricos, etc.).",
       "broader": "sb:SMAT03SBI.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -3945,6 +4252,7 @@
       "definition": "Educación financiera.",
       "broader": "sb:SMAT03SBI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -3956,6 +4264,7 @@
       "definition": "Interpretación de la información numérica en contextos financieros sencillos.",
       "broader": "sb:SMAT03SBI.5",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -3967,6 +4276,7 @@
       "definition": "Métodos para la toma de decisiones de consumo responsable: relaciones calidad- precio y valor-precio en contextos cotidianos.",
       "broader": "sb:SMAT03SBI.5",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -3978,6 +4288,7 @@
       "definition": "Magnitud.",
       "broader": "sb:SMAT03SBII",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -3989,6 +4300,7 @@
       "definition": "Elección de las unidades y operaciones adecuadas en problemas que impliquen medida.",
       "broader": "sb:SMAT03SBII.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4000,6 +4312,7 @@
       "definition": "Estimación y relaciones.",
       "broader": "sb:SMAT03SBII",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4011,6 +4324,7 @@
       "definition": "Formulación de conjeturas sobre medidas o relaciones entre las mismas basadas en estimaciones.",
       "broader": "sb:SMAT03SBII.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4022,6 +4336,7 @@
       "definition": "Toma de decisión justificada del grado de precisión requerida en situaciones de medida.",
       "broader": "sb:SMAT03SBII.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4033,6 +4348,7 @@
       "definition": "Interpretación y cálculo del error. Error absoluto y error relativo.",
       "broader": "sb:SMAT03SBII.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4044,6 +4360,7 @@
       "definition": "Medición.",
       "broader": "sb:SMAT03SBII",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4055,6 +4372,7 @@
       "definition": "Longitudes, áreas y volúmenes en figuras planas y tridimensionales: deducción, interpretación y aplicación.",
       "broader": "sb:SMAT03SBII.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4066,6 +4384,7 @@
       "definition": "Representaciones planas de objetos tridimensionales en la visualización y resolución de problemas de áreas.",
       "broader": "sb:SMAT03SBII.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4077,6 +4396,7 @@
       "definition": "Representaciones de objetos geométricos con propiedades fijadas, como las longitudes de los lados o las medidas de los ángulos.",
       "broader": "sb:SMAT03SBII.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4088,6 +4408,7 @@
       "definition": "La probabilidad como medida asociada a la incertidumbre de experimentos aleatorios.",
       "broader": "sb:SMAT03SBII.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4099,6 +4420,7 @@
       "definition": "Formas geométricas de dos y tres dimensiones.",
       "broader": "sb:SMAT03SBIII",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4110,6 +4432,7 @@
       "definition": "Relaciones geométricas como la congruencia, la semejanza, cálculo de la razón de semejanza y uso de la escala.",
       "broader": "sb:SMAT03SBIII.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4121,6 +4444,7 @@
       "definition": "Relación pitagórica en figuras planas y tridimensionales: identificación y aplicación.",
       "broader": "sb:SMAT03SBIII.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4132,6 +4456,7 @@
       "definition": "Construcción de figuras geométricas con herramientas manipulativas y digitales (programas de geometría dinámica, realidad aumentada, etc.).",
       "broader": "sb:SMAT03SBIII.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4143,6 +4468,7 @@
       "definition": "Localización y sistemas de representación.",
       "broader": "sb:SMAT03SBIII",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4154,6 +4480,7 @@
       "definition": "Relaciones espaciales: localización y descripción mediante coordenadas cartesianas y otros sistemas de representación. Orientación en planos reales.",
       "broader": "sb:SMAT03SBIII.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4165,6 +4492,7 @@
       "definition": "Movimientos y transformaciones.",
       "broader": "sb:SMAT03SBIII",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4176,6 +4504,7 @@
       "definition": "Transformaciones elementales como giros, traslaciones y simetrías en situaciones diversas utilizando herramientas digitales o manipulativas.",
       "broader": "sb:SMAT03SBIII.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4187,6 +4516,7 @@
       "definition": "Visualización, razonamiento y modelización geométrica.",
       "broader": "sb:SMAT03SBIII",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4198,6 +4528,7 @@
       "definition": "Modelización geométrica: relaciones numéricas y algebraicas en la resolución de problemas con herramientas manipulativas y digitales (programas de geometría dinámica, realidad aumentada, etc.).",
       "broader": "sb:SMAT03SBIII.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4209,6 +4540,7 @@
       "definition": "Relaciones geométricas en contextos matemáticos y no matemáticos (arte, ciencia, vida diaria…). Aplicaciones al contexto propio de la Comunidad Autónoma de Canarias.",
       "broader": "sb:SMAT03SBIII.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4220,6 +4552,7 @@
       "definition": "Patrones.",
       "broader": "sb:SMAT03SBIV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4231,6 +4564,7 @@
       "definition": "Patrones: identificación y comprensión, determinando la regla de formación de diversas estructuras.",
       "broader": "sb:SMAT03SBIV.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4242,6 +4576,7 @@
       "definition": "Fórmulas y términos generales: obtención mediante la observación de pautas y regularidades sencillas y su generalización en la resolución de problemas o ejemplos de la vida cotidiana.",
       "broader": "sb:SMAT03SBIV.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4253,6 +4588,7 @@
       "definition": "Modelo matemático.",
       "broader": "sb:SMAT03SBIV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4264,6 +4600,7 @@
       "definition": "Modelización de situaciones de la vida cotidiana usando representaciones matemáticas y el lenguaje algebraico.",
       "broader": "sb:SMAT03SBIV.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4275,6 +4612,7 @@
       "definition": "Operaciones sencillas con polinomios. Suma, resta y multiplicación.",
       "broader": "sb:SMAT03SBIV.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4286,6 +4624,7 @@
       "definition": "Deducción de conclusiones razonables sobre una situación de la vida cotidiana una vez modelizada.",
       "broader": "sb:SMAT03SBIV.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4297,6 +4636,7 @@
       "definition": "Variable.",
       "broader": "sb:SMAT03SBIV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4308,6 +4648,7 @@
       "definition": "Variable: comprensión del concepto en sus diferentes naturalezas.",
       "broader": "sb:SMAT03SBIV.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4319,6 +4660,7 @@
       "definition": "Igualdad y desigualdad.",
       "broader": "sb:SMAT03SBIV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4330,6 +4672,7 @@
       "definition": "Relaciones lineales y cuadráticas en situaciones de la vida cotidiana o matemáticamente relevantes: expresión mediante álgebra simbólica.",
       "broader": "sb:SMAT03SBIV.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4341,6 +4684,7 @@
       "definition": "Equivalencia de expresiones algebraicas en la resolución de problemas basados en relaciones lineales y cuadráticas.",
       "broader": "sb:SMAT03SBIV.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4352,6 +4696,7 @@
       "definition": "Estrategias de búsqueda de soluciones en ecuaciones y sistemas lineales y ecuaciones cuadráticas en situaciones de la vida cotidiana.",
       "broader": "sb:SMAT03SBIV.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4363,6 +4708,7 @@
       "definition": "Ecuaciones: resolución e interpretación mediante el uso de la tecnología en situaciones diversas.",
       "broader": "sb:SMAT03SBIV.4",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4374,6 +4720,7 @@
       "definition": "Relaciones y funciones.",
       "broader": "sb:SMAT03SBIV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4385,6 +4732,7 @@
       "definition": "Relaciones cuantitativas en situaciones de la vida cotidiana y clases de funciones que las modelizan.",
       "broader": "sb:SMAT03SBIV.5",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4396,6 +4744,7 @@
       "definition": "Relaciones lineales y cuadráticas: identificación y comparación en diferentes contextos de varios modos de representación, tablas, gráficas o expresiones algebraicas, y sus propiedades a partir de ellas.",
       "broader": "sb:SMAT03SBIV.5",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4407,6 +4756,7 @@
       "definition": "Identificación e interpretación de las características más relevantes de una gráfica comprobando los resultados con la ayuda de medios tecnológicos en situaciones abstractas y problemas contextualizados.",
       "broader": "sb:SMAT03SBIV.5",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4418,6 +4768,7 @@
       "definition": "Deducción de la información relevante de una función mediante el uso de diferentes representaciones simbólicas.",
       "broader": "sb:SMAT03SBIV.5",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4429,6 +4780,7 @@
       "definition": "Pensamiento computacional.",
       "broader": "sb:SMAT03SBIV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4440,6 +4792,7 @@
       "definition": "Generalización y transferencia de procesos de resolución de problemas a otras situaciones.",
       "broader": "sb:SMAT03SBIV.6",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4451,6 +4804,7 @@
       "definition": "Estrategias útiles en la interpretación y modificación de algoritmos.",
       "broader": "sb:SMAT03SBIV.6",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4462,6 +4816,7 @@
       "definition": "Estrategias de formulación de cuestiones susceptibles de ser analizadas mediante programas y otras herramientas.",
       "broader": "sb:SMAT03SBIV.6",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4473,6 +4828,7 @@
       "definition": "Organización y análisis de datos.",
       "broader": "sb:SMAT03SBV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4484,6 +4840,7 @@
       "definition": "Estrategias de recogida y organización de datos de situaciones de la vida cotidiana que involucran una sola variable. Diferencia entre variable y valores individuales.",
       "broader": "sb:SMAT03SBV.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4495,6 +4852,7 @@
       "definition": "Análisis e interpretación de tablas y gráficos estadísticos de variables cualitativas, cuantitativas discretas y cuantitativas continuas en contextos reales.",
       "broader": "sb:SMAT03SBV.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4506,6 +4864,7 @@
       "definition": "Gráficos estadísticos: representación mediante diferentes tecnologías (calculadora, hoja de cálculo, aplicaciones, etc.) y elección del más adecuado.",
       "broader": "sb:SMAT03SBV.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4517,6 +4876,7 @@
       "definition": "Medidas de centralización: interpretación y cálculo con apoyo tecnológico en situaciones reales.",
       "broader": "sb:SMAT03SBV.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4528,6 +4888,7 @@
       "definition": "Variabilidad: interpretación y cálculo, con apoyo tecnológico, de medidas de dispersión en situaciones reales.",
       "broader": "sb:SMAT03SBV.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4539,6 +4900,7 @@
       "definition": "Comparación de dos conjuntos de datos atendiendo a las medidas de localización y dispersión.",
       "broader": "sb:SMAT03SBV.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4550,6 +4912,7 @@
       "definition": "Incertidumbre.",
       "broader": "sb:SMAT03SBV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4561,6 +4924,7 @@
       "definition": "Identificación de fenómenos deterministas y aleatorios. Espacio muestral y sucesos (equiprobables y no equiprobables).",
       "broader": "sb:SMAT03SBV.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4572,6 +4936,7 @@
       "definition": "Interpretación de la probabilidad asociada a la incertidumbre de experimentos aleatorios.",
       "broader": "sb:SMAT03SBV.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4583,6 +4948,7 @@
       "definition": "Asignación de probabilidades mediante la regla de Laplace.",
       "broader": "sb:SMAT03SBV.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4594,6 +4960,7 @@
       "definition": "Asignación de la probabilidad a partir de la experimentación y el concepto de frecuencia relativa.",
       "broader": "sb:SMAT03SBV.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4605,6 +4972,7 @@
       "definition": "Planificación y realización de experiencias sencillas para analizar el comportamiento de fenómenos aleatorios.",
       "broader": "sb:SMAT03SBV.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4616,6 +4984,7 @@
       "definition": "Inferencia.",
       "broader": "sb:SMAT03SBV",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4627,6 +4996,7 @@
       "definition": "Formulación de preguntas adecuadas que permitan conocer las características de interés de una población.",
       "broader": "sb:SMAT03SBV.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4638,6 +5008,7 @@
       "definition": "Datos relevantes para dar respuesta a cuestiones planteadas en investigaciones estadísticas: presentación de la información procedente de una muestra mediante herramientas digitales.",
       "broader": "sb:SMAT03SBV.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4649,6 +5020,7 @@
       "definition": "Extracción de conclusiones a partir de una muestra con el fin de emitir juicios y tomar decisiones adecuadas.",
       "broader": "sb:SMAT03SBV.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4660,6 +5032,7 @@
       "definition": "Creencias, actitudes y emociones",
       "broader": "sb:SMAT03SBVI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4671,6 +5044,7 @@
       "definition": "Autoconciencia y autorregulación: reconocimiento y gestión de las emociones que intervienen en el aprendizaje.",
       "broader": "sb:SMAT03SBVI.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4682,6 +5056,7 @@
       "definition": "Desarrollo de la curiosidad, la iniciativa, la perseverancia y la resiliencia hacia el aprendizaje de las matemáticas.",
       "broader": "sb:SMAT03SBVI.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4693,6 +5068,7 @@
       "definition": "Desarrollo de flexibilidad cognitiva, abierto a un cambio de estrategia cuando sea necesario, transformando el error en oportunidad de aprendizaje.",
       "broader": "sb:SMAT03SBVI.1",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4704,6 +5080,7 @@
       "definition": "Trabajo en equipo y toma de decisiones.",
       "broader": "sb:SMAT03SBVI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4715,6 +5092,7 @@
       "definition": "Técnicas cooperativas para optimizar el trabajo en equipo y compartir y construir conocimiento matemático.",
       "broader": "sb:SMAT03SBVI.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4726,6 +5104,7 @@
       "definition": "Conductas empáticas y estrategias de gestión de conflictos.",
       "broader": "sb:SMAT03SBVI.2",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4737,6 +5116,7 @@
       "definition": "Inclusión, respeto y diversidad.",
       "broader": "sb:SMAT03SBVI",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4748,6 +5128,7 @@
       "definition": "Actitudes inclusivas y aceptación de la diversidad presente en el aula y en la sociedad.",
       "broader": "sb:SMAT03SBVI.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4759,6 +5140,7 @@
       "definition": "La contribución de las matemáticas al desarrollo de los distintos ámbitos del conocimiento humano desde una perspectiva de género.",
       "broader": "sb:SMAT03SBVI.3",
       "materia": "materia:SMAT",
+      "materia_curso": "asig:SMAT03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     }

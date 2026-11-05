@@ -12,6 +12,16 @@
       "etapa": "etapa:ESO"
     },
     {
+      "id": "asig:SEXB04",
+      "tipo": "MateriaCurso",
+      "notation": "SEXB04",
+      "prefLabel": "Expresión Artística · 4º ESO",
+      "broader": "materia:SEXB",
+      "materia": "materia:SEXB",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
       "id": "ce:SEXBC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "SEXBC1",
@@ -57,7 +67,7 @@
       "notation": "SEXB04BC1",
       "prefLabel": "Expresión Artística · 4º ESO · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se comprobará si el alumnado comprende y analiza manifestaciones artísticas de diferentes épocas y culturas desde una perspectiva de género, describiendo sus aspectos esenciales mediante el uso de técnicas mixtas y alternativas de las vanguardias artísticas, cerciorándose de sus posibilidades expresivas y su contexto histórico. Asimismo, se constatará si valora críticamente, en estas manifestaciones y en el ámbito del diseño, el proceso de creación, el resultado final y la importancia del legado cultural como riqueza universal, teniendo en cuenta el de Canarias, mediante los elementos y principios básicos del lenguaje visual y la percepción, el color y la composición, de manera individual y grupal, utilizando la búsqueda, la selección y el tratamiento de información de fuentes diversas y empleando ejemplos de aplicación de técnicas gráfico-plásticas. Por último, se verificará si muestra una actitud de apertura, interés y respeto en su recepción; si hace una reflexión sobre su evolución, conservación y relación con los hábitos, gustos y referentes artísticos del presente; y si consigue alimentar el imaginario, reforzar la confianza y ampliar las posibilidades de disfrute del patrimonio cultural y artístico. Todo esto con la finalidad de que el acceso a las fuentes permita poner en valor los trabajos de preparación de la obra e incluso los estudios de las que no llegaron a realizarse, dándole la oportunidad de que supere la idea de fracaso o asimile el mismo como un paso hacia el éxito futuro; así como, de que entienda la imagen y el papel de la mujer en las obras estudiadas, favoreciendo un acercamiento que ayude a identificar los mitos, los estereotipos y los roles transmitidos a través del arte.",
-      "broader": "materia:SEXB",
+      "broader": "asig:SEXB04",
       "agrupa": [
         "ce:SEXBC1"
       ],
@@ -74,6 +84,7 @@
         "CCEC1"
       ],
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -83,7 +94,7 @@
       "notation": "SEXB04BC2",
       "prefLabel": "Expresión Artística · 4º ESO · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se comprobará si el alumnado es capaz de participar en la exploración de diferentes técnicas gráfico-plásticas, visuales, audiovisuales, sonoras o corporales mediante el estudio de técnicas de estampación (procedimientos directos, aditivos, sustractivos y mixtos), técnicas de dibujo y pintura (secas y húmedas), fotografía analógica (cámara oscura), fotografía sin cámara (fotogramas), técnicas fotográficas experimentales (cianotipia o antotipia) y fotografía digital (fotomontaje digital y tradicional), empleando e incorporando a su repertorio personal de recursos diferentes herramientas, medios, soportes y lenguajes, analizando la obra de artistas como Maribel Nazco o Pedro González, entre otros, de manera individual, grupal y colaborativa. Asimismo, se verificará si es capaz de elaborar producciones gráfica-plásticas mediante el arte del reciclaje y el empleo de productos ecológicos, sostenibles e innovadores en la práctica artística, concienciando y respetando el paisaje canario (cogiendo como ejemplo al polifacético César Manrique), con iniciativa, confianza y creatividad, así como, con seguridad ante la toxicidad e impacto medioambiental de los diferentes materiales artísticos, teniendo una prevención y gestión responsable de los residuos (tomando como referencia la obra de Manolo Millares) y mostrando una actitud cooperativa y respetuosa; y si para ello desarrolla el criterio de selección de las técnicas más adecuadas a cada necesidad o intención. Todo esto con la finalidad de que el alumnado distinga entre la elaboración de imágenes personales con fines expresivos y emocionales propios y la creación de producciones que tengan unos propósitos comunicativos concretos e impliquen un mensaje y un público destinatario previamente definido.",
-      "broader": "materia:SEXB",
+      "broader": "asig:SEXB04",
       "agrupa": [
         "ce:SEXBC2"
       ],
@@ -96,6 +107,7 @@
         "CCEC3"
       ],
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -105,7 +117,7 @@
       "notation": "SEXB04BC3",
       "prefLabel": "Expresión Artística · 4º ESO · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado participa con iniciativa y confianza en la exploración de diferentes medios, técnicas y formatos audiovisuales. Asimismo, se constatará que para ello aprovecha las cualidades plásticas y los efectos visuales en el proceso de creación, realización y seguimiento de un guion o proyecto junto a la presentación final y a la evaluación (autorreflexión, autoevaluación y evaluación colectiva) de los mismos, con actitud cooperativa y respetuosa. Por otro lado, se verificará que realiza producciones audiovisuales, individuales o colaborativas, por medio de la narrativa de la imagen fija (encuadre y planificación), los puntos de vista y la angulación, así como, la imagen secuenciada, la narrativa audiovisual (fotograma, secuencia, escena, toma, plano y montaje), el guion y el storyboard, buscando, de esta manera, un resultado final ajustado al proyecto preparado previamente con las técnicas básicas de animación, incorporando el uso de las tecnologías digitales con una intención expresiva y un uso ético, seleccionado las herramientas más adecuadas y distinguiendo sus fines, y añadiendo todos estos conocimientos al repertorio personal de recursos para así utilizar el más apropiado a cada necesidad o intención. Todo esto con la finalidad de que se dé cuenta de las posibilidades creativas que ofrece el entorno digital, definitorio de nuestro presente.",
-      "broader": "materia:SEXB",
+      "broader": "asig:SEXB04",
       "agrupa": [
         "ce:SEXBC3"
       ],
@@ -119,6 +131,7 @@
         "CCEC3"
       ],
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -128,7 +141,7 @@
       "notation": "SEXB04BC4",
       "prefLabel": "Expresión Artística · 4º ESO · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado crea un producto artístico, individual o grupal, y expone el resultado final por medio de un grafiti, de una pintura mural o de recursos digitales para la creación de proyectos de vídeo-arte y de técnicas básicas de creación de volúmenes, pudiendo inspirarse en su entorno, de forma colaborativa y abierta; que diseña las fases del proceso y selecciona las técnicas y herramientas más adecuadas; y que adapta el diseño y el proceso a las necesidades e indicaciones de realización y al público destinatario. Asimismo, se verificará que identifica las oportunidades de desarrollo personal, social, académico o profesional relacionadas con el ámbito artístico, comprendiendo su valor añadido y expresando la opinión personal de forma razonada; y que emplea la publicidad y los recursos formales, lingüísticos y persuasivos, así como los estereotipos en la sociedad de consumo en los campos y las ramas de diseño gráfico, de producto, de moda, de interiores, de escenografía, etc., de manera colaborativa y respetuosa, poniendo en común y valorando críticamente el desarrollo de su elaboración, las dificultades encontradas, los progresos realizados y los logros alcanzados, compartiendo y valorando las oportunidades de desarrollo personal, social, académico o profesional que pueden derivarse de esta actividad",
-      "broader": "materia:SEXB",
+      "broader": "asig:SEXB04",
       "agrupa": [
         "ce:SEXBC4"
       ],
@@ -143,6 +156,7 @@
         "CCL1"
       ],
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -164,6 +178,7 @@
         "CCEC2"
       ],
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -184,6 +199,7 @@
         "CCEC1"
       ],
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -201,6 +217,7 @@
         "CCEC2"
       ],
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -220,6 +237,7 @@
         "CCEC3"
       ],
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -237,6 +255,7 @@
         "CCEC4"
       ],
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -256,6 +275,7 @@
         "CCEC3"
       ],
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -274,6 +294,7 @@
         "CCEC4"
       ],
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -291,6 +312,7 @@
         "CC3"
       ],
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -307,6 +329,7 @@
         "CC3"
       ],
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -316,8 +339,9 @@
       "notation": "SEXB04SBI",
       "prefLabel": "SEXB04SBI · I. Técnicas gráfico-plásticas.",
       "definition": "Técnicas gráfico-plásticas.",
-      "broader": "materia:SEXB",
+      "broader": "asig:SEXB04",
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -327,8 +351,9 @@
       "notation": "SEXB04SBII",
       "prefLabel": "SEXB04SBII · II. Fotografía, lenguaje visual, audiovisual y multimedia.",
       "definition": "Fotografía, lenguaje visual, audiovisual y multimedia.",
-      "broader": "materia:SEXB",
+      "broader": "asig:SEXB04",
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -340,6 +365,7 @@
       "definition": "Empleo e incorporación de los efectos del gesto y del instrumento: herramientas, medios y soportes. Cualidades plásticas y efectos visuales.",
       "broader": "sb:SEXB04SBI",
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -351,6 +377,7 @@
       "definition": "Estudio de técnicas de dibujo y pintura: técnicas secas y húmedas.",
       "broader": "sb:SEXB04SBI",
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -362,6 +389,7 @@
       "definition": "Uso de técnicas mixtas y alternativas de las vanguardias artísticas, haciendo una conexión con las canarias. Posibilidades expresivas y contexto histórico.",
       "broader": "sb:SEXB04SBI",
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -373,6 +401,7 @@
       "definition": "Estudio de técnicas de estampación. Procedimientos directos, aditivos, sustractivos y mixtos.",
       "broader": "sb:SEXB04SBI",
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -384,6 +413,7 @@
       "definition": "Exposición de graffiti y pintura mural.",
       "broader": "sb:SEXB04SBI",
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -395,6 +425,7 @@
       "definition": "Técnicas básicas de creación de volúmenes, analizando esculturas de artistas canarios.",
       "broader": "sb:SEXB04SBI",
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -406,6 +437,7 @@
       "definition": "Elaboración del arte del reciclaje. Consumo responsable, empleando productos ecológicos, sostenibles e innovadores en la práctica artística. Arte y naturaleza. Concienciación y respeto del paisaje canario: César Manrique.",
       "broader": "sb:SEXB04SBI",
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -417,6 +449,7 @@
       "definition": "Elaboración con seguridad: toxicidad e impacto medioambiental de los diferentes materiales artísticos. Prevención y gestión responsable de los residuos.",
       "broader": "sb:SEXB04SBI",
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -428,6 +461,7 @@
       "definition": "Aplicación de técnicas gráfico-plásticas en diferentes manifestaciones artísticas y en el ámbito del diseño.",
       "broader": "sb:SEXB04SBI",
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -439,6 +473,7 @@
       "definition": "Valoración de elementos y principios básicos del lenguaje visual y de la percepción. Color y composición en el entorno.",
       "broader": "sb:SEXB04SBII",
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -450,6 +485,7 @@
       "definition": "Realización de la narrativa de la imagen fija: encuadre y planificación, puntos de vista y angulación. La imagen secuenciada.",
       "broader": "sb:SEXB04SBII",
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -461,6 +497,7 @@
       "definition": "Estudio de la fotografía analógica: cámara oscura. Fotografía sin cámara (fotogramas). Técnicas fotográficas experimentales: cianotipia o antotipia.",
       "broader": "sb:SEXB04SBII",
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -472,6 +509,7 @@
       "definition": "Estudio de la fotografía digital. El fotomontaje digital y tradicional.",
       "broader": "sb:SEXB04SBII",
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -483,6 +521,7 @@
       "definition": "Elaboración con seguridad: toxicidad e impacto medioambiental de los diferentes materiales artísticos. Prevención y gestión responsable de los residuos, y su impacto en el archipiélago canario.",
       "broader": "sb:SEXB04SBII",
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -494,6 +533,7 @@
       "definition": "Realización de la narrativa audiovisual: fotograma, secuencia, escena, toma, plano y montaje. El guion y el storyboard. Producciones canarias relacionadas.",
       "broader": "sb:SEXB04SBII",
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -505,6 +545,7 @@
       "definition": "Seguimiento del proceso de creación. Realización y seguimiento: guion o proyecto, presentación final y evaluación (autorreflexión, autoevaluación y evaluación colectiva).",
       "broader": "sb:SEXB04SBII",
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -516,6 +557,7 @@
       "definition": "Empleo de la publicidad: recursos formales, lingüísticos y persuasivos. Estereotipos y sociedad de consumo. El sexismo y los cánones corporales y sexuales en los medios de comunicación.",
       "broader": "sb:SEXB04SBII",
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -527,6 +569,7 @@
       "definition": "Empleo de los campos y ramas del diseño: gráfico, de producto, de moda, de interiores, escenografía. Diseñador de moda Manolo Blahnik, entre otros.",
       "broader": "sb:SEXB04SBII",
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -538,6 +581,7 @@
       "definition": "Preparación de técnicas básicas de animación.",
       "broader": "sb:SEXB04SBII",
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -549,6 +593,7 @@
       "definition": "Creación de recursos digitales para la realización de proyectos de vídeo-arte en espacios culturales y naturales Canarios.",
       "broader": "sb:SEXB04SBII",
       "materia": "materia:SEXB",
+      "materia_curso": "asig:SEXB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     }

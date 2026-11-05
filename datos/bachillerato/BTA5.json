@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BTA501",
+      "tipo": "MateriaCurso",
+      "notation": "BTA501",
+      "prefLabel": "Taller de Etimología Grecolatina · 1º Bachillerato",
+      "broader": "materia:BTA5",
+      "materia": "materia:BTA5",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BTA5C1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BTA5C1",
@@ -57,7 +67,7 @@
       "notation": "BTA501BC1",
       "prefLabel": "Taller de Etimología Grecolatina · 1º Bachillerato · bloque competencial C1",
       "scopeNote": "Con el desarrollo de este bloque competencial, se pretende constatar que el alumnado es capaz de distinguir los procedimientos de formación de palabras: la derivación y composición. De esta manera, se quiere verificar si el alumnado reconoce palabras derivadas a partir de los prefijos, infijos y sufijos griegos y latinos más productivos; y palabras compuestas a partir de bases léxicas de origen clásico. Por eso, deberá darse cuenta de que las lenguas van variando su vocabulario para adaptarlo a las necesidades expresivas de sus hablantes y que cambian permanentemente, como cambia el mundo; y que tienen la necesidad constante de enriquecerse, creando nuevas palabras, que han de servir para hacer referencia a una realidad en continua modificación y expansión. Tendrá, con todo esto, que crear lazos léxicos, que faciliten el aprendizaje de vocabulario en otras lenguas o ampliar su bagaje léxico de las que ya domina, de manera que construye un aprendizaje propio y mejora sus propiedades comunicativas.",
-      "broader": "materia:BTA5",
+      "broader": "asig:BTA501",
       "agrupa": [
         "ce:BTA5C1"
       ],
@@ -68,6 +78,7 @@
         "CP3"
       ],
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -77,7 +88,7 @@
       "notation": "BTA501BC2",
       "prefLabel": "Taller de Etimología Grecolatina · 1º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se pretende comprobar que el alumnado sabe inferir el significado etimológico de los términos griegos y latinos mediante el uso de métodos y estrategias inductivos y deductivos o intuitivos, de modo que le permita desarrollar y ampliar su repertorio lingüístico individual. Deberá aprender, además, el proceso de definición de palabras a partir del léxico grecolatino y empleará el vocabulario nuevo para la elaboración de productos creativos artísticos y culturales, de diferente tipología, y lo utilizará en diferentes contextos o ámbitos de la vida. Todo esto será clave para que el alumnado pueda identificar y analizar palabras dudosas o incorrectas en textos escritos, orales o multimodales, o en situaciones de comunicación propias del aula, de manera que valore la riqueza lingüística de la lengua castellana, construya un aprendizaje propio y aprenda a dar juicios de valor sobre las palabras y sus significados.",
-      "broader": "materia:BTA5",
+      "broader": "asig:BTA501",
       "agrupa": [
         "ce:BTA5C2"
       ],
@@ -95,6 +106,7 @@
         "CE3"
       ],
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -104,7 +116,7 @@
       "notation": "BTA501BC3",
       "prefLabel": "Taller de Etimología Grecolatina · 1º Bachillerato · bloque competencial C3",
       "scopeNote": "Con este bloque competencial, se pretende comprobar que el alumnado comprende los cambios fonéticos más importantes que se producen en la evolución del latín al castellano, a sus diferentes modalidades como el español de Canarias o a otras lenguas de uso común del alumnado, por lo que deberá reflexionar sobre la utilidad e importancia del latín en el proceso de aprendizaje de otras lenguas, debiendo ser capaz de respetar la diversidad lingüística y cultural de la sociedad actual. Además, deberá establecer la relación semántica entre un término patrimonial y un cultismo, y reconocer los dobletes para comprender la naturaleza propia de la lengua como algo vivo y cambiante a lo largo de los siglos, poniendo en práctica el uso correcto de la lengua a la hora de analizar, comparar y valorar la información de manera crítica, y como desarrollo personal en una sociedad igualitaria y cohesionada. Todo ello con el propósito de mejorar su competencia léxica y fomentar el aprendizaje autónomo y sus posibilidades comunicativas en diversos contextos.",
-      "broader": "materia:BTA5",
+      "broader": "asig:BTA501",
       "agrupa": [
         "ce:BTA5C3"
       ],
@@ -115,6 +127,7 @@
         "CC2"
       ],
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -124,7 +137,7 @@
       "notation": "BTA501BC4",
       "prefLabel": "Taller de Etimología Grecolatina · 1º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se pretende que el alumnado conozca el significado de los latinismos y las expresiones latinas más usuales, para que los incorpore a la expresión oral y escrita en diferentes contextos escolares y no escolares, con el objetivo de mejorar las destrezas comunicativas y de aumentar su corpus léxico, siempre desde un enfoque plurilingüe. Así, deberá ser capaz de realizar productos en los que emplee herramientas analógicas y digitales para el aprendizaje de helenismos, latinismos o locuciones latinas, neologismos o préstamos de otras lenguas trabajados en clase, y para la transferencia de conocimientos léxicos en proyectos con estudiantes a nivel transnacional. Se constatará que el alumnado no solo reconoce, sino también aplica la terminología adquirida a partir de la etimología grecolatina, analizando palabras dudosas o incorrectas y sirviéndose de diccionarios analógicos o digitales. Todo lo anterior, con la finalidad de desarrollar la competencia léxica y mejorar, en consecuencia, sus posibilidades comunicativas.",
-      "broader": "materia:BTA5",
+      "broader": "asig:BTA501",
       "agrupa": [
         "ce:BTA5C4"
       ],
@@ -141,6 +154,7 @@
         "CE3"
       ],
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -158,6 +172,7 @@
         "STEM1"
       ],
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -176,6 +191,7 @@
         "STEM1"
       ],
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -194,6 +210,7 @@
         "CCEC1"
       ],
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -211,6 +228,7 @@
         "STEM1"
       ],
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -234,6 +252,7 @@
         "CE3"
       ],
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -252,6 +271,7 @@
         "CC2"
       ],
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -269,6 +289,7 @@
         "CP3"
       ],
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -287,6 +308,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -310,6 +332,7 @@
         "CE3"
       ],
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -319,8 +342,9 @@
       "notation": "BTA501SBI",
       "prefLabel": "BTA501SBI · I. Composición y derivación de palabras a partir de las lenguas clásicas",
       "definition": "Composición y derivación de palabras a partir de las lenguas clásicas",
-      "broader": "materia:BTA5",
+      "broader": "asig:BTA501",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -330,8 +354,9 @@
       "notation": "BTA501SBII",
       "prefLabel": "BTA501SBII · II. Formantes griegos y latinos en nuestro léxico",
       "definition": "Formantes griegos y latinos en nuestro léxico",
-      "broader": "materia:BTA5",
+      "broader": "asig:BTA501",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -341,8 +366,9 @@
       "notation": "BTA501SBIII",
       "prefLabel": "BTA501SBIII · III. El léxico de origen grecolatino en diferentes disciplinas",
       "definition": "El léxico de origen grecolatino en diferentes disciplinas",
-      "broader": "materia:BTA5",
+      "broader": "asig:BTA501",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -352,8 +378,9 @@
       "notation": "BTA501SBIV",
       "prefLabel": "BTA501SBIV · IV. De la lengua latina a las lenguas romances",
       "definition": "De la lengua latina a las lenguas romances",
-      "broader": "materia:BTA5",
+      "broader": "asig:BTA501",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -363,8 +390,9 @@
       "notation": "BTA501SBV",
       "prefLabel": "BTA501SBV · V. Palabras y sentidos",
       "definition": "Palabras y sentidos",
-      "broader": "materia:BTA5",
+      "broader": "asig:BTA501",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -376,6 +404,7 @@
       "definition": "Aprendizaje sobre la descomposición de palabras en sus diversos formantes (lexema, prefijo y sufijo).",
       "broader": "sb:BTA501SBI",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -387,6 +416,7 @@
       "definition": "Identificación de étimos, prefijos y sufijos griegos y latinos que ayuden a una mejor comprensión del castellano, a fin de favorecer la competencia léxica del alumnado.",
       "broader": "sb:BTA501SBI",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -398,6 +428,7 @@
       "definition": "Identificación y explicación de términos transparentes, así como las palabras de mayor frecuencia y los principales prefijos y sufijos, traduciéndolos correctamente a la propia lengua.",
       "broader": "sb:BTA501SBI",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -409,6 +440,7 @@
       "definition": "Valoración del empleo de los diccionarios léxicos en diferentes formatos como instrumentos de aprendizaje.",
       "broader": "sb:BTA501SBI",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -420,6 +452,7 @@
       "definition": "Aprendizaje sobre la consulta de fuentes de información diversa (diccionarios de castellano y de otras lenguas, diccionarios etimológicos, recursos digitales sobre etimología y lexicología grecolatina de terminología específica).",
       "broader": "sb:BTA501SBII",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -431,6 +464,7 @@
       "definition": "Conocimiento del significado original de las palabras.",
       "broader": "sb:BTA501SBII",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -442,6 +476,7 @@
       "definition": "Comparación de los valores semánticos de raíces y familias de palabras.",
       "broader": "sb:BTA501SBII",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -453,6 +488,7 @@
       "definition": "Reconocimiento del léxico de origen grecolatino que se ha incorporado en el lenguaje cotidiano y en diferentes campos semánticos de la lengua o lenguas del repertorio individual del alumnado.",
       "broader": "sb:BTA501SBII",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -464,6 +500,7 @@
       "definition": "Aprendizaje de la transcripción del griego al castellano.",
       "broader": "sb:BTA501SBII",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -475,6 +512,7 @@
       "definition": "Aprendizaje de léxico común, técnico y científico de origen grecolatino.",
       "broader": "sb:BTA501SBIII",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -486,6 +524,7 @@
       "definition": "Reconocimiento del léxico de origen grecolatino de las materias de la modalidad de Artes del Bachillerato: «audición», «espectáculo», «imagen», «melodía», «pintura»…",
       "broader": "sb:BTA501SBIII",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -497,6 +536,7 @@
       "definition": "Reconocimiento del léxico de origen grecolatino de las materias de la modalidad de Ciencias y Tecnología del Bachillerato: «cálculo», «energía», «número», «tecnología», «virus»…",
       "broader": "sb:BTA501SBIII",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -508,6 +548,7 @@
       "definition": "Reconocimiento del léxico de origen grecolatino de las materias de la modalidad General del Bachillerato: «algoritmos», «biodiversidad», «ecosistema», «fenómenos», «problemas»…",
       "broader": "sb:BTA501SBIII",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -519,6 +560,7 @@
       "definition": "Reconocimiento del léxico de origen grecolatino de las materias de la modalidad de Humanidades y Ciencias Sociales del Bachillerato: «acontecimientos», «conflictos», «diálogo», «economía», «texto»…",
       "broader": "sb:BTA501SBIII",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -530,6 +572,7 @@
       "definition": "Realización de productos escolares orales y escritos en los que el alumnado incorpore el vocabulario aprendido de origen grecolatino.",
       "broader": "sb:BTA501SBIII",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -541,6 +584,7 @@
       "definition": "Empleo de terminología especializada de origen grecolatino para la divulgación científica: análisis léxico de artículos científicos.",
       "broader": "sb:BTA501SBIII",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -552,6 +596,7 @@
       "definition": "Nociones básicas de evolución fonética, morfológica y semántica del latín a las lenguas romances, a sus dialectos y a otras lenguas de Europa.",
       "broader": "sb:BTA501SBIV",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -563,6 +608,7 @@
       "definition": "Realización de evoluciones de términos latinos a distintas lenguas romances, aplicando las reglas de evolución fonética.",
       "broader": "sb:BTA501SBIV",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -574,6 +620,7 @@
       "definition": "Identificación de palabras patrimoniales y cultas: los dobletes.",
       "broader": "sb:BTA501SBIV",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -585,6 +632,7 @@
       "definition": "Identificación de cultismos de origen grecolatino en las lenguas modernas.",
       "broader": "sb:BTA501SBIV",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -596,6 +644,7 @@
       "definition": "Aprendizaje de vocabulario básico latino.",
       "broader": "sb:BTA501SBIV",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -607,6 +656,7 @@
       "definition": "Reconocimiento de palabras y expresiones latinas incorporadas a la lengua coloquial y literaria, y a las tecnologías digitales y redes sociales.",
       "broader": "sb:BTA501SBIV",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -618,6 +668,7 @@
       "definition": "Establecimiento de influencias entre el español de Canarias y las diferentes lenguas del repertorio individual del alumnado.",
       "broader": "sb:BTA501SBIV",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -629,6 +680,7 @@
       "definition": "Reconocimiento del significado de los principales latinismos y expresiones latinas que han pervivido en el lenguaje científico y técnico, en especial, dentro de este en el léxico jurídico.",
       "broader": "sb:BTA501SBIV",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -640,6 +692,7 @@
       "definition": "Aprendizaje del proceso de definición de palabras a partir del léxico grecolatino.",
       "broader": "sb:BTA501SBV",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -651,6 +704,7 @@
       "definition": "Aprendizaje de vocabulario nuevo para su empleo en productos creativos artísticos y culturales.",
       "broader": "sb:BTA501SBV",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -662,6 +716,7 @@
       "definition": "Identificación de neologismos o préstamos de otras lenguas con formantes grecolatinos, bien por sufijación o bien por prefijación.",
       "broader": "sb:BTA501SBV",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -673,6 +728,7 @@
       "definition": "Diferenciación de los fenómenos lingüísticos de sinonimia, polisemia, antonimia y homonimia.",
       "broader": "sb:BTA501SBV",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -684,6 +740,7 @@
       "definition": "Aprendizaje del concepto de acronimia.",
       "broader": "sb:BTA501SBV",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -695,6 +752,7 @@
       "definition": "Desarrollo de actitudes y habilidades para la expresión correcta del pensamiento.",
       "broader": "sb:BTA501SBV",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -706,6 +764,7 @@
       "definition": "Utilización correcta de los diccionarios para localizar el significado de palabras según su contexto.",
       "broader": "sb:BTA501SBV",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -717,6 +776,7 @@
       "definition": "Valoración de las acepciones de las definiciones de las palabras en los diccionarios.",
       "broader": "sb:BTA501SBV",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -728,6 +788,7 @@
       "definition": "Análisis de palabras dudosas o incorrectas, a partir de su etimología grecolatina: «numerar/enumerar», «ofertar/ofrecer», «paternidad/autoría»…",
       "broader": "sb:BTA501SBV",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -739,6 +800,7 @@
       "definition": "Comparación de términos específicos de reciente creación en varias lenguas: neologismos o préstamos de otras lenguas en las nuevas tecnologías de la información y las redes sociales.",
       "broader": "sb:BTA501SBV",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -750,6 +812,7 @@
       "definition": "Estudio etimológico de palabras relacionadas con la discriminación de personas y colectivos (LGTBI, minorías étnicas…) y con las desigualdades (social, económica, cultural, geográfica…): «aporofobia», «imbécil», «masacre», «otredad», «repelente», «sororidad»...",
       "broader": "sb:BTA501SBV",
       "materia": "materia:BTA5",
+      "materia_curso": "asig:BTA501",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

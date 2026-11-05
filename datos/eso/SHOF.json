@@ -12,6 +12,16 @@
       "etapa": "etapa:ESO"
     },
     {
+      "id": "asig:SHOF03",
+      "tipo": "MateriaCurso",
+      "notation": "SHOF03",
+      "prefLabel": "Historia y Geografía de Canarias · 3º ESO",
+      "broader": "materia:SHOF",
+      "materia": "materia:SHOF",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
       "id": "ce:SHOFC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "SHOFC1",
@@ -77,7 +87,7 @@
       "notation": "SHOF03BC1",
       "prefLabel": "Historia y Geografía de Canarias · 3º ESO · bloque competencial C1",
       "scopeNote": "Mediante este bloque competencial se comprobará que el alumnado es capaz de utilizar como escenario de aprendizaje, real o virtual, la Red Canaria de Espacios Naturales Protegidos. El alumnado deberá ser capaz de realizar procesos de planificación y búsqueda de información dirigidos a identificar, analizar e interpretar elementos del paisaje natural que le permitan conocer el origen de las islas, así como sus principales características físicas, climáticas y biogeográficas. El objetivo será que el alumnado construya conocimiento partiendo de la investigación, elaborando síntesis y productos explicativos (en forma de infografías, folletos, pósteres, mapas, revistas, sitios web, etc.), a la vez que participando en debates, asambleas, foros virtuales, etc., partiendo de la necesidad de aplicar los Objetivos de Desarrollo Sostenible y las metas canarias que responden a los retos identificados en la Agenda Canaria de Desarrollo Sostenible 2030, que impliquen en el alumnado proyectos de investigación, el uso de mapas u otras representaciones gráficas, a partir de la Red Canaria de Espacios Naturales Protegidos, para incidir en la sostenibilidad y la responsabilidad de la conservación del entorno natural, rural y urbano. La finalidad será que el alumnado tome conciencia de la singularidad del medio natural canario, su fragilidad, su interés científico y patrimonial junto a sus necesidades de gestión y conservación.",
-      "broader": "materia:SHOF",
+      "broader": "asig:SHOF03",
       "agrupa": [
         "ce:SHOFC1"
       ],
@@ -93,6 +103,7 @@
         "CD3"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -102,7 +113,7 @@
       "notation": "SHOF03BC2",
       "prefLabel": "Historia y Geografía de Canarias · 3º ESO · bloque competencial C2",
       "scopeNote": "Por medio de este bloque competencial se verificará que el alumnado, haciendo uso del análisis de fuentes arqueológicas y documentales, es capaz de elaborar un recorrido diacrónico por el proceso de configuración de la sociedad canaria, desde el primer poblamiento humano hasta la actualidad, que le permita construirse un juicio personal desde el debate y la reflexión grupal sobre los aspectos clave que le han definido históricamente: su posición geopolítica tricontinental, la interculturalidad, los conflictos y las tensiones sociales, la dependencia económica exterior y los elementos que definen el hecho diferencial canario, así como aquellas personas que han sido referentes en distintos procesos y etapas históricas. Se deberá constatar que el alumnado podrá desarrollar procesos de investigación para conocer las principales hipótesis sobre el poblamiento aborigen, analizar cómo se configura una sociedad insular en el marco geopolítico europeo a partir del siglo XV, generando productos tales como paneles divulgativos, exposiciones o ferias, entre otras. Finalmente, tendrá que valorar los rasgos que singularizan a la sociedad canaria actual como una realidad multicultural, producto de esta trayectoria histórica.",
-      "broader": "materia:SHOF",
+      "broader": "asig:SHOF03",
       "agrupa": [
         "ce:SHOFC2"
       ],
@@ -119,6 +130,7 @@
         "CCEC1"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -128,7 +140,7 @@
       "notation": "SHOF03BC3",
       "prefLabel": "Historia y Geografía de Canarias · 3º ESO · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado realiza una lectura histórica del paisaje, reconociendo, analizando e interpretando en el territorio las evidencias materiales de las transformaciones como consecuencia de su explotación (yacimientos arqueológicos, bancales abandonados, caminos reales, eras, hornos, caseríos, cascos históricos, factorías, chimeneas, pajeros, carboneras, puertos pesqueros, pescantes, ingenios, molinos, acequias, salinas, saladeros, antiguos enclaves hoteleros, plazas, ermitas, iglesias, cruceros, etc.) para constatar que el alumnado puede evaluar la importancia histórica de la agricultura de exportación desde el siglo XVI, la agricultura de autoconsumo, el impacto de las comunicaciones insulares, interinsulares y exteriores, el desarrollo industrial, la actividad portuaria y comercial y el crecimiento de las ciudades o la explotación turística de las islas desde sus orígenes hasta la actualidad. El objetivo será que el alumnado conozca las distintas fases de la economía en Canarias, evaluar su nivel de impacto sobre el territorio y valorar su contribución al paisaje actual de las islas, contribuyendo a fomentar una visión del patrimonio natural, social, cultural e histórico más allá de una interpretación como vestigio del pasado, esto es, como un patrimonio vivo, con nexos con el presente y que se adapta a un contexto cambiante como el actual. Se podrá plantear a través del patrimonio etnográfico y el trabajo con las fuentes orales, la generación de productos creativos, partiendo de la necesidad de explicar el paisaje agrario y el patrimonio rural en Canarias, valorando especialmente la aportación de las mujeres.",
-      "broader": "materia:SHOF",
+      "broader": "asig:SHOF03",
       "agrupa": [
         "ce:SHOFC3"
       ],
@@ -146,6 +158,7 @@
         "CPSAA3"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -155,7 +168,7 @@
       "notation": "SHOF03BC4",
       "prefLabel": "Historia y Geografía de Canarias · 3º ESO · bloque competencial C4",
       "scopeNote": "Con este bloque competencial se constatará que el alumnado maneja datos diversos (bioantropológicos, arqueológicos, documentos textuales de tipología variada, testimonios orales, etc.) para analizar, desde un punto de vista histórico, los cambios y las permanencias en el comportamiento cotidiano de las poblaciones insulares. También se podrá verificar que el alumnado indaga sobre las prácticas sociales que han caracterizado a las mujeres y a los hombres de Canarias desde el primer poblamiento humano hasta la actualidad, prestando especial atención a grupos y movimientos que han defendido los derechos de distintos colectivos sociales, incluyendo los de las personas con diversidad funcional, y al papel desempeñado por las mujeres en la sociedad canaria a lo largo de la historia, donde el alumnado debrá reconocer las desigualdades sociales existentes en épocas pasadas y los mecanismos de dominación y control que se han aplicado, identificando aquellos colectivos que se han visto sometidos y silenciados, destacando la presencia de personajes femeninos. En su conjunto, el objetivo será que el alumnado entienda cómo se ha ido configurando el acervo cultural canario y valorar la imbricación entre lo local e insular y la impronta multicultural histórica del archipiélago. Con esta finalidad, se podrán realizar pequeñas investigaciones, debates, entrevistas a distintos colectivos, pódcast o dramatizaciones, entre otras.",
-      "broader": "materia:SHOF",
+      "broader": "asig:SHOF03",
       "agrupa": [
         "ce:SHOFC4"
       ],
@@ -176,6 +189,7 @@
         "CC3"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -185,7 +199,7 @@
       "notation": "SHOF03BC5",
       "prefLabel": "Historia y Geografía de Canarias · 3º ESO · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado descubre la participación de las islas en el conjunto de las relaciones internacionales y nacionales desde la modernidad, con el objeto de tomar consciencia de cómo el archipiélago se ha visto afectado o ha tenido una participación activa en procesos históricos generales como la actividad pirática en el Atlántico, las guerras hispanobritánicas del siglo XIX, las dos guerras mundiales, la Guerra Civil, la integración en la Unión Europea, etc., partiendo de una realidad histórica que define al archipiélago por el denominado hecho diferencial canario (entre otras cosas, por los Puertos Francos de 1852 o el Régimen Económico y Fiscal de 1972) y por su concepción atlántica. Se trata de estudiar y analizar aquellos elementos que definen la historia y el patrimonio cultural de las islas, tomando como referencia los testimonios de sus protagonistas, a través de crónicas y relatos conservados, o incluso mediante encuestas. Asimismo, se trata de constatar que el alumnado valora el impacto social, económico y cultural sobre las distintas generaciones de la población canaria y el papel geoestratégico desempeñado por las islas desde su incorporación a la órbita geopolítica internacional, siendo capaz de elaborar infografías y mapas, y que se pone en valor la historia como disciplina que da una gran importancia a la observación, la reflexión y el análisis crítico de las fuentes y la documentación frente a la desinformación y la manipulación, mediante la realización de informes, estudios o dosieres informativos, entre otros, presentándose con exposiciones orales e infografías.",
-      "broader": "materia:SHOF",
+      "broader": "asig:SHOF03",
       "agrupa": [
         "ce:SHOFC5"
       ],
@@ -201,6 +215,7 @@
         "CC4"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -210,7 +225,7 @@
       "notation": "SHOF03BC6",
       "prefLabel": "Historia y Geografía de Canarias · 3º ESO · bloque competencial C6",
       "scopeNote": "Mediante este bloque competencial se comprobará que el alumnado es capaz de analizar el papel general de la cultura y la ciencia en Canarias a lo largo de la historia y que valora el grado de vinculación que esta ha tenido con las tendencias y corrientes nacionales e internacionales, mediante una aproximación analítica a personas y colectivos destacados de las ciencias, la cultura y el arte, y a sus obras o aportaciones, donde el alumnado debe ser capaz de comunicar en diversos formatos la relación de la mujer y el arte en Canarias. Con ello se pretende abordar la participación de estos colectivos en movimientos artísticos, literarios, etc., con el fin de adoptar una posición crítica y reflexiva sobre las diferencias históricas de género y de clase en el acceso a la cultura y los efectos del insularismo, así como sobre la importancia de las relaciones con los círculos culturales externos a las islas como vía para la proyección internacional de estas y para el enriquecimiento de nuestro legado cultural.",
-      "broader": "materia:SHOF",
+      "broader": "asig:SHOF03",
       "agrupa": [
         "ce:SHOFC6"
       ],
@@ -228,6 +243,7 @@
         "CCL5"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -248,6 +264,7 @@
         "CC4"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -268,6 +285,7 @@
         "CC4"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -290,6 +308,7 @@
         "CD3"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -312,6 +331,7 @@
         "CE1"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -332,6 +352,7 @@
         "CCEC1"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -349,6 +370,7 @@
         "CCEC1"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -369,6 +391,7 @@
         "CE1"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -389,6 +412,7 @@
         "CE1"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -411,6 +435,7 @@
         "CE1"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -434,6 +459,7 @@
         "CE1"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -455,6 +481,7 @@
         "CE1"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -480,6 +507,7 @@
         "CCEC1"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -506,6 +534,7 @@
         "CCEC1"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -530,6 +559,7 @@
         "CCEC1"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -550,6 +580,7 @@
         "CCEC1"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -570,6 +601,7 @@
         "CCEC1"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -590,6 +622,7 @@
         "CE3"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -610,6 +643,7 @@
         "CD2"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -630,6 +664,7 @@
         "CE3"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -649,6 +684,7 @@
         "CE3"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -669,6 +705,7 @@
         "CCEC2"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -692,6 +729,7 @@
         "CCEC4"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -712,6 +750,7 @@
         "CCEC4"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -730,6 +769,7 @@
         "CD1"
       ],
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -739,8 +779,9 @@
       "notation": "SHOF03SBI",
       "prefLabel": "SHOF03SBI · I. Retos del mundo actual",
       "definition": "Retos del mundo actual",
-      "broader": "materia:SHOF",
+      "broader": "asig:SHOF03",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -750,8 +791,9 @@
       "notation": "SHOF03SBII",
       "prefLabel": "SHOF03SBII · II. Sociedades y territorios",
       "definition": "Sociedades y territorios",
-      "broader": "materia:SHOF",
+      "broader": "asig:SHOF03",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -761,8 +803,9 @@
       "notation": "SHOF03SBIII",
       "prefLabel": "SHOF03SBIII · III. Compromiso cívico y social",
       "definition": "Compromiso cívico y social",
-      "broader": "materia:SHOF",
+      "broader": "asig:SHOF03",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -774,6 +817,7 @@
       "definition": "Sociedad de la información.",
       "broader": "sb:SHOF03SBI",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -785,6 +829,7 @@
       "definition": "Búsqueda, tratamiento de la información, uso de datos en entornos digitales y evaluación de la fiabilidad de las fuentes. Uso específico del léxico relativo a los ámbitos histórico, artístico, patrimonial y geográfico de Canarias.",
       "broader": "sb:SHOF03SBI.1",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -796,6 +841,7 @@
       "definition": "Cultura mediática.",
       "broader": "sb:SHOF03SBI",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -807,6 +853,7 @@
       "definition": "Aprendizaje de técnicas y métodos de las ciencias sociales: análisis de textos, interpretación y elaboración de mapas, esquemas y síntesis, representación de gráficos e interpretación de imágenes a través de medios digitales accesibles. Tecnologías de la información geográfica.",
       "broader": "sb:SHOF03SBI.2",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -818,6 +865,7 @@
       "definition": "Conocimiento de los principales archivos digitales en Canarias: universidades, museos y centros de investigación. Los retos y las oportunidades en el mundo digital.",
       "broader": "sb:SHOF03SBI.2",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -829,6 +877,7 @@
       "definition": "Lo global y lo local.",
       "broader": "sb:SHOF03SBI",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -840,6 +889,7 @@
       "definition": "Inicio a la investigación en Ciencias Sociales aplicadas al archipiélago, el estudio multicausal y el análisis comparado del espacio natural, rural y urbano canario, su evolución y los retos de futuro de las islas.",
       "broader": "sb:SHOF03SBI.3",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -851,6 +901,7 @@
       "definition": "Estudio de los desafíos pasados, actuales y futuros de la actual sociedad canaria. De la fragmentación insular al mundo globalizado. La posición geoestratégica de Canarias en el Atlántico.",
       "broader": "sb:SHOF03SBI.3",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -862,6 +913,7 @@
       "definition": "Conocimiento de las relaciones internacionales de Canarias desde la Edad Moderna hasta la actualidad. Intercambios y relaciones entre Canarias, Europa, África y América. Piratería, ataques navales y defensa de las islas. Impacto de las dos guerras mundiales.",
       "broader": "sb:SHOF03SBI.3",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -873,6 +925,7 @@
       "definition": "Objetivos de Desarrollo Sostenible.",
       "broader": "sb:SHOF03SBI",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -884,6 +937,7 @@
       "definition": "Análisis y valoración de la emergencia climática y sostenibilidad en el medio natural canario. Relación entre factores naturales y antrópicos. Estrategias y procedimientos para comprender las características climáticas del archipiélago.",
       "broader": "sb:SHOF03SBI.4",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -895,6 +949,7 @@
       "definition": "Identificación de estilos de vida para favorecer el modelo de isla sostenible en Canarias.",
       "broader": "sb:SHOF03SBI.4",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -906,6 +961,7 @@
       "definition": "Estudio de la economía circular y la eficacia en el uso de los recursos: energías renovables, el aprovechamiento del agua y el modelo productivo y de consumo en Canarias.",
       "broader": "sb:SHOF03SBI.4",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -917,6 +973,7 @@
       "definition": "Interpretación del territorio y del paisaje canario.",
       "broader": "sb:SHOF03SBII",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -928,6 +985,7 @@
       "definition": "Indagación sobre el paisaje agrario y el patrimonio rural en Canarias. Economía y sociedad. Transformaciones del territorio hasta la actualidad. El papel de la mujer en el espacio agrario.",
       "broader": "sb:SHOF03SBII",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -939,6 +997,7 @@
       "definition": "Identificación del patrimonio urbano de Canarias y las instituciones de Canarias: el poder religioso, el poder militar y el poder civil en la trama urbana, espacios públicos y de ocio. Espacio y sociedad.",
       "broader": "sb:SHOF03SBII",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -950,6 +1009,7 @@
       "definition": "Estudio de la demografía en Canarias. Ordenación del territorio y transformación del espacio. La huella humana y la protección del medio natural canario. Análisis de la variedad de ecosistemas insulares a partir de la Red Canaria de Espacios Naturales Protegidos.",
       "broader": "sb:SHOF03SBII",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -961,6 +1021,7 @@
       "definition": "Aproximación a las fuentes históricas, patrimoniales, museísticas y arqueológicas como base para la construcción del conocimiento histórico. El poblamiento humano del archipiélago desde su origen hasta la actualidad. Configuración de la sociedad canaria en el marco geopolítico europeo a partir del siglo XV.",
       "broader": "sb:SHOF03SBII",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -972,6 +1033,7 @@
       "definition": "Indagación sobre la guerra civil española, la represión franquista y el franquismo en Canarias.",
       "broader": "sb:SHOF03SBII",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -983,6 +1045,7 @@
       "definition": "Conocimiento sobre Canarias en democracia. El Estatuto de Autonomía.",
       "broader": "sb:SHOF03SBII",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -994,6 +1057,7 @@
       "definition": "La contribución de Canarias a los compromisos internacionales de España en favor de la paz, la seguridad, la cooperación, la sostenibilidad, la protección del patrimonio cultural y de los valores constitucionales y la memoria democrática. Los retos de Canarias en el siglo XXI.",
       "broader": "sb:SHOF03SBII",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1005,6 +1069,7 @@
       "definition": "Estudio del patrimonio natural canario: conocimiento, respeto y valoración de su riqueza y diversidad. Contribución desde la sensibilización al disfrute, transmisión y cuidado del patrimonio natural canario, partiendo de la aproximación a los fundamentos jurídicos y administrativos que puedan garantizar la gestión y conservación.",
       "broader": "sb:SHOF03SBIII",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1016,6 +1081,7 @@
       "definition": "Reflexión sobre la responsabilidad ecosocial. El compromiso y la acción ante los Objetivos del Desarrollo Sostenible en Canarias, donde la juventud actúa como agente de cambio para el desarrollo sostenible en el archipiélago.",
       "broader": "sb:SHOF03SBIII",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1027,6 +1093,7 @@
       "definition": "Implicación en la defensa y protección del medioambiente. Acción y posición ante la emergencia climática.",
       "broader": "sb:SHOF03SBIII",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1038,6 +1105,7 @@
       "definition": "Análisis y reflexión del impacto paisajístico, social, económico y cultural del turismo en Canarias. Desarrollo, crisis y alternativas.",
       "broader": "sb:SHOF03SBIII",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1049,6 +1117,7 @@
       "definition": "Identificación de los aspectos geográficos, históricos, ecosociales y culturales en la configuración de la identidad canaria. Multiculturalidad y globalización: enriquecimiento del acervo común.",
       "broader": "sb:SHOF03SBIII",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1060,6 +1129,7 @@
       "definition": "Conocimiento de las diversas formas de cultura canaria: la cultura popular y la oficial. Tradiciones, fiestas y folclore. Diversidad social y multicultural. Integración social y cultural y cohesión con el entorno.",
       "broader": "sb:SHOF03SBIII",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1071,6 +1141,7 @@
       "definition": "Estudio y valoración de las movilizaciones sociales. El papel desempeñado por la mujer en la sociedad canaria a lo largo de la historia. Aportaciones históricas del movimiento obrero en Canarias. Movimientos estudiantiles, ecologistas y LGTBI+.",
       "broader": "sb:SHOF03SBIII",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1082,6 +1153,7 @@
       "definition": "Análisis del impacto de las principales corrientes culturales y científicas en Canarias. Movimientos artísticos en el archipiélago canario. La mujer y el arte en Canarias.",
       "broader": "sb:SHOF03SBIII",
       "materia": "materia:SHOF",
+      "materia_curso": "asig:SHOF03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     }

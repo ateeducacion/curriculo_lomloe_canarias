@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BEFI01",
+      "tipo": "MateriaCurso",
+      "notation": "BEFI01",
+      "prefLabel": "Educación Física · 1º Bachillerato",
+      "broader": "materia:BEFI",
+      "materia": "materia:BEFI",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BEFIC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BEFIC1",
@@ -67,7 +77,7 @@
       "notation": "BEFI01BC1",
       "prefLabel": "Educación Física · 1º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado desarrolla la capacidad de planificar y autoevaluar sus prácticas motrices de manera autónoma, continua y equilibrada, entendiéndolas como elemento fundamental en la mejora de la salud física, mental y social, interiorizando un estilo de vida activo y saludable. Deberá desarrollar y mejorar la condición física, manejando conceptos de intensidad, duración, especificidad y continuidad para planificar de acuerdo a sus posibilidades y expectativas con autonomía y creatividad, transfiriendo aprendizajes a otros contextos de la vida. Se constatará que es capaz de gestionar hábitos saludables como la educación postural, la alimentación, el sueño, la higiene o los primeros auxilios. Además, el alumnado podrá utilizar tecnologías digitales y realizar búsquedas de información que orienten, faciliten o permitan compartir experiencias motrices de manera segura, previo análisis crítico, satisfaciendo sus demandas de ocio activo y de bienestar personal. El alumnado será capaz de desarrollar prácticas motrices de acondicionamiento físico saludable; introyección, prevención, cuidado y pautas de actuación seguras en prácticas motrices asociadas a la alimentación, los hábitos de higiene, la educación postural, los primeros auxilios o la prevención de lesiones, entre otros, así como la gestión de la actividad física con opción de empleo de herramientas digitales que enriquezcan su práctica y formación integral.",
-      "broader": "materia:BEFI",
+      "broader": "asig:BEFI01",
       "agrupa": [
         "ce:BEFIC1"
       ],
@@ -79,6 +89,7 @@
         "CPSAA2"
       ],
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -88,7 +99,7 @@
       "notation": "BEFI01BC2",
       "prefLabel": "Educación Física · 1º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado diseña, aplica y evalúa prácticas motrices con diferentes lógicas internas, analizando lo que ocurre durante el proceso, cambiando de estrategia si es preciso y valorando finalmente el resultado. Se constatará que es capaz de diseñar y superar retos en contextos variados de práctica motriz, con distintos grados de interacción, participación e incertidumbre. Analizará y tomará decisiones con sentido crítico y ético, evaluando el desempeño y reflexionando sobre fortalezas y debilidades en relación con la aplicación de procesos de percepción, decisión y ejecución. Asimismo, se valorarán las capacidades físicas y coordinativas condicionantes de la práctica. Se consolidarán actitudes de superación, crecimiento y resiliencia gestionando constructivamente los cambios, la participación social y su propia actividad para la transferencia a otros contextos. Se constatará que el alumnado promueve, participa activamente y valora prácticas motrices para la mejora de las capacidades condicionales: capacidades físicas y capacidades coordinativas, desafíos individuales, desafíos cooperativos, desafíos de oposición y desafíos de cooperación y oposición.",
-      "broader": "materia:BEFI",
+      "broader": "asig:BEFI01",
       "agrupa": [
         "ce:BEFIC2"
       ],
@@ -99,6 +110,7 @@
         "CE3"
       ],
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -108,7 +120,7 @@
       "notation": "BEFI01BC3",
       "prefLabel": "Educación Física · 1º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado practica y evalúa situaciones motrices con distintos grados y tipos de interacción, mostrando una actitud positiva, crítica y respetuosa en las relaciones interpersonales. Gestionará emociones y habilidades sociales en un proceso continuo de autorregulación, contribuyendo al entendimiento social, al compromiso ético y al fomento de las relaciones constructivas entre las personas participantes, en contextos variados de práctica motriz y en favor de un mundo más saludable. Se constatará que es capaz de promover prácticas motrices en las que comparta espacios de actividad físico-deportiva con una perspectiva inclusiva, comprendiendo y analizando sus diferencias. Se priorizará el respeto hacia las personas participantes y a las reglas sobre los resultados, mostrando tolerancia, resolviendo de forma dialogada los conflictos, fomentando el juego limpio, la cooperación y la resiliencia. Se comprobará que el alumnado dinamiza, práctica y valora las actividades motrices inclusivas y prácticas para el autoconocimiento, la gestión de las emociones y las habilidades sociales.",
-      "broader": "materia:BEFI",
+      "broader": "asig:BEFI01",
       "agrupa": [
         "ce:BEFIC3"
       ],
@@ -121,6 +133,7 @@
         "CC3"
       ],
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -130,7 +143,7 @@
       "notation": "BEFI01BC4",
       "prefLabel": "Educación Física · 1º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado investiga, pone en práctica y consolida aspectos esenciales del patrimonio cultural y artístico de Canarias y otras culturas, así como conceptos relacionados con las manifestaciones de la cultura motriz como el juego, el deporte y las manifestaciones artístico-expresivas teniendo en cuenta su origen y evolución y comprendiendo los valores que transmiten. Se constatará que es capaz, mediante el análisis crítico, de establecer una interacción pacífica y respetuosa con las personas utilizando las manifestaciones artístico-expresivas de manera creativa y abierta para crear productos individuales o colectivos, además de reconocer y valorar con espíritu crítico el juego y el deporte como fenómenos sociales. Se constatará que el alumnado participa activamente y valora prácticas motrices de la cultura canaria y de otras culturas con finalidad artístico-expresiva y rítmico-expresiva.",
-      "broader": "materia:BEFI",
+      "broader": "asig:BEFI01",
       "agrupa": [
         "ce:BEFIC4"
       ],
@@ -143,6 +156,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -152,7 +166,7 @@
       "notation": "BEFI01BC5",
       "prefLabel": "Educación Física · 1º Bachillerato · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado desarrolla prácticas motrices adaptándose a diferentes entornos, de forma sostenible y ecosocialmente responsable, con la posibilidad de emprender y desarrollar colaborativa y cooperativamente acciones de servicio a la comunidad, evaluando su impacto. Se constatará que es capaz de gestionar las prácticas motrices en distintos contextos autónomamente, contribuyendo de forma consciente y activa a una interacción eficiente y sostenible con el medio, asumiendo responsabilidades en la seguridad de las mismas, preservando la salud y el medioambiente. Se constatará que el alumnado participa activamente en prácticas motrices sostenibles en entornos urbanos y naturales terrestres, así como en acuáticos si fuera posible. Además, se promoverá la movilidad sostenible y segura en desplazamientos a pie o sobre ruedas y prácticas motrices vinculadas al tiempo libre, a una ciudadanía activa y al compromiso cívico.",
-      "broader": "materia:BEFI",
+      "broader": "asig:BEFI01",
       "agrupa": [
         "ce:BEFIC5"
       ],
@@ -165,6 +179,7 @@
         "CE1"
       ],
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -184,6 +199,7 @@
         "CPSAA2"
       ],
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -202,6 +218,7 @@
         "CE3"
       ],
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -222,6 +239,7 @@
         "CC3"
       ],
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -241,6 +259,7 @@
         "CCEC1"
       ],
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -259,6 +278,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -279,6 +299,7 @@
         "CE1"
       ],
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -288,8 +309,9 @@
       "notation": "BEFI01SBI",
       "prefLabel": "BEFI01SBI · I. Vida Saludable y gestión de la actividad física",
       "definition": "Vida Saludable y gestión de la actividad física",
-      "broader": "materia:BEFI",
+      "broader": "asig:BEFI01",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -299,8 +321,9 @@
       "notation": "BEFI01SBII",
       "prefLabel": "BEFI01SBII · II. Retos motores",
       "definition": "Retos motores",
-      "broader": "materia:BEFI",
+      "broader": "asig:BEFI01",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -310,8 +333,9 @@
       "notation": "BEFI01SBIII",
       "prefLabel": "BEFI01SBIII · III. Inclusión y autorregulación emocional en las situaciones motrices",
       "definition": "Inclusión y autorregulación emocional en las situaciones motrices",
-      "broader": "materia:BEFI",
+      "broader": "asig:BEFI01",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -321,8 +345,9 @@
       "notation": "BEFI01SBIV",
       "prefLabel": "BEFI01SBIV · IV. Manifestaciones motrices socioculturales",
       "definition": "Manifestaciones motrices socioculturales",
-      "broader": "materia:BEFI",
+      "broader": "asig:BEFI01",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -332,8 +357,9 @@
       "notation": "BEFI01SBV",
       "prefLabel": "BEFI01SBV · V. Manifestaciones motrices expresivas",
       "definition": "Manifestaciones motrices expresivas",
-      "broader": "materia:BEFI",
+      "broader": "asig:BEFI01",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -343,8 +369,9 @@
       "notation": "BEFI01SBVI",
       "prefLabel": "BEFI01SBVI · VI. Desarrollo sostenible desde la motricidad en distintos entornos",
       "definition": "Desarrollo sostenible desde la motricidad en distintos entornos",
-      "broader": "materia:BEFI",
+      "broader": "asig:BEFI01",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -356,6 +383,7 @@
       "definition": "Planificación, puesta en práctica y autoevaluación de actividades de acondicionamiento físico saludable.",
       "broader": "sb:BEFI01SBI",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -367,6 +395,7 @@
       "definition": "Planificación, puesta en práctica y autoevaluación de actividades introyectivas.",
       "broader": "sb:BEFI01SBI",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -378,6 +407,7 @@
       "definition": "Prevención, cuidado y pautas de actuación seguras en actividades motrices asociadas a la alimentación, la educación postural, los primeros auxilios o la prevención de lesiones entre otros.",
       "broader": "sb:BEFI01SBI",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -389,6 +419,7 @@
       "definition": "Gestión de la actividad física con opción de empleo de herramientas digitales que enriquezcan su práctica.",
       "broader": "sb:BEFI01SBI",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -400,6 +431,7 @@
       "definition": "Diseño, implementación y evaluación de actividades motrices asociadas a las capacidades condicionales: capacidades físicas y capacidades coordinativas.",
       "broader": "sb:BEFI01SBII",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -411,6 +443,7 @@
       "definition": "Diseño, implementación y evaluación de actividades motrices a través de desafíos individuales.",
       "broader": "sb:BEFI01SBII",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -422,6 +455,7 @@
       "definition": "Diseño, implementación y evaluación de actividades motrices a través de desafíos cooperativos.",
       "broader": "sb:BEFI01SBII",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -433,6 +467,7 @@
       "definition": "Diseño, implementación y evaluación de actividades motrices a través de desafíos de oposición.",
       "broader": "sb:BEFI01SBII",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -444,6 +479,7 @@
       "definition": "Diseño, implementación y evaluación de actividades motrices a través de desafíos de cooperación-oposición.",
       "broader": "sb:BEFI01SBII",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -455,6 +491,7 @@
       "definition": "Promoción, puesta en práctica y evaluación de actividades motrices inclusivas.",
       "broader": "sb:BEFI01SBIII",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -466,6 +503,7 @@
       "definition": "Promoción, puesta en práctica y evaluación de actividades para el autoconocimiento, la gestión de las emociones y las habilidades sociales en la actividad física.",
       "broader": "sb:BEFI01SBIII",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -477,6 +515,7 @@
       "definition": "Investigación, puesta en práctica y evaluación de actividades motrices de la cultura canaria.",
       "broader": "sb:BEFI01SBIV",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -488,6 +527,7 @@
       "definition": "Investigación, puesta en práctica y evaluación de actividades motrices de otras culturas.",
       "broader": "sb:BEFI01SBIV",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -499,6 +539,7 @@
       "definition": "Creación y representación de actividades motrices con finalidad artístico-expresiva.",
       "broader": "sb:BEFI01SBV",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -510,6 +551,7 @@
       "definition": "Creación y representación de actividades motrices con finalidad rítmico-expresiva.",
       "broader": "sb:BEFI01SBV",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -521,6 +563,7 @@
       "definition": "Organización, participación y evaluación de actividades motrices sostenibles en entornos urbanos y naturales.",
       "broader": "sb:BEFI01SBVI",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -532,6 +575,7 @@
       "definition": "Organización, participación y evaluación de actividades motrices con desplazamiento a pie o sobre ruedas, a través de una movilidad sostenible y segura.",
       "broader": "sb:BEFI01SBVI",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -543,6 +587,7 @@
       "definition": "Organización, participación y evaluación de actividades motrices sostenibles y seguras vinculadas al tiempo libre, a una ciudadanía activa y al compromiso cívico.",
       "broader": "sb:BEFI01SBVI",
       "materia": "materia:BEFI",
+      "materia_curso": "asig:BEFI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

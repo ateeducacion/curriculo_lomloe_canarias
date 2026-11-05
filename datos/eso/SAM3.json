@@ -12,6 +12,16 @@
       "etapa": "etapa:ESO"
     },
     {
+      "id": "asig:SAM304",
+      "tipo": "MateriaCurso",
+      "notation": "SAM304",
+      "prefLabel": "Ámbito Práctico · 4º ESO",
+      "broader": "materia:SAM3",
+      "materia": "materia:SAM3",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
       "id": "ce:SAM3C1",
       "tipo": "CompetenciaEspecifica",
       "notation": "SAM3C1",
@@ -77,7 +87,7 @@
       "notation": "SAM304BC1",
       "prefLabel": "Ámbito Práctico · 4º ESO · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se persigue constatar la adquisición por parte del alumnado de la capacidad de dar respuesta a necesidades planteadas en su entorno próximo, desde una perspectiva interdisciplinar, fabricando productos y soluciones tecnológicas eficientes, innovadoras y sostenibles para minimizar el impacto negativo en la sociedad y en el planeta. Con este fin se utilizará el método de proyectos para desarrollar, de manera creativa, colaborativa y cooperativa, las ideas que el alumnado elabore a partir de la selección de fuentes de información, atendiendo a criterios de calidad, actualidad y fiabilidad, respetando la propiedad intelectual que debe ser correctamente referenciada. Se verificará que el alumnado adquirirá una actitud respetuosa en los procesos de intercambio de información y creación de contenido empleando las tecnologías digitales de comunicación. Además, se comprobará que el alumnado es capaz de seleccionar los materiales según sus propiedades para poder aplicar, de manera segura y responsable, las herramientas de diseño asistido por ordenador en 3D y las técnicas de fabricación manual, mecánica y digital (impresión 3D) para elaborar soluciones que den respuesta a una necesidad planteada, atendiendo a criterios de accesibilidad, sostenibilidad y equidad social. Se valorará el uso de la metodología de aprendizaje-servicio para fomentar el compromiso social y su interés hacia el aprendizaje.",
-      "broader": "materia:SAM3",
+      "broader": "asig:SAM304",
       "agrupa": [
         "ce:SAM3C1"
       ],
@@ -98,6 +108,7 @@
         "CD5"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -107,7 +118,7 @@
       "notation": "SAM304BC2",
       "prefLabel": "Ámbito Práctico · 4º ESO · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de realizar una comunicación efectiva en diferentes foros, tanto para intercambiar información como para generar nuevos contenidos de manera creativa en diferentes formatos de expresión, bien en la difusión de ideas o bien en las propuestas o soluciones tecnológicas. Con este fin, el alumnado utilizará las tecnologías digitales de comunicación con un lenguaje inclusivo, libre de estereotipos sexistas. Para ello, se emplearán en las interacciones comunicativas los recursos disponibles junto con un vocabulario técnico, símbolos y esquemas de sistemas tecnológicos apropiados, contribuyendo al desarrollo de una ciudadanía digital activa, cívica y reflexiva. Se valorará el trabajo colaborativo y cooperativo en grupo del alumnado, aceptando tareas y responsabilidades de manera equitativa y empleando estrategias cooperativas.",
-      "broader": "materia:SAM3",
+      "broader": "asig:SAM304",
       "agrupa": [
         "ce:SAM3C2"
       ],
@@ -122,6 +133,7 @@
         "CD3"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -131,7 +143,7 @@
       "notation": "SAM304BC3",
       "prefLabel": "Ámbito Práctico · 4º ESO · bloque competencial C3",
       "scopeNote": "Mediante este bloque competencial se persigue comprobar que el alumnado es capaz de diseñar, construir, controlar o simular sistemas robóticos sencillos con criterios de sostenibilidad, de manera colaborativa y cooperativa, que realicen tareas de forma autónoma para resolver problemas o retos propuestos de su entorno, utilizando componentes básicos de los circuitos electrónicos y conocimientos mecánicos, eléctricos y electrónicos. Este aprendizaje del alumnado implica la aplicación de estrategias del pensamiento computacional y programación mediante el uso de recursos como los diagramas de flujo o programación por bloques a través de dispositivos y aplicaciones digitales, haciendo autoevaluaciones de su proceso de aprendizaje. Para ello, el alumnado previamente debe estar en condiciones de elaborar algoritmos sencillos en simuladores o recursos digitales. Además, este bloque competencial precisa de un enfoque de aprendizaje-servicio donde el alumnado analice de manera crítica las soluciones o propuestas a una necesidad o problema de su entorno y las reformule en caso necesario. Con ello, se facilitará la incorporación, de manera segura y responsable, de la robótica, la impresión 3D y las tecnologías emergentes como el internet de las cosas, los big data y la inteligencia artificial en el aprendizaje del alumnado, valorando su impacto en la sociedad.",
-      "broader": "materia:SAM3",
+      "broader": "asig:SAM304",
       "agrupa": [
         "ce:SAM3C3"
       ],
@@ -150,6 +162,7 @@
         "CD4"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -159,7 +172,7 @@
       "notation": "SAM304BC4",
       "prefLabel": "Ámbito Práctico · 4º ESO · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado sea capaz de gestionar y optimizar su aprendizaje permanente de manera autónoma, con el soporte de recursos digitales, configurando su entorno personal de aprendizaje para el desarrollo de una adecuada ciudadanía digital. Es por ello que el alumnado deberá seleccionar y emplear, con responsabilidad, las posibilidades de las herramientas digitales del entorno personal de aprendizaje, adaptándolas a sus necesidades y configurándolas de manera razonada. Asimismo, se valorará la búsqueda, la localización, la selección y el archivo de la información con criterios de calidad y actualidad, contrastando las fuentes de información y evaluando su fiabilidad para reutilizar la información con sentido crítico, elaborar nuevo contenido digital accesible en distintos formatos y resolver las tareas propuestas, con la finalidad de que el alumnado aprenda de sus errores, de manera creativa, inclusiva y eficaz, y reflexione sobre el proceso realizado y el resultado obtenido. Se constatará que respete los derechos de autoría y las licencias de uso, y que siga las normas básicas de seguridad en la red, al tiempo que aprecie y valore la identidad cultural canaria. También se verificará la participación activa, respetuosa y colaborativa en los espacios virtuales de comunicación y plataformas de aprendizaje colaborativo.",
-      "broader": "materia:SAM3",
+      "broader": "asig:SAM304",
       "agrupa": [
         "ce:SAM3C4"
       ],
@@ -180,6 +193,7 @@
         "STEM4"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -189,7 +203,7 @@
       "notation": "SAM304BC5",
       "prefLabel": "Ámbito Práctico · 4º ESO · bloque competencial C5",
       "scopeNote": "Mediante este bloque competencial se persigue constatar que el alumnado es capaz de proteger los dispositivos digitales, sus datos personales, su propia salud y la huella digital generada en internet, aprendiendo de sus errores para desarrollar una adecuada ciudadanía digital. Con este fin, se comprobará que el alumnado dispone de las herramientas necesarias para proteger sus datos personales, al mismo tiempo que desarrolla hábitos y estrategias que contribuyan a la seguridad y a la salud en el uso crítico y responsable de las tecnologías digitales de la comunicación y colaboración mediante la configuración de sus condiciones de privacidad de forma periódica, aplicando principios de ética, respetando la propiedad intelectual, y asumiendo una participación comprometida, tolerante y de respeto por la diversidad en las redes sociales y espacios virtuales de trabajo. así como las estrategias que debe utilizar para actuar en consecuencia, localizando y contrastando los riesgos, y tomando conciencia de la importancia de las amenazas al bienestar personal.",
-      "broader": "materia:SAM3",
+      "broader": "asig:SAM304",
       "agrupa": [
         "ce:SAM3C5"
       ],
@@ -208,6 +222,7 @@
         "CC2"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -217,7 +232,7 @@
       "notation": "SAM304BC6",
       "prefLabel": "Ámbito Práctico · 4º ESO · bloque competencial C6",
       "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado es capaz de conectar dispositivos digitales a redes locales, configurando sus características y adoptando las medidas preventivas necesarias para mantener su seguridad, así como la de los sistemas operativos, para poder utilizar las herramientas e instalaciones informáticas y de comunicación de uso cotidiano. Para ello, se precisa de la identificación de sus componentes y del análisis de sus funciones, aplicando los conocimientos de hardware y sistemas operativos. Es por ello que con este bloque competencial se deben abordar diferentes estrategias para identificar los riesgos y las posibles amenazas en los entornos digitales, valorando la seguridad y el bienestar personal y colectivo, y garantizando la privacidad de los dispositivos y de las personas. De este modo, el alumnado aprenderá de sus errores en la toma de decisiones, de manera razonada, cuando realiza la conexión de dispositivos y configuración de redes locales y sistemas operativos, reflexionando sobre el proceso realizado y mostrando una actitud crítica y proactiva en la identificación y resolución de problemas sencillos de forma creativa y sostenible.",
-      "broader": "materia:SAM3",
+      "broader": "asig:SAM304",
       "agrupa": [
         "ce:SAM3C6"
       ],
@@ -230,6 +245,7 @@
         "CD5"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -257,6 +273,7 @@
         "CE3"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -276,6 +293,7 @@
         "CC4"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -297,6 +315,7 @@
         "CCEC3"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -317,6 +336,7 @@
         "CCEC3"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -338,6 +358,7 @@
         "CE3"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -360,6 +381,7 @@
         "CE3"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -379,6 +401,7 @@
         "CD5"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -395,6 +418,7 @@
         "CD3"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -416,6 +440,7 @@
         "CCEC1"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -437,6 +462,7 @@
         "CCEC4"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -457,6 +483,7 @@
         "CPSAA5"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -475,6 +502,7 @@
         "CPSAA2"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -491,6 +519,7 @@
         "CD4"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -513,6 +542,7 @@
         "CC3"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -535,6 +565,7 @@
         "CC3"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -554,6 +585,7 @@
         "CE3"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -571,6 +603,7 @@
         "CE3"
       ],
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -580,8 +613,9 @@
       "notation": "SAM304SBI",
       "prefLabel": "SAM304SBI · I. Proceso de resolución de problemas",
       "definition": "Proceso de resolución de problemas",
-      "broader": "materia:SAM3",
+      "broader": "asig:SAM304",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -591,8 +625,9 @@
       "notation": "SAM304SBII",
       "prefLabel": "SAM304SBII · II. Operadores tecnológicos",
       "definition": "Operadores tecnológicos",
-      "broader": "materia:SAM3",
+      "broader": "asig:SAM304",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -602,8 +637,9 @@
       "notation": "SAM304SBIII",
       "prefLabel": "SAM304SBIII · III. Pensamiento computacional, programación y robótica",
       "definition": "Pensamiento computacional, programación y robótica",
-      "broader": "materia:SAM3",
+      "broader": "asig:SAM304",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -613,8 +649,9 @@
       "notation": "SAM304SBIV",
       "prefLabel": "SAM304SBIV · IV. Digitalización del entorno personal de aprendizaje",
       "definition": "Digitalización del entorno personal de aprendizaje",
-      "broader": "materia:SAM3",
+      "broader": "asig:SAM304",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -624,8 +661,9 @@
       "notation": "SAM304SBV",
       "prefLabel": "SAM304SBV · V. Seguridad y ciudadanía digital",
       "definition": "Seguridad y ciudadanía digital",
-      "broader": "materia:SAM3",
+      "broader": "asig:SAM304",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -635,8 +673,9 @@
       "notation": "SAM304SBVI",
       "prefLabel": "SAM304SBVI · VI. Dispositivos digitales y sistemas de comunicación",
       "definition": "Dispositivos digitales y sistemas de comunicación",
-      "broader": "materia:SAM3",
+      "broader": "asig:SAM304",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -648,6 +687,7 @@
       "definition": "Estrategias y técnicas:",
       "broader": "sb:SAM304SBI",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -659,6 +699,7 @@
       "definition": "Aplicación de estrategias de gestión de proyectos colaborativos.",
       "broader": "sb:SAM304SBI.1",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -670,6 +711,7 @@
       "definition": "Observación y análisis de las necesidades del entorno para plantear proyectos colaborativos o cooperativos que den respuesta a las necesidades planteadas.",
       "broader": "sb:SAM304SBI.1",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -681,6 +723,7 @@
       "definition": "Resolución de problemas desde una perspectiva interdisciplinar de la actividad tecnológica, utilizando las estrategias del método de proyectos, y fomentando el emprendimiento, la perseverancia, la creatividad, la satisfacción y el interés por el trabajo y la calidad de este.",
       "broader": "sb:SAM304SBI.1",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -692,6 +735,7 @@
       "definition": "Productos y materiales:",
       "broader": "sb:SAM304SBI",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -703,6 +747,7 @@
       "definition": "Estrategias de selección de materiales según sus propiedades y requisitos con criterios de sostenibilidad, accesibilidad y equidad social.",
       "broader": "sb:SAM304SBI.2",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -714,6 +759,7 @@
       "definition": "Fabricación:",
       "broader": "sb:SAM304SBI",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -725,6 +771,7 @@
       "definition": "Uso de herramientas de diseño asistido por ordenador en 3D para representar o fabricar piezas aplicadas a la resolución de proyectos.",
       "broader": "sb:SAM304SBI.3",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -736,6 +783,7 @@
       "definition": "Aplicación práctica de técnicas de fabricación manual, mecánica y digital (impresión 3D) para elaborar soluciones que den respuesta a una necesidad planteada.",
       "broader": "sb:SAM304SBI.3",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -747,6 +795,7 @@
       "definition": "Difusión:",
       "broader": "sb:SAM304SBI",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -758,6 +807,7 @@
       "definition": "Presentación y difusión del proyecto utilizando elementos, técnicas y herramientas que permitan una comunicación efectiva, como la entonación y expresión adecuadas, gestión del tiempo y adaptación del discurso al fin y al entorno. Uso de un lenguaje inclusivo y libre de estereotipos sexistas.",
       "broader": "sb:SAM304SBI.4",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -769,6 +819,7 @@
       "definition": "Identificación y representación de operadores tecnológicos (mecánicos, eléctricos, electrónicos, analógicos y digitales, neumáticos e hidráulicos) aplicados a la resolución de problemas tecnológicos, para realizar análisis y montajes físicos de sistemas.",
       "broader": "sb:SAM304SBII",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -780,6 +831,7 @@
       "definition": "Identificación y representación de operadores tecnológicos en la robótica, para realizar análisis y montajes físicos o simulados de circuitos que permitan la realización de tareas autónomas.",
       "broader": "sb:SAM304SBII",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -791,6 +843,7 @@
       "definition": "Conocimiento y aplicación de estrategias de pensamiento computacional y programación.",
       "broader": "sb:SAM304SBIII",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -802,6 +855,7 @@
       "definition": "Creación y aplicación de algoritmos y diagramas de flujo para la resolución de problemas tecnológicos o para la ejecución de tareas simples o rutinarias.",
       "broader": "sb:SAM304SBIII",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -813,6 +867,7 @@
       "definition": "Identificación de los componentes de sistemas de control programado -controladores, sensores y actuadores- en las máquinas y los sistemas tecnológicos.",
       "broader": "sb:SAM304SBIII",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -824,6 +879,7 @@
       "definition": "Uso del ordenador y de los dispositivos móviles como elementos de programación y control:",
       "broader": "sb:SAM304SBIII",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -835,6 +891,7 @@
       "definition": "Introducción al trabajo con simuladores digitales para verificar y comprobar el funcionamiento de los sistemas diseñados.",
       "broader": "sb:SAM304SBIII.4",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -846,6 +903,7 @@
       "definition": "Análisis y programación de objetos inteligentes (el internet de las cosas (IoT)).",
       "broader": "sb:SAM304SBIII.4",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -857,6 +915,7 @@
       "definition": "Aplicación de principios de la inteligencia artificial (IA).",
       "broader": "sb:SAM304SBIII.4",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -868,6 +927,7 @@
       "definition": "Diseño, construcción y control de robots sencillos de manera física o simulada para realizar tareas de forma autónoma.",
       "broader": "sb:SAM304SBIII",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -879,6 +939,7 @@
       "definition": "Análisis crítico, evaluación y reflexión sobre las soluciones y propuestas realizadas.",
       "broader": "sb:SAM304SBIII",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -890,6 +951,7 @@
       "definition": "Depuración de errores y reformulación de las soluciones y propuestas, si fuera necesario, gestionando adecuadamente las emociones.",
       "broader": "sb:SAM304SBIII",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -901,6 +963,7 @@
       "definition": "Aplicación de estrategias básicas para la búsqueda, la selección y el archivo de la información, contrastando críticamente fuentes diversas y evaluando su fiabilidad.",
       "broader": "sb:SAM304SBIV",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -912,6 +975,7 @@
       "definition": "Edición, creación y difusión de contenidos:",
       "broader": "sb:SAM304SBIV",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -923,6 +987,7 @@
       "definition": "Uso eficaz de diferentes herramientas para editar, crear y difundir contenidos digitales accesibles en diferentes formatos.",
       "broader": "sb:SAM304SBIV.2",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -934,6 +999,7 @@
       "definition": "Empleo de herramientas necesarias para el desarrollo de aplicaciones sencillas en dispositivos móviles y web, realidad virtual, aumentada y mixta.",
       "broader": "sb:SAM304SBIV.2",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -945,6 +1011,7 @@
       "definition": "Aplicación de estrategias básicas para la publicación, comunicación, colaboración y difusión responsable, usando tecnologías digitales de comunicación.",
       "broader": "sb:SAM304SBIV",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -956,6 +1023,7 @@
       "definition": "Respeto hacia las normas de derechos de autoría, y las licencias de uso y accesibilidad universal, que se aplican a los datos, la información digital y los contenidos en entornos digitales.",
       "broader": "sb:SAM304SBIV",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -967,6 +1035,7 @@
       "definition": "Identificación y análisis de los riesgos, las amenazas y los ataques que pueden afectar a la seguridad de los dispositivos para la aplicación de medidas preventivas y correctivas.",
       "broader": "sb:SAM304SBV",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -978,6 +1047,7 @@
       "definition": "Desarrollo de estrategias para mejorar la seguridad en la red y la protección de datos en aspectos relacionados con la identidad, reputación digital, privacidad y huella digital, que permitan aplicar medidas preventivas en la configuración de tecnologías digitales de comunicación y la gestión de identidades virtuales.",
       "broader": "sb:SAM304SBV",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -989,6 +1059,7 @@
       "definition": "Adquisición de estrategias básicas para ejercer una adecuada ciudadanía digital en la interacción en los entornos digitales, siguiendo las indicaciones de la etiqueta digital y respetando la libertad de expresión, los requisitos de accesibilidad en la comunicación para que sea inclusiva para todas las personas, la diversidad en las tecnologías digitales de comunicación y espacios virtuales, la propiedad intelectual y las licencias de uso.",
       "broader": "sb:SAM304SBV",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1000,6 +1071,7 @@
       "definition": "Aplicación de estrategias que permitan la identificación de situaciones de violencia y riesgo en la red (ciberacoso, sextorsión, acceso a contenidos inadecuados, dependencia tecnológica, violencia de género, LGTBI+fobias, racismo, xenofobia…), que afecten al bienestar personal. Desarrollo de estrategias que permitan dar respuesta adecuada a estas situaciones, preservando la salud física, mental y emocional, y adoptando prácticas de uso saludable.",
       "broader": "sb:SAM304SBV",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1011,6 +1083,7 @@
       "definition": "Aplicación de prácticas saludables a nivel físico y emocional en el uso de las tecnologías digitales, como periodos de descanso, hábitos ergonómicos, control consciente del tiempo de conexión...",
       "broader": "sb:SAM304SBV",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1022,6 +1095,7 @@
       "definition": "Configuración y montaje de los elementos que constituyen la arquitectura de los ordenadores y desarrollo de estrategias eficaces para la resolución de los problemas relacionados que permitan la adquisición de hábitos de reutilización de materiales y ahorro energético.",
       "broader": "sb:SAM304SBVI",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1033,6 +1107,7 @@
       "definition": "Identificación de los dispositivos constituyentes de una red local y análisis de su funcionamiento para realizar su adecuada conexión y configuración.",
       "broader": "sb:SAM304SBVI",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1044,6 +1119,7 @@
       "definition": "Configuración de sistemas operativos.",
       "broader": "sb:SAM304SBVI",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1055,6 +1131,7 @@
       "definition": "Desarrollo de estrategias para identificar los riesgos en las redes locales, adoptando las medidas necesarias para garantizar la seguridad de los dispositivos y de las personas en los entornos digitales.",
       "broader": "sb:SAM304SBVI",
       "materia": "materia:SAM3",
+      "materia_curso": "asig:SAM304",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     }

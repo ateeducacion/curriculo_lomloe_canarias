@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BAAP01",
+      "tipo": "MateriaCurso",
+      "notation": "BAAP01",
+      "prefLabel": "Anatomía Aplicada · 1º Bachillerato",
+      "broader": "materia:BAAP",
+      "materia": "materia:BAAP",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BAAPC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BAAPC1",
@@ -57,7 +67,7 @@
       "notation": "BAAP01BC1",
       "prefLabel": "Anatomía Aplicada · 1º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado sea capaz de analizar, comprender e interpretar la anatomía del sistema locomotor desde un punto de vista funcional, analizando cómo las partes del cuerpo humano forman una unidad bien organizada y cada una de ellas desempeña un papel en el correcto funcionamiento del organismo como un todo; e identificando las estructuras junto a sus funciones cuando se realizan acciones motrices. La comprensión de esta competencia por parte del alumnado le permitirá orientar el proceso creativo necesario para llevar a cabo cualquier tarea motriz o el seguimiento de la misma, a través de recursos digitales o de observación directa. Asimismo, se evaluará si el alumnado es capaz de analizar la relación entre el sistema nervioso y el aparato locomotor. El alumnado analizará la percepción, identificando que se inicia cuando se hace consciente de la existencia de un estímulo procedente de la propia persona o del entorno a través de los sentidos, y reconociéndola como el paso previo a la realización de los ajustes neuromotores necesarios en busca de la respuesta más adecuada. Comprenderá que la ejecución precisa de la valoración de los mecanismos de percepción y decisión para transformarlos en una acción motriz de manera coordinada, y conlleva una secuencia de contracciones y relajaciones a distintas intensidades y de distintos músculos para el desarrollo adecuado de una gestualidad determinada, así como los condicionantes posturales que permitan dicha acción, buscando el mínimo gasto energético y la máxima eficiencia. Este bloque competencial está relacionado con el bloque I de saberes: «Bases de anatomía humana aplicada».",
-      "broader": "materia:BAAP",
+      "broader": "asig:BAAP01",
       "agrupa": [
         "ce:BAAPC1"
       ],
@@ -67,6 +77,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -76,7 +87,7 @@
       "notation": "BAAP01BC2",
       "prefLabel": "Anatomía Aplicada · 1º Bachillerato · bloque competencial C2",
       "scopeNote": "Este bloque competencial pretende que el alumnado reconozca, vivencie y explique las adaptaciones anatómicas y fisiológicas que se dan en el organismo como resultado de la actividad física, utilizando términos anatómicos de diversa procedencia lingüística y sintetizando la información para conectarla y transferirla a otras acciones. Identificará indicadores de la condición física y los relacionará con sus características individuales o las del resto del alumnado, valorando y experimentando los efectos de la práctica de actividad física a distintos niveles de intensidad y continuidad, con el apoyo de recursos digitales si es posible. En cuanto al sistema cardio-respiratorio y músculo-esquelético, el alumnado ha de ser consciente y reconocer la importancia de los mismos para disfrutar de niveles altos de bienestar. Reconocerá, mediante la prácticade la actividad física, los procesos metabólicos aeróbicos y anaeróbicos asociados a las principales vías metabólicas, la participación enzimática y la producción de ATP. La obtención de energía y su distribución influirá positivamente en el estado de ánimo, la resistencia al esfuerzo y la capacidad de concentración. En cuanto a la nutrición, se constatará que el alumnado comprende y distingue los nutrientes más adecuados de acuerdo a sus características personales. Entenderá el valor de mantener una hidratación adecuada, así como la relación del agua con la regulación de la temperatura, los niveles de ph-acidez y su participación en el organismo a nivel estructural. Este bloque competencial está relacionado con el bloque II de saberes: «Fisiología aplicada al cuerpo humano».",
-      "broader": "materia:BAAP",
+      "broader": "asig:BAAP01",
       "agrupa": [
         "ce:BAAPC2"
       ],
@@ -87,6 +98,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -96,7 +108,7 @@
       "notation": "BAAP01BC3",
       "prefLabel": "Anatomía Aplicada · 1º Bachillerato · bloque competencial C3",
       "scopeNote": "Este bloque competencial pretende que el alumnado analice, desde un punto de vista biomecánico, las distintas prácticas motrices, con la finalidad de que comprenda y adapte la propia acción para conseguir una ejecución precisa, eficaz y económica. El alumnado desarrollará destrezas en las distintas prácticas motrices de acondicionamiento físico, juegos, deportes, manifestaciones motrices expresivas y en acciones de la vida cotidiana que mejoren su calidad de vida y minimicen los riesgos de la práctica. Asimismo, se pretende que el alumnado comprenda y vivencie la importancia de las cadenas musculares en el equilibrio corporal, tanto en situaciones estáticas como dinámicas, tomando conciencia de la importancia de la tonificación muscular y la coordinación entre y a través de los distintos sistemas del cuerpo humano, para deducir las acciones musculares adecuadas en cada situación. Este bloque competencial permitirá también trabajar múltiples retos motores, secuencias rítmicas y manifestaciones motrices expresivas, desarrollando el control y la modificación de las posturas, los gestos y movimientos, y prestando especial atención a los aspectos vinculados a criterios de seguridad, prevención de lesiones e higiene postural. Este bloque competencial está relacionado con el bloque III de saberes: «Biomecánica aplicada al cuerpo humano».",
-      "broader": "materia:BAAP",
+      "broader": "asig:BAAP01",
       "agrupa": [
         "ce:BAAPC3"
       ],
@@ -107,6 +119,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -116,7 +129,7 @@
       "notation": "BAAP01BC4",
       "prefLabel": "Anatomía Aplicada · 1º Bachillerato · bloque competencial C4",
       "scopeNote": "Este bloque competencial pretende que el alumnado aplique lo aprendido a medida que va adquiriendo nuevos aprendizajes; todo ello dentro de proyectos motores, planteados y desarrollados de acuerdo a sus intereses y necesidades, con la posibilidad de planear y emprender colaborativa y cooperativamente acciones de servicio a la comunidad, evaluando su impacto. Se constatará que es capaz de gestionar propuestas en distintos contextos autónomamente, con la posibilidad de utilizar recursos digitales, contribuyendo de forma consciente y activa a una interacción eficiente y sostenible con el medio. Este bloque competencial tiene un potencial eminentemente práctico que estimulará el razonamiento del alumnado durante el proceso creativo de diseño de tareas motrices, de forma que planifique, adapte y organice sus conocimientos, destrezas y actitudes. Los proyectos motores surgirán de la evaluación de necesidades y oportunidades, así como del deseo de afrontar retos saludables y sostenibles, aprovechando las posibilidades que nos ofrece el entorno natural canario. Estará encaminado a la práctica de actividad física cumpliendo las recomendaciones realizadas por la Organización Mundial de la Salud. Otro ámbito de desarrollo comprenderá las iniciativas en línea con los Objetivos de Desarrollo Sostenible y la Agenda Canaria 2030, englobadas dentro de metodologías de Aprendizaje servicio, siempre que sea posible. Este bloque competencial será trabajado desde todos los bloques de saberes.",
-      "broader": "materia:BAAP",
+      "broader": "asig:BAAP01",
       "agrupa": [
         "ce:BAAPC4"
       ],
@@ -129,6 +142,7 @@
         "CE1"
       ],
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -146,6 +160,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -163,6 +178,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -181,6 +197,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -199,6 +216,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -217,6 +235,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -234,6 +253,7 @@
         "CE3"
       ],
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -252,6 +272,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -269,6 +290,7 @@
         "CE3"
       ],
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -289,6 +311,7 @@
         "CE1"
       ],
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -298,8 +321,9 @@
       "notation": "BAAP01SBI",
       "prefLabel": "BAAP01SBI · I. Bases de anatomía humana aplicada",
       "definition": "Bases de anatomía humana aplicada",
-      "broader": "materia:BAAP",
+      "broader": "asig:BAAP01",
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -309,8 +333,9 @@
       "notation": "BAAP01SBII",
       "prefLabel": "BAAP01SBII · II. Fisiología aplicada al cuerpo humano",
       "definition": "Fisiología aplicada al cuerpo humano",
-      "broader": "materia:BAAP",
+      "broader": "asig:BAAP01",
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -320,8 +345,9 @@
       "notation": "BAAP01SBIII",
       "prefLabel": "BAAP01SBIII · III. Biomecánica aplicada al cuerpo humano",
       "definition": "Biomecánica aplicada al cuerpo humano",
-      "broader": "materia:BAAP",
+      "broader": "asig:BAAP01",
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -333,6 +359,7 @@
       "definition": "Análisis e identificación del sistema locomotor humano y su aplicación al movimiento.",
       "broader": "sb:BAAP01SBI",
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -344,6 +371,7 @@
       "definition": "Identificación de los principales huesos y articulaciones. Sistema esquelético.",
       "broader": "sb:BAAP01SBI",
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -355,6 +383,7 @@
       "definition": "Identificación de los principales músculos y su función. Sistema muscular.",
       "broader": "sb:BAAP01SBI",
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -366,6 +395,7 @@
       "definition": "Valoración y comprensión de la relación sistema locomotor y sistema nervioso. Comprensión y aplicación de los mecanismos de percepción, decisión y ejecución de las acciones motrices.",
       "broader": "sb:BAAP01SBI",
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -377,6 +407,7 @@
       "definition": "Conocimiento y valoración de los condicionantes fisiológicos de la actividad física.",
       "broader": "sb:BAAP01SBII",
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -388,6 +419,7 @@
       "definition": "Evaluación de los niveles de condición física, identificando los cambios anatómicos y fisiológicos derivados de una práctica motriz continuada.",
       "broader": "sb:BAAP01SBII",
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -399,6 +431,7 @@
       "definition": "Relación y ajustes del sistema cardiovascular y respiratorio con el movimiento humano. Intensidad y continuidad.",
       "broader": "sb:BAAP01SBII",
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -410,6 +443,7 @@
       "definition": "Conocimiento e identificación de los procesos metabólicos en la práctica de actividad física. Características de la actividad física y principales vías metabólicas utilizadas.",
       "broader": "sb:BAAP01SBII",
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -421,6 +455,7 @@
       "definition": "Identificación y experimentación de los metabolismos energéticos aeróbicos y anaeróbicos.",
       "broader": "sb:BAAP01SBII",
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -432,6 +467,7 @@
       "definition": "Conocimiento e identificación del entrenamiento invisible: principios de nutrición e hidratación, fatiga y descanso.",
       "broader": "sb:BAAP01SBII",
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -443,6 +479,7 @@
       "definition": "Análisis y aplicación de la acción motriz desde un punto de vista biomecánico.",
       "broader": "sb:BAAP01SBIII",
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -454,6 +491,7 @@
       "definition": "Valoración de la amplitud de movimiento articular desde la acción motriz.",
       "broader": "sb:BAAP01SBIII",
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -465,6 +503,7 @@
       "definition": "Análisis, identificación y exploración de los planos y ejes de movimiento.",
       "broader": "sb:BAAP01SBIII",
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -476,6 +515,7 @@
       "definition": "Análisis y desarrollo de los diferentes tipos de palancas y sus posibilidades en la práctica motriz.",
       "broader": "sb:BAAP01SBIII",
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -487,6 +527,7 @@
       "definition": "Exploración de las cadenas cinéticas cerradas y abiertas y sus posibilidades de movimiento y control corporal.",
       "broader": "sb:BAAP01SBIII",
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -498,6 +539,7 @@
       "definition": "Prevención, cuidado y pautas de actuación seguras en prácticas motrices: salud postural y lesiones más comunes.",
       "broader": "sb:BAAP01SBIII",
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -509,6 +551,7 @@
       "definition": "Experimentación de las posibilidades de movimiento en los recursos expresivos del cuerpo.",
       "broader": "sb:BAAP01SBIII",
       "materia": "materia:BAAP",
+      "materia_curso": "asig:BAAP01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

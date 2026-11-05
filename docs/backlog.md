@@ -203,6 +203,12 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
   construidos en memoria, texto del BOC, contraste y correcciones), con `requirements-dev.txt`.
   Las dos CI ejecutan `pytest` y `contrastar --estricto`, que falla si queda alguna diferencia
   sin explicar.
+- [x] **5.2b Ajustes del modelo antes de la 1.0** (decisiones del 05-11-2026, al analizar la
+  integración con Omeka S). Nodo `MateriaCurso` (`asig:SMAT01`, la materia en un curso), del que
+  cuelgan los bloques del curso, con el atajo `materia_curso` en sus nodos; enunciados de
+  competencia por curso (`enunciados_curso`); nodos retirados como obsoletos (`accion: retirar`,
+  `obsoleto`, `sustituido_por`) en lugar de borrarlos. Correcciones 0263–0269. Contraste: 104 de
+  105 documentos coinciden; quedan 4 erratas de descriptores del ODT.
 - [ ] **5.3 Exportación RDF**: salida SKOS en Turtle en la publicación, con el modelo acordado
   para Omeka S.
 - [ ] **5.4 Revisar la documentación** (README, modelo, contribuir, pendientes).

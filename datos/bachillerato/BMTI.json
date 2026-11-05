@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BMTI01",
+      "tipo": "MateriaCurso",
+      "notation": "BMTI01",
+      "prefLabel": "Matemáticas I · 1º Bachillerato",
+      "broader": "materia:BMTI",
+      "materia": "materia:BMTI",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BMTIC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BMTIC1",
@@ -107,7 +117,7 @@
       "notation": "BMTI01BC1",
       "prefLabel": "Matemáticas I · 1º Bachillerato · bloque competencial C1 + C2",
       "scopeNote": "A través de este bloque competencial se persigue que el alumnado sea capaz de modelizar y resolver, de forma autónoma, problemas de la vida cotidiana y de la ciencia y la tecnología de cualquiera de los bloques de los saberes básicos, haciendo uso de diferentes tecnologías digitales —como calculadoras, hojas de cálculo, programas de representación gráfica o geometría dinámica, entre otras—, seleccionando la más adecuada en función de la tarea y describiendo de forma oral, escrita o gráfica el proceso realizado. Para ello se comprobará que el alumnado selecciona los datos u objetos relevantes de un problema, identifica sus relaciones y los codifica al lenguaje matemático o a un lenguaje fácil de interpretar por un sistema informático. Además, se persigue que el alumnado maneje diferentes estrategias para su resolución, como la analogía con otros problemas, estimación, ensayo y error, resolución de manera inversa (ir hacia atrás), la descomposición en problemas más sencillos, búsqueda de patrones o generalización, entre otras, analizando su eficiencia en cada caso. También se evaluará que sea capaz de obtener todas las soluciones posibles de un problema, comprobar la validez matemática de dichas soluciones, así como seleccionar de entre ellas las más adecuadas en función del contexto, valorando su alcance.",
-      "broader": "materia:BMTI",
+      "broader": "asig:BMTI01",
       "agrupa": [
         "ce:BMTIC1",
         "ce:BMTIC2"
@@ -127,6 +137,7 @@
         "CC3"
       ],
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -136,7 +147,7 @@
       "notation": "BMTI01BC3",
       "prefLabel": "Matemáticas I · 1º Bachillerato · bloque competencial C3 + C4",
       "scopeNote": "A través de este bloque competencial se pretende que el alumnado, empleando métodos inductivos, deductivos y lógicos propios del razonamiento matemático sea capaz de formular e investigar conjeturas y problemas de forma guiada, integrando el uso de herramientas tecnológicas digitales y utilizando varias fuentes de información. También propiciará que se pueda verificar que el alumnado es capaz de plantear y comprobar hipótesis, confirmando su validez mediante la observación, la experimentación y la indagación, buscando mejorar su destreza para interpretar, modelizar fenómenos y resolver problemas. Asimismo, se podrá comprobar, a través de esas situaciones problematizadas, que el alumnado sabe utilizar de forma eficaz el pensamiento computacional para descomponer un problema en partes más simples, que lo codifica en un lenguaje apropiado y fácil de interpretar por un sistema informático, y también que puede modificar y crear algoritmos en situaciones sencillas, todo lo cual favorecerá el desarrollo de un pensamiento más diverso y flexible con el que podrá construir su propio conocimiento y mejorar su capacidad de reflexión y de superación.",
-      "broader": "materia:BMTI",
+      "broader": "asig:BMTI01",
       "agrupa": [
         "ce:BMTIC3",
         "ce:BMTIC4"
@@ -155,6 +166,7 @@
         "STEM3"
       ],
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -164,7 +176,7 @@
       "notation": "BMTI01BC5",
       "prefLabel": "Matemáticas I · 1º Bachillerato · bloque competencial C5 + C6",
       "scopeNote": "Se persigue con este bloque competencial constatar que el alumnado es capaz de investigar y utilizar el pensamiento científico para conectar las diferentes ideas matemáticas por medio del uso de tecnologías digitales, así como establecer y aplicar las relaciones existentes entre las matemáticas y otras áreas del conocimiento, y analizar la aportación de las matemáticas al progreso de la humanidad, realizando para ello búsquedas avanzadas en internet, con lo que conseguirá, a su vez, interrelacionar conceptos y procedimientos con el objetivo de modelizar y resolver problemas enmarcados en contextos matemáticos y en la vida cotidiana.",
-      "broader": "materia:BMTI",
+      "broader": "asig:BMTI01",
       "agrupa": [
         "ce:BMTIC5",
         "ce:BMTIC6"
@@ -184,6 +196,7 @@
         "CCEC1"
       ],
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -193,7 +206,7 @@
       "notation": "BMTI01BC7",
       "prefLabel": "Matemáticas I · 1º Bachillerato · bloque competencial C7 + C8",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de representar y comunicar, de forma individual y colectiva, ideas, conceptos, procedimientos, conclusiones, conjeturas y razonamientos asociados a cualquiera de los bloques de saberes básicos, usando el lenguaje oral, escrito o multimodal, con veracidad, claridad y con la terminología apropiada, seleccionando, utilizando o combinando las formas de representación matemática (gráficas, tablas, diagramas, fórmulas, esquemas, símbolos, etc.) y las tecnologías digitales más adecuadas para cada tarea, apoyándose en diversos medios y soportes en su presentación. Asimismo, se evaluará que el alumnado reconoce y emplea el lenguaje matemático presente en la vida cotidiana y en diferentes contextos.",
-      "broader": "materia:BMTI",
+      "broader": "asig:BMTI01",
       "agrupa": [
         "ce:BMTIC7",
         "ce:BMTIC8"
@@ -216,6 +229,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -225,7 +239,7 @@
       "notation": "BMTI01BC9",
       "prefLabel": "Matemáticas I · 1º Bachillerato · bloque competencial C9",
       "scopeNote": "A través de este bloque competencial se persigue que el alumnado utilice destrezas personales que le permitan reflexionar sobre sus fortalezas y debilidades para afrontar las situaciones de incertidumbre y enfrentarse a ellas. Además, se comprobará que utiliza destrezas sociales para participar en las tareas del equipo de forma constructiva y empática, gestionando las decisiones y funciones de manera responsable, logrando la consecución de los objetivos y la cohesión del grupo, promoviendo un aprendizaje activo y respetuoso, resolviendo los conflictos que puedan surgir y rechazando cualquier tipo de discriminación. Por último, se comprobará que el alumnado acepta la crítica razonada y aprende de ella, respetando los distintos puntos de vista con actitud dialogante y cooperativa al hacer frente a las diferentes situaciones de aprendizaje de las matemáticas, integra el error como parte del proceso de aprendizaje, construye una identidad positiva y fomenta su bienestar personal y social.",
-      "broader": "materia:BMTI",
+      "broader": "asig:BMTI01",
       "agrupa": [
         "ce:BMTIC9"
       ],
@@ -242,6 +256,7 @@
         "CC2"
       ],
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -266,6 +281,7 @@
         "CE3"
       ],
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -286,6 +302,7 @@
         "CE3"
       ],
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -307,6 +324,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -328,6 +346,7 @@
         "CE3"
       ],
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -351,6 +370,7 @@
         "CE3"
       ],
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -373,6 +393,7 @@
         "CE3"
       ],
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -394,6 +415,7 @@
         "CD3"
       ],
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -412,6 +434,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -434,6 +457,7 @@
         "CE3"
       ],
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -455,6 +479,7 @@
         "CCEC1"
       ],
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -479,6 +504,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -501,6 +527,7 @@
         "CE3"
       ],
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -522,6 +549,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -542,6 +570,7 @@
         "CD3"
       ],
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -563,6 +592,7 @@
         "CE2"
       ],
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -584,6 +614,7 @@
         "CE2"
       ],
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -607,6 +638,7 @@
         "CE2"
       ],
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -616,8 +648,9 @@
       "notation": "BMTI01SBI",
       "prefLabel": "BMTI01SBI · I. Sentido numérico",
       "definition": "Sentido numérico",
-      "broader": "materia:BMTI",
+      "broader": "asig:BMTI01",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -627,8 +660,9 @@
       "notation": "BMTI01SBII",
       "prefLabel": "BMTI01SBII · II. Sentido de la medida",
       "definition": "Sentido de la medida",
-      "broader": "materia:BMTI",
+      "broader": "asig:BMTI01",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -638,8 +672,9 @@
       "notation": "BMTI01SBIII",
       "prefLabel": "BMTI01SBIII · III. Sentido espacial",
       "definition": "Sentido espacial",
-      "broader": "materia:BMTI",
+      "broader": "asig:BMTI01",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -649,8 +684,9 @@
       "notation": "BMTI01SBIV",
       "prefLabel": "BMTI01SBIV · IV. Sentido algebraico",
       "definition": "Sentido algebraico",
-      "broader": "materia:BMTI",
+      "broader": "asig:BMTI01",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -660,8 +696,9 @@
       "notation": "BMTI01SBV",
       "prefLabel": "BMTI01SBV · V. Sentido estocástico",
       "definition": "Sentido estocástico",
-      "broader": "materia:BMTI",
+      "broader": "asig:BMTI01",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -671,8 +708,9 @@
       "notation": "BMTI01SBVI",
       "prefLabel": "BMTI01SBVI · VI. Sentido socioafectivo",
       "definition": "Sentido socioafectivo",
-      "broader": "materia:BMTI",
+      "broader": "asig:BMTI01",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -684,6 +722,7 @@
       "definition": "Sentido de las operaciones.",
       "broader": "sb:BMTI01SBI",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -695,6 +734,7 @@
       "definition": "Adición y producto escalar de vectores: propiedades y representaciones.",
       "broader": "sb:BMTI01SBI.1",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -706,6 +746,7 @@
       "definition": "Estrategias para operar con números reales y vectores: cálculo mental o escrito en los casos sencillos y con tecnologías digitales en los casos más complicados.",
       "broader": "sb:BMTI01SBI.1",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -717,6 +758,7 @@
       "definition": "Potencias, raíces y logaritmos (decimales y neperianos): comprensión y utilización de sus relaciones para simplificar y resolver problemas.",
       "broader": "sb:BMTI01SBI.1",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -728,6 +770,7 @@
       "definition": "Relaciones.",
       "broader": "sb:BMTI01SBI",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -739,6 +782,7 @@
       "definition": "Los números complejos como soluciones de ecuaciones polinómicas que carecen de raíces reales.",
       "broader": "sb:BMTI01SBI.2",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -750,6 +794,7 @@
       "definition": "Conjunto de vectores: estructura, comprensión y propiedades.",
       "broader": "sb:BMTI01SBI.2",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -761,6 +806,7 @@
       "definition": "Medición.",
       "broader": "sb:BMTI01SBII",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -772,6 +818,7 @@
       "definition": "Cálculo de longitudes y medidas angulares: uso de la trigonometría.",
       "broader": "sb:BMTI01SBII.1",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -783,6 +830,7 @@
       "definition": "Resolución de triángulos. Aplicación a la resolución de problemas.",
       "broader": "sb:BMTI01SBII.1",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -794,6 +842,7 @@
       "definition": "La probabilidad como medida de la incertidumbre asociada a fenómenos aleatorios.",
       "broader": "sb:BMTI01SBII.1",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -805,6 +854,7 @@
       "definition": "Cambio.",
       "broader": "sb:BMTI01SBII",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -816,6 +866,7 @@
       "definition": "Límites: estimación y cálculo a partir de una tabla, un gráfico o una expresión algebraica para analizar las tendencias de una función.",
       "broader": "sb:BMTI01SBII.2",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -827,6 +878,7 @@
       "definition": "Resolución de indeterminaciones.",
       "broader": "sb:BMTI01SBII.2",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -838,6 +890,7 @@
       "definition": "Continuidad de funciones: aplicación de límites en el estudio de la continuidad. Asíntotas.",
       "broader": "sb:BMTI01SBII.2",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -849,6 +902,7 @@
       "definition": "Derivada de una función: definición a partir del estudio del cambio en diferentes contextos. Reglas de derivación.",
       "broader": "sb:BMTI01SBII.2",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -860,6 +914,7 @@
       "definition": "Formas geométricas de dos dimensiones.",
       "broader": "sb:BMTI01SBIII",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -871,6 +926,7 @@
       "definition": "Análisis de las propiedades y determinación de los atributos de objetos geométricos de dos dimensiones (rectas, cónicas, fractales u otras curvas).",
       "broader": "sb:BMTI01SBIII.1",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -882,6 +938,7 @@
       "definition": "Resolución de problemas relativos a objetos geométricos en el plano representados con coordenadas cartesianas.",
       "broader": "sb:BMTI01SBIII.1",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -893,6 +950,7 @@
       "definition": "Localización y sistemas de representación.",
       "broader": "sb:BMTI01SBIII",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -904,6 +962,7 @@
       "definition": "Relaciones de objetos geométricos en el plano: representación y exploración con ayuda de tecnologías digitales.",
       "broader": "sb:BMTI01SBIII.2",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -915,6 +974,7 @@
       "definition": "Expresiones algebraicas de objetos geométricos: selección de la más adecuada en función de la situación a resolver.",
       "broader": "sb:BMTI01SBIII.2",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -926,6 +986,7 @@
       "definition": "Ecuaciones de la recta en el plano. Cálculo de recta tangente y normal.",
       "broader": "sb:BMTI01SBIII.2",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -937,6 +998,7 @@
       "definition": "Visualización, razonamiento y modelización geométrica.",
       "broader": "sb:BMTI01SBIII",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -948,6 +1010,7 @@
       "definition": "Representación de objetos geométricos en el plano mediante herramientas digitales.",
       "broader": "sb:BMTI01SBIII.3",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -959,6 +1022,7 @@
       "definition": "Modelos matemáticos (geométricos, algebraicos, grafos…) en la resolución de problemas en el plano. Conexiones con otras disciplinas y áreas de interés.",
       "broader": "sb:BMTI01SBIII.3",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -970,6 +1034,7 @@
       "definition": "Conjeturas geométricas en el plano: validación por medio de la deducción y la demostración de teoremas.",
       "broader": "sb:BMTI01SBIII.3",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -981,6 +1046,7 @@
       "definition": "Modelización de la posición y el movimiento de un objeto en el plano mediante vectores.",
       "broader": "sb:BMTI01SBIII.3",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -992,6 +1058,7 @@
       "definition": "Patrones.",
       "broader": "sb:BMTI01SBIV",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1003,6 +1070,7 @@
       "definition": "Generalización de patrones en situaciones sencillas.",
       "broader": "sb:BMTI01SBIV.1",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1014,6 +1082,7 @@
       "definition": "Modelo matemático.",
       "broader": "sb:BMTI01SBIV",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1025,6 +1094,7 @@
       "definition": "Relaciones cuantitativas en situaciones sencillas: estrategias de identificación y determinación de la clase o clases de funciones que pueden ser modelizadas.",
       "broader": "sb:BMTI01SBIV.2",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1036,6 +1106,7 @@
       "definition": "Ecuaciones, inecuaciones y sistemas: modelización de situaciones en diversos contextos.",
       "broader": "sb:BMTI01SBIV.2",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1047,6 +1118,7 @@
       "definition": "Igualdad y desigualdad.",
       "broader": "sb:BMTI01SBIV",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1058,6 +1130,7 @@
       "definition": "Resolución de ecuaciones de diversos tipos (logarítmicas, exponenciales, trigonométricas, etc.), inecuaciones y sistemas de ecuaciones e inecuaciones no lineales en diferentes contextos.",
       "broader": "sb:BMTI01SBIV.3",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1069,6 +1142,7 @@
       "definition": "Relaciones y funciones.",
       "broader": "sb:BMTI01SBIV",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1080,6 +1154,7 @@
       "definition": "Representación gráfica de funciones utilizando la expresión más adecuada.",
       "broader": "sb:BMTI01SBIV.4",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1091,6 +1166,7 @@
       "definition": "Propiedades de las distintas clases de funciones, incluyendo, polinómicas, exponenciales, irracionales, racionales sencillas, logarítmicas, trigonométricas y a trozos: comprensión y comparación.",
       "broader": "sb:BMTI01SBIV.4",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1102,6 +1178,7 @@
       "definition": "Álgebra simbólica en la representación y explicación de relaciones matemáticas de la ciencia y la tecnología.",
       "broader": "sb:BMTI01SBIV.4",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1113,6 +1190,7 @@
       "definition": "Pensamiento computacional",
       "broader": "sb:BMTI01SBIV",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1124,6 +1202,7 @@
       "definition": "Formulación, resolución y análisis de problemas de la vida cotidiana y de la ciencia y la tecnología con las herramientas o los programas más adecuados.",
       "broader": "sb:BMTI01SBIV.5",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1135,6 +1214,7 @@
       "definition": "Comparación de algoritmos alternativos para el mismo problema mediante el razonamiento lógico.",
       "broader": "sb:BMTI01SBIV.5",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1146,6 +1226,7 @@
       "definition": "Organización y análisis de datos.",
       "broader": "sb:BMTI01SBV",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1157,6 +1238,7 @@
       "definition": "Organización de los datos procedentes de variables bidimensionales: distribución conjunta y distribuciones marginales y condicionadas. Análisis de la dependencia estadística.",
       "broader": "sb:BMTI01SBV.1",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1168,6 +1250,7 @@
       "definition": "Estudio de la relación entre dos variables mediante la regresión lineal o cuadrática: valoración gráfica de la pertinencia del ajuste. Nube de puntos.",
       "broader": "sb:BMTI01SBV.1",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1179,6 +1262,7 @@
       "definition": "Coeficientes de correlación lineal y de determinación: cuantificación de la relación lineal, predicción y valoración de su fiabilidad en contextos científicos y tecnológicos.",
       "broader": "sb:BMTI01SBV.1",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1190,6 +1274,7 @@
       "definition": "Calculadora, hoja de cálculo o software específico en la organización y el análisis de datos estadísticos.",
       "broader": "sb:BMTI01SBV.1",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1201,6 +1286,7 @@
       "definition": "Incertidumbre.",
       "broader": "sb:BMTI01SBV",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1212,6 +1298,7 @@
       "definition": "Estimación y cálculo de la probabilidad a partir del concepto de frecuencia relativa.",
       "broader": "sb:BMTI01SBV.2",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1223,6 +1310,7 @@
       "definition": "Cálculo de probabilidades en experimentos simples: la regla de Laplace en situaciones de equiprobabilidad y en combinación con diferentes técnicas de recuento.",
       "broader": "sb:BMTI01SBV.2",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1234,6 +1322,7 @@
       "definition": "Inferencia.",
       "broader": "sb:BMTI01SBV",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1245,6 +1334,7 @@
       "definition": "Análisis de muestras unidimensionales y bidimensionales con tecnologías digitales con el fin de emitir juicios y tomar decisiones.",
       "broader": "sb:BMTI01SBV.3",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1256,6 +1346,7 @@
       "definition": "Creencias, actitudes y emociones.",
       "broader": "sb:BMTI01SBVI",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1267,6 +1358,7 @@
       "definition": "Destrezas de autoconciencia encaminadas a reconocer emociones propias, afrontando eventuales situaciones de estrés y ansiedad en el aprendizaje de las matemáticas.",
       "broader": "sb:BMTI01SBVI.1",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1278,6 +1370,7 @@
       "definition": "Tratamiento del error individual y colectivo como elemento movilizador de saberes previos adquiridos y generador de oportunidades de aprendizaje en el aula de matemáticas.",
       "broader": "sb:BMTI01SBVI.1",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1289,6 +1382,7 @@
       "definition": "Trabajo en equipo y toma de decisiones.",
       "broader": "sb:BMTI01SBVI",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1300,6 +1394,7 @@
       "definition": "Reconocimiento y aceptación de diversos planteamientos en la resolución de problemas y tareas matemáticas, transformando los enfoques de los demás en nuevas y mejoradas estrategias propias, mostrando empatía y respeto en el proceso.",
       "broader": "sb:BMTI01SBVI.2",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1311,6 +1406,7 @@
       "definition": "Técnicas y estrategias de trabajo en equipo para la resolución de problemas y tareas matemáticas en grupos heterogéneos.",
       "broader": "sb:BMTI01SBVI.2",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1322,6 +1418,7 @@
       "definition": "Inlusión, respeto y diversidad",
       "broader": "sb:BMTI01SBVI",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1333,6 +1430,7 @@
       "definition": "Destrezas para desarrollar una comunicación efectiva: la escucha activa, la formulación de preguntas o solicitud y prestación de ayuda cuando sea necesario.",
       "broader": "sb:BMTI01SBVI.3",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1344,6 +1442,7 @@
       "definition": "Valoración de la contribución de las matemáticas y el papel de matemáticos y matemáticas a lo largo de la historia en el avance de la ciencia y la tecnología.",
       "broader": "sb:BMTI01SBVI.3",
       "materia": "materia:BMTI",
+      "materia_curso": "asig:BMTI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

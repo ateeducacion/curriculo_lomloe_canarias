@@ -74,6 +74,9 @@ contenido, no por número; los tramos que no casan uno a uno aparecen en el info
 
 Para el resto, crea `correcciones/NNNN-descripcion-breve.yaml` (ver el formato en
 `herramientas/correcciones.py` y los ejemplos 0001 y 0002) con `estado: propuesta`.
+Para quitar un nodo ya publicado usa `accion: retirar` (con `sustituido_por` si otro lo
+reemplaza): queda en el corpus como obsoleto y no se rompen los enlaces de quien lo use.
+`accion: eliminar` es solo para nodos que nunca se publicaron.
 La persona responsable del currículo la revisa y cambia el estado a `aprobada`, indicando
 `aprobada_por`. Después:
 

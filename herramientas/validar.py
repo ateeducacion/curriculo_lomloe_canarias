@@ -30,7 +30,7 @@ def validar(corpus, descriptores_validos):
     nodos = {n['id']: n for n in corpus['nodos']}
     hijos = defaultdict(list)
     for n in corpus['nodos']:
-        for campo in ('broader', 'bloque', 'materia', 'curso', 'etapa'):
+        for campo in ('broader', 'bloque', 'materia', 'materia_curso', 'curso', 'etapa', 'sustituido_por'):
             if campo in n and n[campo] not in nodos:
                 a('referencia_rota', 'error', n['id'], f'{campo} apunta a {n[campo]}, que no existe')
         for ref in n.get('agrupa', []):
@@ -38,6 +38,12 @@ def validar(corpus, descriptores_validos):
                 a('referencia_rota', 'error', n['id'], f'agrupa apunta a {ref}, que no existe')
         if 'broader' in n:
             hijos[n['broader']].append(n)
+
+    for n in corpus['nodos']:
+        if not n.get('obsoleto') and nodos.get(n.get('broader'), {}).get('obsoleto'):
+            a('padre_obsoleto', 'error', n['id'], f"Cuelga de {n['broader']}, que está retirado")
+        if nodos.get(n.get('sustituido_por'), {}).get('obsoleto'):
+            a('sustituto_obsoleto', 'error', n['id'], f"Su sustituto {n['sustituido_por']} también está retirado")
 
     criterios_por_ce_curso = defaultdict(list)
     explicaciones = defaultdict(list)

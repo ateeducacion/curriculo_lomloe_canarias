@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BDIS02",
+      "tipo": "MateriaCurso",
+      "notation": "BDIS02",
+      "prefLabel": "Diseño · 2º Bachillerato",
+      "broader": "materia:BDIS",
+      "materia": "materia:BDIS",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BDISC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BDISC1",
@@ -77,7 +87,7 @@
       "notation": "BDIS02BC1",
       "prefLabel": "Diseño · 2º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de comprender la sintaxis propia del lenguaje del diseño y descifrar tanto los procesos materiales como los conceptuales empleados en su creación, analizando la relación entre las formas y las funciones en objetos de diseño bidimensionales o tridimensionales, así como las dimensiones simbólicas y semánticas propias de su lenguaje, e identificando sus elementos sintácticos y constitutivos, mediante la investigación de fuentes documentales de diversos tipos, tanto analógicas como digitales. Se verificará que el alumnado es capaz de analizar productos de diseño de manera crítica y a su vez reconocer los aspectos comunicativos, funcionales, formales y estéticos, favoreciendo la correcta recepción de los mismos y su deleite. Todo ello con la finalidad de que el alumnado los perciba como productos susceptibles de transformaciones y mejoras respecto a su funcionalidad o a nuevas necesidades, atendiendo a la sociedad de consumo, a la sostenibilidad y a la ecología, valorando su importancia en los distintos ámbitos del diseño.",
-      "broader": "materia:BDIS",
+      "broader": "asig:BDIS02",
       "agrupa": [
         "ce:BDISC1"
       ],
@@ -92,6 +102,7 @@
         "CCEC2"
       ],
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -101,7 +112,7 @@
       "notation": "BDIS02BC2",
       "prefLabel": "Diseño · 2º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de identificar las características fundamentales de los principales movimientos, corrientes, escuelas y personas teóricas vinculados con el diseño, reflexionando sobre sus orígenes y su evolución como herramienta para cubrir las necesidades de las personas y ofrecer soluciones creativas e inclusivas en diversos campos, y comparando e investigando productos de diseño pertenecientes a contextos geográficos, históricos y socialmente variados, incluidos los originados en Canarias, ayudado por medios digitales o analógicos. Se verificará que conoce los cambios que ha sufrido el concepto de diseño a lo largo de la historia y reconoce la importancia de la planificación en el desarrollo de productos, así como se propicia una reflexión sobre el impacto medioambiental que ha producido la humanidad en el diseño de productos a lo largo del tiempo, sobre las aportaciones al diseño desde la perspectiva de género y desde la interculturalidad. Todo ello con la finalidad de que valore desde el canon universal de diseño la contribución que las diversas culturas y diferentes personas, tanto mujeres como hombres, han hecho a esta disciplina y como se puede ofrecer argumentos para promover a través del diseño una conciencia ecosocialmente comprometida y sostenible, y soluciones para amortiguar el cambio climático.",
-      "broader": "materia:BDIS",
+      "broader": "asig:BDIS02",
       "agrupa": [
         "ce:BDISC2"
       ],
@@ -118,6 +129,7 @@
         "CCEC1"
       ],
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -127,7 +139,7 @@
       "notation": "BDIS02BC3",
       "prefLabel": "Diseño · 2º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de analizar de forma crítica objetos y productos de diferentes ámbitos del diseño, identificando la función de los mismos, reconociendo sus estructuras formales y compositivas, comprendiendo los procesos y métodos utilizados para desarrollarlos, e investigando sobre la sostenibilidad tanto de los productos de diseño como de su proceso de fabricación. Se verificará que el alumnado es capaz de analizar productos de diseño reconociendo la finalidad para la que han sido diseñados, e identificando las estrategias comunicativas empleadas. Todo ello con el objetivo de que el alumnado reflexione sobre la intención o el mensaje de dichos productos, valorando aspectos como la sostenibilidad, la inclusión o la promoción de un consumo responsable, para escapar a la manipulación de la propaganda y aplicar estos aprendizajes a sus propias producciones.",
-      "broader": "materia:BDIS",
+      "broader": "asig:BDIS02",
       "agrupa": [
         "ce:BDISC3"
       ],
@@ -144,6 +156,7 @@
         "CCEC2"
       ],
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -153,7 +166,7 @@
       "notation": "BDIS02BC4",
       "prefLabel": "Diseño · 2º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de organizar y planificar el proceso creativo en diferentes ámbitos del Diseño, clasificando y seleccionando las herramientas disponibles, tanto analógicas como digitales, dividiendo el proceso en diferentes partes según los objetivos que se plantee, y organizando los equipos de trabajo en el caso de proyectos colaborativos. Se verificará que el alumnado es capaz de ofrecer soluciones novedosas y sostenibles a partir de un proceso creativo previamente planificado y organizado. Todo ello con la finalidad de que el alumnado sea capaz de hacer una valoración crítica de su propio proceso de trabajo así como de sus propuestas, analizando si son innovadoras, viables y sostenibles. De este modo, podrá comprender la importancia del proceso en todo proyecto de diseño y deberá tener en cuenta al público espectador o la persona usuaria del producto diseñado y la relación entre forma y función.",
-      "broader": "materia:BDIS",
+      "broader": "asig:BDIS02",
       "agrupa": [
         "ce:BDISC4"
       ],
@@ -170,6 +183,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -179,7 +193,7 @@
       "notation": "BDIS02BC5",
       "prefLabel": "Diseño · 2º Bachillerato · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de desarrollar propuestas personales, innovadoras y creativas de diseño gráfico y diseño de producto, planificando el proceso creativo en respuesta a necesidades personales o de expresión propias a partir de ideas o productos preexistentes, aplicando una metodología proyectual de trabajo individual o colectivo, utilizando recursos tanto analógicos como digitales, y teniendo también en cuenta nociones básicas de antropometría y ergonomía. Se verificará que el alumnado es capaz de evaluar críticamente las propuestas personales valorando su coherencia, la viabilidad y adecuación a los objetivos propuestos, o la sostenibilidad de sus diseños, en la ecología y la defensa del medioambiente, especialmente en el ámbito de Canarias, y considerando el respeto a la propiedad intelectual, tanto a la ajena como a la propia. Todo ello con la finalidad de desarrollar en el alumnado una actitud empática que favorezca el ejercicio de una ciudadanía responsable y respetuosa, y reforzar la autoconfianza, la autoestima y el crecimiento personal.",
-      "broader": "materia:BDIS",
+      "broader": "asig:BDIS02",
       "agrupa": [
         "ce:BDISC5"
       ],
@@ -198,6 +212,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -207,7 +222,7 @@
       "notation": "BDIS02BC6",
       "prefLabel": "Diseño · 2º Bachillerato · bloque competencial C6",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado, mediante la realización de manera individual o colectiva de proyectos elementales de diseño gráfico, industrial y de espacios habitables, es capaz de comprender que el diseño es un proceso que conlleva la realización de un producto que debe cumplir con unos criterios y unas normas de elaboración, ejecución, representación y autoría. Se comprobará que es capaz de interpretar la información gráfica aportada en supuestos prácticos de diseño, que realiza previamente bocetos y croquis para visualizar sus propuestas y valorar la adecuación del trabajo a los objetivos propuestos y que utiliza de manera adecuada las herramientas y las técnicas de representación gráfica. Además, aplicando la metodología proyectual, e incorporando la sostenibilidad y el diseño inclusivo como herramientas transformadoras, se verificará la realización de propuestas innovadoras o que supongan la argumentación de rediseños ya existentes, que tengan en cuenta aspectos económicos, sociales, ecológicos, antropométricos y ergonómicos. Todo ello con la finalidad de desarrollar una actitud crítica y autocrítica que contribuya a la construcción y el enriquecimiento de la identidad personal, académica y profesional, y que permita al alumnado evaluar con criterio y de forma argumentada los trabajos de diseño propios y ajenos, seleccionando y utilizando de manera coherente los recursos técnicos y procedimentales a su alcance.",
-      "broader": "materia:BDIS",
+      "broader": "asig:BDIS02",
       "agrupa": [
         "ce:BDISC6"
       ],
@@ -222,6 +237,7 @@
         "CPSAA2"
       ],
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -244,6 +260,7 @@
         "CCEC2"
       ],
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -264,6 +281,7 @@
         "CCEC2"
       ],
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -288,6 +306,7 @@
         "CCEC1"
       ],
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -310,6 +329,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -330,6 +350,7 @@
         "CCEC2"
       ],
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -351,6 +372,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -368,6 +390,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -389,6 +412,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -410,6 +434,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -429,6 +454,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -446,6 +472,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -466,6 +493,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -475,8 +503,9 @@
       "notation": "BDIS02SBI",
       "prefLabel": "BDIS02SBI · I. Concepto, historia y campos del diseño",
       "definition": "Concepto, historia y campos del diseño",
-      "broader": "materia:BDIS",
+      "broader": "asig:BDIS02",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -486,8 +515,9 @@
       "notation": "BDIS02SBII",
       "prefLabel": "BDIS02SBII · II. El diseño: configuración formal y metodología",
       "definition": "El diseño: configuración formal y metodología",
-      "broader": "materia:BDIS",
+      "broader": "asig:BDIS02",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -497,8 +527,9 @@
       "notation": "BDIS02SBIII",
       "prefLabel": "BDIS02SBIII · III. Diseño gráfico",
       "definition": "Diseño gráfico",
-      "broader": "materia:BDIS",
+      "broader": "asig:BDIS02",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -508,8 +539,9 @@
       "notation": "BDIS02SBIV",
       "prefLabel": "BDIS02SBIV · IV. Diseño tridimensional",
       "definition": "Diseño tridimensional",
-      "broader": "materia:BDIS",
+      "broader": "asig:BDIS02",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -521,6 +553,7 @@
       "definition": "Iniciación en el diseño, análisis de sus clasificaciones y campos de aplicación.",
       "broader": "sb:BDIS02SBI",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -532,6 +565,7 @@
       "definition": "Reflexión y comprensión de la evolución histórica del diseño. Análisis y explicación del concepto y de las teorías del diseño. Reconocimiento de las aportaciones de la artesanía, del arte y de la industrialización al diseño.",
       "broader": "sb:BDIS02SBI",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -543,6 +577,7 @@
       "definition": "Identificación y valoración de las principales tendencias, periodos y principales escuelas de la historia del diseño en sus diferentes campos de aplicación, con especial atención al desarrollo de esta disciplina en Canarias. Reconocimiento de las figuras más representativas, destacando los diseños realizados por mujeres, en el ámbito del diseño.",
       "broader": "sb:BDIS02SBI",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -554,6 +589,7 @@
       "definition": "Reconocimiento de la importancia del diseño y sensibilización sobre su impacto medioambiental. Contribución del ecodiseño y del diseño sostenible como solución a los retos socioambientales en la sociedad de consumo, con particular interés en el ámbito de Canarias.",
       "broader": "sb:BDIS02SBI",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -565,6 +601,7 @@
       "definition": "Identificación y reflexión sobre las mejoras que aporta el diseño inclusivo y universal.",
       "broader": "sb:BDIS02SBI",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -576,6 +613,7 @@
       "definition": "Conocimiento y apreciación de la diversidad en el diseño como parte de la riqueza patrimonial, con especial atención al patrimonio de Canarias.",
       "broader": "sb:BDIS02SBI",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -587,6 +625,7 @@
       "definition": "Valoración y comparación de las aportaciones de las culturas no occidentales al canon del diseño mundial y de la apropiación cultural.",
       "broader": "sb:BDIS02SBI",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -598,6 +637,7 @@
       "definition": "Reconocimiento de los fundamentos de la propiedad intelectual, y aprecio de la protección de la creatividad, patentes y marcas, rechazo de copias y plagios.",
       "broader": "sb:BDIS02SBI",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -609,6 +649,7 @@
       "definition": "Comprensión de la relación entre forma y función que se da en el diseño.",
       "broader": "sb:BDIS02SBII",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -620,6 +661,7 @@
       "definition": "Estudio e identificación de los elementos básicos del lenguaje visual: punto, línea, plano, color, forma y textura.",
       "broader": "sb:BDIS02SBII",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -631,6 +673,7 @@
       "definition": "Exploración y uso de los principios de la psicología de la Gestalt aplicados al diseño.",
       "broader": "sb:BDIS02SBII",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -642,6 +685,7 @@
       "definition": "Reconocimiento y empleo de los elementos propios de la sintaxis de la imagen bidimensional y tridimensional.",
       "broader": "sb:BDIS02SBII",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -653,6 +697,7 @@
       "definition": "Reconocimiento y aplicación de la ordenación y composición modular.",
       "broader": "sb:BDIS02SBII",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -664,6 +709,7 @@
       "definition": "Comprensión de la dimensión semántica del diseño.",
       "broader": "sb:BDIS02SBII",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -675,6 +721,7 @@
       "definition": "Planificación y desarrollo del proceso de diseño y sus fases. Conocimiento y aplicación de la metodología proyectual.",
       "broader": "sb:BDIS02SBII",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -686,6 +733,7 @@
       "definition": "Experimentación, asimilación y aplicación de diversos procesos y técnicas creativas para abordar proyectos de diseño.",
       "broader": "sb:BDIS02SBII",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -697,6 +745,7 @@
       "definition": "Desarrollo y utilización de estrategias organizativas de equipos de trabajo.",
       "broader": "sb:BDIS02SBII",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -708,6 +757,7 @@
       "definition": "Comprensión y valoración de las funciones comunicativas y expresivas del diseño gráfico.",
       "broader": "sb:BDIS02SBIII",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -719,6 +769,7 @@
       "definition": "Estudio comparativo de la tipografía y de sus principales familias, valoración de sus propiedades, de los factores que propician su legibilidad y de sus usos en el diseño.",
       "broader": "sb:BDIS02SBIII",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -730,6 +781,7 @@
       "definition": "Comprensión y aplicación de la composición en el diseño gráfico.",
       "broader": "sb:BDIS02SBIII",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -741,6 +793,7 @@
       "definition": "Conocimiento y utilización de diversos procesos y técnicas, analógicos o digitales, de diseño gráfico.",
       "broader": "sb:BDIS02SBIII",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -752,6 +805,7 @@
       "definition": "Reconocimiento de la imagen de marca y aplicación al diseño corporativo.",
       "broader": "sb:BDIS02SBIII",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -763,6 +817,7 @@
       "definition": "Conocimiento del diseño editorial, realización de maquetación y composición de páginas.",
       "broader": "sb:BDIS02SBIII",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -774,6 +829,7 @@
       "definition": "Identificación de los fundamentos y funciones del lenguaje del diseño publicitario y realización de proyectos de comunicación gráfica.",
       "broader": "sb:BDIS02SBIII",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -785,6 +841,7 @@
       "definition": "Reconocimiento de los códigos utilizados en la señalética. Conocimiento de la señalética inclusiva. Elaboración de signos gráficos para su aplicación en señalización y señalética.",
       "broader": "sb:BDIS02SBIII",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -796,6 +853,7 @@
       "definition": "Reconocimiento y valoración del diseño gráfico en Canarias.",
       "broader": "sb:BDIS02SBIII",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -807,6 +865,7 @@
       "definition": "Comprensión del proceso de diseño de un producto. Clasificación de las tipologías de objetos en el diseño volumétrico.",
       "broader": "sb:BDIS02SBIV",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -818,6 +877,7 @@
       "definition": "Conocimiento y aplicación de los sistemas de representación, de las nociones básicas de normalización y de las estructuras compositivas aplicadas al diseño de producto.",
       "broader": "sb:BDIS02SBIV",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -829,6 +889,7 @@
       "definition": "Valoración de los conceptos básicos de antropometría, ergonomía y biónica, y su aplicación al diseño de producto y de espacios.",
       "broader": "sb:BDIS02SBIV",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -840,6 +901,7 @@
       "definition": "Adecuación del diseño de producto a la diversidad funcional.",
       "broader": "sb:BDIS02SBIV",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -851,6 +913,7 @@
       "definition": "Conocimiento y experimentación con materiales, texturas y colores. Identificación de los sistemas de producción y su repercusión en el diseño.",
       "broader": "sb:BDIS02SBIV",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -862,6 +925,7 @@
       "definition": "Estudio y análisis del packaging, transformación del diseño gráfico al diseño del contenedor del producto tridimensional. Iniciación a su desarrollo y técnicas de producción.",
       "broader": "sb:BDIS02SBIV",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -873,6 +937,7 @@
       "definition": "Conocimiento y desarrollo del proceso de diseño de espacios. Organización del espacio habitable, público o privado. Distribución de espacios y recorridos. Aplicación de los itinerarios de circulación en un museo o sala de exposiciones.",
       "broader": "sb:BDIS02SBIV",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -884,6 +949,7 @@
       "definition": "Análisis y descripción de los elementos constructivos y de los principios de iluminación, y su adecuación en el diseño de espacios interiores.",
       "broader": "sb:BDIS02SBIV",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -895,6 +961,7 @@
       "definition": "Valoración de la percepción psicológica en el diseño de espacios habitables. Justificación de sus condicionantes físicos, técnicos, funcionales y psicosociales.",
       "broader": "sb:BDIS02SBIV",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -906,6 +973,7 @@
       "definition": "Desarrollo de un proyecto colectivo de diseño inclusivo en un entorno local.",
       "broader": "sb:BDIS02SBIV",
       "materia": "materia:BDIS",
+      "materia_curso": "asig:BDIS02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     }

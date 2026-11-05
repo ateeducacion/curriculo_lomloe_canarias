@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BAII02",
+      "tipo": "MateriaCurso",
+      "notation": "BAII02",
+      "prefLabel": "Matemáticas aplicadas a las ciencias sociales II · 2º Bachillerato",
+      "broader": "materia:BAII",
+      "materia": "materia:BAII",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BAIIC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BAIIC1",
@@ -107,7 +117,7 @@
       "notation": "BAII02BC1",
       "prefLabel": "Matemáticas aplicadas a las ciencias sociales II · 2º Bachillerato · bloque competencial C1 + C2",
       "scopeNote": "A través de este bloque competencial se persigue que el alumnado sea capaz de modelizar y resolver, de forma autónoma, problemas de la vida cotidiana y de las ciencias sociales de cualquiera de los bloques de los saberes básicos, haciendo uso de diferentes tecnologías digitales —como calculadoras, hojas de cálculo, programas de representación gráfica o geometría dinámica, entre otras—, seleccionando y configurando la más adecuada en función de la tarea, y describiendo de forma oral, escrita o gráfica el proceso realizado. Para ello se comprobará que el alumnado selecciona los datos u objetos relevantes de un problema, identifica sus relaciones y los codifica al lenguaje matemático o a un lenguaje fácil de interpretar por un sistema informático. Además, se evaluará que emplea diferentes estrategias para su resolución, como la analogía con otros problemas, estimación, ensayo y error, resolución de manera inversa (ir hacia atrás), la descomposición en problemas más sencillos, búsqueda de patrones o generalización, entre otras, seleccionando la más adecuada según su eficiencia. También se persigue que el alumnado sea capaz de obtener todas las soluciones posibles de un problema, demostrar la validez matemática de dichas soluciones, así como seleccionar de entre ellas las más adecuadas en función del contexto, usando diferentes modos de comprobación de soluciones o de estrategias para validarlas, y evaluar su alcance.",
-      "broader": "materia:BAII",
+      "broader": "asig:BAII02",
       "agrupa": [
         "ce:BAIIC1",
         "ce:BAIIC2"
@@ -127,6 +137,7 @@
         "CC3"
       ],
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -136,7 +147,7 @@
       "notation": "BAII02BC3",
       "prefLabel": "Matemáticas aplicadas a las ciencias sociales II · 2º Bachillerato · bloque competencial C3 + C4",
       "scopeNote": "A través de este bloque competencial se pretende que el alumnado, empleando métodos inductivos, deductivos y lógicos propios del razonamiento matemático sea capaz de formular, investigar y comprobar conjeturas y problemas de forma autónoma y creativa, integrando el uso de herramientas tecnológicas digitales, seleccionando la más adecuada para la tarea a realizar y utilizando varias fuentes de información. También propiciará que se pueda verificar que el alumnado es capaz de plantear, contrastar o comprobar hipótesis, confirmando su validez mediante la observación, la experimentación y la indagación, buscando mejorar su destreza para interpretar, modelizar fenómenos (por medio de ecuaciones, inecuaciones, sistemas o distribuciones de probabilidad en el caso de fenómenos estocásticos) y resolver problemas. Asimismo, se podrá comprobar, a través de esas situaciones problematizadas, que el alumnado sabe utilizar de forma eficaz el pensamiento computacional para descomponer un problema en partes más simples, que lo codifica en un lenguaje apropiado y fácil de interpretar por un sistema informático y también que puede modificar, crear y generalizar algoritmos o patrones en situaciones sencillas, todo lo cual favorecerá el desarrollo de un pensamiento más diverso y flexible con el que podrá construir su propio conocimiento, potenciar su curiosidad, gusto e interés por esta disciplina y mejorar su capacidad de reflexión y de superación al afrontar con resiliencia y compromiso los posibles obstáculos y dificultades que surjan por el camino, asumiendo el éxito y el fracaso como una valiosa oportunidad para aprender.",
-      "broader": "materia:BAII",
+      "broader": "asig:BAII02",
       "agrupa": [
         "ce:BAIIC3",
         "ce:BAIIC4"
@@ -155,6 +166,7 @@
         "STEM3"
       ],
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -164,7 +176,7 @@
       "notation": "BAII02BC5",
       "prefLabel": "Matemáticas aplicadas a las ciencias sociales II · 2º Bachillerato · bloque competencial C5 + C6",
       "scopeNote": "Se persigue con este bloque competencial constatar que el alumnado es capaz de investigar y utilizar el pensamiento científico para conectar las diferentes ideas matemáticas por medio del uso de tecnologías digitales, así como establecer y aplicar las relaciones existentes entre las matemáticas y otras áreas del conocimiento, y analizar y valorar la aportación de las matemáticas al progreso de la humanidad, realizando para ello búsquedas avanzadas en internet, con lo que conseguirá, a su vez, interrelacionar conceptos y procedimientos, con el objetivo de modelizar y resolver problemas enmarcados en las ciencias sociales y en la vida cotidiana.",
-      "broader": "materia:BAII",
+      "broader": "asig:BAII02",
       "agrupa": [
         "ce:BAIIC5",
         "ce:BAIIC6"
@@ -185,6 +197,7 @@
         "CCEC1"
       ],
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -194,7 +207,7 @@
       "notation": "BAII02BC7",
       "prefLabel": "Matemáticas aplicadas a las ciencias sociales II · 2º Bachillerato · bloque competencial C7 + C8",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de representar y comunicar, de forma individual y colectiva, ideas, conceptos, procedimientos, conclusiones, conjeturas y razonamientos asociados a cualquiera de los bloques de saberes básicos, usando el lenguaje representación matemática (gráficas, tablas, diagramas, fórmulas, esquemas, símbolos, etc.) y las tecnologías digitales más adecuadas para cada tarea, apoyándose en diversos medios y soportes en su presentación. Asimismo, se evaluará que el alumnado reconoce y emplea el lenguaje matemático presente en la vida cotidiana y en diferentes contextos.",
-      "broader": "materia:BAII",
+      "broader": "asig:BAII02",
       "agrupa": [
         "ce:BAIIC7",
         "ce:BAIIC8"
@@ -217,6 +230,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -226,7 +240,7 @@
       "notation": "BAII02BC9",
       "prefLabel": "Matemáticas aplicadas a las ciencias sociales II · 2º Bachillerato · bloque competencial C9",
       "scopeNote": "A través de este bloque competencial se persigue que el alumnado utilice destrezas personales que le permitan reflexionar sobre sus fortalezas y debilidades para afrontar las situaciones de incertidumbre y enfrentarse a ellas, tomando decisiones con seguridad. Además, se comprobará que utiliza destrezas sociales para trabajar en equipo de forma constructiva y empática, gestionando las decisiones y tareas de manera responsable, logrando la consecución de los objetivos y la cohesión del grupo, promoviendo un aprendizaje activo y respetuoso, resolviendo los conflictos que puedan surgir y rechazando cualquier tipo de discriminación. Por último, se comprobará que el alumnado acepta la crítica razonada y aprende de ella, respetando los distintos puntos de vista, con actitud dialogante y cooperativa al hacer frente a las diferentes situaciones de aprendizaje de las matemáticas, integra el error como parte del proceso de aprendizaje, construye una identidad positiva y fomenta su bienestar personal y social.",
-      "broader": "materia:BAII",
+      "broader": "asig:BAII02",
       "agrupa": [
         "ce:BAIIC9"
       ],
@@ -243,6 +257,7 @@
         "CC2"
       ],
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -267,6 +282,7 @@
         "CE3"
       ],
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -287,6 +303,7 @@
         "CE3"
       ],
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -308,6 +325,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -329,6 +347,7 @@
         "CE3"
       ],
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -352,6 +371,7 @@
         "CE3"
       ],
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -374,6 +394,7 @@
         "CE3"
       ],
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -395,6 +416,7 @@
         "CD3"
       ],
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -413,6 +435,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -436,6 +459,7 @@
         "CE3"
       ],
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -457,6 +481,7 @@
         "CCEC1"
       ],
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -481,6 +506,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -503,6 +529,7 @@
         "CE3"
       ],
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -524,6 +551,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -544,6 +572,7 @@
         "CD3"
       ],
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -563,6 +592,7 @@
         "CE2"
       ],
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -584,6 +614,7 @@
         "CE2"
       ],
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -607,6 +638,7 @@
         "CE2"
       ],
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -616,8 +648,9 @@
       "notation": "BAII02SBI",
       "prefLabel": "BAII02SBI · I. Sentido numérico",
       "definition": "Sentido numérico",
-      "broader": "materia:BAII",
+      "broader": "asig:BAII02",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -627,8 +660,9 @@
       "notation": "BAII02SBII",
       "prefLabel": "BAII02SBII · II. Sentido de la medida",
       "definition": "Sentido de la medida",
-      "broader": "materia:BAII",
+      "broader": "asig:BAII02",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -638,8 +672,9 @@
       "notation": "BAII02SBIII",
       "prefLabel": "BAII02SBIII · III. Sentido algebraico",
       "definition": "Sentido algebraico",
-      "broader": "materia:BAII",
+      "broader": "asig:BAII02",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -649,8 +684,9 @@
       "notation": "BAII02SBIV",
       "prefLabel": "BAII02SBIV · IV. Sentido estocástico",
       "definition": "Sentido estocástico",
-      "broader": "materia:BAII",
+      "broader": "asig:BAII02",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -660,8 +696,9 @@
       "notation": "BAII02SBV",
       "prefLabel": "BAII02SBV · V. Sentido socioafectivo",
       "definition": "Sentido socioafectivo",
-      "broader": "materia:BAII",
+      "broader": "asig:BAII02",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -673,6 +710,7 @@
       "definition": "Relaciones.",
       "broader": "sb:BAII02SBI",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -684,6 +722,7 @@
       "definition": "Conjuntos de matrices: estructura, comprensión y propiedades.",
       "broader": "sb:BAII02SBI.1",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -695,6 +734,7 @@
       "definition": "Sentido de las operaciones.",
       "broader": "sb:BAII02SBI",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -706,6 +746,7 @@
       "definition": "Adición y producto de matrices: interpretación, comprensión y aplicación adecuada de las propiedades.",
       "broader": "sb:BAII02SBI.2",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -717,6 +758,7 @@
       "definition": "Estrategias para operar con números reales y matrices: cálculo mental o escrito en los casos sencillos y con tecnologías digitales en los casos más complicados.",
       "broader": "sb:BAII02SBI.2",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -728,6 +770,7 @@
       "definition": "Medición.",
       "broader": "sb:BAII02SBII",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -739,6 +782,7 @@
       "definition": "Interpretación de la integral definida como el área bajo una curva.",
       "broader": "sb:BAII02SBII.1",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -750,6 +794,7 @@
       "definition": "Técnicas elementales para el cálculo de primitivas. Aplicación al cálculo de áreas. Regla de Barrow.",
       "broader": "sb:BAII02SBII.1",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -761,6 +806,7 @@
       "definition": "La probabilidad como medida de la incertidumbre asociada a fenómenos aleatorios.",
       "broader": "sb:BAII02SBII.1",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -772,6 +818,7 @@
       "definition": "Cambio.",
       "broader": "sb:BAII02SBII",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -783,6 +830,7 @@
       "definition": "La derivada como razón de cambio en resolución de problemas de optimización en contextos diversos.",
       "broader": "sb:BAII02SBII.2",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -794,6 +842,7 @@
       "definition": "Aplicación de los conceptos de límite, continuidad y derivada a la representación y al estudio de situaciones susceptibles de ser modelizadas mediante funciones.",
       "broader": "sb:BAII02SBII.2",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -805,6 +854,7 @@
       "definition": "Patrones.",
       "broader": "sb:BAII02SBIII",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -816,6 +866,7 @@
       "definition": "Generalización de patrones en situaciones diversas.",
       "broader": "sb:BAII02SBIII.1",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -827,6 +878,7 @@
       "definition": "Modelo matemático.",
       "broader": "sb:BAII02SBIII",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -838,6 +890,7 @@
       "definition": "Relaciones cuantitativas en situaciones complejas: estrategias de identificación y determinación de la clase o clases de funciones que pueden ser modelizadas mediante el estudio de la continuidad, tendencias, ramas infinitas, corte con los ejes, etc.",
       "broader": "sb:BAII02SBIII.2",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -849,6 +902,7 @@
       "definition": "Sistemas de ecuaciones lineales: modelización de situaciones en diversos contextos.",
       "broader": "sb:BAII02SBIII.2",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -860,6 +914,7 @@
       "definition": "Técnicas y uso de matrices para, al menos, modelizar situaciones en las que aparezcan sistemas de ecuaciones lineales o grafos.",
       "broader": "sb:BAII02SBIII.2",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -871,6 +926,7 @@
       "definition": "Programación lineal: modelización de problemas reales y resolución mediante tecnologías digitales.",
       "broader": "sb:BAII02SBIII.2",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -882,6 +938,7 @@
       "definition": "Igualdad y desigualdad.",
       "broader": "sb:BAII02SBIII",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -893,6 +950,7 @@
       "definition": "Formas equivalentes de expresiones algebraicas en la resolución de sistemas de ecuaciones e inecuaciones, mediante cálculo mental, algoritmos de lápiz y papel, y con tecnologías digitales.",
       "broader": "sb:BAII02SBIII.3",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -904,6 +962,7 @@
       "definition": "Resolución de sistemas de ecuaciones e inecuaciones en diferentes contextos.",
       "broader": "sb:BAII02SBIII.3",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -915,6 +974,7 @@
       "definition": "Relaciones y funciones.",
       "broader": "sb:BAII02SBIII",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -926,6 +986,7 @@
       "definition": "Representación, análisis e interpretación de funciones con tecnologías digitales.",
       "broader": "sb:BAII02SBIII.4",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -937,6 +998,7 @@
       "definition": "Propiedades de las distintas clases de funciones: comprensión y comparación.",
       "broader": "sb:BAII02SBIII.4",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -948,6 +1010,7 @@
       "definition": "Pensamiento computacional.",
       "broader": "sb:BAII02SBIII",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -959,6 +1022,7 @@
       "definition": "Formulación, resolución y análisis de problemas de la vida cotidiana y de las ciencias sociales empleando las herramientas o los programas más adecuados.",
       "broader": "sb:BAII02SBIII.5",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -970,6 +1034,7 @@
       "definition": "Análisis algorítmico de las propiedades de las operaciones con matrices y la resolución de sistemas de ecuaciones lineales.",
       "broader": "sb:BAII02SBIII.5",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -981,6 +1046,7 @@
       "definition": "Incertidumbre.",
       "broader": "sb:BAII02SBIV",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -992,6 +1058,7 @@
       "definition": "Cálculo de probabilidades en experimentos compuestos. Probabilidad condicionada e independencia de sucesos aleatorios. Diagramas de árbol y tablas de contingencia.",
       "broader": "sb:BAII02SBIV.1",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1003,6 +1070,7 @@
       "definition": "Teoremas de la probabilidad total y de Bayes: resolución de problemas e interpretación del teorema de Bayes para actualizar la probabilidad a partir de la observación y la experimentación y la toma de decisiones en condiciones de incertidumbre.",
       "broader": "sb:BAII02SBIV.1",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1014,6 +1082,7 @@
       "definition": "Distribuciones de probabilidad.",
       "broader": "sb:BAII02SBIV",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1025,6 +1094,7 @@
       "definition": "Variables aleatorias discretas y continuas. Parámetros de la distribución. Distribuciones binomial y normal.",
       "broader": "sb:BAII02SBIV.2",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1036,6 +1106,7 @@
       "definition": "Modelización de fenómenos estocásticos mediante las distribuciones de probabilidad binomial y normal. Cálculo de probabilidades asociadas mediante tecnologías digitales.",
       "broader": "sb:BAII02SBIV.2",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1047,6 +1118,7 @@
       "definition": "Estimación de probabilidades mediante la aproximación de la binomial por la normal.",
       "broader": "sb:BAII02SBIV.2",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1058,6 +1130,7 @@
       "definition": "Inferencia.",
       "broader": "sb:BAII02SBIV",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1069,6 +1142,7 @@
       "definition": "Selección de muestras representativas. Técnicas de muestreo.",
       "broader": "sb:BAII02SBIV.3",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1080,6 +1154,7 @@
       "definition": "Estimación de la media, la proporción y la desviación típica. Aproximación de la distribución de la media y de la proporción muestrales por la normal.",
       "broader": "sb:BAII02SBIV.3",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1091,6 +1166,7 @@
       "definition": "Intervalos de confianza basados en la distribución normal: construcción, análisis y toma de decisiones en situaciones contextualizadas. Cálculo del error.",
       "broader": "sb:BAII02SBIV.3",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1102,6 +1178,7 @@
       "definition": "Tecnologías digitales en la realización de estudios estadísticos.",
       "broader": "sb:BAII02SBIV.3",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1113,6 +1190,7 @@
       "definition": "Creencias, actitudes y emociones.",
       "broader": "sb:BAII02SBV",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1124,6 +1202,7 @@
       "definition": "Destrezas de autogestión encaminadas a reconocer las emociones propias, afrontando eventuales situaciones de estrés y ansiedad en el aprendizaje de las matemáticas.",
       "broader": "sb:BAII02SBV.1",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1135,6 +1214,7 @@
       "definition": "Tratamiento y análisis del error individual y colectivo como elemento movilizador de saberes previos adquiridos y generador de oportunidades de aprendizaje en el aula de matemáticas.",
       "broader": "sb:BAII02SBV.1",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1146,6 +1226,7 @@
       "definition": "Trabajo en equipo y toma de decisiones.",
       "broader": "sb:BAII02SBV",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1157,6 +1238,7 @@
       "definition": "Reconocimiento y aceptación de diversos planteamientos en la resolución de problemas y tareas matemáticas, transformando los enfoques de los demás en nuevas y mejoradas estrategias propias, mostrando empatía y respeto en el proceso.",
       "broader": "sb:BAII02SBV.2",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1168,6 +1250,7 @@
       "definition": "Destrezas para evaluar diferentes opciones, trabajar en equipo y tomar decisiones en la resolución de problemas y tareas matemáticas.",
       "broader": "sb:BAII02SBV.2",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1179,6 +1262,7 @@
       "definition": "Inclusión, respeto y diversidad.",
       "broader": "sb:BAII02SBV",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1190,6 +1274,7 @@
       "definition": "Destrezas sociales y de comunicación efectivas para el éxito en el aprendizaje de las matemáticas.",
       "broader": "sb:BAII02SBV.3",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1201,6 +1286,7 @@
       "definition": "Valoración de la contribución de las matemáticas y el papel de matemáticos y matemáticas a lo largo de la historia del avance de las ciencias sociales.",
       "broader": "sb:BAII02SBV.3",
       "materia": "materia:BAII",
+      "materia_curso": "asig:BAII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     }

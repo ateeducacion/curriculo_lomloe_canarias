@@ -23,18 +23,21 @@
     "nodos": {"type": "array", "items": {"$ref": "#/$defs/nodo"}}
   },
   "$defs": {
-    "id": {"type": "string", "pattern": "^(etapa|curso|materia|ce|bc|crit|sb):[A-Za-z0-9.]+$"},
+    "id": {"type": "string", "pattern": "^(etapa|curso|materia|asig|ce|bc|crit|sb):[A-Za-z0-9.]+$"},
     "nodo": {
       "type": "object",
       "required": ["id", "tipo", "notation", "prefLabel"],
       "additionalProperties": false,
       "properties": {
         "id": {"$ref": "#/$defs/id"},
-        "tipo": {"enum": ["Etapa", "Curso", "Materia", "CompetenciaEspecifica", "BloqueCompetencial",
+        "tipo": {"enum": ["Etapa", "Curso", "Materia", "MateriaCurso", "CompetenciaEspecifica", "BloqueCompetencial",
                           "CriterioEvaluacion", "BloqueSaberes", "SaberBasico"]},
         "notation": {"type": "string", "minLength": 1},
         "prefLabel": {"type": "string", "minLength": 1},
         "definition": {"type": "string", "minLength": 1},
+        "enunciados_curso": {"type": "object", "minProperties": 1,
+                             "propertyNames": {"pattern": "^curso:[IPSB][0-9]{2}$"},
+                             "additionalProperties": {"type": "string", "minLength": 1}},
         "scopeNote": {"type": "string", "minLength": 1},
         "broader": {"$ref": "#/$defs/id"},
         "agrupa": {"type": "array", "items": {"$ref": "#/$defs/id"}},
@@ -42,14 +45,22 @@
         "descriptores": {"type": "array", "items": {"type": "string", "pattern": "^[A-Z]+[0-9.]*$"}},
         "cursos": {"type": "array", "items": {"$ref": "#/$defs/id"}},
         "materia": {"$ref": "#/$defs/id"},
+        "materia_curso": {"$ref": "#/$defs/id"},
         "curso": {"$ref": "#/$defs/id"},
-        "etapa": {"$ref": "#/$defs/id"}
+        "etapa": {"$ref": "#/$defs/id"},
+        "obsoleto": {"const": true},
+        "sustituido_por": {"$ref": "#/$defs/id"}
       },
       "allOf": [
         {"if": {"properties": {"tipo": {"const": "CriterioEvaluacion"}}},
-         "then": {"required": ["broader", "bloque", "materia", "curso", "etapa"]}},
+         "then": {"required": ["broader", "bloque", "materia", "materia_curso", "curso", "etapa"]}},
         {"if": {"properties": {"tipo": {"enum": ["SaberBasico", "BloqueSaberes", "BloqueCompetencial"]}}},
+         "then": {"required": ["broader", "materia", "materia_curso", "curso", "etapa"]}},
+        {"if": {"properties": {"tipo": {"const": "MateriaCurso"}}},
          "then": {"required": ["broader", "materia", "curso", "etapa"]}},
+        {"if": {"required": ["enunciados_curso"]},
+         "then": {"properties": {"tipo": {"const": "CompetenciaEspecifica"}}}},
+        {"if": {"required": ["sustituido_por"]}, "then": {"required": ["obsoleto"]}},
         {"if": {"properties": {"tipo": {"const": "CompetenciaEspecifica"}}},
          "then": {"required": ["broader", "materia", "etapa"]}}
       ]

@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BLEY01",
+      "tipo": "MateriaCurso",
+      "notation": "BLEY01",
+      "prefLabel": "Lengua Castellana y Literatura I · 1º Bachillerato",
+      "broader": "materia:BLEY",
+      "materia": "materia:BLEY",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BLEYC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BLEYC1",
@@ -117,7 +127,7 @@
       "notation": "BLEY01BC1",
       "prefLabel": "Lengua Castellana y Literatura I · 1º Bachillerato · bloque competencial C1",
       "scopeNote": "Este bloque competencial va a permitir constatar que el alumnado, a partir del acercamiento permanente a la realidad sociolingüística, es capaz de aplicar estrategias de reflexión interlingüística, analizando y explicando con rigor el desarrollo de las diferentes lenguas y comparando y valorando, de manera analítica, la variedad dialectal canaria, en sus rasgos fónicos, gramaticales y léxicos, con otras variedades dialectales de España y América, desde la convicción de que se trata de una lengua universal y policéntrica en la que ninguna variedad geográfica ha de considerarse más correcta que otra. Solo así puede asentarse un adecuado desarrollo de la competencia comunicativa en cada aprendiente, porque para ello es imprescindible que se sienta legitimado lingüística y culturalmente. Para ello, se comprobará que atiende a relaciones grupales e interculturales, así como a los hechos culturales, históricos y normativos que han configurado la diversidad lingüística, dialectal y cultural presente en la sociedad española, europea y del mundo hispanohablante, interiorizándola en su desarrollo personal como factor de diálogo y cohesión social. Asimismo, se valorará que entiende la amplitud de la diversidad de la lengua en uso, explicando y valorando los rasgos dialectales de aquellos que responden a variedades sociolectales o a registros lingüísticos, cuestionando y rechazando de manera argumentada prejuicios y estereotipos con la finalidad de combatirlos, a partir del análisis y valoración reflexiva de los fenómenos del contacto entre lenguas (bilingüismo, préstamos, interferencias, diglosia lingüística y dialectal), particularmente la diglosia dialectal que afecta a los y las hablantes de Canarias. Por último, se verificará que alcanza y expresa conclusiones pertinentes y razonadas en torno al estudio de los derechos lingüísticos y su expresión en leyes y declaraciones institucionales (con atención a la Constitución Española de 1978 y al Estatuto de Autonomía de Canarias), a la indagación de los modelos de convivencia entre lenguas, sus causas y consecuencias, a la comparación entre lenguas minoritarias y lenguas minorizadas y a la aproximación al concepto de sostenibilidad lingüística. Todo ello con la finalidad de evidenciar, a través del conocimiento alcanzado, el respeto al patrimonio cultural y el enriquecimiento inherente a la diversidad lingüística en su propia identidad y en el sentido del lugar que ocupa en la sociedad, con un efecto directo en su seguridad en la comunicación.",
-      "broader": "materia:BLEY",
+      "broader": "asig:BLEY01",
       "agrupa": [
         "ce:BLEYC1"
       ],
@@ -133,6 +143,7 @@
         "CC3"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -142,7 +153,7 @@
       "notation": "BLEY01BC2",
       "prefLabel": "Lengua Castellana y Literatura I · 1º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado, individualmente o en grupo, comprende, interpreta y valora textos orales o multimodales complejos de los ámbitos social (redes sociales y medios de comunicación) y educativo (textos académicos), aplicando estrategias que le permitan valorar y explicar de manera razonada los componentes del hecho comunicativo (grado de formalidad de la situación y carácter público o privado, distancia social entre las personas interlocutoras, propósitos comunicativos e interpretación reflexiva de intenciones, y canal de comunicación). Se verificará asimismo que distingue y explica la diferencia entre la información, la opinión y la persuasión, los procedimientos retóricos, las falacias argumentativas, los elementos no verbales de la comunicación (gestos, postura, proxemia y vocalización), así como el significado de la imagen y elementos paratextuales de los textos icónico-verbales y multimodales, ensanchando las posibilidades de la comunicación asíncrona a partir de la búsqueda de manera autónoma y la selección de la información con criterios de validez, calidad, actualidad, fiabilidad y pertinencia, lo que requiere una específica alfabetización audiovisual y mediática para hacer frente a los riesgos de desinformación y manipulación. También se comprobará que es capaz de analizar, valorar y explicar de manera razonada la forma y el contenido del texto atendiendo al sentido global y la relación entre sus partes, así como de seleccionar, retener y analizar de forma reflexiva y crítica la información más relevante, y de interpretar y aplicar los mecanismos de referencia interna y los procedimientos lingüísticos para la expresión de la subjetividad y de la objetividad, estableciendo conexiones entre el texto y su contexto, de manera que le permitan conferir su sentido, interpretando de manera eficaz fuentes de procedencia verbal y no verbal (también en el marco de entornos virtuales de aprendizaje, bibliotecas escolares y públicas como espacios creativos de aprendizaje…), detectando y reflexionando de manera responsable sobre los usos discriminatorios del lenguaje verbal e icónico. Se observará que para ello aplica con rigor métodos inductivos, deductivos y metalingüísticos (formulación de hipótesis, búsqueda de contraejemplos, establecimiento de generalizaciones, comparación con otras lenguas o redacción de conclusiones propias) con el propósito de participar en diferentes contextos de manera activa, responsable e informada y de construir conocimiento.",
-      "broader": "materia:BLEY",
+      "broader": "asig:BLEY01",
       "agrupa": [
         "ce:BLEYC2"
       ],
@@ -158,6 +169,7 @@
         "CC3"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -167,7 +179,7 @@
       "notation": "BLEY01BC3",
       "prefLabel": "Lengua Castellana y Literatura I · 1º Bachillerato · bloque competencial C3",
       "scopeNote": "Se comprobará, con este bloque competencial, que el alumnado es capaz de conversar en diálogos pedagógicamente orientados, estructurar el discurso y adecuar el registro y el comportamiento no verbal en producciones orales y multimodales complejas de carácter formal, monologadas o dialogadas, con rigor, creatividad, coherencia, cohesión, fluidez y adecuación a los diferentes contextos sociales, respetando las características de la variedad dialectal del hablante, sobre temas de interés social (reseñas radiofónicas, entrevistas, pódcast, noticias, debates, tertulias, cuñas publicitarias…) y educativo (la exposición, la argumentación o la deliberación oral argumentada). Se verificará que atiende para ello al grado de formalidad de la situación y al carácter público o privado, a la distancia social entre las personas interlocutoras, a los propósitos comunicativos y la interpretación de intenciones, a la idoneidad del canal, a la selección autónoma y aplicación de elementos no verbales de la comunicación (postura corporal, gesticulación…), a los elementos paratextuales de los textos icónico-verbales y a los rasgos discursivos y lingüísticos de la oralidad formal, así como a los aspectos prosódicos (entonación, pausas, tono, timbre, volumen…), a la adecuación eficaz a la audiencia y al tiempo de exposición. De igual forma se verificará que incorpora de manera pertinente palabras propias del registro formal de la lengua y desarrolla procesos metacognitivos de retroalimentación y gestión de la información (búsqueda autónoma y selección, textualización y revisión), reconociendo necesidades y oportunidades y afrontando retos con sentido crítico. Se constatará, asimismo, que participa de manera activa, informada y rigurosa en interacciones comunicativas orales formales e informales (incluyendo las que se producen en entornos virtuales de aprendizaje), rechazando un uso discriminatorio del lenguaje y aplicando de manera consciente aspectos como la cooperación conversacional (máximas de cantidad, calidad, relación y forma) y la cortesía lingüística (turno de palabra, respeto al espacio, gesticulación adecuada, uso de fórmulas de saludo y despedida…) y manejando de manera eficaz la escucha activa, la asertividad y la resolución dialogada de los conflictos para intercambiar información, regular la conducta y establecer vínculos personales.",
-      "broader": "materia:BLEY",
+      "broader": "asig:BLEY01",
       "agrupa": [
         "ce:BLEYC3"
       ],
@@ -184,6 +196,7 @@
         "CC2"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -193,7 +206,7 @@
       "notation": "BLEY01BC4",
       "prefLabel": "Lengua Castellana y Literatura I · 1º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado comprende, interpreta y valora ,de manera individual o colectiva, con actitud crítica y reflexiva, textos escritos y multimodales complejos de los ámbitos social (las redes sociales y los medios de comunicación) y educativo (textos académicos). Se comprobará que el alumnado hace uso de manera consciente de estrategias y técnicas de lectura comprensiva, que van más allá de la decodificación del texto, aplicando con rigor métodos inductivos, deductivos y metacognitivos (formulación de hipótesis, búsqueda de contraejemplos, establecimiento de generalizaciones o redacción de conclusiones propias), que deben desplegarse antes, durante y después del acto lector para permitirle analizar, interpretar, valorar y reflexionar de manera razonada y crítica sobre el sentido global del texto, la estructura, la intención de la persona emisora y la relación entre sus partes. Asimismo, se verificará que distingue la información de la opinión o la persuasión, y analiza y expone el significado de la imagen y elementos paratextuales de los textos icónico-verbales y multimodales, en consonancia con la sociedad de la información y del conocimiento del siglo XXI, buscando y seleccionando la información procedente de diferentes fuentes con criterios de fiabilidad y conveniencia en función de los objetivos de lectura, reorganizándola y sintetizándola en oraciones que se relacionen lógica y semánticamente. Igualmente se comprobará que es capaz de interpretar y valorar de manera crítica y pertinente la forma y el contenido, atendiendo al sentido global, la relación entre sus partes y la información más relevante, los mecanismos de referencia interna y los procedimientos lingüísticos para las diversas formas de expresión de la subjetividad y la objetividad, así como haciendo conexiones entre el texto y su contexto que permitan conferir sentido a los textos, analizando fuentes de procedencia verbal y no verbal, detectando y reflexionando de manera responsable sobre los usos discriminatorios del lenguaje verbal e icónico con el propósito de participar en diferentes situaciones comunicativas de manera activa, responsable e informada, como personas lectoras competentes y autónomas, poniendo sus prácticas discursivas al servicio de la convivencia democrática y para construir conocimiento.",
-      "broader": "materia:BLEY",
+      "broader": "asig:BLEY01",
       "agrupa": [
         "ce:BLEYC4"
       ],
@@ -207,6 +220,7 @@
         "CC3"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -216,7 +230,7 @@
       "notation": "BLEY01BC5",
       "prefLabel": "Lengua Castellana y Literatura I · 1º Bachillerato · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado, de manera individual o en grupo, es capaz de producir con propiedad textos escritos (disertaciones, ensayos, informes o comentarios críticos…) y multimodales con coherencia, cohesión, fluidez y adecuación y con distintas intenciones comunicativas, desarrollando procesos metacognitivos de retroalimentación: la planificación, la textualización, la revisión y la edición del texto final mediante herramientas o plataformas virtuales, de manera respetuosa con la propiedad intelectual y con actitud crítica y creativa . Asimismo, se comprobará que aplica de manera pertinente procedimientos lingüísticos y de estilo, y que atiende a las convenciones propias del ámbito discursivo social (redes sociales, y medios de comunicación y educativo (textos académicos), prestando especial atención a la corrección lingüística, la incorporación de un léxico adecuado, la interiorización consciente de la revisión tipográfica, ortográfica y gramatical (uso eficaz e instintivo de diccionarios, manuales de consulta y de correctores ortográficos en soporte analógico o digital ), así como la valoración y aplicación eficaz de los recursos lingüísticos para adecuar el registro a la situación comunicativa y para dotar de cohesión al texto: conectores textuales, marcadores discursivos, uso coherente de las formas verbales y otros procedimientos léxico-semánticos y gramaticales. Todo ello movilizando y aplicando de manera reflexiva los aprendizajes adquiridos para interiorizar la comunicación escrita como un medio para favorecer, de manera reflexiva y eficaz, a través del lenguaje, una convivencia positiva que respete la diversidad, el compromiso con la igualdad de género, la cohesión social, el desarrollo sostenible y el logro de una ciudadanía mundial en sociedades cambiantes y diversas, así como para dar respuesta pertinente y creativa a demandas comunicativas concretas y favorecer un uso ético del lenguaje.",
-      "broader": "materia:BLEY",
+      "broader": "asig:BLEY01",
       "agrupa": [
         "ce:BLEYC5"
       ],
@@ -232,6 +246,7 @@
         "CC2"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -241,7 +256,7 @@
       "notation": "BLEY01BC6",
       "prefLabel": "Lengua Castellana y Literatura I · 1º Bachillerato · bloque competencial C6",
       "scopeNote": "Con este bloque competencial se constatará si el alumnado es capaz de elaborar trabajos o proyectos de investigación de complejidad creciente de manera autónoma en diferentes soportes, individualmente o de forma cooperativa, ya sea sobre temas del currículo o en torno a aspectos importantes de la actualidad social, científica o cultural y utilizar en su entorno personal de aprendizaje dispositivos y plataformas digitales, herramientas, aplicaciones y servicios en línea. Se verificará que aplica y valora las estrategias de planificación y de respeto por las convenciones establecidas en la presentación de sus producciones, con las que divulga el conocimiento adquirido fijando sus propios objetivos seleccionando, analizando y evaluando la información procedente de diferentes fuentes, con especial atención a las noticias y los ciberanzuelos en redes sociales y otros entornos digitales, aplicando criterios de fiabilidad, calidad, validez, actualidad, accesibilidad y pertinencia, considerando a la biblioteca escolar, en tanto que espacio creativo de aprendizaje y centro de recursos, formación y coordinación, como entorno ideal para la adquisición de estas habilidades. Se constatará también que integra y reelabora la información, respetando los derechos de autoría digital, adoptando un punto de vista creativo, crítico y adecuado al contexto de difusión, el rigor, la accesibilidad, la claridad y la coherencia en la expresión, y aplicando autoevaluaciones y técnicas metacognitivas de retroalimentación sobre su propio proceso de aprendizaje, de manera que garantice la gestión responsable de su identidad digital. Asimismo, en sus producciones orales, escritas y multimodales se valorará que reorganiza y sintetiza con eficacia la información procedente de fuentes diversas en esquemas propios, de manera respetuosa con la propiedad intelectual, utilizando de forma crítica y pertinente la cultura digital y siendo totalmente consciente y cuidadoso con los riesgos de desinformación y manipulación.",
-      "broader": "materia:BLEY",
+      "broader": "asig:BLEY01",
       "agrupa": [
         "ce:BLEYC6"
       ],
@@ -258,6 +273,7 @@
         "CE3"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -267,7 +283,7 @@
       "notation": "BLEY01BC7",
       "prefLabel": "Lengua Castellana y Literatura I · 1º Bachillerato · bloque competencial C7",
       "scopeNote": "A través de esta competencia se constatará que el alumnado es capaz de leer y seleccionar, en grupo o individualmente, obras variadas de la literatura contemporánea a partir de la utilización autónoma de bibliotecas escolares, públicas y digitales, enriqueciendo de este modo su propio itinerario lector. Asimismo, se verificará que participa activamente en situaciones comunicativas vinculadas con el circuito literario y lector, en contextos presenciales y digitales del ámbito personal, educativo y social (debates, mesas redondas, tertulias, clubes de lectura, libro fórum, chats, blogs…) que favorezcan la reflexión razonada y el intercambio abierto y creativo de la experiencia lectora, atendiendo a aspectos temáticos, formales e intertextuales, estableciendo distinciones entre la literatura canónica y la de consumo, los clásicos y best sellers, y haciendo uso de soportes, herramientas o plataformas virtuales diversas (videorreseñas, reseñas en revistas o radios escolares, jornadas de oralidad…) que incluyan el contacto con formas literarias actuales impresas y digitales, así como con prácticas culturales emergentes (videopoemas, audiolibros, plataformas de lectura y para la escritura social, murales en forma de poesía, luchalibro, poetry slam…), asumiendo que “leer con otras personas” también es hablar sobre lo que se lee y compartir lo que se escribe. Para ello el alumnado explicitará criterios de selección o preferencia de las lecturas, utilizando un metalenguaje específico, exponiendo las formas de acceso a la cultura literaria y la propia experiencia bibliográfica, estableciendo vínculos argumentados entre las obras leídas y la actualidad, así como con otros textos y manifestaciones artísticas y culturales, comentando los lenguajes y elementos técnicos que las caracterizan y expresando con seguridad a lo largo del proceso juicios críticos en los que se valorará el respeto por las opiniones y experiencias ajenas.",
-      "broader": "materia:BLEY",
+      "broader": "asig:BLEY01",
       "agrupa": [
         "ce:BLEYC7"
       ],
@@ -281,6 +297,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -290,7 +307,7 @@
       "notation": "BLEY01BC8",
       "prefLabel": "Lengua Castellana y Literatura I · 1º Bachillerato · bloque competencial C8",
       "scopeNote": "Se verificará con este bloque competencial que el alumnado es capaz de explicar y argumentar, utilizando un metalenguaje específico, la interpretación de obras o fragmentos representativos de la literatura canaria, española y universal a partir de la lectura guiada y compartida en el aula de textos inscritos en itinerarios temáticos o de género planificados, que atraviesan épocas, contextos culturales y movimientos artísticos, vinculando el contenido y la forma con su contexto sociohistórico, cultural y artístico, la intención del autor o autora, la recurrencia de temas y los elementos constitutivos del género y su relación con el sentido de la obra, interpretando de manera justificada los efectos de los recursos expresivos en la recepción, atendiendo a sus valores culturales y estéticos, con especial atención a la perspectiva de género, así como constatando la pervivencia de universales temáticos y formales, a fin de enriquecer su mapa cultural y desarrollar su conciencia literaria con la configuración de una panorámica de la literatura española hasta el tercer cuarto del siglo XIX. Asimismo, se comprobará que el alumnado analiza y compara de manera reflexiva la conexión existente entre unos textos literarios con otros, ya sean orales, escritos o multimodales, y con otras manifestaciones artísticas, clásicas o contemporáneas (música, pintura, cine, arquitectura, cómic y novela gráfica, media art…), estableciendo vínculos intertextuales en función de temas, tópicos, estructuras, lenguaje, valores éticos y estéticos; interpretando de manera razonada las influencias, las semejanzas o las diferencias que existen entre ellos y manifestando, a lo largo del proceso, juicios críticos razonados en los que se valorará el respeto por las opiniones y experiencias ajenas. Para ello, el alumnado participará de manera activa y adecuada en situaciones comunicativas propias del ámbito personal, académico y social que propiciarán la construcción compartida de la interpretación argumentada de las obras y la realización de trabajos de identificación y crítica literaria de complejidad creciente, individuales o cooperativos, presentados en diversos formatos y soportes, en los que se propicie una relación afectiva con las obras literarias y se priorice el despertar de una sensibilidad estética que acreciente en ellos y ellas las posibilidades de disfrute ante la lectura y la escritura creativa. Además, efectuará lecturas expresivas, dramatizaciones y recitaciones de textos (videopoemas, guiones, improvisaciones, representaciones…) atendiendo a los procesos de comprensión, apropiación y oralización implicados. Por último, se pretende verificar que el alumnado es capaz, a partir de las obras leídas, de crear textos personales o colectivos de géneros diversos (poemas, caligramas, relatos cortos, diarios digitales, biografías, monólogos humorísticos, novelas gráficas, piezas teatrales…) con propósito literario y artístico, sentido estético y conciencia de estilo, en los que aplica las convenciones del lenguaje literario y la experiencia lectora en la expresión con distintos lenguajes artísticos y audiovisuales (cómics, vídeos, biopic, animación, interpretación teatral, blogs…), aplicando autoevaluaciones y técnicas metacognitivas de retroalimentación sobre su propio proceso de aprendizaje, con el propósito de que la escritura creativa sea una forma de comunicación que permita afianzar el gusto por la lectura y la creación literaria.",
-      "broader": "materia:BLEY",
+      "broader": "asig:BLEY01",
       "agrupa": [
         "ce:BLEYC8"
       ],
@@ -308,6 +325,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -317,7 +335,7 @@
       "notation": "BLEY01BC9",
       "prefLabel": "Lengua Castellana y Literatura I · 1º Bachillerato · bloque competencial C9",
       "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado aborda con actitud crítica la reflexión metalingüística e interlingüística a partir del conocimiento intuitivo como usuarios de la lengua, promoviendo la capacidad de razonamiento, argumentación, observación y análisis sobre la estructura de la lengua y sus usos, y sobre las elecciones lingüísticas y discursivas de la persona emisora y sus efectos en la receptora. Además, debe ser capaz de realizar generalizaciones y sistematizaciones a partir de la formulación de hipótesis, manipulación de estructuras, comparación y transformación de enunciados, contraejemplos, generalizaciones y contraste entre las distintas variedades del español y otras lenguas, tomando como referencia el español de Canarias. Se verificará que para ello el alumnado utiliza adecuadamente el metalenguaje específico y hace un uso eficaz e instintivo de diccionarios y otras fuentes de consulta en distintos formatos, con el fin de obtener información gramatical pertinente y resolver dudas sobre el uso correcto de la lengua oral y escrita en sus aspectos sintácticos, léxicos y pragmáticos. Se comprobará que el alumnado analiza, valora y explica razonadamente la distinción entre la forma (categorías gramaticales) y la función de las palabras (funciones sintácticas) los procedimientos de adquisición y formación de palabras, los cambios en su significado, las relaciones semánticas entre palabras y sus valores denotativos y connotativos en función de su adecuación al del contexto y el propósito comunicativo, para reflexionar sobre la relación entre los esquemas semántico y sintáctico. Finalmente, se comprobará que el alumnado aplica con rigor estos conocimientos en un proceso de auto y coevaluación para hacer propuestas de mejora sobre sus propios textos con la finalidad de generar en el alumnado la reflexión, en un sentido funcional, sobre los mecanismos lingüísticos que regulan la comunicación.",
-      "broader": "materia:BLEY",
+      "broader": "asig:BLEY01",
       "agrupa": [
         "ce:BLEYC9"
       ],
@@ -331,6 +349,7 @@
         "CCL3"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -340,7 +359,7 @@
       "notation": "BLEY01BC10",
       "prefLabel": "Lengua Castellana y Literatura I · 1º Bachillerato · bloque competencial C10",
       "scopeNote": "Con este bloque competencial se comprobará que el alumnado es capaz de utilizar en cualquier contexto, incluidos las redes sociales y otros entornos virtuales, un lenguaje respetuoso y libre de usos discriminatorios, reconociendo los elementos lingüísticos y extralingüísticos que lo constituyen, favoreciendo de esta manera la comunicación positiva y constructiva en sus relaciones interpersonales. Para ello, se comprobará que comprende y respeta los puntos de vista de las demás personas en los intercambios comunicativos presentes en el ámbito educativo, por ejemplo en los trabajos grupales en los que el alumnado participa distribuyendo y aceptando tareas de manera equitativa y aplicando con acierto estrategias cooperativas pertinentes. Por último, el alumnado podrá demostrar en interacciones comunicativas diversas, relacionadas también con problemas éticos fundamentales y de actualidad, que aplica estrategias comunicativas como la escucha activa, la comunicación asertiva, la cooperación conversacional, la cortesía lingüística y el valor del diálogo para la construcción de una convivencia positiva, la resolución pacífica de los conflictos, la búsqueda de consensos y el desarrollo de relaciones interpersonales basadas en la empatía y el respeto.",
-      "broader": "materia:BLEY",
+      "broader": "asig:BLEY01",
       "agrupa": [
         "ce:BLEYC10"
       ],
@@ -356,6 +375,7 @@
         "CC1"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -375,6 +395,7 @@
         "CCEC1"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -397,6 +418,7 @@
         "CCEC1"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -420,6 +442,7 @@
         "CC3"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -441,6 +464,7 @@
         "CC3"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -463,6 +487,7 @@
         "CE1"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -482,6 +507,7 @@
         "CC2"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -499,6 +525,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -518,6 +545,7 @@
         "CC3"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -541,6 +569,7 @@
         "CC2"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -565,6 +594,7 @@
         "CE3"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -586,6 +616,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -604,6 +635,7 @@
         "CCEC1"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -627,6 +659,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -647,6 +680,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -667,6 +701,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -688,6 +723,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -706,6 +742,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -727,6 +764,7 @@
         "CC3"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -746,6 +784,7 @@
         "CC3"
       ],
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -755,8 +794,9 @@
       "notation": "BLEY01SBI",
       "prefLabel": "BLEY01SBI · I. La lengua y sus hablantes",
       "definition": "La lengua y sus hablantes",
-      "broader": "materia:BLEY",
+      "broader": "asig:BLEY01",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -767,8 +807,9 @@
       "prefLabel": "BLEY01SBII · II. Comunicación",
       "definition": "Comunicación",
       "scopeNote": "Estrategias de producción, comprensión y análisis crítico de textos orales, escritos y multimodales de diferentes ámbitos con atención conjunta a los siguientes aspectos:",
-      "broader": "materia:BLEY",
+      "broader": "asig:BLEY01",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -778,8 +819,9 @@
       "notation": "BLEY01SBIII",
       "prefLabel": "BLEY01SBIII · III. Educación literaria",
       "definition": "Educación literaria",
-      "broader": "materia:BLEY",
+      "broader": "asig:BLEY01",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -790,8 +832,9 @@
       "prefLabel": "BLEY01SBIV · IV. Reflexión sobre la lengua",
       "definition": "Reflexión sobre la lengua",
       "scopeNote": "Elaboración de conclusiones propias sobre el funcionamiento del sistema lingüístico con un metalenguaje específico a partir de la observación, comparación y clasificación de unidades comunicativas y del contraste entre lenguas, atendiendo a los siguientes saberes:",
-      "broader": "materia:BLEY",
+      "broader": "asig:BLEY01",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -803,6 +846,7 @@
       "definition": "Análisis, reflexión y explicación en torno al desarrollo sociohistórico y situación actual de las lenguas de España.",
       "broader": "sb:BLEY01SBI",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -814,6 +858,7 @@
       "definition": "Estudio comparativo de las principales variedades dialectales del español en España y en América, tomando como referente el español de Canarias.",
       "broader": "sb:BLEY01SBI",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -825,6 +870,7 @@
       "definition": "Aplicación de estrategias de reflexión interlingüística.",
       "broader": "sb:BLEY01SBI",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -836,6 +882,7 @@
       "definition": "Análisis, valoración y explicación de las diferencias entre los rasgos propios de las variedades dialectales (fónicos, gramaticales y léxicos) y los relativos a los sociolectos y los registros.",
       "broader": "sb:BLEY01SBI",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -847,6 +894,7 @@
       "definition": "Indagación del papel de los medios de comunicación y las redes sociales en los procesos de normalización lingüística.",
       "broader": "sb:BLEY01SBI",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -858,6 +906,7 @@
       "definition": "Detección y rechazo argumentado de prejuicios y estereotipos lingüísticos con la finalidad de combatirlos. Análisis y valoración reflexiva de los fenómenos del contacto entre lenguas: bilingüismo, préstamos, interferencias, diglosia lingüística y dialectal.",
       "broader": "sb:BLEY01SBI",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -869,6 +918,7 @@
       "definition": "Estudio de los derechos lingüísticos, su expresión en leyes y declaraciones institucionales. Indagación en torno a los modelos de convivencia entre lenguas, sus causas y consecuencias. Comparación entre lenguas minoritarias y lenguas minorizadas. Aproximación al concepto de sostenibilidad lingüística.",
       "broader": "sb:BLEY01SBI",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -880,6 +930,7 @@
       "definition": "Contexto",
       "broader": "sb:BLEY01SBII",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -891,6 +942,7 @@
       "definition": "Valoración argumentada y explicación de los componentes del hecho comunicativo: grado de formalidad de la situación y carácter público o privado; distancia social entre los interlocutores; propósitos comunicativos e interpretación de intenciones; canal de comunicación, imagen y elementos paratextuales y no verbales de la comunicación.",
       "broader": "sb:BLEY01SBII.1",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -902,6 +954,7 @@
       "definition": "Géneros discursivos",
       "broader": "sb:BLEY01SBII",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -913,6 +966,7 @@
       "definition": "Análisis reflexivo y producción creativa de secuencias textuales básicas, con especial atención a las expositivas y argumentativas.",
       "broader": "sb:BLEY01SBII.2",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -924,6 +978,7 @@
       "definition": "Análisis reflexivo y aplicación consciente de las propiedades textuales: coherencia, cohesión y adecuación.",
       "broader": "sb:BLEY01SBII.2",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -935,6 +990,7 @@
       "definition": "Valoración razonada y producción creativa de géneros discursivos propios del ámbito educativo: los textos académicos.",
       "broader": "sb:BLEY01SBII.2",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -946,6 +1002,7 @@
       "definition": "Valoración razonada y producción creativa de géneros discursivos propios del ámbito social: las redes sociales y medios de comunicación.",
       "broader": "sb:BLEY01SBII.2",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -957,6 +1014,7 @@
       "definition": "Procesos",
       "broader": "sb:BLEY01SBII",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -968,6 +1026,7 @@
       "definition": "Interacción oral y escrita de carácter formal: aplicación consciente de la cooperación conversacional y cortesía lingüística. Manejo eficaz y valoración de la escucha activa, asertividad y resolución dialogada de los conflictos.",
       "broader": "sb:BLEY01SBII.3",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -979,6 +1038,7 @@
       "definition": "Comprensión oral: análisis, valoración y explicación razonada del sentido global del texto y relación entre sus partes, mecanismos de referencia interna y procedimientos lingüísticos para la expresión de la subjetividad; selección, retención, análisis reflexivo y explicación de la información relevante. Interpretación de la intención del emisor. Detección, reflexión y rechazo argumentado y responsable de los usos discriminatorios del lenguaje verbal y no verbal. Valoración crítica y pertinente de la forma y contenido del texto.",
       "broader": "sb:BLEY01SBII.3",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -990,6 +1050,7 @@
       "definition": "Producción oral formal: planificación y búsqueda de información, textualización, revisión, reorganización en esquemas propios y difusión. Adecuación eficaz a la audiencia y al tiempo de exposición. Selección autónoma y aplicación de elementos no verbales, paratextuales de los textos icónico-verbales y rasgos discursivos y lingüísticos de la oralidad formal. Aplicación de la deliberación oral argumentada.",
       "broader": "sb:BLEY01SBII.3",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1001,6 +1062,7 @@
       "definition": "Comprensión lectora: análisis, valoración y explicación razonada del sentido global del texto y relación entre sus partes. Interpretación de la intención del emisor. Detección, reflexión y rechazo argumentado y responsable de los usos discriminatorios del lenguaje verbal e icónico. Valoración crítica y pertinente de la forma y contenido del texto.",
       "broader": "sb:BLEY01SBII.3",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1012,6 +1074,7 @@
       "definition": "Producción escrita. Proceso de elaboración: planificación, textualización, revisión y edición creativa en diferentes soportes.",
       "broader": "sb:BLEY01SBII.3",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1023,6 +1086,7 @@
       "definition": "Alfabetización mediática e informacional: búsqueda autónoma y selección de la información con criterios de validez, fiabilidad, calidad, actualidad y pertinencia; análisis, valoración, reorganización y síntesis de la información en esquemas propios y transformación en conocimiento; comunicación y difusión de la información reelaborada de manera creativa y respetuosa con la propiedad intelectual. Utilización eficaz de dispositivos digitales, herramientas tecnológicas, servicios en línea y plataformas virtuales para el aprendizaje digital , la comunicación propia, el trabajo colaborativo y el intercambio de información. Desarrollo de estrategias para el análisis y contraste de noticias falsas y ciberanzuelos, aplicando criterios para la verificación de hechos.",
       "broader": "sb:BLEY01SBII.3",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1034,6 +1098,7 @@
       "definition": "Reconocimiento y uso discursivo de los elementos lingüísticos",
       "broader": "sb:BLEY01SBII",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1045,6 +1110,7 @@
       "definition": "Análisis y aplicación de las formas lingüísticas de expresión de la subjetividad y de la objetividad y de sus formas de expresión en diferentes tipos de textos.",
       "broader": "sb:BLEY01SBII.4",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1056,6 +1122,7 @@
       "definition": "Valoración razonada y aplicación eficaz de los recursos lingüísticos para adecuar el registro a la situación de comunicación.",
       "broader": "sb:BLEY01SBII.4",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1067,6 +1134,7 @@
       "definition": "Valoración razonada y aplicación eficaz de los recursos lingüísticos para adecuar el registro a la situación de comunicación.",
       "broader": "sb:BLEY01SBII.4",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1078,6 +1146,7 @@
       "definition": "Análisis y valoración de las relaciones entre las formas verbales como procedimientos de cohesión del texto, con especial atención al uso de los tiempos verbales.",
       "broader": "sb:BLEY01SBII.4",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1089,6 +1158,7 @@
       "definition": "Análisis reflexivo y valoración de la corrección lingüística e interiorización consciente de la revisión ortográfica, gramatical y tipográfica de los textos. Manejo eficaz e instintivo de diccionarios, manuales de consulta y de correctores ortográficos en soporte analógico o digital.",
       "broader": "sb:BLEY01SBII.4",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1100,6 +1170,7 @@
       "definition": "Análisis, uso reflexivo y apropiación de los signos de puntuación como mecanismo organizador del texto escrito y su relación con el significado.",
       "broader": "sb:BLEY01SBII.4",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1111,6 +1182,7 @@
       "definition": "Lectura autónoma. Lectura de obras relevantes de la literatura universal contemporánea que susciten reflexión sobre el propio itinerario lector así como la inserción en el debate interpretativo de la cultura, atendiendo a los siguientes saberes:",
       "broader": "sb:BLEY01SBIII",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1122,6 +1194,7 @@
       "definition": "Selección de obras variadas con la ayuda de recomendaciones especializadas y la utilización autónoma de las bibliotecas escolar, públicas y digitales disponibles.",
       "broader": "sb:BLEY01SBIII.1",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1133,6 +1206,7 @@
       "definition": "Expresión argumentada de los gustos lectores y consolidación de la identidad lectora, estableciendo distinciones entre la literatura canónica y la de consumo, los clásicos y best sellers y teniendo en cuenta los circuitos comerciales del libro.",
       "broader": "sb:BLEY01SBIII.1",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1144,6 +1218,7 @@
       "definition": "Participación activa en actos culturales vinculados con el circuito literario y lector en contexto presencial y digital. Aproximación progresiva a otras experiencias culturales.",
       "broader": "sb:BLEY01SBIII.1",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1155,6 +1230,7 @@
       "definition": "Comunicación argumentada de la experiencia lectora utilizando un metalenguaje específico y atendiendo a aspectos temáticos, género y subgénero, elementos de la estructura y el estilo y valores éticos y estéticos de las obras.",
       "broader": "sb:BLEY01SBIII.1",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1166,6 +1242,7 @@
       "definition": "Movilización de la experiencia personal, lectora y cultural para establecer vínculos argumentados entre la obra leída y aspectos de la actualidad, así como con otros textos y otras manifestaciones literarias, artísticas y culturales.",
       "broader": "sb:BLEY01SBIII.1",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1177,6 +1254,7 @@
       "definition": "Recomendación de lecturas de forma oral, escrita o multimodal en soportes variados, atendiendo a aspectos temáticos, formales e intertextuales.",
       "broader": "sb:BLEY01SBIII.1",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1188,6 +1266,7 @@
       "definition": "Lectura guiada. Lectura de clásicos de la literatura canaria, española y universal, inscritos en itinerarios temáticos o de género, que atraviesan épocas, contextos culturales y movimientos artísticos, configurando a lo largo del curso una panorámica de la literatura española hasta el tercer cuarto del siglo XIX y atendiendo a los siguientes saberes:",
       "broader": "sb:BLEY01SBIII",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1199,6 +1278,7 @@
       "definition": "Construcción compartida de la interpretación de las obras a través de discusiones o conversaciones literarias, haciendo uso del metalenguaje específico.",
       "broader": "sb:BLEY01SBIII.2",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1210,6 +1290,7 @@
       "definition": "Análisis reflexivo y valorativo de los elementos constitutivos del género literario y su relación con el sentido de la obra. Interpretación justificada de los efectos de sus recursos expresivos en la recepción.",
       "broader": "sb:BLEY01SBIII.2",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1221,6 +1302,7 @@
       "definition": "Utilización de la información sociohistórica, cultural y artística para interpretar las obras y comprender su lugar en la tradición literaria.",
       "broader": "sb:BLEY01SBIII.2",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1232,6 +1314,7 @@
       "definition": "Análisis comparativo y reflexivo de los textos leídos con otros textos orales, escritos o multimodales, con otras manifestaciones artísticas, estableciendo vínculos intertextuales entre obras en función de temas, tópicos, estructuras y lenguajes. Interpretación razonada de los elementos de continuidad y ruptura.",
       "broader": "sb:BLEY01SBIII.2",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1243,6 +1326,7 @@
       "definition": "Expresión argumentada de la interpretación de los textos, integrando los diferentes aspectos analizados y atendiendo a sus valores culturales, éticos y estéticos con especial atención a la perspectiva de género.",
       "broader": "sb:BLEY01SBIII.2",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1254,6 +1338,7 @@
       "definition": "Lectura expresiva, dramatización y recitado de textos atendiendo a los procesos de comprensión, apropiación y oralización implicados.",
       "broader": "sb:BLEY01SBIII.2",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1265,6 +1350,7 @@
       "definition": "Creación de textos de intención literaria, sentido estético y conciencia de estilo a partir de las obras leídas utilizando las convenciones del lenguaje literario.",
       "broader": "sb:BLEY01SBIII.2",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1276,6 +1362,7 @@
       "definition": "Análisis y valoración de las diferencias relevantes e intersecciones entre lengua oral y lengua escrita, atendiendo a aspectos sintácticos, léxicos y pragmáticos.",
       "broader": "sb:BLEY01SBIV",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1287,6 +1374,7 @@
       "definition": "Análisis razonado y valoración de la lengua como sistema interconectado con diferentes niveles: fonológico, morfológico, sintáctico y semántico.",
       "broader": "sb:BLEY01SBIV",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1298,6 +1386,7 @@
       "definition": "Análisis reflexivo, valoración y explicación de la distinción entre la forma (categorías gramaticales) y la función de las palabras (funciones sintácticas) con la terminología específica.",
       "broader": "sb:BLEY01SBIV",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1309,6 +1398,7 @@
       "definition": "Análisis reflexivo y explicación, con el metalenguaje específico, de la relación entre la estructura semántica de la oración en función del propósito comunicativo.",
       "broader": "sb:BLEY01SBIV",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1320,6 +1410,7 @@
       "definition": "Análisis reflexivo y aplicación razonada de los procedimientos de adquisición y formación de palabras y reflexión sobre los cambios en su significado. Valoración en torno a las relaciones semánticas entre palabras y sus valores denotativos y connotativos en función de su adecuación al contexto y el propósito comunicativo.",
       "broader": "sb:BLEY01SBIV",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1331,6 +1422,7 @@
       "definition": "Manejo eficaz e instintivo de diccionarios, manuales de gramática y otras fuentes de consulta para obtener información gramatical de carácter general.",
       "broader": "sb:BLEY01SBIV",
       "materia": "materia:BLEY",
+      "materia_curso": "asig:BLEY01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

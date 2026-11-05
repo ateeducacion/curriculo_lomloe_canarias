@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BFIL01",
+      "tipo": "MateriaCurso",
+      "notation": "BFIL01",
+      "prefLabel": "Filosofía · 1º Bachillerato",
+      "broader": "materia:BFIL",
+      "materia": "materia:BFIL",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BFILC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BFILC1",
@@ -107,7 +117,7 @@
       "notation": "BFIL01BC1",
       "prefLabel": "Filosofía · 1º Bachillerato · bloque competencial C1",
       "scopeNote": "Este bloque competencial pretende desarrollar en el alumnado su capacidad para expresar sus inquietudes vitales y existenciales por medio del planteamiento de interrogantes acerca de la realidad, la entidad e identidad humana, constatando que reconoce la radicalidad y trascendencia de los problemas filosóficos, reflexiona sobre la utilidad y vigencia de la filosofía y su relación con otras áreas del saber, mediante la identificación y análisis de dichas cuestiones en textos, documentos de diversos formatos y otros medios de expresión filosófica y cultural, generando, de esta forma, un juicio propio alejado de todo tipo de discriminación, analizando hechos, normas e ideas relativas a la naturaleza humana, la dimensión social, histórica, cívica y moral de su propia identidad, y de este modo contribuir al desarrollo de una personalidad autónoma.",
-      "broader": "materia:BFIL",
+      "broader": "asig:BFIL01",
       "agrupa": [
         "ce:BFILC1"
       ],
@@ -125,6 +135,7 @@
         "CCEC1"
       ],
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -134,7 +145,7 @@
       "notation": "BFIL01BC2",
       "prefLabel": "Filosofía · 1º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se persigue que el alumnado desarrolle una comprensión básica e informada de las principales tesis filosóficas, completando un ejercicio dialéctico de ellas, con una propuesta constructiva, mediante el formato de trabajo de investigación u otro similar, a través de la argumentación y del diálogo, verificando que conoce y emplea procedimientos y técnicas elementales de investigación con rigor, y que busca y gestiona las tesis e ideas a partir del empleo contrastado y seguro de fuentes. De esta manera, se comprobará que produce y comunica de forma creativa trabajos de investigación, disertaciones, comentarios de texto, tanto digitalmente como de forma analógica, individual o colectiva, en torno a los principales interrogantes acerca la propia filosofía, el ser humano, el conocimiento, la realidad y la acción en sus dimensiones ética, estética y política.",
-      "broader": "materia:BFIL",
+      "broader": "asig:BFIL01",
       "agrupa": [
         "ce:BFILC2"
       ],
@@ -152,6 +163,7 @@
         "CC3"
       ],
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -161,7 +173,7 @@
       "notation": "BFIL01BC3",
       "prefLabel": "Filosofía · 1º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se verificará que el alumnado es capaz de producir y reconocer argumentos lógica y retóricamente correctos y bien fundados, que detecta falacias, sesgos y prejuicios en diferentes entornos comunicativos, demostrando dicho aprendizaje en la defensa de opiniones e hipótesis, reconociendo la importancia de la cooperación, el compromiso con la verdad, el respeto a la pluralidad y el rechazo de toda actitud discriminatoria o arbitraria. De este modo se comprobará que puede usar y valorar argumentos a partir del análisis tanto formal como informal para producir y apreciar distintos tipos de discurso de forma rigurosa, poniendo dichas habilidades al servicio de la convivencia democrática y siendo capaces de insertarlas en el proceso completo del conocimiento, a través del estudio de la lógica formal, de la argumentación en general y de los métodos del conocimiento racional.",
-      "broader": "materia:BFIL",
+      "broader": "asig:BFIL01",
       "agrupa": [
         "ce:BFILC3"
       ],
@@ -172,6 +184,7 @@
         "CC3"
       ],
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -181,7 +194,7 @@
       "notation": "BFIL01BC4",
       "prefLabel": "Filosofía · 1º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se verificará que el alumnado es capaz de practicar el ejercicio del diálogo filosófico de manera rigurosa, crítica, tolerante y empática, interiorizando las pautas éticas y formales que este requiere, mediante la participación en actividades grupales y del diálogo racional, respetuoso, abierto, constructivo y comprometido con la verdad, acerca de cuestiones y problemas filosóficamente relevantes, con la finalidad de promover el contraste e intercambio de ideas y el ejercicio de una ciudadanía activa y democrática. Además, se constatará que adopta un juicio propio y argumentado ante problemas éticos y filosóficos fundamentales y de actualidad, respetando la pluralidad de valores, promoviendo la igualdad efectiva entre mujeres y hombres y rechazando todo tipo de discriminación y violencia.",
-      "broader": "materia:BFIL",
+      "broader": "asig:BFIL01",
       "agrupa": [
         "ce:BFILC4"
       ],
@@ -197,6 +210,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -206,7 +220,7 @@
       "notation": "BFIL01BC5",
       "prefLabel": "Filosofía · 1º Bachillerato · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se persigue que el alumnado reconozca el carácter plural de las concepciones, ideas y argumentos en torno a cada uno de los problemas fundamentales de la filosofía. Se constatará que lo consigue analizando y exponiendo distintas tesis y doctrinas filosóficas desde un proceso dinámico y siempre abierto de reflexión y diálogo, a través del análisis comparativo de los argumentos, principios, metodologías y enfoques de dichas doctrinas, generando una concepción compleja y no dogmática de los problemas filosóficos tratados. Además, de esta manera se contribuye a la consolidación de su madurez personal y social, a la adquisición de su conciencia ciudadana y responsable, desarrollando la autonomía y el espíritu crítico, y estableciendo una interacción pacífica y respetuosa con las demás personas y con el entorno, poniendo sus prácticas comunicativas al servicio de la convivencia democrática, la resolución dialogada de conflictos y la igualdad de derechos de todas las personas.",
-      "broader": "materia:BFIL",
+      "broader": "asig:BFIL01",
       "agrupa": [
         "ce:BFILC5"
       ],
@@ -218,6 +232,7 @@
         "CC3"
       ],
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -227,7 +242,7 @@
       "notation": "BFIL01BC6",
       "prefLabel": "Filosofía · 1º Bachillerato · bloque competencial C6",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de comprender, identificar y analizar las principales ideas y doctrinas filosóficas de los pensadores y pensadoras más importantes mediante un examen crítico y dialéctico de los problemas fundamentales a los que responden, para generar así una concepción rigurosa de la riqueza y de la influencia cultural, social e histórica de la filosofía, de su vigencia y utilidad, y su aportación al patrimonio común. Para ello, utilizará textos pertenecientes a cualquier ámbito cultural, relacionados con experiencias, acciones o acontecimientos de actualidad, mediante la indagación filosófica en contextos tanto individuales como colectivos. Además, se verificará si investiga las especificidades e intencionalidades de manifestaciones artísticas y culturales del patrimonio mediante una postura de recepción activa y de deleite, distinguiendo y analizando sus lenguajes y elementos técnicos y plásticos, en distintos contextos, medios y soportes.",
-      "broader": "materia:BFIL",
+      "broader": "asig:BFIL01",
       "agrupa": [
         "ce:BFILC6"
       ],
@@ -238,6 +253,7 @@
         "CC3"
       ],
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -247,7 +263,7 @@
       "notation": "BFIL01BC7",
       "prefLabel": "Filosofía · 1º Bachillerato · bloque competencial C7",
       "scopeNote": "A través de este bloque competencial se verificará que el alumnado es capaz de adquirir una perspectiva global, sistémica y transdisciplinar en el planteamiento de cuestiones tales como la especificidad e identidad humana, la naturaleza última del cosmos y las condiciones y consecuencia de la investigación científica. Para ello se verificará que analiza y comprende hechos, normas e ideas provenientes de textos orales, escritos y multimodales de distintos campos del saber y de los medios de comunicación, para desarrollar razonamientos y conclusiones lógicas de forma autónoma, adoptando un juicio propio y argumentado desde el compromiso ético los problemas filosóficos derivados, demostrándolos, orientándolos y articulándolos críticamente, de manera creativa, emprendedora y transformadora de la realidad.",
-      "broader": "materia:BFIL",
+      "broader": "asig:BFIL01",
       "agrupa": [
         "ce:BFILC7"
       ],
@@ -263,6 +279,7 @@
         "CCEC1"
       ],
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -272,7 +289,7 @@
       "notation": "BFIL01BC8",
       "prefLabel": "Filosofía · 1º Bachillerato · bloque competencial C8",
       "scopeNote": "A través de este bloque competencial se verificará que el alumnado analiza hechos, normas e ideas relativas a la dimensión social, histórica, cívica y moral de su propia identidad, ofreciendo sus prácticas comunicativas al servicio de la convivencia democrática, la resolución dialogada de los conflictos y la igualdad de derechos de todas las personas, rechazando todo tipo de discriminación. Para ello se constatará que elabora, argumenta y expone de manera crítica, dialéctica y autónoma todas las posiciones pertinentes en la interpretación y resolución de problemas éticos y políticos de actualidad, constatando que conoce y asume de forma crítica y consecuente los ideales y valores relativos al proceso de integración europeo, la Constitución española de 1978, los derechos humanos, la historia y el patrimonio cultural propios, exponiéndose y sometiéndose al diálogo con las demás personas, participando en actividades grupales y presentando y ejecutando ideas y soluciones innovadoras. Con la finalidad de que evalúe las necesidades y oportunidades, afrontando retos como la sostenibilidad, tanto en los ámbitos locales como globales y tanto personales como sociales, con proyección profesional, académica y emprendedora, contribuyendo así a la consolidación de su madurez personal y social.",
-      "broader": "materia:BFIL",
+      "broader": "asig:BFIL01",
       "agrupa": [
         "ce:BFILC8"
       ],
@@ -289,6 +306,7 @@
         "CCEC1"
       ],
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -298,7 +316,7 @@
       "notation": "BFIL01BC9",
       "prefLabel": "Filosofía · 1º Bachillerato · bloque competencial C9",
       "scopeNote": "A través de este bloque competencial se verificará que el alumnado es capaz de generar un equilibrio entre el aspecto racional y el aspecto emotivo en la consideración de los problemas filosóficos, la sensibilidad y la comprensión crítica del arte y otras manifestaciones con valor estético mediante el ejercicio del pensamiento filosófico acerca de la belleza y la creación artística, a través de la reflexión expresa en torno a la experiencia, en general, del arte y el análisis del papel de las imágenes y el lenguaje audiovisual en la cultura contemporánea. Para ello, se evaluará que participa en actividades grupales con una actitud fundada en los principios y procedimientos democráticos, el compromiso ético con la igualdad y la cohesión social, afrontando con actitud dialogante la pluralidad de valores, creencias e ideas, rechazando todo tipo de discriminación y violencia y expresando ideas, opiniones, sentimientos y emociones con creatividad y espíritu crítico, investigando las especificidades e intencionalidades de manifestaciones artísticas y culturales del patrimonio, mostrando una postura de recepción activa y deleite, distinguiendo y analizando sus lenguajes y elementos técnicos y plásticos, en distintos contextos, medios y soportes. Con la finalidad de consolidar una personalidad empática e independiente y desarrollar su inteligencia.",
-      "broader": "materia:BFIL",
+      "broader": "asig:BFIL01",
       "agrupa": [
         "ce:BFILC9"
       ],
@@ -313,6 +331,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -338,6 +357,7 @@
         "CCEC1"
       ],
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -363,6 +383,7 @@
         "CC3"
       ],
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -381,6 +402,7 @@
         "CC3"
       ],
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -398,6 +420,7 @@
         "CC3"
       ],
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -421,6 +444,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -440,6 +464,7 @@
         "CC3"
       ],
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -457,6 +482,7 @@
         "CCEC2"
       ],
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -473,6 +499,7 @@
         "CC3"
       ],
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -496,6 +523,7 @@
         "CCEC1"
       ],
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -520,6 +548,7 @@
         "CCEC1"
       ],
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -542,6 +571,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -551,8 +581,9 @@
       "notation": "BFIL01SBI",
       "prefLabel": "BFIL01SBI · I. La filosofía y el ser humano",
       "definition": "La filosofía y el ser humano",
-      "broader": "materia:BFIL",
+      "broader": "asig:BFIL01",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -562,8 +593,9 @@
       "notation": "BFIL01SBII",
       "prefLabel": "BFIL01SBII · II. El conocimiento y la realidad",
       "definition": "El conocimiento y la realidad",
-      "broader": "materia:BFIL",
+      "broader": "asig:BFIL01",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -573,8 +605,9 @@
       "notation": "BFIL01SBIII",
       "prefLabel": "BFIL01SBIII · III. Acción y creación",
       "definition": "Acción y creación",
-      "broader": "materia:BFIL",
+      "broader": "asig:BFIL01",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -586,6 +619,7 @@
       "definition": "La reflexión filosófica.",
       "broader": "sb:BFIL01SBI",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -597,6 +631,7 @@
       "definition": "Aproximación a la filosofía y su propuesta como problema.",
       "broader": "sb:BFIL01SBI.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -608,6 +643,7 @@
       "definition": "Identificación de las circunstancias que rodean el origen y condiciones del nacimiento de la filosofía.",
       "broader": "sb:BFIL01SBI.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -619,6 +655,7 @@
       "definition": "Comprensión de las características y concepciones del saber filosófico.",
       "broader": "sb:BFIL01SBI.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -630,6 +667,7 @@
       "definition": "Establecimiento de relaciones de la filosofía en relación con otros campos del saber y la actividad humana.",
       "broader": "sb:BFIL01SBI.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -641,6 +679,7 @@
       "definition": "Reconocimiento de los diversos métodos filosóficos.",
       "broader": "sb:BFIL01SBI.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -652,6 +691,7 @@
       "definition": "Desarrollo del debate en torno a la vigencia y utilidad de la filosofía.",
       "broader": "sb:BFIL01SBI.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -663,6 +703,7 @@
       "definition": "Reconocimiento de la discriminación social, de género, etnia y edad en la tradición filosófica.",
       "broader": "sb:BFIL01SBI.1.6",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -674,6 +715,7 @@
       "definition": "Reflexión crítica sobre la discriminación de la mujer en la historia de la filosofía.",
       "broader": "sb:BFIL01SBI.1.6",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -685,6 +727,7 @@
       "definition": "Identificación de la oposición entre la actitud filosófica y las diversas formas de discriminación como el etnocentrismo, y su valoración en el contexto actual.",
       "broader": "sb:BFIL01SBI.1.6",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -696,6 +739,7 @@
       "definition": "El ser humano como sujeto de la experiencia filosófica.",
       "broader": "sb:BFIL01SBI",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -707,6 +751,7 @@
       "definition": "Interrelación entre las aportaciones de la filosofía y el valor y sentido de la existencia humana.",
       "broader": "sb:BFIL01SBI.2",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -718,6 +763,7 @@
       "definition": "Comprensión de las diferentes concepciones filosóficas acerca del ser humano.",
       "broader": "sb:BFIL01SBI.2",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -729,6 +775,7 @@
       "definition": "Reconocimiento de la estructura psicosomática de la personalidad.",
       "broader": "sb:BFIL01SBI.2",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -740,6 +787,7 @@
       "definition": "Establecimiento de las relaciones entre conciencia y lenguaje.",
       "broader": "sb:BFIL01SBI.2",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -751,6 +799,7 @@
       "definition": "Formulación del problema de la identidad personal.",
       "broader": "sb:BFIL01SBI.2",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -762,6 +811,7 @@
       "definition": "El problema filosófico del conocimiento y la verdad.",
       "broader": "sb:BFIL01SBII",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -773,6 +823,7 @@
       "definition": "Planteamiento del problema sobre el conocimiento.",
       "broader": "sb:BFIL01SBII.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -784,6 +835,7 @@
       "definition": "Identificación y comprensión de las diversas formas de conceptualizar la verdad.",
       "broader": "sb:BFIL01SBII.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -795,6 +847,7 @@
       "definition": "Análisis del fenómeno de la desinformación y la posverdad, y detección y caracterización de las noticias falsas.",
       "broader": "sb:BFIL01SBII.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -806,6 +859,7 @@
       "definition": "Interpretación y ejemplificación de las principales teorías del conocimiento y búsqueda cooperativa en los medios digitales y más tradicionales.",
       "broader": "sb:BFIL01SBII.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -817,6 +871,7 @@
       "definition": "Conocimiento de las reglas del razonamiento correcto y la argumentación.",
       "broader": "sb:BFIL01SBII.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -828,6 +883,7 @@
       "definition": "Identificación y desarrollo ejemplificado de la argumentación formal e informal.",
       "broader": "sb:BFIL01SBII.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -839,6 +895,7 @@
       "definition": "La Filosofía de la ciencia.",
       "broader": "sb:BFIL01SBII.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -850,6 +907,7 @@
       "definition": "Enumeración y explicación de los pasos del método científico.",
       "broader": "sb:BFIL01SBII.1.7",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -861,6 +919,7 @@
       "definition": "Participación dialogada y debatida acerca de la naturaleza, problemas y límites del conocimiento científico.",
       "broader": "sb:BFIL01SBII.1.7",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -872,6 +931,7 @@
       "definition": "Identificación de las conexiones y relaciones del conocimiento científico con otros modos de saber.",
       "broader": "sb:BFIL01SBII.1.7",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -883,6 +943,7 @@
       "definition": "Conocimiento y debate acerca de la problemática sobre la posibilidad del saber metafísico.",
       "broader": "sb:BFIL01SBII.1.7",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -894,6 +955,7 @@
       "definition": "Identificación de la dimensión social y política del conocimiento en el contexto actual.",
       "broader": "sb:BFIL01SBII.1.7",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -905,6 +967,7 @@
       "definition": "Elaboración de proyectos colaborativos sobre el papel de la mujer en la ciencia y en los otros saberes.",
       "broader": "sb:BFIL01SBII.1.7",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -916,6 +979,7 @@
       "definition": "El problema filosófico de la naturaleza y la realidad.",
       "broader": "sb:BFIL01SBII",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -927,6 +991,7 @@
       "definition": "Observación y distinción, desde la cotidianeidad, de los ámbitos de lo real y lo aparente.",
       "broader": "sb:BFIL01SBII.2",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -938,6 +1003,7 @@
       "definition": "Planteamiento de la pregunta por la naturaleza.",
       "broader": "sb:BFIL01SBII.2",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -949,6 +1015,7 @@
       "definition": "Elaboración de presentaciones colaborativas de los principales sistemas cosmológicos.",
       "broader": "sb:BFIL01SBII.2",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -960,6 +1027,7 @@
       "definition": "Comprensión y explicación del problema entre la unidad y pluralidad.",
       "broader": "sb:BFIL01SBII.2",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -971,6 +1039,7 @@
       "definition": "Presentación, en lenguaje audiovisual y variadas expresiones artísticas, del problema mente-cuerpo.",
       "broader": "sb:BFIL01SBII.2",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -982,6 +1051,7 @@
       "definition": "Elaboración colaborativa de cuadros comparativos de las explicaciones monistas, dualistas y pluralistas sobre la naturaleza.",
       "broader": "sb:BFIL01SBII.2",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -993,6 +1063,7 @@
       "definition": "Discusión y debate sobre la inteligencia artificial, desde el uso de las reglas básicas para la construcción y defensa del discurso.",
       "broader": "sb:BFIL01SBII.2",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1004,6 +1075,7 @@
       "definition": "Dramatización debatida entre determinismo versus indeterminismo.",
       "broader": "sb:BFIL01SBII.2",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1015,6 +1087,7 @@
       "definition": "Identificación de las posiciones teístas, ateístas y agnósticas.",
       "broader": "sb:BFIL01SBII.2",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1026,6 +1099,7 @@
       "definition": "La acción humana: filosofía ética y política.",
       "broader": "sb:BFIL01SBIII",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1037,6 +1111,7 @@
       "definition": "Definición del problema ético.",
       "broader": "sb:BFIL01SBIII.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1048,6 +1123,7 @@
       "definition": "Análisis y diferenciación entre ser y deber ser.",
       "broader": "sb:BFIL01SBIII.1.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1059,6 +1135,7 @@
       "definition": "Descripción y dramatización sobre la deliberación moral y el diálogo ético.",
       "broader": "sb:BFIL01SBIII.1.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1070,6 +1147,7 @@
       "definition": "Diferenciación entre cognitivismo, emotivismo y relativismo moral.",
       "broader": "sb:BFIL01SBIII.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1081,6 +1159,7 @@
       "definition": "Formulación de la ética universal de mínimos.",
       "broader": "sb:BFIL01SBIII.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1092,6 +1171,7 @@
       "definition": "Elaboración de mapas mentales de las principales respuestas al problema ético.",
       "broader": "sb:BFIL01SBIII.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1103,6 +1183,7 @@
       "definition": "Identificación de las éticas de la virtud.",
       "broader": "sb:BFIL01SBIII.1.4",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1114,6 +1195,7 @@
       "definition": "Reconocimiento de las éticas del deber.",
       "broader": "sb:BFIL01SBIII.1.4",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1125,6 +1207,7 @@
       "definition": "Valoración de las éticas del cuidado.",
       "broader": "sb:BFIL01SBIII.1.4",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1136,6 +1219,7 @@
       "definition": "Formación colaborativo-ejemplificativa de algunas teorías éticas aplicadas.",
       "broader": "sb:BFIL01SBIII.1.4",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1147,6 +1231,7 @@
       "definition": "Planteamiento del problema de las morales tradicionales, y discusión acerca de la amoralidad.",
       "broader": "sb:BFIL01SBIII.1.4",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1158,6 +1243,7 @@
       "definition": "Identificación de las distintas generaciones de La Declaración Universal de Los Derechos Humanos.",
       "broader": "sb:BFIL01SBIII.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1169,6 +1255,7 @@
       "definition": "Establecimiento de los grandes problemas éticos de nuestro tiempo",
       "broader": "sb:BFIL01SBIII.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1180,6 +1267,7 @@
       "definition": "Debate en torno a la desigualdad y pobreza.",
       "broader": "sb:BFIL01SBIII.1.6",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1191,6 +1279,7 @@
       "definition": "Elaboración de proyectos colaborativos sobre la guerra y otras formas de violencia.",
       "broader": "sb:BFIL01SBIII.1.6",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1202,6 +1291,7 @@
       "definition": "Investigación y presentación de trabajos acerca de la lucha por la igualdad entre hombres y mujeres.",
       "broader": "sb:BFIL01SBIII.1.6",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1213,6 +1303,7 @@
       "definition": "Identificación de las actitudes de discriminación y del respeto a las minorías.",
       "broader": "sb:BFIL01SBIII.1.6",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1224,6 +1315,7 @@
       "definition": "Investigación y elaboración de dosieres informativos en torno a los problemas ecosociales, medioambientales y los derechos de los animales.",
       "broader": "sb:BFIL01SBIII.1.6",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1235,6 +1327,7 @@
       "definition": "Establecimiento de las cuestiones más relevantes acerca de la reflexión filosófica y la justicia.",
       "broader": "sb:BFIL01SBIII.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1246,6 +1339,7 @@
       "definition": ".Búsqueda de información sobre la condición social del ser humano",
       "broader": "sb:BFIL01SBIII.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1257,6 +1351,7 @@
       "definition": "Comprensión de los conceptos de legalidad, legitimidad y definición de lo político.",
       "broader": "sb:BFIL01SBIII.1.8",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1268,6 +1363,7 @@
       "definition": "Elaboración de infografías que resumen las principales formas de organización social y del poder político.",
       "broader": "sb:BFIL01SBIII.1.8",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1279,6 +1375,7 @@
       "definition": "Identificación de las tesis contractualistas en los textos filosóficos.",
       "broader": "sb:BFIL01SBIII.1.8",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1290,6 +1387,7 @@
       "definition": "Reflexión filosófica en torno a la democracia.",
       "broader": "sb:BFIL01SBIII.1.8",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1301,6 +1399,7 @@
       "definition": "Establecimiento de las relaciones entre individuo y Estado.",
       "broader": "sb:BFIL01SBIII.1.8",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1312,6 +1411,7 @@
       "definition": "Debate en torno al problema de la igualdad y la libertad.",
       "broader": "sb:BFIL01SBIII.1.8",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1323,6 +1423,7 @@
       "definition": "Elaboración de tareas de investigación sobre el concepto de trabajo, el derecho a la propiedad y la distribución de la riqueza.",
       "broader": "sb:BFIL01SBIII.1.8",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1334,6 +1435,7 @@
       "definition": "El debate político contemporáneo.",
       "broader": "sb:BFIL01SBIII.1",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1345,6 +1447,7 @@
       "definition": "Clasificación y conceptualización del liberalismo, utilitarismo y comunitarismo.",
       "broader": "sb:BFIL01SBIII.1.9",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1356,6 +1459,7 @@
       "definition": "Reconocimiento, en diversos documentos y formatos, de los ideales, utopías y distopías.",
       "broader": "sb:BFIL01SBIII.1.9",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1367,6 +1471,7 @@
       "definition": "Búsqueda de información sobre feminismo y perspectiva de género en filosofía.",
       "broader": "sb:BFIL01SBIII.1.9",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1378,6 +1483,7 @@
       "definition": "La reflexión filosófica en torno a la creación artística.",
       "broader": "sb:BFIL01SBIII",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1389,6 +1495,7 @@
       "definition": "Conceptualización de los problemas de la estética: arte, belleza y gusto, por medio de la selección y análisis de obras representativas.",
       "broader": "sb:BFIL01SBIII.2",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1400,6 +1507,7 @@
       "definition": "Elaboración de mapas mentales de algunas de las más importantes teorías acerca de la belleza y el arte.",
       "broader": "sb:BFIL01SBIII.2",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1411,6 +1519,7 @@
       "definition": "Debate en torno a la imagen y la cultura audiovisual.",
       "broader": "sb:BFIL01SBIII.2",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1422,6 +1531,7 @@
       "definition": "Realización de trabajos de investigación en torno a la relación entre lo estético y lo ético, la cultura y el papel político del arte.",
       "broader": "sb:BFIL01SBIII.2",
       "materia": "materia:BFIL",
+      "materia_curso": "asig:BFIL01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

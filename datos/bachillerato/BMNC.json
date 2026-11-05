@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BMNC01",
+      "tipo": "MateriaCurso",
+      "notation": "BMNC01",
+      "prefLabel": "Medio Natural Canario · 1º Bachillerato",
+      "broader": "materia:BMNC",
+      "materia": "materia:BMNC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BMNCC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BMNCC1",
@@ -67,7 +77,7 @@
       "notation": "BMNC01BC1",
       "prefLabel": "Medio Natural Canario · 1º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se comprobará si el alumnado es capaz de analizar críticamente conceptos, procesos y experimentos relacionados con los saberes básicos de cualquiera de los bloques de la materia, interpretando información de carácter científico en diferentes formatos (artículos, gráficos, tablas, diagramas, fórmulas, esquemas…, extrayendo las ideas más relevantes para comunicar sus conclusiones y opiniones de forma razonada, precisa y veraz, y utilizando la terminología científica y formatos variados (exposición oral, pósteres, plataformas virtuales, presentación...), tanto de forma analógica como a través de medios digitales. Igualmente, se pretende evaluar si el alumnado argumenta (en debates, foros u otras vías) sobre los conocimientos adquiridos, defendiendo de manera lógica y fundamentada su postura, con una actitud dialogante, abierta, flexible, receptiva y respetuosa ante la opinión de las demás personas, y desarrollando la resiliencia frente a los retos, así como la flexibilidad para dar un giro a las propias ideas ante argumentos ajenos.",
-      "broader": "materia:BMNC",
+      "broader": "asig:BMNC01",
       "agrupa": [
         "ce:BMNCC1"
       ],
@@ -87,6 +97,7 @@
         "CCL5"
       ],
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -96,7 +107,7 @@
       "notation": "BMNC01BC2",
       "prefLabel": "Medio Natural Canario · 1º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de plantear y resolver cuestiones de forma autónoma, siguiendo su propia curiosidad y mostrando iniciativa sobre procesos, fenómenos, acontecimientos, mecanismos... biológicos, geológicos y medioambientales, relacionados con cualquiera de los bloques de saberes básicos de la materia; y seleccionando, organizando, analizando y evaluando críticamente la información procedente de fuentes diversas (libros, revistas y artículos científicos, entrevistas, páginas web, videos, imágenes de microscopía, motores de búsqueda…).También, se quiere constatar que el alumnado contrasta la veracidad de la información, utilizando fuentes fiables y aplicando criterios de validez, calidad, actualidad y fiabilidad, y que respeta los derechos de autoría, citando las fuentes en todos sus informes, presentaciones y comunicaciones. Asimismo, se quiere valorar si el alumnado adopta una actitud crítica y escéptica hacia informaciones sin una base científica y si argumenta sobre la contribución de la ciencia a la sociedad y la labor de las personas dedicadas a ella, destacando a las mujeres científicas, especialmente, en el campo de la Biología, la Geología y las Ciencias Ambientales. Finalmente, se evaluará si el alumnado valora la importancia del trabajo colectivo, interdisciplinar y en continua construcción que realizan las personas científicas; si lleva a cabo indagaciones de forma cooperativa, utilizando diferentes plataformas digitales de búsqueda sobre algunas figuras referentes de la ciencia canaria a lo largo de la historia y en la actualidad; y si identifica y localiza los principales centros de investigación de Canarias, presentando el resultado mediante exposiciones, comunicaciones, informes… y en diferentes soportes.",
-      "broader": "materia:BMNC",
+      "broader": "asig:BMNC01",
       "agrupa": [
         "ce:BMNCC2"
       ],
@@ -113,6 +124,7 @@
         "CC3"
       ],
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -122,7 +134,7 @@
       "notation": "BMNC01BC3",
       "prefLabel": "Medio Natural Canario · 1º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se pretende que el alumnado sea capaz de plantear hipótesis o diseñar un proyecto de investigación en sí, de forma cooperativa, acerca de procesos naturales, relacionados con cualquiera de los bloques de saberes básicos de la materia, y de contrastar sus planteamientos mediante la observación del entorno a través, fundamentalmente, de salidas de campo (reconocimiento de muestras sobre el terreno, toma de datos, identificación de impactos…), pero también de la experimentación en el laboratorio (manejo de la lupa y los microscopios petrográfico y biológico, utilización de claves de identificación, interpretación de mapas topográficos y geológicos…) y de la localización y selección de información en fuentes diversas (BIOCAN, GRAFCAN, páginas web, artículos científicos y divulgativos…), aplicando las metodologías propias de la ciencia, así como el razonamiento matemático, y utilizando con corrección y precisión procedimientos, materiales e instrumentos adecuados. Asimismo, se pretende constatar que el alumnado comunica empleando terminología científica y comparte los resultados y el procedimiento seguido, a través de herramientas, aplicaciones y servicios en línea, utilizando diversos formatos (informes, murales, artículos, pódcast…), de manera clara, rigurosa, es decir, con un vocabulario científico adecuado y de acuerdo a los principios éticos básicos, pero adoptando un punto de vista creativo e innovador para contribuir a la divulgación científica, hacer accesible la información a toda la comunidad educativa y adquirir, de esta forma, un compromiso con la mejora del entorno y de la sociedad.",
-      "broader": "materia:BMNC",
+      "broader": "asig:BMNC01",
       "agrupa": [
         "ce:BMNCC3"
       ],
@@ -141,6 +153,7 @@
         "CPSAA3.2"
       ],
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -150,7 +163,7 @@
       "notation": "BMNC01BC4",
       "prefLabel": "Medio Natural Canario · 1º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de analizar un paisaje concreto, identificando sus elementos y la biodiversidad que habita en él, tanto con los datos recabados in situ en salidas de campo como a través de la utilización de imágenes (mapas, dibujos, fotografías, videos, animaciones…) y de información científica de fuentes y soportes variados (GRAFCAN, páginas web, fotografías, videos, artículos científicos, prensa...). También, se evaluará si el alumnado identifica los efectos de determinadas acciones sobre el medio natural (destrucción de hábitats, erosión y contaminación del suelo, extinción directa de especies,…); asimismo se busca comprobar si es capaz de reconocer los estilos de vida y las acciones propias y ajenas que pueden influir en la transformación de la superficie terrestre, y de reflexionar sobre el impacto ambiental, elaborando proyectos de sensibilización a través de distintas producciones (informes, decálogos, carteles informativos, exposiciones orales…), de forma individual o en grupo, mediante metodologías activas como el Aprendizaje servicio, para proponer y adoptar hábitos de vida sostenibles; y poniendo especial énfasis en las acciones antropogénicas para fomentar la conservación del medioambiente, en relación con el desarrollo sostenible y la calidad de vida, así como para la protección y mejora del paisaje natural canario. Todo ello con el fin de que el alumnado identifique el paisaje como parte del patrimonio natural, social y cultural de las islas, producto de su historia y parte de su idiosincrasia, con sentido crítico, optimismo y resiliencia, y promoviendo en la comunidad actitudes respetuosas y comprometidas con la naturaleza.",
-      "broader": "materia:BMNC",
+      "broader": "asig:BMNC01",
       "agrupa": [
         "ce:BMNCC4"
       ],
@@ -167,6 +180,7 @@
         "CE3"
       ],
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -176,7 +190,7 @@
       "notation": "BMNC01BC5",
       "prefLabel": "Medio Natural Canario · 1º Bachillerato · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de identificar las causas y consecuencias ecológicas, sociales y económicas de los principales problemas medioambientales, como la pérdida de biodiversidad, los efectos de la superpoblación sobre el territorio insular, el problema de los residuos…, aplicando metodologías científicas para investigar (Aprendizaje basado en proyectos, Aprendizaje basado en problemas, Design thinking, Aprendizaje basado en el pensamiento…), a través de la búsqueda de información de fuentes diversas sobre los acuerdos entre administraciones de diferente nivel y agentes sociales (Objetivos de Desarrollo Sostenible, Agenda Canaria de Desarrollo Sostenible…). Todo esto con el fin de diseñar, promover y poner en acción hábitos e iniciativas a nivel local encaminados a la mejora del entorno más próximo del alumnado, a través de metodologías activas como el Aprendizaje servicio, y de reflexionar sobre el beneficio que este tipo de acciones supone tanto para el medioambiente como para las personas que habitan en él. Se comprobará, además, si el alumnado es capaz de aplicar los saberes adquiridos sobre el medio natural canario y poner en práctica estilos de vida sostenibles, atendiendo a principios de ética y seguridad, con el fin de valorar y transformar su entorno de forma sostenible; adquiriendo compromisos en el ámbito local; y proponiendo soluciones innovadoras, que le lleven a ejercer una ciudadanía responsable en pro del cuidado, de la conservación y de la protección de nuestro patrimonio natural y cultural.",
-      "broader": "materia:BMNC",
+      "broader": "asig:BMNC01",
       "agrupa": [
         "ce:BMNCC5"
       ],
@@ -195,6 +209,7 @@
         "CCEC1"
       ],
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -219,6 +234,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -240,6 +256,7 @@
         "CC3"
       ],
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -261,6 +278,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -284,6 +302,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -307,6 +326,7 @@
         "CC3"
       ],
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -327,6 +347,7 @@
         "CC3"
       ],
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -348,6 +369,7 @@
         "CE3"
       ],
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -371,6 +393,7 @@
         "CE3"
       ],
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -392,6 +415,7 @@
         "CD3"
       ],
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -410,6 +434,7 @@
         "CPSAA3.2"
       ],
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -428,6 +453,7 @@
         "CC4"
       ],
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -445,6 +471,7 @@
         "CE1"
       ],
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -465,6 +492,7 @@
         "CE3"
       ],
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -484,6 +512,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -503,6 +532,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -521,6 +551,7 @@
         "CCEC1"
       ],
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -530,8 +561,9 @@
       "notation": "BMNC01SBI",
       "prefLabel": "BMNC01SBI · I. Construyendo ciencia",
       "definition": "Construyendo ciencia",
-      "broader": "materia:BMNC",
+      "broader": "asig:BMNC01",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -541,8 +573,9 @@
       "notation": "BMNC01SBII",
       "prefLabel": "BMNC01SBII · II. La singularidad del archipiélago canario",
       "definition": "La singularidad del archipiélago canario",
-      "broader": "materia:BMNC",
+      "broader": "asig:BMNC01",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -552,8 +585,9 @@
       "notation": "BMNC01SBIII",
       "prefLabel": "BMNC01SBIII · III. Ecología de Canarias",
       "definition": "Ecología de Canarias",
-      "broader": "materia:BMNC",
+      "broader": "asig:BMNC01",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -565,6 +599,7 @@
       "definition": "Utilización de las estrategias propias de la metodología científica como el trabajo de campo y de laboratorio.",
       "broader": "sb:BMNC01SBI",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -576,6 +611,7 @@
       "definition": "Empleo de estrategias para la búsqueda, la selección, el análisis y la interpretación de información relacionada con el medio natural canario, procedente de fuentes fiables, incluidas las tecnologías digitales y sus posibilidades interactivas y colaborativas, como destreza para evitar los riesgos de manipulación y desinformación.",
       "broader": "sb:BMNC01SBI",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -587,6 +623,7 @@
       "definition": "Desarrollo de los procedimientos del trabajo científico: planteamiento de problemas, formulación de hipótesis, estrategias y diseños experimentales, análisis, interpretación y comunicación de resultados e ideas en diversos formatos (diapositivas, gráficos, vídeos, pósteres, informes y otros).",
       "broader": "sb:BMNC01SBI",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -598,6 +635,7 @@
       "definition": "Identificación y análisis de los problemas ambientales que afectan a Canarias.",
       "broader": "sb:BMNC01SBI",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -609,6 +647,7 @@
       "definition": "Valoración de la necesidad del conocimiento científico como herramienta interdisciplinar y en continua construcción, imprescindible para el avance de la sociedad.",
       "broader": "sb:BMNC01SBI",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -620,6 +659,7 @@
       "definition": "Estudio de la interconexión de los elementos que definen, construyen y modelan el paisaje: relieve, clima, aguas (superficiales, subterráneas, mares y océanos), fauna, flora y elementos antrópicos.",
       "broader": "sb:BMNC01SBII",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -631,6 +671,7 @@
       "definition": "Identificación e interpretación de los diferentes tipos de paisajes de las islas Canarias: desérticos, boscosos, de vulcanismo reciente, de macizos y barrancos y de roques, acantilados e islotes, a través de salidas al campo, imágenes tridimensionales y medios digitales varios.",
       "broader": "sb:BMNC01SBII",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -642,6 +683,7 @@
       "definition": "Los paisajes de vulcanismo reciente:",
       "broader": "sb:BMNC01SBII",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -653,6 +695,7 @@
       "definition": "Caracterización de los paisajes volcánicos.",
       "broader": "sb:BMNC01SBII.3",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -664,6 +707,7 @@
       "definition": "Interpretación/análisis de las hipótesis acerca del origen volcánico del archipiélago canario.",
       "broader": "sb:BMNC01SBII.3",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -675,6 +719,7 @@
       "definition": "Identificación y descripción de las estructuras volcánicas más relevantes.",
       "broader": "sb:BMNC01SBII.3",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -686,6 +731,7 @@
       "definition": "Descripción del proceso de colonización de islas oceánicas y sucesiones ecológicas.",
       "broader": "sb:BMNC01SBII.3",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -697,6 +743,7 @@
       "definition": "Los paisajes desérticos:",
       "broader": "sb:BMNC01SBII",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -708,6 +755,7 @@
       "definition": "Descripción de procesos eólicos y litorales.",
       "broader": "sb:BMNC01SBII.4",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -719,6 +767,7 @@
       "definition": "Descripción de los procesos de formación de las dunas, arenales y saladares.",
       "broader": "sb:BMNC01SBII.4",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -730,6 +779,7 @@
       "definition": "Valoración crítica del avance de la desertización.",
       "broader": "sb:BMNC01SBII.4",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -741,6 +791,7 @@
       "definition": "Los paisajes de macizos y barrancos:",
       "broader": "sb:BMNC01SBII",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -752,6 +803,7 @@
       "definition": "Descripción de los rasgos más significativos.",
       "broader": "sb:BMNC01SBII.5",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -763,6 +815,7 @@
       "definition": "Estudio del clima y el modelado del relieve en Canarias.",
       "broader": "sb:BMNC01SBII.5",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -774,6 +827,7 @@
       "definition": "Los paisajes boscosos:",
       "broader": "sb:BMNC01SBII",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -785,6 +839,7 @@
       "definition": "Identificación de las características de la Región Macaronésica.",
       "broader": "sb:BMNC01SBII.6",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -796,6 +851,7 @@
       "definition": "Análisis de la dinámica de los vientos alisios. Valoración de la importancia del mar de nubes y de la lluvia horizontal.",
       "broader": "sb:BMNC01SBII.6",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -807,6 +863,7 @@
       "definition": "Características del monte verde, pinares y bosques termófilos.",
       "broader": "sb:BMNC01SBII.6",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -818,6 +875,7 @@
       "definition": "Importancia y vulnerabilidad de los suelos en Canarias. Reconocimiento de la relevancia de la calidad del suelo en el resto del ecosistema.",
       "broader": "sb:BMNC01SBII.6",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -829,6 +887,7 @@
       "definition": "Los paisajes de roques, acantilados e islotes:",
       "broader": "sb:BMNC01SBII",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -840,6 +899,7 @@
       "definition": "Reconocimiento de los elementos característicos.",
       "broader": "sb:BMNC01SBII.7",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -851,6 +911,7 @@
       "definition": "Identificación de la acción erosiva del mar y formación de estructuras costeras.",
       "broader": "sb:BMNC01SBII.7",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -862,6 +923,7 @@
       "definition": "Estudio de los tipos de paisajes como hábitat de las especies más relevantes de Canarias. Análisis desde una perspectiva antropogénica del impacto de los usos pasados, presentes y futuros del ser humano en ellos, con especial atención a la sostenibilidad de los mismos.",
       "broader": "sb:BMNC01SBII",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -873,6 +935,7 @@
       "definition": "Reconocimiento de la necesidad de apreciar, valorar, respetar y proteger el patrimonio paisajístico de Canarias como recurso natural, económico, cultural y social que define la idiosincrasia de la sociedad canaria, para fomentar en el alumnado actitudes de respeto y conservación del medio natural canario.",
       "broader": "sb:BMNC01SBII",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -884,6 +947,7 @@
       "definition": "Análisis de la importancia de la biodiversidad de Canarias, de las causas y las consecuencias ambientales y sociales de su pérdida para la elaboración de propuestas de acciones concretas que eviten su disminución, a partir del conocimiento de la restauración de especies, de la recuperación de los espacios degradados y del control de especies invasoras.",
       "broader": "sb:BMNC01SBIII",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -895,6 +959,7 @@
       "definition": "Identificación de las categorías de protección de las especies canarias y del territorio de la Comunidad Autónoma, así como de las restricciones de uso que conllevan, para el ejercicio de una ciudadanía respetuosa con las normas. Consideración crítica de las diversas cosmovisiones sobre la relación humana con el medio natural para fomentar entre el alumnado la protección del territorio.",
       "broader": "sb:BMNC01SBIII",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -906,6 +971,7 @@
       "definition": "Análisis de las relaciones de interdependencia, trascendiendo del desarrollismo y conservacionismo al desarrollo sostenible. Con una mirada local a la vez que global, para comprender que cualquier acción que afecte a un elemento lo hace sobre el resto.",
       "broader": "sb:BMNC01SBIII",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -917,6 +983,7 @@
       "definition": "Indagación de las soluciones que ha encontrado la naturaleza para adaptarse y transformar el entorno como alternativas para integrar las acciones humanas dentro del funcionamiento de los ecosistemas.",
       "broader": "sb:BMNC01SBIII",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -928,6 +995,7 @@
       "definition": "Estudio de los límites del planeta Tierra como proveedor de recursos y como sumidero de residuos, así como de la huella ecológica de las acciones humanas en el mismo, en general, y en el medio natural canario, en particular, para adoptar medidas individuales y colectivas que contribuyan a la adaptación y mitigación de la actual situación de emergencia climática, con especial atención a la vulnerabilidad de los ecosistemas insulares.",
       "broader": "sb:BMNC01SBIII",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -939,6 +1007,7 @@
       "definition": "Reflexión sobre la relevancia de los Objetivos de Desarrollo Sostenible acordados en el marco de las Naciones Unidas, la emergencia climática y la Agenda Canaria de Desarrollo Sostenible. La importancia del cumplimiento por parte de las administraciones competentes de los acuerdos en materia medioambiental y la implicación de la ciudadanía en el logro de los mismos.",
       "broader": "sb:BMNC01SBIII",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -950,6 +1019,7 @@
       "definition": "Valoración de la urgencia de adoptar estrategias sostenibles de relación con el medio tales como economía circular, economía azul, turismo sostenible… Desarrollo de debates sobre planteamientos éticos, científicos y políticos en torno a los problemas ecosociales que se manifiestan en Canarias como consecuencia de la actual situación de emergencia climática.",
       "broader": "sb:BMNC01SBIII",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -961,6 +1031,7 @@
       "definition": "Fomento del compromiso activo con la protección de los seres vivos y el medioambiente. Los derechos de los animales y de la naturaleza, desde una perspectiva biocéntrica, para crear vínculos que permitan el desarrollo de actitudes de cuidado hacia el medio natural canario.",
       "broader": "sb:BMNC01SBIII",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -972,6 +1043,7 @@
       "definition": "Investigación sobre aquellas personas y colectivos que participan en iniciativas que promueven la conservación y potenciación del medio natural canario, con especial interés al medio rural que lucha por sobrevivir en él, para el desarrollo de actitudes solidarias y proactivas de colaboración.",
       "broader": "sb:BMNC01SBIII",
       "materia": "materia:BMNC",
+      "materia_curso": "asig:BMNC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

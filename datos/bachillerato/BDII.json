@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BDII02",
+      "tipo": "MateriaCurso",
+      "notation": "BDII02",
+      "prefLabel": "Dibujo Artístico II · 2º Bachillerato",
+      "broader": "materia:BDII",
+      "materia": "materia:BDII",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BDIIC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BDIIC1",
@@ -107,7 +117,7 @@
       "notation": "BDII02BC1",
       "prefLabel": "Dibujo Artístico II · 2º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de valorar la importancia del dibujo como herramienta de pensamiento crítico y de expresión en diferentes manifestaciones culturales y artísticas, a partir del análisis de las obras de artistas diversos de los siglos XIX y XX, con especial atención al ámbito de Canarias y visibilizando a las mujeres artistas. Se verificará que el alumnado es capaz de elaborar de forma razonada producciones orales, escritas y multimodales, que le ayudarán a desarrollar con autonomía la reflexión, la observación y la imaginación para poder comunicarse. Todo ello con la finalidad de que el alumnado realice representaciones creativas y personales y valore y respete la diversidad cultural y la relevancia de la conservación y la promoción del patrimonio.",
-      "broader": "materia:BDII",
+      "broader": "asig:BDII02",
       "agrupa": [
         "ce:BDIIC1"
       ],
@@ -123,6 +133,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -132,7 +143,7 @@
       "notation": "BDII02BC2",
       "prefLabel": "Dibujo Artístico II · 2º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de comprender el uso del lenguaje plástico en el dibujo a través del análisis de producciones artísticas de diferentes épocas, lugares y estilos, prestando especial atención a las desarrolladas en Canarias, comprendiendo la función que desempeña. A partir de la visualización de propuestas artísticas modernas y contemporáneas, realizadas por mujeres y hombres y también por artistas pertenecientes a grupos minoritarios o que sufren discriminación, y comprendiendo no solo los aspectos técnicos, sino también su intencionalidad, se verificará que el alumnado es capaz de realizar un análisis crítico de las mismas utilizando para ello terminología específica adecuada, incorporando la perspectiva de género y la perspectiva intercultural. Todo ello con la finalidad de que el alumnado amplíe las posibilidades de disfrute en la recepción artística, desarrolle una conciencia visual y valore el enriquecimiento que suponen para la sociedad los retos creativos y estéticos.",
-      "broader": "materia:BDII",
+      "broader": "asig:BDII02",
       "agrupa": [
         "ce:BDIIC2"
       ],
@@ -147,6 +158,7 @@
         "CCEC1"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -156,7 +168,7 @@
       "notation": "BDII02BC3",
       "prefLabel": "Dibujo Artístico II · 2º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se verificará que el alumnado, mediante bocetos o esbozos es capaz de recrear gráficamente la realidad, partiendo tanto de la observación detallada como de la propia imaginación. Se comprobará que el alumnado es capaz de analizar, interpretar y representar esa realidad, utilizando soportes tanto digitales como analógicos, a partir de obras gráficas que exploren las posibilidades expresivas, empleando con corrección y destreza los recursos elementales propios del dibujo: punto, línea, forma, color y textura, así como su sintaxis. Todo ello con la finalidad de avanzar en su aprendizaje hacia una expresión gráfica personal y espontánea, tener una visión propia, tanto objetiva como subjetiva de esa realidad, exteriorizar su pensamiento y potenciar la sensibilidad, favoreciendo así su desarrollo personal y artístico, y contribuyendo a la consolidación de su madurez personal y social.",
-      "broader": "materia:BDII",
+      "broader": "asig:BDII02",
       "agrupa": [
         "ce:BDIIC3"
       ],
@@ -169,6 +181,7 @@
         "CC2"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -178,7 +191,7 @@
       "notation": "BDII02BC4",
       "prefLabel": "Dibujo Artístico II · 2º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se verificará que el alumnado es capaz de utilizar el dibujo como medio de autoexpresión, experimentando con diferentes materiales, técnicas y soportes, incluido el propio cuerpo, integrándose en las producciones plásticas propias, y analizando la importancia del cuerpo humano en las propuestas artísticas contemporáneas, a través del descubrimiento y exploración de las diferentes formas de expresión gráfica, incluidas las que sitúan al cuerpo humano como protagonista de la creación, como soporte y como herramienta. Además, se constatará si es capaz de recrear gráficamente el espacio tridimensional, en producciones artísticas bidimensionales o tridimensionales, utilizando también diversos materiales, técnicas y soportes, y experimentando de forma abierta con los efectos perspectivos de profundidad, mediante el desarrollo de procesos de aprendizaje que le permitan comprender y entender la percepción y la representación del espacio, a través del conocimiento y aplicación de la perspectiva cónica y la perspectiva atmosférica, convirtiéndolo en el soporte de la propia intervención artística. Todo ello con la finalidad de favorecer la autoexpresión, desarrollar la autoconfianza, la aceptación personal y promover activamente la igualdad entre mujeres y hombres.",
-      "broader": "materia:BDII",
+      "broader": "asig:BDII02",
       "agrupa": [
         "ce:BDIIC4"
       ],
@@ -191,6 +204,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -200,7 +214,7 @@
       "notation": "BDII02BC5",
       "prefLabel": "Dibujo Artístico II · 2º Bachillerato · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial, se verificará que el alumnado es capaz de describir los referentes artísticos presentes en obras contemporáneas, reconociendo la importancia de la herencia cultural, con especial atención a las desarrolladas en Canarias. Se comprobará que el alumnado es capaz de investigar y analizar las influencias que unas propuestas han tenido sobre otras, incluso tomando referentes de culturas y disciplinas diferentes, para poder establecer conexiones entre distintos tipos de lenguajes plásticos, visuales y audiovisuales y reconocer la presencia del dibujo como medio de expresión en cada uno de ellos. Todo ello con la finalidad de que el alumnado se forje una cultura visual y descubra los avances en procedimientos o técnicas utilizados en cada medio creativo, y valore la importancia del dibujo como vehículo para desarrollar la sensibilidad artística y la creatividad, o como medio para expresar ideas, opiniones, sentimientos y emociones, enriqueciendo sus propias producciones y para promover activamente la igualdad y corresponsabilidad efectiva entre mujeres y hombres.",
-      "broader": "materia:BDII",
+      "broader": "asig:BDII02",
       "agrupa": [
         "ce:BDIIC5"
       ],
@@ -213,6 +227,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -222,7 +237,7 @@
       "notation": "BDII02BC6",
       "prefLabel": "Dibujo Artístico II · 2º Bachillerato · bloque competencial C6",
       "scopeNote": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de comprender y emplear con intenciones comunicativas y expresivas algunos de los principios más importantes de las teorías de la percepción visual. Se comprobará que el alumnado es capaz de experimentar con los elementos del lenguaje visual, para ir consiguiendo poco a poco un trazo y un uso de las formas cada vez más personal y experimentado, que le permitan valorar la importancia de la práctica en todo proceso creativo. Todo ello con la finalidad de que el alumnado sea capaz de representar la realidad que observa a su alrededor y de crear imágenes cada vez más personales y expresivas a partir de su fantasía o de sus emociones.",
-      "broader": "materia:BDII",
+      "broader": "asig:BDII02",
       "agrupa": [
         "ce:BDIIC6"
       ],
@@ -235,6 +250,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -244,7 +260,7 @@
       "notation": "BDII02BC7",
       "prefLabel": "Dibujo Artístico II · 2º Bachillerato · bloque competencial C7",
       "scopeNote": "A través de este bloque competencial, se persigue comprobar que el alumnado es capaz de identificar las técnicas más utilizadas en el dibujo, conociendo sus características y reflexionando sobre la toxicidad y el impacto ambiental de los diferentes medios y herramientas, con el fin de adoptar prácticas de trabajo sostenibles, seguras y responsables. Se verificará que el alumnado es capaz de seleccionar las herramientas y materiales adecuados a cada propuesta, utilizando diferentes niveles de iconicidad, y experimentando con técnicas, herramientas y soportes variados, tanto analógicas como digitales. Todo ello con la finalidad de que el alumnado sea capaz de explorar nuevas posibilidades e integrarlas en su proceso creativo y expresivo.",
-      "broader": "materia:BDII",
+      "broader": "asig:BDII02",
       "agrupa": [
         "ce:BDIIC7"
       ],
@@ -260,6 +276,7 @@
         "CD5"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -269,7 +286,7 @@
       "notation": "BDII02BC8",
       "prefLabel": "Dibujo Artístico II · 2º Bachillerato · bloque competencial C8",
       "scopeNote": "A través de este bloque competencial, se persigue verificar que el alumnado es capaz de analizar y representar gráficamente la realidad observada, valiéndose de la retentiva, extrayendo la información más relevante, aplicando efectos perspectivos y de claroscuro para simular el espacio y el volumen, y utilizando la proporción como un recurso gráfico. Se comprobará que el alumnado es capaz de aplicar los conocimientos y destrezas adquiridos hasta ahora, seleccionando los materiales, soportes y técnicas según el efecto que desee conseguir, utilizándolos de manera adecuada, y evaluando de esta manera su propio proceso de aprendizaje. Todo ello con la finalidad de que el alumnado sea capaz de realizar composiciones cada vez más personales, creativas y expresivas.",
-      "broader": "materia:BDII",
+      "broader": "asig:BDII02",
       "agrupa": [
         "ce:BDIIC8"
       ],
@@ -281,6 +298,7 @@
         "CPSAA1.1"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -290,7 +308,7 @@
       "notation": "BDII02BC9",
       "prefLabel": "Dibujo Artístico II · 2º Bachillerato · bloque competencial C9",
       "scopeNote": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de participar en proyectos gráficos colaborativos sencillos, enmarcados en un ámbito disciplinar concreto, identificando las fases del proceso y participando en la organización y distribución de las tareas. Durante el proceso, se comprobará que el alumnado es capaz de aplicar los aprendizajes adquiridos sobre el dibujo artístico y sus materiales y técnicas, seleccionando los recursos adecuados, y de superar las dificultades que vayan apareciendo por medio del diálogo, con empatía, asertividad y respeto por las opiniones ajenas. El alumnado irá observando y ajustando la viabilidad del proyecto, la sostenibilidad del mismo y su adecuación. Todo ello con la finalidad de que adquiera los conocimientos, las destrezas y las actitudes necesarias que le permitan enfrentarse de manera cada vez más eficaz a futuros proyectos, y que valore las posibilidades de desarrollo académico y profesional relacionadas con el dibujo artístico.",
-      "broader": "materia:BDII",
+      "broader": "asig:BDII02",
       "agrupa": [
         "ce:BDIIC9"
       ],
@@ -306,6 +324,7 @@
         "CE1"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -327,6 +346,7 @@
         "CCEC2"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -346,6 +366,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -365,6 +386,7 @@
         "CCEC2"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -383,6 +405,7 @@
         "CCEC2"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -402,6 +425,7 @@
         "CCEC1"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -419,6 +443,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -438,6 +463,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -457,6 +483,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -474,6 +501,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -492,6 +520,7 @@
         "CCEC2"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -510,6 +539,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -527,6 +557,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -545,6 +576,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -566,6 +598,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -586,6 +619,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -604,6 +638,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -622,6 +657,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -642,6 +678,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -662,6 +699,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -671,8 +709,9 @@
       "notation": "BDII02SBI",
       "prefLabel": "BDII02SBI · I. Concepto, historia y campos del diseño",
       "definition": "Concepto, historia y campos del diseño",
-      "broader": "materia:BDII",
+      "broader": "asig:BDII02",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -682,8 +721,9 @@
       "notation": "BDII02SBII",
       "prefLabel": "BDII02SBII · II. La expresión gráfica y sus recursos elementales",
       "definition": "La expresión gráfica y sus recursos elementales",
-      "broader": "materia:BDII",
+      "broader": "asig:BDII02",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -693,8 +733,9 @@
       "notation": "BDII02SBIII",
       "prefLabel": "BDII02SBIII · III. Dibujo y espacio",
       "definition": "Dibujo y espacio",
-      "broader": "materia:BDII",
+      "broader": "asig:BDII02",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -704,8 +745,9 @@
       "notation": "BDII02SBIV",
       "prefLabel": "BDII02SBIV · IV. La luz, el claroscuro y el color",
       "definition": "La luz, el claroscuro y el color",
-      "broader": "materia:BDII",
+      "broader": "asig:BDII02",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -715,8 +757,9 @@
       "notation": "BDII02SBV",
       "prefLabel": "BDII02SBV · V. La figura humana",
       "definition": "La figura humana",
-      "broader": "materia:BDII",
+      "broader": "asig:BDII02",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -726,8 +769,9 @@
       "notation": "BDII02SBVI",
       "prefLabel": "BDII02SBVI · VI. Proyectos gráficos colaborativos",
       "definition": "Proyectos gráficos colaborativos",
-      "broader": "materia:BDII",
+      "broader": "asig:BDII02",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -739,6 +783,7 @@
       "definition": "Estudio del dibujo en el arte de los siglos XIX y XX. Análisis de obras más representativas de diferentes artistas, hombres y mujeres, así como de producciones artísticas realizadas por personas pertenecientes a grupos étnicos minoritarios, con especial atención al ámbito de Canarias.",
       "broader": "sb:BDII02SBI",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -750,6 +795,7 @@
       "definition": "Valoración del dibujo como representación objetiva o subjetiva. Comprensión del paso de lo figurativo a la abstracción.",
       "broader": "sb:BDII02SBI",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -761,6 +807,7 @@
       "definition": "Reconocimiento y valoración de la influencia de la Bauhaus y el diseño en el dibujo.",
       "broader": "sb:BDII02SBI",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -772,6 +819,7 @@
       "definition": "Valoración del dibujo como expresión artística contemporánea. Experimentación con soportes variados desde el más tradicional como es el papel hasta el menos convencional como sería el dibujo en el espacio o dibujo expandido que se despliega en las tres dimensiones del espacio.",
       "broader": "sb:BDII02SBI",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -783,6 +831,7 @@
       "definition": "Observación y análisis de obras de arte a partir de visitas, presenciales o virtuales, a exposiciones, museos y centros culturales.",
       "broader": "sb:BDII02SBI",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -794,6 +843,7 @@
       "definition": "Desarrollo de la retentiva y la memoria visual.",
       "broader": "sb:BDII02SBII",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -805,6 +855,7 @@
       "definition": "Exploración de las formas y su transformación: la forma entendida como una estructura de elementos y relaciones. Experimentación con espacios negativos y positivos de las formas.",
       "broader": "sb:BDII02SBII",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -816,6 +867,7 @@
       "definition": "Identificación de texturas visuales y táctiles. Generación de texturas visuales mediante la utilización de diversos materiales y procedimientos.",
       "broader": "sb:BDII02SBII",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -827,6 +879,7 @@
       "definition": "Utilización de técnicas gráfico-plásticas, tradicionales, alternativas y digitales.",
       "broader": "sb:BDII02SBII",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -838,6 +891,7 @@
       "definition": "Utilización de herramientas de edición de imágenes para la expresión artística.",
       "broader": "sb:BDII02SBII",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -849,6 +903,7 @@
       "definition": "Exploración de programas de pintura y dibujo digital. Aplicación en el desarrollo de procesos creativos.",
       "broader": "sb:BDII02SBII",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -860,6 +915,7 @@
       "definition": "Exploración de la línea en el dibujo. Utilización de recursos como la modulación o el entramado de líneas para representar la tridimensionalidad.",
       "broader": "sb:BDII02SBIII",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -871,6 +927,7 @@
       "definition": "Conocimiento de los fundamentos de la perspectiva. Aplicación de la perspectiva cónica en el dibujo artístico.",
       "broader": "sb:BDII02SBIII",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -882,6 +939,7 @@
       "definition": "Valoración y aplicación del encuadre en el dibujo del natural. Estudio comparativo del encuadre y la composición en el dibujo y la fotografía.",
       "broader": "sb:BDII02SBIII",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -893,6 +951,7 @@
       "definition": "Exploración de las posibilidades expresivas que ofrece la perspectiva, a través de la representación de espacios interiores, exteriores, urbanos y naturales.",
       "broader": "sb:BDII02SBIII",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -904,6 +963,7 @@
       "definition": "Exploración y aplicación de la geometría en la naturaleza",
       "broader": "sb:BDII02SBIII",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -915,6 +975,7 @@
       "definition": "Valoración de las cualidades expresivas del sombreado y la mancha. Generación de imágenes a partir de la aplicación de diferentes escalas y claves tonales.",
       "broader": "sb:BDII02SBIV",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -926,6 +987,7 @@
       "definition": "Exploración de las cualidades expresivas y relaciones del color. Identificación del color local, tonal y ambiental en diferentes imágenes. Estudio y comparación de los usos del color en el dibujo.",
       "broader": "sb:BDII02SBIV",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -937,6 +999,7 @@
       "definition": "Identificación de las dimensiones del color. Aplicaciones prácticas a partir de la modificación del color en base a sus dimensiones.",
       "broader": "sb:BDII02SBIV",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -948,6 +1011,7 @@
       "definition": "Exploración de las posibilidades expresivas que ofrece la perspectiva atmosférica o tonal, a través de la representación del espacio.",
       "broader": "sb:BDII02SBIV",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -959,6 +1023,7 @@
       "definition": "Exploración de las posibilidades expresivas que ofrece el color asociado a la línea. Utilización del arte óptico y geométrico en la generación de imágenes.",
       "broader": "sb:BDII02SBIV",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -970,6 +1035,7 @@
       "definition": "Análisis de la representación del ser humano a lo largo de la historia, detectando estereotipos de género. Estudio de los conceptos de canon y proporción. Reflexión crítica sobre los patrones de belleza en diferentes épocas.",
       "broader": "sb:BDII02SBV",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -981,6 +1047,7 @@
       "definition": "Comprensión de las nociones básicas de anatomía artística.",
       "broader": "sb:BDII02SBV",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -992,6 +1059,7 @@
       "definition": "Realización de apuntes del natural, prestando especial atención al estudio y representación del escorzo.",
       "broader": "sb:BDII02SBV",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1003,6 +1071,7 @@
       "definition": "Estudio y representación del cuerpo humano como soporte y como instrumento de expresión artística, respetando y valorando la diversidad corporal.",
       "broader": "sb:BDII02SBV",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1014,6 +1083,7 @@
       "definition": "Distribución de tareas, recursos y responsabilidades de manera ecuánime en los proyectos gráficos colaborativos, estableciendo criterios de selección a partir de las habilidades requeridas y de las necesidades del proyecto.",
       "broader": "sb:BDII02SBVI",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1025,6 +1095,7 @@
       "definition": "Planificación de las fases de los proyectos gráficos.",
       "broader": "sb:BDII02SBVI",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1036,6 +1107,7 @@
       "definition": "Desarrollo de estrategias de selección de técnicas, herramientas, medios y soportes del dibujo adecuados a distintas disciplinas.",
       "broader": "sb:BDII02SBVI",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1047,6 +1119,7 @@
       "definition": "Desarrollo de estrategias de evaluación de las fases y los resultados de proyectos gráficos. Valoración del error como oportunidad de mejora y aprendizaje.",
       "broader": "sb:BDII02SBVI",
       "materia": "materia:BDII",
+      "materia_curso": "asig:BDII02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     }

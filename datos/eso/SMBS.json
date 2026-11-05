@@ -13,11 +13,34 @@
       "etapa": "etapa:ESO"
     },
     {
+      "id": "asig:SMBS03",
+      "tipo": "MateriaCurso",
+      "notation": "SMBS03",
+      "prefLabel": "Ámbito Lingüístico y Social · 3º ESO",
+      "broader": "materia:SMBS",
+      "materia": "materia:SMBS",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "asig:SMBS04",
+      "tipo": "MateriaCurso",
+      "notation": "SMBS04",
+      "prefLabel": "Ámbito Lingüístico y Social · 4º ESO",
+      "broader": "materia:SMBS",
+      "materia": "materia:SMBS",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
       "id": "ce:SMBSC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "SMBSC1",
       "prefLabel": "SMBSC1 · Comprender, interpretar y producir textos orales, escritos y multimodales con fluidez,…",
       "definition": "Comprender, interpretar y producir textos orales, escritos y multimodales con fluidez, coherencia, cohesión y registro adecuados, atendiendo a la corrección gramatical y ortográfica, para comunicarse de manera eficaz, cooperativa y respetuosa, construir conocimiento y dar respuesta a demandas comunicativas concretas, partiendo de la variedad dialectal canaria.",
+      "enunciados_curso": {
+        "curso:S04": "Comprender, interpretar y producir textos orales, escritos y multimodales con fluidez, coherencia, cohesión y registro adecuados, atendiendo a la corrección gramatical y ortográfica, para comunicarse de manera eficaz, cooperativa y respetuosa, construir conocimiento y dar respuesta a demandas comunicativas concretas."
+      },
       "broader": "materia:SMBS",
       "materia": "materia:SMBS",
       "etapa": "etapa:ESO"
@@ -118,7 +141,7 @@
       "notation": "SMBS03BC1",
       "prefLabel": "Ámbito Lingüístico y Social · 3º ESO · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de comprender e interpretar, individualmente o en grupo, textos escritos, orales o multimodales de los ámbitos personal (conversaciones, anuncios, cartas, mensajería electrónica, canciones…), social (noticias o entrevistas, en formato periodístico o radiofónicos, textos y cuñas publicitarias, tutoriales, debates…) y educativo (manuales escolares, mapas conceptuales, informes, presentaciones, charlas TED, coloquios…) e incluso signados (expresiones y vocabulario de uso cotidiano en lengua de signos y alfabeto dactilológico). Se constatará que hace uso de estrategias y técnicas de comprensión y descodificación, que distingue la información de la opinión o la persuasión, y que es capaz de valorar la forma y el contenido, atendiendo al sentido global, a la relación entre sus partes y a la información más relevante, haciendo conexiones entre el texto y su contexto, y diferenciando el lenguaje verbal del no verbal. Se verificará, además, si el alumnado es capaz de producir textos escritos y multimodales con coherencia, cohesión, fluidez y adecuación, desarrollando procesos metacognitivos: la planificación, la textualización, la revisión y la edición del texto final mediante herramientas o plataformas virtuales, de manera respetuosa con la propiedad intelectual y con actitud crítica. Asimismo, se confirmará si es capaz de conversar en diálogos pedagógicamente orientados, estructurar el discurso y adecuar el registro y el comportamiento no verbal en producciones orales y multimodales, monologadas o dialogadas, respetando las características de la variedad dialectal del hablante, sobre temas de interés personal (la conversación, la discrepancia o la orden), social (reseñas radiofónicas, entrevistas, pódcast, noticias, debates, tertulias, cuñas publicitarias…) y educativo (la exposición oral y el debate). Se valorará si es capaz de adecuarse al grado de formalidad y a la audiencia, a los propósitos comunicativos, si dedica atención a los aspectos prosódicos (entonación, pausas, tono, timbre, volumen..) y si se ajusta al tiempo de exposición, evitando un uso discriminatorio del lenguaje y aplicando la cooperación conversacional, la cortesía lingüística (turno de palabra, escucha activa, uso de fórmulas de saludo y despedida…) y la asertividad para intercambiar opiniones. Por último, se perseguirá que el alumnado sea capaz de reflexionar sobre los usos de la lengua, de modo que en sus producciones orales y escritas preste atención a la corrección lingüística, incorpore un léxico adecuado y revise ortográfica y gramaticalmente sus creaciones (mediante diccionarios, manuales de consulta y correctores ortográficos), empleando mecanismos de cohesión, conectores textuales y usando adecuadamente las formas verbales. El objetivo último es que el alumnado entienda la lengua como una herramienta fundamental para su desarrollo integral y comprenda que su mejora contribuirá a facilitar el aprendizaje del resto de materias y saberes.",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS03",
       "agrupa": [
         "ce:SMBSC1"
       ],
@@ -136,6 +159,7 @@
         "CPSAA5"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -145,7 +169,7 @@
       "notation": "SMBS03BC2",
       "prefLabel": "Ámbito Lingüístico y Social · 3º ESO · bloque competencial C2",
       "scopeNote": "Con este bloque competencial se comprobará si el alumnado es capaz de elaborar trabajos o proyectos de investigación, de manera progresivamente autónoma, en diferentes formatos o soportes, individualmente o de forma cooperativa, en torno a aspectos importantes de la actualidad y, especialmente, sobre problemas lingüísticos, literarios, geográficos y sociales, incorporando a su entorno personal dispositivos y plataformas digitales, herramientas, aplicaciones y servicios en línea, y empleando la biblioteca escolar como centro de recursos y espacio creativo de aprendizaje. Se verificará que es capaz de localizar, seleccionar y contrastar la información procedente de diferentes fuentes con criterios de fiabilidad, calidad y pertinencia. En sus producciones orales y escritas se valorará que sea capaz de reorganizar y sintetizar la información procedente de fuentes diversas en esquemas propios, de manera respetuosa con la propiedad intelectual y utilizando de forma crítica la cultura digital para evitar los riesgos de desinformación y manipulación. La información se tratará y se comunicará a través de síntesis y productos explicativos (informes, trabajos escritos, dosieres informativos, murales, presentaciones, infografías, exposiciones orales, vídeos, pódcast…), adoptando un punto de vista creativo, crítico y personal para potenciar la construcción de su propia personalidad, en su dimensión social y ciudadana, y contribuir al desarrollo sostenible.",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS03",
       "agrupa": [
         "ce:SMBSC2"
       ],
@@ -162,6 +186,7 @@
         "CCEC4"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -171,7 +196,7 @@
       "notation": "SMBS03BC3",
       "prefLabel": "Ámbito Lingüístico y Social · 3º ESO · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se valorará el grado en que el alumnado organiza y gestiona su aprendizaje, tanto en el trabajo individual como en el grupal, comprobando, en el seguimiento de las pautas marcadas con diferentes niveles de ayuda, si describe con antelación lo que quiere conseguir, realiza un seguimiento del proceso de aprendizaje a través de diversas herramientas (diario de aprendizaje, planes de acción, agenda escolar, portfolio…) y propone alternativas en el caso de no obtener los resultados deseados. Se verificará que trabaja de manera cooperativa, negociando el reparto de tareas, aceptando diferentes roles y asumiendo compromisos de eficacia y eficiencia para desarrollar proyectos en los que se apliquen sus ideas y aprendizajes previos para resolver situaciones y retos, y aplicando, además, técnicas de valoración del trabajo propio y ajeno. Se tendrá en cuenta la aceptación de la incertidumbre como una oportunidad para articular respuestas más creativas, aprendiendo a manejar la ansiedad que pueda llevar aparejada, así como la predisposición para favorecer con su actitud un clima propicio para la comunicación, tanto oral como escrita. teniendo presentes las emociones propias y ajenas en el intercambio de ideas y opiniones, e integrando de manera constructiva los diferentes puntos de vista, todo ello con el fin de desarrollar las habilidades que le permitan seguir aprendiendo a lo largo de la vida, desde la confianza en el conocimiento como motor del desarrollo.",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS03",
       "agrupa": [
         "ce:SMBSC3"
       ],
@@ -189,6 +214,7 @@
         "CE3"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -198,7 +224,7 @@
       "notation": "SMBS03BC4",
       "prefLabel": "Ámbito Lingüístico y Social · 3º ESO · bloque competencial C4",
       "scopeNote": "A través de esta competencia se comprobará que el alumnado es capaz de seleccionar y leer de manera autónoma obras variadas, propias de la literatura universal, española y canaria, así como de la literatura juvenil, de acuerdo con sus gustos, intereses y necesidades. Asimismo, se favorecerá la utilización de bibliotecas escolares y públicas, y el contacto con situaciones comunicativas vinculadas a la lectura en el ámbito personal, educativo y social, empleando soportes, herramientas o plataformas virtuales diversas y mostrando prácticas culturales emergentes (videorreseñas, reseñas en revistas o radios escolares, jornadas de oralidad, videopoemas, audiolibros, plataformas de lectura y para escritura social, murales en forma de poesía, luchalibro…), asumiendo que «leer con otras personas» también es hablar sobre lo que se lee y compartir lo que se escribe. De este modo, el alumnado podrá ir progresivamente configurando su propio itinerario lector, estableciendo vínculos entre las obras leídas y la actualidad, y aprendiendo a expresar juicios respetando las opiniones y experiencias ajenas. Por último, se constatará que el alumnado utiliza lo aprendido en la creación de textos con intención literaria, entendiendo la escritura creativa como una forma de comunicación que permite compartir ideas, sentimientos y emociones.",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS03",
       "agrupa": [
         "ce:SMBSC4"
       ],
@@ -215,6 +241,7 @@
         "CCEC4"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -224,7 +251,7 @@
       "notation": "SMBS03BC5",
       "prefLabel": "Ámbito Lingüístico y Social · 3º ESO · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de conocer los principales desafíos a los que se han enfrentado las diferentes sociedades a lo largo del tiempo (emergencia climática y sostenibilidad, relación entre factores naturales y antrópicos en la Tierra, globalización, movimientos migratorios e interculturalidad, avances tecnológicos y conciencia ecosocial…), explicando sus causas y consecuencias. Se centrará en la realidad de Canarias, a través del uso de fuentes de información diversas. Asimismo, realizará propuestas que contribuyan al logro de los Objetivos de Desarrollo Sostenible, aplicando métodos y proyectos de investigación, preferentemente colaborativos, manejo de mapas y otras representaciones gráficas, así como de medios accesibles de interpretación de imágenes. Se constatará, por último, que el alumnado es capaz de leer, interpretar y valorar una selección de textos literarios, orales, escritos o multimodales, para observar cómo la humanidad ha representado estos desafíos, comparándolos con otras manifestaciones artísticas (música, pintura, cine, arquitectura, cómic, novela gráfica, media art…), y estableciendo vínculos con otros hitos de la historia, del desarrollo científico-tecnológico, la filosofía y la cultura, para fundamentar y potenciar un conocimiento global e interconectado de la literatura, del arte y de las ciencias sociales.",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS03",
       "agrupa": [
         "ce:SMBSC5"
       ],
@@ -238,6 +265,7 @@
         "CCEC2"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -247,7 +275,7 @@
       "notation": "SMBS03BC6",
       "prefLabel": "Ámbito Lingüístico y Social · 3º ESO · bloque competencial C6",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de analizar de forma crítica planteamientos geográficos que expliquen la construcción de los sistemas democráticos y los principios constitucionales que rigen la vida de la comunidad, y utiliza la lengua como herramienta para la comunicación positiva. Se constatará que valora la ley como contrato social para la resolución dialogada de los conflictos y la igualdad de derechos de todas las personas, utilizando un lenguaje no discriminatorio y desterrando los abusos de poder a través de la palabra. Se comprobará que reconoce la importancia de la Constitución española de 1978, reconoce los diferentes ordenamientos normativos así como el conocimiento del Estatuto de Autonomía de Canarias y la evolución de las instituciones de Canarias. Por último, se verificará que utiliza la lengua como herramienta para la comunicación positiva (mediante exposiciones, debates, lectura de conclusiones de trabajos colaborativos), asumiendo los derechos y deberes propios de nuestro marco de convivencia, para promover la participación ciudadana y la cohesión social.",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS03",
       "agrupa": [
         "ce:SMBSC6"
       ],
@@ -262,6 +290,7 @@
         "CPSAA3"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -271,7 +300,7 @@
       "notation": "SMBS03BC7",
       "prefLabel": "Ámbito Lingüístico y Social · 3º ESO · bloque competencial C7",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de comprender los procesos geográficos, históricos y culturales que han conformado la sociedad multicultural en la que vivimos (la cohesión social e integración, las medidas y acciones en favor de la igualdad y de la plena inclusión, el papel desempeñado por la mujer en la sociedad canaria a lo largo de la historia y los movimientos obreros, estudiantiles, ecologistas y LGTBI+). Se constatará que reconoce, a partir de la conveniente reflexión interlingüísitca e interdialectal, la diversidad de lenguas y dialectos del aula y del entorno, y la valora como fuente de riqueza cultural, entendiendo que ninguna variedad geográfica ha de considerarse más correcta que otra. Por último, se verificará que es capaz de emitir un juicio propio, argumentado, respetuoso y opuesto a cualquier tipo de discriminación lingüística, favoreciendo un uso no solo eficaz sino también ético, inclusivo y asertivo de la lengua, en el que el diálogo sea una herramienta para la construcción de una sociedad democrática e igualitaria.",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS03",
       "agrupa": [
         "ce:SMBSC7"
       ],
@@ -289,6 +318,7 @@
         "CC2"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -298,7 +328,7 @@
       "notation": "SMBS03BC8",
       "prefLabel": "Ámbito Lingüístico y Social · 3º ESO · bloque competencial C8",
       "scopeNote": "Con este bloque competencial, se comprobará que el alumnado es capaz de reconocer las bases sobre las que se erigen las diversas identidades propias y las ajenas, tomando como referencia la realidad local de las islas Canarias para proyectarse en España, Europa y el resto del mundo. Así, se constatará que el alumnado es capaz de identificar y conocer el patrimonio material e inmaterial común de nuestros pueblos, mediante tareas de investigación sobre la ciencia y la cultura del archipiélago que incluyan trabajos de campo en museos, archivos..., el uso de información digital y analógica, y la realización de informes, dosieres, infografías o cualquier otro recurso, para contribuir a su conservación. Por otro lado, se verificará que el alumnado es capaz de respetar los distintos sentimientos de pertenencia, y que puede adoptar compromisos basados en los principios de igualdad de género, la cohesión social, el desarrollo sostenible y el logro de la ciudadanía mundial, reconociendo los valores de Europa y el papel de la Declaración Universal de los Derechos Humanos. Además, se comprobará que el alumnado conoce los derechos que confiere la Constitución Española y el Estatuto de Autonomía de Canarias, para fundamentar el respeto hacia nuestro patrimonio cultural y lingüístico, y reforzar la importancia de la variedad dialectal canaria en la construcción de nuestra identidad. De este modo, se estudiará el español de Canarias en sus rasgos fónicos, gramaticales y léxicos, comparándola con las características propias de otros dialectos del español, para que el alumno comprenda no solo que su variedad es tan valiosa, correcta y adecuada como cualquier otra, sino que, además, debe emplearla en contextos informales y formales, para luchar contra los prejuicios socioculturales ligados a la diversidad geográfica de las lenguas.",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS03",
       "agrupa": [
         "ce:SMBSC8"
       ],
@@ -313,6 +343,7 @@
         "CC2"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -322,7 +353,7 @@
       "notation": "SMBS03BC9",
       "prefLabel": "Ámbito Lingüístico y Social · 3º ESO · bloque competencial C9",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de identificar y analizar los elementos del paisaje y su articulación en sistemas complejos naturales, rurales y urbanos, así como su evolución en el tiempo, teniendo en consideración la interpretación del territorio y del paisaje, el éxodo rural y la consecuente concentración urbana. Se verificará que conoce el reto demográfico en España, el problema de la despoblación rural, la ordenación del territorio y transformación del espacio, así como la huella humana y la protección del medio natural. Para ello, se centrará en la indagación sobre el paisaje agrario y el patrimonio rural en Canarias, la economía y sociedad, y las transformaciones del territorio hasta la actualidad. Se constatará que plantea y desarrolla proyectos, de forma creativa y en equipo (analizando imágenes por satélites, fotografías antiguas, gráficos y manejo de fuentes geográficas diversas), con el fin de analizar críticamente el grado de sostenibilidad y de equilibrio dinámico de los diferentes espacios, comprometiéndose a través de sus propuestas y de sus opiniones con el logro de un desarrollo sostenible, especialmente en las islas Canarias, y abogando por el acceso universal, justo y equitativo a los recursos naturales del planeta.",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS03",
       "agrupa": [
         "ce:SMBSC9"
       ],
@@ -336,6 +367,7 @@
         "CE1"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -345,7 +377,7 @@
       "notation": "SMBS03BC10",
       "prefLabel": "Ámbito Lingüístico y Social · 3º ESO · bloque competencial C10",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de tomar conciencia del papel de los ciclos demográficos, del ciclo vital, de las formas de vida y las relaciones intergeneracionales y de dependencia en la sociedad actual, y de su evolución a lo largo del tiempo (las estructuras económicas en el mundo actual, la transformación humana del territorio y la distribución desigual de los recursos y del trabajo la evolución de los sistemas económicos, los ciclos demográficos, la interpretación del territorio y del paisaje y el problema de la despoblación rural). Se verificará que se centra en el estudio de la demografía en Canarias. Para ello, tendrá que hacer un análisis de la variedad de ecosistemas insulares, mediante búsqueda de información en grupos colaborativos, a partir de la Red Canaria de Espacios Naturales Protegidos. Por último, se constatará, a través de diferentes propuestas y relaciones con el entorno, dentro y fuera del centro escolar, un reconocimiento por parte del alumnado hacia las iniciativas de la sociedad civil, con un enfoque especial a las del contexto canario, a través de la adopción de actitudes de participación y transformación en el ámbito local y comunitario, incluyendo una planificación activa de relaciones intergeneracionales.",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS03",
       "agrupa": [
         "ce:SMBSC10"
       ],
@@ -359,6 +391,7 @@
         "CPSAA5"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -368,7 +401,7 @@
       "notation": "SMBS04BC1",
       "prefLabel": "Ámbito Lingüístico y Social · 4º ESO · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de comprender e interpretar, individualmente o en grupo, textos escritos, orales o multimodales de los ámbitos personal (conversaciones, anuncios, cartas, mensajería electrónica, canciones...), social (noticias, artículos de opinión o entrevistas, en formato periodístico o radiofónicos, textos y cuñas publicitarias, tutoriales, debates…) y educativo (manuales escolares, mapas conceptuales, informes, presentaciones, charlas TED, coloquios…) e incluso signados (expresiones y vocabulario de uso cotidiano en lengua de signos y alfabeto dactilológico). Se constatará que hace uso de estrategias y técnicas de comprensión y descodificación, que distingue la información de la opinión o la persuasión, y que es capaz de valorar la forma y el contenido, atendiendo al sentido global, a la relación entre sus partes y a la información más relevante, haciendo conexiones entre el texto y su contexto, y diferenciando el lenguaje verbal del no verbal. Se verificará, además, si el alumnado es capaz de producir textos escritos y multimodales con coherencia, cohesión, fluidez y adecuación, desarrollando procesos metacognitivos: la planificación, la textualización, la revisión y la edición del texto final mediante herramientas o plataformas virtuales, de manera respetuosa con la propiedad intelectual y con actitud crítica. Asimismo, se confirmará si es capaz de conversar en diálogos pedagógicamente orientados, estructurar el discurso y adecuar el registro y el comportamiento no verbal en producciones orales y multimodales, monologadas o dialogadas, respetando las características de la variedad dialectal del hablante, sobre temas de interés personal (la conversación, la discrepancia o la orden), social (reseñas radiofónicas, entrevistas, pódcast, noticias, debates, tertulias, cuñas publicitarias…) y educativo (la exposición oral y el debate) y laboral (curriculum vitae, carta de motivación y entrevista de trabajo). Se valorará si es capaz de adecuarse al grado de formalidad y a la audiencia, a los propósitos comunicativos, si dedica atención a los aspectos prosódicos (entonación, pausas, tono, timbre, volumen...) y si se ajusta al tiempo de exposición, evitando un uso discriminatorio del lenguaje y aplicando la cooperación conversacional, la cortesía lingüística (turno de palabra, escucha activa, uso de fórmulas de saludo y despedida…) y la asertividad para intercambiar opiniones. Por último, se perseguirá que el alumnado sea capaz de reflexionar sobre la estructura de la lengua y sus usos, de modo que en sus producciones orales y escritas preste atención a la corrección lingüística, incorpore un léxico adecuado y revise ortográfica y gramaticalmente sus creaciones (mediante diccionarios, manuales de consulta y correctores ortográficos), empleando mecanismos de cohesión, conectores textuales y usando adecuadamente las formas verbales. El objetivo último es que el alumnado entienda la lengua como una herramienta fundamental para su desarrollo integral y comprenda que su mejora contribuirá a facilitar el aprendizaje del resto de materias y saberes.",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS04",
       "agrupa": [
         "ce:SMBSC1"
       ],
@@ -386,6 +419,7 @@
         "CPSAA5"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -395,7 +429,7 @@
       "notation": "SMBS04BC2",
       "prefLabel": "Ámbito Lingüístico y Social · 4º ESO · bloque competencial C2",
       "scopeNote": "Con este bloque competencial se comprobará si el alumnado es capaz de elaborar trabajos o proyectos de investigación, de manera progresivamente autónoma, en diferentes formatos o soportes, individualmente o de forma cooperativa, en torno a aspectos importantes de la actualidad y, especialmente, sobre problemas lingüísticos, literarios, geográficos y sociales, incorporando a su entorno personal dispositivos y plataformas digitales, herramientas, aplicaciones y servicios en línea, y empleando la biblioteca escolar como centro de recursos y espacio creativo de aprendizaje. Se verificará que es capaz de localizar, seleccionar y contrastar la información procedente de diferentes fuentes con criterios de fiabilidad, calidad y pertinencia. En sus producciones orales y escritas se valorará que sea capaz de reorganizar y sintetizar la información procedente de fuentes diversas en esquemas propios, de manera respetuosa con la propiedad intelectual y utilizando de forma crítica la cultura digital para evitar los riesgos de desinformación y manipulación. La información se tratará y se comunicará a través de síntesis y productos explicativos (informes, trabajos escritos, dosieres informativos, murales, presentaciones, infografías, exposiciones orales, vídeos, pódcast…), adoptando un punto de vista creativo, crítico y personal para potenciar la construcción de su propia personalidad, en su dimensión social y ciudadana, y contribuir al desarrollo sostenible.",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS04",
       "agrupa": [
         "ce:SMBSC2"
       ],
@@ -412,6 +446,7 @@
         "CCEC4"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -421,7 +456,7 @@
       "notation": "SMBS04BC3",
       "prefLabel": "Ámbito Lingüístico y Social · 4º ESO · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se valorará el grado en que el alumnado organiza y gestiona su aprendizaje, tanto en el trabajo individual como en el grupal, comprobando, en el seguimiento de las pautas marcadas con diferentes niveles de ayuda, que describe con antelación lo que quiere conseguir, realiza un seguimiento del proceso de aprendizaje a través de diversas herramientas (diario de aprendizaje, planes de acción, agenda escolar, portfolio…) y propone alternativas en el caso de no obtener los resultados deseados. Se verificará que trabaja de manera cooperativa negociando el reparto de tareas, aceptando diferentes roles y asumiendo compromisos de eficacia y eficiencia para desarrollar proyectos en los que se apliquen las ideas que tienen para resolver situaciones y retos de aprendizaje, y empleando, además, técnicas de valoración del trabajo propio y ajeno. Se tendrá en cuenta la aceptación de la incertidumbre como una oportunidad para articular respuestas más creativas, aprendiendo a manejar la ansiedad que pueda llevar aparejada, así como la predisposición para favorecer con su actitud un clima propicio para la comunicación, teniendo presentes las emociones propias y ajenas en el intercambio de ideas y opiniones, e integrando de manera constructiva los diferentes puntos de vista, todo ello con el fin de desarrollar las habilidades que le permitan seguir aprendiendo a lo largo de la vida, desde la confianza en el conocimiento como motor del desarrollo.",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS04",
       "agrupa": [
         "ce:SMBSC3"
       ],
@@ -439,6 +474,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -448,7 +484,7 @@
       "notation": "SMBS04BC4",
       "prefLabel": "Ámbito Lingüístico y Social · 4º ESO · bloque competencial C4",
       "scopeNote": "A través de esta competencia se comprobará que el alumnado es capaz de seleccionar y leer de manera autónoma obras variadas, propias de la literatura universal, española y canaria, así como de la literatura juvenil, de acuerdo con sus gustos, intereses y necesidades. Asimismo, se favorecerá la utilización de bibliotecas escolares y públicas, y el contacto con situaciones comunicativas vinculadas a la lectura en el ámbito personal, educativo y social, empleando soportes, herramientas o plataformas virtuales diversas, y mostrando prácticas culturales emergentes (videorreseñas, reseñas en revistas o radios escolares, jornadas de oralidad, videopoemas, audiolibros, plataformas de lectura y para escritura social, murales en forma de poesía, luchalibro…), asumiendo que «leer con otras personas» también es hablar sobre lo que se lee y compartir lo que se escribe. De este modo, el alumnado podrá ir progresivamente configurando su propio itinerario lector, estableciendo vínculos entre las obras leídas y la actualidad, y aprendiendo a expresar juicios respetando las opiniones y experiencias ajenas. Por último, se constatará que el alumnado utiliza lo aprendido en la creación de textos con intención literaria, entendiendo la escritura creativa como una forma de comunicación que permite compartir ideas, sentimientos y emociones.",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS04",
       "agrupa": [
         "ce:SMBSC4"
       ],
@@ -465,6 +501,7 @@
         "CCEC4"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -474,7 +511,7 @@
       "notation": "SMBS04BC5",
       "prefLabel": "Ámbito Lingüístico y Social · 4º ESO · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de conocer los principales desafíos a los que se han enfrentado las diferentes sociedades a lo largo del tiempo (la globalización, movimientos migratorios e interculturalidad, los avances tecnológicos y la conciencia ecosocial, los conflictos ideológicos y étnico-culturales, la diversidad social, étnico-cultural y de género, el proceso industrializador en España y Canarias, el imperialismo y colonialismo, análisis del Holocausto y el papel de los organismos internacionales). Se verificará que el alumnado es capaz de analizar los cambios producidos, sus causas y consecuencias, teniendo como referencia las realidades de Canarias, mediante el contraste de fuentes diversas históricas y literarias, tanto de forma individual como en grupos colaborativos. Por último, se constatará que es capaz de analizar procesos de cambio histórico y comparar casos de la historia a través del uso de fuentes de información diversas (textos, gráficas, mapas, estadísticas…), teniendo en cuenta las transformaciones de corta y larga duración, coyunturales y estructurales, las continuidades y permanencias en diferentes períodos y lugares, con especial atención a Canarias.",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS04",
       "agrupa": [
         "ce:SMBSC5"
       ],
@@ -491,6 +528,7 @@
         "CPSAA4"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -500,7 +538,7 @@
       "notation": "SMBS04BC6",
       "prefLabel": "Ámbito Lingüístico y Social · 4º ESO · bloque competencial C6",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de analizar de forma crítica planteamientos históricos que expliquen la construcción de los sistemas democráticos y los principios constitucionales que rigen la vida de la comunidad tales como: la transformación política de los seres humanos, revoluciones y resistencias. La conquista de los derechos individuales y colectivos en la época contemporánea, el origen, la evolución y la adaptación de los sistemas liberales en España y en el mundo, la construcción de la democracia y los orígenes del totalitarismo, la acción de los movimientos sociales en el mundo contemporáneo, la memoria democrática, la igualdad real entre mujeres y hombres y la reflexión crítica de la Declaración Universal de los Derechos Humanos. Se constatará que es capaz de valorar y ejercitar responsabilidades, derechos y deberes en pro de la resolución dialogada de los conflictos y la igualdad de derechos de todas las personas, utilizando un lenguaje no discriminatorio y desterrando los abusos de poder a través de la palabra. También se examinará que es capaz de poner en práctica actuaciones en favor de su desarrollo y afirmación a través del conocimiento de nuestro ordenamiento jurídico y constitucional y el conocimiento de la memoria democrática. Por último, se verificará que es capaz de reconocer movimientos y causas que generen una conciencia solidaria, y de analizar y reconocer los compromisos internacionales de nuestro país en favor de la paz, la seguridad, la cooperación, la sostenibilidad, los valores democráticos y los Objetivos de Desarrollo Sostenible, y su concreción en la Agenda Agenda Canaria de Desarrollo Sostenible (ACDS) 2030, para contribuir a la consecución de un mundo más seguro, justo, solidario y sostenible, teniendo en cuenta la singularidad de Canarias en el ámbito europeo.",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS04",
       "agrupa": [
         "ce:SMBSC6"
       ],
@@ -516,6 +554,7 @@
         "CPSAA3"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -525,7 +564,7 @@
       "notation": "SMBS04BC7",
       "prefLabel": "Ámbito Lingüístico y Social · 4º ESO · bloque competencial C7",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de comprender los procesos geográficos, históricos y culturales que han conformado la sociedad multicultural en la que vivimos (la identificación de los genocidios y crímenes contra la humanidad. la indagación sobre las guerras, el terrorismo y otras formas de violencia política, la valoración de las alianzas e instituciones internacionales, la mediación y las misiones de paz, la acción de los movimientos feministas y sufragistas en la lucha por la igualdad de género, la historia de las mujeres en la sociedad canaria, los movimientos obreros, estudiantiles, ecologistas y LGTBI+, la reflexión sobre la mediación y gestión pacífica de conflictos y el apoyo a las víctimas de la violencia y del terrorismo). Se constatará que el alumnado es capaz de reconocer la riqueza de la diversidad y desterrar prejuicios, a partir del estudio de la aportación de los movimientos en defensa de los derechos de las minorías y en favor de la inclusividad y la igualdad real, especialmente de las mujeres, así como estereotipos y usos discriminatorios de la lengua con la oportuna reflexión interlingüística e interdialectal, para desarrollar un juicio propio, argumentado, respetuoso y opuesto a cualquier tipo de segregación, a partir de trabajos individuales y grupales. Por último, se verificará que es capaz de hacer un uso no solo eficaz sino también ético de la lengua (realizando trabajos de síntesis, conclusiones, debates, exposiciones orales...), en el que el diálogo sea una herramienta para la construcción de una sociedad democrática e igualitaria.",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS04",
       "agrupa": [
         "ce:SMBSC7"
       ],
@@ -543,6 +582,7 @@
         "CC2"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -552,7 +592,7 @@
       "notation": "SMBS04BC8",
       "prefLabel": "Ámbito Lingüístico y Social · 4º ESO · bloque competencial C8",
       "scopeNote": "Con este bloque competencial, se comprobará que el alumnado es capaz de reconocer y explicar las bases sobre las que se erigen las diversas identidades propias y las ajenas, tomando como referencia la realidad local de las islas Canarias para proyectarse en España, Europa y el resto del mundo. Así, se constatará que el alumnado es capaz de identificar, conocer y valorar el patrimonio material e inmaterial común de nuestros pueblos, mediante tareas de investigación sobre la ciencia y la cultura de las islas que incluyan trabajos de campo en museos, archivos..., el uso de información digital y analógica, y la realización de informes, dosieres, infografías o cualquier otro recurso, para contribuir a su conservación. Por otro lado, se verificará que el alumnado es capaz de respetar los distintos sentimientos de pertenencia, y que puede adoptar compromisos basados en los principios de igualdad de género, la cohesión social, el desarrollo sostenible y el logro de la ciudadanía mundial, reconociendo los valores de Europa y el papel de la Declaración Universal de los Derechos Humanos. Por otra parte, se comprobará que el alumnado conoce los derechos que confiere la Constitución Española y el Estatuto de Autonomía de Canarias, para fundamentar el respeto hacia nuestro patrimonio cultural y lingüístico, y reforzar la importancia de la variedad dialectal canaria en la construcción de nuestra identidad. De este modo, se estudiará el español de Canarias, en sus rasgos fónicos, gramaticales y léxicos, comparándola con las características propias de otros dialectos del español, para que el alumno comprenda no solo que su variedad es tan valiosa, correcta y adecuada como cualquier otra, sino que, además, debe emplearla en contextos informales y formales, para luchar contra los prejuicios socioculturales a los que las variedades menos prestigiosas se ven sometidas.",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS04",
       "agrupa": [
         "ce:SMBSC8"
       ],
@@ -567,6 +607,7 @@
         "CC2"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -586,6 +627,7 @@
         "CC3"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -606,6 +648,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -625,6 +668,7 @@
         "CC3"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -644,6 +688,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -661,6 +706,7 @@
         "CPSAA5"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -681,6 +727,7 @@
         "CC1"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -704,6 +751,7 @@
         "CCEC4"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -724,6 +772,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -744,6 +793,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -764,6 +814,7 @@
         "CCEC2"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -783,6 +834,7 @@
         "CCEC4"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -801,6 +853,7 @@
         "CC4"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -820,6 +873,7 @@
         "CCEC2"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -838,6 +892,7 @@
         "CCEC1"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -860,6 +915,7 @@
         "CCEC1"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -882,6 +938,7 @@
         "CCEC1"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -905,6 +962,7 @@
         "CCEC1"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -923,6 +981,7 @@
         "CCEC1"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -943,6 +1002,7 @@
         "CC2"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -960,6 +1020,7 @@
         "CC1"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -979,6 +1040,7 @@
         "CE1"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -996,6 +1058,7 @@
         "CC4"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1014,6 +1077,7 @@
         "CC3"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1033,6 +1097,7 @@
         "CC3"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1050,6 +1115,7 @@
         "CC2"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1069,6 +1135,7 @@
         "CC3"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1089,6 +1156,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1108,6 +1176,7 @@
         "CC3"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1127,6 +1196,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1144,6 +1214,7 @@
         "CPSAA5"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1164,6 +1235,7 @@
         "CC1"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1187,6 +1259,7 @@
         "CCEC4"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1206,6 +1279,7 @@
         "CE2"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1226,6 +1300,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1246,6 +1321,7 @@
         "CCEC2"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1265,6 +1341,7 @@
         "CCEC4"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1283,6 +1360,7 @@
         "CC4"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1302,6 +1380,7 @@
         "CCEC2"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1320,6 +1399,7 @@
         "CPSAA4"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1338,6 +1418,7 @@
         "CCEC1"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1355,6 +1436,7 @@
         "CC3"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1377,6 +1459,7 @@
         "CCEC1"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1396,6 +1479,7 @@
         "CC3"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1418,6 +1502,7 @@
         "CCEC1"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1442,6 +1527,7 @@
         "CCEC1"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1460,6 +1546,7 @@
         "CCEC1"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1480,6 +1567,7 @@
         "CC2"
       ],
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1490,8 +1578,9 @@
       "prefLabel": "SMBS03SBI · I. Comunicación y reflexión sobre la lengua",
       "definition": "Comunicación y reflexión sobre la lengua",
       "scopeNote": "Estrategias de producción, comprensión y análisis crítico de textos orales, escritos y multimodales de diferentes ámbitos, con atención conjunta a los siguientes aspectos:",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS03",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1501,8 +1590,9 @@
       "notation": "SMBS03SBII",
       "prefLabel": "SMBS03SBII · II. Procesos de aprendizaje y ciudadanía ética digital",
       "definition": "Procesos de aprendizaje y ciudadanía ética digital",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS03",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1512,8 +1602,9 @@
       "notation": "SMBS03SBIII",
       "prefLabel": "SMBS03SBIII · III. Gestión del aprendizaje y las emociones",
       "definition": "Gestión del aprendizaje y las emociones",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS03",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1523,8 +1614,9 @@
       "notation": "SMBS03SBIV",
       "prefLabel": "SMBS03SBIV · IV. Educación literaria",
       "definition": "Educación literaria",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS03",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1534,8 +1626,9 @@
       "notation": "SMBS03SBV",
       "prefLabel": "SMBS03SBV · V. Desafíos de la humanidad a lo largo de la historia",
       "definition": "Desafíos de la humanidad a lo largo de la historia",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS03",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1545,8 +1638,9 @@
       "notation": "SMBS03SBVI",
       "prefLabel": "SMBS03SBVI · VI. Patrimonio material e inmaterial",
       "definition": "Patrimonio material e inmaterial",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS03",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1556,8 +1650,9 @@
       "notation": "SMBS03SBVII",
       "prefLabel": "SMBS03SBVII · VII. Sociedades y territorios",
       "definition": "Sociedades y territorios",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS03",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1568,8 +1663,9 @@
       "prefLabel": "SMBS04SBI · I. Comunicación y reflexión sobre la lengua",
       "definition": "Comunicación y reflexión sobre la lengua",
       "scopeNote": "Estrategias de producción, comprensión y análisis crítico de textos orales, escritos y multimodales de diferentes ámbitos, con atención conjunta a los siguientes aspectos:",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS04",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1579,8 +1675,9 @@
       "notation": "SMBS04SBII",
       "prefLabel": "SMBS04SBII · II. Procesos de aprendizaje y ciudadanía ética digital",
       "definition": "Procesos de aprendizaje y ciudadanía ética digital",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS04",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1590,8 +1687,9 @@
       "notation": "SMBS04SBIII",
       "prefLabel": "SMBS04SBIII · III. Gestión del aprendizaje y las emociones",
       "definition": "Gestión del aprendizaje y las emociones",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS04",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1601,8 +1699,9 @@
       "notation": "SMBS04SBIV",
       "prefLabel": "SMBS04SBIV · IV. Educación literaria",
       "definition": "Educación literaria",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS04",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1612,8 +1711,9 @@
       "notation": "SMBS04SBV",
       "prefLabel": "SMBS04SBV · V. Desafíos de la humanidad a lo largo de la historia.",
       "definition": "Desafíos de la humanidad a lo largo de la historia.",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS04",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1623,8 +1723,9 @@
       "notation": "SMBS04SBVI",
       "prefLabel": "SMBS04SBVI · VI. Patrimonio material e inmaterial",
       "definition": "Patrimonio material e inmaterial",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS04",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1634,8 +1735,9 @@
       "notation": "SMBS04SBVII",
       "prefLabel": "SMBS04SBVII · VII. Sociedades y territorios",
       "definition": "Sociedades y territorios",
-      "broader": "materia:SMBS",
+      "broader": "asig:SMBS04",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1647,6 +1749,7 @@
       "definition": "Contexto:",
       "broader": "sb:SMBS03SBI",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1658,6 +1761,7 @@
       "definition": "Reconocimiento de los componentes del hecho comunicativo: grado de formalidad de la situación y carácter público o privado; distancia social entre las personas interlocutoras; propósitos comunicativos e interpretación de intenciones; canal de comunicación, imagen, elementos paratextuales y no verbales de la comunicación.",
       "broader": "sb:SMBS03SBI.1",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1669,6 +1773,7 @@
       "definition": "Géneros discursivos:",
       "broader": "sb:SMBS03SBI",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1680,6 +1785,7 @@
       "definition": "Análisis y producción de secuencias textuales básicas, conociendo y aplicando las propiedades textuales: coherencia, cohesión, fluidez y adecuación.",
       "broader": "sb:SMBS03SBI.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1691,6 +1797,7 @@
       "definition": "Análisis de la imagen de los textos icónico-verbales y multimodales.",
       "broader": "sb:SMBS03SBI.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1702,6 +1809,7 @@
       "definition": "Procesos:",
       "broader": "sb:SMBS03SBI",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1713,6 +1821,7 @@
       "definition": "Interacción oral, escrita y multimodal de carácter informal y formal. Uso y valoración de la cooperación conversacional y cortesía lingüística. Aplicación y reconocimiento de la escucha activa, asertividad y resolución dialogada de los conflictos.",
       "broader": "sb:SMBS03SBI.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1724,6 +1833,7 @@
       "definition": "Comprensión oral: interpretación y explicación del sentido global del texto, relación entre sus partes; selección, retención y análisis de la información relevante. Reconocimiento de la intención del emisor. Detección, reflexión y rechazo de usos discriminatorios del lenguaje verbal y no verbal. Valoración de la forma y el contenido del texto.",
       "broader": "sb:SMBS03SBI.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1735,6 +1845,7 @@
       "definition": "Aproximación a la lengua de signos a través del reconocimiento de expresiones y vocabulario de uso cotidiano y del alfabeto dactilológico.",
       "broader": "sb:SMBS03SBI.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1746,6 +1857,7 @@
       "definition": "Producción oral formal: planificación y búsqueda de información, textualización, revisión y reorganización en esquemas propios. Adecuación a la audiencia y al tiempo de exposición.",
       "broader": "sb:SMBS03SBI.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1757,6 +1869,7 @@
       "definition": "Comprensión lectora: interpretación y explicación del sentido global del texto, y de la estructura y relación entre sus partes, incluyendo el léxico relativo al ámbito geográfico. Análisis de la intención del emisor. Detección, rechazo y reflexión de usos discriminatorios del lenguaje verbal e icónico. Valoración de la forma y del contenido del texto.",
       "broader": "sb:SMBS03SBI.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1768,6 +1881,7 @@
       "definition": "Producción escrita: planificación, textualización, revisión y edición en diferentes soportes. Usos de la escritura para la organización del pensamiento: toma de notas, esquemas, mapas conceptuales, definiciones, resúmenes...",
       "broader": "sb:SMBS03SBI.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1779,6 +1893,7 @@
       "definition": "Reconocimiento y uso discursivo de los elementos lingüísticos:",
       "broader": "sb:SMBS03SBI",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1790,6 +1905,7 @@
       "definition": "Reconocimiento de las diferencias relevantes e intersecciones entre lengua oral y lengua escrita.",
       "broader": "sb:SMBS03SBI.4",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1801,6 +1917,7 @@
       "definition": "Análisis de la corrección lingüística y aplicación de la revisión ortográfica y gramatical de los textos. Manejo de diccionarios, manuales de consulta y de correctores ortográficos en soporte analógico o digital para la corrección y la mejora textual.",
       "broader": "sb:SMBS03SBI.4",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1812,6 +1929,7 @@
       "definition": "Análisis y aplicación de los signos de puntuación como mecanismo organizador del texto escrito. Identificación y análisis de su relación con el significado.",
       "broader": "sb:SMBS03SBI.4",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1823,6 +1941,7 @@
       "definition": "Alfabetización mediática e informacional: búsqueda y selección de la información con criterios de fiabilidad, calidad y pertinencia; análisis, valoración, reorganización y síntesis de la información en esquemas propios y transformación en conocimiento; comunicación y difusión de manera creativa y respetuosa con la propiedad intelectual. Utilización autónoma de dispositivos digitales, herramientas tecnológicas y plataformas virtuales para la realización de proyectos escolares.",
       "broader": "sb:SMBS03SBII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1834,6 +1953,7 @@
       "definition": "Valoración de los nuevos comportamientos en la sociedad de la información y de la implicación ética de los medios de comunicación y las redes sociales, y del problema de la desinformación.",
       "broader": "sb:SMBS03SBII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1845,6 +1965,7 @@
       "definition": "Utilización de técnicas y métodos de las Ciencias Sociales: análisis de textos, interpretación y elaboración de mapas, esquemas y síntesis, representación de gráficos e interpretación de imágenes a través de medios digitales accesibles.",
       "broader": "sb:SMBS03SBII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1856,6 +1977,7 @@
       "definition": "Utilización de Tecnologías de la información geográfica.",
       "broader": "sb:SMBS03SBII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1867,6 +1989,7 @@
       "definition": "Análisis e interpretación de conceptos espaciales: localización, escala, conexión y proximidad espacial.",
       "broader": "sb:SMBS03SBII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1878,6 +2001,7 @@
       "definition": "Experimentación y reflexión sobre los procesos de aprendizaje y su relación con los estilos personales de aprendizaje propios y ajenos.",
       "broader": "sb:SMBS03SBIII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1889,6 +2013,7 @@
       "definition": "Desarrollo de la motivación intrínseca y de los hábitos necesarios para desarrollar atención, constancia y esfuerzo en la resolución de las tareas.",
       "broader": "sb:SMBS03SBIII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1900,6 +2025,7 @@
       "definition": "Aplicación de técnicas y herramientas de evaluación para valorar el desarrollo de las tareas propias y ajenas.",
       "broader": "sb:SMBS03SBIII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1911,6 +2037,7 @@
       "definition": "Aplicación de técnicas de gestión cooperativa para la ideación y el desarrollo de proyectos colectivos en ambientes de incertidumbre: negociación de roles y asunción de responsabilidades.",
       "broader": "sb:SMBS03SBIII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1922,6 +2049,7 @@
       "definition": "Gestión emocional ante el resultado del aprendizaje y reflexión sobre las fortalezas y mejoras del proceso de aprendizaje.",
       "broader": "sb:SMBS03SBIII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1933,6 +2061,7 @@
       "definition": "Lectura autónoma. Implicación en la lectura de obras de forma progresivamente autónoma a partir de una preselección de textos variados, y reflexión sobre los textos leídos y sobre la práctica de lectura, atendiendo a los siguientes saberes:",
       "broader": "sb:SMBS03SBIV",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1944,6 +2073,7 @@
       "definition": "Integración progresiva de estrategias y criterios para la selección de obras variadas de manera orientada, a partir de la utilización autónoma de la biblioteca escolar y pública disponible.",
       "broader": "sb:SMBS03SBIV.1",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1955,6 +2085,7 @@
       "definition": "Consolidación y verbalización de los propios gustos e identidad lectora.",
       "broader": "sb:SMBS03SBIV.1",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1966,6 +2097,7 @@
       "definition": "Lectura guiada. Lectura de obras y fragmentos relevantes de la literatura juvenil contemporánea y del patrimonio literario universal, con la adecuada atención a la literatura canaria, inscritas en itinerarios temáticos o de género que atraviesan épocas, contextos culturales y movimientos artísticos, atendiendo a los siguientes saberes:",
       "broader": "sb:SMBS03SBIV",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1977,6 +2109,7 @@
       "definition": "Aplicación de estrategias de utilización de información sociohistórica, cultural y artística básica para construir la interpretación de las obras literarias.",
       "broader": "sb:SMBS03SBIV.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1988,6 +2121,7 @@
       "definition": "Relación y comparación de los textos leídos con otros textos, orales, escritos o multimodales, con otras manifestaciones artísticas y culturales, y con las nuevas formas de ficción en función de temas, tópicos, estructuras y lenguajes. Identificación de los elementos de continuidad y ruptura.",
       "broader": "sb:SMBS03SBIV.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1999,6 +2133,7 @@
       "definition": "Creación de textos con intención literaria y sentido estético, la dramatización y la recitación de los textos a partir de la apropiación progresiva de las convenciones del lenguaje literario en referencia a modelos dados (imitación, transformación, continuación...).",
       "broader": "sb:SMBS03SBIV.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2010,6 +2145,7 @@
       "definition": "Desarrollo sostenible global y local:",
       "broader": "sb:SMBS03SBV",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2021,6 +2157,7 @@
       "definition": "Reflexión y valoración de la globalización, de los movimientos migratorios y de la interculturalidad. Los avances tecnológicos y la conciencia ecosocial.",
       "broader": "sb:SMBS03SBV.1",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2032,6 +2169,7 @@
       "definition": "Reflexión sobre la diversidad social, étnico-cultural y de género. Migraciones, multiculturalidad y mestizaje en sociedades abiertas. Nuevas formas de identificación cultural.",
       "broader": "sb:SMBS03SBV.1",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2043,6 +2181,7 @@
       "definition": "Estudio de los desafíos pasados, actuales y futuros de la actual sociedad canaria. De la fragmentación insular al mundo globalizado.",
       "broader": "sb:SMBS03SBV.1",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2054,6 +2193,7 @@
       "definition": "El compromiso y la acción ante los Objetivos del Desarrollo Sostenible en Canarias y su concreción en la Agenda Canaria de Desarrollo Sostenible (ACDS) 2030: la juventud como agente de cambio para el desarrollo sostenible.",
       "broader": "sb:SMBS03SBV.1",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2065,6 +2205,7 @@
       "definition": "El proceso de construcción europea:",
       "broader": "sb:SMBS03SBV",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2076,6 +2217,7 @@
       "definition": "Reflexión sobre el proceso de integración económica, monetaria y ciudadana.",
       "broader": "sb:SMBS03SBV.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2087,6 +2229,7 @@
       "definition": "Tratamiento diferenciado de Canarias como región ultraperiférica.",
       "broader": "sb:SMBS03SBV.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2098,6 +2241,7 @@
       "definition": "Identificación de las fórmulas de participación en programas educativos europeos.",
       "broader": "sb:SMBS03SBV.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2109,6 +2253,7 @@
       "definition": "La democracia:",
       "broader": "sb:SMBS03SBV",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2120,6 +2265,7 @@
       "definition": "Valoración de la ley como contrato social.",
       "broader": "sb:SMBS03SBV.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2131,6 +2277,7 @@
       "definition": "Conocimiento del Estatuto de Autonomía de Canarias.",
       "broader": "sb:SMBS03SBV.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2142,6 +2289,7 @@
       "definition": "Compromiso cívico y participación ciudadana:",
       "broader": "sb:SMBS03SBV",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2153,6 +2301,7 @@
       "definition": "Reflexión sobre la conquista de derechos en las sociedades democráticas contemporáneas.",
       "broader": "sb:SMBS03SBV.4",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2164,6 +2313,7 @@
       "definition": "Valoración de la mediación y gestión pacífica de conflictos, y apoyo a las víctimas de violencia y terrorismo.",
       "broader": "sb:SMBS03SBV.4",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2175,6 +2325,7 @@
       "definition": "Medidas y acciones en favor de la igualdad entre hombres y mujeres, y de la plena inclusión.",
       "broader": "sb:SMBS03SBV.4",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2186,6 +2337,7 @@
       "definition": "La mujer en la sociedad canaria a lo largo de la historia. Movimientos obreros, estudiantiles, ecologistas y LGTBI+.",
       "broader": "sb:SMBS03SBV.4",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2197,6 +2349,7 @@
       "definition": "Identificación de situaciones de discriminación por motivo de diversidad sexual y de género en los ámbitos escolar, social y laboral.",
       "broader": "sb:SMBS03SBV.4",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2208,6 +2361,7 @@
       "definition": "Valoración del patrimonio como bien y como recurso. Puesta en valor, difusión y gestión de la riqueza patrimonial.",
       "broader": "sb:SMBS03SBVI",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2219,6 +2373,7 @@
       "definition": "Conocimiento y valoración del patrimonio canario.",
       "broader": "sb:SMBS03SBVI",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2230,6 +2385,7 @@
       "definition": "Conocimiento y valoración de la diversidad lingüística como riqueza patrimonial:",
       "broader": "sb:SMBS03SBVI",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2241,6 +2397,7 @@
       "definition": "Análisis de la biografía lingüística propia y de la diversidad lingüística del centro escolar.",
       "broader": "sb:SMBS03SBVI.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2252,6 +2409,7 @@
       "definition": "Análisis del desarrollo sociohistórico de las lenguas de España.",
       "broader": "sb:SMBS03SBVI.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2263,6 +2421,7 @@
       "definition": "Explicación de rasgos de las principales variedades dialectales del español a partir de las del español de Canarias.",
       "broader": "sb:SMBS03SBVI.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2274,6 +2433,7 @@
       "definition": "Reconocimiento y explicación de las diferencias entre los rasgos propios de las variedades dialectales (fónicos, gramaticales y léxicos) y los relativos a los sociolectos y los registros.",
       "broader": "sb:SMBS03SBVI.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2285,6 +2445,7 @@
       "definition": "Interpretación del territorio y del paisaje:",
       "broader": "sb:SMBS03SBVII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2296,6 +2457,7 @@
       "definition": "Reflexión crítica del éxodo rural a la concentración urbana y el problema de la despoblación rural.",
       "broader": "sb:SMBS03SBVII.1",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2307,6 +2469,7 @@
       "definition": "Conocimiento de la ordenación del territorio y transformación del espacio.",
       "broader": "sb:SMBS03SBVII.1",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2318,6 +2481,7 @@
       "definition": "Reconocimiento de la huella humana y valoración de la necesidad de protección del medio natural. Conocimiento de la Red Canaria de Espacios Naturales Protegidos.",
       "broader": "sb:SMBS03SBVII.1",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2329,6 +2493,7 @@
       "definition": "Indagación sobre el paisaje agrario y el patrimonio rural en Canarias, sobre la economía y sociedad, y sobre las transformaciones del territorio hasta la actualidad.",
       "broader": "sb:SMBS03SBVII.1",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2340,6 +2505,7 @@
       "definition": "Implicación en la defensa y protección del medioambiente:",
       "broader": "sb:SMBS03SBVII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2351,6 +2517,7 @@
       "definition": "Acción y posición ante la emergencia climática.",
       "broader": "sb:SMBS03SBVII.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2362,6 +2529,7 @@
       "definition": "Identificación de estilos de vida para favorecer el modelo de isla sostenible en Canarias.",
       "broader": "sb:SMBS03SBVII.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2373,6 +2541,7 @@
       "definition": "Análisis del impacto paisajístico, social, económico y cultural del turismo en Canarias. Desarrollo, crisis y alternativas.",
       "broader": "sb:SMBS03SBVII.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2384,6 +2553,7 @@
       "definition": "La transformación humana del territorio y la distribución desigual de los recursos y del trabajo:",
       "broader": "sb:SMBS03SBVII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2395,6 +2565,7 @@
       "definition": "Evolución de los sistemas económicos y de los ciclos demográficos.",
       "broader": "sb:SMBS03SBVII.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2406,6 +2577,7 @@
       "definition": "Contexto:",
       "broader": "sb:SMBS04SBI",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2417,6 +2589,7 @@
       "definition": "Reconocimiento de los componentes del hecho comunicativo: grado de formalidad de la situación y carácter público o privado; distancia social entre las personas interlocutoras; propósitos comunicativos e interpretación de intenciones; canal de comunicación, imagen, elementos paratextuales y no verbales de la comunicación.",
       "broader": "sb:SMBS04SBI.1",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2428,6 +2601,7 @@
       "definition": "Géneros discursivos:",
       "broader": "sb:SMBS04SBI",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2439,6 +2613,7 @@
       "definition": "Análisis y producción de secuencias textuales básicas, conociendo y aplicando las propiedades textuales: coherencia, cohesión, fluidez y adecuación.",
       "broader": "sb:SMBS04SBI.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2450,6 +2625,7 @@
       "definition": "Análisis y producción de géneros discursivos propios del ámbito personal: la conversación, el mensaje escrito, la carta o el correo electrónico, con especial atención a los actos de habla que amenazan la imagen de la persona interlocutora (la discrepancia y la orden); del ámbito educativo: la exposición oral y escrita, y el debate; del ámbito social: redes sociales y medios de comunicación; y del ámbito laboral: el curriculum vitae, la carta de motivación y la entrevista de trabajo.",
       "broader": "sb:SMBS04SBI.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2461,6 +2637,7 @@
       "definition": "Análisis de la imagen de los textos icónico-verbales y multimodales.",
       "broader": "sb:SMBS04SBI.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2472,6 +2649,7 @@
       "definition": "Procesos:",
       "broader": "sb:SMBS04SBI",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2483,6 +2661,7 @@
       "definition": "Interacción oral, escrita y multimodal de carácter informal y formal. Uso y valoración de la cooperación conversacional y cortesía lingüística. Aplicación y reconocimiento de la escucha activa, asertividad y resolución dialogada de los conflictos.",
       "broader": "sb:SMBS04SBI.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2494,6 +2673,7 @@
       "definition": "Comprensión oral: interpretación y explicación del sentido global del texto, relación entre sus partes; selección, retención y análisis de la información relevante. Reconocimiento de la intención del emisor. Detección, reflexión y rechazo de usos discriminatorios del lenguaje verbal y no verbal. Valoración de la forma y el contenido del texto.",
       "broader": "sb:SMBS04SBI.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2505,6 +2685,7 @@
       "definition": "Aproximación a la lengua de signos a través del reconocimiento de expresiones y vocabulario de uso cotidiano y del alfabeto dactilológico.",
       "broader": "sb:SMBS04SBI.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2516,6 +2697,7 @@
       "definition": "Producción oral formal: planificación y búsqueda de información, textualización, revisión y reorganización en esquemas propios. Adecuación a la audiencia y al tiempo de exposición. Selección progresivamente autónoma de los elementos no verbales, de los paratextuales de los textos icónico-verbales, y de los rasgos discursivos y lingüísticos de la oralidad formal.",
       "broader": "sb:SMBS04SBI.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2527,6 +2709,7 @@
       "definition": "Comprensión lectora: interpretación y explicación del sentido global del texto, y de la estructura y relación entre sus partes, incluyendo el uso específico del léxico relativo a los ámbitos histórico y artístico. Análisis de la intención del emisor. Detección, rechazo y reflexión de usos discriminatorios del lenguaje verbal e icónico. Valoración de la forma y del contenido del texto.",
       "broader": "sb:SMBS04SBI.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2538,6 +2721,7 @@
       "definition": "Producción escrita: planificación, textualización, revisión y edición en diferentes soportes. Usos de la escritura para la organización del pensamiento: toma de notas, esquemas, mapas conceptuales, definiciones, resúmenes...",
       "broader": "sb:SMBS04SBI.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2549,6 +2733,7 @@
       "definition": "Reconocimiento y uso discursivo de los elementos lingüísticos:",
       "broader": "sb:SMBS04SBI",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2560,6 +2745,7 @@
       "definition": "Reconocimiento de las diferencias relevantes e intersecciones entre lengua oral y lengua escrita.",
       "broader": "sb:SMBS04SBI.4",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2571,6 +2757,7 @@
       "definition": "Análisis de la corrección lingüística y aplicación de la revisión ortográfica y gramatical de los textos. Manejo de diccionarios, manuales de consulta y de correctores ortográficos en soporte analógico o digital para la corrección y la mejora textual.",
       "broader": "sb:SMBS04SBI.4",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2582,6 +2769,7 @@
       "definition": "Análisis y aplicación de los signos de puntuación como mecanismo organizador del texto escrito. Identificación y análisis de su relación con el significado.",
       "broader": "sb:SMBS04SBI.4",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2593,6 +2781,7 @@
       "definition": "Alfabetización mediática e informacional: búsqueda y selección de la información con criterios de fiabilidad, calidad y pertinencia; análisis, valoración, reorganización y síntesis de la información en esquemas propios y transformación en conocimiento; comunicación y difusión de manera creativa y respetuosa con la propiedad intelectual. Utilización autónoma de dispositivos digitales, herramientas tecnológicas y plataformas virtuales para la realización de proyectos escolares.",
       "broader": "sb:SMBS04SBII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2604,6 +2793,7 @@
       "definition": "Valoración de los nuevos comportamientos en la sociedad de la información y de la implicación ética de los medios de comunicación y las redes sociales, y el problema de la desinformación.",
       "broader": "sb:SMBS04SBII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2615,6 +2805,7 @@
       "definition": "Utilización de técnicas y métodos de las Ciencias Sociales: análisis de textos, interpretación y elaboración de mapas, esquemas y síntesis, representación de gráficos e interpretación de imágenes a través de medios digitales accesibles.",
       "broader": "sb:SMBS04SBII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2626,6 +2817,7 @@
       "definition": "Tiempo histórico: construcción e interpretación de líneas del tiempo a través de la linealidad, cronología, simultaneidad y duración.",
       "broader": "sb:SMBS04SBII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2637,6 +2829,7 @@
       "definition": "Utilización de metodologías del pensamiento histórico.",
       "broader": "sb:SMBS04SBII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2648,6 +2841,7 @@
       "definition": "Experimentación y reflexión sobre los procesos de aprendizaje y su relación con los estilos personales de aprendizaje propios y ajenos.",
       "broader": "sb:SMBS04SBIII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2659,6 +2853,7 @@
       "definition": "Desarrollo de la motivación intrínseca y de los hábitos necesarios para desarrollar atención, constancia y esfuerzo en la resolución de las tareas.",
       "broader": "sb:SMBS04SBIII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2670,6 +2865,7 @@
       "definition": "Desarrollo de las estrategias de gestión de las tareas en el aprendizaje: establecimiento de objetivos, previsión de recursos, gestión de los tiempos.",
       "broader": "sb:SMBS04SBIII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2681,6 +2877,7 @@
       "definition": "Aplicación de técnicas y herramientas de evaluación para valorar el desarrollo de las tareas propias y ajenas.",
       "broader": "sb:SMBS04SBIII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2692,6 +2889,7 @@
       "definition": "Aplicación de técnicas de gestión cooperativa para la ideación y el desarrollo de proyectos colectivos en ambientes de incertidumbre: negociación de roles y asunción de responsabilidades.",
       "broader": "sb:SMBS04SBIII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2703,6 +2901,7 @@
       "definition": "Aplicación de estrategias de tratamiento de la información para crear y compartir producciones individuales y colectivas.",
       "broader": "sb:SMBS04SBIII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2714,6 +2913,7 @@
       "definition": "Lectura autónoma. Implicación en la lectura de obras de forma progresivamente autónoma a partir de una preselección de textos variados, y reflexión sobre los textos leídos y sobre la práctica de lectura, atendiendo a los siguientes saberes:",
       "broader": "sb:SMBS04SBIV",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2725,6 +2925,7 @@
       "definition": "Integración progresiva de estrategias y criterios para la selección de obras variadas de manera orientada, a partir de la utilización autónoma de la biblioteca escolar y pública disponible.",
       "broader": "sb:SMBS04SBIV.1",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2736,6 +2937,7 @@
       "definition": "Consolidación y verbalización de los propios gustos e identidad lectora.",
       "broader": "sb:SMBS04SBIV.1",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2747,6 +2949,7 @@
       "definition": "Movilización de la experiencia personal, lectora y cultural para establecer vínculos de manera argumentada entre la obra leída y aspectos de la actualidad, así como con otros textos y manifestaciones artísticas y culturales.",
       "broader": "sb:SMBS04SBIV.1",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2758,6 +2961,7 @@
       "definition": "Lectura guiada. Lectura de obras y fragmentos relevantes de la literatura juvenil contemporánea y del patrimonio literario universal, con la adecuada atención a la literatura canaria, inscritas en itinerarios temáticos o de género que atraviesan épocas, contextos culturales y movimientos artísticos, atendiendo a los siguientes saberes:",
       "broader": "sb:SMBS04SBIV",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2769,6 +2973,7 @@
       "definition": "Aplicación de estrategias de utilización de información sociohistórica, cultural y artística básica para construir la interpretación de las obras literarias.",
       "broader": "sb:SMBS04SBIV.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2780,6 +2985,7 @@
       "definition": "Relación y comparación de los textos leídos con otros textos, orales, escritos o multimodales, con otras manifestaciones artísticas y culturales, y con las nuevas formas de ficción en función de temas, tópicos, estructuras y lenguajes. Identificación de los elementos de continuidad y ruptura.",
       "broader": "sb:SMBS04SBIV.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2791,6 +2997,7 @@
       "definition": "Creación de textos con intención literaria y sentido estético, la dramatización y la recitación de los textos a partir de la apropiación progresiva de las convenciones del lenguaje literario en referencia a modelos dados (imitación, transformación, continuación...).",
       "broader": "sb:SMBS04SBIV.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2802,6 +3009,7 @@
       "definition": "Desarrollo sostenible global y local:",
       "broader": "sb:SMBS04SBV",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2813,6 +3021,7 @@
       "definition": "Reflexión y valoración de la globalización, de los movimientos migratorios y de la interculturalidad. Los avances tecnológicos y la conciencia ecosocial. Conflictos ideológicos y étnico-culturales.",
       "broader": "sb:SMBS04SBV.1",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2824,6 +3033,7 @@
       "definition": "Reflexión sobre la diversidad social, étnico-cultural y de género. Migraciones, multiculturalidad y mestizaje en sociedades abiertas. Nuevas formas de identificación cultural.",
       "broader": "sb:SMBS04SBV.1",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2835,6 +3045,7 @@
       "definition": "Estudio de los desafíos pasados, actuales y futuros de la actual sociedad canaria. De la fragmentación insular al mundo globalizado.",
       "broader": "sb:SMBS04SBV.1",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2846,6 +3057,7 @@
       "definition": "Los avances tecnológicos y la conciencia ecosocial: identificación y explicación del proceso industrializador en España y Canarias, y análisis de sus consecuencias.",
       "broader": "sb:SMBS04SBV.1",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2857,6 +3069,7 @@
       "definition": "Geopolítica y principales conflictos en el presente:",
       "broader": "sb:SMBS04SBV",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2868,6 +3081,7 @@
       "definition": "Identificación de los genocidios y crímenes contra la humanidad.",
       "broader": "sb:SMBS04SBV.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2879,6 +3093,7 @@
       "definition": "Indagación sobre las guerras, el terrorismo y otras formas de violencia política.",
       "broader": "sb:SMBS04SBV.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2890,6 +3105,7 @@
       "definition": "Valoración de las alianzas e instituciones internacionales, y de la mediación y las misiones de paz.",
       "broader": "sb:SMBS04SBV.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2901,6 +3117,7 @@
       "definition": "La igualdad real de mujeres y hombres:",
       "broader": "sb:SMBS04SBV",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2912,6 +3129,7 @@
       "definition": "Valoración crítica de la discriminación por motivo de diversidad sexual y de género.",
       "broader": "sb:SMBS04SBV.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2923,6 +3141,7 @@
       "definition": "Valoración de la conquista de derechos en las sociedades democráticas contemporáneas.",
       "broader": "sb:SMBS04SBV.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2934,6 +3153,7 @@
       "definition": "Valoración crítica de los compromisos internacionales de nuestro país en favor de la paz, la seguridad y la cooperación internacional.",
       "broader": "sb:SMBS04SBV.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2945,6 +3165,7 @@
       "definition": "Dignidad humana y derechos universales:",
       "broader": "sb:SMBS04SBV",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2956,6 +3177,7 @@
       "definition": "Reflexión crítica del impacto de la Declaración Universal de los Derechos Humanos.",
       "broader": "sb:SMBS04SBV.4",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2967,6 +3189,7 @@
       "definition": "Compromiso cívico y participación ciudadana",
       "broader": "sb:SMBS04SBV",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2978,6 +3201,7 @@
       "definition": "Reflexión sobre la mediación y gestión pacífica de conflictos, y el apoyo a las víctimas de la violencia y del terrorismo.",
       "broader": "sb:SMBS04SBV.5",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2989,6 +3213,7 @@
       "definition": "Estudio y reflexión sobre la historia de las mujeres en la sociedad canaria. Movimientos obreros, estudiantiles, ecologistas y LGTBI+.",
       "broader": "sb:SMBS04SBV",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -3000,6 +3225,7 @@
       "definition": "Valoración del patrimonio como bien y como recurso. Puesta en valor, difusión y gestión de la riqueza patrimonial, singularmente de Canarias.",
       "broader": "sb:SMBS04SBVI",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -3011,6 +3237,7 @@
       "definition": "Conocimiento y valoración de la diversidad lingüística como riqueza patrimonial:",
       "broader": "sb:SMBS04SBVI",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -3022,6 +3249,7 @@
       "definition": "Análisis de la biografía lingüística propia y de la diversidad lingüística del centro.",
       "broader": "sb:SMBS04SBVI.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -3033,6 +3261,7 @@
       "definition": "Análisis del desarrollo sociohistórico de las lenguas de España.",
       "broader": "sb:SMBS04SBVI.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -3044,6 +3273,7 @@
       "definition": "Explicación de rasgos de las principales variedades dialectales del español a partir de las del español de Canarias.",
       "broader": "sb:SMBS04SBVI.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -3055,6 +3285,7 @@
       "definition": "Reconocimiento y explicación de las diferencias entre los rasgos propios de las variedades dialectales (fónicos, gramaticales y léxicos), y los relativos a los sociolectos y los registros.",
       "broader": "sb:SMBS04SBVI.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -3066,6 +3297,7 @@
       "definition": "Estrategias para la identificación de los fundamentos del proceso de transformación de la España y Canarias contemporáneas, y para la contextualización y explicación de los aspectos políticos, económicos, sociales y culturales en la formación de una identidad multicultural compartida.",
       "broader": "sb:SMBS04SBVI",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -3077,6 +3309,7 @@
       "definition": "Conciencia histórica:",
       "broader": "sb:SMBS04SBVII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -3088,6 +3321,7 @@
       "definition": "Elaboración de juicios propios y argumentados ante problemas de actualidad contextualizados históricamente. Defensa y exposición crítica de los mismos a través de presentaciones y debates.",
       "broader": "sb:SMBS04SBVII.1",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -3099,6 +3333,7 @@
       "definition": "El Atlántico a través de Canarias:",
       "broader": "sb:SMBS04SBVII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -3110,6 +3345,7 @@
       "definition": "La posición geoestratégica de Canarias en el Atlántico.",
       "broader": "sb:SMBS04SBVII.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -3121,6 +3357,7 @@
       "definition": "Indagación sobre las relaciones históricas, económicas, sociales y culturales de Canarias con África y América.",
       "broader": "sb:SMBS04SBVII.2",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -3132,6 +3369,7 @@
       "definition": "La acción de los movimientos feministas y sufragistas en la lucha por la igualdad de género:",
       "broader": "sb:SMBS04SBVII",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -3143,6 +3381,7 @@
       "definition": "Investigación sobre las mujeres relevantes de la historia contemporánea.",
       "broader": "sb:SMBS04SBVII.3",
       "materia": "materia:SMBS",
+      "materia_curso": "asig:SMBS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     }
