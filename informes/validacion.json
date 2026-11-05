@@ -2139,6 +2139,30 @@
       "detalle": "La exportación no incluye el texto de este encabezado"
     },
     {
+      "regla": "correccion_innecesaria",
+      "nivel": "aviso",
+      "nodo": "ce:PC9NC1",
+      "detalle": "0237-primaria-conocimiento-del-medio-natural-social-y-cultural-puntuacion-documento.yaml: La base ya trae este valor de definition; la corrección puede retirarse"
+    },
+    {
+      "regla": "correccion_innecesaria",
+      "nivel": "aviso",
+      "nodo": "ce:PC9NC9",
+      "detalle": "0237-primaria-conocimiento-del-medio-natural-social-y-cultural-puntuacion-documento.yaml: La base ya trae este valor de definition; la corrección puede retirarse"
+    },
+    {
+      "regla": "correccion_innecesaria",
+      "nivel": "aviso",
+      "nodo": "ce:PC9NC1",
+      "detalle": "0237-primaria-conocimiento-del-medio-natural-social-y-cultural-puntuacion-documento.yaml: La base ya trae este valor de definition; la corrección puede retirarse"
+    },
+    {
+      "regla": "correccion_innecesaria",
+      "nivel": "aviso",
+      "nodo": "ce:PLCLC2",
+      "detalle": "0241-primaria-lengua-castellana-y-literatura-puntuacion-documento.yaml: La base ya trae este valor de definition; la corrección puede retirarse"
+    },
+    {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:IC4M01BC1",
@@ -3241,12 +3265,6 @@
       "nivel": "aviso",
       "nodo": "bc:SMBS03BC2",
       "detalle": "Misma explicación del bloque competencial en bc:SMBS03BC2, bc:SMBS04BC2"
-    },
-    {
-      "regla": "explicacion_repetida_entre_cursos",
-      "nivel": "aviso",
-      "nodo": "bc:SMBS03BC4",
-      "detalle": "Misma explicación del bloque competencial en bc:SMBS03BC4, bc:SMBS04BC4"
     }
   ]
 }

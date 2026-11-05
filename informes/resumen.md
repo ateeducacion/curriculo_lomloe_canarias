@@ -24,9 +24,10 @@
 | aviso | clave_bloque_saberes_invalida | 1 |
 | aviso | codigo_materia_inconsistente | 48 |
 | aviso | codigo_saber_reconstruido | 43 |
+| aviso | correccion_innecesaria | 4 |
 | aviso | encabezado_no_corresponde | 83 |
 | aviso | encabezado_sin_texto | 3 |
-| aviso | explicacion_repetida_entre_cursos | 185 |
+| aviso | explicacion_repetida_entre_cursos | 184 |
 | aviso | registro_repetido | 1 |
 | aviso | saber_con_hijos | 51 |
 | aviso | saber_sin_numeracion | 1 |
@@ -271,3 +272,24 @@
 | 0231-bachillerato-literatura-canaria-segun-documento.yaml | aprobada | 9 | Literatura Canaria (Bachillerato): 2 diferencias corregidas con el documento oficial |
 | 0232-bachillerato-medio-natural-canario-segun-documento.yaml | aprobada | 4 | Medio Natural Canario (Bachillerato): 4 diferencias corregidas con el documento oficial |
 | 0233-bachillerato-psicologia-segun-documento.yaml | aprobada | 1 | Psicología (Bachillerato): 1 diferencias corregidas con el documento oficial |
+| 0234-eso-lengua-castellana-y-literatura-puntuacion-documento.yaml | aprobada | 1 | Lengua Castellana y Literatura (Educación Secundaria Obligatoria): 1 textos con la puntuación del documento oficial |
+| 0235-eso-ambito-linguistico-y-social-puntuacion-documento.yaml | aprobada | 2 | Ámbito Lingüístico y Social (Educación Secundaria Obligatoria): 2 textos con la puntuación del documento oficial |
+| 0236-eso-ambito-cientifico-tecnologico-puntuacion-documento.yaml | aprobada | 2 | Ámbito Científico-Tecnológico (Educación Secundaria Obligatoria): 2 textos con la puntuación del documento oficial |
+| 0237-primaria-conocimiento-del-medio-natural-social-y-cultural-puntuacion-documento.yaml | aprobada | 38 | Conocimiento del Medio Natural, Social y Cultural (Educación Primaria): 38 textos con la puntuación del documento oficial |
+| 0238-primaria-educacion-artistica-puntuacion-documento.yaml | aprobada | 2 | Educación Artística (Educación Primaria): 2 textos con la puntuación del documento oficial |
+| 0239-primaria-educacion-en-valores-civicos-y-eticos-puntuacion-documento.yaml | aprobada | 4 | Educación en Valores Cívicos y Éticos (Educación Primaria): 4 textos con la puntuación del documento oficial |
+| 0240-primaria-educacion-fisica-puntuacion-documento.yaml | aprobada | 6 | Educación Física (Educación Primaria): 6 textos con la puntuación del documento oficial |
+| 0241-primaria-lengua-castellana-y-literatura-puntuacion-documento.yaml | aprobada | 23 | Lengua Castellana y Literatura (Educación Primaria): 23 textos con la puntuación del documento oficial |
+| 0242-primaria-lengua-extranjera-puntuacion-documento.yaml | aprobada | 18 | Lengua Extranjera (Educación Primaria): 18 textos con la puntuación del documento oficial |
+| 0243-primaria-educacion-emocional-y-para-la-creatividad-puntuacion-documento.yaml | aprobada | 26 | Educación Emocional y para la Creatividad (Educación Primaria): 26 textos con la puntuación del documento oficial |
+| 0244-primaria-segunda-lengua-extranjera-puntuacion-documento.yaml | aprobada | 20 | Segunda Lengua Extranjera (Educación Primaria): 20 textos con la puntuación del documento oficial |
+| 0245-primaria-matematicas-puntuacion-documento.yaml | aprobada | 16 | Matemáticas (Educación Primaria): 16 textos con la puntuación del documento oficial |
+| 0246-bachillerato-analisis-musical-i-y-ii-puntuacion-documento.yaml | aprobada | 2 | Análisis Musical I y II (Bachillerato): 2 textos con la puntuación del documento oficial |
+| 0247-bachillerato-antropologia-y-sociologia-puntuacion-documento.yaml | aprobada | 2 | Antropología y Sociología (Bachillerato): 2 textos con la puntuación del documento oficial |
+| 0248-bachillerato-biologia-humana-puntuacion-documento.yaml | aprobada | 6 | Biología Humana (Bachillerato): 6 textos con la puntuación del documento oficial |
+| 0249-bachillerato-imagen-y-sonido-puntuacion-documento.yaml | aprobada | 2 | Imagen y Sonido (Bachillerato): 2 textos con la puntuación del documento oficial |
+| 0250-bachillerato-iniciacion-a-la-astronomia-puntuacion-documento.yaml | aprobada | 2 | Iniciación a la Astronomía (Bachillerato): 2 textos con la puntuación del documento oficial |
+| 0251-bachillerato-informatica-y-digitalizacion-i-y-ii-puntuacion-documento.yaml | aprobada | 4 | Informática y Digitalización I y II (Bachillerato): 4 textos con la puntuación del documento oficial |
+| 0252-bachillerato-medio-natural-canario-puntuacion-documento.yaml | aprobada | 2 | Medio Natural Canario (Bachillerato): 2 textos con la puntuación del documento oficial |
+| 0253-bachillerato-tecnicas-de-laboratorio-puntuacion-documento.yaml | aprobada | 1 | Técnicas de Laboratorio (Bachillerato): 1 textos con la puntuación del documento oficial |
+| 0254-bachillerato-psicologia-puntuacion-documento.yaml | aprobada | 2 | Psicología (Bachillerato): 2 textos con la puntuación del documento oficial |

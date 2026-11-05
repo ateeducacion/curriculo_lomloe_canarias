@@ -1,0 +1,21 @@
+id: '0236'
+titulo: 'Ámbito Científico-Tecnológico (Educación Secundaria Obligatoria): 2 textos con la puntuación del documento oficial'
+motivo: 'Textos que solo difieren en la puntuación y que el BOC no permite decidir (el texto extraído del PDF no conserva
+  la puntuación de forma fiable). Criterio aprobado: el ODT oficial es la referencia y el corpus debe reflejarlo.'
+fuente:
+  documento: eso-ambito-cientifico-tecnologico
+  fichero: fuentes/documentos/eso/anexo_2_curriculo_pdc_eso_ACT.odt
+  sha256: 64d8f26e9c715b667e231f20a70e91c7e1e54cfc4389a09e25d10a7ca5afe6e9
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: sb:SAMB03SBI.8.2
+  campo: definition
+  valor: Realización de operaciones con números naturales, enteros, fraccionarios o decimales en situaciones contextualizadas
+    (en circuitos eléctricos, en el cálculo de masas moleculares, del Índice de Masa Corporal -IMC-, de densidad de cuerpos…).
+- nodo: sb:SAMB03SBI.8.6
+  campo: definition
+  valor: Comprensión y uso del cálculo de porcentajes para la resolución de problemas en contextos de la vida cotidiana, en
+    especial del ámbito científico-tecnológico (aumentos y disminuciones porcentuales, dietas equilibradas, composición centesimal
+    de sustancias compuestas...). Relación entre fracción, porcentaje y decimal.

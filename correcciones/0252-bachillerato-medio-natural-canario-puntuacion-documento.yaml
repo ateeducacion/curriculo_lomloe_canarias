@@ -1,0 +1,22 @@
+id: '0252'
+titulo: 'Medio Natural Canario (Bachillerato): 2 textos con la puntuación del documento oficial'
+motivo: 'Textos que solo difieren en la puntuación y que el BOC no permite decidir (el texto extraído del PDF no conserva
+  la puntuación de forma fiable). Criterio aprobado: el ODT oficial es la referencia y el corpus debe reflejarlo.'
+fuente:
+  documento: bachillerato-medio-natural-canario
+  fichero: fuentes/documentos/bachillerato/Medio_Natural_Canario_BACH.odt
+  sha256: d6900742638ca1356be7eef989d8724fd41807ab642f8524599594aaa4cc40da
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: ce:BMNCC3
+  campo: definition
+  valor: Diseñar, planificar y desarrollar proyectos de investigación, siguiendo los pasos de las metodologías científicas,
+    teniendo en cuenta los recursos disponibles de forma realista y buscando vías de colaboración, para indagar en aspectos
+    relacionados con el medio natural canario.
+- nodo: ce:BMNCC4
+  campo: definition
+  valor: Identificar los elementos característicos de los principales paisajes de Canarias y su biodiversidad, y analizar
+    los impactos antropogénicos que se han producido en ellos a partir de información en diferentes formatos y observaciones
+    de campo para proponer medidas de protección y conservación que sean compatibles con un modelo de desarrollo sostenible.

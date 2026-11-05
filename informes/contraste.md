@@ -1,7 +1,7 @@
 # Contraste con los documentos oficiales
 
-- Documentos contrastados: 105; sin diferencias: 77
-- Diferencias: 218; explicadas: 218; **sin explicar: 0**
+- Documentos contrastados: 105; sin diferencias: 91
+- Diferencias: 43; explicadas: 43; **sin explicar: 0**
 
 ## eso-biologia-y-geologia — contrastado
 Sin diferencias.
@@ -58,8 +58,7 @@ Sin diferencias.
 Sin diferencias.
 
 ## eso-lengua-castellana-y-literatura — contrastado
-Sin diferencias por explicar (1 explicadas).
-- explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 1
+Sin diferencias.
 - incoherencias del propio documento (no son diferencias del corpus): 2, p. ej. bc:SLCL03BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL2, CCL5, CP2, STEM1, CD1, CD2, CD3, CPSAA4, CE3; criterios: CCL2, CCL5, CP2, STEM1, CD1, CD2, CD3, CPSAA4, CC3)
 
 ## eso-lengua-extranjera — contrastado
@@ -81,60 +80,51 @@ Sin diferencias.
 Sin diferencias.
 
 ## eso-ambito-linguistico-y-social — contrastado
-Sin diferencias por explicar (3 explicadas).
-- explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 2
+Sin diferencias por explicar (1 explicadas).
 - explicadas — la competencia tiene un enunciado distinto en cada curso en el BOC; el corpus guarda uno por materia (limitación del modelo): 1
 - incoherencias del propio documento (no son diferencias del corpus): 2, p. ej. bc:SMBS03BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL4, CPSAA4, CC1, CCEC1, CCEC2, CCEC3, CCEC4; criterios: CCL1, CCL2, CCL4, CC1, CCEC1, CCEC2, CD2, CPSAA4, CCEC3, CCEC4)
 
 ## eso-ambito-cientifico-tecnologico — contrastado
-Sin diferencias por explicar (4 explicadas).
+Sin diferencias por explicar (2 explicadas).
 - explicadas — la competencia tiene un enunciado distinto en cada curso en el BOC; el corpus guarda uno por materia (limitación del modelo): 2
-- explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 2
 
 ## eso-ambito-practico — contrastado
 Sin diferencias.
 
 ## primaria-conocimiento-del-medio-natural-social-y-cultural — contrastado
-Sin diferencias por explicar (39 explicadas).
-- explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 39
-
-## primaria-educacion-artistica — contrastado
-Sin diferencias por explicar (2 explicadas).
-- explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 2
-
-## primaria-educacion-en-valores-civicos-y-eticos — contrastado
-Sin diferencias por explicar (4 explicadas).
-- explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 4
-
-## primaria-educacion-fisica — contrastado
 Sin diferencias por explicar (6 explicadas).
 - explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 6
+
+## primaria-educacion-artistica — contrastado
+Sin diferencias.
+
+## primaria-educacion-en-valores-civicos-y-eticos — contrastado
+Sin diferencias.
+
+## primaria-educacion-fisica — contrastado
+Sin diferencias.
 - incoherencias del propio documento (no son diferencias del corpus): 12, p. ej. bc:PEFI01BC1: la cabecera del bloque no coincide con sus criterios (cabecera: STEM2, STEM5, CPSAA2, CPSAA5, CE3; criterios: STEM5, CPSAA2, CPSAA5)
 
 ## primaria-lengua-castellana-y-literatura — contrastado
-Sin diferencias por explicar (34 explicadas).
-- explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 24
+Sin diferencias por explicar (12 explicadas).
 - explicadas — el documento trae códigos de descriptor que no existen en la etapa (errata): 4
 - explicadas — la lista del corpus es la publicada en el BOC; la del documento no: 4
+- explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 2
 - explicadas — el saber del corpus está publicado en el BOC; falta en el documento: 2
 - incoherencias del propio documento (no son diferencias del corpus): 6, p. ej. crit:PLCL01CE7.2: los descriptores del criterio traen códigos que no existen: CCE3
 
 ## primaria-lengua-extranjera — contrastado
-Sin diferencias por explicar (18 explicadas).
-- explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 18
+Sin diferencias.
 
 ## primaria-educacion-emocional-y-para-la-creatividad — contrastado
-Sin diferencias por explicar (34 explicadas).
-- explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 26
+Sin diferencias por explicar (8 explicadas).
 - explicadas — la puntuación del corpus es la publicada en el BOC: 8
 
 ## primaria-segunda-lengua-extranjera — contrastado
-Sin diferencias por explicar (20 explicadas).
-- explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 20
+Sin diferencias.
 
 ## primaria-matematicas — contrastado
-Sin diferencias por explicar (16 explicadas).
-- explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 16
+Sin diferencias.
 
 ## infantil-crecimiento-en-armonia — contrastado
 Sin diferencias.
@@ -147,8 +137,7 @@ Sin diferencias.
 Sin diferencias.
 
 ## bachillerato-analisis-musical-i-y-ii — contrastado
-Sin diferencias por explicar (2 explicadas).
-- explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 2
+Sin diferencias.
 - incoherencias del propio documento (no son diferencias del corpus): 1, p. ej. bc:BAMS01BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CPSAA3.1, CPSAA3.2, CE3, CCEC3.1, CCEC3.2; criterios: CCL1, CPSAA3.1, CPSAA3.2, CE3, CCEC2, CCEC3.1)
 
 ## bachillerato-artes-escenicas-i-y-ii — contrastado
@@ -317,13 +306,11 @@ Sin diferencias por explicar (2 explicadas).
 Sin diferencias.
 
 ## bachillerato-antropologia-y-sociologia — contrastado
-Sin diferencias por explicar (3 explicadas).
-- explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 2
+Sin diferencias por explicar (1 explicadas).
 - explicadas — la competencia tiene un enunciado distinto en cada curso en el BOC; el corpus guarda uno por materia (limitación del modelo): 1
 
 ## bachillerato-biologia-humana — contrastado
-Sin diferencias por explicar (6 explicadas).
-- explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 6
+Sin diferencias.
 - incoherencias del propio documento (no son diferencias del corpus): 2, p. ej. bc:BBIL02BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL3, STEM2, STEM5, CD4, CPSAA2, CPSAA3.2, CC3, CC4, CE1; criterios: STEM2, STEM5, CPSAA2, CC3, CE1, CCL1, CCL3, CD4, CC4)
 
 ## bachillerato-bioestadistica — contrastado
@@ -351,16 +338,13 @@ Sin diferencias.
 - incoherencias del propio documento (no son diferencias del corpus): 1, p. ej. bc:BHIC01BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CP3, STEM2, CD1, CD2, CPSAA3.1, CPSAA4, CPSAA5, CC2, CC3, CE3; criterios: CCL1, CCL2, CCL3, STEM2, CD1, CPSAA4, CE3, CP3, CD2, CCEC1, CPSAA3.1, CCL5, STEM1, CPSAA5, CC2, CC3, CC4)
 
 ## bachillerato-imagen-y-sonido — contrastado
-Sin diferencias por explicar (2 explicadas).
-- explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 2
+Sin diferencias.
 
 ## bachillerato-iniciacion-a-la-astronomia — contrastado
-Sin diferencias por explicar (2 explicadas).
-- explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 2
+Sin diferencias.
 
 ## bachillerato-informatica-y-digitalizacion-i-y-ii — contrastado
-Sin diferencias por explicar (4 explicadas).
-- explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 4
+Sin diferencias.
 - incoherencias del propio documento (no son diferencias del corpus): 3, p. ej. bc:BIKF01BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL3, STEM1, STEM2, STEM5, CD1, CD4, CD5, CPSAA1.1, CPSAA5, CE3; criterios: CCL3, STEM2, CD1, STEM1, STEM5, CD4, CD5, CPSAA1.1, CE3, CPSAA5)
 
 ## bachillerato-la-mitologia-y-las-artes — contrastado
@@ -374,8 +358,7 @@ Sin diferencias.
 Sin diferencias.
 
 ## bachillerato-medio-natural-canario — contrastado
-Sin diferencias por explicar (2 explicadas).
-- explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 2
+Sin diferencias.
 - incoherencias del propio documento (no son diferencias del corpus): 2, p. ej. bc:BMNC01BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CCL5, CP2, STEM2, STEM4, CD1, CD3, CPSAA4, CC3, CCEC3.2; criterios: CCL2, CCL3, CP2, STEM2, STEM4, CD1, CD3, CPSAA4, CC3, CCEC3.2, CCL1, CPSAA3.2, CCL5)
 
 ## bachillerato-taller-de-etimologia-grecolatina — contrastado
@@ -387,8 +370,7 @@ Sin diferencias.
 - incoherencias del propio documento (no son diferencias del corpus): 1, p. ej. bc:BTA701BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CCL5, CP2, CD1, CD2, CPSAA1.2, CPSAA4, CC1, CC3, CE3, CCEC2, CCEC3.1; criterios: CCL3, CD1, CPSAA4, CC1, CCEC2, CCL1, CCL2, CP2, CD2, CE3, CCEC3.1, CCL5, CPSAA1.1, CC3)
 
 ## bachillerato-tecnicas-de-laboratorio — contrastado
-Sin diferencias por explicar (1 explicadas).
-- explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 1
+Sin diferencias.
 
 ## bachillerato-musica-expresion-y-espectaculos — contrastado
 Sin diferencias.
@@ -398,8 +380,7 @@ Sin diferencias.
 Sin diferencias.
 
 ## bachillerato-psicologia — contrastado
-Sin diferencias por explicar (3 explicadas).
-- explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 2
+Sin diferencias por explicar (1 explicadas).
 - explicadas — el saber del corpus está publicado en el BOC; falta en el documento: 1
 
 ## bachillerato-taller-de-artes-integradas — contrastado
