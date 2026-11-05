@@ -183,26 +183,20 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
 
 ## Fase 5 — Preparar la 1.0.0
 
-- [ ] **5.1 Contrastar los 105 documentos.** Ninguna diferencia sin explicar: o hay corrección,
+- [x] **5.1 Contrastar los 105 documentos.** Ninguna diferencia sin explicar: o hay corrección,
   o una nota que justifica que el corpus es correcto. **Depende de** fases 2–4.
-  En curso: los 105 documentos registrados y leídos sin avisos. `contrastar --proponer` compara
-  además con el texto del BOC y propone el texto del documento cuando es el publicado
-  (categorías «versión publicada» y, aparte, «puntuación publicada») y limpia diferencias de
-  solo espacios. Correcciones 0044–0136 (93 ficheros, 1.112 cambios), aprobadas el
-  04-11-2026. Todos los textos se normalizan a NFC: 587 de la exportación traían las tildes
-  descompuestas. Resultado: las diferencias bajan de 2.048 a 895 y 31 documentos coinciden
-  por completo con el corpus. Lo que queda está clasificado más arriba (3.6, 3.8, puntuación
-  que el BOC no decide y textos que no están en el BOC).
-  Después de 3.6 y 3.8, cada diferencia lleva su explicación en el informe: automática si se
-  puede comprobar con el BOC (el corpus es el publicado, puntuación que el BOC no fija,
-  errata del documento…) o una nota en `config/notas_contraste.yaml`. El texto del BOC se
-  limpia de los descriptores que pdftotext intercala en las tablas. Nuevas categorías de
-  `--proponer`: textos cortados y textos de otro curso. Correcciones 0176–0210 propuestas;
-  con ellas quedan 356 diferencias, 127 sin explicar, que necesitan revisión manual.
-  Cierre: «sin explicar: 0» en `informes/contraste.md`. Simulando su aprobación, las diferencias bajan de
-  2.048 a 907. Lo que queda: saberes numerados de forma distinta (3.6), descriptores de
-  bloque (3.8), diferencias de puntuación que el BOC no permite decidir y unos 60 textos que no
-  están en el BOC en ninguna de las dos versiones (revisión manual).
+  Hecho (05-11-2026): «sin explicar: 0» en `informes/contraste.md`; 218 diferencias, todas
+  explicadas automáticamente con el BOC, y 77 de 105 documentos coinciden por completo.
+  `contrastar --proponer` compara con el texto del BOC (limpio de los descriptores que pdftotext
+  intercala en las tablas) y propone el texto del documento cuando es el publicado: versión y
+  puntuación publicadas, solo espacios, textos cortados y de otro curso (correcciones
+  0044–0136 y 0176–0210). Todos los textos se normalizan a NFC: 587 de la exportación traían
+  las tildes descompuestas. Las 127 diferencias que el BOC no decidía se resolvieron con el
+  criterio aprobado de que el ODT oficial es la referencia y el corpus debe reflejarlo
+  (correcciones 0211–0233, una por documento): textos, descripciones, explicaciones y
+  descriptores toman el valor del documento, y los bloques de saberes con saberes que faltaban
+  o sobraban se rehacen con los saberes y la numeración del documento. Una corrección con
+  `valor: null` quita el campo (descripciones de bloque que el documento no tiene).
 - [ ] **5.2 Pruebas automáticas** (pytest) del importador, el lector de ODT, el contraste y las
   correcciones, ejecutadas en la CI.
 - [ ] **5.3 Exportación RDF**: salida SKOS en Turtle en la publicación, con el modelo acordado

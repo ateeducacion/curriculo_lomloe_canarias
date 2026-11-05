@@ -10,6 +10,7 @@ Formato de un fichero de corrección:
     aprobada_por: nombre o usuario
     cambios:
       - {nodo: ce:SMATC2, campo: definition, valor: '…'}
+      - {nodo: sb:ZZZZ, campo: scopeNote, valor: null}   # quita el campo
       - {nodo: sb:XXXX, accion: eliminar}
       - {nodo: sb:YYYY, accion: crear, datos: {tipo: SaberBasico, …}}
 
@@ -68,7 +69,10 @@ def aplicar(nodos):
             if nodos[nid].get(campo) == ch.get('valor'):
                 avisos.append(_aviso('correccion_innecesaria', 'aviso', nid, nombre,
                                      f'La base ya trae este valor de {campo}; la corrección puede retirarse'))
-            nodos[nid][campo] = ch.get('valor')
+            if ch.get('valor') is None:
+                nodos[nid].pop(campo, None)
+            else:
+                nodos[nid][campo] = ch.get('valor')
     return avisos, resumen
 
 

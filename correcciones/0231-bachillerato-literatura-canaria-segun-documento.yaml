@@ -1,0 +1,69 @@
+id: '0231'
+titulo: 'Literatura Canaria (Bachillerato): 2 diferencias corregidas con el documento oficial'
+motivo: 'Diferencias que el contraste no explicaba con el BOC. Criterio aprobado: el ODT oficial de la web de currículos es
+  la referencia y el corpus debe reflejarlo. Se rehacen con los saberes y la numeración del documento los bloques BLCA02SBIV,
+  en los que faltaban o sobraban saberes. Tipos: falta en el corpus: texto de saber; texto de saber distinto.'
+fuente:
+  documento: bachillerato-literatura-canaria
+  fichero: fuentes/documentos/bachillerato/Literatura_Canaria_BACH.odt
+  sha256: 23fa11b62597706ad68b8269a5aa939a82ed93dc5d1e642e39d73bd51552229d
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: sb:BLCA02SBIV.1
+  accion: eliminar
+- nodo: sb:BLCA02SBIV.2
+  accion: eliminar
+- nodo: sb:BLCA02SBIV.3
+  accion: eliminar
+- nodo: sb:BLCA02SBIV.4
+  accion: eliminar
+- nodo: sb:BLCA02SBIV.5
+  accion: eliminar
+- nodo: sb:BLCA02SBIV.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: BLCA02SBIV.1
+    definition: Aproximación a la narrativa gráfica hecha en Canarias.
+    broader: sb:BLCA02SBIV
+    materia: materia:BLCA
+    curso: curso:B02
+    etapa: etapa:BAC
+- nodo: sb:BLCA02SBIV.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: BLCA02SBIV.2
+    definition: Valoración de las relaciones de la literatura canaria con otras tradiciones orales presentes en Canarias como
+      las del verseo, el punto cubano y la improvisación, que confluyen con la música y aparecen con frecuencia integradas
+      en diversos festivales y encuentros
+    broader: sb:BLCA02SBIV
+    materia: materia:BLCA
+    curso: curso:B02
+    etapa: etapa:BAC
+- nodo: sb:BLCA02SBIV.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: BLCA02SBIV.3
+    definition: Análisis de textos literarios desde una perspectiva interdisciplinar.
+    broader: sb:BLCA02SBIV
+    materia: materia:BLCA
+    curso: curso:B02
+    etapa: etapa:BAC
+- nodo: sb:BLCA02SBIV.4
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: BLCA02SBIV.4
+    definition: Movilización de la experiencia personal, lectora y cultural para establecer vínculos argumentados entre las
+      obras leídas y aspectos de la actualidad y otras manifestaciones literarias o artísticas.5. Consulta y contraste de
+      diversas fuentes de información y en distintos formatos, para la elaboración de productos (trabajos monográficos, proyectos
+      de investigación, composición de antologías…), de forma planificada y adecuada.6. Desarrollo del bagaje artístico, humanístico,
+      social y científico, a través de la lectura de artículos, ensayos u obras de referencia.
+    broader: sb:BLCA02SBIV
+    materia: materia:BLCA
+    curso: curso:B02
+    etapa: etapa:BAC

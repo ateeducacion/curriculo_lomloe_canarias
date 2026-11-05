@@ -1,0 +1,954 @@
+id: '0212'
+titulo: 'Ámbito Lingüístico y Social (Educación Secundaria Obligatoria): 19 diferencias corregidas con el documento oficial'
+motivo: 'Diferencias que el contraste no explicaba con el BOC. Criterio aprobado: el ODT oficial de la web de currículos es
+  la referencia y el corpus debe reflejarlo. Se rehacen con los saberes y la numeración del documento los bloques SMBS03SBI,
+  SMBS03SBII, SMBS03SBV, SMBS03SBVII, SMBS04SBII, SMBS04SBVI, SMBS04SBVII, en los que faltaban o sobraban saberes. Tipos:
+  explicación de bloque distinto; nodo del corpus que no está en el documento.'
+fuente:
+  documento: eso-ambito-linguistico-y-social
+  fichero: fuentes/documentos/eso/anexo_1_curriculos_pdc_eso_LS.odt
+  sha256: 81b1c093d073bb40f625301a50832d4c4a68d6fdb6953728644a01360c8e1dac
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: bc:SMBS04BC1
+  campo: scopeNote
+  valor: 'A través de este bloque competencial se comprobará que el alumnado es capaz de comprender e interpretar, individualmente
+    o en grupo, textos escritos, orales o multimodales de los ámbitos personal (conversaciones, anuncios, cartas, mensajería
+    electrónica, canciones...), social (noticias, artículos de opinión o entrevistas, en formato periodístico o radiofónicos,
+    textos y cuñas publicitarias, tutoriales, debates…) y educativo (manuales escolares, mapas conceptuales, informes, presentaciones,
+    charlas TED, coloquios…) e incluso signados (expresiones y vocabulario de uso cotidiano en lengua de signos y alfabeto
+    dactilológico). Se constatará que hace uso de estrategias y técnicas de comprensión y descodificación, que distingue la
+    información de la opinión o la persuasión, y que es capaz de valorar la forma y el contenido, atendiendo al sentido global,
+    a la relación entre sus partes y a la información más relevante, haciendo conexiones entre el texto y su contexto, y diferenciando
+    el lenguaje verbal del no verbal. Se verificará, además, si el alumnado es capaz de producir textos escritos y multimodales
+    con coherencia, cohesión, fluidez y adecuación, desarrollando procesos metacognitivos: la planificación, la textualización,
+    la revisión y la edición del texto final mediante herramientas o plataformas virtuales, de manera respetuosa con la propiedad
+    intelectual y con actitud crítica. Asimismo, se confirmará si es capaz de conversar en diálogos pedagógicamente orientados,
+    estructurar el discurso y adecuar el registro y el comportamiento no verbal en producciones orales y multimodales, monologadas
+    o dialogadas, respetando las características de la variedad dialectal del hablante, sobre temas de interés personal (la
+    conversación, la discrepancia o la orden), social (reseñas radiofónicas, entrevistas, pódcast, noticias, debates, tertulias,
+    cuñas publicitarias…) y educativo (la exposición oral y el debate) y laboral (curriculum vitae, carta de motivación y
+    entrevista de trabajo). Se valorará si es capaz de adecuarse al grado de formalidad y a la audiencia, a los propósitos
+    comunicativos, si dedica atención a los aspectos prosódicos (entonación, pausas, tono, timbre, volumen...) y si se ajusta
+    al tiempo de exposición, evitando un uso discriminatorio del lenguaje y aplicando la cooperación conversacional, la cortesía
+    lingüística (turno de palabra, escucha activa, uso de fórmulas de saludo y despedida…) y la asertividad para intercambiar
+    opiniones. Por último, se perseguirá que el alumnado sea capaz de reflexionar sobre la estructura de la lengua y sus usos,
+    de modo que en sus producciones orales y escritas preste atención a la corrección lingüística, incorpore un léxico adecuado
+    y revise ortográfica y gramaticalmente sus creaciones (mediante diccionarios, manuales de consulta y correctores ortográficos),
+    empleando mecanismos de cohesión, conectores textuales y usando adecuadamente las formas verbales. El objetivo último
+    es que el alumnado entienda la lengua como una herramienta fundamental para su desarrollo integral y comprenda que su
+    mejora contribuirá a facilitar el aprendizaje del resto de materias y saberes.'
+- nodo: sb:SMBS03SBI.1
+  accion: eliminar
+- nodo: sb:SMBS03SBI.1.1
+  accion: eliminar
+- nodo: sb:SMBS03SBI.2
+  accion: eliminar
+- nodo: sb:SMBS03SBI.2.1
+  accion: eliminar
+- nodo: sb:SMBS03SBI.2.2
+  accion: eliminar
+- nodo: sb:SMBS03SBI.2.3
+  accion: eliminar
+- nodo: sb:SMBS03SBI.3
+  accion: eliminar
+- nodo: sb:SMBS03SBI.3.1
+  accion: eliminar
+- nodo: sb:SMBS03SBI.3.2
+  accion: eliminar
+- nodo: sb:SMBS03SBI.3.3
+  accion: eliminar
+- nodo: sb:SMBS03SBI.3.4
+  accion: eliminar
+- nodo: sb:SMBS03SBI.3.5
+  accion: eliminar
+- nodo: sb:SMBS03SBI.3.6
+  accion: eliminar
+- nodo: sb:SMBS03SBI.4
+  accion: eliminar
+- nodo: sb:SMBS03SBI.4.1
+  accion: eliminar
+- nodo: sb:SMBS03SBI.4.2
+  accion: eliminar
+- nodo: sb:SMBS03SBI.4.3
+  accion: eliminar
+- nodo: sb:SMBS03SBI.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBI.1
+    definition: 'Contexto:'
+    broader: sb:SMBS03SBI
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBI.1.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBI.1.1
+    definition: 'Reconocimiento de los componentes del hecho comunicativo: grado de formalidad de la situación y carácter
+      público o privado; distancia social entre las personas interlocutoras; propósitos comunicativos e interpretación de
+      intenciones; canal de comunicación, imagen, elementos paratextuales y no verbales de la comunicación.'
+    broader: sb:SMBS03SBI.1
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBI.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBI.2
+    definition: 'Géneros discursivos:'
+    broader: sb:SMBS03SBI
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBI.2.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBI.2.1
+    definition: 'Análisis y producción de secuencias textuales básicas, conociendo y aplicando las propiedades textuales:
+      coherencia, cohesión, fluidez y adecuación.'
+    broader: sb:SMBS03SBI.2
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBI.2.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBI.2.2
+    definition: Análisis de la imagen de los textos icónico-verbales y multimodales.
+    broader: sb:SMBS03SBI.2
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBI.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBI.3
+    definition: 'Procesos:'
+    broader: sb:SMBS03SBI
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBI.3.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBI.3.1
+    definition: Interacción oral, escrita y multimodal de carácter informal y formal. Uso y valoración de la cooperación conversacional
+      y cortesía lingüística. Aplicación y reconocimiento de la escucha activa, asertividad y resolución dialogada de los
+      conflictos.
+    broader: sb:SMBS03SBI.3
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBI.3.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBI.3.2
+    definition: 'Comprensión oral: interpretación y explicación del sentido global del texto, relación entre sus partes; selección,
+      retención y análisis de la información relevante. Reconocimiento de la intención del emisor. Detección, reflexión y
+      rechazo de usos discriminatorios del lenguaje verbal y no verbal. Valoración de la forma y el contenido del texto.'
+    broader: sb:SMBS03SBI.3
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBI.3.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBI.3.3
+    definition: Aproximación a la lengua de signos a través del reconocimiento de expresiones y vocabulario de uso cotidiano
+      y del alfabeto dactilológico.
+    broader: sb:SMBS03SBI.3
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBI.3.4
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBI.3.4
+    definition: 'Producción oral formal: planificación y búsqueda de información, textualización, revisión y reorganización
+      en esquemas propios. Adecuación a la audiencia y al tiempo de exposición.'
+    broader: sb:SMBS03SBI.3
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBI.3.5
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBI.3.5
+    definition: 'Comprensión lectora: interpretación y explicación del sentido global del texto, y de la estructura y relación
+      entre sus partes, incluyendo el léxico relativo al ámbito geográfico. Análisis de la intención del emisor. Detección,
+      rechazo y reflexión de usos discriminatorios del lenguaje verbal e icónico. Valoración de la forma y del contenido del
+      texto.'
+    broader: sb:SMBS03SBI.3
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBI.3.6
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBI.3.6
+    definition: 'Producción escrita: planificación, textualización, revisión y edición en diferentes soportes. Usos de la
+      escritura para la organización del pensamiento: toma de notas, esquemas, mapas conceptuales, definiciones, resúmenes...'
+    broader: sb:SMBS03SBI.3
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBI.4
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBI.4
+    definition: 'Reconocimiento y uso discursivo de los elementos lingüísticos:'
+    broader: sb:SMBS03SBI
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBI.4.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBI.4.1
+    definition: Reconocimiento de las diferencias relevantes e intersecciones entre lengua oral y lengua escrita.
+    broader: sb:SMBS03SBI.4
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBI.4.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBI.4.2
+    definition: Análisis de la corrección lingüística y aplicación de la revisión ortográfica y gramatical de los textos.
+      Manejo de diccionarios, manuales de consulta y de correctores ortográficos en soporte analógico o digital para la corrección
+      y la mejora textual.
+    broader: sb:SMBS03SBI.4
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBI.4.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBI.4.3
+    definition: Análisis y aplicación de los signos de puntuación como mecanismo organizador del texto escrito. Identificación
+      y análisis de su relación con el significado.
+    broader: sb:SMBS03SBI.4
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBII.1
+  accion: eliminar
+- nodo: sb:SMBS03SBII.2
+  accion: eliminar
+- nodo: sb:SMBS03SBII.3
+  accion: eliminar
+- nodo: sb:SMBS03SBII.4
+  accion: eliminar
+- nodo: sb:SMBS03SBII.5
+  accion: eliminar
+- nodo: sb:SMBS03SBII.6
+  accion: eliminar
+- nodo: sb:SMBS03SBII.7
+  accion: eliminar
+- nodo: sb:SMBS03SBII.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBII.1
+    definition: 'Alfabetización mediática e informacional: búsqueda y selección de la información con criterios de fiabilidad,
+      calidad y pertinencia; análisis, valoración, reorganización y síntesis de la información en esquemas propios y transformación
+      en conocimiento; comunicación y difusión de manera creativa y respetuosa con la propiedad intelectual. Utilización autónoma
+      de dispositivos digitales, herramientas tecnológicas y plataformas virtuales para la realización de proyectos escolares.'
+    broader: sb:SMBS03SBII
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBII.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBII.2
+    definition: Valoración de los nuevos comportamientos en la sociedad de la información y de la implicación ética de los
+      medios de comunicación y las redes sociales, y del problema de la desinformación.
+    broader: sb:SMBS03SBII
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBII.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBII.3
+    definition: 'Utilización de técnicas y métodos de las Ciencias Sociales: análisis de textos, interpretación y elaboración
+      de mapas, esquemas y síntesis, representación de gráficos e interpretación de imágenes a través de medios digitales
+      accesibles.'
+    broader: sb:SMBS03SBII
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBII.4
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBII.4
+    definition: Utilización de Tecnologías de la información geográfica.
+    broader: sb:SMBS03SBII
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBII.5
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBII.5
+    definition: 'Análisis e interpretación de conceptos espaciales: localización, escala, conexión y proximidad espacial.'
+    broader: sb:SMBS03SBII
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBV.1
+  accion: eliminar
+- nodo: sb:SMBS03SBV.1.1
+  accion: eliminar
+- nodo: sb:SMBS03SBV.1.2
+  accion: eliminar
+- nodo: sb:SMBS03SBV.1.3
+  accion: eliminar
+- nodo: sb:SMBS03SBV.1.4
+  accion: eliminar
+- nodo: sb:SMBS03SBV.2
+  accion: eliminar
+- nodo: sb:SMBS03SBV.2.1
+  accion: eliminar
+- nodo: sb:SMBS03SBV.2.2
+  accion: eliminar
+- nodo: sb:SMBS03SBV.2.3
+  accion: eliminar
+- nodo: sb:SMBS03SBV.2.4
+  accion: eliminar
+- nodo: sb:SMBS03SBV.3
+  accion: eliminar
+- nodo: sb:SMBS03SBV.3.1
+  accion: eliminar
+- nodo: sb:SMBS03SBV.3.2
+  accion: eliminar
+- nodo: sb:SMBS03SBV.3.3
+  accion: eliminar
+- nodo: sb:SMBS03SBV.3.4
+  accion: eliminar
+- nodo: sb:SMBS03SBV.3.5
+  accion: eliminar
+- nodo: sb:SMBS03SBV.4
+  accion: eliminar
+- nodo: sb:SMBS03SBV.4.1
+  accion: eliminar
+- nodo: sb:SMBS03SBV.4.2
+  accion: eliminar
+- nodo: sb:SMBS03SBV.4.3
+  accion: eliminar
+- nodo: sb:SMBS03SBV.4.4
+  accion: eliminar
+- nodo: sb:SMBS03SBV.4.5
+  accion: eliminar
+- nodo: sb:SMBS03SBV.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBV.1
+    definition: 'Desarrollo sostenible global y local:'
+    broader: sb:SMBS03SBV
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBV.1.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBV.1.1
+    definition: Reflexión y valoración de la globalización, de los movimientos migratorios y de la interculturalidad. Los
+      avances tecnológicos y la conciencia ecosocial.
+    broader: sb:SMBS03SBV.1
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBV.1.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBV.1.2
+    definition: Reflexión sobre la diversidad social, étnico-cultural y de género. Migraciones, multiculturalidad y mestizaje
+      en sociedades abiertas. Nuevas formas de identificación cultural.
+    broader: sb:SMBS03SBV.1
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBV.1.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBV.1.3
+    definition: Estudio de los desafíos pasados, actuales y futuros de la actual sociedad canaria. De la fragmentación insular
+      al mundo globalizado.
+    broader: sb:SMBS03SBV.1
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBV.1.4
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBV.1.4
+    definition: 'El compromiso y la acción ante los Objetivos del Desarrollo Sostenible en Canarias y su concreción en la
+      Agenda Canaria de Desarrollo Sostenible (ACDS) 2030: la juventud como agente de cambio para el desarrollo sostenible.'
+    broader: sb:SMBS03SBV.1
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBV.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBV.2
+    definition: 'El proceso de construcción europea:'
+    broader: sb:SMBS03SBV
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBV.2.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBV.2.1
+    definition: Reflexión sobre el proceso de integración económica, monetaria y ciudadana.
+    broader: sb:SMBS03SBV.2
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBV.2.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBV.2.2
+    definition: Tratamiento diferenciado de Canarias como región ultraperiférica.
+    broader: sb:SMBS03SBV.2
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBV.2.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBV.2.3
+    definition: Identificación de las fórmulas de participación en programas educativos europeos.
+    broader: sb:SMBS03SBV.2
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBV.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBV.3
+    definition: 'La democracia:'
+    broader: sb:SMBS03SBV
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBV.3.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBV.3.1
+    definition: Valoración de la ley como contrato social.
+    broader: sb:SMBS03SBV.3
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBV.3.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBV.3.2
+    definition: Conocimiento del Estatuto de Autonomía de Canarias.
+    broader: sb:SMBS03SBV.3
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBV.4
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBV.4
+    definition: 'Compromiso cívico y participación ciudadana:'
+    broader: sb:SMBS03SBV
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBV.4.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBV.4.1
+    definition: Reflexión sobre la conquista de derechos en las sociedades democráticas contemporáneas.
+    broader: sb:SMBS03SBV.4
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBV.4.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBV.4.2
+    definition: Valoración de la mediación y gestión pacífica de conflictos, y apoyo a las víctimas de violencia y terrorismo.
+    broader: sb:SMBS03SBV.4
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBV.4.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBV.4.3
+    definition: Medidas y acciones en favor de la igualdad entre hombres y mujeres, y de la plena inclusión.
+    broader: sb:SMBS03SBV.4
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBV.4.4
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBV.4.4
+    definition: La mujer en la sociedad canaria a lo largo de la historia. Movimientos obreros, estudiantiles, ecologistas
+      y LGTBI+.
+    broader: sb:SMBS03SBV.4
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBV.4.5
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBV.4.5
+    definition: Identificación de situaciones de discriminación por motivo de diversidad sexual y de género en los ámbitos
+      escolar, social y laboral.
+    broader: sb:SMBS03SBV.4
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBVII.1
+  accion: eliminar
+- nodo: sb:SMBS03SBVII.1.1
+  accion: eliminar
+- nodo: sb:SMBS03SBVII.1.2
+  accion: eliminar
+- nodo: sb:SMBS03SBVII.1.3
+  accion: eliminar
+- nodo: sb:SMBS03SBVII.1.4
+  accion: eliminar
+- nodo: sb:SMBS03SBVII.1.5
+  accion: eliminar
+- nodo: sb:SMBS03SBVII.2
+  accion: eliminar
+- nodo: sb:SMBS03SBVII.2.1
+  accion: eliminar
+- nodo: sb:SMBS03SBVII.2.2
+  accion: eliminar
+- nodo: sb:SMBS03SBVII.2.3
+  accion: eliminar
+- nodo: sb:SMBS03SBVII.2.4
+  accion: eliminar
+- nodo: sb:SMBS03SBVII.2.5
+  accion: eliminar
+- nodo: sb:SMBS03SBVII.3
+  accion: eliminar
+- nodo: sb:SMBS03SBVII.3.1
+  accion: eliminar
+- nodo: sb:SMBS03SBVII.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBVII.1
+    definition: 'Interpretación del territorio y del paisaje:'
+    broader: sb:SMBS03SBVII
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBVII.1.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBVII.1.1
+    definition: Reflexión crítica del éxodo rural a la concentración urbana y el problema de la despoblación rural.
+    broader: sb:SMBS03SBVII.1
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBVII.1.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBVII.1.2
+    definition: Conocimiento de la ordenación del territorio y transformación del espacio.
+    broader: sb:SMBS03SBVII.1
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBVII.1.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBVII.1.3
+    definition: Reconocimiento de la huella humana y valoración de la necesidad de protección del medio natural. Conocimiento
+      de la Red Canaria de Espacios Naturales Protegidos.
+    broader: sb:SMBS03SBVII.1
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBVII.1.4
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBVII.1.4
+    definition: Indagación sobre el paisaje agrario y el patrimonio rural en Canarias, sobre la economía y sociedad, y sobre
+      las transformaciones del territorio hasta la actualidad.
+    broader: sb:SMBS03SBVII.1
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBVII.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBVII.2
+    definition: 'Implicación en la defensa y protección del medioambiente:'
+    broader: sb:SMBS03SBVII
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBVII.2.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBVII.2.1
+    definition: Acción y posición ante la emergencia climática.
+    broader: sb:SMBS03SBVII.2
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBVII.2.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBVII.2.2
+    definition: Identificación de estilos de vida para favorecer el modelo de isla sostenible en Canarias.
+    broader: sb:SMBS03SBVII.2
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBVII.2.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBVII.2.3
+    definition: Análisis del impacto paisajístico, social, económico y cultural del turismo en Canarias. Desarrollo, crisis
+      y alternativas.
+    broader: sb:SMBS03SBVII.2
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBVII.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBVII.3
+    definition: 'La transformación humana del territorio y la distribución desigual de los recursos y del trabajo:'
+    broader: sb:SMBS03SBVII
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS03SBVII.3.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS03SBVII.3.1
+    definition: Evolución de los sistemas económicos y de los ciclos demográficos.
+    broader: sb:SMBS03SBVII.3
+    materia: materia:SMBS
+    curso: curso:S03
+    etapa: etapa:ESO
+- nodo: sb:SMBS04SBII.1
+  accion: eliminar
+- nodo: sb:SMBS04SBII.2
+  accion: eliminar
+- nodo: sb:SMBS04SBII.3
+  accion: eliminar
+- nodo: sb:SMBS04SBII.4
+  accion: eliminar
+- nodo: sb:SMBS04SBII.5
+  accion: eliminar
+- nodo: sb:SMBS04SBII.6
+  accion: eliminar
+- nodo: sb:SMBS04SBII.7
+  accion: eliminar
+- nodo: sb:SMBS04SBII.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS04SBII.1
+    definition: 'Alfabetización mediática e informacional: búsqueda y selección de la información con criterios de fiabilidad,
+      calidad y pertinencia; análisis, valoración, reorganización y síntesis de la información en esquemas propios y transformación
+      en conocimiento; comunicación y difusión de manera creativa y respetuosa con la propiedad intelectual. Utilización autónoma
+      de dispositivos digitales, herramientas tecnológicas y plataformas virtuales para la realización de proyectos escolares.'
+    broader: sb:SMBS04SBII
+    materia: materia:SMBS
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SMBS04SBII.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS04SBII.2
+    definition: Valoración de los nuevos comportamientos en la sociedad de la información y de la implicación ética de los
+      medios de comunicación y las redes sociales, y el problema de la desinformación.
+    broader: sb:SMBS04SBII
+    materia: materia:SMBS
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SMBS04SBII.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS04SBII.3
+    definition: 'Utilización de técnicas y métodos de las Ciencias Sociales: análisis de textos, interpretación y elaboración
+      de mapas, esquemas y síntesis, representación de gráficos e interpretación de imágenes a través de medios digitales
+      accesibles.'
+    broader: sb:SMBS04SBII
+    materia: materia:SMBS
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SMBS04SBII.4
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS04SBII.4
+    definition: 'Tiempo histórico: construcción e interpretación de líneas del tiempo a través de la linealidad, cronología,
+      simultaneidad y duración.'
+    broader: sb:SMBS04SBII
+    materia: materia:SMBS
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SMBS04SBII.5
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS04SBII.5
+    definition: Utilización de metodologías del pensamiento histórico.
+    broader: sb:SMBS04SBII
+    materia: materia:SMBS
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SMBS04SBVI.1
+  accion: eliminar
+- nodo: sb:SMBS04SBVI.2
+  accion: eliminar
+- nodo: sb:SMBS04SBVI.2.1
+  accion: eliminar
+- nodo: sb:SMBS04SBVI.2.2
+  accion: eliminar
+- nodo: sb:SMBS04SBVI.2.3
+  accion: eliminar
+- nodo: sb:SMBS04SBVI.2.4
+  accion: eliminar
+- nodo: sb:SMBS04SBVI.3
+  accion: eliminar
+- nodo: sb:SMBS04SBVI.4
+  accion: eliminar
+- nodo: sb:SMBS04SBVI.5
+  accion: eliminar
+- nodo: sb:SMBS04SBVI.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS04SBVI.1
+    definition: Valoración del patrimonio como bien y como recurso. Puesta en valor, difusión y gestión de la riqueza patrimonial,
+      singularmente de Canarias.
+    broader: sb:SMBS04SBVI
+    materia: materia:SMBS
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SMBS04SBVI.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS04SBVI.2
+    definition: 'Conocimiento y valoración de la diversidad lingüística como riqueza patrimonial:'
+    broader: sb:SMBS04SBVI
+    materia: materia:SMBS
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SMBS04SBVI.2.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS04SBVI.2.1
+    definition: Análisis de la biografía lingüística propia y de la diversidad lingüística del centro.
+    broader: sb:SMBS04SBVI.2
+    materia: materia:SMBS
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SMBS04SBVI.2.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS04SBVI.2.2
+    definition: Análisis del desarrollo sociohistórico de las lenguas de España.
+    broader: sb:SMBS04SBVI.2
+    materia: materia:SMBS
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SMBS04SBVI.2.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS04SBVI.2.3
+    definition: Explicación de rasgos de las principales variedades dialectales del español a partir de las del español de
+      Canarias.
+    broader: sb:SMBS04SBVI.2
+    materia: materia:SMBS
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SMBS04SBVI.2.4
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS04SBVI.2.4
+    definition: Reconocimiento y explicación de las diferencias entre los rasgos propios de las variedades dialectales (fónicos,
+      gramaticales y léxicos), y los relativos a los sociolectos y los registros.
+    broader: sb:SMBS04SBVI.2
+    materia: materia:SMBS
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SMBS04SBVI.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS04SBVI.3
+    definition: Estrategias para la identificación de los fundamentos del proceso de transformación de la España y Canarias
+      contemporáneas, y para la contextualización y explicación de los aspectos políticos, económicos, sociales y culturales
+      en la formación de una identidad multicultural compartida.
+    broader: sb:SMBS04SBVI
+    materia: materia:SMBS
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SMBS04SBVII.1
+  accion: eliminar
+- nodo: sb:SMBS04SBVII.1.1
+  accion: eliminar
+- nodo: sb:SMBS04SBVII.2
+  accion: eliminar
+- nodo: sb:SMBS04SBVII.2.1
+  accion: eliminar
+- nodo: sb:SMBS04SBVII.3
+  accion: eliminar
+- nodo: sb:SMBS04SBVII.3.1
+  accion: eliminar
+- nodo: sb:SMBS04SBVII.4
+  accion: eliminar
+- nodo: sb:SMBS04SBVII.4.1
+  accion: eliminar
+- nodo: sb:SMBS04SBVII.5
+  accion: eliminar
+- nodo: sb:SMBS04SBVII.5.1
+  accion: eliminar
+- nodo: sb:SMBS04SBVII.5.2
+  accion: eliminar
+- nodo: sb:SMBS04SBVII.6
+  accion: eliminar
+- nodo: sb:SMBS04SBVII.6.1
+  accion: eliminar
+- nodo: sb:SMBS04SBVII.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS04SBVII.1
+    definition: 'Conciencia histórica:'
+    broader: sb:SMBS04SBVII
+    materia: materia:SMBS
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SMBS04SBVII.1.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS04SBVII.1.1
+    definition: Elaboración de juicios propios y argumentados ante problemas de actualidad contextualizados históricamente.
+      Defensa y exposición crítica de los mismos a través de presentaciones y debates.
+    broader: sb:SMBS04SBVII.1
+    materia: materia:SMBS
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SMBS04SBVII.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS04SBVII.2
+    definition: 'El Atlántico a través de Canarias:'
+    broader: sb:SMBS04SBVII
+    materia: materia:SMBS
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SMBS04SBVII.2.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS04SBVII.2.1
+    definition: La posición geoestratégica de Canarias en el Atlántico.
+    broader: sb:SMBS04SBVII.2
+    materia: materia:SMBS
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SMBS04SBVII.2.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS04SBVII.2.2
+    definition: Indagación sobre las relaciones históricas, económicas, sociales y culturales de Canarias con África y América.
+    broader: sb:SMBS04SBVII.2
+    materia: materia:SMBS
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SMBS04SBVII.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS04SBVII.3
+    definition: 'La acción de los movimientos feministas y sufragistas en la lucha por la igualdad de género:'
+    broader: sb:SMBS04SBVII
+    materia: materia:SMBS
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SMBS04SBVII.3.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SMBS04SBVII.3.1
+    definition: Investigación sobre las mujeres relevantes de la historia contemporánea.
+    broader: sb:SMBS04SBVII.3
+    materia: materia:SMBS
+    curso: curso:S04
+    etapa: etapa:ESO

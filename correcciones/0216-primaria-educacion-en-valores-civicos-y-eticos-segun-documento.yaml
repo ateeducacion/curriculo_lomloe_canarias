@@ -1,0 +1,464 @@
+id: '0216'
+titulo: 'Educación en Valores Cívicos y Éticos (Educación Primaria): 18 diferencias corregidas con el documento oficial'
+motivo: 'Diferencias que el contraste no explicaba con el BOC. Criterio aprobado: el ODT oficial de la web de currículos es
+  la referencia y el corpus debe reflejarlo. Se rehacen con los saberes y la numeración del documento los bloques PEDK05SBII,
+  PEDK06SBII, en los que faltaban o sobraban saberes. Tipos: descriptores de bloque distinto; descriptores de criterio distinto;
+  falta en el corpus: texto de saber; nodo del corpus que no está en el documento; texto de saber distinto.'
+fuente:
+  documento: primaria-educacion-en-valores-civicos-y-eticos
+  fichero: fuentes/documentos/primaria/anexo_2_curriculo-valores-civicos-eticos.odt
+  sha256: 0e00f8a233f117bfeea46281a3a2957409e6786cae26ab573e82e4785616e770
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: crit:PEDK05CE1.2
+  campo: descriptores
+  valor: &id001
+  - CCL1
+  - CCL3
+  - CD1
+  - CD4
+  - CPSAA4
+  - CC1
+  - CC2
+  - CC3
+- nodo: bc:PEDK05BC1
+  campo: descriptores
+  valor:
+  - CCL1
+  - CCL3
+  - CD1
+  - CD4
+  - CPSAA5
+  - CC1
+  - CC2
+  - CC3
+  - CPSAA4
+- nodo: crit:PEDK05CE2.4
+  campo: descriptores
+  valor: &id002
+  - CCL5
+  - CC1
+  - CC2
+  - CC3
+  - CE1
+  - CE2
+- nodo: sb:PEDK05SBI.3
+  campo: definition
+  valor: Reconocimiento y gestión de las emociones y los sentimientos, con especial atención al desarrollo de la autoestima.
+- nodo: sb:PEDK05SBI.9
+  campo: definition
+  valor: Conocimiento de la influencia y el uso crítico y responsable de los medios y las redes de comunicación para prevenir
+    conductas adictivas, el abuso y el ciberacoso. Respeto a la intimidad y reconocimiento de los límites a la libertad de
+    expresión en entornos digitales.
+- nodo: crit:PEDK06CE1.2
+  campo: descriptores
+  valor: *id001
+- nodo: bc:PEDK06BC1
+  campo: descriptores
+  valor:
+  - CCL1
+  - CCL3
+  - CD1
+  - CD4
+  - CPSAA5
+  - CC1
+  - CC2
+  - CC3
+  - CPSAA4
+- nodo: crit:PEDK06CE2.4
+  campo: descriptores
+  valor: *id002
+- nodo: sb:PEDK06SBI.3
+  campo: definition
+  valor: Reconocimiento y gestión de las emociones y los sentimientos, con especial atención al desarrollo de la autoestima.
+- nodo: sb:PEDK06SBI.9
+  campo: definition
+  valor: Conocimiento de la influencia y el uso crítico y responsable de los medios y las redes de comunicación para prevenir
+    conductas adictivas, el abuso y el ciberacoso. Respeto a la intimidad y reconocimiento de los límites a la libertad de
+    expresión en entornos digitales.
+- nodo: sb:PEDK05SBII.1
+  accion: eliminar
+- nodo: sb:PEDK05SBII.1.1
+  accion: eliminar
+- nodo: sb:PEDK05SBII.2
+  accion: eliminar
+- nodo: sb:PEDK05SBII.2.1
+  accion: eliminar
+- nodo: sb:PEDK05SBII.2.2
+  accion: eliminar
+- nodo: sb:PEDK05SBII.2.3
+  accion: eliminar
+- nodo: sb:PEDK05SBII.3
+  accion: eliminar
+- nodo: sb:PEDK05SBII.3.1
+  accion: eliminar
+- nodo: sb:PEDK05SBII.3.2
+  accion: eliminar
+- nodo: sb:PEDK05SBII.3.3
+  accion: eliminar
+- nodo: sb:PEDK05SBII.3.4
+  accion: eliminar
+- nodo: sb:PEDK05SBII.3.5
+  accion: eliminar
+- nodo: sb:PEDK05SBII.3.6
+  accion: eliminar
+- nodo: sb:PEDK05SBII.3.7
+  accion: eliminar
+- nodo: sb:PEDK05SBII.3.8
+  accion: eliminar
+- nodo: sb:PEDK05SBII.3.9
+  accion: eliminar
+- nodo: sb:PEDK05SBII.3.10
+  accion: eliminar
+- nodo: sb:PEDK05SBII.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK05SBII.1
+    definition: Sociedad
+    broader: sb:PEDK05SBII
+    materia: materia:PVAL
+    curso: curso:P05
+    etapa: etapa:PRI
+- nodo: sb:PEDK05SBII.1.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK05SBII.1.1
+    definition: Valoración de la empatía, los afectos, la familia, la amistad y el amor como fundamentos de la vida en sociedad.
+    broader: sb:PEDK05SBII.1
+    materia: materia:PVAL
+    curso: curso:P05
+    etapa: etapa:PRI
+- nodo: sb:PEDK05SBII.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK05SBII.2
+    definition: Democracia
+    broader: sb:PEDK05SBII
+    materia: materia:PVAL
+    curso: curso:P05
+    etapa: etapa:PRI
+- nodo: sb:PEDK05SBII.2.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK05SBII.2.1
+    definition: Reconocimiento de las virtudes del diálogo y las normas de la argumentación para la toma democrática de decisiones.
+    broader: sb:PEDK05SBII.2
+    materia: materia:PVAL
+    curso: curso:P05
+    etapa: etapa:PRI
+- nodo: sb:PEDK05SBII.2.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK05SBII.2.2
+    definition: Comprensión de los principios y valores constitucionales y democráticos. Reflexión sobre el problema de la
+      justicia.
+    broader: sb:PEDK05SBII.2
+    materia: materia:PVAL
+    curso: curso:P05
+    etapa: etapa:PRI
+- nodo: sb:PEDK05SBII.2.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK05SBII.2.3
+    definition: Reconocimiento de la desigualdad económica con especial atención a las características propias de la economía
+      en Canarias.
+    broader: sb:PEDK05SBII.2
+    materia: materia:PVAL
+    curso: curso:P05
+    etapa: etapa:PRI
+- nodo: sb:PEDK05SBII.2.4
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK05SBII.2.4
+    definition: Uso de las reglas de convivencia acorde con la moralidad, legalidad y conducta cívica.
+    broader: sb:PEDK05SBII.2
+    materia: materia:PVAL
+    curso: curso:P05
+    etapa: etapa:PRI
+- nodo: sb:PEDK05SBII.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK05SBII.3
+    definition: Justicia
+    broader: sb:PEDK05SBII
+    materia: materia:PVAL
+    curso: curso:P05
+    etapa: etapa:PRI
+- nodo: sb:PEDK05SBII.3.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK05SBII.3.1
+    definition: Conocimiento de los derechos humanos y de la infancia y su relevancia ética.
+    broader: sb:PEDK05SBII.3
+    materia: materia:PVAL
+    curso: curso:P05
+    etapa: etapa:PRI
+- nodo: sb:PEDK05SBII.3.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK05SBII.3.2
+    definition: 'Análisis de la pobreza: sus causas y búsqueda de soluciones locales y globales. La explotación infantil y
+      la explotación laboral.'
+    broader: sb:PEDK05SBII.3
+    materia: materia:PVAL
+    curso: curso:P05
+    etapa: etapa:PRI
+- nodo: sb:PEDK05SBII.3.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK05SBII.3.3
+    definition: Promoción de la igualdad y la corresponsabilidad entre mujeres y hombres, a través de conductas no sexistas
+      para la prevención de los abusos y la violencia de género.
+    broader: sb:PEDK05SBII.3
+    materia: materia:PVAL
+    curso: curso:P05
+    etapa: etapa:PRI
+- nodo: sb:PEDK05SBII.3.4
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK05SBII.3.4
+    definition: Fomento del respeto por las minorías y las identidades etnoculturales, reconociendo la relevancia de la interculturalidad
+      y las migraciones en la sociedad canaria.
+    broader: sb:PEDK05SBII.3
+    materia: materia:PVAL
+    curso: curso:P05
+    etapa: etapa:PRI
+- nodo: sb:PEDK05SBII.3.5
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK05SBII.3.5
+    definition: Aplicación de la resolución pacífica de conflictos para fomentar la cultura de paz y no violencia.
+    broader: sb:PEDK05SBII.3
+    materia: materia:PVAL
+    curso: curso:P05
+    etapa: etapa:PRI
+- nodo: sb:PEDK05SBII.3.6
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK05SBII.3.6
+    definition: Conocimiento de la contribución del Estado y sus instituciones a la paz, la seguridad y la cooperación internacional
+      como base para la seguridad integral de la ciudadanía.
+    broader: sb:PEDK05SBII.3
+    materia: materia:PVAL
+    curso: curso:P05
+    etapa: etapa:PRI
+- nodo: sb:PEDK05SBII.3.7
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK05SBII.3.7
+    definition: Potenciación de un compromiso cívico y solidario al servicio de la paz. La protección civil y la colaboración
+      ciudadana frente a los desastres ecosociales, reconociendo el papel de las ONG y ONGD especialmente aquellas que actúan
+      en La Comunidad Autónoma de Canarias.
+    broader: sb:PEDK05SBII.3
+    materia: materia:PVAL
+    curso: curso:P05
+    etapa: etapa:PRI
+- nodo: sb:PEDK06SBII.1
+  accion: eliminar
+- nodo: sb:PEDK06SBII.1.1
+  accion: eliminar
+- nodo: sb:PEDK06SBII.2
+  accion: eliminar
+- nodo: sb:PEDK06SBII.2.1
+  accion: eliminar
+- nodo: sb:PEDK06SBII.2.2
+  accion: eliminar
+- nodo: sb:PEDK06SBII.2.3
+  accion: eliminar
+- nodo: sb:PEDK06SBII.3
+  accion: eliminar
+- nodo: sb:PEDK06SBII.3.1
+  accion: eliminar
+- nodo: sb:PEDK06SBII.3.2
+  accion: eliminar
+- nodo: sb:PEDK06SBII.3.3
+  accion: eliminar
+- nodo: sb:PEDK06SBII.3.4
+  accion: eliminar
+- nodo: sb:PEDK06SBII.3.5
+  accion: eliminar
+- nodo: sb:PEDK06SBII.3.6
+  accion: eliminar
+- nodo: sb:PEDK06SBII.3.7
+  accion: eliminar
+- nodo: sb:PEDK06SBII.3.8
+  accion: eliminar
+- nodo: sb:PEDK06SBII.3.9
+  accion: eliminar
+- nodo: sb:PEDK06SBII.3.10
+  accion: eliminar
+- nodo: sb:PEDK06SBII.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK06SBII.1
+    definition: Sociedad
+    broader: sb:PEDK06SBII
+    materia: materia:PVAL
+    curso: curso:P06
+    etapa: etapa:PRI
+- nodo: sb:PEDK06SBII.1.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK06SBII.1.1
+    definition: Valoración de la empatía, los afectos, la familia, la amistad y el amor como fundamentos de la vida en sociedad.
+    broader: sb:PEDK06SBII.1
+    materia: materia:PVAL
+    curso: curso:P06
+    etapa: etapa:PRI
+- nodo: sb:PEDK06SBII.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK06SBII.2
+    definition: Democracia
+    broader: sb:PEDK06SBII
+    materia: materia:PVAL
+    curso: curso:P06
+    etapa: etapa:PRI
+- nodo: sb:PEDK06SBII.2.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK06SBII.2.1
+    definition: Reconocimiento de las virtudes del diálogo y las normas de la argumentación para la toma democrática de decisiones.
+    broader: sb:PEDK06SBII.2
+    materia: materia:PVAL
+    curso: curso:P06
+    etapa: etapa:PRI
+- nodo: sb:PEDK06SBII.2.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK06SBII.2.2
+    definition: Comprensión de los principios y valores constitucionales y democráticos. Reflexión sobre el problema de la
+      justicia.
+    broader: sb:PEDK06SBII.2
+    materia: materia:PVAL
+    curso: curso:P06
+    etapa: etapa:PRI
+- nodo: sb:PEDK06SBII.2.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK06SBII.2.3
+    definition: Reconocimiento de la desigualdad económica con especial atención a las características propias de la economía
+      en Canarias.
+    broader: sb:PEDK06SBII.2
+    materia: materia:PVAL
+    curso: curso:P06
+    etapa: etapa:PRI
+- nodo: sb:PEDK06SBII.2.4
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK06SBII.2.4
+    definition: Uso de las reglas de convivencia acorde con la moralidad, legalidad y conducta cívica.
+    broader: sb:PEDK06SBII.2
+    materia: materia:PVAL
+    curso: curso:P06
+    etapa: etapa:PRI
+- nodo: sb:PEDK06SBII.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK06SBII.3
+    definition: Justicia
+    broader: sb:PEDK06SBII
+    materia: materia:PVAL
+    curso: curso:P06
+    etapa: etapa:PRI
+- nodo: sb:PEDK06SBII.3.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK06SBII.3.1
+    definition: Conocimiento de los derechos humanos y de la infancia y su relevancia ética.
+    broader: sb:PEDK06SBII.3
+    materia: materia:PVAL
+    curso: curso:P06
+    etapa: etapa:PRI
+- nodo: sb:PEDK06SBII.3.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK06SBII.3.2
+    definition: 'Análisis de la pobreza: sus causas y búsqueda de soluciones locales y globales. La explotación infantil y
+      la explotación laboral.'
+    broader: sb:PEDK06SBII.3
+    materia: materia:PVAL
+    curso: curso:P06
+    etapa: etapa:PRI
+- nodo: sb:PEDK06SBII.3.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK06SBII.3.3
+    definition: Promoción de la igualdad y la corresponsabilidad entre mujeres y hombres, a través de conductas no sexistas
+      para la prevención de los abusos y la violencia de género.
+    broader: sb:PEDK06SBII.3
+    materia: materia:PVAL
+    curso: curso:P06
+    etapa: etapa:PRI
+- nodo: sb:PEDK06SBII.3.4
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK06SBII.3.4
+    definition: Fomento del respeto por las minorías y las identidades etnoculturales, reconociendo la relevancia de la interculturalidad
+      y las migraciones en la sociedad canaria.
+    broader: sb:PEDK06SBII.3
+    materia: materia:PVAL
+    curso: curso:P06
+    etapa: etapa:PRI
+- nodo: sb:PEDK06SBII.3.5
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK06SBII.3.5
+    definition: Aplicación de la resolución pacífica de conflictos para fomentar la cultura de paz y no violencia.
+    broader: sb:PEDK06SBII.3
+    materia: materia:PVAL
+    curso: curso:P06
+    etapa: etapa:PRI
+- nodo: sb:PEDK06SBII.3.6
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK06SBII.3.6
+    definition: Conocimiento de la contribución del Estado y sus instituciones a la paz, la seguridad y la cooperación internacional
+      como base para la seguridad integral de la ciudadanía.
+    broader: sb:PEDK06SBII.3
+    materia: materia:PVAL
+    curso: curso:P06
+    etapa: etapa:PRI
+- nodo: sb:PEDK06SBII.3.7
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PEDK06SBII.3.7
+    definition: Potenciación de un compromiso cívico y solidario al servicio de la paz. La protección civil y la colaboración
+      ciudadana frente a los desastres ecosociales, reconociendo el papel de las ONG y ONGD especialmente aquellas que actúan
+      en La Comunidad Autónoma de Canarias.
+    broader: sb:PEDK06SBII.3
+    materia: materia:PVAL
+    curso: curso:P06
+    etapa: etapa:PRI

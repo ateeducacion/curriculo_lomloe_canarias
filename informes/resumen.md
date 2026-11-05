@@ -11,9 +11,9 @@
 | BloqueCompetencial | 1318 |
 | CriterioEvaluacion | 3137 |
 | BloqueSaberes | 1047 |
-| SaberBasico | 8763 |
+| SaberBasico | 8743 |
 
-**Total:** 15229
+**Total:** 15209
 
 ## Incidencias
 
@@ -26,7 +26,7 @@
 | aviso | codigo_saber_reconstruido | 43 |
 | aviso | encabezado_no_corresponde | 83 |
 | aviso | encabezado_sin_texto | 3 |
-| aviso | explicacion_repetida_entre_cursos | 186 |
+| aviso | explicacion_repetida_entre_cursos | 185 |
 | aviso | registro_repetido | 1 |
 | aviso | saber_con_hijos | 51 |
 | aviso | saber_sin_numeracion | 1 |
@@ -248,3 +248,26 @@
 | 0208-bachillerato-bioestadistica-textos-cortados.yaml | aprobada | 1 | Bioestadística (Bachillerato): 1 textos cortados en la exportación |
 | 0209-bachillerato-fundamentos-de-administracion-y-gestion-textos-cortados.yaml | aprobada | 1 | Fundamentos de Administración y Gestión (Bachillerato): 1 textos cortados en la exportación |
 | 0210-bachillerato-medio-natural-canario-textos-cortados.yaml | aprobada | 1 | Medio Natural Canario (Bachillerato): 1 textos cortados en la exportación |
+| 0211-eso-cultura-y-ciudadania-digital-segun-documento.yaml | aprobada | 1 | Cultura y Ciudadanía Digital (Educación Secundaria Obligatoria): 1 diferencias corregidas con el documento oficial |
+| 0212-eso-ambito-linguistico-y-social-segun-documento.yaml | aprobada | 159 | Ámbito Lingüístico y Social (Educación Secundaria Obligatoria): 19 diferencias corregidas con el documento oficial |
+| 0213-eso-ambito-cientifico-tecnologico-segun-documento.yaml | aprobada | 7 | Ámbito Científico-Tecnológico (Educación Secundaria Obligatoria): 7 diferencias corregidas con el documento oficial |
+| 0214-eso-ambito-practico-segun-documento.yaml | aprobada | 12 | Ámbito Práctico (Educación Secundaria Obligatoria): 4 diferencias corregidas con el documento oficial |
+| 0215-primaria-conocimiento-del-medio-natural-social-y-cultural-segun-documento.yaml | aprobada | 12 | Conocimiento del Medio Natural, Social y Cultural (Educación Primaria): 12 diferencias corregidas con el documento oficial |
+| 0216-primaria-educacion-en-valores-civicos-y-eticos-segun-documento.yaml | aprobada | 74 | Educación en Valores Cívicos y Éticos (Educación Primaria): 18 diferencias corregidas con el documento oficial |
+| 0217-primaria-educacion-fisica-segun-documento.yaml | aprobada | 6 | Educación Física (Educación Primaria): 6 diferencias corregidas con el documento oficial |
+| 0218-primaria-lengua-castellana-y-literatura-segun-documento.yaml | aprobada | 4 | Lengua Castellana y Literatura (Educación Primaria): 4 diferencias corregidas con el documento oficial |
+| 0219-primaria-lengua-extranjera-segun-documento.yaml | aprobada | 14 | Lengua Extranjera (Educación Primaria): 14 diferencias corregidas con el documento oficial |
+| 0220-primaria-educacion-emocional-y-para-la-creatividad-segun-documento.yaml | aprobada | 8 | Educación Emocional y para la Creatividad (Educación Primaria): 8 diferencias corregidas con el documento oficial |
+| 0221-primaria-matematicas-segun-documento.yaml | aprobada | 155 | Matemáticas (Educación Primaria): 5 diferencias corregidas con el documento oficial |
+| 0222-infantil-descubrimiento-y-exploracion-del-entorno-segun-documento.yaml | aprobada | 3 | Descubrimiento y Exploración del Entorno (Educación Infantil): 3 diferencias corregidas con el documento oficial |
+| 0223-infantil-comunicacion-y-representacion-de-la-realidad-segun-documento.yaml | aprobada | 6 | Comunicación y Representación de la Realidad (Educación Infantil): 6 diferencias corregidas con el documento oficial |
+| 0224-bachillerato-fisica-y-quimica-segun-documento.yaml | aprobada | 1 | Física y Química (Bachillerato): 1 diferencias corregidas con el documento oficial |
+| 0225-bachillerato-bioestadistica-segun-documento.yaml | aprobada | 3 | Bioestadística (Bachillerato): 3 diferencias corregidas con el documento oficial |
+| 0226-bachillerato-fotografia-segun-documento.yaml | aprobada | 1 | Fotografía (Bachillerato): 1 diferencias corregidas con el documento oficial |
+| 0227-bachillerato-fundamentos-de-administracion-y-gestion-segun-documento.yaml | aprobada | 2 | Fundamentos de Administración y Gestión (Bachillerato): 2 diferencias corregidas con el documento oficial |
+| 0228-bachillerato-historia-de-canarias-segun-documento.yaml | aprobada | 1 | Historia de Canarias (Bachillerato): 1 diferencias corregidas con el documento oficial |
+| 0229-bachillerato-iniciacion-a-la-astronomia-segun-documento.yaml | aprobada | 21 | Iniciación a la Astronomía (Bachillerato): 3 diferencias corregidas con el documento oficial |
+| 0230-bachillerato-informatica-y-digitalizacion-i-y-ii-segun-documento.yaml | aprobada | 2 | Informática y Digitalización I y II (Bachillerato): 2 diferencias corregidas con el documento oficial |
+| 0231-bachillerato-literatura-canaria-segun-documento.yaml | aprobada | 9 | Literatura Canaria (Bachillerato): 2 diferencias corregidas con el documento oficial |
+| 0232-bachillerato-medio-natural-canario-segun-documento.yaml | aprobada | 4 | Medio Natural Canario (Bachillerato): 4 diferencias corregidas con el documento oficial |
+| 0233-bachillerato-psicologia-segun-documento.yaml | aprobada | 1 | Psicología (Bachillerato): 1 diferencias corregidas con el documento oficial |

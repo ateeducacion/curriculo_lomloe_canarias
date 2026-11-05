@@ -1,0 +1,33 @@
+id: '0222'
+titulo: 'Descubrimiento y Exploración del Entorno (Educación Infantil): 3 diferencias corregidas con el documento oficial'
+motivo: 'Diferencias que el contraste no explicaba con el BOC. Criterio aprobado: el ODT oficial de la web de currículos es
+  la referencia y el corpus debe reflejarlo. Tipos: descriptores de bloque distinto.'
+fuente:
+  documento: infantil-descubrimiento-y-exploracion-del-entorno
+  fichero: fuentes/documentos/infantil/area_2_descubrimiento_exploracion_entorno_infantil.odt
+  sha256: 3e36658da4d27fa91502e80d267e74b99b6b9817f38feda264134dad996b1772
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: bc:IDE301BC2
+  campo: descriptores
+  valor:
+  - CCL
+  - STEM
+  - CD
+  - CE
+- nodo: bc:IDE302BC2
+  campo: descriptores
+  valor:
+  - CCL
+  - STEM
+  - CD
+  - CE
+- nodo: bc:IDE303BC2
+  campo: descriptores
+  valor:
+  - CCL
+  - STEM
+  - CD
+  - CE
