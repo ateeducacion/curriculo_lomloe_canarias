@@ -56,16 +56,7 @@
     "documento": "eso-economia-y-emprendimiento",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:SEC304BC6",
-        "detalle": "documento: 'El desarrollo de este bloque competencial permitirá constatar si el alumnado es '",
-        "campo": "scopeNote",
-        "esperado": "El desarrollo de este bloque competencial permitirá constatar si el alumnado es capaz de determinar la admisibilidad de las ideas o soluciones emprendedoras dentro de su entorno económico, contrastando la satisfacción de las necesidades detectadas y guiando la toma de decisiones con el empleo de conocimientos económicos y financieros que le permitan reunir y optimizar los recursos necesarios para poner en marcha el proyecto emprendedor. Para la consecución de estos aprendizajes se requiere tener en cuenta, en primer lugar, el problema económico básico que obliga a las personas a tomar decisiones, para lo que se verificará su capacidad para realizar elecciones bajo el prisma de los principios económicos de los costes, el análisis marginal y los incentivos, en función del grado de escasez percibido para cubrir las necesidades y que reflexiona sobre cómo esta toma de decisiones de las personas usuarias, como destinatarias finales del prototipo, afecta a su vez a las empresas. Además, para optimizar la toma de decisiones en los mercados, el alumnado podría también hacer uso de herramientas de estudio del sector y de investigación de las necesidades de los clientes (configuración de motores de búsqueda en internet y redes, mapa de la empatía, entrevistas con clientes, etc.) para descubrir oportunidades y necesidades no cubiertas. En segundo lugar, a través de este bloque competencial se validará la capacidad el alumnado para analizar el funcionamiento económico y financiero de los mercados, con la finalidad de que los conocimientos adquiridos le guíen en la toma de decisiones financieras personales de forma responsable y en la búsqueda y planificación de los recursos necesarios para el desarrollo de las ideas o soluciones emprendedoras, como pudieran ser el funcionamiento del sistema financiero en nuestra sociedad, la descripción del papel de los intermediarios financieros como canalizadores del ahorro hacia las necesidades de inversión de consumidores y de empresas, el papel del dinero en la economía, la determinación del tipo de interés, la reflexión sobre activos digitales como las criptomonedas, etc. Además, se comprobará que valora los principios de interacción social desde un punto de vista macroeconómico y microeconómico, indagando en el papel que desempeñan los agentes económicos dentro de la modelización del flujo circular de la renta y analizando los flujos reales y monetarios que surgen de las relaciones que emanan del funcionamiento de los mercados de bienes y servicios y de factores productivos. En tercer lugar, se verificará que el alumnado esté en disposición de aplicar de forma práctica conocimientos económicos a actividades y situaciones concretas, empleando el pensamiento científico, mediante la interpretación de indicadores, tanto del entorno general o macroeconómico (análisis PESTEL, por ejemplo) como el específico o microeconómico (como el análisis de las estrategias competitivas de Porter), que afectan al proyecto emprendedor propuesto, a partir de otros modelos reales o simulados de referencia, analizando tendencias y oportunidades de negocios en los mercados y en la sociedad, para así ir perfeccionando la solución a los retos actuales de manera eficiente, equitativa y sostenible. Por último, en cuanto a la comprensión de ideas relativas a la dimensión social y ciudadana, la adquisición de los saberes relacionados con la economía colaborativa, la huella ecológica, la economía circular y el bienestar y las desigualdades que genera el comercio conferirán en el alumnado un punto de vista más extenso sobre las relaciones sistémicas de interdependencia, ecodependencia e interconexión entre actuaciones locales y globales, permitiendo constatar que el alumnado es capaz de considerar estos entornos de mayor cooperación global como fuente de búsqueda de nuevas oportunidades dirigidas a tomar decisiones que aporten valor y que favorezcan mejoras en la calidad de vida, mostrando respeto por las normas y el cumplimiento de los derechos y obligaciones de las personas usuarias como consumidoras, los cuales difieren entre países, fruto de las afecciones dispares de las decisiones económicas públicas y privadas.",
-        "explicacion": "el texto del corpus es el publicado en el BOC; el del documento no"
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
     "revisar": [],
     "avisos_documento": [],
@@ -634,94 +625,6 @@
           "crit:PLCL02CE7.2"
         ],
         "explicacion": "el documento trae códigos de descriptor que no existen en la etapa (errata)"
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PLCL05CE8.2",
-        "detalle": "documento: ['CCL1', 'CCL2', 'CCL4', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4']",
-        "campo": "descriptores",
-        "esperado": [
-          "CCL1",
-          "CCL2",
-          "CCL4",
-          "CCEC1",
-          "CCEC2",
-          "CCEC3",
-          "CCEC4"
-        ],
-        "explicacion": "la lista del corpus es la publicada en el BOC; la del documento no"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PLCL05BC8",
-        "detalle": "documento: ['CCL2', 'CCL4', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4', 'CCL1']",
-        "campo": "descriptores",
-        "esperado": [
-          "CCL2",
-          "CCL4",
-          "CCEC1",
-          "CCEC2",
-          "CCEC3",
-          "CCEC4",
-          "CCL1"
-        ],
-        "criterios": [
-          "crit:PLCL05CE8.1",
-          "crit:PLCL05CE8.2"
-        ],
-        "explicacion": "la lista del corpus es la publicada en el BOC; la del documento no"
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:PLCL05SBIV.4",
-        "detalle": "",
-        "campo": null,
-        "esperado": null,
-        "explicacion": "el saber del corpus está publicado en el BOC; falta en el documento"
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PLCL06CE8.2",
-        "detalle": "documento: ['CCL1', 'CCL2', 'CCL4', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4']",
-        "campo": "descriptores",
-        "esperado": [
-          "CCL1",
-          "CCL2",
-          "CCL4",
-          "CCEC1",
-          "CCEC2",
-          "CCEC3",
-          "CCEC4"
-        ],
-        "explicacion": "la lista del corpus es la publicada en el BOC; la del documento no"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PLCL06BC8",
-        "detalle": "documento: ['CCL2', 'CCL4', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4', 'CCL1']",
-        "campo": "descriptores",
-        "esperado": [
-          "CCL2",
-          "CCL4",
-          "CCEC1",
-          "CCEC2",
-          "CCEC3",
-          "CCEC4",
-          "CCL1"
-        ],
-        "criterios": [
-          "crit:PLCL06CE8.1",
-          "crit:PLCL06CE8.2"
-        ],
-        "explicacion": "la lista del corpus es la publicada en el BOC; la del documento no"
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:PLCL06SBIV.4",
-        "detalle": "",
-        "campo": null,
-        "esperado": null,
-        "explicacion": "el saber del corpus está publicado en el BOC; falta en el documento"
       }
     ],
     "huecos": [],
@@ -750,72 +653,7 @@
     "documento": "primaria-educacion-emocional-y-para-la-creatividad",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "título de bloque de saberes distinto",
-        "nodo": "sb:PEUM01SBII",
-        "detalle": "documento: 'Autorregulación emocional responsable y resiliencia educativa'",
-        "campo": "definition",
-        "esperado": "Autorregulación emocional responsable y resiliencia educativa",
-        "explicacion": "la puntuación del corpus es la publicada en el BOC"
-      },
-      {
-        "tipo": "título de bloque de saberes distinto",
-        "nodo": "sb:PEUM01SBIII",
-        "detalle": "documento: 'Empatía, comunicación e interacción socioemocional'",
-        "campo": "definition",
-        "esperado": "Empatía, comunicación e interacción socioemocional",
-        "explicacion": "la puntuación del corpus es la publicada en el BOC"
-      },
-      {
-        "tipo": "título de bloque de saberes distinto",
-        "nodo": "sb:PEUM02SBII",
-        "detalle": "documento: 'Autorregulación emocional responsable y resiliencia educativa'",
-        "campo": "definition",
-        "esperado": "Autorregulación emocional responsable y resiliencia educativa",
-        "explicacion": "la puntuación del corpus es la publicada en el BOC"
-      },
-      {
-        "tipo": "título de bloque de saberes distinto",
-        "nodo": "sb:PEUM02SBIII",
-        "detalle": "documento: 'Empatía, comunicación e interacción socioemocional'",
-        "campo": "definition",
-        "esperado": "Empatía, comunicación e interacción socioemocional",
-        "explicacion": "la puntuación del corpus es la publicada en el BOC"
-      },
-      {
-        "tipo": "título de bloque de saberes distinto",
-        "nodo": "sb:PEUM05SBII",
-        "detalle": "documento: 'Autorregulación emocional responsable y resiliencia educativa'",
-        "campo": "definition",
-        "esperado": "Autorregulación emocional responsable y resiliencia educativa",
-        "explicacion": "la puntuación del corpus es la publicada en el BOC"
-      },
-      {
-        "tipo": "título de bloque de saberes distinto",
-        "nodo": "sb:PEUM05SBIII",
-        "detalle": "documento: 'Empatía, comunicación e interacción socioemocional'",
-        "campo": "definition",
-        "esperado": "Empatía, comunicación e interacción socioemocional",
-        "explicacion": "la puntuación del corpus es la publicada en el BOC"
-      },
-      {
-        "tipo": "título de bloque de saberes distinto",
-        "nodo": "sb:PEUM06SBII",
-        "detalle": "documento: 'Autorregulación emocional responsable y resiliencia educativa'",
-        "campo": "definition",
-        "esperado": "Autorregulación emocional responsable y resiliencia educativa",
-        "explicacion": "la puntuación del corpus es la publicada en el BOC"
-      },
-      {
-        "tipo": "título de bloque de saberes distinto",
-        "nodo": "sb:PEUM06SBIII",
-        "detalle": "documento: 'Empatía, comunicación e interacción socioemocional'",
-        "campo": "definition",
-        "esperado": "Empatía, comunicación e interacción socioemocional",
-        "explicacion": "la puntuación del corpus es la publicada en el BOC"
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
     "revisar": [],
     "avisos_documento": [],
@@ -988,40 +826,7 @@
     "documento": "bachillerato-dibujo-tecnico-i-y-ii",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "enunciado de competencia distinto",
-        "nodo": "ce:BDBTC2",
-        "detalle": "documento: 'Utilizar razonamientos inductivos, deductivos y lógicos en problemas de índole g'",
-        "campo": "definition",
-        "esperado": "Utilizar razonamientos inductivos, deductivos y lógicos en problemas de índole gráfico-matemáticos, aplicando fundamentos de la geometría plana para resolver gráficamente operaciones matemáticas, relaciones, construcciones y transformaciones.",
-        "explicacion": "el texto del corpus es el publicado en el BOC; el del documento no"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:BDBT01CE2.3",
-        "detalle": "documento: 'Trazar gráficamente tangencias y curvas, aplicando sus propiedades con rigor en '",
-        "campo": "definition",
-        "esperado": "Trazar gráficamente tangencias y curvas, aplicando sus propiedades con rigor en su ejecución, utilizando métodos inductivos y deductivos, fortaleciendo la búsqueda de objetivos de forma autónoma y proponiendo ideas creativas, para resolver gráficamente operaciones matemáticas y construcciones básicas de geometría plana.",
-        "explicacion": "el texto del corpus es el publicado en el BOC; el del documento no"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:BDBT01CE4.1",
-        "detalle": "documento: 'Documentar gráficamente objetos sencillos mediante sus vistas acotadas, aplicand'",
-        "campo": "definition",
-        "esperado": "Documentar gráficamente objetos sencillos mediante sus vistas acotadas, aplicando la normativa UNE e ISO en la utilización de sintaxis, escalas y formatos, valorando la importancia de usar un lenguaje técnico común, con la ayuda de formatos digitales, distribuyendo en grupo las tareas y fortaleciendo el optimismo, a fin de reflexionar sobre el proceso realizado para documentar gráficamente proyectos arquitectónicos e ingenieriles.",
-        "explicacion": "el texto del corpus es el publicado en el BOC; el del documento no"
-      },
-      {
-        "tipo": "enunciado de competencia distinto",
-        "nodo": "ce:BDBCC2",
-        "detalle": "documento: 'Utilizar razonamientos inductivos, deductivos y lógicos en problemas de índole g'",
-        "campo": "definition",
-        "esperado": "Utilizar razonamientos inductivos, deductivos y lógicos en problemas de índole gráfico-matemáticos, aplicando fundamentos de la geometría plana para resolver gráficamente operaciones matemáticas, relaciones, construcciones y transformaciones.",
-        "explicacion": "el texto del corpus es el publicado en el BOC; el del documento no"
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
     "revisar": [],
     "avisos_documento": [
@@ -1058,16 +863,7 @@
     "documento": "bachillerato-economia-emprendimiento-y-actividad-empresarial",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:BEC101BC2",
-        "detalle": "documento: 'Con la evaluación de este bloque competencial se comprobará la capacidad del alu'",
-        "campo": "scopeNote",
-        "esperado": "Con la evaluación de este bloque competencial se comprobará la capacidad del alumnado para analizar de forma integral el problema de la escasez económica y sus implicaciones, estudiando la aparición del coste de oportunidad, aplicando los principios económicos en las elecciones entre bienes y servicios en diferentes simulaciones del ámbito personal, social y académico y explicando el valor de uso y de cambio de los bienes, a través de ejemplos como la paradoja del valor. Asimismo, se verificará que valora la relación existente entre escasez, eficiencia y equidad en nuestras sociedades, comparando de forma crítica las características, ventajas e inconvenientes de los distintos sistemas económicos y debatiendo de forma activa e informada sobre las realidades socioeconómicas de distintos países. Seguidamente se constatará que describe cómo los precios orientan las decisiones en el mercado a través de la teoría de la «mano invisible» y que distingue el papel de los agentes en la economía desde la perspectiva del análisis coste-beneficio, utilizando el modelo económico del flujo circular de la renta, para transferir sus conocimientos desde contextos microeconómicos a contextos macroeconómicos, y valorando las distintas implicaciones de los fallos del mercado mediante el estudio de casos prácticos de actualidad contextualizados especialmente en la realidad socioeconómica canaria. Además, se comprobará la capacidad del alumnado para analizar la oferta y la demanda, interpretando cómo y en qué medida las modificaciones en las variables que les afectan provocan cambios en el equilibrio del mercado, estudiando los movimientos y desplazamientos de sus curvas y la elasticidad precio de la demanda y mostrando una actitud crítica acerca del alcance y limitaciones de los métodos empleados. Del mismo modo, a través de la utilización del modelo de demanda agregada y oferta agregada se verificará su capacidad para analizar las situaciones de equilibrio y desequilibrios a corto plazo con relación al nivel general de precios, el pleno empleo de los recursos y el nivel de producción global, y comprendiendo las fluctuaciones de la actividad económica a través de la evolución y análisis estadístico de los principales agregados macroeconómicos, con especial atención a la economía canaria, que justifican la intervención del sector público mediante la aplicación de las políticas económicas para mejorar el empleo, controlar la inflación y lograr el desarrollo económico y el bienestar social. Adicionalmente, la consecución de los aprendizajes de este bloque competencial proporcionará al alumnado una educación financiera básica al facilitarle la información y las herramientas para la necesaria planificación y gestión de la inversión, el ahorro y el consumo. Para ello, se verificará, en primer lugar, que es capaz de explicar la tipología, las funciones y la fijación del precio del dinero en función del riesgo y el beneficio, así como los distintos medios de pago asociados a las transacciones y, en segundo lugar, que describe el entorno financiero, tradicional y de banca online mediante el análisis del papel de los bancos en la economía y la búsqueda de información comparativa en internet de las características y el funcionamiento de los productos financieros y los seguros, y valorando, mediante el estudio de casos prácticos, los beneficios y los factores personales para invertir, así como los riesgos del crédito y del endeudamiento, para contribuir así a la consolidación de su madurez personal y social. Por último, se persigue constatar si el alumnado es capaz, desde otras perspectivas, de valorar el comportamiento humano en el proceso de toma de decisiones económicas para lograr el bienestar, estudiando con actitud crítica textos escritos o multimodales que pongan de manifiesto la relación entre filosofía y economía, interpretando las conexiones entre felicidad, consumo y maximización del bienestar social a través de las teorías éticas del utilitarismo, como las de John Stuart Mill o la paradoja de Easterlin, así como la relación de la economía con la sociología, valorando las conexiones entre bienestar social y calidad de vida, y con la psicología, a través del reconocimiento que del bienestar hace la psicología positiva. Además, se valorará que reflexiona, para construir conocimiento, sobre los fallos de la racionalidad económica en la toma de decisiones de las personas (efectos relatividad, manada, dotación, etc.), sobre la economía del comportamiento, la psicología económica y la teoría de la decisión.",
-        "explicacion": "el texto del corpus es el publicado en el BOC; el del documento no"
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
     "revisar": [],
     "avisos_documento": [
@@ -1079,16 +875,7 @@
     "documento": "bachillerato-educacion-fisica",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "enunciado de competencia distinto",
-        "nodo": "ce:BEFIC3",
-        "detalle": "documento: 'Difundir y promover nuevas prácticas motrices, compartiendo espacios de activida'",
-        "campo": "definition",
-        "esperado": "Difundir y promover nuevas prácticas motrices, compartiendo espacios de actividad físico-deportiva con independencia de las diferencias culturales, sociales, de género y de habilidad, priorizando el respeto hacia los participantes y a las reglas sobre los resultados, adoptando una actitud crítica y proactiva ante comportamientos antideportivos o contrarios a la convivencia y desarrollando procesos de autorregulación emocional que canalicen el fracaso y el éxito en estas situaciones, para contribuir autónomamente al entendimiento social y al compromiso ético en los diferentes espacios en los que se participa, fomentando la detección precoz y el conocimiento de las estrategias para abordar cualquier forma de discriminación o violencia.",
-        "explicacion": "el texto del corpus es el publicado en el BOC; el del documento no"
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
     "revisar": [],
     "avisos_documento": [],
@@ -1456,24 +1243,7 @@
     "documento": "bachillerato-anatomia-aplicada",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:BAAP01BC1",
-        "detalle": "documento: 'A través de este bloque competencial, se comprobará que el alumnado sea capaz de'",
-        "campo": "scopeNote",
-        "esperado": "A través de este bloque competencial, se comprobará que el alumnado sea capaz de analizar, comprender e interpretar la anatomía del sistema locomotor desde un punto de vista funcional, analizando cómo las partes del cuerpo humano forman una unidad bien organizada y cada una de ellas desempeña un papel en el correcto funcionamiento del organismo como un todo; e identificando las estructuras junto a sus funciones cuando se realizan acciones motrices. La comprensión de esta competencia por parte del alumnado le permitirá orientar el proceso creativo necesario para llevar a cabo cualquier tarea motriz o el seguimiento de la misma, a través de recursos digitales o de observación directa. Asimismo, se evaluará si el alumnado es capaz de analizar la relación entre el sistema nervioso y el aparato locomotor. El alumnado analizará la percepción, identificando que se inicia cuando se hace consciente de la existencia de un estímulo procedente de la propia persona o del entorno a través de los sentidos, y reconociéndola como el paso previo a la realización de los ajustes neuromotores necesarios en busca de la respuesta más adecuada. Comprenderá que la ejecución precisa de la valoración de los mecanismos de percepción y decisión para transformarlos en una acción motriz de manera coordinada, y conlleva una secuencia de contracciones y relajaciones a distintas intensidades y de distintos músculos para el desarrollo adecuado de una gestualidad determinada, así como los condicionantes posturales que permitan dicha acción, buscando el mínimo gasto energético y la máxima eficiencia. Este bloque competencial está relacionado con el bloque I de saberes: «Bases de anatomía humana aplicada».",
-        "explicacion": "el texto del corpus es el publicado en el BOC; el del documento no"
-      },
-      {
-        "tipo": "enunciado de competencia distinto",
-        "nodo": "ce:BAAPC2",
-        "detalle": "documento: 'Conocer y valorar el funcionamiento del cuerpo humano como resultado de la integ'",
-        "campo": "definition",
-        "esperado": "Conocer y valorar el funcionamiento del cuerpo humano como resultado de la integración anatómica y fisiológica, identificando los ajustes del sistema cardio-respiratorio y músculo-esquelético, las principales vías metabólicas de aporte energético y los principios de nutrición e hidratación intervinientes en la gestión de la práctica de actividad física, contrastándolo con distintas fuentes de información.",
-        "explicacion": "el texto del corpus es el publicado en el BOC; el del documento no"
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
     "revisar": [],
     "avisos_documento": [],
@@ -1741,16 +1511,7 @@
     "documento": "bachillerato-psicologia",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:BPSI02SBVI.9",
-        "detalle": "",
-        "campo": null,
-        "esperado": null,
-        "explicacion": "el saber del corpus está publicado en el BOC; falta en el documento"
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
     "revisar": [],
     "avisos_documento": [],

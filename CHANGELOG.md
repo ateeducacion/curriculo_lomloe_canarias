@@ -33,6 +33,7 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
 - `contrastar --estricto`: la CI falla si queda alguna diferencia sin explicar.
 - Una corrección con `valor: null` quita el campo.
 - Correcciones 0234–0254: 183 textos con la puntuación del documento oficial (el BOC no permitía decidirla).
+- Correcciones 0255–0262: 24 diferencias entre el BOC y el ODT validadas una a una; prevalece el ODT (ver `docs/pendientes.md`). Se retiran 3 saberes que el ODT omite.
 - `contrastar` comprueba con qué número imprime el BOC cada criterio e informa aparte de las erratas: 24 criterios 5.1 y 6.1 intercambiados en Segunda Lengua Extranjera (ESO), documentados en `docs/pendientes.md`.
 
 ### Cambiado

@@ -2163,6 +2163,18 @@
       "detalle": "0241-primaria-lengua-castellana-y-literatura-puntuacion-documento.yaml: La base ya trae este valor de definition; la corrección puede retirarse"
     },
     {
+      "regla": "numeracion_saberes",
+      "nivel": "aviso",
+      "nodo": "sb:PLCL05SBIV",
+      "detalle": "Numeración de saberes no continua: [1, 2, 3, 5, 6, 7]"
+    },
+    {
+      "regla": "numeracion_saberes",
+      "nivel": "aviso",
+      "nodo": "sb:PLCL06SBIV",
+      "detalle": "Numeración de saberes no continua: [1, 2, 3, 5, 6, 7]"
+    },
+    {
       "regla": "explicacion_repetida_entre_cursos",
       "nivel": "aviso",
       "nodo": "bc:IC4M01BC1",

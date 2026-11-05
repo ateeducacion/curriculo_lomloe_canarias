@@ -31,6 +31,27 @@ Científica): ver la fase 2 de [`backlog.md`](backlog.md).
   identificadores no cambian (decisión del 04-11-2026).
 - **Códigos de saber reconstruidos** (42): venían truncados o con punto final; se reparan a partir del número del texto.
 
+## Diferencias con el BOC
+
+El corpus refleja el ODT oficial de la web de currículos (criterio aprobado el 05-11-2026). En 24
+casos el ODT no coincide con el texto publicado en el BOC; se validaron uno a uno el 05-11-2026 y
+en todos prevalece el ODT (correcciones 0255–0262). Quien necesite el texto literal del BOC debe
+tenerlo en cuenta:
+
+- Texto distinto (9): explicaciones de bloque `bc:SEC304BC6`, `bc:BEC101BC2`, `bc:BAAP01BC1`;
+  enunciados `ce:BDBTC2`, `ce:BDBCC2`, `ce:BEFIC3`, `ce:BAAPC2`; criterios `crit:BDBT01CE2.3`,
+  `crit:BDBT01CE4.1`.
+- Puntuación (8): títulos de los bloques II y III de Educación Emocional y para la Creatividad
+  (Primaria, 1.º, 2.º, 5.º y 6.º).
+- Descriptores (4): el ODT añade CCL1 al criterio 8.2 de Lengua Castellana y Literatura (Primaria,
+  5.º y 6.º) y, por tanto, a su bloque competencial.
+- Saberes que el ODT omite (3): `sb:PLCL05SBIV.4`, `sb:PLCL06SBIV.4` y `sb:BPSI02SBVI.9` están en el
+  BOC y no en el ODT; se retiran del corpus.
+
+Quedan 19 diferencias con el ODT, explicadas en `informes/contraste.md`: 4 erratas de descriptores
+del ODT (códigos que no existen en la etapa; el corpus conserva la lista válida) y 15 de
+competencias cuyo enunciado cambia según el curso (el modelo guarda uno por materia).
+
 ## Erratas del BOC
 
 El contraste comprueba también con qué número imprime el BOC cada criterio de evaluación

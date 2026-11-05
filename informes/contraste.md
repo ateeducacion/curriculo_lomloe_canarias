@@ -1,7 +1,7 @@
 # Contraste con los documentos oficiales
 
-- Documentos contrastados: 105; sin diferencias: 91
-- Diferencias: 43; explicadas: 43; **sin explicar: 0**
+- Documentos contrastados: 105; sin diferencias: 98
+- Diferencias: 19; explicadas: 19; **sin explicar: 0**
 - Criterios que el BOC imprime con otro número (erratas del BOC, no son diferencias del corpus): 24
 
 ## eso-biologia-y-geologia — contrastado
@@ -21,8 +21,7 @@ Sin diferencias.
 Sin diferencias.
 
 ## eso-economia-y-emprendimiento — contrastado
-Sin diferencias por explicar (1 explicadas).
-- explicadas — el texto del corpus es el publicado en el BOC; el del documento no: 1
+Sin diferencias.
 
 ## eso-educacion-en-valores-civicos-y-eticos — contrastado
 Sin diferencias.
@@ -108,19 +107,16 @@ Sin diferencias.
 - incoherencias del propio documento (no son diferencias del corpus): 12, p. ej. bc:PEFI01BC1: la cabecera del bloque no coincide con sus criterios (cabecera: STEM2, STEM5, CPSAA2, CPSAA5, CE3; criterios: STEM5, CPSAA2, CPSAA5)
 
 ## primaria-lengua-castellana-y-literatura — contrastado
-Sin diferencias por explicar (12 explicadas).
+Sin diferencias por explicar (6 explicadas).
 - explicadas — el documento trae códigos de descriptor que no existen en la etapa (errata): 4
-- explicadas — la lista del corpus es la publicada en el BOC; la del documento no: 4
 - explicadas — solo cambia la puntuación y el texto del BOC no permite decidirla: 2
-- explicadas — el saber del corpus está publicado en el BOC; falta en el documento: 2
 - incoherencias del propio documento (no son diferencias del corpus): 6, p. ej. crit:PLCL01CE7.2: los descriptores del criterio traen códigos que no existen: CCE3
 
 ## primaria-lengua-extranjera — contrastado
 Sin diferencias.
 
 ## primaria-educacion-emocional-y-para-la-creatividad — contrastado
-Sin diferencias por explicar (8 explicadas).
-- explicadas — la puntuación del corpus es la publicada en el BOC: 8
+Sin diferencias.
 
 ## primaria-segunda-lengua-extranjera — contrastado
 Sin diferencias.
@@ -173,8 +169,7 @@ Sin diferencias.
 - incoherencias del propio documento (no son diferencias del corpus): 2, p. ej. bc:BDDB01BC5: la cabecera del bloque no coincide con sus criterios (cabecera: STEM3, CD2, CD3, CPSAA3.1, CPSAA5, CE3, CCEC3.2; criterios: STEM3, CD2, CPSAA3.1, CPSAA5, CCEC3.1, CD3, CE3)
 
 ## bachillerato-dibujo-tecnico-i-y-ii — contrastado
-Sin diferencias por explicar (4 explicadas).
-- explicadas — el texto del corpus es el publicado en el BOC; el del documento no: 4
+Sin diferencias.
 - incoherencias del propio documento (no son diferencias del corpus): 1, p. ej. bc:BDBT01BC5: la cabecera del bloque no coincide con sus criterios (cabecera: CP2, STEM2, STEM3, STEM4, CD1, CD2, CD3; criterios: STEM2, STEM3, STEM4, CD1, CD3, CP2, CD2, CE3)
 
 ## bachillerato-diseno — contrastado
@@ -186,13 +181,11 @@ Sin diferencias.
 - incoherencias del propio documento (no son diferencias del corpus): 1, p. ej. bc:BECO01BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL2, CCL3, STEM2, CPSAA4, CC3, CE1, CE2; criterios: CCL2, CCL3, CE1, CE2, CE3, STEM2, CPSAA4)
 
 ## bachillerato-economia-emprendimiento-y-actividad-empresarial — contrastado
-Sin diferencias por explicar (1 explicadas).
-- explicadas — el texto del corpus es el publicado en el BOC; el del documento no: 1
+Sin diferencias.
 - incoherencias del propio documento (no son diferencias del corpus): 1, p. ej. bc:BEC101BC3: la cabecera del bloque no coincide con sus criterios (cabecera: STEM2, STEM5, CD1, CPSAA2, CC1, CC4, CE1, CE2, CCEC3.1; criterios: STEM2, STEM5, CD1, CPSAA2, CC4, CPSAA1.2, CC1, CE1, CE2, CCEC3.1)
 
 ## bachillerato-educacion-fisica — contrastado
-Sin diferencias por explicar (1 explicadas).
-- explicadas — el texto del corpus es el publicado en el BOC; el del documento no: 1
+Sin diferencias.
 
 ## bachillerato-empresa-y-diseno-de-modelos-de-negocio — contrastado
 Sin diferencias.
@@ -301,8 +294,7 @@ Sin diferencias.
 Sin diferencias.
 
 ## bachillerato-anatomia-aplicada — contrastado
-Sin diferencias por explicar (2 explicadas).
-- explicadas — el texto del corpus es el publicado en el BOC; el del documento no: 2
+Sin diferencias.
 
 ## bachillerato-acondicionamiento-fisico — contrastado
 Sin diferencias.
@@ -382,8 +374,7 @@ Sin diferencias.
 Sin diferencias.
 
 ## bachillerato-psicologia — contrastado
-Sin diferencias por explicar (1 explicadas).
-- explicadas — el saber del corpus está publicado en el BOC; falta en el documento: 1
+Sin diferencias.
 
 ## bachillerato-taller-de-artes-integradas — contrastado
 Sin diferencias.

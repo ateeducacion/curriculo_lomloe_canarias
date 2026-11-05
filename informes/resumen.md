@@ -11,9 +11,9 @@
 | BloqueCompetencial | 1318 |
 | CriterioEvaluacion | 3137 |
 | BloqueSaberes | 1047 |
-| SaberBasico | 8743 |
+| SaberBasico | 8740 |
 
-**Total:** 15209
+**Total:** 15206
 
 ## Incidencias
 
@@ -28,6 +28,7 @@
 | aviso | encabezado_no_corresponde | 83 |
 | aviso | encabezado_sin_texto | 3 |
 | aviso | explicacion_repetida_entre_cursos | 184 |
+| aviso | numeracion_saberes | 2 |
 | aviso | registro_repetido | 1 |
 | aviso | saber_con_hijos | 51 |
 | aviso | saber_sin_numeracion | 1 |
@@ -293,3 +294,11 @@
 | 0252-bachillerato-medio-natural-canario-puntuacion-documento.yaml | aprobada | 2 | Medio Natural Canario (Bachillerato): 2 textos con la puntuación del documento oficial |
 | 0253-bachillerato-tecnicas-de-laboratorio-puntuacion-documento.yaml | aprobada | 1 | Técnicas de Laboratorio (Bachillerato): 1 textos con la puntuación del documento oficial |
 | 0254-bachillerato-psicologia-puntuacion-documento.yaml | aprobada | 2 | Psicología (Bachillerato): 2 textos con la puntuación del documento oficial |
+| 0255-eso-economia-y-emprendimiento-documento-frente-a-boc.yaml | aprobada | 1 | Economía y Emprendimiento (Educación Secundaria Obligatoria): 1 diferencias con el BOC resueltas con el documento oficial |
+| 0256-primaria-lengua-castellana-y-literatura-documento-frente-a-boc.yaml | aprobada | 6 | Lengua Castellana y Literatura (Educación Primaria): 6 diferencias con el BOC resueltas con el documento oficial |
+| 0257-primaria-educacion-emocional-y-para-la-creatividad-documento-frente-a-boc.yaml | aprobada | 8 | Educación Emocional y para la Creatividad (Educación Primaria): 8 diferencias con el BOC resueltas con el documento oficial |
+| 0258-bachillerato-dibujo-tecnico-i-y-ii-documento-frente-a-boc.yaml | aprobada | 4 | Dibujo Técnico I y II (Bachillerato): 4 diferencias con el BOC resueltas con el documento oficial |
+| 0259-bachillerato-economia-emprendimiento-y-actividad-empresarial-documento-frente-a-boc.yaml | aprobada | 1 | Economía, Emprendimiento y Actividad Empresarial (Bachillerato): 1 diferencias con el BOC resueltas con el documento oficial |
+| 0260-bachillerato-educacion-fisica-documento-frente-a-boc.yaml | aprobada | 1 | Educación Física (Bachillerato): 1 diferencias con el BOC resueltas con el documento oficial |
+| 0261-bachillerato-anatomia-aplicada-documento-frente-a-boc.yaml | aprobada | 2 | Anatomía Aplicada (Bachillerato): 2 diferencias con el BOC resueltas con el documento oficial |
+| 0262-bachillerato-psicologia-documento-frente-a-boc.yaml | aprobada | 1 | Psicología (Bachillerato): 1 diferencias con el BOC resueltas con el documento oficial |
