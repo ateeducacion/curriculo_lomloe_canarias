@@ -45,11 +45,12 @@ exportación ProIDEAC ──► importar ──► aplicar correcciones aprobada
 
 ```bash
 python -m venv .venv && . .venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements-dev.txt          # requirements.txt + pytest
 
 python -m herramientas.construir             # regenera datos/ e informes/
 python -m herramientas.construir --comprobar # lo que ejecuta la CI
 python -m herramientas.contrastar            # compara con los ODT descargados
+python -m pytest                             # pruebas automáticas
 ```
 
 ## Modelo de datos (resumen)

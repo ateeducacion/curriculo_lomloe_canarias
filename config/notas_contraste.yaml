@@ -1,0 +1,14 @@
+# Diferencias con los documentos oficiales que se dan por explicadas sin corregir el corpus.
+#
+# El contraste (python -m herramientas.contrastar) explica por sí solo las diferencias que
+# puede comprobar con el texto del BOC (fuentes/boletines): por ejemplo, cuando el texto del
+# corpus es el publicado y el del documento no. Las que no puede decidir necesitan una
+# corrección o una nota aquí, revisada por la persona responsable del currículo.
+#
+# Cada nota: nodo, tipo (el de informes/contraste.json; si se omite, vale para cualquier tipo
+# de diferencia de ese nodo) y motivo.
+#
+#   - nodo: sb:PLCL05SBIV.3
+#     tipo: texto de saber distinto
+#     motivo: El documento junta en un párrafo dos saberes que el BOC y el corpus separan.
+notas: []

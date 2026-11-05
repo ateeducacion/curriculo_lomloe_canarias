@@ -5,6 +5,7 @@ lista de los saberes y unos pocos rótulos fijos), no por estilos ni posiciones.
 Qué sección del documento corresponde a qué materia y curso lo indica el manifiesto.
 """
 import re
+import unicodedata
 import zipfile
 import xml.etree.ElementTree as ET
 
@@ -14,7 +15,8 @@ NS = {'text': 'urn:oasis:names:tc:opendocument:xmlns:text:1.0',
       'table': 'urn:oasis:names:tc:opendocument:xmlns:table:1.0',
       'office': 'urn:oasis:names:tc:opendocument:xmlns:office:1.0'}
 T, TB = '{%s}' % NS['text'], '{%s}' % NS['table']
-RE_ROMANO = re.compile(rf'^(?:Bloque\s+)?({ROMANO})\.\s+(.+)$')  # «Bloque I. …» en los ámbitos
+# «I. Título», «Bloque I. Título» (ámbitos) o «I Título» (sin punto, seguido de mayúscula).
+RE_ROMANO = re.compile(rf'^(?:Bloque\s+)?({ROMANO})(?:\.\s+|\s+(?=[A-ZÁÉÍÓÚÑ¿¡«]))(.+)$')
 
 
 def _texto(el):
@@ -33,7 +35,8 @@ def _texto(el):
             if c.tail:
                 out.append(c.tail)
     rec(el)
-    return re.sub(r'[ \t\r\n]+', ' ', ''.join(out)).strip(' ')
+    # Los espacios de no separación del documento se tratan como espacios normales.
+    return unicodedata.normalize('NFC', re.sub(r'[ \t\r\n\xa0]+', ' ', ''.join(out)).strip(' '))
 
 
 def _secuencia(cuerpo):
@@ -143,6 +146,11 @@ def leer(ruta, secciones):
                 bloque = {'romano': m.group(1), 'titulo': m.group(2).strip(), 'descripcion': None, 'hijos': []}
                 actual['saberes'].append(bloque)
                 pila = [bloque]
+            elif modo == 'sb' and pila and re.match(r'^\d+\.\s+\S', x):
+                # Apartado numerado a mano fuera de la lista (p. ej. Historia de Canarias, Bachillerato).
+                nodo = {'texto': re.sub(r'^\d+\.\s+', '', x), 'hijos': []}
+                pila[0]['hijos'].append(nodo)
+                pila = [pila[0], nodo]
             elif modo == 'sb' and pila and not pila[0]['hijos'] and pila[0]['descripcion'] is None:
                 # Párrafo entre el título del bloque y sus saberes (p. ej. Lengua Castellana, ESO).
                 pila[0]['descripcion'] = x
@@ -156,7 +164,8 @@ def leer(ruta, secciones):
                 doc['avisos'].append(f'Salto de nivel en saberes: {x[:70]}')
                 continue
             padre = pila[-1]
-            nodo = {'texto': x, 'hijos': []}
+            # Numeración escrita a mano en el texto (p. ej. «3.2 Valoración…» en Bioestadística).
+            nodo = {'texto': re.sub(r'^\d+(?:\.\d+)+\.?\s+', '', x), 'hijos': []}
             padre['hijos'].append(nodo)
             pila.append(nodo)
     doc['explicacion_competencias'] = {k: ' '.join(v) for k, v in doc['explicacion_competencias'].items()}

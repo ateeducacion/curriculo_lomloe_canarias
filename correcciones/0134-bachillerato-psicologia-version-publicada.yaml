@@ -1,0 +1,51 @@
+id: '0134'
+titulo: 'Psicología (Bachillerato): 6 textos de la versión publicada en el BOC'
+motivo: El texto de la exportación no coincide con el publicado en el BOC y el del documento oficial sí (comprobado contra
+  fuentes/boletines). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-psicologia
+  fichero: fuentes/documentos/bachillerato/Psicologia_BACH.odt
+  sha256: f7fddd96cf6d160607677a429daf28cdc2b6464998ab654d76a0d9542e91d99b
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: bc:BPSI02BC3
+  campo: scopeNote
+  valor: Mediante la adquisición de esta competencia específica el alumnado debe ser capaz de construir conocimiento. Para
+    ello se constatará que comprende las principales teorías de la personalidad y su evolución a lo largo de la historia interpretando
+    y transmitiendo con precisión las aportaciones de autores como Freud, Jung, Roggers, Kelly, Cattell, Eysenck, Costa y
+    McCrae, Cloninger, etc. Así mismo, se constatará que identifica los factores genéticos, medioambientales y culturales
+    que influyen en la conformación de la personalidad integrando esta información para plantear acciones promotoras de la
+    salud física y mental. Se verificará que describe la evolución del cerebro humano y conoce la estructura del sistema nervioso
+    central, fundamentalmente del encéfalo, distinguiendo áreas y funciones que determinan la conducta de las personas e identificando
+    las principales consecuencias del daño cerebral. Se verificará que identifica las diferentes técnicas de investigación
+    cerebral y su impacto en el avance científico. Se constatará que comprende y reconoce algunas de las bases genéticas que
+    determinan la conducta humana destacando el origen de algunas enfermedades producidas por alteraciones genéticas y transmitiendo
+    elementos más relevantes de investigaciones actuales. Se verificará que el alumnado describe el concepto de salud mental
+    reflexionando con actitud empática sobre los conceptos de trastorno y enfermedad mental, rechazando cualquier tipo de
+    discriminación hacia las personas que lo padecen e identificando factores sociales de protección.
+- nodo: crit:BPSI02CE5.3
+  campo: definition
+  valor: Conocer y analizar formas actuales de interacción social con especial énfasis en entornos virtuales concienciando
+    sobre los riesgos de fenómenos como el sexting, el grooming y la sextorsión, y sus consecuencias, y redes sociales, detectando
+    fortalezas y debilidades, localizando indicadores de desinformación y manipulación, identificando factores de protección
+    de la salud física y mental y afectivo-sexualy desarrollando hábitos de comportamiento favorecedores del bienestar individual
+    y colectivo para ejercer una ciudadanía digital activa, cívica y reflexiva.
+- nodo: sb:BPSI02SBI.2.3
+  campo: definition
+  valor: Descripción, análisis y valoración del psicoanálisis, el conductismo, el estructuralismo, el funcionalismo, la psicología
+    humanista, el cognitivismo y el constructivismo.
+- nodo: sb:BPSI02SBV.7
+  campo: definition
+  valor: Reconocimiento de las implicaciones del desarrollo tecnológico en las nuevas formas de interacción social concienciando
+    sobre los riesgos de fenómenos como el sexting, el grooming y la sextorsión, y sus consecuencias. Debate sobre sus ventajas
+    e inconvenientes y sus implicaciones en el bienestar físico y mental y afectivo de las personas.
+- nodo: sb:BPSI02SBV.8
+  campo: definition
+  valor: Identificación y aplicación de estrategias y medidas para el uso seguro de internet, incluyendo la prevención de
+    prácticas sexuales virtuales de riesgo. Comprensión de conceptos como huella digital, identidad digital, netiqueta, etc.
+- nodo: sb:BPSI02SBVI.4
+  campo: definition
+  valor: Identificación de diferentes estilos de liderazgo y debate sobre su repercusión en el rendimiento y bienestar laboral
+    de las personas.

@@ -1,0 +1,35 @@
+id: '0261'
+titulo: 'Anatomía Aplicada (Bachillerato): 2 diferencias con el BOC resueltas con el documento oficial'
+motivo: 'El corpus tenía el texto publicado en el BOC y el ODT oficial dice otra cosa (texto, puntuación, lista de descriptores
+  o saber omitido). Validado el 05-11-2026 en la página de validación BOC/ODT: prevalece el ODT, de acuerdo con el criterio
+  de que el corpus refleja el documento oficial. Ver docs/pendientes.md, «Diferencias con el BOC».'
+fuente:
+  documento: bachillerato-anatomia-aplicada
+  fichero: fuentes/documentos/bachillerato/Anatomia-Aplicada_BACH.odt
+  sha256: 1438a95b1ace81409c3bda0deca967b661e8d127af625c8ff56fea7ee8162453
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: bc:BAAP01BC1
+  campo: scopeNote
+  valor: 'A través de este bloque competencial, se comprobará que el alumnado sea capaz de analizar, comprender e interpretar
+    la anatomía del sistema locomotor desde un punto de vista funcional, analizando cómo las partes del cuerpo humano forman
+    una unidad bien organizada y cada una de ellas desempeña un papel en el correcto funcionamiento del organismo como un
+    todo; e identificando las estructuras junto a sus funciones cuando se realizan acciones motrices. La comprensión de esta
+    competencia por parte del alumnado le permitirá orientar el proceso creativo necesario para llevar a cabo cualquier tarea
+    motriz o el seguimiento de la misma, a través de recursos digitales o de observación directa. Asimismo, se evaluará si
+    el alumnado es capaz de analizar la relación entre el sistema nervioso y el aparato locomotor. El alumnado analizará la
+    percepción, identificando que se inicia cuando se hace consciente de la existencia de un estímulo procedente de la propia
+    persona o del entorno a través de los sentidos, y reconociéndola como el paso previo a la realización de los ajustes neuromotores
+    necesarios en busca de la respuesta más adecuada. Comprenderá que la ejecución precisa de la valoración de los mecanismos
+    de percepción y decisión para transformarlos en una acción motriz de manera coordinada, y conlleva una secuencia de contracciones
+    y relajaciones a distintas intensidades y de distintos músculos para el desarrollo adecuado de una gestualidad determinada,
+    así como los condicionantes posturales que permitan dicha acción, buscando el mínimo gasto energético y la máxima eficiencia.
+    Este bloque competencial está relacionado con el bloque I de saberes: «Bases de anatomía humana aplicada».'
+- nodo: ce:BAAPC2
+  campo: definition
+  valor: Conocer y valorar el funcionamiento del cuerpo humano como resultado de la integración anatómica y fisiológica, identificando
+    los ajustes del sistema cardio-respiratorio y músculo-esquelético, las principales vías metabólicas de aporte energético
+    y los principios de nutrición e hidratación intervinientes en la gestión de la práctica de actividad física, contrastándolo
+    con distintas fuentes de información.

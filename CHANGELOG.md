@@ -26,8 +26,18 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
 - Documentos oficiales de Infantil y de los ámbitos de diversificación; correcciones 0036–0041 (explicaciones de bloque copiadas de otro curso en Infantil y ámbitos, y bloques de saberes del Ámbito Lingüístico y Social).
 - Optativas de 1.º de Bachillerato creadas desde su documento oficial: Juegos y Deportes Tradicionales de Canarias (`BJUI`) y Música, Expresión y Espectáculos (`BMUW`) (correcciones 0042 y 0043, herramienta `materia_desde_odt`).
 - Licencia de los datos (CC BY 4.0) y verificación de `config/descriptores.csv` contra los anexos 1.
+- Correcciones 0044–0136: 771 textos de la versión publicada en el BOC, 175 de puntuación publicada, 104 de espacios, 36 explicaciones copiadas de otro curso, 22 títulos y descripciones de bloques de saberes y 4 textos ausentes. Texto de los cinco decretos en el BOC (`fuentes/boletines/`).
+- Correcciones 0137–0210: textos cortados y de otro curso, descriptores y saberes numerados de forma distinta.
+- Correcciones 0211–0233: las 127 diferencias que el BOC no permitía decidir se corrigen con el documento oficial, que es la referencia; se rehacen los bloques de saberes en los que faltaban o sobraban saberes. El contraste queda sin diferencias por explicar.
+- Pruebas automáticas (`tests/`, pytest) del importador, el lector de ODT, el texto del BOC, el contraste y las correcciones, ejecutadas en la CI.
+- `contrastar --estricto`: la CI falla si queda alguna diferencia sin explicar.
+- Una corrección con `valor: null` quita el campo.
+- Correcciones 0234–0254: 183 textos con la puntuación del documento oficial (el BOC no permitía decidirla).
+- Correcciones 0255–0262: 24 diferencias entre el BOC y el ODT validadas una a una; prevalece el ODT (ver `docs/pendientes.md`). Se retiran 3 saberes que el ODT omite.
+- `contrastar` comprueba con qué número imprime el BOC cada criterio e informa aparte de las erratas: 24 criterios 5.1 y 6.1 intercambiados en Segunda Lengua Extranjera (ESO), documentados en `docs/pendientes.md`.
 
 ### Cambiado
+- Todos los textos se normalizan a Unicode NFC al importar (587 textos de la exportación traían las tildes descompuestas); no cambia ningún texto a la vista.
 - Licencias: datos con CC BY 4.0 (con la aclaración del art. 13 TRLPI sobre los textos normativos) y código con GPL-3.0; `curriculo.json` incluye la licencia en su cabecera.
 - El importador trata como aviso un saber repetido de forma idéntica y reconstruye el código de un saber
   repetido cuyo texto indica otro apartado (`sb:BBIE02SBIII.3.1`).

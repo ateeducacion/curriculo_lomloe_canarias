@@ -1,0 +1,22 @@
+id: 0159
+titulo: 'Historia de Canarias (Bachillerato): 2 textos de la versión publicada en el BOC'
+motivo: El texto de la exportación no coincide con el publicado en el BOC y el del documento oficial sí (comprobado contra
+  fuentes/boletines). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-historia-de-canarias
+  fichero: fuentes/documentos/bachillerato/Historia_de_Canarias_BACH.odt
+  sha256: 1ad211f157783894b356eca4f5030c3645ce48a4fc4fe66a494c0b88fe65d6ad
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: ce:BHICC1
+  campo: definition
+  valor: Conocer la diversidad del patrimonio arqueológico de Canarias, las claves históricas que han configurado la sociedad
+    canaria, desde el origen del poblamiento humano del archipiélago hasta la actualidad, promoviendo procesos de investigación
+    y creación grupal que impliquen la búsqueda, selección, evaluación de la información en fuentes arqueológicas y documentales
+    diversas.
+- nodo: sb:BHIC01SBIII.4
+  campo: definition
+  valor: Estudio y valoración de las movilizaciones sociales. Las mujeres en la sociedad canaria a lo largo de la Historia.
+    Aportaciones históricas del movimiento obrero en Canarias. Movimientos estudiantiles, ecologistas y LGTBIQ+.

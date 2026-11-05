@@ -1,0 +1,38 @@
+id: 0248
+titulo: 'Biología Humana (Bachillerato): 6 textos con la puntuación del documento oficial'
+motivo: 'Textos que solo difieren en la puntuación y que el BOC no permite decidir (el texto extraído del PDF no conserva
+  la puntuación de forma fiable). Criterio aprobado: el ODT oficial es la referencia y el corpus debe reflejarlo.'
+fuente:
+  documento: bachillerato-biologia-humana
+  fichero: fuentes/documentos/bachillerato/biologia_humana_bach.odt
+  sha256: db8ba6eb6a4abe3f01732238a5f49d72c4f0904bdf42d454d4dee4a2e743e556
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: ce:BBILC1
+  campo: definition
+  valor: Interpretar y comunicar información y datos a partir de trabajos científicos, y argumentar sobre estos con precisión,
+    utilizando diferentes formatos para analizar conceptos, procesos, métodos, experimentos o resultados de la biología humana.
+- nodo: ce:BBILC3
+  campo: definition
+  valor: Diseñar, planear y desarrollar proyectos de investigación sobre aspectos relacionados con la biología humana, siguiendo
+    los pasos de las metodologías científicas, teniendo en cuenta los recursos disponibles de forma realista y buscando vías
+    de colaboración con otros agentes vinculados al campo de la salud.
+- nodo: crit:BBIL02CE3.3
+  campo: definition
+  valor: Establecer colaboraciones dentro y fuera del centro educativo en las distintas fases del proyecto científico, con
+    el fin de trabajar con mayor eficiencia, utilizando las herramientas tecnológicas adecuadas, valorando la importancia
+    de la cooperación en la investigación, respetando la diversidad y favoreciendo la inclusión.
+- nodo: sb:BBIL02SBIV.6
+  campo: definition
+  valor: 'Análisis de los efectos perjudiciales de las adicciones con sustancia (drogas legales e ilegales) y sin sustancia
+    (comportamentales: tecnologías, ludopatías), que influyen tanto en la salud de las personas consumidoras como en su entorno.'
+- nodo: sb:BBIL02SBV.7
+  campo: definition
+  valor: Diseño e implementación de un plan de vida saludable que contemple la salud física, mental y social como paradigmas
+    de bienestar para el desarrollo de una vida plena, y su influencia en su entorno, en la sociedad y en el planeta.
+- nodo: sb:BBIL02SBVI.5
+  campo: definition
+  valor: Profundización en la investigación biomédica en Canarias y sobre la base genética de las enfermedades prevalentes
+    en el archipiélago, para valorar su implicación en la mejora de la calidad de vida.

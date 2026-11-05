@@ -1,0 +1,31 @@
+id: '0225'
+titulo: 'Bioestadística (Bachillerato): 3 diferencias corregidas con el documento oficial'
+motivo: 'Diferencias que el contraste no explicaba con el BOC. Criterio aprobado: el ODT oficial de la web de currículos es
+  la referencia y el corpus debe reflejarlo. Tipos: explicación de bloque distinto; texto de criterio distinto; texto de saber
+  distinto.'
+fuente:
+  documento: bachillerato-bioestadistica
+  fichero: fuentes/documentos/bachillerato/Bioestadistica_BACH.odt
+  sha256: c95c38cb2462874613bd342f9cb2b138cd2f51cc3e53ed1ca064c7e853bcfed4
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: bc:BBIE02BC4
+  campo: scopeNote
+  valor: Se persigue con este bloque competencial constatar que el alumnado es capaz de investigar y utilizar el pensamiento
+    científico para conectar ideas, conceptos y procedimientos matemáticos, al resolver situaciones problemáticas,especialmente
+    del entorno de Canarias, por medio del uso de tecnologías digitales; así como de establecer y aplicar relaciones entre
+    las matemáticas y otras áreas del conocimiento asociadas a las ciencias de la vida y la salud. Además, se pretende comprobar
+    que el alumnado analiza y valora la aportación de las investigaciones al progreso de la humanidad, y el papel de científicas
+    y científicos a lo largo de la historia.
+- nodo: crit:BBIE02CE4.1
+  campo: definition
+  valor: Establecer y aplicar conexiones entre ideas, conceptos y procedimientos matemáticos y estadísticos con otras áreas
+    de conocimiento referentes a las ciencias de la vida y la salud, reflexionando sobre dichos vínculos, buscando, seleccionando
+    y contrastando información procedente de diferentes fuentes, mediante el uso de tecnologías digitales, para modelizar,
+    resolver problemas y desarrollar una capacidad crítica, creativa e innovadora en situaciones diversas.
+- nodo: sb:BBIE02SBIII.3.1
+  campo: definition
+  valor: 'Destrezas para desarrollar una comunicación efectiva: la escucha activa, la formulación de preguntas o solicitud
+    y prestación de ayuda, cuando sea necesario.'

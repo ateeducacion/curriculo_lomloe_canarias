@@ -1,0 +1,20 @@
+id: '0077'
+titulo: 'Matemáticas (Educación Primaria): 2 textos ausentes en la exportación'
+motivo: La exportación de ProIDEAC no trae estos textos. Se toman del documento oficial (los saberes se emparejan por contenido).
+  Generada con `contrastar --proponer`.
+fuente:
+  documento: primaria-matematicas
+  fichero: fuentes/documentos/primaria/curriculo-educacion-PRIMARIA_Matematicas.odt
+  sha256: 30849bd07eb61b4b8b06e0902c7fcf1f1bd9908936b14d183c0741a5e19eec59
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: sb:PMAT03SBI.3.1
+  campo: definition
+  valor: 'Conocimiento del sistema de numeración de base 10 (hasta el 9999): aplicación de las relaciones que genera en las
+    operaciones.'
+- nodo: sb:PMAT04SBI.3.1
+  campo: definition
+  valor: 'Conocimiento del sistema de numeración de base 10 (hasta el 9999): aplicación de las relaciones que genera en las
+    operaciones.'

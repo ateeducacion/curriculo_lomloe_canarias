@@ -1,0 +1,20 @@
+id: 0181
+titulo: 'Ámbito Científico-Tecnológico (Educación Secundaria Obligatoria): 2 textos de otro curso'
+motivo: El texto de la exportación es el que el documento oficial da a otro curso o ciclo de la misma materia; los dos figuran
+  en el BOC. Se toma el que corresponde a este curso. Generada con `contrastar --proponer`.
+fuente:
+  documento: eso-ambito-cientifico-tecnologico
+  fichero: fuentes/documentos/eso/anexo_2_curriculo_pdc_eso_ACT.odt
+  sha256: 64d8f26e9c715b667e231f20a70e91c7e1e54cfc4389a09e25d10a7ca5afe6e9
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: crit:SAMB03CE5.3
+  campo: definition
+  valor: Aplicar con rigor las normas de uso de los espacios específicos de la ciencia y la tecnología y de los instrumentos,
+    las herramientas y los materiales como medio para asegurar la salud propia y colectiva, la conservación sostenible del
+    medioambiente y el respeto por las instalaciones.
+- nodo: sb:SAMB03SBI.4.1
+  campo: definition
+  valor: Uso de materiales, sustancias, herramientas e instrumentos básicos.

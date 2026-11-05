@@ -1,36 +1,78 @@
 [
   {
+    "documento": "eso-biologia-y-geologia",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:SBIG01BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CPSAA3, CC3; criterios: CCL1, CCL3, STEM1, STEM2, STEM3, STEM4, CCL2, CE3, CD1, CPSAA3, CD2)",
+      "bc:SBIG04BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CPSAA3, CE3; criterios: CCL1, CCL3, STEM1, STEM2, CD1, CCL2, STEM3, CD2, CD3, STEM4, CE3, CPSAA3)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "eso-cultura-clasica",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
     "documento": "eso-cultura-y-ciudadania-digital",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descripción de bloque de saberes distinto",
-        "nodo": "sb:SCUJ03SBV",
-        "detalle": "documento: 'None'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SCUJ03SBV.4",
-        "detalle": "documento: 'Conocimiento básico de la normativa relativa a la protección de datos personales'"
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "eso-digitalizacion",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
   },
   {
     "documento": "eso-economia-personal-y-social",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SECZ03SBI.3.3",
-        "detalle": "documento: 'Valoración del Régimen Económico y Fiscal de Canarias (REF). Estudio de las sing'"
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "eso-economia-y-emprendimiento",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "eso-educacion-en-valores-civicos-y-eticos",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:SEDK01BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL5, CP3, CD3, CC1, CC2, CC3, CCEC1; criterios: CCL5, CD3, CC1, CC3, CP3, CC2, CD1, CCEC1)"
+    ],
+    "numeracion_boc": []
   },
   {
     "documento": "eso-educacion-fisica",
@@ -38,45 +80,65 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
   },
   {
     "documento": "eso-educacion-plastica-visual-y-audiovisual",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SEUP01BC2",
-        "detalle": "documento: \"['CCL1', 'CPSAA1', 'CPSAA3', 'CC1', 'CC3', 'CCEC3']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SEUP01BC5",
-        "detalle": "documento: \"['CCL2', 'CPSAA1', 'CPSAA4', 'CC3', 'CCEC3', 'CCEC4']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SEUP03BC2",
-        "detalle": "documento: \"['CCL1', 'CPSAA1', 'CPSAA3', 'CC1', 'CC3', 'CCEC1']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:SEUP01BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CPSAA1, CPSAA3, CC1, CC3, CCEC3; criterios: CCL1, CPSAA1, CPSAA3, CC3, CC1, CCEC1, CCEC3)",
+      "bc:SEUP01BC5: la cabecera del bloque no coincide con sus criterios (cabecera: CCL2, CPSAA1, CPSAA4, CC3, CCEC3, CCEC4; criterios: CCL2, CPSAA4, CC3, CCEC3, CCEC4, CPSAA3)",
+      "bc:SEUP03BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CPSAA1, CPSAA3, CC1, CC3, CCEC1; criterios: CCL1, CPSAA1, CPSAA3, CC3, CC1, CCEC1, CCEC3)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "eso-expresion-artistica",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:SEXB04BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CD2, CPSAA1, CC1, CC3, CE1, CCEC3, CCEC4; criterios: CD2, CC3, CCEC2, CPSAA1, CE1, CCEC3)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "eso-filosofia",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
   },
   {
     "documento": "eso-fisica-y-quimica",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SFYQ02SBI.5.2",
-        "detalle": "documento: 'Manejo de las herramientas matemáticas básicas para la resolución de problemas.\\xa0'"
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "eso-formacion-y-orientacion-personal-y-profesional",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
   },
   {
     "documento": "eso-geografia-e-historia",
@@ -84,65 +146,46 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
   },
   {
     "documento": "eso-historia-y-geografia-de-canarias",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:SHOF03BC1",
-        "detalle": "documento: 'Mediante este bloque competencial se comprobará que el alumnado es capaz de util'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SHOF03BC3",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'STEM2', 'CD1', 'CPSAA3', 'CC1', 'CC2', 'CC3', 'CC4', 'CE1']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SHOF03BC4",
-        "detalle": "documento: \"['CCL3', 'STEM2', 'STEM4', 'CD1', 'CD2', 'CPSAA3', 'CPSAA5', 'CC1', 'CE3', 'CCEC\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SHOF03BC6",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'CCL5', 'CD1', 'CD2', 'CC1', 'CC4', 'CCEC1', 'CCEC2']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:SHOF03BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL3, STEM2, CD1, CPSAA3, CC1, CC2, CC3, CC4, CE1; criterios: STEM3, CC1, CC2, CC3, CC4, CE1, STEM2, CCL1, CCL3, CD1, CPSAA3)",
+      "bc:SHOF03BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL3, STEM2, STEM4, CD1, CD2, CPSAA3, CPSAA5, CC1, CE3, CCEC1; criterios: CCL1, CCL2, CCL3, CP3, CD1, CD2, CPSAA3, CPSAA5, CC1, CE3, CCEC1, CCL5, CC2, CC3)",
+      "bc:SHOF03BC6: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL3, CCL5, CD1, CD2, CC1, CC4, CCEC1, CCEC2; criterios: CCL1, CP3, CC1, CC4, CCEC1, CCEC2, CCL3, CD1, CD2, CCEC4, CCL5)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "eso-latin",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
   },
   {
     "documento": "eso-lengua-castellana-y-literatura",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SLCL03BC2",
-        "detalle": "documento: \"['CCL2', 'CCL5', 'CP2', 'STEM1', 'CD1', 'CD2', 'CD3', 'CPSAA4', 'CE3']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SLCL03BC3",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'CCL5', 'STEM1', 'CD1', 'CD2', 'CD3', 'CPSAA4', 'CC2', 'CE1']\""
-      },
-      {
-        "tipo": "descripción de bloque de saberes distinto",
-        "nodo": "sb:SLCL04SBIV",
-        "detalle": "documento: 'Elaboración de conclusiones propias sobre el funcionamiento del sistema lingüíst'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SLCL04SBIV.2",
-        "detalle": "documento: 'Análisis y valoración en uso de la lengua como sistema y de sus unidades básicas'"
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:SLCL03BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL2, CCL5, CP2, STEM1, CD1, CD2, CD3, CPSAA4, CE3; criterios: CCL2, CCL5, CP2, STEM1, CD1, CD2, CD3, CPSAA4, CC3)",
+      "bc:SLCL03BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL3, CCL5, STEM1, CD1, CD2, CD3, CPSAA4, CC2, CE1; criterios: CCL1, CCL3, STEM1, CD1, CD2, CD3, CPSAA4, CE1, CCL5, CP2, CC2)"
+    ],
+    "numeracion_boc": []
   },
   {
     "documento": "eso-lengua-extranjera",
@@ -150,7 +193,9 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
   },
   {
     "documento": "eso-matematicas",
@@ -158,7 +203,19 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "eso-musica",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
   },
   {
     "documento": "eso-segunda-lengua-extranjera",
@@ -166,7 +223,140 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": [
+      {
+        "nodo": "crit:SSGA01CE5.1",
+        "numero": "5.1",
+        "boc": "6.1"
+      },
+      {
+        "nodo": "crit:SSGA01CE6.1",
+        "numero": "6.1",
+        "boc": "5.1"
+      },
+      {
+        "nodo": "crit:SSGD01CE5.1",
+        "numero": "5.1",
+        "boc": "6.1"
+      },
+      {
+        "nodo": "crit:SSGD01CE6.1",
+        "numero": "6.1",
+        "boc": "5.1"
+      },
+      {
+        "nodo": "crit:SSGN01CE5.1",
+        "numero": "5.1",
+        "boc": "6.1"
+      },
+      {
+        "nodo": "crit:SSGN01CE6.1",
+        "numero": "6.1",
+        "boc": "5.1"
+      },
+      {
+        "nodo": "crit:SSGA02CE5.1",
+        "numero": "5.1",
+        "boc": "6.1"
+      },
+      {
+        "nodo": "crit:SSGA02CE6.1",
+        "numero": "6.1",
+        "boc": "5.1"
+      },
+      {
+        "nodo": "crit:SSGD02CE5.1",
+        "numero": "5.1",
+        "boc": "6.1"
+      },
+      {
+        "nodo": "crit:SSGD02CE6.1",
+        "numero": "6.1",
+        "boc": "5.1"
+      },
+      {
+        "nodo": "crit:SSGN02CE5.1",
+        "numero": "5.1",
+        "boc": "6.1"
+      },
+      {
+        "nodo": "crit:SSGN02CE6.1",
+        "numero": "6.1",
+        "boc": "5.1"
+      },
+      {
+        "nodo": "crit:SSGA03CE5.1",
+        "numero": "5.1",
+        "boc": "6.1"
+      },
+      {
+        "nodo": "crit:SSGA03CE6.1",
+        "numero": "6.1",
+        "boc": "5.1"
+      },
+      {
+        "nodo": "crit:SSGD03CE5.1",
+        "numero": "5.1",
+        "boc": "6.1"
+      },
+      {
+        "nodo": "crit:SSGD03CE6.1",
+        "numero": "6.1",
+        "boc": "5.1"
+      },
+      {
+        "nodo": "crit:SSGN03CE5.1",
+        "numero": "5.1",
+        "boc": "6.1"
+      },
+      {
+        "nodo": "crit:SSGN03CE6.1",
+        "numero": "6.1",
+        "boc": "5.1"
+      },
+      {
+        "nodo": "crit:SSGA04CE5.1",
+        "numero": "5.1",
+        "boc": "6.1"
+      },
+      {
+        "nodo": "crit:SSGA04CE6.1",
+        "numero": "6.1",
+        "boc": "5.1"
+      },
+      {
+        "nodo": "crit:SSGD04CE5.1",
+        "numero": "5.1",
+        "boc": "6.1"
+      },
+      {
+        "nodo": "crit:SSGD04CE6.1",
+        "numero": "6.1",
+        "boc": "5.1"
+      },
+      {
+        "nodo": "crit:SSGN04CE5.1",
+        "numero": "5.1",
+        "boc": "6.1"
+      },
+      {
+        "nodo": "crit:SSGN04CE6.1",
+        "numero": "6.1",
+        "boc": "5.1"
+      }
+    ]
+  },
+  {
+    "documento": "eso-tecnologia",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
   },
   {
     "documento": "eso-tecnologia-y-digitalizacion",
@@ -174,7 +364,9 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
   },
   {
     "documento": "eso-ambito-linguistico-y-social",
@@ -184,336 +376,19 @@
       {
         "tipo": "enunciado de competencia distinto",
         "nodo": "ce:SMBSC1",
-        "detalle": "documento: 'Comprender, interpretar y producir textos orales, escritos y multimodales con fl'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:SMBS03BC1",
-        "detalle": "documento: 'A través de este bloque competencial se comprobará que el alumnado es capaz de c'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:SMBS03CE1.5",
-        "detalle": "documento: 'Reconocer la interrelación entre el propósito comunicativo y las elecciones ling'"
-      },
-      {
-        "tipo": "enunciado de competencia distinto",
-        "nodo": "ce:SMBSC4",
-        "detalle": "documento: 'Seleccionar y leer de manera autónoma obras diversas como fuente de placer, y es'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SMBS03BC4",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL4', 'CPSAA4', 'CC1', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4']\""
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:SMBS03BC6",
-        "detalle": "documento: 'A través de este bloque competencial se comprobará que el alumnado es capaz de a'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:SMBS03CE6.2",
-        "detalle": "documento: 'Reconocer movimientos y causas que generen una conciencia solidaria, valorando y'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS03SBI.2.2",
-        "detalle": "documento: 'Análisis de la imagen de los textos icónico-verbales y multimodales.'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS03SBI.3.2",
-        "detalle": "documento: 'Comprensión oral: interpretación y explicación del sentido global del texto, rel'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS03SBI.3.3",
-        "detalle": "documento: 'Aproximación a la lengua de signos a través del reconocimiento de expresiones y '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS03SBII.3",
-        "detalle": "documento: 'Utilización de técnicas y métodos de las Ciencias Sociales: análisis de textos, '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS03SBII.4",
-        "detalle": "documento: 'Utilización de Tecnologías de la información geográfica.'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS03SBII.5",
-        "detalle": "documento: 'Análisis e interpretación de conceptos espaciales: localización, escala, conexió'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS03SBIV.1",
-        "detalle": "documento: 'Lectura autónoma. Implicación en la lectura de obras de forma progresivamente au'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS03SBV.1.1",
-        "detalle": "documento: 'Reflexión y valoración de la globalización, de los movimientos migratorios y de '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS03SBV.2.2",
-        "detalle": "documento: 'Tratamiento diferenciado de Canarias como región ultraperiférica.'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS03SBV.2.3",
-        "detalle": "documento: 'Identificación de las fórmulas de participación en programas educativos europeos'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS03SBV.3.2",
-        "detalle": "documento: 'Conocimiento del Estatuto de Autonomía de Canarias.'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS03SBVII.1.2",
-        "detalle": "documento: 'Conocimiento de la ordenación del territorio y transformación del espacio.'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS03SBVII.1.3",
-        "detalle": "documento: 'Reconocimiento de la huella humana y valoración de la necesidad de protección de'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS03SBVII.1.4",
-        "detalle": "documento: 'Indagación sobre el paisaje agrario y el patrimonio rural en Canarias, sobre la '"
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:SMBS03SBI.2.3",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:SMBS03SBII.6",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:SMBS03SBII.7",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:SMBS03SBV.2.4",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:SMBS03SBV.3.3",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:SMBS03SBV.3.4",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:SMBS03SBV.3.5",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:SMBS03SBVII.1.5",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:SMBS03SBVII.2.4",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:SMBS03SBVII.2.5",
-        "detalle": ""
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:SMBS04BC1",
-        "detalle": "documento: 'A través de este bloque competencial se comprobará que el alumnado es capaz de c'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:SMBS04CE1.4",
-        "detalle": "documento: 'Producir textos escritos y multimodales coherentes, cohesionados, adecuados y co'"
-      },
-      {
-        "tipo": "enunciado de competencia distinto",
-        "nodo": "ce:SMBSC4",
-        "detalle": "documento: 'Seleccionar y leer de manera autónoma obras diversas como fuente de placer, y es'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:SMBS04BC4",
-        "detalle": "documento: 'A través de esta competencia se comprobará que el alumnado es capaz de seleccion'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SMBS04BC4",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL4', 'CPSAA4', 'CC1', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4']\""
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:SMBS04CE5.1",
-        "detalle": "documento: 'Identificar los principales problemas, retos y desafíos a los que se ha enfrenta'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:SMBS04BC6",
-        "detalle": "documento: 'A través de este bloque competencial se comprobará que el alumnado es capaz de a'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS04SBI.3.3",
-        "detalle": "documento: 'Aproximación a la lengua de signos a través del reconocimiento de expresiones y '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS04SBII.3",
-        "detalle": "documento: 'Utilización de técnicas y métodos de las Ciencias Sociales: análisis de textos, '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS04SBII.4",
-        "detalle": "documento: 'Tiempo histórico: construcción e interpretación de líneas del tiempo a través de'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS04SBII.5",
-        "detalle": "documento: 'Utilización de metodologías del pensamiento histórico.'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS04SBV.1.1",
-        "detalle": "documento: 'Reflexión y valoración de la globalización, de los movimientos migratorios y de '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS04SBV.2.3",
-        "detalle": "documento: 'Valoración de las alianzas e instituciones internacionales, y de la mediación y '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS04SBV.3.2",
-        "detalle": "documento: 'Valoración de la conquista de derechos en las sociedades democráticas contemporá'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS04SBV.3.3",
-        "detalle": "documento: 'Valoración crítica de los compromisos internacionales de nuestro país en favor d'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS04SBV.5.1",
-        "detalle": "documento: 'Reflexión sobre la mediación y gestión pacífica de conflictos, y el apoyo a las '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS04SBVI.2.3",
-        "detalle": "documento: 'Explicación de rasgos de las principales variedades dialectales del español a pa'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS04SBVI.2.4",
-        "detalle": "documento: 'Reconocimiento y explicación de las diferencias entre los rasgos propios de las '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS04SBVII.1.1",
-        "detalle": "documento: 'Elaboración de juicios propios y argumentados ante problemas de actualidad conte'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS04SBVII.2",
-        "detalle": "documento: 'El Atlántico a través de Canarias:'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS04SBVII.2.1",
-        "detalle": "documento: 'La posición geoestratégica de Canarias en el Atlántico.'"
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:SMBS04SBVII.2.2",
-        "detalle": ""
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS04SBVII.3",
-        "detalle": "documento: 'La acción de los movimientos feministas y sufragistas en la lucha por la igualda'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SMBS04SBVII.3.1",
-        "detalle": "documento: 'Investigación sobre las mujeres relevantes de la historia contemporánea.'"
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:SMBS04SBII.6",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:SMBS04SBII.7",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:SMBS04SBVI.4",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:SMBS04SBVI.5",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:SMBS04SBVII.4",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:SMBS04SBVII.4.1",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:SMBS04SBVII.5",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:SMBS04SBVII.5.1",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:SMBS04SBVII.5.2",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:SMBS04SBVII.6",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:SMBS04SBVII.6.1",
-        "detalle": ""
+        "detalle": "documento: 'Comprender, interpretar y producir textos orales, escritos y multimodales con fl'",
+        "campo": "definition",
+        "esperado": "Comprender, interpretar y producir textos orales, escritos y multimodales con fluidez, coherencia, cohesión y registro adecuados, atendiendo a la corrección gramatical y ortográfica, para comunicarse de manera eficaz, cooperativa y respetuosa, construir conocimiento y dar respuesta a demandas comunicativas concretas.",
+        "explicacion": "la competencia tiene un enunciado distinto en cada curso en el BOC; el corpus guarda uno por materia (limitación del modelo)"
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:SMBS03BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL4, CPSAA4, CC1, CCEC1, CCEC2, CCEC3, CCEC4; criterios: CCL1, CCL2, CCL4, CC1, CCEC1, CCEC2, CD2, CPSAA4, CCEC3, CCEC4)",
+      "bc:SMBS04BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL4, CPSAA4, CC1, CCEC1, CCEC2, CCEC3, CCEC4; criterios: CCL1, CCL2, CCL4, CC1, CCEC1, CCEC2, CD2, CPSAA4, CCEC3, CCEC4)"
+    ],
+    "numeracion_boc": []
   },
   {
     "documento": "eso-ambito-cientifico-tecnologico",
@@ -523,2303 +398,565 @@
       {
         "tipo": "enunciado de competencia distinto",
         "nodo": "ce:SAMBC1",
-        "detalle": "documento: 'Buscar, localizar y seleccionar información a partir de fuentes fiables, contras'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:SAMB03BC1",
-        "detalle": "documento: 'A través de este bloque competencial se pretende comprobar si el alumnado es cap'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:SAMB03CE1.2",
-        "detalle": "documento: 'Contrastar información empleando las fuentes y herramientas que se adapten al pr'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:SAMB03BC2",
-        "detalle": "documento: 'A través de este bloque competencial se comprobará si el alumnado es capaz de an'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:SAMB03CE2.1",
-        "detalle": "documento: 'Analizar y representar información, utilizando diferentes medios y soportes, y u'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:SAMB03BC3",
-        "detalle": "documento: 'Este bloque competencial tiene el propósito de evaluar si el alumnado es capaz d'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:SAMB03BC4",
-        "detalle": "documento: 'A través de este bloque competencial se persigue constatar que el alumnado es ca'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:SAMB03CE4.4",
-        "detalle": "documento: 'Reconocer fenómenos de índole científico-tecnológicos y describirlos en términos'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:SAMB03CE4.5",
-        "detalle": "documento: 'Analizar el funcionamiento de los dispositivos digitales y resolver problemas té'"
+        "detalle": "documento: 'Buscar, localizar y seleccionar información a partir de fuentes fiables, contras'",
+        "campo": "definition",
+        "esperado": "Buscar, localizar y seleccionar información a partir de fuentes fiables, contrastando su veracidad y evaluando su idoneidad mediante el uso crítico y seguro de tecnologías digitales y otros recursos, para resolver preguntas y construir conocimiento, fomentando la curiosidad por la ciencia y la tecnología el desarrollo personal y el aprendizaje individual y colectivo.",
+        "explicacion": "la competencia tiene un enunciado distinto en cada curso en el BOC; el corpus guarda uno por materia (limitación del modelo)"
       },
       {
         "tipo": "enunciado de competencia distinto",
         "nodo": "ce:SAMBC5",
-        "detalle": "documento: 'Planificar y desarrollar proyectos de investigación y proyectos tecnológicos apl'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:SAMB03CE5.3",
-        "detalle": "documento: 'Aplicar con rigor las normas de uso de los espacios específicos de la ciencia y '"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:SAMB03CE5.4",
-        "detalle": "documento: 'Colaborar en el desarrollo de un proyecto de investigación o proyecto tecnológic'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:SAMB03BC6",
-        "detalle": "documento: 'A través de este bloque competencial se pretende evaluar si el alumnado es capaz'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:SAMB03CE6.3",
-        "detalle": "documento: 'Explicar, a partir de la búsqueda en diferentes fuentes, la contribución de la '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SAMB03SBI.1",
-        "detalle": "documento: 'Aplicación de las destrezas y habilidades propias del trabajo científico y del m'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SAMB03SBI.4",
-        "detalle": "documento: 'Conocimiento y utilización de los espacios (laboratorio, talleres, aulas, entorn'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SAMB03SBI.4.1",
-        "detalle": "documento: 'Uso de materiales, sustancias, herramientas e instrumentos básicos.'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SAMB03SBI.4.4",
-        "detalle": "documento: 'Realización de montajes físicos o simulados de circuitos eléctricos y electrónic'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SAMB03SBI.5.3",
-        "detalle": "documento: 'Uso de números naturales, enteros, fracciones y decimales para expresar cantidad'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SAMB03SBI.7",
-        "detalle": "documento: 'Valoración de la contribución de la ciencia y la tecnología a la sociedad y la l'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SAMB03SBI.8.2",
-        "detalle": "documento: 'Realización de operaciones con números naturales, enteros, fraccionarios o decim'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SAMB03SBI.8.6",
-        "detalle": "documento: 'Comprensión y uso del cálculo de porcentajes para la resolución de problemas en '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SAMB03SBII.9",
-        "detalle": "documento: 'Estudio de las formas de energía que se emplean en Canarias a partir de datos e '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SAMB03SBIV.6",
-        "detalle": "documento: 'Reconocimiento de la educación sexual como parte de un desarrollo integral que d'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SAMB03SBIV.9",
-        "detalle": "documento: 'Diferenciación entre los conceptos de pandemia, epidemia, endemia y brote epidém'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SAMB03SBV.1",
-        "detalle": "documento: 'Formulación de conjeturas sobre medidas de objetos del entorno o relaciones entr'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:SAMB04BC1",
-        "detalle": "documento: 'A través de este bloque competencial se pretende comprobar si el alumnado es cap'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:SAMB04CE1.2",
-        "detalle": "documento: 'Contrastar información seleccionando y empleando las fuentes y herramientas que '"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:SAMB04BC2",
-        "detalle": "documento: 'A través de este bloque competencial se comprobará si el alumnado analiza, mante'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:SAMB04BC3",
-        "detalle": "documento: 'Este bloque competencial tiene el propósito de evaluar si el alumnado es capaz d'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:SAMB04BC4",
-        "detalle": "documento: 'A través de este bloque competencial se persigue constatar que el alumnado es ca'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:SAMB04CE4.4",
-        "detalle": "documento: 'Interpretar fenómenos de índole científico-tecnológico y explicarlos en términos'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:SAMB04BC6",
-        "detalle": "documento: 'Este bloque competencial tiene el propósito de evaluar en el alumnado la capacid'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SAMB04BC6",
-        "detalle": "documento: \"['CCL2', 'CCL3', 'STEM1', 'STEM2', 'STEM3', 'STEM5', 'CD1', 'CD4', 'CPSAA2', 'CC\""
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:SAMB04CE6.1",
-        "detalle": "documento: \"['CCL2', 'CCL3', 'STEM1', 'STEM2', 'STEM3', 'CD1', 'CD4', 'CPSAA2', 'CC3', 'CC4'\""
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:SAMB04CE6.3",
-        "detalle": "documento: 'Valorar, a partir de la búsqueda en diferentes fuentes, la contribución de la c'"
+        "detalle": "documento: 'Planificar y desarrollar proyectos de investigación y proyectos tecnológicos apl'",
+        "campo": "definition",
+        "esperado": "Planificar y desarrollar proyectos de investigación y proyectos tecnológicos aplicando el conocimiento científico, la metodología de las ciencias, la tecnología y las estrategias propias del trabajo en equipo, para mejorar las destrezas científicas y tecnológicas y comprender el mundo que nos rodea.",
+        "explicacion": "la competencia tiene un enunciado distinto en cada curso en el BOC; el corpus guarda uno por materia (limitación del modelo)"
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
   },
   {
     "documento": "eso-ambito-practico",
     "estado": "contrastado",
     "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "primaria-conocimiento-del-medio-natural-social-y-cultural",
+    "estado": "contrastado",
+    "avisos_lectura": [],
     "diferencias": [
       {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:SAM304CE1.1",
-        "detalle": "documento: 'Idear, planificar, fabricar y difundir productos y soluciones tecnológicas efici'"
+        "tipo": "enunciado de competencia distinto",
+        "nodo": "ce:PC9NC1",
+        "detalle": "documento: 'Utilizar dispositivos y recursos digitales, de forma segura, responsable y efici'",
+        "campo": "definition",
+        "esperado": "Utilizar dispositivos y recursos digitales, de forma segura, responsable y eficiente, para buscar información, comunicarse y trabajar de manera individual, en equipo y en red, y para reelaborar y crear contenido digital de acuerdo con las necesidades digitales del contexto educativo.",
+        "explicacion": "solo cambia la puntuación y el texto del BOC no permite decidirla"
       },
       {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:SAM304CE1.2",
-        "detalle": "documento: 'Seleccionar y aplicar de manera segura y responsable las herramientas de diseño '"
+        "tipo": "enunciado de competencia distinto",
+        "nodo": "ce:PC9NC1",
+        "detalle": "documento: 'Utilizar dispositivos y recursos digitales, de forma segura, responsable y efici'",
+        "campo": "definition",
+        "esperado": "Utilizar dispositivos y recursos digitales, de forma segura, responsable y eficiente, para buscar información, comunicarse y trabajar de manera individual, en equipo y en red, y para reelaborar y crear contenido digital de acuerdo con las necesidades digitales del contexto educativo.",
+        "explicacion": "solo cambia la puntuación y el texto del BOC no permite decidirla"
       },
       {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:SAM304BC4",
-        "detalle": "documento: 'A través de este bloque competencial se comprobará que el alumnado sea capaz de '"
+        "tipo": "enunciado de competencia distinto",
+        "nodo": "ce:PC9NC1",
+        "detalle": "documento: 'Utilizar dispositivos y recursos digitales de forma segura, responsable y eficie'",
+        "campo": "definition",
+        "esperado": "Utilizar dispositivos y recursos digitales de forma segura, responsable y eficiente, para buscar información, comunicarse y trabajar de manera individual, en equipo y en red, y para reelaborar y crear contenido digital de acuerdo con las necesidades digitales del contexto educativo.",
+        "explicacion": "solo cambia la puntuación y el texto del BOC no permite decidirla"
       },
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:SAM304BC4",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'CCL5', 'STEM4', 'CD1', 'CD2', 'CD3', 'CPSAA4', 'CPSAA5\""
+        "tipo": "enunciado de competencia distinto",
+        "nodo": "ce:PC9NC9",
+        "detalle": "documento: 'Participar en el entorno y la vida social de forma eficaz y constructiva desde e'",
+        "campo": "definition",
+        "esperado": "Participar en el entorno y la vida social de forma eficaz y constructiva desde el respeto a los valores democráticos, los derechos humanos y de la infancia, y los principios y valores de la Constitución española y la Unión Europea, valorando la función del Estado y sus instituciones en el mantenimiento de la paz y la seguridad integral ciudadana, para generar interacciones respetuosas y equitativas y promover la resolución pacífica y dialogada de los conflictos.",
+        "explicacion": "solo cambia la puntuación y el texto del BOC no permite decidirla"
       },
       {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:SAM304CE4.1",
-        "detalle": "documento: 'Gestionar el aprendizaje configurando el entorno personal de aprendizaje mediant'"
+        "tipo": "enunciado de competencia distinto",
+        "nodo": "ce:PC9NC1",
+        "detalle": "documento: 'Utilizar dispositivos y recursos digitales de forma segura, responsable y eficie'",
+        "campo": "definition",
+        "esperado": "Utilizar dispositivos y recursos digitales de forma segura, responsable y eficiente, para buscar información, comunicarse y trabajar de manera individual, en equipo y en red, y para reelaborar y crear contenido digital de acuerdo con las necesidades digitales del contexto educativo.",
+        "explicacion": "solo cambia la puntuación y el texto del BOC no permite decidirla"
       },
       {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:SAM304CE4.4",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL5', 'STEM4', 'CD3', 'CPSAA5']\""
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:SAM304BC5",
-        "detalle": "documento: 'Mediante este bloque competencial se persigue constatar que el alumnado es capaz'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SAM304SBI.1.3",
-        "detalle": "documento: 'Resolución de problemas desde una perspectiva interdisciplinar de la actividad t'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SAM304SBII.1",
-        "detalle": "documento: 'Identificación y representación de operadores tecnológicos (mecánicos, eléctrico'"
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:SAM304SBII.2",
-        "detalle": ""
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SAM304SBVI.1",
-        "detalle": "documento: 'Configuración y montaje de los elementos que constituyen la arquitectura de los '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SAM304SBVI.2",
-        "detalle": "documento: 'Identificación de los dispositivos constituyentes de una red local y análisis de'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:SAM304SBVI.3",
-        "detalle": "documento: 'Configuración de sistemas operativos.'"
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:SAM304SBVI.4",
-        "detalle": ""
+        "tipo": "enunciado de competencia distinto",
+        "nodo": "ce:PC9NC9",
+        "detalle": "documento: 'Participar en el entorno y la vida social de forma eficaz y constructiva desde e'",
+        "campo": "definition",
+        "esperado": "Participar en el entorno y la vida social de forma eficaz y constructiva desde el respeto a los valores democráticos, los derechos humanos y de la infancia, y los principios y valores de la Constitución española y la Unión Europea, valorando la función del Estado y sus instituciones en el mantenimiento de la paz y la seguridad integral ciudadana, para generar interacciones respetuosas y equitativas y promover la resolución pacífica y dialogada de los conflictos.",
+        "explicacion": "solo cambia la puntuación y el texto del BOC no permite decidirla"
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "primaria-educacion-artistica",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
   },
   {
     "documento": "primaria-educacion-en-valores-civicos-y-eticos",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEDK05BC1",
-        "detalle": "documento: 'A través de este bloque competencial se comprobará que el alumnado es capaz de d'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEDK05BC1",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'CD1', 'CD4', 'CPSAA4', 'CPSAA5', 'CC1', 'CC2', 'CC3']\""
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PEDK05CE1.1",
-        "detalle": "documento: 'Construir un adecuado concepto de sí mismo o sí misma en relación con otras pers'"
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PEDK05CE1.1",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'CD1', 'CD4', 'CPSAA5', 'CC1', 'CC2', 'CC3']\""
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PEDK05CE1.2",
-        "detalle": "documento: 'Generar una posición moral autónoma a través de la reflexión, el uso de los conc'"
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PEDK05CE1.2",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'CD1', 'CD4', 'CPSAA4', 'CC1', 'CC2', 'CC3']\""
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEDK05BC2",
-        "detalle": "documento: 'A través de este bloque competencial, se comprobará que el alumnado reflexiona, '"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PEDK05CE2.2",
-        "detalle": "documento: 'Reflexionar, dialogar y asumir un compromiso activo y crítico, con valores relat'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PEDK05CE2.3",
-        "detalle": "documento: 'Contribuir a generar una convivencia positiva respetuosa, no sexista y compromet'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PEDK05CE2.4",
-        "detalle": "documento: 'Comprender y valorar los principios de justicia, solidaridad, seguridad y paz, a'"
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PEDK05CE2.4",
-        "detalle": "documento: \"['CCL5', 'CC1', 'CC2', 'CC3', 'CE1', 'CE2']\""
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEDK05BC3",
-        "detalle": "documento: 'A través de este bloque competencial se constarará que el alumnado se compromete'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEDK05BC3",
-        "detalle": "documento: \"['CCL2', 'CCL5', 'CD2', 'STEM1', 'STEM5', 'CPSAA2', 'CC3', 'CC4', 'CE1', 'CE3', \""
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PEDK05CE3.1",
-        "detalle": "documento: \"['CCL2', 'CCL5', 'CD2', 'STEM1', 'STEM5', 'CPSAA2', 'CC3', 'CC4', 'CE1', 'CCEC4'\""
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PEDK05CE3.2",
-        "detalle": "documento: 'Comprometerse activamente con valores, prácticas y actitudes afectivas consecuen'"
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PEDK05CE3.2",
-        "detalle": "documento: \"['CCL2', 'CCL5', 'CD2', 'STEM1', 'STEM5', 'CPSAA2', 'CC3', 'CC4', 'CE1', 'CE3', \""
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEDK05BC4",
-        "detalle": "documento: 'A través de este bloque competencial, se constatará que el alumnado sea capaz de'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEDK05BC4",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'CP3', 'CPSAA1', 'CPSAA2', 'CPSAA3', 'CC2', 'CC3', 'CC4', 'CE1'\""
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PEDK05CE4.1",
-        "detalle": "documento: 'Expresar y gestionar equilibradamente las emociones, y desarrollar una actitud d'"
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PEDK05CE4.1",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'CP3', 'CPSAA1', 'CPSAA2', 'CPSAA3', 'CC2', 'CC3', 'CC4', 'CE1'\""
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK05SBI.2",
-        "detalle": "documento: 'Reconocimiento de la naturaleza humana y deliberación de la identidad personal, '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK05SBI.3",
-        "detalle": "documento: 'Reconocimiento y gestión de las emociones y los sentimientos, con especial atenc'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK05SBI.4",
-        "detalle": "documento: 'Fomento de una educación afectivo-sexual relativa a la identidad, la diferencia '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK05SBI.5",
-        "detalle": "documento: 'Desarrollo del juicio moral a través de la identificación de los deseos, razones'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK05SBI.7",
-        "detalle": "documento: 'Identificación de normas, virtudes y sentimientos morales a través del debate en'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK05SBI.8",
-        "detalle": "documento: 'Desarrollo del propio proyecto personal en el que convergen diversidad de valore'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK05SBI.9",
-        "detalle": "documento: 'Conocimiento de la influencia y el uso crítico y responsable de los medios y las'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK05SBII.1.1",
-        "detalle": "documento: 'Valoración de la empatía, los afectos, la familia, la amistad y el amor como fun'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK05SBII.2.1",
-        "detalle": "documento: 'Reconocimiento de las virtudes del diálogo y las normas de la argumentación para'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK05SBII.2.2",
-        "detalle": "documento: 'Comprensión de los principios y valores constitucionales y democráticos. Reflexi'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK05SBII.2.3",
-        "detalle": "documento: 'Reconocimiento de la desigualdad económica con especial atención a las caracterí'"
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:PEDK05SBII.2.4",
-        "detalle": ""
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK05SBII.3.1",
-        "detalle": "documento: 'Conocimiento de los derechos humanos y de la infancia y su relevancia ética.'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK05SBII.3.2",
-        "detalle": "documento: 'Análisis de la pobreza: sus causas y búsqueda de soluciones locales y globales. '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK05SBII.3.3",
-        "detalle": "documento: 'Promoción de la igualdad y la corresponsabilidad entre mujeres y hombres, a trav'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK05SBII.3.4",
-        "detalle": "documento: 'Fomento del respeto por las minorías y las identidades etnoculturales, reconocie'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK05SBII.3.5",
-        "detalle": "documento: 'Aplicación de la resolución pacífica de conflictos para fomentar la cultura de p'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK05SBII.3.6",
-        "detalle": "documento: 'Conocimiento de la contribución del Estado y sus instituciones a la paz, la segu'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK05SBII.3.7",
-        "detalle": "documento: 'Potenciación de un compromiso cívico y solidario al servicio de la paz. La prote'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK05SBIII.2",
-        "detalle": "documento: 'Conocimiento de la interdependencia, ecodependencia e interrelación humana que e'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK05SBIII.6",
-        "detalle": "documento: 'Conocimiento de acciones específicas para el uso sostenible del aire, energía, a'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK05SBIII.7",
-        "detalle": "documento: 'Fomento de la movilidad segura, saludable y sostenible en el entorno.'"
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:PEDK05SBII.3.8",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:PEDK05SBII.3.9",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:PEDK05SBII.3.10",
-        "detalle": ""
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEDK06BC1",
-        "detalle": "documento: 'A través de este bloque competencial se comprobará que el alumnado es capaz de d'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEDK06BC1",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'CD1', 'CD4', 'CPSAA4', 'CPSAA5', 'CC1', 'CC2', 'CC3']\""
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PEDK06CE1.1",
-        "detalle": "documento: 'Construir un adecuado concepto de sí mismo o sí misma en relación con otras pers'"
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PEDK06CE1.1",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'CD1', 'CD4', 'CPSAA5', 'CC1', 'CC2', 'CC3']\""
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PEDK06CE1.2",
-        "detalle": "documento: 'Generar una posición moral autónoma a través de la reflexión, el uso de los conc'"
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PEDK06CE1.2",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'CD1', 'CD4', 'CPSAA4', 'CC1', 'CC2', 'CC3']\""
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEDK06BC2",
-        "detalle": "documento: 'A través de este bloque competencial, se comprobará que el alumnado reflexiona, '"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PEDK06CE2.2",
-        "detalle": "documento: 'Reflexionar, dialogar y asumir un compromiso activo y crítico, con valores relat'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PEDK06CE2.3",
-        "detalle": "documento: 'Contribuir a generar una convivencia positiva respetuosa, no sexista y compromet'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PEDK06CE2.4",
-        "detalle": "documento: 'Comprender y valorar los principios de justicia, solidaridad, seguridad y paz, a'"
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PEDK06CE2.4",
-        "detalle": "documento: \"['CCL5', 'CC1', 'CC2', 'CC3', 'CE1', 'CE2']\""
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEDK06BC3",
-        "detalle": "documento: 'A través de este bloque competencial se constarará que el alumnado se compromete'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEDK06BC3",
-        "detalle": "documento: \"['CCL2', 'CCL5', 'CD2', 'STEM1', 'STEM5', 'CPSAA2', 'CC3', 'CC4', 'CE1', 'CE3', \""
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PEDK06CE3.1",
-        "detalle": "documento: \"['CCL2', 'CCL5', 'CD2', 'STEM1', 'STEM5', 'CPSAA2', 'CC3', 'CC4', 'CE1', 'CCEC4'\""
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PEDK06CE3.2",
-        "detalle": "documento: 'Comprometerse activamente con valores, prácticas y actitudes afectivas consecuen'"
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PEDK06CE3.2",
-        "detalle": "documento: \"['CCL2', 'CCL5', 'CD2', 'STEM1', 'STEM5', 'CPSAA2', 'CC3', 'CC4', 'CE1', 'CE3', \""
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEDK06BC4",
-        "detalle": "documento: 'A través de este bloque competencial, se constatará que el alumnado sea capaz de'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEDK06BC4",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'CP3', 'CPSAA1', 'CPSAA2', 'CPSAA3', 'CC2', 'CC3', 'CC4', 'CE1'\""
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PEDK06CE4.1",
-        "detalle": "documento: 'Expresar y gestionar equilibradamente las emociones, y desarrollar una actitud d'"
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PEDK06CE4.1",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'CP3', 'CPSAA1', 'CPSAA2', 'CPSAA3', 'CC2', 'CC3', 'CC4', 'CE1'\""
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK06SBI.2",
-        "detalle": "documento: 'Reconocimiento de la naturaleza humana y deliberación de la identidad personal, '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK06SBI.3",
-        "detalle": "documento: 'Reconocimiento y gestión de las emociones y los sentimientos, con especial atenc'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK06SBI.4",
-        "detalle": "documento: 'Fomento de una educación afectivo-sexual relativa a la identidad, la diferencia '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK06SBI.5",
-        "detalle": "documento: 'Desarrollo del juicio moral a través de la identificación de los deseos, razones'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK06SBI.7",
-        "detalle": "documento: 'Identificación de normas, virtudes y sentimientos morales a través del debate en'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK06SBI.8",
-        "detalle": "documento: 'Desarrollo del propio proyecto personal en el que convergen diversidad de valore'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK06SBI.9",
-        "detalle": "documento: 'Conocimiento de la influencia y el uso crítico y responsable de los medios y las'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK06SBII.1.1",
-        "detalle": "documento: 'Valoración de la empatía, los afectos, la familia, la amistad y el amor como fun'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK06SBII.2.1",
-        "detalle": "documento: 'Reconocimiento de las virtudes del diálogo y las normas de la argumentación para'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK06SBII.2.2",
-        "detalle": "documento: 'Comprensión de los principios y valores constitucionales y democráticos. Reflexi'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK06SBII.2.3",
-        "detalle": "documento: 'Reconocimiento de la desigualdad económica con especial atención a las caracterí'"
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:PEDK06SBII.2.4",
-        "detalle": ""
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK06SBII.3.1",
-        "detalle": "documento: 'Conocimiento de los derechos humanos y de la infancia y su relevancia ética.'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK06SBII.3.2",
-        "detalle": "documento: 'Análisis de la pobreza: sus causas y búsqueda de soluciones locales y globales. '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK06SBII.3.3",
-        "detalle": "documento: 'Promoción de la igualdad y la corresponsabilidad entre mujeres y hombres, a trav'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK06SBII.3.4",
-        "detalle": "documento: 'Fomento del respeto por las minorías y las identidades etnoculturales, reconocie'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK06SBII.3.5",
-        "detalle": "documento: 'Aplicación de la resolución pacífica de conflictos para fomentar la cultura de p'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK06SBII.3.6",
-        "detalle": "documento: 'Conocimiento de la contribución del Estado y sus instituciones a la paz, la segu'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK06SBII.3.7",
-        "detalle": "documento: 'Potenciación de un compromiso cívico y solidario al servicio de la paz. La prote'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK06SBIII.2",
-        "detalle": "documento: 'Conocimiento de la interdependencia, ecodependencia e interrelación humana que e'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK06SBIII.6",
-        "detalle": "documento: 'Conocimiento de acciones específicas para el uso sostenible del aire, energía, a'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEDK06SBIII.7",
-        "detalle": "documento: 'Fomento de la movilidad segura, saludable y sostenible en el entorno.'"
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:PEDK06SBII.3.8",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:PEDK06SBII.3.9",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:PEDK06SBII.3.10",
-        "detalle": ""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
   },
   {
     "documento": "primaria-educacion-fisica",
     "estado": "contrastado",
     "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:PEFI01BC1: la cabecera del bloque no coincide con sus criterios (cabecera: STEM2, STEM5, CPSAA2, CPSAA5, CE3; criterios: STEM5, CPSAA2, CPSAA5)",
+      "bc:PEFI01BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CPSAA1, CPSAA3, CPSAA5, CC2, CC3; criterios: CPSAA1, CPSAA3, CPSAA5, CCL1, CCL5, CC2)",
+      "bc:PEFI01BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CC3, CCEC1, CCEC2, CCEC3, CCEC4; criterios: CCEC1, CCEC2)",
+      "bc:PEFI01BC5: la cabecera del bloque no coincide con sus criterios (cabecera: STEM5, CC2, CC4, CE1, CE3; criterios: STEM5, CC4)",
+      "bc:PEFI02BC1: la cabecera del bloque no coincide con sus criterios (cabecera: STEM2, STEM5, CPSAA2, CPSAA5, CE3; criterios: STEM5, CPSAA2, CPSAA5)",
+      "bc:PEFI02BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CPSAA1, CPSAA3, CPSAA5, CC2, CC3; criterios: CPSAA1, CPSAA3, CPSAA5, CCL1, CCL5, CC2)",
+      "bc:PEFI02BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CC3, CCEC1, CCEC2, CCEC3, CCEC4; criterios: CCEC1, CCEC2)",
+      "bc:PEFI02BC5: la cabecera del bloque no coincide con sus criterios (cabecera: STEM5, CC2, CC4, CE1, CE3; criterios: STEM5, CC4)",
+      "bc:PEFI03BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CC3, CCEC1, CCEC2, CCEC3, CCEC4; criterios: CC3, CCEC1, CCEC2, CCEC3)",
+      "bc:PEFI03BC5: la cabecera del bloque no coincide con sus criterios (cabecera: STEM5, CC2, CC4, CE1, CE3; criterios: STEM5, CC4, CE1, CE3)",
+      "bc:PEFI04BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CC3, CCEC1, CCEC2, CCEC3, CCEC4; criterios: CC3, CCEC1, CCEC2, CCEC3)",
+      "bc:PEFI04BC5: la cabecera del bloque no coincide con sus criterios (cabecera: STEM5, CC2, CC4, CE1, CE3; criterios: STEM5, CC4, CE1, CE3)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "primaria-lengua-castellana-y-literatura",
+    "estado": "contrastado",
+    "avisos_lectura": [],
     "diferencias": [
       {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEFI01BC1",
-        "detalle": "documento: 'A través de este bloque competencial el alumnado desarrollará un estilo de vida '"
+        "tipo": "enunciado de competencia distinto",
+        "nodo": "ce:PLCLC2",
+        "detalle": "documento: 'Comprender e interpretar textos orales y multimodales, identificando el sentido '",
+        "campo": "definition",
+        "esperado": "Comprender e interpretar textos orales y multimodales, identificando el sentido general y la información más relevante, y valorando con ayuda aspectos formales y de contenido básicos, para construir conocimiento y responder a diferentes necesidades comunicativas.",
+        "explicacion": "solo cambia la puntuación y el texto del BOC no permite decidirla"
+      },
+      {
+        "tipo": "descriptores de criterio distinto",
+        "nodo": "crit:PLCL01CE7.2",
+        "detalle": "documento: ['CCL1', 'CCL4', 'CD3', 'CPSAA1', 'CCE3', 'CCEC1', 'CCEC2', 'CCEC3']",
+        "campo": "descriptores",
+        "esperado": [
+          "CCL1",
+          "CCL4",
+          "CD3",
+          "CPSAA1",
+          "CCE3",
+          "CCEC1",
+          "CCEC2",
+          "CCEC3"
+        ],
+        "explicacion": "el documento trae códigos de descriptor que no existen en la etapa (errata)"
       },
       {
         "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI01BC1",
-        "detalle": "documento: \"['STEM2', 'STEM5', 'CPSAA2', 'CPSAA5', 'CE3']\""
+        "nodo": "bc:PLCL01BC7",
+        "detalle": "documento: ['CCL4', 'CPSAA1', 'CCEC1', 'CCEC2', 'CCL1', 'CD3', 'CCE3', 'CCEC3']",
+        "campo": "descriptores",
+        "esperado": [
+          "CCL4",
+          "CPSAA1",
+          "CCEC1",
+          "CCEC2",
+          "CCL1",
+          "CD3",
+          "CCE3",
+          "CCEC3"
+        ],
+        "criterios": [
+          "crit:PLCL01CE7.1",
+          "crit:PLCL01CE7.2"
+        ],
+        "explicacion": "el documento trae códigos de descriptor que no existen en la etapa (errata)"
       },
       {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEFI01BC2",
-        "detalle": "documento: 'A través de este bloque competencial el alumnado resolverá problemas motrices, a'"
+        "tipo": "enunciado de competencia distinto",
+        "nodo": "ce:PLCLC2",
+        "detalle": "documento: 'Comprender e interpretar textos orales y multimodales, identificando el sentido '",
+        "campo": "definition",
+        "esperado": "Comprender e interpretar textos orales y multimodales, identificando el sentido general y la información más relevante, y valorando con ayuda aspectos formales y de contenido básicos, para construir conocimiento y responder a diferentes necesidades comunicativas.",
+        "explicacion": "solo cambia la puntuación y el texto del BOC no permite decidirla"
       },
       {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEFI01BC3",
-        "detalle": "documento: 'A través de este bloque competencial se constatará que el alumnado es capaz de d'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI01BC3",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'CPSAA1', 'CPSAA3', 'CPSAA5', 'CC2', 'CC3']\""
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEFI01BC4",
-        "detalle": "documento: 'A través de este bloque competencial el alumnado experimentará y practicará dife'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI01BC4",
-        "detalle": "documento: \"['CC3', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4']\""
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEFI01BC5",
-        "detalle": "documento: 'A través de este bloque competencial se constatará que el alumnado es capaz de p'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI01BC5",
-        "detalle": "documento: \"['STEM5', 'CC2', 'CC4', 'CE1', 'CE3']\""
-      },
-      {
-        "tipo": "descripción de bloque de saberes distinto",
-        "nodo": "sb:PEFI01SBIII",
-        "detalle": "documento: 'None'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI01SBIII.2",
-        "detalle": "documento: 'Iniciación en la coordinación de acciones con compañeros y compañeras en situaci'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI01SBIV.4",
-        "detalle": "documento: 'Reconocimiento de conductas favorables a la convivencia positiva y la igualdad d'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI01SBV.2",
-        "detalle": "documento: 'Reproducción de gestos, muecas, posturas y otros elementos perceptibles para com'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEFI02BC1",
-        "detalle": "documento: 'A través de este bloque competencial el alumnado desarrollará un estilo de vida '"
+        "tipo": "descriptores de criterio distinto",
+        "nodo": "crit:PLCL02CE7.2",
+        "detalle": "documento: ['CCL1', 'CCL4', 'CD3', 'CPSAA1', 'CCE3', 'CCEC1', 'CCEC2', 'CCEC3']",
+        "campo": "descriptores",
+        "esperado": [
+          "CCL1",
+          "CCL4",
+          "CD3",
+          "CPSAA1",
+          "CCE3",
+          "CCEC1",
+          "CCEC2",
+          "CCEC3"
+        ],
+        "explicacion": "el documento trae códigos de descriptor que no existen en la etapa (errata)"
       },
       {
         "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI02BC1",
-        "detalle": "documento: \"['STEM2', 'STEM5', 'CPSAA2', 'CPSAA5', 'CE3']\""
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEFI02BC2",
-        "detalle": "documento: 'A través de este bloque competencial el alumnado resolverá problemas motrices, a'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEFI02BC3",
-        "detalle": "documento: 'A través de este bloque competencial se constatará que el alumnado es capaz de d'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI02BC3",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'CPSAA1', 'CPSAA3', 'CPSAA5', 'CC2', 'CC3']\""
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEFI02BC4",
-        "detalle": "documento: 'A través de este bloque competencial el alumnado experimentará y practicará dife'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI02BC4",
-        "detalle": "documento: \"['CC3', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4']\""
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEFI02BC5",
-        "detalle": "documento: 'A través de este bloque competencial se constatará que el alumnado es capaz de p'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI02BC5",
-        "detalle": "documento: \"['STEM5', 'CC2', 'CC4', 'CE1', 'CE3']\""
-      },
-      {
-        "tipo": "descripción de bloque de saberes distinto",
-        "nodo": "sb:PEFI02SBIII",
-        "detalle": "documento: 'None'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI02SBIII.2",
-        "detalle": "documento: 'Iniciación en la coordinación de acciones con compañeros y compañeras en situaci'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI02SBIV.4",
-        "detalle": "documento: 'Reconocimiento de conductas favorables a la convivencia positiva y la igualdad d'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI02SBV.2",
-        "detalle": "documento: 'Reproducción de gestos, muecas, posturas y otros elementos perceptibles para com'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEFI03BC1",
-        "detalle": "documento: 'A través de este bloque competencial el alumnado desarrollará un estilo de vida '"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PEFI03CE1.1",
-        "detalle": "documento: 'Utilizar la actividad física como alternativa de ocio saludable y sostenible, ad'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PEFI03CE2.2",
-        "detalle": "documento: 'Adquirir un progresivo control y dominio corporal, empleando los componentes cua'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEFI03BC3",
-        "detalle": "documento: 'A través de este bloque competencial se constatará que el alumnado es capaz de d'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI03BC4",
-        "detalle": "documento: \"['CC3', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI03BC5",
-        "detalle": "documento: \"['STEM5', 'CC2', 'CC4', 'CE1', 'CE3']\""
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI03SBI.1",
-        "detalle": "documento: 'Interiorización de los efectos físicos y psicológicos beneficiosos de un estilo '"
-      },
-      {
-        "tipo": "descripción de bloque de saberes distinto",
-        "nodo": "sb:PEFI03SBIII",
-        "detalle": "documento: 'None'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI03SBIII.2",
-        "detalle": "documento: 'Iniciación en situaciones de juego a la toma de decisiones mediante la ubicación'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI03SBIII.4",
-        "detalle": "documento: 'Uso de las capacidades perceptivo-motrices en contexto de práctica mediante la i'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEFI04BC1",
-        "detalle": "documento: 'A través de este bloque competencial el alumnado desarrollará un estilo de vida '"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PEFI04CE1.1",
-        "detalle": "documento: 'Utilizar la actividad física como alternativa de ocio saludable y sostenible, ad'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PEFI04CE2.2",
-        "detalle": "documento: 'Adquirir un progresivo control y dominio corporal, empleando los componentes cua'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEFI04BC3",
-        "detalle": "documento: 'A través de este bloque competencial se constatará que el alumnado es capaz de d'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI04BC4",
-        "detalle": "documento: \"['CC3', 'CCEC1', 'CCEC2', 'CCEC3', 'CCEC4']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:PEFI04BC5",
-        "detalle": "documento: \"['STEM5', 'CC2', 'CC4', 'CE1', 'CE3']\""
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI04SBI.1",
-        "detalle": "documento: 'Interiorización de los efectos físicos y psicológicos beneficiosos de un estilo '"
-      },
-      {
-        "tipo": "descripción de bloque de saberes distinto",
-        "nodo": "sb:PEFI04SBIII",
-        "detalle": "documento: 'None'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI04SBIII.2",
-        "detalle": "documento: 'Iniciación en situaciones de juego a la toma de decisiones mediante la ubicación'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI04SBIII.4",
-        "detalle": "documento: 'Uso de las capacidades perceptivo-motrices en contexto de práctica mediante la i'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEFI05BC1",
-        "detalle": "documento: 'A través de este bloque competencial el alumnado desarrollará un estilo de vida '"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PEFI05CE1.1",
-        "detalle": "documento: 'Integrar los procesos de activación corporal, autorregulación del esfuerzo, rela'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PEFI05CE1.2",
-        "detalle": "documento: 'Aplicar medidas de seguridad antes, durante y después de la práctica de activida'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEFI05BC3",
-        "detalle": "documento: 'A través de este bloque competencial se constatará que el alumnado es capaz de d'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI05SBI.1",
-        "detalle": "documento: 'Implementación de un estilo de vida activo y saludable, con beneficios físicos, '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI05SBI.2",
-        "detalle": "documento: 'Respeto y aceptación del propio cuerpo y el ajeno, consolidando el autoconcepto '"
-      },
-      {
-        "tipo": "descripción de bloque de saberes distinto",
-        "nodo": "sb:PEFI05SBIII",
-        "detalle": "documento: 'None'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI05SBIII.1",
-        "detalle": "documento: 'Aplicación de toma de decisiones en juegos y deportes, mediante la selección de '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI05SBIII.2",
-        "detalle": "documento: 'Selección de acciones para el ajuste espacio-temporal en la interacción con los '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI05SBIII.3",
-        "detalle": "documento: 'Selección adecuada de las habilidades motrices en situaciones de oposición de co'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI05SBV.5",
-        "detalle": "documento: 'Conocimiento y práctica de deportes asociados a grandes eventos locales, naciona'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEFI06BC1",
-        "detalle": "documento: 'A través de este bloque competencial el alumnado desarrollará un estilo de vida '"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PEFI06CE1.1",
-        "detalle": "documento: 'Integrar los procesos de activación corporal, autorregulación del esfuerzo, rela'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PEFI06CE1.2",
-        "detalle": "documento: 'Aplicar medidas de seguridad antes, durante y después de la práctica de activida'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PEFI06BC3",
-        "detalle": "documento: 'A través de este bloque competencial se constatará que el alumnado es capaz de d'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI06SBI.1",
-        "detalle": "documento: 'Implementación de un estilo de vida activo y saludable, con beneficios físicos, '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI06SBI.2",
-        "detalle": "documento: 'Respeto y aceptación del propio cuerpo y el ajeno, consolidando el autoconcepto '"
-      },
-      {
-        "tipo": "descripción de bloque de saberes distinto",
-        "nodo": "sb:PEFI06SBIII",
-        "detalle": "documento: 'None'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI06SBIII.1",
-        "detalle": "documento: 'Aplicación de toma de decisiones en juegos y deportes, mediante la selección de '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI06SBIII.2",
-        "detalle": "documento: 'Selección de acciones para el ajuste espacio-temporal en la interacción con los '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI06SBIII.3",
-        "detalle": "documento: 'Selección adecuada de las habilidades motrices en situaciones de oposición de co'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PEFI06SBV.5",
-        "detalle": "documento: 'Conocimiento y práctica de deportes asociados a grandes eventos locales, naciona'"
+        "nodo": "bc:PLCL02BC7",
+        "detalle": "documento: ['CCL4', 'CPSAA1', 'CCEC1', 'CCEC2', 'CCL1', 'CD3', 'CCE3', 'CCEC3']",
+        "campo": "descriptores",
+        "esperado": [
+          "CCL4",
+          "CPSAA1",
+          "CCEC1",
+          "CCEC2",
+          "CCL1",
+          "CD3",
+          "CCE3",
+          "CCEC3"
+        ],
+        "criterios": [
+          "crit:PLCL02CE7.1",
+          "crit:PLCL02CE7.2"
+        ],
+        "explicacion": "el documento trae códigos de descriptor que no existen en la etapa (errata)"
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "crit:PLCL01CE7.2: los descriptores del criterio traen códigos que no existen: CCE3",
+      "bc:PLCL01BC7: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL4, CD3, CPSAA1, CC3, CCEC1, CCEC2, CCEC3; criterios: CCL4, CPSAA1, CCEC1, CCEC2, CCL1, CD3, CCE3, CCEC3)",
+      "crit:PLCL02CE7.2: los descriptores del criterio traen códigos que no existen: CCE3",
+      "bc:PLCL02BC7: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL4, CD3, CPSAA1, CC3, CCEC1, CCEC2, CCEC3; criterios: CCL4, CPSAA1, CCEC1, CCEC2, CCL1, CD3, CCE3, CCEC3)",
+      "bc:PLCL05BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CP2, CP3, CC1, CC2, CCEC1, CCEC3; criterios: CCL1, CCL5, CP2, CP3, CC1, CC2, CCEC1, CCEC2)",
+      "bc:PLCL06BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CP2, CP3, CC1, CC2, CCEC1, CCEC3; criterios: CCL1, CCL5, CP2, CP3, CC1, CC2, CCEC1, CCEC2)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "primaria-lengua-extranjera",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "primaria-educacion-emocional-y-para-la-creatividad",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "primaria-segunda-lengua-extranjera",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
   },
   {
     "documento": "primaria-matematicas",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT01BC1",
-        "detalle": "documento: 'A través de este bloque competencial se comprobará que el alumnado es capaz de c'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT01BC3",
-        "detalle": "documento: 'En este bloque competencial se comprobará si el alumnado realiza conjeturas elem'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT01CE3.1",
-        "detalle": "documento: 'Realizar conjeturas matemáticas sencillas de forma guiada, investigando patrones'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT01CE3.2",
-        "detalle": "documento: 'Identificar problemas en situaciones cotidianas que se resuelven matemáticamente'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT01BC4",
-        "detalle": "documento: 'En este bloque competencial se constatará que el alumnado describe rutinas sigui'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT01CE4.2",
-        "detalle": "documento: 'Resolver problemas que impliquen secuencias o patrones, de forma guiada, utiliza'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT01BC5",
-        "detalle": "documento: 'A través de este bloque competencial, se constatará que el alumnado\\xa0reconoce y u'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT01CE5.1",
-        "detalle": "documento: 'Reconocer conexiones entre todos los sentidos y entre las matemáticas implicadas'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT01BC6",
-        "detalle": "documento: 'En este bloque competencial se evaluará que el alumnado reconoce el lenguaje mat'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT01CE6.1",
-        "detalle": "documento: 'Reconocer y comprender el lenguaje matemático sencillo presente en la vida cotid'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT01CE6.2",
-        "detalle": "documento: 'Comunicar de forma verbal o gráfica ideas y procesos matemáticos, utilizando len'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT01BC7",
-        "detalle": "documento: 'A través de este bloque competencial, se comprobará que el alumnado se enfrenta '"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT01CE7.1",
-        "detalle": "documento: 'Reconocer las emociones propias, desarrollando así la autoconfianza, empleando a'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT01SBI.2.3",
-        "detalle": "documento: 'Composición y descomposición de los 10 primeros números y su generalización al 1'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT01SBI.2.4",
-        "detalle": "documento: 'Uso de los dobles hasta el 10+10 y su generalización al 100 para las sumas.'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT01SBI.2.5",
-        "detalle": "documento: 'Suma de números de una o dos cifras, descomponiendo, componiendo o completando a'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT01SBI.2.6",
-        "detalle": "documento: 'Análisis de las relaciones entre los sumandos (dobles más 1, doble menos 1, pare'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT01SBI.2.7",
-        "detalle": "documento: 'Comprensión y utilización de estrategias flexibles de cálculo para la resta con '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT01SBI.2.8",
-        "detalle": "documento: 'Uso de la resta como acción de quitar de manera sucesiva, descomponiendo de mane'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT01SBI.2.9",
-        "detalle": "documento: 'Uso de la resta como acción de completar a los órdenes de unidades desde el sust'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT01SBI.2.10",
-        "detalle": "documento: 'Uso de la resta en modelos manipulativos: recta de cuentas, recta numérica, tabl'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT01SBI.2.11",
-        "detalle": "documento: 'Uso de la resta de números naturales, con flexibilidad, comprensión y sentido, c'"
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:PMAT01SBI.2.12",
-        "detalle": ""
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:PMAT01SBI.2.13",
-        "detalle": ""
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:PMAT01SBI.2.14",
-        "detalle": ""
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:PMAT01SBI.2.15",
-        "detalle": ""
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT01SBI.3.1",
-        "detalle": "documento: 'Conocimiento del sistema de numeración de base 10 y aplicación de las relaciones'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT01SBI.4.1",
-        "detalle": "documento: 'Conocimiento del sistema monetario europeo: monedas (1 y 2 euros) y billetes de '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT01SBII.1.3",
-        "detalle": "documento: 'Uso de las unidades de medida del tiempo (año, mes, semana, día, hora y minuto) '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT01SBII.2.1",
-        "detalle": "documento: 'Conocimiento y aplicación de procesos para medir mediante repetición de una unid'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT01SBII.2.2",
-        "detalle": "documento: 'Aplicación de estrategias de comparación directa e indirecta, y ordenación de me'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT01SBIV.2.3",
-        "detalle": "documento: 'Resolución de problemas aritméticos (acciones de componer, descomponer, completa'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT01SBIV.2.4",
-        "detalle": "documento: 'Conocimiento y uso de estrategias de resolución de problemas (modelización, ensa'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT01SBIV.3.3",
-        "detalle": "documento: 'Expresión matemática de las relaciones establecidas y deducidas del trabajo mani'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT01SBIV.4.2",
-        "detalle": "documento: 'Resolución de retos con actividades desenchufadas y manipulativas para el desarr'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT01SBV.1.3",
-        "detalle": "documento: 'Representación de datos obtenidos a través de recuentos mediante diagrama de bar'"
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:PMAT01SBI.2.2.1",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:PMAT01SBI.2.2.2",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:PMAT01SBI.2.2.3",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:PMAT01SBI.2.2.4",
-        "detalle": ""
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT02BC1",
-        "detalle": "documento: 'A través de este bloque competencial se comprobará que el alumnado es capaz de c'"
-      },
-      {
-        "tipo": "descriptores de criterio distinto",
-        "nodo": "crit:PMAT02CE1.1",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'STEM1', 'STEM2', 'STEM4', 'CPSAA5', 'CE1', 'CE3']\""
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT02BC3",
-        "detalle": "documento: 'En este bloque competencial se comprobará si el alumnado realiza conjeturas elem'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT02CE3.1",
-        "detalle": "documento: 'Realizar conjeturas matemáticas sencillas de forma guiada, investigando patrones'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT02CE3.2",
-        "detalle": "documento: 'Identificar problemas en situaciones cotidianas que se resuelven matemáticamente'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT02BC4",
-        "detalle": "documento: 'En este bloque competencial se constatará que el alumnado describe rutinas sigui'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT02CE4.2",
-        "detalle": "documento: 'Resolver problemas que impliquen secuencias o patrones, de forma guiada, utiliza'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT02BC5",
-        "detalle": "documento: 'A través de este bloque competencial, se constatará que el alumnado\\xa0reconoce y u'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT02CE5.1",
-        "detalle": "documento: 'Reconocer conexiones entre todos los sentidos y entre las matemáticas implicadas'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT02BC6",
-        "detalle": "documento: 'En este bloque competencial se evaluará que el alumnado reconoce el lenguaje mat'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT02CE6.1",
-        "detalle": "documento: 'Reconocer y comprender el lenguaje matemático sencillo presente en la vida cotid'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT02CE6.2",
-        "detalle": "documento: 'Comunicar de forma verbal o gráfica ideas y procesos matemáticos, utilizando len'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT02BC7",
-        "detalle": "documento: 'A través de este bloque competencial, se comprobará que el alumnado se enfrenta '"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT02CE7.1",
-        "detalle": "documento: 'Reconocer las emociones propias, desarrollando así la autoconfianza, empleando a'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT02SBI.2.3",
-        "detalle": "documento: 'Composición y descomposición de los 10 primeros números y su generalización al 1'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT02SBI.2.4",
-        "detalle": "documento: 'Uso de los dobles hasta el 10+10 y su generalización al 100 para las sumas.'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT02SBI.2.5",
-        "detalle": "documento: 'Suma de números de una o dos cifras, descomponiendo, componiendo o completando a'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT02SBI.2.6",
-        "detalle": "documento: 'Análisis de las relaciones entre los sumandos (dobles más 1, doble menos 1, pare'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT02SBI.2.7",
-        "detalle": "documento: 'Comprensión y utilización de estrategias flexibles de cálculo para la resta con '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT02SBI.2.8",
-        "detalle": "documento: 'Uso de la resta como acción de quitar de manera sucesiva, descomponiendo de mane'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT02SBI.2.9",
-        "detalle": "documento: 'Uso de la resta como acción de completar a los órdenes de unidades desde el sust'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT02SBI.2.10",
-        "detalle": "documento: 'Uso de la resta en modelos manipulativos: recta de cuentas, recta numérica, tabl'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT02SBI.2.11",
-        "detalle": "documento: 'Uso de la resta de números naturales, con flexibilidad, comprensión y sentido, c'"
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:PMAT02SBI.2.12",
-        "detalle": ""
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:PMAT02SBI.2.13",
-        "detalle": ""
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:PMAT02SBI.2.14",
-        "detalle": ""
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:PMAT02SBI.2.15",
-        "detalle": ""
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT02SBI.3.1",
-        "detalle": "documento: 'Conocimiento del sistema de numeración de base 10 y aplicación de las relaciones'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT02SBI.4.1",
-        "detalle": "documento: 'Conocimiento del sistema monetario europeo: monedas (1 y 2 euros) y billetes de '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT02SBII.1.3",
-        "detalle": "documento: 'Uso de las unidades de medida del tiempo (año, mes, semana, día, hora y minuto) '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT02SBII.2.1",
-        "detalle": "documento: 'Conocimiento y aplicación de procesos para medir mediante repetición de una unid'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT02SBII.2.2",
-        "detalle": "documento: 'Aplicación de estrategias de comparación directa e indirecta, y ordenación de me'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT02SBIV.2.3",
-        "detalle": "documento: 'Resolución de problemas aritméticos (acciones de componer, descomponer, completa'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT02SBIV.2.4",
-        "detalle": "documento: 'Conocimiento y uso de estrategias de resolución de problemas (modelización, ensa'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT02SBIV.3.3",
-        "detalle": "documento: 'Expresión matemática de las relaciones establecidas y deducidas del trabajo mani'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT02SBIV.4.2",
-        "detalle": "documento: 'Resolución de retos con actividades desenchufadas y manipulativas para el desarr'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT02SBV.1.3",
-        "detalle": "documento: 'Representación de datos obtenidos a través de recuentos mediante diagrama de bar'"
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:PMAT02SBI.2.2.1",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:PMAT02SBI.2.2.2",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:PMAT02SBI.2.2.3",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:PMAT02SBI.2.2.4",
-        "detalle": ""
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT03BC1",
-        "detalle": "documento: 'A través de este bloque competencial, se comprobará que el alumnado comprende, r'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT03BC3",
-        "detalle": "documento: 'En este bloque competencial, se comprobará si el alumnado analiza conjeturas sen'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT03CE3.1",
-        "detalle": "documento: 'Analizar conjeturas matemáticas sencillas de forma pautada, investigando patrone'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT03CE3.2",
-        "detalle": "documento: 'Identificar y analizar problemas sobre situaciones cotidianas que puedan resolve'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT03CE4.1",
-        "detalle": "documento: 'Automatizar rutinas sencillas en contextos cotidianos identificando patrones a p'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT03CE4.2",
-        "detalle": "documento: 'Resolver problemas organizando la información, descomponiendo en partes más simp'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT03BC5",
-        "detalle": "documento: 'En este bloque competencial se comprobará que el alumnado establece relaciones e'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT03CE5.1",
-        "detalle": "documento: 'Explicar las conexiones entre todos los sentidos y entre las matemáticas implica'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT03BC6",
-        "detalle": "documento: 'En este bloque competencial se evaluará que el alumnado reconozca que el lenguaj'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT03BC7",
-        "detalle": "documento: 'A través de este bloque competencial, se comprobará que el alumnado se enfrenta '"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT03CE7.1",
-        "detalle": "documento: 'Identificar y describir las emociones propias, y reconocer algunas fortalezas y '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT03SBI.1.5",
-        "detalle": "documento: 'Representación, composición y descomposición de números naturales hasta 9999. ut'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT03SBI.1.6",
-        "detalle": "documento: 'Construcción y comprensión de números decimales (décimas y centésimas), utilizan'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT03SBI.2.5",
-        "detalle": "documento: 'Construcción y memorización de las tablas de multiplicar a partir de la propieda'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT03SBI.2.11",
-        "detalle": "documento: 'Aplicación del redondeo a la decena, centena y millares, y en los decimales a la'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT03SBI.2.12",
-        "detalle": "documento: 'Interpretación de la división como reparto y como agrupamiento de números natura'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT03SBI.3.1",
-        "detalle": "documento: 'Conocimiento del sistema de numeración de base 10 (hasta el 9999): aplicación de'"
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:PMAT03SBI.3.2",
-        "detalle": ""
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:PMAT03SBI.3.3",
-        "detalle": ""
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:PMAT03SBI.4",
-        "detalle": ""
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:PMAT03SBI.4.1",
-        "detalle": ""
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT03SBII.2.3",
-        "detalle": "documento: 'Estrategias de comparación directa e indirecta y ordenación de medidas de la mis'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT03SBIV.2.1",
-        "detalle": "documento: 'Ejecución de un proceso pautado de modelización usando materiales manipulativos '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT03SBIV.2.4",
-        "detalle": "documento: 'Conocimiento y uso de estrategias de resolución de problemas básicas (modelizaci'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT03SBIV.3.4",
-        "detalle": "documento: 'Expresión matemática de las relaciones establecidas y deducidas del trabajo mani'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT03SBIV.4.2",
-        "detalle": "documento: 'Resolución de retos con actividades desenchufadas y manipulativas para el desarr'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT03SBV.1.2",
-        "detalle": "documento: 'Conocimiento y uso de estrategias sencillas para la recogida, clasificación y or'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT03SBV.1.4",
-        "detalle": "documento: 'Interpretación de la moda como el dato más frecuente y de la media como el valor'"
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:PMAT03SBI.3.1.1",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:PMAT03SBI.3.1.2",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:PMAT03SBI.3.1.3",
-        "detalle": ""
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT04BC1",
-        "detalle": "documento: 'A través de este bloque competencial, se comprobará que el alumnado comprende, r'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT04BC3",
-        "detalle": "documento: 'En este bloque competencial, se comprobará si el alumnado analiza conjeturas sen'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT04CE3.1",
-        "detalle": "documento: 'Analizar conjeturas matemáticas sencillas de forma pautada, investigando patrone'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT04CE3.2",
-        "detalle": "documento: 'Identificar y analizar problemas sobre situaciones cotidianas que puedan resolve'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT04CE4.1",
-        "detalle": "documento: 'Automatizar rutinas sencillas en contextos cotidianos identificando patrones a p'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT04CE4.2",
-        "detalle": "documento: 'Resolver problemas organizando la información, descomponiendo en partes más simp'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT04BC5",
-        "detalle": "documento: 'En este bloque competencial se comprobará que el alumnado establece relaciones e'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT04CE5.1",
-        "detalle": "documento: 'Explicar las conexiones entre todos los sentidos y entre las matemáticas implica'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT04BC6",
-        "detalle": "documento: 'En este bloque competencial se evaluará que el alumnado reconozca que el lenguaj'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT04BC7",
-        "detalle": "documento: 'A través de este bloque competencial, se comprobará que el alumnado se enfrenta '"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT04CE7.1",
-        "detalle": "documento: 'Identificar y describir las emociones propias, y reconocer algunas fortalezas y '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT04SBI.1.5",
-        "detalle": "documento: 'Representación, composición y descomposición de números naturales hasta 9999. ut'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT04SBI.1.6",
-        "detalle": "documento: 'Construcción y comprensión de números decimales (décimas y centésimas), utilizan'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT04SBI.2.5",
-        "detalle": "documento: 'Construcción y memorización de las tablas de multiplicar a partir de la propieda'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT04SBI.2.11",
-        "detalle": "documento: 'Aplicación del redondeo a la decena, centena y millares, y en los decimales a la'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT04SBI.2.12",
-        "detalle": "documento: 'Interpretación de la división como reparto y como agrupamiento de números natura'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT04SBI.3.1",
-        "detalle": "documento: 'Conocimiento del sistema de numeración de base 10 (hasta el 9999): aplicación de'"
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:PMAT04SBI.3.2",
-        "detalle": ""
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:PMAT04SBI.3.3",
-        "detalle": ""
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:PMAT04SBI.4",
-        "detalle": ""
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:PMAT04SBI.4.1",
-        "detalle": ""
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT04SBII.2.3",
-        "detalle": "documento: 'Estrategias de comparación directa e indirecta y ordenación de medidas de la mis'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT04SBIV.2.1",
-        "detalle": "documento: 'Ejecución de un proceso pautado de modelización usando materiales manipulativos '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT04SBIV.2.4",
-        "detalle": "documento: 'Conocimiento y uso de estrategias de resolución de problemas básicas (modelizaci'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT04SBIV.3.4",
-        "detalle": "documento: 'Expresión matemática de las relaciones establecidas y deducidas del trabajo mani'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT04SBIV.4.2",
-        "detalle": "documento: 'Resolución de retos con actividades desenchufadas y manipulativas para el desarr'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT04SBV.1.2",
-        "detalle": "documento: 'Conocimiento y uso de estrategias sencillas para la recogida, clasificación y or'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT04SBV.1.4",
-        "detalle": "documento: 'Interpretación de la moda como el dato más frecuente y de la media como el valor'"
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:PMAT04SBI.3.1.1",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:PMAT04SBI.3.1.2",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:PMAT04SBI.3.1.3",
-        "detalle": ""
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT05BC1",
-        "detalle": "documento: 'A través de este bloque competencial se comprobará que el alumnado comprende, re'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT05CE1.1",
-        "detalle": "documento: 'Interpretar y reformular, de forma verbal y gráfica, problemas de la vida cotidi'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT05CE2.2",
-        "detalle": "documento: 'Elegir y utilizar las operaciones pertinentes para la resolución de problemas qu'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT05CE2.3",
-        "detalle": "documento: 'Comprobar la validez de las soluciones del problema y su coherencia en el contex'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT05BC3",
-        "detalle": "documento: 'En este bloque competencial se comprobará, si el alumnado formula conjeturas sen'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT05CE3.1",
-        "detalle": "documento: 'Formular conjeturas matemáticas sencillas, investigando patrones, propiedades y '"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT05CE3.2",
-        "detalle": "documento: 'Plantear problemas sobre situaciones cotidianas relacionadas con los sentidos nu'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT05CE4.2",
-        "detalle": "documento: 'Resolver problemas y realizar pequeñas investigaciones, utilizando las herramien'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT05BC5",
-        "detalle": "documento: 'En este bloque competencial, se comprobará que el alumnado identifica, establece'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT05CE5.1",
-        "detalle": "documento: 'Utilizar las conexiones entre todos los sentidos y entre las matemáticas implica'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT05CE5.2",
-        "detalle": "documento: 'Utilizar las conexiones entre las matemáticas, otras áreas y la vida cotidiana p'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT05BC6",
-        "detalle": "documento: 'En este bloque competencial se evaluará que el alumnado reconoce el lenguaje mat'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT05BC7",
-        "detalle": "documento: 'A través de este bloque competencial, se comprobará que el alumnado se enfrenta '"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT05CE7.1",
-        "detalle": "documento: 'Identificar y autorregular las emociones propias y reconocer algunas fortalezas '"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT05CE8.1",
-        "detalle": "documento: 'Colaborar en el trabajo en equipo, mostrando iniciativa, desarrollando la escuch'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT05SBI.1.5",
-        "detalle": "documento: 'Representación, composición y descomposición de números naturales y decimales ha'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT05SBI.2.6",
-        "detalle": "documento: 'Uso de la multiplicación y división con decimales en contextos de dinero o medid'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT05SBI.2.7",
-        "detalle": "documento: 'Utilización de la calculadora en la investigación, el cálculo del resultado exac'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT05SBI.2.12",
-        "detalle": "documento: 'Comparación de fracciones en relación a la unidad, utilizando la equivalencia co'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT05SBI.3.1",
-        "detalle": "documento: 'Construcción del sistema de numeración de base 10 (números naturales y decimales'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT05SBI.3.8",
-        "detalle": "documento: 'Investigación y enunciación de los criterios de divisibilidad estableciendo rela'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT05SBII.1.2",
-        "detalle": "documento: 'Conocimiento, selección y uso de las unidades convencionales del Sistema Métrico'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT05SBIII.2.1",
-        "detalle": "documento: 'Localización y desplazamientos en planos y mapas, entre ellos los de entornos ce'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT05SBIV.3.1",
-        "detalle": "documento: 'Establecimiento de relaciones de igualdad y desigualdad, y uso de los signos men'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT05SBIV.3.3",
-        "detalle": "documento: 'Expresión matemática de las relaciones establecidas y deducidas del trabajo mani'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT05SBV.1.2",
-        "detalle": "documento: 'Planificación de estrategias para la realización de un estudio estadístico senci'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT05SBV.1.5",
-        "detalle": "documento: 'Elaboración de gráficos estadísticos sencillos (diagrama de barras, diagrama de '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT05SBV.1.7",
-        "detalle": "documento: 'Significado e interpretación de las medidas de dispersión (rango).'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT05SBV.2.1",
-        "detalle": "documento: 'Relación de la probabilidad de un suceso (comprendida entre 0 y 1) con las fracc'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT05SBV.2.4",
-        "detalle": "documento: 'Uso de la calculadora y otros recursos digitales para conocer la tendencia de qu'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT05SBV.3.1",
-        "detalle": "documento: 'Identificación de un conjunto de datos como muestra de un conjunto más grande y '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT05SBVI.2.2",
-        "detalle": "documento: 'Aplicación de técnicas simples para el trabajo en equipo en matemáticas, y estra'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT06BC1",
-        "detalle": "documento: 'A través de este bloque competencial se comprobará que el alumnado comprende, re'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT06CE1.1",
-        "detalle": "documento: 'Interpretar y reformular, de forma verbal y gráfica, problemas de la vida cotidi'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT06CE2.2",
-        "detalle": "documento: 'Elegir y utilizar las operaciones pertinentes para la resolución de problemas qu'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT06CE2.3",
-        "detalle": "documento: 'Comprobar la validez de las soluciones del problema y su coherencia en el contex'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT06BC3",
-        "detalle": "documento: 'En este bloque competencial se comprobará, si el alumnado formula conjeturas sen'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT06CE3.1",
-        "detalle": "documento: 'Formular conjeturas matemáticas sencillas, investigando patrones, propiedades y '"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT06CE3.2",
-        "detalle": "documento: 'Plantear problemas sobre situaciones cotidianas relacionadas con los sentidos nu'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT06CE4.2",
-        "detalle": "documento: 'Resolver problemas y realizar pequeñas investigaciones, utilizando las herramien'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT06BC5",
-        "detalle": "documento: 'En este bloque competencial, se comprobará que el alumnado identifica, establece'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT06CE5.1",
-        "detalle": "documento: 'Utilizar las conexiones entre todos los sentidos y entre las matemáticas implica'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT06CE5.2",
-        "detalle": "documento: 'Utilizar las conexiones entre las matemáticas, otras áreas y la vida cotidiana p'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT06BC6",
-        "detalle": "documento: 'En este bloque competencial se evaluará que el alumnado reconoce el lenguaje mat'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:PMAT06BC7",
-        "detalle": "documento: 'A través de este bloque competencial, se comprobará que el alumnado se enfrenta '"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT06CE7.1",
-        "detalle": "documento: 'Identificar y autorregular las emociones propias y reconocer algunas fortalezas '"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:PMAT06CE8.1",
-        "detalle": "documento: 'Colaborar en el trabajo en equipo, mostrando iniciativa, desarrollando la escuch'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT06SBI.1.5",
-        "detalle": "documento: 'Representación, composición y descomposición de números naturales y decimales ha'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT06SBI.2.6",
-        "detalle": "documento: 'Uso de la multiplicación y división con decimales en contextos de dinero o medid'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT06SBI.2.7",
-        "detalle": "documento: 'Utilización de la calculadora en la investigación, el cálculo del resultado exac'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT06SBI.2.12",
-        "detalle": "documento: 'Comparación de fracciones en relación a la unidad, utilizando la equivalencia co'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT06SBI.3.1",
-        "detalle": "documento: 'Construcción del sistema de numeración de base 10 (números naturales y decimales'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT06SBI.3.8",
-        "detalle": "documento: 'Investigación y enunciación de los criterios de divisibilidad estableciendo rela'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT06SBII.1.2",
-        "detalle": "documento: 'Conocimiento, selección y uso de las unidades convencionales del Sistema Métrico'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT06SBIII.2.1",
-        "detalle": "documento: 'Localización y desplazamientos en planos y mapas, entre ellos los de entornos ce'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT06SBIV.3.1",
-        "detalle": "documento: 'Establecimiento de relaciones de igualdad y desigualdad, y uso de los signos men'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT06SBIV.3.3",
-        "detalle": "documento: 'Expresión matemática de las relaciones establecidas y deducidas del trabajo mani'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT06SBV.1.2",
-        "detalle": "documento: 'Planificación de estrategias para la realización de un estudio estadístico senci'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT06SBV.1.5",
-        "detalle": "documento: 'Elaboración de gráficos estadísticos sencillos (diagrama de barras, diagrama de '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT06SBV.1.7",
-        "detalle": "documento: 'Significado e interpretación de las medidas de dispersión (rango).'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT06SBV.2.1",
-        "detalle": "documento: 'Relación de la probabilidad de un suceso (comprendida entre 0 y 1) con las fracc'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT06SBV.2.4",
-        "detalle": "documento: 'Uso de la calculadora y otros recursos digitales para conocer la tendencia de qu'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT06SBV.3.1",
-        "detalle": "documento: 'Identificación de un conjunto de datos como muestra de un conjunto más grande y '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:PMAT06SBVI.2.2",
-        "detalle": "documento: 'Aplicación de técnicas simples para el trabajo en equipo en matemáticas, y estra'"
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
   },
   {
     "documento": "infantil-crecimiento-en-armonia",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:ICR404SBI.3.2",
-        "detalle": "documento: 'Sensibilización hacia las implicaciones que se derivan de la diversidad funciona'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:ICR404SBII.4",
-        "detalle": "documento: 'Identificación de las propias posibilidades para la ejecución de una tarea. Mani'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:ICR405SBI.3.2",
-        "detalle": "documento: 'Sensibilización hacia las implicaciones que se derivan de la diversidad funciona'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:ICR405SBII.4",
-        "detalle": "documento: 'Identificación de las propias posibilidades para la ejecución de una tarea. Mani'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:ICR406SBI.3.2",
-        "detalle": "documento: 'Sensibilización hacia las implicaciones que se derivan de la diversidad funciona'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:ICR406SBII.4",
-        "detalle": "documento: 'Identificación de las propias posibilidades para la ejecución de una tarea. Mani'"
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
   },
   {
     "documento": "infantil-descubrimiento-y-exploracion-del-entorno",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:IDE301BC2",
-        "detalle": "documento: \"['CCL', 'STEM', 'CD', 'CE', 'CPSSAA']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:IDE302BC2",
-        "detalle": "documento: \"['CCL', 'STEM', 'CD', 'CE', 'CPSSAA']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:IDE303BC2",
-        "detalle": "documento: \"['CCL', 'STEM', 'CD', 'CE', 'CPSSAA']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:IDE301BC2: la cabecera del bloque trae códigos que no existen: CPSSAA",
+      "bc:IDE302BC2: la cabecera del bloque trae códigos que no existen: CPSSAA",
+      "bc:IDE303BC2: la cabecera del bloque trae códigos que no existen: CPSSAA"
+    ],
+    "numeracion_boc": []
   },
   {
     "documento": "infantil-comunicacion-y-representacion-de-la-realidad",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:IC4M01BC5",
-        "detalle": "documento: \"['CCL', 'CP', 'CC', 'CCEC']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:IC4M02BC5",
-        "detalle": "documento: \"['CCL', 'CP', 'CC', 'CCEC']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:IC4M03BC5",
-        "detalle": "documento: \"['CCL', 'CP', 'CC', 'CCEC']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:IC5M01BC5",
-        "detalle": "documento: \"['CCL', 'CP', 'CC', 'CCEC']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:IC5M02BC5",
-        "detalle": "documento: \"['CCL', 'CP', 'CC', 'CCEC']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:IC5M03BC5",
-        "detalle": "documento: \"['CCL', 'CP', 'CC', 'CCEC']\""
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:IC4M04SBV.3",
-        "detalle": "documento: 'Construcción de vínculos afectivos y lúdicos con los textos literarios.\\xa0'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:IC4M05SBV.3",
-        "detalle": "documento: 'Construcción de vínculos afectivos y lúdicos con los textos literarios.\\xa0'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:IC4M06SBV.3",
-        "detalle": "documento: 'Construcción de vínculos afectivos y lúdicos con los textos literarios.\\xa0'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:IC5M04SBV.3",
-        "detalle": "documento: 'Construcción de vínculos afectivos y lúdicos con los textos literarios.\\xa0'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:IC5M05SBV.3",
-        "detalle": "documento: 'Construcción de vínculos afectivos y lúdicos con los textos literarios.\\xa0'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:IC5M06SBV.3",
-        "detalle": "documento: 'Construcción de vínculos afectivos y lúdicos con los textos literarios.\\xa0'"
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-analisis-musical-i-y-ii",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BAMS01BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CPSAA3.1, CPSAA3.2, CE3, CCEC3.1, CCEC3.2; criterios: CCL1, CPSAA3.1, CPSAA3.2, CE3, CCEC2, CCEC3.1)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-artes-escenicas-i-y-ii",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-biologia",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-biologia-geologia-y-ciencias-ambientales",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BBIR01BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CP2, STEM2, STEM4, CD1, CD3, CPSAA4, CC3, CCEC3.2; criterios: CCL2, CCL3, CP2, STEM2, STEM4, CD1, CPSAA3.2, CCL1, CD3, CC3, CPSAA4, CCEC3.2)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-ciencias-generales",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BCIK02BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, STEM1, STEM2, STEM4, CD1, CPSAA1.1; criterios: CCL1, CCL2, STEM1, STEM2, STEM4, CPSAA1.1)",
+      "bc:BCIK02BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, STEM2, STEM4, CD2, CPSAA2, CC4, CCEC1; criterios: CCL1, CCL2, STEM2, STEM4, CPSAA2, CC4, CCEC1)",
+      "bc:BCIK02BC6: la cabecera del bloque no coincide con sus criterios (cabecera: CCL3, STEM3, STEM4, CD1, CD2, CD3, CPSAA3.2, CPSAA4, CC3; criterios: CCL3, STEM4, CD1, CD2, CPSAA4, CD3, CPSAA3.2, CC3)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-coro-y-tecnica-vocal-i-y-ii",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BCHR02BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL5, CD2, CD3, CD5, CPSAA1.1, CPSAA1.2, CE3, CCEC3.1, CCEC4.1, CCEC4.2; criterios: CCL5, CD2, CD3, CPSAA1.1, CPSAA1.2, CE3, CCEC3.1, CCEC4.1, CCEC4.2)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-cultura-audiovisual",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BCLD01BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CD2, CD3, CPSAA1.1, CPSAA1.2, CC3, CE3, CCEC3.1, CCEC3.2; criterios: CCL5, CD2, CPSAA1.2, CPSAA3.1, CCEC3.1, CCL1, CD3, CPSAA1.1, CC3, CE3, CCEC3.2)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-dibujo-artistico-i-y-ii",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BDAI01BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CD2, CPSAA1.1, CPSAA1.2, CC1, CC2, CCEC3.1; criterios: CD2, CPSAA1.1, CPSAA1.2, CPSAA3.1, CC1, CC2)",
+      "bc:BDII02BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CP3, CD1, CPSAA4, CC1, CC3, CCEC1, CCEC2; criterios: CCL1, CP3, CD1, CPSAA4, CC1, CCEC1, CCEC2, CC3, CCEC3.1)",
+      "bc:BDII02BC9: la cabecera del bloque no coincide con sus criterios (cabecera: CCL5, STEM2, STEM3, CPSAA3.1, CPSAA3.2, CPSAA5, CE1, CE3, CCEC4.1, CCEC4.2; criterios: STEM3, CPSAA3.1, CPSAA3.2, CE3, CCEC4.1, CCEC4.2, CCL5, STEM2, CE1)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-dibujo-tecnico-aplicado-a-las-artes-plasticas-y-al-diseno-i-y-ii",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BDDB01BC5: la cabecera del bloque no coincide con sus criterios (cabecera: STEM3, CD2, CD3, CPSAA3.1, CPSAA5, CE3, CCEC3.2; criterios: STEM3, CD2, CPSAA3.1, CPSAA5, CCEC3.1, CD3, CE3)",
+      "bc:BDFB02BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, STEM2, CD2, CPSAA1.1, CPSAA5, CCEC3.1, CCEC4.1; criterios: CCL1, CCL5, STEM3, CD2, CPSAA1.1, CCEC3.1, STEM2, CPSAA5, CCEC4.1)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-dibujo-tecnico-i-y-ii",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BDBT01BC5: la cabecera del bloque no coincide con sus criterios (cabecera: CP2, STEM2, STEM3, STEM4, CD1, CD2, CD3; criterios: STEM2, STEM3, STEM4, CD1, CD3, CP2, CD2, CE3)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-diseno",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BDIS02BC5: la cabecera del bloque no coincide con sus criterios (cabecera: STEM3, CPSAA1.1, CC1, CC4, CE1, CE2, CE3, CCEC3.1, CCEC3.2, CCEC4.1, CCEC4.2; criterios: STEM3, CD2, CE1, CE3, CCEC3.1, CCEC4.1, CCEC4.2, CPSAA1.1, CC1, CC4, CE2, CCEC3.2)",
+      "bc:BDIS02BC6: la cabecera del bloque no coincide con sus criterios (cabecera: STEM3, CD2, CD3, CPSAA2, CC4, CE1, CE3, CCEC3.2, CCEC4.1, CCEC4.2; criterios: STEM3, CD2, CE3, CCEC4.1, CCEC4.2, CE1, CD3, CPSAA2)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-economia",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BECO01BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL2, CCL3, STEM2, CPSAA4, CC3, CE1, CE2; criterios: CCL2, CCL3, CE1, CE2, CE3, STEM2, CPSAA4)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-economia-emprendimiento-y-actividad-empresarial",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BEC101BC3: la cabecera del bloque no coincide con sus criterios (cabecera: STEM2, STEM5, CD1, CPSAA2, CC1, CC4, CE1, CE2, CCEC3.1; criterios: STEM2, STEM5, CD1, CPSAA2, CC4, CPSAA1.2, CC1, CE1, CE2, CCEC3.1)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-educacion-fisica",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-empresa-y-diseno-de-modelos-de-negocio",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
   },
   {
     "documento": "bachillerato-filosofia",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BFIL01BC4",
-        "detalle": "documento: \"['CCL1', 'CCL5', 'STEM1', 'CPSAA3.1', 'CPSAA3.2', 'CC2', 'CC3', 'CCEC1', 'CCEC4.\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BFIL01BC7",
-        "detalle": "documento: \"['CCL2', 'CCL3', 'CD1', 'CPSAA2', 'CPSAA3.1', 'CPSAA4', 'CC1', 'CC3', 'CC4', 'CC\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BFIL01BC9",
-        "detalle": "documento: \"['CD2', 'CPSAA1.1', 'CPSAA3.1', 'CC2', 'CC3', 'CCEC1', 'CCEC2', 'CCEC3.1', 'CCEC\""
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:BFIL01SBIII.1.8.4.1",
-        "detalle": ""
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:BFIL01SBIII.1.8.4.2",
-        "detalle": ""
-      },
-      {
-        "tipo": "falta en el corpus: texto de saber",
-        "nodo": "sb:BFIL01SBIII.1.8.4.3",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:BFIL01SBIII.1.8.5",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:BFIL01SBIII.1.8.6",
-        "detalle": ""
-      },
-      {
-        "tipo": "nodo del corpus que no está en el documento",
-        "nodo": "sb:BFIL01SBIII.1.8.7",
-        "detalle": ""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BFIL01BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, STEM1, CPSAA3.1, CPSAA3.2, CC2, CC3, CCEC1, CCEC4.1; criterios: CCL1, CCL5, STEM1, CPSAA1.1, CPSAA3.2, CC2, CC3, CCEC1, CCEC4.1)",
+      "bc:BFIL01BC7: la cabecera del bloque no coincide con sus criterios (cabecera: CCL2, CCL3, CD1, CPSAA2, CPSAA3.1, CPSAA4, CC1, CC3, CC4, CCEC1; criterios: CCL2, CCL3, CD1, CPSAA2, CPSAA3.1, CPSAA4, CC1, CC4, CCEC1)",
+      "bc:BFIL01BC9: la cabecera del bloque no coincide con sus criterios (cabecera: CD2, CPSAA1.1, CPSAA3.1, CC2, CC3, CCEC1, CCEC2, CCEC3.1, CCEC3.2; criterios: CD2, CPSAA1.1, CPSAA3.1, CC2, CC3, CCEC1, CCEC2, CCEC3.1)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-fisica",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-fisica-y-quimica",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-fundamentos-artisticos",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-geografia",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-geologia-y-ciencias-ambientales",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BGAO02BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CP2, STEM2, STEM4, CD1, CD3, CPSAA4, CC3, CCEC3.2; criterios: CCL2, CCL3, CP2, STEM2, STEM4, CD1, CPSAA4, CCL1, CD3, CPSAA3.2, CC3, CCEC3.2)",
+      "bc:BGAO02BC5: la cabecera del bloque no coincide con sus criterios (cabecera: CCL3, STEM2, STEM5, CD1, CD4, CPSAA2, CC2, CC4, CE1, CCEC1; criterios: CCL3, STEM2, STEM5, CD1, CPSAA2, CC2, CC4, CE1, CCEC1)"
+    ],
+    "numeracion_boc": []
   },
   {
     "documento": "bachillerato-griego-i-y-ii",
@@ -2827,33 +964,43 @@
     "avisos_lectura": [],
     "diferencias": [
       {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:BGRO01BC1",
-        "detalle": "documento: 'A través de este bloque competencial se pretende constatar que el alumnado recon'"
-      },
-      {
         "tipo": "enunciado de competencia distinto",
         "nodo": "ce:BGROC4",
-        "detalle": "documento: 'Analizar las características de la civilización griega en el ámbito personal, re'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BGRE02BC1",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'CP2', 'CP3', 'STEM1', 'STEM2', 'CD1', 'CPSAA5', 'CC1']\""
+        "detalle": "documento: 'Analizar las características de la civilización griega en el ámbito personal, re'",
+        "campo": "definition",
+        "esperado": "Analizar las características de la civilización griega en el ámbito personal, religioso y sociopolítico, adquiriendo conocimientos sobre el mundo heleno y comparando críticamente el presente y el pasado, para valorar las aportaciones del mundo clásico a nuestro entorno como base de una ciudadanía democrática y comprometida.",
+        "explicacion": "la competencia tiene un enunciado distinto en cada curso en el BOC; el corpus guarda uno por materia (limitación del modelo)"
       },
       {
         "tipo": "enunciado de competencia distinto",
         "nodo": "ce:BGREC4",
-        "detalle": "documento: 'Analizar las características de la civilización griega en el ámbito personal, re'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BGRE02BC5",
-        "detalle": "documento: \"['CCL3', 'CP3', 'CD2', 'CC1', 'CC2', 'CC4', 'CCEC1', 'CCEC2']\""
+        "detalle": "documento: 'Analizar las características de la civilización griega en el ámbito personal, re'",
+        "campo": "definition",
+        "esperado": "Analizar las características de la civilización griega en el ámbito personal, religioso y sociopolítico, adquiriendo conocimientos sobre el mundo heleno y comparando críticamente el presente y el pasado, para valorar las aportaciones del mundo clásico a nuestro entorno como base de una ciudadanía democrática y comprometida.",
+        "explicacion": "la competencia tiene un enunciado distinto en cada curso en el BOC; el corpus guarda uno por materia (limitación del modelo)"
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BGRE02BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CP2, CP3, STEM1, STEM2, CD1, CPSAA5, CC1; criterios: CCL2, CP2, STEM2, CCL1, CCL3, STEM1, CD1, CPSAA5)",
+      "bc:BGRE02BC5: la cabecera del bloque no coincide con sus criterios (cabecera: CCL3, CP3, CD2, CC1, CC2, CC4, CCEC1, CCEC2; criterios: CCL3, CP3, CD2, CC1, CC2, CC4, CCEC1, CCEC2, CE1)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-historia-de-espana",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BHIA02BC3: la cabecera del bloque no coincide con sus criterios (cabecera: STEM1, STEM4, CD2, CPSAA1.2, CPSAA2, CC1, CC4, CE1; criterios: STEM1, STEM2, CD2, CPSAA1.2, CPSAA2, CC1, CC4, CE1, STEM4)",
+      "bc:BHIA02BC6: la cabecera del bloque no coincide con sus criterios (cabecera: CCL3, STEM4, CD1, CPSAA1.1, CPSAA3.2, CC1, CC2, CC3, CCEC1, CCEC2; criterios: CCL3, STEM4, CD1, CPSAA1.1, CPSAA3.2, CPSAA4, CC1, CC2, CC3, CCEC1, CCEC2)",
+      "bc:BHIA02BC8: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, STEM3, CD2, CPSAA1.1, CPSAA3.1, CPSAA4, CC1, CC3, CE3, CCEC3.2; criterios: CCL1, STEM3, CD2, CPSAA1.1, CPSAA3.1, CPSAA4, CC1, CC3, CE3, CCEC3.2, CC2, CE2)"
+    ],
+    "numeracion_boc": []
   },
   {
     "documento": "bachillerato-historia-de-la-filosofia",
@@ -2861,152 +1008,298 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-historia-de-la-musica-y-la-danza",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BHTZ02BC5: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CD2, CD3, CPSAA5, CC1, CC3, CE3, CCEC1, CCEC4.2; criterios: CCL1, CCL5, CD2, CD3, CPSAA5, CC1, CC3, CCEC1, CCEC4.2, CPSAA1.1, CE3)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-historia-del-arte",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BHAR02BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CP3, CPSAA1.2, CPSAA3.2, CC1, CC3, CCEC1, CCEC2, CCEC3.1; criterios: CP3, CPSAA1.2, CPSAA3.2, CC1, CC2, CCEC1, CCEC2, CCEC3.1, CC3)",
+      "bc:BHAR02BC5: la cabecera del bloque no coincide con sus criterios (cabecera: CP3, CD2, CPSAA3.1, CPSAA3.2, CC1, CC2, CC3, CCEC1, CCEC2, CCEC3.2; criterios: CP3, CPSAA3.1, CPSAA3.2, CC2, CC3, CCEC1, CCEC3.2, CC1, CD1, CCEC2)",
+      "bc:BHAR02BC6: la cabecera del bloque no coincide con sus criterios (cabecera: CP3, CPSAA3.2, CC1, CC2, CC3, CCEC1, CCEC2, CCEC3.2; criterios: CC2, CC3, CCEC1, CCEC2, CE1, CP3, CPSAA3.2, CC1, CCEC3.2)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-historia-del-mundo-contemporaneo",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BHMC01BC6: la cabecera del bloque no coincide con sus criterios (cabecera: CCL2, CCL3, STEM4, STEM5, CD1, CD3, CD4, CPSAA2, CPSAA4, CPSAA5, CC3, CC4, CE1, CE2; criterios: STEM5, CD3, CPSAA2, CPSAA5, CC3, CC4, CE1, CE2, CCL2, CCL3, STEM4, CD1, CPSAA4)"
+    ],
+    "numeracion_boc": []
   },
   {
     "documento": "bachillerato-latin-i-y-ii",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BLII02BC1",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'CP2', 'CP3', 'STEM1', 'STEM2', 'CD1', 'CPSAA5', 'CC1']\""
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:BLII02CE2.2",
-        "detalle": "documento: 'Explicar cambios fonéticos, morfológicos o semánticos desde la lengua latina a l'"
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BLII02BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CP2, CP3, STEM1, STEM2, CD1, CPSAA5, CC1; criterios: CCL2, CP2, STEM2, CCL1, CCL3, STEM1, CD1, CPSAA5)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-lengua-castellana-y-literatura-i-y-ii",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BLEY01BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CP2, CP3, CD1, CC1, CC2, CE3, CCEC1; criterios: CCL1, CP2, CP3, CD1, CCEC1, CCL5, CC1, CC2, CC3)",
+      "bc:BLNG02BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CP2, CP3, CD1, CC1, CC2, CE3, CCEC1; criterios: CCL1, CP2, CP3, CD1, CCEC1, CCL5, CC1, CC2, CC3)",
+      "bc:BLNG02BC9: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CP2, STEM1, STEM2, CPSAA5; criterios: CCL1, CCL2, CCL3, CP2, STEM1, STEM2, CPSAA5)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-lengua-extranjera-i-y-ii",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BLA101BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CP1, CP2, STEM1, CD3, CCEC3.1; criterios: CCL1, CCL5, CP1, CD3, CCEC3.1, CP2, STEM1, CPSAA5)",
+      "bc:BLF101BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CP1, CP2, STEM1, CD3, CCEC3.1; criterios: CCL1, CCL5, CP1, CD3, CCEC3.1, CP2, STEM1, CPSAA5)",
+      "bc:BLI101BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CP1, CP2, STEM1, CD3, CCEC3.1; criterios: CCL1, CCL5, CP1, CD3, CCEC3.1, CP2, STEM1, CPSAA5)",
+      "bc:BLT101BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, CP1, CP2, STEM1, CD3, CCEC3.1; criterios: CCL1, CCL5, CP1, CD3, CCEC3.1, CP2, STEM1, CPSAA5)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-lenguaje-y-practica-musical",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BLPM01BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL2, CPSAA1.1, CPSAA1.2, CE3, CCEC3.1, CCEC3.2; criterios: CCL2, CPSAA1.1, CPSAA1.2, CPSAA3.1, CPSAA3.2, CE3, CCEC3.1, CCEC3.2)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-literatura-dramatica",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-literatura-universal",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BLIE01BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL4, CD2, CD3, CPSAA5, CC1, CCEC1, CCEC2, CCEC4.1, CCEC4.2; criterios: CCL4, CD2, CD3, CC1, CCEC1, CCEC2, CCEC4.1, CCEC4.2)"
+    ],
+    "numeracion_boc": []
   },
   {
     "documento": "bachillerato-matematicas-aplicadas-a-las-ciencias-sociales-i-y-ii",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BAII02BC7",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'STEM1', 'STEM2', 'STEM3', 'STEM4', 'CD1', 'CD2', 'CD3'\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BAII02BC7: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CPSAA3.2, CE3, CCEC4.1, CCEC4.2; criterios: CCL2, STEM2, STEM4, CD1, CD2, CD3, CD5, CE3, CCEC4.1, CCEC4.2, CCL1, CCL3, STEM1, STEM3, CCEC3.2)"
+    ],
+    "numeracion_boc": []
   },
   {
     "documento": "bachillerato-matematicas-generales",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BMZT01BC3",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'STEM1', 'STEM2', 'STEM3', 'STEM4', 'CD1', 'CD2', 'CD5', 'CE3']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BMZT01BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD5, CE3; criterios: CCL1, STEM1, STEM2, STEM4, CD1, CD2, CD5, CE3, CCL2, STEM3, CD3)"
+    ],
+    "numeracion_boc": []
   },
   {
     "documento": "bachillerato-matematicas-i-y-ii",
     "estado": "contrastado",
     "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BMTI01BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, STEM1, STEM2, STEM3, CD2, CD3, CD5, CPSAA4, CPSAA5, CE3; criterios: CCL2, STEM1, STEM2, STEM3, CD2, CD3, CD5, CPSAA4, CPSAA5, CE3, CCL1, CC3)",
+      "bc:BMTI01BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CC3, CE3; criterios: CCL1, STEM1, STEM2, STEM4, CD1, CD2, CD3, CD5, CE3, CCL2, STEM3)",
+      "bc:BMII02BC7: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CD5, CE3, CCEC4.1, CCEC4.2; criterios: CCL2, STEM2, STEM4, CD1, CD2, CD3, CD5, CE3, CCEC4.1, CCEC4.2, CCL1, CCL3, STEM1, STEM3, CCEC3.2)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-movimientos-culturales-y-artisticos",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BMFV02BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL3, CD3, CPSAA1.2, CC1, CC3, CCEC3.1, CCEC3.2; criterios: CCL3, CD3, CC1, CC3, CPSAA1.2, CCEC2, CCEC1)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-proyectos-artisticos",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:B6RO01BC5: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CD1, CD2, CPSAA4, CPSAA5, CCEC2, CCEC4.2; criterios: CCL2, CCL3, CD1, CD2, CPSAA4, CPSAA5, CCEC2, CCEC4.2)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-quimica",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-segunda-lengua-extranjera-i-y-ii",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-tecnicas-de-expresion-grafico-plastica",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BTEP02BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL3, CP2, CP3, STEM1, STEM2, STEM5, CD1, CPSAA2, CPSAA4, CC1, CC2, CC4, CCEC1, CCEC2; criterios: CCL3, CP2, STEM1, STEM5, CD1, CC1, STEM2, CPSAA4, CPSAA2, CC2, CC4, CCEC1, CCEC2)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-tecnologia-e-ingenieria-i-y-ii",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-volumen",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-anatomia-aplicada",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-acondicionamiento-fisico",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-antropologia-y-sociologia",
+    "estado": "contrastado",
+    "avisos_lectura": [],
     "diferencias": [
       {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BMTI01BC1",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'STEM1', 'STEM2', 'STEM3', 'CD2', 'CD3', 'CD5', 'CPSAA4', 'CPSA\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BMTI01BC3",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'STEM1', 'STEM2', 'STEM3', 'STEM4', 'CD1', 'CD2', 'CD3', 'CD5',\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BMII02BC7",
-        "detalle": "documento: \"['CCL1', 'CCL2', 'CCL3', 'STEM1', 'STEM2', 'STEM3', 'STEM4', 'CD1', 'CD2', 'CD3'\""
+        "tipo": "enunciado de competencia distinto",
+        "nodo": "ce:BATRC3",
+        "detalle": "documento: 'Reconocer el valor de las aportaciones de la antropología y la sociología para d'",
+        "campo": "definition",
+        "esperado": "Reconocer el valor de las aportaciones de la antropología y la sociología para desarrollar el interés por la propia cultura y sociedad, promoviendo una perspectiva más amplia y respetuosa sobre las otras culturas mediante la realización de productos en los que se destaque el trabajo colaborativo y el ejercicio crítico sobre el fenómeno de la globalización.",
+        "explicacion": "la competencia tiene un enunciado distinto en cada curso en el BOC; el corpus guarda uno por materia (limitación del modelo)"
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-biologia-humana",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BBIL02BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL3, STEM2, STEM5, CD4, CPSAA2, CPSAA3.2, CC3, CC4, CE1; criterios: STEM2, STEM5, CPSAA2, CC3, CE1, CCL1, CCL3, CD4, CC4)",
+      "bc:BBIL02BC5: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, STEM3, STEM4, STEM5, CPSAA2, CPSAA5, CC3, CC4, CE3; criterios: CCL5, STEM2, CPSAA2, CC4, CE3, CCL1, STEM4, STEM5, CPSAA5, CC3, STEM3)"
+    ],
+    "numeracion_boc": []
   },
   {
     "documento": "bachillerato-bioestadistica",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:BBIE02BC1",
-        "detalle": "documento: 'A través de este bloque competencial se persigue que el alumnado sea capaz de mo'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:BBIE02BC3",
-        "detalle": "documento: 'A través de este bloque competencial se pretende comprobar si el alumnado es cap'"
-      },
-      {
-        "tipo": "explicación de bloque distinto",
-        "nodo": "bc:BBIE02BC4",
-        "detalle": "documento: 'Se persigue con este bloque competencial constatar que el alumnado es capaz de i'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:BBIE02CE4.1",
-        "detalle": "documento: 'Establecer y aplicar conexiones entre ideas, conceptos y procedimientos matemáti'"
-      },
-      {
-        "tipo": "texto de criterio distinto",
-        "nodo": "crit:BBIE02CE6.2",
-        "detalle": "documento: 'Reconocer el lenguaje matemático presente en diferentes medios de comunicación, '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:BBIE02SBII.2",
-        "detalle": "documento: 'Incertidumbre.'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:BBIE02SBII.3",
-        "detalle": "documento: 'Distribuciones de probabilidad.'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:BBIE02SBII.4",
-        "detalle": "documento: 'Inferencia.'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:BBIE02SBIII.1",
-        "detalle": "documento: 'Creencia, actitudes y emociones.'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:BBIE02SBIII.2",
-        "detalle": "documento: 'Trabajo en equipo y toma de decisiones.'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:BBIE02SBIII.3",
-        "detalle": "documento: 'Inclusión, respeto y diversidad.'"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:BBIE02SBIII.3.1",
-        "detalle": "documento: '3.1 Destrezas para desarrollar una comunicación efectiva: la escucha activa, la '"
-      },
-      {
-        "tipo": "texto de saber distinto",
-        "nodo": "sb:BBIE02SBIII.3.2",
-        "detalle": "documento: '3.2 Valoración de la contribución de las matemáticas y el papel de científicas y'"
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
   },
   {
     "documento": "bachillerato-cultura-cientifica",
@@ -3016,16 +1309,122 @@
       {
         "tipo": "enunciado de competencia distinto",
         "nodo": "ce:BCUFC2",
-        "detalle": "documento: 'Localizar y utilizar fuentes fiables, identificando, seleccionando y organizando'"
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BCUF01BC5",
-        "detalle": "documento: \"['CCL1', 'CCL3', 'CP2', 'STEM1', 'STEM2', 'STEM5', 'CD1', 'CD4', 'CD5', 'CPSAA2'\""
+        "detalle": "documento: 'Localizar y utilizar fuentes fiables, identificando, seleccionando y organizando'",
+        "campo": "definition",
+        "esperado": "Localizar y utilizar fuentes fiables, identificando, seleccionando y organizando información, evaluándola críticamente y contrastando su veracidad, para resolver preguntas planteadas relacionadas con la ciencia y la tecnología de forma autónoma.",
+        "explicacion": "la competencia tiene un enunciado distinto en cada curso en el BOC; el corpus guarda uno por materia (limitación del modelo)"
       }
     ],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BCUF01BC5: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL3, CP2, STEM1, STEM2, STEM5, CD1, CD4, CD5, CPSAA2, CC4, CE1; criterios: CCL3, STEM1, STEM5, CD1, CD4, CC4, CP2, STEM2, CPSAA4, CE1, CCL1, CD5)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-electrotecnia",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BELE02BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, STEM2, STEM4, CD2, CD3, CD4, CPSAA1.1, CPSAA3.2; criterios: CCL1, CCL3, STEM2, STEM4, CD2, CD3, CD4, CPSAA1.1, CPSAA3.2, CE1, CE3, CCL2, STEM5, CPSAA2, CC4)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-fotografia",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BFOT01BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL3, STEM2, STEM4, CD3, CD4, CPSAA2, CPSAA3.1, CC3, CC4, CE1, CCEC1, CCEC3.1, CCEC3.2; criterios: CCL3, STEM2, CD3, CD4, CPSAA3.1, CPSAA3.2, CC3, CC4, CE1, CCEC1, CCL2, STEM4, CCEC2, CCEC3.1)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-fundamentos-de-administracion-y-gestion",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BFUE02BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CCL5, STEM2, STEM4, STEM5, CD2, CD3, CPSAA1.2, CPSAA3.1, CPSAA3.2, CPSAA4, CPSAA5, CC2, CC3, CC4, CE1, CE2, CE3, CCEC3.1, CCEC4.1; criterios: CCL2, CCL3, CCL5, CE2, CE3, CCEC3.2, CCEC4.1, STEM4, CD2, CD3, CPSAA1.2, CPSAA3.2, CPSAA4, CC3, CE1, CCEC3.1, CCL1, STEM2, STEM5, CPSAA3.1, CPSAA5, CC4)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-historia-de-canarias",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BHIC01BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CP3, STEM2, CD1, CD2, CPSAA3.1, CPSAA4, CPSAA5, CC2, CC3, CE3; criterios: CCL1, CCL2, CCL3, STEM2, CD1, CPSAA4, CE3, CP3, CD2, CCEC1, CPSAA3.1, CCL5, STEM1, CPSAA5, CC2, CC3, CC4)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-imagen-y-sonido",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-iniciacion-a-la-astronomia",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-informatica-y-digitalizacion-i-y-ii",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BIKF01BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL3, STEM1, STEM2, STEM5, CD1, CD4, CD5, CPSAA1.1, CPSAA5, CE3; criterios: CCL3, STEM2, CD1, STEM1, STEM5, CD4, CD5, CPSAA1.1, CE3, CPSAA5)",
+      "bc:BIKF01BC2: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL3, CD1, CD2, CD3, STEM3, CPSAA5, CE3, CCEC4.1; criterios: CCL1, CCL3, CD1, CD2, CD3, CPSAA5, CE3, CCEC4.1)",
+      "bc:BIKF01BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL5, CD3, CD4, CD5, CPSAA1.2, CPSAA2, CPSAA3.1, CE2, CC1, CC2; criterios: CCL5, CD3, CD4, CD5, CPSAA1.2, CPSAA2, CPSAA3.1, CC1, CC2)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-la-mitologia-y-las-artes",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BLAM02BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CCL4, CP3, CD1, CD2, CPSAA4, CC1, CCEC1; criterios: CCL1, CCL3, CD1, CD2, CPSAA4, CC1, CCL2, CP3, CCEC1)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-literatura-canaria",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
   },
   {
     "documento": "bachillerato-juegos-y-deportes-tradicionales-de-canarias",
@@ -3033,30 +1432,101 @@
     "avisos_lectura": [],
     "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-medio-natural-canario",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BMNC01BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CCL5, CP2, STEM2, STEM4, CD1, CD3, CPSAA4, CC3, CCEC3.2; criterios: CCL2, CCL3, CP2, STEM2, STEM4, CD1, CD3, CPSAA4, CC3, CCEC3.2, CCL1, CPSAA3.2, CCL5)",
+      "bc:BMNC01BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, STEM5, CD1, CPSAA2, CPSAA4, CC1, CC4, CE1, CE3; criterios: CCL3, CD1, CPSAA4, CC4, STEM5, CE1, CCL1, CPSAA2, CC1, CE3)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-taller-de-etimologia-grecolatina",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BTA501BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CP2, CP3, STEM1, CD1; criterios: CCL1, CP2, STEM1, CP3)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-talleres-artisticos",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BTA701BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL2, CCL3, CCL5, CP2, CD1, CD2, CPSAA1.2, CPSAA4, CC1, CC3, CE3, CCEC2, CCEC3.1; criterios: CCL3, CD1, CPSAA4, CC1, CCEC2, CCL1, CCL2, CP2, CD2, CE3, CCEC3.1, CCL5, CPSAA1.1, CC3)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-tecnicas-de-laboratorio",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
   },
   {
     "documento": "bachillerato-musica-expresion-y-espectaculos",
     "estado": "contrastado",
     "avisos_lectura": [],
-    "diferencias": [
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BMUW01BC1",
-        "detalle": "documento: \"['CPSAA1.1', 'CPSAA3.1', 'CCEC3.1', 'CCEC3.2', 'CCEC4.1', 'CCEC4.2']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BMUW01BC3",
-        "detalle": "documento: \"['CCL1', 'CPSAA3.1', 'CCEC1', 'CCEC2']\""
-      },
-      {
-        "tipo": "descriptores de bloque distinto",
-        "nodo": "bc:BMUW01BC4",
-        "detalle": "documento: \"['CCEC3.1', 'CCEC3.2', 'CCEC4.1', 'CCEC4.2']\""
-      }
-    ],
+    "diferencias": [],
     "huecos": [],
-    "revisar": []
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BMUW01BC1: la cabecera del bloque no coincide con sus criterios (cabecera: CPSAA1.1, CPSAA3.1, CCEC3.1, CCEC3.2, CCEC4.1, CCEC4.2; criterios: CPSAA1.1, CPSAA3.1, CCEC3.1, CCEC3.2, CCEC4.1, CCEC4.2, CPSAA3.2)",
+      "bc:BMUW01BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CPSAA3.1, CCEC1, CCEC2; criterios: CCL1, CPSAA3.1, CCEC3.1, CCEC3.2)",
+      "bc:BMUW01BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCEC3.1, CCEC3.2, CCEC4.1, CCEC4.2; criterios: CPSAA3.1, CPSAA3.2, CCEC4.1, CCEC4.2)"
+    ],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-musica-y-sociedad",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-psicologia",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [],
+    "numeracion_boc": []
+  },
+  {
+    "documento": "bachillerato-taller-de-artes-integradas",
+    "estado": "contrastado",
+    "avisos_lectura": [],
+    "diferencias": [],
+    "huecos": [],
+    "revisar": [],
+    "avisos_documento": [
+      "bc:BTA602BC3: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CD1, CD2, CPSAA1.1, CPSAA5, CC1, CCEC3.1; criterios: CCL1, CD1, CD2, CPSAA1.1, CPSAA5, CC1, CCEC3.1, CPSAA1.2)"
+    ],
+    "numeracion_boc": []
   }
 ]

@@ -1,0 +1,20 @@
+id: '0250'
+titulo: 'Iniciación a la Astronomía (Bachillerato): 2 textos con la puntuación del documento oficial'
+motivo: 'Textos que solo difieren en la puntuación y que el BOC no permite decidir (el texto extraído del PDF no conserva
+  la puntuación de forma fiable). Criterio aprobado: el ODT oficial es la referencia y el corpus debe reflejarlo.'
+fuente:
+  documento: bachillerato-iniciacion-a-la-astronomia
+  fichero: fuentes/documentos/bachillerato/Iniciacion_a_la_Astronomia_BACH.odt
+  sha256: 0c03c23211b59d077ce5ef00f01db91e76110f7fca8060d6d17f942d0cab7e46
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: ce:BIASC2
+  campo: definition
+  valor: Describir la composición y organización del Universo analizando la edad aproximada de los distintos componentes,
+    utilizando la hipótesis del Big Bang para comprender el nacimiento y evolución del Cosmos y las pruebas que lo avalan.
+- nodo: ce:BIASC5
+  campo: definition
+  valor: Identificar los diferentes tipos de objetos celestes, analizando el proceso de formación y evolución estelar para
+    comprender los estados evolutivos de las estrellas y la organización de las mismas en el Cosmos.

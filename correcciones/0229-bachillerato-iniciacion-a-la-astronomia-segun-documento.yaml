@@ -1,0 +1,152 @@
+id: 0229
+titulo: 'Iniciación a la Astronomía (Bachillerato): 3 diferencias corregidas con el documento oficial'
+motivo: 'Diferencias que el contraste no explicaba con el BOC. Criterio aprobado: el ODT oficial de la web de currículos es
+  la referencia y el corpus debe reflejarlo. Se rehacen con los saberes y la numeración del documento los bloques BIAS01SBII,
+  en los que faltaban o sobraban saberes. Tipos: falta en el corpus: texto de saber; nodo del corpus que no está en el documento.'
+fuente:
+  documento: bachillerato-iniciacion-a-la-astronomia
+  fichero: fuentes/documentos/bachillerato/Iniciacion_a_la_Astronomia_BACH.odt
+  sha256: 0c03c23211b59d077ce5ef00f01db91e76110f7fca8060d6d17f942d0cab7e46
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: sb:BIAS01SBII.1
+  accion: eliminar
+- nodo: sb:BIAS01SBII.2
+  accion: eliminar
+- nodo: sb:BIAS01SBII.3
+  accion: eliminar
+- nodo: sb:BIAS01SBII.4
+  accion: eliminar
+- nodo: sb:BIAS01SBII.5
+  accion: eliminar
+- nodo: sb:BIAS01SBII.6
+  accion: eliminar
+- nodo: sb:BIAS01SBII.7
+  accion: eliminar
+- nodo: sb:BIAS01SBII.8
+  accion: eliminar
+- nodo: sb:BIAS01SBII.9
+  accion: eliminar
+- nodo: sb:BIAS01SBII.10
+  accion: eliminar
+- nodo: sb:BIAS01SBII.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: BIAS01SBII.1
+    definition: Análisis e interpretación del origen y la evolución del Sistema Solar.
+    broader: sb:BIAS01SBII
+    materia: materia:BIAS
+    curso: curso:B01
+    etapa: etapa:BAC
+- nodo: sb:BIAS01SBII.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: BIAS01SBII.2
+    definition: Caracterización del Sistema Solar y de su situación en la Vía Láctea, analizando los principales parámetros
+      que lo caracterizan.
+    broader: sb:BIAS01SBII
+    materia: materia:BIAS
+    curso: curso:B01
+    etapa: etapa:BAC
+- nodo: sb:BIAS01SBII.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: BIAS01SBII.3
+    definition: Descripción de la formación y características del Sol, valorando su relevancia como fuente de energía primaria
+      y reconociendo su influencia sobre las telecomunicaciones y el clima en la Tierra.
+    broader: sb:BIAS01SBII
+    materia: materia:BIAS
+    curso: curso:B01
+    etapa: etapa:BAC
+- nodo: sb:BIAS01SBII.4
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: BIAS01SBII.4
+    definition: Análisis de la estructura, la composición y los movimientos de los planetas y satélites más relevantes del
+      Sistema Solar.
+    broader: sb:BIAS01SBII
+    materia: materia:BIAS
+    curso: curso:B01
+    etapa: etapa:BAC
+- nodo: sb:BIAS01SBII.5
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: BIAS01SBII.5
+    definition: Análisis de los efectos de un hipotético cambio en la inclinación del eje terrestre sobre la climatología
+      mundial y la sucesión de las estaciones.
+    broader: sb:BIAS01SBII
+    materia: materia:BIAS
+    curso: curso:B01
+    etapa: etapa:BAC
+- nodo: sb:BIAS01SBII.6
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: BIAS01SBII.6
+    definition: 'Estudio de las posiciones relativas del sistema Sol-Tierra-Luna y sus consecuencias: eclipses, mareas…'
+    broader: sb:BIAS01SBII
+    materia: materia:BIAS
+    curso: curso:B01
+    etapa: etapa:BAC
+- nodo: sb:BIAS01SBII.7
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: BIAS01SBII.7
+    definition: Análisis de las condiciones necesarias para que un cuerpo celeste albergue vida. Importancia de la búsqueda
+      de biomarcadores y tecnomarcadores. Discusión de la ecuación de Drake y valoración de la contribución de los programas
+      científicos de búsqueda extraterrestre (SETI).
+    broader: sb:BIAS01SBII
+    materia: materia:BIAS
+    curso: curso:B01
+    etapa: etapa:BAC
+- nodo: sb:BIAS01SBII.8
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: BIAS01SBII.8
+    definition: Evaluación de la incidencia que un agente catastrófico de grandes proporciones (la caída de un gran meteorito…)
+      tendría sobre el equilibrio del ecosistema terrestre.
+    broader: sb:BIAS01SBII
+    materia: materia:BIAS
+    curso: curso:B01
+    etapa: etapa:BAC
+- nodo: sb:BIAS01SBII.9
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: BIAS01SBII.9
+    definition: 'Estudio de otros componentes del Sistema Solar: meteoros, meteoritos, asteroides, bólidos y cometas, la nube
+      de Oort...'
+    broader: sb:BIAS01SBII
+    materia: materia:BIAS
+    curso: curso:B01
+    etapa: etapa:BAC
+- nodo: sb:BIAS01SBII.10
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: BIAS01SBII.10
+    definition: Valoración de la contribución de las misiones espaciales en el conocimiento del Universo. Análisis crítico
+      de los efectos producidos por la puesta en órbita de satélites. Basura espacial y contaminación lumínica.
+    broader: sb:BIAS01SBII
+    materia: materia:BIAS
+    curso: curso:B01
+    etapa: etapa:BAC
+- nodo: sb:BIAS01SBII.11
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: BIAS01SBII.11
+    definition: Planetas extrasolares. Métodos de detección y características.
+    broader: sb:BIAS01SBII
+    materia: materia:BIAS
+    curso: curso:B01
+    etapa: etapa:BAC

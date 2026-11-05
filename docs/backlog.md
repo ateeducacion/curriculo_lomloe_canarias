@@ -121,15 +121,27 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
   (casi todos de 3.º ESO, más Historia de Canarias y Bioestadística) tienen un código cuyo
   apartado no coincide con el número de su encabezado. Hoy el importador solo reconstruye el
   código cuando además choca con otro (caso de Bioestadística). Decidir si la regla se extiende.
-- [ ] **3.6 Comparar saberes por contenido en el informe de contraste**, como ya hace
+- [x] **3.6 Comparar saberes por contenido en el informe de contraste**, como ya hace
   `--proponer`: la comparación por número da falsos positivos cuando la exportación y el
   documento anidan distinto (Matemáticas de Primaria, Filosofía).
-- [ ] **3.7 Diferencias de versión**: en Educación en Valores Cívicos y Éticos y en Educación
+  Hecho (04-11-2026): los saberes de cada bloque se alinean por contenido antes de
+  compararlos (diferencias: de 895 a 819). Al emparejar bien afloran textos cortados y de
+  otra versión; con la búsqueda exacta en el BOC, correcciones 0137–0165 (29 ficheros).
+- [x] **3.7 Diferencias de versión**: en Educación en Valores Cívicos y Éticos y en Educación
   Física de Primaria, el ODT y la exportación difieren en muchos textos, explicaciones y
   descriptores. Comprobar cuál corresponde al Decreto 211/2022 publicado en el BOC.
-- [ ] **3.8 Descriptores de bloque**: en Plástica, Historia de Canarias, Lengua Castellana y
+  Hecho (04-11-2026): los ODT son la versión publicada. En Primaria, donde difieren, el texto
+  del ODT está en el BOC y el de la exportación no en 410 casos, y al revés en 6. Los textos
+  de los cinco decretos están en `fuentes/boletines/` y `contrastar --proponer` los usa (5.1).
+- [x] **3.8 Descriptores de bloque**: en Plástica, Historia de Canarias, Lengua Castellana y
   Educación Física de Primaria los descriptores de algunos bloques no coinciden con la
   cabecera de la tabla del documento. Comprobar si el importador los toma de los criterios.
+  Hecho (04-11-2026): sí, el corpus calcula los del bloque como la unión de los de sus
+  criterios. El contraste compara el bloque con esa unión en el documento; en 97 bloques es
+  la cabecera del documento la que no cuadra con sus propios criterios, y eso se anota como
+  incoherencia del documento, no como diferencia del corpus. Los descriptores de criterio se
+  deciden con el BOC (lista completa): correcciones 0166–0175. Errata en el BOC: «CCE3» en
+  Lengua Castellana de 1.º y 2.º de Primaria (criterio 7.2), que se deja como está.
 - [ ] **3.9 Restos menores**: dobles espacios o espacios de no separación (Economía Personal y
   Social, Física y Química, Cultura y Ciudadanía Digital) y una descripción de bloque truncada
   en Cultura y Ciudadanía Digital (`sb:SCUJ03SBV`).
@@ -171,10 +183,26 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
 
 ## Fase 5 — Preparar la 1.0.0
 
-- [ ] **5.1 Contrastar los 105 documentos.** Ninguna diferencia sin explicar: o hay corrección,
+- [x] **5.1 Contrastar los 105 documentos.** Ninguna diferencia sin explicar: o hay corrección,
   o una nota que justifica que el corpus es correcto. **Depende de** fases 2–4.
-- [ ] **5.2 Pruebas automáticas** (pytest) del importador, el lector de ODT, el contraste y las
+  Hecho (05-11-2026): «sin explicar: 0» en `informes/contraste.md`; 218 diferencias, todas
+  explicadas automáticamente con el BOC, y 77 de 105 documentos coinciden por completo.
+  `contrastar --proponer` compara con el texto del BOC (limpio de los descriptores que pdftotext
+  intercala en las tablas) y propone el texto del documento cuando es el publicado: versión y
+  puntuación publicadas, solo espacios, textos cortados y de otro curso (correcciones
+  0044–0136 y 0176–0210). Todos los textos se normalizan a NFC: 587 de la exportación traían
+  las tildes descompuestas. Las 127 diferencias que el BOC no decidía se resolvieron con el
+  criterio aprobado de que el ODT oficial es la referencia y el corpus debe reflejarlo
+  (correcciones 0211–0233, una por documento): textos, descripciones, explicaciones y
+  descriptores toman el valor del documento, y los bloques de saberes con saberes que faltaban
+  o sobraban se rehacen con los saberes y la numeración del documento. Una corrección con
+  `valor: null` quita el campo (descripciones de bloque que el documento no tiene).
+- [x] **5.2 Pruebas automáticas** (pytest) del importador, el lector de ODT, el contraste y las
   correcciones, ejecutadas en la CI.
+  Hecho (05-11-2026): 30 pruebas en `tests/` (importador, lector de ODT con documentos mínimos
+  construidos en memoria, texto del BOC, contraste y correcciones), con `requirements-dev.txt`.
+  Las dos CI ejecutan `pytest` y `contrastar --estricto`, que falla si queda alguna diferencia
+  sin explicar.
 - [ ] **5.3 Exportación RDF**: salida SKOS en Turtle en la publicación, con el modelo acordado
   para Omeka S.
 - [ ] **5.4 Revisar la documentación** (README, modelo, contribuir, pendientes).

@@ -1,0 +1,109 @@
+id: '0214'
+titulo: 'Ámbito Práctico (Educación Secundaria Obligatoria): 4 diferencias corregidas con el documento oficial'
+motivo: 'Diferencias que el contraste no explicaba con el BOC. Criterio aprobado: el ODT oficial de la web de currículos es
+  la referencia y el corpus debe reflejarlo. Se rehacen con los saberes y la numeración del documento los bloques SAM304SBII,
+  SAM304SBVI, en los que faltaban o sobraban saberes. Tipos: explicación de bloque distinto; falta en el corpus: texto de
+  saber; texto de criterio distinto.'
+fuente:
+  documento: eso-ambito-practico
+  fichero: fuentes/documentos/eso/anexo_3_curriculo_pdc_eso__AP.odt
+  sha256: 548c53378ed12f099d77f459aac883b926f79bae6673ca72b901b70839ce8962
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: crit:SAM304CE1.1
+  campo: definition
+  valor: Idear, planificar, fabricar y difundir productos y soluciones tecnológicas eficientes e innovadoras, utilizando las
+    estrategias del método de proyectos y técnicas colaborativas y cooperativas adecuadas, a partir de la investigación en
+    fuentes de información fiables, para dar respuesta de manera creativa a las necesidades planteadas y atendiendo a criterios
+    de accesibilidad y sostenibilidad.
+- nodo: bc:SAM304BC4
+  campo: scopeNote
+  valor: A través de este bloque competencial se comprobará que el alumnado sea capaz de gestionar y optimizar su aprendizaje
+    permanente de manera autónoma, con el soporte de recursos digitales, configurando su entorno personal de aprendizaje para
+    el desarrollo de una adecuada ciudadanía digital. Es por ello que el alumnado deberá seleccionar y emplear, con responsabilidad,
+    las posibilidades de las herramientas digitales del entorno personal de aprendizaje, adaptándolas a sus necesidades y
+    configurándolas de manera razonada. Asimismo, se valorará la búsqueda, la localización, la selección y el archivo de la
+    información con criterios de calidad y actualidad, contrastando las fuentes de información y evaluando su fiabilidad para
+    reutilizar la información con sentido crítico, elaborar nuevo contenido digital accesible en distintos formatos y resolver
+    las tareas propuestas, con la finalidad de que el alumnado aprenda de sus errores, de manera creativa, inclusiva y eficaz,
+    y reflexione sobre el proceso realizado y el resultado obtenido. Se constatará que respete los derechos de autoría y las
+    licencias de uso, y que siga las normas básicas de seguridad en la red, al tiempo que aprecie y valore la identidad cultural
+    canaria. También se verificará la participación activa, respetuosa y colaborativa en los espacios virtuales de comunicación
+    y plataformas de aprendizaje colaborativo.
+- nodo: sb:SAM304SBII.1
+  accion: eliminar
+- nodo: sb:SAM304SBII.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SAM304SBII.1
+    definition: Identificación y representación de operadores tecnológicos (mecánicos, eléctricos, electrónicos, analógicos
+      y digitales, neumáticos e hidráulicos) aplicados a la resolución de problemas tecnológicos, para realizar análisis y
+      montajes físicos de sistemas.
+    broader: sb:SAM304SBII
+    materia: materia:SAM3
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SAM304SBII.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SAM304SBII.2
+    definition: Identificación y representación de operadores tecnológicos en la robótica, para realizar análisis y montajes
+      físicos o simulados de circuitos que permitan la realización de tareas autónomas.
+    broader: sb:SAM304SBII
+    materia: materia:SAM3
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SAM304SBVI.1
+  accion: eliminar
+- nodo: sb:SAM304SBVI.2
+  accion: eliminar
+- nodo: sb:SAM304SBVI.3
+  accion: eliminar
+- nodo: sb:SAM304SBVI.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SAM304SBVI.1
+    definition: Configuración y montaje de los elementos que constituyen la arquitectura de los ordenadores y desarrollo de
+      estrategias eficaces para la resolución de los problemas relacionados que permitan la adquisición de hábitos de reutilización
+      de materiales y ahorro energético.
+    broader: sb:SAM304SBVI
+    materia: materia:SAM3
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SAM304SBVI.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SAM304SBVI.2
+    definition: Identificación de los dispositivos constituyentes de una red local y análisis de su funcionamiento para realizar
+      su adecuada conexión y configuración.
+    broader: sb:SAM304SBVI
+    materia: materia:SAM3
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SAM304SBVI.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SAM304SBVI.3
+    definition: Configuración de sistemas operativos.
+    broader: sb:SAM304SBVI
+    materia: materia:SAM3
+    curso: curso:S04
+    etapa: etapa:ESO
+- nodo: sb:SAM304SBVI.4
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: SAM304SBVI.4
+    definition: Desarrollo de estrategias para identificar los riesgos en las redes locales, adoptando las medidas necesarias
+      para garantizar la seguridad de los dispositivos y de las personas en los entornos digitales.
+    broader: sb:SAM304SBVI
+    materia: materia:SAM3
+    curso: curso:S04
+    etapa: etapa:ESO

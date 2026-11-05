@@ -1,0 +1,31 @@
+id: '0111'
+titulo: 'Volumen (Bachillerato): 2 textos que solo difieren en espacios'
+motivo: El texto de la exportación solo difiere del documento oficial en espacios (dobles, de no separación o al principio
+  o final). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-volumen
+  fichero: fuentes/documentos/bachillerato/Volumen_BACH.odt
+  sha256: 56ef2627c209690b0ca85f731e91032a380d93f1b249fbff14bfa3d46f6ccb8d
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: bc:BVOL01BC2
+  campo: scopeNote
+  valor: A través de este bloque competencial, se constatará que el alumnado es capaz de analizar y explicar los aspectos
+    más importantes de la configuración tridimensional, partiendo del análisis de los elementos formales, funcionales y estructurales
+    de obras de diferentes artistas, con el apoyo de bibliografía analógica y digital específica y de motores de búsqueda
+    en internet, con especial atención a los artistas y las artistas canarios, con una postura de recepción activa y deleite.
+    Así mismo, se verificará que puede poner en práctica mecanismos de percepción de formas volumétricas a través del estudio
+    de los diferentes elementos de configuración formal y espacial, que ayudan al desarrollo de una visión analítica y sintética
+    de los objetos artísticos tridimensionales que nos rodean. También se comprobará que es capaz de elaborar formas volumétricas
+    atendiendo a una función comunicativa concreta, pudiendo aplicar el grado de iconicidad adecuado a su intención creativa
+    y realizar un análisis de la forma externa como proyección ordenada de la estructura interna. Todo ello con la finalidad
+    de verificar que su capacidad creativa le permite realizar producciones volumétricas reflexionando sobre la libertad de
+    expresión, la igualdad y el respeto a la propiedad intelectual, además de aprender a proteger tanto la creatividad propia,
+    como la ajena.
+- nodo: sb:BVOL01SBII.1
+  campo: definition
+  valor: 'Distinción y uso de formas tridimensionales y de su lenguaje. Identificación y aplicación de los elementos estructurales
+    de la forma: línea, plano, arista, vértice, superficie, volumen, texturas (visuales y táctiles), concavidades, convexidades,
+    vacío, espacio, masa, escala, color.'

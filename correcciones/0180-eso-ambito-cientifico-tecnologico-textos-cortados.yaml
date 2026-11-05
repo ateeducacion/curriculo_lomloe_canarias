@@ -1,0 +1,46 @@
+id: 0180
+titulo: 'Ámbito Científico-Tecnológico (Educación Secundaria Obligatoria): 5 textos cortados en la exportación'
+motivo: El texto de la exportación es solo un trozo del texto del documento oficial, que figura completo en el BOC (fuentes/boletines).
+  Se toma el texto completo. Generada con `contrastar --proponer`.
+fuente:
+  documento: eso-ambito-cientifico-tecnologico
+  fichero: fuentes/documentos/eso/anexo_2_curriculo_pdc_eso_ACT.odt
+  sha256: 64d8f26e9c715b667e231f20a70e91c7e1e54cfc4389a09e25d10a7ca5afe6e9
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: bc:SAMB03BC2
+  campo: scopeNote
+  valor: A través de este bloque competencial se comprobará si el alumnado es capaz de analizar información en diferentes
+    formatos (textos, gráficos, tablas, diagramas, imágenes, páginas web…) y representarla, haciendo uso de medios y soportes
+    variados (esquemas, modelos, diagramas, presentaciones...), para describir, empleando el pensamiento científico, los procesos
+    matemáticos y fenómenos físico-químicos, tecnológicos, biológicos y geológicos concretos, relacionados con los distintos
+    bloques de saberes básicos del ámbito. Asimismo, se evaluará si es capaz de transmitir, mediante exposiciones orales,
+    escritas o visuales en diversos soportes y con el apoyo de las tecnologías digitales, información, conjeturas y conclusiones
+    razonadas, haciendo uso del lenguaje científico-técnico apropiado, evitando el uso discriminatorio de la lengua, mostrando
+    una actitud respetuosa, gestionando su presencia y visibilidad en la red, y ejerciendo una ciudadanía digital activa,
+    cívica y reflexiva, con el fin de conseguir una comunicación efectiva. Finalmente, se valorará la capacidad del alumnado
+    para crear y reelaborar contenidos accesibles en diferentes formatos, a partir de la información obtenida, tanto de forma
+    individual como colaborativa, seleccionando, configurando y utilizando de manera crítica y creativa las herramientas digitales
+    más adecuadas. Todo ello con el fin de comprender la importancia que tiene el intercambio de información y la colaboración
+    entre individuos en la ciencia y la tecnología.
+- nodo: crit:SAMB03CE1.2
+  campo: definition
+  valor: Contrastar información empleando las fuentes y herramientas que se adapten al propósito, a partir de la aplicación
+    de criterios de validez y fiabilidad, para despertar la curiosidad, mantener una actitud escéptica hacia la información
+    sin base científica y fomentar las vocaciones científicas y tecnológicas.
+- nodo: crit:SAMB03CE2.1
+  campo: definition
+  valor: Analizar y representar información, utilizando diferentes medios y soportes, y un lenguaje científico-técnico apropiado,
+    para describir procesos matemáticos y fenómenos científicos y tecnológicos.
+- nodo: crit:SAMB04CE1.2
+  campo: definition
+  valor: Contrastar información seleccionando y empleando las fuentes y herramientas que se adapten al propósito, a partir
+    de la aplicación de criterios de validez, calidad, actualidad y fiabilidad, desechando las menos adecuadas, para despertar
+    la curiosidad, adoptar una actitud crítica y escéptica hacia la información sin base científica, y fomentar las vocaciones
+    científicas y tecnológicas.
+- nodo: sb:SAMB03SBI.4
+  campo: definition
+  valor: 'Conocimiento y utilización de los espacios (laboratorio, talleres, aulas, entorno, huertos...), entornos virtuales
+    y recursos de aprendizaje para adquirir destrezas científicas y tecnológicas:'

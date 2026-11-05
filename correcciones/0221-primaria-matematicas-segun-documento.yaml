@@ -1,0 +1,1005 @@
+id: '0221'
+titulo: 'Matemáticas (Educación Primaria): 5 diferencias corregidas con el documento oficial'
+motivo: 'Diferencias que el contraste no explicaba con el BOC. Criterio aprobado: el ODT oficial de la web de currículos es
+  la referencia y el corpus debe reflejarlo. Se rehacen con los saberes y la numeración del documento los bloques PMAT03SBI,
+  PMAT04SBI, en los que faltaban o sobraban saberes. Tipos: descriptores de criterio distinto; falta en el corpus: texto de
+  saber.'
+fuente:
+  documento: primaria-matematicas
+  fichero: fuentes/documentos/primaria/curriculo-educacion-PRIMARIA_Matematicas.odt
+  sha256: 30849bd07eb61b4b8b06e0902c7fcf1f1bd9908936b14d183c0741a5e19eec59
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: crit:PMAT02CE1.1
+  campo: descriptores
+  valor:
+  - CCL1
+  - CCL2
+  - STEM1
+  - STEM2
+  - STEM4
+  - CPSAA5
+  - CE1
+  - CE3
+- nodo: sb:PMAT03SBI.1
+  accion: eliminar
+- nodo: sb:PMAT03SBI.1.1
+  accion: eliminar
+- nodo: sb:PMAT03SBI.1.2
+  accion: eliminar
+- nodo: sb:PMAT03SBI.1.3
+  accion: eliminar
+- nodo: sb:PMAT03SBI.1.4
+  accion: eliminar
+- nodo: sb:PMAT03SBI.1.5
+  accion: eliminar
+- nodo: sb:PMAT03SBI.1.6
+  accion: eliminar
+- nodo: sb:PMAT03SBI.1.7
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.1
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.2
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.2.1
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.2.2
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.3
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.3.1
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.3.2
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.3.3
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.4
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.5
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.6
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.7
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.8
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.9
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.10
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.10.1
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.10.2
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.11
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.12
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.12.1
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.12.2
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.13
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.14
+  accion: eliminar
+- nodo: sb:PMAT03SBI.2.15
+  accion: eliminar
+- nodo: sb:PMAT03SBI.3
+  accion: eliminar
+- nodo: sb:PMAT03SBI.3.1
+  accion: eliminar
+- nodo: sb:PMAT03SBI.3.1.1
+  accion: eliminar
+- nodo: sb:PMAT03SBI.3.1.2
+  accion: eliminar
+- nodo: sb:PMAT03SBI.3.1.3
+  accion: eliminar
+- nodo: sb:PMAT03SBI.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.1
+    definition: Conteo y cantidad
+    broader: sb:PMAT03SBI
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.1.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.1.1
+    definition: Elección y puesta en práctica de estrategias variadas de conteo, recuento sistemático y adaptación del conteo
+      al tamaño de los números en situaciones de la vida cotidiana en cantidades hasta 9999.
+    broader: sb:PMAT03SBI.1
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.1.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.1.2
+    definition: Conocimiento e interpretación del valor posicional de las cifras en el sistema de numeración decimal y sus
+      equivalencias (decenas, centenas y millares).
+    broader: sb:PMAT03SBI.1
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.1.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.1.3
+    definition: Realización de estimaciones y aproximaciones razonadas de cantidades en contextos de resolución de problemas.
+    broader: sb:PMAT03SBI.1
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.1.4
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.1.4
+    definition: Lectura, escritura de números naturales hasta 9999.
+    broader: sb:PMAT03SBI.1
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.1.5
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.1.5
+    definition: Representación, composición y descomposición de números naturales hasta 9999. utilizando materiales manipulativos
+      (incluida la recta numérica).
+    broader: sb:PMAT03SBI.1
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.1.6
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.1.6
+    definition: Construcción y comprensión de números decimales (décimas y centésimas), utilizando materiales manipulativos,
+      relacionándolos con sus fracciones de denominador 10 y denominador 100, en contextos cotidianos como el sistema monetario
+      o la medida.
+    broader: sb:PMAT03SBI.1
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.1.7
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.1.7
+    definition: Construcción y comprensión del concepto de fracción haciendo uso de materiales manipulativos con denominador
+      hasta 12. Sus términos y representación. Equivalencias entre fracciones a partir de su representación gráfica.
+    broader: sb:PMAT03SBI.1
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2
+    definition: Sentido de las operaciones
+    broader: sb:PMAT03SBI
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.1
+    definition: Uso de la estructura aditiva o multiplicativa en la resolución de problemas aritméticos de operación única,
+      organizando la información para elegir la operación adecuada.
+    broader: sb:PMAT03SBI.2
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.2
+    definition: Empleo de estrategias de cálculo para la suma.
+    broader: sb:PMAT03SBI.2
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.2.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.2.1
+    definition: Uso de la suma mediante redondeo a la decena más cercana para el cálculo estimativo obteniendo el cálculo
+      exacto previa compensación.
+    broader: sb:PMAT03SBI.2.2
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.2.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.2.2
+    definition: Uso de la suma mediante descomposición de forma exacta, con números naturales y decimales hasta la décima.
+    broader: sb:PMAT03SBI.2.2
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.3
+    definition: Empleo de estrategias de cálculo para la resta.
+    broader: sb:PMAT03SBI.2
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.3.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.3.1
+    definition: Uso de la resta utilizando sumar o restar el mismo número al minuendo y sustraendo.
+    broader: sb:PMAT03SBI.2.3
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.3.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.3.2
+    definition: Uso de estrategias basadas en la compensación.
+    broader: sb:PMAT03SBI.2.3
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.3.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.3.3
+    definition: Uso de estrategias basadas en las descomposiciones más adecuadas de los números.
+    broader: sb:PMAT03SBI.2.3
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.4
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.4
+    definition: Uso de la suma y de la resta de números naturales, con flexibilidad, comprensión y sentido, con al menos dos
+      algoritmos basados en las propiedades del sistema de numeración decimal.
+    broader: sb:PMAT03SBI.2
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.5
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.5
+    definition: 'Construcción y memorización de las tablas de multiplicar a partir de la propiedad conmutativa, de establecer
+      relaciones entre ellas (dobles y mitades) y de buscar regularidades y patrones numéricos (secuencia de las tablas: 1-10,
+      2-4, 10-5, 3-6, 4-8, 9-10, 7) apoyándose en número de veces, disposición en cuadrículas o suma repetida, y con ayuda
+      de la calculadora mediante el uso del factor constante.'
+    broader: sb:PMAT03SBI.2
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.6
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.6
+    definition: Construcción y comprensión del concepto de múltiplo mediante material manipulativo y en relación a las tablas
+      de multiplicar, estableciendo relaciones entre múltiplo y divisor.
+    broader: sb:PMAT03SBI.2
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.7
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.7
+    definition: Relación de la multiplicación con la división (división como inversa de la multiplicación).
+    broader: sb:PMAT03SBI.2
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.8
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.8
+    definition: Descubrimiento y uso posterior de la propiedad distributiva de la multiplicación respecto de la suma para
+      el cálculo.
+    broader: sb:PMAT03SBI.2
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.9
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.9
+    definition: 'Empleo de la multiplicación de números naturales con flexibilidad y sentido, basada en las propiedades del
+      sistema de numeración (al menos dos algoritmos): aplicando la propiedad distributiva en disposiciones rectangulares,
+      composición y descomposición; y algoritmo expandido.'
+    broader: sb:PMAT03SBI.2
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.10
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.10
+    definition: Empleo de estrategias de cálculo mental.
+    broader: sb:PMAT03SBI.2
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.10.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.10.1
+    definition: 'Uso de la multiplicación de números naturales por la unidad seguida de cero (establecer relaciones: generalización).'
+    broader: sb:PMAT03SBI.2.10
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.10.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.10.2
+    definition: Uso de la multiplicación utilizando dobles y mitades.
+    broader: sb:PMAT03SBI.2.10
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.11
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.11
+    definition: Aplicación del redondeo a la decena, centena y millares, y en los decimales a la unidad o décima más cercana
+      para el cálculo estimativo en la multiplicación.
+    broader: sb:PMAT03SBI.2
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.12
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.12
+    definition: Interpretación de la división como reparto y como agrupamiento de números naturales, con flexibilidad y sentido,
+      contextualizados (al menos dos algoritmos diferentes para la división).
+    broader: sb:PMAT03SBI.2
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.12.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.12.1
+    definition: Uso de la división usando la descomposición con múltiplos del divisor y repartos sucesivos.
+    broader: sb:PMAT03SBI.2.12
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.12.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.12.2
+    definition: Uso de la división con repartos proporcionales (basándose en los múltiplos de 10, dobles y mitades).
+    broader: sb:PMAT03SBI.2.12
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.13
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.13
+    definition: Utilización de la calculadora en la investigación, el cálculo del resultado exacto cuando las cantidades lo
+      precisen y la comprobación de resultados.
+    broader: sb:PMAT03SBI.2
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.14
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.14
+    definition: Resolución de suma y resta de fracciones con el mismo denominador, usando materiales manipulativos previo
+      a la simbolización.
+    broader: sb:PMAT03SBI.2
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.2.15
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.2.15
+    definition: 'Representación con materiales manipulativos, ordenación y cálculo de porcentajes: 50% como mitad, 25% como
+      la mitad de la mitad, y 75% como el 100% menos el 25%, y como la mitad más la mitad de la mitad.'
+    broader: sb:PMAT03SBI.2
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.3
+    definition: Relaciones
+    broader: sb:PMAT03SBI
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.3.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.3.1
+    definition: 'Conocimiento del sistema de numeración de base 10 (hasta el 9999): aplicación de las relaciones que genera
+      en las operaciones.'
+    broader: sb:PMAT03SBI.3
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.3.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.3.2
+    definition: 'Empleo de números naturales, decimales y fracciones en contextos de la vida cotidiana: equivalencias, comparación
+      y ordenación.'
+    broader: sb:PMAT03SBI.3
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.3.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.3.3
+    definition: 'Relaciones entre la suma y la resta, y la multiplicación y la división: aplicación en contextos cotidianos.'
+    broader: sb:PMAT03SBI.3
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.4
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.4
+    definition: Educación financiera
+    broader: sb:PMAT03SBI
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT03SBI.4.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT03SBI.4.1
+    definition: 'Cálculo y estimación de cantidades y cambios (euros y céntimos de euro) en problemas de la vida cotidiana:
+      ingresos, gastos y ahorro. Decisiones de compra responsable.'
+    broader: sb:PMAT03SBI.4
+    materia: materia:PMAT
+    curso: curso:P03
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.1
+  accion: eliminar
+- nodo: sb:PMAT04SBI.1.1
+  accion: eliminar
+- nodo: sb:PMAT04SBI.1.2
+  accion: eliminar
+- nodo: sb:PMAT04SBI.1.3
+  accion: eliminar
+- nodo: sb:PMAT04SBI.1.4
+  accion: eliminar
+- nodo: sb:PMAT04SBI.1.5
+  accion: eliminar
+- nodo: sb:PMAT04SBI.1.6
+  accion: eliminar
+- nodo: sb:PMAT04SBI.1.7
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.1
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.2
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.2.1
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.2.2
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.3
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.3.1
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.3.2
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.3.3
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.4
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.5
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.6
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.7
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.8
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.9
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.10
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.10.1
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.10.2
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.11
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.12
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.12.1
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.12.2
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.13
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.14
+  accion: eliminar
+- nodo: sb:PMAT04SBI.2.15
+  accion: eliminar
+- nodo: sb:PMAT04SBI.3
+  accion: eliminar
+- nodo: sb:PMAT04SBI.3.1
+  accion: eliminar
+- nodo: sb:PMAT04SBI.3.1.1
+  accion: eliminar
+- nodo: sb:PMAT04SBI.3.1.2
+  accion: eliminar
+- nodo: sb:PMAT04SBI.3.1.3
+  accion: eliminar
+- nodo: sb:PMAT04SBI.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.1
+    definition: Conteo y cantidad
+    broader: sb:PMAT04SBI
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.1.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.1.1
+    definition: Elección y puesta en práctica de estrategias variadas de conteo, recuento sistemático y adaptación del conteo
+      al tamaño de los números en situaciones de la vida cotidiana en cantidades hasta 9999.
+    broader: sb:PMAT04SBI.1
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.1.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.1.2
+    definition: Conocimiento e interpretación del valor posicional de las cifras en el sistema de numeración decimal y sus
+      equivalencias (decenas, centenas y millares).
+    broader: sb:PMAT04SBI.1
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.1.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.1.3
+    definition: Realización de estimaciones y aproximaciones razonadas de cantidades en contextos de resolución de problemas.
+    broader: sb:PMAT04SBI.1
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.1.4
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.1.4
+    definition: Lectura, escritura de números naturales hasta 9999.
+    broader: sb:PMAT04SBI.1
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.1.5
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.1.5
+    definition: Representación, composición y descomposición de números naturales hasta 9999. utilizando materiales manipulativos
+      (incluida la recta numérica).
+    broader: sb:PMAT04SBI.1
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.1.6
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.1.6
+    definition: Construcción y comprensión de números decimales (décimas y centésimas), utilizando materiales manipulativos,
+      relacionándolos con sus fracciones de denominador 10 y denominador 100, en contextos cotidianos como el sistema monetario
+      o la medida.
+    broader: sb:PMAT04SBI.1
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.1.7
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.1.7
+    definition: Construcción y comprensión del concepto de fracción haciendo uso de materiales manipulativos con denominador
+      hasta 12. Sus términos y representación. Equivalencias entre fracciones a partir de su representación gráfica.
+    broader: sb:PMAT04SBI.1
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2
+    definition: Sentido de las operaciones
+    broader: sb:PMAT04SBI
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.1
+    definition: Uso de la estructura aditiva o multiplicativa en la resolución de problemas aritméticos de operación única,
+      organizando la información para elegir la operación adecuada.
+    broader: sb:PMAT04SBI.2
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.2
+    definition: Empleo de estrategias de cálculo para la suma.
+    broader: sb:PMAT04SBI.2
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.2.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.2.1
+    definition: Uso de la suma mediante redondeo a la decena más cercana para el cálculo estimativo obteniendo el cálculo
+      exacto previa compensación.
+    broader: sb:PMAT04SBI.2.2
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.2.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.2.2
+    definition: Uso de la suma mediante descomposición de forma exacta, con números naturales y decimales hasta la décima.
+    broader: sb:PMAT04SBI.2.2
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.3
+    definition: Empleo de estrategias de cálculo para la resta.
+    broader: sb:PMAT04SBI.2
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.3.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.3.1
+    definition: Uso de la resta utilizando sumar o restar el mismo número al minuendo y sustraendo.
+    broader: sb:PMAT04SBI.2.3
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.3.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.3.2
+    definition: Uso de estrategias basadas en la compensación.
+    broader: sb:PMAT04SBI.2.3
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.3.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.3.3
+    definition: Uso de estrategias basadas en las descomposiciones más adecuadas de los números.
+    broader: sb:PMAT04SBI.2.3
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.4
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.4
+    definition: Uso de la suma y de la resta de números naturales, con flexibilidad, comprensión y sentido, con al menos dos
+      algoritmos basados en las propiedades del sistema de numeración decimal.
+    broader: sb:PMAT04SBI.2
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.5
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.5
+    definition: 'Construcción y memorización de las tablas de multiplicar a partir de la propiedad conmutativa, de establecer
+      relaciones entre ellas (dobles y mitades) y de buscar regularidades y patrones numéricos (secuencia de las tablas: 1-10,
+      2-4, 10-5, 3-6, 4-8, 9-10, 7) apoyándose en número de veces, disposición en cuadrículas o suma repetida, y con ayuda
+      de la calculadora mediante el uso del factor constante.'
+    broader: sb:PMAT04SBI.2
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.6
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.6
+    definition: Construcción y comprensión del concepto de múltiplo mediante material manipulativo y en relación a las tablas
+      de multiplicar, estableciendo relaciones entre múltiplo y divisor.
+    broader: sb:PMAT04SBI.2
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.7
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.7
+    definition: Relación de la multiplicación con la división (división como inversa de la multiplicación).
+    broader: sb:PMAT04SBI.2
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.8
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.8
+    definition: Descubrimiento y uso posterior de la propiedad distributiva de la multiplicación respecto de la suma para
+      el cálculo.
+    broader: sb:PMAT04SBI.2
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.9
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.9
+    definition: 'Empleo de la multiplicación de números naturales con flexibilidad y sentido, basada en las propiedades del
+      sistema de numeración (al menos dos algoritmos): aplicando la propiedad distributiva en disposiciones rectangulares,
+      composición y descomposición; y algoritmo expandido.'
+    broader: sb:PMAT04SBI.2
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.10
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.10
+    definition: Empleo de estrategias de cálculo mental.
+    broader: sb:PMAT04SBI.2
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.10.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.10.1
+    definition: 'Uso de la multiplicación de números naturales por la unidad seguida de cero (establecer relaciones: generalización).'
+    broader: sb:PMAT04SBI.2.10
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.10.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.10.2
+    definition: Uso de la multiplicación utilizando dobles y mitades.
+    broader: sb:PMAT04SBI.2.10
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.11
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.11
+    definition: Aplicación del redondeo a la decena, centena y millares, y en los decimales a la unidad o décima más cercana
+      para el cálculo estimativo en la multiplicación.
+    broader: sb:PMAT04SBI.2
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.12
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.12
+    definition: Interpretación de la división como reparto y como agrupamiento de números naturales, con flexibilidad y sentido,
+      contextualizados (al menos dos algoritmos diferentes para la división).
+    broader: sb:PMAT04SBI.2
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.12.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.12.1
+    definition: Uso de la división usando la descomposición con múltiplos del divisor y repartos sucesivos.
+    broader: sb:PMAT04SBI.2.12
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.12.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.12.2
+    definition: Uso de la división con repartos proporcionales (basándose en los múltiplos de 10, dobles y mitades).
+    broader: sb:PMAT04SBI.2.12
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.13
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.13
+    definition: Utilización de la calculadora en la investigación, el cálculo del resultado exacto cuando las cantidades lo
+      precisen y la comprobación de resultados.
+    broader: sb:PMAT04SBI.2
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.14
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.14
+    definition: Resolución de suma y resta de fracciones con el mismo denominador, usando materiales manipulativos previo
+      a la simbolización.
+    broader: sb:PMAT04SBI.2
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.2.15
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.2.15
+    definition: 'Representación con materiales manipulativos, ordenación y cálculo de porcentajes: 50% como mitad, 25% como
+      la mitad de la mitad, y 75% como el 100% menos el 25%, y como la mitad más la mitad de la mitad.'
+    broader: sb:PMAT04SBI.2
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.3
+    definition: Relaciones
+    broader: sb:PMAT04SBI
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.3.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.3.1
+    definition: 'Conocimiento del sistema de numeración de base 10 (hasta el 9999): aplicación de las relaciones que genera
+      en las operaciones.'
+    broader: sb:PMAT04SBI.3
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.3.2
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.3.2
+    definition: 'Empleo de números naturales, decimales y fracciones en contextos de la vida cotidiana: equivalencias, comparación
+      y ordenación.'
+    broader: sb:PMAT04SBI.3
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.3.3
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.3.3
+    definition: 'Relaciones entre la suma y la resta, y la multiplicación y la división: aplicación en contextos cotidianos.'
+    broader: sb:PMAT04SBI.3
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.4
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.4
+    definition: Educación financiera
+    broader: sb:PMAT04SBI
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI
+- nodo: sb:PMAT04SBI.4.1
+  accion: crear
+  datos:
+    tipo: SaberBasico
+    notation: PMAT04SBI.4.1
+    definition: 'Cálculo y estimación de cantidades y cambios (euros y céntimos de euro) en problemas de la vida cotidiana:
+      ingresos, gastos y ahorro. Decisiones de compra responsable.'
+    broader: sb:PMAT04SBI.4
+    materia: materia:PMAT
+    curso: curso:P04
+    etapa: etapa:PRI

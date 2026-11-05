@@ -1,0 +1,30 @@
+id: '0150'
+titulo: 'Matemáticas (Educación Primaria): 4 textos de la versión publicada en el BOC'
+motivo: El texto de la exportación no coincide con el publicado en el BOC y el del documento oficial sí (comprobado contra
+  fuentes/boletines). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: primaria-matematicas
+  fichero: fuentes/documentos/primaria/curriculo-educacion-PRIMARIA_Matematicas.odt
+  sha256: 30849bd07eb61b4b8b06e0902c7fcf1f1bd9908936b14d183c0741a5e19eec59
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: sb:PMAT03SBI.2.5
+  campo: definition
+  valor: 'Construcción y memorización de las tablas de multiplicar a partir de la propiedad conmutativa, de establecer relaciones
+    entre ellas (dobles y mitades) y de buscar regularidades y patrones numéricos (secuencia de las tablas: 1-10, 2-4, 10-5,
+    3-6, 4-8, 9-10, 7) apoyándose en número de veces, disposición en cuadrículas o suma repetida, y con ayuda de la calculadora
+    mediante el uso del factor constante.'
+- nodo: sb:PMAT03SBI.3.1.3
+  campo: definition
+  valor: 'Relaciones entre la suma y la resta, y la multiplicación y la división: aplicación en contextos cotidianos.'
+- nodo: sb:PMAT04SBI.2.5
+  campo: definition
+  valor: 'Construcción y memorización de las tablas de multiplicar a partir de la propiedad conmutativa, de establecer relaciones
+    entre ellas (dobles y mitades) y de buscar regularidades y patrones numéricos (secuencia de las tablas: 1-10, 2-4, 10-5,
+    3-6, 4-8, 9-10, 7) apoyándose en número de veces, disposición en cuadrículas o suma repetida, y con ayuda de la calculadora
+    mediante el uso del factor constante.'
+- nodo: sb:PMAT04SBI.3.1.3
+  campo: definition
+  valor: 'Relaciones entre la suma y la resta, y la multiplicación y la división: aplicación en contextos cotidianos.'

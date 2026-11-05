@@ -1,0 +1,50 @@
+id: '0256'
+titulo: 'Lengua Castellana y Literatura (Educación Primaria): 6 diferencias con el BOC resueltas con el documento oficial'
+motivo: 'El corpus tenía el texto publicado en el BOC y el ODT oficial dice otra cosa (texto, puntuación, lista de descriptores
+  o saber omitido). Validado el 05-11-2026 en la página de validación BOC/ODT: prevalece el ODT, de acuerdo con el criterio
+  de que el corpus refleja el documento oficial. Ver docs/pendientes.md, «Diferencias con el BOC».'
+fuente:
+  documento: primaria-lengua-castellana-y-literatura
+  fichero: fuentes/documentos/primaria/anexo_2_curriculo-lengua-castellana.odt
+  sha256: 36db66a2635e6f3476e5d7aac7db76993daa925cbf5a615742a6229259efa140
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: crit:PLCL05CE8.2
+  campo: descriptores
+  valor: &id001
+  - CCL1
+  - CCL2
+  - CCL4
+  - CCEC1
+  - CCEC2
+  - CCEC3
+  - CCEC4
+- nodo: bc:PLCL05BC8
+  campo: descriptores
+  valor:
+  - CCL2
+  - CCL4
+  - CCEC1
+  - CCEC2
+  - CCEC3
+  - CCEC4
+  - CCL1
+- nodo: sb:PLCL05SBIV.4
+  accion: eliminar
+- nodo: crit:PLCL06CE8.2
+  campo: descriptores
+  valor: *id001
+- nodo: bc:PLCL06BC8
+  campo: descriptores
+  valor:
+  - CCL2
+  - CCL4
+  - CCEC1
+  - CCEC2
+  - CCEC3
+  - CCEC4
+  - CCL1
+- nodo: sb:PLCL06SBIV.4
+  accion: eliminar

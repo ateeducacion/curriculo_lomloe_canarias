@@ -1,0 +1,16 @@
+id: '0122'
+titulo: 'Historia de Canarias (Bachillerato): 1 textos con la puntuación publicada en el BOC'
+motivo: 'El texto de la exportación solo difiere del documento oficial en la puntuación, y la del documento es la que figura
+  en el BOC (comprobado contra fuentes/boletines). Revisar con atención: en las tablas, el texto extraído del BOC intercala
+  los descriptores. Generada con `contrastar --proponer`.'
+fuente:
+  documento: bachillerato-historia-de-canarias
+  fichero: fuentes/documentos/bachillerato/Historia_de_Canarias_BACH.odt
+  sha256: 1ad211f157783894b356eca4f5030c3645ce48a4fc4fe66a494c0b88fe65d6ad
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: sb:BHIC01SBI.2
+  campo: definition
+  valor: Lo global y lo local.

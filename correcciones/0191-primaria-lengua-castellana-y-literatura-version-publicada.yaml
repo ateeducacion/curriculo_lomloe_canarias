@@ -1,0 +1,24 @@
+id: 0191
+titulo: 'Lengua Castellana y Literatura (Educación Primaria): 2 textos de la versión publicada en el BOC'
+motivo: El texto de la exportación no coincide con el publicado en el BOC y el del documento oficial sí (comprobado contra
+  fuentes/boletines). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: primaria-lengua-castellana-y-literatura
+  fichero: fuentes/documentos/primaria/anexo_2_curriculo-lengua-castellana.odt
+  sha256: 36db66a2635e6f3476e5d7aac7db76993daa925cbf5a615742a6229259efa140
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: crit:PLCL03CE1.1
+  campo: definition
+  valor: Identificar distintas lenguas y variedades dialectales presentes en su entorno, reconociendo especialmente características
+    propias del español de Canarias y estableciendo comparaciones con otras variedades o dialectos, tanto peninsulares como
+    de la América hispanohablante, detectando prejuicios y estereotipos lingüísticos frecuentes, con la finalidad de valorar
+    y respetar la pluralidad lingüística del entorno y del mundo como una fuente de riqueza cultural.
+- nodo: crit:PLCL04CE1.1
+  campo: definition
+  valor: Identificar distintas lenguas y variedades dialectales presentes en su entorno, reconociendo especialmente características
+    propias del español de Canarias y estableciendo comparaciones con otras variedades o dialectos, tanto peninsulares como
+    de la América hispanohablante, detectando prejuicios y estereotipos lingüísticos frecuentes, con la finalidad de valorar
+    y respetar la pluralidad lingüística del entorno y del mundo como una fuente de riqueza cultural.

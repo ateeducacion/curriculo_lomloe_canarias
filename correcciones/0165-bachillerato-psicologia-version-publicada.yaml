@@ -1,0 +1,22 @@
+id: '0165'
+titulo: 'Psicología (Bachillerato): 2 textos de la versión publicada en el BOC'
+motivo: El texto de la exportación no coincide con el publicado en el BOC y el del documento oficial sí (comprobado contra
+  fuentes/boletines). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-psicologia
+  fichero: fuentes/documentos/bachillerato/Psicologia_BACH.odt
+  sha256: f7fddd96cf6d160607677a429daf28cdc2b6464998ab654d76a0d9542e91d99b
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: sb:BPSI02SBIV.1.1
+  campo: definition
+  valor: 'Comparación de las diferentes teorías del aprendizaje: Condicionamiento clásico (Pavlov y Watson) Conductismo (Skinner),
+    Psicología cognitiva (Baddeley, Bruner, Broadbent, Ebbinghaus…), Constructivismo (Piaget), Aprendizaje social (Bandura),
+    Constructivismo social (Vigotsky), Aprendizaje Experiencial (Carl Rogers), Inteligencias múltiples (Howard Gardner).'
+- nodo: sb:BPSI02SBV.11
+  campo: definition
+  valor: 'Valoración de la importancia que tiene en el desarrollo y maduración del individuo la afectividad y la sexualidad,
+    como dimensiones esenciales del ser humano, describiendo los aspectos fundamentales de la psicología de la sexualidad:
+    fisiología de la respuesta sexual, conducta sexual segura y respetuosa, etc.'

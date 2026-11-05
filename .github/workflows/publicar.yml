@@ -19,13 +19,16 @@ jobs:
           cache: pip
 
       - name: Instalar dependencias
-        run: pip install -r requirements.txt
+        run: pip install -r requirements-dev.txt
+
+      - name: Pruebas
+        run: python -m pytest -q
 
       - name: Construir ficheros de publicación
         run: python -m herramientas.construir --comprobar --dist --version "${GITHUB_REF_NAME#v}"
 
       - name: Contrastar con los documentos oficiales
-        run: python -m herramientas.contrastar --corpus dist/curriculo.json
+        run: python -m herramientas.contrastar --corpus dist/curriculo.json --estricto
 
       - name: Crear la versión en GitHub
         env:

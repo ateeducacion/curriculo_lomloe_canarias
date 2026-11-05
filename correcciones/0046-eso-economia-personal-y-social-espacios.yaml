@@ -1,0 +1,16 @@
+id: '0046'
+titulo: 'Economía Personal y Social (Educación Secundaria Obligatoria): 1 textos que solo difieren en espacios'
+motivo: El texto de la exportación solo difiere del documento oficial en espacios (dobles, de no separación o al principio
+  o final). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: eso-economia-personal-y-social
+  fichero: fuentes/documentos/eso/Economia_personal_y_social.odt
+  sha256: 853176cd0642f49118c6522b938af261b9dbd6d4320cbaa019b41f4d9479fbfb
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: sb:SECZ03SBI.3.3
+  campo: definition
+  valor: Valoración del Régimen Económico y Fiscal de Canarias (REF). Estudio de las singularidades canarias por su lejanía
+    e insularidad.

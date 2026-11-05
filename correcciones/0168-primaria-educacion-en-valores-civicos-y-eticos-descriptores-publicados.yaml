@@ -1,0 +1,136 @@
+id: 0168
+titulo: 'Educación en Valores Cívicos y Éticos (Educación Primaria): 12 descriptores publicados en el BOC'
+motivo: Los descriptores de estos criterios no coinciden con los del documento oficial, y la lista del documento es la que
+  figura completa en el BOC (fuentes/boletines). Los de cada bloque se recalculan como la unión de los de sus criterios, igual
+  que hace el importador. Generada con `contrastar --proponer`.
+fuente:
+  documento: primaria-educacion-en-valores-civicos-y-eticos
+  fichero: fuentes/documentos/primaria/anexo_2_curriculo-valores-civicos-eticos.odt
+  sha256: 0e00f8a233f117bfeea46281a3a2957409e6786cae26ab573e82e4785616e770
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: bc:PEDK05BC3
+  campo: descriptores
+  valor:
+  - CCL2
+  - CCL5
+  - CD2
+  - STEM1
+  - STEM5
+  - CPSAA2
+  - CC3
+  - CC4
+  - CE1
+  - CCEC4
+  - CE3
+- nodo: bc:PEDK05BC4
+  campo: descriptores
+  valor:
+  - CCL1
+  - CCL5
+  - CP3
+  - CPSAA1
+  - CPSAA2
+  - CPSAA3
+  - CC2
+  - CC3
+  - CC4
+  - CE1
+  - CE3
+  - CCEC3
+- nodo: bc:PEDK06BC3
+  campo: descriptores
+  valor:
+  - CCL2
+  - CCL5
+  - CD2
+  - STEM1
+  - STEM5
+  - CPSAA2
+  - CC3
+  - CC4
+  - CE1
+  - CCEC4
+  - CE3
+- nodo: bc:PEDK06BC4
+  campo: descriptores
+  valor:
+  - CCL1
+  - CCL5
+  - CP3
+  - CPSAA1
+  - CPSAA2
+  - CPSAA3
+  - CC2
+  - CC3
+  - CC4
+  - CE1
+  - CE3
+  - CCEC3
+- nodo: crit:PEDK05CE1.1
+  campo: descriptores
+  valor: &id001
+  - CCL1
+  - CCL3
+  - CD1
+  - CD4
+  - CPSAA5
+  - CC1
+  - CC2
+  - CC3
+- nodo: crit:PEDK05CE3.1
+  campo: descriptores
+  valor: &id002
+  - CCL2
+  - CCL5
+  - CD2
+  - STEM1
+  - STEM5
+  - CPSAA2
+  - CC3
+  - CC4
+  - CE1
+  - CCEC4
+- nodo: crit:PEDK05CE3.2
+  campo: descriptores
+  valor: &id003
+  - CCL2
+  - CCL5
+  - CD2
+  - STEM1
+  - STEM5
+  - CPSAA2
+  - CC3
+  - CC4
+  - CE1
+  - CE3
+  - CCEC4
+- nodo: crit:PEDK05CE4.1
+  campo: descriptores
+  valor: &id004
+  - CCL1
+  - CCL5
+  - CP3
+  - CPSAA1
+  - CPSAA2
+  - CPSAA3
+  - CC2
+  - CC3
+  - CC4
+  - CE1
+  - CE3
+  - CCEC3
+- nodo: crit:PEDK06CE1.1
+  campo: descriptores
+  valor: *id001
+- nodo: crit:PEDK06CE3.1
+  campo: descriptores
+  valor: *id002
+- nodo: crit:PEDK06CE3.2
+  campo: descriptores
+  valor: *id003
+- nodo: crit:PEDK06CE4.1
+  campo: descriptores
+  valor: *id004

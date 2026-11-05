@@ -1,0 +1,22 @@
+id: 0189
+titulo: 'Educación Física (Educación Primaria): 2 textos de la versión publicada en el BOC'
+motivo: El texto de la exportación no coincide con el publicado en el BOC y el del documento oficial sí (comprobado contra
+  fuentes/boletines). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: primaria-educacion-fisica
+  fichero: fuentes/documentos/primaria/anexo_2_curriculo-educacion_fisica.odt
+  sha256: 24c8a6c7f9c1cf7414f747c0dc48fb58e8bb21fff3bb91f99e15698aae6b671e
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: crit:PEFI03CE2.2
+  campo: definition
+  valor: Adquirir un progresivo control y dominio corporal, empleando los componentes cualitativos, y adaptando los componentes
+    cuantitativos, de la motricidad a diferentes situaciones motrices lúdicas, para resolver problemas motores en los contextos
+    simulados o reales de los retos motores creados de forma individual y grupal.
+- nodo: crit:PEFI04CE2.2
+  campo: definition
+  valor: Adquirir un progresivo control y dominio corporal, empleando los componentes cualitativos, y adaptando los componentes
+    cuantitativos, de la motricidad a diferentes situaciones motrices lúdicas, para resolver problemas motores en los contextos
+    simulados o reales de los retos motores creados de forma individual y grupal.

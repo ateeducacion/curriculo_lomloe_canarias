@@ -1,0 +1,90 @@
+id: '0173'
+titulo: 'Informática y Digitalización I y II (Bachillerato): 7 descriptores publicados en el BOC'
+motivo: Los descriptores de estos criterios no coinciden con los del documento oficial, y la lista del documento es la que
+  figura completa en el BOC (fuentes/boletines). Los de cada bloque se recalculan como la unión de los de sus criterios, igual
+  que hace el importador. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-informatica-y-digitalizacion-i-y-ii
+  fichero: fuentes/documentos/bachillerato/Informatica_y_Digitalizacion_I_y_II_BACH.odt
+  sha256: b028cef76720bb4b0433736617287a3e4935f5eb965e54cc3eaf50b54d41822d
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: bc:BIQF02BC1
+  campo: descriptores
+  valor:
+  - CCL1
+  - CCL3
+  - STEM1
+  - CD1
+  - CD4
+  - CD5
+  - CPSAA1.1
+  - STEM2
+  - STEM5
+  - CPSAA5
+  - CE3
+- nodo: bc:BIQF02BC2
+  campo: descriptores
+  valor:
+  - CD2
+  - CD3
+  - STEM3
+  - CPSAA5
+  - CE3
+  - CCL1
+  - CCL3
+  - CD1
+  - CCL5
+  - CD4
+  - CPSAA4
+  - CC1
+- nodo: bc:BIQF02BC3
+  campo: descriptores
+  valor:
+  - CD4
+  - CD5
+  - CPSAA2
+  - CC1
+  - CC2
+  - CCL2
+  - CPSAA1.2
+  - CCL5
+  - CD3
+  - CPSAA3.1
+- nodo: crit:BIQF02CE1.1
+  campo: descriptores
+  valor:
+  - CCL1
+  - CCL3
+  - STEM1
+  - CD1
+  - CD4
+  - CD5
+  - CPSAA1.1
+- nodo: crit:BIQF02CE2.1
+  campo: descriptores
+  valor:
+  - CD2
+  - CD3
+  - STEM3
+  - CPSAA5
+  - CE3
+- nodo: crit:BIQF02CE3.2
+  campo: descriptores
+  valor:
+  - CCL2
+  - CPSAA1.2
+  - CC1
+  - CC2
+- nodo: crit:BIQF02CE3.3
+  campo: descriptores
+  valor:
+  - CCL5
+  - CD3
+  - CD4
+  - CD5
+  - CPSAA3.1
+  - CPSAA2
+  - CC2

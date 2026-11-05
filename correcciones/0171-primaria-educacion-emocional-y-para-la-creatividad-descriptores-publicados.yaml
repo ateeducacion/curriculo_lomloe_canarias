@@ -1,0 +1,74 @@
+id: '0171'
+titulo: 'Educación Emocional y para la Creatividad (Educación Primaria): 6 descriptores publicados en el BOC'
+motivo: Los descriptores de estos criterios no coinciden con los del documento oficial, y la lista del documento es la que
+  figura completa en el BOC (fuentes/boletines). Los de cada bloque se recalculan como la unión de los de sus criterios, igual
+  que hace el importador. Generada con `contrastar --proponer`.
+fuente:
+  documento: primaria-educacion-emocional-y-para-la-creatividad
+  fichero: fuentes/documentos/primaria/anexo_2_curriculo-educacion_emocional_para_creatividad.odt
+  sha256: d8bbb4b3c9352f688bab39e85898368441b6303659bb08747e32859e61e650d8
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: bc:PEUM01BC4
+  campo: descriptores
+  valor:
+  - CCL3
+  - CPSAA5
+  - CE1
+  - CE2
+  - CE3
+  - CCEC3
+  - CCEC4
+  - STEM3
+  - STEM5
+  - CD1
+  - CD2
+  - CD3
+  - CD5
+  - CPSAA3
+- nodo: bc:PEUM02BC4
+  campo: descriptores
+  valor:
+  - CCL3
+  - CPSAA5
+  - CE1
+  - CE2
+  - CE3
+  - CCEC3
+  - CCEC4
+  - STEM3
+  - STEM5
+  - CD1
+  - CD2
+  - CD3
+  - CD5
+  - CPSAA3
+- nodo: crit:PEUM01CE4.1
+  campo: descriptores
+  valor: &id001
+  - CCL3
+  - CPSAA5
+  - CE1
+  - CE2
+  - CE3
+  - CCEC3
+  - CCEC4
+- nodo: crit:PEUM01CE4.2
+  campo: descriptores
+  valor: &id002
+  - STEM3
+  - STEM5
+  - CD1
+  - CD2
+  - CD3
+  - CD5
+  - CPSAA3
+  - CPSAA5
+- nodo: crit:PEUM02CE4.1
+  campo: descriptores
+  valor: *id001
+- nodo: crit:PEUM02CE4.2
+  campo: descriptores
+  valor: *id002

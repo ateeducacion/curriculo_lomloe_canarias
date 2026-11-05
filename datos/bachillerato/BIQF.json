@@ -16,7 +16,7 @@
       "tipo": "CompetenciaEspecifica",
       "notation": "BIQFC1",
       "prefLabel": "BIQFC1 · Identificar y analizar el funcionamiento de los diferentes elementos que forman parte de…",
-      "definition": "Identificar y analizar el funcionamiento de los diferentes elementos que forman parte de la arquitectura de un dispositivo digital y de los sistemas operativos, para resolver problemas técnicos sencillos, conectar, configurar y mantener redes informáticas aplicando los conocimientos de hardware, sistemas operativos y redes.",
+      "definition": "Identificar y analizar el funcionamiento de los diferentes elementos que forman parte de la arquitectura de un dispositivo digital y de los sistemas operativos, para resolver problemas técnicos sencillos, conectar, configurar y mantener redes informáticas, aplicando los conocimientos de hardware, sistemas operativos y redes.",
       "broader": "materia:BIQF",
       "materia": "materia:BIQF",
       "etapa": "etapa:BAC"
@@ -36,7 +36,7 @@
       "tipo": "CompetenciaEspecifica",
       "notation": "BIQFC3",
       "prefLabel": "BIQFC3 · Identificar y aplicar, valorando y contrastando fuentes variadas de información,…",
-      "definition": "Identificar y aplicar, valorando y contrastando fuentes variadas de información, estrategias de protección relacionadas con el uso de dispositivos digitales en Internet con la finalidad de evitar riesgos, proteger a las personas y propiciar el bienestar digital.",
+      "definition": "Identificar y aplicar, valorando y contrastando fuentes variadas de información, estrategias de protección relacionadas con el uso de dispositivos digitales en Internet, con la finalidad de evitar riesgos, proteger a las personas y propiciar el bienestar digital.",
       "broader": "materia:BIQF",
       "materia": "materia:BIQF",
       "etapa": "etapa:BAC"
@@ -62,6 +62,7 @@
         "ce:BIQFC1"
       ],
       "descriptores": [
+        "CCL1",
         "CCL3",
         "STEM1",
         "CD1",
@@ -90,6 +91,7 @@
       "descriptores": [
         "CD2",
         "CD3",
+        "STEM3",
         "CPSAA5",
         "CE3",
         "CCL1",
@@ -120,6 +122,7 @@
         "CPSAA2",
         "CC1",
         "CC2",
+        "CCL2",
         "CPSAA1.2",
         "CCL5",
         "CD3",
@@ -163,11 +166,12 @@
       "id": "crit:BIQF02CE1.1",
       "tipo": "CriterioEvaluacion",
       "notation": "BIQF02CE1.1",
-      "prefLabel": "BIQF02CE1.1 · Identificar y analizar los diferentes tipos y tecnologías de almacenamiento de contenido…",
-      "definition": "Identificar y analizar los diferentes tipos y tecnologías de almacenamiento de contenido digital, valorando su elección en función de sus características y finalidad, y adoptando medidas de seguridad adecuadas para la protección de datos y el intercambio de información.",
+      "prefLabel": "BIQF02CE1.1 · Identificar y analizar los diferentes tipos y tecnologías de almacenamientoy codificación…",
+      "definition": "Identificar y analizar los diferentes tipos y tecnologías de almacenamientoy codificación de contenido digital, valorando su elección en función de sus características y finalidad, y adoptando medidas de seguridad adecuadas para la protección de datos y el intercambio de información.",
       "broader": "ce:BIQFC1",
       "bloque": "bc:BIQF02BC1",
       "descriptores": [
+        "CCL1",
         "CCL3",
         "STEM1",
         "CD1",
@@ -211,6 +215,7 @@
       "descriptores": [
         "CD2",
         "CD3",
+        "STEM3",
         "CPSAA5",
         "CE3"
       ],
@@ -243,8 +248,8 @@
       "id": "crit:BIQF02CE2.3",
       "tipo": "CriterioEvaluacion",
       "notation": "BIQF02CE2.3",
-      "prefLabel": "BIQF02CE2.3 · Buscar, localizar, seleccionar y organizar información procedente de diferentes fuentes,…",
-      "definition": "Buscar, localizar, seleccionar y organizar información procedente de diferentes fuentes, en función de sus necesidades, con la finalidad de facilitar la posterior creación de contenido digital, haciendo uso de las herramientas del entorno personal de aprendizaje, respetando los derechos de autoría y licencias de uso y siguiendo las normas básicas de seguridad en la red.",
+      "prefLabel": "BIQF02CE2.3 · Buscar, localizar, seleccionar y organizar información y recursos procedentes de…",
+      "definition": "Buscar, localizar, seleccionar y organizar información y recursos procedentes de diferentes fuentes, en función de sus necesidades, con la finalidad de facilitar la posterior creación de contenido digital, haciendo uso de las herramientas del entorno personal de aprendizaje, respetando los derechos de autoría y licencias de uso y siguiendo las normas básicas de seguridad en la red.",
       "broader": "ce:BIQFC2",
       "bloque": "bc:BIQF02BC2",
       "descriptores": [
@@ -289,6 +294,7 @@
       "broader": "ce:BIQFC3",
       "bloque": "bc:BIQF02BC3",
       "descriptores": [
+        "CCL2",
         "CPSAA1.2",
         "CC1",
         "CC2"
@@ -302,7 +308,7 @@
       "tipo": "CriterioEvaluacion",
       "notation": "BIQF02CE3.3",
       "prefLabel": "BIQF02CE3.3 · Identificar amenazas y riesgos relativos a la exposición de datos, ciberacoso, sexting,…",
-      "definition": "Identificar amenazas y riesgos relativos a la exposición de datos, ciberacoso, sexting, phishing…, para gestionar de manera segura herramientas de identificación electrónica en la red y medidas de protección.",
+      "definition": "Identificar amenazas y riesgos relativos a la exposición de datos, ciberacoso, sexting, phishing…, la desinformación, fraudes, etc, para gestionar de manera segura herramientas de identificación electrónica en la red, medidas de protección y contraste crítico de la fiabilidad de la información.",
       "broader": "ce:BIQFC3",
       "bloque": "bc:BIQF02BC3",
       "descriptores": [
@@ -310,7 +316,9 @@
         "CD3",
         "CD4",
         "CD5",
-        "CPSAA3.1"
+        "CPSAA3.1",
+        "CPSAA2",
+        "CC2"
       ],
       "materia": "materia:BIQF",
       "curso": "curso:B02",
@@ -492,8 +500,8 @@
       "id": "sb:BIQF02SBI.1",
       "tipo": "SaberBasico",
       "notation": "BIQF02SBI.1",
-      "prefLabel": "BIQF02SBI.1 · Identificación y análisis de las unidades de almacenamiento internas y externas.",
-      "definition": "Identificación y análisis de las unidades de almacenamiento internas y externas.",
+      "prefLabel": "BIQF02SBI.1 · Identificación y análisis crítico de los tipos y tecnologías de almacenamiento, internas…",
+      "definition": "Identificación y análisis crítico de los tipos y tecnologías de almacenamiento, internas y externas, valorando la conveniencia de utilizar un tipo u otro en función de las condiciones presentes.",
       "broader": "sb:BIQF02SBI",
       "materia": "materia:BIQF",
       "curso": "curso:B02",
@@ -503,8 +511,8 @@
       "id": "sb:BIQF02SBI.2",
       "tipo": "SaberBasico",
       "notation": "BIQF02SBI.2",
-      "prefLabel": "BIQF02SBI.2 · Identificación y análisis crítico de los tipos y las tecnologías de almacenamiento…",
-      "definition": "Identificación y análisis crítico de los tipos y las tecnologías de almacenamiento valorando la conveniencia de utilizar un tipo u otro en función de las condiciones presentes.",
+      "prefLabel": "BIQF02SBI.2 · Identificación y análisis de los distintos sistemas de codificación y almacenamiento de…",
+      "definition": "Identificación y análisis de los distintos sistemas de codificación y almacenamiento de la información digital para la representación de valores, números, símbolos, caracteres, imágenes 2D y 3D, audio, vídeo y entornos virtuales, valorando la conveniencia de utilizar un tipo u otro en función de sus características.",
       "broader": "sb:BIQF02SBI",
       "materia": "materia:BIQF",
       "curso": "curso:B02",

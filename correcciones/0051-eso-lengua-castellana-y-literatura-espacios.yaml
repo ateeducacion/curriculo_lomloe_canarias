@@ -1,0 +1,48 @@
+id: '0051'
+titulo: 'Lengua Castellana y Literatura (Educación Secundaria Obligatoria): 4 textos que solo difieren en espacios'
+motivo: El texto de la exportación solo difiere del documento oficial en espacios (dobles, de no separación o al principio
+  o final). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: eso-lengua-castellana-y-literatura
+  fichero: fuentes/documentos/eso/lengua_castellana_literatura_ESO.odt
+  sha256: 04a45cae3b2805ab047e1a13f730d1ab7a17e7f35d317d950c65ff09bb152f4c
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: bc:SLCL01BC9
+  campo: scopeNote
+  valor: 'A través de este bloque competencial se persigue constatar que el alumnado, promoviendo su capacidad de observación
+    es capaz de identificar la estructura de la lengua y sus usos, las elecciones lingüísticas y discursivas del emisor y
+    sus efectos en el receptor. Se debe llegar a la generalización y a la sistematización con distintos niveles de profundización,
+    a través del apoyo del docente o del aprendizaje entre iguales, a partir de la manipulación de estructuras, identificación
+    y comparación de enunciados y contraste entre las distintas variedades del español, prestando especial atención a las
+    particularidades del español de Canarias. Se verificará que para ello el alumnado utiliza el metalenguaje específico básico
+    y hace uso progresivamente autónomo de diccionarios y otras fuentes de consulta en distintos formatos, con el fin de obtener
+    información gramatical básica y resolver dudas sobre el empleo correcto de la lengua oral y escrita en sus aspectos sintácticos,
+    léxicos y pragmáticos. Por un lado, se comprobará que el alumnado reconoce las unidades básicas de la lengua, teniendo
+    en cuenta los diferentes niveles: el sonido y sistema de escritura, la palabra (forma y significado), su organización
+    en el discurso (orden de las palabras, componentes de las oraciones o conexión entre los significados). Por otro, el alumnado
+    abordará la distinción gradual entre la forma (categoría gramatical), la función de las palabras (funciones sintácticas
+    básicas) y el conocimiento de los procedimientos léxicos (afijos) y sintácticos para el cambio de categoría, la identificación
+    y uso de los procedimientos de adquisición y formación de palabras, el estudio de los cambios en su significado, las relaciones
+    semánticas entre palabras y sus valores denotativos y connotativos en función del contexto y el propósito comunicativo,
+    para aproximarse finalmente a la relación entre los esquemas semántico y sintáctico a partir de la observación y transformación
+    de enunciados sencillos de acuerdo con estos esquemas. Finalmente, se comprobará que es capaz de aplicar estos conocimientos
+    en un proceso de auto y coevaluación para hacer propuestas de mejora sobre sus propios textos con la finalidad de generar
+    en el alumnado la reflexión, en un sentido funcional, sobre los mecanismos lingüísticos que regulan la comunicación.'
+- nodo: sb:SLCL03SBII.4.4
+  campo: definition
+  valor: Reconocimiento y estudio del uso coherente de las formas verbales en los textos (narrativos, descriptivos, dialogados
+    y expositivos). Valoración y uso de los tiempos del pretérito en la narración y de la correlación temporal en el discurso
+    relatado.
+- nodo: sb:SLCL03SBIII.1.4
+  campo: definition
+  valor: Expresión de la experiencia lectora, con apoyo de ejemplos y utilizando progresivamente el metalenguaje específico.
+    Apropiación de los textos leídos a través de distintas formas de recreación.
+- nodo: sb:SLCL04SBII.3.4
+  campo: definition
+  valor: 'Producción oral formal: planificación y búsqueda de información, textualización, revisión, reorganización en esquemas
+    propios y difusión. Adecuación a la audiencia y al tiempo de exposición. Selección autónoma de los elementos no verbales,
+    paratextuales de los textos icónico-verbales y de los rasgos discursivos y lingüísticos de la oralidad formal. Desarrollo
+    de la deliberación oral argumentada.'

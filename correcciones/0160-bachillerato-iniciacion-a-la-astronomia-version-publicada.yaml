@@ -1,0 +1,26 @@
+id: '0160'
+titulo: 'Iniciación a la Astronomía (Bachillerato): 2 textos de la versión publicada en el BOC'
+motivo: El texto de la exportación no coincide con el publicado en el BOC y el del documento oficial sí (comprobado contra
+  fuentes/boletines). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-iniciacion-a-la-astronomia
+  fichero: fuentes/documentos/bachillerato/Iniciacion_a_la_Astronomia_BACH.odt
+  sha256: 0c03c23211b59d077ce5ef00f01db91e76110f7fca8060d6d17f942d0cab7e46
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: bc:BIAS01BC3
+  campo: scopeNote
+  valor: Este bloque competencial pretende evaluar que el alumnado es capaz de reconocer y reproducir las principales características
+    de los componentes del Sistema Solar tanto interior como exterior. Asimismo, deberá conocer las condiciones que deben
+    darse dentro y fuera de nuestro Sistema Solar (exoplanetas,..) para considerar la posibilidad de que haya cuerpos celestes
+    con capacidad para albergar vida, reconociendo algunos de los astros que reúnan tales condiciones. También se evaluará
+    su capacidad de valorar la importancia de los descubrimientos de las misiones espaciales en el conocimiento del Universo,
+    analizando la problemática de la basura espacial y sus posibles soluciones, y aplicando recursos digitales adecuados,
+    como simuladores...
+- nodo: sb:BIAS01SBII.7
+  campo: definition
+  valor: Análisis de las condiciones necesarias para que un cuerpo celeste albergue vida. Importancia de la búsqueda de biomarcadores
+    y tecnomarcadores. Discusión de la ecuación de Drake y valoración de la contribución de los programas científicos de búsqueda
+    extraterrestre (SETI).

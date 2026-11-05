@@ -1,0 +1,41 @@
+id: '0135'
+titulo: 'Psicología (Bachillerato): 9 textos con la puntuación publicada en el BOC'
+motivo: 'El texto de la exportación solo difiere del documento oficial en la puntuación, y la del documento es la que figura
+  en el BOC (comprobado contra fuentes/boletines). Revisar con atención: en las tablas, el texto extraído del BOC intercala
+  los descriptores. Generada con `contrastar --proponer`.'
+fuente:
+  documento: bachillerato-psicologia
+  fichero: fuentes/documentos/bachillerato/Psicologia_BACH.odt
+  sha256: f7fddd96cf6d160607677a429daf28cdc2b6464998ab654d76a0d9542e91d99b
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: sb:BPSI02SBI.1
+  campo: definition
+  valor: La Psicología como la ciencia que estudia los procesos mentales.
+- nodo: sb:BPSI02SBI.2
+  campo: definition
+  valor: Aportaciones más relevantes de las corrientes contemporáneas de la Psicología.
+- nodo: sb:BPSI02SBII.1
+  campo: definition
+  valor: El sistema nervioso central.
+- nodo: sb:BPSI02SBII.1.4
+  campo: definition
+  valor: Descripción de la anatomía del sistema nervioso central, localización de las principales áreas y descripción de sus
+    funciones (corteza cerebral, sistema límbico…).
+- nodo: sb:BPSI02SBII.2
+  campo: definition
+  valor: El sistema endocrino.
+- nodo: sb:BPSI02SBIII.1
+  campo: definition
+  valor: Percepción.
+- nodo: sb:BPSI02SBIII.2
+  campo: definition
+  valor: Atención y memoria.
+- nodo: sb:BPSI02SBIV.2
+  campo: definition
+  valor: Inteligencia.
+- nodo: sb:BPSI02SBIV.3
+  campo: definition
+  valor: Pensamiento.

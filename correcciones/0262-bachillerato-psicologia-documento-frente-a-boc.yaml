@@ -1,0 +1,15 @@
+id: '0262'
+titulo: 'Psicología (Bachillerato): 1 diferencias con el BOC resueltas con el documento oficial'
+motivo: 'El corpus tenía el texto publicado en el BOC y el ODT oficial dice otra cosa (texto, puntuación, lista de descriptores
+  o saber omitido). Validado el 05-11-2026 en la página de validación BOC/ODT: prevalece el ODT, de acuerdo con el criterio
+  de que el corpus refleja el documento oficial. Ver docs/pendientes.md, «Diferencias con el BOC».'
+fuente:
+  documento: bachillerato-psicologia
+  fichero: fuentes/documentos/bachillerato/Psicologia_BACH.odt
+  sha256: f7fddd96cf6d160607677a429daf28cdc2b6464998ab654d76a0d9542e91d99b
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: sb:BPSI02SBVI.9
+  accion: eliminar

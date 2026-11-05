@@ -1,0 +1,26 @@
+id: '0056'
+titulo: 'Ámbito Lingüístico y Social (Educación Secundaria Obligatoria): 3 textos que solo difieren en espacios'
+motivo: El texto de la exportación solo difiere del documento oficial en espacios (dobles, de no separación o al principio
+  o final). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: eso-ambito-linguistico-y-social
+  fichero: fuentes/documentos/eso/anexo_1_curriculos_pdc_eso_LS.odt
+  sha256: 81b1c093d073bb40f625301a50832d4c4a68d6fdb6953728644a01360c8e1dac
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: crit:SMBS03CE6.2
+  campo: definition
+  valor: Reconocer movimientos y causas que generen una conciencia solidaria, valorando y argumentando la capacidad de la
+    lengua como herramienta para la comunicación positiva; evitando de forma razonada y crítica cualquier uso discriminatorio,
+    mediante la incorporación de conocimientos y estrategias de participación, trabajo en equipo, mediación y resolución pacífica
+    de conflictos; y potenciando el uso de la comunicación como medio para prevenir cualquier tipo de violencia.
+- nodo: crit:SMBS04CE5.1
+  campo: definition
+  valor: Identificar los principales problemas, retos y desafíos a los que se ha enfrentado la humanidad a lo largo de la
+    historia, analizando los cambios producidos, sus causas y consecuencias, teniendo como referencia las realidades de Canarias.
+- nodo: sb:SMBS04SBV.1.1
+  campo: definition
+  valor: Reflexión y valoración de la globalización, de los movimientos migratorios y de la interculturalidad. Los avances
+    tecnológicos y la conciencia ecosocial. Conflictos ideológicos y étnico-culturales.

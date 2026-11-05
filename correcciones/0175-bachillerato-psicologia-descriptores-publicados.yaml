@@ -1,0 +1,34 @@
+id: '0175'
+titulo: 'Psicología (Bachillerato): 2 descriptores publicados en el BOC'
+motivo: Los descriptores de estos criterios no coinciden con los del documento oficial, y la lista del documento es la que
+  figura completa en el BOC (fuentes/boletines). Los de cada bloque se recalculan como la unión de los de sus criterios, igual
+  que hace el importador. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-psicologia
+  fichero: fuentes/documentos/bachillerato/Psicologia_BACH.odt
+  sha256: f7fddd96cf6d160607677a429daf28cdc2b6464998ab654d76a0d9542e91d99b
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: bc:BPSI02BC3
+  campo: descriptores
+  valor:
+  - CCL2
+  - CCL3
+  - STEM2
+  - STEM4
+  - STEM5
+  - CD1
+  - CPSAA1.2
+  - CPSAA4
+  - CCL1
+  - CPSAA2
+- nodo: crit:BPSI02CE3.2
+  campo: descriptores
+  valor:
+  - CCL2
+  - CCL3
+  - STEM2
+  - STEM4
+  - CD1

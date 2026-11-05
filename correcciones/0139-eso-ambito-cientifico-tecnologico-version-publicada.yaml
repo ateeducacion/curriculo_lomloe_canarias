@@ -1,0 +1,30 @@
+id: 0139
+titulo: 'Ámbito Científico-Tecnológico (Educación Secundaria Obligatoria): 3 textos de la versión publicada en el BOC'
+motivo: El texto de la exportación no coincide con el publicado en el BOC y el del documento oficial sí (comprobado contra
+  fuentes/boletines). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: eso-ambito-cientifico-tecnologico
+  fichero: fuentes/documentos/eso/anexo_2_curriculo_pdc_eso_ACT.odt
+  sha256: 64d8f26e9c715b667e231f20a70e91c7e1e54cfc4389a09e25d10a7ca5afe6e9
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: crit:SAMB03CE5.4
+  campo: definition
+  valor: Colaborar en el desarrollo de un proyecto de investigación o proyecto tecnológico desarrollando interacciones constructivas
+    y coeducativas al aplicar estrategias propias del trabajo cooperativo, en el aula o en plataformas virtuales, como forma
+    de construir un medio de trabajo eficiente, ético y crítico en la ciencia y la tecnología.
+- nodo: sb:SAMB03SBI.1
+  campo: definition
+  valor: Aplicación de las destrezas y habilidades propias del trabajo científico y del método de proyectos para resolver
+    problemas desde una perspectiva interdisciplinar y explicar fenómenos físicos, químicos, biológicos, geológicos, matemáticos
+    y tecnológicos, propiciando el desarrollo de estrategias colaborativas y cooperativas. Identificación y formulación de
+    cuestiones, elaboración de hipótesis y su comprobación experimental.
+- nodo: sb:SAMB03SBIV.6
+  campo: definition
+  valor: Reconocimiento de la educación sexual como parte de un desarrollo integral que diferencie los conceptos sexo y sexualidad,
+    y ponga en valor el respeto hacia la libertad, la diversidad sexual y la igualdad de género, y el buen trato. Concienciación
+    sobre la importancia de adquirir prácticas sexuales saludables, responsables y consentidas. Prevención de infecciones
+    de transmisión sexual (ITS) y de embarazos no deseados. El uso adecuado de métodos anticonceptivos y de métodos de prevención
+    de ITS.

@@ -1,0 +1,28 @@
+id: 0059
+titulo: 'Ámbito Práctico (Educación Secundaria Obligatoria): 2 textos de la versión publicada en el BOC'
+motivo: El texto de la exportación no coincide con el publicado en el BOC y el del documento oficial sí (comprobado contra
+  fuentes/boletines). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: eso-ambito-practico
+  fichero: fuentes/documentos/eso/anexo_3_curriculo_pdc_eso__AP.odt
+  sha256: 548c53378ed12f099d77f459aac883b926f79bae6673ca72b901b70839ce8962
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: bc:SAM304BC5
+  campo: scopeNote
+  valor: Mediante este bloque competencial se persigue constatar que el alumnado es capaz de proteger los dispositivos digitales,
+    sus datos personales, su propia salud y la huella digital generada en internet, aprendiendo de sus errores para desarrollar
+    una adecuada ciudadanía digital. Con este fin, se comprobará que el alumnado dispone de las herramientas necesarias para
+    proteger sus datos personales, al mismo tiempo que desarrolla hábitos y estrategias que contribuyan a la seguridad y a
+    la salud en el uso crítico y responsable de las tecnologías digitales de la comunicación y colaboración mediante la configuración
+    de sus condiciones de privacidad de forma periódica, aplicando principios de ética, respetando la propiedad intelectual,
+    y asumiendo una participación comprometida, tolerante y de respeto por la diversidad en las redes sociales y espacios
+    virtuales de trabajo. así como las estrategias que debe utilizar para actuar en consecuencia, localizando y contrastando
+    los riesgos, y tomando conciencia de la importancia de las amenazas al bienestar personal.
+- nodo: crit:SAM304CE1.2
+  campo: definition
+  valor: Seleccionar y aplicar de manera segura y responsable las herramientas de diseño asistido, y las técnicas de elaboración
+    manual, mecánica o digital, empleando los materiales, operadores y recursos tecnológicos adecuados en los procesos de
+    diseño y fabricación de productos tecnológicos para dar respuesta a las necesidades planteadas.

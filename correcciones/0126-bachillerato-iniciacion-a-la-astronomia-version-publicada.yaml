@@ -1,0 +1,29 @@
+id: '0126'
+titulo: 'Iniciación a la Astronomía (Bachillerato): 4 textos de la versión publicada en el BOC'
+motivo: El texto de la exportación no coincide con el publicado en el BOC y el del documento oficial sí (comprobado contra
+  fuentes/boletines). Se toma el del documento. Generada con `contrastar --proponer`.
+fuente:
+  documento: bachillerato-iniciacion-a-la-astronomia
+  fichero: fuentes/documentos/bachillerato/Iniciacion_a_la_Astronomia_BACH.odt
+  sha256: 0c03c23211b59d077ce5ef00f01db91e76110f7fca8060d6d17f942d0cab7e46
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: ce:BIASC1
+  campo: definition
+  valor: Analizar la contribución de las distintas civilizaciones a la historia de la Astronomía, identificando y valorando
+    las distintas aportaciones con una visión crítica y acorde al momento histórico en el que se producen, con la finalidad
+    de comprender la evolución de las teorías que rigen el origen y el desarrollo del universo, y de reconocer las principales
+    constelaciones, asociándolas a sus mitos históricos.
+- nodo: sb:BIAS01SBI.8
+  campo: definition
+  valor: Descripción de la composición y organización del Universo (planetas, satélites, estrellas, galaxias, agujeros negros...),
+    reconociendo la hipótesis de la existencia de la energía y materia oscura como elemento constituyente.
+- nodo: sb:BIAS01SBV.4
+  campo: definition
+  valor: Análisis de la composición del Universo, reconociendo la hipótesis de la existencia de la energía y materia oscura.
+- nodo: sb:BIAS01SBVI.8
+  campo: definition
+  valor: Conocimiento de los observatorios modernos y de los grandes telescopios, destacando la importancia de los centros
+    de investigación (IAC) y de los observatorios de Canarias.

@@ -3,6 +3,7 @@
 No corrige nada: traduce la estructura y deja constancia, como avisos, de todo lo que
 no encaja. Las correcciones se aplican después (herramientas/correcciones.py).
 """
+import unicodedata
 from collections import OrderedDict, defaultdict
 
 from .comun import (ETAPAS, ETAPA_POR_CLAVE, RE_BLOQUE_SABERES, RE_CLAVE_CE, RE_CRITERIO,
@@ -30,7 +31,19 @@ def _num_curso(nombre):
     return f'{int(nombre.strip()[0]):02d}'
 
 
+def _nfc(x):
+    """Normaliza a NFC todos los textos: parte de la exportación trae las tildes descompuestas (NFD)."""
+    if isinstance(x, str):
+        return unicodedata.normalize('NFC', x)
+    if isinstance(x, dict):
+        return {_nfc(k): _nfc(v) for k, v in x.items()}
+    if isinstance(x, list):
+        return [_nfc(v) for v in x]
+    return x
+
+
 def importar(exportacion):
+    exportacion = _nfc(exportacion)
     imp = Importacion()
     for clave_etapa, cursos in exportacion.items():
         letra = ETAPA_POR_CLAVE.get(clave_etapa)

@@ -1,0 +1,30 @@
+id: '0115'
+titulo: 'Biología Humana (Bachillerato): 4 textos con la puntuación publicada en el BOC'
+motivo: 'El texto de la exportación solo difiere del documento oficial en la puntuación, y la del documento es la que figura
+  en el BOC (comprobado contra fuentes/boletines). Revisar con atención: en las tablas, el texto extraído del BOC intercala
+  los descriptores. Generada con `contrastar --proponer`.'
+fuente:
+  documento: bachillerato-biologia-humana
+  fichero: fuentes/documentos/bachillerato/biologia_humana_bach.odt
+  sha256: db8ba6eb6a4abe3f01732238a5f49d72c4f0904bdf42d454d4dee4a2e743e556
+  ubicacion: Tablas de bloques competenciales y saberes básicos de cada sección
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: crit:BBIL02CE4.1
+  campo: definition
+  valor: Analizar la relación existente entre el correcto equilibrio y funcionamiento de los diferentes aparatos y sistemas,
+    y los estilos de vida saludables, para proponer y adoptar una actitud responsable con el mantenimiento de la salud, tanto
+    individual como colectiva.
+- nodo: sb:BBIL02SBIV.3
+  campo: definition
+  valor: Estudio del eje hipotálamo-hipofisario-adrenal, y su relación con el estrés y los trastornos psicológicos y mentales
+    para prevenir su sobreestimulación.
+- nodo: sb:BBIL02SBIV.5
+  campo: definition
+  valor: Indagación sobre las organizaciones, fundaciones, asociaciones de apoyo a las personas que padecen alteraciones en
+    la salud mental, para conocer de qué forma la sociedad responde a estos problemas.
+- nodo: sb:BBIL02SBV.4
+  campo: definition
+  valor: Indagación sobre los beneficios de mostrar una actitud positiva ante la enfermedad para fomentar el autocuidado y
+    la autorresponsabilidad.
