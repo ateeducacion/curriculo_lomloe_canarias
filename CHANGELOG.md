@@ -27,6 +27,11 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
 - Optativas de 1.º de Bachillerato creadas desde su documento oficial: Juegos y Deportes Tradicionales de Canarias (`BJUI`) y Música, Expresión y Espectáculos (`BMUW`) (correcciones 0042 y 0043, herramienta `materia_desde_odt`).
 - Licencia de los datos (CC BY 4.0) y verificación de `config/descriptores.csv` contra los anexos 1.
 - Correcciones 0044–0136: 771 textos de la versión publicada en el BOC, 175 de puntuación publicada, 104 de espacios, 36 explicaciones copiadas de otro curso, 22 títulos y descripciones de bloques de saberes y 4 textos ausentes. Texto de los cinco decretos en el BOC (`fuentes/boletines/`).
+- Correcciones 0137–0210: textos cortados y de otro curso, descriptores y saberes numerados de forma distinta.
+- Correcciones 0211–0233: las 127 diferencias que el BOC no permitía decidir se corrigen con el documento oficial, que es la referencia; se rehacen los bloques de saberes en los que faltaban o sobraban saberes. El contraste queda sin diferencias por explicar.
+- Pruebas automáticas (`tests/`, pytest) del importador, el lector de ODT, el texto del BOC, el contraste y las correcciones, ejecutadas en la CI.
+- `contrastar --estricto`: la CI falla si queda alguna diferencia sin explicar.
+- Una corrección con `valor: null` quita el campo.
 
 ### Cambiado
 - Todos los textos se normalizan a Unicode NFC al importar (587 textos de la exportación traían las tildes descompuestas); no cambia ningún texto a la vista.

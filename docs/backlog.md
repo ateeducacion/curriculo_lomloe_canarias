@@ -197,8 +197,12 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
   descriptores toman el valor del documento, y los bloques de saberes con saberes que faltaban
   o sobraban se rehacen con los saberes y la numeración del documento. Una corrección con
   `valor: null` quita el campo (descripciones de bloque que el documento no tiene).
-- [ ] **5.2 Pruebas automáticas** (pytest) del importador, el lector de ODT, el contraste y las
+- [x] **5.2 Pruebas automáticas** (pytest) del importador, el lector de ODT, el contraste y las
   correcciones, ejecutadas en la CI.
+  Hecho (05-11-2026): 30 pruebas en `tests/` (importador, lector de ODT con documentos mínimos
+  construidos en memoria, texto del BOC, contraste y correcciones), con `requirements-dev.txt`.
+  Las dos CI ejecutan `pytest` y `contrastar --estricto`, que falla si queda alguna diferencia
+  sin explicar.
 - [ ] **5.3 Exportación RDF**: salida SKOS en Turtle en la publicación, con el modelo acordado
   para Omeka S.
 - [ ] **5.4 Revisar la documentación** (README, modelo, contribuir, pendientes).

@@ -20,14 +20,17 @@ jobs:
           cache: pip
 
       - name: Instalar dependencias
-        run: pip install -r requirements.txt
+        run: pip install -r requirements-dev.txt
+
+      - name: Pruebas
+        run: python -m pytest -q
 
       - name: Construir y validar (datos/ debe estar al día)
         run: python -m herramientas.construir --comprobar --dist
 
-      - name: Contrastar con los documentos oficiales
+      - name: Contrastar con los documentos oficiales (ninguna diferencia sin explicar)
         if: always()
-        run: python -m herramientas.contrastar
+        run: python -m herramientas.contrastar --estricto
 
       - name: Resumen
         if: always()

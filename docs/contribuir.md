@@ -1,7 +1,14 @@
 # Cómo contribuir
 
-Todo cambio entra por *pull request*. La CI construye el corpus, lo valida, lo contrasta con
-los documentos oficiales y publica el resumen en la pestaña de la ejecución.
+Todo cambio entra por *pull request*. La CI pasa las pruebas (`python -m pytest`), construye
+el corpus, lo valida, lo contrasta con los documentos oficiales y publica el resumen en la
+pestaña de la ejecución. Falla si `datos/` no está al día, si hay errores de validación no
+aceptados o si queda alguna diferencia con los documentos sin explicar
+(`contrastar --estricto`): cada una necesita una corrección o una nota en
+`config/notas_contraste.yaml`.
+
+Si cambias algo en `herramientas/`, añade o ajusta su prueba en `tests/` (el lector de ODT
+se prueba con documentos mínimos construidos en memoria, ver `tests/conftest.py`).
 
 ## Registrar un documento oficial
 

@@ -588,6 +588,8 @@ def main(argv=None):
                                     'por defecto se construye el corpus en el momento')
     p.add_argument('--proponer', action='store_true',
                    help='escribe en correcciones/ las correcciones propuestas para los huecos del corpus')
+    p.add_argument('--estricto', action='store_true',
+                   help='sale con código 1 si queda alguna diferencia sin explicar (CI)')
     args = p.parse_args(argv)
     # No se usa dist/ por defecto: puede ser de una construcción anterior y dar un contraste desfasado.
     if args.corpus:
@@ -604,6 +606,8 @@ def main(argv=None):
     if args.proponer:
         for ruta in proponer(resultados, manifiesto):
             print(f'propuesta: {ruta.relative_to(CORRECCIONES.parent)}')
+    if args.estricto and any(not x.get('explicacion') for r in resultados for x in r['diferencias']):
+        return 1
     return 0
 
 
