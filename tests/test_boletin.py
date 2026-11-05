@@ -50,3 +50,14 @@ def test_descriptores_completos_sin_otros_pegados():
     assert not b.contiene_descriptores(['CCL1', 'STEM1'])
     assert not b.contiene_descriptores(['STEM1', 'STEM2'])
     assert not b.contiene_descriptores([])
+
+
+def test_numeros_de_criterio():
+    b = Boletin('5.1. Valorar la diversidad lingüística y cultural de Canarias con respeto.\n'
+                '6.1. Registrar los progresos de aprendizaje de la lengua extranjera.\n'
+                'Otro texto sin número: valorar la diversidad lingüística y cultural de Canarias.')
+    (pos, numero, iguales), = [a for a in b.numeros('Registrar los progresos de aprendizaje de la lengua extranjera.')]
+    assert (numero, iguales) == ('6.1', 9)
+    apariciones = b.numeros('Valorar la diversidad lingüística y cultural de Canarias con respeto.', n=8)
+    assert [(n, i) for _, n, i in apariciones] == [('5.1', 10), (None, 8)]
+    assert b.numeros('Texto que no está.') == []

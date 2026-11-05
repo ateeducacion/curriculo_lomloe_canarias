@@ -70,3 +70,19 @@ def test_informe_cuenta_las_diferencias_sin_explicar():
     resultados = [{'documento': 'doc', 'estado': 'contrastado', 'diferencias': [
         {'tipo': 't', 'nodo': 'n1', 'explicacion': 'motivo'}, {'tipo': 't', 'nodo': 'n2', 'explicacion': None}]}]
     assert '**sin explicar: 1**' in contrastar.informe_md(resultados)
+
+
+def test_numeracion_distinta_en_el_boc():
+    boc = Boletin('Otra materia. 5.1. Valorar la diversidad lingüística y cultural de Canarias con respeto. '
+                  + 'relleno ' * 3000
+                  + '5.1. Valorar la diversidad lingüística y cultural de Canarias con respeto. '
+                  '6.1. Registrar los progresos de aprendizaje de la lengua extranjera con apoyo. '
+                  '7.1. Producir textos orales breves y sencillos sobre temas cotidianos.')
+    nodos = {'crit:X01CE5.1': {'definition': 'Registrar los progresos de aprendizaje de la lengua extranjera con apoyo.'},
+             'crit:X01CE6.1': {'definition': 'Valorar la diversidad lingüística y cultural de Canarias con respeto.'},
+             'crit:X01CE7.1': {'definition': 'Producir textos orales breves y sencillos sobre temas cotidianos.'}}
+    avisos = contrastar._numeracion_boc(nodos, boc, list(nodos))
+    # El texto de 6.1 aparece también lejos, en otra materia, con el mismo número 5.1: se toma
+    # la aparición de la zona de la materia, y la del 7.1 coincide.
+    assert avisos == [{'nodo': 'crit:X01CE5.1', 'numero': '5.1', 'boc': '6.1'},
+                      {'nodo': 'crit:X01CE6.1', 'numero': '6.1', 'boc': '5.1'}]

@@ -2,6 +2,7 @@
 
 - Documentos contrastados: 105; sin diferencias: 91
 - Diferencias: 43; explicadas: 43; **sin explicar: 0**
+- Criterios que el BOC imprime con otro número (erratas del BOC, no son diferencias del corpus): 24
 
 ## eso-biologia-y-geologia — contrastado
 Sin diferencias.
@@ -72,6 +73,7 @@ Sin diferencias.
 
 ## eso-segunda-lengua-extranjera — contrastado
 Sin diferencias.
+- numeración distinta en el BOC (revisar; el corpus sigue el documento): crit:SSGA01CE5.1 (BOC: 6.1), crit:SSGA01CE6.1 (BOC: 5.1), crit:SSGD01CE5.1 (BOC: 6.1), crit:SSGD01CE6.1 (BOC: 5.1), crit:SSGN01CE5.1 (BOC: 6.1), crit:SSGN01CE6.1 (BOC: 5.1), crit:SSGA02CE5.1 (BOC: 6.1), crit:SSGA02CE6.1 (BOC: 5.1), crit:SSGD02CE5.1 (BOC: 6.1), crit:SSGD02CE6.1 (BOC: 5.1), crit:SSGN02CE5.1 (BOC: 6.1), crit:SSGN02CE6.1 (BOC: 5.1), crit:SSGA03CE5.1 (BOC: 6.1), crit:SSGA03CE6.1 (BOC: 5.1), crit:SSGD03CE5.1 (BOC: 6.1), crit:SSGD03CE6.1 (BOC: 5.1), crit:SSGN03CE5.1 (BOC: 6.1), crit:SSGN03CE6.1 (BOC: 5.1), crit:SSGA04CE5.1 (BOC: 6.1), crit:SSGA04CE6.1 (BOC: 5.1), crit:SSGD04CE5.1 (BOC: 6.1), crit:SSGD04CE6.1 (BOC: 5.1), crit:SSGN04CE5.1 (BOC: 6.1), crit:SSGN04CE6.1 (BOC: 5.1)
 
 ## eso-tecnologia — contrastado
 Sin diferencias.

@@ -65,6 +65,27 @@ class Boletin:
         """El texto aparece completo, sin tolerar ningún trozo que no se encuentre."""
         return _buscar(_palabras(s), self.palabras, tolerancia=0)
 
+    def numeros(self, s, n=12):
+        """Apariciones del texto en el boletín, buscando sus primeras `n` palabras.
+
+        Devuelve [(posición, número, palabras que coinciden seguidas desde el inicio)]. Sirve
+        para los criterios de evaluación, que el boletín imprime como «5.1. Texto…»; el número
+        es None si no lo lleva delante. Un mismo comienzo puede aparecer en varios cursos,
+        materias o criterios con números distintos: quien llama elige la aparición.
+        """
+        palabras = _palabras(s).split(' ')
+        inicio = ' '.join(palabras[:n])
+        if not inicio:
+            return []
+        en, encontrados, pos = f' {self.palabras} ', [], 0
+        while (j := en.find(f' {inicio} ', pos)) >= 0:
+            m = re.search(r'(?:^| )(\d+) (\d+) $', en[max(0, j - 12):j + 1])
+            siguientes = en[j + 1:j + 1 + len(' '.join(palabras)) + 1].split(' ')
+            iguales = next((k for k, (a, b) in enumerate(zip(palabras, siguientes)) if a != b), min(len(palabras), len(siguientes)))
+            encontrados.append((j, f'{m.group(1)}.{m.group(2)}' if m else None, iguales))
+            pos = j + 1
+        return encontrados
+
 
 def _buscar(n, en, tolerancia=1):
     """Busca el texto por trozos de 10 palabras completas, en orden.

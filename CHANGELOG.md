@@ -32,6 +32,8 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
 - Pruebas automáticas (`tests/`, pytest) del importador, el lector de ODT, el texto del BOC, el contraste y las correcciones, ejecutadas en la CI.
 - `contrastar --estricto`: la CI falla si queda alguna diferencia sin explicar.
 - Una corrección con `valor: null` quita el campo.
+- Correcciones 0234–0254: 183 textos con la puntuación del documento oficial (el BOC no permitía decidirla).
+- `contrastar` comprueba con qué número imprime el BOC cada criterio e informa aparte de las erratas: 24 criterios 5.1 y 6.1 intercambiados en Segunda Lengua Extranjera (ESO), documentados en `docs/pendientes.md`.
 
 ### Cambiado
 - Todos los textos se normalizan a Unicode NFC al importar (587 textos de la exportación traían las tildes descompuestas); no cambia ningún texto a la vista.

@@ -31,6 +31,28 @@ Científica): ver la fase 2 de [`backlog.md`](backlog.md).
   identificadores no cambian (decisión del 04-11-2026).
 - **Códigos de saber reconstruidos** (42): venían truncados o con punto final; se reparan a partir del número del texto.
 
+## Erratas del BOC
+
+El contraste comprueba también con qué número imprime el BOC cada criterio de evaluación
+(informe `informes/contraste.md`, «numeración distinta en el BOC»). Estas erratas no son
+diferencias del corpus: el corpus sigue el documento oficial.
+
+- **Segunda Lengua Extranjera (ESO), criterios 5.1 y 6.1 intercambiados** en los cuatro cursos
+  y los tres idiomas (Alemán `SSGA`, Italiano `SSGD`, Francés `SSGN`): 24 criterios. En el Decreto
+  30/2023 (BOC n.º 58, de 23-03-2023), la tabla de la competencia 5 («Ampliar y usar los
+  repertorios lingüísticos…», plurilingüismo) contiene «5.1. Valorar de forma empática y
+  respetuosa la diversidad lingüística, cultural y artística…» y la de la competencia 6
+  («Valorar críticamente y adecuarse a la diversidad lingüística, cultural…», interculturalidad)
+  contiene «6.1. Registrar, analizar y compartir los progresos y dificultades de aprendizaje…» (en
+  1.º y 3.º, «Identificar y registrar…» / «Identificar, registrar, y compartir…»). Comprobado en
+  el PDF en 2.º ESO, págs. 16133–16134. El contenido de cada criterio no corresponde a la
+  competencia bajo la que aparece: el ODT oficial, las rúbricas de la Consejería, Primera Lengua
+  Extranjera y la exportación de ProIDEAC usada como base dan 5.1 = «Registrar…» (autoevaluación,
+  Portfolio) y 6.1 = «Valorar…», y así queda el corpus. Lo señaló un usuario de ProIDEAC
+  (05-11-2026), que lo ve intercambiado en el catálogo actual de ProIDEAC para Alemán de 2.º ESO;
+  el origen probable es esta errata del BOC. Conviene comunicarlo al servicio responsable del
+  currículo por si procede una corrección de errores en el BOC.
+
 ## Cobertura
 
 - Hay documentos oficiales sin materia en la exportación: *Juegos y Deportes Tradicionales de Canarias* y

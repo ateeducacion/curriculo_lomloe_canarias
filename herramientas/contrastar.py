@@ -8,6 +8,9 @@ Las secciones del documento (qué rótulo corresponde a qué materia y curso) se
 los cursos de sus materias en config/materias.csv; las `secciones` del manifiesto, si
 existen, las sustituyen.
 
+Además comprueba con qué número imprime el BOC cada criterio: si es otro (p. ej. 5.1 y 6.1
+intercambiados), lo informa aparte como errata del BOC, sin contarlo como diferencia.
+
 Con --proponer, además, escribe en correcciones/ correcciones en estado «propuesta», una por
 documento y tipo de error, para los casos en que el documento permite arreglar el corpus sin
 dudas (ver CATEGORIAS). Los saberes sin texto se emparejan por contenido, no por número,
@@ -145,7 +148,7 @@ def contrastar(nodos, manifiesto, materias=None):
                 leido['avisos'].append('Materias y cursos sin sección en el documento: '
                                        + ', '.join(m + n for m, n in faltan))
             secciones = {r: secciones[r] for r in leido['secciones']}
-        dif, huecos, revisar, explicaciones, textos, avisos_doc = [], {}, [], {}, [], []
+        dif, huecos, revisar, explicaciones, textos, avisos_doc, numeracion_boc = [], {}, [], {}, [], [], []
         bol = boletin.de_norma(manifiesto, doc.get('norma'))
         conocidos = descriptores_por_etapa().get(ETAPAS[doc['etapa']][0], set())
 
@@ -177,6 +180,8 @@ def contrastar(nodos, manifiesto, materias=None):
                     cid = f'crit:{pref}{nn}CE{cr["num"]}'
                     vistos.add(cid)
                     _cmp(d, nodos, cid, 'definition', cr['texto'], 'texto de criterio', textos)
+            if bol:
+                numeracion_boc += _numeracion_boc(nodos, bol, [cid for cid in vistos if cid.startswith('crit:')])
             for b in sec['saberes']:
                 base = f'sb:{pref}{nn}SB{b["romano"]}'
                 vistos.add(base)
@@ -202,8 +207,38 @@ def contrastar(nodos, manifiesto, materias=None):
         _version_publicada(nodos, textos, bol, huecos, _textos_documento(leido))
         resultados.append({'documento': doc['id'], 'estado': 'contrastado', 'avisos_lectura': leido['avisos'],
                            'diferencias': dif, 'huecos': list(huecos.values()), 'revisar': revisar,
-                           'avisos_documento': avisos_doc})
+                           'avisos_documento': avisos_doc, 'numeracion_boc': numeracion_boc})
     return resultados
+
+
+def _numeracion_boc(nodos, bol, criterios):
+    """Criterios que el BOC imprime con otro número (p. ej. 5.1 y 6.1 intercambiados).
+
+    Un mismo texto (o su comienzo) puede repetirse en otros cursos, materias o criterios con
+    otro número. Se toman las apariciones de la zona del boletín donde están los criterios de
+    la misma materia y curso (alrededor de la mediana de las apariciones únicas) y, de ellas,
+    la que coincide en más palabras con el texto completo. No es una diferencia del corpus: se
+    informa aparte para revisarla.
+    """
+    apariciones = {cid: bol.numeros(nodos[cid]['definition']) for cid in criterios
+                   if nodos.get(cid, {}).get('definition')}
+    unicas = sorted(a[0][0] for a in apariciones.values() if len(a) == 1)
+    if not unicas:
+        return []
+    # Zona de la materia y curso: rango intercuartílico de las apariciones únicas, para que no
+    # la ensanche un criterio cuyo texto solo se encuentra entero en otra materia.
+    centro = unicas[len(unicas) // 2]
+    radio = unicas[3 * len(unicas) // 4] - unicas[len(unicas) // 4] + 5000
+    avisos = []
+    for cid in sorted(apariciones, key=_natural):
+        if not apariciones[cid]:
+            continue
+        cerca = [a for a in apariciones[cid] if abs(a[0] - centro) <= radio] or apariciones[cid]
+        _, numero, _ = max(cerca, key=lambda a: (a[2], -abs(a[0] - centro)))
+        propio = cid.rsplit('CE', 1)[1]
+        if numero and numero != propio:
+            avisos.append({'nodo': cid, 'numero': propio, 'boc': numero})
+    return avisos
 
 
 def _hueco(huecos, categoria, nodo, campo, valor):
@@ -552,7 +587,9 @@ def informe_md(resultados):
     lineas = ['# Contraste con los documentos oficiales', '',
               f'- Documentos contrastados: {len(resultados)}; sin diferencias: '
               f"{sum(1 for r in resultados if not r['diferencias'])}",
-              f'- Diferencias: {total}; explicadas: {total - sin}; **sin explicar: {sin}**', '']
+              f'- Diferencias: {total}; explicadas: {total - sin}; **sin explicar: {sin}**',
+              f"- Criterios que el BOC imprime con otro número (erratas del BOC, no son diferencias del corpus): "
+              f"{sum(len(r.get('numeracion_boc') or []) for r in resultados)}", '']
     if not resultados:
         lineas.append('Ningún documento del manifiesto tiene fichero local.')
     for r in resultados:
@@ -575,6 +612,9 @@ def informe_md(resultados):
                           f"saberes en ese tramo)")
         for a in r.get('avisos_lectura', []):
             lineas.append(f'- aviso de lectura: {a}')
+        if r.get('numeracion_boc'):
+            lineas.append('- numeración distinta en el BOC (revisar; el corpus sigue el documento): '
+                          + ', '.join(f"{x['nodo']} (BOC: {x['boc']})" for x in r['numeracion_boc']))
         if r.get('avisos_documento'):
             lineas.append(f"- incoherencias del propio documento (no son diferencias del corpus): "
                           f"{len(r['avisos_documento'])}, p. ej. {r['avisos_documento'][0]}")
