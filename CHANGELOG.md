@@ -44,6 +44,7 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
 - Exportación RDF (`herramientas/exportar_rdf.py`): `curriculo.ttl` en SKOS con doble tipado schema.org, URIs en GitHub Pages (base configurable en `config/corpus.yaml`), descriptores operativos como esquema propio; vocabulario `vocabulario/cur.ttl` y formas SHACL validadas en la CI. El release incluye `curriculo.ttl`, su sha256 y `cur.ttl`.
 
 ### Cambiado
+- Documentación revisada para la 1.0: README con el estado, el contenido y el criterio de referencia (el documento oficial); `docs/contribuir.md` con cuándo corregir y cuándo anotar; `docs/pendientes.md` con las erratas que conviene comunicar a la Consejería.
 - Los bloques competenciales y de saberes cuelgan de su `MateriaCurso`, no de la materia (los identificadores no cambian).
 - `contrastar` ya no da por explicada una competencia con otro enunciado en otro curso: el modelo guarda el de cada curso.
 - Todos los textos se normalizan a Unicode NFC al importar (587 textos de la exportación traían las tildes descompuestas); no cambia ningún texto a la vista.

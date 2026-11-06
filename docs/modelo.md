@@ -24,7 +24,7 @@ Matemáticas de 1.º ESO son los que tienen `materia_curso: asig:SMAT01`).
 
 ## Campos
 
-| Campo | Significado | Correspondencia RDF prevista |
+| Campo | Significado | RDF |
 |---|---|---|
 | `id` | Clave estable; nunca se reutiliza | `dcterms:identifier` |
 | `tipo` | Tipo de nodo | clase `cur:<Tipo>` ⊂ `skos:Concept` |
