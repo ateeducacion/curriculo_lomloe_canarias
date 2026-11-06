@@ -5,9 +5,28 @@ Bachillerato) en un formato estructurado y validado, pensada para que otros sist
 —empezando por el repositorio de REA en Omeka S— la consuman sin tener que mantener su
 propia copia.
 
-> **Estado:** versión 0.x, en preparación. Hay incidencias heredadas de la exportación
-> de origen y decisiones pendientes: ver [`docs/pendientes.md`](docs/pendientes.md).
-> Plan de trabajo hasta la 1.0.0: [`docs/backlog.md`](docs/backlog.md).
+> **Estado:** versión 1.0.0 en preparación. Los 105 documentos oficiales están contrastados
+> con el corpus: 104 coinciden por completo y el otro solo difiere en 4 erratas de
+> descriptores del propio documento. Decisiones abiertas y erratas detectadas en las fuentes:
+> [`docs/pendientes.md`](docs/pendientes.md). Plan de trabajo: [`docs/backlog.md`](docs/backlog.md).
+
+## Contenido
+
+| Tipo de nodo | Nodos |
+|---|---:|
+| Etapas | 4 |
+| Cursos | 18 |
+| Materias (por etapa) | 138 |
+| Materias en un curso | 232 |
+| Competencias específicas | 804 |
+| Bloques competenciales | 1.318 |
+| Criterios de evaluación | 3.137 |
+| Bloques de saberes | 1.047 |
+| Saberes básicos | 8.740 |
+
+Infantil, Primaria, ESO, Bachillerato (con sus optativas) y los ámbitos de los Programas de
+Diversificación Curricular, según los decretos 196/2022, 211/2022, 30/2023, 78/2025 y 86/2025.
+No incluye el silbo gomero ni Religión. Cifras al día en [`informes/resumen.md`](informes/resumen.md).
 
 ## Qué hay en el repositorio
 
@@ -15,12 +34,14 @@ propia copia.
 fuentes/
   manifiesto.yaml          normas y documentos oficiales (enlace, fichero local, sha256)
   proideac/exportacion-1/  exportación de ProIDEAC usada como base
-  documentos/<etapa>/      ODT oficiales descargados
+  documentos/<etapa>/      ODT oficiales descargados (105)
+  boletines/               texto de los decretos publicados en el BOC
 config/
-  corpus.yaml              identificación del corpus y de su base
+  corpus.yaml              identificación del corpus, su base, licencia y base de las URIs
   materias.csv             catálogo de materias: código, denominación, cursos, documento
   descriptores.csv         descriptores operativos / competencias clave por etapa
-  incidencias_aceptadas.yaml  errores conocidos que de momento no bloquean la CI
+  notas_contraste.yaml     diferencias con los documentos que se justifican con una nota
+  incidencias_aceptadas.yaml  errores conocidos que no bloquean la CI (hoy, ninguno)
 correcciones/              una corrección por fichero, con motivo, fuente y estado
 datos/                     corpus construido: un JSON por materia (+ niveles.json)
 esquema/                   JSON Schema del corpus y formas SHACL del RDF
@@ -36,22 +57,32 @@ docs/                      modelo de datos, cómo contribuir y pendientes
 ```
 exportación ProIDEAC ──► importar ──► aplicar correcciones aprobadas ──► validar ──► datos/
                                                                             │
-                                         ODT oficiales ──► contrastar ◄─────┘
+                         ODT oficiales + texto del BOC ──► contrastar ◄─────┤
+                                                                            ▼
+                                         publicación: curriculo.json, CSV, curriculo.ttl
 ```
 
+- **El documento oficial es la referencia.** El corpus refleja los ODT publicados en la web
+  de currículos de la Consejería. El texto del BOC sirve para explicar y decidir las
+  diferencias; donde el ODT y el BOC no coinciden, la decisión queda documentada en
+  [`docs/pendientes.md`](docs/pendientes.md).
 - **No se edita `datos/` a mano.** Se regenera con las herramientas y la CI comprueba que
   coincide exactamente con lo que producen.
 - **No se edita la exportación de origen.** Los errores se arreglan con ficheros en
   `correcciones/`, que documentan el motivo y la fuente, y que solo se aplican cuando
   están aprobados.
+- **Ninguna diferencia sin explicar.** La CI falla si el contraste con los documentos deja
+  alguna diferencia sin corrección ni explicación.
 
 ```bash
 python -m venv .venv && . .venv/bin/activate
 pip install -r requirements-dev.txt          # requirements.txt + pytest
 
 python -m herramientas.construir             # regenera datos/ e informes/
-python -m herramientas.construir --comprobar # lo que ejecuta la CI
-python -m herramientas.contrastar            # compara con los ODT descargados
+python -m herramientas.construir --comprobar # comprueba que datos/ está al día (CI)
+python -m herramientas.construir --dist      # además, los ficheros de publicación en dist/
+python -m herramientas.contrastar --estricto # compara con los ODT; falla si algo queda sin explicar
+python -m herramientas.exportar_rdf --ttl dist/curriculo.ttl --validar   # valida el RDF con SHACL
 python -m pytest                             # pruebas automáticas
 ```
 
@@ -60,7 +91,9 @@ python -m pytest                             # pruebas automáticas
 Cada nodo es un concepto (SKOS) de uno de estos tipos: `Etapa`, `Curso`, `Materia`, `MateriaCurso`,
 `CompetenciaEspecifica`, `BloqueCompetencial`, `CriterioEvaluacion`, `BloqueSaberes` y
 `SaberBasico`. Los identificadores conservan los códigos de ProIDEAC
-(`crit:SMAT01CE1.1`, `sb:SMAT01SBI.1.1`…). Detalle en [`docs/modelo.md`](docs/modelo.md).
+(`crit:SMAT01CE1.1`, `sb:SMAT01SBI.1.1`…) y no se reutilizan: un nodo retirado queda como
+obsoleto. La materia en un curso (`asig:SMAT01`, Matemáticas de 1.º ESO) es el nodo con el
+que se cataloga un recurso. Detalle, incluida la versión RDF, en [`docs/modelo.md`](docs/modelo.md).
 
 ## Versiones y consumo
 
@@ -77,9 +110,11 @@ Numeración: **parche** = correcciones de texto; **menor** = nodos nuevos o reti
 **mayor** = cambio de marco normativo o de modelo de datos.
 
 Los consumidores deben fijar una versión concreta y comprobar el sha256, nunca descargar
-«la última» automáticamente. El módulo de Omeka S descarga
+«la última» automáticamente. El módulo de Omeka S (en preparación, en otro repositorio)
+descargará
 `https://github.com/ateeducacion/curriculo_lomloe_canarias/releases/download/vX.Y.Z/curriculo.json`,
-lo verifica y aplica los cambios tras la aprobación de una persona.
+lo verificará y aplicará los cambios tras la aprobación de una persona; ver
+[`docs/modelo.md`](docs/modelo.md#integración-con-omeka-s).
 
 ## Contribuir
 
@@ -88,10 +123,9 @@ proponer una corrección, incorporar una exportación nueva y publicar una versi
 
 ## Licencia
 
-- **Datos** (`datos/`, `correcciones/`, `config/` y los ficheros de cada versión):
+- **Datos** (`datos/`, `correcciones/`, `config/`, `vocabulario/` y los ficheros de cada versión):
   [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es).
-- **Código** (`herramientas/`, `esquema/`, `tests/`, `.github/`): [GPL-3.0](LICENSE). El vocabulario
-  (`vocabulario/cur.ttl`) se publica con los datos, con CC BY 4.0.
+- **Código** (`herramientas/`, `esquema/`, `tests/`, `.github/`): [GPL-3.0](LICENSE).
 
 Los textos curriculares proceden de normas publicadas en el BOC y, según el artículo 13 de
 la Ley de Propiedad Intelectual, no son objeto de propiedad intelectual: la licencia de los

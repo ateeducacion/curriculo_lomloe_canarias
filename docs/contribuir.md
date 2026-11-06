@@ -1,11 +1,10 @@
 # Cómo contribuir
 
 Todo cambio entra por *pull request*. La CI pasa las pruebas (`python -m pytest`), construye
-el corpus, lo valida, lo contrasta con los documentos oficiales y publica el resumen en la
-pestaña de la ejecución. Falla si `datos/` no está al día, si hay errores de validación no
-aceptados o si queda alguna diferencia con los documentos sin explicar
-(`contrastar --estricto`): cada una necesita una corrección o una nota en
-`config/notas_contraste.yaml`.
+el corpus, lo valida, genera el RDF y lo valida con SHACL, lo contrasta con los documentos
+oficiales y publica el resumen en la pestaña de la ejecución. Falla si `datos/` no está al
+día, si hay errores de validación no aceptados, si el RDF no cumple las formas SHACL o si
+queda alguna diferencia con los documentos sin explicar (`contrastar --estricto`).
 
 Si cambias algo en `herramientas/`, añade o ajusta su prueba en `tests/` (el lector de ODT
 se prueba con documentos mínimos construidos en memoria, ver `tests/conftest.py`).
@@ -57,6 +56,17 @@ importador para que tengan la misma forma que los importados.
 
 ## Proponer una corrección
 
+**Criterio:** el corpus refleja el documento oficial (el ODT de la web de currículos). Ante
+una diferencia, lo normal es corregir el corpus con el documento. Hay dos excepciones, que se
+deciden caso a caso y se documentan:
+
+- El documento tiene una errata que el BOC desmiente (p. ej. un código de descriptor que no
+  existe): el corpus conserva el valor correcto y la diferencia se explica con una nota en
+  `config/notas_contraste.yaml` (`nodo`, `tipo` y `motivo`), salvo que el contraste ya la
+  explique solo.
+- El documento y el BOC no coinciden: se valida cuál prevalece y se anota en
+  [`pendientes.md`](pendientes.md) («Diferencias con el BOC»).
+
 Los huecos del corpus que un documento permite rellenar (enunciados de competencia y textos
 de saber que faltan) no hace falta escribirlos a mano:
 
@@ -97,4 +107,8 @@ correcciones ya no son necesarias.
 1. Actualiza `CHANGELOG.md` y la `version` de `config/corpus.yaml`.
 2. Fusiona en `main` con la CI en verde.
 3. Crea la etiqueta: `git tag v1.0.0 && git push origin v1.0.0`. El flujo «Publicar versión»
-   crea la *release* con `curriculo.json`, su sha256 y los CSV.
+   vuelve a comprobarlo todo y crea la *release* con `curriculo.json`, los CSV,
+   `curriculo.ttl` (con sus sha256) y el vocabulario `cur.ttl`.
+
+Desde la 1.0, un nodo publicado no se borra: se retira (`accion: retirar`). La numeración
+de versiones está en el [README](../README.md#versiones-y-consumo).

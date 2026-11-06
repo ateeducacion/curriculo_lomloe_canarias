@@ -1,35 +1,29 @@
 # Pendientes y decisiones abiertas
 
-Situación tras la primera construcción. Las cifras exactas, en `informes/resumen.md`.
-Las tareas para resolverlo, en orden, en [`backlog.md`](backlog.md).
+Estado del corpus antes de la versión 1.0.0: lo que queda abierto, las decisiones que se han
+tomado donde las fuentes no coinciden y las erratas detectadas en ellas. Las cifras exactas,
+en `informes/resumen.md` y `informes/contraste.md`; el historial de tareas, en
+[`backlog.md`](backlog.md).
 
-## Resuelto
+## Para comunicar a la Consejería
 
-- **Credencial en la exportación de ProIDEAC.** Una clave de bloque de saberes (Primaria,
-  Educación Física, 1.º) contenía una clave de API antigua. Estaba ya revocada (confirmado el
-  03-11-2026). Se ha eliminado igualmente de la copia del repositorio, y la CI bloquea cualquier
-  cadena con formato de credencial. Conviene que el proceso de exportación de ProIDEAC no
-  vuelva a introducir valores de este tipo.
+Erratas o dudas de las fuentes oficiales que el corpus resuelve, pero que conviene corregir
+en origen:
 
-## Errores heredados de la exportación
-
-Resueltos. Los 140 errores de la primera construcción se han corregido desde los documentos
-oficiales (correcciones 0001–0016, aprobadas el 03-11-2026) y con dos reglas del importador
-(registros repetidos y códigos reconstruidos a partir del apartado). `config/incidencias_aceptadas.yaml`
-está vacío. Quedan dos dudas de la aprobación (Filosofía III.1.8 y una posible errata en Cultura
-Científica): ver la fase 2 de [`backlog.md`](backlog.md).
-
-## Avisos relevantes
-
-- **Encabezados de otra materia** (`encabezado_no_corresponde`, `texto_en_conflicto`): concentrados en 3.º ESO
-  (Inglés, Física y Química, Historia y Geografía de Canarias, Cultura y Ciudadanía Digital…). El importador
-  los descarta, pero conviene revisar esas materias completas contra su ODT.
-- **Explicaciones de bloque idénticas entre cursos** (`explicacion_repetida_entre_cursos`): en Matemáticas ESO se
-  confirmó que era un error (corrección 0002). En otras materias puede ser correcto: hay que revisarlo con los ODT.
-- **Códigos de materia inconsistentes**: en tres materias el código del catálogo no coincide con el de sus
-  identificadores (`TSA`/`TA7`, `PLW`/`LNT`, `VAL`/`EDK`). Se mantienen ambos en `config/materias.csv` y los
-  identificadores no cambian (decisión del 04-11-2026).
-- **Códigos de saber reconstruidos** (42): venían truncados o con punto final; se reparan a partir del número del texto.
+- **BOC, Segunda Lengua Extranjera (ESO): criterios 5.1 y 6.1 intercambiados** en los cuatro
+  cursos y los tres idiomas (detalle en «Erratas del BOC»).
+- **BOC y ODT, Lengua Castellana y Literatura (Primaria, 1.º y 2.º):** el criterio 7.2 trae el
+  descriptor «CCE3», que no existe en la etapa. El corpus conserva la lista válida; son las 4
+  diferencias que quedan en el contraste.
+- **ODT, Cultura Científica (Bachillerato):** repite «Contaminación lumínica» en los saberes
+  II.2.4.1 y II.2.4.3 (corrección 0012, aprobada con el texto del documento). ¿Errata?
+- **ODT, Filosofía (Bachillerato):** el documento anida tres saberes de III.1.8 bajo
+  III.1.8.4; el corpus los mantiene al mismo nivel, con los códigos de ProIDEAC (corrección
+  0015). Respetar la jerarquía del documento cambiaría identificadores.
+- **Exportación de ProIDEAC:** una clave de bloque de saberes (Primaria, Educación Física, 1.º)
+  contenía una credencial, ya revocada (03-11-2026); se eliminó de la copia del repositorio y
+  la CI bloquea cualquier cadena con formato de credencial. Conviene que el proceso de
+  exportación no vuelva a introducir valores de este tipo.
 
 ## Diferencias con el BOC
 
@@ -80,18 +74,38 @@ diferencias del corpus: el corpus sigue el documento oficial.
 
 ## Cobertura
 
-- Hay documentos oficiales sin materia en la exportación: *Juegos y Deportes Tradicionales de Canarias* y
-  *Música, Expresión y Espectáculos* (optativas del Decreto 78/2025). Creadas desde su ODT con los códigos
-  `JUI` y `MUW`, que no proceden de ProIDEAC (correcciones 0042 y 0043).
-- Los ámbitos de diversificación de la exportación (`SMBS`, `SAMB`, `SAM3`) corresponden al Decreto 86/2025,
-  con algunas diferencias de texto que se revisan con el contraste.
-- No entran las concreciones del silbo gomero ni los currículos de Religión.
+- Las optativas *Juegos y Deportes Tradicionales de Canarias* y *Música, Expresión y
+  Espectáculos* (Decreto 78/2025) no estaban en la exportación: se crearon desde su ODT con los
+  códigos `JUI` y `MUW`, que no proceden de ProIDEAC (correcciones 0042 y 0043).
+- Los ámbitos de diversificación (`SMBS`, `SAMB`, `SAM3`) corresponden al Decreto 86/2025.
+- No entran las concreciones del silbo gomero ni los currículos de Religión (`excluidos` en el
+  manifiesto).
 
-## Configuración por completar
+## Avisos del importador
 
-- `config/descriptores.csv`: verificado contra el anexo 1 de cada decreto (03-11-2026).
-- `CODEOWNERS`: sustituir los equipos marcados como PENDIENTE y activar la protección de la rama `main` (aplazado).
-- `fuentes/manifiesto.yaml`: revisar las materias propuestas para cada documento y descargar los ODT.
+Los produce el importador al leer la exportación de ProIDEAC (`informes/resumen.md`). Son
+informativos: el contraste con los 105 documentos confirma que, con las correcciones, el
+corpus coincide con ellos.
+
+- **Encabezados de otra materia** (`encabezado_no_corresponde`, `texto_en_conflicto`): textos
+  mezclados entre materias en la exportación (sobre todo 3.º ESO), corregidos desde los ODT.
+- **Explicaciones de bloque idénticas entre cursos** (`explicacion_repetida_entre_cursos`): las
+  que el documento distingue ya están corregidas; las que quedan las repite el propio documento.
+  El aviso cuenta también los cursos de un mismo ciclo (Infantil, Primaria), que comparten la
+  explicación oficial: conviene que la regla los excluya.
+- **Códigos de materia inconsistentes**: en tres materias el código del catálogo no coincide con
+  el de sus identificadores (`TSA`/`TA7`, `PLW`/`LNT`, `VAL`/`EDK`). Se mantienen ambos en
+  `config/materias.csv` y los identificadores no cambian (decisión del 04-11-2026).
+- **Códigos de saber reconstruidos** (43): venían truncados, con punto final o repetidos; se
+  reparan a partir del número del texto.
+
+## Después de la 1.0
+
+- **Códigos incoherentes con la numeración del texto** (tarea 3.5): unos 88 registros de la
+  exportación tienen un código cuyo apartado no coincide con el número de su encabezado. Los
+  textos ya coinciden con los documentos; cambiar esos códigos rompería identificadores
+  publicados, así que solo se haría retirando los nodos y creando otros.
+- **CODEOWNERS** con los equipos reales y protección de la rama `main` (aplazado el 04-11-2026).
 
 ## Integración con Omeka S
 
