@@ -6,6 +6,17 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
 
 ## [Sin publicar]
 
+## [1.0.0] - 2026-11-06
+
+Primera versión estable. El corpus cubre Infantil, Primaria, ESO, Bachillerato (con sus
+optativas) y los ámbitos de diversificación, y está contrastado con los 105 documentos
+oficiales: 104 coinciden por completo y el otro difiere solo en 4 erratas de descriptores del
+propio documento. Se publica en JSON, CSV y SKOS (Turtle).
+
+Conocido: las URIs del RDF (GitHub Pages) aún no resuelven; se publicarán en una versión
+posterior. Pendiente de revisar los códigos de ProIDEAC que no cuadran con la numeración de su
+texto (tarea 3.5). Ver `docs/pendientes.md`.
+
 ### Añadido
 - Estructura inicial del repositorio, esquema JSON y flujos de validación y publicación.
 - Base: exportación n.º 1 de ProIDEAC (sin la credencial que contenía; ver `fuentes/proideac/exportacion-1/LEEME.md`).
