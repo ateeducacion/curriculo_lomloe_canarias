@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BAMC02",
+      "tipo": "MateriaCurso",
+      "notation": "BAMC02",
+      "prefLabel": "Análisis Musical II · 2º Bachillerato",
+      "broader": "materia:BAMC",
+      "materia": "materia:BAMC",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BAMCC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BAMCC1",
@@ -67,7 +77,7 @@
       "notation": "BAMC02BC1",
       "prefLabel": "Análisis Musical II · 2º Bachillerato · bloque competencial C1",
       "scopeNote": "A través del presente bloque competencial, se persigue constatar si el alumnado es capaz de describir y comparar los elementos constitutivos de diferentes obras musicales (ritmo, tempo, melodía, armonía, textura, timbre, dinámica y agógica), así como sus características. Se podrá evaluar la habilidad para indagar en las intencionalidades de las obras estudiadas, analizando sus contextos, lenguajes, elementos técnicos y estéticos, demostrando una actitud de recepción activa y deleite ante las manifestaciones artísticas propuestas. De igual forma, se valorará la expresión de sus conclusiones, de forma oral, escrita o multimodal, atendiendo a criterios de fluidez, coherencia y corrección, haciendo uso de una terminología musical adecuada. Igualmente se comprobará la participación activa, cooperativa y respetuosa en las interacciones generadas en el aula para intercambiar información y argumentar sus opiniones. Se constatará la habilidad para aplicar técnicas de escucha activa y análisis auditivo, así como de estudio y análisis de partituras, tanto con notación convencional como no convencional, demostrando comprensión, interpretación y valoración crítica de las obras estudiadas. Por último, se verificará la existencia de una actitud proactiva respecto a la promoción y valoración crítica del patrimonio cultural y artístico, de la libertad de expresión y del enriquecimiento personal derivado de la diversidad presente en la sociedad.",
-      "broader": "materia:BAMC",
+      "broader": "asig:BAMC02",
       "agrupa": [
         "ce:BAMCC1"
       ],
@@ -79,6 +89,7 @@
         "CCEC2"
       ],
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -88,7 +99,7 @@
       "notation": "BAMC02BC2",
       "prefLabel": "Análisis Musical II · 2º Bachillerato · bloque competencial C2",
       "scopeNote": "Mediante este bloque competencial, se valorará si el alumnado es capaz de identificar y describir la estructura formal y los procedimientos compositivos de obras diversas, y asociarlos a un género y estilo determinado. Igualmente se evaluará la habilidad para indagar sobre su contexto, sus elementos técnicos y estéticos y su autoría, destacando la producción de mujeres compositoras, así como de artistas del archipiélago canario. Estas indagaciones abarcarán, también, el estudio de las formas musicales y su evolución, debiendo demostrar el alumnado capacidades relativas a la búsqueda avanzada de información, con criterio de calidad, fiabilidad y selección crítica, comparando, evaluando y sintetizando datos para obtener conclusiones lógicas con autonomía. Al mismo tiempo, se valorará la expresión de sus conclusiones, de forma oral, escrita o multimodal, atendiendo a criterios de fluidez, coherencia y corrección, haciendo uso de una terminología musical adecuada, y se constatará la participación activa, cooperativa y respetuosa en las interacciones generadas en el aula para intercambiar información y argumentar sus opiniones. Por último, se verificará la existencia de una actitud proactiva respecto a la promoción y valoración crítica del patrimonio cultural y artístico, de la libertad de expresión y del enriquecimiento personal derivado de la diversidad presente en la sociedad.",
-      "broader": "materia:BAMC",
+      "broader": "asig:BAMC02",
       "agrupa": [
         "ce:BAMCC2"
       ],
@@ -104,6 +115,7 @@
         "CCL1"
       ],
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -113,7 +125,7 @@
       "notation": "BAMC02BC3",
       "prefLabel": "Análisis Musical II · 2º Bachillerato · bloque competencial C3",
       "scopeNote": "A través del presente bloque competencial, concretado en un único criterio de evaluación, se persigue constatar si el alumnado es capaz de expresar juicios personales, justificados y argumentados sobre las obras estudiadas en el aula, haciendo uso de un vocabulario técnico apropiado. Para ello se verificará la habilidad para elaborar y publicar comentarios y críticas musicales, expresándose con fluidez, coherencia y corrección, participando activamente en las interacciones comunicativas del aula, con actitud respetuosa y cooperativa, y poniendo sus prácticas comunicativas al servicio de la convivencia democrática. También se evaluará la capacidad para localizar, comparar, analizar y sintetizar datos en la consulta autónoma de fuentes diversas, con respeto a los derechos de autoría y la propiedad intelectual. Igualmente, se valorará la destreza en el manejo de las tecnologías para la elaboración de productos de difusión, así como la existencia de un punto de vista crítico y creativo a la hora de comunicar sus conocimientos y opiniones, favoreciendo un uso ético de los sistemas de comunicación. Por último, se verificará la consolidación de valores relativos a la reflexión y valoración crítica del patrimonio cultural y artístico, así como la existencia de una actitud proactiva hacia su difusión y a la valoración de la diversidad cultural como fuente de enriquecimiento personal.",
-      "broader": "materia:BAMC",
+      "broader": "asig:BAMC02",
       "agrupa": [
         "ce:BAMCC3"
       ],
@@ -129,6 +141,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -138,7 +151,7 @@
       "notation": "BAMC02BC4",
       "prefLabel": "Análisis Musical II · 2º Bachillerato · bloque competencial C4",
       "scopeNote": "Mediante este bloque competencial, concretado en un único criterio de evaluación, se podrá verificar si el alumnado es capaz de realizar ejercicios de improvisación y creación de obras sencillas, demostrando habilidad para seleccionar, organizar y reutilizar con creatividad materiales y recursos previamente analizados en el aula, así como conocimiento y destreza en la aplicación de los procedimientos compositivos fundamentales. A su vez se valorará la capacidad para configurar y utilizar las tecnologías digitales en los procesos de improvisación y creación, con eficacia y responsabilidad, aportando ideas innovadoras y tomando decisiones con sentido crítico y ético. Se evaluará la participación activa en las dinámicas e interacciones grupales, con respeto y cooperación, mostrando sensibilidad hacia las emociones y experiencias de los demás, distribuyendo y asumiendo diferentes funciones en el trabajo de grupo, para la consecución de objetivos comunes. Por último, se constatará la aplicación de conocimientos técnicos y habilidades de planificación en los procesos creativos, experimentando con diversas herramientas expresivas y lenguajes artísticos para transmitir sus emociones, ideas, opiniones y sentimientos, enfrentándose a las situaciones expresivas y creativas con empatía, autoestima, iniciativa e imaginación.",
-      "broader": "materia:BAMC",
+      "broader": "asig:BAMC02",
       "agrupa": [
         "ce:BAMCC4"
       ],
@@ -153,6 +166,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -162,7 +176,7 @@
       "notation": "BAMC02BC5",
       "prefLabel": "Análisis Musical II · 2º Bachillerato · bloque competencial C5",
       "scopeNote": "A través del presente bloque competencial, se podrá verificar si el alumnado es capaz de analizar los usos terapéuticos de la música. Para ello se constatará su capacidad para experimentar y reflexionar sobre el vínculo entre la música y las emociones, así como valorar y describir los diversos rasgos musicales que pueden influir en la salud y los estados de ánimo. Se comprobará la habilidad para aplicar estrategias de escucha activa, analizando los contextos, lenguajes y elementos técnicos y estéticos, con una postura de recepción activa y deleite. Se valorará la destreza para realizar búsquedas avanzadas, localizar, seleccionar, analizar, y contrastar información de fuentes diversas, respetando los derechos de autoría y obteniendo conclusiones lógicas de manera autónoma. Por último, se evaluará la interpretación y transmisión de los elementos más relevantes de sus indagaciones en diversos formatos, con fluidez, coherencia y corrección, haciendo uso de un vocabulario técnico apropiado y con un punto de vista creativo y crítico.",
-      "broader": "materia:BAMC",
+      "broader": "asig:BAMC02",
       "agrupa": [
         "ce:BAMCC5"
       ],
@@ -175,6 +189,7 @@
         "CCEC2"
       ],
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -194,6 +209,7 @@
         "CCEC2"
       ],
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -216,6 +232,7 @@
         "CCEC2"
       ],
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -239,6 +256,7 @@
         "CCEC2"
       ],
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -262,6 +280,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -284,6 +303,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -304,6 +324,7 @@
         "CCEC2"
       ],
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -313,8 +334,9 @@
       "notation": "BAMC02SBI",
       "prefLabel": "BAMC02SBI · I. Técnicas de análisis musical",
       "definition": "Técnicas de análisis musical",
-      "broader": "materia:BAMC",
+      "broader": "asig:BAMC02",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -324,8 +346,9 @@
       "notation": "BAMC02SBII",
       "prefLabel": "BAMC02SBII · II. La forma musical y su contexto de creación",
       "definition": "La forma musical y su contexto de creación",
-      "broader": "materia:BAMC",
+      "broader": "asig:BAMC02",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -335,8 +358,9 @@
       "notation": "BAMC02SBIII",
       "prefLabel": "BAMC02SBIII · III. Interpretación y creación",
       "definition": "Interpretación y creación",
-      "broader": "materia:BAMC",
+      "broader": "asig:BAMC02",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -348,6 +372,7 @@
       "definition": "Aplicación de técnicas de análisis auditivo en obras de diferentes estilos y géneros.",
       "broader": "sb:BAMC02SBI",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -359,6 +384,7 @@
       "definition": "Aplicación de técnicas de análisis de partituras con apoyo de la audición.",
       "broader": "sb:BAMC02SBI",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -370,6 +396,7 @@
       "definition": "La comparación como técnica analítica.",
       "broader": "sb:BAMC02SBI",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -381,6 +408,7 @@
       "definition": "Descripción y comparación de los elementos de la música: ritmo, tempo, melodía, armonía, textura, timbre, dinámica y agógica. Descripción y descripción de sus características.",
       "broader": "sb:BAMC02SBI",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -392,6 +420,7 @@
       "definition": "Empleo del vocabulario musical técnico.",
       "broader": "sb:BAMC02SBI",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -403,6 +432,7 @@
       "definition": "Empleo de recursos digitales para la investigación y difusión musical.",
       "broader": "sb:BAMC02SBI",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -414,6 +444,7 @@
       "definition": "Aplicación de técnicas para el análisis del contexto de creación. Reflexión sobre el pensamiento de la persona creadora, los condicionantes contextuales y la interpretación de la obra.",
       "broader": "sb:BAMC02SBI",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -425,6 +456,7 @@
       "definition": "Elaboración y difusión de comentarios y críticas musicales, expresando juicios personales, con una terminología adecuada. Valoración crítica del mensaje musical, rechazando cualquier tipo de discriminación y violencia.",
       "broader": "sb:BAMC02SBI",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -436,6 +468,7 @@
       "definition": "Respeto de los derechos de autoría y la propiedad intelectual.",
       "broader": "sb:BAMC02SBI",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -447,6 +480,7 @@
       "definition": "Identificación y descripción de los elementos estructurales: célula, motivo, frase y semifrase, período, sección y movimiento; ritmo melódico y armónico; cadencias.",
       "broader": "sb:BAMC02SBII",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -458,6 +492,7 @@
       "definition": "Identificación y descripción de formas simples, formas compuestas y libres.",
       "broader": "sb:BAMC02SBII",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -469,6 +504,7 @@
       "definition": "Formas-tipo. Representación de esquemas formales.",
       "broader": "sb:BAMC02SBII",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -480,6 +516,7 @@
       "definition": "Identificación y descripción de los procedimientos compositivos fundamentales: repetición, variación, contraste y desarrollo.",
       "broader": "sb:BAMC02SBII",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -491,6 +528,7 @@
       "definition": "Identificación de la función de la música en combinación con otras manifestaciones artísticas.",
       "broader": "sb:BAMC02SBII",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -502,6 +540,7 @@
       "definition": "Análisis de las características sonoras y estilísticas de la música culta occidental, desde la Edad Media hasta la actualidad. Formas y géneros musicales. Evolución organológica.",
       "broader": "sb:BAMC02SBII",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -513,6 +552,7 @@
       "definition": "Análisis de las características sonoras y estilísticas de la música popular, con especial atención a las músicas urbanas y contemporáneas.",
       "broader": "sb:BAMC02SBII",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -524,6 +564,7 @@
       "definition": "Análisis de las características sonoras y estilísticas de las tradiciones musicales de diferentes culturas, con especial atención a las de Canarias.",
       "broader": "sb:BAMC02SBII",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -535,6 +576,7 @@
       "definition": "Análisis y descripción de los usos terapéuticos de la música.",
       "broader": "sb:BAMC02SBII",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -546,6 +588,7 @@
       "definition": "Creación de improvisaciones o pequeñas composiciones, a través de la aplicación de técnicas y recursos trabajados en el aula.",
       "broader": "sb:BAMC02SBIII",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -557,6 +600,7 @@
       "definition": "Aplicación de técnicas de improvisación, a partir de recursos musicales extraídos de análisis realizados en el aula.",
       "broader": "sb:BAMC02SBIII",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -568,6 +612,7 @@
       "definition": "Aplicación de procedimientos de composición fundamentales en ejercicios de creación, a partir de recursos musicales extraídos de análisis realizados en el aula.",
       "broader": "sb:BAMC02SBIII",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -579,6 +624,7 @@
       "definition": "Empleo de tecnologías digitales en ejercicios de improvisación o creación musical.",
       "broader": "sb:BAMC02SBIII",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -590,6 +636,7 @@
       "definition": "Actitud proactiva, colaborativa y respetuosa en actividades de expresión y creación realizadas en el aula.",
       "broader": "sb:BAMC02SBIII",
       "materia": "materia:BAMC",
+      "materia_curso": "asig:BAMC02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     }

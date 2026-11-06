@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BDAI01",
+      "tipo": "MateriaCurso",
+      "notation": "BDAI01",
+      "prefLabel": "Dibujo Artístico I · 1º Bachillerato",
+      "broader": "materia:BDAI",
+      "materia": "materia:BDAI",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BDAIC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BDAIC1",
@@ -107,7 +117,7 @@
       "notation": "BDAI01BC1",
       "prefLabel": "Dibujo Artístico I · 1º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de identificar y valorar el dibujo como una fuente de riqueza y una forma de conocimiento, comunicación y expresión. A través de la reflexión y el análisis, el alumnado podrá elaborar de forma razonada y compartida producciones orales, escritas o multimodales que pongan de manifiesto el conocimiento adquirido a través del análisis del dibujo en el arte, desde la Antigüedad hasta el Romanticismo, así como reflexionar a través de las obras de diferentes artistas sobre la defensa activa de la igualdad entre hombres y mujeres y sobre la libertad de expresión. Por tanto, se comprobará que el dibujo es una herramienta de pensamiento crítico que forma parte de diferentes procesos artísticos y ámbitos disciplinares, que le ayudará a desarrollar con autonomía la reflexión, la observación y la imaginación para poder comunicarse. Todo ello con la finalidad de que el alumnado realice representaciones creativas y aprecie la importancia de la diversidad cultural y la relevancia de la conservación y la promoción del patrimonio con especial interés al de Canarias.",
-      "broader": "materia:BDAI",
+      "broader": "asig:BDAI01",
       "agrupa": [
         "ce:BDAIC1"
       ],
@@ -121,6 +131,7 @@
         "CD1"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -130,7 +141,7 @@
       "notation": "BDAI01BC2",
       "prefLabel": "Dibujo Artístico I · 1º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de adquirir una visión objetiva y amplia del uso del dibujo a través del análisis de producciones plásticas de diferentes épocas, lugares y estilos, prestando especial atención a las desarrolladas en Canarias, comprendiendo la función que éste desempeña. Mediante la recepción de cualquier propuesta artística se comprobará que el alumnado es capaz de analizar y expresar su criterio sobre los diferentes elementos de la expresión gráfica y sus recursos elementales, con actitud cooperativa y respetuosa, contribuyendo así a la consolidación de su madurez personal y social. El despertar de la conciencia visual y el criterio estético se convierten en una consecuencia del desarrollo de esta competencia de carácter analítico, provocando reflexiones y estableciendo conclusiones a partir de la incorporación de la perspectiva de género e intercultural, específicamente en obras de mujeres artistas y producciones de grupos étnicos y poblacionales que sufren la discriminación racial. Todo ello con la finalidad de que el alumnado amplíe las posibilidades de disfrute en la recepción artística y sea capaz de valorar el enriquecimiento que suponen para la sociedad los retos creativos y estéticos.",
-      "broader": "materia:BDAI",
+      "broader": "asig:BDAI01",
       "agrupa": [
         "ce:BDAIC2"
       ],
@@ -144,6 +155,7 @@
         "CCEC1"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -153,7 +165,7 @@
       "notation": "BDAI01BC3",
       "prefLabel": "Dibujo Artístico I · 1º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se verificará que el alumnado, mediante la realización de bocetos o esbozos, utilizando medios tanto analógicos como digitales, a partir de la observación de la realidad. Asimismo, se comprobará que el alumnado es capaz de experimentar con las posibilidades expresivas de los elementos propios del dibujo: punto, línea, forma, color y textura, así como con su sintaxis. Todo ello con la finalidad de potenciar la sensibilidad del alumnado a través de la comprensión de las relaciones entre los elementos del lenguaje plástico que se establecen en la producción artística, y que le permitan avanzar hacia el aprendizaje de un lenguaje artístico más personal, expresivo y creativo.",
-      "broader": "materia:BDAI",
+      "broader": "asig:BDAI01",
       "agrupa": [
         "ce:BDAIC3"
       ],
@@ -166,6 +178,7 @@
         "CC2"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -175,7 +188,7 @@
       "notation": "BDAI01BC4",
       "prefLabel": "Dibujo Artístico I · 1º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se verificará que el alumnado es capaz de realizar composiciones bidimensionales figurativas o abstractas experimentando con diferentes materiales, técnicas y soportes, explorando en la composición. Se comprobará que el alumnado es capaz de realizar dibujos personales en los que interprete el espacio y la diversidad en el rostro humano. Todo ello con la finalidad de desarrollar la autonomía y la autoconfianza a partir de la práctica y del análisis de su propio proceso de aprendizaje, que permitirá al alumnado ir afianzando su gesto gráfico para lograr un trazo más personal y libre.",
-      "broader": "materia:BDAI",
+      "broader": "asig:BDAI01",
       "agrupa": [
         "ce:BDAIC4"
       ],
@@ -188,6 +201,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -197,7 +211,7 @@
       "notation": "BDAI01BC5",
       "prefLabel": "Dibujo Artístico I · 1º Bachillerato · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial, se verificará que el alumnado es capaz de identificar los referentes artísticos presentes en obras de arte desde la Antigüedad hasta el Romanticismo, con especial atención a las desarrolladas en Canarias. Se comprobará que el alumnado es capaz de investigar y analizar las influencias que unas propuestas artísticas han tenido sobre otras, para comprender la intencionalidad detrás de cada dibujo y diferenciar los recursos, medios y soportes utilizados en cada contexto. Todo ello con la finalidad de que el alumnado comprenda la importancia de los avances en procedimientos o técnicas utilizados en cada medio creativo, y empiece a utilizar el dibujo como medio para expresar ideas, opiniones, sentimientos y emociones, enriqueciendo así su capacidad expresiva.",
-      "broader": "materia:BDAI",
+      "broader": "asig:BDAI01",
       "agrupa": [
         "ce:BDAIC5"
       ],
@@ -209,6 +223,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -218,7 +233,7 @@
       "notation": "BDAI01BC6",
       "prefLabel": "Dibujo Artístico I · 1º Bachillerato · bloque competencial C6",
       "scopeNote": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de comprender y emplear con intenciones comunicativas y expresivas algunos de los principios más importantes de las teorías de la percepción visual y de la Gestalt. Además se comprobará que el alumnado es capaz de experimentar con la composición y la ordenación de los elementos plásticos en la sintaxis visual, para ir adquiriendo poco a poco autonomía en la expresión plástica, que le permita valorar la importancia de la práctica en todo proceso creativo. Todo ello con la finalidad de que el alumnado sea capaz de representar la realidad que observa a su alrededor y de crear imágenes a partir de su fantasía o de sus emociones, respondiendo con creatividad a los retos planteados.",
-      "broader": "materia:BDAI",
+      "broader": "asig:BDAI01",
       "agrupa": [
         "ce:BDAIC6"
       ],
@@ -231,6 +246,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -240,7 +256,7 @@
       "notation": "BDAI01BC7",
       "prefLabel": "Dibujo Artístico I · 1º Bachillerato · bloque competencial C7",
       "scopeNote": "A través de este bloque competencial, se persigue comprobar que el alumnado es capaz de experimentar con las técnicas, herramientas y soportes más utilizadas en el dibujo, tanto analógicas como digitales, identificando sus características y reflexionando sobre su toxicidad el impacto ambiental, con el fin de adoptar prácticas de trabajo sostenibles, seguras y responsables. Asimismo, se comprobará que el alumnado es capaz de seleccionar las herramientas y materiales adecuados a cada propuesta, utilizando diferentes niveles de iconicidad. Todo ello con la finalidad de que el alumnado sea capaz de explorar nuevas posibilidades expresivas.",
-      "broader": "materia:BDAI",
+      "broader": "asig:BDAI01",
       "agrupa": [
         "ce:BDAIC7"
       ],
@@ -256,6 +272,7 @@
         "CD5"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -265,7 +282,7 @@
       "notation": "BDAI01BC8",
       "prefLabel": "Dibujo Artístico I · 1º Bachillerato · bloque competencial C8",
       "scopeNote": "A través de este bloque competencial, se persigue verificar que el alumnado es capaz de representar gráficamente la realidad observada, valiéndose del encajado y la retentiva para extraer la información más relevante y llevarla al papel de forma simplificada, aplicando efectos perspectivos y de claroscuro para simular el espacio y el volumen, y utilizando la proporción como un recurso gráfico. De este modo, se comprobará que el alumnado es capaz de adaptar los conocimientos adquiridos con anterioridad a su producción gráfica. Todo ello con la finalidad de que el alumnado ejercite la memoria visual de forma que le permita adquirir soltura y autonomía en la representación gráfica.",
-      "broader": "materia:BDAI",
+      "broader": "asig:BDAI01",
       "agrupa": [
         "ce:BDAIC8"
       ],
@@ -277,6 +294,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -286,7 +304,7 @@
       "notation": "BDAI01BC9",
       "prefLabel": "Dibujo Artístico I · 1º Bachillerato · bloque competencial C9",
       "scopeNote": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de participar en proyectos gráficos colaborativos sencillos, enmarcados en un ámbito disciplinar concreto, identificando las fases del proceso y participando en la organización y distribución de las tareas. Durante el proceso, se comprobará que el alumnado es capaz de aplicar los aprendizajes adquiridos sobre el dibujo artístico y sus materiales y técnicas, seleccionando los recursos adecuados, para ir superando las dificultades que vayan apareciendo por medio del diálogo, con empatía, asertividad y respeto por las opiniones ajenas. El alumnado irá observando y ajustando la viabilidad del proyecto, la sostenibilidad del mismo y su adecuación. Todo ello con la finalidad de que adquiera los conocimientos, las destrezas y las actitudes necesarias que le permitan enfrentarse de manera cada vez más eficaz a futuros proyectos, y que valore las posibilidades de desarrollo académico y profesional relacionadas con el dibujo artístico.",
-      "broader": "materia:BDAI",
+      "broader": "asig:BDAI01",
       "agrupa": [
         "ce:BDAIC9"
       ],
@@ -303,6 +321,7 @@
         "CE1"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -322,6 +341,7 @@
         "CCEC2"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -340,6 +360,7 @@
         "CCEC1"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -360,6 +381,7 @@
         "CCEC2"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -378,6 +400,7 @@
         "CCEC2"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -396,6 +419,7 @@
         "CCEC1"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -414,6 +438,7 @@
         "CPSAA3.1"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -432,6 +457,7 @@
         "CC2"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -451,6 +477,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -468,6 +495,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -486,6 +514,7 @@
         "CCEC2"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -502,6 +531,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -520,6 +550,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -537,6 +568,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -558,6 +590,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -576,6 +609,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -593,6 +627,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -609,6 +644,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -628,6 +664,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -648,6 +685,7 @@
         "CE1"
       ],
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -657,8 +695,9 @@
       "notation": "BDAI01SBI",
       "prefLabel": "BDAI01SBI · I. Concepto e historia del dibujo.",
       "definition": "Concepto e historia del dibujo.",
-      "broader": "materia:BDAI",
+      "broader": "asig:BDAI01",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -668,8 +707,9 @@
       "notation": "BDAI01SBII",
       "prefLabel": "BDAI01SBII · II. La expresión gráfica y sus recursos elementales",
       "definition": "La expresión gráfica y sus recursos elementales",
-      "broader": "materia:BDAI",
+      "broader": "asig:BDAI01",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -679,8 +719,9 @@
       "notation": "BDAI01SBIII",
       "prefLabel": "BDAI01SBIII · III. Dibujo y espacio",
       "definition": "Dibujo y espacio",
-      "broader": "materia:BDAI",
+      "broader": "asig:BDAI01",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -690,8 +731,9 @@
       "notation": "BDAI01SBIV",
       "prefLabel": "BDAI01SBIV · IV. La luz, el claroscuro y el color",
       "definition": "La luz, el claroscuro y el color",
-      "broader": "materia:BDAI",
+      "broader": "asig:BDAI01",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -701,8 +743,9 @@
       "notation": "BDAI01SBV",
       "prefLabel": "BDAI01SBV · V. La figura humana",
       "definition": "La figura humana",
-      "broader": "materia:BDAI",
+      "broader": "asig:BDAI01",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -712,8 +755,9 @@
       "notation": "BDAI01SBVI",
       "prefLabel": "BDAI01SBVI · VI. Proyectos gráficos colaborativos",
       "definition": "Proyectos gráficos colaborativos",
-      "broader": "materia:BDAI",
+      "broader": "asig:BDAI01",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -725,6 +769,7 @@
       "definition": "Comprensión y utilización del dibujo como proceso interactivo de observación, imaginación, representación y comunicación.",
       "broader": "sb:BDAI01SBI",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -736,6 +781,7 @@
       "definition": "Estudio del dibujo en el arte desde la Antigüedad hasta el Romanticismo. Análisis de las obras más representativas de diferentes artistas, hombres y mujeres, con especial atención al ámbito de Canarias.",
       "broader": "sb:BDAI01SBI",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -747,6 +793,7 @@
       "definition": "Reconocimiento del dibujo como parte de múltiples procesos artísticos. Valoración del dibujo en diferentes ámbitos disciplinares: artes plásticas y visuales, diseño, arquitectura, ciencia y literatura.",
       "broader": "sb:BDAI01SBI",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -758,6 +805,7 @@
       "definition": "Observación y análisis de obras de arte a partir de visitas, presenciales o virtuales, a exposiciones, museos y centros culturales.",
       "broader": "sb:BDAI01SBI",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -769,6 +817,7 @@
       "definition": "Conocimiento y uso de la terminología y materiales del dibujo.",
       "broader": "sb:BDAI01SBII",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -780,6 +829,7 @@
       "definition": "Identificación del punto y exploración de sus posibilidades plásticas y expresivas.",
       "broader": "sb:BDAI01SBII",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -791,6 +841,7 @@
       "definition": "Exploración de las cualidades expresivas de la línea mediante la utilización de diversos trazos, grafismos y tramas. Expresión de emociones mediante diferentes tipos de líneas.",
       "broader": "sb:BDAI01SBII",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -802,6 +853,7 @@
       "definition": "Estudio y análisis comparativo de las formas teniendo en cuenta la tipología de las mismas, sus aplicaciones y combinaciones.",
       "broader": "sb:BDAI01SBII",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -813,6 +865,7 @@
       "definition": "Identificación de los niveles de iconicidad y su aplicación en la generación de imágenes.",
       "broader": "sb:BDAI01SBII",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -824,6 +877,7 @@
       "definition": "Realización de bocetos o esbozos. Implementación del encajado.",
       "broader": "sb:BDAI01SBII",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -835,6 +889,7 @@
       "definition": "Análisis comparativo y experimentación con técnicas gráfico-plásticas, secas y húmedas.",
       "broader": "sb:BDAI01SBII",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -846,6 +901,7 @@
       "definition": "Conocimiento de los materiales gráfico-plásticos. Valoración de la seguridad, toxicidad, el impacto medioambiental y la sostenibilidad de los mismos.",
       "broader": "sb:BDAI01SBII",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -857,6 +913,7 @@
       "definition": "Conocimiento y aplicación de los principios básicos del dibujo vectorial.",
       "broader": "sb:BDAI01SBII",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -868,6 +925,7 @@
       "definition": "Estudio y explicación de los fundamentos de la percepción visual",
       "broader": "sb:BDAI01SBIII",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -879,6 +937,7 @@
       "definition": "Exploración de los principios de la psicología de la Gestalt en la creación de imágenes.",
       "broader": "sb:BDAI01SBIII",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -890,6 +949,7 @@
       "definition": "Observación y análisis de ilusiones ópticas.",
       "broader": "sb:BDAI01SBIII",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -901,6 +961,7 @@
       "definition": "Aplicación de la composición como método para generar imágenes, a partir del conocimiento de los conceptos de equilibrio compositivo, las direcciones visuales y las aplicaciones de la composición.",
       "broader": "sb:BDAI01SBIII",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -912,6 +973,7 @@
       "definition": "Conocimiento de la ordenación en la sintaxis visual y estudio de sus aplicaciones.",
       "broader": "sb:BDAI01SBIII",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -923,6 +985,7 @@
       "definition": "Representación gráfica del espacio mediante el uso de la perspectiva.",
       "broader": "sb:BDAI01SBIII",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -934,6 +997,7 @@
       "definition": "Identificación y representación del efecto que tiene la luz para dar sensación de volumen en una imagen.",
       "broader": "sb:BDAI01SBIV",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -945,6 +1009,7 @@
       "definition": "Comparación de los tipos de luz y del efecto que tienen los distintos tipos de iluminación sobre un modelo.",
       "broader": "sb:BDAI01SBIV",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -956,6 +1021,7 @@
       "definition": "Aplicación de la valoración tonal y del claroscuro a la representación de los elementos observados.",
       "broader": "sb:BDAI01SBIV",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -967,6 +1033,7 @@
       "definition": "Análisis y valoración de la naturaleza, la percepción, la psicología y la simbología del color, prestando especial atención a la expresión de emociones a través del color.",
       "broader": "sb:BDAI01SBIV",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -978,6 +1045,7 @@
       "definition": "Exploración de la monocromía, la bicromía y la tricomía. Valoración de las aplicaciones básicas del color en el dibujo.",
       "broader": "sb:BDAI01SBIV",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -989,6 +1057,7 @@
       "definition": "Comprensión de la estructura de la cabeza y reconocimiento de las proporciones del rostro humano.",
       "broader": "sb:BDAI01SBV",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1000,6 +1069,7 @@
       "definition": "Realización de bocetos de detalles del rostro: ojos, nariz, boca y oreja.",
       "broader": "sb:BDAI01SBV",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1011,6 +1081,7 @@
       "definition": "Realización de retratos en las diferentes posiciones de la cabeza, de personas diversas, de diferentes géneros, edades y grupos étnicos.",
       "broader": "sb:BDAI01SBV",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1022,6 +1093,7 @@
       "definition": "Experimentación con las expresiones del rostro humano.",
       "broader": "sb:BDAI01SBV",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1033,6 +1105,7 @@
       "definition": "Distribución de tareas en los proyectos gráficos colaborativos sencillos: utilización de criterios de selección de estrategias a partir de las habilidades requeridas y de las necesidades del proyecto.",
       "broader": "sb:BDAI01SBVI",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1044,6 +1117,7 @@
       "definition": "Planificación y desarrollo de las fases de los proyectos gráficos.",
       "broader": "sb:BDAI01SBVI",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1055,6 +1129,7 @@
       "definition": "Exploración de estrategias de selección de técnicas, herramientas, medios y soportes del dibujo, tanto analógicos como digitales, adecuados a distintas disciplinas.",
       "broader": "sb:BDAI01SBVI",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1066,6 +1141,7 @@
       "definition": "Utilización de estrategias de evaluación de las fases y los resultados de proyectos gráficos. Valoración del error como oportunidad de mejora y aprendizaje.",
       "broader": "sb:BDAI01SBVI",
       "materia": "materia:BDAI",
+      "materia_curso": "asig:BDAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

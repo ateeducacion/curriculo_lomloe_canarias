@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BPSI02",
+      "tipo": "MateriaCurso",
+      "notation": "BPSI02",
+      "prefLabel": "Psicología · 2º Bachillerato",
+      "broader": "materia:BPSI",
+      "materia": "materia:BPSI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BPSIC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BPSIC1",
@@ -77,7 +87,7 @@
       "notation": "BPSI02BC1",
       "prefLabel": "Psicología · 2º Bachillerato · bloque competencial C1",
       "scopeNote": "Se comprobará que el alumnado reconoce e identifica los elementos característicos del método científico, que comprende la relevancia del papel de la Psicología como disciplina científica y que reconoce su valor a la hora de promover la salud y mejorar la calidad de vida de las personas. Se verificará que es capaz de discriminar el conocimiento científico del pseudocientífico para evitar los riesgos de la desinformación a través del análisis crítico de textos científicos y no científicos. Por medio de esta competencia se constatará que el alumnado interpreta y transmite en diferentes formatos las aportaciones de las distintas teorías psicológicas como el psicoanálisis, el conductismo, el estructuralismo, el funcionalismo, el humanismo, el cognitivismo, etc., enfrentándose a textos significativos y breves de autoras y autores relevantes y que establece relaciones de forma argumentada entre el conocimiento aportado por la Psicología y el proveniente de otras disciplinas científicas, comprendiendo así los procesos de construcción del conocimiento. El alumnado será capaz de establecer relaciones entre el conocimiento aportado por la Psicología y el bienestar físico y mental de las personas participando de forma activa e informada en diferentes contextos, localizando, seleccionado, contrastando y transmitiendo información con autonomía y actitud crítica consolidando así su madurez personal y social y desarrollando una conciencia ciudadana responsable.",
-      "broader": "materia:BPSI",
+      "broader": "asig:BPSI02",
       "agrupa": [
         "ce:BPSIC1"
       ],
@@ -94,6 +104,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -103,7 +114,7 @@
       "notation": "BPSI02BC2",
       "prefLabel": "Psicología · 2º Bachillerato · bloque competencial C2",
       "scopeNote": "Mediante la adquisición de esta competencia se evaluará que el alumnado es capaz de reconocer el conocimiento científico como motor del progreso, pues se verificará que comprende la relación entre la Psicología básica y la aplicada, identificando y describiendo sus objetivos y principales técnicas de investigación y explicando de forma argumentada su alcance y sus limitaciones. Se constatará que conoce las principales ramas de la Psicología aplicada (Psicología clínica y de la salud, Psicología social y comunitaria, Psicología del trabajo y las organizaciones, Psicología del aprendizaje, etc.) y que comprende su impacto en el bienestar personal, social y laboral de las personas de manera que el alumnado debe ser capaz mediante la adquisición de esta competencia de identificar y emprender acciones fundamentadas científicamente para promover la salud física y mental. Se constatará que conoce y describe los procesos psicológicos básicos (percepción, atención y memoria) y complejos (aprendizaje, inteligencia y pensamiento) que subyacen a la conducta humana, integrando la información y transmitiendo los elementos más relevantes de diferentes investigaciones en distintos contextos y formatos, identificando características propias y tomando conciencia de las diferencias individuales para poder desarrollar procesos autorregulados de aprendizaje y adoptar una actitud dialogada que le permita adoptar actitudes y establecer prácticas comunicativas al servicio de la convivencia.",
-      "broader": "materia:BPSI",
+      "broader": "asig:BPSI02",
       "agrupa": [
         "ce:BPSIC2"
       ],
@@ -121,6 +132,7 @@
         "CPSAA2"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -130,7 +142,7 @@
       "notation": "BPSI02BC3",
       "prefLabel": "Psicología · 2º Bachillerato · bloque competencial C3",
       "scopeNote": "Mediante la adquisición de esta competencia específica el alumnado debe ser capaz de construir conocimiento. Para ello se constatará que comprende las principales teorías de la personalidad y su evolución a lo largo de la historia interpretando y transmitiendo con precisión las aportaciones de autores como Freud, Jung, Roggers, Kelly, Cattell, Eysenck, Costa y McCrae, Cloninger, etc. Así mismo, se constatará que identifica los factores genéticos, medioambientales y culturales que influyen en la conformación de la personalidad integrando esta información para plantear acciones promotoras de la salud física y mental. Se verificará que describe la evolución del cerebro humano y conoce la estructura del sistema nervioso central, fundamentalmente del encéfalo, distinguiendo áreas y funciones que determinan la conducta de las personas e identificando las principales consecuencias del daño cerebral. Se verificará que identifica las diferentes técnicas de investigación cerebral y su impacto en el avance científico. Se constatará que comprende y reconoce algunas de las bases genéticas que determinan la conducta humana destacando el origen de algunas enfermedades producidas por alteraciones genéticas y transmitiendo elementos más relevantes de investigaciones actuales. Se verificará que el alumnado describe el concepto de salud mental reflexionando con actitud empática sobre los conceptos de trastorno y enfermedad mental, rechazando cualquier tipo de discriminación hacia las personas que lo padecen e identificando factores sociales de protección.",
-      "broader": "materia:BPSI",
+      "broader": "asig:BPSI02",
       "agrupa": [
         "ce:BPSIC3"
       ],
@@ -147,6 +159,7 @@
         "CPSAA2"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -156,7 +169,7 @@
       "notation": "BPSI02BC4",
       "prefLabel": "Psicología · 2º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado comprende y explica las principales teorías del aprendizaje (conductismo, constructivismo, aprendizaje social, inteligencias múltiples, etc.) analizando su influencia en las prácticas educativas actuales y comprendiendo el significado de la inclusión educativa. Se verificará que describe la relación entre los procesos psicológicos básicos y el aprendizaje identificando características propias y seleccionando y aplicando estrategias y técnicas de estudio apropiadas. Se comprobará que comprende el componente emocional de la conducta y sus fundamentos biológicos describiendo la estructura y funcionamiento del sistema endocrino y su influencia en la respuesta emocional. Se verificará que comprende el papel de la motivación como estado interno que activa, dirige y mantiene la conducta analizando e integrando la información procedente de las principales teorías (Freud, Skinner, Thorndike, Maslow, Festinger, Bandura…). Se constatará que el alumnado integra la información comprendiendo y explicando en diferentes contextos y formatos la relación entre motivación, emoción y aprendizaje para, en función de sus características propias, desarrollar procesos de autorregulación del aprendizaje así como estrategias que le permitan afrontar nuevos retos individualmente o en colaboración con otras personas, planteando objetivos, resolviendo problemas, evaluando sus propósitos y comprendiendo el valor enriquecedor de las diferencias individuales.",
-      "broader": "materia:BPSI",
+      "broader": "asig:BPSI02",
       "agrupa": [
         "ce:BPSIC4"
       ],
@@ -171,6 +184,7 @@
         "CE3"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -180,7 +194,7 @@
       "notation": "BPSI02BC5",
       "prefLabel": "Psicología · 2º Bachillerato · bloque competencial C5",
       "scopeNote": "A través de esta competencia se verificará que el alumnado comprende el proceso de socialización como la interiorización de actitudes, normas y valores sociales que tienen influencia en el desarrollo de la personalidad y en la conducta de las personas. Se verificará que comprende el papel de los grupos sociales en la conformación del autoconcepto y la autoestima. Se constatará que describe el concepto de pertenencia a un grupo y que entiende el papel que fenómenos como los estereotipos, los prejuicios y la discriminación juegan en las relaciones intergrupales, identificando estrategias para la eliminación de los mismos y para favorecer la cohesión social. Se comprobará que conoce el proceso de toma de decisiones y que comprende el papel que en él juegan las emociones y las recompensas. Se verificará que conoce el concepto de inteligencia emocional y que describe las aportaciones de los principales autores (Mayer y Salovey, Goleman…) reconociendo y explicando la importancia de desarrollar habilidades socieomocionales tanto para dirigir la propia conducta como las interacciones con las demás personas. Se constatará que comprende el concepto de inteligencia artificial y analiza de forma crítica su influencia en las condiciones de vida de las personas. Se verificará que analiza los fenómenos de masas (deportivos, artísticos, religiosos, políticos…), su naturaleza y pautas de comportamiento, identificando distintos tipos de liderazgo y la influencia de factores como la persuasión, la conformidad social, la aceptación social, la obediencia social, etc. con el fin de evitar situaciones de vulnerabilidad y generar rechazo hacia actitudes y conductas contrarias a la convivencia democrática. Se constatará que el alumnado comprende las nuevas formas de interacción social en entornos virtuales analizando sus ventajas e inconvenientes, seleccionando, configurando y utilizando con ética y responsabilidad dispositivos digitales, identificando riesgos y aplicando estrategias para el uso seguro de internet, con el fin de poder ejercer una ciudadanía digital activa, cívica y reflexiva. Mediante la adquisición de esta competencia, el alumnado deberá ser capaz de identificar actitudes, hábitos y conductas promotoras de la salud física y mental propia y ajena y de desarrollar competencias socioemocionales, habilidades sociales y comunicativas para ponerlas al servicio de una convivencia democrática.",
-      "broader": "materia:BPSI",
+      "broader": "asig:BPSI02",
       "agrupa": [
         "ce:BPSIC5"
       ],
@@ -198,6 +212,7 @@
         "STEM5"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -207,7 +222,7 @@
       "notation": "BPSI02BC6",
       "prefLabel": "Psicología · 2º Bachillerato · bloque competencial C6",
       "scopeNote": "A través de esta competencia se constatará que el alumnado conoce los distintos tipos de organizaciones y las clasifica en función de diferentes criterios (fin, tamaño, sector y forma jurídica) y que identifica y describe elementos característicos de los grupos de trabajo, equipos de trabajo y equipos de alto rendimiento reconociendo el valor enriquecedor de la diversidad y la multidisciplinariedad. Se comprobará que el alumnado distingue entre los conceptos de eficacia y eficiencia y que comprende la relación entre estrés y rendimiento. Se verificará que describe los distintos tipos de liderazgo y comprende su repercusión en el bienestar de las personas, así como en el rendimiento de los grupos y equipos de trabajo y por lo tanto, en las organizaciones. Se constatará que comprende el concepto de cultura emprendedora y que aprecia los cambios producidos por el avance tecnológico y el desarrollo de la inteligencia artificial en las nuevas formas de funcionamiento de equipos y organizaciones, debatiendo con actitud crítica sobre sus ventajas e inconvenientes y estableciendo analogías con el funcionamiento de grupos y equipos de trabajo en el contexto académico. Se verificará que conoce y aplica con ética y responsabilidad diferentes Tecnologías de la Información y la comunicación (TIC), Tecnologías de Aprendizaje y Conocimiento (TAC) y Tecnologías del Empoderamiento y la Participación (TEP). El alumnado deberá ser capaz de evaluar necesidades y oportunidades y afrontar retos mediante la ejecución de ideas y soluciones innovadoras en el ámbito académico. Además deberá ser capaz de desarrollar estrategias y destrezas que optimicen los recursos personales y materiales, tanto analógicos como digitales para obtener un mayor rendimiento del trabajo colaborativo y en equipo.",
-      "broader": "materia:BPSI",
+      "broader": "asig:BPSI02",
       "agrupa": [
         "ce:BPSIC6"
       ],
@@ -223,6 +238,7 @@
         "CE3"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -241,6 +257,7 @@
         "CC1"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -263,6 +280,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -285,6 +303,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -307,6 +326,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -328,6 +348,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -350,6 +371,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -369,6 +391,7 @@
         "CD1"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -390,6 +413,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -409,6 +433,7 @@
         "CC3"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -430,6 +455,7 @@
         "CE3"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -450,6 +476,7 @@
         "CE1"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -471,6 +498,7 @@
         "CC3"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -494,6 +522,7 @@
         "CC4"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -519,6 +548,7 @@
         "CC4"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -536,6 +566,7 @@
         "CC4"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -553,6 +584,7 @@
         "CE2"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -574,6 +606,7 @@
         "CE3"
       ],
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -583,8 +616,9 @@
       "notation": "BPSI02SBI",
       "prefLabel": "BPSI02SBI · I. El conocimiento científico",
       "definition": "El conocimiento científico",
-      "broader": "materia:BPSI",
+      "broader": "asig:BPSI02",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -594,8 +628,9 @@
       "notation": "BPSI02SBII",
       "prefLabel": "BPSI02SBII · II. Fundamentos biológicos de la conducta",
       "definition": "Fundamentos biológicos de la conducta",
-      "broader": "materia:BPSI",
+      "broader": "asig:BPSI02",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -605,8 +640,9 @@
       "notation": "BPSI02SBIII",
       "prefLabel": "BPSI02SBIII · III. Procesos psicológicos básicos: percepción, atención y memoria",
       "definition": "Procesos psicológicos básicos: percepción, atención y memoria",
-      "broader": "materia:BPSI",
+      "broader": "asig:BPSI02",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -616,8 +652,9 @@
       "notation": "BPSI02SBIV",
       "prefLabel": "BPSI02SBIV · IV. Procesos cognitivos complejos: aprendizaje, inteligencia y pensamiento",
       "definition": "Procesos cognitivos complejos: aprendizaje, inteligencia y pensamiento",
-      "broader": "materia:BPSI",
+      "broader": "asig:BPSI02",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -627,8 +664,9 @@
       "notation": "BPSI02SBV",
       "prefLabel": "BPSI02SBV · V. El ser humano como ser social.",
       "definition": "El ser humano como ser social.",
-      "broader": "materia:BPSI",
+      "broader": "asig:BPSI02",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -638,8 +676,9 @@
       "notation": "BPSI02SBVI",
       "prefLabel": "BPSI02SBVI · VI. El trabajo y las organizaciones.",
       "definition": "El trabajo y las organizaciones.",
-      "broader": "materia:BPSI",
+      "broader": "asig:BPSI02",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -651,6 +690,7 @@
       "definition": "La Psicología como la ciencia que estudia los procesos mentales.",
       "broader": "sb:BPSI02SBI",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -662,6 +702,7 @@
       "definition": "Reconocimiento de las fuentes de información en términos de fiabilidad, validez, calidad y actualidad.",
       "broader": "sb:BPSI02SBI.1",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -673,6 +714,7 @@
       "definition": "Conocimiento de elementos característicos del método científico.",
       "broader": "sb:BPSI02SBI.1",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -684,6 +726,7 @@
       "definition": "Psicología básica y aplicada, técnica y métodos de investigación.",
       "broader": "sb:BPSI02SBI.1",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -695,6 +738,7 @@
       "definition": "Descripción de las diferentes ramas de la Psicología aplicada: Psicología clínica, del aprendizaje, Psicología social y comunitaria, Psicología laboral y de las organizaciones.",
       "broader": "sb:BPSI02SBI.1",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -706,6 +750,7 @@
       "definition": "Aportaciones más relevantes de las corrientes contemporáneas de la Psicología.",
       "broader": "sb:BPSI02SBI",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -717,6 +762,7 @@
       "definition": "Elaboración del marco de referencia global de la Psicología, desde sus orígenes en Grecia (en las filosofías de Platón y Aristóteles), hasta su reconocimiento como saber independiente de la mano de autores y autoras más relevantes, definiendo las diferentes acepciones del término Psicología a lo largo de su evolución, desde el etimológico, como “ciencia del alma”, a los aportados por las diferentes corrientes actuales: Conductismo, Cognitivismo, Psicoanálisis, Humanismo o Gestalt.",
       "broader": "sb:BPSI02SBI.2",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -728,6 +774,7 @@
       "definition": "La contribución de la mujer al desarrollo del conocimiento científico en el campo de la Psicología (Mary Whiton Calkins, Laura Perls, Mary Ainsworth, Virginia Satir, Leta Stetter Hollingworth, Anna Freud, Sybil Eysenk…)",
       "broader": "sb:BPSI02SBI.2",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -739,6 +786,7 @@
       "definition": "Descripción, análisis y valoración del psicoanálisis, el conductismo, el estructuralismo, el funcionalismo, la psicología humanista, el cognitivismo y el constructivismo.",
       "broader": "sb:BPSI02SBI.2",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -750,6 +798,7 @@
       "definition": "Análisis crítico de textos significativos de distintos autores y autoras para valorar las soluciones planteadas a los problemas estudiados por la Psicología.",
       "broader": "sb:BPSI02SBI.2",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -761,6 +810,7 @@
       "definition": "El sistema nervioso central.",
       "broader": "sb:BPSI02SBII",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -772,6 +822,7 @@
       "definition": "Comparación entre el cerebro humano y el cerebro animal e identificación de diferencias anatómicas.",
       "broader": "sb:BPSI02SBII.1",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -783,6 +834,7 @@
       "definition": "Descripción de la evolución del encéfalo desde el nacimiento hasta la edad adulta.",
       "broader": "sb:BPSI02SBII.1",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -794,6 +846,7 @@
       "definition": "Análisis de la morfología neuronal y descripción del proceso de transmisión sináptica y del concepto de neuroplasticidad.",
       "broader": "sb:BPSI02SBII.1",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -805,6 +858,7 @@
       "definition": "Descripción de la anatomía del sistema nervioso central, localización de las principales áreas y descripción de sus funciones (corteza cerebral, sistema límbico…).",
       "broader": "sb:BPSI02SBII.1",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -816,6 +870,7 @@
       "definition": "El sistema endocrino.",
       "broader": "sb:BPSI02SBII",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -827,6 +882,7 @@
       "definition": "Descripción de la estructura del sistema endocrino, comprensión de la influencia de las hormonas en la conducta y la respuesta emocional, e identificación de estilos de vida saludables que favorecen su buen funcionamiento.",
       "broader": "sb:BPSI02SBII.2",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -838,6 +894,7 @@
       "definition": "Genética.",
       "broader": "sb:BPSI02SBII",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -849,6 +906,7 @@
       "definition": "Definición de genética, comprensión de la base genética del comportamiento humano y de la influencia de la genética y el ambiente en la conformación de la personalidad y la aparición de algunos trastornos psicológicos",
       "broader": "sb:BPSI02SBII.3",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -860,6 +918,7 @@
       "definition": "Percepción.",
       "broader": "sb:BPSI02SBIII",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -871,6 +930,7 @@
       "definition": "Identificación de los procesos perceptivos y de los diferentes elementos que intervienen en el fenómeno de la percepción (estímulo, sentido, sensación y umbrales de percepción) y reconocimiento de las fases del proceso perceptivo (excitación, transducción, transmisión y recepción)",
       "broader": "sb:BPSI02SBIII.1",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -882,6 +942,7 @@
       "definition": "Análisis de las teorías explicativas de la percepción (Asociacionismo, Gestalt, Cognitivismo y NeuroPsicología).",
       "broader": "sb:BPSI02SBIII.1",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -893,6 +954,7 @@
       "definition": "Distinción de diferentes tipos de ilusiones ópticas diferenciándolas de los trastornos perceptivos como las alucinaciones y la agnosia.",
       "broader": "sb:BPSI02SBIII.1",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -904,6 +966,7 @@
       "definition": "Atención y memoria.",
       "broader": "sb:BPSI02SBIII",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -915,6 +978,7 @@
       "definition": "Análisis del funcionamiento de la memoria identificando las características de los diferentes tipos de memoria.",
       "broader": "sb:BPSI02SBIII.2",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -926,6 +990,7 @@
       "definition": "Valoración de los procesos de atención y concentración implicados en el funcionamiento de la memoria e identificación de alteraciones de la atención.",
       "broader": "sb:BPSI02SBIII.2",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -937,6 +1002,7 @@
       "definition": "Comprensión del concepto de olvido y sus causas, distorsiones y alteraciones de la memoria.",
       "broader": "sb:BPSI02SBIII.2",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -948,6 +1014,7 @@
       "definition": "Aprendizaje.",
       "broader": "sb:BPSI02SBIV",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -959,6 +1026,7 @@
       "definition": "Comparación de las diferentes teorías del aprendizaje: Condicionamiento clásico (Pavlov y Watson) Conductismo (Skinner), Psicología cognitiva (Baddeley, Bruner, Broadbent, Ebbinghaus…), Constructivismo (Piaget), Aprendizaje social (Bandura), Constructivismo social (Vigotsky), Aprendizaje Experiencial (Carl Rogers), Inteligencias múltiples (Howard Gardner).",
       "broader": "sb:BPSI02SBIV.1",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -970,6 +1038,7 @@
       "definition": "Análisis de los factores que influyen en el aprendizaje, como por ejemplo: inteligencia, conocimientos previos, experiencia y motivación.",
       "broader": "sb:BPSI02SBIV.1",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -981,6 +1050,7 @@
       "definition": "Comprensión y explicación de las diferentes teorías de la motivación (Freud, Conductismo,Teoría de la jerarquía de las necesidades de Maslow, Teoría del factor dual de Herber, Teoría de los tres factores).",
       "broader": "sb:BPSI02SBIV.1",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -992,6 +1062,7 @@
       "definition": "Definición y comprensión del concepto de motivación intrínseca y extrínseca.",
       "broader": "sb:BPSI02SBIV.1",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1003,6 +1074,7 @@
       "definition": "Relación de la motivación, las metas, las expectativas y el control personal.",
       "broader": "sb:BPSI02SBIV.1",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1014,6 +1086,7 @@
       "definition": "Inteligencia.",
       "broader": "sb:BPSI02SBIV",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1025,6 +1098,7 @@
       "definition": "Definición del concepto de inteligencia y reflexión sobre la evolución a lo largo de la historia. Comprensión de teorías actuales sobre la inteligencia, como son Piaget, la teoría factorial de Spearman, la multifactorial de Thurstone y las de Cattell, Vernon, Sternberg, Gardner, etc.",
       "broader": "sb:BPSI02SBIV.2",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1036,6 +1110,7 @@
       "definition": "Comprensión de las aportaciones de los autores de referencia en inteligencia emocional (Goleman, Mayer y Salovey). Descripción de las principales estrategias de regulación emocional.",
       "broader": "sb:BPSI02SBIV.2",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1047,6 +1122,7 @@
       "definition": "Definición de inteligencia emocional. Funciones y clasificación de las emociones.",
       "broader": "sb:BPSI02SBIV.2",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1058,6 +1134,7 @@
       "definition": "Comprensión del concepto de frustración: identificación de causas y estrategias para superarla.",
       "broader": "sb:BPSI02SBIV.2",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1069,6 +1146,7 @@
       "definition": "Definición de inteligencia artificial. Análisis y reflexión sobre las implicaciones sociales, éticas y filosóficas y debate sobre las consecuencias de la brecha de datos de género. Descripción y conocimiento de las aplicaciones de la inteligencia artificial.",
       "broader": "sb:BPSI02SBIV.2",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1080,6 +1158,7 @@
       "definition": "Pensamiento.",
       "broader": "sb:BPSI02SBIV",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1091,6 +1170,7 @@
       "definition": "Definición de pensamiento, clasificación de tipos de pensamiento y relación entre pensamiento y lenguaje y pensamiento y emociones.",
       "broader": "sb:BPSI02SBIV.3",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1102,6 +1182,7 @@
       "definition": "Comprensión del papel del razonamiento y el pensamiento creativo en la solución de problemas y la toma de decisiones.",
       "broader": "sb:BPSI02SBIV.3",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1113,6 +1194,7 @@
       "definition": "Reconocimiento de la influencia de factores ambientales y socioculturales en los procesos perceptuales (motivación, actitudes, intereses)y en la conformación de la personalidad.",
       "broader": "sb:BPSI02SBV",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1124,6 +1206,7 @@
       "definition": "Definición de autoconcepto y autoestima, identificación de factores que influyen en su conformación y de estrategias para la construcción de un autoconcepto positivo y una autoestima ajustada.",
       "broader": "sb:BPSI02SBV",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1135,6 +1218,7 @@
       "definition": "Definición del concepto de grupos, los roles y su influencia en el comportamiento de las personas.",
       "broader": "sb:BPSI02SBV",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1146,6 +1230,7 @@
       "definition": "Conocimiento sobre el proceso de formación de la percepción de los otros :formación de impresiones, proceso de atribución y atracción.",
       "broader": "sb:BPSI02SBV",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1157,6 +1242,7 @@
       "definition": "Definición de actitud. Reconocimiento de la influencia de los grupos sociales en las actitudes personales. Comprensión de los principales modelos y características de las actitudes y formación de las mismas.",
       "broader": "sb:BPSI02SBV",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1168,6 +1254,7 @@
       "definition": "Comprensión y debate sobre el poder de la persuasión, el contagio de sentimientos y emociones que se producen en las masas y sus efectos sobre la conducta individual, sus beneficios y riesgos para la cohesión social e identificación de estrategias de prevención de la crispación social.",
       "broader": "sb:BPSI02SBV",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1179,6 +1266,7 @@
       "definition": "Reconocimiento de las implicaciones del desarrollo tecnológico en las nuevas formas de interacción social concienciando sobre los riesgos de fenómenos como el sexting, el grooming y la sextorsión, y sus consecuencias. Debate sobre sus ventajas e inconvenientes y sus implicaciones en el bienestar físico y mental y afectivo de las personas.",
       "broader": "sb:BPSI02SBV",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1190,6 +1278,7 @@
       "definition": "Identificación y aplicación de estrategias y medidas para el uso seguro de internet, incluyendo la prevención de prácticas sexuales virtuales de riesgo. Comprensión de conceptos como huella digital, identidad digital, netiqueta, etc.",
       "broader": "sb:BPSI02SBV",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1201,6 +1290,7 @@
       "definition": "Comprensión del proceso de toma de decisiones y el papel que juegan las emociones, las recompensas y la anticipación estas últimas en las decisiones.",
       "broader": "sb:BPSI02SBV",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1212,6 +1302,7 @@
       "definition": "Comprensión del concepto de salud mental, trastorno mental y enfermedad mental y debate sobre la percepción social de la enfermedad mental.",
       "broader": "sb:BPSI02SBV",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1223,6 +1314,7 @@
       "definition": "Valoración de la importancia que tiene en el desarrollo y maduración del individuo la afectividad y la sexualidad, como dimensiones esenciales del ser humano, describiendo los aspectos fundamentales de la psicología de la sexualidad: fisiología de la respuesta sexual, conducta sexual segura y respetuosa, etc.",
       "broader": "sb:BPSI02SBV",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1234,6 +1326,7 @@
       "definition": "Descripción de los distintos tipos de organizaciones y la clasificación en función de diferentes criterios (fin, tamaño, sector y forma jurídica).",
       "broader": "sb:BPSI02SBVI",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1245,6 +1338,7 @@
       "definition": "Identificación y descripción de elementos característicos de los grupos de trabajo, equipos de trabajo y equipos de alto rendimiento.",
       "broader": "sb:BPSI02SBVI",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1256,6 +1350,7 @@
       "definition": "Descripción de conceptos de eficacia y eficiencia y comprensión de la relación entre estrés y rendimiento.",
       "broader": "sb:BPSI02SBVI",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1267,6 +1362,7 @@
       "definition": "Identificación de diferentes estilos de liderazgo y debate sobre su repercusión en el rendimiento y bienestar laboral de las personas.",
       "broader": "sb:BPSI02SBVI",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1278,6 +1374,7 @@
       "definition": "Comprensión del concepto de cultura emprendedora.",
       "broader": "sb:BPSI02SBVI",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1289,6 +1386,7 @@
       "definition": "Debate sobre el impacto del avance tecnológico en las nuevas formas de funcionamiento de equipos y organizaciones, ventajas e inconvenientes.",
       "broader": "sb:BPSI02SBVI",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1300,6 +1398,7 @@
       "definition": "Conocimiento, selección y aplicación de Tecnologías de la Información y la comunicación (TIC), Tecnologías de Aprendizaje y Conocimiento (TAC) y Tecnologías del Empoderamiento y la Participación (TEP).",
       "broader": "sb:BPSI02SBVI",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1311,6 +1410,7 @@
       "definition": "Debate sobre la implicaciones de las políticas de igualdad en materia de trabajo (conciliación familiar, brecha salarial, etc.). Identificación de los principales problemas de salud laboral: el estrés, la ansiedad, el mobbing y el síndrome de burnout, etc",
       "broader": "sb:BPSI02SBVI",
       "materia": "materia:BPSI",
+      "materia_curso": "asig:BPSI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     }

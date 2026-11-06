@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BDFB02",
+      "tipo": "MateriaCurso",
+      "notation": "BDFB02",
+      "prefLabel": "Dibujo Técnico aplicado a las Artes Plásticas y al Diseño II · 2º Bachillerato",
+      "broader": "materia:BDFB",
+      "materia": "materia:BDFB",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BDFBC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BDFBC1",
@@ -67,7 +77,7 @@
       "notation": "BDFB02BC1",
       "prefLabel": "Dibujo Técnico aplicado a las Artes Plásticas y al Diseño II · 2º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se comprobará si el alumnado identifica y explica la presencia de formas y estructuras geométricas en el arte, el diseño, la naturaleza y cualquier otro entorno, mediante la percepción de ilusiones ópticas, de trazado de curvas cónicas aplicadas a estos contextos y de composiciones modulares aplicadas al diseño gráfico de objetos y de espacios, con la intención de comprender el motivo con el que se han utilizado, mediante la observación y el análisis de lenguajes y elementos técnicos y plásticos. Se verificará, también, si aborda el estudio de la geometría en el diseño y el arte contemporáneo, por medio de búsquedas avanzadas en internet, obteniendo conclusiones lógicas de forma autónoma; valora críticamente el patrimonio cultural y artístico, especialmente el de Canarias (pintaderas canarias, cerámica precolombina o calados canarios); explica su origen, función e intencionalidad en distintos contextos y medios; y llega a un conocimiento más amplio y rico de las manifestaciones artísticas del pasado y del presente, utilizando fuentes de información fiables de forma autónoma.",
-      "broader": "materia:BDFB",
+      "broader": "asig:BDFB02",
       "agrupa": [
         "ce:BDFBC1"
       ],
@@ -84,6 +94,7 @@
         "CCEC2"
       ],
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -93,7 +104,7 @@
       "notation": "BDFB02BC2",
       "prefLabel": "Dibujo Técnico aplicado a las Artes Plásticas y al Diseño II · 2º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se constatará si el alumnado diseña patrones, mosaicos, elementos decorativos y tipografías con precisión y exactitud, mediante la aplicación de transformaciones geométricas y trazados con y sin herramientas digitales, utilizando el pensamiento científico; y si con todo ello aborda proyectos creativos con eficacia, proporcionando recursos geométricos básicos para la concepción y diseño de los mismos, haciendo eficaz el aprendizaje. También se evaluará si diseña formas y construcciones geométricas mediante el empleo de tangencias, enlaces y curvas cónicas, con la intención de aplicarlas al diseño gráfico y el trazado manual y digital; y realiza, con rigor, diseños de proyectos artísticos y culturales sostenibles, que pueden estar asociados a la arquitectura de Canarias (Torre del Conde, Faro de la Entellada, Teatro Pérez Galdós, entre otros), con el uso diferentes herramientas y lenguajes artísticos. Por último, se constatará si estos recursos los incorpora tanto en la transmisión y desarrollo de ideas como en la expresión de sentimientos y emociones.",
-      "broader": "materia:BDFB",
+      "broader": "asig:BDFB02",
       "agrupa": [
         "ce:BDFBC2"
       ],
@@ -109,6 +120,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -118,7 +130,7 @@
       "notation": "BDFB02BC3",
       "prefLabel": "Dibujo Técnico aplicado a las Artes Plásticas y al Diseño II · 2º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se comprobará si el alumnado dibuja, en las perspectivas isométrica y caballera, formas volumétricas, empleando curvas de manera clara y precisa y basándose en los fundamentos de la representación de la circunferencia y de sólidos sencillos, con el propósito de aplicarlos al diseño de formas tridimensionales (estructuras poliédricas y sólidos platónicos) y a la Arquitectura; y lo hace usando conocimientos técnicos específicos y resolviendo problemas con autonomía y espíritu crítico. También se evaluará si diseña espacios o escenografías aplicando la perspectiva cónica (frontal, oblicua y de cuadro inclinado) y representando luces y sombras; lo adapta a la realización de cómics, ilustraciones y proyectos de diseño de objetos y espacios; y desarrolla la visión espacial, la habilidad en la croquización y el dibujo a mano alzada. Por último, se verificará si mejora con todo ello las destrezas gráficas y aprovecha la cultura digital con sentido ético y responsable, reflexionando sobre el proceso realizado y el resultado obtenido.",
-      "broader": "materia:BDFB",
+      "broader": "asig:BDFB02",
       "agrupa": [
         "ce:BDFBC3"
       ],
@@ -131,6 +143,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -140,7 +153,7 @@
       "notation": "BDFB02BC4",
       "prefLabel": "Dibujo Técnico aplicado a las Artes Plásticas y al Diseño II · 2º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se verificará si el alumnado es capaz de crear un diseño sencillo siguiendo las fases de un proyecto, partiendo del dibujo de bocetos o croquis al plano de taller para que se establezca un paso intermedio entre la idea y la ejecución material del diseño, de manera individual o en grupo, con el uso de diferentes herramientas digitales que les permita proponer ideas creativas y aplicar conocimientos técnicos. Asimismo, se comprobará si con este proyecto, y a través de códigos gráficos y normas generalizadas (UNE e ISO), comunica clara e inequívocamente su forma y dimensiones, por medio de la representación de objetos y sus vistas acotadas (cortes, secciones y roturas), a fin de interpretar y representar objetos y espacios, aplicando estrategias y destrezas que agilicen el trabajo colaborativo, para favorecer la utilización eficaz y ética de los diferentes criterios de comunicación. Todo esto, con las cualidades fundamentales de la funcionalidad, la operatividad y la universalidad, propias del dibujo normalizado.",
-      "broader": "materia:BDFB",
+      "broader": "asig:BDFB02",
       "agrupa": [
         "ce:BDFBC4"
       ],
@@ -156,6 +169,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -165,7 +179,7 @@
       "notation": "BDFB02BC5",
       "prefLabel": "Dibujo Técnico aplicado a las Artes Plásticas y al Diseño II · 2º Bachillerato · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se comprobará si el alumnado es capaz de realizar y planificar proyectos aprovechando las posibilidades que las herramientas de dibujo vectorial aportan a los campos del diseño y al arte, mediante la selección de dispositivos digitales que le permitan transmitir ese conocimiento y enfrentarse a situaciones creativas con iniciativa e imaginación; y desarrollar procesos de creación artística personal o de diseño (diseño gráfico, de objetos y de espacios), a través de diferentes técnicas plásticas, tomando como referencia artistas locales y mundiales, visibilizando las obras de las mujeres y de personas no occidentales, y reflexionando sobre el proceso realizado y el resultado obtenido, para elaborar un prototipo final de valor para los demás, considerando tanto la experiencia de éxito como de fracaso una oportunidad para aprender.",
-      "broader": "materia:BDFB",
+      "broader": "asig:BDFB02",
       "agrupa": [
         "ce:BDFBC5"
       ],
@@ -178,6 +192,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -202,6 +217,7 @@
         "CCEC2"
       ],
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -222,6 +238,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -242,6 +259,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -259,6 +277,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -276,6 +295,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -299,6 +319,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -319,6 +340,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -328,8 +350,9 @@
       "notation": "BDFB02SBI",
       "prefLabel": "BDFB02SBI · I. Geometría, arte y entorno",
       "definition": "Geometría, arte y entorno",
-      "broader": "materia:BDFB",
+      "broader": "asig:BDFB02",
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -339,8 +362,9 @@
       "notation": "BDFB02SBII",
       "prefLabel": "BDFB02SBII · II. Sistemas de representación del espacio aplicado",
       "definition": "Sistemas de representación del espacio aplicado",
-      "broader": "materia:BDFB",
+      "broader": "asig:BDFB02",
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -350,8 +374,9 @@
       "notation": "BDFB02SBIII",
       "prefLabel": "BDFB02SBIII · III. Normalización y diseño de proyectos",
       "definition": "Normalización y diseño de proyectos",
-      "broader": "materia:BDFB",
+      "broader": "asig:BDFB02",
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -361,8 +386,9 @@
       "notation": "BDFB02SBIV",
       "prefLabel": "BDFB02SBIV · IV. Herramientas digitales para el diseño",
       "definition": "Herramientas digitales para el diseño",
-      "broader": "materia:BDFB",
+      "broader": "asig:BDFB02",
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -374,6 +400,7 @@
       "definition": "Composiciones modulares en el diseño gráfico, de objetos y de espacios.",
       "broader": "sb:BDFB02SBI",
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -385,6 +412,7 @@
       "definition": "Explicación de la geometría e ilusiones ópticas en el arte y el diseño.",
       "broader": "sb:BDFB02SBI",
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -396,6 +424,7 @@
       "definition": "Trazado de las curvas cónicas en la naturaleza, el entorno, el arte y el diseño.",
       "broader": "sb:BDFB02SBI",
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -407,6 +436,7 @@
       "definition": "Estudio de la representación del espacio en el diseño y arte contemporáneo.",
       "broader": "sb:BDFB02SBI",
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -418,6 +448,7 @@
       "definition": "Diseño de transformaciones geométricas aplicadas a la creación de mosaicos y patrones. Observación de la cultura popular canaria (bordados, celosías…).",
       "broader": "sb:BDFB02SBI",
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -429,6 +460,7 @@
       "definition": "Trazado con y sin herramientas digitales.",
       "broader": "sb:BDFB02SBI",
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -440,6 +472,7 @@
       "definition": "Representación de la circunferencia y de sólidos sencillos en perspectivas isométrica y caballera. Aplicación al diseño de formas tridimensionales.",
       "broader": "sb:BDFB02SBII",
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -451,6 +484,7 @@
       "definition": "Diseño de estructuras poliédricas. Los sólidos platónicos. Aplicación en la Arquitectura y el diseño.",
       "broader": "sb:BDFB02SBII",
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -462,6 +496,7 @@
       "definition": "Aplicaciones de la perspectiva cónica, frontal, oblicua y de cuadro inclinado, al diseño de espacios y objetos. Representación de luces y sombras.",
       "broader": "sb:BDFB02SBII",
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -473,6 +508,7 @@
       "definition": "Creación de las fases de un proyecto de diseño: del croquis al plano de taller.",
       "broader": "sb:BDFB02SBIII",
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -484,6 +520,7 @@
       "definition": "Representación de objetos mediante sus vistas acotadas. Cortes, secciones y roturas.",
       "broader": "sb:BDFB02SBIII",
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -495,6 +532,7 @@
       "definition": "Realización y planificación del dibujo asistido por ordenador aplicado a proyectos de arte y diseño.",
       "broader": "sb:BDFB02SBIV",
       "materia": "materia:BDFB",
+      "materia_curso": "asig:BDFB02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     }

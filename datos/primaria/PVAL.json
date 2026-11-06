@@ -13,6 +13,26 @@
       "etapa": "etapa:PRI"
     },
     {
+      "id": "asig:PVAL05",
+      "tipo": "MateriaCurso",
+      "notation": "PVAL05",
+      "prefLabel": "Educación en Valores Cívicos y Éticos · 5º Primaria",
+      "broader": "materia:PVAL",
+      "materia": "materia:PVAL",
+      "curso": "curso:P05",
+      "etapa": "etapa:PRI"
+    },
+    {
+      "id": "asig:PVAL06",
+      "tipo": "MateriaCurso",
+      "notation": "PVAL06",
+      "prefLabel": "Educación en Valores Cívicos y Éticos · 6º Primaria",
+      "broader": "materia:PVAL",
+      "materia": "materia:PVAL",
+      "curso": "curso:P06",
+      "etapa": "etapa:PRI"
+    },
+    {
       "id": "ce:PEDKC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "PEDKC1",
@@ -58,7 +78,7 @@
       "notation": "PEDK05BC1",
       "prefLabel": "Educación en Valores Cívicos y Éticos · 5º Primaria · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de dirigir su conducta, reconocer y gestionar sus emociones, deseos, razones y voluntades, y constituirse como persona libre y responsable, mediante el desarrollo de la autoestima, el pensamiento crítico y ético, y el fomento de la autonomía y la responsabilidad. Para ello, el alumnado deberá demostrar que es capaz de decidir y reflexionar sobre problemas de carácter ético, prestando especial atención a la diferencia entre las personas, la identidad, la dignidad e igualdad, la relevancia de la diversidad de modos de vida y los valores en el entorno canario. Se constatará, además, que el alumnado puede identificar los valores, normas y sentimientos que guían sus acciones, respetando el valor de la diversidad y fomentando el comportamiento ético en la cohesión social, la toma de decisiones y la resolución de conflictos. Todo ello, a través de la búsqueda, análisis y organización de información, evaluando la influencia y uso crítico y responsable de los medios y redes de comunicación para prevenir conductas adictivas, abusos y ciberacosos, el respeto a la intimidad, los límites a la libertad de expresión y la oposición ante cualquier forma de discriminación o violencia, y reconociendo la eco-dependencia e interdependencia como valores esenciales. Teniendo como finalidad última, que el alumnado sea capaz de generar juicios morales y alcance los fines del propio proyecto personal y colectivo.",
-      "broader": "materia:PVAL",
+      "broader": "asig:PVAL05",
       "agrupa": [
         "ce:PEDKC1"
       ],
@@ -74,6 +94,7 @@
         "CPSAA4"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -83,7 +104,7 @@
       "notation": "PEDK05BC2",
       "prefLabel": "Educación en Valores Cívicos y Éticos · 5º Primaria · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado reflexiona, desarrolla valores e infiere conductas cívicas y éticas, promoviendo una convivencia democrática, justa, respetuosa, pacífica y no sexista, basada en la toma de decisiones, la prevención y la gestión dialogada de conflictos, la promoción de la igualdad de derechos y el respeto hacia la diversidad social, de género, lingüística y étnico-cultural. Para ello, se constatará que el alumnado responde a los principios de justicia, solidaridad, seguridad y paz, a partir del análisis y las acciones de la ciudadanía, el Estado, sus instituciones, los organismos internacionales, las ONG y ONGD, especialmente aquellas que actúan en la Comunidad Autónoma de Canarias. Además, se contribuirá a la adquisición de la competencia específica ya que se comprobará que es capaz de interactuar de acuerdo a normas y valores cívicos y éticos, en contextos diversos, adoptando sus propios juicios, con autonomía y responsabilidad; analizando racionalmente conflictos cercanos en entornos presenciales y virtuales; promoviendo valores y principios constitucionales y democráticos que defiendan los derechos humanos y de la infancia, la igualdad, el respeto por las minorías, las identidades etnoculturales, la interculturalidad y las migraciones en la sociedad canaria; concienciando y sensibilizando así al alumnado sobre la importancia del enriquecimiento cultural y patrimonial a través de la sociedad, considerando la posición geoestratégica que tiene Canarias para la confluencia de las diferentes culturas. Por otro lado, esta competencia implica que el alumnado sea capaz de reconocer, gestionar y respetar las emociones, sentimientos y experiencias de los demás, a través de una educación inclusiva y sostenible, empoderando al alumnado para que pueda tomar decisiones conscientes y actuar responsablemente con respecto a la viabilidad socio-económica y la consecución de una sociedad justa para generaciones presentes y futuras, asumiendo responsabilidades individuales y colectivas. Todo ello, con la finalidad de promover un marco social de convivencia proactiva y democrática a través de la adopción de posturas críticas en procesos de reflexión guiados.",
-      "broader": "materia:PVAL",
+      "broader": "asig:PVAL05",
       "agrupa": [
         "ce:PEDKC2"
       ],
@@ -101,6 +122,7 @@
         "CCEC1"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -110,7 +132,7 @@
       "notation": "PEDK05BC3",
       "prefLabel": "Educación en Valores Cívicos y Éticos · 5º Primaria · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se constarará que el alumnado se compromete activamente con valores y prácticas consecuentes con el respeto, cuidado y protección de los seres vivos y el planeta. De acuerdo con este objetivo, se comprobará que el alumnado sea capaz de evaluar alternativas con las que frenar el cambio climático e identificar causas y problemas ecosociales, participando en actividades que promuevan un desarrollo sostenible. Se contribuye así a la competencia específica, ya que se comprobará que el alumnado sea capaz de comprender las relaciones sistemáticas entre la persona, la sociedad y la naturaleza, teniendo en cuenta los conceptos de interdependencia, ecodependencia e interrelación, iniciándose en la adopción de estilos de vida sostenible para contribuir a la conservación de la biodiversidad de Canarias como parte fundamental de su patrimonio. Para ello, el alumnado deberá ser capaz de buscar y analizar información fiable para motivar la reflexión y el diálogo sobre los límites del planeta y el cambio climático, así como de evaluar críticamente la huella ecológica de las acciones humanas, para así reflexionar sobre el deber legal de cuidar el entorno y proponer soluciones valiosas que respondan especialmente a las necesidades detectadas en la Comunidad Autónoma de Canarias. Se comprobará, además, que el alumnado adquiere una perspectiva ética y biocéntrica de su relación con el entorno y que, a partir de esa convicción, genera prácticas y hábitos para el logro de los Objetivos de Desarrollo Sostenible que promueven la salud y la preservación del medioambiente y los seres vivos, relativos a conceptos como consumo responsable, uso sostenible del suelo, del aire, del agua, de la energía y residuos teniendo en cuenta el carácter insular del archipiélago canario.",
-      "broader": "materia:PVAL",
+      "broader": "asig:PVAL05",
       "agrupa": [
         "ce:PEDKC3"
       ],
@@ -128,6 +150,7 @@
         "CE3"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -137,7 +160,7 @@
       "notation": "PEDK05BC4",
       "prefLabel": "Educación en Valores Cívicos y Éticos · 5º Primaria · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado sea capaz de mantener relaciones plenas, inclusivas y satisfactorias. De acuerdo con este objetivo, se comprobará que el alumnado es capaz de expresar y gestionar equilibradamente sus emociones y reconocer y valorar las emociones de otras personas fomentando un desarrollo integral sostenible. Se contribuye así a la competencia específica, ya que se comprobará que el alumnado sea capaz de desarrollar la autoestima y la empatía para identificar, gestionar y expresar emociones y sentimientos propios de forma oral, escrita, signada o multimodal, reconociendo y valorando las de las demás personas. Para ello, el alumnado deberá ser consciente de las propias emociones, ideas y comportamientos personales, que le ayudarán a emplear estrategias para gestionar los conflictos de manera dialogada y democrática, así como desarrollar la empatía con las demás personas, establecer relaciones sociales adecuadas, armoniosas y constructivas con perspectiva de género y rechazar prejuicios y estereotipos. De esta manera, se contribuirá a su propio proyecto personal en el que está implicado el medio natural canario, los afectos, la salud, la familia, la amistad y el amor.",
-      "broader": "materia:PVAL",
+      "broader": "asig:PVAL05",
       "agrupa": [
         "ce:PEDKC4"
       ],
@@ -156,6 +179,7 @@
         "CCEC3"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -165,7 +189,7 @@
       "notation": "PEDK06BC1",
       "prefLabel": "Educación en Valores Cívicos y Éticos · 6º Primaria · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de dirigir su conducta, reconocer y gestionar sus emociones, deseos, razones y voluntades, y constituirse como persona libre y responsable, mediante el desarrollo de la autoestima, el pensamiento crítico y ético, y el fomento de la autonomía y la responsabilidad. Para ello, el alumnado deberá demostrar que es capaz de decidir y reflexionar sobre problemas de carácter ético, prestando especial atención a la diferencia entre las personas, la identidad, la dignidad e igualdad, la relevancia de la diversidad de modos de vida y los valores en el entorno canario. Se constatará, además, que el alumnado puede identificar los valores, normas y sentimientos que guían sus acciones, respetando el valor de la diversidad y fomentando el comportamiento ético en la cohesión social, la toma de decisiones y la resolución de conflictos. Todo ello, a través de la búsqueda, análisis y organización de información, evaluando la influencia y uso crítico y responsable de los medios y redes de comunicación para prevenir conductas adictivas, abusos y ciberacosos, el respeto a la intimidad, los límites a la libertad de expresión y la oposición ante cualquier forma de discriminación o violencia, y reconociendo la eco-dependencia e interdependencia como valores esenciales. Teniendo como finalidad última, que el alumnado sea capaz de generar juicios morales y alcance los fines del propio proyecto personal y colectivo.",
-      "broader": "materia:PVAL",
+      "broader": "asig:PVAL06",
       "agrupa": [
         "ce:PEDKC1"
       ],
@@ -181,6 +205,7 @@
         "CPSAA4"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -190,7 +215,7 @@
       "notation": "PEDK06BC2",
       "prefLabel": "Educación en Valores Cívicos y Éticos · 6º Primaria · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado reflexiona, desarrolla valores e infiere conductas cívicas y éticas, promoviendo una convivencia democrática, justa, respetuosa, pacífica y no sexista, basada en la toma de decisiones, la prevención y la gestión dialogada de conflictos, la promoción de la igualdad de derechos y el respeto hacia la diversidad social, de género, lingüística y étnico-cultural. Para ello, se constatará que el alumnado responde a los principios de justicia, solidaridad, seguridad y paz, a partir del análisis y las acciones de la ciudadanía, el Estado, sus instituciones, los organismos internacionales, las ONG y ONGD, especialmente aquellas que actúan en la Comunidad Autónoma de Canarias. Además, se contribuirá a la adquisición de la competencia específica ya que se comprobará que es capaz de interactuar de acuerdo a normas y valores cívicos y éticos, en contextos diversos, adoptando sus propios juicios, con autonomía y responsabilidad; analizando racionalmente conflictos cercanos en entornos presenciales y virtuales; promoviendo valores y principios constitucionales y democráticos que defiendan los derechos humanos y de la infancia, la igualdad, el respeto por las minorías, las identidades etnoculturales, la interculturalidad y las migraciones en la sociedad canaria; concienciando y sensibilizando así al alumnado sobre la importancia del enriquecimiento cultural y patrimonial a través de la sociedad, considerando la posición geoestratégica que tiene Canarias para la confluencia de las diferentes culturas. Por otro lado, esta competencia implica que el alumnado sea capaz de reconocer, gestionar y respetar las emociones, sentimientos y experiencias de los demás, a través de una educación inclusiva y sostenible, empoderando al alumnado para que pueda tomar decisiones conscientes y actuar responsablemente con respecto a la viabilidad socio-económica y la consecución de una sociedad justa para generaciones presentes y futuras, asumiendo responsabilidades individuales y colectivas. Todo ello, con la finalidad de promover un marco social de convivencia proactiva y democrática a través de la adopción de posturas críticas en procesos de reflexión guiados.",
-      "broader": "materia:PVAL",
+      "broader": "asig:PVAL06",
       "agrupa": [
         "ce:PEDKC2"
       ],
@@ -208,6 +233,7 @@
         "CCEC1"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -217,7 +243,7 @@
       "notation": "PEDK06BC3",
       "prefLabel": "Educación en Valores Cívicos y Éticos · 6º Primaria · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se constarará que el alumnado se compromete activamente con valores y prácticas consecuentes con el respeto, cuidado y protección de los seres vivos y el planeta. De acuerdo con este objetivo, se comprobará que el alumnado sea capaz de evaluar alternativas con las que frenar el cambio climático e identificar causas y problemas ecosociales, participando en actividades que promuevan un desarrollo sostenible. Se contribuye así a la competencia específica, ya que se comprobará que el alumnado sea capaz de comprender las relaciones sistemáticas entre la persona, la sociedad y la naturaleza, teniendo en cuenta los conceptos de interdependencia, ecodependencia e interrelación, iniciándose en la adopción de estilos de vida sostenible para contribuir a la conservación de la biodiversidad de Canarias como parte fundamental de su patrimonio. Para ello, el alumnado deberá ser capaz de buscar y analizar información fiable para motivar la reflexión y el diálogo sobre los límites del planeta y el cambio climático, así como de evaluar críticamente la huella ecológica de las acciones humanas, para así reflexionar sobre el deber legal de cuidar el entorno y proponer soluciones valiosas que respondan especialmente a las necesidades detectadas en la Comunidad Autónoma de Canarias. Se comprobará, además, que el alumnado adquiere una perspectiva ética y biocéntrica de su relación con el entorno y que, a partir de esa convicción, genera prácticas y hábitos para el logro de los Objetivos de Desarrollo Sostenible que promueven la salud y la preservación del medioambiente y los seres vivos, relativos a conceptos como consumo responsable, uso sostenible del suelo, del aire, del agua, de la energía y residuos teniendo en cuenta el carácter insular del archipiélago canario.",
-      "broader": "materia:PVAL",
+      "broader": "asig:PVAL06",
       "agrupa": [
         "ce:PEDKC3"
       ],
@@ -235,6 +261,7 @@
         "CE3"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -244,7 +271,7 @@
       "notation": "PEDK06BC4",
       "prefLabel": "Educación en Valores Cívicos y Éticos · 6º Primaria · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado sea capaz de mantener relaciones plenas, inclusivas y satisfactorias. De acuerdo con este objetivo, se comprobará que el alumnado es capaz de expresar y gestionar equilibradamente sus emociones y reconocer y valorar las emociones de otras personas fomentando un desarrollo integral sostenible. Se contribuye así a la competencia específica, ya que se comprobará que el alumnado sea capaz de desarrollar la autoestima y la empatía para identificar, gestionar y expresar emociones y sentimientos propios de forma oral, escrita, signada o multimodal, reconociendo y valorando las de las demás personas. Para ello, el alumnado deberá ser consciente de las propias emociones, ideas y comportamientos personales, que le ayudarán a emplear estrategias para gestionar los conflictos de manera dialogada y democrática, así como desarrollar la empatía con las demás personas, establecer relaciones sociales adecuadas, armoniosas y constructivas con perspectiva de género y rechazar prejuicios y estereotipos. De esta manera, se contribuirá a su propio proyecto personal en el que está implicado el medio natural canario, los afectos, la salud, la familia, la amistad y el amor.",
-      "broader": "materia:PVAL",
+      "broader": "asig:PVAL06",
       "agrupa": [
         "ce:PEDKC4"
       ],
@@ -263,6 +290,7 @@
         "CCEC3"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -285,6 +313,7 @@
         "CC3"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -307,6 +336,7 @@
         "CC3"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -327,6 +357,7 @@
         "CE2"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -348,6 +379,7 @@
         "CCEC1"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -366,6 +398,7 @@
         "CC3"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -386,6 +419,7 @@
         "CE2"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -410,6 +444,7 @@
         "CCEC4"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -435,6 +470,7 @@
         "CCEC4"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -461,6 +497,7 @@
         "CCEC3"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -483,6 +520,7 @@
         "CC3"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -505,6 +543,7 @@
         "CC3"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -525,6 +564,7 @@
         "CE2"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -546,6 +586,7 @@
         "CCEC1"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -564,6 +605,7 @@
         "CC3"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -584,6 +626,7 @@
         "CE2"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -608,6 +651,7 @@
         "CCEC4"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -633,6 +677,7 @@
         "CCEC4"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -659,6 +704,7 @@
         "CCEC3"
       ],
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -668,8 +714,9 @@
       "notation": "PEDK05SBI",
       "prefLabel": "PEDK05SBI · I. Autoconocimiento y autonomía moral",
       "definition": "Autoconocimiento y autonomía moral",
-      "broader": "materia:PVAL",
+      "broader": "asig:PVAL05",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -679,8 +726,9 @@
       "notation": "PEDK05SBII",
       "prefLabel": "PEDK05SBII · II. Sociedad, democracia y justicia",
       "definition": "Sociedad, democracia y justicia",
-      "broader": "materia:PVAL",
+      "broader": "asig:PVAL05",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -690,8 +738,9 @@
       "notation": "PEDK05SBIII",
       "prefLabel": "PEDK05SBIII · III. Desarrollo sostenible y ética ambiental",
       "definition": "Desarrollo sostenible y ética ambiental",
-      "broader": "materia:PVAL",
+      "broader": "asig:PVAL05",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -701,8 +750,9 @@
       "notation": "PEDK06SBI",
       "prefLabel": "PEDK06SBI · I. Autoconocimiento y autonomía moral",
       "definition": "Autoconocimiento y autonomía moral",
-      "broader": "materia:PVAL",
+      "broader": "asig:PVAL06",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -712,8 +762,9 @@
       "notation": "PEDK06SBII",
       "prefLabel": "PEDK06SBII · II. Sociedad, democracia y justicia",
       "definition": "Sociedad, democracia y justicia",
-      "broader": "materia:PVAL",
+      "broader": "asig:PVAL06",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -723,8 +774,9 @@
       "notation": "PEDK06SBIII",
       "prefLabel": "PEDK06SBIII · III. Desarrollo sostenible y ética ambiental",
       "definition": "Desarrollo sostenible y ética ambiental",
-      "broader": "materia:PVAL",
+      "broader": "asig:PVAL06",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -736,6 +788,7 @@
       "definition": "Promoción del pensamiento crítico y ético.",
       "broader": "sb:PEDK05SBI",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -747,6 +800,7 @@
       "definition": "Reconocimiento de la naturaleza humana y deliberación de la identidad personal, la igualdad y la diferencia entre las personas.",
       "broader": "sb:PEDK05SBI",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -758,6 +812,7 @@
       "definition": "Reconocimiento y gestión de las emociones y los sentimientos, con especial atención al desarrollo de la autoestima.",
       "broader": "sb:PEDK05SBI",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -769,6 +824,7 @@
       "definition": "Fomento de una educación afectivo-sexual relativa a la identidad, la diferencia y la dignidad, adaptada a su nivel madurativo.",
       "broader": "sb:PEDK05SBI",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -780,6 +836,7 @@
       "definition": "Desarrollo del juicio moral a través de la identificación de los deseos, razones y voluntades.",
       "broader": "sb:PEDK05SBI",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -791,6 +848,7 @@
       "definition": "Fomento de la autonomía y responsabilidad.",
       "broader": "sb:PEDK05SBI",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -802,6 +860,7 @@
       "definition": "Identificación de normas, virtudes y sentimientos morales a través del debate en torno a lo valioso y a los valores como guía de nuestras acciones para favorecer un comportamiento ético.",
       "broader": "sb:PEDK05SBI",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -813,6 +872,7 @@
       "definition": "Desarrollo del propio proyecto personal en el que convergen diversidad de valores, fines y modelos de vida.",
       "broader": "sb:PEDK05SBI",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -824,6 +884,7 @@
       "definition": "Conocimiento de la influencia y el uso crítico y responsable de los medios y las redes de comunicación para prevenir conductas adictivas, el abuso y el ciberacoso. Respeto a la intimidad y reconocimiento de los límites a la libertad de expresión en entornos digitales.",
       "broader": "sb:PEDK05SBI",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -835,6 +896,7 @@
       "definition": "Sociedad",
       "broader": "sb:PEDK05SBII",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -846,6 +908,7 @@
       "definition": "Valoración de la empatía, los afectos, la familia, la amistad y el amor como fundamentos de la vida en sociedad.",
       "broader": "sb:PEDK05SBII.1",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -857,6 +920,7 @@
       "definition": "Democracia",
       "broader": "sb:PEDK05SBII",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -868,6 +932,7 @@
       "definition": "Reconocimiento de las virtudes del diálogo y las normas de la argumentación para la toma democrática de decisiones.",
       "broader": "sb:PEDK05SBII.2",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -879,6 +944,7 @@
       "definition": "Comprensión de los principios y valores constitucionales y democráticos. Reflexión sobre el problema de la justicia.",
       "broader": "sb:PEDK05SBII.2",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -890,6 +956,7 @@
       "definition": "Reconocimiento de la desigualdad económica con especial atención a las características propias de la economía en Canarias.",
       "broader": "sb:PEDK05SBII.2",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -901,6 +968,7 @@
       "definition": "Uso de las reglas de convivencia acorde con la moralidad, legalidad y conducta cívica.",
       "broader": "sb:PEDK05SBII.2",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -912,6 +980,7 @@
       "definition": "Justicia",
       "broader": "sb:PEDK05SBII",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -923,6 +992,7 @@
       "definition": "Conocimiento de los derechos humanos y de la infancia y su relevancia ética.",
       "broader": "sb:PEDK05SBII.3",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -934,6 +1004,7 @@
       "definition": "Análisis de la pobreza: sus causas y búsqueda de soluciones locales y globales. La explotación infantil y la explotación laboral.",
       "broader": "sb:PEDK05SBII.3",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -945,6 +1016,7 @@
       "definition": "Promoción de la igualdad y la corresponsabilidad entre mujeres y hombres, a través de conductas no sexistas para la prevención de los abusos y la violencia de género.",
       "broader": "sb:PEDK05SBII.3",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -956,6 +1028,7 @@
       "definition": "Fomento del respeto por las minorías y las identidades etnoculturales, reconociendo la relevancia de la interculturalidad y las migraciones en la sociedad canaria.",
       "broader": "sb:PEDK05SBII.3",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -967,6 +1040,7 @@
       "definition": "Aplicación de la resolución pacífica de conflictos para fomentar la cultura de paz y no violencia.",
       "broader": "sb:PEDK05SBII.3",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -978,6 +1052,7 @@
       "definition": "Conocimiento de la contribución del Estado y sus instituciones a la paz, la seguridad y la cooperación internacional como base para la seguridad integral de la ciudadanía.",
       "broader": "sb:PEDK05SBII.3",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -989,6 +1064,7 @@
       "definition": "Potenciación de un compromiso cívico y solidario al servicio de la paz. La protección civil y la colaboración ciudadana frente a los desastres ecosociales, reconociendo el papel de las ONG y ONGD especialmente aquellas que actúan en La Comunidad Autónoma de Canarias.",
       "broader": "sb:PEDK05SBII.3",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1000,6 +1076,7 @@
       "definition": "Promoción de la empatía, el cuidado y el aprecio hacia los seres vivos y el medio natural para prevenir el maltrato animal, con especial atención a las especies endémicas y autóctonas de Canarias.",
       "broader": "sb:PEDK05SBIII",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1011,6 +1088,7 @@
       "definition": "Conocimiento de la interdependencia, ecodependencia e interrelación humana que existen en los ecosistemas y sociedades de Canarias.",
       "broader": "sb:PEDK05SBIII",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1022,6 +1100,7 @@
       "definition": "Identificación de los límites del planeta y las consecuencias del cambio climático en el entorno canario.",
       "broader": "sb:PEDK05SBIII",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1033,6 +1112,7 @@
       "definition": "Reflexión sobre el deber ético y la obligación legal de proteger y cuidar la biodiversidad del planeta.",
       "broader": "sb:PEDK05SBIII",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1044,6 +1124,7 @@
       "definition": "Desarrollo de hábitos y actividades para el logro de los Objetivos de Desarrollo Sostenible en consonancia con la Agenda Canaria de Desarrollo Sostenible 2030.",
       "broader": "sb:PEDK05SBIII",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1055,6 +1136,7 @@
       "definition": "Conocimiento de acciones específicas para el uso sostenible del aire, energía, agua y suelo , contemplando el carácter insular del archipiélago, así como la prevención y gestión de los residuos acorde a un consumo responsable.",
       "broader": "sb:PEDK05SBIII",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1066,6 +1148,7 @@
       "definition": "Fomento de la movilidad segura, saludable y sostenible en el entorno.",
       "broader": "sb:PEDK05SBIII",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL05",
       "curso": "curso:P05",
       "etapa": "etapa:PRI"
     },
@@ -1077,6 +1160,7 @@
       "definition": "Promoción del pensamiento crítico y ético.",
       "broader": "sb:PEDK06SBI",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1088,6 +1172,7 @@
       "definition": "Reconocimiento de la naturaleza humana y deliberación de la identidad personal, la igualdad y la diferencia entre las personas.",
       "broader": "sb:PEDK06SBI",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1099,6 +1184,7 @@
       "definition": "Reconocimiento y gestión de las emociones y los sentimientos, con especial atención al desarrollo de la autoestima.",
       "broader": "sb:PEDK06SBI",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1110,6 +1196,7 @@
       "definition": "Fomento de una educación afectivo-sexual relativa a la identidad, la diferencia y la dignidad, adaptada a su nivel madurativo.",
       "broader": "sb:PEDK06SBI",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1121,6 +1208,7 @@
       "definition": "Desarrollo del juicio moral a través de la identificación de los deseos, razones y voluntades.",
       "broader": "sb:PEDK06SBI",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1132,6 +1220,7 @@
       "definition": "Fomento de la autonomía y responsabilidad.",
       "broader": "sb:PEDK06SBI",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1143,6 +1232,7 @@
       "definition": "Identificación de normas, virtudes y sentimientos morales a través del debate en torno a lo valioso y a los valores como guía de nuestras acciones para favorecer un comportamiento ético.",
       "broader": "sb:PEDK06SBI",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1154,6 +1244,7 @@
       "definition": "Desarrollo del propio proyecto personal en el que convergen diversidad de valores, fines y modelos de vida.",
       "broader": "sb:PEDK06SBI",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1165,6 +1256,7 @@
       "definition": "Conocimiento de la influencia y el uso crítico y responsable de los medios y las redes de comunicación para prevenir conductas adictivas, el abuso y el ciberacoso. Respeto a la intimidad y reconocimiento de los límites a la libertad de expresión en entornos digitales.",
       "broader": "sb:PEDK06SBI",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1176,6 +1268,7 @@
       "definition": "Sociedad",
       "broader": "sb:PEDK06SBII",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1187,6 +1280,7 @@
       "definition": "Valoración de la empatía, los afectos, la familia, la amistad y el amor como fundamentos de la vida en sociedad.",
       "broader": "sb:PEDK06SBII.1",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1198,6 +1292,7 @@
       "definition": "Democracia",
       "broader": "sb:PEDK06SBII",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1209,6 +1304,7 @@
       "definition": "Reconocimiento de las virtudes del diálogo y las normas de la argumentación para la toma democrática de decisiones.",
       "broader": "sb:PEDK06SBII.2",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1220,6 +1316,7 @@
       "definition": "Comprensión de los principios y valores constitucionales y democráticos. Reflexión sobre el problema de la justicia.",
       "broader": "sb:PEDK06SBII.2",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1231,6 +1328,7 @@
       "definition": "Reconocimiento de la desigualdad económica con especial atención a las características propias de la economía en Canarias.",
       "broader": "sb:PEDK06SBII.2",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1242,6 +1340,7 @@
       "definition": "Uso de las reglas de convivencia acorde con la moralidad, legalidad y conducta cívica.",
       "broader": "sb:PEDK06SBII.2",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1253,6 +1352,7 @@
       "definition": "Justicia",
       "broader": "sb:PEDK06SBII",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1264,6 +1364,7 @@
       "definition": "Conocimiento de los derechos humanos y de la infancia y su relevancia ética.",
       "broader": "sb:PEDK06SBII.3",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1275,6 +1376,7 @@
       "definition": "Análisis de la pobreza: sus causas y búsqueda de soluciones locales y globales. La explotación infantil y la explotación laboral.",
       "broader": "sb:PEDK06SBII.3",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1286,6 +1388,7 @@
       "definition": "Promoción de la igualdad y la corresponsabilidad entre mujeres y hombres, a través de conductas no sexistas para la prevención de los abusos y la violencia de género.",
       "broader": "sb:PEDK06SBII.3",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1297,6 +1400,7 @@
       "definition": "Fomento del respeto por las minorías y las identidades etnoculturales, reconociendo la relevancia de la interculturalidad y las migraciones en la sociedad canaria.",
       "broader": "sb:PEDK06SBII.3",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1308,6 +1412,7 @@
       "definition": "Aplicación de la resolución pacífica de conflictos para fomentar la cultura de paz y no violencia.",
       "broader": "sb:PEDK06SBII.3",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1319,6 +1424,7 @@
       "definition": "Conocimiento de la contribución del Estado y sus instituciones a la paz, la seguridad y la cooperación internacional como base para la seguridad integral de la ciudadanía.",
       "broader": "sb:PEDK06SBII.3",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1330,6 +1436,7 @@
       "definition": "Potenciación de un compromiso cívico y solidario al servicio de la paz. La protección civil y la colaboración ciudadana frente a los desastres ecosociales, reconociendo el papel de las ONG y ONGD especialmente aquellas que actúan en La Comunidad Autónoma de Canarias.",
       "broader": "sb:PEDK06SBII.3",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1341,6 +1448,7 @@
       "definition": "Promoción de la empatía, el cuidado y el aprecio hacia los seres vivos y el medio natural para prevenir el maltrato animal, con especial atención a las especies endémicas y autóctonas de Canarias.",
       "broader": "sb:PEDK06SBIII",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1352,6 +1460,7 @@
       "definition": "Conocimiento de la interdependencia, ecodependencia e interrelación humana que existen en los ecosistemas y sociedades de Canarias.",
       "broader": "sb:PEDK06SBIII",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1363,6 +1472,7 @@
       "definition": "Identificación de los límites del planeta y las consecuencias del cambio climático en el entorno canario.",
       "broader": "sb:PEDK06SBIII",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1374,6 +1484,7 @@
       "definition": "Reflexión sobre el deber ético y la obligación legal de proteger y cuidar la biodiversidad del planeta.",
       "broader": "sb:PEDK06SBIII",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1385,6 +1496,7 @@
       "definition": "Desarrollo de hábitos y actividades para el logro de los Objetivos de Desarrollo Sostenible en consonancia con la Agenda Canaria de Desarrollo Sostenible 2030.",
       "broader": "sb:PEDK06SBIII",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1396,6 +1508,7 @@
       "definition": "Conocimiento de acciones específicas para el uso sostenible del aire, energía, agua y suelo , contemplando el carácter insular del archipiélago, así como la prevención y gestión de los residuos acorde a un consumo responsable.",
       "broader": "sb:PEDK06SBIII",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     },
@@ -1407,6 +1520,7 @@
       "definition": "Fomento de la movilidad segura, saludable y sostenible en el entorno.",
       "broader": "sb:PEDK06SBIII",
       "materia": "materia:PVAL",
+      "materia_curso": "asig:PVAL06",
       "curso": "curso:P06",
       "etapa": "etapa:PRI"
     }

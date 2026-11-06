@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BLCA02",
+      "tipo": "MateriaCurso",
+      "notation": "BLCA02",
+      "prefLabel": "Literatura Canaria · 2º Bachillerato",
+      "broader": "materia:BLCA",
+      "materia": "materia:BLCA",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BLCAC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BLCAC1",
@@ -67,7 +77,7 @@
       "notation": "BLCA02BC1",
       "prefLabel": "Literatura Canaria · 2º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de comprender textos y obras de distintas épocas y géneros de la literatura canaria y sobre Canarias, a partir de la lectura y la escucha guiada, activa y compartida, propiciando la comprensión de su sentido en relación con su contexto social, histórico y estético, y del lugar que ocupa dentro de la literatura canaria. A tal efecto, se reflexionará sobre la contribución de todas estas manifestaciones al proceso de construcción de una tradición insular, a través del análisis de motivos y temas (prehispánicos, clásicos y modernos) característicos de la producción literaria insular en el marco del imaginario atlántico. Para ello, mediante estrategias de análisis, interpretación, recreación y valoración crítica como audiciones, lectura, comentarios, trabajos monográficos, proyectos de investigación..., realizadas tanto de forma individual como cooperativa, se favorecerá el ejercicio de la interpretación, y el reconocimiento y la reflexión sobre su pervivencia en la producción actual, para reforzar la capacidad crítica del alumnado y contribuir gradualmente a la inclusión del legado literario de las islas en la construcción de su propio mapa cultural.",
-      "broader": "materia:BLCA",
+      "broader": "asig:BLCA02",
       "agrupa": [
         "ce:BLCAC1"
       ],
@@ -82,6 +92,7 @@
         "CCEC2"
       ],
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -91,7 +102,7 @@
       "notation": "BLCA02BC2",
       "prefLabel": "Literatura Canaria · 2º Bachillerato · bloque competencial C2",
       "scopeNote": "Con este bloque competencial se comprobará que el alumnado es capaz de leer textos y obras de la literatura de Canarias, escogidas de manera autónoma a partir de la propia investigación o de sugerencias especializadas. Partiendo de dichas lecturas, se comprobará que el alumnado, además de obtener de ellas placer y conocimiento, se interesa por participar en distintos contextos de lectura compartida o intercambio de experiencias lectoras, tanto de forma presencial (clubes de lectura, debates, encuentros, radio escolar…) como digital (foros en espacios virtuales habilitados…). En ellos deberá expresar de manera argumentada sus gustos e intereses lectores, así como transmitir su experiencia personal de lectura, utilizando un metalenguaje concreto y teniendo en consideración tanto los aspectos técnicos y estilísticos de las obras como sus valores éticos y estéticos. Asimismo, se comprobará que diversifica el corpus de sus lecturas, estableciendo vínculos entre las obras leídas, la tradición literaria y las manifestaciones culturales y sociales de la actualidad. Además, se estimulará al alumnado a que formule juicios críticos, a la vez que muestra respeto por las opiniones y las experiencias de las demás personas; a que comparta de manera reflexiva y creativa la propia experiencia lectora; a que exprese sus sentimientos y emociones; y, en definitiva, a que desarrolle procesos autorregulados de aprendizaje que le permitan consolidar su propia identidad personal y cultural.",
-      "broader": "materia:BLCA",
+      "broader": "asig:BLCA02",
       "agrupa": [
         "ce:BLCAC2"
       ],
@@ -105,6 +116,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -114,7 +126,7 @@
       "notation": "BLCA02BC3",
       "prefLabel": "Literatura Canaria · 2º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se verificará que el alumnado es capaz de adoptar el enfoque intertextual y las rutinas de indagación de la literatura comparada (la universalidad de los temas, los prejuicios y clichés, el estudio narratológico de los tipos o personajes, la teoría de los géneros y la transtextualidad), para establecer influencias, semejanzas y discrepancias argumentadas, a partir del análisis comparativo de textos literarios canarios, orales y escritos, entre sí y con otras producciones procedentes de la literatura española e hispanoamericana, así como de la literatura africana y de otras tradiciones literarias. Se comprobará en el alumnado su capacidad de análisis de la singularidad y universalidad del acervo literario de las islas, mediante la reflexión crítica sobre elementos genéricos y recursos expresivos, así como a través del establecimiento de relaciones y diálogos entre las singularidades de los textos, las obras analizadas y sus contextos sociohistóricos. Además, se potenciará una visión de la experiencia lectora y de la literatura como vehículo de aprendizaje y cultura diverso y permanente, que promueve no solo el interés y el respeto por el patrimonio literario sino también la valoración de la otredad y la multiculturalidad. Asimismo, se constatará que el alumnado recurre a su experiencia lectora y cultural para elaborar proyectos personales o colaborativos de investigación, en los que indague en las conexiones entre distintos textos, y que, a su vez, es capaz de compartir sus reflexiones en exposiciones orales, trabajos escritos, organizadores gráficos o presentaciones multimedia, entre otras, a través del desarrollo de procesos autorregulados de aprendizaje y del uso de diferentes fuentes de información, formatos y soportes, manifestando capacidad de construir y compartir interpretaciones personales, y de generar nuevo conocimiento con iniciativa y creatividad.",
-      "broader": "materia:BLCA",
+      "broader": "asig:BLCA02",
       "agrupa": [
         "ce:BLCAC3"
       ],
@@ -131,6 +143,7 @@
         "CCEC2"
       ],
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -140,7 +153,7 @@
       "notation": "BLCA02BC4",
       "prefLabel": "Literatura Canaria · 2º Bachillerato · bloque competencial C4",
       "scopeNote": "Se verificará con este bloque competencial que el alumnado es capaz de establecer comparaciones y vínculos argumentados, a partir del análisis comparativo de textos literarios canarios, orales y escritos, no solo con otras artes (cine, pintura, música, danza, cómic, novela gráfica, fotografía, arte en red…), sino también con otras disciplinas humanísticas, sociales y científicas, reconociendo y señalando las influencias, las semejanzas o las diferencias existentes entre ellas, con la finalidad de que enriquezca su bagaje artístico, social y humanístico, y de que fortalezca su visión de la literatura como un vehículo de cultura y aprendizaje diverso y permanente, entablando un diálogo con la reflexión contemporánea sobre los aspectos culturales y éticos esenciales, con especial atención a la perspectiva de género y la sostenibilidad. Asimismo, se comprobará que el alumnado recurre a su experiencia personal, lectora y cultural para elaborar proyectos personales de investigación, en los que indague en las conexiones de textos y obras con otras disciplinas ajenas al ámbito literario; y que, a su vez, es capaz de sintetizar dicha reflexión en organizadores gráficos, exposiciones orales, trabajos escritos, presentaciones multimedia…, a través del uso de diferentes fuentes de información, formatos y soportes, manifestando para ello iniciativa y creatividad.",
-      "broader": "materia:BLCA",
+      "broader": "asig:BLCA02",
       "agrupa": [
         "ce:BLCAC4"
       ],
@@ -161,6 +174,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -170,7 +184,7 @@
       "notation": "BLCA02BC5",
       "prefLabel": "Literatura Canaria · 2º Bachillerato · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial, el alumnado demostrará que, de forma individual o cooperativa, es capaz de generar con plena libertad creativa textos de diversos géneros y subgéneros (poemas, poemas en prosa, seísmos, microrrelatos, cuentos, diarios, textos biográficos y autoficcionales, monólogos, piezas teatrales, breves ensayos…), y producciones híbridas en las que confluyan distintos lenguajes artísticos y audiovisuales (viñetas gráficas, cómics, grafitis, fotopoemas, collages, bookfaces, vídeos, biopics, coreografías, composiciones musicales, performances, guiones cinematográficos, cortometrajes…), con conciencia de estilo, sentido estético y propósito literario y artístico, al tiempo que mostrando iniciativa e imaginación, y respetando las fases de planificación y aplicación del proceso creativo. A través de estas creaciones en diversos formatos (oral, papel, digital o multimedia) y de la confluencia de la expresión literaria con otras herramientas y lenguajes, se verificará que la escritura y la práctica creativa permiten al alumnado, además de compartir ideas, inquietudes, sentimientos y emociones, afianzar el autoconocimiento, la identidad y una personalidad independiente y empática, desarrollar una actitud respetuosa y sensible hacia las producciones lingüísticas, literarias y artísticas propias y ajenas, consolidar los vínculos interpersonales y, por último, integrar en ese tránsito de la recepción a la creación el bagaje adquirido a partir de la experiencia lectora de obras de la literatura canaria y sobre Canarias.",
-      "broader": "materia:BLCA",
+      "broader": "asig:BLCA02",
       "agrupa": [
         "ce:BLCAC5"
       ],
@@ -186,6 +200,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -205,6 +220,7 @@
         "CCEC1"
       ],
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -223,6 +239,7 @@
         "CCEC2"
       ],
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -244,6 +261,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -263,6 +281,7 @@
         "CCEC1"
       ],
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -286,6 +305,7 @@
         "CCEC2"
       ],
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -307,6 +327,7 @@
         "CCEC2"
       ],
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -332,6 +353,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -355,6 +377,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -365,8 +388,9 @@
       "prefLabel": "BLCA02SBI · I. Lectura y recepción literaria guiada",
       "definition": "Lectura y recepción literaria guiada",
       "scopeNote": "Construcción compartida de la interpretación de obras clásicas y recientes de la literatura canaria enmarcadas en itinerarios temáticos que permitan establecer relaciones intertextuales entre obras y fragmentos de diferentes géneros, épocas y contextos culturales, de acuerdo a los siguientes motivos, temas y estrategias:",
-      "broader": "materia:BLCA",
+      "broader": "asig:BLCA02",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -377,8 +401,9 @@
       "prefLabel": "BLCA02SBII · II. Lectura y recepción literaria autónoma",
       "definition": "Lectura y recepción literaria autónoma",
       "scopeNote": "Lectura autónoma de obras relevantes de la literatura de Canarias desarrollando las siguientes estrategias:",
-      "broader": "materia:BLCA",
+      "broader": "asig:BLCA02",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -388,8 +413,9 @@
       "notation": "BLCA02SBIII",
       "prefLabel": "BLCA02SBIII · III. Transtextualidad",
       "definition": "Transtextualidad",
-      "broader": "materia:BLCA",
+      "broader": "asig:BLCA02",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -399,8 +425,9 @@
       "notation": "BLCA02SBIV",
       "prefLabel": "BLCA02SBIV · IV. Multimodalidad",
       "definition": "Multimodalidad",
-      "broader": "materia:BLCA",
+      "broader": "asig:BLCA02",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -411,8 +438,9 @@
       "prefLabel": "BLCA02SBV · V. Creación literaria",
       "definition": "Creación literaria",
       "scopeNote": "Creación de textos de intención literaria, sentido estético y conciencia de estilo a partir de las obras leídas utilizando las convenciones del lenguaje literario.",
-      "broader": "materia:BLCA",
+      "broader": "asig:BLCA02",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -424,6 +452,7 @@
       "definition": "Motivos y temas de la literatura canaria:",
       "broader": "sb:BLCA02SBI",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -435,6 +464,7 @@
       "definition": "La isla mítica. Los viejos y los nuevos mitos: las islas Afortunadas, Dácil y Castillo, La Selva de Doramas, San Borondón, El almendro… La isla imaginaria: territorio arquetípico.",
       "broader": "sb:BLCA02SBI.1",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -446,6 +476,7 @@
       "definition": "El hecho geográfico: la «condición archipelágica». La isla como espacio insular y centro vital. La intimidad, la soledad y la angustia. El complejo de lejanía, de prisión. El destierro. Cosmopolitismo y vanguardismo. La luz: revelación surrealista y realismo mágico.",
       "broader": "sb:BLCA02SBI.1",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -457,6 +488,7 @@
       "definition": "El mar como barrera y puente. El puerto. La playa. La emigración. El mestizaje y la condición fronteriza.",
       "broader": "sb:BLCA02SBI.1",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -468,6 +500,7 @@
       "definition": "Viaje y turismo: la mirada foránea. Dependencia y rechazo de lo externo. Exotismo y souvenir.",
       "broader": "sb:BLCA02SBI.1",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -479,6 +512,7 @@
       "definition": "El paisaje canario: las ciudades y los pueblos. Costumbrismo y Regionalismo. La presencia del habla canaria en su literatura. El paisaje desde las azoteas. La ciudad como escenario de la novela negra. La búsqueda de nuevos escenarios.",
       "broader": "sb:BLCA02SBI.1",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -490,6 +524,7 @@
       "definition": "Representación de las mujeres en la literatura canaria. Autoras y personajes femeninos. Roles y sociedad. Invisibilidad y lucha. La mujer-isla.",
       "broader": "sb:BLCA02SBI.1",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -501,6 +536,7 @@
       "definition": "Estrategias de análisis, interpretación, recreación y valoración crítica:",
       "broader": "sb:BLCA02SBI",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -512,6 +548,7 @@
       "definition": "Lectura, audición, comentario y valoración crítica de obras y de textos de diferentes etapas y movimientos de la literatura canaria y sobre Canarias, en relación con su contexto histórico, cultural y estético, sin desatender a las autoras y los autores foráneos que interpretan creativamente la esencia insular.",
       "broader": "sb:BLCA02SBI.2",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -523,6 +560,7 @@
       "definition": "Comentario de textos y de obras, y valoración de su novedad y trascendencia literaria.",
       "broader": "sb:BLCA02SBI.2",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -534,6 +572,7 @@
       "definition": "Consulta y contraste de diversas fuentes de información y en distintos formatos, para la elaboración de productos (trabajos monográficos, proyectos de investigación, composición de antologías…) de forma planificada y adecuada.",
       "broader": "sb:BLCA02SBI.2",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -545,6 +584,7 @@
       "definition": "Estudio de motivos y de recurrencias significativas en la consolidación de una tradición literaria insular.",
       "broader": "sb:BLCA02SBI.2",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -556,6 +596,7 @@
       "definition": "Conciencia de la importancia de la contribución femenina a la construcción de la tradición literaria insular.",
       "broader": "sb:BLCA02SBI.2",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -567,6 +608,7 @@
       "definition": "Interés y apreciación estética de los distintos movimientos, y autores y autoras del patrimonio literario canario.",
       "broader": "sb:BLCA02SBI.2",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -578,6 +620,7 @@
       "definition": "Intercambio argumentado, asertivo y respetuoso de la experiencia lectora, utilizando un metalenguaje específico y atendiendo a aspectos temáticos, genéricos, estructurales y estilísticos, y a los valores éticos y estéticos de las obras.",
       "broader": "sb:BLCA02SBI.2",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -589,6 +632,7 @@
       "definition": "Selección personal de obras de la literatura canaria a partir de recomendaciones especializadas, y utilización autónoma y frecuente de bibliotecas y otros recursos, tanto presenciales como digitales.",
       "broader": "sb:BLCA02SBII",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -600,6 +644,7 @@
       "definition": "Participación en conversaciones literarias, intercambios de recomendaciones lectoras y otras experiencias culturales en contextos diversos.",
       "broader": "sb:BLCA02SBII",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -611,6 +656,7 @@
       "definition": "Expresión argumentada de los gustos lectores personales, diversificación del corpus leído y comunicación razonada de la experiencia lectora, utilizando un metalenguaje específico y atendiendo a aspectos temáticos, estilísticos, estéticos y, con especial hincapié, a la dimensión ética de las obras leídas.",
       "broader": "sb:BLCA02SBII",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -622,6 +668,7 @@
       "definition": "Recomendación y difusión de las lecturas realizadas en soportes variados atendiendo a aspectos temáticos, formales e intertextuales.",
       "broader": "sb:BLCA02SBII",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -633,6 +680,7 @@
       "definition": "Lectura de textos y obras de la tradición canaria y de otras tradiciones literarias que presenten vínculos lingüísticos, genéricos, temáticos o geográficos con la literatura canaria (española, hispanoamericana, africana…).",
       "broader": "sb:BLCA02SBIII",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -644,6 +692,7 @@
       "definition": "Aproximación a los métodos de análisis de la literatura comparada aplicados a textos literarios de la literatura canaria y de otras tradiciones (la universalidad de los temas, los prejuicios y clichés, el estudio narratológico de los tipos o personajes, la teoría de los géneros, la intertextualidad y la transtextualidad).",
       "broader": "sb:BLCA02SBIII",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -655,6 +704,7 @@
       "definition": "Conciencia de la singularidad y universalidad del acervo literario de las islas.",
       "broader": "sb:BLCA02SBIII",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -666,6 +716,7 @@
       "definition": "Interés y respeto por el patrimonio literario de otras tradiciones, y valoración de la multiculturalidad.",
       "broader": "sb:BLCA02SBIII",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -677,6 +728,7 @@
       "definition": "Consulta y contraste de diversas fuentes de información y en distintos formatos, para la elaboración de productos (trabajos monográficos, proyectos de investigación, composición de antologías…), de forma planificada y adecuada.",
       "broader": "sb:BLCA02SBIII",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -688,6 +740,7 @@
       "definition": "Aproximación a la narrativa gráfica hecha en Canarias.",
       "broader": "sb:BLCA02SBIV",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -699,6 +752,7 @@
       "definition": "Valoración de las relaciones de la literatura canaria con otras tradiciones orales presentes en Canarias como las del verseo, el punto cubano y la improvisación, que confluyen con la música y aparecen con frecuencia integradas en diversos festivales y encuentros",
       "broader": "sb:BLCA02SBIV",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -710,6 +764,7 @@
       "definition": "Análisis de textos literarios desde una perspectiva interdisciplinar.",
       "broader": "sb:BLCA02SBIV",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -721,6 +776,7 @@
       "definition": "Movilización de la experiencia personal, lectora y cultural para establecer vínculos argumentados entre las obras leídas y aspectos de la actualidad y otras manifestaciones literarias o artísticas.5. Consulta y contraste de diversas fuentes de información y en distintos formatos, para la elaboración de productos (trabajos monográficos, proyectos de investigación, composición de antologías…), de forma planificada y adecuada.6. Desarrollo del bagaje artístico, humanístico, social y científico, a través de la lectura de artículos, ensayos u obras de referencia.",
       "broader": "sb:BLCA02SBIV",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -732,6 +788,7 @@
       "definition": "Planificación y aplicación de las fases del proceso creativo.",
       "broader": "sb:BLCA02SBV",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -743,6 +800,7 @@
       "definition": "Empleo consciente y estético de la lengua.",
       "broader": "sb:BLCA02SBV",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -754,6 +812,7 @@
       "definition": "Desarrollo de la experimentación y de la capacidad artística favoreciendo el tránsito de la recepción a la creación.",
       "broader": "sb:BLCA02SBV",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -765,6 +824,7 @@
       "definition": "Generación y presentación de creaciones artísticas y literarias en diversos soportes con plena libertad creativa.",
       "broader": "sb:BLCA02SBV",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -776,6 +836,7 @@
       "definition": "Desarrollo del autoconocimiento, de las habilidades comunicativas y de la autoestima a través de la creación literaria.",
       "broader": "sb:BLCA02SBV",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -787,6 +848,7 @@
       "definition": "Afianzamiento de una actitud respetuosa y sensible hacia las producciones lingüísticas, literarias y artísticas propias y ajenas.",
       "broader": "sb:BLCA02SBV",
       "materia": "materia:BLCA",
+      "materia_curso": "asig:BLCA02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     }

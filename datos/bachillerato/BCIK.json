@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BCIK02",
+      "tipo": "MateriaCurso",
+      "notation": "BCIK02",
+      "prefLabel": "Ciencias Generales · 2º Bachillerato",
+      "broader": "materia:BCIK",
+      "materia": "materia:BCIK",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BCIKC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BCIKC1",
@@ -77,7 +87,7 @@
       "notation": "BCIK02BC1",
       "prefLabel": "Ciencias Generales · 2º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se pretende evaluar que el alumnado es capaz de plantear hipótesis de forma colaborativa acerca de procesos físicos, químicos, biológicos, geológicos o ambientales del entorno, relacionados con cualquiera de los bloques de saberes básicos de la materia, y de contrastarlas mediante la observación del entorno a través de salidas de campo, animaciones o simulaciones, la experimentación en el laboratorio o en entornos virtuales y la localización y selección de información en fuentes diversas (webs, artículos científicos y divulgativos…), aplicando las metodologías propias de la ciencia, así como el razonamiento matemático, respetando las normas de seguridad correspondientes y utilizando con precisión procedimientos, materiales e instrumentos adecuados. Asimismo, se pretende constatar que el alumnado comunica y comparte los resultados y el procedimiento seguido, siendo consciente de que las respuestas a procesos físicos, químicos, biológicos y geológicos son complejas y necesitan de modelos contrastados y en constante revisión y validación, a través de herramientas, aplicaciones y servicios en línea, utilizando diversos formatos (informes, murales, artículos, pódcast…), de manera clara, rigurosa y de acuerdo a los principios éticos básicos, pero adoptando un punto de vista creativo e innovador para contribuir a la divulgación científica, y hacer accesible la información a toda la comunidad educativa, adquiriendo, de esta forma, un compromiso con la mejora del entorno y de la sociedad y con la difusión del patrimonio natural canario.",
-      "broader": "materia:BCIK",
+      "broader": "asig:BCIK02",
       "agrupa": [
         "ce:BCIKC1"
       ],
@@ -93,6 +103,7 @@
         "CCL1"
       ],
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -102,7 +113,7 @@
       "notation": "BCIK02BC2",
       "prefLabel": "Ciencias Generales · 2º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado es capaz de analizar y explicar con fluidez, coherencia y corrección, basándose en los principios, leyes y teorías científicas fundamentales, y a partir de la interpretación de información de fuentes diversas, cómo y por qué suceden los procesos y fenómenos fisicoquímicos, biológicos, geológicos y ambientales del entorno, representándolos mediante expresiones, tablas, gráficas, modelos, simulaciones, diagramas u otros formatos y compartiendo las conclusiones de forma argumentada y respetuosa con el resto. Asimismo, se pretende evaluar si el alumnado utiliza el pensamiento científico para explicar los elementos y procesos básicos de la biosfera y la geosfera (relación entre procesos geológicos externos e internos, características de los seres vivos y sus adaptaciones, relaciones de interdependencia y relaciones tróficas, riesgos naturales, intercambios de energía y de materia, circulación de la materia, riesgos geológicos, etc.), basándose en el estudio, realizado en un contexto de cooperación, de diferentes ecosistemas del entorno a partir de la observación, interpretación y análisis de datos e información obtenida de imágenes 360º, fotografías aéreas, vídeos, salidas de campo o visitas virtuales, así como de la consulta de fuentes de información variadas (libros, periódicos, revistas, webs…). Se comprobará, también, si el alumnado comparte el conocimiento adquirido mediante exposiciones verbales, escritas o multimodales en diversos soportes, apoyándose en las tecnologías digitales y empleando el vocabulario científico adecuado. Finalmente, se pretende verificar que el alumnado reconoce y valora la variedad y riqueza de los ecosistemas canarios, proponiendo estrategias para su cuidado, conservación y protección. Todo ello con la finalidad esencial de aprender a relacionar conceptos, adquirir una visión holística del funcionamiento del medio natural y adoptar un enfoque global de las ciencias como un todo integrado.",
-      "broader": "materia:BCIK",
+      "broader": "asig:BCIK02",
       "agrupa": [
         "ce:BCIKC2"
       ],
@@ -115,6 +126,7 @@
         "CPSAA1.1"
       ],
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -124,7 +136,7 @@
       "notation": "BCIK02BC3",
       "prefLabel": "Ciencias Generales · 2º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado es capaz de argumentar, basándose en fundamentos científicos y de la fisiología humana, sobre la importancia de mantener estilos de vida ecosocialmente sostenibles y saludables, así como analizar y valorar con actitud crítica, a partir de datos e información recabada de fuentes diversas, las consecuencias sobre la salud (diabetes, obesidad, estrés, fatiga mental, hipertensión, osteoporosis, hipercolesterolemia, entre otras) y sobre el medioambiente (calentamiento global, agujero de la capa de ozono, destrucción de los espacios naturales, pérdida de la biodiversidad, contaminación del aire y el agua, desertificación…) derivadas de las acciones humanas, con el fin de comprender la relación entre la salud, la conservación del medioambiente y el desarrollo económico y social, y convertirse ́así en personas comprometidas y críticas con los problemas de su tiempo. Igualmente, se pretende evaluar que el alumnado adopta y promueve en su entorno hábitos saludables (dieta equilibrada, higiene, vacunación, uso adecuado de antibióticos, rechazo al consumo de drogas —legales e ilegales—, ejercicio físico, higiene del sueño, posturas adecuadas…) y compatibles con un modelo de desarrollo sostenible como única alternativa posible para el logro de los Objetivos de Desarrollo Sostenible (ODS) y de la Agenda Canaria 2030, mediante la elaboración de forma cooperativa de contenidos en diferentes formatos (pódcast, murales, vídeos, informes, artículos divulgativos, folletos…) y su posterior difusión a través de programas de radio, campañas de concienciación, redes sociales, mesas redondas, etc., contribuyendo al mantenimiento y mejora de la salud física y mental y la calidad de vida, individual y colectiva.",
-      "broader": "materia:BCIK",
+      "broader": "asig:BCIK02",
       "agrupa": [
         "ce:BCIKC3"
       ],
@@ -138,6 +150,7 @@
         "CCEC1"
       ],
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -147,7 +160,7 @@
       "notation": "BCIK02BC4",
       "prefLabel": "Ciencias Generales · 2º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se valorará que el alumnado es capaz de resolver problemas relacionados con fenómenos y procesos físicos, químicos, biológicos y geológicos que se engloban en los diferentes bloques de saberes básicos mediante la aplicación del pensamiento científico, movilizando los conocimientos sobre la materia, las actitudes para afrontar positivamente los retos y las destrezas para el razonamiento lógico matemático, en su objetivo de encontrar soluciones, concluyendo que puede llegar a los mismos resultados utilizando diferentes herramientas y estrategias fiables y contrastadas. Asimismo, se comprobará que ante la aparición o aportación de nuevos datos, o tras el análisis crítico de las soluciones encontradas cuando estas no son viables, carecen de sentido o son contradictorias, modifica las conclusiones alcanzadas o las estrategias de resolución empleadas, reformulando el procedimiento si fuera necesario, considerando el error como una herramienta para descartar líneas de trabajo y como una manera de aprender en la que se mejoran la autocrítica y la resiliencia, para adaptarse a entornos cambiantes y aportar soluciones a los retos locales y globales de diferentes tipos de situaciones a las que se enfrentará a lo largo de su vida personal, social y profesional, permitiéndole madurar intelectualmente.",
-      "broader": "materia:BCIK",
+      "broader": "asig:BCIK02",
       "agrupa": [
         "ce:BCIKC4"
       ],
@@ -161,6 +174,7 @@
         "CE1"
       ],
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -170,7 +184,7 @@
       "notation": "BCIK02BC5",
       "prefLabel": "Ciencias Generales · 2º Bachillerato · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se persigue constatar si el alumnado es capaz de percibir el carácter interdisciplinar de la ciencia y establecer las relaciones que existen entre las diferentes disciplinas del conocimiento y el progreso de la sociedad en general, y de la canaria en particular, poniendo en valor el papel que juegan las personas que se dedican a la misma y analizando su contribución con perspectiva de género. También se comprobará que entiende que la ciencia es un proceso colectivo y de interrelación entre las diferentes áreas del saber, que está en continua construcción y que se refleja en un desarrollo holístico de la investigación, con la finalidad de despertar las vocaciones científicas en el alumnado, especialmente entre las mujeres, para que ejerza una ciudadanía justa con las generaciones presentes y futuras, desde la conciencia de poseer un acervo científico rico en temas tan variados como los retos medioambientales, el modelo de desarrollo sostenible, la preservación de la salud propia y colectiva, la seguridad vial, etc.",
-      "broader": "materia:BCIK",
+      "broader": "asig:BCIK02",
       "agrupa": [
         "ce:BCIKC5"
       ],
@@ -185,6 +199,7 @@
         "CCEC1"
       ],
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -194,7 +209,7 @@
       "notation": "BCIK02BC6",
       "prefLabel": "Ciencias Generales · 2º Bachillerato · bloque competencial C6",
       "scopeNote": "A través de este bloque competencial se comprobará si el alumnado es capaz de realizar búsquedas avanzadas y seleccionar información relacionada con fenómenos y procesos físicos, químicos, biológicos o geológicos en fuentes variadas (trabajos y publicaciones científicas disponibles a través de internet, páginas web, vídeos, etc.) y en diferentes formatos (imágenes, modelos, gráficos, tablas, diagramas, fórmulas, esquemas u otros), aplicando criterios de validez, pertinencia, calidad, actualidad y fiabilidad, organizándola en función de sus objetivos. También se constatará que es capaz de interpretarla y transmitirla durante la realización de actividades, la resolución de problemas o el desarrollo de proyectos científicos vinculados a cualquiera de los bloques de saberes básicos, y obtener conclusiones argumentadas con criterio propio. Además, se valorará si plantea y desarrolla estrategias propias del trabajo colaborativo en las actividades emprendidas, escogiendo aquellos recursos tecnológicos que favorezcan la comunicación, la transmisión de información y la eficacia del equipo al propiciar no solo la participación de todas las personas y la distribución de las tareas y responsabilidades de manera ecuánime, sino la confrontación dialogada desde el respeto a la pluralidad de valores, creencias e ideas, el rechazo a todo tipo de violencia y discriminación, así como la promoción de la igualdad efectiva entre mujeres y hombres.",
-      "broader": "materia:BCIK",
+      "broader": "asig:BCIK02",
       "agrupa": [
         "ce:BCIKC6"
       ],
@@ -209,6 +224,7 @@
         "CC3"
       ],
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -226,6 +242,7 @@
         "STEM3"
       ],
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -248,6 +265,7 @@
         "CE1"
       ],
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -265,6 +283,7 @@
         "CD3"
       ],
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -285,6 +304,7 @@
         "CPSAA1.1"
       ],
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -303,6 +323,7 @@
         "STEM2"
       ],
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -322,6 +343,7 @@
         "CPSAA1.1"
       ],
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -343,6 +365,7 @@
         "CCEC1"
       ],
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -362,6 +385,7 @@
         "CPSAA2"
       ],
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -381,6 +405,7 @@
         "CC3"
       ],
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -401,6 +426,7 @@
         "CE1"
       ],
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -420,6 +446,7 @@
         "CC1"
       ],
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -442,6 +469,7 @@
         "CCEC1"
       ],
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -461,6 +489,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -479,6 +508,7 @@
         "CC3"
       ],
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -488,8 +518,9 @@
       "notation": "BCIK02SBI",
       "prefLabel": "BCIK02SBI · I. Construyendo ciencia",
       "definition": "Construyendo ciencia",
-      "broader": "materia:BCIK",
+      "broader": "asig:BCIK02",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -499,8 +530,9 @@
       "notation": "BCIK02SBII",
       "prefLabel": "BCIK02SBII · II. Un universo de materia y energía",
       "definition": "Un universo de materia y energía",
-      "broader": "materia:BCIK",
+      "broader": "asig:BCIK02",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -510,8 +542,9 @@
       "notation": "BCIK02SBIII",
       "prefLabel": "BCIK02SBIII · III. El sistema Tierra",
       "definition": "El sistema Tierra",
-      "broader": "materia:BCIK",
+      "broader": "asig:BCIK02",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -521,8 +554,9 @@
       "notation": "BCIK02SBIV",
       "prefLabel": "BCIK02SBIV · IV. Biología para el siglo XXI",
       "definition": "Biología para el siglo XXI",
-      "broader": "materia:BCIK",
+      "broader": "asig:BCIK02",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -532,8 +566,9 @@
       "notation": "BCIK02SBV",
       "prefLabel": "BCIK02SBV · V. Las fuerzas que nos mueven",
       "definition": "Las fuerzas que nos mueven",
-      "broader": "materia:BCIK",
+      "broader": "asig:BCIK02",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -545,6 +580,7 @@
       "definition": "Uso de metodologías propias de la investigación científica para la identificación y formulación de cuestiones, la elaboración de hipótesis y la comprobación experimental de las mismas.",
       "broader": "sb:BCIK02SBI",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -556,6 +592,7 @@
       "definition": "Planificación y realización de experimentos y proyectos de investigación utilizando el instrumental adecuado, controles experimentales y el razonamiento lógico-matemático. Empleo de métodos de análisis de los resultados obtenidos en la resolución de cuestiones y problemas científicos relacionados con el entorno.",
       "broader": "sb:BCIK02SBI",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -567,6 +604,7 @@
       "definition": "Uso de fuentes veraces y medios de colaboración para la búsqueda y selección de información científica en diferentes formatos y con herramientas adecuadas.",
       "broader": "sb:BCIK02SBI",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -578,6 +616,7 @@
       "definition": "Interpretación de información científica y comunicación utilizando un lenguaje y vocabulario adecuado. Desarrollo del criterio propio basado en la evidencia y el razonamiento.",
       "broader": "sb:BCIK02SBI",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -589,6 +628,7 @@
       "definition": "Valoración de la contribución de los científicos y las científicas a los principales hitos de la ciencia para el avance y la mejora de la sociedad. Indagación sobre los principales centros de investigación de Canarias y figuras referentes de la ciencia canaria, especialmente científicas canarias, a lo largo de la historia y en la actualidad.",
       "broader": "sb:BCIK02SBI",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -600,6 +640,7 @@
       "definition": "Conocimiento y descripción de sistemas materiales macroscópicos haciendo uso de modelos microscópicos para analizar sus propiedades y sus estados de agregación, así como de los procesos físicos y químicos de cambio.",
       "broader": "sb:BCIK02SBII",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -611,6 +652,7 @@
       "definition": "Clasificación de los sistemas materiales en función de su composición, y su aplicación a la descripción de los sistemas naturales y a la resolución de problemas relacionados para encontrar soluciones a los retos locales y globales.",
       "broader": "sb:BCIK02SBII",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -622,6 +664,7 @@
       "definition": "Justificación de la relación de la estructura interna de la materia con las regularidades que se producen en la tabla periódica y su implicación en la formación de compuestos químicos. Reconocimiento de su importancia histórica y actual.",
       "broader": "sb:BCIK02SBII",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -633,6 +676,7 @@
       "definition": "Manejo de la nomenclatura de los compuestos químicos según las normas de la IUPAC como fundamento de una alfabetización científica básica que permita establecer una comunicación eficiente con toda la comunidad científica.",
       "broader": "sb:BCIK02SBII",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -644,6 +688,7 @@
       "definition": "Los cambios químicos.",
       "broader": "sb:BCIK02SBII",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -655,6 +700,7 @@
       "definition": "Análisis de los diferentes tipos de cambios químicos que experimentan los sistemas materiales y de las leyes que los rigen.",
       "broader": "sb:BCIK02SBII.5",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -666,6 +712,7 @@
       "definition": "Realización de cálculos estequiométricos con reactivos en distintos estados de agregación y grado de pureza para relacionar y valorar su importancia en los procesos industriales, medioambientales y sociales.",
       "broader": "sb:BCIK02SBII.5",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -677,6 +724,7 @@
       "definition": "Análisis de la energía contenida en un sistema, sus propiedades y sus manifestaciones.",
       "broader": "sb:BCIK02SBII",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -688,6 +736,7 @@
       "definition": "Aplicación del principio de conservación de la energía mecánica y de los procesos termodinámicos más relevantes a situaciones de la vida cotidiana.",
       "broader": "sb:BCIK02SBII.6",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -699,6 +748,7 @@
       "definition": "Resolución de problemas relacionados con el consumo energético para comprender la necesidad de un desarrollo sostenible en el planeta y, en particular, en Canarias.",
       "broader": "sb:BCIK02SBII.6",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -710,6 +760,7 @@
       "definition": "Identificación y explicación de las principales teorías sobre el origen del universo, del sistema solar y de la Tierra: relación con sus características.",
       "broader": "sb:BCIK02SBIII",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -721,6 +772,7 @@
       "definition": "Descripción de la forma y movimientos de la Tierra y la Luna y sus efectos.",
       "broader": "sb:BCIK02SBIII",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -732,6 +784,7 @@
       "definition": "Comparación entre las hipótesis más destacadas acerca del origen de la vida en la Tierra. Reflexión sobre la posibilidad de vida en otros planetas.",
       "broader": "sb:BCIK02SBIII",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -743,6 +796,7 @@
       "definition": "La geosfera.",
       "broader": "sb:BCIK02SBIII",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -754,6 +808,7 @@
       "definition": "Análisis de la estructura, composición y dinámica de la geosfera.",
       "broader": "sb:BCIK02SBIII.4",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -765,6 +820,7 @@
       "definition": "Relación entre los procesos geológicos internos y externos.",
       "broader": "sb:BCIK02SBIII.4",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -776,6 +832,7 @@
       "definition": "Explicación de la teoría de la tectónica de placas y su relación en el origen de Canarias.",
       "broader": "sb:BCIK02SBIII.4",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -787,6 +844,7 @@
       "definition": "Predicción y prevención de los riesgos geológicos, generales y locales, y su papel en el mantenimiento del paisaje y la supervivencia de los seres vivos.",
       "broader": "sb:BCIK02SBIII.4",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -798,6 +856,7 @@
       "definition": "Estudio de las funciones, dinámica e interacción de las capas fluidas de la Tierra con la superficie terrestre y los seres vivos en la edafogénesis.",
       "broader": "sb:BCIK02SBIII",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -809,6 +868,7 @@
       "definition": "Dinámica de los ecosistemas.",
       "broader": "sb:BCIK02SBIII",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -820,6 +880,7 @@
       "definition": "Explicación del concepto de ecosistema.",
       "broader": "sb:BCIK02SBIII.6",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -831,6 +892,7 @@
       "definition": "Relación entre los componentes bióticos y abióticos.",
       "broader": "sb:BCIK02SBIII.6",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -842,6 +904,7 @@
       "definition": "Descripción de los flujos de energía y ciclos de la materia.",
       "broader": "sb:BCIK02SBIII.6",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -853,6 +916,7 @@
       "definition": "Análisis de las relaciones de interdependencia y relaciones tróficas.",
       "broader": "sb:BCIK02SBIII.6",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -864,6 +928,7 @@
       "definition": "Resolución de problemas relacionados.",
       "broader": "sb:BCIK02SBIII.6",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -875,6 +940,7 @@
       "definition": "Valoración de la variedad y riqueza de los ecosistemas canarios. Planificación de estrategias para su cuidado, conservación y protección.",
       "broader": "sb:BCIK02SBIII.6",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -886,6 +952,7 @@
       "definition": "Los seres vivos como componentes bióticos del ecosistema.",
       "broader": "sb:BCIK02SBIII",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -897,6 +964,7 @@
       "definition": "Clasificación de los seres vivos en los principales reinos basándose en sus características.",
       "broader": "sb:BCIK02SBIII.7",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -908,6 +976,7 @@
       "definition": "Interpretación y comparación de las adaptaciones de los seres vivos a diferentes medios. Principales adaptaciones al medio de la flora y fauna canarias.",
       "broader": "sb:BCIK02SBIII.7",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -919,6 +988,7 @@
       "definition": "Identificación y análisis de las causas y consecuencias de los principales problemas medioambientales (calentamiento global, agujero de la capa de ozono, destrucción de los espacios naturales, pérdida de la biodiversidad, contaminación del aire y el agua, desertificación…) y riesgos geológicos, con especial atención a aquellos que afectan al archipiélago canario.",
       "broader": "sb:BCIK02SBIII",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -930,6 +1000,7 @@
       "definition": "El modelo de desarrollo sostenible.",
       "broader": "sb:BCIK02SBIII",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -941,6 +1012,7 @@
       "definition": "Definición de modelo de desarrollo sostenible y valoración de su implantación como única alternativa posible para el logro de los objetivos de desarrollo sostenible (ODS) de la Agenda Canaria 2030.",
       "broader": "sb:BCIK02SBIII.9",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -952,6 +1024,7 @@
       "definition": "Clasificación de los recursos naturales en renovables y no renovables: importancia de su uso y explotación responsables.",
       "broader": "sb:BCIK02SBIII.9",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -963,6 +1036,7 @@
       "definition": "Identificación y descripción de los tipos de energías renovables.",
       "broader": "sb:BCIK02SBIII.9",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -974,6 +1048,7 @@
       "definition": "Búsqueda de información sobre la prevención y la gestión de residuos en Canarias.",
       "broader": "sb:BCIK02SBIII.9",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -985,6 +1060,7 @@
       "definition": "Definición, aplicación y beneficios de la economía circular.",
       "broader": "sb:BCIK02SBIII.9",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -996,6 +1072,7 @@
       "definition": "Relación entre la conservación medioambiental, la salud humana y el desarrollo económico de la sociedad. Reflexión sobre el concepto one health (una sola salud).",
       "broader": "sb:BCIK02SBIII",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1007,6 +1084,7 @@
       "definition": "Salud y enfermedad.",
       "broader": "sb:BCIK02SBIII",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1018,6 +1096,7 @@
       "definition": "Investigación acerca de las causas, prevención y tratamiento de las enfermedades infecciosas y no infecciosas, enfermedades transmisibles entre personas y animales (zoonosis) y pandemias.",
       "broader": "sb:BCIK02SBIII.11",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1029,6 +1108,7 @@
       "definition": "Comprensión del mecanismo y la importancia de las vacunas y del uso adecuado de los antibióticos.",
       "broader": "sb:BCIK02SBIII.11",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1040,6 +1120,7 @@
       "definition": "Las biomoléculas.",
       "broader": "sb:BCIK02SBIV",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1051,6 +1132,7 @@
       "definition": "Identificación de las principales biomoléculas (glúcidos, lípidos, proteínas y ácidos nucleicos) atendiendo a las unidades básicas que las constituyen.",
       "broader": "sb:BCIK02SBIV.1",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1062,6 +1144,7 @@
       "definition": "Descripción de su estructura básica, relacionándola con sus funciones e importancia biológica.",
       "broader": "sb:BCIK02SBIV.1",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1073,6 +1156,7 @@
       "definition": "Valoración de la importancia de las biomoléculas en la salud. Adopción y mantenimiento de estilos de vida saludables.",
       "broader": "sb:BCIK02SBIV.1",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1084,6 +1168,7 @@
       "definition": "Diferenciación y descripción de los procesos implicados en la expresión de la información genética. Reconocimiento de las características básicas del código genético e importancia de su función biológica.",
       "broader": "sb:BCIK02SBIV",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1095,6 +1180,7 @@
       "definition": "Identificación y descripción de las técnicas de ingeniería genética: PCR, enzimas de restricción, clonación molecular y CRISPR-CAS9. Análisis de las posibilidades de la manipulación dirigida del ADN.",
       "broader": "sb:BCIK02SBIV",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1106,6 +1192,7 @@
       "definition": "Valoración de las aplicaciones y repercusiones de la biotecnología en la agricultura, la ganadería, la medicina o la recuperación medioambiental, destacando el papel de los microorganismos.",
       "broader": "sb:BCIK02SBIV",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1117,6 +1204,7 @@
       "definition": "Resolución de problemas de herencia genética de caracteres con relación de codominancia, dominancia incompleta, alelismo múltiple y ligada al sexo con uno o dos genes. Análisis de la probabilidad de herencia de alelos o de la manifestación de fenotipos.",
       "broader": "sb:BCIK02SBIV",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1128,6 +1216,7 @@
       "definition": "Identificación y análisis de las fuerzas fundamentales de la naturaleza y su aplicación a los fenómenos electromagnéticos, gravitatorios o nucleares para comprender los procesos físicos más relevantes del entorno natural.",
       "broader": "sb:BCIK02SBV",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1139,6 +1228,7 @@
       "definition": "Conocimiento y aplicación de las leyes de la estática para analizar diferentes estructuras del entorno natural que guardan relación con la física, la biología, la geología o la ingeniería.",
       "broader": "sb:BCIK02SBV",
       "materia": "materia:BCIK",
+      "materia_curso": "asig:BCIK02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     }

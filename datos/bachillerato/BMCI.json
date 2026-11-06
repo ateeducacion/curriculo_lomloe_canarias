@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BMCI01",
+      "tipo": "MateriaCurso",
+      "notation": "BMCI01",
+      "prefLabel": "Matemáticas aplicadas a las ciencias sociales I · 1º Bachillerato",
+      "broader": "materia:BMCI",
+      "materia": "materia:BMCI",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BMCIC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BMCIC1",
@@ -107,7 +117,7 @@
       "notation": "BMCI01BC1",
       "prefLabel": "Matemáticas aplicadas a las ciencias sociales I · 1º Bachillerato · bloque competencial C1 + C2",
       "scopeNote": "A través de este bloque competencial se persigue que el alumnado sea capaz de modelizar y resolver, de forma autónoma, problemas de la vida cotidiana y de las ciencias sociales de cualquiera de los bloques de los saberes básicos, haciendo uso de diferentes tecnologías digitales —como calculadoras, hojas de cálculo, programas de representación gráfica o geometría dinámica, entre otras—, seleccionando la más adecuada en función de la tarea y describiendo de forma oral, escrita o gráfica el proceso realizado. Para ello se comprobará que el alumnado selecciona los datos u objetos relevantes de un problema, identifica sus relaciones y los codifica al lenguaje matemático o a un lenguaje fácil de interpretar por un sistema informático. Además, se evaluará que emplea diferentes estrategias para su resolución, como la analogía con otros problemas, estimación, ensayo y error, resolución de manera inversa (ir hacia atrás), la descomposición en problemas más sencillos, búsqueda de patrones o generalización, entre otras, analizando su eficiencia en cada caso. También se persigue que el alumnado sea capaz de obtener todas las soluciones posibles de un problema, comprobar la validez matemática de dichas soluciones, así como seleccionar de entre ellas las más adecuadas en función del contexto, valorando su alcance.",
-      "broader": "materia:BMCI",
+      "broader": "asig:BMCI01",
       "agrupa": [
         "ce:BMCIC1",
         "ce:BMCIC2"
@@ -127,6 +137,7 @@
         "CC3"
       ],
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -136,7 +147,7 @@
       "notation": "BMCI01BC3",
       "prefLabel": "Matemáticas aplicadas a las ciencias sociales I · 1º Bachillerato · bloque competencial C3 + C4",
       "scopeNote": "A través de este bloque competencial se pretende que el alumnado, empleando métodos inductivos, deductivos y lógicos, propios del razonamiento matemático, sea capaz de formular e investigar conjeturas y problemas de forma guiada, integrando el uso de herramientas tecnológicas digitales y utilizando varias fuentes de información. También se propiciará que se pueda verificar que el alumnado es capaz de plantear y comprobar hipótesis, confirmando su validez mediante la observación, la experimentación y la indagación, buscando mejorar su destreza para interpretar, modelizar fenómenos y resolver problemas. Asimismo, se podrá comprobar, a través de esas situaciones problematizadas, que el alumnado sabe utilizar de forma eficaz el pensamiento computacional para descomponer un problema en partes más simples, que lo codifica en un lenguaje apropiado y fácil de interpretar por un sistema informático, y también que puede modificar y crear algoritmos en situaciones sencillas, todo lo cual favorecerá el desarrollo de un pensamiento más diverso y flexible con el que podrá construir su propio conocimiento y mejorar su capacidad de reflexión y de superación.",
-      "broader": "materia:BMCI",
+      "broader": "asig:BMCI01",
       "agrupa": [
         "ce:BMCIC3",
         "ce:BMCIC4"
@@ -155,6 +166,7 @@
         "STEM3"
       ],
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -164,7 +176,7 @@
       "notation": "BMCI01BC5",
       "prefLabel": "Matemáticas aplicadas a las ciencias sociales I · 1º Bachillerato · bloque competencial C5 + C6",
       "scopeNote": "Se persigue con este bloque competencial constatar que el alumnado es capaz de investigar y utilizar el pensamiento científico para conectar las diferentes ideas matemáticas por medio del uso de tecnologías digitales, así como establecer y aplicar las relaciones existentes entre las matemáticas y otras áreas del conocimiento, y analizar la aportación de las matemáticas al progreso de la humanidad, realizando para ello búsquedas avanzadas en internet, con lo que conseguirá, a su vez, interrelacionar conceptos y procedimientos, con el objetivo de modelizar y resolver problemas enmarcados en las ciencias sociales y en la vida cotidiana.",
-      "broader": "materia:BMCI",
+      "broader": "asig:BMCI01",
       "agrupa": [
         "ce:BMCIC5",
         "ce:BMCIC6"
@@ -185,6 +197,7 @@
         "CCEC1"
       ],
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -194,7 +207,7 @@
       "notation": "BMCI01BC7",
       "prefLabel": "Matemáticas aplicadas a las ciencias sociales I · 1º Bachillerato · bloque competencial C7 + C8",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de representar y comunicar, de forma individual y colectiva, ideas, conceptos, procedimientos, conclusiones, conjeturas y razonamientos asociados a cualquiera de los bloques de saberes básicos, usando el lenguaje oral, escrito o multimodal, con veracidad, claridad y con la terminología apropiada, seleccionando, utilizando o combinando las formas de representación matemática (gráficas, tablas, diagramas, fórmulas, esquemas, símbolos, etc.) y las tecnologías digitales más adecuadas para cada tarea, apoyándose en diversos medios y soportes en su presentación. Asimismo, se evaluará que el alumnado reconoce y emplea el lenguaje matemático presente en la vida cotidiana y en diferentes contextos.",
-      "broader": "materia:BMCI",
+      "broader": "asig:BMCI01",
       "agrupa": [
         "ce:BMCIC7",
         "ce:BMCIC8"
@@ -217,6 +230,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -226,7 +240,7 @@
       "notation": "BMCI01BC9",
       "prefLabel": "Matemáticas aplicadas a las ciencias sociales I · 1º Bachillerato · bloque competencial C9",
       "scopeNote": "A través de este bloque competencial se persigue que el alumnado utilice destrezas personales que le permitan reflexionar sobre sus fortalezas y debilidades para afrontar las situaciones de incertidumbre y enfrentarse a ellas. Además, se comprobará que utiliza destrezas sociales para participar en las tareas del equipo de forma constructiva y empática, gestionando las decisiones y funciones de manera responsable, logrando la consecución de los objetivos y la cohesión del grupo, promoviendo un aprendizaje activo y respetuoso, resolviendo los conflictos que puedan surgir y rechazando cualquier tipo de discriminación. Por último, se comprobará que el alumnado acepta la crítica razonada y aprende de ella, respetando distintos puntos de vista, con actitud dialogante y cooperativa al hacer frente a las diferentes situaciones de aprendizaje de las matemáticas, integra el error como parte del proceso de aprendizaje, construye una identidad positiva y fomenta su bienestar personal y social.",
-      "broader": "materia:BMCI",
+      "broader": "asig:BMCI01",
       "agrupa": [
         "ce:BMCIC9"
       ],
@@ -243,6 +257,7 @@
         "CC2"
       ],
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -267,6 +282,7 @@
         "CE3"
       ],
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -287,6 +303,7 @@
         "CE3"
       ],
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -308,6 +325,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -329,6 +347,7 @@
         "CE3"
       ],
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -352,6 +371,7 @@
         "CE3"
       ],
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -374,6 +394,7 @@
         "CE3"
       ],
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -395,6 +416,7 @@
         "CD3"
       ],
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -413,6 +435,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -436,6 +459,7 @@
         "CE3"
       ],
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -457,6 +481,7 @@
         "CCEC1"
       ],
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -481,6 +506,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -503,6 +529,7 @@
         "CE3"
       ],
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -524,6 +551,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -544,6 +572,7 @@
         "CD3"
       ],
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -563,6 +592,7 @@
         "CE2"
       ],
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -584,6 +614,7 @@
         "CE2"
       ],
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -606,6 +637,7 @@
         "CE2"
       ],
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -615,8 +647,9 @@
       "notation": "BMCI01SBI",
       "prefLabel": "BMCI01SBI · I. Sentido numérico",
       "definition": "Sentido numérico",
-      "broader": "materia:BMCI",
+      "broader": "asig:BMCI01",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -626,8 +659,9 @@
       "notation": "BMCI01SBII",
       "prefLabel": "BMCI01SBII · II. Sentido de la medida",
       "definition": "Sentido de la medida",
-      "broader": "materia:BMCI",
+      "broader": "asig:BMCI01",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -637,8 +671,9 @@
       "notation": "BMCI01SBIII",
       "prefLabel": "BMCI01SBIII · III. Sentido algebraico",
       "definition": "Sentido algebraico",
-      "broader": "materia:BMCI",
+      "broader": "asig:BMCI01",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -648,8 +683,9 @@
       "notation": "BMCI01SBIV",
       "prefLabel": "BMCI01SBIV · IV. Sentido estocástico",
       "definition": "Sentido estocástico",
-      "broader": "materia:BMCI",
+      "broader": "asig:BMCI01",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -659,8 +695,9 @@
       "notation": "BMCI01SBV",
       "prefLabel": "BMCI01SBV · V. Sentido socioafectivo",
       "definition": "Sentido socioafectivo",
-      "broader": "materia:BMCI",
+      "broader": "asig:BMCI01",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -672,6 +709,7 @@
       "definition": "Conteo.",
       "broader": "sb:BMCI01SBI",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -683,6 +721,7 @@
       "definition": "Estrategias y técnicas de recuento sistemático (diagramas de árbol, técnicas de combinatoria…).",
       "broader": "sb:BMCI01SBI.1",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -694,6 +733,7 @@
       "definition": "Cantidad.",
       "broader": "sb:BMCI01SBI",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -705,6 +745,7 @@
       "definition": "Números reales (racionales e irracionales): comparación, ordenación, clasificación y contraste de sus propiedades.",
       "broader": "sb:BMCI01SBI.2",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -716,6 +757,7 @@
       "definition": "Sentido de las operaciones.",
       "broader": "sb:BMCI01SBI",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -727,6 +769,7 @@
       "definition": "Potencias, raíces y logaritmos (decimales y neperianos): comprensión y utilización de sus relaciones para simplificar y resolver problemas.",
       "broader": "sb:BMCI01SBI.3",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -738,6 +781,7 @@
       "definition": "Educación financiera.",
       "broader": "sb:BMCI01SBI",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -749,6 +793,7 @@
       "definition": "Resolución de problemas relacionados con la educación financiera (cuotas, tasas, intereses, préstamo, etc.) con métodos de cálculo o tecnologías digitales.",
       "broader": "sb:BMCI01SBI.4",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -760,6 +805,7 @@
       "definition": "Medición.",
       "broader": "sb:BMCI01SBII",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -771,6 +817,7 @@
       "definition": "La probabilidad como medida de la incertidumbre asociada a fenómenos aleatorios.",
       "broader": "sb:BMCI01SBII.1",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -782,6 +829,7 @@
       "definition": "Cambio.",
       "broader": "sb:BMCI01SBII",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -793,6 +841,7 @@
       "definition": "Límites: estimación y cálculo a partir de una tabla, un gráfico o una expresión algebraica para estimar las tendencias de una función.",
       "broader": "sb:BMCI01SBII.2",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -804,6 +853,7 @@
       "definition": "Continuidad de funciones: aplicación de límites en el estudio de la continuidad. Asíntotas.",
       "broader": "sb:BMCI01SBII.2",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -815,6 +865,7 @@
       "definition": "Derivada de una función: definición a partir del estudio del cambio en contextos de las ciencias sociales. Reglas de derivación.",
       "broader": "sb:BMCI01SBII.2",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -826,6 +877,7 @@
       "definition": "Patrones.",
       "broader": "sb:BMCI01SBIII",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -837,6 +889,7 @@
       "definition": "Generalización de patrones en situaciones sencillas.",
       "broader": "sb:BMCI01SBIII.1",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -848,6 +901,7 @@
       "definition": "Modelo matemático.",
       "broader": "sb:BMCI01SBIII",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -859,6 +913,7 @@
       "definition": "Relaciones cuantitativas esenciales en situaciones sencillas: estrategias de identificación y determinación de la clase o clases de funciones que pueden ser modelizadas.",
       "broader": "sb:BMCI01SBIII.2",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -870,6 +925,7 @@
       "definition": "Ecuaciones, inecuaciones y sistemas: modelización de situaciones de las ciencias sociales y de la vida real.",
       "broader": "sb:BMCI01SBIII.2",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -881,6 +937,7 @@
       "definition": "Igualdad y desigualdad",
       "broader": "sb:BMCI01SBIII",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -892,6 +949,7 @@
       "definition": "Resolución de ecuaciones de diversos tipos (logarítmicas, exponenciales, etc.), inecuaciones y sistemas de ecuaciones e inecuaciones no lineales en diferentes contextos.",
       "broader": "sb:BMCI01SBIII.3",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -903,6 +961,7 @@
       "definition": "Relaciones y funciones.",
       "broader": "sb:BMCI01SBIII",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -914,6 +973,7 @@
       "definition": "Representación gráfica de funciones utilizando la expresión más adecuada.",
       "broader": "sb:BMCI01SBIII.4",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -925,6 +985,7 @@
       "definition": "Propiedades de las distintas clases de funciones, incluyendo, polinómica, exponencial, racional sencilla, irracional, logarítmica, periódica y a trozos: comprensión y comparación.",
       "broader": "sb:BMCI01SBIII.4",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -936,6 +997,7 @@
       "definition": "Álgebra simbólica en la representación y explicación de relaciones matemáticas de las ciencias sociales.",
       "broader": "sb:BMCI01SBIII.4",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -947,6 +1009,7 @@
       "definition": "Pensamiento computacional.",
       "broader": "sb:BMCI01SBIII",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -958,6 +1021,7 @@
       "definition": "Formulación, resolución y análisis de problemas de la vida cotidiana y de las ciencias sociales utilizando programas y herramientas adecuados.",
       "broader": "sb:BMCI01SBIII.5",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -969,6 +1033,7 @@
       "definition": "Comparación de algoritmos alternativos para el mismo problema mediante el razonamiento lógico.",
       "broader": "sb:BMCI01SBIII.5",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -980,6 +1045,7 @@
       "definition": "Organización y análisis de datos.",
       "broader": "sb:BMCI01SBIV",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -991,6 +1057,7 @@
       "definition": "Organización de los datos procedentes de variables bidimensionales: distribución conjunta y distribuciones marginales y condicionadas. Análisis de la dependencia estadística.",
       "broader": "sb:BMCI01SBIV.1",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1002,6 +1069,7 @@
       "definition": "Estudio de la relación entre dos variables mediante la regresión lineal y cuadrática: valoración gráfica de la pertinencia del ajuste. Nube de puntos. Diferencia entre correlación y causalidad.",
       "broader": "sb:BMCI01SBIV.1",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1013,6 +1081,7 @@
       "definition": "Coeficientes de correlación lineal y de determinación: cuantificación de la relación lineal, predicción y valoración de su fiabilidad en contextos de las ciencias sociales.",
       "broader": "sb:BMCI01SBIV.1",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1024,6 +1093,7 @@
       "definition": "Calculadora, hoja de cálculo o software específico en la organización y el análisis de datos estadísticos.",
       "broader": "sb:BMCI01SBIV.1",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1035,6 +1105,7 @@
       "definition": "Incertidumbre.",
       "broader": "sb:BMCI01SBIV",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1046,6 +1117,7 @@
       "definition": "Estimación y cálculo de la probabilidad a partir del concepto de frecuencia relativa.",
       "broader": "sb:BMCI01SBIV.2",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1057,6 +1129,7 @@
       "definition": "Cálculo de probabilidades en experimentos simples: la regla de Laplace en situaciones de equiprobabilidad y en combinación con diferentes técnicas de recuento.",
       "broader": "sb:BMCI01SBIV.2",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1068,6 +1141,7 @@
       "definition": "Distribuciones de probabilidad.",
       "broader": "sb:BMCI01SBIV",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1079,6 +1153,7 @@
       "definition": "Variables aleatorias discretas y continuas. Parámetros de la distribución.",
       "broader": "sb:BMCI01SBIV.3",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1090,6 +1165,7 @@
       "definition": "Modelización de fenómenos estocásticos mediante las distribuciones de probabilidad binomial y normal. Cálculo de probabilidades asociadas mediante tecnologías digitales.",
       "broader": "sb:BMCI01SBIV.3",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1101,6 +1177,7 @@
       "definition": "Inferencia.",
       "broader": "sb:BMCI01SBIV",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1112,6 +1189,7 @@
       "definition": "Diseño de estudios estadísticos relacionados con las ciencias sociales utilizando tecnologías digitales. Técnicas de muestreo sencillas.",
       "broader": "sb:BMCI01SBIV.4",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1123,6 +1201,7 @@
       "definition": "Análisis de muestras unidimensionales y bidimensionales con tecnologías digitales con el fin de emitir juicios y tomar decisiones: estimación puntual.",
       "broader": "sb:BMCI01SBIV.4",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1134,6 +1213,7 @@
       "definition": "Análisis de información estadística presente en los medios de comunicación y otros ámbitos de la vida cotidiana.",
       "broader": "sb:BMCI01SBIV.4",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1145,6 +1225,7 @@
       "definition": "Creencias, actitudes y emociones.",
       "broader": "sb:BMCI01SBV",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1156,6 +1237,7 @@
       "definition": "Destrezas de autoconciencia encaminadas a reconocer emociones propias, afrontando eventuales situaciones de estrés y ansiedad en el aprendizaje de las matemáticas.",
       "broader": "sb:BMCI01SBV.1",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1167,6 +1249,7 @@
       "definition": "Tratamiento del error individual y colectivo como elemento movilizador de saberes previos adquiridos y generador de oportunidades de aprendizaje en el aula de matemáticas.",
       "broader": "sb:BMCI01SBV.1",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1178,6 +1261,7 @@
       "definition": "Trabajo en equipo y toma de decisiones.",
       "broader": "sb:BMCI01SBV",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1189,6 +1273,7 @@
       "definition": "Reconocimiento y aceptación de diversos planteamientos en la resolución de problemas y tareas matemáticas, transformando los enfoques de los demás en nuevas y mejoradas estrategias propias, mostrando empatía y respeto en el proceso.",
       "broader": "sb:BMCI01SBV.2",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1200,6 +1285,7 @@
       "definition": "Técnicas y estrategias de trabajo en equipo para la resolución de problemas y tareas matemáticas en grupos heterogéneos.",
       "broader": "sb:BMCI01SBV.2",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1211,6 +1297,7 @@
       "definition": "Inclusión, respeto y diversidad.",
       "broader": "sb:BMCI01SBV",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1222,6 +1309,7 @@
       "definition": "Destrezas para desarrollar una comunicación efectiva: la escucha activa, la formulación de preguntas o solicitud y prestación de ayuda, cuando sea necesario.",
       "broader": "sb:BMCI01SBV.3",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1233,6 +1321,7 @@
       "definition": "Valoración de la contribución de las matemáticas y el papel de matemáticos y matemáticas a lo largo de la historia en el avance de las ciencias sociales.",
       "broader": "sb:BMCI01SBV.3",
       "materia": "materia:BMCI",
+      "materia_curso": "asig:BMCI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

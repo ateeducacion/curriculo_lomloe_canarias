@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BMZT01",
+      "tipo": "MateriaCurso",
+      "notation": "BMZT01",
+      "prefLabel": "Matemáticas General · 1º Bachillerato",
+      "broader": "materia:BMZT",
+      "materia": "materia:BMZT",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BMZTC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BMZTC1",
@@ -107,7 +117,7 @@
       "notation": "BMZT01BC1",
       "prefLabel": "Matemáticas General · 1º Bachillerato · bloque competencial C1 + C2",
       "scopeNote": "A través de este bloque competencial se persigue que el alumnado sea capaz de modelizar y resolver, de forma autónoma, problemas de la vida cotidiana y de ámbitos diversos de cualquiera de los bloques de los saberes básicos, haciendo uso de diferentes tecnologías digitales —como calculadoras, hojas de cálculo, programas de representación gráfica o geometría dinámica, entre otras—, seleccionando la más adecuada en función de la tarea y describiendo de forma oral, escrita o gráfica el proceso realizado. Para ello se comprobará que el alumnado selecciona los datos u objetos relevantes de un problema, identifica sus relaciones y los codifica al lenguaje matemático o a un lenguaje fácil de interpretar por un sistema informático. Además, se persigue que el alumnado emplee diferentes estrategias para su resolución, como la analogía con otros problemas, estimación, ensayo y error, resolución de manera inversa (ir hacia atrás), la descomposición en problemas más sencillos, búsqueda de patrones o generalización, entre otras, analizando su eficiencia en cada caso. También se evaluará que sea capaz de obtener todas las soluciones posibles de un problema, comprobar la validez matemática de dichas soluciones, así como seleccionar de entre ellas las más adecuadas en función del contexto, valorando su alcance.",
-      "broader": "materia:BMZT",
+      "broader": "asig:BMZT01",
       "agrupa": [
         "ce:BMZTC1",
         "ce:BMZTC2"
@@ -127,6 +137,7 @@
         "CC3"
       ],
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -136,7 +147,7 @@
       "notation": "BMZT01BC3",
       "prefLabel": "Matemáticas General · 1º Bachillerato · bloque competencial C3 + C4",
       "scopeNote": "A través de este bloque competencial se pretende que el alumnado, empleando métodos inductivos, deductivos y lógicos, propios del razonamiento matemático, sea capaz de generar preguntas de forma autónoma, integrando el uso de tecnologías digitales y utilizando varias fuentes de información para adquirir nuevo conocimiento matemático, a la par que mejora su capacidad de razonamiento y de reflexión. Asimismo, se podrá comprobar, mediante el uso de herramientas y aplicaciones, que sabe interpretar, modelizar y resolver situaciones problematizadas, al mismo tiempo que utiliza de forma eficaz el pensamiento computacional para descomponer un problema en partes más simples y para codificarlo en un lenguaje apropiado y fácil de interpretar por un sistema informático. Además, se pretende que el alumnado reflexione sobre los procedimientos aplicados, a la vez que, en situaciones sencillas, sea capaz de modificar y crear algoritmos, con el fin último de favorecer el desarrollo de un pensamiento más diverso y flexible que le permita mejorar su destreza para resolver problemas y potenciar su curiosidad, gusto e interés por esta disciplina.",
-      "broader": "materia:BMZT",
+      "broader": "asig:BMZT01",
       "agrupa": [
         "ce:BMZTC3",
         "ce:BMZTC4"
@@ -155,6 +166,7 @@
         "CD3"
       ],
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -164,7 +176,7 @@
       "notation": "BMZT01BC5",
       "prefLabel": "Matemáticas General · 1º Bachillerato · bloque competencial C5 + C6",
       "scopeNote": "Se persigue con este bloque competencial constatar que el alumnado es capaz de investigar y utilizar el pensamiento científico para conectar las diferentes ideas matemáticas por medio del uso de tecnologías digitales, así como establecer y aplicar las relaciones existentes entre las matemáticas y otras áreas del conocimiento, y analizar la aportación de las matemáticas al progreso de la humanidad, realizando para ello búsquedas avanzadas en internet, con lo que conseguirá, a su vez, interrelacionar conceptos y procedimientos con el objetivo de modelizar y resolver problemas enmarcados en contextos matemáticos y en la vida cotidiana.",
-      "broader": "materia:BMZT",
+      "broader": "asig:BMZT01",
       "agrupa": [
         "ce:BMZTC5",
         "ce:BMZTC6"
@@ -185,6 +197,7 @@
         "CCEC1"
       ],
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -194,7 +207,7 @@
       "notation": "BMZT01BC7",
       "prefLabel": "Matemáticas General · 1º Bachillerato · bloque competencial C7 + C8",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de representar y comunicar, de forma individual y colectiva, ideas, conceptos, procedimientos, conclusiones, conjeturas y razonamientos asociados a cualquiera de los bloques de saberes básicos, usando el lenguaje oral, escrito o multimodal, con veracidad, claridad y con la terminología apropiada, seleccionando, utilizando o combinando las formas de representación matemática (gráficas, tablas, diagramas, fórmulas, esquemas, símbolos, etc.) y las tecnologías digitales más adecuadas a cada tarea, apoyándose en diversos medios y soportes en su presentación. Asimismo, se evaluará que el alumnado reconoce y emplea el lenguaje matemático presente en la vida cotidiana y en diferentes contextos.",
-      "broader": "materia:BMZT",
+      "broader": "asig:BMZT01",
       "agrupa": [
         "ce:BMZTC7",
         "ce:BMZTC8"
@@ -217,6 +230,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -226,7 +240,7 @@
       "notation": "BMZT01BC9",
       "prefLabel": "Matemáticas General · 1º Bachillerato · bloque competencial C9",
       "scopeNote": "A través de este bloque competencial se persigue que el alumnado utilice destrezas personales que le permitan reflexionar sobre sus fortalezas y debilidades para afrontar las situaciones de incertidumbre y enfrentarse a ellas, tomando decisiones con seguridad. Además, se comprobará que utiliza destrezas sociales para trabajar en equipo de forma constructiva y empática, gestionando las decisiones y funciones de manera responsable, logrando la consecución de los objetivos y la cohesión del grupo, promoviendo un aprendizaje activo y respetuoso, resolviendo los conflictos que puedan surgir y rechazando cualquier tipo de discriminación. Por último, se comprobará que el alumnado acepta la crítica razonada y aprende de ella, respetando los distintos puntos de vista con actitud dialogante y cooperativa al hacer frente a las diferentes situaciones de aprendizaje de las matemáticas, integra el error como parte del proceso de aprendizaje, construye una identidad positiva y fomenta su bienestar personal y social.",
-      "broader": "materia:BMZT",
+      "broader": "asig:BMZT01",
       "agrupa": [
         "ce:BMZTC9"
       ],
@@ -243,6 +257,7 @@
         "CC2"
       ],
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -266,6 +281,7 @@
         "CE3"
       ],
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -286,6 +302,7 @@
         "CE3"
       ],
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -307,6 +324,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -328,6 +346,7 @@
         "CE3"
       ],
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -350,6 +369,7 @@
         "CE3"
       ],
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -372,6 +392,7 @@
         "CE3"
       ],
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -393,6 +414,7 @@
         "CD3"
       ],
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -411,6 +433,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -434,6 +457,7 @@
         "CE3"
       ],
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -455,6 +479,7 @@
         "CCEC1"
       ],
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -478,6 +503,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -500,6 +526,7 @@
         "CE3"
       ],
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -521,6 +548,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -541,6 +569,7 @@
         "CD3"
       ],
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -560,6 +589,7 @@
         "CE2"
       ],
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -581,6 +611,7 @@
         "CE2"
       ],
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -604,6 +635,7 @@
         "CE2"
       ],
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -613,8 +645,9 @@
       "notation": "BMZT01SBI",
       "prefLabel": "BMZT01SBI · I. Sentido numérico",
       "definition": "Sentido numérico",
-      "broader": "materia:BMZT",
+      "broader": "asig:BMZT01",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -624,8 +657,9 @@
       "notation": "BMZT01SBII",
       "prefLabel": "BMZT01SBII · II. Sentido de la medida",
       "definition": "Sentido de la medida",
-      "broader": "materia:BMZT",
+      "broader": "asig:BMZT01",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -635,8 +669,9 @@
       "notation": "BMZT01SBIII",
       "prefLabel": "BMZT01SBIII · III. Sentido espacial",
       "definition": "Sentido espacial",
-      "broader": "materia:BMZT",
+      "broader": "asig:BMZT01",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -646,8 +681,9 @@
       "notation": "BMZT01SBIV",
       "prefLabel": "BMZT01SBIV · IV. Sentido algebraico",
       "definition": "Sentido algebraico",
-      "broader": "materia:BMZT",
+      "broader": "asig:BMZT01",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -657,8 +693,9 @@
       "notation": "BMZT01SBV",
       "prefLabel": "BMZT01SBV · V. Sentido estocástico",
       "definition": "Sentido estocástico",
-      "broader": "materia:BMZT",
+      "broader": "asig:BMZT01",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -668,8 +705,9 @@
       "notation": "BMZT01SBVI",
       "prefLabel": "BMZT01SBVI · VI. Sentido socioafectivo",
       "definition": "Sentido socioafectivo",
-      "broader": "materia:BMZT",
+      "broader": "asig:BMZT01",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -681,6 +719,7 @@
       "definition": "Conteo.",
       "broader": "sb:BMZT01SBI",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -692,6 +731,7 @@
       "definition": "Reglas y estrategias para determinar el cardinal de conjuntos finitos en problemas de la vida cotidiana: uso de los principios de comparación, adición, multiplicación y división, del palomar y de inclusión-exclusión.",
       "broader": "sb:BMZT01SBI.1",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -703,6 +743,7 @@
       "definition": "Sentido de las operaciones.",
       "broader": "sb:BMZT01SBI",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -714,6 +755,7 @@
       "definition": "Interpretación de la información numérica en documentos de la vida cotidiana: tablas, diagramas, documentos financieros, facturas, nóminas, noticias, etc.",
       "broader": "sb:BMZT01SBI.2",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -725,6 +767,7 @@
       "definition": "Herramientas tecnológicas y digitales en la resolución de problemas numéricos.",
       "broader": "sb:BMZT01SBI.2",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -736,6 +779,7 @@
       "definition": "Relaciones.",
       "broader": "sb:BMZT01SBI",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -747,6 +791,7 @@
       "definition": "Razones, proporciones, porcentajes y tasas: comprensión, relación y aplicación en problemas en contextos diversos.",
       "broader": "sb:BMZT01SBI.3",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -758,6 +803,7 @@
       "definition": "Educación financiera.",
       "broader": "sb:BMZT01SBI",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -769,6 +815,7 @@
       "definition": "Razonamiento proporcional en la resolución de problemas financieros: medios de pago con cobro de intereses, cuotas, comisiones, cambios de divisas...",
       "broader": "sb:BMZT01SBI.4",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -780,6 +827,7 @@
       "definition": "Medición.",
       "broader": "sb:BMZT01SBII",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -791,6 +839,7 @@
       "definition": "La probabilidad como medida de la incertidumbre asociada a fenómenos aleatorios.",
       "broader": "sb:BMZT01SBII.1",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -802,6 +851,7 @@
       "definition": "Cambio.",
       "broader": "sb:BMZT01SBII",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -813,6 +863,7 @@
       "definition": "Estudio de la variación absoluta y de la tasa de variación media.",
       "broader": "sb:BMZT01SBII.2",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -824,6 +875,7 @@
       "definition": "Concepto de derivada: definición a partir del estudio del cambio en diferentes contextos. Análisis e interpretación con tecnologías digitales.",
       "broader": "sb:BMZT01SBII.2",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -835,6 +887,7 @@
       "definition": "Visualización, razonamiento y modelización geométrica.",
       "broader": "sb:BMZT01SBIII",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -846,6 +899,7 @@
       "definition": "Grafos: representación de situaciones de la vida cotidiana mediante diferentes tipos de grafos (dirigidos, planos, ponderados, árboles, etc.). Fórmula de Euler.",
       "broader": "sb:BMZT01SBIII.1",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -857,6 +911,7 @@
       "definition": "Grafos eulerianos y hamiltonianos: resolución de problemas de caminos y circuitos. Coloración de grafos.",
       "broader": "sb:BMZT01SBIII.1",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -868,6 +923,7 @@
       "definition": "Resolución del problema del camino mínimo en diferentes contextos.",
       "broader": "sb:BMZT01SBIII.1",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -879,6 +935,7 @@
       "definition": "Patrones.",
       "broader": "sb:BMZT01SBIV",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -890,6 +947,7 @@
       "definition": "Generalización de patrones en situaciones sencillas.",
       "broader": "sb:BMZT01SBIV.1",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -901,6 +959,7 @@
       "definition": "Modelo matemático.",
       "broader": "sb:BMZT01SBIV",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -912,6 +971,7 @@
       "definition": "Funciones lineales, cuadráticas, racionales sencillas, exponenciales, logarítmicas, a trozos y periódicas: modelización de situaciones del mundo real con tecnologías digitales.",
       "broader": "sb:BMZT01SBIV.2",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -923,6 +983,7 @@
       "definition": "Programación lineal: modelización de problemas reales y resolución mediante tecnologías digitales.",
       "broader": "sb:BMZT01SBIV.2",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -934,6 +995,7 @@
       "definition": "Igualdad y desigualdad.",
       "broader": "sb:BMZT01SBIV",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -945,6 +1007,7 @@
       "definition": "Formas equivalentes de expresiones algebraicas en la resolución de sistemas de ecuaciones e inecuaciones en diferentes contextos mediante el cálculo mental, algoritmos de lápiz y papel y tecnologías digitales.",
       "broader": "sb:BMZT01SBIV.3",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -956,6 +1019,7 @@
       "definition": "Relaciones y funciones.",
       "broader": "sb:BMZT01SBIV",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -967,6 +1031,7 @@
       "definition": "Propiedades de las clases de funciones, incluyendo lineales, cuadráticas, racionales sencillas, exponenciales, logarítmicas y a trozos: comprensión y comparación.",
       "broader": "sb:BMZT01SBIV.4",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -978,6 +1043,7 @@
       "definition": "Pensamiento computacional.",
       "broader": "sb:BMZT01SBIV",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -989,6 +1055,7 @@
       "definition": "Formulación, resolución, análisis, representación e interpretación de relaciones y problemas de la vida cotidiana y de distintos ámbitos utilizando algoritmos, programas y herramientas tecnológicas adecuados.",
       "broader": "sb:BMZT01SBIV.5",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1000,6 +1067,7 @@
       "definition": "Organización y análisis de datos.",
       "broader": "sb:BMZT01SBV",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1011,6 +1079,7 @@
       "definition": "Interpretación y análisis de información estadística en diversos contextos.",
       "broader": "sb:BMZT01SBV.1",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1022,6 +1091,7 @@
       "definition": "Organización de los datos procedentes de variables bidimensionales: distribución conjunta, distribuciones marginales y condicionadas. Análisis de la dependencia estadística.",
       "broader": "sb:BMZT01SBV.1",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1033,6 +1103,7 @@
       "definition": "Estudio de la relación entre dos variables mediante la regresión lineal y cuadrática: valoración gráfica de la pertinencia del ajuste. Nube de puntos. Diferencia entre correlación y causalidad.",
       "broader": "sb:BMZT01SBV.1",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1044,6 +1115,7 @@
       "definition": "Coeficientes de correlación lineal y de determinación: cuantificación de la relación lineal, predicción y valoración de su fiabilidad en contextos científicos, económicos, sociales, etc.",
       "broader": "sb:BMZT01SBV.1",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1055,6 +1127,7 @@
       "definition": "Calculadora, hoja de cálculo o software específico en la organización y el análisis de datos estadísticos.",
       "broader": "sb:BMZT01SBV.1",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1066,6 +1139,7 @@
       "definition": "Incertidumbre.",
       "broader": "sb:BMZT01SBV",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1077,6 +1151,7 @@
       "definition": "Cálculo de probabilidades en experimentos simples y compuestos en problemas de la vida cotidiana. Probabilidad condicionada e independencia de sucesos aleatorios. Diagramas de árbol y tablas de contingencia. Teorema de la probabilidad total.",
       "broader": "sb:BMZT01SBV.2",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1088,6 +1163,7 @@
       "definition": "Distribuciones de probabilidad.",
       "broader": "sb:BMZT01SBV",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1099,6 +1175,7 @@
       "definition": "Distribuciones de probabilidad uniforme (discreta y continua), binomial y normal. Cálculo de probabilidades asociadas mediante tecnologías digitales: aplicación a la resolución de problemas.",
       "broader": "sb:BMZT01SBV.3",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1110,6 +1187,7 @@
       "definition": "Inferencia.",
       "broader": "sb:BMZT01SBV",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1121,6 +1199,7 @@
       "definition": "Selección de muestras representativas. Técnicas sencillas de muestreo. Discusión de la validez de una estimación en función de la representatividad de la muestra.",
       "broader": "sb:BMZT01SBV.4",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1132,6 +1211,7 @@
       "definition": "Diseño de estudios estadísticos relacionados con diversos contextos utilizando tecnologías digitales. Representatividad de una muestra.",
       "broader": "sb:BMZT01SBV.4",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1143,6 +1223,7 @@
       "definition": "Creencias, actitudes y emociones.",
       "broader": "sb:BMZT01SBVI",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1154,6 +1235,7 @@
       "definition": "Destrezas de autoconciencia encaminadas a reconocer emociones propias, afrontando eventuales situaciones de estrés y ansiedad en el aprendizaje de las matemáticas.",
       "broader": "sb:BMZT01SBVI.1",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1165,6 +1247,7 @@
       "definition": "Tratamiento del error individual y colectivo como elemento movilizador de saberes previos adquiridos y generador de oportunidades de aprendizaje en el aula de matemáticas.",
       "broader": "sb:BMZT01SBVI.1",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1176,6 +1259,7 @@
       "definition": "Trabajo en equipo y toma de decisiones.",
       "broader": "sb:BMZT01SBVI",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1187,6 +1271,7 @@
       "definition": "Destrezas básicas para evaluar opciones y tomar decisiones en la resolución de problemas y tareas matemáticas.",
       "broader": "sb:BMZT01SBVI.2",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1198,6 +1283,7 @@
       "definition": "Técnicas y estrategias de trabajo en equipo para la resolución de problemas y tareas matemáticas en grupos heterogéneos.",
       "broader": "sb:BMZT01SBVI.2",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1209,6 +1295,7 @@
       "definition": "Inclusión, respeto y diversidad.",
       "broader": "sb:BMZT01SBVI",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1220,6 +1307,7 @@
       "definition": "Destrezas para desarrollar una comunicación efectiva: la escucha activa, la formulación de preguntas o solicitud y prestación de ayuda cuando sea necesario.",
       "broader": "sb:BMZT01SBVI.3",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1231,6 +1319,7 @@
       "definition": "Valoración de la contribución de las matemáticas y el papel de matemáticos y matemáticas a lo largo de la historia en el avance de la humanidad.",
       "broader": "sb:BMZT01SBVI.3",
       "materia": "materia:BMZT",
+      "materia_curso": "asig:BMZT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

@@ -1,0 +1,69 @@
+@prefix cur:     <https://ateeducacion.github.io/curriculo_lomloe_canarias/def/cur#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix shp:     <https://ateeducacion.github.io/curriculo_lomloe_canarias/def/formas#> .
+
+# Formas SHACL del grafo que genera herramientas/exportar_rdf.py.
+# Comprueban lo que el esquema JSON no puede: que cada enlace apunta a un nodo de la clase
+# correcta (el padre de un criterio es una competencia, el de un bloque, una materia en curso…).
+
+shp:Concepto a sh:NodeShape ;
+    sh:targetClass cur:Etapa , cur:Curso , cur:Materia , cur:MateriaCurso , cur:CompetenciaEspecifica ,
+        cur:BloqueCompetencial , cur:CriterioEvaluacion , cur:BloqueSaberes , cur:SaberBasico ;
+    sh:property [ sh:path rdf:type ; sh:hasValue skos:Concept ] ;
+    sh:property [ sh:path skos:prefLabel ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype rdf:langString ] ;
+    sh:property [ sh:path skos:notation ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path dcterms:identifier ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path skos:inScheme ; sh:minCount 1 ; sh:class skos:ConceptScheme ] ;
+    sh:property [ sh:path skos:definition ; sh:maxCount 1 ; sh:datatype rdf:langString ] .
+
+shp:Etapa a sh:NodeShape ; sh:targetClass cur:Etapa ;
+    sh:property [ sh:path skos:topConceptOf ; sh:minCount 1 ] ;
+    sh:property [ sh:path skos:broader ; sh:maxCount 0 ] .
+
+shp:Curso a sh:NodeShape ; sh:targetClass cur:Curso ;
+    sh:property [ sh:path skos:broader ; sh:minCount 1 ; sh:maxCount 1 ; sh:class cur:Etapa ] .
+
+shp:Materia a sh:NodeShape ; sh:targetClass cur:Materia ;
+    sh:property [ sh:path cur:etapa ; sh:minCount 1 ; sh:maxCount 1 ; sh:class cur:Etapa ] ;
+    sh:property [ sh:path cur:curso ; sh:minCount 1 ; sh:class cur:Curso ] .
+
+shp:MateriaCurso a sh:NodeShape ; sh:targetClass cur:MateriaCurso ;
+    sh:property [ sh:path skos:broader ; sh:minCount 1 ; sh:maxCount 1 ; sh:class cur:Materia ] ;
+    sh:property [ sh:path cur:curso ; sh:minCount 1 ; sh:maxCount 1 ; sh:class cur:Curso ] .
+
+shp:CompetenciaEspecifica a sh:NodeShape ; sh:targetClass cur:CompetenciaEspecifica ;
+    sh:property [ sh:path skos:broader ; sh:minCount 1 ; sh:maxCount 1 ; sh:class cur:Materia ] ;
+    sh:property [ sh:path skos:definition ; sh:minCount 1 ] ;
+    sh:property [ sh:path cur:enunciadoEnCurso ; sh:node shp:EnunciadoEnCurso ] .
+
+shp:EnunciadoEnCurso a sh:NodeShape ;
+    sh:property [ sh:path cur:curso ; sh:minCount 1 ; sh:maxCount 1 ; sh:class cur:Curso ] ;
+    sh:property [ sh:path skos:definition ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype rdf:langString ] .
+
+shp:BloqueCompetencial a sh:NodeShape ; sh:targetClass cur:BloqueCompetencial ;
+    sh:property [ sh:path skos:broader ; sh:minCount 1 ; sh:maxCount 1 ; sh:class cur:MateriaCurso ] ;
+    sh:property [ sh:path cur:agrupa ; sh:minCount 1 ; sh:class cur:CompetenciaEspecifica ] ;
+    sh:property [ sh:path cur:descriptorOperativo ; sh:class cur:DescriptorOperativo ] .
+
+shp:CriterioEvaluacion a sh:NodeShape ; sh:targetClass cur:CriterioEvaluacion ;
+    sh:property [ sh:path skos:broader ; sh:minCount 1 ; sh:maxCount 1 ; sh:class cur:CompetenciaEspecifica ] ;
+    sh:property [ sh:path cur:bloqueCompetencial ; sh:minCount 1 ; sh:maxCount 1 ; sh:class cur:BloqueCompetencial ] ;
+    sh:property [ sh:path cur:materiaCurso ; sh:minCount 1 ; sh:maxCount 1 ; sh:class cur:MateriaCurso ] ;
+    sh:property [ sh:path skos:definition ; sh:minCount 1 ] ;
+    sh:property [ sh:path cur:descriptorOperativo ; sh:class cur:DescriptorOperativo ] .
+
+shp:BloqueSaberes a sh:NodeShape ; sh:targetClass cur:BloqueSaberes ;
+    sh:property [ sh:path skos:broader ; sh:minCount 1 ; sh:maxCount 1 ; sh:class cur:MateriaCurso ] ;
+    sh:property [ sh:path skos:definition ; sh:minCount 1 ] .
+
+shp:SaberBasico a sh:NodeShape ; sh:targetClass cur:SaberBasico ;
+    sh:property [ sh:path skos:broader ; sh:minCount 1 ; sh:maxCount 1 ;
+                  sh:or ( [ sh:class cur:BloqueSaberes ] [ sh:class cur:SaberBasico ] ) ] ;
+    sh:property [ sh:path cur:materiaCurso ; sh:minCount 1 ; sh:maxCount 1 ; sh:class cur:MateriaCurso ] .
+
+shp:DescriptorOperativo a sh:NodeShape ; sh:targetClass cur:DescriptorOperativo ;
+    sh:property [ sh:path skos:broader ; sh:minCount 1 ; sh:maxCount 1 ; sh:class cur:CompetenciaClave ] ;
+    sh:property [ sh:path cur:etapa ; sh:minCount 1 ; sh:maxCount 1 ; sh:class cur:Etapa ] .

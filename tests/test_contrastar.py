@@ -86,3 +86,10 @@ def test_numeracion_distinta_en_el_boc():
     # la aparición de la zona de la materia, y la del 7.1 coincide.
     assert avisos == [{'nodo': 'crit:X01CE5.1', 'numero': '5.1', 'boc': '6.1'},
                       {'nodo': 'crit:X01CE6.1', 'numero': '6.1', 'boc': '5.1'}]
+
+
+def test_saberes_obsoletos_no_cuentan():
+    nodos = {'sb:X01SBI.1': {**_saber('sb:X01SBI.1', 'Conteo de objetos.')},
+             'sb:X01SBI.2': {**_saber('sb:X01SBI.2', 'Texto retirado.'), 'obsoleto': True}}
+    dif, vistos = _diferencias(nodos, 'sb:X01SBI', _hijos('Conteo de objetos.'))
+    assert dif == [] and vistos == {'sb:X01SBI.1'}

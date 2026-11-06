@@ -36,7 +36,16 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
 - Correcciones 0255–0262: 24 diferencias entre el BOC y el ODT validadas una a una; prevalece el ODT (ver `docs/pendientes.md`). Se retiran 3 saberes que el ODT omite.
 - `contrastar` comprueba con qué número imprime el BOC cada criterio e informa aparte de las erratas: 24 criterios 5.1 y 6.1 intercambiados en Segunda Lengua Extranjera (ESO), documentados en `docs/pendientes.md`.
 
+- Nodo `MateriaCurso` (`asig:SMAT01`): la materia en un curso, del que cuelgan los bloques de ese curso; atajo `materia_curso` en sus nodos.
+- Enunciados de competencia por curso (`enunciados_curso`) cuando el documento oficial los varía (correcciones 0263–0266).
+- Nodos retirados como obsoletos (`accion: retirar`, `obsoleto`, `sustituido_por`).
+- Correcciones 0267–0269: enunciados de competencia de Griego I y II, Antropología y Sociología y Cultura Científica (la competencia 2 repetía la 1).
+
+- Exportación RDF (`herramientas/exportar_rdf.py`): `curriculo.ttl` en SKOS con doble tipado schema.org, URIs en GitHub Pages (base configurable en `config/corpus.yaml`), descriptores operativos como esquema propio; vocabulario `vocabulario/cur.ttl` y formas SHACL validadas en la CI. El release incluye `curriculo.ttl`, su sha256 y `cur.ttl`.
+
 ### Cambiado
+- Los bloques competenciales y de saberes cuelgan de su `MateriaCurso`, no de la materia (los identificadores no cambian).
+- `contrastar` ya no da por explicada una competencia con otro enunciado en otro curso: el modelo guarda el de cada curso.
 - Todos los textos se normalizan a Unicode NFC al importar (587 textos de la exportación traían las tildes descompuestas); no cambia ningún texto a la vista.
 - Licencias: datos con CC BY 4.0 (con la aclaración del art. 13 TRLPI sobre los textos normativos) y código con GPL-3.0; `curriculo.json` incluye la licencia en su cabecera.
 - El importador trata como aviso un saber repetido de forma idéntica y reconstruye el código de un saber

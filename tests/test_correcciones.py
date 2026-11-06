@@ -62,3 +62,14 @@ def test_se_aplican_en_orden_de_fichero(carpeta):
     nodos = _nodos()
     correcciones.aplicar(nodos)
     assert nodos['sb:A']['definition'] == 'Segunda.'
+
+
+def test_retirar_deja_el_nodo_como_obsoleto(carpeta):
+    carpeta('0001-x.yaml', [{'nodo': 'sb:A', 'accion': 'retirar', 'sustituido_por': 'sb:B'},
+                            {'nodo': 'sb:B', 'campo': 'enunciados_curso', 'valor': {'curso:S02': 'Otro texto.'}}])
+    nodos = _nodos()
+    avisos, _ = correcciones.aplicar(nodos)
+    assert avisos == []
+    assert nodos['sb:A']['obsoleto'] is True and nodos['sb:A']['sustituido_por'] == 'sb:B'
+    assert nodos['sb:A']['definition'] == 'Texto viejo.'
+    assert nodos['sb:B']['enunciados_curso'] == {'curso:S02': 'Otro texto.'}

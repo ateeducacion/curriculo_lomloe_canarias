@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BFUE02",
+      "tipo": "MateriaCurso",
+      "notation": "BFUE02",
+      "prefLabel": "Fundamentos de Administración y Gestión · 2º Bachillerato",
+      "broader": "materia:BFUE",
+      "materia": "materia:BFUE",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BFUEC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BFUEC1",
@@ -67,7 +77,7 @@
       "notation": "BFUE02BC1",
       "prefLabel": "Fundamentos de Administración y Gestión · 2º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado es capaz de articular un proyecto empresarial o social generador de valor, mediante el reconocimiento de la importancia que la innovación empresarial y social, y las destrezas emprendedoras tienen en el proceso emprendedor al incidir en el desarrollo económico y en la mejora de nuestra calidad de vida, empleando para ello el análisis individual o grupal de casos y ejemplos de innovación y de emprendimiento publicados en medios impresos, audiovisuales y digitales, con los que poder intercambiar información y construir conocimiento; identificando el riesgo asociado y los diferentes tipos de innovación, tal y como se definen en el Manual de Oslo, así como las características de las personas emprendedoras y los tipos de emprendimiento efectuados; y llevando a cabo un autodiagnóstico de las cualidades y actitudes emprendedoras, a través del empleo de diversas técnicas (test, análisis DAFO personal, herramienta ipyme.org…), que le permitan poner en valor la cultura emprendedora y las habilidades blandas que se requieren para iniciar cualquier proceso de emprendimiento. Se comprobará también la capacidad del alumnado para descubrir necesidades potenciales y reales a cubrir en la sociedad, fomentando la creatividad en la generación de nuevas ideas mediante la aplicación grupal de técnicas específicas como el brainstorming, la observación o la hibridación, el listado de atributos, Phillips 66…, así como la aplicación de herramientas para el análisis del entorno (PESTEL, fuerzas de Porter, mapa de empatía...) y el análisis de casos prácticos de modelos de negocio diversos (larga cola, cebo y anzuelo, software-as-a-service, co-creación, crowdsourcing, etc), que le permitan formular nuevas ideas y propuestas de mercado; y valorando los componentes internos y externos que influyen en la aplicación de la creatividad, y siguiendo, por ejemplo, el modelo Innovation Engine de Tina Seelig, con la finalidad de encontrar nuevas conexiones personales en las que se tengan en cuenta sus capacidades innatas y adquiridas respecto a la creatividad, el liderazgo, las habilidades sociales, el emprendimiento, la tolerancia a la frustración y a los fracasos, la resiliencia y ambición, y, en especial, nuevas conexiones económicas. Finalmente, se verificará que el alumnado es capaz de contribuir al desarrollo sostenible de la economía local y al bienestar social, cuando seleccione, de manera cooperativa y colaborativa, ideas de negocio o soluciones innovadoras que contribuyan a los Objetivos de Desarrollo Sostenible y de la Agenda Canaria 2030, argumentando de forma técnica la elección, y manteniendo una comunicación fluida, respetuosa y eficaz, y con actitud integradora, y de respeto a la diversidad de opiniones y a la igualdad. Para encontrar encaje entre la idea y el contexto local, es recomendable presentar al alumnado la posibilidad de ejecutar algún proyecto de emprendimiento de aprendizaje servicio como propuesta educativa que combine procesos de aprendizaje y de servicio a la comunidad, involucrándose en necesidades reales del entorno, con la finalidad de mejorarlo; así como nuevos modelos de consumo/producción, a partir de diferentes ejemplos de acciones emprendedoras locales de economía colaborativa y circular que le facilite el análisis, de forma crítica y constructiva, del impacto en la transformación económica y social que suponen para el entorno, para lo que pueden emplearse técnicas de evaluación de ideas como los mapas mentales o el brainwriting, a la hora de seleccionar aquellas ideas que proyectan repercusiones positivas en el entorno, reflexionando sobre el sentido, el alcance, la diferenciación y los efectos externos del proyecto emprendedor.",
-      "broader": "materia:BFUE",
+      "broader": "asig:BFUE02",
       "agrupa": [
         "ce:BFUEC1"
       ],
@@ -94,6 +104,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -103,7 +114,7 @@
       "notation": "BFUE02BC2",
       "prefLabel": "Fundamentos de Administración y Gestión · 2º Bachillerato · bloque competencial C2",
       "scopeNote": "Con esta competencia específica se podrá verificar la capacidad del alumnado para establecer y argumentar de forma grupal los objetivos sociales y empresariales, y los elementos intangibles de la cultura y la imagen corporativa del proyecto emprendedor, mediante el empleo de, por ejemplo, el lienzo misión-visión-valores, el análisis DAFO de la empresa o proyecto social y las matrices CAME, que permiten corregir, afrontar, mantener y explotar los factores positivos y negativos detectados. Asimismo, se comprobará que tiene en cuenta el impacto de su actividad en el entorno social, laboral y medioambiental, incorporando de forma grupal objetivos de responsabilidad social corporativa con los distintos grupos de interés o stakeholders de la empresa; además de la aplicación de estrategias de economía circular, en relación con los Objetivos de Desarrollo Sostenible y de la Agenda Canaria 2030. Para ello, puede apoyarse en el análisis básico de ejemplos de empresas y en balances de sostenibilidad o sociales elaborados en base a indicadores como puede ser el GRI (Global Reporting Initiative) o utilizando la metodología de los «5 porqués», que justifiquen la propuesta empresarial en el contexto local para crear valor en su entorno y fomentar el consumo responsable, la igualdad y la cohesión social. A continuación, se verificará que el alumnado adopta y argumenta las decisiones de constitución de una empresa, referidas a la forma jurídica en relación con las responsabilidades legales de las personas propietarias y gestoras, y las exigencias del capital requerido, diferenciando entre trabajo por cuenta propia y ajena, entre empresas de personas físicas y jurídicas y reconociendo las peculiaridades del régimen de cotización a la Seguridad Social de la persona trabajadora autónoma y las diferencias con las personas autónomas económicamente dependientes (TRADEs); que tiene en consideración los factores más relevantes para la toma de decisiones de localización y de dimensión; y que aplica las técnicas precisas para llevar a cabo el proceso de naming de la idea de negocio y las etapas del branding que permitan crear la identidad corporativa y el posicionamiento de la marca en el mercado. Seguidamente, se comprobará también su capacidad para comparar, analizar y sintetizar la información prescriptiva de documentación que se precisa, para realizar los trámites ante la Seguridad Social, la Agencia Tributaria, organismos laborales, ayuntamientos y el Registro Mercantil, mostrando autonomía en la búsqueda de información fiable y actualizada, en organismos de asesoramiento como los PAE (Puntos de Atención al Emprendedor) y sobre los instrumentos de calidad diferenciada, como denominaciones de origen local, que puedan brindarle ayuda y apoyo para realizar los trámites para la puesta en marcha del proyecto, aplicando protocolos de seguridad digital en los trámites digitales con la administración y valorando la importancia de la legalidad en la gestión para la convivencia en sociedad y la necesidad de cumplir los plazos legales.",
-      "broader": "materia:BFUE",
+      "broader": "asig:BFUE02",
       "agrupa": [
         "ce:BFUEC2"
       ],
@@ -127,6 +138,7 @@
         "CD4"
       ],
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -136,7 +148,7 @@
       "notation": "BFUE02BC3",
       "prefLabel": "Fundamentos de Administración y Gestión · 2º Bachillerato · bloque competencial C3",
       "scopeNote": "Este bloque competencial presenta una visión general de la gestión estratégica de las distintas áreas funcionales de una empresa y, a través de ella, se pretende constatar la capacidad del alumnado para contribuir a la consecución de objetivos compartidos, detectando inconvenientes y replanteando decisiones sobre el proyecto empresarial. Para ello, es necesario que pueda reconocer la estructura de la organización interna de una empresa, estableciendo gráficamente, a través de organigramas, la jerarquía, los flujos y las relaciones que se erigen entre departamentos, y haciendo uso de herramientas digitales para generar los organigramas a partir de mapas mentales que haya construido a mano. Se constatará, además, el desarrollo de habilidades para tomar decisiones grupales en diferentes áreas, utilizando diferentes herramientas para llevar a cabo las principales funciones empresariales. Respecto al área de aprovisionamiento, se comprobará que establece las necesidades de aprovisionamiento de recursos, cuando aplique técnicas de selección de proveedores y ordene cronológicamente las fases a seguir para ejecutar un plan de compras y control de stocks identificando la documentación mercantil generada en las operaciones comerciales, así como las diferencias en cuanto a uso, validez contable y fiscal tanto del albarán como de la factura. En cuanto al área de producción o servicio, se constatará la capacidad para explicar el proceso productivo de la idea de negocio de manera coherente, con sus implicaciones técnicas y medioambientales mediante el diseño, de manera grupal y con técnicas de prototipado (lego serious play, origami, impresión 3D, aplicaciones web, storyboards…), del prototipo del producto o del manual de procedimiento de prestación del servicio que aporte soluciones a los problemas reales. En lo que al área comercial y de marketing se refiere, se constatará, en primer lugar, la capacidad del alumnado para aplicar las técnicas de investigación de mercados útiles para valorar las necesidades y preferencias de los clientes potenciales respecto al producto, al precio, a la distribución y la comunicación, utilizando para ello, de forma correcta, ética y segura, herramientas de comunicación comercial y atención al cliente, análisis digitales, tecnologías digitales de comunicación, encuestas y hojas de cálculo. En segundo lugar, se valorará la capacidad para reflexionar sobre la responsabilidad en las acciones publicitarias mediante el análisis de anuncios publicitarios (plan de medios, publicidad en internet y tecnologías de comunicación digitales) y se constatará que toma decisiones comerciales y de marketing con enfoque inclusivo, cuando desarrolle una imagen de empresa que comprenda el nombre o marca comercial, logotipo y eslogan publicitario, respetando en todo momento el uso correcto de la propiedad privada de imágenes y nombres comerciales y respetando también el objetivo ético, responsable e inclusivo de la publicidad, rechazando todo tipo de discriminación y violencia, y promoviendo la igualdad y corresponsabilidad entre mujeres y hombres. En lo que concierne al área de recursos humanos, se constatará que puede plantear las decisiones de gestión del personal del proyecto empresarial, cuando describa los puestos de trabajo de la empresa, identifique las formas de búsqueda y selección del personal de la empresa incluido el videocurrículum y las nuevas habilidades demandadas por las empresas, diferencie las formas de contratación laboral de acuerdo a la normativa laboral, distinga los conceptos de documentos de retribución del personal, reconozca las obligaciones de la empresa ante la seguridad social, analice los derechos y deberes laborales básicos de las personas trabajadoras y empresarias, y tome conciencia de los riesgos que para la seguridad y salud de las personas trabajadoras pudiera ocasionar la actividad laboral de la empresa. Finalmente, atendiendo al área de financiación, se comprobará la capacidad para tomar decisiones financieras, cuando en el proyecto empresarial atienda a dos demandas: la primera de ellas, la gestión de cobros y pagos mediante la elaboración de un sencillo plan de tesorería basado en previsiones y planteamiento de hipótesis; y la segunda, la selección de las fuentes de financiación más apropiadas, considerando variables como el plazo de devolución, la titularidad y el origen de los fondos. Además, el avance en el cumplimiento de los Objetivos de Desarrollo Sostenible 2030 requiere de la introducción de elementos ambientales, sociales y de gobernanza en la toma de decisiones de inversión empresarial y de decisiones financieras sostenibles, por lo que se constatará que el alumnado tiene en cuenta la incorporación de los bonos verdes, los microcréditos o el crowdfunding en su modelo empresarial, valorando la contribución de la ciencia económica en el cambio de las condiciones de vida y adquiriendo compromisos como ciudadano en el ámbito local y global.",
-      "broader": "materia:BFUE",
+      "broader": "asig:BFUE02",
       "agrupa": [
         "ce:BFUEC3"
       ],
@@ -165,6 +177,7 @@
         "CC4"
       ],
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -174,7 +187,7 @@
       "notation": "BFUE02BC4",
       "prefLabel": "Fundamentos de Administración y Gestión · 2º Bachillerato · bloque competencial C4",
       "scopeNote": "En el desarrollo de este bloque competencial se verificará que el alumnado distingue la naturaleza de los distintos elementos que componen el patrimonio empresarial, clasificando sus bienes, derechos y obligaciones, empleando la terminología contable básica y calculando su valor patrimonial a través del análisis de casos prácticos de diferentes situaciones patrimoniales. Asimismo, se comprobará que reproduce la metodología contable para operaciones sencillas y habituales en las actividades comerciales correspondientes a un ciclo económico simulado, como compras, ventas, gastos, ingresos, cobros, pagos y operaciones de apertura y cierre de ejercicio, para determinar el resultado económico obtenido, utilizando herramientas digitales y aplicaciones para la gestión contable, aplicando las principales normas y los principios elementales del Plan General de Contabilidad, y elaborando e interpretando las cuentas anuales abreviadas, con la finalidad de explicar las obligaciones contables de la empresa y de reflexionar sobre la importancia que el análisis de la información contable elaborada con el empleo de diferentes formatos (informes, cuadros, fórmulas…) transmite a los distintos agentes sobre la situación patrimonial, económica y financiera de las empresas. Paralelamente, se constatará que identifica los elementos básicos de los principales impuestos el sistema tributario español, profundizando en los que afectan a las empresas, como es el hecho imponible, las operaciones sujetas y exentas, el sujeto pasivo..., empleando la terminología fiscal de forma básica y analizando de forma crítica las adaptaciones que supone el REF. Adicionalmente, se comprobará que valora la importancia de la responsabilidad fiscal empresarial, analizando de forma crítica la repercusión que el cumplimiento de las obligaciones tributarias suponen para la convivencia y el funcionamiento democrático, para lo que estudiará el impacto que la presión fiscal, la economía sumergida y la evasión fiscal de las empresas tienen en la economía de su entorno, mediante la búsqueda y el contraste de información procedente de distintas fuentes, Y proponiendo ideas y soluciones que contribuyan a adquirir un compromiso ético con la igualdad y la cohesión social en nuestra sociedad a través de la educación fiscal.",
-      "broader": "materia:BFUE",
+      "broader": "asig:BFUE02",
       "agrupa": [
         "ce:BFUEC4"
       ],
@@ -193,6 +206,7 @@
         "CE1"
       ],
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -202,7 +216,7 @@
       "notation": "BFUE02BC5",
       "prefLabel": "Fundamentos de Administración y Gestión · 2º Bachillerato · bloque competencial C5",
       "scopeNote": "A través de esta competencia específica se comprobará que el alumnado es capaz de poner en práctica procesos de comunicación efectiva del plan de empresa y que diseña de forma grupal los elementos de la narrativa de la idea de negocio o solución innovadora, para lo que se verificará que desarrolla la estructura de su presentación, incidiendo en la importancia de captar la atención y el interés del público en la introducción y finalización de la exposición, para fijar el mensaje con las conclusiones obtenidas en el plan, sin descuidar la síntesis de los aspectos claves del proyecto (estudio de mercado, organización interna, inversión...). Simultáneamente, se comprobará que elabora de forma grupal presentaciones efectivas de la idea de negocio, aplicando un storytelling dirigido a potenciar la imagen de marca de la empresa, siguiendo un esquema de elevator o rocket pitch y utilizando diferentes herramientas de comunicación y exposición, como puede ser el empleo de software de creación de presentaciones multimedia o vídeos de animaciones. Paralelamente a todo el proceso de aprendizaje anterior, se corroborará que identifica los elementos esenciales de la comunicación verbal, escrita, oral, signada y multimodal que le permitan expresarse con coherencia y corrección, y que desarrolla habilidades básicas de comunicación interna y externa en la empresa, adaptándose a las características de la audiencia, pudiendo utilizar con fluidez y adecuación aceptable otras lenguas, mediante la puesta en práctica de técnicas como el uso del lenguaje, la vocalización, la modulación y proyección de la voz…; o como la comunicación no verbal, en la que entraría el empleo adecuado de la vestimenta y el control de las expresiones gestuales y modales. Asimismo, se comprobará que usa de forma responsable, activa y cívica las tecnologías digitales utilizadas en la comunicación empresarial y que conjuga la comunicación tradicional con las habilidades propias del neotelling o arte de comunicar y seducir con tecnología, para crear conocimiento y recopilar opiniones y aportaciones que le permitan validar, contrastar e incorporar mejoras, en un proceso de retroalimentación, a las ideas y soluciones desarrolladas, demostrando respeto por las normas, empatía, equidad y espíritu constructivo en la interacción con las demás personas, y valorando la adecuación y repercusión del proyecto en el entorno local con perspectiva global.",
-      "broader": "materia:BFUE",
+      "broader": "asig:BFUE02",
       "agrupa": [
         "ce:BFUEC5"
       ],
@@ -222,6 +236,7 @@
         "CE3"
       ],
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -245,6 +260,7 @@
         "CE2"
       ],
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -269,6 +285,7 @@
         "CE2"
       ],
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -290,6 +307,7 @@
         "CE3"
       ],
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -315,6 +333,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -340,6 +359,7 @@
         "CE2"
       ],
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -362,6 +382,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -386,6 +407,7 @@
         "CE3"
       ],
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -407,6 +429,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -431,6 +454,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -452,6 +476,7 @@
         "CE2"
       ],
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -472,6 +497,7 @@
         "CE2"
       ],
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -490,6 +516,7 @@
         "STEM2"
       ],
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -508,6 +535,7 @@
         "CD3"
       ],
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -527,6 +555,7 @@
         "CE1"
       ],
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -546,6 +575,7 @@
         "CE1"
       ],
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -568,6 +598,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -587,6 +618,7 @@
         "CE3"
       ],
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -596,8 +628,9 @@
       "notation": "BFUE02SBI",
       "prefLabel": "BFUE02SBI · I. Innovación e idea de negocio: el proyecto de empresa",
       "definition": "Innovación e idea de negocio: el proyecto de empresa",
-      "broader": "materia:BFUE",
+      "broader": "asig:BFUE02",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -607,8 +640,9 @@
       "notation": "BFUE02SBII",
       "prefLabel": "BFUE02SBII · II. Decisiones para iniciar un proyecto emprendedor",
       "definition": "Decisiones para iniciar un proyecto emprendedor",
-      "broader": "materia:BFUE",
+      "broader": "asig:BFUE02",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -618,8 +652,9 @@
       "notation": "BFUE02SBIII",
       "prefLabel": "BFUE02SBIII · III. Organización interna de la empresa",
       "definition": "Organización interna de la empresa",
-      "broader": "materia:BFUE",
+      "broader": "asig:BFUE02",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -629,8 +664,9 @@
       "notation": "BFUE02SBIV",
       "prefLabel": "BFUE02SBIV · IV. Fiscalidad y contabilidad en el proyecto emprendedor",
       "definition": "Fiscalidad y contabilidad en el proyecto emprendedor",
-      "broader": "materia:BFUE",
+      "broader": "asig:BFUE02",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -640,8 +676,9 @@
       "notation": "BFUE02SBV",
       "prefLabel": "BFUE02SBV · V. Comunicación empresarial: exposición del proyecto de empresa",
       "definition": "Comunicación empresarial: exposición del proyecto de empresa",
-      "broader": "materia:BFUE",
+      "broader": "asig:BFUE02",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -653,6 +690,7 @@
       "definition": "Importancia de la innovación como fuente de desarrollo económico y de mejora de la calidad de vida. Análisis de casos prácticos de innovación.",
       "broader": "sb:BFUE02SBI",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -664,6 +702,7 @@
       "definition": "Factores determinantes de la innovación. Tipos de innovación: Manual de Oslo. Riesgos de la innovación.",
       "broader": "sb:BFUE02SBI.1",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -675,6 +714,7 @@
       "definition": "Innovación como motor del emprendimiento en la sociedad actual. La aplicación de la creatividad: modelo Innovation Engine de Tina Seelig.",
       "broader": "sb:BFUE02SBI.1",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -686,6 +726,7 @@
       "definition": "Proceso emprendedor.",
       "broader": "sb:BFUE02SBI",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -697,6 +738,7 @@
       "definition": "Caracterización y tipologías de persona emprendedora. Valoración de la cultura emprendedora. Análisis de casos prácticos de emprendimiento.",
       "broader": "sb:BFUE02SBI.2",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -708,6 +750,7 @@
       "definition": "Habilidades blandas para emprender. Autodiagnóstico de actitudes emprendedoras.",
       "broader": "sb:BFUE02SBI.2",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -719,6 +762,7 @@
       "definition": "Creatividad en la generación de ideas.",
       "broader": "sb:BFUE02SBI",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -730,6 +774,7 @@
       "definition": "Aplicación de técnicas de generación de ideas: brainstorming, método de los «6 sombreros para pensar», Phillips 66...",
       "broader": "sb:BFUE02SBI.3",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -741,6 +786,7 @@
       "definition": "Análisis del entorno y del mercado: herramientas PESTEL, DAFO, mapa de empatía...",
       "broader": "sb:BFUE02SBI.3",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -752,6 +798,7 @@
       "definition": "Idea de negocio, detección y evaluación de oportunidades de negocio. Análisis de varios modelos de negocio: larga cola, cebo y anzuelo, software-as-a-service, co-creación, crowdsourcing, modelo Canvas...",
       "broader": "sb:BFUE02SBI.3",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -763,6 +810,7 @@
       "definition": "Análisis del emprendimiento social y de sinergias en el desarrollo local. Estudio de casos prácticos.",
       "broader": "sb:BFUE02SBI",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -774,6 +822,7 @@
       "definition": "Transformación económica y social de diferentes acciones emprendedoras locales de economía colaborativa y circular.",
       "broader": "sb:BFUE02SBI.4",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -785,6 +834,7 @@
       "definition": "Efecto de los retornos en la economía local: ejemplos de consumo/producción responsable y consumo local.",
       "broader": "sb:BFUE02SBI.4",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -796,6 +846,7 @@
       "definition": "Establecimiento de objetivos empresariales y de responsabilidad social corporativa (RSC) y elementos intangibles del proyecto emprendedor: el empleo del lienzo Misión-Visión-Valores, el análisis DAFO y la metodología de los «5 porqués» en la aplicación de estrategias de economía circular en el proyecto.",
       "broader": "sb:BFUE02SBII",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -807,6 +858,7 @@
       "definition": "Análisis de factores de localización y diseño del punto de venta o de servicio.",
       "broader": "sb:BFUE02SBII",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -818,6 +870,7 @@
       "definition": "Técnicas y etapas en el proceso de branding y naming de nuestra idea de negocio.",
       "broader": "sb:BFUE02SBII",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -829,6 +882,7 @@
       "definition": "Diferenciación entre el trabajo por cuenta propia y ajena: las cotizaciones y los derechos sociales en el Régimen Especial de los Trabajadores Autónomos (RETA).",
       "broader": "sb:BFUE02SBII",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -840,6 +894,7 @@
       "definition": "Reconocimiento de la estructura organizativa de la empresa: la representación gráfica en organigramas.",
       "broader": "sb:BFUE02SBIII",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -851,6 +906,7 @@
       "definition": "Área de aprovisionamiento.",
       "broader": "sb:BFUE02SBIII",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -862,6 +918,7 @@
       "definition": "Plan de compras y control de stocks. Técnicas de selección de proveedores. La documentación comercial: el pedido, albarán y factura.",
       "broader": "sb:BFUE02SBIII.2",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -873,6 +930,7 @@
       "definition": "Área de producción o servicio.",
       "broader": "sb:BFUE02SBIII",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -884,6 +942,7 @@
       "definition": "Descripción del producto. Diseño del prototipo y aplicación de técnicas de prototipado (lego serious play, origami, impresión 3D, aplicaciones web, storyboards…).",
       "broader": "sb:BFUE02SBIII.3",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -895,6 +954,7 @@
       "definition": "Descripción del servicio. El manual de procedimiento de prestación del servicio.",
       "broader": "sb:BFUE02SBIII.3",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -906,6 +966,7 @@
       "definition": "Área comercial y de marketing.",
       "broader": "sb:BFUE02SBIII",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -917,6 +978,7 @@
       "definition": "Técnicas y aplicación de investigaciones de mercado.",
       "broader": "sb:BFUE02SBIII.4",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -928,6 +990,7 @@
       "definition": "Comunicación comercial y atención al cliente.",
       "broader": "sb:BFUE02SBIII.4",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -939,6 +1002,7 @@
       "definition": "Responsabilidad en las acciones publicitarias. Análisis de anuncios publicitarios (plan de medios, publicidad en internet y tecnologías de comunicación digitales).",
       "broader": "sb:BFUE02SBIII.4",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -950,6 +1014,7 @@
       "definition": "Área de recursos humanos.",
       "broader": "sb:BFUE02SBIII",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -961,6 +1026,7 @@
       "definition": "Búsqueda y selección de personal: el videocurrículum. Reconocimiento de las nuevas habilidades demandadas por las empresas.",
       "broader": "sb:BFUE02SBIII.5",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -972,6 +1038,7 @@
       "definition": "Diferenciación de los principales tipos de contratación laboral.",
       "broader": "sb:BFUE02SBIII.5",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -983,6 +1050,7 @@
       "definition": "Análisis de los derechos y deberes laborales básicos. Toma de conciencia sobre los riesgos laborales.",
       "broader": "sb:BFUE02SBIII.5",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -994,6 +1062,7 @@
       "definition": "Análisis de los elementos básicos de las nóminas.",
       "broader": "sb:BFUE02SBIII.5",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1005,6 +1074,7 @@
       "definition": "Área de financiación.",
       "broader": "sb:BFUE02SBIII",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1016,6 +1086,7 @@
       "definition": "Elaboración de un plan básico de tesorería.",
       "broader": "sb:BFUE02SBIII.6",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1027,6 +1098,7 @@
       "definition": "Selección de las fuentes de financiación más apropiadas, incluyendo las finanzas sostenibles y atendiendo a diversos criterios.",
       "broader": "sb:BFUE02SBIII.6",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1038,6 +1110,7 @@
       "definition": "Composición y valoración patrimonial. Las cuentas y la metodología contable: fundamentos de su aplicación. Explicación de las normas elementales del Plan General de Contabilidad.",
       "broader": "sb:BFUE02SBIV",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1049,6 +1122,7 @@
       "definition": "Elaboración e interpretación de un balance de situación y una cuenta de resultados abreviados. Análisis de las obligaciones contables.",
       "broader": "sb:BFUE02SBIV",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1060,6 +1134,7 @@
       "definition": "Identificación de los elementos básicos de los impuestos y de las principales figuras del sistema tributario español y canario, en particular: las ventajas del REF y la tributación de las actividades empresariales en Canarias.",
       "broader": "sb:BFUE02SBIV",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1071,6 +1146,7 @@
       "definition": "Análisis y repercusión de las obligaciones fiscales de la empresa: estudio de la economía sumergida, y de la presión y evasión fiscal y sus efectos sobre la economía española y canaria. Compromiso social y conciencia ciudadana de las empresas en materia fiscal.",
       "broader": "sb:BFUE02SBIV",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1082,6 +1158,7 @@
       "definition": "Diseño de la narrativa del proyecto emprendedor: desarrollo de la estructura de la presentación de la idea de negocio y storytelling aplicado a potenciar la imagen de marca.",
       "broader": "sb:BFUE02SBV",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1093,6 +1170,7 @@
       "definition": "Presentación del proyecto empresarial, utilizando diferentes herramientas de comunicación y exposición: manejo de aplicaciones de creación de presentaciones multimedia.",
       "broader": "sb:BFUE02SBV",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -1104,6 +1182,7 @@
       "definition": "Identificación de los elementos esenciales de la comunicación verbal y no verbal. Desarrollo de las habilidades básicas de comunicación externa e interna en la empresa: puesta en práctica de la comunicación con neotelling, el arte de comunicar y seducir con tecnología. Uso eficaz y seguro de las tecnologías digitales como medio de comunicación empresarial.",
       "broader": "sb:BFUE02SBV",
       "materia": "materia:BFUE",
+      "materia_curso": "asig:BFUE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     }

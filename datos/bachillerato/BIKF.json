@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BIKF01",
+      "tipo": "MateriaCurso",
+      "notation": "BIKF01",
+      "prefLabel": "Informática y Digitalización I · 1º Bachillerato",
+      "broader": "materia:BIKF",
+      "materia": "materia:BIKF",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BIKFC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BIKFC1",
@@ -57,7 +67,7 @@
       "notation": "BIKF01BC1",
       "prefLabel": "Informática y Digitalización I · 1º Bachillerato · bloque competencial C1",
       "scopeNote": "Mediante este bloque competencial se persigue constatar que el alumnado es capaz de identificar los elementos principales que componen la arquitectura de los dispositivos digitales, aplicar estrategias que le permitan instalar, configurar y gestionar ficheros, directorios y software de propósito general, así como restaurar equipos, configurar y mantener redes de comunicación, estableciendo una gestión adecuada de los sistemas operativos. Asimismo, se valorará su capacidad para resolver problemas técnicos de forma segura, responsable y respetuosa, mostrando una actitud crítica y proactiva, fomentando una actitud participativa y libre de estereotipos sexistas, escogiendo la mejor solución entre diversas opciones, reformulando y aprendiendo de sus errores, valorando siempre la seguridad de los dispositivos y de las personas, el bienestar personal y colectivo, y aplicando criterios de reutilización de materiales y ahorro energético.",
-      "broader": "materia:BIKF",
+      "broader": "asig:BIKF01",
       "agrupa": [
         "ce:BIKFC1"
       ],
@@ -74,6 +84,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -83,7 +94,7 @@
       "notation": "BIKF01BC2",
       "prefLabel": "Informática y Digitalización I · 1º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se persigue constatar la capacidad del alumnado para aplicar las herramientas que le permitan configurar y gestionar su entorno personal de aprendizaje, favoreciendo el aprendizaje permanente. Con este fin, se comprobará que es capaz de generar contenidos digitales, de manera individual y colaborativa, utilizando herramientas ofimáticas (presentación de contenidos, hojas de cálculo...), de edición de imagen, sonido, vídeo y de modelado en 3D, realizando operaciones básicas en el manejo de documentos de solo lectura, teniendo en cuenta la persona destinataria y adecuando el mensaje al público al que está destinado, respetando la propiedad intelectual y haciendo uso de un lenguaje inclusivo y libre de estereotipos sexistas. También, se valorará la capacidad de resolver de manera razonada determinadas situaciones o problemas mediante la selección, la configuración y el uso de las aplicaciones informáticas de escritorio, web o móviles más apropiadas de su entorno personal digital.",
-      "broader": "materia:BIKF",
+      "broader": "asig:BIKF01",
       "agrupa": [
         "ce:BIKFC2"
       ],
@@ -98,6 +109,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -107,7 +119,7 @@
       "notation": "BIKF01BC3",
       "prefLabel": "Informática y Digitalización I · 1º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado conoce los riesgos, el contenido y las conductas inapropiadas a los que se expone a través de las diferentes formas de participación en Internet y adopta las estrategias necesarias para preservar el bienestar emocional y administrar su huella en la red. Para ello, se comprobará que el alumnado identifica prácticas de riesgo en sus comunicaciones digitales, a través de la identificación y el análisis de los elementos de hardware y software que exponen y protegen a los dispositivos digitales y las redes; y realiza acciones comunicativas democráticas y éticas que preserven el bienestar emocional y digital propio y ajeno, siendo consciente de la influencia que ejerce el grupo en las personas. Se comprobará también que gestiona de manera autónoma, responsable, crítica y reflexiva sus acciones y presencia en la red, a través de la toma de conciencia de lo que supone una huella digital activa y pasiva, y de la adopción de estrategias de actuación para mitigarlas.",
-      "broader": "materia:BIKF",
+      "broader": "asig:BIKF01",
       "agrupa": [
         "ce:BIKFC3"
       ],
@@ -123,6 +135,7 @@
         "CC2"
       ],
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -132,7 +145,7 @@
       "notation": "BIKF01BC4",
       "prefLabel": "Informática y Digitalización I · 1º Bachillerato · bloque competencial C4",
       "scopeNote": "Con este bloque competencial se busca constatar que el alumnado es capaz de crear aplicaciones que den solución a problemas técnicos, asumiendo sus compromisos tanto en el trabajo individual como formando parte de un equipo de trabajo en el que se distribuyen los recursos y las responsabilidades de manera ecuánime. Para ello, se comprobará que el alumnado aplica estrategias del pensamiento computacional a la hora de identificar y definir los problemas y subproblemas que subyacen en los proyectos técnicos que se le plantean, y de transmitir la información relevante dentro de sus equipos de trabajo, con actitud cooperativa y respetuosa, para abordar la resolución de los mismos, siendo capaz de analizar críticamente los algoritmos y programas asociados a las soluciones propuestas y reformularlas, si fuera necesario. Asimismo, se verificará que afronta los retos de programación propuestos, evaluando las necesidades y los conocimientos técnicos sobre los lenguajes de programación y diagramas de flujo para implementar programas sencillos de manera colaborativa, investigando por iniciativa propia y de manera crítica soluciones similares ya desarrolladas disponibles a través de Internet; y que es capaz, además, de transmitir los aspectos cruciales de sus investigaciones y creaciones para construir nuevos conocimientos.",
-      "broader": "materia:BIKF",
+      "broader": "asig:BIKF01",
       "agrupa": [
         "ce:BIKFC4"
       ],
@@ -152,6 +165,7 @@
         "CE3"
       ],
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -169,6 +183,7 @@
         "CD1"
       ],
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -190,6 +205,7 @@
         "CE3"
       ],
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -209,6 +225,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -230,6 +247,7 @@
         "CE3"
       ],
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -252,6 +270,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -275,6 +294,7 @@
         "CC2"
       ],
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -297,6 +317,7 @@
         "CC1"
       ],
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -316,6 +337,7 @@
         "CD2"
       ],
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -338,6 +360,7 @@
         "CD5"
       ],
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -356,6 +379,7 @@
         "STEM4"
       ],
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -382,6 +406,7 @@
         "CE3"
       ],
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -391,8 +416,9 @@
       "notation": "BIKF01SBI",
       "prefLabel": "BIKF01SBI · I. Dispositivos digitales, sistemas operativos y de comunicación",
       "definition": "Dispositivos digitales, sistemas operativos y de comunicación",
-      "broader": "materia:BIKF",
+      "broader": "asig:BIKF01",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -402,8 +428,9 @@
       "notation": "BIKF01SBII",
       "prefLabel": "BIKF01SBII · II. Digitalización del entorno personal de aprendizaje",
       "definition": "Digitalización del entorno personal de aprendizaje",
-      "broader": "materia:BIKF",
+      "broader": "asig:BIKF01",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -413,8 +440,9 @@
       "notation": "BIKF01SBIII",
       "prefLabel": "BIKF01SBIII · III. Seguridad y bienestar digital",
       "definition": "Seguridad y bienestar digital",
-      "broader": "materia:BIKF",
+      "broader": "asig:BIKF01",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -424,8 +452,9 @@
       "notation": "BIKF01SBIV",
       "prefLabel": "BIKF01SBIV · IV. Programación",
       "definition": "Programación",
-      "broader": "materia:BIKF",
+      "broader": "asig:BIKF01",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -437,6 +466,7 @@
       "definition": "Identificación y análisis crítico de los principales hitos de la historia de la informática, valorando su repercusión en el estado de desarrollo actual.",
       "broader": "sb:BIKF01SBI",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -448,6 +478,7 @@
       "definition": "Análisis de los elementos que constituyen la arquitectura de los dispositivos digitales (la unidad central de proceso, la unidad aritmético-lógica y el registro, la memoria caché...) y descripción de sus funciones para favorecer el desarrollo de estrategias eficaces en la resolución de los problemas con criterios de reutilización de materiales y ahorro energético.",
       "broader": "sb:BIKF01SBI",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -459,6 +490,7 @@
       "definition": "Instalación y análisis del funcionamiento de sistemas operativos y software de propósito general (antivirus, firewall…) en diversos dispositivos digitales.",
       "broader": "sb:BIKF01SBI",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -470,6 +502,7 @@
       "definition": "Aplicación de estrategias que permitan una adecuada gestión de archivos y carpetas. Identificación y funcionalidad de la extensión de un archivo. Reconocimiento de las propiedades específicas de un archivo ejecutable. Análisis y aplicación de recursos digitales para comprimir y descomprimir archivos y carpetas.",
       "broader": "sb:BIKF01SBI",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -481,6 +514,7 @@
       "definition": "Configuración de las operaciones básicas que permitan la restauración de equipos: formateo, particiones y copias de seguridad.",
       "broader": "sb:BIKF01SBI",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -492,6 +526,7 @@
       "definition": "Identificación de los dispositivos constituyentes de las redes informáticas locales y análisis de su funcionamiento para realizar su adecuada conexión, configuración y mantenimiento.",
       "broader": "sb:BIKF01SBI",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -503,6 +538,7 @@
       "definition": "Edición y creación de contenidos.",
       "broader": "sb:BIKF01SBII",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -514,6 +550,7 @@
       "definition": "Aplicación de recursos digitales para realizar operaciones básicas en el manejo de documentos de solo lectura, incluyendo el formato pdf.",
       "broader": "sb:BIKF01SBII.1",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -525,6 +562,7 @@
       "definition": "Uso avanzado de herramientas ofimáticas para la creación, gestión y difusión de contenidos en diferentes formatos (hojas de cálculo, presentaciones digitales, bases de datos...).",
       "broader": "sb:BIKF01SBII.1",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -536,6 +574,7 @@
       "definition": "Uso de herramientas digitales de edición de imagen, vídeo y audio, identificando y valorando las diferencias según el formato. Empleo de recursos que permitan la conversión entre formatos.",
       "broader": "sb:BIKF01SBII.1",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -547,6 +586,7 @@
       "definition": "Análisis, selección y utilización de diferentes herramientas para generar entornos de trabajo colaborativo.",
       "broader": "sb:BIKF01SBII.1",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -558,6 +598,7 @@
       "definition": "Aplicación de herramientas digitales que permitan la iniciación al modelado 3D.",
       "broader": "sb:BIKF01SBII.1",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -569,6 +610,7 @@
       "definition": "Seguridad de los dispositivos digitales.",
       "broader": "sb:BIKF01SBIII",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -580,6 +622,7 @@
       "definition": "Identificación y análisis de los elementos (hardware y software) que protegen a los dispositivos digitales y redes sobre los riesgos, las amenazas y los ataques que afectan a su seguridad.",
       "broader": "sb:BIKF01SBIII.1",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -591,6 +634,7 @@
       "definition": "Análisis y valoración de los riesgos y amenazas presentes en los entornos digitales y aplicación de herramientas y estrategias encaminadas a evitarlos.",
       "broader": "sb:BIKF01SBIII.1",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -602,6 +646,7 @@
       "definition": "Aplicación de estrategias para preservar la huella digital activa y pasiva.",
       "broader": "sb:BIKF01SBIII",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -613,6 +658,7 @@
       "definition": "Algoritmos informáticos.",
       "broader": "sb:BIKF01SBIV",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -624,6 +670,7 @@
       "definition": "Identificación de las diferentes fases del proceso de programación y aplicación de estrategias de pensamiento computacional para la resolución de problemas.",
       "broader": "sb:BIKF01SBIV.1",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -635,6 +682,7 @@
       "definition": "Reconocimiento y uso de simbología estandarizada para la elaboración de un diagrama de flujo.",
       "broader": "sb:BIKF01SBIV.1",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -646,6 +694,7 @@
       "definition": "Conocimiento y aplicación de diferentes operadores y tipos de datos para la elaboración de algoritmos, con la finalidad de solucionar problemas a partir de diagramas de flujo.",
       "broader": "sb:BIKF01SBIV.1",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -657,6 +706,7 @@
       "definition": "Lenguajes de programación.",
       "broader": "sb:BIKF01SBIV",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -668,6 +718,7 @@
       "definition": "Identificación de los elementos básicos de los lenguajes de programación.",
       "broader": "sb:BIKF01SBIV.2",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -679,6 +730,7 @@
       "definition": "Diseño y creación de aplicaciones informáticas sencillas, utilizando diferentes lenguajes de programación e incluyendo los orientados a objetos.",
       "broader": "sb:BIKF01SBIV.2",
       "materia": "materia:BIKF",
+      "materia_curso": "asig:BIKF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

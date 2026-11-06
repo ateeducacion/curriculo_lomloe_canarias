@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BWEC01",
+      "tipo": "MateriaCurso",
+      "notation": "BWEC01",
+      "prefLabel": "Tecnología e Ingeniería I · 1º Bachillerato",
+      "broader": "materia:BWEC",
+      "materia": "materia:BWEC",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BWECC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BWECC1",
@@ -77,7 +87,7 @@
       "notation": "BWEC01BC1",
       "prefLabel": "Tecnología e Ingeniería I · 1º Bachillerato · bloque competencial C1",
       "scopeNote": "Con este bloque competencial se persigue constatar que el alumnado dispone de las estrategias de gestión, coordinación y participación propias del trabajo por proyectos, incorporando técnicas específicas de investigación, ideación de soluciones, fabricación y mejora de productos y sistemas de calidad que den respuesta a problemas planteados, desde una perspectiva interdisciplinar y con un enfoque ético y ecosocialmente responsable. Para ello, el alumnado trabajará de forma colaborativa, utilizando diversas técnicas acordes a cada fase, como diagramas de Gantt, metodologías ágiles o pensamiento de diseño (design thinking), con la finalidad de utilizar los métodos y aplicaciones adecuados a su nivel para diseñar y crear soluciones que den respuesta a necesidades planteadas, así como de ofrecer mejoras a las mismas de manera continua, evaluando tanto los productos obtenidos como su diseño y ciclo de vida, desarrollando estrategias de control de calidad, comercialización, logística, transporte y distribución. Asimismo, el alumnado debe ser capaz de localizar, seleccionar, contrastar e interpretar la información para elaborar la documentación técnica necesaria y comunicarla de forma oral, escrita y multimodal, de manera coherente y argumentada, usando un lenguaje inclusivo y no sexista.",
-      "broader": "materia:BWEC",
+      "broader": "asig:BWEC01",
       "agrupa": [
         "ce:BWECC1"
       ],
@@ -93,6 +103,7 @@
         "STEM4"
       ],
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -102,7 +113,7 @@
       "notation": "BWEC01BC2",
       "prefLabel": "Tecnología e Ingeniería I · 1º Bachillerato · bloque competencial C2",
       "scopeNote": "Con este bloque competencial se pretende constatar la adquisición, por parte del alumnado, de estrategias que le permitan seleccionar productos que han sido diseñados y fabricados bajo criterios de sostenibilidad, eficiencia energética y respeto social, tanto por los materiales utilizados en su fabricación como por los procedimientos de conformado aplicados, fomentando con ello una participación activa y responsable en la sociedad actual de consumo. Para ello, el alumnado será capaz de fabricar un producto de calidad que dé respuesta a las necesidades planteadas, trabajando de forma colaborativa y utilizando el pensamiento científico para plantear hipótesis que se contrastan mediante la experimentación y la investigación, con la finalidad de mejorar su entorno, seleccionando y compartiendo la información de manera crítica, valorando las técnicas de fabricación más adecuadas a cada caso, siguiendo criterios de sostenibilidad y respetando las normas de seguridad e higiene. Asimismo, se valorará la capacidad de determinar el ciclo de vida de un producto, analizando su huella ecológica y proponiendo opciones de mejora continua tanto de los productos elaborados como de las técnicas utilizadas.",
-      "broader": "materia:BWEC",
+      "broader": "asig:BWEC01",
       "agrupa": [
         "ce:BWECC2"
       ],
@@ -117,6 +128,7 @@
         "CE1"
       ],
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -126,7 +138,7 @@
       "notation": "BWEC01BC3",
       "prefLabel": "Tecnología e Ingeniería I · 1º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se pretende contribuir a la alfabetización informacional del alumnado, de manera que aplique herramientas digitales que le permitan responder adecuadamente a las necesidades de la sociedad actual, así como realizar eficazmente el trabajo colaborativo, la comunicación de ideas o la difusión y presentación de trabajos, por lo que se comprobará que es capaz de hacer un uso óptimo de estas herramientas, adecuándolas a cada situación para resolver las tareas planteadas de manera interdisciplinar (proceso de diseño y creación de soluciones, dimensionado, simulación, programación y control de sistemas, fabricación de productos, etc.), aplicando criterios adecuados de búsqueda de información y seleccionando los resultados de manera crítica y responsable para desarrollar soluciones innovadoras y sostenibles de manera colaborativa, así como para presentar y difundir los resultados obtenidos de forma óptima.",
-      "broader": "materia:BWEC",
+      "broader": "asig:BWEC01",
       "agrupa": [
         "ce:BWECC3"
       ],
@@ -140,6 +152,7 @@
         "CE3"
       ],
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -149,7 +162,7 @@
       "notation": "BWEC01BC4",
       "prefLabel": "Tecnología e Ingeniería I · 1º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se valorará el desarrollo y adquisición de estrategias por parte del alumnado que le permitan integrar las habilidades, técnicas y conocimientos de las diferentes disciplinas de manera natural, con la finalidad de idear y desarrollar soluciones que den respuesta a problemas planteados integrando saberes de diferentes áreas del conocimiento para obtener soluciones diversas y eficaces. Se comprobará, por tanto, que el alumnado es capaz de proponer y desarrollar respuestas innovadoras y sostenibles a problemas asociados a sistemas e instalaciones mecánicas, eléctricas y electrónicas, aplicando los fundamentos adecuados en cada caso para el desarrollo de montajes o simulaciones, siendo capaz de utilizar las herramientas adquiridas para generar nuevo conocimiento y diseñar soluciones que requieran el uso de mecanismos de transmisión y transformación de movimientos, así como de sistemas eléctricos de corriente continua, realizando los cálculos de magnitudes asociadas y construyendo o simulando las soluciones ideadas, analizándolas de manera crítica para posibilitar una mejora constante de las mismas.",
-      "broader": "materia:BWEC",
+      "broader": "asig:BWEC01",
       "agrupa": [
         "ce:BWECC4"
       ],
@@ -164,6 +177,7 @@
         "CE3"
       ],
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -173,7 +187,7 @@
       "notation": "BWEC01BC5",
       "prefLabel": "Tecnología e Ingeniería I · 1º Bachillerato · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de comprender el proceso de diseño y desarrollo de un producto desde un punto de vista industrial, analizando los sistemas técnicos para el control automático en máquinas y en robots, así como a través de las tecnologías emergentes (inteligencia artificial, internet de las cosas, big data, etc.) aplicadas al control de objetos. Para ello se comprobará que el alumnado es capaz de controlar el funcionamiento de diversos sistemas tecnológicos y robóticos, aplicando el pensamiento computacional y utilizando lenguajes de programación, así como aplicando las posibilidades que ofrecen las tecnologías emergentes antes mencionadas y los protocolos de comunicación de redes de diferentes dispositivos. También se valorará su capacidad para diseñar, crear y evaluar sistemas tecnológicos de manera colaborativa y segura, utilizando el pensamiento científico, estrategias variadas, dispositivos digitales, herramientas, aplicaciones y servicios en línea, valorando de manera crítica las soluciones innovadoras y sostenibles.",
-      "broader": "materia:BWEC",
+      "broader": "asig:BWEC01",
       "agrupa": [
         "ce:BWECC5"
       ],
@@ -188,6 +202,7 @@
         "CPSAA1.1"
       ],
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -197,7 +212,7 @@
       "notation": "BWEC01BC6",
       "prefLabel": "Tecnología e Ingeniería I · 1º Bachillerato · bloque competencial C6",
       "scopeNote": "A través de este bloque competencial se pretende dotar al alumnado de un criterio informado sobre el impacto a nivel social y medioambiental que generan los sistemas y dispositivos tecnológicos, específicamente los sistemas energéticos y suministros domésticos, así como de las técnicas de ahorro existentes, favoreciendo actitudes ecosocialmente responsables y contribuyendo a la consecución de los Objetivos de Desarrollo Sostenible, por lo que se constatará si es capaz de analizar y evaluar los mercados energéticos en Canarias y en el mundo, además de los distintos sistemas de generación de energía, incluyendo tanto las fuentes de energía renovables como las no renovables, aplicando criterios de eficiencia energética y sostenibilidad para analizar las instalaciones eléctricas, de agua, climatización, de comunicación y domóticas de una vivienda, evaluando, así, el uso responsable y sostenible que se hace de estas tecnologías. Se valorará que el alumnado utilice técnicas del pensamiento científico, aplicando información obtenida de fuentes fiables, seleccionándola, reestructurándola y referenciándola, para examinar las relaciones de inter y ecodependencia entre nuestras formas de vida y el entorno, valorando la huella ecológica generada y adoptando las medidas necesarias para desarrollar un estilo de vida sostenible.",
-      "broader": "materia:BWEC",
+      "broader": "asig:BWEC01",
       "agrupa": [
         "ce:BWECC6"
       ],
@@ -213,6 +228,7 @@
         "CD4"
       ],
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -232,6 +248,7 @@
         "CE3"
       ],
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -250,6 +267,7 @@
         "CE3"
       ],
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -267,6 +285,7 @@
         "CPSAA1.1"
       ],
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -285,6 +304,7 @@
         "CD3"
       ],
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -303,6 +323,7 @@
         "CC4"
       ],
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -323,6 +344,7 @@
         "CE1"
       ],
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -344,6 +366,7 @@
         "CE3"
       ],
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -366,6 +389,7 @@
         "CE3"
       ],
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -388,6 +412,7 @@
         "CE3"
       ],
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -409,6 +434,7 @@
         "CE3"
       ],
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -431,6 +457,7 @@
         "CE3"
       ],
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -452,6 +479,7 @@
         "CE3"
       ],
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -472,6 +500,7 @@
         "CE1"
       ],
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -495,6 +524,7 @@
         "CE1"
       ],
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -504,8 +534,9 @@
       "notation": "BWEC01SBI",
       "prefLabel": "BWEC01SBI · I. Proyectos de investigación y desarrollo",
       "definition": "Proyectos de investigación y desarrollo",
-      "broader": "materia:BWEC",
+      "broader": "asig:BWEC01",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -515,8 +546,9 @@
       "notation": "BWEC01SBII",
       "prefLabel": "BWEC01SBII · II. Materiales y fabricación",
       "definition": "Materiales y fabricación",
-      "broader": "materia:BWEC",
+      "broader": "asig:BWEC01",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -526,8 +558,9 @@
       "notation": "BWEC01SBIII",
       "prefLabel": "BWEC01SBIII · III. Sistemas mecánicos",
       "definition": "Sistemas mecánicos",
-      "broader": "materia:BWEC",
+      "broader": "asig:BWEC01",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -537,8 +570,9 @@
       "notation": "BWEC01SBIV",
       "prefLabel": "BWEC01SBIV · IV. Sistemas eléctricos y electrónicos",
       "definition": "Sistemas eléctricos y electrónicos",
-      "broader": "materia:BWEC",
+      "broader": "asig:BWEC01",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -548,8 +582,9 @@
       "notation": "BWEC01SBV",
       "prefLabel": "BWEC01SBV · V. Sistemas informáticos. Programación",
       "definition": "Sistemas informáticos. Programación",
-      "broader": "materia:BWEC",
+      "broader": "asig:BWEC01",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -559,8 +594,9 @@
       "notation": "BWEC01SBVI",
       "prefLabel": "BWEC01SBVI · VI. Sistemas automáticos",
       "definition": "Sistemas automáticos",
-      "broader": "materia:BWEC",
+      "broader": "asig:BWEC01",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -570,8 +606,9 @@
       "notation": "BWEC01SBVII",
       "prefLabel": "BWEC01SBVII · VII. Tecnología sostenible",
       "definition": "Tecnología sostenible",
-      "broader": "materia:BWEC",
+      "broader": "asig:BWEC01",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -583,6 +620,7 @@
       "definition": "Uso de estrategias de gestión y desarrollo de proyectos como diagramas de Gantt y metodologías ágiles.",
       "broader": "sb:BWEC01SBI",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -594,6 +632,7 @@
       "definition": "Aplicación de técnicas relacionadas con el pensamiento de diseño (design thinking) para la investigación e ideación de soluciones a problemas planteados y otras técnicas de trabajo en grupo.",
       "broader": "sb:BWEC01SBI.1",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -605,6 +644,7 @@
       "definition": "Análisis del ciclo de vida de los productos y desarrollo de estrategias de mejora continua de los mismos.",
       "broader": "sb:BWEC01SBI",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -616,6 +656,7 @@
       "definition": "Búsqueda de soluciones relacionadas con la mejora de la planificación y desarrollo del diseño y comercialización de los productos, teniendo en cuenta aspectos relacionados con la logística, el transporte y la distribución.",
       "broader": "sb:BWEC01SBI.2",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -627,6 +668,7 @@
       "definition": "Análisis y aplicación de estándares que rigen el control de calidad de un producto, la metrología y la normalización.",
       "broader": "sb:BWEC01SBI.2",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -638,6 +680,7 @@
       "definition": "Uso de aplicaciones CAD-CAE-CAM para la representación de diagramas funcionales, esquemas y croquis en el diseño de soluciones que den respuesta a necesidades planteadas.",
       "broader": "sb:BWEC01SBI",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -649,6 +692,7 @@
       "definition": "Resolución de problemas desde una perspectiva interdisciplinar de la actividad tecnológica, fomentando el emprendimiento, la resiliencia, la perseverancia y la creatividad.",
       "broader": "sb:BWEC01SBI",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -660,6 +704,7 @@
       "definition": "Valoración del error y la reevaluación como parte esencial en la mejora del proceso de aprendizaje. Desarrollo de estrategias que permitan la identificación y gestión de emociones y fomenten la autoconfianza e iniciativa.",
       "broader": "sb:BWEC01SBI",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -671,6 +716,7 @@
       "definition": "Análisis, clasificación y selección de materiales técnicos y nuevos materiales en función de sus propiedades y aplicaciones y siguiendo criterios de sostenibilidad, accesibilidad y equidad social.",
       "broader": "sb:BWEC01SBII",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -682,6 +728,7 @@
       "definition": "Análisis y aplicación de técnicas de fabricación manual y digital para elaborar soluciones que den respuesta a una necesidad planteada. Uso de técnicas de prototipado rápido.",
       "broader": "sb:BWEC01SBII",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -693,6 +740,7 @@
       "definition": "Aplicación de las normas de seguridad e higiene en el trabajo.",
       "broader": "sb:BWEC01SBII",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -704,6 +752,7 @@
       "definition": "Análisis de los mecanismos de transmisión y transformación de movimientos, soportes y técnicas de unión de elementos mecánicos. Desarrollo de aplicaciones prácticas, físicas o simuladas en proyectos, realizando los diseños, cálculos y montajes requeridos.",
       "broader": "sb:BWEC01SBIII",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -715,6 +764,7 @@
       "definition": "Análisis de circuitos y máquinas de corriente continua e identificación de sus elementos constituyentes. Interpretación y representación esquematizada de circuitos.",
       "broader": "sb:BWEC01SBIV",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -726,6 +776,7 @@
       "definition": "Desarrollo de aplicaciones prácticas, físicas o simuladas en proyectos, realizando los cálculos y montajes requeridos.",
       "broader": "sb:BWEC01SBIV.1",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -737,6 +788,7 @@
       "definition": "Introducción a los fundamentos de la programación textual: características, elementos y lenguajes.",
       "broader": "sb:BWEC01SBV",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -748,6 +800,7 @@
       "definition": "Diseño y creación de programas para la resolución de problemas utilizando estrategias relacionadas con la modularización.",
       "broader": "sb:BWEC01SBV",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -759,6 +812,7 @@
       "definition": "Aplicación de las fases del proceso de desarrollo de programas informáticos: edición, compilación o interpretación, ejecución, realización de pruebas y depuración.",
       "broader": "sb:BWEC01SBV.2",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -770,6 +824,7 @@
       "definition": "Aplicación de las tecnologías emergentes en la realización de proyectos tecnológicos, como el internet de las cosas.",
       "broader": "sb:BWEC01SBV",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -781,6 +836,7 @@
       "definition": "Análisis y aplicación de los protocolos de comunicación de redes de dispositivos.",
       "broader": "sb:BWEC01SBV",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -792,6 +848,7 @@
       "definition": "Análisis de los conceptos y elementos constituyentes de los sistemas de control. Desarrollo de estrategias para modelización de sistemas sencillos.",
       "broader": "sb:BWEC01SBVI",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -803,6 +860,7 @@
       "definition": "Aplicación de la automatización programada en los procesos tecnológicos, analizando su diseño, programación, construcción y simulación o montaje.",
       "broader": "sb:BWEC01SBVI",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -814,6 +872,7 @@
       "definition": "Identificación y análisis de los sistemas de supervisión (SCADA): telemetría y monitorización.",
       "broader": "sb:BWEC01SBVI",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -825,6 +884,7 @@
       "definition": "Aplicación de las tecnologías emergentes a los sistemas de control.",
       "broader": "sb:BWEC01SBVI",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -836,6 +896,7 @@
       "definition": "Aplicación de herramientas para modelización de movimientos y acciones mecánicas relacionadas con la robótica.",
       "broader": "sb:BWEC01SBVI",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -847,6 +908,7 @@
       "definition": "Análisis de los sistemas de producción de energía y de los mercados energéticos en Canarias y en el mundo. Estudio de las técnicas y criterios de ahorro en los suministros domésticos, valorando la necesidad de realizar un consumo energético sostenible.",
       "broader": "sb:BWEC01SBVII",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -858,6 +920,7 @@
       "definition": "Análisis de las instalaciones eléctricas, de agua y climatización, de comunicación y domóticas en viviendas, incluyendo tanto las fuentes de energías renovables como las no renovables, con criterios de eficiencia energética y sostenibilidad.",
       "broader": "sb:BWEC01SBVII",
       "materia": "materia:BWEC",
+      "materia_curso": "asig:BWEC01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BCUF01",
+      "tipo": "MateriaCurso",
+      "notation": "BCUF01",
+      "prefLabel": "Cultura Científica · 1º Bachillerato",
+      "broader": "materia:BCUF",
+      "materia": "materia:BCUF",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BCUFC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BCUFC1",
@@ -25,8 +35,8 @@
       "id": "ce:BCUFC2",
       "tipo": "CompetenciaEspecifica",
       "notation": "BCUFC2",
-      "prefLabel": "BCUFC2 · Interpretar y transmitir información y datos científicos, argumentando sobre estos con…",
-      "definition": "Interpretar y transmitir información y datos científicos, argumentando sobre estos con precisión y utilizando diferentes formatos para analizar procesos, métodos, experimentos o resultados relacionados con la ciencia y la tecnología.",
+      "prefLabel": "BCUFC2 · Localizar y utilizar fuentes fiables, identificando, seleccionando y organizando…",
+      "definition": "Localizar y utilizar fuentes fiables, identificando, seleccionando y organizando información, evaluándola críticamente y contrastando su veracidad, para resolver preguntas planteadas relacionadas con la ciencia y la tecnología de forma autónoma.",
       "broader": "materia:BCUF",
       "materia": "materia:BCUF",
       "etapa": "etapa:BAC"
@@ -67,7 +77,7 @@
       "notation": "BCUF01BC1",
       "prefLabel": "Cultura Científica · 1º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se comprobará si el alumnado es capaz de analizar críticamente conceptos, procesos y experimentos relacionados con los saberes básicos de cualquiera de los bloques de la materia, interpretando información de carácter científico en diferentes formatos (artículos, gráficos, tablas, diagramas, fórmulas, esquemas…) e idiomas; extrayendo las ideas más relevantes para comunicar sus conclusiones y opiniones de forma razonada, precisa y veraz; y utilizando la terminología científica y formatos variados (exposición oral, pósteres, plataformas virtuales, presentación...), tanto de forma analógica como a través de medios digitales. Igualmente, se pretende evaluar si el alumnado argumenta (en debates, foros u otras vías de comuniciación) sobre los conocimientos adquiridos, defendiendo de manera lógica y fundamentada su postura, con una actitud abierta, flexible, receptiva y respetuosa ante la opinión de las demás personas, y desarrollando la resiliencia frente a retos, así como la flexibilidad para dar un giro a las propias ideas ante argumentos ajenos.",
-      "broader": "materia:BCUF",
+      "broader": "asig:BCUF01",
       "agrupa": [
         "ce:BCUFC1"
       ],
@@ -85,6 +95,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -94,7 +105,7 @@
       "notation": "BCUF01BC2",
       "prefLabel": "Cultura Científica · 1º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de plantear y resolver cuestiones de forma autónoma, siguiendo su propia curiosidad y mostrando iniciativa, sobre procesos propios de la ciencia y de la tecnología, relacionadas con cualquiera de los bloques de saberes básicos de la materia; y seleccionando, organizando, analizando y evaluando críticamente la información procedente de fuentes diversas (libros, revistas y artículos científicos, entrevistas, webs, videos, motores de búsqueda…). También se quiere constatar que el alumnado contrasta la veracidad de la información utilizando fuentes fiables; aplicando criterios de validez, calidad, actualidad y fiabilidad y que respeta los derechos de autoría; y citando las fuentes en todos sus informes, presentaciones y comunicaciones. Asimismo, se quiere valorar si el alumnado adopta una actitud crítica y escéptica hacia informaciones sin una base científica, y si argumenta sobre la contribución de la ciencia y de la tecnología a la sociedad, y la labor de las personas dedicadas a ella, destacando a las mujeres científicas. Finalmente, se evaluará si el alumnado valora la importancia del trabajo colectivo, interdisciplinar y en continua construcción que realizan las personas científicas; si realiza indagaciones de forma cooperativa, utilizando diferentes plataformas digitales de búsqueda sobre algunas figuras referentes de la ciencia canaria a lo largo de la historia y en la actualidad; y si identifica y localiza los principales centros de investigación de Canarias, presentando el resultado mediante exposiciones, comunicaciones, informes... y en diferentes soportes.",
-      "broader": "materia:BCUF",
+      "broader": "asig:BCUF01",
       "agrupa": [
         "ce:BCUFC2"
       ],
@@ -111,6 +122,7 @@
         "CC3"
       ],
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -120,7 +132,7 @@
       "notation": "BCUF01BC3",
       "prefLabel": "Cultura Científica · 1º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de diseñar, planear y realizar proyectos de investigación de forma cooperativa que incluyan un plan de búsqueda, contraste y análisis de diversos tipos de información procedente de fuentes variadas, especialmente de las tecnologías digitales; así como la selección de instrumentos, herramientas o técnicas adecuadas. Además, se evaluará si el alumnado aplica las destrezas y los procedimientos esenciales de las metodologías científicas, como el planteamiento de preguntas, la formulación y el contraste de hipótesis, la toma de datos cuantitativos y cualitativos, la interpretación, el análisis y la comunicación de resultados, o la reformulación de los procedimientos, en caso necesario, para indagar y explicar diferentes aspectos de la ciencia y la tecnología, relacionados con todos los bloques de saberes básicos de la materia, aportando soluciones a problemas, y aceptando y respondiendo adecuadamente ante la incertidumbre. También se quiere constatar que el alumnado desarrolla actitudes propias del trabajo científico como el rigor, la precisión, la objetividad, la autodisciplina, el cuestionamiento de lo obvio, la creatividad, la curiosidad, el espíritu emprendedor, la resiliencia… y que hace un uso correcto del vocabulario científico y de las herramientas tecnológicas a la hora de comunicar las conclusiones, o de crear y compartir contenidos, aplicando medidas de seguridad y respetando, en todo momento, los derechos de autoría digital. Por último, se pretende evaluar si el alumnado valora la importancia del trabajo cooperativo en la investigación y si establece colaboraciones dentro y fuera del centro educativo en las distintas fases del proyecto, evaluando su desempeño individual y el de sus iguales, desde la fase de diseño hasta su ejecución definitiva (tiempos, objetivos, secuencia de acciones, reparto de roles, normas de funcionamiento del grupo...), respetando la diversidad y favoreciendo la inclusión.",
-      "broader": "materia:BCUF",
+      "broader": "asig:BCUF01",
       "agrupa": [
         "ce:BCUFC3"
       ],
@@ -139,6 +151,7 @@
         "CPSAA3.2"
       ],
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -148,7 +161,7 @@
       "notation": "BCUF01BC4",
       "prefLabel": "Cultura Científica · 1º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de resolver problemas o dar explicaciones coherentes a procesos de carácter científico-tecnológico, de forma individual o cooperativa, relacionados con cualquiera de los bloques de saberes básicos de la materia (el universo y la vida, la revolución genética y los avances tecnológicos), a partir de los conocimientos propios y de datos e información, recabados de diversas fuentes: observación directa del entorno, o indirecta, a través de animaciones y simulaciones; webs; artículos científicos…; de aplicar el razonamiento lógico, la metodología científica y el pensamiento computacional para contrastar las hipótesis; y de representar y analizar críticamente las soluciones y respuestas halladas. Se trata de verificar que el alumnado reflexiona sobre los procedimientos utilizados y los reformula si la solución propuesta no es viable o ante nuevos datos aportados, mostrando creatividad, apertura a la colaboración y resiliencia para continuar, a pesar de la falta de éxito inmediato. Finalmente, se pretende comprobar que el alumnado desarrolla procesos autorregulados de aprendizaje y transmite el conocimiento adquirido, junto con el procedimiento seguido, ante las demás personas, utilizando para ello diversas formas de expresión (informes, murales, artículos…) y diferentes soportes, preferiblemente digitales.",
-      "broader": "materia:BCUF",
+      "broader": "asig:BCUF01",
       "agrupa": [
         "ce:BCUFC4"
       ],
@@ -165,6 +178,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -174,7 +188,7 @@
       "notation": "BCUF01BC5",
       "prefLabel": "Cultura Científica · 1º Bachillerato · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial, se pretende evaluar si el alumnado es capaz de identificar y analizar críticamente, a partir de los datos y de la información recopilada en fuentes diversas (webs, artículos e informes científicos, artículos divulgativos, foros especializados…), las repercusiones sociales, económicas y medioambientales de determinadas acciones humanas del día a día (consumo de energía y agua, generación de residuos, consumo compulsivo de ropa y de dispositivos electrónicos, transporte en vehículos contaminantes…), adoptando una actitud crítica y escéptica hacia informaciones sin una base científica como las pseudociencias. También se quiere constatar si el alumnado aplica la metodología científica y moviliza sus conocimientos científicos y tecnológicos, relacionados con cualquiera de los bloques de saberes básicos de la materia, para desarrollar un proyecto de investigación que suponga el uso de fuentes fiables para la búsqueda, selección, análisis y contraste de información (entrevistas a personas expertas o investigadoras sobre temáticas científico-tecnológicas de su entorno próximo, webs, libros, artículos científicos…), y la comunicación oral o escrita (presentaciones, debates, campañas de difusión, diario de contaminación…) de las conclusiones, sobre el impacto en la sociedad de los avances tecnológicos y los descubrimientos que la comunidad científica ha acometido en el transcurso de la historia; las consecuencias derivadas de la escasez de recursos naturales en la población, local y global, (migraciones climáticas, pobreza energética…) y las medidas científico-tecnológicas alternativas que diferentes comunidades y países han puesto en práctica para paliar estos problemas, valorando cuáles de dichas medidas tienen cabida en el archipiélago canario. Finalmente, se quiere verificar que el alumnado es capaz de proponer soluciones innovadoras que promuevan estilos de vida sostenibles y saludables, a nivel individual, colectivo y local, argumentando sobre sus efectos positivos y la urgencia de adoptarlos; y de difundir, a través de campañas publicitarias, mesas redondas, debates, exposiciones, programas de radio…, dentro y fuera del centro, el conocimiento científico, contribuyendo así al logro de los Objetivos de Desarrollo Sostenible, concretados en la Agenda Canaria de Desarrollo Sostenible 2030. Todo ello, con el propósito de que el alumnado se convierta en un agente activo de transformación ecosocial, que comparta y ponga en práctica iniciativas, fundamentadas científicamente, que ayuden a prevenir el deterioro del planeta y que promuevan un desarrollo económico sostenible y la búsqueda de una sociedad justa e igualitaria.",
-      "broader": "materia:BCUF",
+      "broader": "asig:BCUF01",
       "agrupa": [
         "ce:BCUFC5"
       ],
@@ -193,6 +207,7 @@
         "CD5"
       ],
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -214,6 +229,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -235,6 +251,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -255,6 +272,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -278,6 +296,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -301,6 +320,7 @@
         "CC3"
       ],
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -321,6 +341,7 @@
         "CC3"
       ],
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -342,6 +363,7 @@
         "CE3"
       ],
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -365,6 +387,7 @@
         "CE3"
       ],
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -386,6 +409,7 @@
         "CD3"
       ],
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -404,6 +428,7 @@
         "CPSAA3.2"
       ],
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -426,6 +451,7 @@
         "CE1"
       ],
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -446,6 +472,7 @@
         "CE1"
       ],
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -466,6 +493,7 @@
         "CC4"
       ],
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -487,6 +515,7 @@
         "CE1"
       ],
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -506,6 +535,7 @@
         "CC4"
       ],
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -526,6 +556,7 @@
         "CE1"
       ],
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -535,8 +566,9 @@
       "notation": "BCUF01SBI",
       "prefLabel": "BCUF01SBI · I. Construyendo ciencia",
       "definition": "Construyendo ciencia",
-      "broader": "materia:BCUF",
+      "broader": "asig:BCUF01",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -546,8 +578,9 @@
       "notation": "BCUF01SBII",
       "prefLabel": "BCUF01SBII · II. El universo y la vida",
       "definition": "El universo y la vida",
-      "broader": "materia:BCUF",
+      "broader": "asig:BCUF01",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -557,8 +590,9 @@
       "notation": "BCUF01SBIII",
       "prefLabel": "BCUF01SBIII · III. La revolución genética",
       "definition": "La revolución genética",
-      "broader": "materia:BCUF",
+      "broader": "asig:BCUF01",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -568,8 +602,9 @@
       "notation": "BCUF01SBIV",
       "prefLabel": "BCUF01SBIV · IV. Los avances tecnológicos y su impacto ambiental",
       "definition": "Los avances tecnológicos y su impacto ambiental",
-      "broader": "materia:BCUF",
+      "broader": "asig:BCUF01",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -581,6 +616,7 @@
       "definition": "Búsqueda, selección, análisis e interpretación de información relacionada con la ciencia, la tecnología, la sociedad y el medioambiente (Relaciones CTSA).",
       "broader": "sb:BCUF01SBI",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -592,6 +628,7 @@
       "definition": "Desarrollo de los procedimientos del trabajo científico: planteamiento de problemas, formulación de hipótesis, estrategias y diseños experimentales, análisis e interpretación y comunicación de resultados e ideas.",
       "broader": "sb:BCUF01SBI",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -603,6 +640,7 @@
       "definition": "Análisis de la evolución histórica del saber científico: la ciencia como labor colectiva, interdisciplinar y en continua construcción. Valoración de la cultura científica para entender la sociedad actual.",
       "broader": "sb:BCUF01SBI",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -614,6 +652,7 @@
       "definition": "Clasificación de la ciencia y su importancia. Ciencia y pseudociencia.",
       "broader": "sb:BCUF01SBI",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -625,6 +664,7 @@
       "definition": "Indagación sobre los principales centros de investigación de Canarias y de las biografías de las figuras referentes de la ciencia canaria a lo largo de la historia, con especial atención a las mujeres científicas y a los premios Canarias de Investigación, para mejorar la cultura científica del alumnado.",
       "broader": "sb:BCUF01SBI",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -636,6 +676,7 @@
       "definition": "Análisis de la evolución histórica del origen, de la composición y de la estructura del Universo para conocer la génesis de los elementos que nos rodean.",
       "broader": "sb:BCUF01SBII",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -647,6 +688,7 @@
       "definition": "El cielo en Canarias:",
       "broader": "sb:BCUF01SBII",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -658,6 +700,7 @@
       "definition": "Estudio de las condiciones naturales del cielo en Canarias.",
       "broader": "sb:BCUF01SBII.2",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -669,6 +712,7 @@
       "definition": "Indagación sobre los principales instrumentos para la observación astronómica.",
       "broader": "sb:BCUF01SBII.2",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -680,6 +724,7 @@
       "definition": "Valoración de las condiciones astronómicas de Canarias como recurso turístico sostenible.",
       "broader": "sb:BCUF01SBII.2",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -691,6 +736,7 @@
       "definition": "Investigación sobre la importancia de «la ley del Cielo» para la protección de la calidad astronómica de los observatorios del Instituto Astrofísico de Canarias:",
       "broader": "sb:BCUF01SBII.2",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -702,6 +748,7 @@
       "definition": "Contaminación lumínica.",
       "broader": "sb:BCUF01SBII.2.4",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -713,6 +760,7 @@
       "definition": "Contaminación radioeléctrica.",
       "broader": "sb:BCUF01SBII.2.4",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -724,6 +772,7 @@
       "definition": "Contaminación lumínica.",
       "broader": "sb:BCUF01SBII.2.4",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -735,6 +784,7 @@
       "definition": "Rutas aéreas.",
       "broader": "sb:BCUF01SBII.2.4",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -746,6 +796,7 @@
       "definition": "Apreciación de la relevancia de los estudios realizados en los observatorios astronómicos de Canarias y del trabajo de las personas científicas para el conocimiento del Universo.",
       "broader": "sb:BCUF01SBII.2",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -757,6 +808,7 @@
       "definition": "Reconocimiento de la astrobiología como disciplina científica multidisciplinar que estudia el origen, la evolución y la distribución de la vida en el universo. Conocimiento de las principales líneas de investigación en el campo de la astrobiología.",
       "broader": "sb:BCUF01SBII",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -768,6 +820,7 @@
       "definition": "Análisis y discusión de las hipótesis sobre el origen y las condiciones para la vida en la Tierra, diferenciando las que tienen base científica de las influenciadas por las ideas religiosas de la época.",
       "broader": "sb:BCUF01SBII",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -779,6 +832,7 @@
       "definition": "Argumentación acerca de las pruebas de la evolución y de sus principales teorías, diferenciando el lamarckismo, darwinismo y neodarwinismo, y valorando el carácter no dogmático de las teorías científicas.",
       "broader": "sb:BCUF01SBII",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -790,6 +844,7 @@
       "definition": "Identificación y valoración de los descubrimientos paleontológicos en Canarias para conocer y conservar los yacimientos actuales, además de como recurso científico como parte del acervo sociocultural.",
       "broader": "sb:BCUF01SBII",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -801,6 +856,7 @@
       "definition": "Reconocimiento de la importancia biológica del ADN como molécula responsable del almacenamiento, conservación y transmisión de la información genética.",
       "broader": "sb:BCUF01SBIII",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -812,6 +868,7 @@
       "definition": "Estudio de la evolución de la ingeniería genética y sus aplicaciones:",
       "broader": "sb:BCUF01SBIII",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -823,6 +880,7 @@
       "definition": "Análisis de los condicionantes de la investigación médica y farmacéutica. Profundización sobre los fármacos y su uso responsable.",
       "broader": "sb:BCUF01SBIII.2",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -834,6 +892,7 @@
       "definition": "Investigación sobre la reproducción asistida, la selección embrionaria y sus técnicas y aplicaciones.",
       "broader": "sb:BCUF01SBIII.2",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -845,6 +904,7 @@
       "definition": "Indagación sobre la obtención de células madre y su utilización para generar tejidos, órganos y organismos completos.",
       "broader": "sb:BCUF01SBIII.2",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -856,6 +916,7 @@
       "definition": "Investigación sobre los usos y las aplicaciones de organismos transgénicos, y la terapia génica.",
       "broader": "sb:BCUF01SBIII.2",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -867,6 +928,7 @@
       "definition": "Valoración de las ventajas e inconvenientes de la clonación de seres vivos.",
       "broader": "sb:BCUF01SBIII.2",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -878,6 +940,7 @@
       "definition": "Reflexión sobre las repercusiones sociales, económicas y medioambientales de las técnicas de ingeniería genética: organismos transgénicos, células madre, reproducción asistida, selección y conservación de embriones y la clonación.",
       "broader": "sb:BCUF01SBIII.2",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -889,6 +952,7 @@
       "definition": "Consideración sobre los límites de la investigación científica y los principios de la bioética para analizar los problemas morales, sociales y culturales que conlleva la aplicación de la ingeniería genética.",
       "broader": "sb:BCUF01SBIII",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -900,6 +964,7 @@
       "definition": "Profundización en la investigación biomédica en Canarias y sobre la base genética de las enfermedades prevalentes en el archipiélago, para valorar su implicación en la mejora de la calidad de vida.",
       "broader": "sb:BCUF01SBIII",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -911,6 +976,7 @@
       "definition": "Investigación sobre los avances tecnológicos (generación de electricidad, industria automovilística, telecomunicaciones…), valorando sus beneficios y perjuicios en la sociedad actual.",
       "broader": "sb:BCUF01SBIV",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -922,6 +988,7 @@
       "definition": "Identificación y valoración de los beneficios que proporcionan las tecnologías digitales para el bienestar personal y de la sociedad, y de los riesgos de aislamiento, exclusión por brecha digital (de género, de edad, cultural, económica y geográfica) y propuestas para reducirla. Análisis de las tendencias emergentes en tecnologías digitales (inteligencia artificial, realidad aumentada y virtual, robótica...).",
       "broader": "sb:BCUF01SBIV",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -933,6 +1000,7 @@
       "definition": "Reflexión sobre los riesgos y las amenazas asociados al uso de Internet, las redes sociales y los medios digitales (delitos informáticos, ciberadicción, huella digital y la consiguiente pérdida de privacidad, sobreinformación o infoxicación, infodemia, uso de fuentes fiables...). Aplicación de medidas de actuación y prevención para el uso seguro de las tecnologías digitales.",
       "broader": "sb:BCUF01SBIV",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -944,6 +1012,7 @@
       "definition": "Estudio de los límites del planeta como proveedor de recursos y como sumidero de residuos. Identificación de la huella ecológica y digital de las acciones humanas en el planeta y toma de conciencia de sus repercusiones en el patrimonio natural canario. Adopción de medidas individuales y colectivas que contribuyan a la adaptación y mitigación de la actual situación de emergencia climática.",
       "broader": "sb:BCUF01SBIV",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -955,6 +1024,7 @@
       "definition": "Reflexión sobre la relevancia de los Objetivos de Desarrollo Sostenible acordados en el marco de las Naciones Unidas, la emergencia climática y la Agenda Canaria de Desarrollo Sostenible 2030. Valoración de la importancia del cumplimiento por parte de las administraciones competentes de los acuerdos en materia medioambiental y la implicación de la ciudadanía en el logro de los mismos.",
       "broader": "sb:BCUF01SBIV",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -966,6 +1036,7 @@
       "definition": "Valoración de la urgencia de adoptar estrategias sostenibles sobre el impacto ambiental producido por las tecnologías digitales tales como el consumo energético desproporcionado, la generación de residuos tecnológicos, la lucha por las materias primas… Desarrollo de debates sobre planteamientos éticos, científicos y políticos en torno a los problemas ecosociales que se manifiestan en Canarias como consecuencia de la actual situación de emergencia climática.",
       "broader": "sb:BCUF01SBIV",
       "materia": "materia:BCUF",
+      "materia_curso": "asig:BCUF01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

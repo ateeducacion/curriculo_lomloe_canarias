@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BTA602",
+      "tipo": "MateriaCurso",
+      "notation": "BTA602",
+      "prefLabel": "Taller de Artes Integradas · 2º Bachillerato",
+      "broader": "materia:BTA6",
+      "materia": "materia:BTA6",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BTA6C1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BTA6C1",
@@ -67,7 +77,7 @@
       "notation": "BTA602BC1",
       "prefLabel": "Taller de Artes Integradas · 2º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de desarrollar las destrezas necesarias para poder analizar y explicar los diferentes elementos de configuración, formal y espacial del lenguaje tridimensional, pictórico, dibujístico y digital, a través del estudio contextualizado de obras de diferentes épocas y culturas, reconociendo el valor de la diversidad del patrimonio, así como la riqueza creativa y estética inherente a ellas, y profundizando con especial interés en el patrimonio cultural y artístico canario. Se comprobará la capacidad para buscar y seleccionar información de diversas fuentes, tanto analógicas como digitales, en su vertiente interactiva y colaborativa, así como la utilización adecuada de la terminología específica referente a las técnicas, los procedimientos, los soportes, las herramientas, los utensilios y los materiales relacionados con las artes interdisciplinarias, la escultura, la pintura y el dibujo. Se verificará que reconoce las características técnicas, comunicativas, funcionales y expresivas de los materiales, para realizar un proceso de selección de los mismos, más adecuados a la elaboración de objetos tridimensionales, dibujos y pinturas, atendiendo a los requisitos formales, estéticos y expresivos de las obras. Asimismo, se valorará la incorporación de materiales alternativos, cotidianos y de residuos en sus elaboraciones tanto individuales como colaborativas. Todo ello con la finalidad de que las experiencias artísticas contribuyan al desarrollo de su personalidad, refuercen su autoestima y amplíen el repertorio de recursos plásticos, facilitando la aplicación de los aprendizajes adquiridos a las futuras propuestas artísticas.",
-      "broader": "materia:BTA6",
+      "broader": "asig:BTA602",
       "agrupa": [
         "ce:BTA6C1"
       ],
@@ -85,6 +95,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -94,7 +105,7 @@
       "notation": "BTA602BC2",
       "prefLabel": "Taller de Artes Integradas · 2º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se evaluará si el alumnado realiza obras u objetos tridimensionales sencillos, de forma individual o mediante el trabajo colaborativo, aplicando las técnicas propias de lo ideado, y encontrando respuestas variadas, originales e imaginativas en función de los condicionantes y requerimientos previamente determinados, en relación con un problema compositivo de carácter tridimensional. Asimismo, demostrará la adecuada planificación del proceso de realización, desde la primera fase de ideación (bocetos, croquis, maquetas, planos técnicos, plantillas…), haciendo uso del trazo, el gesto del dibujo, la línea, el claroscuro, las aplicaciones del color y perspectivas, hasta la elaboración de la obra final en función de la técnica seleccionada y el proceso desarrollado, organizando correctamente sus fases y distribuyendo de forma razonada las tareas. Para ello, evaluará su viabilidad y sostenibilidad, y, en función de las intenciones expresivas y funcionales, seleccionará las técnicas, las herramientas, los materiales, los medios, los soportes y las disciplinas más adecuados. En este caso, se apoyarán en la búsqueda de información de diversas fuentes, tanto analógicas como digitales. Igualmente, modificará los espacios a los que irán destinados, haciendo posible la interacción con el público y detallando los efectos que se espera que este tenga en el entorno. De igual manera, deberán justificar y defender el proyecto sustentando sus aspectos formales, funcionales, estéticos y comunicativos; y emitir juicios de valor argumentados respecto a la producción tridimensional propia y ajena en base a sus conocimientos, su gusto personal y sensibilidad, mostrando interés y respeto por el patrimonio cultural, incluido el de Canarias.",
-      "broader": "materia:BTA6",
+      "broader": "asig:BTA602",
       "agrupa": [
         "ce:BTA6C2"
       ],
@@ -116,6 +127,7 @@
         "CE3"
       ],
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -125,7 +137,7 @@
       "notation": "BTA602BC3",
       "prefLabel": "Taller de Artes Integradas · 2º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de representar gráficamente la realidad observada, a través de interpretaciones y representaciones individuales y colectivas, y tomando como referentes las obras de arte de artistas de diferentes épocas y culturas, incluyendo el ámbito de Canarias. Para ello, valiéndose del encajado y de la retentiva, extraerá la información que considere más relevante y la llevará al soporte, aplicando efectos de composición para simular el espacio y el volumen, y utilizando el dibujo y el color como recursos gráficos. Asimismo, se valorará la búsqueda de información en diversas fuentes tanto analógicas como digitales. Se verificará que reconoce las características técnicas, comunicativas, funcionales y expresivas de los materiales y del color, y que utiliza la terminología específica de los mismos. También, se comprobará que el alumnado es capaz de proponer soluciones creativas en la organización de un proyecto artístico y de obtener el máximo aprovechamiento de los recursos disponibles para ello, mediante bocetos o esbozos, de forma que se verifique el progreso mostrado en su ejecución técnica. Todo ello para ofrecer una visión propia de esa realidad por medio de la pintura en sus diferentes manifestaciones y para favorecer su desarrollo personal y artístico.",
-      "broader": "materia:BTA6",
+      "broader": "asig:BTA602",
       "agrupa": [
         "ce:BTA6C3"
       ],
@@ -140,6 +152,7 @@
         "CPSAA1.2"
       ],
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -149,7 +162,7 @@
       "notation": "BTA602BC4",
       "prefLabel": "Taller de Artes Integradas · 2º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se verificará que el alumnado es capaz de utilizar el dibujo como medio de autoexpresión, experimentando con diferentes materiales, técnicas y soportes, incluido el propio cuerpo, integrándose en las producciones plásticas propias, y analizando la importancia del cuerpo humano en las propuestas artísticas contemporáneas, a través del descubrimiento y de la exploración de las diferentes formas de expresión gráfica, incluidas las que sitúan al cuerpo humano como protagonista de la creación, como soporte y como herramienta. Además, se constatará si es capaz de recrear gráficamente el espacio tridimensional, en producciones artísticas bidimensionales o tridimensionales, utilizando diversos materiales, técnicas y soportes, y experimentando de forma abierta con los efectos perspectivos de profundidad, mediante el desarrollo de procesos de aprendizaje que le permitan comprender y entender la percepción y la representación del espacio, a través del conocimiento y aplicación de las perspectivas, convirtiéndolo en el soporte de la propia intervención artística. El alumnado tendrá que ser capaz de explicar y argumentar de forma razonada las decisiones que ha adoptado en relación con la ejecución del proyecto. Todo ello con la finalidad de favorecer la autoexpresión, desarrollar la autoconfianza, la aceptación personal, y promover activamente la igualdad entre mujeres y hombres.",
-      "broader": "materia:BTA6",
+      "broader": "asig:BTA602",
       "agrupa": [
         "ce:BTA6C4"
       ],
@@ -165,6 +178,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -174,7 +188,7 @@
       "notation": "BTA602BC5",
       "prefLabel": "Taller de Artes Integradas · 2º Bachillerato · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial, se persigue constatar que el alumnado sea capaz de participar en proyectos colaborativos sencillos, enmarcados en un ámbito disciplinar concreto, identificando las fases del proceso y participando en la organización y distribución de las tareas. Durante el proceso, se comprobará que el alumnado es capaz de aplicar los aprendizajes adquiridos sobre las disciplinas artísticas a desarrollar y sobre el uso de los materiales y las técnicas, seleccionando los recursos adecuados, y superando las dificultades que vayan apareciendo, por medio del diálogo, la empatía, la asertividad y el respeto por las opiniones ajenas. El alumnado irá observando y ajustando la viabilidad del proyecto, la sostenibilidad del mismo y su adecuación en función de los resultados obtenidos. Todo ello con la finalidad de que adquiera los conocimientos, las destrezas y las actitudes necesarias que le permitan enfrentarse de manera cada vez más eficaz a futuros proyectos, y que valore las posibilidades de desarrollo académico y profesional, descubriendo la comercialización del arte, tanto digital como analógica.",
-      "broader": "materia:BTA6",
+      "broader": "asig:BTA602",
       "agrupa": [
         "ce:BTA6C5"
       ],
@@ -197,6 +211,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -219,6 +234,7 @@
         "CCEC2"
       ],
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -240,6 +256,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -258,6 +275,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -280,6 +298,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -302,6 +321,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -323,6 +343,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -342,6 +363,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -363,6 +385,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -383,6 +406,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -409,6 +433,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -431,6 +456,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -440,8 +466,9 @@
       "notation": "BTA602SBI",
       "prefLabel": "BTA602SBI · I. Técnicas y materiales de configuración",
       "definition": "Técnicas y materiales de configuración",
-      "broader": "materia:BTA6",
+      "broader": "asig:BTA602",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -451,8 +478,9 @@
       "notation": "BTA602SBII",
       "prefLabel": "BTA602SBII · II. La representación tridimensional",
       "definition": "La representación tridimensional",
-      "broader": "materia:BTA6",
+      "broader": "asig:BTA602",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -462,8 +490,9 @@
       "notation": "BTA602SBIII",
       "prefLabel": "BTA602SBIII · III. La figura humana",
       "definition": "La figura humana",
-      "broader": "materia:BTA6",
+      "broader": "asig:BTA602",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -473,8 +502,9 @@
       "notation": "BTA602SBIV",
       "prefLabel": "BTA602SBIV · IV. Gestión de proyectos artísticos",
       "definition": "Gestión de proyectos artísticos",
-      "broader": "materia:BTA6",
+      "broader": "asig:BTA602",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -486,6 +516,7 @@
       "definition": "Identificación y experimentación con materiales y herramientas de configuración tridimensional y bidimensional, incluyendo los materiales sostenibles, naturales, efímeros e innovadores.",
       "broader": "sb:BTA602SBI",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -497,6 +528,7 @@
       "definition": "Reconocimiento y análisis de las características técnicas, comunicativas, funcionales y expresivas de los materiales, y utilización de terminología específica del volumen, del dibujo, de la pintura y de las nuevas disciplinas artísticas.",
       "broader": "sb:BTA602SBI",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -508,6 +540,7 @@
       "definition": "Valoración de la importancia del mantenimiento y de la conservación de equipamientos, y sensibilización sobre el uso responsable de recursos y del reciclaje.",
       "broader": "sb:BTA602SBI",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -519,6 +552,7 @@
       "definition": "Búsqueda, selección e interpretación de información a partir de diversas fuentes, incluidas las procedentes de las fuentes analógicas en sus vertientes interactivas y colaborativas.",
       "broader": "sb:BTA602SBI",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -530,6 +564,7 @@
       "definition": "Reconocimiento y aplicación de procedimientos de configuración tridimensional y bidimensional, por ejemplo: técnicas como modelado en barro, dibujos, pintura, materiales naturales y de residuos, instalaciones, impresiones 3D, animación 3D, arte digital, arte cinético, arte conceptual, aplicaciones para diseño gráfico vectorial, arte de acción, ready-made. instalaciones, performance o happening…",
       "broader": "sb:BTA602SBI",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -541,6 +576,7 @@
       "definition": "Estudio de esculturas y obras de arte tridimensionales en el patrimonio artístico y cultural, con especial atención al patrimonio canario, a través del análisis de su contexto histórico y de la valoración de las principales características técnicas, formales, estéticas y comunicativas.",
       "broader": "sb:BTA602SBII",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -552,6 +588,7 @@
       "definition": "Diferenciación entre arte objetual, conceptual y digital valorando la instalación artística como medio de expresión.",
       "broader": "sb:BTA602SBII",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -563,6 +600,7 @@
       "definition": "Identificación de los grados de iconicidad, hiperrealismo, realismo, abstracción, síntesis, estilización..., en las representaciones escultóricas presentes en diversos movimientos y estilos, y su relación con los objetivos comunicativos.",
       "broader": "sb:BTA602SBII",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -574,6 +612,7 @@
       "definition": "Reconocimiento de las posibilidades plásticas y expresivas del lenguaje tridimensional y su uso creativo en la ideación y realización de obra original.",
       "broader": "sb:BTA602SBII",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -585,6 +624,7 @@
       "definition": "Selección de fuentes bibliográficas analógicas y digitales de acceso a obras volumétricas de diferentes épocas y culturas: sitios web, acceso digital a museos, bibliotecas o colecciones digitales, etc.",
       "broader": "sb:BTA602SBII",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -596,6 +636,7 @@
       "definition": "Valoración y aplicación del encuadre en el dibujo natural. Estudio comparativo del encuadre y de la composición en el dibujo y la fotografía.",
       "broader": "sb:BTA602SBIII",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -607,6 +648,7 @@
       "definition": "Exploración de la línea en el dibujo. Utilización de recursos como la modulación o el entramado de líneas para representar la tridimensionalidad.",
       "broader": "sb:BTA602SBIII",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -618,6 +660,7 @@
       "definition": "Comprensión de la estructura del cuerpo humano y reconocimiento de las proporciones del rostro humano y del cuerpo, explorando las posibilidades expresivas que ofrece la perspectiva atmosférica o tonal, y el color, a través de la representación del espacio.",
       "broader": "sb:BTA602SBIII",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -629,6 +672,7 @@
       "definition": "Realización de bocetos de detalles del cuerpo humano, utilizando el encajado, valorando las cualidades expresivas del sombreado y la mancha, generando imágenes a partir de la aplicación de diferentes escalas y claves tonales, e identificando los niveles de iconicidad y su aplicación en la generación de imágenes.",
       "broader": "sb:BTA602SBIII",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -640,6 +684,7 @@
       "definition": "Realización de retratos del cuerpo, de personas diversas, de diferentes géneros, edades y grupos étnicos, explorando las estrategias de selección de técnicas, herramientas, medios y soportes del dibujo, de la pintura, del color tanto analógicos como digitales, adecuados a distintas disciplinas.",
       "broader": "sb:BTA602SBIII",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -651,6 +696,7 @@
       "definition": "Experimentación con las expresiones del rostro y de los movimientos del cuerpo humano generando imágenes a partir del conocimiento de los conceptos de equilibrio compositivo, las direcciones visuales y las aplicaciones de la composición.",
       "broader": "sb:BTA602SBIII",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -662,6 +708,7 @@
       "definition": "Experimentar el tratamiento del cuerpo humano en las técnicas y disciplinas del momento, digitales o no.",
       "broader": "sb:BTA602SBIII",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -673,6 +720,7 @@
       "definition": "Aplicación de la metodología proyectual. Generación y selección de propuestas. Planificación, gestión y evaluación de proyectos artísticos. Difusión de resultados. Simulación de proyectos y posible ejecución de algún proyecto, teniendo en cuenta todas sus fases.",
       "broader": "sb:BTA602SBIV",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -684,6 +732,7 @@
       "definition": "Desarrollo de estrategias de trabajo en equipo. Distribución de tareas y liderazgo compartido. Implementación de un proyecto artístico en grupo donde se resuelvan conflictos grupales mediante la utilización de soportes audiovisuales y de otras manifestaciones de últimas tendencias.",
       "broader": "sb:BTA602SBIV",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -695,6 +744,7 @@
       "definition": "Trabajo con técnicas y soportes de documentación, registro y archivo, y simulación con producciones realizadas por el alumnado.",
       "broader": "sb:BTA602SBIV",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -706,6 +756,7 @@
       "definition": "Planificación y diseño de montajes expositivos para la difusión de la obra personal del alumnado.",
       "broader": "sb:BTA602SBIV",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -717,6 +768,7 @@
       "definition": "Revisión de la sostenibilidad y el impacto de los proyectos artísticos siendo conscientes del problema medioambiental en Canarias y de la limitación de sus recursos. Desarrollo de proyectos artísticos sostenibles y con conciencia ecológica reflexionando sobre la relación del Arte Povera y el Land Art, sobre otras vanguardias y sobre las manifestaciones del arte contemporáneo como el arte objetual o las instalaciones con el medio natural y el entorno.",
       "broader": "sb:BTA602SBIV",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -728,6 +780,7 @@
       "definition": "Generación de oportunidades de desarrollo personal, social, académico y profesional relacionadas con el ámbito artístico y el emprendimiento cultural valorando los beneficios emocionales, creativos y psicológicos de los proyectos artísticos. Relación de los proyectos artísticos vinculados con el entorno natural, con el patrimonio artístico cultural canario, con el fomento de la conciencia de los beneficios del arte en la comunidad y con contenido social.",
       "broader": "sb:BTA602SBIV",
       "materia": "materia:BTA6",
+      "materia_curso": "asig:BTA602",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     }

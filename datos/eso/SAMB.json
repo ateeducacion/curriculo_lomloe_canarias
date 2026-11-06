@@ -13,11 +13,34 @@
       "etapa": "etapa:ESO"
     },
     {
+      "id": "asig:SAMB03",
+      "tipo": "MateriaCurso",
+      "notation": "SAMB03",
+      "prefLabel": "Ámbito Científico-tecnológico · 3º ESO",
+      "broader": "materia:SAMB",
+      "materia": "materia:SAMB",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "asig:SAMB04",
+      "tipo": "MateriaCurso",
+      "notation": "SAMB04",
+      "prefLabel": "Ámbito Científico-tecnológico · 4º ESO",
+      "broader": "materia:SAMB",
+      "materia": "materia:SAMB",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
       "id": "ce:SAMBC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "SAMBC1",
       "prefLabel": "SAMBC1 · Buscar, localizar y seleccionar información a partir de fuentes fiables, contrastando su…",
       "definition": "Buscar, localizar y seleccionar información a partir de fuentes fiables, contrastando su veracidad y evaluando su idoneidad mediante el uso crítico y seguro de tecnologías digitales y otros recursos, para resolver preguntas y construir conocimiento, fomentando la curiosidad por la ciencia, el desarrollo personal y el aprendizaje individual y colectivo.",
+      "enunciados_curso": {
+        "curso:S03": "Buscar, localizar y seleccionar información a partir de fuentes fiables, contrastando su veracidad y evaluando su idoneidad mediante el uso crítico y seguro de tecnologías digitales y otros recursos, para resolver preguntas y construir conocimiento, fomentando la curiosidad por la ciencia y la tecnología el desarrollo personal y el aprendizaje individual y colectivo."
+      },
       "broader": "materia:SAMB",
       "materia": "materia:SAMB",
       "etapa": "etapa:ESO"
@@ -58,6 +81,9 @@
       "notation": "SAMBC5",
       "prefLabel": "SAMBC5 · Planificar y desarrollar proyectos de investigación, aplicando el conocimiento…",
       "definition": "Planificar y desarrollar proyectos de investigación, aplicando el conocimiento científico, la metodología de las ciencias y las estrategias propias del trabajo en equipo, para mejorar las destrezas científicas y comprender el mundo que nos rodea.",
+      "enunciados_curso": {
+        "curso:S03": "Planificar y desarrollar proyectos de investigación y proyectos tecnológicos aplicando el conocimiento científico, la metodología de las ciencias, la tecnología y las estrategias propias del trabajo en equipo, para mejorar las destrezas científicas y tecnológicas y comprender el mundo que nos rodea."
+      },
       "broader": "materia:SAMB",
       "materia": "materia:SAMB",
       "etapa": "etapa:ESO"
@@ -78,7 +104,7 @@
       "notation": "SAMB03BC1",
       "prefLabel": "Ámbito Científico-tecnológico · 3º ESO · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se pretende comprobar si el alumnado es capaz de emplear, de manera progresivamente autónoma, las fuentes y las herramientas tradicionales y digitales apropiadas, para la consulta, el archivado y el intercambio de información, que mejor se adapten a sus necesidades, comprobando que cumplen los criterios de fiabilidad y validez. Además, se verificará si examina, ubica y coteja datos e información de carácter científico para resolver preguntas y problemas o para profundizar en temas relacionados con cualquiera de los saberes básicos de las materias del ámbito, comprobando su autenticidad en función del objetivo de búsqueda para evitar los riesgos de manipulación y desinformación, manteniendo una actitud escéptica hacia informaciones sin base científica, citando las fuentes, respetando la propiedad intelectual y realizando autoevaluaciones sobre su proceso de aprendizaje. Asimismo, se valorará si adquiere, ordena y cataloga sus recursos en un entorno personal de aprendizaje y lo organiza y emplea eficazmente para almacenar, recuperar, reutilizar y compartir información, reconociendo los problemas y los riesgos que entraña el uso de las tecnologías digitales a través de procesos de metacognición que le permitan reflexionar y aprender de sus errores, estableciendo medidas preventivas para la protección de los dispositivos, los datos y la salud, propia y de las demás personas, y tomando conciencia de la necesidad de hacer un uso crítico, legal, seguro, saludable y sostenible de las tecnologías. Todo ello con la finalidad de que el alumnado se familiarice con los flujos de información multidireccional característicos de las disciplinas científico-tecnológicas, refuerce las destrezas necesarias para construir conocimiento y fomente su curiosidad por la ciencia y la tecnología, a la vez que se prepara para ejercer su autonomía personal.",
-      "broader": "materia:SAMB",
+      "broader": "asig:SAMB03",
       "agrupa": [
         "ce:SAMBC1"
       ],
@@ -94,6 +120,7 @@
         "CPSAA5"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -103,7 +130,7 @@
       "notation": "SAMB03BC2",
       "prefLabel": "Ámbito Científico-tecnológico · 3º ESO · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se comprobará si el alumnado es capaz de analizar información en diferentes formatos (textos, gráficos, tablas, diagramas, imágenes, páginas web…) y representarla, haciendo uso de medios y soportes variados (esquemas, modelos, diagramas, presentaciones...), para describir, empleando el pensamiento científico, los procesos matemáticos y fenómenos físico-químicos, tecnológicos, biológicos y geológicos concretos, relacionados con los distintos bloques de saberes básicos del ámbito. Asimismo, se evaluará si es capaz de transmitir, mediante exposiciones orales, escritas o visuales en diversos soportes y con el apoyo de las tecnologías digitales, información, conjeturas y conclusiones razonadas, haciendo uso del lenguaje científico-técnico apropiado, evitando el uso discriminatorio de la lengua, mostrando una actitud respetuosa, gestionando su presencia y visibilidad en la red, y ejerciendo una ciudadanía digital activa, cívica y reflexiva, con el fin de conseguir una comunicación efectiva. Finalmente, se valorará la capacidad del alumnado para crear y reelaborar contenidos accesibles en diferentes formatos, a partir de la información obtenida, tanto de forma individual como colaborativa, seleccionando, configurando y utilizando de manera crítica y creativa las herramientas digitales más adecuadas. Todo ello con el fin de comprender la importancia que tiene el intercambio de información y la colaboración entre individuos en la ciencia y la tecnología.",
-      "broader": "materia:SAMB",
+      "broader": "asig:SAMB03",
       "agrupa": [
         "ce:SAMBC2"
       ],
@@ -119,6 +146,7 @@
         "CCEC4"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -128,7 +156,7 @@
       "notation": "SAMB03BC3",
       "prefLabel": "Ámbito Científico-tecnológico · 3º ESO · bloque competencial C3",
       "scopeNote": "Este bloque competencial tiene el propósito de evaluar si el alumnado es capaz de identificar y gestionar sus emociones en el contexto educativo mediante el empleo de distintas técnicas (razonamiento lógico, asertividad, diario emocional...) en el desarrollo de proyectos colaborativos, el trabajo individual, la resolución de problemas y retos…, relacionados con los saberes básicos del ámbito, asumiendo el error como una oportunidad de crecimiento personal, proponiendo alternativas en el caso de no obtener los resultados esperados, aprendiendo de las equivocaciones propias y de las de las demás personas y realizando un seguimiento de su proceso formativo a través de diversas herramientas (diarios, planes de acción, agenda escolar, portafolio…) para planificar, abordar y regular su aprendizaje de forma eficaz. Además, se verificará que el alumnado es capaz, a través de procesos de autoevaluación individual y colectiva, y mediante la revisión de borradores y de los feedback correspondientes, de reflexionar, corregir o mejorar aquellos aspectos que lo requieran, utilizando la retroalimentación constructiva y la evaluación formativa, con el fin de mejorar su capacidad de perseverancia en la consecución de los objetivos. Por otro lado, se pretende comprobar si el alumnado es capaz de colaborar y asumir las responsabilidades del trabajo en equipo, participando de forma activa y desarrollando las destrezas personales y sociales que se ponen en acción a través de la realización de proyectos de investigación, debates en equipo, juegos de rol, resolución de problemas o retos, pequeñas experiencias de laboratorio…, relacionados con cualquiera de los bloques de saberes básicos del ámbito; utilizando dinámicas de trabajo cooperativo; elaborando productos que dependan de las aportaciones de cada una de las personas que conforman el grupo y de su funcionamiento; fomentando la comunicación y la colaboración entre el alumnado; promoviendo la empatía y respetando las emociones al comprender proactivamente las experiencias y los puntos de vista de las demás personas, a la vez que aprende a resolver los conflictos inherentes al trabajo en equipo; considerando los sentimientos y las perspectivas del resto; y buscando soluciones justas y mutuamente beneficiosas. Todo ello, con el fin de que el alumnado desarrolle las habilidades que le permitan seguir aprendiendo a lo largo de la vida, desde la confianza en el conocimiento como motor del desarrollo, construyendo una identidad positiva y fomentando una actitud dialogante y asertiva que repercuta en el bienestar personal y grupal y genere relaciones saludables.",
-      "broader": "materia:SAMB",
+      "broader": "asig:SAMB03",
       "agrupa": [
         "ce:SAMBC3"
       ],
@@ -146,6 +174,7 @@
         "CE2"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -155,7 +184,7 @@
       "notation": "SAMB03BC4",
       "prefLabel": "Ámbito Científico-tecnológico · 3º ESO · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado es capaz de resolver problemas reales, relacionados con cualquiera de los bloques de saberes básicos del ámbito, haciendo uso de diferentes herramientas manuales o digitales (regletas, fichas, dados, calculadoras, hojas de cálculo, programas de representación gráfica o geometría dinámica, laboratorios virtuales, simulaciones...), seleccionando y configurando las más adecuadas en función de la tarea, aplicando los pasos del trabajo científico y utilizando de forma eficaz el pensamiento computacional para descomponer un problema en partes más simples y para codificarlo en un lenguaje apropiado y fácil de ejecutar por un sistema informático, y describiendo de forma oral, escrita o gráfica el proceso realizado. Asimismo, se comprobará que interpreta y modeliza problemas sencillos de la vida cotidiana, identificando los datos y el objetivo, definiendo la relación que existe entre ellos y representando la información mediante herramientas de modelización como diagramas, expresiones simbólicas, gráficas... Además, se verificará que el alumnado aplica diversas estrategias (analogía con otros problemas, estimación, ensayo y error, resolución de manera inversa, búsqueda de patrones...), reflexionando sobre el proceso realizado y transformando el error en oportunidad de aprendizaje. También se pretende evaluar si es capaz de obtener todas las soluciones posibles de un problema, así como seleccionar de entre ellas las óptimas, comprobando, interpretando y reflexionando sobre su validez e idoneidad, y reformulando los procedimientos y las conclusiones, si fuera necesario. Igualmente, se verificará que el alumnado es capaz de reconocer y describir, utilizando el pensamiento científico y el razonamiento matemático, fenómenos de índole científico-tecnológico; analizando datos e información científico-tecnológica de diferentes fuentes de información (libros, revistas, periódicos, páginas web, pódcast, vídeos...) y en diversos formatos (gráficos, tablas, imágenes, símbolos…); haciendo uso de la terminología adecuada y de los principios, las teorías y las leyes científicas que se engloban en los diferentes bloques de saberes básicos; entendiendo y aplicando las conexiones existentes entre el mundo real, las matemáticas y las ciencias; y usando los procesos inherentes a la investigación científica y matemática para comprender y mejorar lo que ocurre a su alrededor a través de la ciencia y la tecnología. Finalmente, se evaluará si el alumnado identifica los elementos del hardware y del software de los dispositivos tecnológicos de uso cotidiano, analiza y evalúa su funcionamiento, desarrollando procesos metacognitivos de retroalimentación para aprender de sus errores, y resuelve problemas técnicos sencillos, aplicando, para todo ello, criterios de reutilización de materiales y ahorro energético, con el fin de hacer un uso seguro y eficiente de estos, y proteger los datos personales, la salud y el medioambiente.",
-      "broader": "materia:SAMB",
+      "broader": "asig:SAMB03",
       "agrupa": [
         "ce:SAMBC4"
       ],
@@ -175,6 +204,7 @@
         "CD4"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -184,7 +214,7 @@
       "notation": "SAMB03BC5",
       "prefLabel": "Ámbito Científico-tecnológico · 3º ESO · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de poner su curiosidad al servicio del aprendizaje y emplear las destrezas propias del trabajo científico (la observación y el planteamiento de preguntas, la formulación de hipótesis justificadas y la aplicación de la experimentación, la indagación y la búsqueda de evidencias cualitativas y cuantitativas y el análisis de resultados y la deducción), para describir los fenómenos y procesos biológicos, geológicos, físicoquímicos, matemáticos y tecnológicos que ocurren en situaciones conocidas planteadas y diferenciarlos de los fenómenos pseudocientíficos que no admiten comprobación experimental. Para ello, se valorará si es capaz de desarrollar pequeños proyectos de investigación relacionados con los diferentes bloques de saberes básicos del ámbito, de manera individual o colaborativa, que supongan la búsqueda, obtención y organización de la información de carácter científico, a partir de la utilización de fuentes variadas (observación, artículos científicos, páginas web, revistas, periódicos…), atendiendo a criterios de validez y fiabilidad; o de realizar procedimientos experimentales, validar hipótesis y analizar los resultados, empleando el razonamiento lógico-matemático para responder a las preguntas planteadas, obtener conclusiones admisibles y comunicarlas mediante exposiciones orales, escritas o visuales en diversos soportes (presentaciones, informes, gráficos, diagramas, fórmulas…), apoyándose en las tecnologías digitales y utilizando el vocabulario científico adecuado, y presentar soluciones que creen valor en el ámbito personal, social, cultural y económico, considerando la experiencia como una oportunidad para aprender y mejorar sus destrezas al interpretar los fenómenos científico-tecnológicos. También se evaluará si es capaz de poner en práctica las normas de uso de los espacios específicos de la ciencia (instalaciones de museos, universidades, centros sanitarios, centros de investigación…), especialmente, los laboratorios del centro, y de utilizar los materiales, las sustancias y las herramientas que en ellos se encuentren de forma segura, para preservar la salud propia y colectiva, la conservación sostenible del medioambiente y el respeto por las instalaciones. Finalmente, se comprobará si el alumnado es capaz de trabajar en equipo, como requiere en la actualidad la labor científica, aplicando actividades de cooperación, propiciando la participación de todo el grupo, aceptando las tareas y responsabilidades asignadas, analizando e incorporando las aportaciones del equipo a su aprendizaje con actitud respetuosa para llevar a término el proceso. Además, se evaluará si en el contexto del trabajo en equipo, colabora e interactúa mediante herramientas o plataformas virtuales, compartiendo contenidos, datos e información, y gestiona responsable y éticamente sus acciones, poniendo sus prácticas comunicativas al servicio de la convivencia democrática, la resolución dialogada de los conflictos y el respeto a la diversidad en todas sus formas, y evitando todo tipo de discriminación o violencia para unir puntos de vista diferentes durante el desarrollo del trabajo en equipo que contribuyan a alcanzar los objetivos propuestos. Todo ello con la finalidad de ofrecer al alumnado la oportunidad creativa y de crecimiento que aporta el trabajo científico, impulsando la igualdad de oportunidades entre los alumnos y las alumnas, y fomentando las vocaciones científicas desde una perspectiva de género.",
-      "broader": "materia:SAMB",
+      "broader": "asig:SAMB03",
       "agrupa": [
         "ce:SAMBC5"
       ],
@@ -206,6 +236,7 @@
         "CPSAA3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -215,7 +246,7 @@
       "notation": "SAMB03BC6",
       "prefLabel": "Ámbito Científico-tecnológico · 3º ESO · bloque competencial C6",
       "scopeNote": "A través de este bloque competencial se pretende evaluar si el alumnado es capaz de identificar de forma colaborativa los efectos de las acciones cotidianas, propias y ajenas, sobre el medioambiente (valoración crítica del empleo de materiales contaminantes, uso eficiente de la energía, impactos de la movilidad sostenible, consecuencias para el medio y la salud de los diferentes hábitos de consumo, efectos del ser humano sobre el paisaje), utilizando los conocimientos adquiridos, la recogida, el análisis de datos (observación, encuestas, muestras, entrevistas, auditorías….) y el diagnóstico de lo que ocurre en su entorno cercano (centro, barrio…), proponiendo soluciones alternativas sostenibles, de forma argumentada, y difundiendo sus conclusiones y propuestas mediante campañas, exposiciones, pódcast, informes, artículos, revistas medioambientales…, con el fin de valorar la repercusión de dichas acciones en la salud de las personas, el resto de los seres vivos y el planeta. Además, se persigue constatar que el alumnado es capaz de identificar las aportaciones de las tecnologías digitales en el bienestar físico y emocional, en la igualdad social y en la disminución del impacto ambiental, reconociendo la importancia de utilizarlas de forma ética, segura, saludable y sostenible. Se trata de averiguar si el alumnado aplica el pensamiento científico y utiliza métodos inductivos y deductivos propios del razonamiento matemático, para, a través del análisis de la información en diferentes formatos y soportes, diseñar un proyecto, hacer un estudio estadístico sencillo o investigar en su entorno más cercano (familia, barrio, centro educativo) el uso del teléfono móvil y de las redes sociales (adicciones sin sustancia), así como los impactos que generan estos hábitos de consumo sobre el medioambiente, la salud mental y física, la brecha digital…, proponiendo soluciones alternativas a su empleo inadecuado y difundiendo los resultados entre la comunidad educativa. Por último, se pretende comprobar si el alumnado, a partir de la indagación en fuentes diversas (textos periodísticos, entrevistas a científicos y científicas, ingenieros o ingenieras, técnicos y técnicas, páginas web de centros de investigación...) es capaz de reconocer y dar ejemplos de la contribución de la ciencia y la tecnología a la sociedad; mostrando una actitud crítica acerca de su alcance y sus limitaciones; entendiendo que la investigación es una labor colectiva e interdisciplinar que genera avances y que se encuentra en constante evolución; y transmitiendo sus opiniones a través de la participación en exposiciones, debates, semanas de la ciencia y la tecnología o mesas redondas, en las que se discuta sobre temas como: la visibilidad de las mujeres en la ciencia y la tecnología, los institutos y centros de investigación de Canarias que son referentes a nivel internacional en estudios relacionados con la astrofísica, la biodiversidad…, o la valoración de las personas que en Canarias han dedicado y dedican su carrera a la ciencia y la tecnología. Todo ello con el fin, por un lado, de desarrollar en el alumnado habilidades y destrezas que promuevan formas de participación y actuación que puedan ser aplicadas en diferentes situaciones de la vida cotidiana y que estén basadas en la empatía y la responsabilidad; y por otro lado, de formar personas responsables y comprometidas que manifiesten una actitud proactiva con la conservación, la protección del medioambiente y la sostenibilidad.",
-      "broader": "materia:SAMB",
+      "broader": "asig:SAMB03",
       "agrupa": [
         "ce:SAMBC6"
       ],
@@ -234,6 +265,7 @@
         "CC3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -243,7 +275,7 @@
       "notation": "SAMB04BC1",
       "prefLabel": "Ámbito Científico-tecnológico · 4º ESO · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se pretende comprobar si el alumnado es capaz de seleccionar y emplear las fuentes y las herramientas tradicionales y digitales apropiadas, para la consulta, el archivado y el intercambio de información, que mejor se adapten a sus necesidades, desechando las menos adecuadas tras comprobar que cumplen los criterios de fiabilidad, calidad, actualidad y validez. Además se verificará si examina, ubica y coteja datos e información de carácter científico-tecnológico para resolver preguntas y problemas o para profundizar en temas relacionados con cualquiera de los saberes básicos de las materias del ámbito, comprobando su autenticidad, adecuación y conveniencia en función de su objetivo de búsqueda para evitar los riesgos de manipulación y desinformación, manteniendo una actitud crítica y escéptica hacia informaciones sin base científica, citando las fuentes, respetando la propiedad intelectual y realizando autoevaluaciones sobre su proceso de aprendizaje. Asimismo, se valorará si adquiere, ordena y cataloga sus recursos en un entorno personal de aprendizaje y lo gestiona eficazmente para almacenar, recuperar, reutilizar y compartir información, prestando especial atención a los riesgos que entraña el uso de las tecnologías digitales a través de procesos de metacognición que le permitan aprender de sus errores, adoptando medidas preventivas para la protección de los dispositivos, los datos y la salud, propia y de las demás personas, y tomando conciencia de la necesidad de hacer un uso crítico, legal, seguro, saludable y sostenible de las tecnologías. Todo ello con la finalidad de que el alumnado se familiarice con los flujos de información multidireccional característicos de las disciplinas científico-tecnológicas, refuerce las destrezas necesarias para construir conocimiento y fomente su curiosidad por la ciencia y la tecnología, a la vez que se prepara para ejercer su autonomía personal.",
-      "broader": "materia:SAMB",
+      "broader": "asig:SAMB04",
       "agrupa": [
         "ce:SAMBC1"
       ],
@@ -259,6 +291,7 @@
         "CPSAA5"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -268,7 +301,7 @@
       "notation": "SAMB04BC2",
       "prefLabel": "Ámbito Científico-tecnológico · 4º ESO · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se comprobará si el alumnado analiza, manteniendo una actitud crítica, información científico-tecnológica en diferentes formatos (textos, gráficos, tablas, diagramas, imágenes, páginas web…), y la representa mediante el diseño y la realización de modelos y diagramas, utilizando diversos medios y soportes para interpretar y explicar con rigor científico procesos matemáticos y fenómenos físico-químicos, tecnológicos, biológicos y geológicos concretos, relacionados con los distintos bloques de saberes básicos del ámbito. Asimismo, se evaluará si es capaz de comunicar de forma clara y precisa, mediante exposiciones orales, escritas o visuales en diversos soportes y con el apoyo de las tecnologías digitales, opiniones propias, conjeturas y conclusiones argumentadas y fundamentadas, empleando el lenguaje científico-técnico apropiado, evitando el uso discriminatorio de la lengua y mostrando una actitud dialogante y respetuosa para conseguir una comunicación efectiva, ética y responsable. Finalmente, se valorará la capacidad del alumnado para crear y reelaborar contenidos accesibles en diferentes formatos, a partir de la información obtenida, tanto de forma individual como colaborativa, seleccionando, configurando y utilizando de manera crítica y creativa las herramientas digitales más adecuadas, respetando los derechos de autoría y las licencias de uso, y reflexionando sobre el proceso realizado. Todo ello con el fin de comprender la importancia que tiene el intercambio de información y la colaboración entre individuos en la ciencia y la tecnología.",
-      "broader": "materia:SAMB",
+      "broader": "asig:SAMB04",
       "agrupa": [
         "ce:SAMBC2"
       ],
@@ -284,6 +317,7 @@
         "CCEC4"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -293,7 +327,7 @@
       "notation": "SAMB04BC3",
       "prefLabel": "Ámbito Científico-tecnológico · 4º ESO · bloque competencial C3",
       "scopeNote": "Este bloque competencial tiene el propósito de evaluar si el alumnado es capaz de identificar, comprender y gestionar sus emociones en cualquier situación cotidiana, mediante el empleo de distintas técnicas (razonamiento lógico, asertividad, diario emocional, etc.), y de mostrar resiliencia frente a situaciones adversas o al enfrentarse a diferentes retos académicos (elaboración de un plan de vida saludable, la valoración crítica de la tecnología al logro de los Objetivos de Desarrollo Sostenible (ODS), utilización de modelos para la comprensión de procesos científico–técnicos, realización de operaciones con números en contextos cotidianos, resolución de problemas sobre energía, movilidad…), poniendo en práctica estrategias para la aceptación del error y afrontando situaciones de incertidumbre, proponiendo alternativas en el caso de no obtener los resultados esperados, aprendiendo de las equivocaciones propias y de las de las demás personas, y realizando un seguimiento de su proceso de aprendizaje a través de diversas herramientas (diario de aprendizaje, planes de acción, agenda escolar, portafolio…). Además, se verificará que el alumnado es capaz, a través de procesos de autoevaluación individual y colectiva, y mediante la revisión de borradores y de los feedback correspondientes, de reflexionar, corregir o mejorar aquellos aspectos que lo requieran, utilizando la retroalimentación constructiva y la evaluación formativa, con el fin de mejorar su capacidad de perseverancia en la consecución de los objetivos y el disfrute durante el proceso de aprendizaje. Por otro lado, se pretende comprobar si el alumnado es capaz de colaborar y asumir las responsabilidades del trabajo en equipo, participando de forma activa y desarrollando las destrezas personales y sociales que se ponen en acción a través de la realización de proyectos de investigación, debates en equipo, juegos de rol, resolución de problemas o retos, pequeñas experiencias de laboratorio…, relacionados con cualquiera de los bloques de saberes básicos del ámbito; utilizando dinámicas de trabajo cooperativo; elaborando productos que dependan de las aportaciones de cada una de las personas que conforman el grupo y de sufuncionamiento ; fomentando la comunicación y la colaboración entre el alumnado; promoviendo la empatía y respetando las emociones al comprender proactivamente las experiencias y los puntos de vista de las demás personas, a la vez que aprende a resolver los conflictos inherentes al trabajo en equipo; considerando los sentimientos y las perspectivas del resto; y buscando soluciones justas y mutuamente beneficiosas. Todo ello, con el fin de que el alumnado desarrolle las habilidades que le permitan seguir aprendiendo a lo largo de la vida, desde la confianza en el conocimiento como motor del desarrollo, construyendo una identidad positiva y fomentando una actitud dialogante y asertiva que repercuta en el bienestar personal y grupal y genere relaciones saludables.",
-      "broader": "materia:SAMB",
+      "broader": "asig:SAMB04",
       "agrupa": [
         "ce:SAMBC3"
       ],
@@ -311,6 +345,7 @@
         "CE2"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -320,7 +355,7 @@
       "notation": "SAMB04BC4",
       "prefLabel": "Ámbito Científico-tecnológico · 4º ESO · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado es capaz de resolver problemas reales, relacionados con cualquiera de los bloques de saberes básicos del ámbito, haciendo uso de diferentes herramientas manuales o digitales (regletas, fichas, dados, calculadoras, hojas de cálculo, programas de representación gráfica o geometría dinámica, laboratorios virtuales, simulaciones...), seleccionando y configurando las más adecuadas en función de la tarea, aplicando los pasos del trabajo científico y utilizando de forma eficaz el pensamiento computacional para descomponer un problema en partes más simples y para codificarlo en un lenguaje apropiado y fácil de ejecutar por un sistema informático, y describiendo de forma oral, escrita o gráfica el proceso realizado. Asimismo, se comprobará que interpreta y modeliza problemas de la vida cotidiana, identificando los datos y el objetivo, definiendo la relación que existe entre ellos y representando la información mediante herramientas de modelización como diagramas, expresiones simbólicas, gráficas... Además, se verificará que el alumnado selecciona y aplica estrategias apropiadas (analogía con otros problemas, estimación, ensayo y error, resolución de manera inversa, búsqueda de patrones...), reflexionando sobre el proceso realizado, superando bloqueos e inseguridades, buscando un cambio de estrategia cuando sea necesario y transformando el error en oportunidad de aprendizaje. También se pretende evaluar si es capaz de obtener todas las soluciones posibles de un problema, así como seleccionar de entre ellas las óptimas, reformulando los procedimientos y las conclusiones, si fuera necesario, y valorando tanto la corrección matemática como sus implicaciones desde diferentes perspectivas (de género, de sostenibilidad, de consumo responsable...). Finalmente, se comprobará que el alumnado es capaz de interpretar y explicar, utilizando el pensamiento científico y el razonamiento matemático, fenómenos de índole científico-técnicos; analizando con actitud crítica datos e información científica de diferentes fuentes de información (libros, revistas, periódicos, páginas web, pódcast, vídeos...) y en diversos formatos (gráficos, tablas, imágenes, símbolos…); haciendo uso de la terminología adecuada y de los principios, las teorías y las leyes científicas que se engloban en los diferentes bloques de saberes básicos; estableciendo, aplicando y analizando las conexiones existentes entre el mundo real, las matemáticas, la tecnología y las ciencias; y usando los procesos inherentes a la investigación científica y matemática. Todo ello con el fin de comprender y mejorar lo que ocurre a su alrededor a través de la ciencia y la tecnología.",
-      "broader": "materia:SAMB",
+      "broader": "asig:SAMB04",
       "agrupa": [
         "ce:SAMBC4"
       ],
@@ -339,6 +374,7 @@
         "CC3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -348,7 +384,7 @@
       "notation": "SAMB04BC5",
       "prefLabel": "Ámbito Científico-tecnológico · 4º ESO · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado es capaz de poner su curiosidad al servicio del aprendizaje y emplear las destrezas propias del trabajo científico (la observación y el planteamiento de preguntas, la formulación de hipótesis justificadas y la aplicación de la experimentación, la indagación y la búsqueda de evidencias cualitativas y cuantitativas y el análisis de resultados y la deducción), para identificar y describir los fenómenos y procesos biológicos, geológicos, físico-químicos, matemáticos y tecnológicos que ocurren en situaciones conocidas y diferenciarlos de los fenómenos pseudocientíficos que no admiten comprobación experimental. Para ello, se valorará si es capaz de desarrollar proyectos de investigación relacionados con los diferentes bloques de saberes básicos del ámbito, de manera individual o colaborativa, que supongan la búsqueda, obtención y organización de la información de carácter científico, a partir de la utilización de fuentes variadas (observación, artículos científicos, páginas web, revistas, periódicos…), atendiendo a criterios de validez, calidad, actualidad y fiabilidad; o de diseñar y realizar procedimientos experimentales, validar hipótesis y analizar los resultados, empleando el razonamiento lógico-matemático para obtener conclusiones fundamentadas y comunicarlas, adoptando un punto de vista personal, mediante exposiciones orales, escritas o visuales en diversos soportes (presentaciones, informes, gráficos, diagramas, fórmulas…), apoyándose en las tecnologías digitales y utilizando el vocabulario científico adecuado, y presentar soluciones que creen valor en el ámbito personal, social, cultural y económico, considerando la experiencia como una oportunidad para aprender y mejorar sus destrezas al interpretar los fenómenos científico-tecnológicos. También se evaluará si aplica las normas de uso de los espacios específicos de la ciencia (instalaciones de museos, universidades, centros sanitarios, centros de investigación…), especialmente, los laboratorios del centro, y utiliza los materiales, las sustancias y las herramientas que en ellos se encuentren de forma segura, para preservar la salud propia y colectiva, la conservación sostenible del medioambiente y el respeto por las instalaciones. Finalmente, se comprobará si el alumnado es capaz de trabajar en equipo, como requiere en la actualidad la labor científica, desarrollando actividades de cooperación, propiciando la participación de todo el grupo, aceptando y cumpliendo las tareas y responsabilidades asignadas, analizando críticamente las aportaciones del equipo, incorporándolas a su aprendizaje con actitud dialogante y respetuosa, y optimizando los recursos para llevar a término el proceso. Además, se evaluará si en el contexto del trabajo en equipo, colabora e interactúa mediante herramientas o plataformas virtuales, compartiendo contenidos, datos e información, y gestiona responsable y éticamente sus acciones, poniendo sus prácticas comunicativas al servicio de la convivencia democrática, la resolución dialogada de los conflictos y el respeto a la diversidad en todas sus formas, y evitando todo tipo de discriminación o violencia para unir puntos de vista diferentes en los procesos de investigación que contribuyan al progreso de la ciencia. Todo ello con la finalidad de ofrecer al alumnado la oportunidad creativa y de crecimiento que aporta el trabajo científico, impulsando la igualdad de oportunidades entre los alumnos y las alumnas, y fomentando las vocaciones científicas y tecnológicas desde una perspectiva de género.",
-      "broader": "materia:SAMB",
+      "broader": "asig:SAMB04",
       "agrupa": [
         "ce:SAMBC5"
       ],
@@ -370,6 +406,7 @@
         "CPSAA3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -379,7 +416,7 @@
       "notation": "SAMB04BC6",
       "prefLabel": "Ámbito Científico-tecnológico · 4º ESO · bloque competencial C6",
       "scopeNote": "Este bloque competencial tiene el propósito de evaluar en el alumnado la capacidad de investigar y analizar, utilizando el razonamiento lógico y el pensamiento computacional, los impactos que generan los avances tecnológicos, económicos y sociales sobre el medioambiente y la vida en el planeta, identificando las consecuencias derivadas de las acciones humanas (destrucción de hábitats, sobreexplotación de recursos, cambio climático, contaminación de la atmósfera, pérdida de la biodiversidad…), mediante la búsqueda y selección de información en fuentes y soportes variados (páginas web, fotografías, videos, prensa...) y la toma de datos recabados en salidas de campo o experiencias de laboratorio, para valorar la compatibilidad de dichos avances con los objetivos de la Agenda Canaria de Desarrollo Sostenible 2030 y promover la adopción de medidas ecosocialmente responsables e innovadoras que eviten o minimicen los impactos medioambientales negativos. Asimismo, se pretende comprobar si el alumnado es capaz, utilizando los conocimientos adquiridos, de analizar con criterio científico las acciones cotidianas propias y ajenas y comprender las relaciones sistémicas de interdependencia y ecodependencia, a través del diseño de un proyecto, un estudio estadístico o una investigación en su entorno más cercano (familia, barrio, centro educativo) sobre las consecuencias derivadas de dichas acciones, como el ahorro energético, el empleo de materiales sostenibles y ecológicos, la prevalencia en Canarias de ciertas enfermedades (diabetes, obesidad, determinados cánceres…) y su relación probabilística con determinados hábitos de consumo (comida rápida, tabaquismo…), para proponer y emprender, colaborativamente, un plan de medidas que fomente la adopción de estilos de vida que contribuyan a la protección y mejora del entorno más próximo y del planeta según el concepto One Health (la salud de los seres humanos, de otros seres vivos y del entorno natural), defendiendo de forma argumentada y respetuosa su conveniencia, y difundiéndolo, de manera clara y rigurosa, mediante campañas, exposiciones, pódcast, informes, artículos… Por último, se pretende comprobar si el alumnado, a partir de la interpretación de información procedente de fuentes diversas (gráficos, textos periodísticos, entrevistas a científicos y científicas, ingenieros e ingenieras, instituciones públicas, boletines sobre transición ecológica, herramientas digitales...) es capaz de valorar la contribuición de la ciencia y la tecnología, a la sociedad, mostrando una actitud crítica acerca de su alcance y sus limitaciones, y entendiendo que la investigación es una labor colectiva e interdisciplinar que genera avances y que se encuentra en constante evolución influida por el contexto político y los recursos económicos. El alumnado, desarrollando juicios propios para afrontar la controversia moral con actitud dialogante, argumentativa, respetuosa y opuesta a cualquier tipo de discriminación o violencia, podrá participar en exposiciones, debates, semanas de la ciencia y la tecnología o mesas redondas en las que se discuta sobre temas como: la visibilidad de las mujeres en la ciencia, las vocaciones STEAM, el avance de la investigación científico-tecnológica en Canarias, los institutos y centros de investigación de Canarias que son referentes en diferentes campos del conocimiento como Instituto de Astrofísica de Canarias (IAC), Instituto tecnológico de Canarias (ITC), Instituto Tecnológico de Energías Renovables (ITER), Instituto Universitario de Microelectrónica Aplicada (IUMA), Instituto Universitario de Ciencias y Tecnologías Cibernéticas (IUCTC), Instituto Universitario de Enfermedades Tropicales y salud pública de Canarias (IUETSPC), Instituto Universitario de Biorgánica Antonio González (IUBO-AG); o sobre cuestiones como la dependencia de la ciencia y la tecnología para cualquier sociedad de progreso, poniendo en valor, en todo momento, a las personas que en Canarias han dedicado y dedican su carrera a la misma. Todo ello con el fin, por un lado, de desarrollar en el alumnado habilidades y destrezas que promuevan formas de participación y actuación que puedan ser aplicadas en diferentes situaciones de la vida cotidiana y que estén basadas en la empatía y la responsabilidad; y, por otro lado, formar personas responsables y comprometidas que manifiesten una actitud proactiva con la conservación y protección del medioambiente y la sostenibilidad.",
-      "broader": "materia:SAMB",
+      "broader": "asig:SAMB04",
       "agrupa": [
         "ce:SAMBC6"
       ],
@@ -398,6 +435,7 @@
         "STEM5"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -416,6 +454,7 @@
         "CE3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -434,6 +473,7 @@
         "CE3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -455,6 +495,7 @@
         "CE3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -475,6 +516,7 @@
         "CE3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -496,6 +538,7 @@
         "CCEC3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -516,6 +559,7 @@
         "CCEC4"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -534,6 +578,7 @@
         "CE3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -556,6 +601,7 @@
         "CE2"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -577,6 +623,7 @@
         "CE3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -600,6 +647,7 @@
         "CE3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -621,6 +669,7 @@
         "CE3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -641,6 +690,7 @@
         "CC3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -661,6 +711,7 @@
         "CE3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -678,6 +729,7 @@
         "STEM2"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -703,6 +755,7 @@
         "CE3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -720,6 +773,7 @@
         "CC1"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -737,6 +791,7 @@
         "CPSAA3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -759,6 +814,7 @@
         "CE1"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -781,6 +837,7 @@
         "CE1"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -799,6 +856,7 @@
         "CD1"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -817,6 +875,7 @@
         "CE3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -835,6 +894,7 @@
         "CE3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -856,6 +916,7 @@
         "CE3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -876,6 +937,7 @@
         "CE3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -897,6 +959,7 @@
         "CCEC3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -917,6 +980,7 @@
         "CCEC4"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -935,6 +999,7 @@
         "CE3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -957,6 +1022,7 @@
         "CE2"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -978,6 +1044,7 @@
         "CE3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1001,6 +1068,7 @@
         "CE3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1022,6 +1090,7 @@
         "CE3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1042,6 +1111,7 @@
         "CC3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1059,6 +1129,7 @@
         "STEM2"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1084,6 +1155,7 @@
         "CE3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1101,6 +1173,7 @@
         "CC1"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1118,6 +1191,7 @@
         "CPSAA3"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1143,6 +1217,7 @@
         "CE1"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1164,6 +1239,7 @@
         "CE1"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1182,6 +1258,7 @@
         "CD1"
       ],
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1191,8 +1268,9 @@
       "notation": "SAMB03SBI",
       "prefLabel": "SAMB03SBI · I. Destrezas científicas y tecnológicas básicas",
       "definition": "Destrezas científicas y tecnológicas básicas",
-      "broader": "materia:SAMB",
+      "broader": "asig:SAMB03",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1202,8 +1280,9 @@
       "notation": "SAMB03SBII",
       "prefLabel": "SAMB03SBII · II. Emergencia climática y sostenibilidad",
       "definition": "Emergencia climática y sostenibilidad",
-      "broader": "materia:SAMB",
+      "broader": "asig:SAMB03",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1213,8 +1292,9 @@
       "notation": "SAMB03SBIII",
       "prefLabel": "SAMB03SBIII · III. Entre el micro y el macromundo",
       "definition": "Entre el micro y el macromundo",
-      "broader": "materia:SAMB",
+      "broader": "asig:SAMB03",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1224,8 +1304,9 @@
       "notation": "SAMB03SBIV",
       "prefLabel": "SAMB03SBIV · IV. Plan de vida saludable",
       "definition": "Plan de vida saludable",
-      "broader": "materia:SAMB",
+      "broader": "asig:SAMB03",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1235,8 +1316,9 @@
       "notation": "SAMB03SBV",
       "prefLabel": "SAMB03SBV · V. La geometría de los paisajes de Canarias.",
       "definition": "La geometría de los paisajes de Canarias.",
-      "broader": "materia:SAMB",
+      "broader": "asig:SAMB03",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1246,8 +1328,9 @@
       "notation": "SAMB04SBI",
       "prefLabel": "SAMB04SBI · I. Destrezas científicas y tecnológicas básicas",
       "definition": "Destrezas científicas y tecnológicas básicas",
-      "broader": "materia:SAMB",
+      "broader": "asig:SAMB04",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1257,8 +1340,9 @@
       "notation": "SAMB04SBII",
       "prefLabel": "SAMB04SBII · II. Emergencia climática y sostenibilidad",
       "definition": "Emergencia climática y sostenibilidad",
-      "broader": "materia:SAMB",
+      "broader": "asig:SAMB04",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1268,8 +1352,9 @@
       "notation": "SAMB04SBIII",
       "prefLabel": "SAMB04SBIII · III. Entre el micro y el macromundo",
       "definition": "Entre el micro y el macromundo",
-      "broader": "materia:SAMB",
+      "broader": "asig:SAMB04",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1279,8 +1364,9 @@
       "notation": "SAMB04SBIV",
       "prefLabel": "SAMB04SBIV · IV. Plan de vida saludable",
       "definition": "Plan de vida saludable",
-      "broader": "materia:SAMB",
+      "broader": "asig:SAMB04",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1290,8 +1376,9 @@
       "notation": "SAMB04SBV",
       "prefLabel": "SAMB04SBV · V. La geometría de los paisajes de Canarias",
       "definition": "La geometría de los paisajes de Canarias",
-      "broader": "materia:SAMB",
+      "broader": "asig:SAMB04",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1303,6 +1390,7 @@
       "definition": "Aplicación de las destrezas y habilidades propias del trabajo científico y del método de proyectos para resolver problemas desde una perspectiva interdisciplinar y explicar fenómenos físicos, químicos, biológicos, geológicos, matemáticos y tecnológicos, propiciando el desarrollo de estrategias colaborativas y cooperativas. Identificación y formulación de cuestiones, elaboración de hipótesis y su comprobación experimental.",
       "broader": "sb:SAMB03SBI",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1314,6 +1402,7 @@
       "definition": "Empleo de estrategias eficientes en la búsqueda, la selección, el tratamiento, la organización, el almacenamiento y el contraste de información, utilizando fuentes fidedignas para evitar los riesgos de desinformación y diferenciando la información científica de aquella que no lo es.",
       "broader": "sb:SAMB03SBI",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1325,6 +1414,7 @@
       "definition": "Realización de trabajos experimentales y proyectos de investigación:",
       "broader": "sb:SAMB03SBI",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1336,6 +1426,7 @@
       "definition": "Aplicación de los principios del pensamiento computacional en la resolución de problemas y proyectos de investigación.",
       "broader": "sb:SAMB03SBI.3",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1347,6 +1438,7 @@
       "definition": "Selección de estrategias para la resolución de problemas y para el desarrollo de investigaciones. Generalización y transferencia de procesos de resolución de problemas a otras situaciones.",
       "broader": "sb:SAMB03SBI.3",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1358,6 +1450,7 @@
       "definition": "Construcción de modelos, objetos y prototipos, utilizando herramientas y materiales variados y aplicando las técnicas de manipulación apropiadas que expliquen fenómenos científicos-tecnológicos.",
       "broader": "sb:SAMB03SBI.3",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1369,6 +1462,7 @@
       "definition": "Elaboración de documentación técnica, combinando distintos tipos de esquemas y sistemas de representación asociados al proceso de ideación, desarrollo y construcción de proyectos.",
       "broader": "sb:SAMB03SBI.3",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1380,6 +1474,7 @@
       "definition": "Uso de métodos de análisis de resultados o conclusiones de un proyecto científico. Diferenciación entre correlación y causalidad. Realización de estimaciones y aproximaciones con la precisión requerida en problemas contextualizados.",
       "broader": "sb:SAMB03SBI.3",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1391,6 +1486,7 @@
       "definition": "Comunicación de proyectos, procesos, resultados o ideas científicas, a través del empleo de herramientas digitales y formatos de uso frecuente en ciencias, matemáticas y tecnología (presentación, gráfica, vídeo, póster, informe...).",
       "broader": "sb:SAMB03SBI.3",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1402,6 +1498,7 @@
       "definition": "Reconocimiento de la importancia del trabajo en equipo como fuente de generación de conocimiento. Aplicación de estrategias de trabajo cooperativo para desarrollar destrezas personales y sociales.",
       "broader": "sb:SAMB03SBI.3",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1413,6 +1510,7 @@
       "definition": "Conocimiento y utilización de los espacios (laboratorio, talleres, aulas, entorno, huertos...), entornos virtuales y recursos de aprendizaje para adquirir destrezas científicas y tecnológicas:",
       "broader": "sb:SAMB03SBI",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1424,6 +1522,7 @@
       "definition": "Uso de materiales, sustancias, herramientas e instrumentos básicos.",
       "broader": "sb:SAMB03SBI.4",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1435,6 +1534,7 @@
       "definition": "Conocimiento de las medidas y los protocolos de seguridad e higiene. Establecimiento y respeto por las normas de uso de los espacios y las herramientas, asegurando y protegiendo así la salud propia y comunitaria, y el medioambiente.",
       "broader": "sb:SAMB03SBI.4",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1446,6 +1546,7 @@
       "definition": "Manejo de herramientas digitales y manipulativas como apoyo al trabajo experimental, la investigación y la resolución de problemas.",
       "broader": "sb:SAMB03SBI.4",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1457,6 +1558,7 @@
       "definition": "Realización de montajes físicos o simulados de circuitos eléctricos y electrónicos y operadores mecánicos para la búsqueda de solución de problemas en contextos reales.",
       "broader": "sb:SAMB03SBI.4",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1468,6 +1570,7 @@
       "definition": "Adquisición y utilización del lenguaje científico, matemático y tecnológico apropiado para facilitar la comunicación efectiva con toda la comunidad científica. Reconocimiento de su carácter universal y transversal:",
       "broader": "sb:SAMB03SBI",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1479,6 +1582,7 @@
       "definition": "Elección correcta de las unidades en que debe ser expresada una magnitud (múltiplos y submúltiplos, cambios de unidades, unidades del Sistema Internacional de Medida y sus símbolos). Relación entre los atributos mensurables de los objetos físicos y matemáticos (longitud, masa, superficie, temperatura, volumen, solubilidad, punto de fusión, punto de ebullición y densidad).",
       "broader": "sb:SAMB03SBI.5",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1490,6 +1594,7 @@
       "definition": "Valoración de la precisión y simplicidad del lenguaje algebraico para representar y comunicar diferentes situaciones de la vida cotidiana.",
       "broader": "sb:SAMB03SBI.5",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1501,6 +1606,7 @@
       "definition": "Uso de números naturales, enteros, fracciones y decimales para expresar cantidades en contextos científico-tecnológicos de la vida cotidiana con la precisión requerida.",
       "broader": "sb:SAMB03SBI.5",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1512,6 +1618,7 @@
       "definition": "Introducción al etiquetado de productos de diversa naturaleza (químicos, alimentarios, textiles, tecnológicos…) y su significado.",
       "broader": "sb:SAMB03SBI.5",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1523,6 +1630,7 @@
       "definition": "Instalación, configuración, y uso seguro, responsable, crítico y sostenible de las distintas herramientas (edición, creación de contenidos…) y plataformas de aprendizaje. Identificación de derechos de autoría y respeto por la propiedad intelectual.",
       "broader": "sb:SAMB03SBI",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1534,6 +1642,7 @@
       "definition": "Valoración de la contribución de la ciencia y la tecnología a la sociedad y la labor de las personas dedicadas a ella, destacando y visibilizando a las mujeres científicas, ingenieras y técnicas, especialmente, a las investigadoras canarias, para fomentar la vocación científica-tecnológica y acabar con la brecha de género en el ámbito de la ciencia y la tecnología.",
       "broader": "sb:SAMB03SBI",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1545,6 +1654,7 @@
       "definition": "Manejo de destrezas matemáticas para aplicarlas en diferentes contextos y disciplinas científico-tecnológicas:",
       "broader": "sb:SAMB03SBI",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1556,6 +1666,7 @@
       "definition": "Interpretación de números grandes y pequeños, reconocimiento y utilización de la notación exponencial, científica y de la calculadora para la realización de operaciones.",
       "broader": "sb:SAMB03SBI.8",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1567,6 +1678,7 @@
       "definition": "Realización de operaciones con números naturales, enteros, fraccionarios o decimales en situaciones contextualizadas (en circuitos eléctricos, en el cálculo de masas moleculares, del Índice de Masa Corporal -IMC-, de densidad de cuerpos…).",
       "broader": "sb:SAMB03SBI.8",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1578,6 +1690,7 @@
       "definition": "Aplicación de estrategias de cálculo, tanto mental como de forma manual, con números naturales, fracciones, decimales y porcentajes (multiplicar por 0,5 y 50 % como mitad, multiplicar por 0,25 y 25 % como mitad de mitad, multiplicar por 0,1 y 10 % como la décima parte, 20 % como el doble del 10 %...).",
       "broader": "sb:SAMB03SBI.8",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1589,6 +1702,7 @@
       "definition": "Propiedades de las operaciones (suma, resta, multiplicación, división y potenciación): cálculos de manera eficiente con números naturales, enteros, fraccionarios y decimales tanto mentales como de forma manual, con calculadora u hoja de cálculo.",
       "broader": "sb:SAMB03SBI.8",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1600,6 +1714,7 @@
       "definition": "Comprensión y resolución de problemas relacionados con proporciones directas e inversas entre dos magnitudes en diferentes contextos (escalas, cambio de divisas, velocidad y tiempo, etc.), y con diferentes métodos (reducción a la unidad, uso de la constante de proporcionalidad, tablas de proporcionalidad, etc.).",
       "broader": "sb:SAMB03SBI.8",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1611,6 +1726,7 @@
       "definition": "Comprensión y uso del cálculo de porcentajes para la resolución de problemas en contextos de la vida cotidiana, en especial del ámbito científico-tecnológico (aumentos y disminuciones porcentuales, dietas equilibradas, composición centesimal de sustancias compuestas...). Relación entre fracción, porcentaje y decimal.",
       "broader": "sb:SAMB03SBI.8",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1622,6 +1738,7 @@
       "definition": "Desarrollo de la flexibilidad cognitiva como medida para facilitar la apertura a cambios de estrategias en la resolución de problemas, transformando el error en oportunidad de aprendizaje.",
       "broader": "sb:SAMB03SBI",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1633,6 +1750,7 @@
       "definition": "Reconocimiento de la actual situación de emergencia climática.",
       "broader": "sb:SAMB03SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1644,6 +1762,7 @@
       "definition": "Identificación y localización de los elementos más importantes de la tabla periódica, distinguiendo aquellos que están más vinculados con las causas de la crisis climática.",
       "broader": "sb:SAMB03SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1655,6 +1774,7 @@
       "definition": "Estudio de las aplicaciones de los compuestos químicos más comunes, a través de sus propiedades físicas y químicas para valorar su impacto en el entorno y la calidad de vida.",
       "broader": "sb:SAMB03SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1666,6 +1786,7 @@
       "definition": "Comparación entre los cambios físicos y los cambios químicos de los sistemas materiales, empleando como ejemplos aquellos que se dan en el contexto medioambiental. Realización de experiencias para la descripción y explicación de algunos cambios químicos.",
       "broader": "sb:SAMB03SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1677,6 +1798,7 @@
       "definition": "Representación de las reacciones químicas mediante ecuaciones químicas, señalando reactivos y productos, y usando como ejemplos las que se producen en los procesos vinculados al cambio climático, la acidificación de los océanos, la lluvia ácida, la destrucción de la capa de ozono...",
       "broader": "sb:SAMB03SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1688,6 +1810,7 @@
       "definition": "Reconocimiento de la presencia de las reacciones químicas en la vida cotidiana. Valoración de los beneficios proporcionados por la industria química a la sociedad, así como sus repercusiones socioambientales.",
       "broader": "sb:SAMB03SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1699,6 +1822,7 @@
       "definition": "Análisis de problemas socioambientales globales que permitan el planteamiento de posibles medidas para mitigarlos y contribuir a un presente sostenible.",
       "broader": "sb:SAMB03SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1710,6 +1834,7 @@
       "definition": "Reconocimiento de los distintos tipos de energía, de las transformaciones de unas formas en otras, de su disipación y de su conservación. Descripción y comparación de las fuentes de energía renovables y no renovables.",
       "broader": "sb:SAMB03SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1721,6 +1846,7 @@
       "definition": "Estudio de las formas de energía que se emplean en Canarias a partir de datos e información recabados de fuentes diversas (web de la consejería o ministerio competente en materia de energía, web del Instituto Tecnológico de Canarias, artículos periodísticos, revistas especializadas…).",
       "broader": "sb:SAMB03SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1732,6 +1858,7 @@
       "definition": "Interpretación de la factura de la luz. Aplicación y análisis de auditorías para proponer medidas de ahorro energético de distintos espacios (centro educativo, hogar…).",
       "broader": "sb:SAMB03SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1743,6 +1870,7 @@
       "definition": "Interpretación de la información numérica en situaciones domésticas. Métodos para la toma de decisiones de consumo responsable y sostenible. Relaciones calidad-precio y valor-precio en contextos económicos cotidianos.",
       "broader": "sb:SAMB03SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1754,6 +1882,7 @@
       "definition": "Relación entre los conceptos de calor y temperatura. Identificación de los distintos mecanismos de transferencia de energía térmica para considerar sus aplicaciones sostenibles en diferentes situaciones cotidianas (sistemas de calefacción, construcción de edificaciones...).",
       "broader": "sb:SAMB03SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1765,6 +1894,7 @@
       "definition": "Configuración y montaje de los elementos que constituyen la arquitectura de los ordenadores. Desarrollo de estrategias eficaces para la resolución de problemas que permitan la adquisición de hábitos de reutilización de materiales y ahorro energético.",
       "broader": "sb:SAMB03SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1776,6 +1906,7 @@
       "definition": "Aplicación de criterios de sostenibilidad en la selección de materiales y diseño de procesos, de productos y de sistemas tecnológicos. Consideraciones previas de impacto ambiental y de ahorro de material.",
       "broader": "sb:SAMB03SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1787,6 +1918,7 @@
       "definition": "Identificación de las aportaciones de avances científico-tecnológicos en la disminución del impacto ambiental. Valoración crítica de la contribución de la Tecnología a la consecución de los Objetivos de Desarrollo Sostenible en el planeta, en general, y en Canarias, en particular.",
       "broader": "sb:SAMB03SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1798,6 +1930,7 @@
       "definition": "Estudio de las consecuencias para el planeta de las acciones diarias individuales y colectivas, con el fin de fomentar la protección del entorno natural y social.",
       "broader": "sb:SAMB03SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1809,6 +1942,7 @@
       "definition": "Investigación sobre estilos de vida sostenibles y saludables (One Health) como respuesta a la necesidad de transformación del actual modelo socioeconómico hacia un modelo ecosocial que priorice la justicia social, la igualdad y la sostenibilidad.",
       "broader": "sb:SAMB03SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1820,6 +1954,7 @@
       "definition": "Reconocimiento y utilización de la notación científica para expresar números muy grandes o muy pequeños. Operaciones con cantidades en notación científica usando la calculadora.",
       "broader": "sb:SAMB03SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1831,6 +1966,7 @@
       "definition": "Aplicación de la teoría cinético-molecular a observaciones sobre la materia, explicando sus propiedades, los estados de agregación, los cambios de estado, la temperatura y la formación de mezclas y disoluciones, para descubrir la naturaleza microscópica del mundo que nos rodea.",
       "broader": "sb:SAMB03SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1842,6 +1978,7 @@
       "definition": "Realización de experimentos sencillos relacionados con los sistemas materiales (curvas de calentamiento, separación de los componentes de una mezcla, etc.) para explicar lo que ocurre.",
       "broader": "sb:SAMB03SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1853,6 +1990,7 @@
       "definition": "Descripción de la estructura elemental del átomo y de las partículas fundamentales que lo componen (electrón, protón y neutrón). Identificación y localización de los elementos más importantes de la tabla periódica, diferenciándolos según su número atómico y número másico.",
       "broader": "sb:SAMB03SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1864,6 +2002,7 @@
       "definition": "Interpretación microscópica de las transformaciones químicas y su representación mediante ecuaciones químicas.",
       "broader": "sb:SAMB03SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1875,6 +2014,7 @@
       "definition": "Identificación e interpretación de las fuerzas y fenómenos eléctricos y magnéticos en el mundo que percibimos y su relación con las cargas eléctricas. Reconocimiento de la importancia de la electricidad y del magnetismo en la vida cotidiana.",
       "broader": "sb:SAMB03SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1886,6 +2026,7 @@
       "definition": "Identificación de la célula como unidad estructural y funcional de los seres vivos a través de la utilización de la microscopía óptica y la interpretación de imágenes.",
       "broader": "sb:SAMB03SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1897,6 +2038,7 @@
       "definition": "Catalogación de los niveles de organización de la materia viva (células, tejidos, órganos y aparatos o sistemas), para descubrir todo el universo que está presente en nuestras vidas, pero que no se puede apreciar a simple vista.",
       "broader": "sb:SAMB03SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1908,6 +2050,7 @@
       "definition": "Identificación y comprensión de patrones, determinando la regla de formación de diversas estructuras.",
       "broader": "sb:SAMB03SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1919,6 +2062,7 @@
       "definition": "Identificación de variables en distintos contextos: asociación de expresiones simbólicas al contexto del problema y diferentes usos de ellas. Identificación de las variables que caracterizan un movimiento: posición, trayectoria, desplazamiento y distancia recorrida. Valoración de la importancia de la identificación de un sistema de referencia para la representación de estas magnitudes en la resolución de problemas reales.",
       "broader": "sb:SAMB03SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1930,6 +2074,7 @@
       "definition": "Identificación e interpretación de las características más relevantes de una gráfica comprobando los resultados con la ayuda de medios tecnológicos en situaciones abstractas y problemas contextualizados.",
       "broader": "sb:SAMB03SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1941,6 +2086,7 @@
       "definition": "Identificación de relaciones lineales de la vida cotidiana. Utilización de varios modos de representación, tablas, gráficas o expresiones algebraicas y estudio de sus propiedades a partir de ellas:",
       "broader": "sb:SAMB03SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1952,6 +2098,7 @@
       "definition": "Interpretación del concepto de velocidad media y su cálculo para la resolución de problemas de movimientos sencillos, a través de métodos numéricos, gráficos o experimentales.",
       "broader": "sb:SAMB03SBIII.12",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1963,6 +2110,7 @@
       "definition": "Identificación y medida experimental de fuerzas en el entorno, como las deformaciones elásticas o el rozamiento, a través de la elaboración, del análisis y de la interpretación de tablas y gráficas, para sacar conclusiones sobre su relación con los efectos que producen y comprender que son agentes de cambio en los cuerpos.",
       "broader": "sb:SAMB03SBIII.12",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1974,6 +2122,7 @@
       "definition": "Resolución e interpretación de ecuaciones y sistemas lineales. Modelización y resolución de problemas de la vida cotidiana basados en relaciones lineales. Deducción de conclusiones razonables sobre una situación de la vida cotidiana una vez modelizada.",
       "broader": "sb:SAMB03SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1985,6 +2134,7 @@
       "definition": "Interpretación de la estructura interna de la geosfera a partir del modelo estático, para establecer la relación entre su composición, su geometría y la gravedad en nuestro planeta.",
       "broader": "sb:SAMB03SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1996,6 +2146,7 @@
       "definition": "Identificación e interpretación de los efectos producidos por las fuerzas gravitatorias. Distinción entre las magnitudes de masa y peso de un cuerpo, y cálculo de la aceleración de la gravedad según la relación entre ellas.",
       "broader": "sb:SAMB03SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2007,6 +2158,7 @@
       "definition": "Realización de estudios estadísticos sencillos relacionados con contextos del ámbito científico tecnológico (hábitos de vida saludables, trastornos derivados de dietas inadecuadas, enfermedades más comunes en la población adolescente...) de manera manual y mediante diferentes tecnologías digitales (calculadora, hoja de cálculo, aplicaciones…):",
       "broader": "sb:SAMB03SBIV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2018,6 +2170,7 @@
       "definition": "Utilización de estrategias de recogida y organización de datos mediante tablas estadísticas de variables cualitativas y cuantitativas, discretas y continuas, de interés y del entorno familiar o escolar del alumnado.",
       "broader": "sb:SAMB03SBIV.1",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2029,6 +2182,7 @@
       "definition": "Análisis, interpretación y representación de gráficos estadísticos en contextos de la vida cotidiana.",
       "broader": "sb:SAMB03SBIV.1",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2040,6 +2194,7 @@
       "definition": "Interpretación y cálculo de variables de centralización y dispersión en situaciones reales.",
       "broader": "sb:SAMB03SBIV.1",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2051,6 +2206,7 @@
       "definition": "Extracción de conclusiones a partir de una muestra, con el fin de emitir juicios y tomar decisiones sobre los hábitos de vida que afectan a la salud.",
       "broader": "sb:SAMB03SBIV.1",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2062,6 +2218,7 @@
       "definition": "Diferenciación entre los procesos de alimentación y nutrición. Descripción de la anatomía, fisiología y patología de los aparatos implicados en la nutrición (aparatos digestivo, respiratorio, circulatorio, excretor), para comprender su funcionamiento y fomentar el autocuidado.",
       "broader": "sb:SAMB03SBIV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2073,6 +2230,7 @@
       "definition": "Descripción de las características básicas y del funcionamiento del aparato reproductor masculino y femenino. Identificación de las principales etapas del ciclo menstrual, las hormonas que lo regulan y los acontecimientos fundamentales de la fecundación, el embarazo y el parto.",
       "broader": "sb:SAMB03SBIV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2084,6 +2242,7 @@
       "definition": "Relación entre los principales sistemas y aparatos del organismo implicados en la nutrición, relación y reproducción mediante la aplicación de conocimientos de fisiología y anatomía.",
       "broader": "sb:SAMB03SBIV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2095,6 +2254,7 @@
       "definition": "Apreciación de la importancia de mantener una dieta saludable. Elaboración de dietas equilibradas mediante el uso de balances calóricos, gasto energético diario, cálculo del IMC, porcentaje de nutrientes y otros.",
       "broader": "sb:SAMB03SBIV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2106,6 +2266,7 @@
       "definition": "Reconocimiento de la educación sexual como parte de un desarrollo integral que diferencie los conceptos sexo y sexualidad, y ponga en valor el respeto hacia la libertad, la diversidad sexual y la igualdad de género, y el buen trato. Concienciación sobre la importancia de adquirir prácticas sexuales saludables, responsables y consentidas. Prevención de infecciones de transmisión sexual (ITS) y de embarazos no deseados. El uso adecuado de métodos anticonceptivos y de métodos de prevención de ITS.",
       "broader": "sb:SAMB03SBIV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2117,6 +2278,7 @@
       "definition": "Estudios de casos sobre trastornos de la conducta alimentaria, adicciones a las tecnologías digitales, embarazos no deseados…, y su incidencia en la población adolescente.",
       "broader": "sb:SAMB03SBIV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2128,6 +2290,7 @@
       "definition": "Importancia del autocuidado para un adecuado desarrollo del bienestar emocional (autoconcepto, autoestima, asertividad, sentido crítico, resiliencia…). Relación entre la salud mental y la salud física.",
       "broader": "sb:SAMB03SBIV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2139,6 +2302,7 @@
       "definition": "Diferenciación entre los conceptos de pandemia, epidemia, endemia y brote epidémico. Importancia del uso adecuado de los antibióticos. Las vacunas como medida de prevención de enfermedades infecciosas y su papel en la mejora de la calidad de vida humana.",
       "broader": "sb:SAMB03SBIV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2150,6 +2314,7 @@
       "definition": "Formulación de conjeturas sobre medidas de objetos del entorno o relaciones entre estas basadas en estimaciones.",
       "broader": "sb:SAMB03SBV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2161,6 +2326,7 @@
       "definition": "Investigación sobre el paisaje volcánico:",
       "broader": "sb:SAMB03SBV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2172,6 +2338,7 @@
       "definition": "Clasificación del magma considerando: la identificación y la composición de las sustancias químicas más representativas, el estado de agregación y su relación con la temperatura de los materiales y su acidez/basicidad, su viscosidad y su densidad.",
       "broader": "sb:SAMB03SBV.2",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2183,6 +2350,7 @@
       "definition": "Tipos de volcanes y su actividad en función de las características del magma, con especial atención al vulcanismo canario.",
       "broader": "sb:SAMB03SBV.2",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2194,6 +2362,7 @@
       "definition": "Valoración de la importancia de conocer los riesgos volcánicos y sísmicos en Canarias, así como las medidas preventivas y su posible predicción.",
       "broader": "sb:SAMB03SBV.2",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2205,6 +2374,7 @@
       "definition": "Estudio de las consecuencias para el medioambiente y para la población afectada del reciente vulcanismo en Canarias.",
       "broader": "sb:SAMB03SBV.2",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2216,6 +2386,7 @@
       "definition": "Identificación y función de los organismos gubernamentales para la gestión de fenómenos sísmicos y volcánicos.",
       "broader": "sb:SAMB03SBV.2",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2227,6 +2398,7 @@
       "definition": "Localización y descripción de relaciones espaciales:",
       "broader": "sb:SAMB03SBV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2238,6 +2410,7 @@
       "definition": "Utilización y representación de coordenadas cartesianas para orientarse en planos reales de su entorno.",
       "broader": "sb:SAMB03SBV.3",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2249,6 +2422,7 @@
       "definition": "Identificación de relaciones geométricas y uso de la escala para calcular medidas reales en situaciones de semejanza como planos, mapas o fotos aéreas, a través del estudio de los episodios del vulcanismo reciente en Canarias.",
       "broader": "sb:SAMB03SBV.3",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2260,6 +2434,7 @@
       "definition": "Deducción, interpretación y aplicación de longitudes y áreas en figuras planas. Composición y descomposición de figuras complejas en figuras simples. Identificación y aplicación de la relación pitagórica en figuras planas.",
       "broader": "sb:SAMB03SBV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2271,6 +2446,7 @@
       "definition": "Construcción de figuras geométricas y dibujos de diferentes estructuras volcánicas, con herramientas manipulativas y digitales.",
       "broader": "sb:SAMB03SBV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2282,6 +2458,7 @@
       "definition": "Identificación de transformaciones elementales (giros, traslaciones y simetrías) y sus combinaciones en la vida cotidiana: investigación con herramientas digitales como programas de geometría dinámica, realidad aumentada…, para analizar configuraciones que aparecen en la naturaleza, en el arte, en los calados y las pintaderas canarias, y en otras construcciones humanas.",
       "broader": "sb:SAMB03SBV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2293,6 +2470,7 @@
       "definition": "Aplicación de las destrezas y habilidades propias del trabajo científico para resolver problemas desde una perspectiva interdisciplinar y explicar fenómenos físicos, químicos, biológicos, geológicos y matemáticos, propiciando el desarrollo de estrategias colaborativas y cooperativas. Formulación y elaboración de hipótesis, preguntas y conjeturas, y comprobación experimental de las mismas.",
       "broader": "sb:SAMB04SBI",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2304,6 +2482,7 @@
       "definition": "Empleo de estrategias eficientes en la búsqueda, la selección, el tratamiento, la organización, el almacenamiento y el contraste de información, utilizando fuentes fidedignas para evitar los riesgos de desinformación y diferenciando la información científica de aquella que no lo es.",
       "broader": "sb:SAMB04SBI",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2315,6 +2494,7 @@
       "definition": "Aplicación de métodos de observación y de toma de datos de fenómenos naturales.",
       "broader": "sb:SAMB04SBI",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2326,6 +2506,7 @@
       "definition": "Realización de trabajos experimentales y proyectos de investigación:",
       "broader": "sb:SAMB04SBI",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2337,6 +2518,7 @@
       "definition": "Aplicación de los principios del pensamiento computacional en la resolución de problemas y proyectos de investigación.",
       "broader": "sb:SAMB04SBI.4",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2348,6 +2530,7 @@
       "definition": "Selección de estrategias para la resolución de problemas y para el desarrollo de investigaciones. Generalización y transferencia de procesos de resolución de problemas a otras situaciones.",
       "broader": "sb:SAMB04SBI.4",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2359,6 +2542,7 @@
       "definition": "Uso de métodos de análisis de resultados o conclusiones de un proyecto científico. Diferenciación entre correlación y causalidad. Realización de estimaciones y aproximaciones con la precisión requerida en problemas contextualizados. Importancia de la realización de controles experimentales (positivos y negativos) para la obtención de resultados científicos objetivos y fiables.",
       "broader": "sb:SAMB04SBI.4",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2370,6 +2554,7 @@
       "definition": "Utilización de modelos para la representación y comprensión de procesos o elementos de la naturaleza.",
       "broader": "sb:SAMB04SBI.4",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2381,6 +2566,7 @@
       "definition": "Comunicación de proyectos, procesos, resultados o ideas científicas, a través del empleo de herramientas digitales y formatos de uso frecuente en ciencias (presentación, gráfica, vídeo, póster, informe...).",
       "broader": "sb:SAMB04SBI.4",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2392,6 +2578,7 @@
       "definition": "Reconocimiento de la importancia del trabajo en equipo en los proyectos de investigación como fuente de generación de conocimiento. Aplicación de estrategias de trabajo cooperativo para desarrollar destrezas personales y sociales.",
       "broader": "sb:SAMB04SBI.4",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2403,6 +2590,7 @@
       "definition": "Conocimiento y utilización de los espacios (laboratorio, aulas, entorno, huertos...), entornos virtuales y recursos de aprendizaje para adquirir destrezas científicas:",
       "broader": "sb:SAMB04SBI",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2414,6 +2602,7 @@
       "definition": "Uso de materiales, sustancias e instrumentos básicos.",
       "broader": "sb:SAMB04SBI.5",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2425,6 +2614,7 @@
       "definition": "Conocimiento de las medidas y protocolos de seguridad e higiene. Establecimiento y respeto por las normas de uso de los espacios y las herramientas, asegurando y protegiendo así la salud propia y comunitaria, y el medioambiente.",
       "broader": "sb:SAMB04SBI.5",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2436,6 +2626,7 @@
       "definition": "Manejo de herramientas digitales y manipulativas como apoyo al trabajo experimental, la investigación y la resolución de problemas.",
       "broader": "sb:SAMB04SBI.5",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2447,6 +2638,7 @@
       "definition": "Adquisición y utilización del lenguaje científico y matemático apropiado para facilitar la comunicación efectiva con toda la comunidad científica. Reconocimiento de su carácter universal y transversal:",
       "broader": "sb:SAMB04SBI",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2458,6 +2650,7 @@
       "definition": "Elección correcta de las unidades en que debe ser expresada una magnitud (múltiplos y submúltiplos, cambios de unidades, unidades del Sistema Internacional de Medida y sus símbolos). Relación entre los atributos mensurables de los objetos físicos y matemáticos (longitud, masa, superficie, temperatura, volumen, solubilidad, punto de fusión, punto de ebullición y densidad).",
       "broader": "sb:SAMB04SBI.6",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2469,6 +2662,7 @@
       "definition": "Uso de los números reales para expresar cantidades en contextos científicos de la vida cotidiana con la precisión requerida.",
       "broader": "sb:SAMB04SBI.6",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2480,6 +2674,7 @@
       "definition": "Interpretación del etiquetado de productos de diversa naturaleza (químicos, alimentarios, textiles, tecnológicos…) y su significado.",
       "broader": "sb:SAMB04SBI.6",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2491,6 +2686,7 @@
       "definition": "Identificación del conjunto numérico que sirve para responder a diferentes necesidades: contar, medir, comparar...",
       "broader": "sb:SAMB04SBI.6",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2502,6 +2698,7 @@
       "definition": "Valoración crítica de la contribución de la ciencia a la sociedad y la labor de las personas dedicadas a ella, destacando y visibilizando a las mujeres científicas, especialmente, a las investigadoras canarias, para fomentar la vocación científica y acabar con la brecha de género en el ámbito de la ciencia y de la tecnología.",
       "broader": "sb:SAMB04SBI",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2513,6 +2710,7 @@
       "definition": "Manejo de destrezas matemáticas para aplicarlas en diferentes contextos y disciplinas científicas:",
       "broader": "sb:SAMB04SBI",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2524,6 +2722,7 @@
       "definition": "Operaciones con números reales en la resolución de situaciones contextualizadas (en cálculos de masas, pesos, gravedad, deformaciones causadas por las fuerzas, en cálculos estequiométricos sencillos….).",
       "broader": "sb:SAMB04SBI.8",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2535,6 +2734,7 @@
       "definition": "Cálculo de operaciones aritméticas con números reales haciendo uso de herramientas digitales.",
       "broader": "sb:SAMB04SBI.8",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2546,6 +2746,7 @@
       "definition": "Reconocimiento de algunos números irracionales en situaciones de la vida cotidiana.",
       "broader": "sb:SAMB04SBI.8",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2557,6 +2758,7 @@
       "definition": "Comprensión y resolución de problemas relacionados con proporciones directas e inversas entre dos magnitudes en diferentes contextos (escalas, cambio de divisas, velocidad y tiempo...) y con diferentes métodos (reducción a la unidad, uso de la constante de proporcionalidad, tablas de proporcionalidad...).",
       "broader": "sb:SAMB04SBI.8",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2568,6 +2770,7 @@
       "definition": "Desarrollo, análisis y explicación de métodos para la resolución de problemas relacionados con aumentos y disminuciones porcentuales, intereses y tasas en contextos financieros.",
       "broader": "sb:SAMB04SBI.8",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2579,6 +2782,7 @@
       "definition": "Desarrollo de la flexibilidad cognitiva como medida para facilitar la apertura a cambios de estrategias en la resolución de problemas, transformando el error en oportunidad de aprendizaje.",
       "broader": "sb:SAMB04SBI",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2590,6 +2794,7 @@
       "definition": "Análisis de la actual situación de emergencia climática en Canarias. Conocimiento y apreciación de la importancia de la Ley Canaria de Cambio Climático y Transición Energética.",
       "broader": "sb:SAMB04SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2601,6 +2806,7 @@
       "definition": "Investigación sobre los efectos de las actividades humanas (contaminación, deforestación, explotación de recursos naturales, cambio climático…) sobre los sistemas de la Tierra (atmósfera, hidrosfera, litosfera y biosfera), así como sobre la población de las regiones que sufren la extracción de dichos recursos naturales y que carecen de medios para adaptarse a la nueva realidad ambiental. Valoración de las consecuencias de sobrepasar los límites planetarios.",
       "broader": "sb:SAMB04SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2612,6 +2818,7 @@
       "definition": "Valoración de la importancia de adquirir urgentemente estilos de vida sostenibles y saludables (One Health), como respuesta a la necesidad de transformación del actual modelo socioeconómico hacia un modelo ecosocial que priorice la justicia social, la igualdad y la sostenibilidad.",
       "broader": "sb:SAMB04SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2623,6 +2830,7 @@
       "definition": "Estudio de los Objetivos de Desarrollo Sostenible aprobados por la Organización de las Naciones Unidas y su relación con la Agenda Canaria de Desarrollo Sostenible 2030.",
       "broader": "sb:SAMB04SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2634,6 +2842,7 @@
       "definition": "Análisis de los diferentes tipos de cambios que experimentan los sistemas materiales para relacionar las causas que producen la actual situación de emergencia climática en Canarias con las consecuencias que tienen.",
       "broader": "sb:SAMB04SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2645,6 +2854,7 @@
       "definition": "Explicación de la formación mediante enlaces de los principales compuestos químicos para deducir sus propiedades físicas y químicas y comprender su comportamiento en el medio natural.",
       "broader": "sb:SAMB04SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2656,6 +2866,7 @@
       "definition": "Uso de la nomenclatura inorgánica para la denominación de sustancias simples, iones, compuestos químicos binarios y ternarios, destacando aquellos que puedan generar impacto ambiental, mediante las normas de la IUPAC, preferiblemente, con la nomenclatura de composición, y poniendo en valor el carácter universal y transversal del lenguaje científico.",
       "broader": "sb:SAMB04SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2667,6 +2878,7 @@
       "definition": "Diferenciación entre reactivos y productos en una reacción química, realización de cálculos estequiométricos sencillos e interpretación cualitativa de reacciones químicas de interés, usando ejemplos de la vida cotidiana y de los fenómenos que ocurren en la naturaleza, especialmente, los vinculados al cambio climático, la acidificación de los océanos, la lluvia ácida, la destrucción de la capa de ozono..., para valorar las implicaciones que tienen en la tecnología, la sociedad y el medioambiente.",
       "broader": "sb:SAMB04SBII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2678,6 +2890,7 @@
       "definition": "Reconocimiento y utilización de la notación científica para expresar números muy grandes o muy pequeños. Operaciones con cantidades en notación científica usando la calculadora.",
       "broader": "sb:SAMB04SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2689,6 +2902,7 @@
       "definition": "Desarrollo histórico de los modelos atómicos, formación de iones, existencia y propiedades de los isótopos. Interpretación y cálculo de masas atómicas y masas moleculares para relacionarlos con los valores de las masas de sustancias sencillas en la vida cotidiana.",
       "broader": "sb:SAMB04SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2700,6 +2914,7 @@
       "definition": "Aplicación de la ley de conservación de la masa para validar experimentalmente el modelo atómico-molecular de la materia.",
       "broader": "sb:SAMB04SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2711,6 +2926,7 @@
       "definition": "Aplicación de modelos, como la teoría de colisiones, para comprender cómo ocurre la reordenación de los átomos en las reacciones químicas. Determinación experimental de los factores de los que depende la velocidad de una reacción para predecir su evolución.",
       "broader": "sb:SAMB04SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2722,6 +2938,7 @@
       "definition": "Identificación de variables en distintos contextos: asociación de expresiones simbólicas al contexto del problema y diferentes usos.",
       "broader": "sb:SAMB04SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2733,6 +2950,7 @@
       "definition": "Identificación de patrones, pautas y regularidades: observación, generalización y cálculo del término general en casos sencillos.",
       "broader": "sb:SAMB04SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2744,6 +2962,7 @@
       "definition": "Identificación de relaciones lineales y cuadráticas de la vida cotidiana. Utilización de varios modos de representación, tablas, gráficas o expresiones algebraicas y estudio de sus propiedades a partir de ellas. Representación de funciones lineales y cuadráticas: interpretación de sus propiedades en contextos reales:",
       "broader": "sb:SAMB04SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2755,6 +2974,7 @@
       "definition": "Predicción y comprobación de movimientos rectilíneos a partir de los conceptos de la cinemática, formulando hipótesis comprobables sobre valores futuros de estas magnitudes, validándolas a través del cálculo numérico, la interpretación de gráficas o el trabajo experimental, que permitan entender situaciones cotidianas como aquellas relacionadas con la seguridad vial (distancia de frenado, tiempo de reacción, etc.).",
       "broader": "sb:SAMB04SBIII.7",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2766,6 +2986,7 @@
       "definition": "Resolución e interpretación de ecuaciones, sistemas de ecuaciones e inecuaciones. Modelización y resolución de problemas de la vida cotidiana basados en relaciones lineales y cuadráticas. Deducción y análisis de conclusiones razonables de una situación contextualizada una vez modelizada:",
       "broader": "sb:SAMB04SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2777,6 +2998,7 @@
       "definition": "Uso del álgebra vectorial básica para la realización gráfica y numérica de operaciones con fuerzas y su aplicación a la resolución de problemas relacionados con sistemas sometidos a conjuntos de fuerzas, valorando su importancia en situaciones cotidianas.",
       "broader": "sb:SAMB04SBIII.8",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2788,6 +3010,7 @@
       "definition": "Observación de situaciones reales o de laboratorio que permiten entender cómo se comportan los sistemas materiales ante la acción de las fuerzas y predecir los efectos de estas en situaciones cotidianas a partir de la aplicación de las leyes de Newton.",
       "broader": "sb:SAMB04SBIII.8",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2799,6 +3022,7 @@
       "definition": "Reconocimiento y utilización de la ley de la gravitación universal para explicar las fuerzas de atracción y el movimiento entre los cuerpos que componen el universo e identificación de las principales ideas sobre su origen.",
       "broader": "sb:SAMB04SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2810,6 +3034,7 @@
       "definition": "Estudio de las características y organización del Sistema Solar así como de los movimientos planetarios: rotación y traslación y sus consecuencias.",
       "broader": "sb:SAMB04SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2821,6 +3046,7 @@
       "definition": "Análisis y valoración de las condiciones naturales del cielo en Canarias y de la relevancia de la «Ley del Cielo» para la protección de la calidad astronómica de los observatorios del instituto de Astrofísica de Canarias. Apreciación de la importancia de los estudios realizados en los observatorios astronómicos de Canarias y del trabajo de los científicos y científicas para el conocimiento del universo.",
       "broader": "sb:SAMB04SBIII",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2832,6 +3058,7 @@
       "definition": "Investigación sobre el papel que juegan los órganos de los sentidos y los receptores sensoriales en nuestra vida diaria para valorar la importancia de su cuidado así como para empatizar con aquellas personas que carecen de alguno de ellos.",
       "broader": "sb:SAMB04SBIV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2843,6 +3070,7 @@
       "definition": "Reconocimiento del papel de los centros de coordinación (sistema nervioso y endocrino) en el cuerpo humano y las consecuencias que se derivan cuando sufren alguna alteración.",
       "broader": "sb:SAMB04SBIV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2854,6 +3082,7 @@
       "definition": "Reflexión sobre las adicciones con sustancia (drogas legales e ilegales) y sin sustancia (comportamentales: tecnologías, ludopatía), sus efectos perjudiciales sobre la salud de las personas consumidoras y de quienes están en su entorno próximo.",
       "broader": "sb:SAMB04SBIV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2865,6 +3094,7 @@
       "definition": "Toma de decisiones en situaciones de incertidumbre relacionadas con el azar, utilizando un vocabulario adecuado para describirlas, y analizando las consecuencias negativas de las conductas adictivas en este tipo de juegos:",
       "broader": "sb:SAMB04SBIV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2876,6 +3106,7 @@
       "definition": "Identificación de fenómenos deterministas y aleatorios. Espacio muestral y sucesos (equiprobables y no equiprobables).",
       "broader": "sb:SAMB04SBIV.4",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2887,6 +3118,7 @@
       "definition": "Interpretación de la probabilidad asociada a la incertidumbre de experimentos aleatorios.",
       "broader": "sb:SAMB04SBIV.4",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2898,6 +3130,7 @@
       "definition": "Asignación de la probabilidad a partir de la experimentación y el concepto de frecuencia relativa.",
       "broader": "sb:SAMB04SBIV.4",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2909,6 +3142,7 @@
       "definition": "Asignación de probabilidades mediante la regla de Laplace y técnicas de recuentos en experimentos simples y compuestos (mediante diagrama de árbol, tabla, etc.) y aplicación a la toma de decisiones fundamentadas en diferentes contextos.",
       "broader": "sb:SAMB04SBIV.4",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2920,6 +3154,7 @@
       "definition": "Planificación, realización y análisis de la incertidumbre asociada a experimentos compuestos.",
       "broader": "sb:SAMB04SBIV.4",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2931,6 +3166,7 @@
       "definition": "Diseño e implementación de un plan de vida saludable que contemple la salud física, mental y social como paradigmas de bienestar para el desarrollo de una vida plena.",
       "broader": "sb:SAMB04SBIV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2942,6 +3178,7 @@
       "definition": "Indagación acerca de la prevalencia en Canarias de determinadas enfermedades y su relación, en algunos casos, con la falta de hábitos saludables.",
       "broader": "sb:SAMB04SBIV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2953,6 +3190,7 @@
       "definition": "Descripción del funcionamiento básico de los mecanismos de defensa: barreras externas y sistema inmunitario. Reconocimiento de su implicación en la prevención y superación de enfermedades infecciosas.",
       "broader": "sb:SAMB04SBIV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2964,6 +3202,7 @@
       "definition": "Apreciación de la importancia de los trasplantes y de la donación de células, sangre y órganos para el beneficio social y personal, valorando la figura de la ciudadanía española como referente mundial en la donación de órganos y de la ciudadanía de Canarias, en particular, en la donación de sangre.",
       "broader": "sb:SAMB04SBIV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2975,6 +3214,7 @@
       "definition": "Análisis, interpretación y representación de diagramas de dispersión para el estudio de la correlación entre dos variables estadísticas (mortalidad infantil y número de camas de hospitales, estatura y peso, horas semanales dedicadas a hacer deporte y a redes sociales...).",
       "broader": "sb:SAMB04SBIV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2986,6 +3226,7 @@
       "definition": "Estudio de los tipos de paisajes característicos de las islas Canarias, (paisaje costero: roques, acantilados e islotes; paisaje de macizos y volcánicos; paisaje desértico y paisaje de montaña), valorando su importancia como recurso natural, cultural y económico para contribuir a su conservación y mejora.",
       "broader": "sb:SAMB04SBV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2997,6 +3238,7 @@
       "definition": "Descripción y comparación de las principales teorías sobre el origen y evolución de las islas Canarias, dentro del marco de la tectónica de placas.",
       "broader": "sb:SAMB04SBV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -3008,6 +3250,7 @@
       "definition": "Diferenciación entre los procesos geológicos externos e internos y relación de estos con los riesgos naturales, con especial atención a aquellos que afectan al archipiélago canario (composición, trayectoria y velocidades de las coladas de lava, caída de cenizas, flujos piroclásticos, emanaciones de gases, lahares, deslizamientos de ladera, tsunamis, inundaciones…).",
       "broader": "sb:SAMB04SBV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -3019,6 +3262,7 @@
       "definition": "Identificación de las principales medidas de predicción y prevención de los riesgos naturales. Interpretación de mapas de riesgos naturales de Canarias. Valoración de la importancia del uso de las tecnologías digitales en el seguimiento y evolución de una erupción volcánica.",
       "broader": "sb:SAMB04SBV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -3030,6 +3274,7 @@
       "definition": "Conocimiento de las medidas de prevención y autoprotección ante emergencias y catástrofes.",
       "broader": "sb:SAMB04SBV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -3041,6 +3286,7 @@
       "definition": "Deducción, interpretación y aplicación de longitudes, áreas y volúmenes en figuras tridimensionales, reconociendo ejemplos en la naturaleza. Representaciones planas en la visualización y resolución de problemas de áreas. Identificación y aplicación de la relación pitagórica en figuras tridimensionales.",
       "broader": "sb:SAMB04SBV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -3052,6 +3298,7 @@
       "definition": "Construcción de figuras geométricas y maquetas de diferentes estructuras de paisajes con herramientas manipulativas y digitales (programas de geometría dinámica, realidad aumentada...) e investigación de sus propiedades.",
       "broader": "sb:SAMB04SBV",
       "materia": "materia:SAMB",
+      "materia_curso": "asig:SAMB04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     }

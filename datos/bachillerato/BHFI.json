@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BHFI02",
+      "tipo": "MateriaCurso",
+      "notation": "BHFI02",
+      "prefLabel": "Historia de la Filosofía · 2º Bachillerato",
+      "broader": "materia:BHFI",
+      "materia": "materia:BHFI",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BHFIC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BHFIC1",
@@ -87,7 +97,7 @@
       "notation": "BHFI02BC1",
       "prefLabel": "Historia de la Filosofía · 2º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de construir sus propios juicios de forma contrastada y autónoma para dirimir acerca de la fiabilidad de las fuentes, tanto de entornos tradicionales como digitales, y, de esta forma, elaborar con rigor producciones propias acerca de la historia de los problemas e ideas filosóficas. Para ello, se comprobará que selecciona, analiza, interpreta, produce y transmite información relativa a hechos histórico-filosóficos a partir del uso crítico y seguro de fuentes y el dominio de técnicas básicas de investigación, elaborando y presentando documentos y trabajos de investigación sobre los mismos con precisión y aplicando los protocolos, tanto de forma individual como grupal y cooperativa, que sirvan para la innovación de ideas y la resolución creativa de los problemas tanto filosóficos como cotidianos.",
-      "broader": "materia:BHFI",
+      "broader": "asig:BHFI02",
       "agrupa": [
         "ce:BHFIC1"
       ],
@@ -102,6 +112,7 @@
         "CE3"
       ],
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -111,7 +122,7 @@
       "notation": "BHFI02BC2",
       "prefLabel": "Historia de la Filosofía · 2º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado conoce y emplea las normas y pautas de la argumentación lógica, incluyendo razonamientos de tipo inductivo y deductivo, en el diálogo filosófico, que pueda darse en distintos soportes y a través de diversas actividades, para aplicarlas con rigor en la construcción y exposición de argumentos de forma creativa, autónoma, personal y en el ejercicio con las demás personas, promoviendo el diálogo empático, la cooperación y el compromiso con la búsqueda del conocimiento, la libre expresión de ideas y el respeto a la pluralidad de tesis u opiniones, con una actitud crítica y relacional en torno a ideas de autores y autoras en distintas épocas, entendiendo que la disensión y la controversia ayudan a la comprensión de los problemas filosóficos. Para ello, se comprobará que desarrolla argumentos, reconociendo y aplicando normas, técnicas y pautas lógicas, retóricas y argumentativas y detectando y evitando modos dogmáticos, falaces y sesgados de sostener opiniones e hipótesis, manteniendo el hábito del diálogo argumentativo, empático, abierto y constructivamente comprometido con la búsqueda del conocimiento a través de la participación activa, respetuosa y colaborativa.",
-      "broader": "materia:BHFI",
+      "broader": "asig:BHFI02",
       "agrupa": [
         "ce:BHFIC2"
       ],
@@ -129,6 +140,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -138,7 +150,7 @@
       "notation": "BHFI02BC3",
       "prefLabel": "Historia de la Filosofía · 2º Bachillerato · bloque competencial C3",
       "scopeNote": "Mediante este bloque competencial se comprobará que el alumnado comprende y expresa las diferentes propuestas filosóficas históricamente dadas mediante el acercamiento a sus fuentes y el trabajo crítico sobre las mismas, para desarrollar el conocimiento de un acervo que constituye parte esencial del patrimonio cultural y del bagaje intelectual de una ciudadanía ilustrada, a través del contacto directo con documentos y el trabajo a partir de estos, debatiendo sobre los principales problemas, ideas, tesis y controversias filosóficas de la historia del pensamiento. Todo esto desde una perspectiva ajena a prejuicios etnocéntricos y sexistas, reconociendo el papel de las mujeres y analizando críticamente las concepciones de carácter excluyente o discriminatorio que formen o hayan formado parte del discurso filosófico.",
-      "broader": "materia:BHFI",
+      "broader": "asig:BHFI02",
       "agrupa": [
         "ce:BHFIC3"
       ],
@@ -151,6 +163,7 @@
         "CCEC1"
       ],
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -160,7 +173,7 @@
       "notation": "BHFI02BC4",
       "prefLabel": "Historia de la Filosofía · 2º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se verificará que el alumnado reconoce la naturaleza esencialmente plural y diversa de tesis, escuelas, filósofos y filósofas de las mismas o distintas épocas y tradiciones a partir de la interpretación y valoración crítica de textos orales, escritos y multimodales, tanto del ámbito académico como de los medios de comunicación, llevando a cabo una relación dialéctica, de confrontación y complementariedad para generar una concepción compleja y dinámica de la historia del pensamiento, constatando que es capaz de participar en debates respetuosos y constructivos acerca de la argumentación y exposición de las diferentes doctrinas, practicando el pensamiento complejo, el análisis, la síntesis, la comprensión de la realidad y de los problemas filosóficos de relevancia social desde una perspectiva profunda, plural y crítica con todo dogmatismo, en consonancia con lo que debe ser el ejercicio de una ciudadanía democrática, rechazando todo tipo de discriminación y violencia y promoviendo la igualdad efectiva entre mujeres y hombres.",
-      "broader": "materia:BHFI",
+      "broader": "asig:BHFI02",
       "agrupa": [
         "ce:BHFIC4"
       ],
@@ -171,6 +184,7 @@
         "CC3"
       ],
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -180,7 +194,7 @@
       "notation": "BHFI02BC5",
       "prefLabel": "Historia de la Filosofía · 2º Bachillerato · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado efectúa un análisis pormenorizado y relacional de los diversos problemas filosóficos dados a lo largo de la historia, esclareciendo las condiciones socioculturales de su aparición en cada momento y conectando el tratamiento que se hace de los mismos en distintas corrientes y escuelas de pensamiento, con la finalidad de que entienda la radicalidad y universalidad en que se expresan, promoviendo un conocimiento profundo y crítico de la filosofía y de la cultura en la que esta se inserta y desarrolla, mediante el análisis e interpretación de textos filosóficos o más ampliamente culturales, desde la Antigüedad hasta la postmodernidad, comparándolos mediante esquemas u otros documentos o actividades, y discerniendo el tratamiento filosófico que se hace de ellos en distintos contextos, épocas, escuelas, tradiciones, autores y autoras, con la finalidad de afrontar retos con sentido crítico y ético que supongan nuevas soluciones para los problemas del entorno, tanto en los ámbitos locales como globales.",
-      "broader": "materia:BHFI",
+      "broader": "asig:BHFI02",
       "agrupa": [
         "ce:BHFIC5"
       ],
@@ -193,6 +207,7 @@
         "CCEC1"
       ],
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -202,7 +217,7 @@
       "notation": "BHFI02BC6",
       "prefLabel": "Historia de la Filosofía · 2º Bachillerato · bloque competencial C6",
       "scopeNote": "A través de este bloque competencial se verificará que el alumnado es capaz de adquirir una concepción sistémica y relacional de la historia de la cultura occidental y del papel de las doctrinas e ideas filosóficas en ella. Para ello, se constatará que analiza comprende, interpreta, valora con actitud crítica y comenta comparativamente textos orales, escritos y multimodales de carácter literario, historiográfico, periodístico, científico y religioso, así como manifestaciones culturales en las que se expresan problemas y concepciones relevantes de la historia de la filosofía, reconociendo que los interrogantes filosóficos y sus intentos de respuesta se han presentado históricamente en otros ámbitos de la cultura, con la finalidad de construir conocimiento, participar en diferentes contextos de forma activa e informada y conseguir mayor madurez personal y social, y adquirir una conciencia ciudadana y responsable, desarrollando la autonomía y el espíritu crítico y estableciendo una interacción pacífica y respetuosa con las demás personas y con el entorno.",
-      "broader": "materia:BHFI",
+      "broader": "asig:BHFI02",
       "agrupa": [
         "ce:BHFIC6"
       ],
@@ -215,6 +230,7 @@
         "CCEC1"
       ],
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -224,7 +240,7 @@
       "notation": "BHFI02BC7",
       "prefLabel": "Historia de la Filosofía · 2º Bachillerato · bloque competencial C7",
       "scopeNote": "A través de este bloque competencial se verificará que el alumnado compara, analiza, evalúa y sintetiza datos, información e ideas de los grandes sistemas del pensamiento filosófico, desarrollando la autonomía de juicio y promoviendo planteamientos, actitudes y acciones éticas y cívicamente consecuentes, demostrando sensibilidad hacia las emociones y experiencias vitales de las demás personas, y mostrando su compromiso para la resolución de los problemas fundamentales de la actualidad, el logro de los Objetivos de Desarrollo Sostenible, la Agenda Canaria 2030, el proceso de integración europeo, los derechos humanos y la historia y el patrimonio cultural propios mediante la comprensión, expresión, participación en actividades grupales y exposición crítica de las distintas doctrinas y posiciones histórico-filosóficas.",
-      "broader": "materia:BHFI",
+      "broader": "asig:BHFI02",
       "agrupa": [
         "ce:BHFIC7"
       ],
@@ -240,6 +256,7 @@
         "CCEC1"
       ],
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -260,6 +277,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -281,6 +299,7 @@
         "CE3"
       ],
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -306,6 +325,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -326,6 +346,7 @@
         "CCEC1"
       ],
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -344,6 +365,7 @@
         "CC3"
       ],
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -364,6 +386,7 @@
         "CCEC1"
       ],
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -384,6 +407,7 @@
         "CCEC1"
       ],
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -407,6 +431,7 @@
         "CCEC1"
       ],
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -416,8 +441,9 @@
       "notation": "BHFI02SBI",
       "prefLabel": "BHFI02SBI · I. Del origen de la Filosofía en Grecia hasta el fin de la Antigüedad",
       "definition": "Del origen de la Filosofía en Grecia hasta el fin de la Antigüedad",
-      "broader": "materia:BHFI",
+      "broader": "asig:BHFI02",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -427,8 +453,9 @@
       "notation": "BHFI02SBII",
       "prefLabel": "BHFI02SBII · II. De la Edad Media a la Modernidad Europea",
       "definition": "De la Edad Media a la Modernidad Europea",
-      "broader": "materia:BHFI",
+      "broader": "asig:BHFI02",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -438,8 +465,9 @@
       "notation": "BHFI02SBIII",
       "prefLabel": "BHFI02SBIII · III. De la Modernidad a la Postmodernidad",
       "definition": "De la Modernidad a la Postmodernidad",
-      "broader": "materia:BHFI",
+      "broader": "asig:BHFI02",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -451,6 +479,7 @@
       "definition": "Identificación de los distintos métodos filosóficos y reconocimiento de la historicidad y universalidad de los problemas y concepciones filosóficas.",
       "broader": "sb:BHFI02SBI",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -462,6 +491,7 @@
       "definition": "Comprobación del surgimiento de la filosofía occidental en Grecia.",
       "broader": "sb:BHFI02SBI",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -473,6 +503,7 @@
       "definition": "Reconocimiento de la cosmovisión mítica y clasificación de las primeras teorías filosóficas.",
       "broader": "sb:BHFI02SBI.2",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -484,6 +515,7 @@
       "definition": "Identificación y análisis sobre el problema de la realidad en los presocráticos.",
       "broader": "sb:BHFI02SBI.2",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -495,6 +527,7 @@
       "definition": "Comparación y elaboración de disertaciones sobre las aportaciones de Sócrates y los sofistas, y la conexión entre filosofía y ciudadanía en la Ilustración griega.",
       "broader": "sb:BHFI02SBI.2",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -506,6 +539,7 @@
       "definition": "Elaboración de presentaciones e indagación sobre la importancia de Aspasia de Mileto y relación con el papel de la mujer en la cultura y la filosofía griega.",
       "broader": "sb:BHFI02SBI.2",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -517,6 +551,7 @@
       "definition": "Reconocimiento de los conceptos de idea y naturaleza, y de conocimiento y realidad en Platón y Aristóteles.",
       "broader": "sb:BHFI02SBI",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -528,6 +563,7 @@
       "definition": "Identificación de la noción de justicia como objeto de la filosofía de Platón.",
       "broader": "sb:BHFI02SBI.3",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -539,6 +575,7 @@
       "definition": "Comprensión y reflexión crítica acerca de la discusión ética del intelectualismo moral socrático-platónico.",
       "broader": "sb:BHFI02SBI.3.1",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -550,6 +587,7 @@
       "definition": "Identificación y análisis de la teoría de las virtudes en Platón.",
       "broader": "sb:BHFI02SBI.3.1",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -561,6 +599,7 @@
       "definition": "Valoración del proyecto político de Platón y diálogo argumentativo y comparativo con la política actual.",
       "broader": "sb:BHFI02SBI.3.1",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -572,6 +611,7 @@
       "definition": "Reconocimiento del estudio de la naturaleza en Aristóteles.",
       "broader": "sb:BHFI02SBI.3",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -583,6 +623,7 @@
       "definition": "Identificación y comentarios críticos sobre la metafísica y la física aristotélica.",
       "broader": "sb:BHFI02SBI.3.2",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -594,6 +635,7 @@
       "definition": "Comparación y valoración de la ética y la política de Aristóteles.",
       "broader": "sb:BHFI02SBI.3.2",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -605,6 +647,7 @@
       "definition": "Reconocimiento del paso de las polis griegas al imperio de Alejandro Magno.",
       "broader": "sb:BHFI02SBI",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -616,6 +659,7 @@
       "definition": "Indagación de las relaciones entre filosofía, ciencia y cultura en el helenismo.",
       "broader": "sb:BHFI02SBI.4",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -627,6 +671,7 @@
       "definition": "Identificación y clasificación de las escuelas filosóficas.",
       "broader": "sb:BHFI02SBI.4",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -638,6 +683,7 @@
       "definition": "Investigación y presentaciones sobre el Museo de Alejandría y la figura de Hipatia de Alejandría.",
       "broader": "sb:BHFI02SBI.4",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -649,6 +695,7 @@
       "definition": "Identificación de las etapas, métodos y cuestiones fundamentales en la filosofía medieval.",
       "broader": "sb:BHFI02SBII",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -660,6 +707,7 @@
       "definition": "Comparación y clasificación de los aspectos principales de las teorías de Agustín de Hipona, Tomás de Aquino y Guillermo de Ockham.",
       "broader": "sb:BHFI02SBII.1",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -671,6 +719,7 @@
       "definition": "Reconocimiento de la personalidad polifacética de Hildegard von Bingen.",
       "broader": "sb:BHFI02SBII.1",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -682,6 +731,7 @@
       "definition": "Descripción de la filosofía árabe y judía.",
       "broader": "sb:BHFI02SBII.1",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -693,6 +743,7 @@
       "definition": "Valoración de la asimilación de la filosofía griega por la teología medieval.",
       "broader": "sb:BHFI02SBII.1",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -704,6 +755,7 @@
       "definition": "Análisis crítico del problema de la relación entre fe y razón.",
       "broader": "sb:BHFI02SBII.1",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -715,6 +767,7 @@
       "definition": "Reconocimiento del nacimiento de la modernidad europea.",
       "broader": "sb:BHFI02SBII",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -726,6 +779,7 @@
       "definition": "Valoración de las aportaciones de la revolución científica en el Renacimiento.",
       "broader": "sb:BHFI02SBII.2",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -737,6 +791,7 @@
       "definition": "Diálogo crítico sobre el protestantismo.",
       "broader": "sb:BHFI02SBII.2",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -748,6 +803,7 @@
       "definition": "Identificación y valoración del debate metafísico moderno, y clasificación y contraste de los principios del racionalismo y empirismo.",
       "broader": "sb:BHFI02SBII.2",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -759,6 +815,7 @@
       "definition": "Clarificación y debate acerca del origen y fundamento de la sociedad y el poder.",
       "broader": "sb:BHFI02SBII",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -770,6 +827,7 @@
       "definition": "Análisis comparativo del pensamiento político medieval y la teoría del contrato social según Thomas Hobbes, John Locke y Jean-Jacques Rousseau.",
       "broader": "sb:BHFI02SBII.3",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -781,6 +839,7 @@
       "definition": "Reflexión sobre el proyecto ilustrado y valoración sobre la potencia y los límites de la razón.",
       "broader": "sb:BHFI02SBIII",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -792,6 +851,7 @@
       "definition": "Reconocimiento de los Derechos del Hombre.",
       "broader": "sb:BHFI02SBIII.1",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -803,6 +863,7 @@
       "definition": "Identificación y valoración de la primera ola feminista: Mary Wollstonecraft y Olympe de Gouges.",
       "broader": "sb:BHFI02SBIII.1",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -814,6 +875,7 @@
       "definition": "Análisis y comentarios acerca de la filosofía crítica de Immanuel Kant y el problema de la metafísica como saber.",
       "broader": "sb:BHFI02SBIII.1",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -825,6 +887,7 @@
       "definition": "Comparación y ejemplificación de las éticas de la felicidad y éticas del deber.",
       "broader": "sb:BHFI02SBIII.1",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -836,6 +899,7 @@
       "definition": "Valoración crítica y actual de la ética kantiana frente al utilitarismo.",
       "broader": "sb:BHFI02SBIII.1",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -847,6 +911,7 @@
       "definition": "Búsqueda de información y presentaciones sobre la Ilustración en Canarias.",
       "broader": "sb:BHFI02SBIII.1",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -858,6 +923,7 @@
       "definition": "Identificación de la crítica del capitalismo.",
       "broader": "sb:BHFI02SBIII",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -869,6 +935,7 @@
       "definition": "Análisis y contraste del pensamiento revolucionario de Karl Marx a Rosa Luxemburgo.",
       "broader": "sb:BHFI02SBIII.2",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -880,6 +947,7 @@
       "definition": "Reconocimiento de la dialéctica de la Ilustración en la Escuela de Fráncfort.",
       "broader": "sb:BHFI02SBIII.2",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -891,6 +959,7 @@
       "definition": "Identificación del análisis del totalitarismo en Hannah Arendt.",
       "broader": "sb:BHFI02SBIII.2",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -902,6 +971,7 @@
       "definition": "Conocimiento del desarrollo de la deconstrucción en la tradición occidental.",
       "broader": "sb:BHFI02SBIII",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -913,6 +983,7 @@
       "definition": "Análisis y comentario crítico sobre Friedrich Nietzsche y la herencia posmoderna.",
       "broader": "sb:BHFI02SBIII.3",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -924,6 +995,7 @@
       "definition": "Reconocimiento y diálogo argumentativo sobre los problemas filosóficos a la luz del análisis del lenguaje en torno a Ludwig Wittgenstein y la filosofía analítica.",
       "broader": "sb:BHFI02SBIII.3",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -935,6 +1007,7 @@
       "definition": "Identificación y presentación sobre el existencialismo de Martin Heidegger y Jean Paul Sartre.",
       "broader": "sb:BHFI02SBIII.3",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -946,6 +1019,7 @@
       "definition": "Reconocimiento y valoración sobre la razón vital y la razón poética en José Ortega y Gasset y María Zambrano.",
       "broader": "sb:BHFI02SBIII.3",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -957,6 +1031,7 @@
       "definition": "Análisis y valoración crítica sobre el desarrollo contemporáneo del feminismo y la importancia de Simone de Beauvoir.",
       "broader": "sb:BHFI02SBIII.3",
       "materia": "materia:BHFI",
+      "materia_curso": "asig:BHFI02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     }

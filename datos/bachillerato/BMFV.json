@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BMFV02",
+      "tipo": "MateriaCurso",
+      "notation": "BMFV02",
+      "prefLabel": "Movimientos Culturales y Artísticos · 2º Bachillerato",
+      "broader": "materia:BMFV",
+      "materia": "materia:BMFV",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BMFVC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BMFVC1",
@@ -67,7 +77,7 @@
       "notation": "BMFV02BC1",
       "prefLabel": "Movimientos Culturales y Artísticos · 2º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de relacionar los movimientos culturales y artísticos con el momento histórico en el que surgió cada uno de ellos para descubrir sus semejanzas y diferencias. Para ello el alumnado deberá analizar las producciones culturales y reflexionar sobre ellas, para ponerlas en relación con su contexto temporal y aplicar esto al entorno canario. Asimismo, el alumnado realizará la búsqueda de información de una manera rigurosa —tanto de forma individual como grupal—, se expresará de forma correcta —tanto por escrito como de manera oral, signada o multimodal— y comunicará sus conclusiones de manera creativa. Además, reforzará su identidad personal atendiendo a sus diferencias, contribuyendo a la consecución de la identidad colectiva y valorando el patrimonio cultural desde lo local canario hasta lo universal. El análisis de los distintos movimientos culturales y artísticos se realizará profundizando, reflexionando y asumiendo las relaciones entre naturaleza, arte y cultura, construyendo conocimiento partiendo de esas investigaciones, elaborando productos explicativos como son las infografías, los folletos, los pósteres, revistas o cualquier otra presentación.",
-      "broader": "materia:BMFV",
+      "broader": "asig:BMFV02",
       "agrupa": [
         "ce:BMFVC1"
       ],
@@ -80,6 +90,7 @@
         "CC3"
       ],
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -89,7 +100,7 @@
       "notation": "BMFV02BC2",
       "prefLabel": "Movimientos Culturales y Artísticos · 2º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se verificará que el alumnado participa de forma activa en la conservación del patrimonio, argumentando por qué debe conservarse y comprendiendo el aporte de su conservación a la identidad individual y colectiva. Para ello el alumnado desarrollará proyectos de investigación individuales o colectivos, expresándose con corrección de forma oral, escrita, signada o multimodal, tras haberse documentado de manera rigurosa sobre los valores patrimoniales de las obras estudiadas. Los productos pueden ser paneles divulgativos, exposiciones o ferias, entre otras, usando los distintos espacios del centro educativo. Como resultado, el alumnado valorará de manera personal las creaciones relacionadas con los movimientos culturales y artísticos, especialmente los canarios, y las protagonizados por mujeres, para comprometerse con su conservación y con los ideales de libertad, creatividad y expresión que ayudan a configurar la identidad individual y colectiva. El objeto de estudio será la relación entre naturaleza, arte, cultura, arquitectura y urbanismo.",
-      "broader": "materia:BMFV",
+      "broader": "asig:BMFV02",
       "agrupa": [
         "ce:BMFVC2"
       ],
@@ -104,6 +115,7 @@
         "CCEC1"
       ],
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -113,7 +125,7 @@
       "notation": "BMFV02BC3",
       "prefLabel": "Movimientos Culturales y Artísticos · 2º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado es capaz de establecer relaciones entre diversos lenguajes culturales y artísticos para descubrir y comprender sus similitudes y diferencias, sus rupturas o préstamos, así como las ideas que sustentan cada una de sus manifestaciones. El alumnado investigará y analizará diversos productos culturales a través de diferentes medios y de manera activa e interesada, donde se le facilitará la gestión de la información y de los recursos, tratando de establecer especificidades, intencionalidades y referentes comunes. Se tendrá en cuenta la correcta expresión oral, escrita, signada o multimodal, la fundamentación rigurosa y la relación de lo estudiado con el entorno geográfico, histórico y social de cada producto cultural, del que habrá que descubrir las normas de su lenguaje, los valores que aporta, especialmente los relacionados con Canarias, y los ideales que pretende transmitir, donde es de gran importancia el debate sobre las diferentes propuestas culturales y artísticas. Los objetos de estudio abarcarán disciplinas como bellas artes, literatura, música, fotografía, diseño y moda o publicidad, que podrán ser estudiados mediante pequeñas investigaciones, debates, entrevistas a personas creadoras, pódcasto exposiciones, entre otras.",
-      "broader": "materia:BMFV",
+      "broader": "asig:BMFV02",
       "agrupa": [
         "ce:BMFVC3"
       ],
@@ -127,6 +139,7 @@
         "CCEC1"
       ],
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -136,7 +149,7 @@
       "notation": "BMFV02BC4",
       "prefLabel": "Movimientos Culturales y Artísticos · 2º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se fomentará que el alumnado sea capaz de valorar la importancia de la aportación individual a los diferentes movimientos culturales y artísticos, que se ven enriquecidos por las innovaciones que las iniciativas personales generan, en relación con el entorno geográfico, histórico y social, que resulta así enriquecido, diverso e integrador. Para ello el alumnado estudiará la evolución histórica de los movimientos culturales y artísticos a través de las personas protagonistas y su incidencia en el entorno, perfilando una sociedad diversa, respetuosa e inclusiva. Para ello, el alumnado se expresará con corrección de forma oral, escrita y audiovisual, fundamentando sus afirmaciones en fuentes fiables y produciendo juicios propios sobre la producción de artistas, especialmente de origen canario, las innovaciones que aportaron y el enriquecimiento que supusieron a lo largo de la historia del arte contemporáneo. Se constatará que el alumnado es capaz de elaborar productos tanto de forma individual como colaborativa, donde se dé gran importancia a la observación, la reflexión y el análisis crítico de fuentes y la documentación mediante la realización de informes, estudios o dosieres, exponiéndose de forma oral y con presentaciones infográficas.",
-      "broader": "materia:BMFV",
+      "broader": "asig:BMFV02",
       "agrupa": [
         "ce:BMFVC4"
       ],
@@ -150,6 +163,7 @@
         "CCEC1"
       ],
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -159,7 +173,7 @@
       "notation": "BMFV02BC5",
       "prefLabel": "Movimientos Culturales y Artísticos · 2º Bachillerato · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se mostrará que el alumnado es capaz de comprender el papel de los movimientos culturales y artísticos como expresión de ideas, sentimientos y emociones, a través de la observación, para generar empatía con las situaciones ajenas y crecimiento personal. El alumnado deberá expresar con corrección, de forma oral, escrita, signada o multimodal, su rigurosa investigación —tanto individual como grupal, utilizando el pensamiento científico— sobre la expresión en relación con los movimientos culturales y artísticos, expresando, a su vez, sus propios sentimientos a tal efecto. Para ello se partirá de la cultura canaria, valorando en ella la comunicación de ideas, sentimientos y emociones, para recorrer manifestaciones culturales y artísticas de otros ámbitos y llegar al arte más reciente, mediante una aproximación analítica a personas y colectivos destacados a sus obras o aportaciones y a los espacios museísticos y de exposiciones.",
-      "broader": "materia:BMFV",
+      "broader": "asig:BMFV02",
       "agrupa": [
         "ce:BMFVC5"
       ],
@@ -173,6 +187,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -192,6 +207,7 @@
         "CCEC2"
       ],
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -209,6 +225,7 @@
         "CC3"
       ],
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -227,6 +244,7 @@
         "CCEC2"
       ],
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -243,6 +261,7 @@
         "CC1"
       ],
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -260,6 +279,7 @@
         "CCEC2"
       ],
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -278,6 +298,7 @@
         "CCEC2"
       ],
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -299,6 +320,7 @@
         "CCEC2"
       ],
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -318,6 +340,7 @@
         "CCEC2"
       ],
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -336,6 +359,7 @@
         "CCEC2"
       ],
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -355,6 +379,7 @@
         "CCEC2"
       ],
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -374,6 +399,7 @@
         "CCEC1"
       ],
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -392,6 +418,7 @@
         "CC3"
       ],
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -411,6 +438,7 @@
         "CCEC2"
       ],
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -431,6 +459,7 @@
         "CCEC1"
       ],
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -449,6 +478,7 @@
         "CC4"
       ],
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -468,6 +498,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -477,8 +508,9 @@
       "notation": "BMFV02SBI",
       "prefLabel": "BMFV02SBI · I. Aspectos generales",
       "definition": "Aspectos generales",
-      "broader": "materia:BMFV",
+      "broader": "asig:BMFV02",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -488,8 +520,9 @@
       "notation": "BMFV02SBII",
       "prefLabel": "BMFV02SBII · II. Naturaleza, arte y cultura",
       "definition": "Naturaleza, arte y cultura",
-      "broader": "materia:BMFV",
+      "broader": "asig:BMFV02",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -499,8 +532,9 @@
       "notation": "BMFV02SBIII",
       "prefLabel": "BMFV02SBIII · III. El arte dentro del arte",
       "definition": "El arte dentro del arte",
-      "broader": "materia:BMFV",
+      "broader": "asig:BMFV02",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -510,8 +544,9 @@
       "notation": "BMFV02SBIV",
       "prefLabel": "BMFV02SBIV · IV. El arte en los espacios urbanos",
       "definition": "El arte en los espacios urbanos",
-      "broader": "materia:BMFV",
+      "broader": "asig:BMFV02",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -521,8 +556,9 @@
       "notation": "BMFV02SBV",
       "prefLabel": "BMFV02SBV · V. Lenguajes artísticos contemporáneos",
       "definition": "Lenguajes artísticos contemporáneos",
-      "broader": "materia:BMFV",
+      "broader": "asig:BMFV02",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -534,6 +570,7 @@
       "definition": "La evolución del concepto de arte.",
       "broader": "sb:BMFV02SBI",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -545,6 +582,7 @@
       "definition": "Conocimiento de las distintas manifestaciones de la expresión artística.",
       "broader": "sb:BMFV02SBI",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -556,6 +594,7 @@
       "definition": "Estudio de los elementos esenciales de los distintos lenguajes artísticos.",
       "broader": "sb:BMFV02SBI",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -567,6 +606,7 @@
       "definition": "Análisis de los aspectos fundamentales de los grandes movimientos artístico-culturales contemporáneos.",
       "broader": "sb:BMFV02SBI",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -578,6 +618,7 @@
       "definition": "Identificación y valoración de la expresión artística en su contexto social e histórico.",
       "broader": "sb:BMFV02SBI",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -589,6 +630,7 @@
       "definition": "Reconocimiento y reflexión sobre la función social del arte y la cultura y su impacto socioeconómico.",
       "broader": "sb:BMFV02SBI",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -600,6 +642,7 @@
       "definition": "La importancia de la libertad de expresión y reflexión sobre la censura en el arte.",
       "broader": "sb:BMFV02SBI",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -611,6 +654,7 @@
       "definition": "Identificación y sensibilización sobre la perspectiva de género y la perspectiva intercultural en el arte, el respeto a la diversidad y reflexión sobre el uso de estereotipos culturales y artísticos.",
       "broader": "sb:BMFV02SBI",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -622,6 +666,7 @@
       "definition": "Reflexión de la utilidad del arte como herramienta de expresión individual y colectiva.",
       "broader": "sb:BMFV02SBI",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -633,6 +678,7 @@
       "definition": "Uso de estrategias de investigación, análisis, interpretación y valoración crítica de productos culturales y artísticos.",
       "broader": "sb:BMFV02SBI",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -644,6 +690,7 @@
       "definition": "Estudio sobre la evolución artística desde el plein air a la fotografía de naturaleza.",
       "broader": "sb:BMFV02SBII",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -655,6 +702,7 @@
       "definition": "Acercamiento al empleo del arte para la conciencia ecológica y la sostenibilidad.",
       "broader": "sb:BMFV02SBII",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -666,6 +714,7 @@
       "definition": "Investigación sobre el arte Povera.",
       "broader": "sb:BMFV02SBII",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -677,6 +726,7 @@
       "definition": "Identificación y análisis del arte ambiental y Land Art.",
       "broader": "sb:BMFV02SBII",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -688,6 +738,7 @@
       "definition": "Conocimiento de la evolución del arte primitivo, oriental, precolombino y africano. y su papel como inspiración para las vanguardias.",
       "broader": "sb:BMFV02SBIII",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -699,6 +750,7 @@
       "definition": "Reconocimiento y valoración de la pervivencia de lo clásico en el arte y la cultura contemporánea.",
       "broader": "sb:BMFV02SBIII",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -710,6 +762,7 @@
       "definition": "Introducción al estudio sobre la cultura popular y Pop art. El Arte pop en España y Canarias.",
       "broader": "sb:BMFV02SBIII",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -721,6 +774,7 @@
       "definition": "Iniciación a las relaciones interdisciplinares: literatura, cine, música, fotografía, artes plásticas, cómic, publicidad, artes escénicas, diseño y moda.",
       "broader": "sb:BMFV02SBIII",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -732,6 +786,7 @@
       "definition": "Análisis de la relación entre arquitectura y sociedad.",
       "broader": "sb:BMFV02SBIV",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -743,6 +798,7 @@
       "definition": "Conocimiento de las principales características, escuelas y obras de la arquitectura en el arte contemporáneo.",
       "broader": "sb:BMFV02SBIV",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -754,6 +810,7 @@
       "definition": "Identificación de las intervenciones artísticas en proyectos de urbanismo.",
       "broader": "sb:BMFV02SBIV",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -765,6 +822,7 @@
       "definition": "La utilización del arte mural y trampantojo. Análisis y reflexión sobre el arte urbano.",
       "broader": "sb:BMFV02SBIV",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -776,6 +834,7 @@
       "definition": "Aproximación y valoración a los espacios del arte: museos, salones, ferias, festivales, exhibiciones, galerías, talleres, etc.",
       "broader": "sb:BMFV02SBIV",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -787,6 +846,7 @@
       "definition": "La exploración del cuerpo humano: happening y performance, arte acción y body art.",
       "broader": "sb:BMFV02SBV",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -798,6 +858,7 @@
       "definition": "Investigación sobre la relación entre el diseño industrial y las artes decorativas.",
       "broader": "sb:BMFV02SBV",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -809,6 +870,7 @@
       "definition": "Aprendizaje y uso de los medios electrónicos, informáticos y digitales en el arte. Introducción al videoarte.",
       "broader": "sb:BMFV02SBV",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -820,6 +882,7 @@
       "definition": "El uso de las instalaciones. Del arte ambiente al arte inmersivo e interactivo.",
       "broader": "sb:BMFV02SBV",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -831,6 +894,7 @@
       "definition": "Estudio sobre las narrativas seriales en el audiovisual del siglo XXI.",
       "broader": "sb:BMFV02SBV",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -842,6 +906,7 @@
       "definition": "Iniciación al conocimiento de la narrativa multiverso y videojuegos.",
       "broader": "sb:BMFV02SBV",
       "materia": "materia:BMFV",
+      "materia_curso": "asig:BMFV02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     }

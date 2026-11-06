@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BBIL02",
+      "tipo": "MateriaCurso",
+      "notation": "BBIL02",
+      "prefLabel": "Biología Humana · 2º Bachillerato",
+      "broader": "materia:BBIL",
+      "materia": "materia:BBIL",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BBILC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BBILC1",
@@ -67,7 +77,7 @@
       "notation": "BBIL02BC1",
       "prefLabel": "Biología Humana · 2º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de interpretar y analizar críticamente conceptos, procesos, métodos y experimentos de la biología humana relacionados con los distintos bloques de saberes básicos, a partir de información y datos en diferentes formatos (imágenes, microfotografías, modelos, gráficos, tablas, diagramas, fórmulas, esquemas u otros) y lenguas, obtenidos de trabajos y publicaciones científicas accesibles a través de internet. También, se quiere evaluar si expresa sus opiniones e intercambia información relevante de la forma más eficiente y sencilla posible, apoyándose para ello en las tecnologías digitales; comunicándola con creatividad, de forma clara, rigurosa; haciendo uso de la terminología y el formato adecuados (modelos, gráficos, tablas, vídeos, informes, diagramas, fórmulas, esquemas, símbolos o contenidos digitales, entre otros); y respondiendo de manera fundamentada y precisa a las cuestiones que se le planteen. Por último, se verificará que es capaz de argumentar sobre aspectos relacionados con los saberes de la materia, considerando los puntos fuertes y débiles de diferentes posturas y defendiendo la suya de forma fundamentada; participando en diferentes interacciones comunicativas (debates, exposiciones, discusiones, mesas redondas...) con actitud empática y colaborativa, abierta, flexible, receptiva y respetuosa ante la opinión de las demás personas; y afrontando con actitud dialogante la pluralidad de valores e ideas. Todo ello, con la finalidad de que el alumnado comprenda que la comunicación científica requiere movilizar no solo las destrezas lingüísticas, sino también las matemáticas, las digitales y el razonamiento lógico; y que valore, además, la importancia que tiene la comunicación para la colaboración y la difusión del conocimiento, contribuyendo a acelerar considerablemente los avances y descubrimientos.",
-      "broader": "materia:BBIL",
+      "broader": "asig:BBIL02",
       "agrupa": [
         "ce:BBILC1"
       ],
@@ -86,6 +96,7 @@
         "CCL5"
       ],
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -95,7 +106,7 @@
       "notation": "BBIL02BC2",
       "prefLabel": "Biología Humana · 2º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado plantea y resuelve preguntas de forma autónoma y crea contenidos, individual o colectivamente, relacionados con cualquiera de los saberes básicos de la materia, mediante la localización, identificación, selección y organización de información de tipo científico procedente de fuentes variadas que le permitan enriquecer su repertorio lingüístico individual (trabajos y revistas científicas, páginas web, vídeos, foros especializados…), para la posterior comunicación oral, escrita, signada o multimodal de conclusiones, en diferentes formatos y soportes, haciendo un uso crítico, legal, seguro, saludable y sostenible de las tecnologías digitales, referenciando las fuentes, respetando los derechos de autoría y empleando, además, un correcto uso del lenguaje científico. También, se quiere verificar si contrasta la veracidad de la información encontrada, utilizando estrategias que le permitan evaluar de forma crítica la fiabilidad de las fuentes y evitar los riesgos de manipulación y desinformación, gestionando de manera responsable sus acciones, y su presencia y visibilidad en la red, y manteniendo una actitud rigurosa y escéptica hacia informaciones sin una base científica. Todo ello, con el fin de potenciar en el alumnado tanto el sentido crítico para seleccionar las fuentes, cribar la información y quedarse con la que resulte relevante de acuerdo al fin propuesto.",
-      "broader": "materia:BBIL",
+      "broader": "asig:BBIL02",
       "agrupa": [
         "ce:BBILC2"
       ],
@@ -112,6 +123,7 @@
         "CC3"
       ],
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -121,7 +133,7 @@
       "notation": "BBIL02BC3",
       "prefLabel": "Biología Humana · 2º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de diseñar, planear y realizar proyectos de investigación relacionando los avances de la medicina (prevención, diagnóstico y tratamiento de enfermedades) con la función vital correspondiente, de forma cooperativa que incluyan un plan de búsqueda, contraste y análisis de diversos tipos de información procedente de fuentes variadas; así como la selección de instrumentos, herramientas o técnicas adecuadas. Además, se evaluará si el alumnado aplica las destrezas y los procedimientos esenciales de las metodologías científicas, dentro y fuera del laboratorio, como el planteamiento de preguntas, la formulación y el contraste de hipótesis, la toma de datos cuantitativos y cualitativos, la interpretación, análisis y comunicación de resultados o la reformulación de los procedimientos, en caso necesario, para indagar y explicar diferentes aspectos del campo de la biología humana y de la medicina relacionados con todos los bloques de saberes básicos de la materia, aportando soluciones a problemas, aceptando la incertidumbre y respondiendo adecuadamente ante ella. También, se quiere constatar que el alumnado desarrolla actitudes propias del trabajo científico como el rigor, la precisión, la objetividad, la autodisciplina, el cuestionamiento de lo obvio, la creatividad, la curiosidad, el espíritu emprendedor, la resiliencia…; y que hace un uso correcto del vocabulario científico y de las herramientas tecnológicas a la hora de comunicar las conclusiones o de crear y compartir contenidos, aplicando medidas de seguridad y respetando, en todo momento, los derechos de autoría digital. Por último, se pretende evaluar si el alumnado valora la importancia del trabajo cooperativo en la investigación y si establece colaboraciones dentro y fuera del centro educativo en las distintas fases del proyecto, evaluando su desempeño individual y el de sus iguales, desde la fase de diseño hasta la ejecución definitiva (tiempos, objetivos, secuencia de acciones, reparto de roles, normas de funcionamiento del grupo...), respetando la diversidad y favoreciendo la inclusión.",
-      "broader": "materia:BBIL",
+      "broader": "asig:BBIL02",
       "agrupa": [
         "ce:BBILC3"
       ],
@@ -140,6 +152,7 @@
         "CPSAA3.2"
       ],
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -149,7 +162,7 @@
       "notation": "BBIL02BC4",
       "prefLabel": "Biología Humana · 2º Bachillerato · bloque competencial C4",
       "scopeNote": "Mediante este bloque competencial se pretende evaluar si el alumnado es capaz de analizar la relación entre el correcto equilibrio del organismo y determinadas conductas de la vida cotidiana, trabajando de forma colaborativa en equipos diversos; aplicando habilidades de coordinación, comunicación, emprendimiento y reparto equilibrado de responsabilidades, para planear y emprender acciones fundamentadas científicamente que promuevan el bienestar físico y mental propio y de las demás personas; y buscando y ofreciendo apoyo a la sociedad para construir un mundo más saludable. Además, se evaluará si el alumnado identifica las conductas de riesgo (adicciones con y sin sustancia, relaciones sexuales sin protección, trastornos alimenticios, conductas antisociales…) y si es capaz de reconocer las medidas de prevención necesarias para incluir recomendaciones (necesidad de actividad física, vigilancia de las posturas inadecuadas, rechazo al uso de drogas y al consumo de suplementos alimenticios innecesarios, necesidad de revisiones médicas periódicas…), con el fin de defender, de manera argumentada y con juicio propio, la necesidad de diseñar e implementar un plan de vida saludable, y de emprender acciones, personales y colectivas, para, de esta manera, contribuir a la construcción de una sociedad más sana, justa y solidaria.",
-      "broader": "materia:BBIL",
+      "broader": "asig:BBIL02",
       "agrupa": [
         "ce:BBILC4"
       ],
@@ -165,6 +178,7 @@
         "CC4"
       ],
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -174,7 +188,7 @@
       "notation": "BBIL02BC5",
       "prefLabel": "Biología Humana · 2º Bachillerato · bloque competencial C5",
       "scopeNote": "El valor de esta competencia específica radica en la necesidad urgente de que la sociedad adopte un modelo de desarrollo sostenible, afrontando uno de los mayores y más importantes retos a los que se enfrenta la humanidad actualmente. Para poder hacer realidad este ambicioso objetivo es necesario que se alcance una comprensión profunda del funcionamiento de los sistemas biológicos y su interrelación. El enfoque de una sola salud (One health) con el que trabajan diferentes organizaciones internacionales (FAO, OMS…) defiende que es imprescindible prevenir, detectar y responder eficazmente a los desafíos de salud que surgen de las relaciones entre las personas, los seres vivos y el medioambiente. Analizando las relaciones de interdependencia y ecodependencia con el resto de los seres vivos y el entorno, se fomentarán actitudes responsables y se adoptarán estilos de vida sostenibles, encaminados no solo a la conservación del medioambiente, sino a la mejora de la salud necesaria para alcanzar el bienestar físico y mental tanto a nivel individual como colectivo. Por otro lado, se pretende que el alumnado sea capaz de valorar los beneficios aportados por los avances médicos, como las terapias avanzadas (terapias genéticas, terapias celulares, ingeniería tisular y terapias combinadas) o los métodos de diagnóstico, pero sin dejar de cuestionar los costes de carácter ambiental y social que generan; y que, además, tome conciencia de la importancia del autocuidado y la autorresponsabilidad para proponer y adoptar estilos de vida sostenibles y saludables, con el fin de convertirse en agente activo y promotor de la difusión del pensamiento científico y de la preservación del medioambiente y la salud pública, contribuyendo así al logro de los Objetivos de Desarrollo Sostenible, concretados en la Agenda Canaria de Desarrollo Sostenible 2030.",
-      "broader": "materia:BBIL",
+      "broader": "asig:BBIL02",
       "agrupa": [
         "ce:BBILC5"
       ],
@@ -192,6 +206,7 @@
         "STEM3"
       ],
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -213,6 +228,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -234,6 +250,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -255,6 +272,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -278,6 +296,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -301,6 +320,7 @@
         "CC3"
       ],
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -324,6 +344,7 @@
         "CE3"
       ],
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -345,6 +366,7 @@
         "CD3"
       ],
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -363,6 +385,7 @@
         "CPSAA3.2"
       ],
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -382,6 +405,7 @@
         "CE1"
       ],
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -403,6 +427,7 @@
         "CE1"
       ],
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -422,6 +447,7 @@
         "CE3"
       ],
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -444,6 +470,7 @@
         "CC4"
       ],
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -463,6 +490,7 @@
         "CC4"
       ],
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -482,6 +510,7 @@
         "CC4"
       ],
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -491,8 +520,9 @@
       "notation": "BBIL02SBI",
       "prefLabel": "BBIL02SBI · I. Niveles de organización del cuerpo humano",
       "definition": "Niveles de organización del cuerpo humano",
-      "broader": "materia:BBIL",
+      "broader": "asig:BBIL02",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -502,8 +532,9 @@
       "notation": "BBIL02SBII",
       "prefLabel": "BBIL02SBII · II. Nutrición humana",
       "definition": "Nutrición humana",
-      "broader": "materia:BBIL",
+      "broader": "asig:BBIL02",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -513,8 +544,9 @@
       "notation": "BBIL02SBIII",
       "prefLabel": "BBIL02SBIII · III. Salud sexual y reproductiva",
       "definition": "Salud sexual y reproductiva",
-      "broader": "materia:BBIL",
+      "broader": "asig:BBIL02",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -524,8 +556,9 @@
       "notation": "BBIL02SBIV",
       "prefLabel": "BBIL02SBIV · IV. Bienestar emocional, psicológico y social",
       "definition": "Bienestar emocional, psicológico y social",
-      "broader": "materia:BBIL",
+      "broader": "asig:BBIL02",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -535,8 +568,9 @@
       "notation": "BBIL02SBV",
       "prefLabel": "BBIL02SBV · V. Salud y enfermedad en el siglo XXI: de la curación a la prevención",
       "definition": "Salud y enfermedad en el siglo XXI: de la curación a la prevención",
-      "broader": "materia:BBIL",
+      "broader": "asig:BBIL02",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -546,8 +580,9 @@
       "notation": "BBIL02SBVI",
       "prefLabel": "BBIL02SBVI · VI. Investigación y nuevas terapias",
       "definition": "Investigación y nuevas terapias",
-      "broader": "materia:BBIL",
+      "broader": "asig:BBIL02",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -559,6 +594,7 @@
       "definition": "Categorización de los niveles de organización del ser humano relacionando los tipos celulares con las funciones de los tejidos y órganos.",
       "broader": "sb:BBIL02SBI",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -570,6 +606,7 @@
       "definition": "Manejo de las técnicas básicas de preparación de muestras histológicas (corte, tinción, fijado…).",
       "broader": "sb:BBIL02SBI",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -581,6 +618,7 @@
       "definition": "Preparación de cortes histológicos, a partir de muestras de tejidos animales, y observación al microscopio óptico e interpretación.",
       "broader": "sb:BBIL02SBI",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -592,6 +630,7 @@
       "definition": "Identificación, en laboratorio o a través de esquemas, modelos, infografías, radiografías y otros medios, de los principales tejidos y de los diferentes órganos y aparatos.",
       "broader": "sb:BBIL02SBI",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -603,6 +642,7 @@
       "definition": "Estudio de la relación que existe entre la estructura de cada sistema y la función que desempeña así como la interconexión con el resto de sistemas.",
       "broader": "sb:BBIL02SBI",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -614,6 +654,7 @@
       "definition": "Diferenciación entre alimentación y nutrición; y reflexión sobre la importancia de una alimentación saludable y nutritiva, así como de su repercusión positiva en la salud general de la persona.",
       "broader": "sb:BBIL02SBII",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -625,6 +666,7 @@
       "definition": "Comparación de la anatomía de los sistemas implicados en la nutrición humana con la de órganos diseccionados en el laboratorio o mediante el uso de esquemas, modelos y simulaciones.",
       "broader": "sb:BBIL02SBII",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -636,6 +678,7 @@
       "definition": "Diseño, realización e interpretación de experiencias sobre la fisiología de los aparatos implicados en la nutrición.",
       "broader": "sb:BBIL02SBII",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -647,6 +690,7 @@
       "definition": "Investigación sobre enfermedades y trastornos relacionados con la nutrición, con el fin de proponer y argumentar la necesidad de mantener estilos saludables para conseguir un apropiado desarrollo de su salud individual y su influencia en el entorno familiar y social.",
       "broader": "sb:BBIL02SBII",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -658,6 +702,7 @@
       "definition": "Reconocimiento de la anatomía y fisiología de los aparatos reproductores.",
       "broader": "sb:BBIL02SBIII",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -669,6 +714,7 @@
       "definition": "Identificación de las enfermedades de transmisión sexual (ITS) y modo de prevención.",
       "broader": "sb:BBIL02SBIII",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -680,6 +726,7 @@
       "definition": "Análisis evolutivo a lo largo de la historia de pandemias, epidemias, endemias y brotes epidémicos acontecidos: VIH, viruela del mono, sífilis…",
       "broader": "sb:BBIL02SBIII",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -691,6 +738,7 @@
       "definition": "Valoración de la educación sexual como parte del desarrollo integral de la persona, identificando las diferencias entre los conceptos de sexo y sexualidad, para poner el foco en el respeto a la libertad, la diversidad sexual y la igualdad de género.",
       "broader": "sb:BBIL02SBIII",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -702,6 +750,7 @@
       "definition": "Concienciación sobre la importancia de adquirir prácticas sexuales saludables, responsables y consentidas, y sobre la prevención de infecciones de transmisión sexual (ITS) y de embarazos no deseados. Selección del método anticonceptivo y método de prevención de las ITS en función de las condiciones personales.",
       "broader": "sb:BBIL02SBIII",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -713,6 +762,7 @@
       "definition": "Análisis de la influencia del tabaco, del alcohol y de otras drogas en la sexualidad y en la descendencia para conocer sus consecuencias.",
       "broader": "sb:BBIL02SBIII",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -724,6 +774,7 @@
       "definition": "Identificación del funcionamiento básico del sistema nervioso, endocrino e inmunológico.",
       "broader": "sb:BBIL02SBIV",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -735,6 +786,7 @@
       "definition": "Indagación sobre la conexión entre el sistema nervioso y endocrino (sistema neuroendocrino).",
       "broader": "sb:BBIL02SBIV",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -746,6 +798,7 @@
       "definition": "Estudio del eje hipotálamo-hipofisario-adrenal, y su relación con el estrés y los trastornos psicológicos y mentales para prevenir su sobreestimulación.",
       "broader": "sb:BBIL02SBIV",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -757,6 +810,7 @@
       "definition": "Investigación sobre enfermedades relacionadas con el bienestar emocional, psicológico y social, con el fin de proponer y argumentar la necesidad de mantener un estilo de vida saludable.",
       "broader": "sb:BBIL02SBIV",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -768,6 +822,7 @@
       "definition": "Indagación sobre las organizaciones, fundaciones, asociaciones de apoyo a las personas que padecen alteraciones en la salud mental, para conocer de qué forma la sociedad responde a estos problemas.",
       "broader": "sb:BBIL02SBIV",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -779,6 +834,7 @@
       "definition": "Análisis de los efectos perjudiciales de las adicciones con sustancia (drogas legales e ilegales) y sin sustancia (comportamentales: tecnologías, ludopatías), que influyen tanto en la salud de las personas consumidoras como en su entorno.",
       "broader": "sb:BBIL02SBIV",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -790,6 +846,7 @@
       "definition": "Análisis de la evolución del concepto de salud para comprender su tratamiento en el marco de la Agenda Canaria 2030 de Desarrollo Sostenible.",
       "broader": "sb:BBIL02SBV",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -801,6 +858,7 @@
       "definition": "Estudio de los diferentes métodos de diagnóstico para clasificar las enfermedades según su etiología, y conocimiento de las medidas de prevención y tratamiento.",
       "broader": "sb:BBIL02SBV",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -812,6 +870,7 @@
       "definition": "Valoración de la importancia social de la vacunación y de las donaciones de sangre, células y órganos.",
       "broader": "sb:BBIL02SBV",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -823,6 +882,7 @@
       "definition": "Indagación sobre los beneficios de mostrar una actitud positiva ante la enfermedad para fomentar el autocuidado y la autorresponsabilidad.",
       "broader": "sb:BBIL02SBV",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -834,6 +894,7 @@
       "definition": "Valoración de la importancia del enfoque de una sola salud (One health) para prevenir, detectar y responder eficazmente a los desafíos de salud que surgen de las relaciones entre las personas, los animales y el medioambiente.",
       "broader": "sb:BBIL02SBV",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -845,6 +906,7 @@
       "definition": "Investigación sobre el funcionamiento y las prestaciones de la Sanidad Pública Canaria, comparándola con otros países.",
       "broader": "sb:BBIL02SBV",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -856,6 +918,7 @@
       "definition": "Diseño e implementación de un plan de vida saludable que contemple la salud física, mental y social como paradigmas de bienestar para el desarrollo de una vida plena, y su influencia en su entorno, en la sociedad y en el planeta.",
       "broader": "sb:BBIL02SBV",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -867,6 +930,7 @@
       "definition": "Identificación de los mecanismos básicos de la transmisión de la herencia genética y del concepto de gen, y su relación con los trastornos hereditarios humanos.",
       "broader": "sb:BBIL02SBVI",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -878,6 +942,7 @@
       "definition": "Estudio de la evolución de las terapias avanzadas (terapias genéticas, terapias celulares, ingeniería tisular y terapias combinadas) y sus aplicaciones relacionadas con la investigación médica y farmacéutica.",
       "broader": "sb:BBIL02SBVI",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -889,6 +954,7 @@
       "definition": "Reflexión sobre las repercusiones sociales, éticas, económicas y medioambientales de las terapias avanzadas; y análisis sobre los fármacos y su uso responsable.",
       "broader": "sb:BBIL02SBVI",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -900,6 +966,7 @@
       "definition": "Diferenciación entre tratamientos con base científica y pseudomedicina; y elaboración de un estudio crítico acerca del uso de las medicinas alternativas.",
       "broader": "sb:BBIL02SBVI",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -911,6 +978,7 @@
       "definition": "Profundización en la investigación biomédica en Canarias y sobre la base genética de las enfermedades prevalentes en el archipiélago, para valorar su implicación en la mejora de la calidad de vida.",
       "broader": "sb:BBIL02SBVI",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -922,6 +990,7 @@
       "definition": "Indagación sobre los principales centros de investigación de Canarias y de las biografías de las figuras referentes de la medicina canaria a lo largo de la historia, con especial atención a las mujeres, para darle a la biología humana un rostro humano.",
       "broader": "sb:BBIL02SBVI",
       "materia": "materia:BBIL",
+      "materia_curso": "asig:BBIL02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     }

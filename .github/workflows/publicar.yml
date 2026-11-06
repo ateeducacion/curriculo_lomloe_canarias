@@ -27,6 +27,9 @@ jobs:
       - name: Construir ficheros de publicación
         run: python -m herramientas.construir --comprobar --dist --version "${GITHUB_REF_NAME#v}"
 
+      - name: Validar el RDF con SHACL
+        run: python -m herramientas.exportar_rdf --ttl dist/curriculo.ttl --validar
+
       - name: Contrastar con los documentos oficiales
         run: python -m herramientas.contrastar --corpus dist/curriculo.json --estricto
 
@@ -43,5 +46,6 @@ jobs:
           } > notas.md
           gh release create "$GITHUB_REF_NAME" \
             dist/curriculo.json dist/curriculo.json.sha256 dist/curriculo-csv.zip \
+            dist/curriculo.ttl dist/curriculo.ttl.sha256 dist/cur.ttl \
             --title "Currículo LOMLOE Canarias $GITHUB_REF_NAME" \
             --notes-file notas.md

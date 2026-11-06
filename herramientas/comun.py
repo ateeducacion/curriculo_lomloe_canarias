@@ -35,7 +35,7 @@ RE_SECRETO = re.compile(r'sk-[A-Za-z0-9_-]{20,}|ghp_[A-Za-z0-9]{20,}|github_pat_
                         r'|AKIA[0-9A-Z]{16}|AIza[0-9A-Za-z_-]{30,}|xox[baprs]-[A-Za-z0-9-]{10,}'
                         r'|-----BEGIN [A-Z ]*PRIVATE KEY-----')
 
-TIPOS = ['Etapa', 'Curso', 'Materia', 'CompetenciaEspecifica', 'BloqueCompetencial',
+TIPOS = ['Etapa', 'Curso', 'Materia', 'MateriaCurso', 'CompetenciaEspecifica', 'BloqueCompetencial',
          'CriterioEvaluacion', 'BloqueSaberes', 'SaberBasico']
 
 

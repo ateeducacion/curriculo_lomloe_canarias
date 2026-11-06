@@ -14,6 +14,36 @@
       "etapa": "etapa:ESO"
     },
     {
+      "id": "asig:SEUP01",
+      "tipo": "MateriaCurso",
+      "notation": "SEUP01",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 1º ESO",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "asig:SEUP02",
+      "tipo": "MateriaCurso",
+      "notation": "SEUP02",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 2º ESO",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "asig:SEUP03",
+      "tipo": "MateriaCurso",
+      "notation": "SEUP03",
+      "prefLabel": "Educación Plástica, Visual y Audiovisual · 3º ESO",
+      "broader": "materia:SEUP",
+      "materia": "materia:SEUP",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
       "id": "ce:SEUPC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "SEUPC1",
@@ -99,7 +129,7 @@
       "notation": "SEUP01BC1",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 1º ESO · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado, mediante el análisis de las formas geométricas en el arte y en el entorno del patrimonio arquitectónico, puede reconocer los factores históricos y sociales más relevantes que rodean a diferentes producciones plásticas, visuales y audiovisuales, así como su función y finalidad; y expresarlo de forma oral o escrita. Asimismo, con el análisis guiado o no de obras de arte, se verificará si es capaz de valorar la importancia de la conservación, protección y difusión del patrimonio cultural, desde el más cercano hasta alcanzar el conjunto de la humanidad, con interés, actitud cooperativa y perspectiva de género. Por último, se comprobará si ha llegado a entender cómo todo esto se convierte en el testimonio de los valores y convicciones del individuo y de la sociedad en su conjunto.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP01",
       "agrupa": [
         "ce:SEUPC1"
       ],
@@ -110,6 +140,7 @@
         "CC2"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -119,7 +150,7 @@
       "notation": "SEUP01BC2",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 1º ESO · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se comprobará que alumnado explica razonadamente, de manera oral o escrita, la importancia del proceso que media entre la realidad, el imaginario y la producción, por medio del análisis de elementos visuales y sus posibilidades expresivas, forma, color y textura, y que es capaz, para ello, de expresar hechos, conceptos, pensamientos, opiniones o sentimientos. También se valorará si supera estereotipos y muestra un comportamiento respetuoso con la diversidad cultural. Además, se constatará que analiza, de forma guiada, diversas producciones artísticas, incluidas las del patrimonio cultural y artístico, entre otros, la obra de Cristino de Vera y José Aguiar, mediante elementos básicos del lenguaje visual (el punto, la línea y el plano) como posibilidad expresiva y comunicativa; y participa activamente en el trabajo en grupo valorando el intercambio, las experiencias compartidas y el diálogo intercultural. Todo esto con la finalidad de comprobar si supera prejuicios, especialmente comunes en lo relativo a la percepción de las producciones artísticas y culturales, amplía sus horizontes y establece un juicio crítico y autocrítico.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP01",
       "agrupa": [
         "ce:SEUPC2"
       ],
@@ -133,6 +164,7 @@
         "CCEC3"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -142,7 +174,7 @@
       "notation": "SEUP01BC3",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 1º ESO · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se persigue constatar si el alumnado selecciona y describe propuestas plásticas, visuales y audiovisuales de diversos tipos y épocas, con especial atención a las de Canarias, mediante los elementos que intervienen en composiciones básicas, así como de los esquemas compositivos, de manera individual, grupal o colaborativa, con el uso de diferentes herramientas digitales en cualquier medio o soporte. Asimismo, se comprobará si lo hace con curiosidad y desde una perspectiva de género, con énfasis en el estudio de producciones artísticas ejecutadas por mujeres; así como, si comparte con respeto impresiones y emociones, y expresa su opinión de forma abierta. Por último, se comprobará si ha conseguido construir una cultura artística personal más amplia y alimentar el imaginario. Todo ello con la intención de fomentar la cimentación de una mirada empática y despojada de prejuicios, y de que comprenda que todas estas producciones han marcado el camino para llegar hasta donde nos encontramos hoy.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP01",
       "agrupa": [
         "ce:SEUPC3"
       ],
@@ -156,6 +188,7 @@
         "CCEC2"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -165,7 +198,7 @@
       "notation": "SEUP01BC4",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 1º ESO · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se comprobará si el alumnado puede analizar de forma guiada las especificidades de los lenguajes de diferentes producciones culturales y artísticas con el uso de diferentes herramientas digitales; descubrir las diversas posibilidades que ofrecen como fuente generadora de ideas y respuestas; establecer conexiones entre ellas e incorporarlas creativamente en las producciones propias, de manera individual, grupal y colaborativa; así como, demostrar respeto por las normas, empatía, equidad y espíritu constructivo. Asimismo, se pretende constatar si, mediante procesos creativos y a través de operaciones plásticas (reproducir, aislar, transformar y asociar), es capaz de reconocer e interpretar los rasgos particulares de diversas técnicas y lenguajes artísticos, con el uso de textos orales, signados, escritos o multimodales; y mostrar interés por las manifestaciones artísticas y culturales, especialmente las de Canarias. Por último, se observará si consigue interiorizar las diversas posibilidades que ofrecen los diferentes lenguajes como fuente generadora de ideas y nuevas respuestas. Todo esto con la intención de que el alumnado se percate de la multiplicidad de las producciones, las técnicas y los lenguajes empleados como un valor generador de riqueza a todos los niveles, por lo que debe entender su naturaleza diversa desde el acercamiento, tanto a sus modos de producción y de diseño en el proceso de creación como a los de recepción.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP01",
       "agrupa": [
         "ce:SEUPC4"
       ],
@@ -178,6 +211,7 @@
         "CCEC2"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -187,7 +221,7 @@
       "notation": "SEUP01BC5",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 1º ESO · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se comprobará si el alumnado es capaz de expresar ideas, emociones y su visión del mundo en diferentes producciones plásticas, visuales y audiovisuales, con diversas herramientas, técnicas y soportes, seleccionadas de manera crítica, con una actitud cooperativa y respetuosa. Asimismo, se verificará también si realiza diferentes tipos de producciones artísticas, individuales o colectivas, por medio de la introducción a la geometría plana y a los trazados geométricos básicos, entre los que estarán presentes ejemplos de la arquitectura, pintura y escultura tradicional canaria; justifica el proceso creativo con iniciativa y autoconfianza, así como con racionalidad, empatía y sensibilidad; y selecciona técnicas y soportes adecuados. Por último, se observará si mejora con todo esto su capacidad de comunicación y desarrolla la reflexión crítica y la autoconfianza. Todo esto con la finalidad de que compruebe que para el desarrollo de su identidad personal es indispensable el conocimiento del contexto artístico y cultural de la sociedad en la que experimenta sus vivencias.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP01",
       "agrupa": [
         "ce:SEUPC5"
       ],
@@ -200,6 +234,7 @@
         "CPSAA3"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -209,7 +244,7 @@
       "notation": "SEUP01BC6",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 1º ESO · bloque competencial C6",
       "scopeNote": "A través de este bloque competencial se comprobará si el alumnado es capaz de explicar su pertenencia a un contexto cultural concreto, con la búsqueda, la selección y el tratamiento de la información, de manera guiada, en fuentes diversas. Para ello se constatara que es capaz de utilizar creativamente referencias culturales y artísticas del entorno en la elaboración de producciones propias, con actitud dialogante, argumentativa, respetuosa y opuesta a cualquier tipo de discriminación o violencia, con el uso de diferentes herramientas digitales, mediante técnicas básicas de expresión gráfico-plástica en dos dimensiones y técnicas secas y húmedas, y a travésdel estudio de artistas como Lola Massieu y Pepe Dámado. Por último, se valorará si consigue enriquecer sus creaciones y desarrollar su propia identidad personal, cultural y social. Todo esto con el propósito de que se de cuenta de que llevar a buen término una producción artística es el resultado de un proceso complejo que implica el conocimiento de los materiales, herramientas y técnicas propios del medio de expresión artística escogido, así como sus posibilidades de empleo, la experimentación con los diferentes resultados conseguidos y los efectos producidos en el público receptor de la obra.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP01",
       "agrupa": [
         "ce:SEUPC6"
       ],
@@ -221,6 +256,7 @@
         "CCEC3"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -230,7 +266,7 @@
       "notation": "SEUP01BC7",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 1º ESO · bloque competencial C7",
       "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado puede realizar un proyecto artístico, con creatividad y de forma consciente, de manera individual, grupal y colaborativa, analizando el lenguaje y la comunicación visual, así como sus finalidades (informativa, comunicativa, expresiva y estética), contextos y funciones, al igual que emplear diferentes lenguajes, materiales, soportes y herramientas. Por último, se comprobará que integra y enriquece el diseño con todos estos saberes en la realización de un proyecto artístico, por medio de la concienciación y el respeto del paisaje canario. Todo ello para que se dé cuenta de que por la multiplicidad de lenguajes artísticos, desde los más tradicionales hasta los más recientes, debe aprender a hacer un uso informado y progresivo de estos, sentando las bases para que más adelante pueda profundizar en sus potencialidades expresivas.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP01",
       "agrupa": [
         "ce:SEUPC7"
       ],
@@ -244,6 +280,7 @@
         "CCEC4"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -253,7 +290,7 @@
       "notation": "SEUP01BC8",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 1º ESO · bloque competencial C8",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado reconoce diferentes usos y funciones de las producciones y manifestaciones artísticas, así como argumenta sus conclusiones acerca de las oportunidades personales, sociales y económicas que se pueden generar. También se comprobará que utiliza, con una intención previa, la lectura y el análisis de imágenes visuales y audiovisuales para la creación de sus producciones, organizando y desarrollando las diferentes etapas del proceso, de forma individual o colectiva, y aprendiendo de sus errores. Asimismo se comprobará su capacidad para exponer las diferentes fases de elaboración y el resultado final, mediante el desarrollo aplicaciones informáticas sencillas. Todo esto con la intención de que asimile que la obra artística alcanza todo su sentido y potencialidad cuando llega al público y produce un efecto sobre él.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP01",
       "agrupa": [
         "ce:SEUPC8"
       ],
@@ -266,6 +303,7 @@
         "CPSAA5"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -275,7 +313,7 @@
       "notation": "SEUP02BC1",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 2º ESO · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado, mediante el análisis de los géneros artísticos, puede reconocer los factores históricos y sociales más relevantes que rodean a diferentes producciones plásticas, visuales y audiovisuales, así como su función y finalidad; y expresarlo de forma oral, escrita, signada o multimodal. Asimismo, con el análisis de obras de arte, tanto de forma guiada como sin ayuda, se verificará si es capaz de valorar la importancia de la conservación, protección y difusión del patrimonio cultural, desde el más cercano hasta alcanzar el conjunto de la humanidad, con interés, actitud cooperativa y perspectiva de género. Por último, se comprobará si ha llegado a entender cómo todo esto se convierte en el testimonio de los valores y convicciones del individuo y de la sociedad en su conjunto.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP02",
       "agrupa": [
         "ce:SEUPC1"
       ],
@@ -289,6 +327,7 @@
         "CCEC1"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -298,7 +337,7 @@
       "notation": "SEUP02BC2",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 2º ESO · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se comprobará que alumnado es capaz de explicar razonadamente, de manera oral, escrita, signada o multimodal, la importancia del proceso que media entre la realidad, el imaginario y la producción, por medio del análisis de lenguaje visual como forma de comunicación; y expresar para ello hechos, conceptos, pensamientos, opiniones o sentimientos. También se valorará si supera estereotipos y muestra un comportamiento respetuoso con la diversidad cultural. Además, se constatará que analiza, de forma guiada, diversas producciones artísticas, incluidas las del patrimonio cultural y artístico de Canarias, participando activamente en el trabajo en grupo, valorando el intercambio, las experiencias compartidas y el diálogo intercultural. Todo esto con la finalidad de comprobar si supera prejuicios, especialmente comunes en lo relativo a la percepción de las producciones artísticas y culturales, amplía sus horizontes y establece un juicio crítico y autocrítico.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP02",
       "agrupa": [
         "ce:SEUPC2"
       ],
@@ -314,6 +353,7 @@
         "CCEC3"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -323,7 +363,7 @@
       "notation": "SEUP02BC3",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 2º ESO · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se persigue constatar si el alumnado selecciona y describe propuestas plásticas, visuales y audiovisuales de diversos tipos y épocas, con especial atención a las de Canarias, mediante los elementos que intervienen en composiciones básicas y de las leyes compositivas, de manera individual, grupal o colaborativa, con el uso de diferentes herramientas digitales, en cualquier medio o soporte. Asimismo se comprobará si lo hace con curiosidad y desde una perspectiva de género, con énfasis en el estudio de producciones artísticas ejecutadas por mujeres; así como, si comparte con respeto impresiones y emociones, y expresa su opinión personal de forma abierta. Por último se comprobará si ha conseguido construir una cultura artística personal más amplia y alimentar el imaginario. Todo ello con la intención de fomentar la cimentación de una mirada empática y despojada de prejuicios, y que comprenda que todas estas producciones han marcado el camino para llegar hasta donde nos encontramos hoy.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP02",
       "agrupa": [
         "ce:SEUPC3"
       ],
@@ -338,6 +378,7 @@
         "CPSAA4"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -347,7 +388,7 @@
       "notation": "SEUP02BC4",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 2º ESO · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se comprobará si el alumnado puede analizar de forma guiada las especificidades de los lenguajes de diferentes producciones culturales y artísticas, con el uso diferentes herramientas digitales; descubrir las diversas posibilidades que ofrecen como fuente generadora de ideas y respuestas; establecer conexiones entre ellas e incorporarlas creativamente en las producciones propias, de manera individual, grupal y colaborativa; así como, demostrar respeto por las normas, empatía, equidad y espíritu constructivo. Asimismo se pretende constatar si, mediante el estudio del proceso creativo y los mapas mentales, entre otras, es capaz de reconocer e interpretar los rasgos particulares de diversas técnicas y lenguajes artísticos, con el uso de textos orales, signados, escritos o multimodales; y mostrar interés por las manifestaciones artísticas y culturales, especialmente las de Canarias. Por último, se observará si consigue interiorizar las diversas posibilidades que ofrecen los diferentes lenguajes como fuente generadora de ideas y nuevas respuestas. Todo esto con la intención de que el alumnado se percate de la multiplicidad de las producciones, las técnicas y los lenguajes empleados como un valor generador de riqueza a todos los niveles, por lo que debe entender su naturaleza diversa desde el acercamiento, tanto a sus modos de producción y de diseño en el proceso de creación como a los de recepción.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP02",
       "agrupa": [
         "ce:SEUPC4"
       ],
@@ -363,6 +404,7 @@
         "CCEC2"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -372,7 +414,7 @@
       "notation": "SEUP02BC5",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 2º ESO · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se comprobará si el alumnado es capaz de expresar ideas, emociones y su visión del mundo en diferentes producciones plásticas, visuales y audiovisuales, con diversas herramientas, técnicas y soportes, seleccionados de manera crítica, y con una actitud cooperativa y respetuosa. Asimismo. Se verificará también si realiza diferentes tipos de producciones artísticas, individuales o colectivas, mediante la construcción de polígonos regulares (triángulos y cuadriláteros) e irregulares, en función de sus lados y sus ángulos, con la posibilidad de aplicarlos a la artesanía popular canaria; si justifica el proceso creativo con iniciativa y autoconfianza, así como con racionalidad, empatía y sensibilidad; y si selecciona las técnicas y los soportes adecuados. Por último, se observará si mejora su capacidad de comunicación y si desarrolla la reflexión crítica y la autoconfianza. Todo esto con la finalidad de que compruebe que para el desarrollo de su identidad personal es indispensable el conocimiento del contexto artístico y cultural de la sociedad en la que experimenta sus vivencias.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP02",
       "agrupa": [
         "ce:SEUPC5"
       ],
@@ -388,6 +430,7 @@
         "CCEC4"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -397,7 +440,7 @@
       "notation": "SEUP02BC6",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 2º ESO · bloque competencial C6",
       "scopeNote": "A través de este bloque competencial se comprobará si el alumnado es capaz de explicar su pertenencia a un contexto cultural concreto, especialmente el de Canarias, con la búsqueda, la selección y el tratamiento de la información, de manera guiada, en fuentes diversas. Para ello se constatara que utiliza creativamente referencias culturales y artísticas del entorno en la elaboración de producciones propias, con una actitud dialogante, argumentativa, respetuosa y opuesta a cualquier tipo de discriminación o violencia, por medio de las técnicas básicas de expresión gráfico-plástica en dos dimensiones y las técnicas secas, húmedas y mixtas, a través del estudio de artistas como César Manrique y Manolo Millares. Por último, se valorará si consigue enriquecer sus creaciones y desarrollar su propia identidad personal, cultural y social. Todo ello con el propósito de que se de cuenta de que llevar a buen término una producción artística es el resultado de un proceso complejo que implica el conocimiento de los materiales, herramientas y técnicas propios del medio de expresión artística escogido, así como sus posibilidades de empleo; y de experimentar con los diferentes resultados conseguidos y los efectos producidos en el público receptor de la obra.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP02",
       "agrupa": [
         "ce:SEUPC6"
       ],
@@ -413,6 +456,7 @@
         "CCEC3"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -422,7 +466,7 @@
       "notation": "SEUP02BC7",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 2º ESO · bloque competencial C7",
       "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado puede realizar un proyecto artístico, con creatividad y de forma consciente, analizando el lenguaje y la comunicación visual (finalidad o función), así como los grados de iconicidad de las imágenes, de manera individual, grupal y colaborativa, y con el empleo de diferentes lenguajes, materiales, soportes y herramientas, teniendo en cuenta a artistas canarios como Óscar Domínguez y Felo Monzón. Por último, se comprobará que integra y enriquece el diseño con todos estos saberes en la realización de un proyecto artístico. Todo ello con la finalidad de que se dé cuenta de que por la multiplicidad de lenguajes artísticos, desde los más tradicionales hasta los más recientes, debe aprender a hacer un uso informado y progresivo de estos, sentando las bases para que más adelante pueda profundizar en sus potencialidades expresivas.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP02",
       "agrupa": [
         "ce:SEUPC7"
       ],
@@ -442,6 +486,7 @@
         "CCEC4"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -451,7 +496,7 @@
       "notation": "SEUP02BC8",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 2º ESO · bloque competencial C8",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado reconoce diferentes usos y funciones de las producciones y manifestaciones artísticas; así como que es capaz de argumentar sus conclusiones acerca de las oportunidades personales, sociales y económicas que se pueden generar. También se comprobará que lo aplica, con una intención previa, para la creación de mensajes visuales y audiovisuales publicitarios (lectura y análisis), de forma individual o colectiva, organizando y desarrollando las diferentes etapas del proceso y aprendiendo de sus errores. Por último, se comprobará su capacidad para exponer las distintas fases de elaboración y el resultado final, mediante el uso de aplicaciones informáticas sencillas. Todo esto con la intención de que asimile que la obra artística alcanza todo su sentido y potencialidad cuando llega al público y produce un efecto sobre él.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP02",
       "agrupa": [
         "ce:SEUPC8"
       ],
@@ -466,6 +511,7 @@
         "CD2"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -475,7 +521,7 @@
       "notation": "SEUP03BC1",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 3º ESO · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado, mediante el análisis de las manifestaciones culturales y artísticas más importantes, incluidas las contemporáneas y las pertenecientes al patrimonio local, puede reconocer los factores históricos y sociales más relevantes que rodean a diferentes producciones plásticas, visuales y audiovisuales, así como su función y finalidad; y expresarlo de forma oral o escrita. Asimismo, con el análisis guiado o no de obras de arte, se verificará si es capaz de valorar la importancia de la conservación, protección y difusión del patrimonio cultural, desde el más cercano hasta alcanzar el conjunto de la humanidad, con interés, actitud cooperativa y perspectiva de género. Por último se comprobará si ha llegado a entender cómo todo esto se convierte en el testimonio de los valores y convicciones del individuo y de la sociedad en su conjunto.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP03",
       "agrupa": [
         "ce:SEUPC1"
       ],
@@ -487,6 +533,7 @@
         "CCEC1"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -496,7 +543,7 @@
       "notation": "SEUP03BC2",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 3º ESO · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se comprobará que alumnado explica razonadamente, de manera oral o escrita, la importancia del proceso que media entre la realidad, el imaginario y la producción, por medio del análisis de la percepción visual, y que es capaz, para ello, de expresar hechos, conceptos, pensamientos, opiniones o sentimientos. También se valorará si supera estereotipos y muestra un comportamiento respetuoso con la diversidad cultural. Además se constatará que analiza, de forma guiada, diversas producciones artísticas, incluidas las del patrimonio cultural y artístico, especialmente el de Canarias, mediante la introducción a los principios perceptivos (elementos y factores) y participa activamente en el trabajo en grupo valorando el intercambio, las experiencias compartidas y el diálogo intercultural. Todo esto con la finalidad de comprobar si supera prejuicios, especialmente comunes en lo relativo a la percepción de las producciones artísticas y culturales, amplía sus horizontes y establece un juicio crítico y autocrítico.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP03",
       "agrupa": [
         "ce:SEUPC2"
       ],
@@ -510,6 +557,7 @@
         "CCEC3"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -519,7 +567,7 @@
       "notation": "SEUP03BC3",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 3º ESO · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se persigue constatar si el alumnado selecciona y describe propuestas plásticas, visuales y audiovisuales de diversos tipos y épocas, con especial atención a las de Canarias, mediante la composición para aplicar conceptos de equilibrio, proporción y ritmo a la organización de formas en el plano y en el espacio, de manera individual, grupal o colaborativa, con el uso de diferentes herramientas digitales, en cualquier medio o soporte, analizando la obra de César Manrique entre otros. Asimismo se comprobará si lo hace con curiosidad y desde una perspectiva de género, con énfasis en el estudio de producciones artísticas ejecutadas por mujeres, así como, si comparte con respeto impresiones y emociones, y expresa la opinión personal de forma abierta. Y por último se comprobará si ha conseguido construir una cultura artística individual más amplia y alimentar el imaginario. Todo ello con la intención de fomentar la cimentación de una mirada empática y despojada de prejuicios, y que comprenda que todas estas producciones han marcado el camino para llegar hasta donde nos encontramos hoy.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP03",
       "agrupa": [
         "ce:SEUPC3"
       ],
@@ -533,6 +581,7 @@
         "CCEC2"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -542,7 +591,7 @@
       "notation": "SEUP03BC4",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 3º ESO · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se comprobará si el alumnado puede analizar de forma guiada las especificidades de los lenguajes de diferentes producciones culturales y artísticas, con el uso diferentes herramientas digitales; descubrir las diversas posibilidades que ofrecen como fuente generadora de ideas y respuestas; establecer conexiones entre ellas e incorporarlas creativamente en las producciones propias, de manera individual, grupal y colaborativa; así como, demostrar respeto por las normas, empatía, equidad y espíritu constructivo. Asimismo se pretende constatar si, mediante el estudio de los factores y las etapas del proceso creativo (selección de materiales y técnicas, y realización de bocetos), estudiando artistas como Maribel Nazco y Manolo Sánchez, es capaz de reconocer e interpretar los rasgos particulares de diversas técnicas y lenguajes artísticos, con el uso de textos orales, signados, escritos o multimodales; y mostrar interés por las manifestaciones artísticas y culturales, especialmente las de Canarias. Por último se observará si consigue interiorizar las diversas posibilidades que ofrecen los diferentes lenguajes como fuente generadora de ideas y nuevas respuestas. Todo esto con la intención de que el alumnado se percate de la multiplicidad de las producciones, las técnicas y los lenguajes empleados como un valor generador de riqueza a todos los niveles, por lo que debe entender su naturaleza diversa desde el acercamiento tanto a sus modos de producción y de diseño en el proceso de creación, como a los de recepción.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP03",
       "agrupa": [
         "ce:SEUPC4"
       ],
@@ -555,6 +604,7 @@
         "CCEC2"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -564,7 +614,7 @@
       "notation": "SEUP03BC5",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 3º ESO · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial, se comprobará si el alumnado es capaz de expresar ideas, emociones y su visión del mundo en diferentes producciones plásticas, visuales y audiovisuales, utilizando y seleccionando de manera crítica diversas herramientas, técnicas y soportes, con una actitud cooperativa y respetuosa. Asimismo, se verificará también si realiza diferentes tipos de producciones artísticas, individuales o colectivas, utilizando para ello la construcción de polígonos regulares (del pentágono al octógono) e irregulares, en función de sus lados y sus ángulos; interpretando y realizando distintas manifestaciones artísticas, con especial atención a la prehispánica canaria. justifica el proceso creativo con iniciativa y autoconfianza, así como con racionalidad, empatía y sensibilidad; y selecciona técnicas y soportes adecuados. Y por último se observará si mejora con todo esto su capacidad de comunicación y desarrolla la reflexión crítica y la autoconfianza. Todo esto con la finalidad de que compruebe que para el desarrollo de su identidad personal es indispensable el conocimiento del contexto artístico y cultural de la sociedad en la que experimenta sus vivencias.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP03",
       "agrupa": [
         "ce:SEUPC5"
       ],
@@ -577,6 +627,7 @@
         "CPSAA3"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -586,7 +637,7 @@
       "notation": "SEUP03BC6",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 3º ESO · bloque competencial C6",
       "scopeNote": "A través de este bloque competencial, se comprobará si el alumnado es capaz de explicar su pertenencia a un contexto cultural concreto, especialmente el de Canarias, con la búsqueda, la selección y el tratamiento de la información, de manera guiada, en fuentes diversas. Para ello se constatara que es capaz de utilizar, creativamente, referencias culturales y artísticas del entorno en la elaboración de producciones propias, con actitud dialogante, argumentativa, respetuosa y opuesta a cualquier tipo de discriminación o violencia, y con el uso de diferentes herramientas digitales, por medio de las técnicas básicas de expresión gráfico-plástica en tres dimensiones, su uso en el arte y sus características expresivas, tomando como ejemplo, entre otros, la obra del escultor Martín Chirino. Por último, se valorará si consigue enriquecer sus creaciones y desarrollar su propia identidad personal, cultural y social. Con el propósito de que se de cuenta de que llevar a buen término una producción artística es el resultado de un proceso complejo que implica el conocimiento de los materiales, herramientas y técnicas propios del medio de expresión artística escogido, así como sus posibilidades de empleo, experimentar con los diferentes resultados conseguidos y los efectos producidos en el público receptor de la obra.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP03",
       "agrupa": [
         "ce:SEUPC6"
       ],
@@ -598,6 +649,7 @@
         "CCEC3"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -607,7 +659,7 @@
       "notation": "SEUP03BC7",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 3º ESO · bloque competencial C7",
       "scopeNote": "A través de este bloque competencial, se persigue constatar que el alumnado puede realizar un proyecto artístico, con creatividad y de forma consciente, utilizando la imagen fija y en movimiento (origen y evolución); así como que se introduce en el conocimiento de las diferentes características del cómic, la fotografía, el cine, la animación y los formatos digitales, incluyendo las producciones canarias relacionadas, de manera individual, grupal y colaborativa, empleando diferentes lenguajes, materiales, soportes y herramientas. Por último se comprobará que integra y enriquece el diseño con todos estos saberes en la realización de un proyecto artístico. Con la finalidad de que se dé cuenta de que por la multiplicidad de lenguajes artísticos, desde los más tradicionales hasta los más recientes, debe aprender a hacer un uso informado y progresivo de estos, sentando las bases para que más adelante pueda profundizar en sus potencialidades expresivas.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP03",
       "agrupa": [
         "ce:SEUPC7"
       ],
@@ -622,6 +674,7 @@
         "CCEC4"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -631,7 +684,7 @@
       "notation": "SEUP03BC8",
       "prefLabel": "Educación Plástica, Visual y Audiovisual · 3º ESO · bloque competencial C8",
       "scopeNote": "A través de este bloque competencial, se constatará que el alumnado puede reconocer diferentes usos y funciones de las producciones y manifestaciones artísticas, así como argumentar sus conclusiones acerca de las oportunidades personales, sociales y económicas que se pueden generar. También se comprobará que aplica, con una intención previa, las técnicas básicas para la creación de producciones audiovisuales sencillas, organizando y desarrollando las diferentes etapas del proceso, experimentando en entornos virtuales de aprendizaje, incluidos los más cercanos, de forma individual o colectiva, y aprendiendo de sus errores. Por último, se comprobará su capacidad para exponer las diferentes fases de elaboración y el resultado final, mediante el uso de aplicaciones informáticas sencillas. Todo esto con la intención de que asimile que la obra artística alcanza todo su sentido y potencialidad cuando llega al público y produce un efecto sobre él.",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP03",
       "agrupa": [
         "ce:SEUPC8"
       ],
@@ -645,6 +698,7 @@
         "CE3"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -663,6 +717,7 @@
         "CC2"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -681,6 +736,7 @@
         "CC3"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -698,6 +754,7 @@
         "CCEC3"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -715,6 +772,7 @@
         "CC3"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -733,6 +791,7 @@
         "CCEC2"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -750,6 +809,7 @@
         "CD2"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -767,6 +827,7 @@
         "CCEC2"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -786,6 +847,7 @@
         "CCEC4"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -804,6 +866,7 @@
         "CCEC4"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -821,6 +884,7 @@
         "CC1"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -838,6 +902,7 @@
         "CCEC3"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -859,6 +924,7 @@
         "CCEC4"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -876,6 +942,7 @@
         "CCEC4"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -894,6 +961,7 @@
         "CPSAA5"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -915,6 +983,7 @@
         "CCEC1"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -934,6 +1003,7 @@
         "CC3"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -953,6 +1023,7 @@
         "CCEC3"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -971,6 +1042,7 @@
         "CCEC2"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -991,6 +1063,7 @@
         "CCEC2"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1011,6 +1084,7 @@
         "CD2"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1031,6 +1105,7 @@
         "CCEC2"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1054,6 +1129,7 @@
         "CCEC4"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1072,6 +1148,7 @@
         "CCEC4"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1092,6 +1169,7 @@
         "CC1"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1110,6 +1188,7 @@
         "CCEC3"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1137,6 +1216,7 @@
         "CCEC4"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1155,6 +1235,7 @@
         "CCEC4"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1175,6 +1256,7 @@
         "CCEC4"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1195,6 +1277,7 @@
         "CE3"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1214,6 +1297,7 @@
         "CCEC1"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1232,6 +1316,7 @@
         "CC3"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1249,6 +1334,7 @@
         "CCEC3"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1266,6 +1352,7 @@
         "CC3"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1284,6 +1371,7 @@
         "CCEC2"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1301,6 +1389,7 @@
         "CD2"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1318,6 +1407,7 @@
         "CCEC2"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1337,6 +1427,7 @@
         "CCEC4"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1355,6 +1446,7 @@
         "CCEC4"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1372,6 +1464,7 @@
         "CC1"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1389,6 +1482,7 @@
         "CCEC3"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1411,6 +1505,7 @@
         "CCEC4"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1428,6 +1523,7 @@
         "CCEC4"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1446,6 +1542,7 @@
         "CPSAA5"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1464,6 +1561,7 @@
         "CE3"
       ],
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1473,8 +1571,9 @@
       "notation": "SEUP01SBI",
       "prefLabel": "SEUP01SBI · I. Patrimonio artístico y cultural",
       "definition": "Patrimonio artístico y cultural",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP01",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1484,8 +1583,9 @@
       "notation": "SEUP01SBII",
       "prefLabel": "SEUP01SBII · II. Elementos formales de la imagen y del lenguaje visual. La expresión gráfica",
       "definition": "Elementos formales de la imagen y del lenguaje visual. La expresión gráfica",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP01",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1495,8 +1595,9 @@
       "notation": "SEUP01SBIII",
       "prefLabel": "SEUP01SBIII · III. Expresión artística y gráfico-plástica: técnicas y procedimientos",
       "definition": "Expresión artística y gráfico-plástica: técnicas y procedimientos",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP01",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1506,8 +1607,9 @@
       "notation": "SEUP01SBIV",
       "prefLabel": "SEUP01SBIV · IV. Imagen y comunicación visual y audiovisual",
       "definition": "Imagen y comunicación visual y audiovisual",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP01",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1517,8 +1619,9 @@
       "notation": "SEUP02SBI",
       "prefLabel": "SEUP02SBI · I. Patrimonio artístico y cultural",
       "definition": "Patrimonio artístico y cultural",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP02",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1528,8 +1631,9 @@
       "notation": "SEUP02SBII",
       "prefLabel": "SEUP02SBII · II. Elementos formales de la imagen y del lenguaje visual. La expresión gráfica",
       "definition": "Elementos formales de la imagen y del lenguaje visual. La expresión gráfica",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP02",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1539,8 +1643,9 @@
       "notation": "SEUP02SBIII",
       "prefLabel": "SEUP02SBIII · III. Expresión artística y gráfico-plástica: técnicas y procedimientos",
       "definition": "Expresión artística y gráfico-plástica: técnicas y procedimientos",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP02",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1550,8 +1655,9 @@
       "notation": "SEUP02SBIV",
       "prefLabel": "SEUP02SBIV · IV. Imagen y comunicación visual y audiovisual",
       "definition": "Imagen y comunicación visual y audiovisual",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP02",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1561,8 +1667,9 @@
       "notation": "SEUP03SBI",
       "prefLabel": "SEUP03SBI · I. Patrimonio artístico y cultural",
       "definition": "Patrimonio artístico y cultural",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP03",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1572,8 +1679,9 @@
       "notation": "SEUP03SBII",
       "prefLabel": "SEUP03SBII · II. Elementos formales de la imagen y del lenguaje visual. La expresión gráfica",
       "definition": "Elementos formales de la imagen y del lenguaje visual. La expresión gráfica",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP03",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1583,8 +1691,9 @@
       "notation": "SEUP03SBIII",
       "prefLabel": "SEUP03SBIII · III. Expresión artística y gráfico-plástica: técnicas y procedimientos",
       "definition": "Expresión artística y gráfico-plástica: técnicas y procedimientos",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP03",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1594,8 +1703,9 @@
       "notation": "SEUP03SBIV",
       "prefLabel": "SEUP03SBIV · IV. Imagen y comunicación visual y audiovisual",
       "definition": "Imagen y comunicación visual y audiovisual",
-      "broader": "materia:SEUP",
+      "broader": "asig:SEUP03",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1607,6 +1717,7 @@
       "definition": "Análisis de las formas geométricas en el arte y en el entorno. Patrimonio arquitectónico.",
       "broader": "sb:SEUP01SBI",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1618,6 +1729,7 @@
       "definition": "Análisis de los elementos básicos del lenguaje visual: el punto, la línea y el plano. Posibilidades expresivas y comunicativas. Obras de artistas canarios.",
       "broader": "sb:SEUP01SBII",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1629,6 +1741,7 @@
       "definition": "Análisis, con el estudio de obras de artistas plásticos canarios, de los elementos visuales, conceptos y posibilidades expresivas: forma, color y textura.",
       "broader": "sb:SEUP01SBII",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1640,6 +1753,7 @@
       "definition": "Selección y descripción de los elementos que intervienen en composiciones básicas. Los esquemas compositivos.",
       "broader": "sb:SEUP01SBII",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1651,6 +1765,7 @@
       "definition": "Reconocimiento y constatación del proceso creativo a través de operaciones plásticas: reproducir, aislar, transformar y asociar.",
       "broader": "sb:SEUP01SBIII",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1662,6 +1777,7 @@
       "definition": "Introducción a la geometría plana y trazados geométricos básicos.",
       "broader": "sb:SEUP01SBIII",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1673,6 +1789,7 @@
       "definition": "Uso de técnicas básicas de expresión gráfico-plástica en dos dimensiones. Técnicas secas y húmedas. Su uso en el arte y sus características expresivas: estudio de artistas como Lola Massieu y Pepe Dámaso, entre otros.",
       "broader": "sb:SEUP01SBIII",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1684,6 +1801,7 @@
       "definition": "Análisis del lenguaje y la comunicación visual. Finalidades: informativa, comunicativa, expresiva y estética. Contextos y funciones.",
       "broader": "sb:SEUP01SBIV",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1695,6 +1813,7 @@
       "definition": "Uso de imágenes visuales y audiovisuales: lectura y análisis.",
       "broader": "sb:SEUP01SBIV",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1706,6 +1825,7 @@
       "definition": "Análisis de los géneros artísticos.",
       "broader": "sb:SEUP02SBI",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1717,6 +1837,7 @@
       "definition": "Análisis del lenguaje visual como forma de comunicación.",
       "broader": "sb:SEUP02SBII",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1728,6 +1849,7 @@
       "definition": "Selección y descripción de los elementos que intervienen en composiciones básicas. Los esquemas compositivos.",
       "broader": "sb:SEUP02SBII",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1739,6 +1861,7 @@
       "definition": "Estudio del proceso creativo: mapas mentales.",
       "broader": "sb:SEUP02SBIII",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1750,6 +1873,7 @@
       "definition": "Construcción de polígonos regulares e irregulares en función de sus lados y ángulos: triángulos y cuadriláteros.",
       "broader": "sb:SEUP02SBIII",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1761,6 +1885,7 @@
       "definition": "Elaboración de técnicas básicas de expresión gráfico-plástica en dos dimensiones. Técnicas secas, húmedas y mixtas. Su uso en el arte y sus características expresivas.",
       "broader": "sb:SEUP02SBIII",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1772,6 +1897,7 @@
       "definition": "Análisis del lenguaje y la comunicación visual. Finalidad o función. Grados de iconicidad de las imágenes.",
       "broader": "sb:SEUP02SBIV",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1783,6 +1909,7 @@
       "definition": "Aplicación de mensajes visuales y audiovisuales publicitarios: lectura y análisis.",
       "broader": "sb:SEUP02SBIV",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1794,6 +1921,7 @@
       "definition": "Análisis de manifestaciones culturales y artísticas más importantes, incluidas las contemporáneas y las pertenecientes al patrimonio local: sus aspectos formales y su relación con el contexto histórico.",
       "broader": "sb:SEUP03SBI",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1805,6 +1933,7 @@
       "definition": "Análisis de la percepción visual. Introducción a los principios perceptivos, elementos y factores.",
       "broader": "sb:SEUP03SBII",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1816,6 +1945,7 @@
       "definition": "Selección y descripción de la composición. Conceptos de equilibrio, proporción y ritmo aplicados a la organización de formas en el plano y en el espacio.",
       "broader": "sb:SEUP03SBII",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1827,6 +1957,7 @@
       "definition": "Estudio de factores y etapas del proceso creativo: elección de materiales y técnicas, realización de bocetos.",
       "broader": "sb:SEUP03SBIII",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1838,6 +1969,7 @@
       "definition": "Construcción de polígonos regulares e irregulares en función de sus lados y ángulos: del pentágono hasta el octógono.",
       "broader": "sb:SEUP03SBIII",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1849,6 +1981,7 @@
       "definition": "Uso de técnicas básicas de expresión gráfico-plástica en tres dimensiones. Su uso en el arte y sus características expresivas.",
       "broader": "sb:SEUP03SBIII",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1860,6 +1993,7 @@
       "definition": "Uso de la Imagen fija y en movimiento, origen y evolución. Introducción a las diferentes características del cómic, la fotografía, el cine, la animación y los formatos digitales.",
       "broader": "sb:SEUP03SBIV",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1871,6 +2005,7 @@
       "definition": "Aplicación de técnicas básicas para la realización de producciones audiovisuales sencillas, de forma individual o en grupo. Experimentación en entornos virtuales de aprendizaje, incluidos los más cercanos.",
       "broader": "sb:SEUP03SBIV",
       "materia": "materia:SEUP",
+      "materia_curso": "asig:SEUP03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     }

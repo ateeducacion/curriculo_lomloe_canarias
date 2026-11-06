@@ -12,6 +12,16 @@
       "etapa": "etapa:ESO"
     },
     {
+      "id": "asig:SFIL04",
+      "tipo": "MateriaCurso",
+      "notation": "SFIL04",
+      "prefLabel": "Filosofía · 4º ESO",
+      "broader": "materia:SFIL",
+      "materia": "materia:SFIL",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
       "id": "ce:SFILC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "SFILC1",
@@ -47,7 +57,7 @@
       "notation": "SFIL04BC1",
       "prefLabel": "Filosofía · 4º ESO · bloque competencial C1",
       "scopeNote": "El pensamiento filosófico se ofrece aquí como una herramienta para pensar el presente que transforma las ideas de lo que somos, que despierta en el alumnado el asombro y la duda para impulsar la reflexión desde perspectivas diferentes. A través de este bloque competencial se persigue constatar que el alumnado reconoce los principales interrogantes filosóficos y construye un adecuado concepto de la filosofía y de su dimensión crítica, reconociendo las diversas reflexiones y soluciones dadas. Para ello, se comprobará que el alumnado es capaz de investigar y seleccionar información significativa que sirva al desarrollo de una actitud indagadora y crítica en el planteamiento de los problemas de la vida y la realidad. De este modo contribuiremos a la comprensión de textos acerca de la realidad, la ciencia, el ser humano y la sociedad, a la contrastación de la información de forma crítica y la comunicación de los conocimientos adoptando un punto de vista creativo, crítico y personal.",
-      "broader": "materia:SFIL",
+      "broader": "asig:SFIL04",
       "agrupa": [
         "ce:SFILC1"
       ],
@@ -59,6 +69,7 @@
         "CD2"
       ],
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -68,7 +79,7 @@
       "notation": "SFIL04BC2",
       "prefLabel": "Filosofía · 4º ESO · bloque competencial C2",
       "scopeNote": "La reflexión filosófica necesita un espacio de diálogo para entender las diversas aportaciones dadas por la actividad filosófica. A través de este bloque competencial se comprobará que diferencia, en debates, tertulias u otros foros de comunicación incluidas las plataformas virtuales, algunas de las aportaciones de la filosofía a la definición del ser humano y su relación con la naturaleza y la cultura. Se evaluará que el alumnado reconoce, a través de lecturas de diferentes tipos de textos, la dimensión social, cultural, creativa e innovadora del ser humano. De esta forma se comprobará que el alumnado es capaz de resolver supuestos prácticos relacionando aspectos de la identidad personal, las emociones, la socialización y prácticas responsables en entornos digitales, contribuyendo a cimentar hábitos de convivencia democrática, y a la práctica de la resolución dialogada de los conflictos y la igualdad de derechos de todas las personas, considerando críticamente los valores y costumbres propios y ajenos.",
-      "broader": "materia:SFIL",
+      "broader": "asig:SFIL04",
       "agrupa": [
         "ce:SFILC2"
       ],
@@ -83,6 +94,7 @@
         "CP3"
       ],
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -92,7 +104,7 @@
       "notation": "SFIL04BC3",
       "prefLabel": "Filosofía · 4º ESO · bloque competencial C3",
       "scopeNote": "La filosofía como saber crítico aporta una diversidad de perspectivas y conocimientos que sirven para orientar la acción humana, su creatividad y su libertad preparando al alumnado para los retos de la sociedad del siglo XXI. A través de este bloque competencial se constató que el alumnado valora la democracia, la justicia y la libertad, demostrando respeto por las normas, empatía, equidad y espíritu constructivo en la interacción con las demás personas, desarrollando, además, proyectos cooperativos que integren el pensamiento creativo y racional con un fin crítico y transformador de la realidad, fomentando la reflexión estética en torno al ideal de belleza.",
-      "broader": "materia:SFIL",
+      "broader": "asig:SFIL04",
       "agrupa": [
         "ce:SFILC3"
       ],
@@ -109,6 +121,7 @@
         "CCEC3"
       ],
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -128,6 +141,7 @@
         "CD2"
       ],
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -149,6 +163,7 @@
         "CE1"
       ],
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -171,6 +186,7 @@
         "CE1"
       ],
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -193,6 +209,7 @@
         "CE1"
       ],
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -215,6 +232,7 @@
         "CCEC3"
       ],
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -224,8 +242,9 @@
       "notation": "SFIL04SBI",
       "prefLabel": "SFIL04SBI · I. La Filosofía y sus preguntas",
       "definition": "La Filosofía y sus preguntas",
-      "broader": "materia:SFIL",
+      "broader": "asig:SFIL04",
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -235,8 +254,9 @@
       "notation": "SFIL04SBII",
       "prefLabel": "SFIL04SBII · II. Identidad y socialización",
       "definition": "Identidad y socialización",
-      "broader": "materia:SFIL",
+      "broader": "asig:SFIL04",
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -246,8 +266,9 @@
       "notation": "SFIL04SBIII",
       "prefLabel": "SFIL04SBIII · III. Pensamiento y transformación. Filosofía práctica",
       "definition": "Pensamiento y transformación. Filosofía práctica",
-      "broader": "materia:SFIL",
+      "broader": "asig:SFIL04",
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -259,6 +280,7 @@
       "definition": "El origen de la reflexión filosófica.",
       "broader": "sb:SFIL04SBI",
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -270,6 +292,7 @@
       "definition": "La pregunta por la realidad. Conocimiento e identificación de las soluciones de interpretación de la realidad expuestas por los presocráticos o más allá de los mitos.",
       "broader": "sb:SFIL04SBI.1",
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -281,6 +304,7 @@
       "definition": "Análisis y disertación entorno a las interpretaciones del ser humano y la sociedad en Sócrates y los Sofistas. El discurso filosófico y la retórica.",
       "broader": "sb:SFIL04SBI.1",
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -292,6 +316,7 @@
       "definition": "Identificación de las relaciones entre ciencia y filosofía. Las pseudociencias.",
       "broader": "sb:SFIL04SBI.1",
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -303,6 +328,7 @@
       "definition": "Identidad personal.",
       "broader": "sb:SFIL04SBII",
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -314,6 +340,7 @@
       "definition": "Reconocimiento de las aportaciones de la filosofía a la definición del ser humano. La filosofía griega.",
       "broader": "sb:SFIL04SBII.1",
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -325,6 +352,7 @@
       "definition": "Explicación de algunas teorías psicológicas y filosóficas sobre la personalidad. Análisis de sus principales conceptos para la comprensión de la pregunta: ¿quién soy?",
       "broader": "sb:SFIL04SBII.1",
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -336,6 +364,7 @@
       "definition": "Naturaleza y cultura. Análisis de las diferencias entre esencialismo y constructivismo. Reconocimiento de la dimensión social y cultural en la construcción de la identidad. Valoración sobre lo masculino y lo femenino, o los roles de género.",
       "broader": "sb:SFIL04SBII.1",
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -347,6 +376,7 @@
       "definition": "Las emociones. Identificación de las teorías de la personalidad, emociones, inteligencia emocional y control de la frustración. Valoración sobre la reivindicación de lo irracional.",
       "broader": "sb:SFIL04SBII.1",
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -358,6 +388,7 @@
       "definition": "Socialización.",
       "broader": "sb:SFIL04SBII",
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -369,6 +400,7 @@
       "definition": "Reflexión sobre las nociones referidas a la relación individuo-sociedad y el proceso de socialización.",
       "broader": "sb:SFIL04SBII.2",
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -380,6 +412,7 @@
       "definition": "Origen de la sociedad. Análisis de las diferencias entre naturalismo y contractualismo. Valoración del concepto de civilización y de la dicotomía entre etnocentrismo y relativismo cultural.",
       "broader": "sb:SFIL04SBII.2",
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -391,6 +424,7 @@
       "definition": "Reflexión crítica sobre el papel de la cultura y las tecnologías digitales, así como el del individuo como creador y transformador de la cultura.",
       "broader": "sb:SFIL04SBII.2",
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -402,6 +436,7 @@
       "definition": "Reflexión acerca de la posibilidad de la libertad. Determinismo, azar y voluntad.",
       "broader": "sb:SFIL04SBIII",
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -413,6 +448,7 @@
       "definition": "Identificación del concepto de justicia y de los regímenes políticos totalitarios.",
       "broader": "sb:SFIL04SBIII.1",
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -424,6 +460,7 @@
       "definition": "Investigación sobre las utopías y las distopías, las utopías feministas, la mujer en las sociedades distópicas.",
       "broader": "sb:SFIL04SBIII.1",
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -435,6 +472,7 @@
       "definition": "Estética. Valoración de los cánones de belleza. Identificación de la creatividad.",
       "broader": "sb:SFIL04SBIII.1",
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -446,6 +484,7 @@
       "definition": "Valoración del arte como expresión de las ideas filosóficas.",
       "broader": "sb:SFIL04SBIII.1",
       "materia": "materia:SFIL",
+      "materia_curso": "asig:SFIL04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     }

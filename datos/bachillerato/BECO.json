@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BECO01",
+      "tipo": "MateriaCurso",
+      "notation": "BECO01",
+      "prefLabel": "Economía · 1º Bachillerato",
+      "broader": "materia:BECO",
+      "materia": "materia:BECO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BECOC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BECOC1",
@@ -77,7 +87,7 @@
       "notation": "BECO01BC1",
       "prefLabel": "Economía · 1º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado es capaz de comprender el funcionamiento de la realidad económica mediante la valoración de las necesidades, los bienes, el problema de la escasez y cómo esta condiciona los comportamientos desde la perspectiva económica, tanto en el plano personal como social. Para ello, se comprobará la capacidad del alumnado para explicar, cuando se le presenten alternativas de elección simuladas para diversos contextos y a través de la comprensión e interpretación de textos multimodales, cómo la ciencia económica puede guiar a las personas y a la sociedad en el proceso de toma de decisiones y la racionalidad sobre el uso eficiente de los bienes y recursos para, alcanzar el máximo bienestar individual y colectivo, mediante la aplicación de los principios del coste de oportunidad, los costes irrecuperables, el análisis marginal, los incentivos y las expectativas. Se constatará, además, que es capaz de utilizar la modelización como herramienta para ilustrar el coste de oportunidad de las decisiones por medio de la frontera de posibilidades de producción, y para entender el contenido económico de las relaciones sociales que se efectúan a través del mercado y del comercio cuando, con el planteamiento de hipótesis, pueda transferir los conocimientos económicos y financieros adquiridos a contextos locales y globales. Se verificará también, que el alumnado es capaz de comprender el funcionamiento de la economía investigando sobre los sistemas económicos y la organización económica mundial, valorando con sentido crítico y empleando diversos recursos y actividades de enseñanza y aprendizaje, los mecanismos que los países manejan para resolver los problemas económicos básicos. Asimismo, las propuestas de mejoras y críticas que pueda exponer el alumnado acerca del funcionamiento de la realidad, mediante proposiciones de economía normativa o positiva, visibilizan por un lado, la visión científica de la economía y, por otro lado, sus aptitudes sobre la ética, la religión, la filosofía o la política, constatando si afronta con una actitud dialogante, la pluralidad de valores, creencias e ideas, y si rechaza todo tipo de discriminación y violencia, promoviendo activamente la igualdad efectiva entre mujeres y hombres.",
-      "broader": "materia:BECO",
+      "broader": "asig:BECO01",
       "agrupa": [
         "ce:BECOC1"
       ],
@@ -91,6 +101,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -100,7 +111,7 @@
       "notation": "BECO01BC2",
       "prefLabel": "Economía · 1º Bachillerato · bloque competencial C2",
       "scopeNote": "Esta competencia específica trata de explicar con visión microeconómica el comportamiento de los agentes económicos, con lo que se podrá comprobar que el alumnado es capaz de reconocer el funcionamiento de los mercados y la naturaleza de las transacciones que tienen lugar en él mediante el análisis de la oferta y la demanda y la interpretación de cómo y en qué medida las modificaciones en las variables que les afectan provocan cambios en el precio y la cantidad de equilibrio, mediante la representación gráfica de los movimientos y desplazamientos de sus curvas y del análisis de la elasticidad precio de la demanda y la elasticidad renta. Para ello se constatará que utiliza el pensamiento científico para entender cómo los precios orientan las decisiones en el mercado a través de la teoría de la mano invisible y explicar los intercambios en el mercado, planteándose hipótesis y comprobándolas con la observación y la experimentación, haciendo uso de herramientas gráficas y matemáticas de análisis microeconómico y mostrando una actitud crítica acerca del alcance y limitaciones de los métodos empleados. Con el estudio de diversos casos de prácticas anticompetitivas en distintos sectores estratégicos y, empleando la teoría de juegos como método de investigación, se verificará que el alumnado describe las características y las estrategias competitivas y de cooperación seguidas por las empresas en los diferentes tipos de mercados existentes. Además, se verificará que el alumnado analiza hechos que informan de la eficiencia en la asignación de recursos y adopta un juicio propio y argumentado sobre los fallos del mercado, siendo capaz de obtener conclusiones lógicas de forma autónoma sobre la justificación de la intervención del Estado en la economía a través de la aplicación de las políticas económicas, reflexionando sobre sus efectos en la igualdad de oportunidades, el crecimiento y la redistribución de la renta.",
-      "broader": "materia:BECO",
+      "broader": "asig:BECO01",
       "agrupa": [
         "ce:BECOC2"
       ],
@@ -114,6 +125,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -123,7 +135,7 @@
       "notation": "BECO01BC3",
       "prefLabel": "Economía · 1º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado es capaz de transferir conocimientos económicos y financieros a contextos locales, como la promoción del desarrollo económico y social del archipiélago canario a través del Régimen Económico y Fiscal (REF) canario, y a contextos globales, como el estado del bienestar, ambos bajo la perspectiva macroeconómica, estableciendo distinciones en el papel que desempeñan los agentes económicos en la sociedad, la modelización del flujo circular de la renta y los costes y beneficios económicos, sociales y ambientales que generan las decisiones económicas. Con el estudio del funcionamiento del modelo de demanda y oferta agregada se verificará la capacidad del alumnado para utilizar el pensamiento científico con el que valorar las situaciones de equilibrio a corto plazo y analizar el comportamiento global de la economía, entendiendo las fluctuaciones de la actividad económica en relación con la interpretación de la evolución de los indicadores y variables macroeconómicas como el PIB, la tasa de desempleo, el índice de precios al consumo (IPC) o el déficit público, que publican instituciones como el Eurostat, el Banco Mundial, el Instituto Nacional de Estadística (INE) o el Instituto Canario de Estadística (ISTAC), evaluando sus limitaciones y la pertinencia de la información en función de los objetivos. Con el análisis de las cuentas públicas y la síntesis de los gastos e ingresos contenidos en los presupuestos generales del Estado, diferenciando entre los tipos de fiscalidad y los hechos imponibles de los principales impuestos del sistema tributario español y estudiando las singularidades canarias derivadas de la lejanía y la insularidad contempladas en el REF, se comprobará que el alumnado puede adoptar un juicio propio sobre los estabilizadores automáticos y las políticas fiscales con el que argumentar el papel del Estado para conciliar la democracia y el estado del bienestar, el problema que representa la existencia de un elevado déficit público estructural, los efectos de la deuda pública en la economía del país, la aplicación del principio de solidaridad, la sostenibilidad de las pensiones o el nivel adecuado de impuestos que asegure la financiación del estado del bienestar. Se corroborará también la capacidad del alumnado para relacionar los diferentes campos del conocimiento, localizando y comparando información laboral en las páginas web oficiales del Servicio Público de Empleo Estatal, del Observatorio Canario de Empleo o de la Encuesta de Población Activa, además de noticias, pódcast o estudios que evalúen la situación laboral en la sociedad, e integrando saberes como los tipos de desempleo, la brecha salarial, las tendencias del mercado de trabajo, la evolución de las profesiones y los nuevos yacimientos de empleo en Canarias. Todo ello para valorar con sentido crítico los desequilibrios del mercado de trabajo, como pueden ser los costes del desempleo, los flujos migratorios mundiales fruto de la concentración empresarial y, en particular, la migración en Canarias o la dimensión y los problemas derivados de la economía sumergida.",
-      "broader": "materia:BECO",
+      "broader": "asig:BECO01",
       "agrupa": [
         "ce:BECOC3"
       ],
@@ -142,6 +154,7 @@
         "CE1"
       ],
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -151,7 +164,7 @@
       "notation": "BECO01BC4",
       "prefLabel": "Economía · 1º Bachillerato · bloque competencial C4",
       "scopeNote": "Con la evaluación de este bloque competencial se pretende comprobar la capacidad del alumnado para planificar y gestionar las decisiones financieras referidas a la inversión, el ahorro y el consumo. Se deberá evaluar la adquisición de información y el manejo de herramientas que favorezcan en el alumnado aptitudes para adoptar decisiones económicas personales en las distintas etapas de la vida. Para ello se comprobará, en primer lugar, que el alumnado es capaz de describir la tipología y las funciones del dinero, la fijación de su precio como compensación del riesgo y el beneficio, así como su proceso de creación. En segundo lugar, se verificará que es capaz de describir el funcionamiento del sistema financiero a través del análisis del papel de los bancos en la economía, del funcionamiento de los productos financieros, como pueden ser los préstamos y las hipotecas y sus sustitutos, y a través de los seguros como medida de protección ante el riesgo y la incertidumbre. En tercer lugar, se verificará que es capaz de entender otros desafíos que puedan marcar la evolución del panorama financiero en un futuro. Para ello se podrá emplear la búsqueda de información en internet para realizar una comparativa sobre la oferta de productos financieros y de seguros, contrastar y debatir artículos de prensa y vídeos sobre los efectos que la inflación y el crédito producen en la economía, además de consultar y extraer información financiera del portal educativo del Banco de España, por ejemplo. Asimismo, se corroborará que el alumnado describe el funcionamiento del mercado monetario y los efectos de la aplicación de las herramientas de la política monetaria sobre la inflación, la estabilidad de precios, el crecimiento y el bienestar, reconociendo la influencia del incremento de los precios en el poder adquisitivo del dinero y explicando las causas y efectos de la inflación en la economía real y en las finanzas personales. Con ello, la educación financiera que el alumnado pueda adquirir a partir de conocimientos técnicos específicos le permitirá evaluar necesidades y oportunidades y afrontar retos personales futuros, con sentido crítico y ético, valorando el impacto que puedan suponer en el ámbito personal, familiar y profesional.",
-      "broader": "materia:BECO",
+      "broader": "asig:BECO01",
       "agrupa": [
         "ce:BECOC4"
       ],
@@ -167,6 +180,7 @@
         "CE2"
       ],
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -176,7 +190,7 @@
       "notation": "BECO01BC5",
       "prefLabel": "Economía · 1º Bachillerato · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se persigue constatar que el alumnado es capaz de comprender los retos económicos actuales, especialmente los generados por los desafíos y las oportunidades de la apertura de las economías hacia el comercio internacional, siendo consciente del propio proceso de aprendizaje. En este sentido, la integración de saberes sobre las reglas e instrumentos de política comercial pueden reforzarse con la evaluación de diferentes tareas y debates de confrontación de opiniones con sentido crítico sobre las causas y consecuencias del proteccionismo y del libre comercio y sobre la globalización, sus factores explicativos, las oportunidades y los riesgos, comprobando que localiza, selecciona y contrasta de manera autónoma información procedente de diferentes fuentes adoptando un punto de vista creativo para disminuir las desigualdades. Asimismo, se verificará el análisis que el alumnado pueda realizar de los beneficios de la cooperación internacional, estudiando en pequeños grupos colaborativos las finalidades, el origen de su constitución y su contribución al desarrollo económico y social que actualmente desempeñan diversas organizaciones e instituciones internacionales, como la Organización para la Cooperación y el Desarrollo Económico (OCDE), el Fondo Monetario Internacional (FMI), el Banco Mundial (BM), la Organización Común de Mercado (OCM), el G-7, el G-20, etc. Del mismo modo, en este bloque competencial se persigue verificar si los alumnos y las alumnas explican los objetivos, los grados y las ventajas de los procesos de integración económica a escala internacional y, especialmente, los producidos en la Unión Económica y Monetaria (UEM), reconociendo sus instituciones y la estructura del presupuesto comunitario y reflexionando sobre las fortalezas y debilidades de la Unión Europea y sobre las repercusiones e implicaciones que las políticas comunes tienen para el desarrollo económico de España en un contexto global. Paralelamente, se evaluarán las conclusiones lógicas sobre la distribución de la renta, la acumulación de capital y la relación entre eficiencia y equidad fruto del análisis que el alumnado pueda realizar, desde un punto de vista cualitativo y cuantitativo, del crecimiento económico, los factores de crecimiento y el desarrollo con la interpretación de medidas de dispersión y asimetría como la curva de Lorenz o el índice de Gini. Por último, se constatará que comparte, construye nuevos conocimientos y valora de forma crítica , por un lado, la contribución de la ciencia económica y la tecnología al cambio de las condiciones de vida a partir del análisis y valoración de indicadores de desarrollo social y de textos referidos al impacto de la revolución digital sobre el empleo y la distribución de la renta y a la adaptación de la población activa ante los retos de la tecnología digital y la nueva economía, y, por otro lado, mediante el estudio de casos se verificará su capacidad para desarrollar soluciones tecnológicas innovadoras y sostenibles que den respuesta a mejoras en el bienestar y la calidad de vida relacionadas con otras teorías de crecimiento económico sostenible, como la economía colaborativa y la economía circular.",
-      "broader": "materia:BECO",
+      "broader": "asig:BECO01",
       "agrupa": [
         "ce:BECOC5"
       ],
@@ -194,6 +208,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -203,7 +218,7 @@
       "notation": "BECO01BC6",
       "prefLabel": "Economía · 1º Bachillerato · bloque competencial C6",
       "scopeNote": "Este bloque competencial tiene carácter transversal y el tratamiento de sus aprendizajes será de aplicación y evaluación a lo largo de todos los procesos de enseñanza y de aprendizaje de la materia. Con el desarrollo de este bloque, se evaluará de forma continua la capacidad del alumnado para adquirir una conciencia ciudadana responsable a través de los métodos para el análisis de la realidad económica como el método científico, la modelización y experimentos o ensayos económicos y la capacidad de éstos para señalar caminos que son relevantes para dar respuesta a los retos de la sociedad. En este sentido, se verificará que es capaz de aplicar determinadas herramientas analíticas y metodologías económicas y estadísticas como el método del análisis coste-beneficio de un proyecto de carácter económico-empresarial básico, pero teniendo en cuenta también que este método puede ser de aplicación para evaluar el valor contra el coste de una decisión de negocio, proyecto de inversión o política. Finalmente, a partir del estudio de casos sobre la economía del comportamiento, la visualización de documentales y escenas de cine, y otras manifestaciones acerca de las influencias sociales, los incentivos y las emociones que condicionan la toma de decisiones, el alumnado puede contrastar las desviaciones de la racionalidad económica con los valores indispensables para el desarrollo individual y social como son la ética, la responsabilidad social y el desarrollo sostenible, planteando soluciones socioeconómicas innovadoras armonizadas con los Objetivos de Desarrollo Sostenible (ODS) para hacer frente a los retos económicos actuales. Así se verificará que valora y mide su propia actitud y el alcance que sus decisiones y elecciones tienen para el bienestar social de Canarias proyectado en la Agenda Canaria de Desarrollo Sostenible 2030.",
-      "broader": "materia:BECO",
+      "broader": "asig:BECO01",
       "agrupa": [
         "ce:BECOC6"
       ],
@@ -221,6 +236,7 @@
         "CCEC1"
       ],
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -241,6 +257,7 @@
         "CE2"
       ],
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -259,6 +276,7 @@
         "CE2"
       ],
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -278,6 +296,7 @@
         "CE3"
       ],
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -296,6 +315,7 @@
         "CE2"
       ],
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -317,6 +337,7 @@
         "CE2"
       ],
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -338,6 +359,7 @@
         "CE1"
       ],
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -358,6 +380,7 @@
         "CE1"
       ],
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -376,6 +399,7 @@
         "CE2"
       ],
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -396,6 +420,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -415,6 +440,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -440,6 +466,7 @@
         "CCEC1"
       ],
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -449,8 +476,9 @@
       "notation": "BECO01SBI",
       "prefLabel": "BECO01SBI · I. Las decisiones económicas",
       "definition": "Las decisiones económicas",
-      "broader": "materia:BECO",
+      "broader": "asig:BECO01",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -460,8 +488,9 @@
       "notation": "BECO01SBII",
       "prefLabel": "BECO01SBII · II. La realidad económica. Herramientas para entender el mundo con una visión microeconómica",
       "definition": "La realidad económica. Herramientas para entender el mundo con una visión microeconómica",
-      "broader": "materia:BECO",
+      "broader": "asig:BECO01",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -471,8 +500,9 @@
       "notation": "BECO01SBIII",
       "prefLabel": "BECO01SBIII · III. La realidad económica. Herramientas para entender el mundo con una visión macroeconómica",
       "definition": "La realidad económica. Herramientas para entender el mundo con una visión macroeconómica",
-      "broader": "materia:BECO",
+      "broader": "asig:BECO01",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -482,8 +512,9 @@
       "notation": "BECO01SBIV",
       "prefLabel": "BECO01SBIV · IV. Las políticas económicas",
       "definition": "Las políticas económicas",
-      "broader": "materia:BECO",
+      "broader": "asig:BECO01",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -493,8 +524,9 @@
       "notation": "BECO01SBV",
       "prefLabel": "BECO01SBV · V. Los retos de la economía española en un contexto globalizado",
       "definition": "Los retos de la economía española en un contexto globalizado",
-      "broader": "materia:BECO",
+      "broader": "asig:BECO01",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -506,6 +538,7 @@
       "definition": "Relación entre economía, escasez, necesidades y bienes: la necesidad de elegir.",
       "broader": "sb:BECO01SBI",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -517,6 +550,7 @@
       "definition": "El proceso de toma de decisiones económicas: la racionalidad y la eficiencia. La aplicación de los principios de decisión en economía: el coste de oportunidad, los costes irrecuperables, el análisis marginal, los incentivos y las expectativas.",
       "broader": "sb:BECO01SBI",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -528,6 +562,7 @@
       "definition": "El contenido económico de las relaciones sociales. La modelización como herramienta para entender las interacciones económicas.",
       "broader": "sb:BECO01SBI",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -539,6 +574,7 @@
       "definition": "La organización económica y los sistemas económicos: valoración y comparación.",
       "broader": "sb:BECO01SBI",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -550,6 +586,7 @@
       "definition": "La economía del comportamiento: desviaciones de la racionalidad económica. Decisiones económicas: consideración del riesgo, la ética y la gestión de la incertidumbre.",
       "broader": "sb:BECO01SBI",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -561,6 +598,7 @@
       "definition": "Los métodos para el análisis de la realidad económica: el método científico, la modelización y experimentos o ensayos económicos.",
       "broader": "sb:BECO01SBI",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -572,6 +610,7 @@
       "definition": "El intercambio y el mercado.",
       "broader": "sb:BECO01SBII",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -583,6 +622,7 @@
       "definition": "Análisis de la oferta y demanda: representación gráfica y análisis del equilibrio de mercado.",
       "broader": "sb:BECO01SBII.1",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -594,6 +634,7 @@
       "definition": "Análisis de la elasticidad precio de la demanda y la elasticidad renta.",
       "broader": "sb:BECO01SBII.1",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -605,6 +646,7 @@
       "definition": "Tipos de mercado: funcionamiento y características.",
       "broader": "sb:BECO01SBII.1",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -616,6 +658,7 @@
       "definition": "La Teoría de juegos como herramienta para analizar las decisiones estratégicas en los mercados.",
       "broader": "sb:BECO01SBII.1",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -627,6 +670,7 @@
       "definition": "Reflexión sobre los fallos del mercado.",
       "broader": "sb:BECO01SBII.1",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -638,6 +682,7 @@
       "definition": "Análisis coste-beneficio empresarial.",
       "broader": "sb:BECO01SBII.1",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -649,6 +694,7 @@
       "definition": "Estudio de la macroeconomía. El modelo económico del flujo circular de la renta y las interacciones de los agentes económicos.",
       "broader": "sb:BECO01SBIII",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -660,6 +706,7 @@
       "definition": "El modelo de demanda y oferta agregada: funcionamiento y equilibrio a corto plazo.",
       "broader": "sb:BECO01SBIII",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -671,6 +718,7 @@
       "definition": "El crecimiento económico y el desarrollo.",
       "broader": "sb:BECO01SBIII",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -682,6 +730,7 @@
       "definition": "Los factores del crecimiento. La distribución de la renta y la acumulación de capital: relación entre eficiencia y equidad.",
       "broader": "sb:BECO01SBIII.3",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -693,6 +742,7 @@
       "definition": "Los indicadores del crecimiento económico y del desarrollo social. Reflexión sobre bienestar y calidad de vida.",
       "broader": "sb:BECO01SBIII.3",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -704,6 +754,7 @@
       "definition": "Análisis de la cooperación internacional: finalidad, origen, organizaciones e instituciones relevantes.",
       "broader": "sb:BECO01SBIII.3",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -715,6 +766,7 @@
       "definition": "La economía laboral.",
       "broader": "sb:BECO01SBIII",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -726,6 +778,7 @@
       "definition": "El funcionamiento y las tendencias del mercado de trabajo: evolución de las profesiones y nuevos yacimientos de empleo en Canarias.",
       "broader": "sb:BECO01SBIII.4",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -737,6 +790,7 @@
       "definition": "Análisis del desempleo: indicadores del empleo, tipos, causas, efectos y medidas correctoras. Valoración de la brecha salarial.",
       "broader": "sb:BECO01SBIII.4",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -748,6 +802,7 @@
       "definition": "La migración en Canarias y sus implicaciones socioeconómicas.",
       "broader": "sb:BECO01SBIII.4",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -759,6 +814,7 @@
       "definition": "Distinción entre economía positiva y economía normativa. La intervención del Estado en la economía y su justificación. Los objetivos y efectos de las políticas económicas.",
       "broader": "sb:BECO01SBIV",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -770,6 +826,7 @@
       "definition": "La política fiscal.",
       "broader": "sb:BECO01SBIV",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -781,6 +838,7 @@
       "definition": "Análisis de la política fiscal: objetivos, instrumentos y estabilizadores automáticos. La distinción de los tipos de fiscalidad y los hechos imponibles de los principales impuestos del sistema tributario español. Estudio y Valoración de las singularidades del Régimen económico y fiscal de Canarias (REF).",
       "broader": "sb:BECO01SBIV.2",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -792,6 +850,7 @@
       "definition": "El futuro del estado del bienestar y su relación con la democracia. La financiación del estado del bienestar. La sostenibilidad de las pensiones.",
       "broader": "sb:BECO01SBIV.2",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -803,6 +862,7 @@
       "definition": "El principio de solidaridad y los impuestos. Los problemas derivados de la economía sumergida.",
       "broader": "sb:BECO01SBIV.2",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -814,6 +874,7 @@
       "definition": "El estudio del déficit público, la deuda pública y sus efectos.",
       "broader": "sb:BECO01SBIV.2",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -825,6 +886,7 @@
       "definition": "El dinero y el sistema financiero.",
       "broader": "sb:BECO01SBIV",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -836,6 +898,7 @@
       "definition": "El funcionamiento del sistema financiero y sus efectos. Evolución del panorama financiero.",
       "broader": "sb:BECO01SBIV.3",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -847,6 +910,7 @@
       "definition": "El dinero: funciones, formas y tipología. Descripción de su proceso de creación. Riesgo y beneficio: el precio del dinero.",
       "broader": "sb:BECO01SBIV.3",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -858,6 +922,7 @@
       "definition": "El estudio del papel de los bancos en la economía. El funcionamiento de los productos financieros como préstamos, hipotecas, y sus sustitutos. Los seguros como medida de protección.",
       "broader": "sb:BECO01SBIV.3",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -869,6 +934,7 @@
       "definition": "Planificación y gestión de las decisiones financieras personales: la inversión, el ahorro y el consumo.",
       "broader": "sb:BECO01SBIV.3",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -880,6 +946,7 @@
       "definition": "La política monetaria y la estabilidad de precios.",
       "broader": "sb:BECO01SBIV",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -891,6 +958,7 @@
       "definition": "Funcionamiento del mercado monetario.",
       "broader": "sb:BECO01SBIV.4",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -902,6 +970,7 @@
       "definition": "La inflación: estudio de las teorías explicativas.",
       "broader": "sb:BECO01SBIV.4",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -913,6 +982,7 @@
       "definition": "Los efectos de las políticas monetarias sobre la inflación, el crecimiento y el bienestar.",
       "broader": "sb:BECO01SBIV.4",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -924,6 +994,7 @@
       "definition": "Comercio internacional, globalización e integración económica.",
       "broader": "sb:BECO01SBV",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -935,6 +1006,7 @@
       "definition": "La apertura de las economías al comercio internacional: las reglas e instrumentos de la política comercial.",
       "broader": "sb:BECO01SBV.1",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -946,6 +1018,7 @@
       "definition": "El debate sobre proteccionismo y libre comercio: causas y consecuencias. El papel de las grandes organizaciones e instituciones gubernamentales en la economía.",
       "broader": "sb:BECO01SBV.1",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -957,6 +1030,7 @@
       "definition": "La dimensión de la globalización: factores explicativos, oportunidades y riesgos. La reducción de las desigualdades.",
       "broader": "sb:BECO01SBV.1",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -968,6 +1042,7 @@
       "definition": "Explicación de los objetivos, los grados y las ventajas de los procesos de integración económica y sus efectos a escala internacional. La Unión Europea y Monetaria.",
       "broader": "sb:BECO01SBV.1",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -979,6 +1054,7 @@
       "definition": "Las políticas comunes de la Unión Europea: repercusiones para la economía española.",
       "broader": "sb:BECO01SBV.1",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -990,6 +1066,7 @@
       "definition": "La nueva economía y la revolución digital.",
       "broader": "sb:BECO01SBV",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1001,6 +1078,7 @@
       "definition": "Análisis del impacto sobre el empleo y la distribución de la renta.",
       "broader": "sb:BECO01SBV.2",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1012,6 +1090,7 @@
       "definition": "La adaptación de la población activa ante los retos de la revolución digital.",
       "broader": "sb:BECO01SBV.2",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1023,6 +1102,7 @@
       "definition": "Los modelos de economía colaborativa y circular: características y potencial transformador. Estudio de casos.",
       "broader": "sb:BECO01SBV.2",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1034,6 +1114,7 @@
       "definition": "Valoración de las teorías sobre el decrecimiento económico.",
       "broader": "sb:BECO01SBV.2",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1045,6 +1126,7 @@
       "definition": "Análisis de los Objetivos de Desarrollo Sostenible (ODS) y de la Agencia Canaria de Desarrollo Sostenible 2030 y la relación con los retos económicos actuales. Estudio de casos.",
       "broader": "sb:BECO01SBV.2",
       "materia": "materia:BECO",
+      "materia_curso": "asig:BECO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

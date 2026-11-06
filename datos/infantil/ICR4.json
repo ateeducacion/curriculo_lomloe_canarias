@@ -17,6 +17,66 @@
       "etapa": "etapa:INF"
     },
     {
+      "id": "asig:ICR401",
+      "tipo": "MateriaCurso",
+      "notation": "ICR401",
+      "prefLabel": "Crecimiento en armonía · 1º Infantil de 0 años",
+      "broader": "materia:ICR4",
+      "materia": "materia:ICR4",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "asig:ICR402",
+      "tipo": "MateriaCurso",
+      "notation": "ICR402",
+      "prefLabel": "Crecimiento en armonía · 2º Infantil de 1 año",
+      "broader": "materia:ICR4",
+      "materia": "materia:ICR4",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "asig:ICR403",
+      "tipo": "MateriaCurso",
+      "notation": "ICR403",
+      "prefLabel": "Crecimiento en armonía · 3º Infantil de 2 años",
+      "broader": "materia:ICR4",
+      "materia": "materia:ICR4",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "asig:ICR404",
+      "tipo": "MateriaCurso",
+      "notation": "ICR404",
+      "prefLabel": "Crecimiento en armonía · 4º Infantil de 3 años",
+      "broader": "materia:ICR4",
+      "materia": "materia:ICR4",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "asig:ICR405",
+      "tipo": "MateriaCurso",
+      "notation": "ICR405",
+      "prefLabel": "Crecimiento en armonía · 5º Infantil de 4 años",
+      "broader": "materia:ICR4",
+      "materia": "materia:ICR4",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "asig:ICR406",
+      "tipo": "MateriaCurso",
+      "notation": "ICR406",
+      "prefLabel": "Crecimiento en armonía · 6º Infantil de 5 años",
+      "broader": "materia:ICR4",
+      "materia": "materia:ICR4",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
       "id": "ce:ICR4C1",
       "tipo": "CompetenciaEspecifica",
       "notation": "ICR4C1",
@@ -62,7 +122,7 @@
       "notation": "ICR401BC1",
       "prefLabel": "Crecimiento en armonía · 1º Infantil de 0 años · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se verificará que el alumnado se inicia en el descubrimiento de su cuerpo y que es capaz de explorar las propias posibilidades motoras, sensoriales y perceptivas, así como de organizar todas las sensaciones que experimenta en su propio cuerpo y las del exterior, para generar una respuesta adaptada a las demandas del entorno. Asimismo, se verificará el avance en la coordinación y en el control del movimiento y la postura, a partir de la exploración del mundo que le rodea, de manera que progrese en la coordinación visomotriz y en el desarrollo de su autonomía. Se contribuye así a los primeros pasos en la adquisición de esta competencia específica, ya que se constatará que el alumnado es capaz de reconocer su propia imagen, identificar la de otras personas y respetar las diferencias, a través de la exploración y experiencias activas en el entorno, adaptando de manera progresiva el control del movimiento y participando, con disfrute, en juegos exploratorios, sensoriales y motores. Todo ello con la finalidad de que el alumnado se inicie en el conocimiento, valoración y control de su cuerpo, utilizando los recursos que este le ofrece, para desenvolverse en el medio de forma cada vez más autónoma, conformando progresivamente una autoimagen ajustada y positiva.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR401",
       "agrupa": [
         "ce:ICR4C1"
       ],
@@ -71,6 +131,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -80,7 +141,7 @@
       "notation": "ICR401BC2",
       "prefLabel": "Crecimiento en armonía · 1º Infantil de 0 años · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de expresar sus necesidades, emociones y sentimientos, desarrollando de forma progresiva su conciencia emocional, de manera que sea capaz de identificar, a través de procesos mediados por la persona adulta de referencia, diversos estados emocionales, regular de manera progresiva sus reacciones emocionales a las diferentes situaciones (tiempos de espera, pequeñas frustraciones asociadas a la satisfacción de necesidades básicas y cuidados…) y aplicar algunas estrategias básicas que le permitan el logro de seguridad afectiva. Se valorará, asimismo, la capacidad del alumnado de disfrutar de la relación con otras personas, mostrando afecto de manera libre, segura y respetuosa. Se comprobará, asimismo, que es capaz de afrontar pequeñas adversidades solicitando y prestando ayuda. Todo ello con la finalidad de que el alumnado se inicie en el reconocimiento y la gestión de sus propias emociones, como herramienta fundamental para hacer frente gradualmente, con seguridad y autonomía, a situaciones cambiantes e inciertas presentes en su vida cotidiana.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR401",
       "agrupa": [
         "ce:ICR4C2"
       ],
@@ -90,6 +151,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -99,7 +161,7 @@
       "notation": "ICR401BC3",
       "prefLabel": "Crecimiento en armonía · 1º Infantil de 0 años · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se comprobará que los niños y las niñas son capaces de progresar paulatinamente en la práctica de hábitos saludables vinculados a la vida cotidiana y de disfrutar de la actividad física, en diversas actividades que impliquen movimiento; así como de participar activamente en el desarrollo de actividades favorecedoras de la salud. Se constatará que el alumnado muestra interés por su higiene y que reconoce la necesidad de lavarse y cambiarse, demostrando satisfacción y una progresiva autonomía en las actividades de cuidado personal y en la adquisición de hábitos saludables. Se verificará, además, que los niños y las niñas empiezan a incorporar actitudes relacionadas con el cuidado del entorno en sus actividades cotidianas, desarrollando hábitos sostenibles y ecosocialmente responsables relacionados con la alimentación, la higiene, el aseo personal, el descanso o la limpieza del espacio. Se comprobará, asimismo, que adquiere nociones temporales básicas para ubicarse en el tiempo; que reconoce la sucesión temporal de actividades diarias (asamblea, desayuno, patio, descanso, actividad, despedida…), los ritmos biológicos y las pautas socioculturales que estructuran la dinámica cotidiana, y que las asocia a elementos, procedimientos y actitudes concretas. Todo ello con la finalidad de que el alumnado se inicie en la adquisición de modelos, normas y hábitos saludables, sostenibles y ecosocialmente responsables.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR401",
       "agrupa": [
         "ce:ICR4C3"
       ],
@@ -109,6 +171,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -118,7 +181,7 @@
       "notation": "ICR401BC4",
       "prefLabel": "Crecimiento en armonía · 1º Infantil de 0 años · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se comprobará que los niños y las niñas son capaces de establecer vínculos afectivos y relaciones de apego saludables, desarrollando sentimientos de pertenencia al ámbito escolar. Se comprobará, además, que el alumnado se inicia en la resolución de conflictos con la mediación de la persona adulta y que es capaz de regular sus conductas y de reproducir conductas de empatía y respeto, través del juego de imitación. Asimismo, se comprobará que disfruta de las actividades relacionadas con costumbres y tradiciones de la propia cultura, así como de la diversidad presente en su entorno cercano, participando activamente en celebraciones, costumbres y tradiciones étnicos-culturales así como en las propias de patrimonio cultural de Canarias. Todo ello con la finalidad de que el alumnado se inicie en la construcción de la identidad, como resultado del conjunto de interacciones con el entorno social próximo, y en el desarrollo del sentido de pertenencia a un grupo, aprendiendo a vivir en armonía con otras personas.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR401",
       "agrupa": [
         "ce:ICR4C4"
       ],
@@ -129,6 +192,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -138,7 +202,7 @@
       "notation": "ICR402BC1",
       "prefLabel": "Crecimiento en armonía · 2º Infantil de 1 año · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se verificará que el alumnado se inicia en el descubrimiento de su cuerpo y que es capaz de explorar las propias posibilidades motoras, sensoriales y perceptivas, así como de organizar todas las sensaciones que experimenta en su propio cuerpo y las del exterior, para generar una respuesta adaptada a las demandas del entorno. Asimismo, se verificará el avance en la coordinación y en el control del movimiento y la postura, a partir de la exploración del mundo que le rodea, de manera que progrese en la coordinación visomotriz y en el desarrollo de su autonomía. Se contribuye así a los primeros pasos en la adquisición de esta competencia específica, ya que se constatará que el alumnado es capaz de reconocer su propia imagen, identificar la de otras personas y respetar las diferencias, a través de la exploración y experiencias activas en el entorno, adaptando de manera progresiva el control del movimiento y participando, con disfrute, en juegos exploratorios, sensoriales y motores. Todo ello con la finalidad de que el alumnado se inicie en el conocimiento, valoración y control de su cuerpo, utilizando los recursos que este le ofrece, para desenvolverse en el medio de forma cada vez más autónoma, conformando progresivamente una autoimagen ajustada y positiva.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR402",
       "agrupa": [
         "ce:ICR4C1"
       ],
@@ -147,6 +211,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -156,7 +221,7 @@
       "notation": "ICR402BC2",
       "prefLabel": "Crecimiento en armonía · 2º Infantil de 1 año · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de expresar sus necesidades, emociones y sentimientos, desarrollando de forma progresiva su conciencia emocional, de manera que sea capaz de identificar, a través de procesos mediados por la persona adulta de referencia, diversos estados emocionales, regular de manera progresiva sus reacciones emocionales a las diferentes situaciones (tiempos de espera, pequeñas frustraciones asociadas a la satisfacción de necesidades básicas y cuidados…) y aplicar algunas estrategias básicas que le permitan el logro de seguridad afectiva. Se valorará, asimismo, la capacidad del alumnado de disfrutar de la relación con otras personas, mostrando afecto de manera libre, segura y respetuosa. Se comprobará, asimismo, que es capaz de afrontar pequeñas adversidades solicitando y prestando ayuda. Todo ello con la finalidad de que el alumnado se inicie en el reconocimiento y la gestión de sus propias emociones, como herramienta fundamental para hacer frente gradualmente, con seguridad y autonomía, a situaciones cambiantes e inciertas presentes en su vida cotidiana.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR402",
       "agrupa": [
         "ce:ICR4C2"
       ],
@@ -166,6 +231,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -175,7 +241,7 @@
       "notation": "ICR402BC3",
       "prefLabel": "Crecimiento en armonía · 2º Infantil de 1 año · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se comprobará que los niños y las niñas son capaces de progresar paulatinamente en la práctica de hábitos saludables vinculados a la vida cotidiana y de disfrutar de la actividad física, en diversas actividades que impliquen movimiento; así como de participar activamente en el desarrollo de actividades favorecedoras de la salud. Se constatará que el alumnado muestra interés por su higiene y que reconoce la necesidad de lavarse y cambiarse, demostrando satisfacción y una progresiva autonomía en las actividades de cuidado personal y en la adquisición de hábitos saludables. Se verificará, además, que los niños y las niñas empiezan a incorporar actitudes relacionadas con el cuidado del entorno en sus actividades cotidianas, desarrollando hábitos sostenibles y ecosocialmente responsables relacionados con la alimentación, la higiene, el aseo personal, el descanso o la limpieza del espacio. Se comprobará, asimismo, que adquiere nociones temporales básicas para ubicarse en el tiempo; que reconoce la sucesión temporal de actividades diarias (asamblea, desayuno, patio, descanso, actividad, despedida…), los ritmos biológicos y las pautas socioculturales que estructuran la dinámica cotidiana, y que las asocia a elementos, procedimientos y actitudes concretas. Todo ello con la finalidad de que el alumnado se inicie en la adquisición de modelos, normas y hábitos saludables, sostenibles y ecosocialmente responsables.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR402",
       "agrupa": [
         "ce:ICR4C3"
       ],
@@ -185,6 +251,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -194,7 +261,7 @@
       "notation": "ICR402BC4",
       "prefLabel": "Crecimiento en armonía · 2º Infantil de 1 año · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se comprobará que los niños y las niñas son capaces de establecer vínculos afectivos y relaciones de apego saludables, desarrollando sentimientos de pertenencia al ámbito escolar. Se comprobará, además, que el alumnado se inicia en la resolución de conflictos con la mediación de la persona adulta y que es capaz de regular sus conductas y de reproducir conductas de empatía y respeto, través del juego de imitación. Asimismo, se comprobará que disfruta de las actividades relacionadas con costumbres y tradiciones de la propia cultura, así como de la diversidad presente en su entorno cercano, participando activamente en celebraciones, costumbres y tradiciones étnicos-culturales así como en las propias de patrimonio cultural de Canarias. Todo ello con la finalidad de que el alumnado se inicie en la construcción de la identidad, como resultado del conjunto de interacciones con el entorno social próximo, y en el desarrollo del sentido de pertenencia a un grupo, aprendiendo a vivir en armonía con otras personas.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR402",
       "agrupa": [
         "ce:ICR4C4"
       ],
@@ -205,6 +272,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -214,7 +282,7 @@
       "notation": "ICR403BC1",
       "prefLabel": "Crecimiento en armonía · 3º Infantil de 2 años · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se verificará que el alumnado se inicia en el descubrimiento de su cuerpo y que es capaz de explorar las propias posibilidades motoras, sensoriales y perceptivas, así como de organizar todas las sensaciones que experimenta en su propio cuerpo y las del exterior, para generar una respuesta adaptada a las demandas del entorno. Asimismo, se verificará el avance en la coordinación y en el control del movimiento y la postura, a partir de la exploración del mundo que le rodea, de manera que progrese en la coordinación visomotriz y en el desarrollo de su autonomía. Se contribuye así a los primeros pasos en la adquisición de esta competencia específica, ya que se constatará que el alumnado es capaz de reconocer su propia imagen, identificar la de otras personas y respetar las diferencias, a través de la exploración y experiencias activas en el entorno, adaptando de manera progresiva el control del movimiento y participando, con disfrute, en juegos exploratorios, sensoriales y motores. Todo ello con la finalidad de que el alumnado se inicie en el conocimiento, valoración y control de su cuerpo, utilizando los recursos que este le ofrece, para desenvolverse en el medio de forma cada vez más autónoma, conformando progresivamente una autoimagen ajustada y positiva.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR403",
       "agrupa": [
         "ce:ICR4C1"
       ],
@@ -223,6 +291,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -232,7 +301,7 @@
       "notation": "ICR403BC2",
       "prefLabel": "Crecimiento en armonía · 3º Infantil de 2 años · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de expresar sus necesidades, emociones y sentimientos, desarrollando de forma progresiva su conciencia emocional, de manera que sea capaz de identificar, a través de procesos mediados por la persona adulta de referencia, diversos estados emocionales, regular de manera progresiva sus reacciones emocionales a las diferentes situaciones (tiempos de espera, pequeñas frustraciones asociadas a la satisfacción de necesidades básicas y cuidados…) y aplicar algunas estrategias básicas que le permitan el logro de seguridad afectiva. Se valorará, asimismo, la capacidad del alumnado de disfrutar de la relación con otras personas, mostrando afecto de manera libre, segura y respetuosa. Se comprobará, asimismo, que es capaz de afrontar pequeñas adversidades solicitando y prestando ayuda. Todo ello con la finalidad de que el alumnado se inicie en el reconocimiento y la gestión de sus propias emociones, como herramienta fundamental para hacer frente gradualmente, con seguridad y autonomía, a situaciones cambiantes e inciertas presentes en su vida cotidiana.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR403",
       "agrupa": [
         "ce:ICR4C2"
       ],
@@ -242,6 +311,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -251,7 +321,7 @@
       "notation": "ICR403BC3",
       "prefLabel": "Crecimiento en armonía · 3º Infantil de 2 años · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se comprobará que los niños y las niñas son capaces de progresar paulatinamente en la práctica de hábitos saludables vinculados a la vida cotidiana y de disfrutar de la actividad física, en diversas actividades que impliquen movimiento; así como de participar activamente en el desarrollo de actividades favorecedoras de la salud. Se constatará que el alumnado muestra interés por su higiene y que reconoce la necesidad de lavarse y cambiarse, demostrando satisfacción y una progresiva autonomía en las actividades de cuidado personal y en la adquisición de hábitos saludables. Se verificará, además, que los niños y las niñas empiezan a incorporar actitudes relacionadas con el cuidado del entorno en sus actividades cotidianas, desarrollando hábitos sostenibles y ecosocialmente responsables relacionados con la alimentación, la higiene, el aseo personal, el descanso o la limpieza del espacio. Se comprobará, asimismo, que adquiere nociones temporales básicas para ubicarse en el tiempo; que reconoce la sucesión temporal de actividades diarias (asamblea, desayuno, patio, descanso, actividad, despedida…), los ritmos biológicos y las pautas socioculturales que estructuran la dinámica cotidiana, y que las asocia a elementos, procedimientos y actitudes concretas. Todo ello con la finalidad de que el alumnado se inicie en la adquisición de modelos, normas y hábitos saludables, sostenibles y ecosocialmente responsables.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR403",
       "agrupa": [
         "ce:ICR4C3"
       ],
@@ -261,6 +331,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -270,7 +341,7 @@
       "notation": "ICR403BC4",
       "prefLabel": "Crecimiento en armonía · 3º Infantil de 2 años · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se comprobará que los niños y las niñas son capaces de establecer vínculos afectivos y relaciones de apego saludables, desarrollando sentimientos de pertenencia al ámbito escolar. Se comprobará, además, que el alumnado se inicia en la resolución de conflictos con la mediación de la persona adulta y que es capaz de regular sus conductas y de reproducir conductas de empatía y respeto, través del juego de imitación. Asimismo, se comprobará que disfruta de las actividades relacionadas con costumbres y tradiciones de la propia cultura, así como de la diversidad presente en su entorno cercano, participando activamente en celebraciones, costumbres y tradiciones étnicos-culturales así como en las propias de patrimonio cultural de Canarias. Todo ello con la finalidad de que el alumnado se inicie en la construcción de la identidad, como resultado del conjunto de interacciones con el entorno social próximo, y en el desarrollo del sentido de pertenencia a un grupo, aprendiendo a vivir en armonía con otras personas.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR403",
       "agrupa": [
         "ce:ICR4C4"
       ],
@@ -281,6 +352,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -290,7 +362,7 @@
       "notation": "ICR404BC1",
       "prefLabel": "Crecimiento en armonía · 4º Infantil de 3 años · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de reconocer las características de su cuerpo de manera global y segmentada y de avanzar en la construcción de su esquema corporal Se constatará que adquiere mayor precisión, seguridad y control dinámico en sus desplazamientos y movimientos, y que demuestra un control progresivo de la coordinación, el tono, el equilibrio y los desplazamientos. Asimismo, se constatará que los niños y las niñas progresan en la integración sensorial del mundo a través de la aplicación de distintas estrategias que le permitan reconocer los sentidos y sus funciones, progresando en la construcción de una autoimagen positiva y ajustada, a partir del reconocimiento de las cualidades personales y la identificación de las diferencias respecto a otras personas de su entorno escolar, familiar y social. Se verificará también que el alumnado muestra autonomía en la realización de tareas y confianza en las propias posibilidades, y que es capaz de participar y disfrutar en diferentes tipos de juegos así como de mostrar sensibilidad hacia las implicaciones que tiene, en la vida cotidiana, la diversidad funcional. Todo ello con la finalidad de que el alumnado profundice en el conocimiento, la valoración y el control de su cuerpo, utilizando los recursos que este le ofrece, para desenvolverse en el medio de forma cada vez más autónoma, conformando progresivamente su autoimagen.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR404",
       "agrupa": [
         "ce:ICR4C1"
       ],
@@ -299,6 +371,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -308,7 +381,7 @@
       "notation": "ICR404BC2",
       "prefLabel": "Crecimiento en armonía · 4º Infantil de 3 años · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de identificar inquietudes, gustos y preferencias, de comunicar y expresar sus necesidades, sentimientos y emociones, y de desarrollar estrategias de regulación emocional. Asimismo, se valorará que los niños y las niñas establezcan relaciones armónicas y alejadas de estereotipos, y que sean capaces de mostrar satisfacción y seguridad por los logros conseguidos y de valorar la cooperación y ayuda entre iguales. Se contribuye así a la adquisición de la competencia específica, ya que el alumnado será capaz de utilizar herramientas para expresar, aceptar y controlar de manera progresiva sus emociones, sentimientos y vivencias. Además, se constatará que los niños y las niñas desarrollan estrategias de ayuda y cooperación en diversas situaciones de la vida cotidiana así como en contextos de juego, y que son capaces de aceptar con actitud positiva las correcciones que reciben, reconocer las propias posibilidades y valorar el trabajo bien hecho. Todo ello con la finalidad de que el alumnado se inicie en el reconocimiento y la gestión de sus propias emociones, como herramienta fundamental para hacer frente gradualmente, con seguridad y autonomía, a situaciones cambiantes e inciertas presentes en su vida cotidiana.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR404",
       "agrupa": [
         "ce:ICR4C2"
       ],
@@ -318,6 +391,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -327,7 +401,7 @@
       "notation": "ICR404BC3",
       "prefLabel": "Crecimiento en armonía · 4º Infantil de 3 años · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se comprobará que los niños y las niñas son capaces de identificar y satisfacer sus necesidades básicas, así como de mostrar autonomía en las actividades de higiene personal. Se constatará, además que participa en actividades relacionadas con el autocuidado –implementando iniciativas de prevención de riesgos en situaciones cotidianas– y con el cuidado del entorno, adquiriendo progresivamente hábitos sostenibles y ecosocialmente responsables. Se verificará, además, que el alumnado es capaz de participar en actividades físicas estructuradas y otras propuestas saludables, en diferentes espacios, incluidos las zonas naturales al aire libre (zonas verdes cercanas al centro, espacios que se puedan crear con el alumnado como jardines verticales, huerto escolar…), siendo capaces de identificar situaciones peligrosas para prevenir accidentes. Se valorará la planificación secuenciada de acciones para resolver una tarea (normas de comportamiento social en la comida, el descanso, la higiene, los desplazamientos…). Todo ello con la finalidad de que el alumnado profundice en la adquisición de hábitos saludables y sostenibles, iniciándose en conductas saludables respecto al consumo responsable y la actividad física, así como en el cuidado y respeto del propio cuerpo, el de las demás personas y del entorno.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR404",
       "agrupa": [
         "ce:ICR4C3"
       ],
@@ -337,6 +411,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -346,7 +421,7 @@
       "notation": "ICR404BC4",
       "prefLabel": "Crecimiento en armonía · 4º Infantil de 3 años · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se comprobará que los niños y las niñas son capaces de establecer relaciones con las demás personas y con el mundo, demostrando afecto y empatía, en juegos y actividades colectivas, evitando situaciones de discriminación. Asimismo, se valorará que sean capaces de identificar y reproducir conductas, acciones o situaciones basadas en el respeto, la empatía, la igualdad entre mujeres y hombres, así como de desarrollar destrezas y habilidades para la gestión de conflictos, proponiendo para ello soluciones creativas. Por otra parte, se comprobará que el alumnado participa en actividades para la reflexión sobre las normas sociales de convivencia y que participa activamente en actividades relacionadas con su propia cultura y con otras presentes en su entorno, mostrando interés por conocerlas. Se contribuye así a la adquisición de la competencia específica, ya que se comprobará que el alumnado es capaz de incorporarse de forma armónica a la escuela, desplegando de forma progresiva habilidades socioafectivas y de convivencia que les permitan comunicar sentimientos y emociones, interiorizar pautas básicas de convivencia, adquirir estrategias para la autorregulación de la conducta y la resolución de conflictos. Asimismo, se valorará que los niños y las niñas adquieran y empleen fórmulas de cortesía e interacción social positiva, manifiesten actitudes de ayuda y cooperación y den una respuesta empática a la diversidad. Se comprobará el aprecio hacia las señas de identidad y la participación activa y el disfrute en celebraciones, costumbres y tradiciones étnicos-culturales, con especial atención a las del patrimonio cultural canario. Por otra parte, se valorará que el alumnado desarrolle el juego simbólico a través de la observación, representación e imitación de personas, personajes y situaciones. Todo ello con la finalidad de que el alumnado progrese en la construcción de la identidad como resultado del conjunto de interacciones con el entorno social próximo y que asimile modelos de relación basados en el respeto, la empatía, la promoción de la igualdad entre mujeres y hombres, el reconocimiento y aceptación de la diversidad y el respeto a los derechos humanos, mostrando el sentido de pertenencia a un grupo y aprendiendo a vivir en armonía con otras personas.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR404",
       "agrupa": [
         "ce:ICR4C4"
       ],
@@ -357,6 +432,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -366,7 +442,7 @@
       "notation": "ICR405BC1",
       "prefLabel": "Crecimiento en armonía · 5º Infantil de 4 años · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de reconocer las características de su cuerpo de manera global y segmentada y de avanzar en la construcción de su esquema corporal Se constatará que adquiere mayor precisión, seguridad y control dinámico en sus desplazamientos y movimientos, y que demuestra un control progresivo de la coordinación, el tono, el equilibrio y los desplazamientos. Asimismo, se constatará que los niños y las niñas progresan en la integración sensorial del mundo a través de la aplicación de distintas estrategias que le permitan reconocer los sentidos y sus funciones, progresando en la construcción de una autoimagen positiva y ajustada, a partir del reconocimiento de las cualidades personales y la identificación de las diferencias respecto a otras personas de su entorno escolar, familiar y social. Se verificará también que el alumnado muestra autonomía en la realización de tareas y confianza en las propias posibilidades, y que es capaz de participar y disfrutar en diferentes tipos de juegos así como de mostrar sensibilidad hacia las implicaciones que tiene, en la vida cotidiana, la diversidad funcional. Todo ello con la finalidad de que el alumnado profundice en el conocimiento, la valoración y el control de su cuerpo, utilizando los recursos que este le ofrece, para desenvolverse en el medio de forma cada vez más autónoma, conformando progresivamente su autoimagen.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR405",
       "agrupa": [
         "ce:ICR4C1"
       ],
@@ -375,6 +451,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -384,7 +461,7 @@
       "notation": "ICR405BC2",
       "prefLabel": "Crecimiento en armonía · 5º Infantil de 4 años · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de identificar inquietudes, gustos y preferencias, de comunicar y expresar sus necesidades, sentimientos y emociones, y de desarrollar estrategias de regulación emocional. Asimismo, se valorará que los niños y las niñas establezcan relaciones armónicas y alejadas de estereotipos, y que sean capaces de mostrar satisfacción y seguridad por los logros conseguidos y de valorar la cooperación y ayuda entre iguales. Se contribuye así a la adquisición de la competencia específica, ya que el alumnado será capaz de utilizar herramientas para expresar, aceptar y controlar de manera progresiva sus emociones, sentimientos y vivencias. Además, se constatará que los niños y las niñas desarrollan estrategias de ayuda y cooperación en diversas situaciones de la vida cotidiana así como en contextos de juego, y que son capaces de aceptar con actitud positiva las correcciones que reciben, reconocer las propias posibilidades y valorar el trabajo bien hecho. Todo ello con la finalidad de que el alumnado se inicie en el reconocimiento y la gestión de sus propias emociones, como herramienta fundamental para hacer frente gradualmente, con seguridad y autonomía, a situaciones cambiantes e inciertas presentes en su vida cotidiana.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR405",
       "agrupa": [
         "ce:ICR4C2"
       ],
@@ -394,6 +471,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -403,7 +481,7 @@
       "notation": "ICR405BC3",
       "prefLabel": "Crecimiento en armonía · 5º Infantil de 4 años · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se comprobará que los niños y las niñas son capaces de identificar y satisfacer sus necesidades básicas, así como de mostrar autonomía en las actividades de higiene personal. Se constatará, además que participa en actividades relacionadas con el autocuidado –implementando iniciativas de prevención de riesgos en situaciones cotidianas– y con el cuidado del entorno, adquiriendo progresivamente hábitos sostenibles y ecosocialmente responsables. Se verificará, además, que el alumnado es capaz de participar en actividades físicas estructuradas y otras propuestas saludables, en diferentes espacios, incluidos las zonas naturales al aire libre (zonas verdes cercanas al centro, espacios que se puedan crear con el alumnado como jardines verticales, huerto escolar…), siendo capaces de identificar situaciones peligrosas para prevenir accidentes. Se valorará la planificación secuenciada de acciones para resolver una tarea (normas de comportamiento social en la comida, el descanso, la higiene, los desplazamientos…). Todo ello con la finalidad de que el alumnado profundice en la adquisición de hábitos saludables y sostenibles, iniciándose en conductas saludables respecto al consumo responsable y la actividad física, así como en el cuidado y respeto del propio cuerpo, el de las demás personas y del entorno.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR405",
       "agrupa": [
         "ce:ICR4C3"
       ],
@@ -413,6 +491,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -422,7 +501,7 @@
       "notation": "ICR405BC4",
       "prefLabel": "Crecimiento en armonía · 5º Infantil de 4 años · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se comprobará que los niños y las niñas son capaces de establecer relaciones con las demás personas y con el mundo, demostrando afecto y empatía, en juegos y actividades colectivas, evitando situaciones de discriminación. Asimismo, se valorará que sean capaces de identificar y reproducir conductas, acciones o situaciones basadas en el respeto, la empatía, la igualdad entre mujeres y hombres, así como de desarrollar destrezas y habilidades para la gestión de conflictos, proponiendo para ello soluciones creativas. Por otra parte, se comprobará que el alumnado participa en actividades para la reflexión sobre las normas sociales de convivencia y que participa activamente en actividades relacionadas con su propia cultura y con otras presentes en su entorno, mostrando interés por conocerlas. Se contribuye así a la adquisición de la competencia específica, ya que se comprobará que el alumnado es capaz de incorporarse de forma armónica a la escuela, desplegando de forma progresiva habilidades socioafectivas y de convivencia que les permitan comunicar sentimientos y emociones, interiorizar pautas básicas de convivencia, adquirir estrategias para la autorregulación de la conducta y la resolución de conflictos. Asimismo, se valorará que los niños y las niñas adquieran y empleen fórmulas de cortesía e interacción social positiva, manifiesten actitudes de ayuda y cooperación y den una respuesta empática a la diversidad. Se comprobará el aprecio hacia las señas de identidad y la participación activa y el disfrute en celebraciones, costumbres y tradiciones étnicos-culturales, con especial atención a las del patrimonio cultural canario. Por otra parte, se valorará que el alumnado desarrolle el juego simbólico a través de la observación, representación e imitación de personas, personajes y situaciones. Todo ello con la finalidad de que el alumnado progrese en la construcción de la identidad como resultado del conjunto de interacciones con el entorno social próximo y que asimile modelos de relación basados en el respeto, la empatía, la promoción de la igualdad entre mujeres y hombres, el reconocimiento y aceptación de la diversidad y el respeto a los derechos humanos, mostrando el sentido de pertenencia a un grupo y aprendiendo a vivir en armonía con otras personas.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR405",
       "agrupa": [
         "ce:ICR4C4"
       ],
@@ -433,6 +512,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -442,7 +522,7 @@
       "notation": "ICR406BC1",
       "prefLabel": "Crecimiento en armonía · 6º Infantil de 5 años · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de reconocer las características de su cuerpo de manera global y segmentada y de avanzar en la construcción de su esquema corporal Se constatará que adquiere mayor precisión, seguridad y control dinámico en sus desplazamientos y movimientos, y que demuestra un control progresivo de la coordinación, el tono, el equilibrio y los desplazamientos. Asimismo, se constatará que los niños y las niñas progresan en la integración sensorial del mundo a través de la aplicación de distintas estrategias que le permitan reconocer los sentidos y sus funciones, progresando en la construcción de una autoimagen positiva y ajustada, a partir del reconocimiento de las cualidades personales y la identificación de las diferencias respecto a otras personas de su entorno escolar, familiar y social. Se verificará también que el alumnado muestra autonomía en la realización de tareas y confianza en las propias posibilidades, y que es capaz de participar y disfrutar en diferentes tipos de juegos así como de mostrar sensibilidad hacia las implicaciones que tiene, en la vida cotidiana, la diversidad funcional. Todo ello con la finalidad de que el alumnado profundice en el conocimiento, la valoración y el control de su cuerpo, utilizando los recursos que este le ofrece, para desenvolverse en el medio de forma cada vez más autónoma, conformando progresivamente su autoimagen.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR406",
       "agrupa": [
         "ce:ICR4C1"
       ],
@@ -451,6 +531,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -460,7 +541,7 @@
       "notation": "ICR406BC2",
       "prefLabel": "Crecimiento en armonía · 6º Infantil de 5 años · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de identificar inquietudes, gustos y preferencias, de comunicar y expresar sus necesidades, sentimientos y emociones, y de desarrollar estrategias de regulación emocional. Asimismo, se valorará que los niños y las niñas establezcan relaciones armónicas y alejadas de estereotipos, y que sean capaces de mostrar satisfacción y seguridad por los logros conseguidos y de valorar la cooperación y ayuda entre iguales. Se contribuye así a la adquisición de la competencia específica, ya que el alumnado será capaz de utilizar herramientas para expresar, aceptar y controlar de manera progresiva sus emociones, sentimientos y vivencias. Además, se constatará que los niños y las niñas desarrollan estrategias de ayuda y cooperación en diversas situaciones de la vida cotidiana así como en contextos de juego, y que son capaces de aceptar con actitud positiva las correcciones que reciben, reconocer las propias posibilidades y valorar el trabajo bien hecho. Todo ello con la finalidad de que el alumnado se inicie en el reconocimiento y la gestión de sus propias emociones, como herramienta fundamental para hacer frente gradualmente, con seguridad y autonomía, a situaciones cambiantes e inciertas presentes en su vida cotidiana.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR406",
       "agrupa": [
         "ce:ICR4C2"
       ],
@@ -470,6 +551,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -479,7 +561,7 @@
       "notation": "ICR406BC3",
       "prefLabel": "Crecimiento en armonía · 6º Infantil de 5 años · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se comprobará que los niños y las niñas son capaces de identificar y satisfacer sus necesidades básicas, así como de mostrar autonomía en las actividades de higiene personal. Se constatará, además que participa en actividades relacionadas con el autocuidado –implementando iniciativas de prevención de riesgos en situaciones cotidianas– y con el cuidado del entorno, adquiriendo progresivamente hábitos sostenibles y ecosocialmente responsables. Se verificará, además, que el alumnado es capaz de participar en actividades físicas estructuradas y otras propuestas saludables, en diferentes espacios, incluidos las zonas naturales al aire libre (zonas verdes cercanas al centro, espacios que se puedan crear con el alumnado como jardines verticales, huerto escolar…), siendo capaces de identificar situaciones peligrosas para prevenir accidentes. Se valorará la planificación secuenciada de acciones para resolver una tarea (normas de comportamiento social en la comida, el descanso, la higiene, los desplazamientos…). Todo ello con la finalidad de que el alumnado profundice en la adquisición de hábitos saludables y sostenibles, iniciándose en conductas saludables respecto al consumo responsable y la actividad física, así como en el cuidado y respeto del propio cuerpo, el de las demás personas y del entorno.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR406",
       "agrupa": [
         "ce:ICR4C3"
       ],
@@ -489,6 +571,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -498,7 +581,7 @@
       "notation": "ICR406BC4",
       "prefLabel": "Crecimiento en armonía · 6º Infantil de 5 años · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se comprobará que los niños y las niñas son capaces de establecer relaciones con las demás personas y con el mundo, demostrando afecto y empatía, en juegos y actividades colectivas, evitando situaciones de discriminación. Asimismo, se valorará que sean capaces de identificar y reproducir conductas, acciones o situaciones basadas en el respeto, la empatía, la igualdad entre mujeres y hombres, así como de desarrollar destrezas y habilidades para la gestión de conflictos, proponiendo para ello soluciones creativas. Por otra parte, se comprobará que el alumnado participa en actividades para la reflexión sobre las normas sociales de convivencia y que participa activamente en actividades relacionadas con su propia cultura y con otras presentes en su entorno, mostrando interés por conocerlas. Se contribuye así a la adquisición de la competencia específica, ya que se comprobará que el alumnado es capaz de incorporarse de forma armónica a la escuela, desplegando de forma progresiva habilidades socioafectivas y de convivencia que les permitan comunicar sentimientos y emociones, interiorizar pautas básicas de convivencia, adquirir estrategias para la autorregulación de la conducta y la resolución de conflictos. Asimismo, se valorará que los niños y las niñas adquieran y empleen fórmulas de cortesía e interacción social positiva, manifiesten actitudes de ayuda y cooperación y den una respuesta empática a la diversidad. Se comprobará el aprecio hacia las señas de identidad y la participación activa y el disfrute en celebraciones, costumbres y tradiciones étnicos-culturales, con especial atención a las del patrimonio cultural canario. Por otra parte, se valorará que el alumnado desarrolle el juego simbólico a través de la observación, representación e imitación de personas, personajes y situaciones. Todo ello con la finalidad de que el alumnado progrese en la construcción de la identidad como resultado del conjunto de interacciones con el entorno social próximo y que asimile modelos de relación basados en el respeto, la empatía, la promoción de la igualdad entre mujeres y hombres, el reconocimiento y aceptación de la diversidad y el respeto a los derechos humanos, mostrando el sentido de pertenencia a un grupo y aprendiendo a vivir en armonía con otras personas.",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR406",
       "agrupa": [
         "ce:ICR4C4"
       ],
@@ -509,6 +592,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -525,6 +609,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -541,6 +626,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -558,6 +644,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -575,6 +662,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -592,6 +680,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -609,6 +698,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -626,6 +716,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -644,6 +735,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -662,6 +754,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -680,6 +773,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -698,6 +792,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -716,6 +811,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -732,6 +828,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -748,6 +845,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -765,6 +863,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -782,6 +881,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -799,6 +899,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -816,6 +917,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -833,6 +935,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -851,6 +954,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -869,6 +973,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -887,6 +992,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -905,6 +1011,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -923,6 +1030,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -939,6 +1047,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -955,6 +1064,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -972,6 +1082,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -989,6 +1100,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -1006,6 +1118,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -1023,6 +1136,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -1040,6 +1154,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -1058,6 +1173,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -1076,6 +1192,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -1094,6 +1211,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -1112,6 +1230,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -1130,6 +1249,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -1146,6 +1266,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1162,6 +1283,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1178,6 +1300,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1194,6 +1317,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1211,6 +1335,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1228,6 +1353,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1245,6 +1371,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1262,6 +1389,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1279,6 +1407,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1296,6 +1425,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1313,6 +1443,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1330,6 +1461,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1348,6 +1480,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1366,6 +1499,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1384,6 +1518,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1402,6 +1537,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1420,6 +1556,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1438,6 +1575,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1454,6 +1592,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1470,6 +1609,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1486,6 +1626,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1502,6 +1643,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1519,6 +1661,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1536,6 +1679,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1553,6 +1697,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1570,6 +1715,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1587,6 +1733,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1604,6 +1751,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1621,6 +1769,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1638,6 +1787,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1656,6 +1806,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1674,6 +1825,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1692,6 +1844,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1710,6 +1863,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1728,6 +1882,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1746,6 +1901,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1762,6 +1918,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1778,6 +1935,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1794,6 +1952,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1810,6 +1969,7 @@
         "CPSAA"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1827,6 +1987,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1844,6 +2005,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1861,6 +2023,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1878,6 +2041,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1895,6 +2059,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1912,6 +2077,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1929,6 +2095,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1946,6 +2113,7 @@
         "CC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1964,6 +2132,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1982,6 +2151,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -2000,6 +2170,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -2018,6 +2189,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -2036,6 +2208,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -2054,6 +2227,7 @@
         "CCEC"
       ],
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -2063,8 +2237,9 @@
       "notation": "ICR401SBI",
       "prefLabel": "ICR401SBI · I. El cuerpo y el control progresivo del mismo",
       "definition": "El cuerpo y el control progresivo del mismo",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR401",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2074,8 +2249,9 @@
       "notation": "ICR401SBII",
       "prefLabel": "ICR401SBII · II. Desarrollo y equilibrio afectivos",
       "definition": "Desarrollo y equilibrio afectivos",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR401",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2085,8 +2261,9 @@
       "notation": "ICR401SBIII",
       "prefLabel": "ICR401SBIII · III. Hábitos de vida saludable para el autocuidado y el cuidado del entorno",
       "definition": "Hábitos de vida saludable para el autocuidado y el cuidado del entorno",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR401",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2096,8 +2273,9 @@
       "notation": "ICR401SBIV",
       "prefLabel": "ICR401SBIV · IV. Interacción socioemocional en el entorno. La vida junto a las demás personas",
       "definition": "Interacción socioemocional en el entorno. La vida junto a las demás personas",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR401",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2107,8 +2285,9 @@
       "notation": "ICR402SBI",
       "prefLabel": "ICR402SBI · I. El cuerpo y el control progresivo del mismo",
       "definition": "El cuerpo y el control progresivo del mismo",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR402",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2118,8 +2297,9 @@
       "notation": "ICR402SBII",
       "prefLabel": "ICR402SBII · II. Desarrollo y equilibrio afectivos",
       "definition": "Desarrollo y equilibrio afectivos",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR402",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2129,8 +2309,9 @@
       "notation": "ICR402SBIII",
       "prefLabel": "ICR402SBIII · III. Hábitos de vida saludable para el autocuidado y el cuidado del entorno",
       "definition": "Hábitos de vida saludable para el autocuidado y el cuidado del entorno",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR402",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2140,8 +2321,9 @@
       "notation": "ICR402SBIV",
       "prefLabel": "ICR402SBIV · IV. Interacción socioemocional en el entorno. La vida junto a las demás personas",
       "definition": "Interacción socioemocional en el entorno. La vida junto a las demás personas",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR402",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2151,8 +2333,9 @@
       "notation": "ICR403SBI",
       "prefLabel": "ICR403SBI · I. El cuerpo y el control progresivo del mismo",
       "definition": "El cuerpo y el control progresivo del mismo",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR403",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -2162,8 +2345,9 @@
       "notation": "ICR403SBII",
       "prefLabel": "ICR403SBII · II. Desarrollo y equilibrio afectivos",
       "definition": "Desarrollo y equilibrio afectivos",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR403",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -2173,8 +2357,9 @@
       "notation": "ICR403SBIII",
       "prefLabel": "ICR403SBIII · III. Hábitos de vida saludable para el autocuidado y el cuidado del entorno",
       "definition": "Hábitos de vida saludable para el autocuidado y el cuidado del entorno",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR403",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -2184,8 +2369,9 @@
       "notation": "ICR403SBIV",
       "prefLabel": "ICR403SBIV · IV. Interacción socioemocional en el entorno. La vida junto a las demás personas",
       "definition": "Interacción socioemocional en el entorno. La vida junto a las demás personas",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR403",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -2195,8 +2381,9 @@
       "notation": "ICR404SBI",
       "prefLabel": "ICR404SBI · I. El cuerpo y el control progresivo del mismo",
       "definition": "El cuerpo y el control progresivo del mismo",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR404",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2206,8 +2393,9 @@
       "notation": "ICR404SBII",
       "prefLabel": "ICR404SBII · II. Desarrollo y equilibrio afectivos",
       "definition": "Desarrollo y equilibrio afectivos",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR404",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2217,8 +2405,9 @@
       "notation": "ICR404SBIII",
       "prefLabel": "ICR404SBIII · III. Hábitos de vida saludable para el autocuidado y el cuidado del entorno",
       "definition": "Hábitos de vida saludable para el autocuidado y el cuidado del entorno",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR404",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2228,8 +2417,9 @@
       "notation": "ICR404SBIV",
       "prefLabel": "ICR404SBIV · IV. Interacción socioemocional en el entorno. La vida junto a las demás personas",
       "definition": "Interacción socioemocional en el entorno. La vida junto a las demás personas",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR404",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2239,8 +2429,9 @@
       "notation": "ICR405SBI",
       "prefLabel": "ICR405SBI · I. El cuerpo y el control progresivo del mismo",
       "definition": "El cuerpo y el control progresivo del mismo",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR405",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2250,8 +2441,9 @@
       "notation": "ICR405SBII",
       "prefLabel": "ICR405SBII · II. Desarrollo y equilibrio afectivos",
       "definition": "Desarrollo y equilibrio afectivos",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR405",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2261,8 +2453,9 @@
       "notation": "ICR405SBIII",
       "prefLabel": "ICR405SBIII · III. Hábitos de vida saludable para el autocuidado y el cuidado del entorno",
       "definition": "Hábitos de vida saludable para el autocuidado y el cuidado del entorno",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR405",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2272,8 +2465,9 @@
       "notation": "ICR405SBIV",
       "prefLabel": "ICR405SBIV · IV. Interacción socioemocional en el entorno. La vida junto a las demás personas",
       "definition": "Interacción socioemocional en el entorno. La vida junto a las demás personas",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR405",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2283,8 +2477,9 @@
       "notation": "ICR406SBI",
       "prefLabel": "ICR406SBI · I. El cuerpo y el control progresivo del mismo",
       "definition": "El cuerpo y el control progresivo del mismo",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR406",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -2294,8 +2489,9 @@
       "notation": "ICR406SBII",
       "prefLabel": "ICR406SBII · II. Desarrollo y equilibrio afectivos",
       "definition": "Desarrollo y equilibrio afectivos",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR406",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -2305,8 +2501,9 @@
       "notation": "ICR406SBIII",
       "prefLabel": "ICR406SBIII · III. Hábitos de vida saludable para el autocuidado y el cuidado del entorno",
       "definition": "Hábitos de vida saludable para el autocuidado y el cuidado del entorno",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR406",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -2316,8 +2513,9 @@
       "notation": "ICR406SBIV",
       "prefLabel": "ICR406SBIV · IV. Interacción socioemocional en el entorno. La vida junto a las demás personas",
       "definition": "Interacción socioemocional en el entorno. La vida junto a las demás personas",
-      "broader": "materia:ICR4",
+      "broader": "asig:ICR406",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -2329,6 +2527,7 @@
       "definition": "Descubrimiento de su cuerpo y reconocimiento de la propia imagen y la de las personas de su entorno.",
       "broader": "sb:ICR401SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2340,6 +2539,7 @@
       "definition": "Identificación y respeto de las diferencias.",
       "broader": "sb:ICR401SBI.1",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2351,6 +2551,7 @@
       "definition": "Relación y contacto con las otras personas y con los objetos.",
       "broader": "sb:ICR401SBI.1",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2362,6 +2563,7 @@
       "definition": "Evolución del juego como actividad propia para el bienestar y el disfrute: juego exploratorio, sensorial y motor.",
       "broader": "sb:ICR401SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2373,6 +2575,7 @@
       "definition": "Exploración y participación en experiencias activas en el entorno: el movimiento libre como fuente de aprendizaje y desarrollo inicial.",
       "broader": "sb:ICR401SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2384,6 +2587,7 @@
       "definition": "Curiosidad e interés por la exploración sensoriomotriz de su cuerpo y su entorno inmediato.",
       "broader": "sb:ICR401SBI.3",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2395,6 +2599,7 @@
       "definition": "Integración sensorial del mundo a través de las posibilidades perceptivas.",
       "broader": "sb:ICR401SBI.3",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2406,6 +2611,7 @@
       "definition": "Experimentación manipulativa y dominio progresivo de la coordinación visomotriz en el contacto con objetos y materiales.",
       "broader": "sb:ICR401SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2417,6 +2623,7 @@
       "definition": "Contacto con las otras personas y con los objetos. Iniciativa y curiosidad para aprender nuevas habilidades.",
       "broader": "sb:ICR401SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2428,6 +2635,7 @@
       "definition": "Adaptación y progresivo control del movimiento y la postura en las diferentes situaciones de la vida cotidiana.",
       "broader": "sb:ICR401SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2439,6 +2647,7 @@
       "definition": "Estrategias para identificar y evitar situaciones de riesgo o peligro.",
       "broader": "sb:ICR401SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2450,6 +2659,7 @@
       "definition": "Identificación y adecuación de estados emocionales a las diferentes situaciones: tiempos de espera, pequeñas frustraciones asociadas a la satisfacción de necesidades básicas y cuidados.",
       "broader": "sb:ICR401SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2461,6 +2671,7 @@
       "definition": "Aceptación y control progresivo de las emociones y de sus manifestaciones. Disfrute de las relaciones con las demás personas.",
       "broader": "sb:ICR401SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2472,6 +2683,7 @@
       "definition": "Aproximación a algunas estrategias para lograr seguridad afectiva: búsqueda de ayuda y demanda de contacto afectivo.",
       "broader": "sb:ICR401SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2483,6 +2695,7 @@
       "definition": "Participación activa en los momentos de los cuidados y la atención a las necesidades básicas que se le ofrecen.",
       "broader": "sb:ICR401SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2494,6 +2707,7 @@
       "definition": "Manifestación de interés por ofrecer un aspecto saludable y aseado. Participación activa en el desarrollo de actividades que favorecen la salud y generan bienestar.",
       "broader": "sb:ICR401SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2505,6 +2719,7 @@
       "definition": "Participación e interés por el cuidado del entorno.",
       "broader": "sb:ICR401SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2516,6 +2731,7 @@
       "definition": "Iniciación a la participación activa en el desarrollo de hábitos sostenibles y ecosocialmente responsables relacionados con la alimentación, la higiene, el aseo personal, el descanso o la limpieza del espacio.",
       "broader": "sb:ICR401SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2527,6 +2743,7 @@
       "definition": "Adaptación progresiva de los ritmos biológicos propios a las rutinas del grupo.",
       "broader": "sb:ICR401SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2538,6 +2755,7 @@
       "definition": "Iniciación en la interiorización de rutinas relacionadas con el compromiso y la autonomía: anticipación de acciones, normas de comportamiento social en la comida, el descanso, la higiene, los desplazamientos…",
       "broader": "sb:ICR401SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2549,6 +2767,7 @@
       "definition": "Transición del grupo familiar al grupo social en la escuela.",
       "broader": "sb:ICR401SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2560,6 +2779,7 @@
       "definition": "Construcción de los primeros vínculos afectivos escolares.",
       "broader": "sb:ICR401SBIV.1",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2571,6 +2791,7 @@
       "definition": "Construcción de sentimientos de pertenencia y vinculación afectiva con las personas de referencia escolar: el aula y el centro como grupos sociales de pertenencia.",
       "broader": "sb:ICR401SBIV.1",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2582,6 +2803,7 @@
       "definition": "Acercamiento a la diversidad funcional y sus implicaciones en la vida cotidiana.",
       "broader": "sb:ICR401SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2593,6 +2815,7 @@
       "definition": "Establecimiento de relaciones afectuosas y respetuosas.",
       "broader": "sb:ICR401SBIV.2",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2604,6 +2827,7 @@
       "definition": "Reproducción de conductas a través del juego de imitación para el desarrollo de actitudes de respeto y empatía.",
       "broader": "sb:ICR401SBIV.2",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2615,6 +2839,7 @@
       "definition": "Iniciación en el uso de estrategias elementales, con mediación de la persona adulta, para la gestión de conflictos.",
       "broader": "sb:ICR401SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2626,6 +2851,7 @@
       "definition": "Adquisición paulatina de hábitos y regulación del comportamiento en función de las necesidades de los demás: escucha, paciencia y ayuda.",
       "broader": "sb:ICR401SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2637,6 +2863,7 @@
       "definition": "Asunción de pequeñas responsabilidades en actividades y juegos.",
       "broader": "sb:ICR401SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2648,6 +2875,7 @@
       "definition": "Participación activa y disfrute en celebraciones, costumbres y tradiciones étnicos-culturales presentes en el entorno.",
       "broader": "sb:ICR401SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2659,6 +2887,7 @@
       "definition": "Acercamiento y disfrute del patrimonio natural y cultural de Canarias.",
       "broader": "sb:ICR401SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR401",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -2670,6 +2899,7 @@
       "definition": "Descubrimiento de su cuerpo y reconocimiento de la propia imagen y la de las personas de su entorno.",
       "broader": "sb:ICR402SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2681,6 +2911,7 @@
       "definition": "Identificación y respeto de las diferencias.",
       "broader": "sb:ICR402SBI.1",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2692,6 +2923,7 @@
       "definition": "Relación y contacto con las otras personas y con los objetos.",
       "broader": "sb:ICR402SBI.1",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2703,6 +2935,7 @@
       "definition": "Evolución del juego como actividad propia para el bienestar y el disfrute: juego exploratorio, sensorial y motor.",
       "broader": "sb:ICR402SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2714,6 +2947,7 @@
       "definition": "Exploración y participación en experiencias activas en el entorno: el movimiento libre como fuente de aprendizaje y desarrollo inicial.",
       "broader": "sb:ICR402SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2725,6 +2959,7 @@
       "definition": "Curiosidad e interés por la exploración sensoriomotriz de su cuerpo y su entorno inmediato.",
       "broader": "sb:ICR402SBI.3",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2736,6 +2971,7 @@
       "definition": "Integración sensorial del mundo a través de las posibilidades perceptivas.",
       "broader": "sb:ICR402SBI.3",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2747,6 +2983,7 @@
       "definition": "Experimentación manipulativa y dominio progresivo de la coordinación visomotriz en el contacto con objetos y materiales.",
       "broader": "sb:ICR402SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2758,6 +2995,7 @@
       "definition": "Contacto con las otras personas y con los objetos. Iniciativa y curiosidad para aprender nuevas habilidades.",
       "broader": "sb:ICR402SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2769,6 +3007,7 @@
       "definition": "Adaptación y progresivo control del movimiento y la postura en las diferentes situaciones de la vida cotidiana.",
       "broader": "sb:ICR402SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2780,6 +3019,7 @@
       "definition": "Estrategias para identificar y evitar situaciones de riesgo o peligro.",
       "broader": "sb:ICR402SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2791,6 +3031,7 @@
       "definition": "Identificación y adecuación de estados emocionales a las diferentes situaciones: tiempos de espera, pequeñas frustraciones asociadas a la satisfacción de necesidades básicas y cuidados.",
       "broader": "sb:ICR402SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2802,6 +3043,7 @@
       "definition": "Aceptación y control progresivo de las emociones y de sus manifestaciones. Disfrute de las relaciones con las demás personas.",
       "broader": "sb:ICR402SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2813,6 +3055,7 @@
       "definition": "Aproximación a algunas estrategias para lograr seguridad afectiva: búsqueda de ayuda y demanda de contacto afectivo.",
       "broader": "sb:ICR402SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2824,6 +3067,7 @@
       "definition": "Participación activa en los momentos de los cuidados y la atención a las necesidades básicas que se le ofrecen.",
       "broader": "sb:ICR402SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2835,6 +3079,7 @@
       "definition": "Manifestación de interés por ofrecer un aspecto saludable y aseado. Participación activa en el desarrollo de actividades que favorecen la salud y generan bienestar.",
       "broader": "sb:ICR402SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2846,6 +3091,7 @@
       "definition": "Participación e interés por el cuidado del entorno.",
       "broader": "sb:ICR402SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2857,6 +3103,7 @@
       "definition": "Iniciación a la participación activa en el desarrollo de hábitos sostenibles y ecosocialmente responsables relacionados con la alimentación, la higiene, el aseo personal, el descanso o la limpieza del espacio.",
       "broader": "sb:ICR402SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2868,6 +3115,7 @@
       "definition": "Adaptación progresiva de los ritmos biológicos propios a las rutinas del grupo.",
       "broader": "sb:ICR402SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2879,6 +3127,7 @@
       "definition": "Iniciación en la interiorización de rutinas relacionadas con el compromiso y la autonomía: anticipación de acciones, normas de comportamiento social en la comida, el descanso, la higiene, los desplazamientos…",
       "broader": "sb:ICR402SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2890,6 +3139,7 @@
       "definition": "Transición del grupo familiar al grupo social en la escuela.",
       "broader": "sb:ICR402SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2901,6 +3151,7 @@
       "definition": "Construcción de los primeros vínculos afectivos escolares.",
       "broader": "sb:ICR402SBIV.1",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2912,6 +3163,7 @@
       "definition": "Construcción de sentimientos de pertenencia y vinculación afectiva con las personas de referencia escolar: el aula y el centro como grupos sociales de pertenencia.",
       "broader": "sb:ICR402SBIV.1",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2923,6 +3175,7 @@
       "definition": "Acercamiento a la diversidad funcional y sus implicaciones en la vida cotidiana.",
       "broader": "sb:ICR402SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2934,6 +3187,7 @@
       "definition": "Establecimiento de relaciones afectuosas y respetuosas.",
       "broader": "sb:ICR402SBIV.2",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2945,6 +3199,7 @@
       "definition": "Reproducción de conductas a través del juego de imitación para el desarrollo de actitudes de respeto y empatía.",
       "broader": "sb:ICR402SBIV.2",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2956,6 +3211,7 @@
       "definition": "Iniciación en el uso de estrategias elementales, con mediación de la persona adulta, para la gestión de conflictos.",
       "broader": "sb:ICR402SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2967,6 +3223,7 @@
       "definition": "Adquisición paulatina de hábitos y regulación del comportamiento en función de las necesidades de los demás: escucha, paciencia y ayuda.",
       "broader": "sb:ICR402SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2978,6 +3235,7 @@
       "definition": "Asunción de pequeñas responsabilidades en actividades y juegos.",
       "broader": "sb:ICR402SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2989,6 +3247,7 @@
       "definition": "Participación activa y disfrute en celebraciones, costumbres y tradiciones étnicos-culturales presentes en el entorno.",
       "broader": "sb:ICR402SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -3000,6 +3259,7 @@
       "definition": "Acercamiento y disfrute del patrimonio natural y cultural de Canarias.",
       "broader": "sb:ICR402SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR402",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -3011,6 +3271,7 @@
       "definition": "Descubrimiento de su cuerpo y reconocimiento de la propia imagen y la de las personas de su entorno.",
       "broader": "sb:ICR403SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3022,6 +3283,7 @@
       "definition": "Identificación y respeto de las diferencias.",
       "broader": "sb:ICR403SBI.1",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3033,6 +3295,7 @@
       "definition": "Relación y contacto con las otras personas y con los objetos.",
       "broader": "sb:ICR403SBI.1",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3044,6 +3307,7 @@
       "definition": "Evolución del juego como actividad propia para el bienestar y el disfrute: juego exploratorio, sensorial y motor.",
       "broader": "sb:ICR403SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3055,6 +3319,7 @@
       "definition": "Exploración y participación en experiencias activas en el entorno: el movimiento libre como fuente de aprendizaje y desarrollo inicial.",
       "broader": "sb:ICR403SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3066,6 +3331,7 @@
       "definition": "Curiosidad e interés por la exploración sensoriomotriz de su cuerpo y su entorno inmediato.",
       "broader": "sb:ICR403SBI.3",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3077,6 +3343,7 @@
       "definition": "Integración sensorial del mundo a través de las posibilidades perceptivas.",
       "broader": "sb:ICR403SBI.3",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3088,6 +3355,7 @@
       "definition": "Experimentación manipulativa y dominio progresivo de la coordinación visomotriz en el contacto con objetos y materiales.",
       "broader": "sb:ICR403SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3099,6 +3367,7 @@
       "definition": "Contacto con las otras personas y con los objetos. Iniciativa y curiosidad para aprender nuevas habilidades.",
       "broader": "sb:ICR403SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3110,6 +3379,7 @@
       "definition": "Adaptación y progresivo control del movimiento y la postura en las diferentes situaciones de la vida cotidiana.",
       "broader": "sb:ICR403SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3121,6 +3391,7 @@
       "definition": "Estrategias para identificar y evitar situaciones de riesgo o peligro.",
       "broader": "sb:ICR403SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3132,6 +3403,7 @@
       "definition": "Identificación y adecuación de estados emocionales a las diferentes situaciones: tiempos de espera, pequeñas frustraciones asociadas a la satisfacción de necesidades básicas y cuidados.",
       "broader": "sb:ICR403SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3143,6 +3415,7 @@
       "definition": "Aceptación y control progresivo de las emociones y de sus manifestaciones. Disfrute de las relaciones con las demás personas.",
       "broader": "sb:ICR403SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3154,6 +3427,7 @@
       "definition": "Aproximación a algunas estrategias para lograr seguridad afectiva: búsqueda de ayuda y demanda de contacto afectivo.",
       "broader": "sb:ICR403SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3165,6 +3439,7 @@
       "definition": "Participación activa en los momentos de los cuidados y la atención a las necesidades básicas que se le ofrecen.",
       "broader": "sb:ICR403SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3176,6 +3451,7 @@
       "definition": "Manifestación de interés por ofrecer un aspecto saludable y aseado. Participación activa en el desarrollo de actividades que favorecen la salud y generan bienestar.",
       "broader": "sb:ICR403SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3187,6 +3463,7 @@
       "definition": "Participación e interés por el cuidado del entorno.",
       "broader": "sb:ICR403SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3198,6 +3475,7 @@
       "definition": "Iniciación a la participación activa en el desarrollo de hábitos sostenibles y ecosocialmente responsables relacionados con la alimentación, la higiene, el aseo personal, el descanso o la limpieza del espacio.",
       "broader": "sb:ICR403SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3209,6 +3487,7 @@
       "definition": "Adaptación progresiva de los ritmos biológicos propios a las rutinas del grupo.",
       "broader": "sb:ICR403SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3220,6 +3499,7 @@
       "definition": "Iniciación en la interiorización de rutinas relacionadas con el compromiso y la autonomía: anticipación de acciones, normas de comportamiento social en la comida, el descanso, la higiene, los desplazamientos…",
       "broader": "sb:ICR403SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3231,6 +3511,7 @@
       "definition": "Transición del grupo familiar al grupo social en la escuela.",
       "broader": "sb:ICR403SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3242,6 +3523,7 @@
       "definition": "Construcción de los primeros vínculos afectivos escolares.",
       "broader": "sb:ICR403SBIV.1",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3253,6 +3535,7 @@
       "definition": "Construcción de sentimientos de pertenencia y vinculación afectiva con las personas de referencia escolar: el aula y el centro como grupos sociales de pertenencia.",
       "broader": "sb:ICR403SBIV.1",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3264,6 +3547,7 @@
       "definition": "Acercamiento a la diversidad funcional y sus implicaciones en la vida cotidiana.",
       "broader": "sb:ICR403SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3275,6 +3559,7 @@
       "definition": "Establecimiento de relaciones afectuosas y respetuosas.",
       "broader": "sb:ICR403SBIV.2",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3286,6 +3571,7 @@
       "definition": "Reproducción de conductas a través del juego de imitación para el desarrollo de actitudes de respeto y empatía.",
       "broader": "sb:ICR403SBIV.2",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3297,6 +3583,7 @@
       "definition": "Iniciación en el uso de estrategias elementales, con mediación de la persona adulta, para la gestión de conflictos.",
       "broader": "sb:ICR403SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3308,6 +3595,7 @@
       "definition": "Adquisición paulatina de hábitos y regulación del comportamiento en función de las necesidades de los demás: escucha, paciencia y ayuda.",
       "broader": "sb:ICR403SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3319,6 +3607,7 @@
       "definition": "Asunción de pequeñas responsabilidades en actividades y juegos.",
       "broader": "sb:ICR403SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3330,6 +3619,7 @@
       "definition": "Participación activa y disfrute en celebraciones, costumbres y tradiciones étnicos-culturales presentes en el entorno.",
       "broader": "sb:ICR403SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3341,6 +3631,7 @@
       "definition": "Acercamiento y disfrute del patrimonio natural y cultural de Canarias.",
       "broader": "sb:ICR403SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR403",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -3352,6 +3643,7 @@
       "definition": "Construcción de la imagen global y segmentaria del cuerpo: características individuales y percepción de los cambios físicos.",
       "broader": "sb:ICR404SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3363,6 +3655,7 @@
       "definition": "Control progresivo de la coordinación, el tono, el equilibrio y los desplazamientos.",
       "broader": "sb:ICR404SBI.1",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3374,6 +3667,7 @@
       "definition": "Dominio activo del tono y la postura en función de las características de los objetos, las acciones y las situaciones.",
       "broader": "sb:ICR404SBI.1",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3385,6 +3679,7 @@
       "definition": "Adquisición progresiva de autonomía en la realización de las tareas y en el uso de diversas estrategias que le permitan actuar con seguridad y confianza en las propias posibilidades.",
       "broader": "sb:ICR404SBI.1",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3396,6 +3691,7 @@
       "definition": "El juego como actividad placentera y fuente de aprendizaje. Participación y disfrute en diferentes tipos de juego: exploratorio, relacional, constructivo, simbólico, con reglas y motor.",
       "broader": "sb:ICR404SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3407,6 +3703,7 @@
       "definition": "Construcción de una autoimagen positiva y ajustada ante las demás personas.",
       "broader": "sb:ICR404SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3418,6 +3715,7 @@
       "definition": "Identificación y respeto de las diferencias.",
       "broader": "sb:ICR404SBI.3",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3429,6 +3727,7 @@
       "definition": "Sensibilización hacia las implicaciones que se derivan de la diversidad funcional en la vida cotidiana (sensorial, física, cognitiva…).",
       "broader": "sb:ICR404SBI.3",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3440,6 +3739,7 @@
       "definition": "Conocimiento de los sentidos y sus funciones. Relación entre el cuerpo y el entorno.",
       "broader": "sb:ICR404SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3451,6 +3751,7 @@
       "definition": "Adquisición de herramientas para la identificación, expresión, aceptación y control progresivo de las propias emociones, sentimientos, vivencias, preferencias e intereses.",
       "broader": "sb:ICR404SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3462,6 +3763,7 @@
       "definition": "Desarrollo de estrategias de ayuda y cooperación en contextos de juego y rutinas. Reconocimiento de las propias posibilidades.",
       "broader": "sb:ICR404SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3473,6 +3775,7 @@
       "definition": "Desarrollo de estrategias para promover la seguridad en sí mismo o sí misma, el reconocimiento de sus posibilidades y la asertividad respetuosa hacia las demás personas.",
       "broader": "sb:ICR404SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3484,6 +3787,7 @@
       "definition": "Identificación de las propias posibilidades para la ejecución de una tarea. Manifestaciones de superación y logro.",
       "broader": "sb:ICR404SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3495,6 +3799,7 @@
       "definition": "Aceptación constructiva de los errores y las correcciones.",
       "broader": "sb:ICR404SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3506,6 +3811,7 @@
       "definition": "Valoración del trabajo bien hecho: desarrollo inicial de hábitos y actitudes de esfuerzo, constancia, organización, atención e iniciativa.",
       "broader": "sb:ICR404SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3517,6 +3823,7 @@
       "definition": "Creación y mantenimiento de hábitos y prácticas sostenibles y ecosocialmente responsables relacionados con la alimentación, la higiene, el descanso, el autocuidado y el cuidado del entorno.",
       "broader": "sb:ICR404SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3528,6 +3835,7 @@
       "definition": "Planificación secuenciada de acciones para resolver una tarea: normas de comportamiento social en la comida, el descanso, la higiene, los desplazamientos…",
       "broader": "sb:ICR404SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3539,6 +3847,7 @@
       "definition": "Participación en actividad física estructurada con diferentes grados de intensidad.",
       "broader": "sb:ICR404SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3550,6 +3859,7 @@
       "definition": "Necesidades básicas: manifestación, regulación y control, en relación con el bienestar personal.",
       "broader": "sb:ICR404SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3561,6 +3871,7 @@
       "definition": "Identificación de situaciones peligrosas y reconocimiento de acciones para la prevención de riesgos y accidentes.",
       "broader": "sb:ICR404SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3572,6 +3883,7 @@
       "definition": "Incorporación armónica a la escuela.",
       "broader": "sb:ICR404SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3583,6 +3895,7 @@
       "definition": "Despliegue progresivo de habilidades socioafectivas y de convivencia.",
       "broader": "sb:ICR404SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3594,6 +3907,7 @@
       "definition": "Comunicación de sentimientos y emociones.",
       "broader": "sb:ICR404SBIV.2",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3605,6 +3919,7 @@
       "definition": "Interiorización de pautas básicas de convivencia, que incluyan el respeto a la igualdad entre mujeres y hombres y el rechazo a cualquier tipo de discriminación. Cuestionamiento de estereotipos y prejuicios.",
       "broader": "sb:ICR404SBIV.2",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3616,6 +3931,7 @@
       "definition": "Adquisición de estrategias de autorregulación de la conducta.",
       "broader": "sb:ICR404SBIV.2",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3627,6 +3943,7 @@
       "definition": "Expresión de empatía y respeto.",
       "broader": "sb:ICR404SBIV.2",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3638,6 +3955,7 @@
       "definition": "Descubrimiento de la diversidad familiar.",
       "broader": "sb:ICR404SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3649,6 +3967,7 @@
       "definition": "Establecimiento de la amistad como elemento protector, de prevención de la violencia y de desarrollo de la cultura de paz.",
       "broader": "sb:ICR404SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3660,6 +3979,7 @@
       "definition": "Resolución de conflictos surgidos en interacciones con las demás personas.",
       "broader": "sb:ICR404SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3671,6 +3991,7 @@
       "definition": "Adquisición y empleo de fórmulas de cortesía e interacción social positiva.",
       "broader": "sb:ICR404SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3682,6 +4003,7 @@
       "definition": "Manifestación de actitud de ayuda y cooperación.",
       "broader": "sb:ICR404SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3693,6 +4015,7 @@
       "definition": "Reconocimiento y respuesta empática hacia la diversidad y a sus implicaciones en la vida cotidiana.",
       "broader": "sb:ICR404SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3704,6 +4027,7 @@
       "definition": "Desarrollo del juego simbólico. Observación, imitación y representación de personas, personajes y situaciones.",
       "broader": "sb:ICR404SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3715,6 +4039,7 @@
       "definition": "Descubrimiento de otros grupos sociales de pertenencia: características, funciones y servicios.",
       "broader": "sb:ICR404SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3726,6 +4051,7 @@
       "definition": "Participación activa en celebraciones, costumbres y tradiciones.",
       "broader": "sb:ICR404SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3737,6 +4063,7 @@
       "definition": "Adquisición de herramientas para el aprecio de las señas de identidad étnico-cultural presentes en el entorno.",
       "broader": "sb:ICR404SBIV.11",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3748,6 +4075,7 @@
       "definition": "Acercamiento y disfrute del patrimonio cultural y del natural de Canarias.",
       "broader": "sb:ICR404SBIV.11",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR404",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -3759,6 +4087,7 @@
       "definition": "Construcción de la imagen global y segmentaria del cuerpo: características individuales y percepción de los cambios físicos.",
       "broader": "sb:ICR405SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -3770,6 +4099,7 @@
       "definition": "Control progresivo de la coordinación, el tono, el equilibrio y los desplazamientos.",
       "broader": "sb:ICR405SBI.1",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -3781,6 +4111,7 @@
       "definition": "Dominio activo del tono y la postura en función de las características de los objetos, las acciones y las situaciones.",
       "broader": "sb:ICR405SBI.1",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -3792,6 +4123,7 @@
       "definition": "Adquisición progresiva de autonomía en la realización de las tareas y en el uso de diversas estrategias que le permitan actuar con seguridad y confianza en las propias posibilidades.",
       "broader": "sb:ICR405SBI.1",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -3803,6 +4135,7 @@
       "definition": "El juego como actividad placentera y fuente de aprendizaje. Participación y disfrute en diferentes tipos de juego: exploratorio, relacional, constructivo, simbólico, con reglas y motor.",
       "broader": "sb:ICR405SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -3814,6 +4147,7 @@
       "definition": "Construcción de una autoimagen positiva y ajustada ante las demás personas.",
       "broader": "sb:ICR405SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -3825,6 +4159,7 @@
       "definition": "Identificación y respeto de las diferencias.",
       "broader": "sb:ICR405SBI.3",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -3836,6 +4171,7 @@
       "definition": "Sensibilización hacia las implicaciones que se derivan de la diversidad funcional en la vida cotidiana (sensorial, física, cognitiva…).",
       "broader": "sb:ICR405SBI.3",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -3847,6 +4183,7 @@
       "definition": "Conocimiento de los sentidos y sus funciones. Relación entre el cuerpo y el entorno.",
       "broader": "sb:ICR405SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -3858,6 +4195,7 @@
       "definition": "Adquisición de herramientas para la identificación, expresión, aceptación y control progresivo de las propias emociones, sentimientos, vivencias, preferencias e intereses.",
       "broader": "sb:ICR405SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -3869,6 +4207,7 @@
       "definition": "Desarrollo de estrategias de ayuda y cooperación en contextos de juego y rutinas. Reconocimiento de las propias posibilidades.",
       "broader": "sb:ICR405SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -3880,6 +4219,7 @@
       "definition": "Desarrollo de estrategias para promover la seguridad en sí mismo o sí misma, el reconocimiento de sus posibilidades y la asertividad respetuosa hacia las demás personas.",
       "broader": "sb:ICR405SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -3891,6 +4231,7 @@
       "definition": "Identificación de las propias posibilidades para la ejecución de una tarea. Manifestaciones de superación y logro.",
       "broader": "sb:ICR405SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -3902,6 +4243,7 @@
       "definition": "Aceptación constructiva de los errores y las correcciones.",
       "broader": "sb:ICR405SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -3913,6 +4255,7 @@
       "definition": "Valoración del trabajo bien hecho: desarrollo inicial de hábitos y actitudes de esfuerzo, constancia, organización, atención e iniciativa.",
       "broader": "sb:ICR405SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -3924,6 +4267,7 @@
       "definition": "Creación y mantenimiento de hábitos y prácticas sostenibles y ecosocialmente responsables relacionados con la alimentación, la higiene, el descanso, el autocuidado y el cuidado del entorno.",
       "broader": "sb:ICR405SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -3935,6 +4279,7 @@
       "definition": "Planificación secuenciada de acciones para resolver una tarea: normas de comportamiento social en la comida, el descanso, la higiene, los desplazamientos…",
       "broader": "sb:ICR405SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -3946,6 +4291,7 @@
       "definition": "Participación en actividad física estructurada con diferentes grados de intensidad.",
       "broader": "sb:ICR405SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -3957,6 +4303,7 @@
       "definition": "Necesidades básicas: manifestación, regulación y control, en relación con el bienestar personal.",
       "broader": "sb:ICR405SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -3968,6 +4315,7 @@
       "definition": "Identificación de situaciones peligrosas y reconocimiento de acciones para la prevención de riesgos y accidentes.",
       "broader": "sb:ICR405SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -3979,6 +4327,7 @@
       "definition": "Incorporación armónica a la escuela.",
       "broader": "sb:ICR405SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -3990,6 +4339,7 @@
       "definition": "Despliegue progresivo de habilidades socioafectivas y de convivencia.",
       "broader": "sb:ICR405SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -4001,6 +4351,7 @@
       "definition": "Comunicación de sentimientos y emociones.",
       "broader": "sb:ICR405SBIV.2",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -4012,6 +4363,7 @@
       "definition": "Interiorización de pautas básicas de convivencia, que incluyan el respeto a la igualdad entre mujeres y hombres y el rechazo a cualquier tipo de discriminación. Cuestionamiento de estereotipos y prejuicios.",
       "broader": "sb:ICR405SBIV.2",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -4023,6 +4375,7 @@
       "definition": "Adquisición de estrategias de autorregulación de la conducta.",
       "broader": "sb:ICR405SBIV.2",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -4034,6 +4387,7 @@
       "definition": "Expresión de empatía y respeto.",
       "broader": "sb:ICR405SBIV.2",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -4045,6 +4399,7 @@
       "definition": "Descubrimiento de la diversidad familiar.",
       "broader": "sb:ICR405SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -4056,6 +4411,7 @@
       "definition": "Establecimiento de la amistad como elemento protector, de prevención de la violencia y de desarrollo de la cultura de paz.",
       "broader": "sb:ICR405SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -4067,6 +4423,7 @@
       "definition": "Resolución de conflictos surgidos en interacciones con las demás personas.",
       "broader": "sb:ICR405SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -4078,6 +4435,7 @@
       "definition": "Adquisición y empleo de fórmulas de cortesía e interacción social positiva.",
       "broader": "sb:ICR405SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -4089,6 +4447,7 @@
       "definition": "Manifestación de actitud de ayuda y cooperación.",
       "broader": "sb:ICR405SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -4100,6 +4459,7 @@
       "definition": "Reconocimiento y respuesta empática hacia la diversidad y a sus implicaciones en la vida cotidiana.",
       "broader": "sb:ICR405SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -4111,6 +4471,7 @@
       "definition": "Desarrollo del juego simbólico. Observación, imitación y representación de personas, personajes y situaciones.",
       "broader": "sb:ICR405SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -4122,6 +4483,7 @@
       "definition": "Descubrimiento de otros grupos sociales de pertenencia: características, funciones y servicios.",
       "broader": "sb:ICR405SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -4133,6 +4495,7 @@
       "definition": "Participación activa en celebraciones, costumbres y tradiciones.",
       "broader": "sb:ICR405SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -4144,6 +4507,7 @@
       "definition": "Adquisición de herramientas para el aprecio de las señas de identidad étnico-cultural presentes en el entorno.",
       "broader": "sb:ICR405SBIV.11",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -4155,6 +4519,7 @@
       "definition": "Acercamiento y disfrute del patrimonio cultural y del natural de Canarias.",
       "broader": "sb:ICR405SBIV.11",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR405",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -4166,6 +4531,7 @@
       "definition": "Construcción de la imagen global y segmentaria del cuerpo: características individuales y percepción de los cambios físicos.",
       "broader": "sb:ICR406SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4177,6 +4543,7 @@
       "definition": "Control progresivo de la coordinación, el tono, el equilibrio y los desplazamientos.",
       "broader": "sb:ICR406SBI.1",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4188,6 +4555,7 @@
       "definition": "Dominio activo del tono y la postura en función de las características de los objetos, las acciones y las situaciones.",
       "broader": "sb:ICR406SBI.1",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4199,6 +4567,7 @@
       "definition": "Adquisición progresiva de autonomía en la realización de las tareas y en el uso de diversas estrategias que le permitan actuar con seguridad y confianza en las propias posibilidades.",
       "broader": "sb:ICR406SBI.1",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4210,6 +4579,7 @@
       "definition": "El juego como actividad placentera y fuente de aprendizaje. Participación y disfrute en diferentes tipos de juego: exploratorio, relacional, constructivo, simbólico, con reglas y motor.",
       "broader": "sb:ICR406SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4221,6 +4591,7 @@
       "definition": "Construcción de una autoimagen positiva y ajustada ante las demás personas.",
       "broader": "sb:ICR406SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4232,6 +4603,7 @@
       "definition": "Identificación y respeto de las diferencias.",
       "broader": "sb:ICR406SBI.3",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4243,6 +4615,7 @@
       "definition": "Sensibilización hacia las implicaciones que se derivan de la diversidad funcional en la vida cotidiana (sensorial, física, cognitiva…).",
       "broader": "sb:ICR406SBI.3",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4254,6 +4627,7 @@
       "definition": "Conocimiento de los sentidos y sus funciones. Relación entre el cuerpo y el entorno.",
       "broader": "sb:ICR406SBI",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4265,6 +4639,7 @@
       "definition": "Adquisición de herramientas para la identificación, expresión, aceptación y control progresivo de las propias emociones, sentimientos, vivencias, preferencias e intereses.",
       "broader": "sb:ICR406SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4276,6 +4651,7 @@
       "definition": "Desarrollo de estrategias de ayuda y cooperación en contextos de juego y rutinas. Reconocimiento de las propias posibilidades.",
       "broader": "sb:ICR406SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4287,6 +4663,7 @@
       "definition": "Desarrollo de estrategias para promover la seguridad en sí mismo o sí misma, el reconocimiento de sus posibilidades y la asertividad respetuosa hacia las demás personas.",
       "broader": "sb:ICR406SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4298,6 +4675,7 @@
       "definition": "Identificación de las propias posibilidades para la ejecución de una tarea. Manifestaciones de superación y logro.",
       "broader": "sb:ICR406SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4309,6 +4687,7 @@
       "definition": "Aceptación constructiva de los errores y las correcciones.",
       "broader": "sb:ICR406SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4320,6 +4699,7 @@
       "definition": "Valoración del trabajo bien hecho: desarrollo inicial de hábitos y actitudes de esfuerzo, constancia, organización, atención e iniciativa.",
       "broader": "sb:ICR406SBII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4331,6 +4711,7 @@
       "definition": "Creación y mantenimiento de hábitos y prácticas sostenibles y ecosocialmente responsables relacionados con la alimentación, la higiene, el descanso, el autocuidado y el cuidado del entorno.",
       "broader": "sb:ICR406SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4342,6 +4723,7 @@
       "definition": "Planificación secuenciada de acciones para resolver una tarea: normas de comportamiento social en la comida, el descanso, la higiene, los desplazamientos…",
       "broader": "sb:ICR406SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4353,6 +4735,7 @@
       "definition": "Participación en actividad física estructurada con diferentes grados de intensidad.",
       "broader": "sb:ICR406SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4364,6 +4747,7 @@
       "definition": "Necesidades básicas: manifestación, regulación y control, en relación con el bienestar personal.",
       "broader": "sb:ICR406SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4375,6 +4759,7 @@
       "definition": "Identificación de situaciones peligrosas y reconocimiento de acciones para la prevención de riesgos y accidentes.",
       "broader": "sb:ICR406SBIII",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4386,6 +4771,7 @@
       "definition": "Incorporación armónica a la escuela.",
       "broader": "sb:ICR406SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4397,6 +4783,7 @@
       "definition": "Despliegue progresivo de habilidades socioafectivas y de convivencia.",
       "broader": "sb:ICR406SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4408,6 +4795,7 @@
       "definition": "Comunicación de sentimientos y emociones.",
       "broader": "sb:ICR406SBIV.2",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4419,6 +4807,7 @@
       "definition": "Interiorización de pautas básicas de convivencia, que incluyan el respeto a la igualdad entre mujeres y hombres y el rechazo a cualquier tipo de discriminación. Cuestionamiento de estereotipos y prejuicios.",
       "broader": "sb:ICR406SBIV.2",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4430,6 +4819,7 @@
       "definition": "Adquisición de estrategias de autorregulación de la conducta.",
       "broader": "sb:ICR406SBIV.2",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4441,6 +4831,7 @@
       "definition": "Expresión de empatía y respeto.",
       "broader": "sb:ICR406SBIV.2",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4452,6 +4843,7 @@
       "definition": "Descubrimiento de la diversidad familiar.",
       "broader": "sb:ICR406SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4463,6 +4855,7 @@
       "definition": "Establecimiento de la amistad como elemento protector, de prevención de la violencia y de desarrollo de la cultura de paz.",
       "broader": "sb:ICR406SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4474,6 +4867,7 @@
       "definition": "Resolución de conflictos surgidos en interacciones con las demás personas.",
       "broader": "sb:ICR406SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4485,6 +4879,7 @@
       "definition": "Adquisición y empleo de fórmulas de cortesía e interacción social positiva.",
       "broader": "sb:ICR406SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4496,6 +4891,7 @@
       "definition": "Manifestación de actitud de ayuda y cooperación.",
       "broader": "sb:ICR406SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4507,6 +4903,7 @@
       "definition": "Reconocimiento y respuesta empática hacia la diversidad y a sus implicaciones en la vida cotidiana.",
       "broader": "sb:ICR406SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4518,6 +4915,7 @@
       "definition": "Desarrollo del juego simbólico. Observación, imitación y representación de personas, personajes y situaciones.",
       "broader": "sb:ICR406SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4529,6 +4927,7 @@
       "definition": "Descubrimiento de otros grupos sociales de pertenencia: características, funciones y servicios.",
       "broader": "sb:ICR406SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4540,6 +4939,7 @@
       "definition": "Participación activa en celebraciones, costumbres y tradiciones.",
       "broader": "sb:ICR406SBIV",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4551,6 +4951,7 @@
       "definition": "Adquisición de herramientas para el aprecio de las señas de identidad étnico-cultural presentes en el entorno.",
       "broader": "sb:ICR406SBIV.11",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -4562,6 +4963,7 @@
       "definition": "Acercamiento y disfrute del patrimonio cultural y del natural de Canarias.",
       "broader": "sb:ICR406SBIV.11",
       "materia": "materia:ICR4",
+      "materia_curso": "asig:ICR406",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     }

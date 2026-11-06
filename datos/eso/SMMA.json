@@ -12,6 +12,16 @@
       "etapa": "etapa:ESO"
     },
     {
+      "id": "asig:SMMA04",
+      "tipo": "MateriaCurso",
+      "notation": "SMMA04",
+      "prefLabel": "Matemáticas A · 4º ESO",
+      "broader": "materia:SMMA",
+      "materia": "materia:SMMA",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
       "id": "ce:SMMAC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "SMMAC1",
@@ -117,7 +127,7 @@
       "notation": "SMMA04BC1",
       "prefLabel": "Matemáticas A · 4º ESO · bloque competencial C1 + C2",
       "scopeNote": "A través de este bloque competencial se persigue que el alumnado sea capaz de resolver problemas de la vida cotidiana y propios de las matemáticas de cualquiera de los bloques de los saberes básicos, siguiendo todas las fases de resolución, haciendo uso de diferentes herramientas manuales o digitales, como regletas, fichas, dados, calculadoras, hojas de cálculo, programas de representación gráfica o geometría dinámica, entre otros, seleccionando y configurando la más adecuada en función de la tarea. Para ello se comprobará que el alumnado sea capaz de analizar problemas matemáticos, identificando los datos y el objetivo, definiendo la relación que existe entre ellos y representando la información mediante herramientas de modelización como diagramas, expresiones simbólicas, gráficas, etc. Además, se pretende comprobar si el alumnado selecciona y aplica estrategias elaboradas, como la analogía con otros problemas, estimación, ensayo y error, resolución de manera inversa (ir hacia atrás), descomposición en problemas más sencillos, búsqueda de patrones, etc., valorando su eficacia e idoneidad en la resolución de problemas, buscando un cambio de estrategia cuando sea necesario y transformando el error en oportunidad de aprendizaje. También se evaluará que sea capaz de obtener todas las soluciones posibles de un problema, así como seleccionar de entre ellas las óptimas, valorando tanto la corrección matemática como sus implicaciones desde diferentes perspectivas (de género, de sostenibilidad, de consumo responsable, etc.).",
-      "broader": "materia:SMMA",
+      "broader": "asig:SMMA04",
       "agrupa": [
         "ce:SMMAC1",
         "ce:SMMAC2"
@@ -137,6 +147,7 @@
         "CC3"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -146,7 +157,7 @@
       "notation": "SMMA04BC3",
       "prefLabel": "Matemáticas A · 4º ESO · bloque competencial C3 + C4",
       "scopeNote": "A través de este bloque competencial se pretende que el alumnado, empleando métodos inductivos, deductivos y lógicos propios del razonamiento matemático, sea capaz de formular y comprobar, por medio de la experimentación y la indagación, conjeturas sencillas fundamentalmente relacionadas con propiedades geométricas; utilizando para tal fin herramientas digitales. Del mismo modo, se persigue que pueda reconocer patrones numéricos, analizar relaciones cuantitativas, interpretar, modificar y crear algoritmos, así como desarrollar métodos con los que resolver problemas (referentes a proporciones, aumentos o disminuciones porcentuales, intereses, etc.), actuando con curiosidad y perseverancia, para obtener e intercambiar conclusiones relevantes y generar nuevo conocimiento. Asimismo, este bloque competencial trata de comprobar, por un lado, que el alumnado es capaz de descomponer un problema en partes más simples para facilitar su interpretación y su tratamiento computacional haciendo un uso responsable de las tecnologías digitales y por otro, de modelizar diferentes situaciones de la vida cotidiana o abstractas, apoyándose en representaciones matemáticas y en el lenguaje algebraico, en distintos tipos de funciones elementales y en herramientas digitales como programas de geometría dinámica o de realidad aumentada, entre otros.",
-      "broader": "materia:SMMA",
+      "broader": "asig:SMMA04",
       "agrupa": [
         "ce:SMMAC3",
         "ce:SMMAC4"
@@ -165,6 +176,7 @@
         "CD3"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -174,7 +186,7 @@
       "notation": "SMMA04BC5",
       "prefLabel": "Matemáticas A · 4º ESO · bloque competencial C5 + C6",
       "scopeNote": "Se persigue con este bloque competencial constatar que el alumnado es capaz de establecer conexiones entre diferentes procesos matemáticos, comenzando a desarrollar una visión coherente e integrada de las matemáticas, así como que sabe identificar y aplicar las matemáticas implicadas en otras materias y en contextos reales proponiendo situaciones susceptibles de ser formuladas y resueltas mediante métodos propios del razonamiento científico, herramientas y estrategias matemáticas. También se evaluará que el alumnado analiza y valora la aportación de las matemáticas al progreso de la humanidad. En particular, su presencia y uso en diferentes contextos de las islas Canarias, y su contribución a la superación de los retos que demanda la sociedad actual.",
-      "broader": "materia:SMMA",
+      "broader": "asig:SMMA04",
       "agrupa": [
         "ce:SMMAC5",
         "ce:SMMAC6"
@@ -192,6 +204,7 @@
         "CCEC1"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -201,7 +214,7 @@
       "notation": "SMMA04BC7",
       "prefLabel": "Matemáticas A · 4º ESO · bloque competencial C7 + C8",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de representar y comunicar, de forma individual y colectiva, ideas, conceptos, procedimientos, conclusiones, conjeturas y razonamientos asociados a cualquiera de los bloques de saberes básicos, utilizando el lenguaje oral, escrito o gráfico, con coherencia, claridad y terminología apropiada, usando diferentes formas de representación (pictórica, gráfica, verbal, simbólica, etc.) y empleando diversos medios y soportes en su presentación, así como reconocer y emplear el lenguaje matemático presente en la vida cotidiana y en los diferentes contextos.",
-      "broader": "materia:SMMA",
+      "broader": "asig:SMMA04",
       "agrupa": [
         "ce:SMMAC7",
         "ce:SMMAC8"
@@ -222,6 +235,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -231,7 +245,7 @@
       "notation": "SMMA04BC9",
       "prefLabel": "Matemáticas A · 4º ESO · bloque competencial C9 + C10",
       "scopeNote": "A través de este bloque competencial, que se trabajará de manera interrelacionada con el resto de bloques de la materia, se persigue que el alumnado desarrolle destrezas personales y sociales, así como actitudes con las que entender y gestionar las emociones propias y las de los y las demás al trabajar individualmente o en grupo, evaluando fortalezas y debilidades, mostrando actitud positiva y perseverante, adaptándose a las situaciones de incertidumbre y aceptando la crítica razonada para transformar el error en una oportunidad de aprendizaje. Asimismo, se evaluará que el alumnado participa de manera activa, creativa y reflexiva al trabajar en grupos heterogéneos, comunicándose de forma efectiva, practicando la escucha activa, optimizando el trabajo en equipo, gestionando los conflictos y el reparto de tareas, responsabilizándose del rol asignado y favoreciendo actitudes inclusivas que impliquen la aceptación de la diversidad presente en el aula y en la sociedad.",
-      "broader": "materia:SMMA",
+      "broader": "asig:SMMA04",
       "agrupa": [
         "ce:SMMAC9",
         "ce:SMMAC10"
@@ -252,6 +266,7 @@
         "CE3"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -272,6 +287,7 @@
         "CE3"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -292,6 +308,7 @@
         "CE3"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -312,6 +329,7 @@
         "CE3"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -333,6 +351,7 @@
         "CE3"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -356,6 +375,7 @@
         "CE3"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -377,6 +397,7 @@
         "CE3"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -395,6 +416,7 @@
         "CE3"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -416,6 +438,7 @@
         "CE3"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -435,6 +458,7 @@
         "CD2"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -455,6 +479,7 @@
         "CE3"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -474,6 +499,7 @@
         "CCEC1"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -497,6 +523,7 @@
         "CCEC4"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -519,6 +546,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -540,6 +568,7 @@
         "CD3"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -557,6 +586,7 @@
         "CE2"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -576,6 +606,7 @@
         "CE3"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -598,6 +629,7 @@
         "CC3"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -620,6 +652,7 @@
         "CC3"
       ],
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -629,8 +662,9 @@
       "notation": "SMMA04SBI",
       "prefLabel": "SMMA04SBI · I. Sentido numérico",
       "definition": "Sentido numérico",
-      "broader": "materia:SMMA",
+      "broader": "asig:SMMA04",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -640,8 +674,9 @@
       "notation": "SMMA04SBII",
       "prefLabel": "SMMA04SBII · II. Sentido de la medida",
       "definition": "Sentido de la medida",
-      "broader": "materia:SMMA",
+      "broader": "asig:SMMA04",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -651,8 +686,9 @@
       "notation": "SMMA04SBIII",
       "prefLabel": "SMMA04SBIII · III. Sentido espacial",
       "definition": "Sentido espacial",
-      "broader": "materia:SMMA",
+      "broader": "asig:SMMA04",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -662,8 +698,9 @@
       "notation": "SMMA04SBIV",
       "prefLabel": "SMMA04SBIV · IV. Sentido algebraico",
       "definition": "Sentido algebraico",
-      "broader": "materia:SMMA",
+      "broader": "asig:SMMA04",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -673,8 +710,9 @@
       "notation": "SMMA04SBV",
       "prefLabel": "SMMA04SBV · V. Sentido estocástico",
       "definition": "Sentido estocástico",
-      "broader": "materia:SMMA",
+      "broader": "asig:SMMA04",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -684,8 +722,9 @@
       "notation": "SMMA04SBVI",
       "prefLabel": "SMMA04SBVI · VI. Sentido socioafectivo",
       "definition": "Sentido socioafectivo",
-      "broader": "materia:SMMA",
+      "broader": "asig:SMMA04",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -697,6 +736,7 @@
       "definition": "Conteo.",
       "broader": "sb:SMMA04SBI",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -708,6 +748,7 @@
       "definition": "Resolución de situaciones y problemas de la vida cotidiana: estrategias para el recuento sistemático.",
       "broader": "sb:SMMA04SBI.1",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -719,6 +760,7 @@
       "definition": "Cantidad.",
       "broader": "sb:SMMA04SBI",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -730,6 +772,7 @@
       "definition": "Realización de estimaciones en diversos contextos analizando y acotando el error cometido.",
       "broader": "sb:SMMA04SBI.2",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -741,6 +784,7 @@
       "definition": "Uso de los números reales para expresar cantidades en contextos diversos, incluidos los de la vida cotidiana, con la precisión requerida.",
       "broader": "sb:SMMA04SBI.2",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -752,6 +796,7 @@
       "definition": "Identificación del conjunto numérico que sirve para responder a diferentes necesidades: contar, medir, comparar, etc.",
       "broader": "sb:SMMA04SBI.2",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -763,6 +808,7 @@
       "definition": "Sentido de las operaciones.",
       "broader": "sb:SMMA04SBI",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -774,6 +820,7 @@
       "definition": "Operaciones con números reales en la resolución de situaciones contextualizadas.",
       "broader": "sb:SMMA04SBI.3",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -785,6 +832,7 @@
       "definition": "Propiedades de las operaciones aritméticas: cálculos con números reales, incluyendo con herramientas digitales.",
       "broader": "sb:SMMA04SBI.3",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -796,6 +844,7 @@
       "definition": "Reconocimiento de algunos números irracionales en situaciones de la vida cotidiana.",
       "broader": "sb:SMMA04SBI.3",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -807,6 +856,7 @@
       "definition": "Relaciones.",
       "broader": "sb:SMMA04SBI",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -818,6 +868,7 @@
       "definition": "Patrones y regularidades numéricas en las que intervengan números reales.",
       "broader": "sb:SMMA04SBI.4",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -829,6 +880,7 @@
       "definition": "Orden en la recta numérica. Intervalos",
       "broader": "sb:SMMA04SBI.4",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -840,6 +892,7 @@
       "definition": "Razonamiento proporcional.",
       "broader": "sb:SMMA04SBI",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -851,6 +904,7 @@
       "definition": "Situaciones de proporcionalidad directa e inversa en diferentes contextos: desarrollo y análisis de métodos para la resolución de problemas.",
       "broader": "sb:SMMA04SBI.5",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -862,6 +916,7 @@
       "definition": "Educación financiera.",
       "broader": "sb:SMMA04SBI",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -873,6 +928,7 @@
       "definition": "Desarrollo, análisis y explicación de métodos para la resolución de problemas relacionados con aumentos y disminuciones porcentuales, intereses y tasas en contextos financieros.",
       "broader": "sb:SMMA04SBI.6",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -884,6 +940,7 @@
       "definition": "Medición.",
       "broader": "sb:SMMA04SBII",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -895,6 +952,7 @@
       "definition": "Relación entre la pendiente y el ángulo de inclinación en situaciones sencillas: deducción y aplicación.",
       "broader": "sb:SMMA04SBII.1",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -906,6 +964,7 @@
       "definition": "Cambio.",
       "broader": "sb:SMMA04SBII",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -917,6 +976,7 @@
       "definition": "Estudio gráfico del crecimiento y decrecimiento de funciones en contextos de la vida cotidiana con el apoyo de herramientas tecnológicas: tasas de variación absoluta, relativa y media.",
       "broader": "sb:SMMA04SBII.2",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -928,6 +988,7 @@
       "definition": "Figuras geométricas de dos y tres dimensiones.",
       "broader": "sb:SMMA04SBIII",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -939,6 +1000,7 @@
       "definition": "Representación e investigación de las propiedades geométricas de objetos de dos o tres dimensiones de la vida cotidiana mediante programas de geometría dinámica.",
       "broader": "sb:SMMA04SBIII.1",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -950,6 +1012,7 @@
       "definition": "Movimientos y transformaciones.",
       "broader": "sb:SMMA04SBIII",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -961,6 +1024,7 @@
       "definition": "Transformaciones elementales (giros, traslaciones y simetrías) y sus combinaciones en la vida cotidiana: investigación con herramientas digitales como programas de geometría dinámica, realidad aumentada, etc",
       "broader": "sb:SMMA04SBIII.2",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -972,6 +1036,7 @@
       "definition": "Visualización, razonamiento y modelización geométrica.",
       "broader": "sb:SMMA04SBIII",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -983,6 +1048,7 @@
       "definition": "Representación y explicación de relaciones numéricas y algebraicas en situaciones diversas a partir de modelos geométricos.",
       "broader": "sb:SMMA04SBIII.3",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -994,6 +1060,7 @@
       "definition": "Modelización de elementos geométricos de la vida cotidiana con herramientas digitales como programas de geometría dinámica, realidad aumentada, etc.",
       "broader": "sb:SMMA04SBIII.3",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1005,6 +1072,7 @@
       "definition": "Elaboración y comprobación de conjeturas sobre propiedades geométricas mediante programas de geometría dinámica u otras herramientas.",
       "broader": "sb:SMMA04SBIII.3",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1016,6 +1084,7 @@
       "definition": "Patrones",
       "broader": "sb:SMMA04SBIV",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1027,6 +1096,7 @@
       "definition": "Patrones, pautas y regularidades: observación, generalización y término general en casos sencillos.",
       "broader": "sb:SMMA04SBIV.1",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1038,6 +1108,7 @@
       "definition": "Modelo matemático.",
       "broader": "sb:SMMA04SBIV",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1049,6 +1120,7 @@
       "definition": "Modelización y resolución de problemas de la vida cotidiana mediante representaciones matemáticas y lenguaje algebraico, haciendo uso de distintos tipos de funciones.",
       "broader": "sb:SMMA04SBIV.2",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1060,6 +1132,7 @@
       "definition": "Operaciones con polinomios. Suma, resta, multiplicación y división (Regla de Ruffini).",
       "broader": "sb:SMMA04SBIV.2",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1071,6 +1144,7 @@
       "definition": "Deducción y análisis de conclusiones razonables de una situación contextualizada una vez modelizada.",
       "broader": "sb:SMMA04SBIV.2",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1082,6 +1156,7 @@
       "definition": "Variable.",
       "broader": "sb:SMMA04SBIV",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1093,6 +1168,7 @@
       "definition": "Identificación de variables en distintos contextos: asociación de expresiones simbólicas al contexto del problema y diferentes usos.",
       "broader": "sb:SMMA04SBIV.3",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1104,6 +1180,7 @@
       "definition": "Características del cambio en la representación gráfica de relaciones lineales y cuadráticas dependiendo de los parámetros con apoyo de herramientas digitales.",
       "broader": "sb:SMMA04SBIV.3",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1115,6 +1192,7 @@
       "definition": "Igualdad y desigualdad.",
       "broader": "sb:SMMA04SBIV",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1126,6 +1204,7 @@
       "definition": "Relaciones lineales, cuadráticas y de proporcionalidad inversa en situaciones de la vida cotidiana o matemáticamente relevantes: expresión mediante álgebra simbólica.",
       "broader": "sb:SMMA04SBIV.4",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1137,6 +1216,7 @@
       "definition": "Formas equivalentes de expresiones algebraicas en la resolución de ecuaciones lineales y cuadráticas, y sistemas de ecuaciones e inecuaciones lineales.",
       "broader": "sb:SMMA04SBIV.4",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1148,6 +1228,7 @@
       "definition": "Estrategias de discusión y búsqueda de soluciones en ecuaciones lineales y cuadráticas en situaciones de la vida cotidiana.",
       "broader": "sb:SMMA04SBIV.4",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1159,6 +1240,7 @@
       "definition": "Ecuaciones, sistemas de ecuaciones e inecuaciones: resolución e interpretación mediante el uso de la tecnología en situaciones diversas.",
       "broader": "sb:SMMA04SBIV.4",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1170,6 +1252,7 @@
       "definition": "Relaciones y funciones.",
       "broader": "sb:SMMA04SBIV",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1181,6 +1264,7 @@
       "definition": "Relaciones cuantitativas en situaciones de la vida cotidiana y clases de funciones que las modelizan.",
       "broader": "sb:SMMA04SBIV.5",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1192,6 +1276,7 @@
       "definition": "Relaciones lineales, cuadráticas y de proporcionalidad inversa en contextos: identificación y comparación de diferentes modos de representación, tablas, gráficas o expresiones algebraicas, y sus propiedades a partir de ellas.",
       "broader": "sb:SMMA04SBIV.5",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1203,6 +1288,7 @@
       "definition": "Representación de funciones: interpretación de sus propiedades en situaciones de la vida cotidiana.",
       "broader": "sb:SMMA04SBIV.5",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1214,6 +1300,7 @@
       "definition": "Pensamiento computacional.",
       "broader": "sb:SMMA04SBIV",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1225,6 +1312,7 @@
       "definition": "Resolución de problemas mediante la descomposición en partes, la automatización y el pensamiento algorítmico (descomposición en pasos sencillos, reconocimiento de patrones, abstracción y diseño de algoritmos).",
       "broader": "sb:SMMA04SBIV.6",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1236,6 +1324,7 @@
       "definition": "Estrategias en la interpretación, modificación y creación de algoritmos.",
       "broader": "sb:SMMA04SBIV.6",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1247,6 +1336,7 @@
       "definition": "Formulación y análisis de problemas de la vida cotidiana mediante programas y otras herramientas.",
       "broader": "sb:SMMA04SBIV.6",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1258,6 +1348,7 @@
       "definition": "Organización y análisis de datos.",
       "broader": "sb:SMMA04SBV",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1269,6 +1360,7 @@
       "definition": "Estrategias de recogida y organización de datos de situaciones de la vida cotidiana que involucran una variable bidimensional. Tablas de contingencia.",
       "broader": "sb:SMMA04SBV.1",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1280,6 +1372,7 @@
       "definition": "Análisis e interpretación de tablas y gráficos estadísticos de una y dos variables cualitativas, cuantitativas discretas y cuantitativas continuas en contextos reales.",
       "broader": "sb:SMMA04SBV.1",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1291,6 +1384,7 @@
       "definition": "Medidas de localización y dispersión: interpretación y análisis de la variabilidad.",
       "broader": "sb:SMMA04SBV.1",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1302,6 +1396,7 @@
       "definition": "Gráficos estadísticos de una y dos variables: representación mediante diferentes tecnologías (calculadora, hoja de cálculo, aplicaciones…), análisis, interpretación y obtención de conclusiones razonadas.",
       "broader": "sb:SMMA04SBV.1",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1313,6 +1408,7 @@
       "definition": "Interpretación de la relación entre dos variables, valorando gráficamente con herramientas digitales la pertinencia de realizar una regresión lineal. Ajuste lineal con herramientas digitales.",
       "broader": "sb:SMMA04SBV.1",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1324,6 +1420,7 @@
       "definition": "Incertidumbre.",
       "broader": "sb:SMMA04SBV",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1335,6 +1432,7 @@
       "definition": "Experimentos compuestos: planificación, realización y análisis de la incertidumbre asociada.",
       "broader": "sb:SMMA04SBV.2",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1346,6 +1444,7 @@
       "definition": "Probabilidad: cálculo aplicando la regla de Laplace y técnicas de recuento en experimentos simples y compuestos (mediante diagramas de árbol, tabla, etc.) y aplicación a la toma de decisiones fundamentadas.",
       "broader": "sb:SMMA04SBV.2",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1357,6 +1456,7 @@
       "definition": "Inferencia.",
       "broader": "sb:SMMA04SBV",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1368,6 +1468,7 @@
       "definition": "Diferentes etapas del diseño de estudios estadísticos.",
       "broader": "sb:SMMA04SBV.3",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1379,6 +1480,7 @@
       "definition": "Estrategias y herramientas de presentación e interpretación de datos relevantes en investigaciones estadísticas mediante herramientas digitales adecuadas.",
       "broader": "sb:SMMA04SBV.3",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1390,6 +1492,7 @@
       "definition": "Análisis del alcance de las conclusiones de un estudio estadístico valorando la representatividad de la muestra.",
       "broader": "sb:SMMA04SBV.3",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1401,6 +1504,7 @@
       "definition": "Creencias, actitudes y emociones.",
       "broader": "sb:SMMA04SBVI",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1412,6 +1516,7 @@
       "definition": "Gestión emocional: emociones que intervienen en el aprendizaje de las matemáticas. Autoconciencia y autorregulación. Superación de bloqueos emocionales en el aprendizaje de las matemáticas.",
       "broader": "sb:SMMA04SBVI.1",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1423,6 +1528,7 @@
       "definition": "Estrategias de fomento de la curiosidad, la iniciativa, la perseverancia y la resiliencia en el aprendizaje de las matemáticas.",
       "broader": "sb:SMMA04SBVI.1",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1434,6 +1540,7 @@
       "definition": "Estrategias de fomento de la flexibilidad cognitiva: apertura a cambios de estrategia y transformación del error en oportunidad de aprendizaje.",
       "broader": "sb:SMMA04SBVI.1",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1445,6 +1552,7 @@
       "definition": "Trabajo en equipo y toma de decisiones.",
       "broader": "sb:SMMA04SBVI",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1456,6 +1564,7 @@
       "definition": "Asunción de responsabilidades y participación activa, optimizando el trabajo en equipo. Estrategias de gestión de conflictos: pedir, dar y gestionar ayuda.",
       "broader": "sb:SMMA04SBVI.2",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1467,6 +1576,7 @@
       "definition": "Métodos para la gestión y la toma de decisiones adecuadas en la resolución de situaciones propias del quehacer matemático en el trabajo en equipo.",
       "broader": "sb:SMMA04SBVI.2",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1478,6 +1588,7 @@
       "definition": "Inclusión, respeto y diversidad.",
       "broader": "sb:SMMA04SBVI",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1489,6 +1600,7 @@
       "definition": "Actitudes inclusivas y aceptación de la diversidad presente en el aula y en la sociedad.",
       "broader": "sb:SMMA04SBVI.3",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1500,6 +1612,7 @@
       "definition": "La contribución de las matemáticas al desarrollo de los distintos ámbitos del conocimiento humano desde una perspectiva de género.",
       "broader": "sb:SMMA04SBVI.3",
       "materia": "materia:SMMA",
+      "materia_curso": "asig:SMMA04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     }

@@ -12,6 +12,16 @@
       "etapa": "etapa:ESO"
     },
     {
+      "id": "asig:STEE04",
+      "tipo": "MateriaCurso",
+      "notation": "STEE04",
+      "prefLabel": "Tecnología · 4º ESO",
+      "broader": "materia:STEE",
+      "materia": "materia:STEE",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
       "id": "ce:STEEC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "STEEC1",
@@ -77,7 +87,7 @@
       "notation": "STEE04BC1",
       "prefLabel": "Tecnología · 4º ESO · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se persigue constatar la adquisición por parte del alumnado de la capacidad de dar respuesta a problemas reales, es por ello que debe desarrollar las estrategias necesarias para analizar el entorno que le rodea y actuar de manera responsable. Con este fin, se comprobará que es capaz de idear y planificar soluciones tecnológicas accesibles, creativas e innovadoras, aplicando estrategias colaborativas de ideación y gestión de proyectos, así como de técnicas iterativas de resolución de problemas para presentar y difundir las propuestas de solución a los mismos de manera eficiente e innovadora utilizando herramientas digitales para el tratamiento de la información, partiendo del análisis interdisciplinar del entorno y de las necesidades detectadas, mostrando una actitud crítica tanto con la información obtenida como con las soluciones planteadas, reformulando estas últimas si se considera necesario para propiciar mejoras en el proceso de aprendizaje. Se valorarán el uso de fuentes fiables de información y el respeto por la propiedad intelectual, permitiendo que esta pueda ser correctamente archivada, referenciada y reutilizada.",
-      "broader": "materia:STEE",
+      "broader": "asig:STEE04",
       "agrupa": [
         "ce:STEEC1"
       ],
@@ -94,6 +104,7 @@
         "CD1"
       ],
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -103,7 +114,7 @@
       "notation": "STEE04BC2",
       "prefLabel": "Tecnología · 4º ESO · bloque competencial C2",
       "scopeNote": "Con este bloque competencial se persigue constatar que el alumnado es capaz de desempeñar un papel activo para facilitar la vida de las personas en la consecución de una sociedad inclusiva, equitativa y sostenible, mediante el uso ético y responsable de las tecnologías a partir de un enfoque interdisciplinar en el análisis, diseño y fabricación segura de soluciones tecnológicas creativas. Para ello, se valorará la capacidad del alumnado para analizar las fases del ciclo de vida de un producto, así como para fabricar soluciones tecnológicas accesibles que den respuesta a las necesidades planteadas desde un enfoque interdisciplinar, utilizando estrategias de trabajo individual y colaborativo y evitando sesgos de género, aplicando herramientas de diseño asistido por ordenador y teniendo en cuenta criterios de sostenibilidad tanto en la selección de materiales como en las técnicas de fabricación utilizadas, ya sean manuales, mecánicas o digitales. También se comprobará la capacidad de realizar un análisis reflexivo sobre el proceso seguido y de gestionar su entorno de aprendizaje para hacer un uso adecuado de las herramientas digitales y de las fuentes de información utilizadas para la construcción de nuevos aprendizajes.",
-      "broader": "materia:STEE",
+      "broader": "asig:STEE04",
       "agrupa": [
         "ce:STEEC2"
       ],
@@ -118,6 +129,7 @@
         "CCEC4"
       ],
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -127,7 +139,7 @@
       "notation": "STEE04BC3",
       "prefLabel": "Tecnología · 4º ESO · bloque competencial C3",
       "scopeNote": "Por medio de este bloque competencial se persigue que el alumnado adquiera la capacidad para comunicarse en diferentes foros tanto para intercambiar información, ya sea a través de mensajes orales, signados, escritos, audiovisuales o multimodales, como para generar nuevos conocimientos a partir de la difusión de las propuestas utilizando diferentes recursos digitales y haciendo uso de un lenguaje inclusivo libre de estereotipos sexistas. En este bloque competencial, por lo tanto, se evaluará la capacidad del alumnado de participar colaborativamente en interacciones comunicativas para intercambiar información sobre las propuestas o soluciones tecnológicas de manera reflexiva y cívica, utilizando los elementos, técnicas y herramientas necesarios para obtener una comunicación eficaz, aplicando códigos de comunicación y comportamiento específicos del ámbito digital.",
-      "broader": "materia:STEE",
+      "broader": "asig:STEE04",
       "agrupa": [
         "ce:STEEC3"
       ],
@@ -141,6 +153,7 @@
         "CC2"
       ],
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -150,7 +163,7 @@
       "notation": "STEE04BC4",
       "prefLabel": "Tecnología · 4º ESO · bloque competencial C4",
       "scopeNote": "Mediante este bloque competencial se persigue comprobar que el alumnado es capaz de diseñar, construir, controlar o simular sistemas automáticos programables y robots, aplicando estrategias del pensamiento computacional, evitando sesgos de género y haciendo uso de elementos y componentes mecánicos, eléctricos, electrónicos y neumáticos e integrando aplicaciones informáticas y tecnologías digitales emergentes de control y simulación para desarrollar soluciones automatizadas a problemas planteados concretos, tratando de ofrecer un enfoque de aprendizaje-servicio como metodología para aprender y aplicar lo aprendido en un entorno cercano, analizando de manera crítica dichas soluciones y reformulándolas en caso necesario. Con ello se facilita la incorporación de las telecomunicaciones, la robótica, la impresión 3D y las tecnologías emergentes, como el internet de las cosas, big data e inteligencia artificial, en el aprendizaje del alumnado.",
-      "broader": "materia:STEE",
+      "broader": "asig:STEE04",
       "agrupa": [
         "ce:STEEC4"
       ],
@@ -163,6 +176,7 @@
         "CE3"
       ],
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -172,7 +186,7 @@
       "notation": "STEE04BC5",
       "prefLabel": "Tecnología · 4º ESO · bloque competencial C5",
       "scopeNote": "A través del desarrollo de este bloque competencial se busca constatar la adquisición por parte del alumnado de la capacidad para seleccionar, configurar y utilizar, de manera responsable y según sus necesidades, las aplicaciones y herramientas de su entorno personal digital, para crear contenidos digitales accesibles y resolver tareas de una manera más eficiente mediante la búsqueda de información con criterios de validez y calidad, así como la aplicación de códigos de comunicación y comportamiento específicos del ámbito digital, es decir, aplicando la etiqueta digital. Esta alfabetización digital del alumnado favorece su inclusión en una sociedad globalizada cada vez más digitalizada y que requiere de la aplicación de herramientas digitales para la resolución de tareas de diferente nivel de dificultad.",
-      "broader": "materia:STEE",
+      "broader": "asig:STEE04",
       "agrupa": [
         "ce:STEEC5"
       ],
@@ -184,6 +198,7 @@
         "CPSAA5"
       ],
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -193,7 +208,7 @@
       "notation": "STEE04BC6",
       "prefLabel": "Tecnología · 4º ESO · bloque competencial C6",
       "scopeNote": "Con este bloque competencial se busca verificar que el alumnado desarrolla la capacidad de analizar y valorar el impacto de la actividad tecnológica en la sociedad y en el entorno, teniendo en cuenta la particularidad de la insularidad, y de desempeñar un papel activo en la consecución de una sociedad inclusiva, equitativa y sostenible con la finalidad de minimizar el impacto negativo de los procesos tecnológicos en la sociedad y en el planeta. Para ello, a través de este bloque competencial, se persigue constatar la capacidad del alumnado para hacer un uso ético y responsable de la tecnología, utilizando el pensamiento científico para analizar y valorar la repercusión y los beneficios de la aplicación de criterios de sostenibilidad y accesibilidad en el diseño de procesos y selección de materiales, del ahorro energético, la arquitectura bioclimática y el transporte sostenible para el desarrollo de procesos tecnológicos de carácter social, transformando su entorno próximo y adoptando un estilo de vida ecosocialmente responsable.",
-      "broader": "materia:STEE",
+      "broader": "asig:STEE04",
       "agrupa": [
         "ce:STEEC6"
       ],
@@ -205,6 +220,7 @@
         "STEM2"
       ],
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -223,6 +239,7 @@
         "CE3"
       ],
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -245,6 +262,7 @@
         "CE3"
       ],
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -269,6 +287,7 @@
         "CE3"
       ],
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -289,6 +308,7 @@
         "CC4"
       ],
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -306,6 +326,7 @@
         "CCEC4"
       ],
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -326,6 +347,7 @@
         "CCEC3"
       ],
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -346,6 +368,7 @@
         "CCEC3"
       ],
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -366,6 +389,7 @@
         "CE3"
       ],
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -385,6 +409,7 @@
         "CE3"
       ],
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -404,6 +429,7 @@
         "CPSAA5"
       ],
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -421,6 +447,7 @@
         "CC4"
       ],
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -439,6 +466,7 @@
         "CC4"
       ],
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -456,6 +484,7 @@
         "CC4"
       ],
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -465,8 +494,9 @@
       "notation": "STEE04SBI",
       "prefLabel": "STEE04SBI · I. Proceso de resolución de problemas",
       "definition": "Proceso de resolución de problemas",
-      "broader": "materia:STEE",
+      "broader": "asig:STEE04",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -476,8 +506,9 @@
       "notation": "STEE04SBII",
       "prefLabel": "STEE04SBII · II. Operadores tecnológicos",
       "definition": "Operadores tecnológicos",
-      "broader": "materia:STEE",
+      "broader": "asig:STEE04",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -487,8 +518,9 @@
       "notation": "STEE04SBIII",
       "prefLabel": "STEE04SBIII · III. Pensamiento computacional, automatización y robótica",
       "definition": "Pensamiento computacional, automatización y robótica",
-      "broader": "materia:STEE",
+      "broader": "asig:STEE04",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -498,8 +530,9 @@
       "notation": "STEE04SBIV",
       "prefLabel": "STEE04SBIV · IV. Tecnología sostenible",
       "definition": "Tecnología sostenible",
-      "broader": "materia:STEE",
+      "broader": "asig:STEE04",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -511,6 +544,7 @@
       "definition": "Estrategias y técnicas",
       "broader": "sb:STEE04SBI",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -522,6 +556,7 @@
       "definition": "Estrategias avanzadas de gestión de proyectos colaborativos y técnicas iterativas de resolución de problemas y de ideación de soluciones.",
       "broader": "sb:STEE04SBI.1",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -533,6 +568,7 @@
       "definition": "Observación y análisis de las necesidades del centro, locales, regionales, etc., para plantear proyectos colaborativos o cooperativos que den respuesta a las necesidades planteadas.",
       "broader": "sb:STEE04SBI.1",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -544,6 +580,7 @@
       "definition": "Resolución de problemas desde una perspectiva interdisciplinar de la actividad tecnológica, fomentando el emprendimiento, la perseverancia, la creatividad, la satisfacción y el interés por el trabajo y la calidad del mismo.",
       "broader": "sb:STEE04SBI.1",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -555,6 +592,7 @@
       "definition": "Productos y materiales",
       "broader": "sb:STEE04SBI",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -566,6 +604,7 @@
       "definition": "Análisis sencillos de las fases del ciclo de vida de un producto para valorar y mejorar el resultado final, haciéndolo más sostenible y eficiente.",
       "broader": "sb:STEE04SBI.2",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -577,6 +616,7 @@
       "definition": "Estrategias de selección de materiales según sus propiedades y requisitos con criterios de sostenibilidad, accesibilidad y equidad social.",
       "broader": "sb:STEE04SBI.2",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -588,6 +628,7 @@
       "definition": "Fabricación",
       "broader": "sb:STEE04SBI",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -599,6 +640,7 @@
       "definition": "Uso de herramientas de diseño asistido por ordenador en 3D para representar o fabricar piezas aplicadas a la resolución de proyectos.",
       "broader": "sb:STEE04SBI.3",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -610,6 +652,7 @@
       "definition": "Aplicación práctica de técnicas de fabricación manual, mecánica y digital (impresión 3D y corte) para elaborar soluciones que den respuesta a una necesidad planteada.",
       "broader": "sb:STEE04SBI.3",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -621,6 +664,7 @@
       "definition": "Difusión",
       "broader": "sb:STEE04SBI",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -632,6 +676,7 @@
       "definition": "Presentación y difusión del proyecto utilizando elementos, técnicas y herramientas que permitan una comunicación efectiva, como la entonación y expresión adecuadas, gestión del tiempo y adaptación del discurso al fin y al entorno. Uso de un lenguaje inclusivo y libre de estereotipos sexistas.",
       "broader": "sb:STEE04SBI.4",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -643,6 +688,7 @@
       "definition": "Identificación y representación de los componentes básicos para realizar análisis y montajes físicos y simulados de circuitos elementales de electrónica analógica.",
       "broader": "sb:STEE04SBII",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -654,6 +700,7 @@
       "definition": "Identificación de elementos mecánicos, electrónicos y neumáticos aplicados a la robótica para realizar montajes físicos o simulados de circuitos que permitan la realización de tareas de forma autónoma, aplicando conocimientos de neumática y de electrónica digital básica.",
       "broader": "sb:STEE04SBII",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -665,6 +712,7 @@
       "definition": "Identificación de los componentes de sistemas de control programado —controladores, sensores y actuadores— en las máquinas y sistemas tecnológicos.",
       "broader": "sb:STEE04SBIII",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -676,6 +724,7 @@
       "definition": "Uso del ordenador y dispositivos móviles como elementos de programación y control.",
       "broader": "sb:STEE04SBIII",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -687,6 +736,7 @@
       "definition": "Introducción al trabajo con simuladores digitales para verificar y comprobar el funcionamiento de los sistemas diseñados.",
       "broader": "sb:STEE04SBIII.2",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -698,6 +748,7 @@
       "definition": "Iniciación a la inteligencia artificial y el big data a través del análisis de aplicaciones prácticas.",
       "broader": "sb:STEE04SBIII.2",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -709,6 +760,7 @@
       "definition": "Uso de espacios compartidos y discos virtuales.",
       "broader": "sb:STEE04SBIII.2",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -720,6 +772,7 @@
       "definition": "Valoración de la importancia de las telecomunicaciones en los sistemas de control digital e internet de las cosas. Identificación de los elementos que intervienen, sistemas de control y comunicaciones. Análisis e implementación de aplicaciones prácticas.",
       "broader": "sb:STEE04SBIII",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -731,6 +784,7 @@
       "definition": "Diseño, construcción y control de robots sencillos de manera física o simulada para realizar tareas de forma autónoma.",
       "broader": "sb:STEE04SBIII",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -742,6 +796,7 @@
       "definition": "Aplicación de criterios de sostenibilidad en la selección de materiales y diseño de procesos, de productos y de sistemas tecnológicos.",
       "broader": "sb:STEE04SBIV",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -753,6 +808,7 @@
       "definition": "Introducción a la arquitectura bioclimática y sostenible y su influencia en el ahorro energético en edificios dada la fragmentación del territorio canario.",
       "broader": "sb:STEE04SBIV",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -764,6 +820,7 @@
       "definition": "Análisis de los beneficios del ecotransporte en el desarrollo sostenible.",
       "broader": "sb:STEE04SBIV",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -775,6 +832,7 @@
       "definition": "Identificación y valoración de los beneficios de la existencia y participación en comunidades abiertas, acciones de voluntariado tecnológico y proyectos de servicio a la comunidad para la mejora del entorno.",
       "broader": "sb:STEE04SBIV",
       "materia": "materia:STEE",
+      "materia_curso": "asig:STEE04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     }

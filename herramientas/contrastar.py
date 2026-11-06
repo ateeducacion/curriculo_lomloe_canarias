@@ -164,7 +164,14 @@ def contrastar(nodos, manifiesto, materias=None):
             for b in sec['bloques_competenciales']:
                 for c in b['competencias']:
                     ce = f'ce:{pref}C{c["num"]}'
-                    _cmp(d, nodos, ce, 'definition', c['enunciado'], 'enunciado de competencia', textos)
+                    variantes = (nodos.get(ce) or {}).get('enunciados_curso') or {}
+                    curso = f'curso:{pref[0]}{nn}'
+                    if curso in variantes:
+                        if variantes[curso] != c['enunciado']:
+                            d('enunciado de competencia distinto', ce, f'{curso}: {c["enunciado"][:80]!r}',
+                              'enunciados_curso', {**variantes, curso: c['enunciado']})
+                    else:
+                        _cmp(d, nodos, ce, 'definition', c['enunciado'], 'enunciado de competencia', textos)
                     if ce in nodos and not nodos[ce].get('definition') and c['enunciado']:
                         _hueco(huecos, 'ausente', ce, 'definition', c['enunciado'])
                     expl = leido['explicacion_competencias'].get(c['num'])
@@ -200,7 +207,7 @@ def contrastar(nodos, manifiesto, materias=None):
                     _otra_materia(nodos, base, b['hijos'], leido, materias_de_texto, huecos)
             prefijos = (f'crit:{pref}{nn}CE', f'sb:{pref}{nn}SB')
             for nid in nodos:
-                if nid.startswith(prefijos) and nid not in vistos:
+                if nid.startswith(prefijos) and nid not in vistos and not nodos[nid].get('obsoleto'):
                     d('nodo del corpus que no está en el documento', nid)
         _explicaciones_copiadas(nodos, explicaciones, huecos)
         _explicar(dif, nodos, bol, conocidos, notas)
@@ -291,9 +298,6 @@ def _explicacion_automatica(x, nodos, bol, conocidos):
         return None
     if bol.exacto(actual) and not bol.exacto(esperado):
         return 'el texto del corpus es el publicado en el BOC; el del documento no'
-    if x['nodo'].startswith('ce:') and bol.exacto(actual) and bol.exacto(esperado):
-        return ('la competencia tiene un enunciado distinto en cada curso en el BOC; el corpus guarda '
-                'uno por materia (limitación del modelo)')
     return None
 
 
@@ -465,7 +469,7 @@ def _norma(s):
 
 def _huecos_saberes(nodos, base, hijos, huecos, revisar):
     """Empareja por contenido los saberes de un bloque y rellena los que no tienen texto."""
-    ids = sorted((k for k in nodos if k.startswith(base + '.')), key=_natural)
+    ids = sorted((k for k in nodos if k.startswith(base + '.') and not nodos[k].get('obsoleto')), key=_natural)
     textos = []
 
     def aplanar(hs):
@@ -537,7 +541,7 @@ def _saberes(d, nodos, base, hijos, vistos, textos=None):
     no, por parecido. Los saberes del documento sin pareja se informan como ausentes; los
     del corpus quedan fuera de `vistos` y se informan como sobrantes.
     """
-    ids = sorted((k for k in nodos if k.startswith(base + '.')), key=_natural)
+    ids = sorted((k for k in nodos if k.startswith(base + '.') and not nodos[k].get('obsoleto')), key=_natural)
     con_hijos = {k.rsplit('.', 1)[0] for k in ids}
     doc = []
 

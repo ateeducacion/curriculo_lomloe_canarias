@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BATR02",
+      "tipo": "MateriaCurso",
+      "notation": "BATR02",
+      "prefLabel": "Antropología y Sociología · 2º Bachillerato",
+      "broader": "materia:BATR",
+      "materia": "materia:BATR",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BATRC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BATRC1",
@@ -36,7 +46,7 @@
       "tipo": "CompetenciaEspecifica",
       "notation": "BATRC3",
       "prefLabel": "BATRC3 · Reconocer el valor de las aportaciones de la antropología y la sociología para…",
-      "definition": "Reconocer el valor de las aportaciones de la antropología y la sociología para desarrollar el interés por la propia cultura, promoviendo una perspectiva más amplia y respetuosa sobre las otras culturas mediante la realización de productos en los que se destaque el trabajo colaborativo y el ejercicio crítico sobre el fenómeno de la globalización.",
+      "definition": "Reconocer el valor de las aportaciones de la antropología y la sociología para desarrollar el interés por la propia cultura y sociedad, promoviendo una perspectiva más amplia y respetuosa sobre las otras culturas mediante la realización de productos en los que se destaque el trabajo colaborativo y el ejercicio crítico sobre el fenómeno de la globalización.",
       "broader": "materia:BATR",
       "materia": "materia:BATR",
       "etapa": "etapa:BAC"
@@ -47,7 +57,7 @@
       "notation": "BATR02BC1",
       "prefLabel": "Antropología y Sociología · 2º Bachillerato · bloque competencial C1",
       "scopeNote": "Con este bloque competencial se pretende constatar que el alumnado es capaz de inferir características, propiedades, patrones de semejanza o diferencia culturales, tanto de las masas como de colectivos concretos, aplicando los métodos y las técnicas de investigación de ambas disciplinas. Para ello, se propone que el alumnado trabaje en equipo y asuma roles propios de la investigación social; diseñe y emprenda proyectos de investigación sobre algún fenómeno cultural o sociológico (por ejemplo: el impacto de una moda o tendencia en determinados colectivos, el comportamiento de fans de personajes públicos o de los hinchas deportivos, estudios de población sobre el comercio electrónico, los videojuegos online, la preferencia e idolatría por un producto, la influencia de rituales o símbolos en la convivencia de comunidades, la organización familiar y productiva de determinadas etnias que habitan en Canarias…); aplique técnicas de recogida de datos (observación, participación, entrevistas, encuestas, categorización…); y se documente y contraste sus resultados con otras publicaciones, y los comunique, haciendo uso de las tecnologías digitales, mediante producciones como informes, presentaciones ante público, documentales…, en las que pueda apreciarse que comprende y aporta una visión crítica y respetuosa con las formas de vida estudiadas.",
-      "broader": "materia:BATR",
+      "broader": "asig:BATR02",
       "agrupa": [
         "ce:BATRC1"
       ],
@@ -68,6 +78,7 @@
         "CE1"
       ],
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -77,7 +88,7 @@
       "notation": "BATR02BC2",
       "prefLabel": "Antropología y Sociología · 2º Bachillerato · bloque competencial C2",
       "scopeNote": "Con este bloque competencial se pretende constatar que el alumnado adquiere una base teórica y conceptual básica de ambas disciplinas y que es capaz de aplicarla en el diseño de diferentes producciones (exposiciones con murales, informes, conferencias, monográficos, artículos de divulgación, documentales…). Se pretende verificar que pone sus prácticas comunicativas al servicio de la convivencia democrática, que comunica sus ideas haciendo uso de la terminología adecuada, que propone ejemplos explicativos conectados con los problemas o fenómenos sobre los que investiga, demostrando que ha comprendido estos aspectos teóricos y que es capaz de hacer transferencias para analizar y establecer comparaciones entre distintos objetos de investigación, o bien para apoyar sus argumentos teóricos y planteamientos prácticos.",
-      "broader": "materia:BATR",
+      "broader": "asig:BATR02",
       "agrupa": [
         "ce:BATRC2"
       ],
@@ -98,6 +109,7 @@
         "CE1"
       ],
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -107,7 +119,7 @@
       "notation": "BATR02BC3",
       "prefLabel": "Antropología y Sociología · 2º Bachillerato · bloque competencial C3",
       "scopeNote": "Con este bloque competencial se persigue evaluar si el alumnado aplica habilidades sociales y valores para relacionarse y alcanzar metas comunes, adquiere habilidades organizativas y de liderazgo, y participa con rigor científico y respeto en los debates o decisiones que se produzcan al hilo de los problemas tratados, constatando que contrasta la información obtenida. Se verificará que investiga, individualmente o en equipo, sobre las consecuencias de la globalización en las personas y los territorios; identifica las causas de los problemas que les afectan en la actualidad; y desarrolla una actitud crítica, en busca de la sostenibilidad, apoyándose en principios y artículos de la Declaración Universal de los Derechos Humanos. Además, se comprobará que el alumnado sea capaz de realizar un análisis crítico del efecto de las acciones humanas en el medioambiente, aportando soluciones y demostrando, de esta manera, su compromiso responsable con el logro de los ODS.",
-      "broader": "materia:BATR",
+      "broader": "asig:BATR02",
       "agrupa": [
         "ce:BATRC3"
       ],
@@ -126,6 +138,7 @@
         "CE3"
       ],
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -154,6 +167,7 @@
         "CE1"
       ],
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -182,6 +196,7 @@
         "CE1"
       ],
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -202,6 +217,7 @@
         "CCEC1"
       ],
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -225,6 +241,7 @@
         "CCEC1"
       ],
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -234,8 +251,9 @@
       "notation": "BATR02SBI",
       "prefLabel": "BATR02SBI · I. La antropología y la sociología como ciencias sociales.",
       "definition": "La antropología y la sociología como ciencias sociales.",
-      "broader": "materia:BATR",
+      "broader": "asig:BATR02",
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -245,8 +263,9 @@
       "notation": "BATR02SBII",
       "prefLabel": "BATR02SBII · II. La Antropología.",
       "definition": "La Antropología.",
-      "broader": "materia:BATR",
+      "broader": "asig:BATR02",
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -256,8 +275,9 @@
       "notation": "BATR02SBIII",
       "prefLabel": "BATR02SBIII · III. La sociología",
       "definition": "La sociología",
-      "broader": "materia:BATR",
+      "broader": "asig:BATR02",
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -269,6 +289,7 @@
       "definition": "Identificación de las ciencias sociales y de la antropología y la sociología, en particular.",
       "broader": "sb:BATR02SBI",
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -280,6 +301,7 @@
       "definition": "Reconocimiento de la cultura como concepto que comparten la antropología y la sociología.",
       "broader": "sb:BATR02SBI",
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -291,6 +313,7 @@
       "definition": "Identificación y análisis de las técnicas de investigación en antropología y sociología.",
       "broader": "sb:BATR02SBI",
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -302,6 +325,7 @@
       "definition": "Identificación y análisis de las principales teorías en antropología.",
       "broader": "sb:BATR02SBII",
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -313,6 +337,7 @@
       "definition": "Comprensión acerca de los grupos humanos, su diversidad, adaptación, variación y cambio.",
       "broader": "sb:BATR02SBII",
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -324,6 +349,7 @@
       "definition": "Reconocimiento y reflexión crítica acerca de los patrones culturales, el intercambio cultural, el etnocentrismo, la multiculturalidad, la interculturalidad, la aculturación y la endoculturación, y el relativismo cultural.",
       "broader": "sb:BATR02SBII",
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -335,6 +361,7 @@
       "definition": "Identificación y análisis de la diversidad lingüística y su relación con el pensamiento y la cultura.",
       "broader": "sb:BATR02SBII",
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -346,6 +373,7 @@
       "definition": "Indagación en el método etnográfico emic-etic.",
       "broader": "sb:BATR02SBII",
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -357,6 +385,7 @@
       "definition": "Valoración de los contrastes de género y del binomio sexo-género, así como de las diferentes orientaciones e identidades sexuales, en las diferentes culturas y sociedades.",
       "broader": "sb:BATR02SBII",
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -368,6 +397,7 @@
       "definition": "Reconocimiento de los grupos étnicos, y los tipos de parentesco y grupos de filiación, analizando las formas de concebir sus manifestaciones en los diferentes mitos, religiones, ritos y tabúes.",
       "broader": "sb:BATR02SBII",
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -379,6 +409,7 @@
       "definition": "Valoración de la globalización, la sostenibilidad, los medios de comunicación y la industrialización.",
       "broader": "sb:BATR02SBII",
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -390,6 +421,7 @@
       "definition": "Aplicación y transferencia del análisis antropológico sobre las etnias, pueblos, colectivos o sociedades de la antigüedad o actuales, al estudio y comprensión de la evolución de la cultura y la sociedad de Canarias.",
       "broader": "sb:BATR02SBII",
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -401,6 +433,7 @@
       "definition": "Identificación y análisis de las principales teorías en sociología.",
       "broader": "sb:BATR02SBIII",
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -412,6 +445,7 @@
       "definition": "Comprensión acerca de la dimensión social del ser humano y de su inmersión en la estructura social, desde la familia hasta las más extensas.",
       "broader": "sb:BATR02SBIII",
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -423,6 +457,7 @@
       "definition": "Reconocimiento y análisis de los conceptos, procesos y relaciones como socialización, educación, trabajo, cambio social o modernización.",
       "broader": "sb:BATR02SBIII",
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -434,6 +469,7 @@
       "definition": "Identificación y análisis crítico acerca de los cambios demográficos, el conflicto social, el Estado y el poder, la legitimidad y la autoridad, los grupos sociales, los colectivos y las tribus urbanas.",
       "broader": "sb:BATR02SBIII",
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -445,6 +481,7 @@
       "definition": "Reconocimiento y reflexión crítica acerca de las desigualdades sociales, y las diferencias de género y culturales en la actualidad.",
       "broader": "sb:BATR02SBIII",
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -456,6 +493,7 @@
       "definition": "Valoración de la globalización, el impacto de la publicidad, las tendencias y la moda, la sostenibilidad, los medios de comunicación y la industrialización.",
       "broader": "sb:BATR02SBIII",
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -467,6 +505,7 @@
       "definition": "Aplicación y transferencia del análisis sociológico al estudio y comprensión de la evolución de la cultura y la sociedad de Canarias.",
       "broader": "sb:BATR02SBIII",
       "materia": "materia:BATR",
+      "materia_curso": "asig:BATR02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     }

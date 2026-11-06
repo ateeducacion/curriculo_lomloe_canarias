@@ -15,6 +15,46 @@
       "etapa": "etapa:ESO"
     },
     {
+      "id": "asig:SMUS01",
+      "tipo": "MateriaCurso",
+      "notation": "SMUS01",
+      "prefLabel": "Música · 1º ESO",
+      "broader": "materia:SMUS",
+      "materia": "materia:SMUS",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "asig:SMUS02",
+      "tipo": "MateriaCurso",
+      "notation": "SMUS02",
+      "prefLabel": "Música · 2º ESO",
+      "broader": "materia:SMUS",
+      "materia": "materia:SMUS",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "asig:SMUS03",
+      "tipo": "MateriaCurso",
+      "notation": "SMUS03",
+      "prefLabel": "Música · 3º ESO",
+      "broader": "materia:SMUS",
+      "materia": "materia:SMUS",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "asig:SMUS04",
+      "tipo": "MateriaCurso",
+      "notation": "SMUS04",
+      "prefLabel": "Música · 4º ESO",
+      "broader": "materia:SMUS",
+      "materia": "materia:SMUS",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
       "id": "ce:SMUSC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "SMUSC1",
@@ -60,7 +100,7 @@
       "notation": "SMUS01BC1",
       "prefLabel": "Música · 1º ESO · bloque competencial C1",
       "scopeNote": "A través del presente bloque competencial se persigue constatar si el alumnado es capaz de identificar los parámetros del sonido, así como los instrumentos de obras o fragmentos musicales sencillos de diversos géneros, culturas, épocas y estilos trabajados en el aula, poniendo especial atención a la producción realizada en Canarias y a las obras de mujeres artistas y compositoras. La incorporación de la perspectiva de género en el trabajo de aula permitirá comprobar si el alumnado reflexiona acerca de la imagen de la mujer en producciones actuales y su rol a lo largo de la historia, favoreciendo un acercamiento que ayude a identificar los mitos, los estereotipos y los roles de género transmitidos a través de la música y la danza. A su vez, se evaluará su capacidad para identificar las manifestaciones musicales y dancísticas estudiadas. Igualmente se comprobará el desarrollo de actitudes como el respeto hacia la diversidad cultural y artística, la empatía y la necesidad de valorar y conservar el patrimonio artístico. El desarrollo de estas actividades con un modelo de aprendizaje cooperativo, además de garantizar la educación inclusiva y promotora de oportunidades para todo el alumnado, facilitará la evaluación del cumplimiento de las normas básicas de comportamiento en el desarrollo de actividades musicales y la participación en actividades grupales con una actitud abierta y respetuosa. Y finalmente se comprobará si todo esto contribuye al fomento de una actitud crítica y reflexiva sobre el patrimonio musical y dancístico, y potencia el gusto por estas artes y su percepción como fuente de disfrute y enriquecimiento personal. La comprensión del arte como reflejo del pensamiento y la cultura de la sociedad en que es creado permite establecer la relación entre las diferentes formas de expresión. Esta concepción favorece la interconexión entre las distintas materias del ámbito artístico, es por ello que la puesta en práctica de este bloque competencial favorece el trabajo interdisciplinar con la materia Educación Plástica, Visual y Audiovisual.",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS01",
       "agrupa": [
         "ce:SMUSC1"
       ],
@@ -74,6 +114,7 @@
         "CC2"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -83,7 +124,7 @@
       "notation": "SMUS01BC2",
       "prefLabel": "Música · 1º ESO · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se valorará si el alumnado es capaz de explorar técnicas y recursos musicales y dancísticos (patrones rítmicos y recursos tímbricos tales como los planos sonoros corporales e instrumentales entre otros), cuya adquisición será evaluada en el desarrollo de las improvisaciones llevadas a cabo en el aula, a través del empleo de la voz, el cuerpo y los instrumentos musicales. Asimismo, permitirá constatar si el alumnado es capaz de poner en práctica dichas técnicas, a propuesta de la docente o el docente, para expresar sus propias ideas, sentimientos y emociones. Para ello, se desarrollarán actividades de improvisación rítmica guiadas y colectivas, donde se podrá evaluar la participación activa del alumnado con una actitud de colaboración y respeto hacia la diversidad de ideas en el grupo, así como el cumplimiento de las normas básicas para la práctica musical. Finalmente, se comprobará si vivir la música de manera cooperativa e integrar nuevas técnicas y recursos como forma de expresión logra favorecer el desarrollo del autoconocimiento, la autoestima y la motivación por el aprendizaje, y contribuye al enriquecimiento cultural entre iguales y a la superación de barreras y estereotipos sociales. Las distintas disciplinas artísticas cuentan con sus propios medios, técnicas y recursos para la consecución de un fin común: la expresión de ideas, sentimientos y emociones. Además de compartir su potencial expresivo, los distintos lenguajes artísticos pueden servir de fuente de inspiración mutua, es por ello que el desarrollo de situaciones de aprendizaje interdisciplinares, entre las materias del ámbito artístico, potenciará la capacidad de expresión, autoconocimiento y autoestima del alumnado.",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS01",
       "agrupa": [
         "ce:SMUSC2"
       ],
@@ -93,6 +134,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -102,7 +144,7 @@
       "notation": "SMUS01BC3",
       "prefLabel": "Música · 1º ESO · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de interpretar obras o fragmentos sencillos de repertorio vocal, instrumental, corporal o dancístico diverso, de complejidad rítmica y melódica acorde al nivel (obras a una voz con estructura sencilla), iniciándose en el empleo de las habilidades, estrategias y técnicas elementales necesarias, con una correcta ergonomía e higiene postural, en actuaciones musicales grupales. Para ello se constatará que el alumnado se inicia en el empleo de las estrategias elementales para gestionar adecuadamente sus emociones, cuidando la puesta en escena ante el público. La lectura y escritura guiada de partituras, con notación convencional y no convencional, su estudio y montaje permitirá verificar la capacidad para identificar e interpretar, con ayuda del profesorado, los parámetros del sonido. Se valorará, por último, el necesario cumplimiento de las normas básicas para hacer música en grupo, la actitud del alumnado hacia el proceso de ensayo y la comprensión de su necesidad como parte del aprendizaje, interactuando de manera activa, cooperativa y respetuosa. La interpretación musical es una actividad propicia para generar productos artísticos en los que se combinen distintos lenguajes, por ello la puesta en práctica de este bloque competencial se estima propicia para participar en proyectos interdisciplinares con la materia de Educación Plástica, Visual y Audiovisual.",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS01",
       "agrupa": [
         "ce:SMUSC3"
       ],
@@ -117,6 +159,7 @@
         "CC1"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -126,7 +169,7 @@
       "notation": "SMUS01BC4",
       "prefLabel": "Música · 1º ESO · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se persigue constatar el grado de participación del alumnado en el desarrollo y ejecución de propuestas artístico-musicales breves y sencillas, entendiéndolas como medio para transmitir ideas, emociones y sentimientos. El nivel de implicación en las diversas tareas de forma colaborativa facilitará la valoración de la participación en el trabajo en grupo, aceptando tareas y responsabilidades de manera cooperativa y mostrando respeto y empatía con las ideas, las emociones y los sentimientos de los compañeros y las compañeras. Igualmente se evaluará el respeto de las normas básicas para la práctica musical en grupo. De la misma manera se constatará si el alumnado es capaz de utilizar elementos y recursos básicos para la creación de productos musicales, lo que implica la iniciación en el empleo de herramientas de grabación y reproducción de sonido. Asimismo se evaluará si son capaces de iniciarse en el empleo de las técnicas elementales necesarias para la interpretación vocal, instrumental y corporal de sus propias producciones. Además de la observación del proceso, también se tendrá en cuenta la búsqueda de calidad artística en la elaboración de productos y que sean considerados como un medio para transmitir valores democráticos, respeto por la diversidad, compromiso con la igualdad de género, la cohesión social y el desarrollo sostenible. La integración de diversos lenguajes en la creación de productos artísticos multidisciplinares invita, de manera inequívoca, a diseñar propuestas conjuntas entre las materias del ámbito artístico, potenciando la creatividad y la formación holística e inclusiva del alumnado.",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS01",
       "agrupa": [
         "ce:SMUSC4"
       ],
@@ -142,6 +185,7 @@
         "CCEC4"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -151,7 +195,7 @@
       "notation": "SMUS02BC1",
       "prefLabel": "Música · 2º ESO · bloque competencial C1",
       "scopeNote": "A través del presente bloque competencial se persigue constatar si el alumnado es capaz de identificar y describir, de manera guiada, los elementos rítmicos, melódicos y formales, así como identificar y clasificar las voces e instrumentos de obras o fragmentos musicales de diversos géneros, culturas, épocas y estilos trabajados en el aula, poniendo especial atención a la producción realizada en Canarias y a las obras de mujeres artistas y compositoras. La incorporación de la perspectiva de género en el trabajo de aula permitirá comprobar si el alumnado reflexiona acerca de la imagen de la mujer en producciones actuales y su rol a lo largo de la historia, favoreciendo un acercamiento que ayude a identificar los mitos, los estereotipos y los roles de género transmitidos a través de la música y la danza. A su vez, se evaluará su capacidad para relacionar la música y la danza en el estudio de propuestas diversas, estableciendo las conexiones entre sus elementos. Igualmente se comprobará el desarrollo de actitudes como el respeto hacia la diversidad cultural y artística, la empatía y la necesidad de valorar y conservar el patrimonio artístico. El desarrollo de estas actividades con un modelo de aprendizaje cooperativo, además de garantizar la educación inclusiva y promotora de oportunidades para todo el alumnado, facilitará la evaluación del cumplimiento de las normas básicas de comportamiento en el desarrollo de actividades musicales y la participación en actividades grupales con una actitud abierta y respetuosa. Y finalmente se comprobará si todo esto contribuye al fomento de una actitud crítica y reflexiva sobre el patrimonio musical y dancístico, y potencia el gusto por estas artes y su percepción como fuente de disfrute y enriquecimiento personal. La comprensión del Arte como reflejo del pensamiento y la cultura de la sociedad en que es creado, permite establecer la relación entre las diferentes formas de expresión. Esta concepción favorece la interconexión entre las distintas materias del ámbito artístico, es por ello que la puesta en práctica de este bloque competencial favorece el trabajo interdisciplinar con la materia Educación Plástica, Visual y Audiovisual.",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS02",
       "agrupa": [
         "ce:SMUSC1"
       ],
@@ -166,6 +210,7 @@
         "CC2"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -175,7 +220,7 @@
       "notation": "SMUS02BC2",
       "prefLabel": "Música · 2º ESO · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se valorará la exploración por parte del alumnado de patrones rítmicos, recursos tímbricos tales como los planos sonoros corporales e instrumentales y esquemas formales entre otros, que constituyen las técnicas y recursos musicales y dancísticos elementales, cuya adquisición y aplicación serán evaluadas en el desarrollo de las improvisaciones llevadas a cabo en el aula, a través del empleo de la voz, el cuerpo y los instrumentos musicales. Por lo tanto, permitirá valorar que el alumnado sea capaz de explorar dichas técnicas y ponerlas en práctica, a propuesta de la docente o el docente, para expresar sus propias ideas, sentimientos y emociones. De igual forma se constatará la destreza en el manejo de herramientas tecnológicas como medio de expresión musical. Para ello, se desarrollarán actividades de improvisación rítmica guiadas, individuales o colectivas, donde se podrá evaluar la participación activa del alumnado con una actitud de colaboración y respeto hacia la diversidad de ideas en el grupo, así como el cumplimiento de las normas básicas para la práctica musical. Finalmente, se comprobará si vivir la música de manera cooperativa e integrar nuevas técnicas y recursos como forma de expresión logra favorecer el desarrollo del autoconocimiento, la autoestima y la motivación por el aprendizaje, y contribuye al enriquecimiento cultural entre iguales y a la superación de barreras y estereotipos sociales. Las distintas disciplinas artísticas cuentan con sus propios medios, técnicas y recursos, para la consecución de un fin común: la expresión de ideas, sentimientos y emociones. Además de compartir su potencial expresivo, los distintos lenguajes artísticos pueden servir de fuente de inspiración mutua, es por ello que el desarrollo de situaciones de aprendizaje interdisciplinares, entre las materias del ámbito artístico, potenciará la capacidad de expresión, autoconocimiento y autoestima del alumnado.",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS02",
       "agrupa": [
         "ce:SMUSC2"
       ],
@@ -188,6 +233,7 @@
         "CE3"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -197,7 +243,7 @@
       "notation": "SMUS02BC3",
       "prefLabel": "Música · 2º ESO · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de interpretar, con o sin apoyo de partituras, obras o fragmentos de repertorio vocal, instrumental, corporal o dancístico diverso, de complejidad rítmica y melódica acorde al nivel (obras a una o dos voces, con estructuras sencillas y donde el alumnado pueda experimentar distintos roles dentro del conjunto), aplicando de manera guiada las habilidades, estrategias y técnicas elementales necesarias, con una correcta ergonomía e higiene postural, en actuaciones musicales individuales o grupales, dentro o fuera del aula. Para ello se constatará que el alumnado es capaz de aplicar de manera guiada las estrategias elementales para gestionar adecuadamente sus emociones, cuidando la puesta en escena ante el público. La lectura y escritura guiada de partituras, con notación convencional y no convencional, su estudio y montaje, permitirá verificar la capacidad para identificar e interpretar, con ayuda del profesorado, los elementos del lenguaje musical (ritmo, melodía y formas musicales). Se valorará, por último, el necesario cumplimiento de las normas básicas para hacer música en grupo, la actitud del alumnado hacia el proceso de ensayo y la comprensión de su necesidad como parte del aprendizaje, interactuando de manera activa, cooperativa y respetuosa. La interpretación musical es una actividad propicia para generar productos artísticos en los que se combinen distintos lenguajes, por ello la puesta en práctica de este bloque competencial se estima propicia para participar en proyectos interdisciplinares con la materia de Educación Plástica, Visual y Audiovisual.",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS02",
       "agrupa": [
         "ce:SMUSC3"
       ],
@@ -212,6 +258,7 @@
         "CC1"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -221,7 +268,7 @@
       "notation": "SMUS02BC4",
       "prefLabel": "Música · 2º ESO · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se persigue constatar el grado de participación del alumnado en el desarrollo y ejecución de propuestas artístico-musicales sencillas, entendiéndolas como medio para transmitir ideas, emociones y sentimientos. El nivel de implicación en las diversas tareas, de forma colaborativa, facilitará la valoración de la participación en el trabajo en grupo, aceptando tareas y responsabilidades de manera cooperativa y mostrando respeto y empatía con las ideas, emociones y sentimientos de los compañeros y las compañeras. Igualmente se evaluará el respeto de las normas básicas para la práctica musical en grupo. De la misma manera se constatará si el alumnado es capaz de utilizar elementos y recursos para la creación de productos musicales y audiovisuales, lo que implica el conocimiento y la aplicación de herramientas de grabación y reproducción de sonido. Asimismo se evaluará si son capaces de aplicar de manera guiada las técnicas elementales necesarias para la interpretación vocal, instrumental y corporal de sus propias producciones. Además de la observación del proceso, también se tendrá en cuenta la búsqueda de calidad artística en la elaboración de productos y que sean considerados como un medio para transmitir valores democráticos, respeto por la diversidad, compromiso con la igualdad de género, la cohesión social y el desarrollo sostenible. La integración de diversos lenguajes en la creación de productos artísticos multidisciplinares invita, de manera inequívoca, a diseñar propuestas conjuntas entre las materias del ámbito artístico, potenciando la creatividad, la cohesión social y la formación holística e inclusiva del alumnado.",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS02",
       "agrupa": [
         "ce:SMUSC4"
       ],
@@ -238,6 +285,7 @@
         "CCEC4"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -247,7 +295,7 @@
       "notation": "SMUS03BC1",
       "prefLabel": "Música · 3º ESO · bloque competencial C1",
       "scopeNote": "A través del presente bloque competencial se persigue constatar si el alumnado es capaz de explicar los rasgos estilísticos de obras de diversas culturas, épocas y estilos trabajadas en el aula, poniendo especial atención a la producción realizada en Canarias y a las obras de mujeres artistas y compositoras. La incorporación de la perspectiva de género en el trabajo de aula permitirá comprobar si el alumnado valora y reflexiona acerca de la imagen de la mujer en producciones actuales y su rol a lo largo de la historia, favoreciendo un acercamiento que ayude a identificar los mitos, los estereotipos y los roles de género transmitidos a través de la música y la danza. A su vez, se evaluará su capacidad para relacionar la música y la danza con otras manifestaciones artísticas coetáneas, estableciendo la relación entre sus elementos y lenguajes y vinculándolas con su contexto. Igualmente se comprobará el desarrollo de actitudes como el respeto hacia la diversidad cultural y artística, la empatía y la necesidad de valorar y conservar el patrimonio artístico. El acercamiento a estas obras a través de la audición y visionado activo permitirá evaluar si el alumnado es capaz de identificar de manera guiada los elementos del lenguaje musical, las agrupaciones musicales y vocales, así como describir sus rasgos estilísticos. El desarrollo de estas actividades con un modelo de aprendizaje cooperativo, además de garantizar la educación inclusiva y promotora de oportunidades para todo el alumnado, facilitará la evaluación del cumplimiento de las normas básicas de comportamiento en el desarrollo de actividades musicales y así como la participación en actividades grupales con una actitud abierta y respetuosa. Y finalmente se comprobará si todo esto contribuye al fomento de una actitud crítica y reflexiva sobre el patrimonio musical y dancístico, y potencia el gusto por estas artes y su percepción como fuente de disfrute y enriquecimiento personal. La comprensión del Arte como reflejo del pensamiento y la cultura de la sociedad en que es creado permite establecer la relación entre las diferentes formas de expresión. Esta concepción favorece la interconexión entre las distintas materias del ámbito artístico, es por ello que la puesta en práctica de este bloque competencial favorece el trabajo interdisciplinar con la materia Educación Plástica, Visual y Audiovisual.",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS03",
       "agrupa": [
         "ce:SMUSC1"
       ],
@@ -262,6 +310,7 @@
         "CC2"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -271,7 +320,7 @@
       "notation": "SMUS03BC2",
       "prefLabel": "Música · 3º ESO · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se valorará la exploración por parte del alumnado de patrones rítmicos, recursos tímbricos tales como los planos sonoros corporales e instrumentales y esquemas formales entre otros, que constituyen las técnicas y recursos musicales y dancísticos elementales cuya adquisición y aplicación serán evaluadas en el desarrollo de las improvisaciones llevadas a cabo en el aula, a través del empleo de la voz, el cuerpo y los instrumentos musicales. Por lo tanto, permitirá valorar que el alumnado sea capaz de explorar dichas técnicas y ponerlas en práctica, a propuesta de la docente o el docente, para expresar sus propias ideas, sentimientos y emociones. De igual forma se constatará la destreza en el manejo de herramientas tecnológicas como medio de expresión musical. Para ello, se desarrollarán actividades de improvisación rítmica guiadas, individuales o colectivas, donde se podrá evaluar la participación activa del alumnado con una actitud de colaboración y respeto hacia la diversidad de ideas en el grupo, así como el cumplimiento de las normas básicas para la práctica musical. Finalmente se comprobará si vivir la música de manera cooperativa e integrar nuevas técnicas y recursos como forma de expresión, logra favorecer el desarrollo del autoconocimiento, la autoestima y la motivación por el aprendizaje, y contribuye al enriquecimiento cultural entre iguales y a la superación de barreras y estereotipos sociales. Las distintas disciplinas artísticas cuentan con sus propios medios, técnicas y recursos para la consecución de un fin común: la expresión de ideas, sentimientos y emociones. Además de compartir su potencial expresivo, los distintos lenguajes artísticos pueden servir de fuente de inspiración mutua, es por ello que el desarrollo de situaciones de aprendizaje interdisciplinares, entre las materias del ámbito artístico, potenciará la capacidad de expresión, autoconocimiento y autoestima del alumnado.",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS03",
       "agrupa": [
         "ce:SMUSC2"
       ],
@@ -284,6 +333,7 @@
         "CE3"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -293,7 +343,7 @@
       "notation": "SMUS03BC3",
       "prefLabel": "Música · 3º ESO · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de interpretar, con o sin apoyo de partituras, obras de repertorio vocal, instrumental, corporal o dancístico diverso, de complejidad rítmica y melódica acorde al nivel (obras con al menos dos voces, con estructuras de complejidad media e indicaciones expresivas de dinámica, donde el alumnado pueda experimentar distintos roles), aplicando las habilidades, estrategias y técnicas elementales necesarias, con una correcta ergonomía e higiene postural, en actuaciones musicales individuales o grupales, dentro o fuera del aula, con la aplicación de estrategias elementales para gestionar adecuadamente sus emociones y cuidar la puesta en escena ante el público. La lectura y escritura de partituras, con notación convencional y no convencional, y el análisis guiado de la estructura de las piezas, su estudio y montaje, permitirán verificar la capacidad para identificar e interpretar, con ayuda del profesorado, los elementos del lenguaje musical (ritmo, compás, melodía, armonía, textura, tempo, dinámica y formas musicales). Se valorará, por último, el necesario cumplimiento de las normas básicas para hacer música en grupo, la actitud del alumnado hacia el proceso de ensayo y la comprensión de su necesidad como parte del aprendizaje, interactuando de manera activa, cooperativa y respetuosa. La interpretación musical es una actividad propicia para generar productos artísticos en los que se combinen distintos lenguajes, por ello la puesta en práctica de este bloque competencial se estima propicia para participar en proyectos interdisciplinares con la materia de Educación Plástica, Visual y Audiovisual.",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS03",
       "agrupa": [
         "ce:SMUSC3"
       ],
@@ -308,6 +358,7 @@
         "CC1"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -317,7 +368,7 @@
       "notation": "SMUS03BC4",
       "prefLabel": "Música · 3º ESO · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se persigue constatar el grado de participación del alumnado en la planificación, desarrollo y ejecución de propuestas artístico-musicales, utilizando estrategias ágiles de planificación y gestión, y entendiéndolos como medio para transmitir ideas, emociones y sentimientos. El nivel de implicación en las diversas tareas, de forma individual o colaborativa, y con un perfil proactivo, facilitará la valoración de la participación en el trabajo en grupo, distribuyendo y aceptando tareas y responsabilidades de manera equitativa y cooperativa, y mostrando respeto y empatía con las ideas, emociones y sentimientos de los compañeros y las compañeras. Igualmente se evaluará el respeto de las normas básicas para la práctica musical en grupo. De la misma manera se constatará si el alumnado es capaz de utilizar elementos y recursos para la creación de productos musicales y audiovisuales, lo que implica el conocimiento y la aplicación de herramientas de grabación, edición y reproducción de sonido. Asimismo se evaluará si son capaces de emplear las técnicas elementales necesarias para la interpretación vocal, instrumental y corporal de sus propias producciones. Además de la observación del proceso, también se tendrá en cuenta la búsqueda de calidad artística en la elaboración de productos y que sean considerados como un medio para transmitir valores democráticos, respeto por la diversidad, compromiso con la igualdad de género, la cohesión social y el desarrollo sostenible. La integración de diversos lenguajes en la creación de productos artísticos multidisciplinares invita, de manera inequívoca, a diseñar propuestas conjuntas entre las materias del ámbito artístico, potenciando la creatividad, la cohesión social y la formación holística e inclusiva del alumnado.",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS03",
       "agrupa": [
         "ce:SMUSC4"
       ],
@@ -334,6 +385,7 @@
         "CCEC4"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -343,7 +395,7 @@
       "notation": "SMUS04BC1",
       "prefLabel": "Música · 4º ESO · bloque competencial C1",
       "scopeNote": "A través del presente bloque competencial se persigue constatar si el alumnado es capaz de analizar e identificar los rasgos estilísticos de obras de diversas culturas, épocas y estilos trabajadas en el aula, poniendo especial atención a la producción realizada en Canarias y a las obras de mujeres artistas y compositoras. La incorporación de la perspectiva de género al proceso de análisis, permitirá comprobar si el alumnado comprende y valora críticamente la imagen de la mujer en producciones actuales y su rol a lo largo de la historia, favoreciendo un acercamiento que ayude a identificar los mitos, los estereotipos y los roles de género transmitidos a través de la música y la danza. A su vez, se evaluará su capacidad para vincular estas obras con el contexto en que fueron creadas, valorando críticamente sus funciones y los factores culturales y sociales que las rodean, contribuyendo de esta manera a los objetivos de la competencia específica. Igualmente se comprobará el desarrollo de actitudes como el respeto hacia la diversidad cultural y artística, la empatía y la necesidad de valorar y conservar el patrimonio artístico. El acercamiento a estas obras a través de la audición y visionado activo y la búsqueda crítica de información en diversos soportes, permitirá evaluar si el alumnado es capaz de identificar los elementos del lenguaje musical, la relevancia y evolución de voces e instrumentos, así como analizar descriptivamente sus rasgos estilísticos. El desarrollo de estas actividades con un modelo de aprendizaje cooperativo, además de garantizar la educación inclusiva y promotora de oportunidades para todo el alumnado, facilitará la evaluación del cumplimiento de las normas básicas de comportamiento en el desarrollo de actividades musicales y la participación en actividades grupales con una actitud abierta y respetuosa. Y finalmente se comprobará si todo esto contribuye al fomento de una actitud crítica y reflexiva sobre el patrimonio musical y dancístico, y potencia el gusto por estas artes y su percepción como fuente de disfrute y enriquecimiento personal. La comprensión del Arte como reflejo del pensamiento y la cultura de la sociedad en que es creado, permite establecer la relación entre las diferentes formas de expresión. Esta concepción favorece la interconexión entre las distintas materias del ámbito artístico, es por ello que la puesta en práctica de este bloque competencial favorece el trabajo interdisciplinar con la materia Expresión Artística.",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS04",
       "agrupa": [
         "ce:SMUSC1"
       ],
@@ -359,6 +411,7 @@
         "CC2"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -368,7 +421,7 @@
       "notation": "SMUS04BC2",
       "prefLabel": "Música · 4º ESO · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se valorará la exploración por parte del alumnado de patrones rítmicos, melódicos y armónicos, recursos tímbricos tales como los planos sonoros corporales e instrumentales y esquemas formales entre otros, los cuales constituyen las técnicas y recursos musicales y dancísticos cuya adquisición y aplicación serán evaluadas en el desarrollo de las improvisaciones llevadas a cabo en el aula, a través del empleo de la voz, el cuerpo y los instrumentos musicales. Por lo tanto, permitirá valorar que el alumnado sea capaz de explorar dichas técnicas y seleccionar de manera guiada las adecuadas para expresar sus propias ideas, sentimientos y emociones. De igual forma se constatará la destreza en el manejo de herramientas tecnológicas como medio de expresión musical. Para ello se desarrollarán actividades de improvisación guiadas, melódicas y rítmicas, individuales o colectivas, donde se podrá evaluar la participación activa del alumnado con una actitud de colaboración y respeto hacia la diversidad de ideas en el grupo, así como el cumplimiento de las normas básicas para la práctica musical. Finalmente se comprobará si vivir la música de manera cooperativa e integrar nuevas técnicas y recursos como forma de expresión logra favorecer el desarrollo del autoconocimiento, la autoestima y la motivación por el aprendizaje, y contribuye al enriquecimiento cultural entre iguales y a la superación de barreras y estereotipos sociales. Las distintas disciplinas artísticas cuentan con sus propios medios, técnicas y recursos, para la consecución de un fin común: la expresión de ideas, sentimientos y emociones. Además de compartir su potencial expresivo, los distintos lenguajes artísticos pueden servir de fuente de inspiración mutua, es por ello que el desarrollo de situaciones de aprendizaje interdisciplinares, entre las materias del ámbito artístico, potenciará la capacidad de expresión, autoconocimiento y autoestima del alumnado.",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS04",
       "agrupa": [
         "ce:SMUSC2"
       ],
@@ -381,6 +434,7 @@
         "CE3"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -390,7 +444,7 @@
       "notation": "SMUS04BC3",
       "prefLabel": "Música · 4º ESO · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de interpretar repertorio vocal, instrumental, corporal o dancístico diverso, de complejidad rítmica y melódica acorde al nivel (obras a varias voces, con estructuras complejas e indicaciones expresivas de dinámica y agógica, donde el alumnado pueda experimentar el rol de solista y el de acompañante), aplicando las habilidades, estrategias y técnicas necesarias, con una correcta ergonomía e higiene postural, en actuaciones musicales individuales o grupales, dentro o fuera del aula, gestionando adecuadamente sus emociones y cuidando la puesta en escena ante el público. La lectura de partituras, con notación convencional y no convencional, y el análisis de la estructura de las piezas, su estudio y montaje, permitirán verificar la capacidad para identificar e interpretar los elementos del lenguaje musical (ritmo, compás, melodía, armonía, textura, tempo, dinámica y formas musicales). De igual forma se verificará la aplicación de estrategias para memorizar la pieza e interpretarla sin apoyo de partitura, en el caso de obras musicales, o sin guía externa en el caso de obras dancísticas. Se valorará, por último, el necesario cumplimiento de las normas básicas para hacer música en grupo, la actitud del alumnado hacia el proceso de ensayo y la comprensión de su necesidad como parte del aprendizaje, interactuando de manera activa, cooperativa y respetuosa. La interpretación musical es una actividad propicia para generar productos artísticos en los que se combinen distintos lenguajes, por ello la puesta en práctica de este bloque competencial se considera adecuada para participar en proyectos interdisciplinares con la materia Expresión Artística.",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS04",
       "agrupa": [
         "ce:SMUSC3"
       ],
@@ -405,6 +459,7 @@
         "CC1"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -414,7 +469,7 @@
       "notation": "SMUS04BC4",
       "prefLabel": "Música · 4º ESO · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se persigue constatar el grado de participación del alumnado en las diferentes fases que conlleva la creación de proyectos artísticos (planificación, desarrollo y ejecución), utilizando estrategias ágiles de planificación y gestión y entendiéndolos como medio para transmitir ideas, emociones y sentimientos. El nivel de implicación en las tareas propias de cada fase del proyecto, de forma individual o colaborativa, y con un perfil proactivo y autónomo, facilitará la valoración de la participación en el trabajo en grupo, distribuyendo y aceptando tareas y responsabilidades de manera equitativa y cooperativa y mostrando respeto y empatía con las ideas, emociones y sentimientos de los compañeros y las compañeras. Igualmente se evaluará el respeto de las normas básicas para la práctica musical en grupo. Se constatará si el alumnado es capaz de utilizar elementos y recursos para la creación de productos musicales y audiovisuales, lo que implica el conocimiento y la aplicación de herramientas de grabación, edición y reproducción de sonido. Asimismo se evaluará si son capaces de emplear las técnicas necesarias para la interpretación vocal, instrumental y corporal de sus propias producciones. Además de la observación del proceso, también se tendrá en cuenta la búsqueda de calidad artística en la elaboración de productos, que sus distintas fases queden documentadas y sean considerados como un medio para transmitir valores democráticos fuera del aula, respeto por la diversidad, compromiso con la igualdad de género, la cohesión social y el desarrollo sostenible. La integración de diversos lenguajes en la creación de proyectos artísticos multidisciplinares invita, de manera inequívoca, a diseñar propuestas conjuntas entre las materias del ámbito artístico, potenciando la creatividad, la cohesión social y la formación holística e inclusiva del alumnado.",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS04",
       "agrupa": [
         "ce:SMUSC4"
       ],
@@ -431,6 +486,7 @@
         "CCEC4"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -450,6 +506,7 @@
         "CCEC2"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -470,6 +527,7 @@
         "CCEC1"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -487,6 +545,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -505,6 +564,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -525,6 +585,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -548,6 +609,7 @@
         "CCEC4"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -568,6 +630,7 @@
         "CCEC2"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -588,6 +651,7 @@
         "CCEC1"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -607,6 +671,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -624,6 +689,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -642,6 +708,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -662,6 +729,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -686,6 +754,7 @@
         "CCEC4"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -706,6 +775,7 @@
         "CCEC2"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -727,6 +797,7 @@
         "CCEC1"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -746,6 +817,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -763,6 +835,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -781,6 +854,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -801,6 +875,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -825,6 +900,7 @@
         "CCEC4"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -845,6 +921,7 @@
         "CCEC2"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -867,6 +944,7 @@
         "CCEC1"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -886,6 +964,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -903,6 +982,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -921,6 +1001,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -941,6 +1022,7 @@
         "CCEC3"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -965,6 +1047,7 @@
         "CCEC4"
       ],
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -974,8 +1057,9 @@
       "notation": "SMUS01SBI",
       "prefLabel": "SMUS01SBI · I. Escucha y percepción",
       "definition": "Escucha y percepción",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS01",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -985,8 +1069,9 @@
       "notation": "SMUS01SBII",
       "prefLabel": "SMUS01SBII · II. Interpretación, improvisación y creación escénica",
       "definition": "Interpretación, improvisación y creación escénica",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS01",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -996,8 +1081,9 @@
       "notation": "SMUS01SBIII",
       "prefLabel": "SMUS01SBIII · III. Contextos y culturas",
       "definition": "Contextos y culturas",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS01",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1007,8 +1093,9 @@
       "notation": "SMUS02SBI",
       "prefLabel": "SMUS02SBI · I. Escucha y percepción",
       "definition": "Escucha y percepción",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS02",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1018,8 +1105,9 @@
       "notation": "SMUS02SBII",
       "prefLabel": "SMUS02SBII · II. Interpretación, improvisación y creación escénica",
       "definition": "Interpretación, improvisación y creación escénica",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS02",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1029,8 +1117,9 @@
       "notation": "SMUS02SBIII",
       "prefLabel": "SMUS02SBIII · III. Contextos y culturas",
       "definition": "Contextos y culturas",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS02",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1040,8 +1129,9 @@
       "notation": "SMUS03SBI",
       "prefLabel": "SMUS03SBI · I. Escucha y percepción",
       "definition": "Escucha y percepción",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS03",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1051,8 +1141,9 @@
       "notation": "SMUS03SBII",
       "prefLabel": "SMUS03SBII · II. Interpretación, improvisación y creación escénica",
       "definition": "Interpretación, improvisación y creación escénica",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS03",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1062,8 +1153,9 @@
       "notation": "SMUS03SBIII",
       "prefLabel": "SMUS03SBIII · III. Contextos y culturas",
       "definition": "Contextos y culturas",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS03",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1073,8 +1165,9 @@
       "notation": "SMUS04SBI",
       "prefLabel": "SMUS04SBI · I. Escucha y percepción",
       "definition": "Escucha y percepción",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS04",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1084,8 +1177,9 @@
       "notation": "SMUS04SBII",
       "prefLabel": "SMUS04SBII · II. Interpretación, improvisación y creación escénica",
       "definition": "Interpretación, improvisación y creación escénica",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS04",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1095,8 +1189,9 @@
       "notation": "SMUS04SBIII",
       "prefLabel": "SMUS04SBIII · III. Contextos y culturas",
       "definition": "Contextos y culturas",
-      "broader": "materia:SMUS",
+      "broader": "asig:SMUS04",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -1108,6 +1203,7 @@
       "definition": "Análisis de obras musicales y dancísticas diversas.",
       "broader": "sb:SMUS01SBI",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1119,6 +1215,7 @@
       "definition": "Desarrollo de hábitos saludables de escucha. Interés por la generación de espacios respetuosos con la escucha y el bienestar personal y social.",
       "broader": "sb:SMUS01SBI.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1130,6 +1227,7 @@
       "definition": "Audición y visionado activo de obras en el aula o en la asistencia a conciertos, actuaciones y manifestaciones artístico-musicales en vivo, con una actitud de respeto en la recepción musical.",
       "broader": "sb:SMUS01SBI.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1141,6 +1239,7 @@
       "definition": "Identificación de instrumentos en la audición y visionado de obras de diferentes géneros, estilos, épocas y culturas, con especial atención a las de Canarias.",
       "broader": "sb:SMUS01SBI.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1152,6 +1251,7 @@
       "definition": "Identificación de los parámetros del sonido en actividades de percepción auditiva desarrolladas en el aula.",
       "broader": "sb:SMUS01SBI.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1163,6 +1263,7 @@
       "definition": "Empleo de vocabulario técnico específico de la materia.",
       "broader": "sb:SMUS01SBI.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1174,6 +1275,7 @@
       "definition": "Análisis de productos culturales y artísticos con perspectiva de género.",
       "broader": "sb:SMUS01SBI",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1185,6 +1287,7 @@
       "definition": "Aproximación a los mitos, estereotipos y roles de género transmitidos a través de la música y la danza para el desarrollo del compromiso con la igualdad de género.",
       "broader": "sb:SMUS01SBI.2",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1196,6 +1299,7 @@
       "definition": "Actitud reflexiva ante mensajes contrarios a la igualdad de género en la audición y visionado de productos culturales y artísticos: canciones, videoclips, cine, publicidad, teatro musical, televisión, videojuegos y redes sociales.",
       "broader": "sb:SMUS01SBI.2",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1207,6 +1311,7 @@
       "definition": "Herramientas digitales para la recepción musical.",
       "broader": "sb:SMUS01SBI",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1218,6 +1323,7 @@
       "definition": "Uso saludable y sostenible de las tecnologías. Identificación de riesgos y adopción de medidas preventivas para la protección de la salud y el medio ambiente.",
       "broader": "sb:SMUS01SBI.3",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1229,6 +1335,7 @@
       "definition": "Uso responsable de herramientas digitales para la recepción musical, con respeto a la propiedad intelectual. Desarrollo de valores y hábitos de consumo responsable en las plataformas digitales y las redes sociales musicales.",
       "broader": "sb:SMUS01SBI.3",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1240,6 +1347,7 @@
       "definition": "Interpretación.",
       "broader": "sb:SMUS01SBII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1251,6 +1359,7 @@
       "definition": "Desarrollo de hábitos saludables en la práctica musical: corrección ergonómica y postural, uso adecuado de la voz y de los instrumentos musicales.",
       "broader": "sb:SMUS01SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1262,6 +1371,7 @@
       "definition": "Identificación de los parámetros del sonido y su representación gráfica, y aplicación en actividades de lectura, escritura e interpretación.",
       "broader": "sb:SMUS01SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1273,6 +1383,7 @@
       "definition": "Iniciación en el empleo de técnicas elementales para la interpretación de repertorio vocal, instrumental y dancístico de obras o fragmentos sencillos de los principales géneros musicales y escénicos del patrimonio cultural, de manera individual y en grupo.",
       "broader": "sb:SMUS01SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1284,6 +1395,7 @@
       "definition": "Interpretación vocal, instrumental y dancística de obras o fragmentos sencillos de la música culta, tradicional y popular de Canarias.",
       "broader": "sb:SMUS01SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1295,6 +1407,7 @@
       "definition": "Exploración de las propiedades sonoras del cuerpo y de objetos cotidianos para su empleo en actividades de interpretación. Interés hacia el aprovechamiento de recursos, la reutilización y el reciclaje.",
       "broader": "sb:SMUS01SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1306,6 +1419,7 @@
       "definition": "Iniciación en el empleo de técnicas de estudio elementales y desarrollo del autoconocimiento, la autoconfianza y la gestión de emociones en el ensayo e interpretación de repertorio vocal, instrumental y dancístico de diferentes épocas y culturas, dentro y fuera del aula.",
       "broader": "sb:SMUS01SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1317,6 +1431,7 @@
       "definition": "Implicación en actividades musicales, con una actitud de respeto, interés y colaboración. Cumplimiento de las normas básicas para hacer música en grupo y valoración del proceso de ensayo como fuente de aprendizaje.",
       "broader": "sb:SMUS01SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1328,6 +1443,7 @@
       "definition": "Improvisación.",
       "broader": "sb:SMUS01SBII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1339,6 +1455,7 @@
       "definition": "Exploración de técnicas y recursos de improvisación guiada: rítmica, empleando la voz, los instrumentos musicales, el cuerpo y el movimiento. Utilización de los recursos adquiridos para expresar ideas, sentimientos y emociones.",
       "broader": "sb:SMUS01SBII.2",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1350,6 +1467,7 @@
       "definition": "Participación activa en ejercicios de improvisación grupal en el aula, con una actitud de colaboración, respeto y cumplimiento de las normas básicas para la práctica musical.",
       "broader": "sb:SMUS01SBII.2",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1361,6 +1479,7 @@
       "definition": "Creación.",
       "broader": "sb:SMUS01SBII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1372,6 +1491,7 @@
       "definition": "Creación de propuestas musicales y escénicas breves y sencillas: empleo de la voz, el cuerpo y los instrumentos musicales.",
       "broader": "sb:SMUS01SBII.3",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1383,6 +1503,7 @@
       "definition": "Creación de propuestas musicales y audiovisuales a través de la iniciación en el empleo de herramientas digitales de grabación y reproducción de sonido.",
       "broader": "sb:SMUS01SBII.3",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1394,6 +1515,7 @@
       "definition": "Participación activa en propuestas de creación artístico-musical, con una actitud de respeto y empatía con las ideas, las emociones y los sentimientos del grupo.",
       "broader": "sb:SMUS01SBII.3",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1405,6 +1527,7 @@
       "definition": "Identificación de los elementos característicos de ejemplos representativos de la música culta occidental: géneros musicales, voces e instrumentos, con especial atención a los de España y Canarias.",
       "broader": "sb:SMUS01SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1416,6 +1539,7 @@
       "definition": "Identificación de las características de ejemplos representativos de la música popular: géneros musicales e instrumentos, con especial atención a las músicas y danzas urbanas y contemporáneas.",
       "broader": "sb:SMUS01SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1427,6 +1551,7 @@
       "definition": "Identificación de las características de ejemplos representativos de la música y danza tradicional de diferentes culturas, con especial atención a los instrumentos, canciones, danzas y bailes de España y Canarias.",
       "broader": "sb:SMUS01SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1438,6 +1563,7 @@
       "definition": "Reflexión sobre el valor del patrimonio musical y artístico de Canarias como fuente de enriquecimiento y crecimiento personal.",
       "broader": "sb:SMUS01SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1449,6 +1575,7 @@
       "definition": "Empleo de fuentes diversas, incluyendo el uso responsable de tecnologías digitales, para el desarrollo de trabajos de investigación, con respeto a la propiedad intelectual y cultural.",
       "broader": "sb:SMUS01SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1460,6 +1587,7 @@
       "definition": "Audición y visionado de obras de diferentes compositores y compositoras, artistas e intérpretes internacionales, nacionales y locales. Visibilización y valoración de la contribución de las mujeres a la producción cultural y artística.",
       "broader": "sb:SMUS01SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1471,6 +1599,7 @@
       "definition": "Análisis de obras musicales y dancísticas diversas.",
       "broader": "sb:SMUS02SBI",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1482,6 +1611,7 @@
       "definition": "Desarrollo de hábitos saludables de escucha. Interés por la generación de espacios respetuosos con la escucha y el bienestar personal y social.",
       "broader": "sb:SMUS02SBI.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1493,6 +1623,7 @@
       "definition": "Audición y visionado activo de obras en el aula o en la asistencia a conciertos, actuaciones y manifestaciones artístico-musicales en vivo, con una actitud de respeto en la recepción musical.",
       "broader": "sb:SMUS02SBI.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1504,6 +1635,7 @@
       "definition": "Identificación y clasificación de instrumentos y voces en la audición y visionado de obras de diferentes géneros, estilos, épocas y culturas, con especial atención a las de Canarias.",
       "broader": "sb:SMUS02SBI.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1515,6 +1647,7 @@
       "definition": "Identificación guiada de los elementos básicos del lenguaje musical (ritmo, melodía, y formas musicales) en audición de obras o actividades de percepción auditiva desarrolladas en el aula.",
       "broader": "sb:SMUS02SBI.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1526,6 +1659,7 @@
       "definition": "Empleo de vocabulario técnico específico de la materia.",
       "broader": "sb:SMUS02SBI.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1537,6 +1671,7 @@
       "definition": "Análisis de productos culturales y artísticos con perspectiva de género.",
       "broader": "sb:SMUS02SBI",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1548,6 +1683,7 @@
       "definition": "Identificación de los mitos, estereotipos y roles de género transmitidos a través de la música y la danza para el desarrollo del compromiso con la igualdad de género.",
       "broader": "sb:SMUS02SBI.2",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1559,6 +1695,7 @@
       "definition": "Actitud reflexiva ante mensajes contrarios a la igualdad de género en la audición y visionado de productos culturales y artísticos: canciones, videoclips, cine, publicidad, teatro musical, televisión, videojuegos y redes sociales.",
       "broader": "sb:SMUS02SBI.2",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1570,6 +1707,7 @@
       "definition": "Herramientas digitales para la recepción musical.",
       "broader": "sb:SMUS02SBI",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1581,6 +1719,7 @@
       "definition": "Uso saludable y sostenible de las tecnologías. Identificación de riesgos y adopción de medidas preventivas para la protección de la salud y el medio ambiente.",
       "broader": "sb:SMUS02SBI.3",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1592,6 +1731,7 @@
       "definition": "Uso responsable de herramientas digitales para la recepción musical, con respeto a la propiedad intelectual. Desarrollo de valores y hábitos de consumo responsable en las plataformas digitales y las redes sociales musicales.",
       "broader": "sb:SMUS02SBI.3",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1603,6 +1743,7 @@
       "definition": "Interpretación.",
       "broader": "sb:SMUS02SBII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1614,6 +1755,7 @@
       "definition": "Desarrollo de hábitos saludables en la práctica musical: corrección ergonómica y postural, uso adecuado de la voz y de los instrumentos musicales.",
       "broader": "sb:SMUS02SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1625,6 +1767,7 @@
       "definition": "Identificación guiada de los elementos básicos del lenguaje musical (ritmo, melodía y formas musicales) y aplicación de diferentes grafías en actividades de lectura, escritura e interpretación de partituras.",
       "broader": "sb:SMUS02SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1636,6 +1779,7 @@
       "definition": "Aplicación guiada de técnicas elementales para la interpretación de repertorio vocal, instrumental y dancístico de obras o fragmentos de los principales géneros musicales y escénicos del patrimonio cultural, de manera individual y en grupo.",
       "broader": "sb:SMUS02SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1647,6 +1791,7 @@
       "definition": "Interpretación vocal, instrumental y dancística de obras o fragmentos sencillos de la música culta, tradicional y popular de Canarias.",
       "broader": "sb:SMUS02SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1658,6 +1803,7 @@
       "definition": "Exploración de las propiedades sonoras del cuerpo y de objetos cotidianos para su empleo en actividades de interpretación. Interés hacia el aprovechamiento de recursos, la reutilización y el reciclaje.",
       "broader": "sb:SMUS02SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1669,6 +1815,7 @@
       "definition": "Aplicación guiada de técnicas de estudio elementales y desarrollo del autoconocimiento, la autoconfianza y la gestión de emociones en el ensayo e interpretación de repertorio vocal, instrumental y dancístico de diferentes épocas y culturas, dentro y fuera del aula.",
       "broader": "sb:SMUS02SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1680,6 +1827,7 @@
       "definition": "Implicación en actividades musicales, con una actitud de respeto, interés y colaboración. Cumplimiento de las normas básicas para hacer música en grupo y valoración del proceso de ensayo como fuente de aprendizaje.",
       "broader": "sb:SMUS02SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1691,6 +1839,7 @@
       "definition": "Improvisación.",
       "broader": "sb:SMUS02SBII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1702,6 +1851,7 @@
       "definition": "Exploración de técnicas y recursos de improvisación guiada: rítmica, empleando la voz, los instrumentos musicales, el cuerpo y el movimiento. Utilización de las técnicas adquiridas para expresar ideas, sentimientos y emociones.",
       "broader": "sb:SMUS02SBII.2",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1713,6 +1863,7 @@
       "definition": "Exploración de las posibilidades que ofrecen las herramientas tecnológicas en la creación musical.",
       "broader": "sb:SMUS02SBII.2",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1724,6 +1875,7 @@
       "definition": "Participación activa en ejercicios de improvisación grupal en el aula, con una actitud de colaboración, respeto y cumplimiento de las normas básicas para la práctica musical.",
       "broader": "sb:SMUS02SBII.2",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1735,6 +1887,7 @@
       "definition": "Creación.",
       "broader": "sb:SMUS02SBII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1746,6 +1899,7 @@
       "definition": "Creación de propuestas musicales y escénicas sencillas: empleo de la voz, el cuerpo y los instrumentos musicales.",
       "broader": "sb:SMUS02SBII.3",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1757,6 +1911,7 @@
       "definition": "Creación de propuestas musicales y audiovisuales a través del empleo de herramientas digitales de grabación y reproducción de sonido.",
       "broader": "sb:SMUS02SBII.3",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1768,6 +1923,7 @@
       "definition": "Participación activa en propuestas de creación artístico-musical, con una actitud de respeto y empatía con las ideas, las emociones y los sentimientos del grupo.",
       "broader": "sb:SMUS02SBII.3",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1779,6 +1935,7 @@
       "definition": "Identificación y descripción de los elementos característicos de ejemplos representativos de la música culta occidental: géneros musicales, voces e instrumentos, con especial atención a los de España y Canarias.",
       "broader": "sb:SMUS02SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1790,6 +1947,7 @@
       "definition": "Identificación y descripción de las características de ejemplos representativos de la música popular: géneros musicales, voces e instrumentos, con especial atención a las músicas y danzas urbanas y contemporáneas.",
       "broader": "sb:SMUS02SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1801,6 +1959,7 @@
       "definition": "Identificación y descripción de las características de ejemplos representativos de la música y danza tradicional de diferentes culturas, con especial atención a los instrumentos, voces, canciones, danzas y bailes de España y Canarias.",
       "broader": "sb:SMUS02SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1812,6 +1971,7 @@
       "definition": "Reflexión sobre el valor del patrimonio musical y artístico de Canarias como fuente de enriquecimiento y crecimiento personal.",
       "broader": "sb:SMUS02SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1823,6 +1983,7 @@
       "definition": "Empleo de fuentes diversas, incluyendo el uso responsable de tecnologías digitales, para el desarrollo de trabajos de investigación, con respeto a la propiedad intelectual y cultural.",
       "broader": "sb:SMUS02SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1834,6 +1995,7 @@
       "definition": "Audición y visionado de obras de diferentes compositores y compositoras, artistas e intérpretes internacionales, nacionales y canarios. Visibilización y valoración de la contribución de las mujeres a la producción cultural y artística.",
       "broader": "sb:SMUS02SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1845,6 +2007,7 @@
       "definition": "Análisis de obras musicales y dancísticas diversas.",
       "broader": "sb:SMUS03SBI",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1856,6 +2019,7 @@
       "definition": "Desarrollo de hábitos saludables de escucha. Actitud reflexiva hacia la generación de espacios respetuosos con la escucha y el bienestar personal y social.",
       "broader": "sb:SMUS03SBI.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1867,6 +2031,7 @@
       "definition": "Audición y visionado activo de obras en el aula o en la asistencia a conciertos, actuaciones y manifestaciones artístico-musicales en vivo, con una actitud de respeto en la recepción musical.",
       "broader": "sb:SMUS03SBI.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1878,6 +2043,7 @@
       "definition": "Descripción de los rasgos estilísticos más relevantes de obras de diferentes géneros, épocas y culturas, trabajadas en el aula, con una actitud de interés, apertura y respeto hacia manifestaciones artísticas diversas.",
       "broader": "sb:SMUS03SBI.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1889,6 +2055,7 @@
       "definition": "Identificación y clasificación de voces, instrumentos y agrupaciones en la audición y visionado de obras de diferentes géneros, estilos, épocas y culturas, con especial atención a las de Canarias.",
       "broader": "sb:SMUS03SBI.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1900,6 +2067,7 @@
       "definition": "Identificación guiada de los elementos del lenguaje musical (ritmo, compás, melodía, armonía, textura, tempo, dinámica y formas musicales) en audición de obras o actividades de percepción auditiva desarrolladas en el aula.",
       "broader": "sb:SMUS03SBI.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1911,6 +2079,7 @@
       "definition": "Empleo de vocabulario técnico específico de la materia.",
       "broader": "sb:SMUS03SBI.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1922,6 +2091,7 @@
       "definition": "Análisis de productos culturales y artísticos con perspectiva de género.",
       "broader": "sb:SMUS03SBI",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1933,6 +2103,7 @@
       "definition": "Descripción de los mitos, estereotipos y roles de género transmitidos a través de la música y la danza, para el desarrollo del compromiso con la igualdad de género.",
       "broader": "sb:SMUS03SBI.2",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1944,6 +2115,7 @@
       "definition": "Actitud crítica y reflexiva ante mensajes contrarios a la igualdad de género en la audición y visionado de productos culturales y artísticos: canciones, videoclips, cine, publicidad, teatro musical, televisión, videojuegos y redes sociales.",
       "broader": "sb:SMUS03SBI.2",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1955,6 +2127,7 @@
       "definition": "Herramientas digitales para la recepción musical.",
       "broader": "sb:SMUS03SBI",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1966,6 +2139,7 @@
       "definition": "Uso saludable y sostenible de las tecnologías. Identificación de riesgos y adopción de medidas preventivas para la protección de la salud y el medio ambiente.",
       "broader": "sb:SMUS03SBI.3",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1977,6 +2151,7 @@
       "definition": "Uso responsable de herramientas digitales para la recepción musical, con respeto a la propiedad intelectual. Desarrollo de valores y hábitos de consumo responsable en las plataformas digitales y las redes sociales musicales.",
       "broader": "sb:SMUS03SBI.3",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1988,6 +2163,7 @@
       "definition": "Interpretación.",
       "broader": "sb:SMUS03SBII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1999,6 +2175,7 @@
       "definition": "Desarrollo de hábitos saludables en la práctica musical: corrección ergonómica y postural, uso adecuado de la voz y de los instrumentos musicales.",
       "broader": "sb:SMUS03SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2010,6 +2187,7 @@
       "definition": "Identificación guiada de los elementos del lenguaje musical (ritmo, compás, melodía, armonía, textura, tempo, dinámica y formas musicales) y aplicación de diferentes grafías en actividades de lectura, escritura e interpretación de partituras.",
       "broader": "sb:SMUS03SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2021,6 +2199,7 @@
       "definition": "Aplicación de técnicas elementales en la interpretación de repertorio vocal, instrumental y dancístico de obras de los principales géneros musicales y escénicos del patrimonio cultural, de manera individual y en grupo.",
       "broader": "sb:SMUS03SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2032,6 +2211,7 @@
       "definition": "Interpretación vocal, instrumental y dancística de obras de la música culta, tradicional y popular de Canarias.",
       "broader": "sb:SMUS03SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2043,6 +2223,7 @@
       "definition": "Exploración de las propiedades sonoras del cuerpo y de objetos cotidianos para su empleo en actividades de interpretación. Actitud reflexiva hacia el aprovechamiento de recursos, la reutilización y el reciclaje.",
       "broader": "sb:SMUS03SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2054,6 +2235,7 @@
       "definition": "Aplicación de técnicas de estudio elementales y desarrollo del autoconocimiento, la autoconfianza y la gestión de emociones en el ensayo e interpretación de repertorio vocal, instrumental y dancístico de diferentes épocas y culturas, dentro y fuera del aula.",
       "broader": "sb:SMUS03SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2065,6 +2247,7 @@
       "definition": "Implicación en actividades musicales, con una actitud de respeto, interés y colaboración. Cumplimiento de las normas básicas para hacer música en grupo y valoración del proceso de ensayo como fuente de aprendizaje.",
       "broader": "sb:SMUS03SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2076,6 +2259,7 @@
       "definition": "Improvisación.",
       "broader": "sb:SMUS03SBII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2087,6 +2271,7 @@
       "definition": "Exploración de técnicas y recursos de improvisación guiada: rítmica y melódica, empleando la voz, los instrumentos musicales, el cuerpo y el movimiento. Utilización de las técnicas adquiridas para expresar ideas, sentimientos y emociones.",
       "broader": "sb:SMUS03SBII.2",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2098,6 +2283,7 @@
       "definition": "Exploración de las posibilidades que ofrecen las herramientas tecnológicas en la creación musical.",
       "broader": "sb:SMUS03SBII.2",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2109,6 +2295,7 @@
       "definition": "Participación activa en ejercicios de improvisación grupal en el aula, con una actitud de colaboración, respeto y cumplimiento de las normas básicas para la práctica musical.",
       "broader": "sb:SMUS03SBII.2",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2120,6 +2307,7 @@
       "definition": "Creación.",
       "broader": "sb:SMUS03SBII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2131,6 +2319,7 @@
       "definition": "Creación de propuestas musicales, escénicas y audiovisuales: empleo de la voz, el cuerpo y los instrumentos musicales.",
       "broader": "sb:SMUS03SBII.3",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2142,6 +2331,7 @@
       "definition": "Creación de propuestas musicales y audiovisuales a través del empleo de herramientas digitales de grabación, edición y reproducción de sonido y editores de partituras.",
       "broader": "sb:SMUS03SBII.3",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2153,6 +2343,7 @@
       "definition": "Participación activa en propuestas de creación artístico-musical, con una actitud de respeto y empatía con las ideas, las emociones y los sentimientos del grupo.",
       "broader": "sb:SMUS03SBII.3",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2164,6 +2355,7 @@
       "definition": "Descripción de los rasgos estilísticos de la música culta occidental. Evolución a lo largo de la historia: períodos, géneros musicales, voces, instrumentos y agrupaciones, con especial atención a los de España y Canarias.",
       "broader": "sb:SMUS03SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2175,6 +2367,7 @@
       "definition": "Descripción de las características de la música popular. Evolución a lo largo de la historia: géneros musicales, voces instrumentos y agrupaciones, con especial atención a las músicas y danzas urbanas y contemporáneas.",
       "broader": "sb:SMUS03SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2186,6 +2379,7 @@
       "definition": "Descripción de las características de la música y danza tradicional de diferentes culturas, con especial atención a los instrumentos, voces, agrupaciones, estilos, canciones, danzas y bailes de España y Canarias.",
       "broader": "sb:SMUS03SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2197,6 +2391,7 @@
       "definition": "Valoración del patrimonio musical y artístico de Canarias como fuente de enriquecimiento y crecimiento personal.",
       "broader": "sb:SMUS03SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2208,6 +2403,7 @@
       "definition": "Empleo de fuentes diversas, incluyendo el uso autónomo y responsable de tecnologías digitales, para el desarrollo de proyectos de investigación, con respeto a la propiedad intelectual y cultural.",
       "broader": "sb:SMUS03SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2219,6 +2415,7 @@
       "definition": "Audición y visionado de obras de diferentes compositores y compositoras, artistas e intérpretes internacionales, nacionales y canarios. Visibilización y valoración de la contribución de las mujeres a la producción cultural y artística.",
       "broader": "sb:SMUS03SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2230,6 +2427,7 @@
       "definition": "Análisis de obras musicales y dancísticas diversas.",
       "broader": "sb:SMUS04SBI",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2241,6 +2439,7 @@
       "definition": "Consolidación de hábitos saludables de escucha. Actitud proactiva hacia la generación de espacios respetuosos con la escucha y el bienestar personal y social.",
       "broader": "sb:SMUS04SBI.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2252,6 +2451,7 @@
       "definition": "Audición y visionado activo de obras en el aula o en la asistencia a conciertos, actuaciones y manifestaciones artístico-musicales en vivo, con una actitud de respeto y valoración crítica en la recepción musical.",
       "broader": "sb:SMUS04SBI.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2263,6 +2463,7 @@
       "definition": "Análisis descriptivo de los rasgos estilísticos más relevantes de obras de diferentes géneros, épocas y culturas, trabajadas en el aula, con una actitud de interés, apertura y respeto hacia manifestaciones artísticas diversas.",
       "broader": "sb:SMUS04SBI.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2274,6 +2475,7 @@
       "definition": "Identificación y clasificación de voces, instrumentos y agrupaciones en la audición y visionado de obras de diferentes géneros, estilos, épocas y culturas, con especial atención a las de Canarias. Evolución y relevancia en las distintas etapas.",
       "broader": "sb:SMUS04SBI.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2285,6 +2487,7 @@
       "definition": "Identificación de los elementos del lenguaje musical (ritmo, compás, melodía, armonía, textura, tempo, dinámica y formas musicales) en audición de obras o actividades de percepción auditiva desarrolladas en el aula.",
       "broader": "sb:SMUS04SBI.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2296,6 +2499,7 @@
       "definition": "Empleo de vocabulario técnico específico de la materia.",
       "broader": "sb:SMUS04SBI.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2307,6 +2511,7 @@
       "definition": "Análisis de productos culturales y artísticos con perspectiva de género.",
       "broader": "sb:SMUS04SBI",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2318,6 +2523,7 @@
       "definition": "Análisis de los mitos, estereotipos y roles de género transmitidos a través de la música y la danza, para la consolidación del compromiso con la igualdad de género.",
       "broader": "sb:SMUS04SBI.2",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2329,6 +2535,7 @@
       "definition": "Actitud proactiva, crítica y reflexiva ante mensajes contrarios a la igualdad de género en la audición y visionado de productos culturales y artísticos: canciones, videoclips, cine, publicidad, teatro musical, televisión, videojuegos y redes sociales.",
       "broader": "sb:SMUS04SBI.2",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2340,6 +2547,7 @@
       "definition": "Herramientas digitales para la recepción musical.",
       "broader": "sb:SMUS04SBI",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2351,6 +2559,7 @@
       "definition": "Uso saludable y sostenible de las tecnologías. Identificación de riesgos y adopción de medidas preventivas para la protección de la salud y el medio ambiente.",
       "broader": "sb:SMUS04SBI.3",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2362,6 +2571,7 @@
       "definition": "Uso responsable de herramientas digitales para la recepción musical, con respeto a la propiedad intelectual. Consolidación de valores y hábitos de consumo responsable en las plataformas digitales y las redes sociales musicales.",
       "broader": "sb:SMUS04SBI.3",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2373,6 +2583,7 @@
       "definition": "Interpretación.",
       "broader": "sb:SMUS04SBII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2384,6 +2595,7 @@
       "definition": "Consolidación de hábitos saludables en la práctica musical: corrección ergonómica y postural, uso adecuado de la voz y de los instrumentos musicales.",
       "broader": "sb:SMUS04SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2395,6 +2607,7 @@
       "definition": "Identificación de los elementos del lenguaje musical (ritmo, compás, melodía, armonía, textura, tempo, dinámica y formas musicales) en actividades de lectura e interpretación de partituras.",
       "broader": "sb:SMUS04SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2406,6 +2619,7 @@
       "definition": "Aplicación de técnicas vocales, instrumentales y corporales, así como de estrategias de memorización, en la interpretación de repertorio vocal, instrumental y dancístico de diferentes épocas y culturas, de manera individual y en grupo.",
       "broader": "sb:SMUS04SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2417,6 +2631,7 @@
       "definition": "Interpretación vocal, instrumental y dancística de obras de la música culta, tradicional y popular de Canarias.",
       "broader": "sb:SMUS04SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2428,6 +2643,7 @@
       "definition": "Exploración de las propiedades sonoras del cuerpo y de objetos cotidianos para su empleo en actividades de interpretación. Actitud proactiva hacia el aprovechamiento de recursos, la reutilización y el reciclaje.",
       "broader": "sb:SMUS04SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2439,6 +2655,7 @@
       "definition": "Aplicación de técnicas de estudio y desarrollo del autoconocimiento, la autoconfianza y la gestión de emociones en el ensayo e interpretación de repertorio vocal, instrumental y dancístico de diferentes épocas y culturas, dentro y fuera del aula.",
       "broader": "sb:SMUS04SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2450,6 +2667,7 @@
       "definition": "Implicación en actividades musicales, con una actitud de respeto, interés y colaboración. Cumplimiento de las normas básicas para hacer música en grupo y valoración del proceso de ensayo como fuente de aprendizaje.",
       "broader": "sb:SMUS04SBII.1",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2461,6 +2679,7 @@
       "definition": "Improvisación.",
       "broader": "sb:SMUS04SBII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2472,6 +2691,7 @@
       "definition": "Exploración de técnicas y recursos de improvisación guiada y libre: rítmica y melódica, empleando la voz, los instrumentos musicales, el cuerpo y el movimiento.",
       "broader": "sb:SMUS04SBII.2",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2483,6 +2703,7 @@
       "definition": "Exploración de las posibilidades que ofrecen las herramientas tecnológicas en la creación musical.",
       "broader": "sb:SMUS04SBII.2",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2494,6 +2715,7 @@
       "definition": "Participación activa en ejercicios de improvisación grupal en el aula, con una actitud de colaboración, respeto y cumplimiento de las normas básicas para la práctica musical.",
       "broader": "sb:SMUS04SBII.2",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2505,6 +2727,7 @@
       "definition": "Creación.",
       "broader": "sb:SMUS04SBII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2516,6 +2739,7 @@
       "definition": "Planificación, desarrollo y ejecución de proyectos musicales, escénicos y audiovisuales: empleo de la voz, el cuerpo y los instrumentos musicales.",
       "broader": "sb:SMUS04SBII.3",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2527,6 +2751,7 @@
       "definition": "Creación de propuestas musicales y audiovisuales a través del empleo de herramientas digitales: secuenciadores, editores de partituras y aplicaciones informáticas.",
       "broader": "sb:SMUS04SBII.3",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2538,6 +2763,7 @@
       "definition": "Participación activa en proyectos de creación artístico-musical, con una actitud de respeto y empatía con las ideas, las emociones y los sentimientos del grupo.",
       "broader": "sb:SMUS04SBII.3",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2549,6 +2775,7 @@
       "definition": "Valoración crítica de la música culta occidental en relación a su contexto. Evolución a lo largo de la historia: períodos, características, géneros musicales, voces, instrumentos y agrupaciones, con especial atención a los de España y Canarias.",
       "broader": "sb:SMUS04SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2560,6 +2787,7 @@
       "definition": "Valoración crítica de la música popular en relación a su contexto. Evolución a lo largo de la historia: características, géneros musicales, instrumentos y agrupaciones, con especial atención a las músicas y danzas urbanas y contemporáneas.",
       "broader": "sb:SMUS04SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2571,6 +2799,7 @@
       "definition": "Valoración crítica de las tradiciones musicales y dancísticas de diferentes culturas, con especial atención a las de Canarias, identificando sus funciones y características: instrumentos, canciones, danzas y bailes.",
       "broader": "sb:SMUS04SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2582,6 +2811,7 @@
       "definition": "Análisis de la función del sonido y la música en los medios audiovisuales y las tecnologías digitales. La música al servicio de otras artes y lenguajes.",
       "broader": "sb:SMUS04SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2593,6 +2823,7 @@
       "definition": "Actitud proactiva hacia la valoración y conservación del patrimonio musical y artístico de Canarias como fuente de enriquecimiento y crecimiento personal.",
       "broader": "sb:SMUS04SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2604,6 +2835,7 @@
       "definition": "Empleo de fuentes diversas, incluyendo el uso autónomo y responsable de tecnologías digitales, para el desarrollo de proyectos de investigación, con respeto a la propiedad intelectual y cultural.",
       "broader": "sb:SMUS04SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2615,6 +2847,7 @@
       "definition": "Audición y visionado de obras de diferentes compositores y compositoras, artistas e intérpretes internacionales, nacionales y canarios. Visibilización y valoración de la contribución de las mujeres a la producción cultural y artística.",
       "broader": "sb:SMUS04SBIII",
       "materia": "materia:SMUS",
+      "materia_curso": "asig:SMUS04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     }

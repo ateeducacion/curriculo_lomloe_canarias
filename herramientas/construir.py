@@ -24,8 +24,9 @@ from .comun import (CONFIG, DATOS, DIST, ETAPAS, INFORMES, RAIZ, RE_SECRETO, TIP
                     descriptores_por_etapa, escribir_json, etiqueta, leer_json, leer_yaml, sha256)
 
 ORDEN = {t: i for i, t in enumerate(TIPOS)}
-CAMPOS = ['id', 'tipo', 'notation', 'prefLabel', 'definition', 'scopeNote', 'broader', 'agrupa', 'bloque',
-          'descriptores', 'cursos', 'materia', 'curso', 'etapa']
+CAMPOS = ['id', 'tipo', 'notation', 'prefLabel', 'definition', 'enunciados_curso', 'scopeNote', 'broader', 'agrupa',
+          'bloque', 'descriptores', 'cursos', 'materia', 'materia_curso', 'curso', 'etapa', 'obsoleto',
+          'sustituido_por']
 
 
 def _natural(s):
@@ -34,6 +35,33 @@ def _natural(s):
 
 def _clave(n):
     return (ORDEN[n['tipo']], _natural(n['id']))
+
+
+def _materias_curso(nodos):
+    """Crea un nodo MateriaCurso por materia y curso (asig:SMAT01 = Matemáticas de 1.º ESO).
+
+    Los bloques competenciales y de saberes del curso pasan a colgar de él, y todos los nodos
+    del curso lo llevan como atajo (`materia_curso`). La materia sigue siendo de la etapa: de
+    ella cuelgan las competencias específicas.
+    """
+    def asignatura(mid, cid):
+        materia = nodos[mid]
+        aid = f"asig:{materia['notation']}{cid[-2:]}"
+        if aid not in nodos:
+            denominacion = re.sub(r'\s*\([^)]*\)$', '', materia['prefLabel'])
+            nodos[aid] = {'id': aid, 'tipo': 'MateriaCurso', 'notation': aid.split(':', 1)[1],
+                          'prefLabel': f"{denominacion} · {nodos[cid]['prefLabel']}", 'broader': mid,
+                          'materia': mid, 'curso': cid, 'etapa': materia['etapa']}
+        return aid
+
+    for m in [n for n in nodos.values() if n['tipo'] == 'Materia']:
+        for cid in m.get('cursos', []):
+            asignatura(m['id'], cid)
+    for n in list(nodos.values()):
+        if n['tipo'] != 'MateriaCurso' and n.get('materia') in nodos and n.get('curso') in nodos:
+            n['materia_curso'] = asignatura(n['materia'], n['curso'])
+            if n['tipo'] in ('BloqueCompetencial', 'BloqueSaberes') and n.get('broader') == n['materia']:
+                n['broader'] = n['materia_curso']
 
 
 def _finalizar(nodos):
@@ -69,6 +97,7 @@ def construir(version=None):
     imp = importar_proideac.importar(leer_json(base))
     nodos = imp.nodos
     av_corr, resumen_corr = correcciones.aplicar(nodos)
+    _materias_curso(nodos)
     lista = _finalizar(nodos)
     corpus = {
         'corpus': {
@@ -155,8 +184,12 @@ def _dist(corpus):
             w = csv.DictWriter(buf, fieldnames=CAMPOS, extrasaction='ignore', lineterminator='\n')
             w.writeheader()
             for n in ns:
-                w.writerow({k: '|'.join(v) if isinstance(v, list) else v for k, v in n.items()})
+                w.writerow({k: '|'.join(v) if isinstance(v, list) else
+                            json.dumps(v, ensure_ascii=False) if isinstance(v, dict) else v for k, v in n.items()})
             z.writestr(f'{tipo}.csv', buf.getvalue())
+    from . import exportar_rdf
+    exportar_rdf.escribir(corpus, DIST)
+    (DIST / 'curriculo.ttl.sha256').write_text(f"{sha256(DIST / 'curriculo.ttl')}  curriculo.ttl\n", encoding='utf-8')
 
 
 def main(argv=None):

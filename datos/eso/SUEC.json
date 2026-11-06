@@ -14,6 +14,36 @@
       "etapa": "etapa:ESO"
     },
     {
+      "id": "asig:SUEC01",
+      "tipo": "MateriaCurso",
+      "notation": "SUEC01",
+      "prefLabel": "Tecnología y Digitalización · 1º ESO",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "asig:SUEC02",
+      "tipo": "MateriaCurso",
+      "notation": "SUEC02",
+      "prefLabel": "Tecnología y Digitalización · 2º ESO",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "asig:SUEC03",
+      "tipo": "MateriaCurso",
+      "notation": "SUEC03",
+      "prefLabel": "Tecnología y Digitalización · 3º ESO",
+      "broader": "materia:SUEC",
+      "materia": "materia:SUEC",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
       "id": "ce:SUECC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "SUECC1",
@@ -89,7 +119,7 @@
       "notation": "SUEC01BC1",
       "prefLabel": "Tecnología y Digitalización · 1º ESO · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se valorará que el alumnado sea capaz, de manera individual y colaborativa y evitando sesgos de género, de definir problemas planteados e iniciar la búsqueda de soluciones a partir de la información dada, y desde una perspectiva interdisciplinar, utilizando el pensamiento científico y estrategias de investigación que le permitan analizar, comprender y examinar productos y sistemas tecnológicos conforme a las diferentes fases del método de proyectos, prestando especial atención a los riesgos que entraña el uso de las tecnologías digitales y adoptando medidas preventivas para la protección de los dispositivos, los datos y la salud personal. En este nivel cobra importancia el hecho de que las fuentes proporcionadas como referencia hayan sido previamente seleccionadas y se haga explícito el procedimiento aplicado para identificar la fiabilidad, veracidad y relevancia de las mismas.",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC01",
       "agrupa": [
         "ce:SUECC1"
       ],
@@ -104,6 +134,7 @@
         "STEM5"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -113,7 +144,7 @@
       "notation": "SUEC01BC2",
       "prefLabel": "Tecnología y Digitalización · 1º ESO · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se comprobará el desarrollo por parte del alumnado de las habilidades blandas que la sociedad demanda. Para ello, este debe ser capaz de trabajar de manera cooperativa y colaborativa, desde una perspectiva interdisciplinar y evitando situaciones que supongan cualquier tipo de discriminación, con la finalidad de planificar, seleccionar y organizar los materiales y herramientas necesarios para construir las soluciones previamente ideadas y diseñadas conforme a las técnicas de representación gráfica dadas y bajo criterios de sostenibilidad, utilizando aplicaciones de software para la representación de esquemas, circuitos, diseños y objetos necesarios, con un enfoque dirigido de aprendizaje-servicio como introducción en la metodología para aprender y aplicar lo aprendido en un entorno cercano. También se valorará si es capaz de comunicar la información relativa a los procesos desarrollados para intercambiar información y crear conocimiento con coherencia y corrección, siguiendo unas pautas establecidas.",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC01",
       "agrupa": [
         "ce:SUECC2"
       ],
@@ -130,6 +161,7 @@
         "CPSAA3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -139,7 +171,7 @@
       "notation": "SUEC01BC3",
       "prefLabel": "Tecnología y Digitalización · 1º ESO · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado conoce las propiedades de los materiales empleados y desarrolla habilidades técnicas para la fabricación de soluciones tecnológicas creativas, sostenibles y eficaces de manera colaborativa, y evitando sesgos de género, que den respuesta a las necesidades planteadas, siguiendo criterios de seguridad e higiene en el trabajo y aplicando conocimientos relativos a estructuras y operadores mecánicos y eléctricos básicos. También se valorará su capacidad para evaluar de manera guiada el proceso seguido y redefinirlo en caso necesario.",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC01",
       "agrupa": [
         "ce:SUECC3"
       ],
@@ -155,6 +187,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -164,7 +197,7 @@
       "notation": "SUEC01BC4",
       "prefLabel": "Tecnología y Digitalización · 1º ESO · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se pretende evaluar la capacidad del alumnado para representar y comunicar el proceso seguido, desde la fase de ideación hasta la obtención de la solución, utilizando las herramientas digitales adecuadas para diseñar, editar y crear contenido, así como la simbología y el vocabulario técnico apropiados para transmitir la información de manera eficaz. Asimismo, se busca valorar la capacidad para seguir los protocolos establecidos en el trabajo cooperativo y colaborativo y la aplicación de códigos de comunicación y comportamiento específicos del ámbito digital.",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC01",
       "agrupa": [
         "ce:SUECC4"
       ],
@@ -180,6 +213,7 @@
         "CCEC4"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -189,7 +223,7 @@
       "notation": "SUEC01BC5",
       "prefLabel": "Tecnología y Digitalización · 1º ESO · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se verificará que el alumnado es capaz de aplicar los principios del pensamiento computacional, aplicables en múltiples contextos, para desarrollar programas sencillos que den respuesta a problemas concretos y que permitan su aplicación en robótica educativa, así como para la comprensión del funcionamiento de los distintos dispositivos digitales que conforman el entorno, permitiendo un aprendizaje integral de la materia. También se valorará su capacidad para describir, interpretar y analizar crítica y eficazmente las soluciones y sus implicaciones sociales.",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC01",
       "agrupa": [
         "ce:SUECC5"
       ],
@@ -202,6 +236,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -211,7 +246,7 @@
       "notation": "SUEC01BC6",
       "prefLabel": "Tecnología y Digitalización · 1º ESO · bloque competencial C6",
       "scopeNote": "En este bloque competencial se comprobará que el alumnado conoce los dispositivos presentes en su entorno digital de aprendizaje y es capaz de identificar los elementos del hardware y del software para utilizarlos de manera segura, adoptando las medidas preventivas necesarias, con el fin de identificar y abordar la resolución de problemas técnicos sencillos. Además, debe ser capaz de utilizar, de manera guiada, herramientas de búsqueda de información, edición y creación de contenidos y de difundirlos en plataformas adecuadas, aplicando estrategias de organización de la información y adoptando las medidas adecuadas de protección de datos y de información apropiadas para garantizar el derecho a la propiedad intelectual y el bienestar emocional y digital.",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC01",
       "agrupa": [
         "ce:SUECC6"
       ],
@@ -227,6 +262,7 @@
         "CD1"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -236,7 +272,7 @@
       "notation": "SUEC01BC7",
       "prefLabel": "Tecnología y Digitalización · 1º ESO · bloque competencial C7",
       "scopeNote": "Mediante este bloque competencial se comprobará que el alumnado comprende las repercusiones de la actividad tecnológica en general y de las tecnologías emergentes en particular en las condiciones de vida actuales, y que es capaz de analizar y valorar el impacto de las mismas en la sociedad y en el entorno, teniendo en cuenta la particularidad de Canarias como zona ultraperiférica, haciendo referencia, entre otros aspectos, a la igualdad e inclusión social, accesibilidad, obsolescencia e impacto ambiental. Asimismo, deberá ser capaz de promover un uso responsable y ético de la misma conforme a la consecución de los Objetivos de Desarrollo Sostenible y a las metas canarias que responden a los retos identificados en la Agenda Canaria de Desarrollo Sostenible 2030.",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC01",
       "agrupa": [
         "ce:SUECC7"
       ],
@@ -250,6 +286,7 @@
         "CC4"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -259,7 +296,7 @@
       "notation": "SUEC02BC1",
       "prefLabel": "Tecnología y Digitalización · 2º ESO · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz, aplicando técnicas de trabajo individual y colaborativo y evitando sesgos de género, de definir problemas planteados e iniciar la búsqueda de soluciones, a partir de la información obtenida desde una perspectiva interdisciplinar, utilizando el pensamiento científico y estrategias variadas de investigación en las que se tenga en cuenta la fiabilidad de las fuentes, su veracidad y su relevancia. Además, hará uso de herramientas de simulación que le permitan analizar, comprender y examinar productos y sistemas tecnológicos conforme a las diferentes fases del método de proyectos, prestando especial atención a los riesgos que entraña el uso de las tecnologías digitales y adoptando medidas preventivas para la protección de los dispositivos, los datos y la salud personal.",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC02",
       "agrupa": [
         "ce:SUECC1"
       ],
@@ -275,6 +312,7 @@
         "STEM5"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -284,7 +322,7 @@
       "notation": "SUEC02BC2",
       "prefLabel": "Tecnología y Digitalización · 2º ESO · bloque competencial C2",
       "scopeNote": "Con este bloque competencial se comprobará que el alumnado es capaz de planificar, seleccionar y organizar los materiales y herramientas necesarios para construir las soluciones previamente ideadas y diseñadas conforme a las técnicas de representación gráfica dadas, utilizando aplicaciones CAD en dos y tres dimensiones para la representación de esquemas, circuitos, planos y objetos necesarios, con un enfoque de aprendizaje-servicio como metodología para aprender y aplicar lo aprendido en un entorno cercano. Asimismo, se verificará que desarrolla sus habilidades blandas a través del trabajo cooperativo y colaborativo desde una perspectiva interdisciplinar y evitando situaciones que supongan cualquier tipo de discriminación. También se valorará si es capaz de comunicar, con coherencia, corrección y siguiendo unas pautas establecidas, la información relativa a los procesos desarrollados para intercambiar información y crear conocimiento.",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC02",
       "agrupa": [
         "ce:SUECC2"
       ],
@@ -301,6 +339,7 @@
         "CPSAA3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -310,7 +349,7 @@
       "notation": "SUEC02BC3",
       "prefLabel": "Tecnología y Digitalización · 2º ESO · bloque competencial C3",
       "scopeNote": "En este bloque competencial se comprobará que el alumnado conoce las propiedades principales de los materiales empleados y es capaz de aplicar conocimientos relativos a conformación de materiales, estructuras, operadores mecánicos y eléctricos para construir colaborativamente, evitando sesgos de género, soluciones tecnológicas creativas, sostenibles y eficaces que den respuesta a las necesidades planteadas, empleando técnicas de fabricación apropiadas, siguiendo las normas de seguridad e higiene en el trabajo que correspondan en cada momento. Asimismo, se valorará su capacidad para evaluar el proceso seguido y redefinirlo en caso necesario.",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC02",
       "agrupa": [
         "ce:SUECC3"
       ],
@@ -326,6 +365,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -335,7 +375,7 @@
       "notation": "SUEC02BC4",
       "prefLabel": "Tecnología y Digitalización · 2º ESO · bloque competencial C4",
       "scopeNote": "Este bloque competencial tiene el propósito de evaluar la capacidad del alumnado para emplear las herramientas digitales necesarias para diseñar, editar y crear contenido, haciendo uso, además, del vocabulario técnico apropiado para transmitir la información relativa a todo el proceso, desde la fase de ideación hasta la obtención de la solución, de manera eficaz. Asimismo, se valorará la capacidad para seguir tanto los protocolos establecidos en el trabajo cooperativo y colaborativo como las pautas propias de la participación en los entornos virtuales, es decir, la etiqueta digital.",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC02",
       "agrupa": [
         "ce:SUECC4"
       ],
@@ -351,6 +391,7 @@
         "CCEC4"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -360,7 +401,7 @@
       "notation": "SUEC02BC5",
       "prefLabel": "Tecnología y Digitalización · 2º ESO · bloque competencial C5",
       "scopeNote": "Este bloque competencial tiene como propósito valorar la capacidad del alumnado para comprender el funcionamiento de los distintos dispositivos digitales que conforman el entorno, con la consiguiente transferencia de estrategias a otros contextos, así como de aplicar los principios del pensamiento computacional, que contribuye a la adquisición de estrategias sistemáticas para abordar y resolver problemas de diversa índole, para desarrollar algoritmos y aplicaciones informáticas que den respuesta a problemas concretos y que permitan la automatización de procesos, y su aplicación en sistemas de control y robótica. También se valorará su capacidad para describir, interpretar y analizar crítica y eficazmente las soluciones y sus implicaciones sociales, reformulando el procedimiento si fuera necesario.",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC02",
       "agrupa": [
         "ce:SUECC5"
       ],
@@ -373,6 +414,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -382,7 +424,7 @@
       "notation": "SUEC02BC6",
       "prefLabel": "Tecnología y Digitalización · 2º ESO · bloque competencial C6",
       "scopeNote": "A través de este bloque competencial se verificará que el alumnado es capaz de identificar los elementos del hardware y del software presentes en los dispositivos de su entorno digital de aprendizaje para utilizarlos de manera eficiente y segura, adoptando las medidas preventivas necesarias, con el fin de identificar y abordar la resolución de problemas técnicos sencillos. Además, debe ser capaz de utilizar herramientas de búsqueda de información, edición y creación de contenidos y de difundirlos en plataformas adecuadas, aplicando estrategias de organización de la información y adoptando las medidas pertinentes de protección de datos y de información para garantizar el derecho a la propiedad intelectual y el bienestar emocional y digital.",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC02",
       "agrupa": [
         "ce:SUECC6"
       ],
@@ -399,6 +441,7 @@
         "CD1"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -408,7 +451,7 @@
       "notation": "SUEC02BC7",
       "prefLabel": "Tecnología y Digitalización · 2º ESO · bloque competencial C7",
       "scopeNote": "Con este bloque competencial se comprobará que el alumnado comprende el funcionamiento de los principales sistemas de producción de electricidad y que es capaz de aplicar el pensamiento crítico para analizar y valorar las repercusiones de la actividad tecnológica en general y de las tecnologías emergentes en particular en la sociedad y en el entorno, teniendo en cuenta la particularidad de Canarias como zona ultraperiférica y haciendo referencia, entre otros aspectos, a la igualdad e inclusión social, a la accesibilidad, la obsolescencia y el impacto ambiental. Asimismo, deberá ser capaz de promover un uso responsable y ético de la misma conforme a la consecución de los Objetivos de Desarrollo Sostenible y a las metas canarias que responden a los retos de la Agenda Canaria de Desarrollo Sostenible 2030.",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC02",
       "agrupa": [
         "ce:SUECC7"
       ],
@@ -422,6 +465,7 @@
         "CC4"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -431,7 +475,7 @@
       "notation": "SUEC03BC1",
       "prefLabel": "Tecnología y Digitalización · 3º ESO · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se valorará que el alumnado sea capaz, aplicando técnicas de trabajo individual y colaborativo y evitando sesgos de género, de identificar los elementos relevantes de un problema e iniciar la búsqueda de soluciones, a partir de la información obtenida en múltiples fuentes, en las que se tenga en cuenta su fiabilidad, veracidad y relevancia, desde una perspectiva interdisciplinar y utilizando el pensamiento científico. Asimismo, debe ser capaz de emplear estrategias variadas de investigación y herramientas de simulación que le permitan analizar, comprender y examinar productos y sistemas tecnológicos conforme a las diferentes fases del método de proyectos, prestando especial atención a los riesgos que entraña el uso de las tecnologías digitales y adoptando medidas preventivas para la protección de los dispositivos, datos y la salud personal.",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC03",
       "agrupa": [
         "ce:SUECC1"
       ],
@@ -447,6 +491,7 @@
         "STEM5"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -456,7 +501,7 @@
       "notation": "SUEC03BC2",
       "prefLabel": "Tecnología y Digitalización · 3º ESO · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se comprobará la adquisición por parte del alumnado de estrategias que le permitan aplicar la creatividad y ser eficientes en la organización y planificación de tareas que requieran el empleo de materiales y herramientas en la investigación, en el diseño y en la ideación de soluciones de manera eficaz y desde una perspectiva interdisciplinar. Para ello se comprobará que el alumnado es capaz de trabajar de manera cooperativa y colaborativa, evitando situaciones que supongan cualquier tipo de discriminación, para construir las soluciones previamente ideadas y diseñadas conforme a las técnicas de representación gráfica dadas, utilizando aplicaciones CAD en dos y tres dimensiones para la representación de esquemas, circuitos, planos y objetos necesarios, con un enfoque de aprendizaje servicio como metodología para aprender y aplicar lo aprendido en un entorno cercano. También se valorará si es capaz de comunicar, con coherencia, corrección y siguiendo unas pautas establecidas, la información relativa a los procesos desarrollados para intercambiar información y crear conocimiento.",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC03",
       "agrupa": [
         "ce:SUECC2"
       ],
@@ -473,6 +518,7 @@
         "CPSAA3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -482,7 +528,7 @@
       "notation": "SUEC03BC3",
       "prefLabel": "Tecnología y Digitalización · 3º ESO · bloque competencial C3",
       "scopeNote": "En este bloque competencial se verificará que el alumnado es capaz de justificar el uso de los materiales en las soluciones propuestas basándose en sus propiedades, y de aplicar conocimientos relativos a conformación de materiales, estructuras, operadores mecánicos, eléctricos y electrónicos para encontrar soluciones a problemas concretos y, de manera colaborativa y evitando sesgos de género, emplear las técnicas de fabricación adecuadas y sus correspondientes normas de seguridad e higiene, para materializar dichas propuestas, construyendo soluciones tecnológicas creativas, sostenibles y eficaces. Asimismo, se valorará su capacidad para evaluar el proceso seguido y redefinirlo en caso necesario.",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC03",
       "agrupa": [
         "ce:SUECC3"
       ],
@@ -499,6 +545,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -508,7 +555,7 @@
       "notation": "SUEC03BC4",
       "prefLabel": "Tecnología y Digitalización · 3º ESO · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se debe verificar que el alumnado es capaz de hacer uso de los medios digitales para elaborar información que permita definir ideas y soluciones, intercambiarla de manera eficaz para facilitar los aprendizajes y difundirla, todo ello haciendo uso de los formatos y el vocabulario técnico pertinente. Además, debe ser capaz de, en estos procesos de interacción que involucran trabajo colaborativo y cooperativo, respetar los códigos de comunicación y de comportamiento específicos del ámbito digital, en clara referencia a las reglas de la netiqueta.",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC03",
       "agrupa": [
         "ce:SUECC4"
       ],
@@ -524,6 +571,7 @@
         "CCEC4"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -533,7 +581,7 @@
       "notation": "SUEC03BC5",
       "prefLabel": "Tecnología y Digitalización · 3º ESO · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de aplicar los principios del pensamiento computacional para comprender el funcionamiento de los distintos dispositivos digitales que conforman el entorno y desarrollar algoritmos y aplicaciones informáticas que den respuesta a problemas concretos y que permitan la automatización de procesos, así como su aplicación en sistemas de control y robótica de diferente nivel de complejidad. También se valorará su capacidad para describir, interpretar y analizar crítica y eficazmente las soluciones y sus implicaciones sociales, reformulando el procedimiento si fuera necesario.",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC03",
       "agrupa": [
         "ce:SUECC5"
       ],
@@ -546,6 +594,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -555,7 +604,7 @@
       "notation": "SUEC03BC6",
       "prefLabel": "Tecnología y Digitalización · 3º ESO · bloque competencial C6",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de identificar los elementos del hardware y del software presentes en los dispositivos de su entorno digital de aprendizaje para utilizarlos de manera eficiente y segura, adoptando las medidas preventivas necesarias, con el fin de identificar y abordar la resolución de problemas técnicos sencillos. Además, debe ser capaz de utilizar herramientas variadas de búsqueda de información, edición y creación de contenidos y de difundirlos en distintas plataformas, aplicando estrategias adecuadas de organización de la información y adoptando las medidas pertinentes de protección de datos y de información adecuadas para garantizar el derecho a la propiedad intelectual y el bienestar emocional y digital.",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC03",
       "agrupa": [
         "ce:SUECC6"
       ],
@@ -572,6 +621,7 @@
         "CD1"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -581,7 +631,7 @@
       "notation": "SUEC03BC7",
       "prefLabel": "Tecnología y Digitalización · 3º ESO · bloque competencial C7",
       "scopeNote": "Con este bloque competencial se comprobará que el alumnado identifica y describe los sistemas de producción energética y aplica el pensamiento crítico para analizar y valorar las repercusiones que la actividad tecnológica en general y las tecnologías emergentes en particular, tienen en el bienestar emocional de las personas directamente o a través de las consecuencias de estas en el entorno, teniendo en cuenta la particularidad de Canarias como zona ultraperiférica, en una clara referencia, entre otros aspectos, a la igualdad e inclusión social, a la accesibilidad, a la obsolescencia y al impacto ambiental, para promover de esta manera una mejora de las soluciones conforme a la consecución de los Objetivos de Desarrollo Sostenible y a las metas canarias que responden a los retos identificados en la Agenda Canaria de Desarrollo Sostenible 2030.",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC03",
       "agrupa": [
         "ce:SUECC7"
       ],
@@ -595,6 +645,7 @@
         "CC4"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -616,6 +667,7 @@
         "CE1"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -632,6 +684,7 @@
         "CE1"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -653,6 +706,7 @@
         "CE1"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -674,6 +728,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -695,6 +750,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -718,6 +774,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -741,6 +798,7 @@
         "CCEC4"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -761,6 +819,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -781,6 +840,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -800,6 +860,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -818,6 +879,7 @@
         "CPSAA2"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -839,6 +901,7 @@
         "CE1"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -856,6 +919,7 @@
         "CD4"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -877,6 +941,7 @@
         "CC4"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -898,6 +963,7 @@
         "CC4"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -919,6 +985,7 @@
         "CE1"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -936,6 +1003,7 @@
         "CE1"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -957,6 +1025,7 @@
         "CE1"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -978,6 +1047,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -999,6 +1069,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1022,6 +1093,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1045,6 +1117,7 @@
         "CCEC4"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1065,6 +1138,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1085,6 +1159,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1104,6 +1179,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1122,6 +1198,7 @@
         "CPSAA2"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1144,6 +1221,7 @@
         "CE1"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1161,6 +1239,7 @@
         "CD4"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1182,6 +1261,7 @@
         "CC4"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1203,6 +1283,7 @@
         "CC4"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1224,6 +1305,7 @@
         "CE1"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1241,6 +1323,7 @@
         "CE1"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1262,6 +1345,7 @@
         "CE1"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1283,6 +1367,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1304,6 +1389,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1328,6 +1414,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1351,6 +1438,7 @@
         "CCEC4"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1371,6 +1459,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1391,6 +1480,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1410,6 +1500,7 @@
         "CE3"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1428,6 +1519,7 @@
         "CPSAA2"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1450,6 +1542,7 @@
         "CE1"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1467,6 +1560,7 @@
         "CD4"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1488,6 +1582,7 @@
         "CC4"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1509,6 +1604,7 @@
         "CC4"
       ],
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1518,8 +1614,9 @@
       "notation": "SUEC01SBI",
       "prefLabel": "SUEC01SBI · I. Proceso de resolución de problemas",
       "definition": "Proceso de resolución de problemas",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC01",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1529,8 +1626,9 @@
       "notation": "SUEC01SBII",
       "prefLabel": "SUEC01SBII · II. Comunicación y difusión de ideas",
       "definition": "Comunicación y difusión de ideas",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC01",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1540,8 +1638,9 @@
       "notation": "SUEC01SBIII",
       "prefLabel": "SUEC01SBIII · III. Pensamiento computacional, programación y robótica",
       "definition": "Pensamiento computacional, programación y robótica",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC01",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1551,8 +1650,9 @@
       "notation": "SUEC01SBIV",
       "prefLabel": "SUEC01SBIV · IV. Digitalización del entorno personal de aprendizaje",
       "definition": "Digitalización del entorno personal de aprendizaje",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC01",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1562,8 +1662,9 @@
       "notation": "SUEC01SBV",
       "prefLabel": "SUEC01SBV · V. Tecnología sostenible",
       "definition": "Tecnología sostenible",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC01",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1573,8 +1674,9 @@
       "notation": "SUEC02SBI",
       "prefLabel": "SUEC02SBI · I. Proceso de resolución de problemas",
       "definition": "Proceso de resolución de problemas",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC02",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1584,8 +1686,9 @@
       "notation": "SUEC02SBII",
       "prefLabel": "SUEC02SBII · II. Comunicación y difusión de ideas",
       "definition": "Comunicación y difusión de ideas",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC02",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1595,8 +1698,9 @@
       "notation": "SUEC02SBIII",
       "prefLabel": "SUEC02SBIII · III. Pensamiento computacional, programación y robótica",
       "definition": "Pensamiento computacional, programación y robótica",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC02",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1606,8 +1710,9 @@
       "notation": "SUEC02SBIV",
       "prefLabel": "SUEC02SBIV · IV. Digitalización del entorno personal de aprendizaje",
       "definition": "Digitalización del entorno personal de aprendizaje",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC02",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1617,8 +1722,9 @@
       "notation": "SUEC02SBV",
       "prefLabel": "SUEC02SBV · V. Tecnología sostenible",
       "definition": "Tecnología sostenible",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC02",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1628,8 +1734,9 @@
       "notation": "SUEC03SBI",
       "prefLabel": "SUEC03SBI · I. Proceso de resolución de problemas",
       "definition": "Proceso de resolución de problemas",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC03",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1639,8 +1746,9 @@
       "notation": "SUEC03SBII",
       "prefLabel": "SUEC03SBII · II. Comunicación y difusión de ideas",
       "definition": "Comunicación y difusión de ideas",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC03",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1650,8 +1758,9 @@
       "notation": "SUEC03SBIII",
       "prefLabel": "SUEC03SBIII · III. Pensamiento computacional, programación y robótica",
       "definition": "Pensamiento computacional, programación y robótica",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC03",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1661,8 +1770,9 @@
       "notation": "SUEC03SBIV",
       "prefLabel": "SUEC03SBIV · IV. Digitalización del entorno personal de aprendizaje",
       "definition": "Digitalización del entorno personal de aprendizaje",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC03",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1672,8 +1782,9 @@
       "notation": "SUEC03SBV",
       "prefLabel": "SUEC03SBV · V. Tecnología sostenible",
       "definition": "Tecnología sostenible",
-      "broader": "materia:SUEC",
+      "broader": "asig:SUEC03",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -1685,6 +1796,7 @@
       "definition": "Desarrollo de estrategias y técnicas básicas para la identificación y resolución de problemas en diferentes contextos cercanos al alumnado, haciendo explícitas las fases del método de proyectos.",
       "broader": "sb:SUEC01SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1696,6 +1808,7 @@
       "definition": "Uso guiado de estrategias eficientes para la búsqueda crítica de información durante la fase de investigación del proyecto y de definición de problemas planteados.",
       "broader": "sb:SUEC01SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1707,6 +1820,7 @@
       "definition": "Observación y análisis guiado de productos y de sistemas tecnológicos sencillos para la construcción de conocimiento desde enfoques y ámbitos específicos.",
       "broader": "sb:SUEC01SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1718,6 +1832,7 @@
       "definition": "Construcción de modelos y prototipos sencillos aplicando las técnicas básicas de diseño de los distintos tipos de estructuras. Estabilidad de estructuras e identificación de esfuerzos en estructuras simples y triangulación para aumentar la rigidez de las mismas.",
       "broader": "sb:SUEC01SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1729,6 +1844,7 @@
       "definition": "Montaje físico o simulado de sistemas y operadores mecánicos básicos.",
       "broader": "sb:SUEC01SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1740,6 +1856,7 @@
       "definition": "Interpretación, cálculo y diseño de esquemas y circuitos sencillos de electricidad. Montaje físico y aplicación en proyectos.",
       "broader": "sb:SUEC01SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1751,6 +1868,7 @@
       "definition": "Análisis y estudio de las propiedades básicas y aplicaciones de la madera. Uso de la madera y materiales derivados en los proyectos sugeridos. Consideraciones previas de ahorro e impacto ambiental.",
       "broader": "sb:SUEC01SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1762,6 +1880,7 @@
       "definition": "Utilización de herramientas y técnicas de manipulación y mecanizado de los materiales empleados en la construcción de objetos y prototipos.",
       "broader": "sb:SUEC01SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1773,6 +1892,7 @@
       "definition": "Aplicación de las normas de seguridad e higiene durante todas las fases de desarrollo de los proyectos.",
       "broader": "sb:SUEC01SBI.8",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1784,6 +1904,7 @@
       "definition": "Resolución de problemas desde una perspectiva interdisciplinar, propiciando el desarrollo de estrategias relacionadas con la perseverancia y la creatividad.",
       "broader": "sb:SUEC01SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1795,6 +1916,7 @@
       "definition": "Uso de habilidades básicas de comunicación interpersonal mediante la utilización de vocabulario técnico ajustado al nivel y la aplicación de las pautas de etiqueta digital propias del entorno virtual.",
       "broader": "sb:SUEC01SBII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1806,6 +1928,7 @@
       "definition": "Aplicación práctica de las normas básicas de acotación en la representación gráfica de las soluciones ideadas y representadas mediante bocetos y croquis.",
       "broader": "sb:SUEC01SBII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1817,6 +1940,7 @@
       "definition": "Utilización de aplicaciones sencillas de software para la representación de los esquemas, circuitos, planos y objetos requeridos en el diseño de soluciones tecnológicas asequibles.",
       "broader": "sb:SUEC01SBII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1828,6 +1952,7 @@
       "definition": "Uso de herramientas digitales básicas para la elaboración, publicación y difusión de documentación técnica y para la edición de información multimedia relativa a los proyectos.",
       "broader": "sb:SUEC01SBII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1839,6 +1964,7 @@
       "definition": "Elaboración de documentación técnica básica asociada al proceso de ideación, desarrollo y construcción de proyectos.",
       "broader": "sb:SUEC01SBII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1850,6 +1976,7 @@
       "definition": "Diseño, uso y aplicación de algoritmos y diagramas de flujo para la resolución de problemas tecnológicos sencillos.",
       "broader": "sb:SUEC01SBIII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1861,6 +1988,7 @@
       "definition": "Montaje y control programado de robots educativos. Introducción a la programación por bloques.",
       "broader": "sb:SUEC01SBIII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1872,6 +2000,7 @@
       "definition": "Iniciación en la aplicación de estrategias de abordaje del error y la reevaluación como parte del proceso de aprendizaje en la resolución de problemas y proyectos.",
       "broader": "sb:SUEC01SBIII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1883,6 +2012,7 @@
       "definition": "Identificación de los elementos de hardware y software de los dispositivos digitales. Resolución de problemas técnicos sencillos relacionados con su conexión y uso.",
       "broader": "sb:SUEC01SBIV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1894,6 +2024,7 @@
       "definition": "Utilización de sistemas de comunicación digital de uso común para la transmisión y recepción de datos e información, empleando sistemas de mensajería y correo electrónico adecuados a la edad.",
       "broader": "sb:SUEC01SBIV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1905,6 +2036,7 @@
       "definition": "Identificación de tecnologías inalámbricas para la comunicación.",
       "broader": "sb:SUEC01SBIV.2",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1916,6 +2048,7 @@
       "definition": "Uso crítico de las distintas herramientas y plataformas de aprendizaje utilizadas.",
       "broader": "sb:SUEC01SBIV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1927,6 +2060,7 @@
       "definition": "Uso responsable de las distintas herramientas de edición y creación de contenidos. Respeto por la propiedad intelectual y los derechos de autoría.",
       "broader": "sb:SUEC01SBIV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1938,6 +2072,7 @@
       "definition": "Uso de técnicas adecuadas de tratamiento, organización y almacenamiento seguro de la información. Creación de copias de seguridad para salvaguardar información relevante.",
       "broader": "sb:SUEC01SBIV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1949,6 +2084,7 @@
       "definition": "Aplicación de medidas adecuadas de seguridad en la red para prevenir amenazas y ataques, posibilitando la protección de datos y de información. Gestión básica de contraseñas y sistemas de autentificación.",
       "broader": "sb:SUEC01SBIV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1960,6 +2096,7 @@
       "definition": "Identificación de prácticas de riesgo vinculadas al ciberacoso, la sextorsión, la pérdida de la intimidad, el acceso a contenidos inadecuados, etc. Desarrollo de estrategias que permitan actuar en consecuencia y fomento de actitudes que favorezcan el bienestar emocional y digital.",
       "broader": "sb:SUEC01SBIV.6",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1971,6 +2108,7 @@
       "definition": "Reconocimiento de la importancia de la investigación, innovación y creatividad en el desarrollo tecnológico.",
       "broader": "sb:SUEC01SBV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1982,6 +2120,7 @@
       "definition": "Valoración del impacto social y ambiental generado por las tecnologías en el mundo en general y en Canarias en particular.",
       "broader": "sb:SUEC01SBV.1",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1993,6 +2132,7 @@
       "definition": "Aspectos éticos relacionados con el desarrollo y obsolescencia programada.",
       "broader": "sb:SUEC01SBV.1",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2004,6 +2144,7 @@
       "definition": "Desarrollo de estrategias y técnicas para la identificación y resolución de problemas en diferentes contextos cercanos al alumnado, haciendo explícitas las fases del método de proyectos.",
       "broader": "sb:SUEC02SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2015,6 +2156,7 @@
       "definition": "Uso de estrategias eficientes para la búsqueda crítica de información durante la fase de investigación del proyecto y de definición de problemas planteados.",
       "broader": "sb:SUEC02SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2026,6 +2168,7 @@
       "definition": "Observación y análisis de productos y de sistemas tecnológicos para la construcción de conocimiento desde distintos enfoques y ámbitos.",
       "broader": "sb:SUEC02SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2037,6 +2180,7 @@
       "definition": "Construcción de modelos y prototipos aplicando las técnicas básicas de diseño de estructuras.",
       "broader": "sb:SUEC02SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2048,6 +2192,7 @@
       "definition": "Montaje físico y simulado de sistemas y operadores mecánicos básicos. Identificación de los mismos en sistemas tradicionales utilizados en Canarias para la producción y extracción de recursos, como molinos de viento, molinos de agua, etc.",
       "broader": "sb:SUEC02SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2059,6 +2204,7 @@
       "definition": "Interpretación, cálculo y diseño de esquemas y circuitos básicos de electricidad. Montaje físico o simulado y aplicación en proyectos. Identificación y descripción básica de sistemas de producción de electricidad, con especial referencia a Canarias.",
       "broader": "sb:SUEC02SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2070,6 +2216,7 @@
       "definition": "Uso de metales y plásticos, previo análisis de sus propiedades y aplicaciones, además de madera y sus derivados en los proyectos propuestos. Consideraciones previas de impacto ambiental y ahorro de materiales.",
       "broader": "sb:SUEC02SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2081,6 +2228,7 @@
       "definition": "Utilización de herramientas y técnicas de manipulación y mecanizado de materiales en la construcción de objetos y prototipos. Introducción a la fabricación digital mediante el empleo de la impresión 3D.",
       "broader": "sb:SUEC02SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2092,6 +2240,7 @@
       "definition": "Aplicación de las normas de seguridad e higiene durante todas las fases de desarrollo de los proyectos.",
       "broader": "sb:SUEC02SBI.8",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2103,6 +2252,7 @@
       "definition": "Resolución de problemas desde una perspectiva interdisciplinar, propiciando el desarrollo de estrategias relacionadas con el emprendimiento, la resiliencia, la perseverancia y la creatividad.",
       "broader": "sb:SUEC02SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2114,6 +2264,7 @@
       "definition": "Uso de habilidades básicas de comunicación interpersonal mediante la utilización de vocabulario técnico apropiado y la aplicación de las pautas de etiqueta digital propias del entorno virtual.",
       "broader": "sb:SUEC02SBII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2125,6 +2276,7 @@
       "definition": "Aplicación práctica de las normas básicas de acotación y escalas en la representación gráfica mediante la proyección de las vistas de las soluciones ideadas. Representación de soluciones mediante perspectiva caballera.",
       "broader": "sb:SUEC02SBII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2136,6 +2288,7 @@
       "definition": "Utilización de aplicaciones sencillas de software CAD en dos y tres dimensiones para la representación de los esquemas, circuitos, planos y objetos requeridos en el diseño de soluciones tecnológicas.",
       "broader": "sb:SUEC02SBII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2147,6 +2300,7 @@
       "definition": "Uso de herramientas digitales para la elaboración, publicación y difusión de documentación técnica y para la edición de información multimedia relativa a los proyectos.",
       "broader": "sb:SUEC02SBII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2158,6 +2312,7 @@
       "definition": "Elaboración de documentación técnica asociada al proceso de ideación, desarrollo y construcción de proyectos.",
       "broader": "sb:SUEC02SBII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2169,6 +2324,7 @@
       "definition": "Diseño y aplicación de algoritmos y diagramas de flujo para la resolución de problemas tecnológicos cercanos al alumnado.",
       "broader": "sb:SUEC02SBIII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2180,6 +2336,7 @@
       "definition": "Uso de aplicaciones informáticas sencillas, para ordenador y dispositivos móviles, que permitan la implementación de soluciones programadas a los problemas planteados. Introducción a la inteligencia artificial.",
       "broader": "sb:SUEC02SBIII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2191,6 +2348,7 @@
       "definition": "Programación y simulación de dispositivos sencillos conectados a internet de uso cercano al alumnado.",
       "broader": "sb:SUEC02SBIII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2202,6 +2360,7 @@
       "definition": "Montaje y control programado de robots de manera física o por medio de simuladores.",
       "broader": "sb:SUEC02SBIII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2213,6 +2372,7 @@
       "definition": "Incorporación de estrategias de abordaje del error, la reevaluación y la depuración de errores como parte del proceso de aprendizaje en la resolución de problemas y proyectos.",
       "broader": "sb:SUEC02SBIII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2224,6 +2384,7 @@
       "definition": "Identificación de los elementos de hardware y software de los dispositivos digitales. Desarrollo de estrategias para identificar y resolver problemas técnicos sencillos.",
       "broader": "sb:SUEC02SBIV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2235,6 +2396,7 @@
       "definition": "Utilización de sistemas de comunicación digital de uso común para la transmisión y recepción de datos e información, empleando sistemas de mensajería y correo electrónico adecuados a la edad.",
       "broader": "sb:SUEC02SBIV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2246,6 +2408,7 @@
       "definition": "Identificación de tecnologías inalámbricas para la comunicación. Análisis y desarrollo de aplicaciones prácticas sencillas.",
       "broader": "sb:SUEC02SBIV.2",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2257,6 +2420,7 @@
       "definition": "Configuración, mantenimiento y uso crítico de las distintas herramientas y plataformas de aprendizaje utilizadas.",
       "broader": "sb:SUEC02SBIV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2268,6 +2432,7 @@
       "definition": "Instalación, configuración y uso responsable de las distintas herramientas de edición y creación de contenidos. Respeto por la propiedad intelectual y los derechos de autoría.",
       "broader": "sb:SUEC02SBIV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2279,6 +2444,7 @@
       "definition": "Uso de técnicas adecuadas de tratamiento, organización y almacenamiento seguro de la información. Creación de copias de seguridad para salvaguardar información relevante.",
       "broader": "sb:SUEC02SBIV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2290,6 +2456,7 @@
       "definition": "Aplicación de medidas adecuadas de seguridad en la red para prevenir amenazas y ataques, posibilitando la protección de datos y de información. Gestión de contraseñas y sistemas de autentificación.",
       "broader": "sb:SUEC02SBIV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2301,6 +2468,7 @@
       "definition": "Identificación de prácticas de riesgo vinculadas al ciberacoso, la sextorsión, la pérdida de la intimidad, el acceso a contenidos inadecuados, etc. Desarrollo de estrategias que permitan actuar en consecuencia y fomento de actitudes que favorezcan el bienestar emocional y digital.",
       "broader": "sb:SUEC02SBIV.6",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2312,6 +2480,7 @@
       "definition": "Reconocimiento de la importancia de la investigación, innovación y creatividad en el desarrollo tecnológico.",
       "broader": "sb:SUEC02SBV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2323,6 +2492,7 @@
       "definition": "Valoración del impacto social y ambiental generado por las tecnologías en el mundo en general y en Canarias en particular.",
       "broader": "sb:SUEC02SBV.1",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2334,6 +2504,7 @@
       "definition": "Análisis y aplicación de las tecnologías emergentes. Aspectos éticos relacionados con el desarrollo y obsolescencia programada.",
       "broader": "sb:SUEC02SBV.1",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2345,6 +2516,7 @@
       "definition": "Identificación de sistemas tradicionales no eléctricos de aprovechamiento de energía en Canarias para la producción de bienes como molinos, molinas, etc.",
       "broader": "sb:SUEC02SBV.1",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2356,6 +2528,7 @@
       "definition": "Valoración crítica de la contribución de la tecnología a la consecución de los Objetivos de Desarrollo Sostenible, en el mundo en general y en Canarias en particular.",
       "broader": "sb:SUEC02SBV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2367,6 +2540,7 @@
       "definition": "Desarrollo de estrategias y técnicas para la identificación y resolución de problemas en diferentes contextos, haciendo explícitas las fases del método de proyectos.",
       "broader": "sb:SUEC03SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2378,6 +2552,7 @@
       "definition": "Uso de estrategias eficientes para la búsqueda crítica de información durante la fase de investigación del proyecto y de definición de problemas planteados.",
       "broader": "sb:SUEC03SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2389,6 +2564,7 @@
       "definition": "Observación y análisis de productos de diferente complejidad para la construcción de conocimiento desde distintos enfoques y ámbitos.",
       "broader": "sb:SUEC03SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2400,6 +2576,7 @@
       "definition": "Construcción de modelos y prototipos aplicando las técnicas de diseño de estructuras, así como las técnicas apropiadas de conformación, mecanizado y unión en función del material o materiales utilizados y su finalidad.",
       "broader": "sb:SUEC03SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2411,6 +2588,7 @@
       "definition": "Montaje físico y simulado de sistemas y operadores mecánicos combinados. Cálculo de magnitudes asociadas a la transmisión y transformación de movimientos.",
       "broader": "sb:SUEC03SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2422,6 +2600,7 @@
       "definition": "Interpretación, cálculo y diseño de esquemas y circuitos de electricidad y electrónica. Montajes físicos o simulados y aplicación en proyectos. Identificación y descripción de sistemas de producción energética mundial y en Canarias con especial referencia a las condiciones de insularidad.",
       "broader": "sb:SUEC03SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2433,6 +2612,7 @@
       "definition": "Uso de materiales tecnológicos variados en los proyectos propuestos. Consideraciones previas de impacto ambiental y de ahorro de material.",
       "broader": "sb:SUEC03SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2444,6 +2624,7 @@
       "definition": "Utilización de herramientas y técnicas de manipulación y mecanizado de materiales en la construcción de objetos y prototipos. Aplicación de procesos de fabricación digital de piezas para los proyectos.",
       "broader": "sb:SUEC03SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2455,6 +2636,7 @@
       "definition": "Aplicación de las normas de seguridad e higiene durante todas las fases de desarrollo de los proyectos.",
       "broader": "sb:SUEC03SBI.8",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2466,6 +2648,7 @@
       "definition": "Resolución de problemas desde una perspectiva interdisciplinar, propiciando el desarrollo de estrategias relacionadas con el emprendimiento, la resiliencia, la perseverancia y la creatividad",
       "broader": "sb:SUEC03SBI",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2477,6 +2660,7 @@
       "definition": "Uso de habilidades de comunicación interpersonal mediante la utilización de vocabulario técnico apropiado y la aplicación de las pautas de etiqueta digital propias del entorno virtual.",
       "broader": "sb:SUEC03SBII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2488,6 +2672,7 @@
       "definition": "Aplicación práctica de las normas de acotación y escalas en la representación gráfica de las soluciones ideadas.",
       "broader": "sb:SUEC03SBII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2499,6 +2684,7 @@
       "definition": "Utilización de aplicaciones de software CAD en dos y tres dimensiones para la representación de los esquemas, circuitos, planos y objetos requeridos en el diseño de soluciones tecnológicas.",
       "broader": "sb:SUEC03SBII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2510,6 +2696,7 @@
       "definition": "Representación de objetos mediante la utilización de perspectivas isométricas y caballeras combinadas con el sistema diédrico.",
       "broader": "sb:SUEC03SBII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2521,6 +2708,7 @@
       "definition": "Uso de herramientas digitales para la elaboración, publicación y difusión de documentación técnica y para la edición de información multimedia relativa a los proyectos.",
       "broader": "sb:SUEC03SBII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2532,6 +2720,7 @@
       "definition": "Elaboración de documentación técnica combinando distintos tipos de esquemas y sistemas de representación asociados al proceso de ideación, desarrollo y construcción de proyectos.",
       "broader": "sb:SUEC03SBII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2543,6 +2732,7 @@
       "definition": "Diseño y aplicación de algoritmos y diagramas de flujo para la resolución de problemas tecnológicos.",
       "broader": "sb:SUEC03SBIII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2554,6 +2744,7 @@
       "definition": "Uso de aplicaciones informáticas sencillas, para ordenador y dispositivos móviles, que permitan la implementación de soluciones programadas a los problemas planteados. Desarrollo de soluciones sencillas mediante el uso de inteligencia artificial.",
       "broader": "sb:SUEC03SBIII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2565,6 +2756,7 @@
       "definition": "Programación, montaje y simulación de dispositivos sencillos conectados a Internet.",
       "broader": "sb:SUEC03SBIII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2576,6 +2768,7 @@
       "definition": "Montaje y control programado de robots y placas electrónicas simples de manera física o por medio de simuladores.",
       "broader": "sb:SUEC03SBIII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2587,6 +2780,7 @@
       "definition": "Incorporación de estrategias de abordaje del error, la reevaluación y la depuración de errores como parte del proceso de aprendizaje en la resolución de problemas y proyectos, mostrando autoconfianza e iniciativa.",
       "broader": "sb:SUEC03SBIII",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2598,6 +2792,7 @@
       "definition": "Identificación de los elementos de hardware y software de los dispositivos digitales. Desarrollo de estrategias para identificar y resolver problemas técnicos sencillos.",
       "broader": "sb:SUEC03SBIV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2609,6 +2804,7 @@
       "definition": "Utilización de sistemas de comunicación digital de uso común para la transmisión y recepción de datos e información, empleando sistemas de mensajería y correo electrónico adecuados a la edad.",
       "broader": "sb:SUEC03SBIV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2620,6 +2816,7 @@
       "definition": "Identificación de tecnologías inalámbricas para la comunicación. Análisis y desarrollo de aplicaciones prácticas.",
       "broader": "sb:SUEC03SBIV.2",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2631,6 +2828,7 @@
       "definition": "Configuración, mantenimiento y uso crítico de las distintas herramientas y plataformas de aprendizaje utilizadas.",
       "broader": "sb:SUEC03SBIV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2642,6 +2840,7 @@
       "definition": "Instalación, configuración y uso responsable de las distintas herramientas de edición y creación de contenidos. Identificación de derechos de autoría y respeto por la propiedad intelectual.",
       "broader": "sb:SUEC03SBIV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2653,6 +2852,7 @@
       "definition": "Uso de técnicas adecuadas de tratamiento, organización y almacenamiento seguro de la información. Creación de copias de seguridad para salvaguardar información relevante.",
       "broader": "sb:SUEC03SBIV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2664,6 +2864,7 @@
       "definition": "Aplicación de medidas adecuadas de seguridad en la red para prevenir amenazas y ataques, posibilitando la protección de datos y de información mediante cifrado y establecimiento de contraseñas.",
       "broader": "sb:SUEC03SBIV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2675,6 +2876,7 @@
       "definition": "Identificación de prácticas de riesgo vinculadas al ciberacoso, la sextorsión, la pérdida de la intimidad, el acceso a contenidos inadecuados, etc. Desarrollo de estrategias que permitan actuar en consecuencia y fomento de actitudes que favorezcan el bienestar emocional y digital.",
       "broader": "sb:SUEC03SBIV.6",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2686,6 +2888,7 @@
       "definition": "Reconocimiento de la importancia de la investigación, innovación y creatividad en el desarrollo tecnológico.",
       "broader": "sb:SUEC03SBV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2697,6 +2900,7 @@
       "definition": "Valoración del impacto social y ambiental generado por las tecnologías en el mundo en general y en Canarias en particular, destacando aspectos relacionados con su desarrollo agrícola e industrial.",
       "broader": "sb:SUEC03SBV.1",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2708,6 +2912,7 @@
       "definition": "Análisis y aplicación de las tecnologías emergentes. Aspectos éticos relacionados con el desarrollo y la obsolescencia programada.",
       "broader": "sb:SUEC03SBV.1",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2719,6 +2924,7 @@
       "definition": "Valoración crítica de la contribución de la Tecnología a la consecución de los Objetivos de Desarrollo Sostenible, en el mundo en general y en Canarias en particular.",
       "broader": "sb:SUEC03SBV",
       "materia": "materia:SUEC",
+      "materia_curso": "asig:SUEC03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     }

@@ -28,6 +28,9 @@ jobs:
       - name: Construir y validar (datos/ debe estar al día)
         run: python -m herramientas.construir --comprobar --dist
 
+      - name: Exportar a RDF y validar con SHACL
+        run: python -m herramientas.exportar_rdf --ttl dist/curriculo.ttl --validar
+
       - name: Contrastar con los documentos oficiales (ninguna diferencia sin explicar)
         if: always()
         run: python -m herramientas.contrastar --estricto

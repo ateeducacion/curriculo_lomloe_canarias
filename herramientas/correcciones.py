@@ -11,7 +11,8 @@ Formato de un fichero de corrección:
     cambios:
       - {nodo: ce:SMATC2, campo: definition, valor: '…'}
       - {nodo: sb:ZZZZ, campo: scopeNote, valor: null}   # quita el campo
-      - {nodo: sb:XXXX, accion: eliminar}
+      - {nodo: sb:XXXX, accion: retirar, sustituido_por: sb:WWWW}   # queda como obsoleto
+      - {nodo: sb:XXXX, accion: eliminar}   # solo antes de la 1.0: después, retirar
       - {nodo: sb:YYYY, accion: crear, datos: {tipo: SaberBasico, …}}
 
 Solo se aplican las correcciones con estado «aprobada». Si un cambio ya no altera
@@ -33,7 +34,8 @@ def _limpiar(x):
         return [_limpiar(v) for v in x]
     return x
 
-CAMPOS_EDITABLES = {'definition', 'scopeNote', 'prefLabel', 'descriptores', 'agrupa', 'broader', 'bloque'}
+CAMPOS_EDITABLES = {'definition', 'enunciados_curso', 'scopeNote', 'prefLabel', 'descriptores', 'agrupa', 'broader',
+                    'bloque'}
 
 
 def cargar():
@@ -61,6 +63,12 @@ def aplicar(nodos):
                 continue
             if accion == 'eliminar':
                 del nodos[nid]
+                continue
+            if accion == 'retirar':
+                # Un nodo publicado no desaparece: queda marcado como obsoleto, con su sustituto si lo hay.
+                nodos[nid]['obsoleto'] = True
+                if ch.get('sustituido_por'):
+                    nodos[nid]['sustituido_por'] = ch['sustituido_por']
                 continue
             campo = ch.get('campo')
             if campo not in CAMPOS_EDITABLES:

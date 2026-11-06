@@ -17,6 +17,66 @@
       "etapa": "etapa:INF"
     },
     {
+      "id": "asig:IDE301",
+      "tipo": "MateriaCurso",
+      "notation": "IDE301",
+      "prefLabel": "Descubrimiento y exploración del entorno · 1º Infantil de 0 años",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I01",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "asig:IDE302",
+      "tipo": "MateriaCurso",
+      "notation": "IDE302",
+      "prefLabel": "Descubrimiento y exploración del entorno · 2º Infantil de 1 año",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I02",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "asig:IDE303",
+      "tipo": "MateriaCurso",
+      "notation": "IDE303",
+      "prefLabel": "Descubrimiento y exploración del entorno · 3º Infantil de 2 años",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I03",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "asig:IDE304",
+      "tipo": "MateriaCurso",
+      "notation": "IDE304",
+      "prefLabel": "Descubrimiento y exploración del entorno · 4º Infantil de 3 años",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I04",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "asig:IDE305",
+      "tipo": "MateriaCurso",
+      "notation": "IDE305",
+      "prefLabel": "Descubrimiento y exploración del entorno · 5º Infantil de 4 años",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I05",
+      "etapa": "etapa:INF"
+    },
+    {
+      "id": "asig:IDE306",
+      "tipo": "MateriaCurso",
+      "notation": "IDE306",
+      "prefLabel": "Descubrimiento y exploración del entorno · 6º Infantil de 5 años",
+      "broader": "materia:IDE3",
+      "materia": "materia:IDE3",
+      "curso": "curso:I06",
+      "etapa": "etapa:INF"
+    },
+    {
       "id": "ce:IDE3C1",
       "tipo": "CompetenciaEspecifica",
       "notation": "IDE3C1",
@@ -52,7 +112,7 @@
       "notation": "IDE301BC1",
       "prefLabel": "Descubrimiento y exploración del entorno · 1º Infantil de 0 años · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de explorar el entorno y sus elementos manifestando curiosidad e interés. Se constatará que es capaz descubrir e identificar las cualidades y los atributos básicos de los objetos y materiales, a través de la manipulación de los mismos a través de los sentidos (apretar, dejar caer, volcar, encajar, apilar, soplar…), aproximándose a las relaciones de orden, correspondencia, clasificación, agrupación y comparación. Se comprobará, además que establece relaciones entre ellos. Asimismo, se verificará que los niños y las niñas se apropian del espacio, ubicándose en el mismo, tanto en situaciones de reposo como de movimiento, para adquirir las nociones espaciales básicas, a través del juego con el propio cuerpo y con los objetos; y que interioriza nociones temporales básicas a través de los ritmos de las rutinas diarias (cambio y permanencia, continuidad; sucesión y simultaneidad; pasado, presente y futuro…). Todo ello con la finalidad de avanzar en su conocimiento del mundo que le rodea y de ir adquiriendo una imagen progresivamente más compleja del mismo.",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE301",
       "agrupa": [
         "ce:IDE3C1"
       ],
@@ -63,6 +123,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -72,7 +133,7 @@
       "notation": "IDE301BC2",
       "prefLabel": "Descubrimiento y exploración del entorno · 1º Infantil de 0 años · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de iniciarse en el desarrollo del pensamiento científico a través de la gestión de retos y problemas, con la mediación de la persona adulta, dividiendo las actividades en secuencias sencillas, demostrando interés e iniciativa. Se valorará que sea capaz de perseverar ante dificultades o problemas, aplicando diversas estrategias y escuchando y respetando las de las demás personas. Asimismo, se valorará que realiza procesos de indagación en el entorno mostrando interés curiosidad, imaginación, creatividad y sorpresa; iniciándose en procesos de observación y manipulación de objetos, en situaciones de la vida cotidiana, en especial a través del juego. Se comprobará, además, que sea capaz de establecer relaciones y conexiones entre lo conocido y lo novedoso, en interacciones de calidad con las personas adultas, con iguales y con el entorno. Todo ello con la finalidad de que los niños y las niñas se aproximen a la elaboración de estrategias y técnicas básicas de investigación (observación, experimentación, ensayo-error, realización de preguntas sencillas, planteamiento de ideas o soluciones alternativas…).",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE301",
       "agrupa": [
         "ce:IDE3C2"
       ],
@@ -83,6 +144,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -92,7 +154,7 @@
       "notation": "IDE301BC3",
       "prefLabel": "Descubrimiento y exploración del entorno · 1º Infantil de 0 años · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de mostrar curiosidad e interés por el mundo natural y de elaborar estrategias para el cuidado del entorno, en especial, del entorno natural canario, iniciándose en el desarrollo de una conciencia de conservación medioambiental. Para ello, deberá demostrar que incorpora, en sus rutinas diarias, hábitos sencillos, guiados por la persona adulta, para el desarrollo sostenible, el cuidado y la conservación del entorno próximo. Se contribuye así a la adquisición de la competencia específica, ya que se comprobará que los niños y las niñas se inician en el descubrimiento y respeto hacia el entorno natural, en especial del patrimonio canario, a través de la experimentación y la observación de los elementos y fenómenos naturales, así como de su repercusión en la vida cotidiana. Además, se valorará el desarrollo de actitudes de cuidado y respeto hacia la naturaleza, los seres vivos y los derechos de los animales, siendo capaces de disfrutar de las actividades al aire libre y en la naturaleza.",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE301",
       "agrupa": [
         "ce:IDE3C3"
       ],
@@ -102,6 +164,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -111,7 +174,7 @@
       "notation": "IDE302BC1",
       "prefLabel": "Descubrimiento y exploración del entorno · 2º Infantil de 1 año · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de explorar el entorno y sus elementos manifestando curiosidad e interés. Se constatará que es capaz descubrir e identificar las cualidades y los atributos básicos de los objetos y materiales, a través de la manipulación de los mismos a través de los sentidos (apretar, dejar caer, volcar, encajar, apilar, soplar…), aproximándose a las relaciones de orden, correspondencia, clasificación, agrupación y comparación. Se comprobará, además que establece relaciones entre ellos. Asimismo, se verificará que los niños y las niñas se apropian del espacio, ubicándose en el mismo, tanto en situaciones de reposo como de movimiento, para adquirir las nociones espaciales básicas, a través del juego con el propio cuerpo y con los objetos; y que interioriza nociones temporales básicas a través de los ritmos de las rutinas diarias (cambio y permanencia, continuidad; sucesión y simultaneidad; pasado, presente y futuro…). Todo ello con la finalidad de avanzar en su conocimiento del mundo que le rodea y de ir adquiriendo una imagen progresivamente más compleja del mismo.",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE302",
       "agrupa": [
         "ce:IDE3C1"
       ],
@@ -122,6 +185,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -131,7 +195,7 @@
       "notation": "IDE302BC2",
       "prefLabel": "Descubrimiento y exploración del entorno · 2º Infantil de 1 año · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de iniciarse en el desarrollo del pensamiento científico a través de la gestión de retos y problemas, con la mediación de la persona adulta, dividiendo las actividades en secuencias sencillas, demostrando interés e iniciativa. Se valorará que sea capaz de perseverar ante dificultades o problemas, aplicando diversas estrategias y escuchando y respetando las de las demás personas. Asimismo, se valorará que realiza procesos de indagación en el entorno mostrando interés curiosidad, imaginación, creatividad y sorpresa; iniciándose en procesos de observación y manipulación de objetos, en situaciones de la vida cotidiana, en especial a través del juego. Se comprobará, además, que sea capaz de establecer relaciones y conexiones entre lo conocido y lo novedoso, en interacciones de calidad con las personas adultas, con iguales y con el entorno. Todo ello con la finalidad de que los niños y las niñas se aproximen a la elaboración de estrategias y técnicas básicas de investigación (observación, experimentación, ensayo-error, realización de preguntas sencillas, planteamiento de ideas o soluciones alternativas…).",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE302",
       "agrupa": [
         "ce:IDE3C2"
       ],
@@ -142,6 +206,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -151,7 +216,7 @@
       "notation": "IDE302BC3",
       "prefLabel": "Descubrimiento y exploración del entorno · 2º Infantil de 1 año · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de mostrar curiosidad e interés por el mundo natural y de elaborar estrategias para el cuidado del entorno, en especial, del entorno natural canario, iniciándose en el desarrollo de una conciencia de conservación medioambiental. Para ello, deberá demostrar que incorpora, en sus rutinas diarias, hábitos sencillos, guiados por la persona adulta, para el desarrollo sostenible, el cuidado y la conservación del entorno próximo. Se contribuye así a la adquisición de la competencia específica, ya que se comprobará que los niños y las niñas se inician en el descubrimiento y respeto hacia el entorno natural, en especial del patrimonio canario, a través de la experimentación y la observación de los elementos y fenómenos naturales, así como de su repercusión en la vida cotidiana. Además, se valorará el desarrollo de actitudes de cuidado y respeto hacia la naturaleza, los seres vivos y los derechos de los animales, siendo capaces de disfrutar de las actividades al aire libre y en la naturaleza.",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE302",
       "agrupa": [
         "ce:IDE3C3"
       ],
@@ -161,6 +226,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -170,7 +236,7 @@
       "notation": "IDE303BC1",
       "prefLabel": "Descubrimiento y exploración del entorno · 3º Infantil de 2 años · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de explorar el entorno y sus elementos manifestando curiosidad e interés. Se constatará que es capaz descubrir e identificar las cualidades y los atributos básicos de los objetos y materiales, a través de la manipulación de los mismos a través de los sentidos (apretar, dejar caer, volcar, encajar, apilar, soplar…), aproximándose a las relaciones de orden, correspondencia, clasificación, agrupación y comparación. Se comprobará, además que establece relaciones entre ellos. Asimismo, se verificará que los niños y las niñas se apropian del espacio, ubicándose en el mismo, tanto en situaciones de reposo como de movimiento, para adquirir las nociones espaciales básicas, a través del juego con el propio cuerpo y con los objetos; y que interioriza nociones temporales básicas a través de los ritmos de las rutinas diarias (cambio y permanencia, continuidad; sucesión y simultaneidad; pasado, presente y futuro…). Todo ello con la finalidad de avanzar en su conocimiento del mundo que le rodea y de ir adquiriendo una imagen progresivamente más compleja del mismo.",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE303",
       "agrupa": [
         "ce:IDE3C1"
       ],
@@ -181,6 +247,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -190,7 +257,7 @@
       "notation": "IDE303BC2",
       "prefLabel": "Descubrimiento y exploración del entorno · 3º Infantil de 2 años · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de iniciarse en el desarrollo del pensamiento científico a través de la gestión de retos y problemas, con la mediación de la persona adulta, dividiendo las actividades en secuencias sencillas, demostrando interés e iniciativa. Se valorará que sea capaz de perseverar ante dificultades o problemas, aplicando diversas estrategias y escuchando y respetando las de las demás personas. Asimismo, se valorará que realiza procesos de indagación en el entorno mostrando interés curiosidad, imaginación, creatividad y sorpresa; iniciándose en procesos de observación y manipulación de objetos, en situaciones de la vida cotidiana, en especial a través del juego. Se comprobará, además, que sea capaz de establecer relaciones y conexiones entre lo conocido y lo novedoso, en interacciones de calidad con las personas adultas, con iguales y con el entorno. Todo ello con la finalidad de que los niños y las niñas se aproximen a la elaboración de estrategias y técnicas básicas de investigación (observación, experimentación, ensayo-error, realización de preguntas sencillas, planteamiento de ideas o soluciones alternativas…).",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE303",
       "agrupa": [
         "ce:IDE3C2"
       ],
@@ -201,6 +268,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -210,7 +278,7 @@
       "notation": "IDE303BC3",
       "prefLabel": "Descubrimiento y exploración del entorno · 3º Infantil de 2 años · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de mostrar curiosidad e interés por el mundo natural y de elaborar estrategias para el cuidado del entorno, en especial, del entorno natural canario, iniciándose en el desarrollo de una conciencia de conservación medioambiental. Para ello, deberá demostrar que incorpora, en sus rutinas diarias, hábitos sencillos, guiados por la persona adulta, para el desarrollo sostenible, el cuidado y la conservación del entorno próximo. Se contribuye así a la adquisición de la competencia específica, ya que se comprobará que los niños y las niñas se inician en el descubrimiento y respeto hacia el entorno natural, en especial del patrimonio canario, a través de la experimentación y la observación de los elementos y fenómenos naturales, así como de su repercusión en la vida cotidiana. Además, se valorará el desarrollo de actitudes de cuidado y respeto hacia la naturaleza, los seres vivos y los derechos de los animales, siendo capaces de disfrutar de las actividades al aire libre y en la naturaleza.",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE303",
       "agrupa": [
         "ce:IDE3C3"
       ],
@@ -220,6 +288,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -229,7 +298,7 @@
       "notation": "IDE304BC1",
       "prefLabel": "Descubrimiento y exploración del entorno · 4º Infantil de 3 años · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de establecer relaciones entre los objetos a partir de sus cualidades o atributos, y de avanzar en la adquisición de habilidades y destrezas para ubicarse en el espacio, aplicando los conocimientos que tiene sobre las nociones espaciales básicas (entre, detrás de-delante de, debajo de-encima de, arriba-abajo, izquierda-derecha, dentro-fuera, cerca-lejos), jugando con el propio cuerpo y con los objetos. Por otro lado, se comprobará que el alumnado es capaz de emplear los cuantificadores básicos (todos, algunos, no todos, ninguno, uno y solo uno, al menos uno…) e identificar situaciones cotidianas en las que es preciso medir, utilizando el cuerpo y otros materiales y herramientas para ello. Se valorará además que sea capaz de organizar su actividad, de manera secuenciada, utilizando las nociones temporales básicas (cambio y permanencia, continuidad, sucesión y simultaneidad; pasado, presente y futuro, períodos de tiempo…), el uso de cuantificadores, así como el concepto de cantidad y de los números en la vida cotidiana, de forma funcional, así como las relaciones de orden, correspondencia, clasificación, agrupación y comparación, en contextos lúdicos y de interacción con las demás personas. Todo ello con la finalidad de establecer relaciones entre sus aprendizajes, lo que les permitirá desarrollar progresivamente sus habilidades lógicas y matemáticas primero, ligadas a sus intereses particulares y, progresivamente, a los intereses grupales y colectivos.",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE304",
       "agrupa": [
         "ce:IDE3C1"
       ],
@@ -239,6 +308,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -248,7 +318,7 @@
       "notation": "IDE304BC2",
       "prefLabel": "Descubrimiento y exploración del entorno · 4º Infantil de 3 años · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de gestionar situaciones, retos o problemas, mediante la planificación de secuencias de actividades en cooperación con sus iguales, así como proponer soluciones y alternativas haciendo uso de estrategias, escuchando y respetando las de las demás personas. Asimismo, se valorará que los niños y las niñas sean capaces de plantear hipótesis sobre el comportamiento de objetos y materiales, verificándolas a través de la manipulación y actuación sobre ellos, utilizando diferentes estrategias para la toma de decisiones y ofreciendo soluciones ajustadas, creativas y originales, a los retos que se le plantean. Además, se verificará la participación del alumnado en actividades de programación de secuencia de acciones para la resolución de tareas analógicas o digitales, desarrollando habilidades de pensamiento computacional. También se valorará la participación en proyectos cooperativos, compartiendo y valorando opiniones propias y ajenas, y expresando conclusiones personales a partir de ellas. Se contribuye así a la adquisición de la competencia específica, ya que se comprobará que el alumnado es capaz de indagar en el entorno con interés, respeto, curiosidad, asombro, cuestionamiento y deseos de aprender, iniciándose en las estrategias de construcción de nuevos conocimientos, relacionando lo conocido y lo novedoso, y las experiencias previas y nuevas, estableciendo interacciones de calidad con las personas adultas, con sus iguales y con el entorno. Además, se verificará que los niños y las niñas son capaces de elaborar estrategias y utilizar técnicas básicas de investigación, así como de mostrar iniciativa en la búsqueda de acuerdos para la toma de decisiones, de forma creativa y dialogada, durante la planificación y organización de tareas, identificando sus hallazgos y elaborando y compartiendo las conclusiones. Todo ello con la finalidad de avanzar en la gestión de situaciones, integrando la planificación de secuencias de acciones en cooperación con sus iguales y canalizando la frustración ante las dificultades.",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE304",
       "agrupa": [
         "ce:IDE3C2"
       ],
@@ -259,6 +329,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -268,7 +339,7 @@
       "notation": "IDE304BC3",
       "prefLabel": "Descubrimiento y exploración del entorno · 4º Infantil de 3 años · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de mostrar una actitud de curiosidad, respeto, cuidado y protección hacia el medio natural y los seres que habitan en él y, de manera significativa, hacia el entorno natural canario, identificando el impacto positivo o negativo de las acciones humanas sobre el mismo. Asimismo se valorará que los niños y las niñas sean capaces de identificar los rasgos comunes y diferentes entre seres vivos o inertes, estableciendo relaciones e identificando los elementos del medio natural y cultural, a partir de la observación, la participación y el conocimiento de los rasgos característicos de Canarias. Se contribuye así a la adquisición de la competencia específica, ya que se verificará que el alumnado es capaz de experimentar con los elementos naturales, apreciando y relacionando sus características y comportamiento. Además, se constatará que los niños y niñas son capaces de tomar conciencia sobre la influencia que ejercen las acciones de las personas en el medio físico, en especial en el patrimonio natural canario, así como sobre el cambio climático, iniciándose en el conocimiento de los recursos naturales, la sostenibilidad y las energías limpias. Se verificará, asimismo, que el alumnado progresa en la identificación de algunos fenómenos naturales y que muestra actitudes de respeto y protección hacia el medio natural, así como empatía, cuidado y protección hacia los seres vivos. Todo ello con la finalidad de establecer relaciones con el medio físico y natural, mostrando curiosidad e integrando en su vida cotidiana acciones de cuidado y respeto para aprender a vivir en armonía con el entorno, las personas y otros seres vivos presentes en el mundo que les rodea.",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE304",
       "agrupa": [
         "ce:IDE3C3"
       ],
@@ -278,6 +349,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -287,7 +359,7 @@
       "notation": "IDE305BC1",
       "prefLabel": "Descubrimiento y exploración del entorno · 5º Infantil de 4 años · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de establecer relaciones entre los objetos a partir de sus cualidades o atributos, y de avanzar en la adquisición de habilidades y destrezas para ubicarse en el espacio, aplicando los conocimientos que tiene sobre las nociones espaciales básicas (entre, detrás de-delante de, debajo de-encima de, arriba-abajo, izquierda-derecha, dentro-fuera, cerca-lejos), jugando con el propio cuerpo y con los objetos. Por otro lado, se comprobará que el alumnado es capaz de emplear los cuantificadores básicos (todos, algunos, no todos, ninguno, uno y solo uno, al menos uno…) e identificar situaciones cotidianas en las que es preciso medir, utilizando el cuerpo y otros materiales y herramientas para ello. Se valorará además que sea capaz de organizar su actividad, de manera secuenciada, utilizando las nociones temporales básicas (cambio y permanencia, continuidad, sucesión y simultaneidad; pasado, presente y futuro, períodos de tiempo…), el uso de cuantificadores, así como el concepto de cantidad y de los números en la vida cotidiana, de forma funcional, así como las relaciones de orden, correspondencia, clasificación, agrupación y comparación, en contextos lúdicos y de interacción con las demás personas. Todo ello con la finalidad de establecer relaciones entre sus aprendizajes, lo que les permitirá desarrollar progresivamente sus habilidades lógicas y matemáticas primero, ligadas a sus intereses particulares y, progresivamente, a los intereses grupales y colectivos.",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE305",
       "agrupa": [
         "ce:IDE3C1"
       ],
@@ -297,6 +369,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -306,7 +379,7 @@
       "notation": "IDE305BC2",
       "prefLabel": "Descubrimiento y exploración del entorno · 5º Infantil de 4 años · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de gestionar situaciones, retos o problemas, mediante la planificación de secuencias de actividades en cooperación con sus iguales, así como proponer soluciones y alternativas haciendo uso de estrategias, escuchando y respetando las de las demás personas. Asimismo, se valorará que los niños y las niñas sean capaces de plantear hipótesis sobre el comportamiento de objetos y materiales, verificándolas a través de la manipulación y actuación sobre ellos, utilizando diferentes estrategias para la toma de decisiones y ofreciendo soluciones ajustadas, creativas y originales, a los retos que se le plantean. Además, se verificará la participación del alumnado en actividades de programación de secuencia de acciones para la resolución de tareas analógicas o digitales, desarrollando habilidades de pensamiento computacional. También se valorará la participación en proyectos cooperativos, compartiendo y valorando opiniones propias y ajenas, y expresando conclusiones personales a partir de ellas. Se contribuye así a la adquisición de la competencia específica, ya que se comprobará que el alumnado es capaz de indagar en el entorno con interés, respeto, curiosidad, asombro, cuestionamiento y deseos de aprender, iniciándose en las estrategias de construcción de nuevos conocimientos, relacionando lo conocido y lo novedoso, y las experiencias previas y nuevas, estableciendo interacciones de calidad con las personas adultas, con sus iguales y con el entorno. Además, se verificará que los niños y las niñas son capaces de elaborar estrategias y utilizar técnicas básicas de investigación, así como de mostrar iniciativa en la búsqueda de acuerdos para la toma de decisiones, de forma creativa y dialogada, durante la planificación y organización de tareas, identificando sus hallazgos y elaborando y compartiendo las conclusiones. Todo ello con la finalidad de avanzar en la gestión de situaciones, integrando la planificación de secuencias de acciones en cooperación con sus iguales y canalizando la frustración ante las dificultades.",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE305",
       "agrupa": [
         "ce:IDE3C2"
       ],
@@ -317,6 +390,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -326,7 +400,7 @@
       "notation": "IDE305BC3",
       "prefLabel": "Descubrimiento y exploración del entorno · 5º Infantil de 4 años · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de mostrar una actitud de curiosidad, respeto, cuidado y protección hacia el medio natural y los seres que habitan en él y, de manera significativa, hacia el entorno natural canario, identificando el impacto positivo o negativo de las acciones humanas sobre el mismo. Asimismo se valorará que los niños y las niñas sean capaces de identificar los rasgos comunes y diferentes entre seres vivos o inertes, estableciendo relaciones e identificando los elementos del medio natural y cultural, a partir de la observación, la participación y el conocimiento de los rasgos característicos de Canarias. Se contribuye así a la adquisición de la competencia específica, ya que se verificará que el alumnado es capaz de experimentar con los elementos naturales, apreciando y relacionando sus características y comportamiento. Además, se constatará que los niños y niñas son capaces de tomar conciencia sobre la influencia que ejercen las acciones de las personas en el medio físico, en especial en el patrimonio natural canario, así como sobre el cambio climático, iniciándose en el conocimiento de los recursos naturales, la sostenibilidad y las energías limpias. Se verificará, asimismo, que el alumnado progresa en la identificación de algunos fenómenos naturales y que muestra actitudes de respeto y protección hacia el medio natural, así como empatía, cuidado y protección hacia los seres vivos. Todo ello con la finalidad de establecer relaciones con el medio físico y natural, mostrando curiosidad e integrando en su vida cotidiana acciones de cuidado y respeto para aprender a vivir en armonía con el entorno, las personas y otros seres vivos presentes en el mundo que les rodea.",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE305",
       "agrupa": [
         "ce:IDE3C3"
       ],
@@ -336,6 +410,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -345,7 +420,7 @@
       "notation": "IDE306BC1",
       "prefLabel": "Descubrimiento y exploración del entorno · 6º Infantil de 5 años · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de establecer relaciones entre los objetos a partir de sus cualidades o atributos, y de avanzar en la adquisición de habilidades y destrezas para ubicarse en el espacio, aplicando los conocimientos que tiene sobre las nociones espaciales básicas (entre, detrás de-delante de, debajo de-encima de, arriba-abajo, izquierda-derecha, dentro-fuera, cerca-lejos), jugando con el propio cuerpo y con los objetos. Por otro lado, se comprobará que el alumnado es capaz de emplear los cuantificadores básicos (todos, algunos, no todos, ninguno, uno y solo uno, al menos uno…) e identificar situaciones cotidianas en las que es preciso medir, utilizando el cuerpo y otros materiales y herramientas para ello. Se valorará además que sea capaz de organizar su actividad, de manera secuenciada, utilizando las nociones temporales básicas (cambio y permanencia, continuidad, sucesión y simultaneidad; pasado, presente y futuro, períodos de tiempo…), el uso de cuantificadores, así como el concepto de cantidad y de los números en la vida cotidiana, de forma funcional, así como las relaciones de orden, correspondencia, clasificación, agrupación y comparación, en contextos lúdicos y de interacción con las demás personas. Todo ello con la finalidad de establecer relaciones entre sus aprendizajes, lo que les permitirá desarrollar progresivamente sus habilidades lógicas y matemáticas primero, ligadas a sus intereses particulares y, progresivamente, a los intereses grupales y colectivos.",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE306",
       "agrupa": [
         "ce:IDE3C1"
       ],
@@ -355,6 +430,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -364,7 +440,7 @@
       "notation": "IDE306BC2",
       "prefLabel": "Descubrimiento y exploración del entorno · 6º Infantil de 5 años · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de gestionar situaciones, retos o problemas, mediante la planificación de secuencias de actividades en cooperación con sus iguales, así como proponer soluciones y alternativas haciendo uso de estrategias, escuchando y respetando las de las demás personas. Asimismo, se valorará que los niños y las niñas sean capaces de plantear hipótesis sobre el comportamiento de objetos y materiales, verificándolas a través de la manipulación y actuación sobre ellos, utilizando diferentes estrategias para la toma de decisiones y ofreciendo soluciones ajustadas, creativas y originales, a los retos que se le plantean. Además, se verificará la participación del alumnado en actividades de programación de secuencia de acciones para la resolución de tareas analógicas o digitales, desarrollando habilidades de pensamiento computacional. También se valorará la participación en proyectos cooperativos, compartiendo y valorando opiniones propias y ajenas, y expresando conclusiones personales a partir de ellas. Se contribuye así a la adquisición de la competencia específica, ya que se comprobará que el alumnado es capaz de indagar en el entorno con interés, respeto, curiosidad, asombro, cuestionamiento y deseos de aprender, iniciándose en las estrategias de construcción de nuevos conocimientos, relacionando lo conocido y lo novedoso, y las experiencias previas y nuevas, estableciendo interacciones de calidad con las personas adultas, con sus iguales y con el entorno. Además, se verificará que los niños y las niñas son capaces de elaborar estrategias y utilizar técnicas básicas de investigación, así como de mostrar iniciativa en la búsqueda de acuerdos para la toma de decisiones, de forma creativa y dialogada, durante la planificación y organización de tareas, identificando sus hallazgos y elaborando y compartiendo las conclusiones. Todo ello con la finalidad de avanzar en la gestión de situaciones, integrando la planificación de secuencias de acciones en cooperación con sus iguales y canalizando la frustración ante las dificultades.",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE306",
       "agrupa": [
         "ce:IDE3C2"
       ],
@@ -375,6 +451,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -384,7 +461,7 @@
       "notation": "IDE306BC3",
       "prefLabel": "Descubrimiento y exploración del entorno · 6º Infantil de 5 años · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se comprobará que el alumnado es capaz de mostrar una actitud de curiosidad, respeto, cuidado y protección hacia el medio natural y los seres que habitan en él y, de manera significativa, hacia el entorno natural canario, identificando el impacto positivo o negativo de las acciones humanas sobre el mismo. Asimismo se valorará que los niños y las niñas sean capaces de identificar los rasgos comunes y diferentes entre seres vivos o inertes, estableciendo relaciones e identificando los elementos del medio natural y cultural, a partir de la observación, la participación y el conocimiento de los rasgos característicos de Canarias. Se contribuye así a la adquisición de la competencia específica, ya que se verificará que el alumnado es capaz de experimentar con los elementos naturales, apreciando y relacionando sus características y comportamiento. Además, se constatará que los niños y niñas son capaces de tomar conciencia sobre la influencia que ejercen las acciones de las personas en el medio físico, en especial en el patrimonio natural canario, así como sobre el cambio climático, iniciándose en el conocimiento de los recursos naturales, la sostenibilidad y las energías limpias. Se verificará, asimismo, que el alumnado progresa en la identificación de algunos fenómenos naturales y que muestra actitudes de respeto y protección hacia el medio natural, así como empatía, cuidado y protección hacia los seres vivos. Todo ello con la finalidad de establecer relaciones con el medio físico y natural, mostrando curiosidad e integrando en su vida cotidiana acciones de cuidado y respeto para aprender a vivir en armonía con el entorno, las personas y otros seres vivos presentes en el mundo que les rodea.",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE306",
       "agrupa": [
         "ce:IDE3C3"
       ],
@@ -394,6 +471,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -412,6 +490,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -430,6 +509,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -448,6 +528,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -467,6 +548,7 @@
         "CPSAA"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -486,6 +568,7 @@
         "CPSAA"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -505,6 +588,7 @@
         "CPSAA"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -522,6 +606,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -539,6 +624,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -557,6 +643,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -575,6 +662,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -593,6 +681,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -612,6 +701,7 @@
         "CPSAA"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -631,6 +721,7 @@
         "CPSAA"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -650,6 +741,7 @@
         "CPSAA"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -667,6 +759,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -684,6 +777,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -702,6 +796,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -720,6 +815,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -738,6 +834,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -757,6 +854,7 @@
         "CPSAA"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -776,6 +874,7 @@
         "CPSAA"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -795,6 +894,7 @@
         "CPSAA"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -812,6 +912,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -829,6 +930,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -846,6 +948,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -863,6 +966,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -880,6 +984,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -897,6 +1002,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -914,6 +1020,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -932,6 +1039,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -950,6 +1058,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -968,6 +1077,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -985,6 +1095,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1002,6 +1113,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1019,6 +1131,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1036,6 +1149,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1053,6 +1167,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1070,6 +1185,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1087,6 +1203,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1104,6 +1221,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1121,6 +1239,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1138,6 +1257,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1156,6 +1276,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1174,6 +1295,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1192,6 +1314,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1209,6 +1332,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1226,6 +1350,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1243,6 +1368,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1260,6 +1386,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1277,6 +1404,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1294,6 +1422,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1311,6 +1440,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1328,6 +1458,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1345,6 +1476,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1362,6 +1494,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1380,6 +1513,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1398,6 +1532,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1416,6 +1551,7 @@
         "CE"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1433,6 +1569,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1450,6 +1587,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1467,6 +1605,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1484,6 +1623,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1501,6 +1641,7 @@
         "CC"
       ],
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1510,8 +1651,9 @@
       "notation": "IDE301SBI",
       "prefLabel": "IDE301SBI · I. Diálogo corporal con el entorno. Exploración creativa de objetos, materiales y espacios",
       "definition": "Diálogo corporal con el entorno. Exploración creativa de objetos, materiales y espacios",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE301",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -1521,8 +1663,9 @@
       "notation": "IDE301SBII",
       "prefLabel": "IDE301SBII · II. Experimentación en el entorno. Curiosidad, pensamiento científico, razonamiento lógico y creatividad",
       "definition": "Experimentación en el entorno. Curiosidad, pensamiento científico, razonamiento lógico y creatividad",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE301",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -1532,8 +1675,9 @@
       "notation": "IDE301SBIII",
       "prefLabel": "IDE301SBIII · III. Indagación en el medio físico y natural. Cuidado, valoración y respeto",
       "definition": "Indagación en el medio físico y natural. Cuidado, valoración y respeto",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE301",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -1543,8 +1687,9 @@
       "notation": "IDE302SBI",
       "prefLabel": "IDE302SBI · I. Diálogo corporal con el entorno. Exploración creativa de objetos, materiales y espacios",
       "definition": "Diálogo corporal con el entorno. Exploración creativa de objetos, materiales y espacios",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE302",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -1554,8 +1699,9 @@
       "notation": "IDE302SBII",
       "prefLabel": "IDE302SBII · II. Experimentación en el entorno. Curiosidad, pensamiento científico, razonamiento lógico y creatividad",
       "definition": "Experimentación en el entorno. Curiosidad, pensamiento científico, razonamiento lógico y creatividad",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE302",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -1565,8 +1711,9 @@
       "notation": "IDE302SBIII",
       "prefLabel": "IDE302SBIII · III. Indagación en el medio físico y natural. Cuidado, valoración y respeto",
       "definition": "Indagación en el medio físico y natural. Cuidado, valoración y respeto",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE302",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -1576,8 +1723,9 @@
       "notation": "IDE303SBI",
       "prefLabel": "IDE303SBI · I. Diálogo corporal con el entorno. Exploración creativa de objetos, materiales y espacios",
       "definition": "Diálogo corporal con el entorno. Exploración creativa de objetos, materiales y espacios",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE303",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -1587,8 +1735,9 @@
       "notation": "IDE303SBII",
       "prefLabel": "IDE303SBII · II. Experimentación en el entorno. Curiosidad, pensamiento científico, razonamiento lógico y creatividad",
       "definition": "Experimentación en el entorno. Curiosidad, pensamiento científico, razonamiento lógico y creatividad",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE303",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -1598,8 +1747,9 @@
       "notation": "IDE303SBIII",
       "prefLabel": "IDE303SBIII · III. Indagación en el medio físico y natural. Cuidado, valoración y respeto",
       "definition": "Indagación en el medio físico y natural. Cuidado, valoración y respeto",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE303",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -1609,8 +1759,9 @@
       "notation": "IDE304SBI",
       "prefLabel": "IDE304SBI · I. Diálogo corporal con el entorno. exploración creativa de objetos, materiales y espacios",
       "definition": "Diálogo corporal con el entorno. exploración creativa de objetos, materiales y espacios",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE304",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1620,8 +1771,9 @@
       "notation": "IDE304SBII",
       "prefLabel": "IDE304SBII · II. Experimentación en el entorno. curiosidad, pensamiento científico y creatividad",
       "definition": "Experimentación en el entorno. curiosidad, pensamiento científico y creatividad",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE304",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1631,8 +1783,9 @@
       "notation": "IDE304SBIII",
       "prefLabel": "IDE304SBIII · III. Indagación en el medio físico y natural. cuidado, valoración y respeto",
       "definition": "Indagación en el medio físico y natural. cuidado, valoración y respeto",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE304",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -1642,8 +1795,9 @@
       "notation": "IDE305SBI",
       "prefLabel": "IDE305SBI · I. Diálogo corporal con el entorno. exploración creativa de objetos, materiales y espacios",
       "definition": "Diálogo corporal con el entorno. exploración creativa de objetos, materiales y espacios",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE305",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1653,8 +1807,9 @@
       "notation": "IDE305SBII",
       "prefLabel": "IDE305SBII · II. Experimentación en el entorno. curiosidad, pensamiento científico y creatividad",
       "definition": "Experimentación en el entorno. curiosidad, pensamiento científico y creatividad",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE305",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1664,8 +1819,9 @@
       "notation": "IDE305SBIII",
       "prefLabel": "IDE305SBIII · III. Indagación en el medio físico y natural. cuidado, valoración y respeto",
       "definition": "Indagación en el medio físico y natural. cuidado, valoración y respeto",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE305",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -1675,8 +1831,9 @@
       "notation": "IDE306SBI",
       "prefLabel": "IDE306SBI · I. Diálogo corporal con el entorno. exploración creativa de objetos, materiales y espacios",
       "definition": "Diálogo corporal con el entorno. exploración creativa de objetos, materiales y espacios",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE306",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1686,8 +1843,9 @@
       "notation": "IDE306SBII",
       "prefLabel": "IDE306SBII · II. Experimentación en el entorno. curiosidad, pensamiento científico y creatividad",
       "definition": "Experimentación en el entorno. curiosidad, pensamiento científico y creatividad",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE306",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1697,8 +1855,9 @@
       "notation": "IDE306SBIII",
       "prefLabel": "IDE306SBIII · III. Indagación en el medio físico y natural. cuidado, valoración y respeto",
       "definition": "Indagación en el medio físico y natural. cuidado, valoración y respeto",
-      "broader": "materia:IDE3",
+      "broader": "asig:IDE306",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -1710,6 +1869,7 @@
       "definition": "Manifestación de curiosidad e interés por la exploración del entorno y sus elementos.",
       "broader": "sb:IDE301SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -1721,6 +1881,7 @@
       "definition": "Exploración de objetos y materiales a través de los sentidos: apretar, dejar caer, volcar, encajar, apilar, soplar… Efectos que producen las diferentes acciones sobre ellos.",
       "broader": "sb:IDE301SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -1732,6 +1893,7 @@
       "definition": "Identificación de las cualidades o los atributos de los objetos y materiales en cuanto a su textura, tamaño, color y forma.",
       "broader": "sb:IDE301SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -1743,6 +1905,7 @@
       "definition": "Aproximación a las relaciones de orden, correspondencia, clasificación, agrupación y comparación.",
       "broader": "sb:IDE301SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -1754,6 +1917,7 @@
       "definition": "Aproximación a las nociones espaciales básicas en relación con el propio cuerpo y los objetos.",
       "broader": "sb:IDE301SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -1765,6 +1929,7 @@
       "definition": "Interiorización de algunas nociones temporales básicas a través de los ritmos que marcan las rutinas: cambio y permanencia, continuidad; sucesión y simultaneidad; pasado, presente y futuro.",
       "broader": "sb:IDE301SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -1776,6 +1941,7 @@
       "definition": "Indagación en el entorno a través de procesos manipulativos, con interés, curiosidad, imaginación, creatividad y sorpresa.",
       "broader": "sb:IDE301SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -1787,6 +1953,7 @@
       "definition": "Construcción de nuevos conocimientos: relaciones y conexiones entre lo conocido y lo novedoso, en interacciones de calidad con las personas adultas, con iguales y con el entorno.",
       "broader": "sb:IDE301SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -1798,6 +1965,7 @@
       "definition": "Acercamiento a la elaboración de estrategias y técnicas básicas de investigación: observación, experimentación, ensayo-error, realización de preguntas sencillas, planteamiento de ideas o soluciones alternativas…",
       "broader": "sb:IDE301SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -1809,6 +1977,7 @@
       "definition": "Experimentación con los elementos naturales.",
       "broader": "sb:IDE301SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -1820,6 +1989,7 @@
       "definition": "Disfrute de las actividades al aire libre y en la naturaleza.",
       "broader": "sb:IDE301SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -1831,6 +2001,7 @@
       "definition": "Cuidado y respeto hacia la naturaleza, los seres vivos y los derechos de los animales.",
       "broader": "sb:IDE301SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -1842,6 +2013,7 @@
       "definition": "Descubrimiento y respeto hacia el patrimonio natural canario.",
       "broader": "sb:IDE301SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -1853,6 +2025,7 @@
       "definition": "Observación y descubrimiento de los fenómenos naturales habituales: repercusión en la vida cotidiana.",
       "broader": "sb:IDE301SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE301",
       "curso": "curso:I01",
       "etapa": "etapa:INF"
     },
@@ -1864,6 +2037,7 @@
       "definition": "Manifestación de curiosidad e interés por la exploración del entorno y sus elementos.",
       "broader": "sb:IDE302SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -1875,6 +2049,7 @@
       "definition": "Exploración de objetos y materiales a través de los sentidos: apretar, dejar caer, volcar, encajar, apilar, soplar… Efectos que producen las diferentes acciones sobre ellos.",
       "broader": "sb:IDE302SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -1886,6 +2061,7 @@
       "definition": "Identificación de las cualidades o los atributos de los objetos y materiales en cuanto a su textura, tamaño, color y forma.",
       "broader": "sb:IDE302SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -1897,6 +2073,7 @@
       "definition": "Aproximación a las relaciones de orden, correspondencia, clasificación, agrupación y comparación.",
       "broader": "sb:IDE302SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -1908,6 +2085,7 @@
       "definition": "Aproximación a las nociones espaciales básicas en relación con el propio cuerpo y los objetos.",
       "broader": "sb:IDE302SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -1919,6 +2097,7 @@
       "definition": "Interiorización de algunas nociones temporales básicas a través de los ritmos que marcan las rutinas: cambio y permanencia, continuidad; sucesión y simultaneidad; pasado, presente y futuro.",
       "broader": "sb:IDE302SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -1930,6 +2109,7 @@
       "definition": "Indagación en el entorno a través de procesos manipulativos, con interés, curiosidad, imaginación, creatividad y sorpresa.",
       "broader": "sb:IDE302SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -1941,6 +2121,7 @@
       "definition": "Construcción de nuevos conocimientos: relaciones y conexiones entre lo conocido y lo novedoso, en interacciones de calidad con las personas adultas, con iguales y con el entorno.",
       "broader": "sb:IDE302SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -1952,6 +2133,7 @@
       "definition": "Acercamiento a la elaboración de estrategias y técnicas básicas de investigación: observación, experimentación, ensayo-error, realización de preguntas sencillas, planteamiento de ideas o soluciones alternativas…",
       "broader": "sb:IDE302SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -1963,6 +2145,7 @@
       "definition": "Experimentación con los elementos naturales.",
       "broader": "sb:IDE302SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -1974,6 +2157,7 @@
       "definition": "Disfrute de las actividades al aire libre y en la naturaleza.",
       "broader": "sb:IDE302SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -1985,6 +2169,7 @@
       "definition": "Cuidado y respeto hacia la naturaleza, los seres vivos y los derechos de los animales.",
       "broader": "sb:IDE302SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -1996,6 +2181,7 @@
       "definition": "Descubrimiento y respeto hacia el patrimonio natural canario.",
       "broader": "sb:IDE302SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2007,6 +2193,7 @@
       "definition": "Observación y descubrimiento de los fenómenos naturales habituales: repercusión en la vida cotidiana.",
       "broader": "sb:IDE302SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE302",
       "curso": "curso:I02",
       "etapa": "etapa:INF"
     },
@@ -2018,6 +2205,7 @@
       "definition": "Manifestación de curiosidad e interés por la exploración del entorno y sus elementos.",
       "broader": "sb:IDE303SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -2029,6 +2217,7 @@
       "definition": "Exploración de objetos y materiales a través de los sentidos: apretar, dejar caer, volcar, encajar, apilar, soplar… Efectos que producen las diferentes acciones sobre ellos.",
       "broader": "sb:IDE303SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -2040,6 +2229,7 @@
       "definition": "Identificación de las cualidades o los atributos de los objetos y materiales en cuanto a su textura, tamaño, color y forma.",
       "broader": "sb:IDE303SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -2051,6 +2241,7 @@
       "definition": "Aproximación a las relaciones de orden, correspondencia, clasificación, agrupación y comparación.",
       "broader": "sb:IDE303SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -2062,6 +2253,7 @@
       "definition": "Aproximación a las nociones espaciales básicas en relación con el propio cuerpo y los objetos.",
       "broader": "sb:IDE303SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -2073,6 +2265,7 @@
       "definition": "Interiorización de algunas nociones temporales básicas a través de los ritmos que marcan las rutinas: cambio y permanencia, continuidad; sucesión y simultaneidad; pasado, presente y futuro.",
       "broader": "sb:IDE303SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -2084,6 +2277,7 @@
       "definition": "Indagación en el entorno a través de procesos manipulativos, con interés, curiosidad, imaginación, creatividad y sorpresa.",
       "broader": "sb:IDE303SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -2095,6 +2289,7 @@
       "definition": "Construcción de nuevos conocimientos: relaciones y conexiones entre lo conocido y lo novedoso, en interacciones de calidad con las personas adultas, con iguales y con el entorno.",
       "broader": "sb:IDE303SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -2106,6 +2301,7 @@
       "definition": "Acercamiento a la elaboración de estrategias y técnicas básicas de investigación: observación, experimentación, ensayo-error, realización de preguntas sencillas, planteamiento de ideas o soluciones alternativas…",
       "broader": "sb:IDE303SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -2117,6 +2313,7 @@
       "definition": "Experimentación con los elementos naturales.",
       "broader": "sb:IDE303SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -2128,6 +2325,7 @@
       "definition": "Disfrute de las actividades al aire libre y en la naturaleza.",
       "broader": "sb:IDE303SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -2139,6 +2337,7 @@
       "definition": "Cuidado y respeto hacia la naturaleza, los seres vivos y los derechos de los animales.",
       "broader": "sb:IDE303SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -2150,6 +2349,7 @@
       "definition": "Descubrimiento y respeto hacia el patrimonio natural canario.",
       "broader": "sb:IDE303SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -2161,6 +2361,7 @@
       "definition": "Observación y descubrimiento de los fenómenos naturales habituales: repercusión en la vida cotidiana.",
       "broader": "sb:IDE303SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE303",
       "curso": "curso:I03",
       "etapa": "etapa:INF"
     },
@@ -2172,6 +2373,7 @@
       "definition": "Conocimiento y relación de las cualidades o los atributos de los objetos y materiales. Relaciones de orden, correspondencia, clasificación y comparación",
       "broader": "sb:IDE304SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2183,6 +2385,7 @@
       "definition": "Forma, tamaño, color.",
       "broader": "sb:IDE304SBI.1",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2194,6 +2397,7 @@
       "definition": "Clasificaciones, seriaciones, condicionales.",
       "broader": "sb:IDE304SBI.1",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2205,6 +2409,7 @@
       "definition": "Aplicación contextualizada de cuantificadores básicos: todos, algunos, no todos, ninguno, uno y solo uno, al menos uno…",
       "broader": "sb:IDE304SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2216,6 +2421,7 @@
       "definition": "Uso funcional de los números en la vida cotidiana. Utilización de la serie numérica para contar objetos.",
       "broader": "sb:IDE304SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2227,6 +2433,7 @@
       "definition": "Aplicación del número ordinal en pequeñas colecciones ordenadas.",
       "broader": "sb:IDE304SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2238,6 +2445,7 @@
       "definition": "Uso de los números y las operaciones (unir, quitar, separar, repartir…), en los juegos y las situaciones de la vida cotidiana.",
       "broader": "sb:IDE304SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2249,6 +2457,7 @@
       "definition": "Iniciación a la resolución de problemas sencillos a través de: clasificación de la información, uso de diferentes estrategias (ensayo y error, modelización), y comprobación de las soluciones obtenidas.",
       "broader": "sb:IDE304SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2260,6 +2469,7 @@
       "definition": "Utilización de nociones espaciales básicas.",
       "broader": "sb:IDE304SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2271,6 +2481,7 @@
       "definition": "Orientación del propio cuerpo en relación con un objeto y de objetos entre sí (entre, detrás de-delante de, debajo de-encima de, arriba-abajo, izquierda-derecha, dentro-fuera, cerca-lejos).",
       "broader": "sb:IDE304SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2282,6 +2493,7 @@
       "definition": "Identificación de formas geométricas básicas: triángulo, círculo, cuadrado, rectángulo, cubo y esfera. Línea recta, línea curva, dirección y sentido.",
       "broader": "sb:IDE304SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2293,6 +2505,7 @@
       "definition": "Identificación de situaciones en las que es preciso medir para resolver problemas sencillos: más/menos…que, igual…que, con los conceptos: lleno-vacío, pesado-ligero, largo-corto, ancho-estrecho, grande-pequeño, alto-bajo….",
       "broader": "sb:IDE304SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2304,6 +2517,7 @@
       "definition": "Utilización de nociones temporales básicas: cambio y permanencia, continuidad, sucesión y simultaneidad; pasado, presente y futuro, períodos de tiempo (antes-ahora-después, secuencia temporal, día y noche, estaciones, ciclos, calendario…).",
       "broader": "sb:IDE304SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2315,6 +2529,7 @@
       "definition": "Descubrimiento de pautas para la indagación del entorno: interés, respeto, curiosidad, asombro, cuestionamiento y deseos de conocimiento.",
       "broader": "sb:IDE304SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2326,6 +2541,7 @@
       "definition": "Exploración y experimentación de diversos contextos y problemas en los que se obtengan diferentes soluciones.",
       "broader": "sb:IDE304SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2337,6 +2553,7 @@
       "definition": "Iniciación en el uso de estrategias de construcción de nuevos conocimientos: relaciones y conexiones entre lo conocido y lo novedoso, y entre experiencias previas y nuevas; andamiaje e interacciones de calidad con las personas adultas, con iguales y con el entorno.",
       "broader": "sb:IDE304SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2348,6 +2565,7 @@
       "definition": "Elaboración de estrategias y utilización de técnicas de investigación: ensayo- error, observación, experimentación, formulación y comprobación de hipótesis, realización de preguntas, manejo y búsqueda en distintas fuentes de información.",
       "broader": "sb:IDE304SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2359,6 +2577,7 @@
       "definition": "Iniciación al desarrollo del pensamiento científico y las destrezas de pensamiento computacional.",
       "broader": "sb:IDE304SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2370,6 +2589,7 @@
       "definition": "Iniciativa en la búsqueda de acuerdos o consensos en la toma de decisiones durante la planificación y organización de tareas.",
       "broader": "sb:IDE304SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2381,6 +2601,7 @@
       "definition": "Utilización de diversas estrategias para proponer soluciones: creatividad, diálogo, imaginación y descubrimiento.",
       "broader": "sb:IDE304SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2392,6 +2613,7 @@
       "definition": "Identificación de procesos y resultados. Constatación y elaboración de hallazgos, verificaciones y conclusiones.",
       "broader": "sb:IDE304SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2403,6 +2625,7 @@
       "definition": "Respeto, estima y protección hacia el medio natural canario.",
       "broader": "sb:IDE304SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2414,6 +2637,7 @@
       "definition": "Identificación de elementos naturales propios del paisaje canario (barrancos, palmeras, terrenos volcánicos, etc.).",
       "broader": "sb:IDE304SBIII.1",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2425,6 +2649,7 @@
       "definition": "Reconocimiento de las plantas y los animales más representativos de las Islas Canarias.",
       "broader": "sb:IDE304SBIII.1",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2436,6 +2661,7 @@
       "definition": "Identificación de la influencia de las acciones de las personas en el medio físico y en el patrimonio natural.",
       "broader": "sb:IDE304SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2447,6 +2673,7 @@
       "definition": "Fenómenos naturales: identificación y repercusión en la vida de las personas. Toma de conciencia sobre el cambio climático.",
       "broader": "sb:IDE304SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2458,6 +2685,7 @@
       "definition": "Identificación de las semejanzas y diferencias entre seres vivos o inertes.",
       "broader": "sb:IDE304SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2469,6 +2697,7 @@
       "definition": "Valoración, empatía, cuidado y protección de los animales y de las plantas.",
       "broader": "sb:IDE304SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2480,6 +2709,7 @@
       "definition": "Iniciativa para realizar tareas relacionadas con el cuidado de las plantas y de los animales.",
       "broader": "sb:IDE304SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2491,6 +2721,7 @@
       "definition": "Conocimiento, valoración y respeto por el patrimonio presente en el medio natural de Canarias.",
       "broader": "sb:IDE304SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2502,6 +2733,7 @@
       "definition": "Iniciación al conocimiento de recursos naturales y a los beneficios de la sostenibilidad, energías limpias y naturales.",
       "broader": "sb:IDE304SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE304",
       "curso": "curso:I04",
       "etapa": "etapa:INF"
     },
@@ -2513,6 +2745,7 @@
       "definition": "Conocimiento y relación de las cualidades o los atributos de los objetos y materiales. Relaciones de orden, correspondencia, clasificación y comparación",
       "broader": "sb:IDE305SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2524,6 +2757,7 @@
       "definition": "Forma, tamaño, color.",
       "broader": "sb:IDE305SBI.1",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2535,6 +2769,7 @@
       "definition": "Clasificaciones, seriaciones, condicionales.",
       "broader": "sb:IDE305SBI.1",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2546,6 +2781,7 @@
       "definition": "Aplicación contextualizada de cuantificadores básicos: todos, algunos, no todos, ninguno, uno y solo uno, al menos uno…",
       "broader": "sb:IDE305SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2557,6 +2793,7 @@
       "definition": "Uso funcional de los números en la vida cotidiana. Utilización de la serie numérica para contar objetos.",
       "broader": "sb:IDE305SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2568,6 +2805,7 @@
       "definition": "Aplicación del número ordinal en pequeñas colecciones ordenadas.",
       "broader": "sb:IDE305SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2579,6 +2817,7 @@
       "definition": "Uso de los números y las operaciones (unir, quitar, separar, repartir…), en los juegos y las situaciones de la vida cotidiana.",
       "broader": "sb:IDE305SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2590,6 +2829,7 @@
       "definition": "Iniciación a la resolución de problemas sencillos a través de: clasificación de la información, uso de diferentes estrategias (ensayo y error, modelización), y comprobación de las soluciones obtenidas.",
       "broader": "sb:IDE305SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2601,6 +2841,7 @@
       "definition": "Utilización de nociones espaciales básicas.",
       "broader": "sb:IDE305SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2612,6 +2853,7 @@
       "definition": "Orientación del propio cuerpo en relación con un objeto y de objetos entre sí (entre, detrás de-delante de, debajo de-encima de, arriba-abajo, izquierda-derecha, dentro-fuera, cerca-lejos).",
       "broader": "sb:IDE305SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2623,6 +2865,7 @@
       "definition": "Identificación de formas geométricas básicas: triángulo, círculo, cuadrado, rectángulo, cubo y esfera. Línea recta, línea curva, dirección y sentido.",
       "broader": "sb:IDE305SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2634,6 +2877,7 @@
       "definition": "Identificación de situaciones en las que es preciso medir para resolver problemas sencillos: más/menos…que, igual…que, con los conceptos: lleno-vacío, pesado-ligero, largo-corto, ancho-estrecho, grande-pequeño, alto-bajo….",
       "broader": "sb:IDE305SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2645,6 +2889,7 @@
       "definition": "Utilización de nociones temporales básicas: cambio y permanencia, continuidad, sucesión y simultaneidad; pasado, presente y futuro, períodos de tiempo (antes-ahora-después, secuencia temporal, día y noche, estaciones, ciclos, calendario…).",
       "broader": "sb:IDE305SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2656,6 +2901,7 @@
       "definition": "Descubrimiento de pautas para la indagación del entorno: interés, respeto, curiosidad, asombro, cuestionamiento y deseos de conocimiento.",
       "broader": "sb:IDE305SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2667,6 +2913,7 @@
       "definition": "Exploración y experimentación de diversos contextos y problemas en los que se obtengan diferentes soluciones.",
       "broader": "sb:IDE305SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2678,6 +2925,7 @@
       "definition": "Iniciación en el uso de estrategias de construcción de nuevos conocimientos: relaciones y conexiones entre lo conocido y lo novedoso, y entre experiencias previas y nuevas; andamiaje e interacciones de calidad con las personas adultas, con iguales y con el entorno.",
       "broader": "sb:IDE305SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2689,6 +2937,7 @@
       "definition": "Elaboración de estrategias y utilización de técnicas de investigación: ensayo- error, observación, experimentación, formulación y comprobación de hipótesis, realización de preguntas, manejo y búsqueda en distintas fuentes de información.",
       "broader": "sb:IDE305SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2700,6 +2949,7 @@
       "definition": "Iniciación al desarrollo del pensamiento científico y las destrezas de pensamiento computacional.",
       "broader": "sb:IDE305SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2711,6 +2961,7 @@
       "definition": "Iniciativa en la búsqueda de acuerdos o consensos en la toma de decisiones durante la planificación y organización de tareas.",
       "broader": "sb:IDE305SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2722,6 +2973,7 @@
       "definition": "Utilización de diversas estrategias para proponer soluciones: creatividad, diálogo, imaginación y descubrimiento.",
       "broader": "sb:IDE305SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2733,6 +2985,7 @@
       "definition": "Identificación de procesos y resultados. Constatación y elaboración de hallazgos, verificaciones y conclusiones.",
       "broader": "sb:IDE305SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2744,6 +2997,7 @@
       "definition": "Respeto, estima y protección hacia el medio natural canario.",
       "broader": "sb:IDE305SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2755,6 +3009,7 @@
       "definition": "Identificación de elementos naturales propios del paisaje canario (barrancos, palmeras, terrenos volcánicos, etc.).",
       "broader": "sb:IDE305SBIII.1",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2766,6 +3021,7 @@
       "definition": "Reconocimiento de las plantas y los animales más representativos de las Islas Canarias.",
       "broader": "sb:IDE305SBIII.1",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2777,6 +3033,7 @@
       "definition": "Identificación de la influencia de las acciones de las personas en el medio físico y en el patrimonio natural.",
       "broader": "sb:IDE305SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2788,6 +3045,7 @@
       "definition": "Fenómenos naturales: identificación y repercusión en la vida de las personas. Toma de conciencia sobre el cambio climático.",
       "broader": "sb:IDE305SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2799,6 +3057,7 @@
       "definition": "Identificación de las semejanzas y diferencias entre seres vivos o inertes.",
       "broader": "sb:IDE305SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2810,6 +3069,7 @@
       "definition": "Valoración, empatía, cuidado y protección de los animales y de las plantas.",
       "broader": "sb:IDE305SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2821,6 +3081,7 @@
       "definition": "Iniciativa para realizar tareas relacionadas con el cuidado de las plantas y de los animales.",
       "broader": "sb:IDE305SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2832,6 +3093,7 @@
       "definition": "Conocimiento, valoración y respeto por el patrimonio presente en el medio natural de Canarias.",
       "broader": "sb:IDE305SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2843,6 +3105,7 @@
       "definition": "Iniciación al conocimiento de recursos naturales y a los beneficios de la sostenibilidad, energías limpias y naturales.",
       "broader": "sb:IDE305SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE305",
       "curso": "curso:I05",
       "etapa": "etapa:INF"
     },
@@ -2854,6 +3117,7 @@
       "definition": "Conocimiento y relación de las cualidades o los atributos de los objetos y materiales. Relaciones de orden, correspondencia, clasificación y comparación",
       "broader": "sb:IDE306SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -2865,6 +3129,7 @@
       "definition": "Forma, tamaño, color.",
       "broader": "sb:IDE306SBI.1",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -2876,6 +3141,7 @@
       "definition": "Clasificaciones, seriaciones, condicionales.",
       "broader": "sb:IDE306SBI.1",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -2887,6 +3153,7 @@
       "definition": "Aplicación contextualizada de cuantificadores básicos: todos, algunos, no todos, ninguno, uno y solo uno, al menos uno…",
       "broader": "sb:IDE306SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -2898,6 +3165,7 @@
       "definition": "Uso funcional de los números en la vida cotidiana. Utilización de la serie numérica para contar objetos.",
       "broader": "sb:IDE306SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -2909,6 +3177,7 @@
       "definition": "Aplicación del número ordinal en pequeñas colecciones ordenadas.",
       "broader": "sb:IDE306SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -2920,6 +3189,7 @@
       "definition": "Uso de los números y las operaciones (unir, quitar, separar, repartir…), en los juegos y las situaciones de la vida cotidiana.",
       "broader": "sb:IDE306SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -2931,6 +3201,7 @@
       "definition": "Iniciación a la resolución de problemas sencillos a través de: clasificación de la información, uso de diferentes estrategias (ensayo y error, modelización), y comprobación de las soluciones obtenidas.",
       "broader": "sb:IDE306SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -2942,6 +3213,7 @@
       "definition": "Utilización de nociones espaciales básicas.",
       "broader": "sb:IDE306SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -2953,6 +3225,7 @@
       "definition": "Orientación del propio cuerpo en relación con un objeto y de objetos entre sí (entre, detrás de-delante de, debajo de-encima de, arriba-abajo, izquierda-derecha, dentro-fuera, cerca-lejos).",
       "broader": "sb:IDE306SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -2964,6 +3237,7 @@
       "definition": "Identificación de formas geométricas básicas: triángulo, círculo, cuadrado, rectángulo, cubo y esfera. Línea recta, línea curva, dirección y sentido.",
       "broader": "sb:IDE306SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -2975,6 +3249,7 @@
       "definition": "Identificación de situaciones en las que es preciso medir para resolver problemas sencillos: más/menos…que, igual…que, con los conceptos: lleno-vacío, pesado-ligero, largo-corto, ancho-estrecho, grande-pequeño, alto-bajo….",
       "broader": "sb:IDE306SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -2986,6 +3261,7 @@
       "definition": "Utilización de nociones temporales básicas: cambio y permanencia, continuidad, sucesión y simultaneidad; pasado, presente y futuro, períodos de tiempo (antes-ahora-después, secuencia temporal, día y noche, estaciones, ciclos, calendario…).",
       "broader": "sb:IDE306SBI",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -2997,6 +3273,7 @@
       "definition": "Descubrimiento de pautas para la indagación del entorno: interés, respeto, curiosidad, asombro, cuestionamiento y deseos de conocimiento.",
       "broader": "sb:IDE306SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -3008,6 +3285,7 @@
       "definition": "Exploración y experimentación de diversos contextos y problemas en los que se obtengan diferentes soluciones.",
       "broader": "sb:IDE306SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -3019,6 +3297,7 @@
       "definition": "Iniciación en el uso de estrategias de construcción de nuevos conocimientos: relaciones y conexiones entre lo conocido y lo novedoso, y entre experiencias previas y nuevas; andamiaje e interacciones de calidad con las personas adultas, con iguales y con el entorno.",
       "broader": "sb:IDE306SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -3030,6 +3309,7 @@
       "definition": "Elaboración de estrategias y utilización de técnicas de investigación: ensayo- error, observación, experimentación, formulación y comprobación de hipótesis, realización de preguntas, manejo y búsqueda en distintas fuentes de información.",
       "broader": "sb:IDE306SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -3041,6 +3321,7 @@
       "definition": "Iniciación al desarrollo del pensamiento científico y las destrezas de pensamiento computacional.",
       "broader": "sb:IDE306SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -3052,6 +3333,7 @@
       "definition": "Iniciativa en la búsqueda de acuerdos o consensos en la toma de decisiones durante la planificación y organización de tareas.",
       "broader": "sb:IDE306SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -3063,6 +3345,7 @@
       "definition": "Utilización de diversas estrategias para proponer soluciones: creatividad, diálogo, imaginación y descubrimiento.",
       "broader": "sb:IDE306SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -3074,6 +3357,7 @@
       "definition": "Identificación de procesos y resultados. Constatación y elaboración de hallazgos, verificaciones y conclusiones.",
       "broader": "sb:IDE306SBII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -3085,6 +3369,7 @@
       "definition": "Respeto, estima y protección hacia el medio natural canario.",
       "broader": "sb:IDE306SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -3096,6 +3381,7 @@
       "definition": "Identificación de elementos naturales propios del paisaje canario (barrancos, palmeras, terrenos volcánicos, etc.).",
       "broader": "sb:IDE306SBIII.1",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -3107,6 +3393,7 @@
       "definition": "Reconocimiento de las plantas y los animales más representativos de las Islas Canarias.",
       "broader": "sb:IDE306SBIII.1",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -3118,6 +3405,7 @@
       "definition": "Identificación de la influencia de las acciones de las personas en el medio físico y en el patrimonio natural.",
       "broader": "sb:IDE306SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -3129,6 +3417,7 @@
       "definition": "Fenómenos naturales: identificación y repercusión en la vida de las personas. Toma de conciencia sobre el cambio climático.",
       "broader": "sb:IDE306SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -3140,6 +3429,7 @@
       "definition": "Identificación de las semejanzas y diferencias entre seres vivos o inertes.",
       "broader": "sb:IDE306SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -3151,6 +3441,7 @@
       "definition": "Valoración, empatía, cuidado y protección de los animales y de las plantas.",
       "broader": "sb:IDE306SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -3162,6 +3453,7 @@
       "definition": "Iniciativa para realizar tareas relacionadas con el cuidado de las plantas y de los animales.",
       "broader": "sb:IDE306SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -3173,6 +3465,7 @@
       "definition": "Conocimiento, valoración y respeto por el patrimonio presente en el medio natural de Canarias.",
       "broader": "sb:IDE306SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     },
@@ -3184,6 +3477,7 @@
       "definition": "Iniciación al conocimiento de recursos naturales y a los beneficios de la sostenibilidad, energías limpias y naturales.",
       "broader": "sb:IDE306SBIII",
       "materia": "materia:IDE3",
+      "materia_curso": "asig:IDE306",
       "curso": "curso:I06",
       "etapa": "etapa:INF"
     }

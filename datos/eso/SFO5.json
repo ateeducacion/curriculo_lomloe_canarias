@@ -12,6 +12,16 @@
       "etapa": "etapa:ESO"
     },
     {
+      "id": "asig:SFO504",
+      "tipo": "MateriaCurso",
+      "notation": "SFO504",
+      "prefLabel": "Formación y Orientación Personal y Profesional · 4º ESO",
+      "broader": "materia:SFO5",
+      "materia": "materia:SFO5",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
       "id": "ce:SFO5C1",
       "tipo": "CompetenciaEspecifica",
       "notation": "SFO5C1",
@@ -67,7 +77,7 @@
       "notation": "SFO504BC1",
       "prefLabel": "Formación y Orientación Personal y Profesional · 4º ESO · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado conoce aquellos conceptos básicos de neurociencia que explican cómo se regulan los procesos que intervienen en el aprendizaje, esto es, las funciones ejecutivas como la atención, la motivación y la memoria, que comprende el componente emocional y su relación con la conducta y que usa dichos procesos para la adquisición de conocimientos. Se contribuye así a la adquisición de la competencia específica, ya que se comprobará que el alumnado es capaz de identificar las cualidades personales propias y de los demás, todo ello con la finalidad de mejorar el desempeño personal, social y académico desarrollando el pensamiento causal y consecuencial. El alumnado tomará conciencia del papel que juegan sus emociones y sus motivaciones en la toma de decisiones, para lo cual será necesario el conocimiento y el desarrollo de estrategias que planifiquen y guíen el propio proceso de aprendizaje y estudio. Se contribuye así a la adquisición de los descriptores del Perfil de salida referenciados en el bloque ya que el alumnado debe ser capaz de establecer metas y gestionar retos y cambios, comprenderá las experiencias de los demás y las incorporará a su propio aprendizaje, trabajando en grupo, aceptando responsabilidades y autoevaluándose para sacar conclusiones relevantes que le permitan plantear objetivos a medio plazo.",
-      "broader": "materia:SFO5",
+      "broader": "asig:SFO504",
       "agrupa": [
         "ce:SFO5C1"
       ],
@@ -78,6 +88,7 @@
         "CPSAA5"
       ],
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -87,7 +98,7 @@
       "notation": "SFO504BC2",
       "prefLabel": "Formación y Orientación Personal y Profesional · 4º ESO · bloque competencial C2",
       "scopeNote": "Se comprobará que el alumnado comprende los cambios físicos, sociales, cognitivos y psicológicos que condicionan la toma de decisiones y comportamientos dentro de un contexto que es cambiante e incierto. Se comprobará que conoce los cambios propios de la adolescencia y que es capaz de encontrar respuestas y soluciones a conflictos e interpretar sus experiencias en relación con las de los demás. Se verificará que asume responsabilidades para obtener mayor grado de autonomía adaptándose a los diferentes contextos que se presenten. Se contribuye así a la competencia específica, ya que se evaluará que el alumnado autoevalúa su propio aprendizaje identificando sus fortalezas y debilidades, desarrolla estrategias y habilidades para el trabajo colaborativo y en equipo libre de roles y estereotipos y, además, asume responsabilidades personales y sociales adaptadas a nuevos contextos y momentos evolutivos en que se encuentra. Estos aprendizajes favorecerán la adquisición de los descriptores del Perfil de salida referenciados en el bloque, puesto que el alumnado será capaz de gestionar retos y cambios armonizados con sus propios objetivos, aprenderá a trabajar en grupo distribuyendo y aceptando responsabilidades de manera equitativa y cooperativa, mostrando respeto por las normas, empatía y espíritu constructivo. Autoevaluará su proceso de aprendizaje desarrollando procesos metacognitivos de retroalimentación, optimizando los recursos necesarios.",
-      "broader": "materia:SFO5",
+      "broader": "asig:SFO504",
       "agrupa": [
         "ce:SFO5C2"
       ],
@@ -99,6 +110,7 @@
         "CPSAA5"
       ],
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -108,7 +120,7 @@
       "notation": "SFO504BC3",
       "prefLabel": "Formación y Orientación Personal y Profesional · 4º ESO · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado reflexiona de manera crítica a partir del conocimiento que proporcionan las ciencias humanas y sociales acerca del ser humano como ser cultural y social. Se verificará que analiza la diversidad desde distintas perspectivas mostrando actitudes de respeto y empatía por lo diferente, valorando la equidad y la no discriminación y diferenciando, por lo tanto, entre conductas prosociales y antisociales. Para ello, se comprobará que el alumnado es capaz de identificar, comprender y analizar el papel que juegan las normas sociales, los roles y los estereotipos de género. Se verificará que el alumnado comprende y analiza el papel que juega el uso de las herramientas digitales en la interacción con los demás. Se contribuye así a la adquisición de la competencia específica, ya que se comprobará que el alumnado conoce los elementos socioculturales propios, considera la influencia de los agentes sociales, su experiencia como miembro del grupo, siente curiosidad respecto al conocimiento del individuo, las sociedades y la cultura. Se verificará que presenta actitudes de respeto y empatía ante la diversidad transcultural, el pluralismo social y la igualdad de género como elementos de diversidad enriquecedores y necesarios en la vida democrática a través del desarrollo de habilidades de comunicación, organización y gestión. Estos aprendizajes contribuirán a la adquisición de los descriptores del Perfil de salida referenciados en el bloque, puesto que el alumnado debe ser capaz de comprender proactivamente las perspectivas y las experiencias ajenas e incorporarlas a su aprendizaje, entender la dimensión social y ciudadana de su propia identidad, tomando conciencia de los hechos sociales, históricos y normativos que la determinan. Mostrará una actitud respetuosa y democrática propia de los valores que emanan de la Constitución española y del contexto europeo del que forma parte, desarrollando en todo momento juicios propios con una actitud dialogante, argumentativa, respetuosa y opuesta a cualquier tipo de discriminación o violencia.",
-      "broader": "materia:SFO5",
+      "broader": "asig:SFO504",
       "agrupa": [
         "ce:SFO5C3"
       ],
@@ -121,6 +133,7 @@
         "CP3"
       ],
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -130,7 +143,7 @@
       "notation": "SFO504BC4",
       "prefLabel": "Formación y Orientación Personal y Profesional · 4º ESO · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial el alumnado será capaz de comprender el concepto antropológico de cultura y del ser humano como construcción cultural para la consecución de un desarrollo individual y una integración sociocultural completa y óptima. Se comprobará que identifica y valora los diferentes agentes de socialización y los contextos de aprendizaje formal e informal. Se constatará que desarrolla estrategias y habilidades sociales que le permitan conocerse, comprenderse e interactuar con los demás. Se verificará que es consciente de que el desarrollo de habilidades socioemocionales es indispensable para el proceso de socialización, ya que estas guiarán un proceso de toma de decisiones desde el respeto a la diversidad, la defensa de los derechos humanos, la protección del menor, la igualdad de género, la diversidad cultural, etc. Se constatará que el alumnado comprende y valora el papel que las políticas de inclusión y cohesión social juegan a la hora de mejorar la calidad de vida de las personas. Esto le permitirá adaptarse a grupos y contextos considerando factores personales, socioculturales y antropológicos. Asimismo se verificará su capacidad para tomar decisiones respetando la diversidad lingüística y cultural, las normas, mostrando empatía, resolviendo conflictos de manera democrática contribuyendo así a la cohesión social y atendiendo a la diversidad e igualdad efectiva.",
-      "broader": "materia:SFO5",
+      "broader": "asig:SFO504",
       "agrupa": [
         "ce:SFO5C4"
       ],
@@ -142,6 +155,7 @@
         "CE2"
       ],
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -151,7 +165,7 @@
       "notation": "SFO504BC5",
       "prefLabel": "Formación y Orientación Personal y Profesional · 4º ESO · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial el alumnado conseguirá realizar un proyecto propio personal, académico y profesional a partir de sus destrezas en la toma de decisiones, sus necesidades e intereses personales y vocacionales y la exploración del entorno próximo. Para ello se comprobará que el alumnado es capaz de diseñar un proyecto personal, académico y profesional propio a través de la priorización de sus necesidades, intereses personales y vocacionales, conocimiento de sus fortalezas y debilidades, la exploración y diagnóstico de las oportunidades académicas y profesionales del entorno de forma realista, por mediante la consulta de estadísticas de mercado de trabajo en Canarias a través de herramientas y plataformas virtuales y utilizando estrategias de tratamiento de la información que le permitan, por un lado, la búsqueda de recursos y ayudas para superar posibles carencias y, por otro, aproximarse al plan de búsqueda activa de empleo planeando, de esta forma, objetivos a medio plazo. Se verificará que el alumnado utiliza herramientas digitales para la creación de porfolios digitales, curriculum vitae, etc.",
-      "broader": "materia:SFO5",
+      "broader": "asig:SFO504",
       "agrupa": [
         "ce:SFO5C5"
       ],
@@ -164,6 +178,7 @@
         "CE3"
       ],
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -180,6 +195,7 @@
         "CPSAA4"
       ],
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -196,6 +212,7 @@
         "CPSAA4"
       ],
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -212,6 +229,7 @@
         "CPSAA5"
       ],
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -227,6 +245,7 @@
         "CPSAA1"
       ],
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -245,6 +264,7 @@
         "CC1"
       ],
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -262,6 +282,7 @@
         "CC1"
       ],
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -278,6 +299,7 @@
         "CPSAA5"
       ],
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -297,6 +319,7 @@
         "CE3"
       ],
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -313,6 +336,7 @@
         "CC3"
       ],
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -330,6 +354,7 @@
         "CC3"
       ],
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -346,6 +371,7 @@
         "CC2"
       ],
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -363,6 +389,7 @@
         "CE2"
       ],
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -382,6 +409,7 @@
         "CE2"
       ],
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -400,6 +428,7 @@
         "CE3"
       ],
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -409,8 +438,9 @@
       "notation": "SFO504SBI",
       "prefLabel": "SFO504SBI · I. El ser humano y el conocimiento de sí mismo",
       "definition": "El ser humano y el conocimiento de sí mismo",
-      "broader": "materia:SFO5",
+      "broader": "asig:SFO504",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -420,8 +450,9 @@
       "notation": "SFO504SBII",
       "prefLabel": "SFO504SBII · II. Formación y orientación personal y profesional hacia la vida adulta",
       "definition": "Formación y orientación personal y profesional hacia la vida adulta",
-      "broader": "materia:SFO5",
+      "broader": "asig:SFO504",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -431,8 +462,9 @@
       "notation": "SFO504SBIII",
       "prefLabel": "SFO504SBIII · III. Proyecto personal, académico-profesional y aproximación a la búsqueda activa de empleo",
       "definition": "Proyecto personal, académico-profesional y aproximación a la búsqueda activa de empleo",
-      "broader": "materia:SFO5",
+      "broader": "asig:SFO504",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -444,6 +476,7 @@
       "definition": "Visión y conocimiento del ser humano desde la perspectiva psicológica.",
       "broader": "sb:SFO504SBI",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -455,6 +488,7 @@
       "definition": "Descripción de las distintas etapas de desarrollo evolutivo. Identificación de características cognitivas y de la personalidad propias de la adolescencia y su relación con la gestión emocional en esta etapa.",
       "broader": "sb:SFO504SBI.1",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -466,6 +500,7 @@
       "definition": "Visión y conocimiento del ser humano desde la perspectiva sociológica.",
       "broader": "sb:SFO504SBI",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -477,6 +512,7 @@
       "definition": "Descripción, análisis y valoración de las relaciones sociales en la adolescencia. Definición de los conceptos de normas, roles y estereotipos, análisis y estimación de sus implicaciones en contextos sociales cercanos.",
       "broader": "sb:SFO504SBI.2",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -488,6 +524,7 @@
       "definition": "Análisis de la influencia del grupo en el individuo y valoración del sentimiento de pertenencia como elemento fundamental para la cohesión social. Identificación de valores, intereses y metas comunes de los diferentes grupos a los que se pertenece (familia, grupo clase, equipos deportivos, clubes, etc.).",
       "broader": "sb:SFO504SBI.2",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -499,6 +536,7 @@
       "definition": "Análisis y valoración de la diversidad como elemento enriquecedor para la convivencia positiva y democrática dentro de los grupos.",
       "broader": "sb:SFO504SBI.2",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -510,6 +548,7 @@
       "definition": "Análisis y valoración de los roles y estereotipos de género a lo largo de la historia y su papel en la vida de hombres y mujeres. Reconocimiento y promoción de la igualdad de derechos y oportunidades entre hombres y mujeres en todos los ámbitos de la vida: personal, social, académico y profesional.",
       "broader": "sb:SFO504SBI.2",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -521,6 +560,7 @@
       "definition": "Distinción entre conductas prosociales y antisociales. Asunción progresiva de responsabilidades para la búsqueda de la autonomía.",
       "broader": "sb:SFO504SBI.2",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -532,6 +572,7 @@
       "definition": "Comprensión del concepto de sociedad y visión del ser humano como ser social. Análisis crítico de los elementos y factores favorecedores de la integración y cohesión social.",
       "broader": "sb:SFO504SBI.2",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -543,6 +584,7 @@
       "definition": "Identificación de los factores que determinan los procesos de transición a la vida adulta en el contexto europeo y español.",
       "broader": "sb:SFO504SBI.2",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -554,6 +596,7 @@
       "definition": "Visión y conocimiento del ser humano desde la perspectiva antropológica.",
       "broader": "sb:SFO504SBI",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -565,6 +608,7 @@
       "definition": "Comprensión del concepto antropológico de cultura y análisis del ser humano como ser cultural (costumbres, mitos, creencias, normas y valores que guían su comportamiento como miembro de un grupo social). Relación entre humanización y cultura. Reconocimiento y valoración de la diversidad cultural haciendo hincapié en la realidad canaria (migraciones, multiculturalidad y mestizaje en sociedades abiertas).",
       "broader": "sb:SFO504SBI.3",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -576,6 +620,7 @@
       "definition": "Reflexión sobre formas de identificación cultural (la Constitución española de 1978, la integración en la Unión Europea, el fenómeno de la globalización…). Análisis y valoración positiva de la diversidad social, etnocultural, funcional y de género, entre otras. Conocimiento de políticas y medidas estratégicas para la inclusión, la igualdad de género y cohesión social, con el objetivo de mejorar la calidad de vida de las personas en el contexto autonómico, nacional y europeo (partidas económicas, programas de becas, programas de movilidad, proyectos de integración social, desarrollo de vocaciones científicas en las alumnas, etc.)",
       "broader": "sb:SFO504SBI.3",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -587,6 +632,7 @@
       "definition": "Aprendizaje y ser humano",
       "broader": "sb:SFO504SBII",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -598,6 +644,7 @@
       "definition": "Descripción de los procesos de atención, motivación y memoria y explicación de su relación con el aprendizaje.",
       "broader": "sb:SFO504SBII.1",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -609,6 +656,7 @@
       "definition": "Explicación de diferentes estrategias de aprendizaje y estudio y selección y aplicación de las mismas.",
       "broader": "sb:SFO504SBII.1",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -620,6 +668,7 @@
       "definition": "Definición de inteligencia emocional. Identificación y reconocimiento de las emociones propias y ajenas y selección y aplicación de estrategias de regulación de las mismas de forma adaptativa en función de las demandas del entorno. Comprensión del funcionamiento de los sistemas de recompensa y su relación con las adicciones.",
       "broader": "sb:SFO504SBII.1",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -631,6 +680,7 @@
       "definition": "Definición de las funciones ejecutivas y su papel en el establecimiento y logro de metas.",
       "broader": "sb:SFO504SBII.1",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -642,6 +692,7 @@
       "definition": "Relación entre lo heredado y lo aprendido: biología y cultura.",
       "broader": "sb:SFO504SBII.1",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -653,6 +704,7 @@
       "definition": "Construcción del sentido de competencia y logro.",
       "broader": "sb:SFO504SBII",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -664,6 +716,7 @@
       "definition": "Definición y comprensión del autoconcepto y la autoestima. Identificación y valoración de conceptos como estilo atribucional, capacidad autocrítica, iniciativa personal, pensamiento creativo, perseverancia, confianza y seguridad personal, como elementos indispensables en el desarrollo de un autoconcepto positivo y una autoestima alta como medio para superar situaciones de fracaso y tolerar la frustración.",
       "broader": "sb:SFO504SBII.2",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -675,6 +728,7 @@
       "definition": "Identificación y valoración de las cualidades académicas, análisis de fortalezas y debilidades propias y selección y desarrollo de estrategias para superar las debilidades.",
       "broader": "sb:SFO504SBII.2",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -686,6 +740,7 @@
       "definition": "Relaciones e interacciones con las demás personas.",
       "broader": "sb:SFO504SBII",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -697,6 +752,7 @@
       "definition": "Desarrollo de habilidades sociales necesarias para afrontar nuevos retos: flexibilidad, adaptabilidad, estrategias de resolución de conflictos.",
       "broader": "sb:SFO504SBII.3",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -708,6 +764,7 @@
       "definition": "Desarrollo de habilidades comunicativas: asertividad, escucha activa, comunicación no verbal. Evaluación de las barreras propias en la comunicación y adquisición de estrategias para superarlas.",
       "broader": "sb:SFO504SBII.3",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -719,6 +776,7 @@
       "definition": "Desarrollo de habilidades comunicativas como el diálogo, la argumentación y la empatía para la resolución pacífica de conflictos y la convivencia positiva dentro de los grupos.",
       "broader": "sb:SFO504SBII.3",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -730,6 +788,7 @@
       "definition": "Comprensión de la estructura y funcionamiento de grupos sociales y de trabajo. Desarrollo de habilidades para la organización y gestión: reparto de funciones y tareas, planificación, tipos de liderazgo, diferencias entre grupos de trabajo y equipos de trabajo.",
       "broader": "sb:SFO504SBII.3",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -741,6 +800,7 @@
       "definition": "Conocimiento y manejo responsable de herramientas digitales para la interacción con los demás. Comprensión de los conceptos de huella y reputación digital. Identificación y reflexión sobre los nuevos comportamientos en la sociedad de la información y reflexión sobre los valores, principios, derechos y deberes que deben regir la ciudadanía ética digital.",
       "broader": "sb:SFO504SBII.3",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -752,6 +812,7 @@
       "definition": "Identificación de barreras en la comunicación en contextos académicos y profesionales y planificación de acciones para superarlas.",
       "broader": "sb:SFO504SBII.3",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -763,6 +824,7 @@
       "definition": "Gestión de la identidad digital personal y profesional: selección de herramientas digitales adecuadas a la finalidad que se persigue, elaboración de un perfil acorde a la misma y conocimiento de los procedimientos de actualización y mantenimiento de los perfiles.",
       "broader": "sb:SFO504SBII.3",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -774,6 +836,7 @@
       "definition": "Orientación hacia la formación académica y profesional. Exploración del entorno profesional.",
       "broader": "sb:SFO504SBII",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -785,6 +848,7 @@
       "definition": "Conocimiento y valoración de programas y servicios de orientación académica y profesional y búsqueda de oportunidades y ayudas para la formación.",
       "broader": "sb:SFO504SBII.4",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -796,6 +860,7 @@
       "definition": "Valoración de la formación permanente a lo largo de la vida como elemento indispensable para el desarrollo personal y laboral en un contexto social y laboral en continuo cambio.",
       "broader": "sb:SFO504SBII.4",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -807,6 +872,7 @@
       "definition": "Comprensión de las ventajas de un clima laboral positivo gracias a las habilidades sociales, comunicativas y de organización y gestión como garantía para el establecimiento de relaciones laborales positivas.",
       "broader": "sb:SFO504SBII.4",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -818,6 +884,7 @@
       "definition": "Conocimiento del Espacio Europeo de Educación y reflexión sobre las implicaciones en el propio proceso de socialización y en el aprendizaje formal e informal. Conocimiento de los valores del europeísmo y fórmulas de participación en programas educativos europeos.",
       "broader": "sb:SFO504SBII.4",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -829,6 +896,7 @@
       "definition": "Exploración y descubrimiento de las tendencias laborales y demandas del mercado. Retos de la revolución digital. Conocimiento y comprensión de los conceptos de emprendimiento e intraemprendimiento.",
       "broader": "sb:SFO504SBII.4",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -840,6 +908,7 @@
       "definition": "El ser humano como homo œconomicus y teorías críticas. Reconocimiento y valoración de la participación social activa a través de acciones como la colaboración y el voluntariado, por un lado, como instrumentos para favorecer la cohesión social y, por otro, como una primera aproximación al mundo laboral.",
       "broader": "sb:SFO504SBII.4",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -851,6 +920,7 @@
       "definition": "Comprensión y valoración de la diversidad como elemento enriquecedor de los equipos de trabajo.",
       "broader": "sb:SFO504SBIII",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -862,6 +932,7 @@
       "definition": "Aplicación de las fases de diseño de un plan personal de autoconocimiento y de formación académica y profesional.",
       "broader": "sb:SFO504SBIII",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -873,6 +944,7 @@
       "definition": "Identificación y diagnóstico de cualidades personales académicas y profesionales, distinguiendo entre fortalezas y debilidades para potenciar las primeras y solventar las últimas.",
       "broader": "sb:SFO504SBIII.2",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -884,6 +956,7 @@
       "definition": "Exploración de las ofertas académicas y profesionales, sus respectivos perfiles y su relación con las aspiraciones y metas propias.",
       "broader": "sb:SFO504SBIII.2",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -895,6 +968,7 @@
       "definition": "Toma de decisiones con respecto al futuro académico y profesional a corto plazo, así como búsqueda y selección de ayudas y recursos para superar carencias y afrontar los nuevos retos personales y profesionales. Aproximación a un plan de búsqueda activa de empleo con proyección hacia el futuro mediante las estrategias e instrumentos de búsqueda de empleo.",
       "broader": "sb:SFO504SBIII.2",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -906,6 +980,7 @@
       "definition": "Aproximación a un plan de búsqueda activa de empleo con proyección hacia el futuro mediante las estrategias e instrumentos de búsqueda de empleo.",
       "broader": "sb:SFO504SBIII",
       "materia": "materia:SFO5",
+      "materia_curso": "asig:SFO504",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     }

@@ -12,6 +12,16 @@
       "etapa": "etapa:ESO"
     },
     {
+      "id": "asig:SECZ03",
+      "tipo": "MateriaCurso",
+      "notation": "SECZ03",
+      "prefLabel": "Economía Personal y Social · 3º ESO",
+      "broader": "materia:SECZ",
+      "materia": "materia:SECZ",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
       "id": "ce:SECZC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "SECZC1",
@@ -47,7 +57,7 @@
       "notation": "SECZ03BC1",
       "prefLabel": "Economía Personal y Social · 3º ESO · bloque competencial C1",
       "scopeNote": "Con la evaluación de este bloque competencial se comprobará que el alumnado es capaz de valorar la Economía como ciencia social, analizando su huella en la vida de las personas a través de la comprensión de los conceptos básicos y la terminología propia de la materia, que le permita la utilización y construcción progresiva de conocimientos económicos. Para ello, se constatará que identifica y explica las funciones de los agentes económicos y las relaciones que se establecen entre ellos en los mercados, mediante el análisis y la representación del modelo del Flujo Circular de la Renta, reconociendo sus perfiles en las actividades económicas de diversos sectores de la economía, en contextos canarios y globales, a través del estudio de casos, visitas a empresas y experiencias cercanas del ámbito personal, familiar, etc. y empleando técnicas de aprendizaje cooperativo (como “el rompecabezas”, “los grupos de investigación”, etc.) en la búsqueda, síntesis e intercambio de contenidos, datos e información para obtener conclusiones relevantes sobre el funcionamiento de la economía. Por otra parte, se verificará la capacidad del alumnado para reconocer la importancia de la existencia de los bienes y servicios públicos en la economía y su necesaria financiación, diferenciando entre los tipos de fiscalidad y los hechos imponibles de los principales impuestos del sistema tributario español, estudiando las singularidades canarias derivadas de la lejanía y la insularidad y la importancia que para la vida de los canarios y canarias tiene el Régimen Económico y Fiscal (REF), a través de la búsqueda de información fiable, visitas o encuentros con instituciones de la Hacienda Pública Canaria, etc. Asimismo, se verificará su capacidad para investigar de forma elemental sobre las características y distribución del gasto público estatal y canario, interpretando los resultados obtenidos en diferentes formatos (gráficos, tablas, diagramas, esquemas…) e identificar los pilares básicos sobre los que se sustenta el Estado del Bienestar en nuestra sociedad, mostrando empatía y equidad social para reconocer la incidencia directa sobre nuestra salud y calidad de vida. Finalmente, con la aproximación a los problemas que conllevan los distintos tipos de inflación y desempleo, se constatará su capacidad para explicar de forma sencilla las causas que los producen, analizando la información obtenida de diversas fuentes como pueden ser el IInstituto Canario de Estadística (ISTAC), el Instituto Nacional de Estadística (INE), la encuesta de población activa (EPA) o noticias de actualidad sobre la situación del mercado de trabajo en España y Canarias, para valorar de forma crítica las consecuencias ocasionadas por las fluctuaciones de la actividad económica, la inflación y el desempleo en el nivel de vida personal y en el bienestar social.",
-      "broader": "materia:SECZ",
+      "broader": "asig:SECZ03",
       "agrupa": [
         "ce:SECZC1"
       ],
@@ -63,6 +73,7 @@
         "CC2"
       ],
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -72,7 +83,7 @@
       "notation": "SECZ03BC2",
       "prefLabel": "Economía Personal y Social · 3º ESO · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se comprobará, en primer lugar, que el alumnado es capaz de tomar conciencia del valor del dinero en la economía, describiendo qué es el dinero, su evolución y sus diferentes funciones y formas, distinguiendo entre dinero efectivo o en depósitos bancarios. Asimismo, se comprobará su capacidad para explicar las relaciones de las personas con la banca, describiendo las características de las cuentas bancarias, los distintos tipos de tarjetas y los nuevos medios de pago digitales, valorando los riesgos y fraudes asociados, así como los derechos y obligaciones recíprocos en las relaciones y contrataciones bancarias. Para ello se comprobará el grado de elaboración de extractos bancarios e interpretación de contratos de tarjetas bancarias, etc., que realiza, empleando los métodos de la simulación, del estudio de casos y el trabajo en equipo y colaborativo para construir conocimiento y considerar la experiencia como una oportunidad para aprender. En segundo lugar, se verificará la capacidad del alumnado para gestionar de forma básica sus finanzas personales mediante la elaboración e interpretación de diversos casos prácticos de presupuestos personales y familiares simulados. Así, se constatará que identifica las posibles fuentes de ingresos familiares y que es capaz de planificar los diferentes tipos de gastos, teniendo en cuenta el ahorro, un nivel de deuda y consumo sostenible y considerando los riesgos del crédito y del endeudamiento excesivo, para reflexionar sobre la necesidad de mantener una correcta salud financiera a lo largo de todas las etapas de la vida y contribuyendo así a la consolidación de su madurez personal y social. Para todo ello, el alumnado podrá hacer uso de herramientas y aplicaciones digitales, analizando la información resultante de forma racional para la toma de decisiones sobre sus finanzas con espíritu crítico, teniendo en cuenta las implicaciones presentes y futuras de las actuaciones financieras en su entorno personal y familiar cercano y reflexionando sobre el proceso realizado y el resultado obtenido. Por último, se verificará que el alumnado es capaz de elaborar e interpretar, desde una perspectiva personal, los documentos administrativos básicos relacionados con sus finanzas, empleando el método de la simulación de las diversas operaciones mercantiles más habituales (notas de pedido, facturas, recibos, cheques, etc.) y la documentación laboral más común (nóminas y contratos de trabajo), identificando los emisores y receptores, los requisitos básicos y reconociendo la información que transmiten los distintos elementos que componen cada documento, como el papel del ente de la Seguridad Social en las cotizaciones de las nóminas, para valorar su finalidad y la importancia que la documentación tiene para la verificación y garantía de las distintas prestaciones personales, comerciales y de servicio. Para resolver todos estos retos propuestos el alumnado podrá emplear diferentes herramientas digitales que faciliten la creación y gestión colaborativa de las tareas, seleccionando y configurando la más adecuada en función de los requerimientos del proceso de aprendizaje.",
-      "broader": "materia:SECZ",
+      "broader": "asig:SECZ03",
       "agrupa": [
         "ce:SECZC2"
       ],
@@ -88,6 +99,7 @@
         "CE2"
       ],
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -97,7 +109,7 @@
       "notation": "SECZ03BC3",
       "prefLabel": "Economía Personal y Social · 3º ESO · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se constatará que el alumnado es capaz de identificar patrones de consumo responsables y analizar los principales retos a los que se enfrenta la transición ecológica para proponer soluciones sostenibles a problemas vinculados con su entorno real cercano. En primer lugar, se pretende comprobar que el alumnado es capaz de analizar la importancia de la transición ecológica y los diferentes retos del siglo XXI, estudiando la consecución general de los Objetivos de Desarrollo Sostenible, el Pacto Verde Europeo y la Agenda Canaria 2030, asociados a medidas de eficiencia doméstica, consumo responsable y relaciones de trabajo óptimas, entre otras, que ayuden a avanzar en la lucha contra la desigualdad, la pobreza, las brechas de género y el cambio climático. En segundo lugar, se verificará su capacidad para identificar de forma crítica el impacto de las pautas de consumo actuales en el entorno global y, especialmente, en el canario, debido a su especial fragilidad y vulnerabilidad, mediante el estudio de casos prácticos en diversos contextos personales, familiares y sociales, analizando las condiciones sociales, económicas y ecológicas en las que se elaboran los productos que consumimos, empleando para ello el conocimiento de las pautas estudiadas por la economía del comportamiento; analizando diversos mensajes publicitarios y el impacto de las nuevas tecnologías en el consumo, para distinguir la propuesta de valor del impulso inducido; estudiando modelos de producción y consumo alternativos como la economía circular que promuevan actitudes y acciones de consumo compatibles con este proceso; analizando las actitudes socialmente responsables de las empresas a través de la responsabilidad social corporativa y las políticas de las instituciones públicas de su entorno más cercano, todo ello para tomar conciencia de los impactos que las acciones individuales causan en nuestro entorno, inmediato y global, tanto a nivel medioambiental como social. Por último, se verificará que es capaz de proponer ideas y soluciones a las diversas problemáticas que debe afrontar la sociedad, comprendiendo las relaciones sistémicas de interdependencia y ecodependencia entre actuaciones locales y globales, mediante la aplicación de estrategias y destrezas de trabajo colaborativo y en equipo, que le permitan desarrollar una personalidad autónoma, asumiendo principios y valores relacionados con la igualdad de género, la cohesión social y la sostenibilidad. Para ello, esta competencia implica localizar, seleccionar y contrastar información procedente de diferentes fuentes (esquemas, mapas conceptuales, gráficos, textos periodísticos, entrevistas a comercios locales o instituciones públicas, programas electorales, boletines sobre transición ecológica, herramientas digitales, etc.), evaluando su fiabilidad para evitar los riesgos de manipulación y desinformación, interpretando problemas económicos provenientes de las relaciones económicas de su entorno e integrando sus reflexiones, participando en debates propuestos en el grupo clase, para desarrollar sus destrezas personales y sociales y adoptar un punto de vista creativo, crítico y personal en su proceso de aprendizaje.",
-      "broader": "materia:SECZ",
+      "broader": "asig:SECZ03",
       "agrupa": [
         "ce:SECZC3"
       ],
@@ -113,6 +125,7 @@
         "CE2"
       ],
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -134,6 +147,7 @@
         "CC4"
       ],
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -155,6 +169,7 @@
         "CC4"
       ],
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -178,6 +193,7 @@
         "CC4"
       ],
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -195,6 +211,7 @@
         "CC1"
       ],
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -216,6 +233,7 @@
         "CE2"
       ],
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -234,6 +252,7 @@
         "CE2"
       ],
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -253,6 +272,7 @@
         "CE1"
       ],
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -271,6 +291,7 @@
         "CC4"
       ],
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -293,6 +314,7 @@
         "CE2"
       ],
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -302,8 +324,9 @@
       "notation": "SECZ03SBI",
       "prefLabel": "SECZ03SBI · I. Introducción a la economía",
       "definition": "Introducción a la economía",
-      "broader": "materia:SECZ",
+      "broader": "asig:SECZ03",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -313,8 +336,9 @@
       "notation": "SECZ03SBII",
       "prefLabel": "SECZ03SBII · II. Finanzas personales",
       "definition": "Finanzas personales",
-      "broader": "materia:SECZ",
+      "broader": "asig:SECZ03",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -324,8 +348,9 @@
       "notation": "SECZ03SBIII",
       "prefLabel": "SECZ03SBIII · III. Consumo responsable y sostenibilidad",
       "definition": "Consumo responsable y sostenibilidad",
-      "broader": "materia:SECZ",
+      "broader": "asig:SECZ03",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -337,6 +362,7 @@
       "definition": "Valoración de la Economía como ciencia social.",
       "broader": "sb:SECZ03SBI",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -348,6 +374,7 @@
       "definition": "Explicación de las relaciones económicas básicas.",
       "broader": "sb:SECZ03SBI",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -359,6 +386,7 @@
       "definition": "Identificación de los agentes económicos y sus funciones en la economía. Estudio de casos.",
       "broader": "sb:SECZ03SBI.2",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -370,6 +398,7 @@
       "definition": "La representación del modelo del Flujo Circular de la Renta: las relaciones entre los agentes económicos y entre las actividades económicas. Simulaciones.",
       "broader": "sb:SECZ03SBI.2",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -381,6 +410,7 @@
       "definition": "La importancia de los bienes y servicios públicos para la economía.",
       "broader": "sb:SECZ03SBI",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -392,6 +422,7 @@
       "definition": "Reconocimiento de los principales gastos de las Administraciones públicas: estatal, autonómica y local.",
       "broader": "sb:SECZ03SBI.3",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -403,6 +434,7 @@
       "definition": "Identificación de las principales fuentes de ingresos del Estado: distinción entre la fiscalidad directa e indirecta. Los principales impuestos del sistema tributario español.",
       "broader": "sb:SECZ03SBI.3",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -414,6 +446,7 @@
       "definition": "Valoración del Régimen Económico y Fiscal de Canarias (REF). Estudio de las singularidades canarias por su lejanía e insularidad.",
       "broader": "sb:SECZ03SBI.3",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -425,6 +458,7 @@
       "definition": "Distinción de los pilares básicos del Estado del Bienestar.",
       "broader": "sb:SECZ03SBI.3",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -436,6 +470,7 @@
       "definition": "Aproximación a las variables macroeconómicas: el desempleo y la inflación.",
       "broader": "sb:SECZ03SBI",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -447,6 +482,7 @@
       "definition": "Iniciación al estudio del desempleo como problema económico, personal y social: las clases y causas del desempleo.",
       "broader": "sb:SECZ03SBI.4",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -458,6 +494,7 @@
       "definition": "Acercamiento a las causas que provocan la inflación y sus consecuencias sociales y económicas.",
       "broader": "sb:SECZ03SBI.4",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -469,6 +506,7 @@
       "definition": "El papel del dinero en la economía.",
       "broader": "sb:SECZ03SBII",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -480,6 +518,7 @@
       "definition": "Las funciones, formas y evolución del dinero.",
       "broader": "sb:SECZ03SBII.1",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -491,6 +530,7 @@
       "definition": "El dinero como medio de pago. Las características de las cuentas corrientes y la tipología de las tarjetas bancarias.",
       "broader": "sb:SECZ03SBII.1",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -502,6 +542,7 @@
       "definition": "Los principales derechos y obligaciones en las relaciones y contrataciones bancarias. Análisis de los riesgos y fraudes asociados.",
       "broader": "sb:SECZ03SBII.1",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -513,6 +554,7 @@
       "definition": "Gestión básica de las finanzas personales. Elaboración e interpretación de presupuestos sencillos: clasificación de gastos e ingresos de la economía familiar. Análisis de las ventajas del ahorro y de los riesgos del endeudamiento. Estudio de casos.",
       "broader": "sb:SECZ03SBII",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -524,6 +566,7 @@
       "definition": "Elaboración e interpretación de la documentación básica de las principales relaciones comerciales y laborales desde el punto de vista personal: facturas, cheques, recibo, contratos de trabajo y nóminas. Simulaciones.",
       "broader": "sb:SECZ03SBII",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -535,6 +578,7 @@
       "definition": "Análisis de los principales retos a los que se enfrenta la transición ecológica en el entorno canario y global. Reconocimiento de los Objetivos de Desarrollo Sostenible, del Pacto Verde Europeo y de la Agenda Canaria 2030.",
       "broader": "sb:SECZ03SBIII",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -546,6 +590,7 @@
       "definition": "Análisis de la responsabilidad social corporativa de las empresas (RSC) y de las políticas públicas: estudio de las acciones socialmente responsables que se llevan a cabo en distintos ámbitos, en el entorno canario y en el global.",
       "broader": "sb:SECZ03SBIII",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -557,6 +602,7 @@
       "definition": "Estudio de la economía circular como modelo de producción y consumo alternativo. Estudio de casos.",
       "broader": "sb:SECZ03SBIII",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -568,6 +614,7 @@
       "definition": "Identificación de patrones de consumo y análisis de los beneficios y perjuicios individuales, sociales y medioambientales de las pautas de consumo actuales.",
       "broader": "sb:SECZ03SBIII",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -579,6 +626,7 @@
       "definition": "Reconocimiento de la influencia de la publicidad en los actos de consumo. Consumismo frente a felicidad.",
       "broader": "sb:SECZ03SBIII.4",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -590,6 +638,7 @@
       "definition": "Análisis de las condiciones sociales, económicas y ecológicas en las que se elaboran los productos que se consumen para promover actitudes socialmente responsables.",
       "broader": "sb:SECZ03SBIII.4",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -601,6 +650,7 @@
       "definition": "Desarrollo de soluciones sostenibles a problemas vinculados al entorno cercano para transformar y mejorar la sociedad.",
       "broader": "sb:SECZ03SBIII",
       "materia": "materia:SECZ",
+      "materia_curso": "asig:SECZ03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     }

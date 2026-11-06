@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BFOT01",
+      "tipo": "MateriaCurso",
+      "notation": "BFOT01",
+      "prefLabel": "Fotografía · 1º Bachillerato",
+      "broader": "materia:BFOT",
+      "materia": "materia:BFOT",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BFOTC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BFOTC1",
@@ -57,7 +67,7 @@
       "notation": "BFOT01BC1",
       "prefLabel": "Fotografía · 1º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se verificará de manera directa y rigurosa, mediante la observación y el trabajo diario, si el alumnado es capaz de reconocer, comprender y explicar la evolución de la fotografía y sus antecedentes, junto con las diferentes técnicas y herramientas, y las características del lenguaje fotográfico, para valorar la obra ajena y propia, de forma creativa y responsable. También se evaluarán las necesidades de las diferentes técnicas de revelado y su funcionamiento para adquirir una base científica y un vocabulario específico de la materia, mediante el estudio y la consulta de diferentes fuentes bibliográficas, documentos gráficos y materiales audiovisuales. El alumnado debe ser capaz, además, de analizar y contrastar de manera autónoma la información y relacionarla con obras de arte universal y canario, existentes a lo largo de la historia, distinguiendo las diferentes aplicaciones y mecanismos de captura y fijación, reconociendo las diferentes corrientes estéticas de la fotografía y valorando la contribución de la mujer a su desarrollo y evolución. De esta forma, a través de su estudio podrá localizar y seleccionar aquellos resultados más adecuados, para realizar imágenes fotográficas propias y, posteriormente, compartir sus resultados de manera oral, por escrito, visual o audiovisual.",
-      "broader": "materia:BFOT",
+      "broader": "asig:BFOT01",
       "agrupa": [
         "ce:BFOTC1"
       ],
@@ -76,6 +86,7 @@
         "CP2"
       ],
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -85,7 +96,7 @@
       "notation": "BFOT01BC2",
       "prefLabel": "Fotografía · 1º Bachillerato · bloque competencial C2",
       "scopeNote": "A partir de este bloque competencial y mediante la experimentación, la investigación responsable y el uso práctico del proceso fotográfico, se verificará que el alumnado realiza la captura de las imágenes, hace el uso del lenguaje fotográfico y conoce las propiedades de la luz, del color y de la composición en los procesos fotográficos. También, se verificará si logra ser capaz de analizar las reglas básicas para realizar fotografías de manera responsable y autónoma con diferentes encuadres y puntos de vista espaciales diferentes, creando efectos, volumen y texturas propios de la luz, proporción y conocimiento espacial de los diferentes puntos de vista y significado, y tratamientos cromáticos sostenibles y creativos. Se comprobará también la capacidad de identificar y valorar de forma autónoma las potencialidades estéticas y funcionales de la fotografía, al comparar, analizar y describir de manera tolerante los resultados, individuales o colectivos, tratando con respeto las obras propias y ajenas, para acercarse al hecho artístico, a la exposición, y al lenguaje plástico propio de la materia, con la intención de realizar proyectos individuales o colectivos con una actitud positiva, asertiva y sostenible hacia el medio ambiente y el entorno urbano y natural, tanto local como global.",
-      "broader": "materia:BFOT",
+      "broader": "asig:BFOT01",
       "agrupa": [
         "ce:BFOTC2"
       ],
@@ -106,6 +117,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -115,7 +127,7 @@
       "notation": "BFOT01BC3",
       "prefLabel": "Fotografía · 1º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial, se verificará, comprobando de manera directa y rigurosa, si el alumnado es capaz de reconocer los elementos que intervienen en el tratamiento de la imagen impresa y digital, y si es capaz de editar y valorar las imágenes fotográficas con diferentes aplicaciones informáticas, mediante el uso de las herramientas digitales. Se comprobará también la optimización y el análisis de los resultados de las imágenes, usando el retoque, comprendiendo el lenguaje básico específico del diseño gráfico y digital, y valorando la importancia profesional del dominio de la edición fotográfica. Para ello, el alumnado deberá contar con imágenes propias tomadas, de forma individual o colectiva, tanto en el recinto escolar como en su entorno personal y social, para exponer de manera visual y oral, y difundir de manera impresa o digital responsablemente. El alumnado debe ser capaz de analizar las posibilidades expresivas y comunicativas de los programas de retoque fotográfico y su finalidad, para ello se adoptará una actitud crítica ante el uso de patrones y modelos de manipulación corporal, rechazando los estereotipos y las actitudes sexistas que invaden la cultura de la imagen, así como las imágenes no inclusivas, violentas o aquellas que no educan en la coeducación, en la diversidad multicultural, en la sociabilidad y en el respeto a la propia obra o a la ajena.",
-      "broader": "materia:BFOT",
+      "broader": "asig:BFOT01",
       "agrupa": [
         "ce:BFOTC3"
       ],
@@ -131,6 +143,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -140,7 +153,7 @@
       "notation": "BFOT01BC4",
       "prefLabel": "Fotografía · 1º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial, se verificará si el alumnado es capaz de comprender y planificar los procesos creativos completos del proyecto fotográfico con criterio, coherencia y creatividad, y seleccionando géneros, estilos, técnicas, materiales, equipos, programas informáticos y métodos propios del desarrollo de proyectos de fotografía, y respetuosos con la propiedad intelectual. Se comprobará, además, la capacidad de alumnado para expresar, de manera oral, visual o gráfica, las ideas, los sentimientos y las emociones, mediante imágenes fotográficas impresas o digitales que realizarán fuera o dentro del centro, de manera individual o colectiva, evaluando y comprobando los resultados, para la obtención de un producto final con valor sostenible y ecosocial, alejado de una sociedad y patrones estereotipados. Asimismo, se comprobará el dominio del trabajo de manera transdisciplinar como método que dé respuesta a un reto o problema del entorno profesional, físico, natural, social, cultural o tecnológico, desarrollando destrezas para la exposición, la comunicación, la sensibilidad ante las nuevas experiencias, el medio ambiente y el patrimonio histórico cultural global y canario.",
-      "broader": "materia:BFOT",
+      "broader": "asig:BFOT01",
       "agrupa": [
         "ce:BFOTC4"
       ],
@@ -159,6 +172,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -183,6 +197,7 @@
         "CCEC2"
       ],
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -206,6 +221,7 @@
         "CCEC2"
       ],
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -228,6 +244,7 @@
         "CCEC2"
       ],
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -248,6 +265,7 @@
         "CCEC2"
       ],
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -272,6 +290,7 @@
         "CCEC1"
       ],
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -292,6 +311,7 @@
         "CCEC2"
       ],
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -311,6 +331,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -334,6 +355,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -360,6 +382,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -369,8 +392,9 @@
       "notation": "BFOT01SBI",
       "prefLabel": "BFOT01SBI · I. Evolución de la fotografía",
       "definition": "Evolución de la fotografía",
-      "broader": "materia:BFOT",
+      "broader": "asig:BFOT01",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -380,8 +404,9 @@
       "notation": "BFOT01SBII",
       "prefLabel": "BFOT01SBII · II. La imagen y la cámara fotográfica",
       "definition": "La imagen y la cámara fotográfica",
-      "broader": "materia:BFOT",
+      "broader": "asig:BFOT01",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -391,8 +416,9 @@
       "notation": "BFOT01SBIII",
       "prefLabel": "BFOT01SBIII · III. Edición y tratamiento de la imagen digital",
       "definition": "Edición y tratamiento de la imagen digital",
-      "broader": "materia:BFOT",
+      "broader": "asig:BFOT01",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -402,8 +428,9 @@
       "notation": "BFOT01SBIV",
       "prefLabel": "BFOT01SBIV · IV. Proyectos fotográficos",
       "definition": "Proyectos fotográficos",
-      "broader": "materia:BFOT",
+      "broader": "asig:BFOT01",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -415,6 +442,7 @@
       "definition": "Conocimiento y análisis de los orígenes y la evolución histórica de la fotografía. Uso de las técnicas de captura y fijación de imágenes desde los orígenes hasta la actualidad del s. XXI. Reconocimiento de la contribución de la mujer al desarrollo de la fotografía.",
       "broader": "sb:BFOT01SBI",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -426,6 +454,7 @@
       "definition": "Análisis e interpretación del lenguaje fotográfico, y usos de los diferentes géneros de la fotografía en nuestro entorno y patrimonio canario, valorando y relacionándolos con otras disciplinas estéticas.",
       "broader": "sb:BFOT01SBI",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -437,6 +466,7 @@
       "definition": "Estudio y comportamiento de la película analógica y su comparación con los sensores digitales, comprendiendo la evolución de las cámaras y de la fotografía química y digital, las propiedades del material fotosensible y su elección para resultados sostenibles.",
       "broader": "sb:BFOT01SBI",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -448,6 +478,7 @@
       "definition": "Valoración y concienciación de los riesgos de trabajo en el laboratorio fotográfico, y funcionamiento y explicación de la importancia del buen clima en el lugar de trabajo, del orden, de la limpieza del material y del buen uso de la vestimenta.",
       "broader": "sb:BFOT01SBI",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -459,6 +490,7 @@
       "definition": "Conocimiento de los procesos de revelado y positivado en el laboratorio. Protocolos de gestión de residuos de reactivos y líquidos, y concienciación del cuidado del Medio Ambiente.",
       "broader": "sb:BFOT01SBI",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -470,6 +502,7 @@
       "definition": "Valoración crítica y estética de la utilidad de la fotografía como reflejo de los avances sociales de la ciencia y la técnica, desde la cámara oscura hasta la actualidad.",
       "broader": "sb:BFOT01SBI",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -481,6 +514,7 @@
       "definition": "Realización y explicación compositiva de fotogramas con distintos objetos y escenarios.",
       "broader": "sb:BFOT01SBI",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -492,6 +526,7 @@
       "definition": "Uso de los centros de archivos de imágenes y filmotecas como recurso educativo.",
       "broader": "sb:BFOT01SBI",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -503,6 +538,7 @@
       "definition": "Identificación y conocimiento de las partes de una cámara y los distinto tipos de cámara, usos y manipulación: réflex, analógica, digital y análisis de la cámara y reconocimiento de sus partes: objetivo, diafragma, obturador y anillo de enfoque.",
       "broader": "sb:BFOT01SBII",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -514,6 +550,7 @@
       "definition": "Conocimiento y análisis de los tipos de encuadres, reglas básicas de composición, sensibilidad y comportamiento de luz natural y artificial, puntos de vista, temperaturas de color en los procesos fotográficos. Conocimiento de las herramientas, técnicas y aplicaciones expresivas.",
       "broader": "sb:BFOT01SBII",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -525,6 +562,7 @@
       "definition": "Uso reflexivo y realización de imágenes manipulando con cámaras fotográficas los diferentes apartados de los fundamentos de captura y exposición, la técnica y el arte.",
       "broader": "sb:BFOT01SBII",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -536,6 +574,7 @@
       "definition": "Aplicación y reconocimiento de finalidades estética y funcional de la fotografía y sus aplicaciones profesionales en el siglo XXI. Aplicación sostenible, identificación y usos de la realidad social, profesional y cultural en la fotografía canaria.",
       "broader": "sb:BFOT01SBII",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -547,6 +586,7 @@
       "definition": "Conocimiento básico de los formatos de las imágenes de mapas de bits y vectoriales. Análisis de los conceptos de píxel, profundidad de píxel, modos de color, resolución, tamaño de imagen, tamaño de impresión y su selección.",
       "broader": "sb:BFOT01SBIII",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -558,6 +598,7 @@
       "definition": "Estudio y manipulación básica de imágenes y aplicación de las diferentes herramientas y tecnologías que existen en la edición y difusión de las fotografías para su mejora.",
       "broader": "sb:BFOT01SBIII",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -569,6 +610,7 @@
       "definition": "Análisis de retoques fotográficos corporales en diversos medios: publicaciones, anuncios publicitarios y creaciones multimedia, desarrollando actitudes críticas ante manifestaciones sexistas y rechazando estereotipos.",
       "broader": "sb:BFOT01SBIII",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -580,6 +622,7 @@
       "definition": "Análisis e identificación de diferentes tipos de proyectos fotográficos. Conocimiento de los procesos creativos y elementos que intervienen en la elaboración de un proyecto fotográfico.",
       "broader": "sb:BFOT01SBIV",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -591,6 +634,7 @@
       "definition": "Aplicación y estudio de las metodologías para proyectos y evaluación de aspectos fundamentales de la propiedad intelectual. Identificación de copias y falsificaciones impresas y digitales.",
       "broader": "sb:BFOT01SBIV",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -602,6 +646,7 @@
       "definition": "Valoración de la prueba y del error como método creativo para la mejora del aprendizaje.",
       "broader": "sb:BFOT01SBIV",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -613,6 +658,7 @@
       "definition": "Utilización, valoración y selección de las tecnologías de la información del lenguaje audiovisual y multimedia aplicadas a la fotografía.",
       "broader": "sb:BFOT01SBIV",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -624,6 +670,7 @@
       "definition": "Conocimiento de oportunidades de desarrollo personal, social, académico y profesional vinculadas con la materia.",
       "broader": "sb:BFOT01SBIV",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -635,6 +682,7 @@
       "definition": "Planificación y diseño de montajes expositivos para la difusión de la obra personal del alumnado.",
       "broader": "sb:BFOT01SBIV",
       "materia": "materia:BFOT",
+      "materia_curso": "asig:BFOT01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

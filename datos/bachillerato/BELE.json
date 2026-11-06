@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BELE02",
+      "tipo": "MateriaCurso",
+      "notation": "BELE02",
+      "prefLabel": "Electrotecnia · 2º Bachillerato",
+      "broader": "materia:BELE",
+      "materia": "materia:BELE",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BELEC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BELEC1",
@@ -57,7 +67,7 @@
       "notation": "BELE02BC1",
       "prefLabel": "Electrotecnia · 2º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se pretende comprobar que el alumnado conoce los principios de funcionamiento y las magnitudes asociadas a los distintos componentes activos y pasivos de los sistemas eléctricos de corriente continua, así como los distintos métodos de resolución de circuitos para determinar los parámetros del mismo. Se verificará también que es capaz de emplear herramientas digitales adecuadas para diseñar un circuito de corriente continua sencillo que dé respuesta a un problema tecnológico planteado, y de implementarlo mediante el empleo de placas de prototipado y circuitos impresos. Al mismo tiempo, se comprobará que es capaz de medir las magnitudes eléctricas en los componentes del circuito mediante la aplicación de la escala adecuada en el aparato de medida y de compararlas con el funcionamiento esperado en función de las hojas características que se hallan disponibles en los sitios web de los fabricantes, para, de este modo, localizar averías y hacer propuestas para su reparación.",
-      "broader": "materia:BELE",
+      "broader": "asig:BELE02",
       "agrupa": [
         "ce:BELEC1"
       ],
@@ -77,6 +87,7 @@
         "CE3"
       ],
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -86,7 +97,7 @@
       "notation": "BELE02BC2",
       "prefLabel": "Electrotecnia · 2º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se persigue constatar que el alumnado comprende los fundamentos básicos de la corriente alterna, e identifica y calcula valores de magnitudes representativas, como amplitud, fase, resistencia, inductancia, reactancia, factores de potencia…; a la vez que utiliza aplicaciones digitales de simulación para la representación de circuitos característicos y analiza los sistemas de seguridad asociados. Asimismo, debe ser capaz, tanto de manera individual como colaborativa, de identificar y utilizar instrumentos de medida aptos para corriente alterna, seleccionando la escala correcta, con la finalidad de detectar averías y de obtener valores de magnitudes, como tensión, resistencia, impedancia...",
-      "broader": "materia:BELE",
+      "broader": "asig:BELE02",
       "agrupa": [
         "ce:BELEC2"
       ],
@@ -102,6 +113,7 @@
         "CPSAA1.1"
       ],
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -111,7 +123,7 @@
       "notation": "BELE02BC3",
       "prefLabel": "Electrotecnia · 2º Bachillerato · bloque competencial C3",
       "scopeNote": "Con este bloque competencial se constatará que el alumnado es capaz de comprender los principios básicos de funcionamiento de las máquinas utilizadas en la producción de energía eléctrica, haciendo uso de simuladores y de aplicaciones prácticas que posibiliten, de manera colaborativa, experimentar en un entorno real. Asimismo, se valorará su capacidad para analizar los diferentes sistemas de producción, transformación, almacenamiento y vertido a la red de la energía eléctrica obtenida, a partir de fuentes de energía renovables y no renovables, valorando la necesidad de orientar los sistemas de producción hacia un modelo energético sostenible y respetuoso con el medioambiente, especialmente, en Canarias.",
-      "broader": "materia:BELE",
+      "broader": "asig:BELE02",
       "agrupa": [
         "ce:BELEC3"
       ],
@@ -131,6 +143,7 @@
         "STEM4"
       ],
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -140,7 +153,7 @@
       "notation": "BELE02BC4",
       "prefLabel": "Electrotecnia · 2º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se pretende comprobar si el alumnado es capaz de elaborar, de manera colaborativa y haciendo uso de las aplicaciones digitales adecuadas, los documentos que describan el uso, la viabilidad y la finalidad de un determinado dispositivo eléctrico o electrónico diseñado por el equipo de trabajo y de desarrollar las estrategias adecuadas para su comunicación, presentación y difusión. Asimismo, en la elaboración de dicha documentación se debe considerar el impacto medioambiental del producto, e incluir una propuesta justificada de calificación energética conforme a la normativa vigente y que pueda ser considerada en el estudio y la elección de otros productos de consumo eléctrico, así como en las edificaciones.",
-      "broader": "materia:BELE",
+      "broader": "asig:BELE02",
       "agrupa": [
         "ce:BELEC4"
       ],
@@ -162,6 +175,7 @@
         "CC4"
       ],
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -184,6 +198,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -206,6 +221,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -229,6 +245,7 @@
         "CE3"
       ],
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -252,6 +269,7 @@
         "CPSAA1.1"
       ],
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -271,6 +289,7 @@
         "CPSAA1.1"
       ],
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -288,6 +307,7 @@
         "CPSAA1.1"
       ],
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -314,6 +334,7 @@
         "CE3"
       ],
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -336,6 +357,7 @@
         "CC4"
       ],
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -358,6 +380,7 @@
         "CC4"
       ],
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -381,6 +404,7 @@
         "CPSAA3.2"
       ],
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -406,6 +430,7 @@
         "CE3"
       ],
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -427,6 +452,7 @@
         "CC4"
       ],
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -436,8 +462,9 @@
       "notation": "BELE02SBI",
       "prefLabel": "BELE02SBI · I. Conceptos y fenómenos eléctricos básicos y medidas electrotécnicas",
       "definition": "Conceptos y fenómenos eléctricos básicos y medidas electrotécnicas",
-      "broader": "materia:BELE",
+      "broader": "asig:BELE02",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -447,8 +474,9 @@
       "notation": "BELE02SBII",
       "prefLabel": "BELE02SBII · II. Circuitos eléctricos en corriente alterna",
       "definition": "Circuitos eléctricos en corriente alterna",
-      "broader": "materia:BELE",
+      "broader": "asig:BELE02",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -458,8 +486,9 @@
       "notation": "BELE02SBIII",
       "prefLabel": "BELE02SBIII · III. Máquinas eléctricas de corriente alterna",
       "definition": "Máquinas eléctricas de corriente alterna",
-      "broader": "materia:BELE",
+      "broader": "asig:BELE02",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -469,8 +498,9 @@
       "notation": "BELE02SBIV",
       "prefLabel": "BELE02SBIV · IV. Producción, almacenamiento y eficiencia energética",
       "definition": "Producción, almacenamiento y eficiencia energética",
-      "broader": "materia:BELE",
+      "broader": "asig:BELE02",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -482,6 +512,7 @@
       "definition": "Identificación de corriente continua y medición de magnitudes relacionadas en conductores óhmicos (capacidad, diferencia de potencial, fuerza electromotriz, intensidad y densidad de corriente…).",
       "broader": "sb:BELE02SBI",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -493,6 +524,7 @@
       "definition": "Aplicación de semiconductores, diodos, transistores, tiristores, mosfet, diacs y triacs en circuitos eléctricos de corriente continua; y análisis y estudio de sus valores característicos y comprobación de parámetros.",
       "broader": "sb:BELE02SBI",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -504,6 +536,7 @@
       "definition": "Aplicaciones de la carga y descarga de un condensador (temporización, filtrado de señales...).",
       "broader": "sb:BELE02SBI",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -515,6 +548,7 @@
       "definition": "Resolución de circuitos sencillos de corriente continua utilizando los procedimientos de Maxwell o Kirchhoff.",
       "broader": "sb:BELE02SBI",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -526,6 +560,7 @@
       "definition": "Uso de instrumentos de medida para circuitos y aplicación de técnicas de medida en corriente continua.",
       "broader": "sb:BELE02SBI",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -537,6 +572,7 @@
       "definition": "Montaje e integración de componentes activos y pasivos en un circuito eléctrico de corriente continua.",
       "broader": "sb:BELE02SBI",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -548,6 +584,7 @@
       "definition": "Diseño de circuitos impresos (PCB) mediante el uso de aplicaciones digitales específicas.",
       "broader": "sb:BELE02SBI",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -559,6 +596,7 @@
       "definition": "Detección y caracterización de averías en circuitos de corriente continua.",
       "broader": "sb:BELE02SBI",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -570,6 +608,7 @@
       "definition": "Identificación de características y magnitudes de la corriente alterna (amplitud, fase y desfase, frecuencia, periodo, valor instantáneo, medio y eficaz...).",
       "broader": "sb:BELE02SBII",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -581,6 +620,7 @@
       "definition": "Estudio de los efectos de la resistencia, autoinducción y capacidad en la corriente alterna.",
       "broader": "sb:BELE02SBII",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -592,6 +632,7 @@
       "definition": "Análisis de los conceptos de reactancia e impedancia: sus aplicaciones prácticas; y estudio de la variación de la impedancia con la frecuencia y representación gráfica.",
       "broader": "sb:BELE02SBII",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -603,6 +644,7 @@
       "definition": "Análisis de circuitos monofásicos de corriente alterna; y resolución de circuitos simples.",
       "broader": "sb:BELE02SBII",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -614,6 +656,7 @@
       "definition": "Cálculo de potencia, factores de potencia, corrección y representación gráfica en circuitos de corriente alterna monofásica.",
       "broader": "sb:BELE02SBII",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -625,6 +668,7 @@
       "definition": "Medición de magnitudes y detección de averías en corriente alterna.",
       "broader": "sb:BELE02SBII",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -636,6 +680,7 @@
       "definition": "Análisis de los sistemas de seguridad en instalaciones eléctricas, elementos constituyentes y sus conexiones.",
       "broader": "sb:BELE02SBII",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -647,6 +692,7 @@
       "definition": "Estudio de máquinas rotativas de corriente alterna monofásica: funcionamiento, tipos, conexionados, rendimientos y ejemplos de aplicación.",
       "broader": "sb:BELE02SBIII",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -658,6 +704,7 @@
       "definition": "Análisis de transformadores, tipos, funcionamiento, pérdidas y rendimiento.",
       "broader": "sb:BELE02SBIII",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -669,6 +716,7 @@
       "definition": "Identificación de motores trifásicos, conexionados y tipos de arranque.",
       "broader": "sb:BELE02SBIII",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -680,6 +728,7 @@
       "definition": "Aprovechamiento y valoración del uso de energías renovables y no renovables en Canarias.",
       "broader": "sb:BELE02SBIV",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -691,6 +740,7 @@
       "definition": "Análisis de los métodos de producción de energía eléctrica en instalaciones fotovoltaicas, esquemas de conexionado y equipos necesarios.",
       "broader": "sb:BELE02SBIV",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -702,6 +752,7 @@
       "definition": "Análisis de los métodos de producción de energía eléctrica en instalaciones eólicas, esquemas de conexionado y equipos necesarios.",
       "broader": "sb:BELE02SBIV",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -713,6 +764,7 @@
       "definition": "Estudio de otros tipos de producción de energía eléctrica: geotérmica, mareomotriz, undimotriz, hidrocinética...",
       "broader": "sb:BELE02SBIV",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -724,6 +776,7 @@
       "definition": "Análisis de las formas de consumo de energía: autoconsumo, plantas industriales y comunidades energéticas.",
       "broader": "sb:BELE02SBIV",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -735,6 +788,7 @@
       "definition": "Estudio de los equipos de almacenamiento de energía eléctrica.",
       "broader": "sb:BELE02SBIV",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -746,6 +800,7 @@
       "definition": "Análisis de las implicaciones de la clasificación y calificación energética para edificios y dispositivos eléctricos y electrónicos.",
       "broader": "sb:BELE02SBIV",
       "materia": "materia:BELE",
+      "materia_curso": "asig:BELE02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     }

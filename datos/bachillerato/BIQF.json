@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BIQF02",
+      "tipo": "MateriaCurso",
+      "notation": "BIQF02",
+      "prefLabel": "Informática y Digitalización II · 2º Bachillerato",
+      "broader": "materia:BIQF",
+      "materia": "materia:BIQF",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BIQFC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BIQFC1",
@@ -57,7 +67,7 @@
       "notation": "BIQF02BC1",
       "prefLabel": "Informática y Digitalización II · 2º Bachillerato · bloque competencial C1",
       "scopeNote": "Con este bloque competencial se pretende comprobar que el alumnado dispone de las herramientas necesarias para identificar y seleccionar, de forma crítica y responsable, tecnologías de almacenamiento, atendiendo a sus características y finalidad, escogiendo la mejor solución entre diversas opciones y valorando siempre la seguridad en la protección de datos y en el intercambio de información tanto de los dispositivos como de las personas. Además, se evaluará la capacidad del alumnado para configurar, mantener y gestionar, de manera adecuada, los diferentes tipos de redes informáticas, valorando su importancia dada la fragmentación del territorio canario y desarrollando estrategias para la resolución de problemas técnicos relacionados de forma segura, responsable y respetuosa, mostrando una actitud crítica y proactiva, fomentando una actitud participativa y libre de estereotipos sexistas, escogiendo la mejor solución entre diversas opciones, reformulando y aprendiendo de sus errores, priorizando y valorando la seguridad de los dispositivos y de las personas, el bienestar personal y colectivo, y aplicando criterios de reutilización de materiales y ahorro energético.",
-      "broader": "materia:BIQF",
+      "broader": "asig:BIQF02",
       "agrupa": [
         "ce:BIQFC1"
       ],
@@ -75,6 +85,7 @@
         "CE3"
       ],
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -84,7 +95,7 @@
       "notation": "BIQF02BC2",
       "prefLabel": "Informática y Digitalización II · 2º Bachillerato · bloque competencial C2",
       "scopeNote": "Mediante este bloque competencial se persigue comprobar que el alumnado es capaz de aplicar las herramientas y estrategias necesarias para configurar de manera óptima su entorno personal de aprendizaje. Con este fin, se comprobará que es capaz de generar contenidos digitales y que resuelve determinadas «situaciones problema» mediante la selección, la configuración y el uso de las aplicaciones informáticas más apropiadas de su entorno personal digital, tales como el modelado 3D; así como que elabora, publica y mantiene sitios web, adecuando el mensaje al público al que están destinados. Se valorará el respeto por la propiedad intelectual y el uso de un lenguaje inclusivo y libre de estereotipos sexistas. También se comprobará la capacidad del alumnado para hacer un uso crítico, ético, legal, saludable, seguro y sostenible de la red, así como para desarrollar una actitud crítica en la curación de contenidos, mediante la búsqueda de información con criterios de validez y calidad, contrastando la información, detectando la falsa, respetando las licencias de uso, añadiendo un valor adicional en la generación de nuevo contenido y haciendo uso de las herramientas de su entorno personal de aprendizaje.",
-      "broader": "materia:BIQF",
+      "broader": "asig:BIQF02",
       "agrupa": [
         "ce:BIQFC2"
       ],
@@ -103,6 +114,7 @@
         "CC1"
       ],
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -112,7 +124,7 @@
       "notation": "BIQF02BC3",
       "prefLabel": "Informática y Digitalización II · 2º Bachillerato · bloque competencial C3",
       "scopeNote": "Con este bloque competencial se pretende comprobar que el alumnado conoce las diferentes formas de presencia en la red y que participa de manera adecuada, adoptando medidas para la protección individual y de otras personas, y siendo consciente del impacto que la huella digital puede tener en su proyección personal, social y profesional. Con esta finalidad se comprobará que el alumnado, de forma autónoma, desarrolla y gestiona constructivamente las herramientas a su alcance con un sentido crítico y ético, siendo capaz de evaluar, de manera argumentada, los riesgos que entrañan las tecnologías digitales y de configurar adecuadamente los dispositivos, para prevenir situaciones de pérdida o exposición de datos frente a ataques maliciosos, tomando conciencia además de la existencia de leyes -española y europea-, que velan por la protección de los datos de las personas; así como de preservar el bienestar emocional y digital de las mismas. Igualmente, se verificará que es capaz hacer uso de sistemas de identificación digital para el acceso electrónico a los servicios públicos que ofrecen las diferentes administraciones, ejerciendo de este modo una ciudadanía digital activa.",
-      "broader": "materia:BIQF",
+      "broader": "asig:BIQF02",
       "agrupa": [
         "ce:BIQFC3"
       ],
@@ -129,6 +141,7 @@
         "CPSAA3.1"
       ],
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -138,7 +151,7 @@
       "notation": "BIQF02BC4",
       "prefLabel": "Informática y Digitalización II · 2º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se busca constatar que el alumnado es capaz de desarrollar programas funcionales que resuelvan problemas concretos de diversa índole, trabajando de manera individual, colaborativa y creativa. Para ello, se comprobará que el alumnado es capaz de aplicar las fases del pensamiento computacional al afrontar los retos de programación propuestos, asumiendo con responsabilidad las tareas propias y con actitud dialogante, y respetando la diversidad. Se verificará también que es capaz de identificar y utilizar los diagramas de flujo y algoritmos para representar y transmitir los procesos implicados en cada uno de los programas a desarrollar, siendo capaz de incorporar las aportaciones sugeridas por el equipo de trabajo u otros agentes, y de reformular las propuestas iniciales, si fuera necesario. Se constatará también que conoce los elementos que constituyen los lenguajes de programación y es capaz de emplear entornos de aplicación para el desarrollo colaborativo de soluciones tecnológicas innovadoras, sostenibles y éticas, destinadas a dispositivos digitales de uso común y acordes con su nivel, valorando las aportaciones de la inteligencia artificial en la gestión y el tratamiento de grandes cantidades de datos. Se verificará además que el alumnado es capaz de diseñar e integrar aplicaciones de realidad virtual y aumentada en sus proyectos.",
-      "broader": "materia:BIQF",
+      "broader": "asig:BIQF02",
       "agrupa": [
         "ce:BIQFC4"
       ],
@@ -159,6 +172,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -180,6 +194,7 @@
         "CPSAA1.1"
       ],
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -201,6 +216,7 @@
         "CE3"
       ],
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -220,6 +236,7 @@
         "CE3"
       ],
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -241,6 +258,7 @@
         "CE3"
       ],
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -263,6 +281,7 @@
         "CE3"
       ],
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -282,6 +301,7 @@
         "CC2"
       ],
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -300,6 +320,7 @@
         "CC2"
       ],
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -321,6 +342,7 @@
         "CC2"
       ],
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -344,6 +366,7 @@
         "CE3"
       ],
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -366,6 +389,7 @@
         "CPSAA3.2"
       ],
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -389,6 +413,7 @@
         "CE3"
       ],
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -413,6 +438,7 @@
         "CE3"
       ],
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -438,6 +464,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -447,8 +474,9 @@
       "notation": "BIQF02SBI",
       "prefLabel": "BIQF02SBI · I. Dispositivos digitales, sistemas operativos y de comunicación",
       "definition": "Dispositivos digitales, sistemas operativos y de comunicación",
-      "broader": "materia:BIQF",
+      "broader": "asig:BIQF02",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -458,8 +486,9 @@
       "notation": "BIQF02SBII",
       "prefLabel": "BIQF02SBII · II. Digitalización del entorno personal de aprendizaje",
       "definition": "Digitalización del entorno personal de aprendizaje",
-      "broader": "materia:BIQF",
+      "broader": "asig:BIQF02",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -469,8 +498,9 @@
       "notation": "BIQF02SBIII",
       "prefLabel": "BIQF02SBIII · III. Seguridad y bienestar digital",
       "definition": "Seguridad y bienestar digital",
-      "broader": "materia:BIQF",
+      "broader": "asig:BIQF02",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -480,8 +510,9 @@
       "notation": "BIQF02SBIV",
       "prefLabel": "BIQF02SBIV · IV. Programación",
       "definition": "Programación",
-      "broader": "materia:BIQF",
+      "broader": "asig:BIQF02",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -491,8 +522,9 @@
       "notation": "BIQF02SBV",
       "prefLabel": "BIQF02SBV · V. Tecnologías emergentes",
       "definition": "Tecnologías emergentes",
-      "broader": "materia:BIQF",
+      "broader": "asig:BIQF02",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -504,6 +536,7 @@
       "definition": "Identificación y análisis crítico de los tipos y tecnologías de almacenamiento, internas y externas, valorando la conveniencia de utilizar un tipo u otro en función de las condiciones presentes.",
       "broader": "sb:BIQF02SBI",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -515,6 +548,7 @@
       "definition": "Identificación y análisis de los distintos sistemas de codificación y almacenamiento de la información digital para la representación de valores, números, símbolos, caracteres, imágenes 2D y 3D, audio, vídeo y entornos virtuales, valorando la conveniencia de utilizar un tipo u otro en función de sus características.",
       "broader": "sb:BIQF02SBI",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -526,6 +560,7 @@
       "definition": "Identificación de los dispositivos constituyentes de las diferentes redes informáticas y análisis de su funcionamiento para realizar su adecuada conexión, configuración y mantenimiento, teniendo en cuenta su influencia dada la fragmentación del territorio canario y aplicando criterios de reutilización de materiales y ahorro energético.",
       "broader": "sb:BIQF02SBI",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -537,6 +572,7 @@
       "definition": "Edición y creación de contenidos.",
       "broader": "sb:BIQF02SBII",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -548,6 +584,7 @@
       "definition": "Diseño y creación de sitios webs.",
       "broader": "sb:BIQF02SBII.1",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -559,6 +596,7 @@
       "definition": "Aplicación de herramientas digitales de modelado en 3D.",
       "broader": "sb:BIQF02SBII.1",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -570,6 +608,7 @@
       "definition": "Aplicación de herramientas de realidad virtual y aumentada a los entornos de aprendizaje.",
       "broader": "sb:BIQF02SBII.1",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -581,6 +620,7 @@
       "definition": "Estrategias básicas para la publicación, comunicación, colaboración y difusión responsable en redes.",
       "broader": "sb:BIQF02SBII",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -592,6 +632,7 @@
       "definition": "Identificación y aplicación de los derechos de propiedad intelectual y licencias de uso de contenido.",
       "broader": "sb:BIQF02SBII.2",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -603,6 +644,7 @@
       "definition": "Detección de noticias falsas y fraudes en el periodismo digital y desarrollo de estrategias que permitan actuar en consecuencia.",
       "broader": "sb:BIQF02SBII.2",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -614,6 +656,7 @@
       "definition": "Curación de contenidos para facilitar el acceso a la información.",
       "broader": "sb:BIQF02SBII.2",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -625,6 +668,7 @@
       "definition": "Identificación y aplicación de tecnologías digitales para la accesibilidad con la finalidad de garantizar la inclusividad.",
       "broader": "sb:BIQF02SBII.2",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -636,6 +680,7 @@
       "definition": "Seguridad de los dispositivos digitales.",
       "broader": "sb:BIQF02SBIII",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -647,6 +692,7 @@
       "definition": "Identificación y aplicación de estrategias para mantener la seguridad en los dispositivos digitales y en las redes, y proteger los datos.",
       "broader": "sb:BIQF02SBIII.1",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -658,6 +704,7 @@
       "definition": "Clasificación de los códigos maliciosos en función de su capacidad de propagación, analizando sus características e identificando los elementos sobre los que actúan.",
       "broader": "sb:BIQF02SBIII.1",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -669,6 +716,7 @@
       "definition": "Gestión eficaz de la identificación y autentificación electrónica en la red.",
       "broader": "sb:BIQF02SBIII",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -680,6 +728,7 @@
       "definition": "Conocimiento de la Ley de Protección de Datos Personales y garantía de los derechos digitales. Deducción de estrategias para organizar las actividades y regular el comportamiento de las personas en las acciones más habituales. Medidas de gestión eficiente de la huella digital.",
       "broader": "sb:BIQF02SBIII",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -691,6 +740,7 @@
       "definition": "Identificación de las principales amenazas y riesgos relativas a la exposición de datos, ciberacoso, sexting, phishing…, y aplicación de medidas de prevención.",
       "broader": "sb:BIQF02SBIII",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -702,6 +752,7 @@
       "definition": "Aplicación de estrategias que permitan la protección de la privacidad y la construcción de una identidad digital positiva, favorecedora del bienestar emocional y mitigadora de violencias sexistas.",
       "broader": "sb:BIQF02SBIII",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -713,6 +764,7 @@
       "definition": "Aplicación de las fases del pensamiento computacional.",
       "broader": "sb:BIQF02SBIV",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -724,6 +776,7 @@
       "definition": "Identificación de los elementos básicos de los lenguajes de programación.",
       "broader": "sb:BIQF02SBIV",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -735,6 +788,7 @@
       "definition": "Diseño y creación de aplicaciones informáticas utilizando diferentes lenguajes de programación, incluyendo los orientados a objetos.",
       "broader": "sb:BIQF02SBIV",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -746,6 +800,7 @@
       "definition": "Identificación y análisis de aplicaciones de inteligencia artificial, big data y servidores de bases de datos.",
       "broader": "sb:BIQF02SBV",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -757,6 +812,7 @@
       "definition": "Diseño y creación de aplicaciones de realidad virtual y aumentada.",
       "broader": "sb:BIQF02SBV",
       "materia": "materia:BIQF",
+      "materia_curso": "asig:BIQF02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     }

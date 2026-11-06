@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BBIO02",
+      "tipo": "MateriaCurso",
+      "notation": "BBIO02",
+      "prefLabel": "Biología · 2º Bachillerato",
+      "broader": "materia:BBIO",
+      "materia": "materia:BBIO",
+      "curso": "curso:B02",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BBIOC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BBIOC1",
@@ -77,7 +87,7 @@
       "notation": "BBIO02BC1",
       "prefLabel": "Biología · 2º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de interpretar y analizar críticamente conceptos, procesos, métodos y experimentos de las ciencias biológicas relacionados con los distintos bloques de saberes básicos de la materia (biomoléculas, genética molecular, biología celular, metabolismo, biotecnología e inmunología) a partir de información y datos en diferentes formatos (imágenes, microfotografías, modelos, gráficos, tablas, diagramas, fórmulas, esquemas u otros) y lenguas, obtenidos de trabajos y publicaciones científicas accesibles a través de internet. También se quiere evaluar si expresa sus opiniones e intercambia información relevante de la forma más eficiente y sencilla posible, apoyándose para ello en las tecnologías digitales, comunicándola con creatividad, de forma clara, rigurosa y haciendo uso de la terminología y el formato adecuados (modelos, gráficos, tablas, vídeos, informes, diagramas, fórmulas, esquemas, símbolos o contenidos digitales, entre otros), respondiendo de manera fundamentada y precisa a las cuestiones que se le planteen. Por último, se verificará que es capaz de argumentar sobre aspectos relacionados con los saberes de la materia, considerando los puntos fuertes y débiles de diferentes posturas y defendiendo la suya de forma fundamentada, participando en diferentes interacciones comunicativas (debates, exposiciones, discusiones, mesas redondas, etc.) con actitud empática y colaborativa, abierta, flexible, receptiva y respetuosa ante la opinión de las demás personas y afrontando con actitud dialogante la pluralidad de valores e ideas. Todo ello con la finalidad de que el alumnado comprenda que la comunicación científica requiere movilizar no solo las destrezas lingüísticas, sino también las matemáticas, las digitales y el razonamiento lógico y que valore la importancia que tiene la comunicación para la colaboración y la difusión del conocimiento, contribuyendo a acelerar considerablemente los avances y descubrimientos.",
-      "broader": "materia:BBIO",
+      "broader": "asig:BBIO02",
       "agrupa": [
         "ce:BBIOC1"
       ],
@@ -95,6 +105,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -104,7 +115,7 @@
       "notation": "BBIO02BC2",
       "prefLabel": "Biología · 2º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado plantea y resuelve preguntas de forma autónoma y crea contenidos, individual o colectivamente, relacionados con cualquiera de los saberes básicos de la materia (características de las biomoléculas, relación entre determinadas enfermedades humanas y la falta o exceso de vitaminas, alteraciones del sistema inmunitario, implicaciones biológicas de la teoría celular, procesos implicados en la respiración celular, aplicaciones de la biotecnología, entre otros) mediante la localización, identificación, selección y organización de información de tipo científico procedente de fuentes variadas que le permitan enriquecer su repertorio lingüístico individual (trabajos y revistas científicas, páginas web, vídeos, foros especializados, etc.) y la posterior comunicación oral, escrita, signada o multimodal de conclusiones, en diferentes formatos y soportes, haciendo un uso crítico, legal, seguro, saludable y sostenible de las tecnologías digitales, referenciando las fuentes y respetando los derechos de autoría y haciendo un correcto uso del lenguaje científico. También se quiere verificar si contrasta la veracidad de la información encontrada, utilizando estrategias que le permitan evaluar de forma crítica la fiabilidad de las fuentes y evitar los riesgos de manipulación y desinformación, gestionando de manera responsable sus acciones, presencia y visibilidad en la red y adoptando una actitud crítica y escéptica hacia informaciones sin una base científica. Todo ello con el fin de potenciar en el alumnado tanto el sentido crítico para seleccionar las fuentes, cribar la información y quedarse con la que resulte relevante de acuerdo al fin propuesto.",
-      "broader": "materia:BBIO",
+      "broader": "asig:BBIO02",
       "agrupa": [
         "ce:BBIOC2"
       ],
@@ -121,6 +132,7 @@
         "CC3"
       ],
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -130,7 +142,7 @@
       "notation": "BBIO02BC3",
       "prefLabel": "Biología · 2º Bachillerato · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de evaluar la fiabilidad de las conclusiones de un trabajo de investigación o divulgación científica en distintas lenguas o de una experimentación de laboratorio relacionada con cualquiera de los saberes básicos de la materia (las biomoléculas, la genética molecular, biología celular, metabolismo, biotecnología e inmunología), adoptando un juicio propio y de acuerdo a la interpretación de los resultados obtenidos. Asimismo, se pretende constatar que aplica los métodos científicos para analizar con actitud crítica, explicar y transmitir información de trabajos científicos y de los medios de comunicación en diversos formatos (textos, gráficas, tablas, diagramas, esquemas, etc.), comprobando su veracidad y contrastándola mediante la observación, la experimentación o la investigación. Igualmente se pretende verificar que el alumnado es capaz de argumentar, a partir del análisis de las investigaciones biológicas realizadas en diferentes instituciones científicas de Canarias (Instituto de Productos Naturales y Agrobiología, Instituto de Medicina Legal y Ciencias Forenses, Universidad de Las Palmas de Gran Canaria, Universidad de La laguna, Instituto Universitario de Enfermedades Tropicales y Salud Pública Canaria…) sobre la contribución de la ciencia a la sociedad y el trabajo de las personas dedicadas a ella, reconociendo la labor de las mujeres en la ciencia y destacando las investigaciones de científicas canarias en el campo de la biología. Por último, se quiere comprobar si el alumnado comprende que la ciencia no es ajena a las influencias sociales, económicas y políticas de cada uno de los momentos de la historia y que su avance es paralelo al desarrollo de la tecnología y de las técnicas instrumentales, valorando la importancia del trabajo colectivo e interdisciplinar y promoviendo activamente la igualdad efectiva entre mujeres y hombres en el desarrollo de los proyectos de investigación. Todo ello con el objetivo de que el alumnado mejore y alcance un grado de desarrollo significativo del pensamiento crítico, la actitud analítica y el cultivo de la duda razonable, herramientas que le permitirán reconocer la información pseudocientífica y formarse una opinión basada en razonamientos y evidencias.",
-      "broader": "materia:BBIO",
+      "broader": "asig:BBIO02",
       "agrupa": [
         "ce:BBIOC3"
       ],
@@ -145,6 +157,7 @@
         "CC3"
       ],
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -154,7 +167,7 @@
       "notation": "BBIO02BC4",
       "prefLabel": "Biología · 2º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de plantear y resolver problemas de forma cooperativa, utilizando el pensamiento científico, métodos inductivos y deductivos propios del razonamiento matemático y recursos tecnológicos para explicar de forma argumentada, a partir de información procedente de fuentes diversas (páginas web, textos científicos, esquemas, imágenes…), fenómenos biológicos relacionados con distintos saberes básicos de la materia (el transporte a través de las membranas biológicas, el proceso osmótico, la fotosíntesis, la respiración celular, la expresión génica en procariotas, los mecanismos de acción de la respuesta inmunitaria, los mecanismos de regulación y reparación del ciclo celular, los procesos de división celular, las técnicas de ingeniería genética, etc.) y comunicar los resultados o conclusiones, apoyándose en las tecnologías digitales, mediante esquemas, mapas conceptuales interactivos, murales virtuales, animaciones, simulaciones, etc. Asimismo, se pretende evaluar si el alumnado es capaz de analizar críticamente la solución a un problema relacionado con los saberes de la materia y reformular, si fuera necesario, el procedimiento utilizado ante nuevos datos encontrados con posterioridad, mostrando una actitud positiva hacia los retos y las situaciones de incertidumbre y fortaleciendo la resiliencia para seguir probando nuevas vías de resolución en caso de falta de éxito inicial, valorando la importancia de desarrollar procesos autorregulados de aprendizaje que le permitan proponer ideas creativas y resolver los problemas con autonomía, mejorando de esta forma los resultados.",
-      "broader": "materia:BBIO",
+      "broader": "asig:BBIO02",
       "agrupa": [
         "ce:BBIOC4"
       ],
@@ -171,6 +184,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -180,7 +194,7 @@
       "notation": "BBIO02BC5",
       "prefLabel": "Biología · 2º Bachillerato · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de analizar críticamente determinadas acciones humanas relacionadas con la sostenibilidad y la salud y de argumentar, mediante la indagación en fuentes variadas, sobre la importancia de adoptar estilos de vida saludables y sostenibles, partiendo de un enfoque molecular y conectándolo con el mundo macroscópico a través del estudio del comportamiento y la función de las biomoléculas que componen nuestras células, las reacciones bioquímicas que realizan y su relevancia a nivel planetario. También se evaluará si es capaz de comunicar, utilizando diferentes formatos y soportes y apoyándose en las tecnologías digitales, sus propias conclusiones. Asimismo, se pretende constatar que el alumnado comprende las repercusiones sobre la salud del mal funcionamiento, déficit o exceso de estas biomoléculas y las relaciona con algunas enfermedades (diabetes, obesidad, arteriosclerosis y enfermedades coronarias, hipertensión, osteoporosis, hepatitis o hipercolesterolemia, entre otras) o con estilos de vida no sostenibles, causantes de sequía, desastres naturales, pérdida de biodiversidad, sobreexplotación de recursos etc., que también afectan a la salud, provocando enfermedades por desnutrición debida a la carencia de moléculas biológicas (marasmo, kwashiorkor, etc.). Finalmente, se verificará que el alumnado elabora contenidos (pódcast, murales, vídeos, informes, artículos divulgativos, folletos, etc.) y emprende acciones a nivel local (campañas de concienciación, organización de exposiciones, mesas redondas, conferencias, etc.) con una actitud fundamentada en los principios y procedimientos democráticos, el compromiso ético con la igualdad, la cohesión social, el desarrollo sostenible y el logro de la ciudadanía mundial, evaluando las necesidades y oportunidades para concienciar a la comunidad educativa y a la sociedad de la necesidad de mantener estilos de vida saludables y compatibles con el medioambiente, encaminados a la conservación de los ecosistemas y la biodiversidad canaria, así como al ahorro de recursos, que a su vez mejorarán la salud y el bienestar físicos y mentales humanos, a nivel individual y colectivo, contribuyendo de esta forma al logro de los Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030 y concretados en la Agenda Canaria de Desarrollo Sostenible 2030.",
-      "broader": "materia:BBIO",
+      "broader": "asig:BBIO02",
       "agrupa": [
         "ce:BBIOC5"
       ],
@@ -198,6 +212,7 @@
         "CE1"
       ],
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -207,7 +222,7 @@
       "notation": "BBIO02BC6",
       "prefLabel": "Biología · 2º Bachillerato · bloque competencial C6",
       "scopeNote": "A través de este bloque competencial se evaluará si el alumnado es capaz de desarrollar investigaciones que incluyan la búsqueda, selección, contraste y análisis de diversos tipos de información procedente de fuentes variadas acerca de las técnicas instrumentales y métodos de aislamiento de las moléculas de la materia viva, aplicando criterios de validez, calidad, actualidad y fiabilidad, y el diseño de experiencias de laboratorio que supongan la aplicación de metodologías analíticas, la selección y el uso preciso de materiales para aislar, identificar y clasificar biomoléculas en muestras biológicas, describiendo sus principales características fisicoquímicas y relacionándolas con su función. De igual forma se constatará si el alumnado discrimina entre los enlaces que se establecen entre los bioelementos (iónico, covalente, interacciones débiles, etc.) para formar las biomoléculas orgánicas e inorgánicas, y si reconoce las unidades básicas que las constituyen, analizando los enlaces que mantienen su estructura a través de la observación con tecnologías digitales de biomoléculas en 3D (enlaces O-glucosídico, enlaces éster, enlace peptídico, O-nucleósidos, fosfodiéster, etc.) y otros tipos de unión (puentes de hidrógeno, enlaces disulfuro, fuerzas de Van der Waals, etc.), las interacciones bioquímicas entre ellas y sus reacciones metabólicas para explicar las características y procesos vitales de los seres vivos y conectar el mundo molecular con el macroscópico, adquiriendo una visión global completa de los organismos. Asimismo, se verificará que el alumnado argumenta sobre la importancia de las biomoléculas y bioelementos en el mantenimiento de la vida y valora el alcance del desarrollo de las técnicas microscópicas en la obtención de imágenes tridimensionales de diferentes biomoléculas para la comprensión básica de la química de la vida, comunicando de forma oral, escrita, signada o multimodal sus conclusiones, en diferentes formatos y soportes, con un correcto uso del lenguaje científico.",
-      "broader": "materia:BBIO",
+      "broader": "asig:BBIO02",
       "agrupa": [
         "ce:BBIOC6"
       ],
@@ -222,6 +237,7 @@
         "CC4"
       ],
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -243,6 +259,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -264,6 +281,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -284,6 +302,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -307,6 +326,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -330,6 +350,7 @@
         "CC3"
       ],
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -351,6 +372,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -371,6 +393,7 @@
         "CC3"
       ],
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -394,6 +417,7 @@
         "CE1"
       ],
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -414,6 +438,7 @@
         "CE1"
       ],
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -439,6 +464,7 @@
         "CE1"
       ],
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -460,6 +486,7 @@
         "CPSAA4"
       ],
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -477,6 +504,7 @@
         "CC4"
       ],
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -486,8 +514,9 @@
       "notation": "BBIO02SBI",
       "prefLabel": "BBIO02SBI · I. Las biomoléculas",
       "definition": "Las biomoléculas",
-      "broader": "materia:BBIO",
+      "broader": "asig:BBIO02",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -497,8 +526,9 @@
       "notation": "BBIO02SBII",
       "prefLabel": "BBIO02SBII · II. Genética molecular",
       "definition": "Genética molecular",
-      "broader": "materia:BBIO",
+      "broader": "asig:BBIO02",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -508,8 +538,9 @@
       "notation": "BBIO02SBIII",
       "prefLabel": "BBIO02SBIII · III. Biología celular",
       "definition": "Biología celular",
-      "broader": "materia:BBIO",
+      "broader": "asig:BBIO02",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -519,8 +550,9 @@
       "notation": "BBIO02SBIV",
       "prefLabel": "BBIO02SBIV · IV. Metabolismo",
       "definition": "Metabolismo",
-      "broader": "materia:BBIO",
+      "broader": "asig:BBIO02",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -530,8 +562,9 @@
       "notation": "BBIO02SBV",
       "prefLabel": "BBIO02SBV · V. Biotecnología",
       "definition": "Biotecnología",
-      "broader": "materia:BBIO",
+      "broader": "asig:BBIO02",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -541,8 +574,9 @@
       "notation": "BBIO02SBVI",
       "prefLabel": "BBIO02SBVI · VI. Inmunología",
       "definition": "Inmunología",
-      "broader": "materia:BBIO",
+      "broader": "asig:BBIO02",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -554,6 +588,7 @@
       "definition": "Clasificación de los bioelementos según su proporción en la materia viva y su importancia biológica.",
       "broader": "sb:BBIO02SBI",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -565,6 +600,7 @@
       "definition": "Diferenciación entre las características generales de las biomoléculas orgánicas e inorgánicas. Identificación de las unidades básicas que constituyen las distintas biomoléculas orgánicas y de los enlaces que mantienen su estructura.",
       "broader": "sb:BBIO02SBI",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -576,6 +612,7 @@
       "definition": "Relación entre la estructura de la molécula de agua, sus características físicas y químicas y sus funciones biológicas.",
       "broader": "sb:BBIO02SBI",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -587,6 +624,7 @@
       "definition": "Diferenciación entre los tipos de sales minerales y su función en los seres vivos.",
       "broader": "sb:BBIO02SBI",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -598,6 +636,7 @@
       "definition": "Identificación y descripción de las características químicas, isomerías y enlaces de los monosacáridos (pentosas, hexosas en sus formas lineales y cíclicas), disacáridos y polisacáridos con mayor relevancia biológica, vinculando su composición química con su estructura y función. Valoración de la importancia de los glúcidos en la salud. Adopción y mantenimiento de estilos de vida saludables.",
       "broader": "sb:BBIO02SBI",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -609,6 +648,7 @@
       "definition": "Reconocimiento, clasificación y descripción de los lípidos, relacionando su composición química con su estructura y su función biológica. Valoración de la importancia de los lípidos en la salud. Adopción y mantenimiento de estilos de vida saludables.",
       "broader": "sb:BBIO02SBI",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -620,6 +660,7 @@
       "definition": "Reconocimiento y descripción de las proteínas atendiendo a sus características químicas, estructura y función biológica. Explicación de la función biocatalizadora de los enzimas y valoración de su importancia biológica. Valoración de la importancia de las proteínas como elementos indispensables para el crecimiento y la construcción de tejidos y órganos. Adopción y mantenimiento de estilos de vida saludables.",
       "broader": "sb:BBIO02SBI",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -631,6 +672,7 @@
       "definition": "Diseño y realización de experiencias para identificar la presencia de biomoléculas en muestras biológicas.",
       "broader": "sb:BBIO02SBI",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -642,6 +684,7 @@
       "definition": "Reconocimiento de la función biológica de las vitaminas y sales como cofactores enzimáticos. Valoración de la importancia de su incorporación en la dieta.",
       "broader": "sb:BBIO02SBI",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -653,6 +696,7 @@
       "definition": "Reconocimiento, clasificación y descripción de los diferentes tipos de ácidos nucleicos relacionando su composición química con su estructura y función biológica. Valoración de los métodos de identificación de enfermedades basados en ácidos nucleicos.",
       "broader": "sb:BBIO02SBI",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -664,6 +708,7 @@
       "definition": "Análisis de la función del ADN como portador de la información genética. Descripción del mecanismo de replicación del ADN en procariota e identificación de las enzimas implicadas.",
       "broader": "sb:BBIO02SBII",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -675,6 +720,7 @@
       "definition": "Diferenciación y descripción de las etapas de la expresión génica en procariotas (transcripción y traducción).",
       "broader": "sb:BBIO02SBII",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -686,6 +732,7 @@
       "definition": "Reconocimiento de las características fundamentales e importancia del código genético. Utilización del código genético para la resolución de problemas de Genética molecular.",
       "broader": "sb:BBIO02SBII",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -697,6 +744,7 @@
       "definition": "Descripción del concepto de mutación génica. Justificación de la importancia de las mutaciones en la selección natural, la adaptación y la evolución de las especies, valorando los riesgos que implican algunos agentes mutagénicos.",
       "broader": "sb:BBIO02SBII",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -708,6 +756,7 @@
       "definition": "Valoración de la importancia de la regulación de la expresión génica en la diferenciación celular.",
       "broader": "sb:BBIO02SBII",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -719,6 +768,7 @@
       "definition": "Caracterización de los genomas eucariotas y procariotas, identificando sus similitudes y sus diferencias.",
       "broader": "sb:BBIO02SBII",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -730,6 +780,7 @@
       "definition": "Explicación de la teoría celular valorando su importancia en el desarrollo de la biología.",
       "broader": "sb:BBIO02SBIII",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -741,6 +792,7 @@
       "definition": "Establecimiento de la influencia del desarrollo técnico de la microscopía para el conocimiento de la célula. Interpretación de imágenes de microscopía óptica y electrónica. Identificación de técnicas básicas de preparación y observación de muestras celulares.",
       "broader": "sb:BBIO02SBIII",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -752,6 +804,7 @@
       "definition": "Representación de la ultraestructura de la membrana plasmática y determinación de sus propiedades.",
       "broader": "sb:BBIO02SBIII",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -763,6 +816,7 @@
       "definition": "Descripción del proceso osmótico y sus repercusiones sobre la célula animal, vegetal y procariota.",
       "broader": "sb:BBIO02SBIII",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -774,6 +828,7 @@
       "definition": "Comparación entre los tipos de transporte de sustancias a través de la membrana plasmática (difusión simple y facilitada, transporte activo, endocitosis y exocitosis) y los tipos de moléculas transportadas con cada uno de ellos.",
       "broader": "sb:BBIO02SBIII",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -785,6 +840,7 @@
       "definition": "Análisis de los distintos tipos de orgánulos celulares eucariotas y procariotas y descripción de sus funciones básicas.",
       "broader": "sb:BBIO02SBIII",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -796,6 +852,7 @@
       "definition": "Análisis y representación esquemática del ciclo celular, haciendo mención a los procesos que se desencadenan durante la interfase. Identificación de los mecanismos de regulación y reparación del ciclo celular, valorando la importancia de los mismos en el mantenimiento de la vida.",
       "broader": "sb:BBIO02SBIII",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -807,6 +864,7 @@
       "definition": "Categorización y comparación de las distintas fases de la mitosis y la meiosis. Reconocimiento de la relación entre los procesos de división celular con los distintos tipos de reproducción y su importancia en la evolución y producción de variabilidad genética en las especies, destacando la trascendencia del proceso de recombinación y separación al azar de los cromosomas en la meiosis.",
       "broader": "sb:BBIO02SBIII",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -818,6 +876,7 @@
       "definition": "Realización de procesos de indagación sobre la relación entre el cáncer, las mutaciones y las alteraciones del ciclo celular, argumentando la correlación existente entre el cáncer y ciertos hábitos perjudiciales y valorando la importancia de mantener estilos de vida saludables.",
       "broader": "sb:BBIO02SBIII",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -829,6 +888,7 @@
       "definition": "Interpretación general del metabolismo celular: relación entre los procesos anabólicos y catabólicos. Reconocimiento del significado biológico de ambos procesos y sus implicaciones energéticas.",
       "broader": "sb:BBIO02SBIV",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -840,6 +900,7 @@
       "definition": "Descripción y ubicación en la célula de los procesos implicados en la respiración celular, diferenciando la anaeróbica (glucólisis y fermentación) de la aeróbica (β-oxidación de los ácidos grasos, ciclo de Krebs, cadena de transporte de electrones y fosforilación oxidativa) e identificando los productos iniciales y los finales de cada proceso. Explicación del significado biológico de la respiración celular.",
       "broader": "sb:BBIO02SBIV",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -851,6 +912,7 @@
       "definition": "Comparación de los rendimientos energéticos del metabolismo aeróbico y anaeróbico.",
       "broader": "sb:BBIO02SBIV",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -862,6 +924,7 @@
       "definition": "Valoración de la importancia biológica de las principales rutas del anabolismo heterótrofo (síntesis de aminoácidos, proteínas y ácidos grasos) y autótrofo (fotosíntesis y quimiosíntesis).",
       "broader": "sb:BBIO02SBIV",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -873,6 +936,7 @@
       "definition": "Análisis de las técnicas de ingeniería genética (PCR, enzimas de restricción, clonación molecular, CRISPR-Cas9, etc.) y valoración de sus aplicaciones en la cura de enfermedades, mejora de la producción animal y vegetal, etc., pero también sus riesgos y limitaciones.",
       "broader": "sb:BBIO02SBV",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -884,6 +948,7 @@
       "definition": "Apreciación de la importancia y repercusiones de la biotecnología en nuestra sociedad (aplicaciones en salud, agricultura, medioambiente, nuevos materiales, industria alimentaria, etc.), destacando el papel de los microorganismos.",
       "broader": "sb:BBIO02SBV",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -895,6 +960,7 @@
       "definition": "Análisis del concepto actual de inmunidad. Componentes del sistema inmunitario.",
       "broader": "sb:BBIO02SBVI",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -906,6 +972,7 @@
       "definition": "Descripción del funcionamiento de las defensas inespecíficas o respuesta innata: barreras primarias (piel, mucosa, pH del estómago o del intestino, microflora natural del organismo) y barreras secundarias (macrófagos y defensa fagocítica, respuesta inflamatoria) y su importancia al dificultar la entrada de patógenos.",
       "broader": "sb:BBIO02SBVI",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -917,6 +984,7 @@
       "definition": "Caracterización del funcionamiento de la defensa específica: respuesta celular y humoral. Definición de antígeno y anticuerpo.",
       "broader": "sb:BBIO02SBVI",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -928,6 +996,7 @@
       "definition": "Reconocimiento de los tipos de inmunidad (artificial y natural, pasiva y activa) y descripción de sus mecanismos de funcionamiento.",
       "broader": "sb:BBIO02SBVI",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -939,6 +1008,7 @@
       "definition": "Comparación de las características de la respuesta inmune primaria (primer contacto) y respuesta inmune secundaria (sucesivos contactos) ante la presencia de patógenos desencadenantes de enfermedades infecciosas.",
       "broader": "sb:BBIO02SBVI",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     },
@@ -950,6 +1020,7 @@
       "definition": "Investigación sobre las principales patologías del sistema inmunitario, sus causas y su relevancia clínica: alergias, enfermedades autoinmunes, inmunodeficiencias, etc.",
       "broader": "sb:BBIO02SBVI",
       "materia": "materia:BBIO",
+      "materia_curso": "asig:BBIO02",
       "curso": "curso:B02",
       "etapa": "etapa:BAC"
     }

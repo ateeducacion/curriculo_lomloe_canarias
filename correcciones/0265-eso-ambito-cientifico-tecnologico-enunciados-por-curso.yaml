@@ -1,0 +1,27 @@
+id: '0265'
+titulo: 'Ámbito Científico-Tecnológico (Educación Secundaria Obligatoria): enunciados de competencia que cambian según el
+  curso'
+motivo: 'El documento oficial da a estas competencias un enunciado distinto en algunos cursos. La competencia guarda como
+  enunciado (definition) el más repetido y, en enunciados_curso, el de los cursos en que difiere (decisión del 05-11-2026:
+  enunciado por curso antes de la 1.0).'
+fuente:
+  documento: eso-ambito-cientifico-tecnologico
+  fichero: fuentes/documentos/eso/anexo_2_curriculo_pdc_eso_ACT.odt
+  sha256: 64d8f26e9c715b667e231f20a70e91c7e1e54cfc4389a09e25d10a7ca5afe6e9
+  ubicacion: Tablas de bloques competenciales de cada curso
+estado: aprobada
+aprobada_por: Fran Mateos
+cambios:
+- nodo: ce:SAMBC1
+  campo: enunciados_curso
+  valor:
+    curso:S03: Buscar, localizar y seleccionar información a partir de fuentes fiables, contrastando su veracidad y evaluando
+      su idoneidad mediante el uso crítico y seguro de tecnologías digitales y otros recursos, para resolver preguntas y construir
+      conocimiento, fomentando la curiosidad por la ciencia y la tecnología el desarrollo personal y el aprendizaje individual
+      y colectivo.
+- nodo: ce:SAMBC5
+  campo: enunciados_curso
+  valor:
+    curso:S03: Planificar y desarrollar proyectos de investigación y proyectos tecnológicos aplicando el conocimiento científico,
+      la metodología de las ciencias, la tecnología y las estrategias propias del trabajo en equipo, para mejorar las destrezas
+      científicas y tecnológicas y comprender el mundo que nos rodea.

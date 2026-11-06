@@ -7,13 +7,14 @@
 | Etapa | 4 |
 | Curso | 18 |
 | Materia | 138 |
+| MateriaCurso | 232 |
 | CompetenciaEspecifica | 804 |
 | BloqueCompetencial | 1318 |
 | CriterioEvaluacion | 3137 |
 | BloqueSaberes | 1047 |
 | SaberBasico | 8740 |
 
-**Total:** 15206
+**Total:** 15438
 
 ## Incidencias
 
@@ -302,3 +303,10 @@
 | 0260-bachillerato-educacion-fisica-documento-frente-a-boc.yaml | aprobada | 1 | Educación Física (Bachillerato): 1 diferencias con el BOC resueltas con el documento oficial |
 | 0261-bachillerato-anatomia-aplicada-documento-frente-a-boc.yaml | aprobada | 2 | Anatomía Aplicada (Bachillerato): 2 diferencias con el BOC resueltas con el documento oficial |
 | 0262-bachillerato-psicologia-documento-frente-a-boc.yaml | aprobada | 1 | Psicología (Bachillerato): 1 diferencias con el BOC resueltas con el documento oficial |
+| 0263-primaria-conocimiento-del-medio-natural-social-y-cultural-enunciados-por-curso.yaml | aprobada | 2 | Conocimiento del Medio Natural, Social y Cultural (Educación Primaria): enunciados de competencia que cambian según el curso |
+| 0264-primaria-lengua-castellana-y-literatura-enunciados-por-curso.yaml | aprobada | 1 | Lengua Castellana y Literatura (Educación Primaria): enunciados de competencia que cambian según el curso |
+| 0265-eso-ambito-cientifico-tecnologico-enunciados-por-curso.yaml | aprobada | 2 | Ámbito Científico-Tecnológico (Educación Secundaria Obligatoria): enunciados de competencia que cambian según el curso |
+| 0266-eso-ambito-linguistico-y-social-enunciados-por-curso.yaml | aprobada | 1 | Ámbito Lingüístico y Social (Educación Secundaria Obligatoria): enunciados de competencia que cambian según el curso |
+| 0267-bachillerato-griego-i-y-ii-enunciado-competencia.yaml | aprobada | 2 | Griego I y II (Bachillerato): enunciado de competencia del documento oficial |
+| 0268-bachillerato-antropologia-y-sociologia-enunciado-competencia.yaml | aprobada | 1 | Antropología y Sociología (Bachillerato): enunciado de competencia del documento oficial |
+| 0269-bachillerato-cultura-cientifica-enunciado-competencia.yaml | aprobada | 1 | Cultura Científica (Bachillerato): enunciado de competencia del documento oficial |

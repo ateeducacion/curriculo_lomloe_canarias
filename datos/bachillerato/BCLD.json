@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BCLD01",
+      "tipo": "MateriaCurso",
+      "notation": "BCLD01",
+      "prefLabel": "Cultura Audiovisual · 1º Bachillerato",
+      "broader": "materia:BCLD",
+      "materia": "materia:BCLD",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BCLDC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BCLDC1",
@@ -57,7 +67,7 @@
       "notation": "BCLD01BC1",
       "prefLabel": "Cultura Audiovisual · 1º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de explicar los aspectos esenciales de la creación y evolución de la fotografía y el lenguaje audiovisual en las principales corrientes en la fotografía y en el cine. Se verifica, además, que es capaz de analizar las cualidades plásticas, formales y semánticas de las producciones de los distintos estilos, formatos, géneros y culturas; y de realizar interpretaciones personales del patrimonio fotográfico y audiovisual. Con todo se ello comprueba que el alumnado reflexiona sobre la necesidad de respeto de la propiedad intelectual y los derechos de autoría, y valora y adquiere consciencia de la diversidad en las manifestaciones fotográficas y audiovisuales contemporáneas y del pasado, de la flexibilidad de sus normas y códigos, de forma que se alcance el disfrute artístico de ambos lenguajes.",
-      "broader": "materia:BCLD",
+      "broader": "asig:BCLD01",
       "agrupa": [
         "ce:BCLDC1"
       ],
@@ -71,6 +81,7 @@
         "CCEC2"
       ],
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -80,7 +91,7 @@
       "notation": "BCLD01BC2",
       "prefLabel": "Cultura Audiovisual · 1º Bachillerato · bloque competencial C2",
       "scopeNote": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de evaluar el rigor ético y formal con el que se usan las herramientas de creación audiovisual, analizando diversas producciones, distinguiendo críticamente los modos de presentar las informaciones y los mensajes. Se verifica, además, que es capaz de diseñar producciones incorporando el guion literario, la escaleta, el guion técnico, el storyboard y técnicas, herramientas y convenciones del cine y televisión, utilizando su propia presencia en la imagen y la banda de sonido sincrónico y recreado, con rigor ético y formal. Todo ello con la finalidad de identificar la posible manipulación y reflexionar sobre la necesidad de respetar la protección de datos, la propiedad intelectual y los derechos de autoría e incorporar sus experiencias personales.",
-      "broader": "materia:BCLD",
+      "broader": "asig:BCLD01",
       "agrupa": [
         "ce:BCLDC2"
       ],
@@ -98,6 +109,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -107,7 +119,7 @@
       "notation": "BCLD01BC3",
       "prefLabel": "Cultura Audiovisual · 1º Bachillerato · bloque competencial C3",
       "scopeNote": "Con este bloque competencial, se comprobará que el alumnado es capaz de comprender cómo se realiza una producción audiovisual, desde el inicio, confeccionando adecuadamente los equipos de trabajo, con criterio y de manera creativa. Además se verificará que resuelve y se adapta ante las problemáticas propias del trabajo y utiliza correctamente técnicas, herramientas, convenciones del lenguaje y consigue alcanzar un resultado ajustado al proyecto para realizar creaciones audiovisuales sostenibles y respetuosas, trabajar de manera colectiva y resolver los problemas propios de este tipo de creaciones.",
-      "broader": "materia:BCLD",
+      "broader": "asig:BCLD01",
       "agrupa": [
         "ce:BCLDC3"
       ],
@@ -126,6 +138,7 @@
         "CD2"
       ],
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -135,7 +148,7 @@
       "notation": "BCLD01BC4",
       "prefLabel": "Cultura Audiovisual · 1º Bachillerato · bloque competencial C4",
       "scopeNote": "Con el desarrollo de este bloque competencial, se comprobará que el alumnado es capaz de determinar el público destinatario al que va dirigido una producción audiovisual, teniendo en cuenta el propósito de la obra. Además se verificará que es capaz de justificar y valorar de manera crítica e informada las posibilidades existentes de difusión de la producción, así como de utilizar métodos seguros, respetando la propiedad intelectual y derechos de autoría. También será capaz de seleccionar el lenguaje, el formato y los medios técnicos de dicha producción para obtener resultados inclusivos. Por último, se comprobará que consigue analizar la recepción de dichas producciones de manera abierta y respetuosa, y extraer de ello un aprendizaje para el crecimiento creativo.",
-      "broader": "materia:BCLD",
+      "broader": "asig:BCLD01",
       "agrupa": [
         "ce:BCLDC4"
       ],
@@ -151,6 +164,7 @@
         "CE3"
       ],
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -172,6 +186,7 @@
         "CCEC2"
       ],
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -193,6 +208,7 @@
         "CCEC2"
       ],
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -212,6 +228,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -234,6 +251,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -251,6 +269,7 @@
         "CE2"
       ],
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -272,6 +291,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -294,6 +314,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -316,6 +337,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -334,6 +356,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -343,8 +366,9 @@
       "notation": "BCLD01SBI",
       "prefLabel": "BCLD01SBI · I. Hitos y contemporaneidad de la fotografía y el audiovisual. Formatos audiovisuales",
       "definition": "Hitos y contemporaneidad de la fotografía y el audiovisual. Formatos audiovisuales",
-      "broader": "materia:BCLD",
+      "broader": "asig:BCLD01",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -354,8 +378,9 @@
       "notation": "BCLD01SBII",
       "prefLabel": "BCLD01SBII · II. Elementos formales y capacidad expresiva de la imagen fotográfica y el lenguaje audiovisual",
       "definition": "Elementos formales y capacidad expresiva de la imagen fotográfica y el lenguaje audiovisual",
-      "broader": "materia:BCLD",
+      "broader": "asig:BCLD01",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -365,8 +390,9 @@
       "notation": "BCLD01SBIII",
       "prefLabel": "BCLD01SBIII · III. Narrativa audiovisual",
       "definition": "Narrativa audiovisual",
-      "broader": "materia:BCLD",
+      "broader": "asig:BCLD01",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -376,8 +402,9 @@
       "notation": "BCLD01SBIV",
       "prefLabel": "BCLD01SBIV · IV. La producción audiovisual. Técnicas y procedimientos",
       "definition": "La producción audiovisual. Técnicas y procedimientos",
-      "broader": "materia:BCLD",
+      "broader": "asig:BCLD01",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -389,6 +416,7 @@
       "definition": "Conocimiento y valoración del desarrollo del lenguaje del cine y la fotografía,",
       "broader": "sb:BCLD01SBI",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -400,6 +428,7 @@
       "definition": "Conocimiento de las principales corrientes artísticas en la fotografía y el cine reconociendo las aportaciones de cada una y su especial incidencia en el concepto de género y sostenibilidad, incluidas las producciones canarias.",
       "broader": "sb:BCLD01SBI",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -411,6 +440,7 @@
       "definition": "Valoración de la repercusión económica y cultural de Canarias como entorno de producciones cinematográficas.",
       "broader": "sb:BCLD01SBI",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -422,6 +452,7 @@
       "definition": "Reconocimiento de la proyección de las corrientes artísticas en la forma y el contenido del cine y la fotografía.",
       "broader": "sb:BCLD01SBI",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -433,6 +464,7 @@
       "definition": "Acercamiento y reconocimiento de la diversidad de los distintos ámbitos de la fotografía, el medio audiovisual e internet.",
       "broader": "sb:BCLD01SBI",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -444,6 +476,7 @@
       "definition": "Visionado de distintos formatos del audiovisual y las fotografías destacando las peculiaridades formales de cada uno y reflexionando sobre su trascendencia a nivel social y en el entorno. Investigación en las producciones de los distintos formatos en Canarias.",
       "broader": "sb:BCLD01SBI",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -455,6 +488,7 @@
       "definition": "Conocimiento de los fundamentos de la exposición, enfoque, encuadre, profundidad de campo, campo y fuera de campo. Manipulación de los parámetros básicos de manejo de cámaras. Realización de prácticas con cámaras fotográficas y de video aplicando los distintos parámetros.",
       "broader": "sb:BCLD01SBII",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -466,6 +500,7 @@
       "definition": "Acercamiento a los patrones básicos de iluminación, con prácticas de luz natural y artificial, fuentes de todo tipo, flash antorchas, led.",
       "broader": "sb:BCLD01SBII",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -477,6 +512,7 @@
       "definition": "Aplicación de los principios básicos de composición de imágenes.",
       "broader": "sb:BCLD01SBII",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -488,6 +524,7 @@
       "definition": "Estudio de la simbología y psicología del color y visionado de fragmentos de cine y fotografía donde sea protagonista el uso del color.",
       "broader": "sb:BCLD01SBII",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -499,6 +536,7 @@
       "definition": "Utilización de alguna aplicación de retoque digital en video o fotografía.",
       "broader": "sb:BCLD01SBII",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -510,6 +548,7 @@
       "definition": "Valoración de las distintas funciones de la fotografía y el audiovisual, con incidencia en el poder manipulativo del medio.",
       "broader": "sb:BCLD01SBII",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -521,6 +560,7 @@
       "definition": "Realización de las distintas fases del guion. Lectura de ejemplos de obras célebres y de cortos canarios.",
       "broader": "sb:BCLD01SBIII",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -532,6 +572,7 @@
       "definition": "La utilización del storyboard y su relación con el guion técnico.",
       "broader": "sb:BCLD01SBIII",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -543,6 +584,7 @@
       "definition": "Realización de puestas en escena: utilizando distintas localizaciones, decorados (volumétricos y virtuales), caracterización, interpretación, iluminación, movimiento.",
       "broader": "sb:BCLD01SBIII",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -554,6 +596,7 @@
       "definition": "Valoración de la función de la música en el cine, conocimiento del efecto sala y realización de prácticas aplicándolo, acercamiento a las grandes compositoras y compositores de cine.",
       "broader": "sb:BCLD01SBIII",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -565,6 +608,7 @@
       "definition": "Conocimiento de tipos de montajes mediante ejemplos, manejo de aplicaciones de edición de vídeo y de efectos especiales.",
       "broader": "sb:BCLD01SBIII",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -576,6 +620,7 @@
       "definition": "Comparación del lenguaje del cine y el de la televisión.",
       "broader": "sb:BCLD01SBIII",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -587,6 +632,7 @@
       "definition": "Conocimiento de los recursos de la publicidad a través de análisis de spots.",
       "broader": "sb:BCLD01SBIII",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -598,6 +644,7 @@
       "definition": "Explicación de los equipos de cine, distribución de tareas y simulación de las funciones de cada oficio en prácticas de planos, secuencias y cortos.",
       "broader": "sb:BCLD01SBIV",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -609,6 +656,7 @@
       "definition": "Distinción de las tres fases del audiovisual: preproducción, rodaje y postproducción y utilización de software de edición.",
       "broader": "sb:BCLD01SBIV",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -620,6 +668,7 @@
       "definition": "Estudio de los distintos estilos de rodaje. Conocimiento de distintas cámaras y material de iluminación y sonido, experimentación con medios técnicos de realización: cámara y accesorios, microfonía, equipo de iluminación. Desarrollo de prácticas de grabación de sonido sincrónico y de diálogos con técnicas como el plano master entre otras.",
       "broader": "sb:BCLD01SBIV",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -631,6 +680,7 @@
       "definition": "Conocimiento de los mecanismos de difusión, exhibición y conservación, a través de archivos y filmotecas.",
       "broader": "sb:BCLD01SBIV",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -642,6 +692,7 @@
       "definition": "Acercamiento a los principales festivales de cine locales, nacionales e internacionales.",
       "broader": "sb:BCLD01SBIV",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -653,6 +704,7 @@
       "definition": "Conocimiento de la legislación de propiedad intelectual y reflexión sobre el plagio.",
       "broader": "sb:BCLD01SBIV",
       "materia": "materia:BCLD",
+      "materia_curso": "asig:BCLD01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:B6RO01",
+      "tipo": "MateriaCurso",
+      "notation": "B6RO01",
+      "prefLabel": "Proyectos Artísticos · 1º Bachillerato",
+      "broader": "materia:B6RO",
+      "materia": "materia:B6RO",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:B6ROC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "B6ROC1",
@@ -67,7 +77,7 @@
       "notation": "B6RO01BC1",
       "prefLabel": "Proyectos Artísticos · 1º Bachillerato · bloque competencial C1",
       "scopeNote": "Con este bloque competencial, se comprobará que el alumnado es capaz de generar ideas de proyecto consultando distintas fuentes. También debe ser capaz de elaborar bocetos y maquetas, y experimentar con las técnicas y estrategias artísticas más adecuadas en cada caso y de forma sostenible. Se comprobará además que el alumnado desarrolla la creatividad y es capaz de seleccionar una propuesta concreta para un proyecto, justificando su relevancia artística, su viabilidad y su sostenibilidad. Todo ello con la finalidad de adecuarlo a la intención expresiva o funcional con la que fue concebido, así como a las características del marco de recepción previsto.",
-      "broader": "materia:B6RO",
+      "broader": "asig:B6RO01",
       "agrupa": [
         "ce:B6ROC1"
       ],
@@ -85,6 +95,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -94,7 +105,7 @@
       "notation": "B6RO01BC2",
       "prefLabel": "Proyectos Artísticos · 1º Bachillerato · bloque competencial C2",
       "scopeNote": "Con el desarrollo de este bloque competencial, se comprobará que el alumnado es capaz de establecer el plan de trabajo de un proyecto artístico y organizar correctamente todas sus fases, donde además tendrá que evaluar la sostenibilidad, y ajustar el plan a los plazos, a las características del espacio y, en su caso, al presupuesto previsto. Se verificará por tanto que el alumnado consiga el resultado esperado a través de la evaluación de los recursos y factores propios de un proyecto. Para ello se comprobará también que el alumnado es capaz de proponer soluciones creativas en la organización de un proyecto artístico y buscar el máximo aprovechamiento de los recursos disponibles para ello.",
-      "broader": "materia:B6RO",
+      "broader": "asig:B6RO01",
       "agrupa": [
         "ce:B6ROC2"
       ],
@@ -111,6 +122,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -120,7 +132,7 @@
       "notation": "B6RO01BC3",
       "prefLabel": "Proyectos Artísticos · 1º Bachillerato · bloque competencial C3",
       "scopeNote": "Con este bloque competencial, se comprobará que el alumnado es capaz de realizar proyectos artísticos, individuales o colectivos, pudiendo así participar activamente en ellos y asumir diferentes funciones. Igualmente puede seleccionar los espacios, las técnicas, los medios y los soportes más adecuados, para expresar una intención expresiva o funcional y provocar un determinado efecto en el entorno. Es capaz de explicar y argumentar de forma razonada las decisiones que ha adoptado en relación a la ejecución del proyecto, asegurar la coherencia de estas decisiones con la intención expresiva o funcional y de detallar los efectos que se espera que este tenga en el entorno. También se verificará que el alumnado es capaz de identificar oportunidades de desarrollo personal, social, académico o profesional relacionadas con el ámbito artístico, comprender su valor añadido y expresar su opinión personal de forma crítica y respetuosa.",
-      "broader": "materia:B6RO",
+      "broader": "asig:B6RO01",
       "agrupa": [
         "ce:B6ROC3"
       ],
@@ -139,6 +151,7 @@
         "CC3"
       ],
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -148,7 +161,7 @@
       "notation": "B6RO01BC4",
       "prefLabel": "Proyectos Artísticos · 1º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque, se comprobará que el alumnado es capaz de evaluar la repercusión, sostenibilidad e impacto de los proyectos en el entorno con una metodología proyectual, y analizar el logro de la intención inicial planteada, así como la pertinencia de la generación y selección de propuestas y soluciones puestas en práctica ante las dificultades afrontadas a lo largo del proceso. Todo ello con la finalidad de compartir, a través de diversos medios y soportes, las distintas fases del proyecto: evaluándose, poniéndolo en relación con el resultado final, aplicando estrategias de trabajo en equipo, distribuyendo las tareas, compartiendo liderazgo y resolviendo conflictos. Además, recibirá y recabará de manera abierta y respetuosa las críticas, los comentarios y las aportaciones de mejora formuladas por distintas personas, incluido el público receptor e incorporará de manera justificada aquellas que redunden en beneficio del proyecto y de su desarrollo personal.",
-      "broader": "materia:B6RO",
+      "broader": "asig:B6RO01",
       "agrupa": [
         "ce:B6ROC4"
       ],
@@ -165,6 +178,7 @@
         "CCEC2"
       ],
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -174,7 +188,7 @@
       "notation": "B6RO01BC5",
       "prefLabel": "Proyectos Artísticos · 1º Bachillerato · bloque competencial C5",
       "scopeNote": "Con este bloque competencial, se comprobará que el alumnado es capaz de garantizar la accesibilidad del proyecto y la facilidad de su recuperación y adoptar un enfoque reflexivo y de autoevaluación con la finalidad de seleccionar diversas fuentes para la elaboración del proyecto justificando su utilidad teórica, informativa o inspiradora, y elaborar la documentación con estrategias, técnicas y soportes de documentación de registro y archivo necesarias para desarrollar un proyecto artístico. También deberá considerar las posibilidades de aplicación y tendrá que ajustarse a los modelos más adecuados, registrando las distintas fases del proyecto, archivando correctamente la documentación y difundiendo los resultados.",
-      "broader": "materia:B6RO",
+      "broader": "asig:B6RO01",
       "agrupa": [
         "ce:B6ROC5"
       ],
@@ -189,6 +203,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -212,6 +227,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -230,6 +246,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -249,6 +266,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -269,6 +287,7 @@
         "CCEC4.1"
       ],
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -291,6 +310,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -310,6 +330,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -330,6 +351,7 @@
         "CCEC3.1"
       ],
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -352,6 +374,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -369,6 +392,7 @@
         "CCEC2"
       ],
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -391,6 +415,7 @@
         "CCEC4.2"
       ],
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -400,8 +425,9 @@
       "notation": "B6RO01SBI",
       "prefLabel": "B6RO01SBI · I. Desarrollo de la creatividad",
       "definition": "Desarrollo de la creatividad",
-      "broader": "materia:B6RO",
+      "broader": "asig:B6RO01",
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -411,8 +437,9 @@
       "notation": "B6RO01SBII",
       "prefLabel": "B6RO01SBII · II. Gestión de proyectos artísticos",
       "definition": "Gestión de proyectos artísticos",
-      "broader": "materia:B6RO",
+      "broader": "asig:B6RO01",
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -424,6 +451,7 @@
       "definition": "Identificación de los distintos tipos y técnicas de creatividad a través del juego, para convertirla en una destreza personal y en una herramienta de expresión artística.",
       "broader": "sb:B6RO01SBI",
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -435,6 +463,7 @@
       "definition": "Análisis de las estrategias y técnicas de fomento y desarrollo de la creatividad e identificación de ambientes creativos. Creación de situaciones y formulación de propuestas en ambientes creativos.",
       "broader": "sb:B6RO01SBI",
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -446,6 +475,7 @@
       "definition": "Experimentación con las distintas maneras de superar los bloqueos creativos. Desarrollo de estrategias de superación del bloqueo creativo e investigación en las distintas corrientes artísticas que han utilizado técnicas de desbloqueo, especialmente en las vanguardias del siglo XX en el mundo y en Canarias en particular.",
       "broader": "sb:B6RO01SBI",
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -457,6 +487,7 @@
       "definition": "Aplicación de la metodología proyectual. Generación y selección de propuestas. Planificación, gestión y evaluación de proyectos artísticos. Difusión de resultados. Simulación de proyectos y posible ejecución de algún proyecto, teniendo en cuenta todas sus fases.",
       "broader": "sb:B6RO01SBII",
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -468,6 +499,7 @@
       "definition": "Desarrollo de estrategias de trabajo en equipo. Distribución de tareas y liderazgo compartido. Implementación de un proyecto artístico en grupo donde se resuelva un conflicto grupal mediante la utilización de soportes audiovisuales y de otras manifestaciones como instalaciones, happening o performance.",
       "broader": "sb:B6RO01SBII",
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -479,6 +511,7 @@
       "definition": "Trabajo con técnicas y soportes de documentación, registro y archivo y simulación con producciones realizadas por el alumnado.",
       "broader": "sb:B6RO01SBII",
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -490,6 +523,7 @@
       "definition": "Planificación y diseño de montajes expositivos para la difusión de la obra personal del alumnado.",
       "broader": "sb:B6RO01SBII",
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -501,6 +535,7 @@
       "definition": "Revisión de la sostenibilidad y el impacto de los proyectos artísticos siendo conscientes del problema medioambiental en Canarias y de la limitación de sus recursos. Desarrollo de proyectos artísticos sostenibles y con conciencia ecológica reflexionando sobre la relación del Arte Povera y el Land Art, otras vanguardias y manifestaciones del arte contemporáneo como el arte objetual o las instalaciones con el medio natural y el entorno.",
       "broader": "sb:B6RO01SBII",
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -512,6 +547,7 @@
       "definition": "Generación de oportunidades de desarrollo personal, social, académico y profesional relacionadas con el ámbito artístico y el emprendimiento cultural valorando los beneficios emocionales, creativos y psicológicos de los proyectos artísticos. Relación de los proyectos vinculados con el entorno natural, con el patrimonio artístico cultural canario, con el fomento de la conciencia de los beneficios del arte en la comunidad y con contenido social.",
       "broader": "sb:B6RO01SBII",
       "materia": "materia:B6RO",
+      "materia_curso": "asig:B6RO01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

@@ -12,6 +12,16 @@
       "etapa": "etapa:BAC"
     },
     {
+      "id": "asig:BLAI01",
+      "tipo": "MateriaCurso",
+      "notation": "BLAI01",
+      "prefLabel": "Latín I · 1º Bachillerato",
+      "broader": "materia:BLAI",
+      "materia": "materia:BLAI",
+      "curso": "curso:B01",
+      "etapa": "etapa:BAC"
+    },
+    {
       "id": "ce:BLAIC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "BLAIC1",
@@ -67,7 +77,7 @@
       "notation": "BLAI01BC1",
       "prefLabel": "Latín I · 1º Bachillerato · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se pretende constatar que el alumnado reconoce el alfabeto latino y sus características fonéticas, gráficas y prosódicas, leyendo frases o textos latinos de manera progresiva y correcta. Deberá ser capaz, además, de analizar morfológica y sintácticamente textos sencillos y aplicar estrategias y herramientas para la traducción de textos latinos y para la resolución de problemas, que contrastará para reformular las hipótesis, al mismo tiempo que llevará a cabo ejercicios simples de retroversión, puesto que la traducción de estos textos constituye el núcleo del proceso de aprendizaje de las lenguas clásicas. Esto hará que el alumnado logre no solo expresarse de forma oral y escrita, para crear conocimiento, intercambiarlo, aceptar el error como parte del proceso de aprendizaje y desarrollar una actitud positiva de superación; sino también comprender, interpretar y valorar diferentes textos orales, escritos y multimodales, localizando, seleccionando y contrastando información de diferentes fuentes. Con todo ello y a través de actividades de autorreparación, autoevaluación y coevaluación, podrá analizar y valorar, de manera crítica, la diversidad lingüística y cultural, y lograr el desarrollo personal y social.",
-      "broader": "materia:BLAI",
+      "broader": "asig:BLAI01",
       "agrupa": [
         "ce:BLAIC1"
       ],
@@ -84,6 +94,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -93,7 +104,7 @@
       "notation": "BLAI01BC2",
       "prefLabel": "Latín I · 1º Bachillerato · bloque competencial C2",
       "scopeNote": "Se pretende comprobar que el alumnado es capaz de inferir el significado etimológico de los términos latinos mediante el uso de métodos inductivos y deductivos, de modo que le permita desarrollar y ampliar su repertorio lingüístico individual. Deberá conocer los mecanismos de las lenguas para construir palabras, así como los principales formantes latinos presentes en la lengua cotidiana, las ciencias y la tecnología, al mismo tiempo que busca la adquisición de estrategias que le permitan enriquecer el vocabulario y su expresión oral y escrita para crear lazos léxicos, que faciliten el aprendizaje de otras lenguas o ampliar el conocimiento de las que ya se dominan. Del mismo modo, se pretende que comprenda los cambios fonéticos más importantes del latín al castellano y reconozca los dobletes, diferenciando entre un cultismo y una palabra patrimonial, para comprender la naturaleza propia de la lengua como algo vivo y cambiante a lo largo de los siglos, poniendo en práctica el uso correcto de la lengua a la hora de analizar, comparar y valorar la información de manera crítica y como desarrollo personal en una sociedad igualitaria y cohesionada.",
-      "broader": "materia:BLAI",
+      "broader": "asig:BLAI01",
       "agrupa": [
         "ce:BLAIC2"
       ],
@@ -106,6 +117,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -115,7 +127,7 @@
       "notation": "BLAI01BC3",
       "prefLabel": "Latín I · 1º Bachillerato · bloque competencial C3",
       "scopeNote": "Mediante este bloque competencial se contribuye al desarrollo del alumnado, puesto que deberá ser capaz de interpretar breves fragmentos de textos clásicos latinos pertenecientes a diferentes géneros y épocas, mediante una lectura comprensiva, con actitud crítica y valorando la diversidad lingüística y literaria que ofrecen estas obras. Se busca un primer acercamiento a la literatura latina mediante los textos significativos de los distintos géneros y autores, de manera que pueda lograr una autonomía en la lectura y producir textos escolares con intencionalidad estética y con ayuda de diferentes soportes y lenguajes, en los que refleje los conocimientos adquiridos sobre estas cuestiones y su pervivencia en la literatura posterior, tras un proceso de búsqueda en internet, investigación y comparación de la información, de modo que pueda crear contenidos digitales, con la finalidad de formar su propio conocimiento en la construcción de la identidad personal y de compartirlo en un entorno social, arropado por la diversidad cultural y artística.",
-      "broader": "materia:BLAI",
+      "broader": "asig:BLAI01",
       "agrupa": [
         "ce:BLAIC3"
       ],
@@ -130,6 +142,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -139,7 +152,7 @@
       "notation": "BLAI01BC4",
       "prefLabel": "Latín I · 1º Bachillerato · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se busca comprobar que el alumnado puede entender los tres ejes principales sobre los que se vertebra esta competencia: privado, religioso y sociopolítico, aspectos fundamentales de la sociedad romana, mediante las búsquedas avanzadas de información en distintos soportes, tanto físicos como digitales, y en grupo o de manera individual, en las que se precisa de estrategias para consultar, seleccionar y contrastar información. En este sentido, deberá reconocer alguno de los saberes de esta competencia como: los enclaves geográficos de mayor relevancia en el devenir de la civilización romana, así como los hitos históricos, políticos y sociales más relevantes de Roma, asociándolos a cada una de sus épocas; las religiones que había en esa civilización, basadas en el monoteísmo, el politeísmo o el zoomorfismo; y las características principales de los miembros familiares y sus roles, haciendo especial hincapié en el papel de la mujer en el mundo antiguo. Todo esto tiene como finalidad elaborar producciones, haciendo uso de la correcta expresión oral y escrita, en los que plasme sus reflexiones sobre el legado y la tradición clásica, a través del uso responsable de los soportes digitales, al mismo tiempo que refuerza un pensamiento propio, crítico, respetuoso y tolerante con la sociedad, en general, y con las personas de su entorno, en particular, sabiendo que existe una variedad diatópica y diacrónica de las distintas culturas, en especial, de la europea occidental, y que los posibles conflictos se solucionan mediante la vía del diálogo y de la igualdad de derechos.",
-      "broader": "materia:BLAI",
+      "broader": "asig:BLAI01",
       "agrupa": [
         "ce:BLAIC4"
       ],
@@ -157,6 +170,7 @@
         "CPSAA3.1"
       ],
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -166,7 +180,7 @@
       "notation": "BLAI01BC5",
       "prefLabel": "Latín I · 1º Bachillerato · bloque competencial C5",
       "scopeNote": "El último bloque competencial pretende constatar que el alumnado reconoce y valora el patrimonio, material e inmaterial, que el mundo moderno, en especial, el occidental, debe al legado y a la herencia romanos, analizando los fenómenos históricos y culturales desde un punto de vista objetivo y crítico, puesto que este es un producto que hay que conservar y preservar por su autenticidad y excepcionalidad histórica. Esta competencia debe comprobar, por tanto, que el alumnado identifica la mitología como un elemento inspirador para la composición de obras artísticas de todos los tiempos, sobre todo las de los creadores y las creadoras canarios; y que conoce básicamente el proceso de construcción, conservación, preservación y restauración de las obras públicas y del urbanismo legado por Roma, reconociéndolo como parte de la romanización de lo que se conocía en aquella época como Hispania. Deberá saber seleccionar los datos adecuados y contrastar la información obtenida, a través de diferentes soportes para reflejarlos, de manera guiada, en la elaboración o reelaboración de producciones en diferentes formatos y plataformas que permitan valorar la pervivencia del mundo clásico en Europa y en España, y su repercusión, en particular, en Canarias.",
-      "broader": "materia:BLAI",
+      "broader": "asig:BLAI01",
       "agrupa": [
         "ce:BLAIC5"
       ],
@@ -182,6 +196,7 @@
         "CE1"
       ],
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -200,6 +215,7 @@
         "CC1"
       ],
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -217,6 +233,7 @@
         "STEM2"
       ],
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -237,6 +254,7 @@
         "CD1"
       ],
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -255,6 +273,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -272,6 +291,7 @@
         "STEM1"
       ],
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -290,6 +310,7 @@
         "CPSAA5"
       ],
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -310,6 +331,7 @@
         "CCEC2"
       ],
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -331,6 +353,7 @@
         "CCEC3.2"
       ],
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -351,6 +374,7 @@
         "CCEC1"
       ],
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -373,6 +397,7 @@
         "CCEC1"
       ],
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -395,6 +420,7 @@
         "CCEC2"
       ],
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -416,6 +442,7 @@
         "CCEC2"
       ],
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -425,8 +452,9 @@
       "notation": "BLAI01SBI",
       "prefLabel": "BLAI01SBI · I. El texto: comprensión y traducción",
       "definition": "El texto: comprensión y traducción",
-      "broader": "materia:BLAI",
+      "broader": "asig:BLAI01",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -436,8 +464,9 @@
       "notation": "BLAI01SBII",
       "prefLabel": "BLAI01SBII · II. Plurilingüismo",
       "definition": "Plurilingüismo",
-      "broader": "materia:BLAI",
+      "broader": "asig:BLAI01",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -447,8 +476,9 @@
       "notation": "BLAI01SBIII",
       "prefLabel": "BLAI01SBIII · III. Educación literaria",
       "definition": "Educación literaria",
-      "broader": "materia:BLAI",
+      "broader": "asig:BLAI01",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -458,8 +488,9 @@
       "notation": "BLAI01SBIV",
       "prefLabel": "BLAI01SBIV · IV. La antigua Roma",
       "definition": "La antigua Roma",
-      "broader": "materia:BLAI",
+      "broader": "asig:BLAI01",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -469,8 +500,9 @@
       "notation": "BLAI01SBV",
       "prefLabel": "BLAI01SBV · V. Legado y patrimonio",
       "definition": "Legado y patrimonio",
-      "broader": "materia:BLAI",
+      "broader": "asig:BLAI01",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -482,6 +514,7 @@
       "definition": "Unidades lingüísticas de la lengua latina",
       "broader": "sb:BLAI01SBI",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -493,6 +526,7 @@
       "definition": "Conocimiento del abecedario, la pronunciación y la acentuación del latín para su correcta escritura, lectura y entonación.",
       "broader": "sb:BLAI01SBI.1",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -504,6 +538,7 @@
       "definition": "Distinción las clases de palabras (sustantivos, verbos, adjetivos…) y su correcta clasificación.",
       "broader": "sb:BLAI01SBI.1",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -515,6 +550,7 @@
       "definition": "Comprensión del concepto de lengua flexiva: flexión nominal y pronominal (sistema casual y declinaciones) y flexión verbal (sistema de conjugaciones).",
       "broader": "sb:BLAI01SBI.1",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -526,6 +562,7 @@
       "definition": "Reconocimiento de las funciones sintácticas de los casos.",
       "broader": "sb:BLAI01SBI.1",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -537,6 +574,7 @@
       "definition": "Manejo y análisis de estructuras oracionales simples y compuestas más frecuentes",
       "broader": "sb:BLAI01SBI.1",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -548,6 +586,7 @@
       "definition": "Establecimiento de relaciones básicas de concordancia: sustantivo + adjetivo y sustantivo/pronombre + verbo.",
       "broader": "sb:BLAI01SBI.1.5",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -559,6 +598,7 @@
       "definition": "Conocimiento de la disposición de las palabras latinas en una frase.",
       "broader": "sb:BLAI01SBI.1.5",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -570,6 +610,7 @@
       "definition": "Clasificación de las formas nominales del verbo.",
       "broader": "sb:BLAI01SBI.1",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -581,6 +622,7 @@
       "definition": "Reconocimiento general de las estructuras lingüísticas en castellano.",
       "broader": "sb:BLAI01SBI.1",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -592,6 +634,7 @@
       "definition": "La traducción: técnicas, procesos y herramientas",
       "broader": "sb:BLAI01SBI",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -603,6 +646,7 @@
       "definition": "Análisis morfosintáctico como herramienta de traducción.",
       "broader": "sb:BLAI01SBI.2",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -614,6 +658,7 @@
       "definition": "Aplicación de estrategias de traducción:",
       "broader": "sb:BLAI01SBI.2",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -625,6 +670,7 @@
       "definition": "Formulación de expectativas a partir del entorno textual (título, obra…) y del propio texto (campos temáticos, familias de palabras…), así como a partir del contexto.",
       "broader": "sb:BLAI01SBI.2.2",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -636,6 +682,7 @@
       "definition": "Identificación del tema y breve descripción de la estructura y género.",
       "broader": "sb:BLAI01SBI.2.2",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -647,6 +694,7 @@
       "definition": "Acercamiento a las peculiaridades lingüísticas de los textos traducidos (discurso directo/indirecto, uso de tiempos verbales, géneros verbales, pregunta retórica…).",
       "broader": "sb:BLAI01SBI.2.2",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -658,6 +706,7 @@
       "definition": "Identificación de errores frecuentes de traducción y técnicas para evitarlos (comprobación de si la traducción está completa, control de acuerdo a criterios dados, delimitación de construcciones sintácticas…).",
       "broader": "sb:BLAI01SBI.2.2",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -669,6 +718,7 @@
       "definition": "Búsqueda y aplicación de herramientas de traducción: glosarios, diccionarios, atlas o correctores ortográficos en soporte analógico o digital…",
       "broader": "sb:BLAI01SBI.2",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -680,6 +730,7 @@
       "definition": "Lectura comparada de diferentes traducciones y comentario de textos bilingües a partir de terminología metalingüística.",
       "broader": "sb:BLAI01SBI.2",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -691,6 +742,7 @@
       "definition": "Recursos estilísticos frecuentes y su relación con el contenido del texto.",
       "broader": "sb:BLAI01SBI.2",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -702,6 +754,7 @@
       "definition": "Uso de estrategias básicas de retroversión de oraciones y textos breves, de manera que se trabaje la morfosintaxis casual de manera activa.",
       "broader": "sb:BLAI01SBI.2",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -713,6 +766,7 @@
       "definition": "Uso de la traducción como instrumento que favorece el razonamiento lógico, la constancia, la memoria, la resolución de problemas y la capacidad de análisis y síntesis.",
       "broader": "sb:BLAI01SBI.2",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -724,6 +778,7 @@
       "definition": "Aceptación del error como parte del proceso de aprendizaje y actitud positiva de superación.",
       "broader": "sb:BLAI01SBI.2",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -735,6 +790,7 @@
       "definition": "Uso de estrategias y herramientas, analógicas y digitales, individuales y cooperativas, para la autoevaluación, la coevaluación y la autorreparación.",
       "broader": "sb:BLAI01SBI.2",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -746,6 +802,7 @@
       "definition": "Identificación de los diferentes sistemas de escritura a lo largo de la historia.",
       "broader": "sb:BLAI01SBII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -757,6 +814,7 @@
       "definition": "Reconocimiento del origen del latín a partir de las lenguas indoeuropeas.",
       "broader": "sb:BLAI01SBII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -768,6 +826,7 @@
       "definition": "Identificación de las etapas de la lengua latina: acercamiento al latín vulgar y latín culto.",
       "broader": "sb:BLAI01SBII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -779,6 +838,7 @@
       "definition": "Valoración de la influencia del latín en la evolución del castellano y del resto de lenguas que conforman el repertorio lingüístico individual del alumnado.",
       "broader": "sb:BLAI01SBII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -790,6 +850,7 @@
       "definition": "Localización y distinción de las diferentes lenguas habladas en España, romances o no romances, así como de las distintas variedades dialectales como el español de Canarias.",
       "broader": "sb:BLAI01SBII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -801,6 +862,7 @@
       "definition": "Identificación de las reglas fonéticas sencillas en la evolución del latín al castellano, distinguiendo entre cultismos y palabras patrimoniales.",
       "broader": "sb:BLAI01SBII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -812,6 +874,7 @@
       "definition": "Acercamiento a los procedimientos de derivación y composición de palabras españolas con componentes léxicos latinos.",
       "broader": "sb:BLAI01SBII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -823,6 +886,7 @@
       "definition": "Identificación de lexemas, sufijos y prefijos de origen latino presentes en el léxico de uso común y en el específico de las ciencias y la técnica, infiriendo el significado y la definición de palabras de uso común en las lenguas de enseñanza a partir de sus étimos de origen latino.",
       "broader": "sb:BLAI01SBII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -834,6 +898,7 @@
       "definition": "Empleo de expresiones latinas integradas en las lenguas modernas, en la lengua coloquial y en diferentes tipos de textos (literarios, periodísticos, publicitarios…), así como en los medios de comunicación y las redes sociales.",
       "broader": "sb:BLAI01SBII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -845,6 +910,7 @@
       "definition": "Interés por conocer el significado etimológico de las palabras: importancia del uso adecuado del vocabulario como instrumento básico en la comunicación.",
       "broader": "sb:BLAI01SBII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -856,6 +922,7 @@
       "definition": "Reconocimiento del latín como instrumento que permite un mejor conocimiento de las lenguas de estudio y un más fácil acercamiento a otras lenguas modernas, romances y no romances.",
       "broader": "sb:BLAI01SBII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -867,6 +934,7 @@
       "definition": "Respeto por todas las lenguas y aceptación de las diferencias culturales de las personas que las hablan.",
       "broader": "sb:BLAI01SBII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -878,6 +946,7 @@
       "definition": "Reconocimiento de herramientas analógicas y digitales para el aprendizaje, la comunicación y el desarrollo de proyectos con hablantes o estudiantes de latín a nivel transnacional.",
       "broader": "sb:BLAI01SBII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -889,6 +958,7 @@
       "definition": "Reflexión acerca de expresiones y léxico específico básico sobre la comunicación, la lengua, el aprendizaje y las herramientas de comunicación y aprendizaje (metalenguaje).",
       "broader": "sb:BLAI01SBII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -900,6 +970,7 @@
       "definition": "Acercamiento a la lengua latina como principal vía de transmisión de los conocimientos del mundo clásico (historia, arte, literatura, ingeniería…).",
       "broader": "sb:BLAI01SBIII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -911,6 +982,7 @@
       "definition": "Identificación de las diferentes etapas y vías de transmisión de la literatura latina, para contextualizar adecuadamente los autores y géneros en el momento correcto.",
       "broader": "sb:BLAI01SBIII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -922,6 +994,7 @@
       "definition": "Aproximación a los principales géneros de la literatura latina: origen, tipología, cronología, temas, motivos, tradición, características y principales autores.",
       "broader": "sb:BLAI01SBIII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -933,6 +1006,7 @@
       "definition": "Aprendizaje y uso de técnicas básicas para el comentario y análisis lingüístico y literario de los textos literarios latinos.",
       "broader": "sb:BLAI01SBIII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -944,6 +1018,7 @@
       "definition": "Recepción de la literatura latina:",
       "broader": "sb:BLAI01SBIII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -955,6 +1030,7 @@
       "definition": "Valoración de la influencia de la literatura latina en la producción cultural europea.",
       "broader": "sb:BLAI01SBIII.5",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -966,6 +1042,7 @@
       "definition": "Aprendizaje de nociones básicas de intertextualidad: imitatio y aemulatio.",
       "broader": "sb:BLAI01SBIII.5",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -977,6 +1054,7 @@
       "definition": "Identificación de las analogías y diferencias entre los géneros literarios latinos y los de la literatura actual.",
       "broader": "sb:BLAI01SBIII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -988,6 +1066,7 @@
       "definition": "Breve iniciación a la crítica literaria: análisis y valoración de la literatura latina.",
       "broader": "sb:BLAI01SBIII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -999,6 +1078,7 @@
       "definition": "Interés hacia la literatura de autores clásicos como fuente de placer y de conocimiento del mundo.",
       "broader": "sb:BLAI01SBIII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1010,6 +1090,7 @@
       "definition": "Respeto de la propiedad intelectual y de los derechos de autor sobre las fuentes consultadas y contenidos utilizados: herramientas para el tratamiento de datos bibliográficos y recursos para evitar el plagio.",
       "broader": "sb:BLAI01SBIII",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1021,6 +1102,7 @@
       "definition": "Identificación de los aspectos más relevantes de la geografía en el proceso de expansión de Roma desde su nacimiento hasta la desaparición del Imperio romano.",
       "broader": "sb:BLAI01SBIV",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1032,6 +1114,7 @@
       "definition": "Reconocimiento de las ciudades y los lugares más relevantes de la antigua Roma y la función de de cada uno de estos (foros, basílicas, anfiteatros, circos…).",
       "broader": "sb:BLAI01SBIV",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1043,6 +1126,7 @@
       "definition": "Estudio de las etapas y de los periodos históricos de Roma:",
       "broader": "sb:BLAI01SBIV",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1054,6 +1138,7 @@
       "definition": "Reconocimiento de los principales sistemas políticos de Roma: Monarquía, República e Imperio.",
       "broader": "sb:BLAI01SBIV.3",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1065,6 +1150,7 @@
       "definition": "Ubicación en ejes o frisos cronológicos de los hitos y episodios más representativos de la historia del mundo romano entre los siglos VIII a. C. y V d. C.",
       "broader": "sb:BLAI01SBIV.3",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1076,6 +1162,7 @@
       "definition": "Identificación de las principales leyendas de la historia de Roma.",
       "broader": "sb:BLAI01SBIV.3",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1087,6 +1174,7 @@
       "definition": "Identificación de las personalidades históricas más representativas de Roma: biografía en contexto e importancia para Europa.",
       "broader": "sb:BLAI01SBIV.3",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1098,6 +1186,7 @@
       "definition": "Aproximación a la organización política y social de Roma como parte esencial de la historia y cultura de la sociedad actual.",
       "broader": "sb:BLAI01SBIV",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1109,6 +1198,7 @@
       "definition": "Comparación de las instituciones, creencias y formas de vida de la civilización latina con la perspectiva sociocultural actual, prestando especial atención atención al papel desempeñado por la mujer en aquel momento histórico",
       "broader": "sb:BLAI01SBIV",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1120,6 +1210,7 @@
       "definition": "Valoración de las influencias de la cultura griega en la civilización latina: Graecia capta ferum victorem cepit.",
       "broader": "sb:BLAI01SBIV",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1131,6 +1222,7 @@
       "definition": "Aportación de Roma a la cultura y al pensamiento de la sociedad occidental como base del desarrollo posterior en las distintas civilizaciones.",
       "broader": "sb:BLAI01SBIV",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1142,6 +1234,7 @@
       "definition": "Relación de Roma con culturas y religiones extranjeras (Grecia, el cristianismo…), de manera que el alumnado reflexione, y sea tolerante y respetuoso con las culturas y religiones actuales ajenas a él.",
       "broader": "sb:BLAI01SBIV",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1153,6 +1246,7 @@
       "definition": "Estudio del mar Mediterráneo como encrucijada de culturas del ayer y hoy y paso del conocimiento científico, literario, histórico, artístico y tecnológico entre Asia, Europa y África.",
       "broader": "sb:BLAI01SBIV",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1164,6 +1258,7 @@
       "definition": "Localización de Canarias en el imaginario clásico: visión mítica del archipiélago como locus amoenus.",
       "broader": "sb:BLAI01SBIV",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1175,6 +1270,7 @@
       "definition": "Reconocimiento del legado, de la herencia y del patrimonio romano en el mundo actual.",
       "broader": "sb:BLAI01SBV",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1186,6 +1282,7 @@
       "definition": "Apreciación de la transmisión textual latina como patrimonio cultural y fuente de conocimiento a través de diferentes culturas y épocas. Reconocimiento de soportes de escritura: tipos y preservación.",
       "broader": "sb:BLAI01SBV",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1197,6 +1294,7 @@
       "definition": "Identificación de la mitología clásica en las manifestaciones artísticas (literatura, artes plásticas y visuales, música…) de la cultura occidental, en general, y de Canarias, en particular.",
       "broader": "sb:BLAI01SBV",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1208,6 +1306,7 @@
       "definition": "Valoración de la huella de Roma en la Península Ibérica: la romanización de Hispania.",
       "broader": "sb:BLAI01SBV",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1219,6 +1318,7 @@
       "definition": "Reconocimiento de las obras públicas y urbanismo: construcción, conservación, preservación y restauración.",
       "broader": "sb:BLAI01SBV",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1230,6 +1330,7 @@
       "definition": "Valoración del legado inmaterial del mundo romano: el derecho, las instituciones políticas, la retórica…",
       "broader": "sb:BLAI01SBV",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1241,6 +1342,7 @@
       "definition": "Iniciación a las técnicas básicas de debate y de exposición oral.",
       "broader": "sb:BLAI01SBV",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1252,6 +1354,7 @@
       "definition": "Localización de las principales obras artísticas de la Antigüedad romana y sitios arqueológicos, museos o festivales relacionados con la Antigüedad clásica.",
       "broader": "sb:BLAI01SBV",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     },
@@ -1263,6 +1366,7 @@
       "definition": "Identificación del patrimonio cultural romano en la arquitectura y el urbanismo de Canarias.",
       "broader": "sb:BLAI01SBV",
       "materia": "materia:BLAI",
+      "materia_curso": "asig:BLAI01",
       "curso": "curso:B01",
       "etapa": "etapa:BAC"
     }

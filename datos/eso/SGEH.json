@@ -15,6 +15,46 @@
       "etapa": "etapa:ESO"
     },
     {
+      "id": "asig:SGEH01",
+      "tipo": "MateriaCurso",
+      "notation": "SGEH01",
+      "prefLabel": "Geografía e Historia · 1º ESO",
+      "broader": "materia:SGEH",
+      "materia": "materia:SGEH",
+      "curso": "curso:S01",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "asig:SGEH02",
+      "tipo": "MateriaCurso",
+      "notation": "SGEH02",
+      "prefLabel": "Geografía e Historia · 2º ESO",
+      "broader": "materia:SGEH",
+      "materia": "materia:SGEH",
+      "curso": "curso:S02",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "asig:SGEH03",
+      "tipo": "MateriaCurso",
+      "notation": "SGEH03",
+      "prefLabel": "Geografía e Historia · 3º ESO",
+      "broader": "materia:SGEH",
+      "materia": "materia:SGEH",
+      "curso": "curso:S03",
+      "etapa": "etapa:ESO"
+    },
+    {
+      "id": "asig:SGEH04",
+      "tipo": "MateriaCurso",
+      "notation": "SGEH04",
+      "prefLabel": "Geografía e Historia · 4º ESO",
+      "broader": "materia:SGEH",
+      "materia": "materia:SGEH",
+      "curso": "curso:S04",
+      "etapa": "etapa:ESO"
+    },
+    {
       "id": "ce:SGEHC1",
       "tipo": "CompetenciaEspecifica",
       "notation": "SGEHC1",
@@ -110,7 +150,7 @@
       "notation": "SGEH01BC1",
       "prefLabel": "Geografía e Historia · 1º ESO · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se verificará que el alumnado es capaz de buscar y seleccionar información, para comparar y contrastar dicha información, usando los datos en entornos digitales y evaluando la fiabilidad de las fuentes diversas, teniendo en cuenta el problema de la desinformación. Se pretende que el alumnado sea capaz de empezar a construir conocimiento partiendo de los métodos de investigación en el ámbito de la geografía y la historia, con razonamientos y resultados científicos, matemáticos y tecnológicos (gráficas, tablas, diagramas, esquemas). También se constatará que analiza, identificando las principales ideas, algunos tipos de texto, tanto de la Prehistoria como de la Edad Antigua, y que construye líneas del tiempo a través de la linealidad, cronología, simultaneidad y duración. Por último, se valorará que elabore esquemas, tablas comparativas, informes, estudios o dosieres informativos, paneles divulgativos o cualquier otro producto, comunicando la información, participando, colaborando y compartiendo contenidos y datos desde la ética de los nuevos comportamientos en la sociedad de la información.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH01",
       "agrupa": [
         "ce:SGEHC1"
       ],
@@ -124,6 +164,7 @@
         "CC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -133,7 +174,7 @@
       "notation": "SGEH01BC2",
       "prefLabel": "Geografía e Historia · 1º ESO · bloque competencial C2",
       "scopeNote": "Con este bloque competencial se comprobará que el alumnado es capaz de indagar y argumentar información sobre problemas geográficos, históricos y sociales que resulten relevantes en la actualidad, desde lo local a lo global —partiendo de la propia realidad canaria, de España y del resto del mundo—, mediante un uso contrastado de fuentes históricas y arqueológicas seleccionadas, como base para la construcción del conocimiento histórico usándose una metodología basada en el trabajo colaborativo, que fomente las experiencias de investigación mediante un aprendizaje guiado y de experimentación. Se verificará, asimismo, que conoce el valor de los archivos, bibliotecas o museos, así como el legado histórico y cultural canario y del resto de España como patrimonio colectivo. El objetivo es el análisis de la información de problemas de actualidad como la violencia y conflictos armados, contextualizados históricamente y la defensa y exposición crítica de los mismos a través de presentaciones, paneles divulgativos, entrevistas y debates. Por último, se valorará asimismo la construcción de su propia personalidad, en su dimensión social y ciudadana y el enriquecimiento del acervo común, entendiendo el patrimonio como bien y como recurso, a través de su puesta en valor, difusión y administración de esa riqueza patrimonial con producciones y planteamientos éticos que incluyan la gestión de las emociones y su repercusión en comportamientos individuales y colectivos.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH01",
       "agrupa": [
         "ce:SGEHC2"
       ],
@@ -148,6 +189,7 @@
         "CCL2"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -157,7 +199,7 @@
       "notation": "SGEH01BC3",
       "prefLabel": "Geografía e Historia · 1º ESO · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de conocer los principales desafíos a los que se han enfrentado distintas sociedades a lo largo del tiempo, como pueden ser la complejidad social y nacimiento de la autoridad (familia, clan, tribu, casta, linaje y estamentos) así como la desigualdad social y disputa por el poder desde la Prehistoria y la Antigüedad y que comprende, interpreta y valora con objetividad crítica los textos y las diversas fuentes. Esta tarea se plantea mediante proyectos, retos o problemas que facilitan al alumnado, tanto individual como grupal, donde ponga en acción estrategias y habilidades diversas para analizar y comprender los fenómenos, situaciones o acontecimientos que tienen una especial relevancia o interés en el mundo en el que vive. Por otro lado, se constatará que utiliza tecnologías de la información, como pueden ser el manejo y utilización de dispositivos, aplicaciones informáticas y plataformas digitales, para realizar propuestas a los Objetivos de Desarrollo Sostenible, desde un enfoque encaminado a la conciencia ambiental así como el respeto, protección y cuidado de los seres vivos y del planeta. Finalmente, se valorará la responsabilidad ecosocial del alumnado, que ha de comprender y analizar problemas éticos fundamentales y de actualidad, tales como la transformación humana del territorio y la distribución desigual de los recursos y del trabajo, y que es capaz de entender las grandes migraciones humanas y nacimiento de las primeras civilizaciones, teniendo como referencia a las distintas culturas insulares anteriores al proceso de conquista de Canarias. Por último, promoverá el desarrollo una ciudadanía ética digital, mediante el uso seguro de las redes de comunicación así como una lectura crítica de la información.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH01",
       "agrupa": [
         "ce:SGEHC3"
       ],
@@ -174,6 +216,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -183,7 +226,7 @@
       "notation": "SGEH01BC4",
       "prefLabel": "Geografía e Historia · 1º ESO · bloque competencial C4",
       "scopeNote": "Este bloque competencial servirá para verificar que el alumnado es capaz de identificar y analizar los elementos del paisaje y su articulación en sistemas complejos naturales, rurales y urbanos, así como su evolución en el tiempo, mediante la iniciación a los métodos básicos de investigación para la construcción del conocimiento de la geografía, como es el descubrimiento y análisis del entorno, que permitirá al alumnado identificar sus elementos y relaciones, así como su equilibrio y evolución. El objetivo es conocer las dinámicas y amenazas de los ecosistemas planetarios y las formas y procesos de modificación de la superficie terrestre. Por otro lado, se constatará que el alumnado es capaz de valorar la riqueza y el patrimonio natural de Canarias, de España y del resto del mundo, a través de metodologías del pensamiento geográfico (localización y distribución, comparación y generalización, conexión y evolución) para verificar la influencia humana en la alteración de los ecosistemas en el pasado y la actualidad, realizando propuestas y participando en iniciativas en favor de la sostenibilidad y el reparto justo.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH01",
       "agrupa": [
         "ce:SGEHC4"
       ],
@@ -197,6 +240,7 @@
         "CE1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -206,7 +250,7 @@
       "notation": "SGEH01BC5",
       "prefLabel": "Geografía e Historia · 1º ESO · bloque competencial C5",
       "scopeNote": "Con este bloque competencial se comprobará que el alumnado es capaz de analizar planteamientos históricos, explicando los mecanismos que han regulado la convivencia y la vida común a lo largo de largo de la historia, y que comprende los deberes y derechos propios de nuestro marco de convivencia para promover la incorporación e implicación de la sociedad civil en procesos democráticos y la participación en proyectos comunitarios. Se verificará que conoce las formulaciones estatales en el mundo antiguo, tales como las democracias, repúblicas, imperios y reinos. Por otro lado, se podrá visualizar que analiza los principios y valores de la dignidad humana y derechos universales, como puede ser la Convención sobre los Derechos del Niño y la acción de los movimientos sociales, a través de la participación, trabajo en equipo (mediante acciones informativas como dosieres, paneles divulgativos, murales, preparación, difusión de entrevistas u otro tipo de intervenciones), mediación y resolución pacífica de conflictos.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH01",
       "agrupa": [
         "ce:SGEHC5"
       ],
@@ -218,6 +262,7 @@
         "CCL5"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -227,7 +272,7 @@
       "notation": "SGEH01BC6",
       "prefLabel": "Geografía e Historia · 1º ESO · bloque competencial C6",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de comprender los procesos geográficos, históricos y culturales que han conformado la realidad multicultural en la que vivimos, a través del estudio del legado histórico y el acervo cultural en la formación de las identidades colectivas de España y Canarias. Se podrá verificar que puede identificar las situaciones discriminatorias de las personas invisibilizadas desde la Prehistoria a la Edad Antigua: mujeres, esclavos y extranjeros así como la marginación, segregación, control y sumisión en la historia de la humanidad de las niñas y de las mujeres en el mundo y los roles de género y su manifestación en todos los ámbitos de la sociedad y la cultura. El objetivo es alcanzar el respeto y aceptación del otro mediante comportamientos no discriminatorios y contrarios a cualquier actitud segregadora, a través de argumentaciones (exposiciones orales y por escrito, debates, entrevistas) e intervenciones, valorándose las actitudes de respeto por la diversidad, y el compromiso con la igualdad de género y las manifestaciones y conductas no sexistas, el alumnado debe concebir que la comunidad es la suma de todos y cada uno, y que debemos convivir en igualdad de derechos, de oportunidades y de responsabilidades.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH01",
       "agrupa": [
         "ce:SGEHC6"
       ],
@@ -240,6 +285,7 @@
         "CCL5"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -249,7 +295,7 @@
       "notation": "SGEH01BC7",
       "prefLabel": "Geografía e Historia · 1º ESO · bloque competencial C7",
       "scopeNote": "Con este bloque competencial se comprobará que el alumnado es capaz de identificar los fundamentos que sostienen las diversas identidades propias y las ajenas, reconociendo el significado y función de las expresiones artísticas y culturales en las distintas civilizaciones, reconociendo el significado y mostrando respeto por la conservación del patrimonio material e inmaterial, desde la Prehistoria hasta las primeras civilizaciones, así como promover acciones tendentes a su conservación, promoción y puesta en valor. Se verificará que analiza las ideas relativas a la dimensión social y ciudadana a lo largo de la Historia Antigua, con las diversas identidades colectivas que se han ido construyendo hasta la actualidad, reflexionando sobre los múltiples significados que adoptan y sus aportaciones a la cultura humana universal, recogidas en la Declaración Universal de los Derechos Humanos. También se constatarán las estrategias para identificar el origen histórico de distintas identidades colectivas que se han desarrollado en España y Canarias, interpretando el uso que se ha hecho de las mismas y mostrando una actitud de respeto hacia los diferentes sentidos de pertenencia, promoviendo la solidaridad y la cohesión social, mediante la puesta en valor, difusión y gestión de esa riqueza social y patrimonial con producciones donde se hagan también planteamientos éticos. como pueden ser síntesis, exposiciones, infografías, pósteres y murales digitales o en papel, lapbook o paneles informativos.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH01",
       "agrupa": [
         "ce:SGEHC7"
       ],
@@ -262,6 +308,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -271,7 +318,7 @@
       "notation": "SGEH01BC8",
       "prefLabel": "Geografía e Historia · 1º ESO · bloque competencial C8",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de tomar conciencia del papel de los ciclos demográficos, el ciclo vital, las formas de vida y las relaciones intergeneracionales y de dependencia en la sociedad actual, y su evolución a lo largo del tiempo. Se verificará que conoce la transformación humana del territorio y la distribución desigual de los recursos y del trabajo, de los ciclos demográficos, de los modos de vida y de los modelos de organización social a lo largo del periodo histórico analizado. También se evaluará el conocimiento de la riqueza y valor del patrimonio natural, la influencia humana en la alteración de los ecosistemas en el pasado y la actualidad y la conservación y mejora del entorno local canario. Se comprobará que el alumnado es capaz de analizar, preferentemente de forma colaborativa, los dilemas del mundo actual como punto de partida para el pensamiento crítico y el desarrollo de juicios propios, así como la presentación de ideas y soluciones innovadoras, éticas y sostenibles a través de dosieres, paneles divulgativos, murales digitales o cualquier otro producto. Por último, se fomentará entre el alumnado los estilos de vida y hábitos que se adquiere individual y colectivamente en el entorno cultural y familiar y se les hará visualizar cómo mejoran la esperanza y la calidad de vida.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH01",
       "agrupa": [
         "ce:SGEHC8"
       ],
@@ -285,6 +332,7 @@
         "CPSAA5"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -294,7 +342,7 @@
       "notation": "SGEH01BC9",
       "prefLabel": "Geografía e Historia · 1º ESO · bloque competencial C9",
       "scopeNote": "Mediante este bloque competencial se comprobará que el alumnado es capaz de conocer y valorar la importancia de la seguridad integral ciudadana en la cultura de convivencia nacional e internacional, a través de la interpretación de la conexión de España con los grandes procesos históricos de la época antigua, valorando lo que han supuesto para su evolución y señalando las aportaciones de sus habitantes a lo largo de la historia, al estar situada en el escenario de los grandes flujos de difusión cultural y técnica, así como en el de la evolución del comercio internacional y en el contexto de las relaciones políticas y diplomáticas. Asimismo, se comprobará que el alumnado valora la contribución de nuestro país a la consecución de un mundo más seguro, justo, solidario y sostenible, a través del análisis de la concentración y distribución de la riqueza, las formas y modos de percibir y representar la desigualdad. También se evaluará la comprensión e interpretación de textos para participar en diferentes contextos, el análisis y la comprensión de ideas y actitudes en el proyecto de construcción de una identidad común. Se comprobará que el alumnado es capaz de analizar las ideas y actitudes en el proyecto de construcción de una identidad común y la seguridad y la cooperación internacional. así como la presentación mediante exposiciones, infografías, pósteres, dosieres, murales o cualquier otro recurso que ayude a difundir ideas y soluciones innovadoras, éticas y sostenibles.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH01",
       "agrupa": [
         "ce:SGEHC9"
       ],
@@ -308,6 +356,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -317,7 +366,7 @@
       "notation": "SGEH02BC1",
       "prefLabel": "Geografía e Historia · 2º ESO · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se verificará que el alumnado es capaz de utilizar las herramientas adecuadas para una aproximación al conocimiento científico, buscando y seleccionando información sobre temas relevantes del presente y del pasado, para elaborar, expresar y presentar contenidos propios en forma de esquemas, tablas informativas y otros formatos usando los datos en entornos digitales y evaluando la fiabilidad de las fuentes, teniendo en cuenta el problema de la desinformación. Se pretende que el alumnado aprenda a construir conocimiento partiendo de los métodos de investigación en el ámbito de la geografía y la historia, con razonamientos y resultados científicos, matemáticos y tecnológicos (gráficas, tablas, diagramas, esquemas). También se constatará que analiza distintos tipos de textos sobre la Edad Media y Edad Moderna, contrastando la interpretación de historiadores y que construye e interpreta líneas del tiempo a través de la linealidad, cronología, simultaneidad y duración. Por último, se valorará que elabore esquemas y tablas comparativas (informes, estudios, dosieres informativos, paneles divulgativos, infografías), comunicando la información, participando, colaborando y compartiendo contenidos y datos desde la ética de los nuevos comportamientos en la sociedad de la información.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH02",
       "agrupa": [
         "ce:SGEHC1"
       ],
@@ -331,6 +380,7 @@
         "CC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -340,7 +390,7 @@
       "notation": "SGEH02BC2",
       "prefLabel": "Geografía e Historia · 2º ESO · bloque competencial C2",
       "scopeNote": "Mediante este bloque competencial se comprobará que el alumnado es capaz de indagar y argumentar información sobre problemas geográficos, históricos y sociales que resulten relevantes en la actualidad, desde lo local a lo global, partiendo de la propia realidad canaria, de España y del resto del mundo, mediante un uso contrastado de la información haciendo una lectura crítica como base para la construcción del conocimiento histórico, que se consigue con el desarrollo de una serie de destrezas, habilidades y estrategias intelectuales como la comprensión lectora, la interpretación de fuentes diversas y el análisis crítico y objetivo de los problemas presentes y pasados de la humanidad. Se verificará que conoce incorpora y utiliza adecuadamente términos, conceptos y acontecimientos relacionados con la geografía, la historia y otras disciplinas de las ciencias sociales, mediante el trabajo colaborativo, en grupos base, con aprendizaje guiado, y que realiza intervenciones orales y presenta textos escritos y otros productos, mostrando planteamientos comparados y contrastados. El objetivo es que el alumnado elabore juicios argumentados, respetando las opiniones de los demás y enriqueciendo el acervo común en el contexto del mundo actual, sus retos y sus conflictos desde una perspectiva sistémica y global. Por último, se valorará la construcción de su propia personalidad, en su dimensión social y ciudadana y el enriquecimiento del acervo común, entendiendo el patrimonio —partiendo del canario y siguiendo con el resto de España— como bien y como recurso, a través de su puesta en valor, difusión y gestión de esa riqueza patrimonial, con producciones (presentaciones, paneles divulgativos, murales digitales, ferias…) y planteamiento éticos que incluyan la gestión de las emociones y su repercusión en comportamientos individuales y colectivos.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH02",
       "agrupa": [
         "ce:SGEHC2"
       ],
@@ -355,6 +405,7 @@
         "CCL2"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -364,7 +415,7 @@
       "notation": "SGEH02BC3",
       "prefLabel": "Geografía e Historia · 2º ESO · bloque competencial C3",
       "scopeNote": "Con este bloque competencial se comprobará que el alumnado es capaz de conocer los principales desafíos a los que se han enfrentado distintas sociedades a lo largo del tiempo, como pueden ser los desafíos demográficos en el mundo actual y la competencia y los conflictos por los recursos y el territorio. También que el alumno o la alumna comprende, interpreta y valora con objetividad los textos y las diversas fuentes para analizar las tensiones internacionales, choques y alianzas entre civilizaciones. Por otro lado, se constatará que utiliza tecnologías de la información, como pueden ser el manejo y utilización de dispositivos, aplicaciones informáticas y plataformas digitales para realizar propuestas a los Objetivos de Desarrollo Sostenible, desde un enfoque encaminado a la conciencia ambiental así como el respeto, protección y cuidado de los seres vivos y del planeta, donde se les plantearán proyectos, retos o problemas que facilitan al alumnado, tanto individual como grupal, poner en acción estrategias y habilidades diversas para analizar y comprender los fenómenos, situaciones o acontecimientos que tienen una especial relevancia o interés en el mundo en el que vive. Finalmente, se valorará la responsabilidad ecosocial del alumnado, que ha de comprender y analizar problemas éticos fundamentales y de actualidad, tales como la transformación humana del territorio y la distribución desigual de los recursos y del trabajo, y que es capaz de entender las grandes migraciones humanas teniendo como referencia la realidad de Canarias, en el contexto del proceso de conquista y colonización, además de desarrollar una ciudadanía ética digital, mediante el uso seguro de las redes de comunicación así como una lectura crítica de la información.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH02",
       "agrupa": [
         "ce:SGEHC3"
       ],
@@ -381,6 +432,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -390,7 +442,7 @@
       "notation": "SGEH02BC4",
       "prefLabel": "Geografía e Historia · 2º ESO · bloque competencial C4",
       "scopeNote": "A través de este bloque competencial se verificará que el alumnado es capaz de identificar y analizar los elementos del paisaje y su articulación en sistemas complejos rurales y urbanos, así como su evolución en el tiempo, mediante métodos básicos de investigación para la construcción del conocimiento de la Geografía (localización y distribución, comparación y generalización, conexión y evolución). El objetivo es alcanzar una interpretación del territorio y del paisaje mediante las Tecnologías de la Información Geográfica (TIG) para analizar el fenómeno de las aglomeraciones urbanas y la ruralidad, así como la despoblación y el sostenimiento del mundo rural. Por otro lado, se verificará que comprende el desarrollo urbano sostenible y que identifica la ciudad como un espacio de convivencia, respetando los diferentes modos y estilos de vida en el contexto de la globalización. Finalmente se constatará que el alumnado es capaz de valorar la riqueza y el patrimonio natural de Canarias, de España y del resto del mundo, mediante metodologías del pensamiento geográfico (localización y representación del espacio geográfico y obtención de información a partir de mapas, datos estadísticos y gráficos) para potenciar la protección del patrimonio natural, histórico, artístico y cultural.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH02",
       "agrupa": [
         "ce:SGEHC4"
       ],
@@ -404,6 +456,7 @@
         "CE1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -413,7 +466,7 @@
       "notation": "SGEH02BC5",
       "prefLabel": "Geografía e Historia · 2º ESO · bloque competencial C5",
       "scopeNote": "Con este bloque competencial se comprobará que el alumnado es capaz de analizar de forma crítica planteamientos históricos y geográficos explicando la construcción de los sistemas democráticos y los principios constitucionales que rigen la vida en comunidad, así como la contribución del Estado y sus instituciones a la paz, a la seguridad integral ciudadana y a la convivencia social, analizando desde la Edad Media hasta la Edad Moderna. El objetivo es comprobar que el alumnado conoce la incorporación e implicación de la sociedad civil en procesos democráticos y que participa en proyectos comunitarios. Se verificará que conoce, las formulaciones estatales en el mundo medieval y moderno, tales como las repúblicas, imperios y reinos. Por otro lado, se podrá visualizar que analiza y asume fundamentalmente los principios y valores de la dignidad humana y derechos universales, como puede ser la Convención sobre los Derechos del Niño y la acción de los movimientos sociales, mediante la participación, trabajo en equipo (con tareas informativas como dosieres, paneles divulgativos, murales, preparación, difusión de entrevistas u otro tipo de intervenciones), mediación y resolución pacífica de conflictos.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH02",
       "agrupa": [
         "ce:SGEHC5"
       ],
@@ -425,6 +478,7 @@
         "CCL5"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -434,7 +488,7 @@
       "notation": "SGEH02BC6",
       "prefLabel": "Geografía e Historia · 2º ESO · bloque competencial C6",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de comprender los procesos geográficos, históricos y culturales que han conformado la realidad multicultural en la que vivimos, a través del estudio del legado histórico y el acervo cultural desde la Edad Media hasta la Edad Moderna en la formación de las identidades colectivas de España y Canarias como pueden ser el papel de la religión en la organización social, la legitimización del poder y la formación de identidades. Se podrá verificar que puede identificar las situaciones discriminatorias de las personas invisibilizadas de la historia: mujeres, esclavos y extranjeros así como la marginación, segregación, control y sumisión en la historia de la humanidad de las niñas y de las mujeres en el mundo y los roles de género y su manifestación en todos los ámbitos de la sociedad y la cultura. El objetivo es alcanzar el respeto y aceptación del otro mediante comportamientos no discriminatorios y contrarios a cualquier actitud segregadora, valorándose las actitudes de respeto por la diversidad, y el compromiso con la igualdad de género y las manifestaciones y conductas no sexistas mediante la elaboración —de forma individual o en grupo— de paneles y murales divulgativos, exposiciones, pósteres, infografías o cualquier otro recurso.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH02",
       "agrupa": [
         "ce:SGEHC6"
       ],
@@ -447,6 +501,7 @@
         "CCL5"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -456,7 +511,7 @@
       "notation": "SGEH02BC7",
       "prefLabel": "Geografía e Historia · 2º ESO · bloque competencial C7",
       "scopeNote": "Por medio de este bloque competencial se comprobará que el alumnado es capaz de identificar los fundamentos que sostienen las diversas identidades propias y las ajenas, reconociendo el significado y función de las expresiones artísticas y culturales a lo largo de la historia medieval y moderna, mostrando respeto por la conservación del patrimonio material e inmaterial. Se verificará que analiza las ideas relativas a la influencia de las civilizaciones judía e islámica en la cultura europea. También se constatarán las estrategias para identificar el significado y función de las expresiones artísticas y culturales en las distintas civilizaciones y el origen histórico de distintas identidades colectivas que se han desarrollado en España y Canarias. Se valorará que interpreta el uso que se ha hecho de esas expresiones mediante la elaboración de síntesis y productos explicativos (informes, estudios, dosieres informativos, murales, lapbook, presentaciones, paneles divulgativos), comunicando la información, empezando a adoptar un punto de vista creativo, crítico y personal, y mostrando una actitud de respeto hacia los diferentes sentidos de pertenencia, promoviendo la solidaridad y la cohesión social.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH02",
       "agrupa": [
         "ce:SGEHC7"
       ],
@@ -469,6 +524,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -478,7 +534,7 @@
       "notation": "SGEH02BC8",
       "prefLabel": "Geografía e Historia · 2º ESO · bloque competencial C8",
       "scopeNote": "Mediante este bloque competencial se comprobará que el alumnado es capaz de tomar conciencia del papel de los ciclos demográficos, el ciclo vital, las formas de vida y las relaciones intergeneracionales y de dependencia en la sociedad actual y su evolución a lo largo del tiempo, usando una perspectiva canaria. Se verificará que conoce los desafíos demográficos en el mundo actual y la transformación humana del territorio y la distribución desigual de los recursos y del trabajo y la evolución de los sistemas económicos, de los ciclos demográficos, de los modos de vida y de los modelos de organización social. También se evaluará el conocimiento de la riqueza y valor del patrimonio natural, la influencia humana en la alteración de los ecosistemas en el pasado, así como la lucha por la supervivencia y el estatus social en la Edad Media y en la Edad Moderna. Se comprobará que el alumnado es capaz de analizar los dilemas del mundo actual como punto de partida para el pensamiento crítico y el desarrollo de juicios propios, así como la presentación de ideas y soluciones innovadoras, éticas y sostenibles, con la elaboración, por ejemplo, de paneles divulgativos, murales digitales, conferencias, congresos o ferias escolares. Por último, se pretende seguir fomentando los estilos de vida y hábitos que se adquieren individual y colectivamente en el entorno cultural y familiar les hará visualizar cómo mejoran la esperanza y la calidad de vida.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH02",
       "agrupa": [
         "ce:SGEHC8"
       ],
@@ -492,6 +548,7 @@
         "CPSAA5"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -501,7 +558,7 @@
       "notation": "SGEH02BC9",
       "prefLabel": "Geografía e Historia · 2º ESO · bloque competencial C9",
       "scopeNote": "Con este bloque competencial se comprobará que el alumnado es capaz de conocer y valorar la importancia de la seguridad integral ciudadana en la cultura de convivencia nacional e internacional, a través de la interpretación de la conexión de España y Canarias con los grandes procesos históricos a largo de la historia medieval y moderna, en el escenario de los grandes flujos de difusión cultural y técnica, así como en el de la evolución del comercio internacional y en el contexto de sus relaciones políticas y diplomáticas, pretendiendo que se valore lo que han supuesto para la evolución de nuestro país y señalando las aportaciones de sus habitantes a lo largo de la historia, adentrándose en la contribución de Canarias en el proceso del descubrimiento de América. Por otro lado, se comprobará que el alumnado reconoce la contribución de nuestro país a la consecución de un mundo más seguro, justo, solidario y sostenible, a través del análisis de la concentración y distribución de la riqueza, las formas y modos de percibir y representar la desigualdad. También se evaluará la comprensión e interpretación de textos para participar en diferentes contextos, el análisis y la comprensión de ideas y actitudes en el proyecto de construcción de una identidad común y la seguridad y la cooperación internacional, incluidos los grandes compromisos contenidos en los Objetivos de Desarrollo Sostenible, así como la exposición de ideas y soluciones innovadoras, éticas y sostenibles mediante, entre otros recursos, de presentaciones, debates, conferencias o paneles y murales divulgativos.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH02",
       "agrupa": [
         "ce:SGEHC9"
       ],
@@ -515,6 +572,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -524,7 +582,7 @@
       "notation": "SGEH03BC1",
       "prefLabel": "Geografía e Historia · 3º ESO · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de buscar, seleccionar, tratar y organizar información, elaborando contenidos propios en distintos formatos (murales, informes, tablas), usando los datos en entornos digitales y evaluando la fiabilidad de las fuentes, teniendo en cuenta el problema de la desinformación. El objetivo será construir conocimiento partiendo de los métodos de investigación en el ámbito de la Geografía y la historia, con razonamientos y resultados científicos, matemáticos y tecnológicos (gráficas, tablas, diagramas, esquemas), de gran importancia en la enseñanza de la Geografía. También se verificará que empieza a analizar y comprender la dimensión social y ciudadana de su propia identidad. Por último, se valorará que elaboren síntesis y productos explicativos (informes, estudios, murales, infografías, exposiciones, dosieres informativos), comunicando la información, empezando a adoptar un punto de vista creativo, crítico y personal, participando, colaborando y compartiendo contenidos y datos desde la ética de los nuevos comportamientos en la sociedad de la información.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH03",
       "agrupa": [
         "ce:SGEHC1"
       ],
@@ -538,6 +596,7 @@
         "CD3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -547,7 +606,7 @@
       "notation": "SGEH03BC2",
       "prefLabel": "Geografía e Historia · 3º ESO · bloque competencial C2",
       "scopeNote": "Mediante este bloque competencial se comprobará que el alumnado es capaz de indagar, argumentar y elaborar productos propios sobre problemas geográficos y sociales tales como la desigualdad e injusticia en el contexto local y global (desde Canarias, España y el resto del mundo), con el uso crítico de mapas, textos, gráficas, tablas, diagramas o cualquier otro documento de las ciencias sociales, además de búsquedas en internet. Tendrá que ir seleccionando los resultados de manera progresivamente crítica y construyendo conocimiento, creando contenidos digitales originales, como son los juicios propios y argumentados ante problemas de actualidad contextualizados de forma espacial y temporal. Para ello es necesario potenciar una metodología basada en el trabajo colaborativo, que fomente las experiencias de investigación mediante un aprendizaje guiado y de experimentación. Posteriormente, deberá defender de forma crítica de los mismos a través de presentaciones y debates. Por último, se valorará la construcción de su propia personalidad, en su dimensión social y ciudadana y enriquecimiento del acervo común, entendiendo el patrimonio como bien y como recurso, a través de la puesta en valor, difusión y gestión de esa riqueza patrimonial con producciones —como pueden ser la realización de pequeños cortos, exposiciones, coloquios, pódcast, murales o paneles divulgativos— y la puesta en común de planteamientos éticos que incluyan el diálogo, la empatía y la actitud colaborativa e inclusiva.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH03",
       "agrupa": [
         "ce:SGEHC2"
       ],
@@ -562,6 +621,7 @@
         "CCEC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -571,7 +631,7 @@
       "notation": "SGEH03BC3",
       "prefLabel": "Geografía e Historia · 3º ESO · bloque competencial C3",
       "scopeNote": "Con este bloque competencial se comprobará que el alumnado es capaz de conocer los principales desafíos a los que se enfrentan las distintas sociedades en la actualidad y a lo largo del tiempo, como pueden ser la emergencia climática, la sostenibilidad o los conflictos ideológicos, étnicos y culturales. Para ello se comprobará que puede analizar los cambios, las causas y consecuencias y que comprende, interpreta y valora con actitud crítica los distintos documentos, especialmente los geográficos, y las diversas fuentes. Por otro lado, se constatará que utiliza métodos y proyectos de investigación, preferentemente colaborativos, haciendo uso de mapas y otras representaciones gráficas, para realizar propuestas a los Objetivos de Desarrollo Sostenible, a través de recursos audiovisuales tales como las presentaciones, paneles y murales divulgativos, ferias, congresos o debates. Se constatará que utilizan un enfoque ecosocial sobre los problemas y los desafíos pasados, actuales o futuros, tales como la diversidad social, étnico-cultural y de género, las migraciones, la multiculturalidad y el mestizaje en sociedades abiertas, teniendo como referencia la realidad de Canarias. Por último, se pretende que el alumnado desarrolle una ciudadanía ética digital, dentro de los nuevos comportamientos en la sociedad de la información.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH03",
       "agrupa": [
         "ce:SGEHC3"
       ],
@@ -588,6 +648,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -597,7 +658,7 @@
       "notation": "SGEH03BC4",
       "prefLabel": "Geografía e Historia · 3º ESO · bloque competencial C4",
       "scopeNote": "Con este bloque competencial se comprobará que el alumnado es capaz de identificar y analizar los elementos del paisaje y su articulación en sistemas complejos naturales, rurales y urbanos, así como su evolución en el tiempo, desde el éxodo rural hasta la concentración urbana, pasando por el problema de la despoblación rural en España, así como la ordenación del territorio y la transformación del espacio, especialmente en el caso de Canarias. Se llevará a la práctica por medio del análisis multicausal de sus relaciones naturales y humanas, presentes y pasadas. También se verificará que analiza e investiga la huella humana, en su proceso de transformación y degradación a lo largo del tiempo y la protección del medio natural, estudiando críticamente su grado de sostenibilidad y equilibrio, donde se valorará su implicación en la defensa y protección del medioambiente, a través del planteamiento y desarrollo de proyectos y otras acciones de colaboración dentro del centro, mediante proyectos o planes, o con otros organismos de la zona —ONG o entidades locales—, que contribuyan a la conservación y mejora del entorno natural cercano, rural y urbano, que favorecerán a un estilo de vida sostenible y ecosocialmente responsable.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH03",
       "agrupa": [
         "ce:SGEHC4"
       ],
@@ -611,6 +672,7 @@
         "CE1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -620,7 +682,7 @@
       "notation": "SGEH03BC5",
       "prefLabel": "Geografía e Historia · 3º ESO · bloque competencial C5",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de analizar de forma crítica los planteamientos históricos y geográficos de los actuales sistemas democráticos y sus principios constitucionales, conociendo los actuales derechos individuales y colectivos en España. Se verificará que conoce, valora y ejercita responsabilidades, derechos y deberes a través del estudio guiado de nuestro ordenamiento normativo autonómico canario, constitucional y supranacional. Por otro lado, se podrá visualizar que analiza y asume fundamentalmente los principios y valores, como son la lucha por la libertad, la igualdad y los derechos humanos, y la acción de los movimientos sociales en el mundo contemporáneo, mediante la participación, trabajo en equipo, mediación y resolución pacífica de conflictos, realizándose exposiciones, debates, entrevistas, mesas redondas o integrándose el alumnado en equipos de resolución de conflictos en su propio centro educativo.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH03",
       "agrupa": [
         "ce:SGEHC5"
       ],
@@ -632,6 +694,7 @@
         "CC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -641,7 +704,7 @@
       "notation": "SGEH03BC6",
       "prefLabel": "Geografía e Historia · 3º ESO · bloque competencial C6",
       "scopeNote": "Por medio de este bloque competencial se comprobará que el alumnado es capaz de conocer y comprender los procesos geográficos, históricos y culturales que han conformado la sociedad contemporánea, a través del análisis de los aspectos geográficos, históricos, ecosociales y culturales, así como las transformaciones científicas y tecnológicas que han conformado la actual comunidad globalizada, prestando especial atención a su incidencia en España y Canarias. Se hará por medio de tareas de síntesis, realizándose exposiciones en clase o en el centro con proyecciones, paneles divulgativos, murales, gráficos o cualquier otro recurso. Se podrá verificar que es capaz de asumir un compromiso cívico y participativo, a través del diseño, exposición y puesta en práctica de iniciativas para la gestión pacífica de los conflictos —colaborando en el propio centro y en entorno más cercano— y el apoyo a las víctimas en favor de la igualdad y la inclusión, valorándose las actitudes de respeto por la diversidad, y el compromiso con la igualdad de género, la cohesión social y la libertad de expresión.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH03",
       "agrupa": [
         "ce:SGEHC6"
       ],
@@ -654,6 +717,7 @@
         "CPSAA3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -663,7 +727,7 @@
       "notation": "SGEH03BC7",
       "prefLabel": "Geografía e Historia · 3º ESO · bloque competencial C7",
       "scopeNote": "Con este bloque competencial se comprobará que el alumnado es capaz de identificar los fundamentos que sostienen las diversas identidades propias y las ajenas, partiendo del conocimiento del patrimonio material e inmaterial común de nuestros pueblos, partiendo del canario, prestando especial atención a su competencia para contribuir en su conservación, mediante tareas e investigación que incluyen trabajos de campo en museos, archivos, el uso de información digital y analógica y la realización de informes, dosieres, infografías o cualquier otro recurso. Por otro lado, se constatará que conoce la realidad canaria, respetando los sentimientos de pertenencia, y que puede adoptar compromisos basados en los principios de igualdad de género, la cohesión social, el desarrollo sostenible y el logro de la ciudadanía mundial, poniendo en práctica acciones de cohesión y solidaridad territorial, donde se incluye el conocimiento de las instituciones más cercanas, los valores del europeísmo y de la Declaración Universal de los Derechos Humanos.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH03",
       "agrupa": [
         "ce:SGEHC7"
       ],
@@ -675,6 +739,7 @@
         "CC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -684,7 +749,7 @@
       "notation": "SGEH03BC8",
       "prefLabel": "Geografía e Historia · 3º ESO · bloque competencial C8",
       "scopeNote": "Mediante este bloque competencial se comprobará que el alumnado es capaz de tomar conciencia del papel de los ciclos demográficos, las formas de vida y las relaciones intergeneracionales y de dependencia en la sociedad actual y su evolución a lo largo del tiempo. Se verificará que conoce la evolución de los sistemas económicos, de los ciclos demográficos, de los modos de vida y de los modelos de organización social, así como la lucha por los derechos laborales y sociales, que quedan reflejados en el estado del bienestar. Esto también implica el análisis y conocimiento previos que les hará comprender las razones por las que se produce la división del trabajo, para tratar la corresponsabilidad en el ámbito familiar y analizar críticamente los roles del género y edad. Se partirá del análisis crítico de la realidad económica, de la distribución y gestión del trabajo, construyendo conocimiento, que le servirá para incorporar hábitos responsables, saludables, sostenibles y respetuosos con la dignidad humana, así como de la reflexión ética ante los usos de la tecnología y la gestión del tiempo libre. Le será útil llevar a cabo trabajos preferentemente colaborativos, donde se presentará mediante recursos audiovisuales y la puesta en acción de debates, coloquios o entrevistas. La finalidad será transformar su entorno próximo de forma sostenible, inmerso en una sociedad de la información, donde se pretende constatar que asume que el aprendizaje es un proceso de adquisición de nuevos conocimientos, que se lleva a cabo a lo largo de toda la vida.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH03",
       "agrupa": [
         "ce:SGEHC8"
       ],
@@ -698,6 +763,7 @@
         "CPSAA5"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -707,7 +773,7 @@
       "notation": "SGEH03BC9",
       "prefLabel": "Geografía e Historia · 3º ESO · bloque competencial C9",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de conocer y valorar la aportación y los compromisos internacionales de España como estado en la consecución de un mundo más seguro, justo, solidario y sostenible, a través del análisis de los principales problemas actuales, tales como la emergencia climática, la globalización o los movimientos migratorios. También se evaluará la comprensión e interpretación de textos y otros tipos de documentos para participar en diferentes contextos, el análisis y la comprensión de ideas relativas a la dimensión social y ciudadana de su propia identidad. Se comprobará que el alumnado puede analizar y valorar los principios y valores que emanan del proceso de integración europeo, conociendo sus instituciones y sus principales logros, la integración de Canarias como región ultraperiférica, además de los Objetivos de Desarrollo Sostenible. Por último, se valorará que participa en actividades comunitarias, incluyendo los programas educativos europeos, así como en la presentación de ideas y soluciones innovadoras, éticas y sostenibles, como pueden ser murales o paneles divulgativos, ferias, exposiciones o lapbook, entre otros.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH03",
       "agrupa": [
         "ce:SGEHC9"
       ],
@@ -721,6 +787,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -730,7 +797,7 @@
       "notation": "SGEH04BC1",
       "prefLabel": "Geografía e Historia · 4º ESO · bloque competencial C1",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de buscar, seleccionar, tratar y organizar información, elaborando contenidos propios en distintos formatos usando los datos en entornos digitales y evaluando la fiabilidad de las fuentes, teniendo en cuenta el problema de la desinformación. El objetivo será construir conocimiento partiendo de los métodos de investigación en el ámbito de la historia, con razonamientos y resultados científicos, matemáticos y tecnológicos (gráficas, tablas, diagramas, esquemas). También se verificará que analiza y comprende la dimensión social y ciudadana de su propia identidad, así como los hechos culturales, históricos y normativos que la determinan, a través de análisis crítico de todo tipo de textos, contrastando la interpretación de historiadores e historiadoras y la construcción y la interpretación de líneas del tiempo a través de la linealidad, cronología, simultaneidad y duración. Por último, se valorará que elabore síntesis y productos explicativos (informes, dramatizaciones, exposiciones, murales y paneles divulgativos, dosieres informativos, pódcast, etc.), comunicando la información, adoptando un punto de vista creativo, crítico y personal, participando, colaborando y compartiendo contenidos, datos y conocimiento desde la ética de los nuevos comportamientos en la sociedad de la información.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH04",
       "agrupa": [
         "ce:SGEHC1"
       ],
@@ -747,6 +814,7 @@
         "CD5"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -756,7 +824,7 @@
       "notation": "SGEH04BC2",
       "prefLabel": "Geografía e Historia · 4º ESO · bloque competencial C2",
       "scopeNote": "Mediante este bloque competencial se verificará que el alumnado es capaz de indagar, argumentar y elaborar productos propios sobre problemas históricos y sociales tales como la desigualdad e injusticia en el contexto local y global (desde Canarias, España y el resto del mundo), con el uso crítico de textos y búsquedas en internet, seleccionando los resultados de manera crítica y construyendo conocimiento —siendo necesario potenciar una metodología de aprendizaje guiado, apoyada en el trabajo colaborativo entre el alumnado— creando contenidos digitales originales, como son los juicios propios y argumentados ante problemas de actualidad contextualizados históricamente y la defensa y exposición orales de los mismos a través, entre otros, de presentaciones, debates, exposiciones, dramatizaciones, entrevistas, infografías o paneles y murales divulgativos. Por último, se valorará asimismo la construcción de su propia personalidad, en su dimensión social y ciudadana y enriquecimiento del acervo común canario, entendiendo el patrimonio como bien y como recurso, a través de su puesta en valor, difusión y con propuestas de gestión de esa riqueza patrimonial con producciones y planteamientos éticos que incluyan el diálogo, la empatía y la actitud colaborativa e inclusiva.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH04",
       "agrupa": [
         "ce:SGEHC2"
       ],
@@ -772,6 +840,7 @@
         "CCEC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -781,7 +850,7 @@
       "notation": "SGEH04BC3",
       "prefLabel": "Geografía e Historia · 4º ESO · bloque competencial C3",
       "scopeNote": "A través de este bloque competencial se comprobará que el alumnado es capaz de conocer los principales desafíos (mediante, entre otros, trabajos de síntesis, informes, ejes cronológicos, comentarios de texto, de imágenes, de datos o documentales) a los que se han enfrentado distintas sociedades a lo largo del tiempo, como pueden ser la emergencia climática, la sostenibilidad o los conflictos ideológicos, étnicos y culturales. Para ello se comprobará que analiza los cambios, las causas y consecuencias, y que comprende, interpreta y valora con actitud crítica los textos y las diversas fuentes con la finalidad de elaborar productos significativos (informes, dosieres, exposiciones, etc.). Por otro lado, se constatará que utiliza métodos y proyectos de investigación, preferentemente colaborativos, haciendo uso de mapas y otras representaciones gráficas, para realizar propuestas a los Objetivos de Desarrollo Sostenible, desde un enfoque ecosocial, problemas y desafíos pasados, actuales o futuros, tales como la diversidad social, étnico-cultural y de género, las migraciones, la multiculturalidad y el mestizaje en sociedades abiertas, con el objetivo de expresarlo a través de la elaboración de paneles divulgativos, murales digitales, conferencias, congresos, ferias escolares, etc. Finalmente, se valorará la responsabilidad ecosocial del alumnado, que ha de comprender y analizar problemas éticos fundamentales y de actualidad, y que es capaz de entender las relaciones sistémicas de interdependencia, ecodependencia e interconexión entre actuaciones locales y globales, teniendo como referencia la realidad de Canarias, además de desarrollar una ciudadanía ética digital, dentro de los nuevos comportamientos en la sociedad de la información con la producción de imágenes o decálogos interactivos, entre otros.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH04",
       "agrupa": [
         "ce:SGEHC3"
       ],
@@ -800,6 +869,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -809,7 +879,7 @@
       "notation": "SGEH04BC5",
       "prefLabel": "Geografía e Historia · 4º ESO · bloque competencial C5",
       "scopeNote": "Por medio de este bloque competencial se verificará que el alumnado es capaz de analizar, de forma crítica, planteamientos históricos y geográficos para explicar los sistemas democráticos y principios constitucionales, conociendo la transformación política (transiciones, revoluciones y resistencias, y cambios en la época contemporánea), la conquista de los derechos individuales y colectivos de este mismo periodo histórico y el origen, evolución y adaptación de los sistemas liberales en España y la implicación y repercusión en Canarias. Se verificará que conoce, valora y ejercita responsabilidades, derechos y deberes a través del estudio de la Transición y de la Constitución española de 1978 y de nuestro ordenamiento jurídico. Por otro lado, se podrá visualizar que analiza y asume fundamentalmente los principios y valores, como son la comprensión de la memoria democrática y la lucha por la libertad, la igualdad y los derechos humanos, y la acción de los movimientos sociales en el mundo contemporáneo, mediante la participación social, el trabajo en equipo, la mediación y la resolución pacífica de conflictos, así como debates, pódcast o entrevistas a representantes de la ciudadanía, etc.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH04",
       "agrupa": [
         "ce:SGEHC5"
       ],
@@ -824,6 +894,7 @@
         "CPSAA3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -833,7 +904,7 @@
       "notation": "SGEH04BC6",
       "prefLabel": "Geografía e Historia · 4º ESO · bloque competencial C6",
       "scopeNote": "A través de este bloque competencial se podrá comprobar que el alumnado es capaz de conocer y comprender los procesos geográficos, históricos y culturales que han conformado la realidad multicultural, a través del análisis de los aspectos geográficos, históricos, ecosociales y culturales que han conformado la sociedad globalizada y la incidencia en España y en Canarias. Se podrá verificar que puede diferenciar las alianzas e instituciones internacionales, la mediación y misiones de paz, y que es capaz de asumir un compromiso cívico y participativo, a través del diseño, exposición y puesta en práctica de propuestas para la gestión pacífica de los conflictos y el apoyo a las víctimas en favor de la igualdad y la inclusión, donde el alumnado identifique prejuicios y estereotipos, teniendo como fin la prevención de toda discriminación. Como productos de difusión se podrán usar exposiciones, murales, paneles divulgativos, presentaciones, dramatizaciones o conferencias, entre otras. Se valorarán las actitudes de respeto por la diversidad, y el compromiso con la igualdad de género, la cohesión social y la libertad de expresión.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH04",
       "agrupa": [
         "ce:SGEHC6"
       ],
@@ -847,6 +918,7 @@
         "CC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -856,7 +928,7 @@
       "notation": "SGEH04BC7",
       "prefLabel": "Geografía e Historia · 4º ESO · bloque competencial C7",
       "scopeNote": "Mediante este bloque competencial se comprobará que el alumnado es capaz de identificar los fundamentos que sostienen nuestras identidades colectivas y las de otros, reconociendo los rasgos que van conformando la identidad propia canaria y la de las demás personas. Se verificará que realiza búsquedas en internet con el fin de analizar las ideas relativas a la dimensión social y ciudadana de su propia identidad y la de hechos culturales e históricos, el compromiso con la igualdad de género, la cohesión social, el desarrollo sostenible y el logro de la ciudadanía mundial creando producciones para difundir las conclusiones. También se constatarán las estrategias para la identificación de los fundamentos del proceso de transformación de la España contemporánea en la formación de una identidad multicultural compatible, las formaciones identitarias, el nacimiento de las nuevas expresiones artísticas, el patrimonio como bien y como recurso, especialmente en Canarias; la perspectiva histórica del componente emocional plasmando las conclusiones en la elaboración de exposiciones, conferencias, debates, congresos, coloquios, catálogos artísticos, etc.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH04",
       "agrupa": [
         "ce:SGEHC7"
       ],
@@ -870,6 +942,7 @@
         "CC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -879,7 +952,7 @@
       "notation": "SGEH04BC9",
       "prefLabel": "Geografía e Historia · 4º ESO · bloque competencial C9",
       "scopeNote": "Por medio de este bloque competencial se verificará que el alumnado es capaz de conocer y valorar la aportación de nuestro país a la cultura europea, mundial y la singularidad de Canarias en el contexto europeo, a través de la interpretación y explicación, de forma argumentada, de la conexión de España con los grandes procesos históricos de la época contemporánea. Se verificará el conocimiento del sistema capitalista, desde el colonialismo pasando por el imperialismo hasta las nuevas subordinaciones económicas y culturales, el estudio crítico y comparativo de la primera mitad del siglo XX, con especial atención al enfrentamiento entre los totalitarismos y los sistemas democráticos, y los fundamentos geoestratégicos desde la segunda mitad del siglo XX hasta la actualidad elaborando paneles divulgativos, pósteres en diferentes formatos, infografías interactivas, etc. Asimismo, se comprobará que el alumnado valora la contribución de nuestro país a la consecución de un mundo más seguro, justo, solidario y sostenible, a través del análisis de los conflictos actuales y los compromisos internacionales de España en su solución. También se evaluará la comprensión e interpretación de textos para participar en diferentes contextos, el análisis y la comprensión de ideas relativas a la dimensión social y ciudadana de su propia identidad. Se comprobará que el alumnado es capaz de analizar y valorar los principios y valores que emanan del proceso de integración europeo y los derechos humanos y de la infancia, especialmente el logro de los grandes compromisos contenidos en los Objetivos de Desarrollo Sostenible. Por último, se comprobará que participa en actividades comunitarias, así como en la generación de ideas y soluciones innovadoras, éticas y sostenibles, usando productos como son las presentaciones orales, audiovisuales, dramatizaciones o multimedia.",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH04",
       "agrupa": [
         "ce:SGEHC9"
       ],
@@ -893,6 +966,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -914,6 +988,7 @@
         "CC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -934,6 +1009,7 @@
         "CC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -954,6 +1030,7 @@
         "CCEC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -976,6 +1053,7 @@
         "CCEC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -998,6 +1076,7 @@
         "CCEC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1020,6 +1099,7 @@
         "CCEC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1044,6 +1124,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1066,6 +1147,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1089,6 +1171,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1113,6 +1196,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1135,6 +1219,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1156,6 +1241,7 @@
         "CE1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1177,6 +1263,7 @@
         "CE1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1198,6 +1285,7 @@
         "CE1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1216,6 +1304,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1235,6 +1324,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1254,6 +1344,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1273,6 +1364,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1292,6 +1384,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1312,6 +1405,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1332,6 +1426,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1352,6 +1447,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1372,6 +1468,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1392,6 +1489,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1412,6 +1510,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1431,6 +1530,7 @@
         "CC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1452,6 +1552,7 @@
         "CC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1473,6 +1574,7 @@
         "CC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1494,6 +1596,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1515,6 +1618,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -1536,6 +1640,7 @@
         "CC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1556,6 +1661,7 @@
         "CC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1576,6 +1682,7 @@
         "CCEC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1598,6 +1705,7 @@
         "CCEC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1619,6 +1727,7 @@
         "CE3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1641,6 +1750,7 @@
         "CCEC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1665,6 +1775,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1683,6 +1794,7 @@
         "CPSAA3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1706,6 +1818,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1730,6 +1843,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1752,6 +1866,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1773,6 +1888,7 @@
         "CE1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1794,6 +1910,7 @@
         "CE1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1815,6 +1932,7 @@
         "CE1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1833,6 +1951,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1852,6 +1971,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1871,6 +1991,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1890,6 +2011,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1909,6 +2031,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1929,6 +2052,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1949,6 +2073,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1969,6 +2094,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -1989,6 +2115,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2009,6 +2136,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2029,6 +2157,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2048,6 +2177,7 @@
         "CC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2069,6 +2199,7 @@
         "CC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2090,6 +2221,7 @@
         "CC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2111,6 +2243,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2132,6 +2265,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2151,6 +2285,7 @@
         "CC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2170,6 +2305,7 @@
         "CC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2189,6 +2325,7 @@
         "CD3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2207,6 +2344,7 @@
         "CC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2227,6 +2365,7 @@
         "CCEC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2244,6 +2383,7 @@
         "CC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2264,6 +2404,7 @@
         "CE1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2283,6 +2424,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2300,6 +2442,7 @@
         "CC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2319,6 +2462,7 @@
         "CE1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2336,6 +2480,7 @@
         "CC4"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2354,6 +2499,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2371,6 +2517,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2388,6 +2535,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2406,6 +2554,7 @@
         "CC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2424,6 +2573,7 @@
         "CC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2441,6 +2591,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2459,6 +2610,7 @@
         "CC2"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2477,6 +2629,7 @@
         "CC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2496,6 +2649,7 @@
         "CC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2513,6 +2667,7 @@
         "CC2"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2534,6 +2689,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2554,6 +2710,7 @@
         "CCEC4"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2577,6 +2734,7 @@
         "CCEC4"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2599,6 +2757,7 @@
         "CCEC4"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2618,6 +2777,7 @@
         "CC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2639,6 +2799,7 @@
         "CCEC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2657,6 +2818,7 @@
         "CC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2679,6 +2841,7 @@
         "CE1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2699,6 +2862,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2717,6 +2881,7 @@
         "CPSAA3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2737,6 +2902,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2755,6 +2921,7 @@
         "CC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2775,6 +2942,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2794,6 +2962,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2814,6 +2983,7 @@
         "CC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2832,6 +3002,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2848,6 +3019,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2867,6 +3039,7 @@
         "CC3"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2888,6 +3061,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2906,6 +3080,7 @@
         "CCEC1"
       ],
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -2915,8 +3090,9 @@
       "notation": "SGEH01SBI",
       "prefLabel": "SGEH01SBI · I. Retos del mundo actual",
       "definition": "Retos del mundo actual",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH01",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2926,8 +3102,9 @@
       "notation": "SGEH01SBII",
       "prefLabel": "SGEH01SBII · II. Sociedades y territorios",
       "definition": "Sociedades y territorios",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH01",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2937,8 +3114,9 @@
       "notation": "SGEH01SBIII",
       "prefLabel": "SGEH01SBIII · III. Compromiso cívico y social",
       "definition": "Compromiso cívico y social",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH01",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -2948,8 +3126,9 @@
       "notation": "SGEH02SBI",
       "prefLabel": "SGEH02SBI · I. Retos del mundo actual",
       "definition": "Retos del mundo actual",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH02",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2959,8 +3138,9 @@
       "notation": "SGEH02SBII",
       "prefLabel": "SGEH02SBII · II. Sociedades y territorios",
       "definition": "Sociedades y territorios",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH02",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2970,8 +3150,9 @@
       "notation": "SGEH02SBIII",
       "prefLabel": "SGEH02SBIII · III. Compromiso cívico",
       "definition": "Compromiso cívico",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH02",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -2981,8 +3162,9 @@
       "notation": "SGEH03SBI",
       "prefLabel": "SGEH03SBI · I. Retos del mundo actual",
       "definition": "Retos del mundo actual",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH03",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -2992,8 +3174,9 @@
       "notation": "SGEH03SBII",
       "prefLabel": "SGEH03SBII · II. Sociedades y territorios",
       "definition": "Sociedades y territorios",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH03",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -3003,8 +3186,9 @@
       "notation": "SGEH03SBIII",
       "prefLabel": "SGEH03SBIII · III. Compromiso cívico local y global",
       "definition": "Compromiso cívico local y global",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH03",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -3014,8 +3198,9 @@
       "notation": "SGEH04SBI",
       "prefLabel": "SGEH04SBI · I. Retos del mundo actual",
       "definition": "Retos del mundo actual",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH04",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -3025,8 +3210,9 @@
       "notation": "SGEH04SBII",
       "prefLabel": "SGEH04SBII · II. Sociedades y territorios",
       "definition": "Sociedades y territorios",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH04",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -3036,8 +3222,9 @@
       "notation": "SGEH04SBIII",
       "prefLabel": "SGEH04SBIII · III. Compromiso cívico local y global",
       "definition": "Compromiso cívico local y global",
-      "broader": "materia:SGEH",
+      "broader": "asig:SGEH04",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -3049,6 +3236,7 @@
       "definition": "Ubicación espacial.",
       "broader": "sb:SGEH01SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3060,6 +3248,7 @@
       "definition": "Representación del espacio, orientación y escalas.",
       "broader": "sb:SGEH01SBI.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3071,6 +3260,7 @@
       "definition": "Utilización de recursos digitales e interpretación y elaboración de mapas, esquemas, imágenes y representaciones gráficas.",
       "broader": "sb:SGEH01SBI.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3082,6 +3272,7 @@
       "definition": "Uso de las Tecnologías de la Información Geográfica (TIG).",
       "broader": "sb:SGEH01SBI.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3093,6 +3284,7 @@
       "definition": "Emergencia climática.",
       "broader": "sb:SGEH01SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3104,6 +3296,7 @@
       "definition": "Identificación de elementos y factores que condicionan el clima y el impacto de las actividades humanas.",
       "broader": "sb:SGEH01SBI.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3115,6 +3308,7 @@
       "definition": "Métodos de recogida de datos meteorológicos e interpretación de gráficos.",
       "broader": "sb:SGEH01SBI.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3126,6 +3320,7 @@
       "definition": "Identificar los componentes básicos de su relieve, clima, aguas y vegetación.",
       "broader": "sb:SGEH01SBI.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3137,6 +3332,7 @@
       "definition": "Reconocimiento de riesgos y catástrofes climáticas en el presente, en el pasado y en el futuro.",
       "broader": "sb:SGEH01SBI.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3148,6 +3344,7 @@
       "definition": "Reflexión sobre la vulnerabilidad, prevención y resiliencia de la población ante las catástrofes naturales y los efectos del cambio climático.",
       "broader": "sb:SGEH01SBI.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3159,6 +3356,7 @@
       "definition": "El clima y la emergencia climática en Canarias, el impacto por la acción antrópica.",
       "broader": "sb:SGEH01SBI.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3170,6 +3368,7 @@
       "definition": "Biodiversidad.",
       "broader": "sb:SGEH01SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3181,6 +3380,7 @@
       "definition": "Reconocimiento de las dinámicas y amenazas de los ecosistemas planetarios.",
       "broader": "sb:SGEH01SBI.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3192,6 +3392,7 @@
       "definition": "Identificación de formas y procesos de modificación de la superficie terrestre.",
       "broader": "sb:SGEH01SBI.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3203,6 +3404,7 @@
       "definition": "Explicación de la riqueza y valor del patrimonio natural.",
       "broader": "sb:SGEH01SBI.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3214,6 +3416,7 @@
       "definition": "Reflexión crítica de la influencia humana en la alteración de los ecosistemas en el pasado y la actualidad.",
       "broader": "sb:SGEH01SBI.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3225,6 +3428,7 @@
       "definition": "Análisis de la biodiversidad en las Islas Canarias. Análisis de los jardines botánicos canarios como reservorio de la diversidad vegetal canaria. Laurisilva canaria como recuerdo del pasado.",
       "broader": "sb:SGEH01SBI.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3236,6 +3440,7 @@
       "definition": "Identificación de especies endémicas en peligro de extinción.",
       "broader": "sb:SGEH01SBI.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3247,6 +3452,7 @@
       "definition": "El espacio humano.",
       "broader": "sb:SGEH01SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3258,6 +3464,7 @@
       "definition": "Localización de los espacios naturales canarios.",
       "broader": "sb:SGEH01SBI.4",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3269,6 +3476,7 @@
       "definition": "Interpretación de mapa y explicación de su situación actual.",
       "broader": "sb:SGEH01SBI.4",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3280,6 +3488,7 @@
       "definition": "Tecnologías de la información.",
       "broader": "sb:SGEH01SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3291,6 +3500,7 @@
       "definition": "Utilización y manejo de dispositivos, aplicaciones informáticas y plataformas digitales.",
       "broader": "sb:SGEH01SBI.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3302,6 +3512,7 @@
       "definition": "Búsqueda, tratamiento de la información y elaboración de conocimiento.",
       "broader": "sb:SGEH01SBI.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3313,6 +3524,7 @@
       "definition": "Uso seguro de las redes de comunicación.",
       "broader": "sb:SGEH01SBI.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3324,6 +3536,7 @@
       "definition": "Lectura crítica de la información.",
       "broader": "sb:SGEH01SBI.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3335,6 +3548,7 @@
       "definition": "Sociedad del conocimiento.",
       "broader": "sb:SGEH01SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3346,6 +3560,7 @@
       "definition": "Introducción a los objetivos y estrategias de las Ciencias Sociales y al uso de sus procedimientos, términos y conceptos.",
       "broader": "sb:SGEH01SBI.6",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3357,6 +3572,7 @@
       "definition": "Uso de plataformas digitales específicas de las Ciencias Sociales.",
       "broader": "sb:SGEH01SBI.6",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3368,6 +3584,7 @@
       "definition": "Igualdad.",
       "broader": "sb:SGEH01SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3379,6 +3596,7 @@
       "definition": "Reflexión sobre situaciones discriminatorias de las niñas y de las mujeres en el mundo.",
       "broader": "sb:SGEH01SBI.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3390,6 +3608,7 @@
       "definition": "Las mujeres rurales y su impacto en la sociedad canaria en el pasado y en el presente.",
       "broader": "sb:SGEH01SBI.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3401,6 +3620,7 @@
       "definition": "Identificación de roles de género y su manifestación en todos los ámbitos de la sociedad y la cultura.",
       "broader": "sb:SGEH01SBI.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3412,6 +3632,7 @@
       "definition": "Objetivos de Desarrollo Sostenible.",
       "broader": "sb:SGEH01SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3423,6 +3644,7 @@
       "definition": "Reconocimiento y visión de los dilemas del mundo actual, punto de partida para el pensamiento crítico y el desarrollo de juicios propios.",
       "broader": "sb:SGEH01SBI.8",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3434,6 +3656,7 @@
       "definition": "Métodos básicos de investigación para la construcción del conocimiento de la Geografía y la Historia.",
       "broader": "sb:SGEH01SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3445,6 +3668,7 @@
       "definition": "Investigación sobre las metodologías del pensamiento geográfico y del pensamiento histórico.",
       "broader": "sb:SGEH01SBII.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3456,6 +3680,7 @@
       "definition": "Conocimiento de algunas instituciones científicas canarias implicadas en el conocimiento geográfico e histórico.",
       "broader": "sb:SGEH01SBII.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3467,6 +3692,7 @@
       "definition": "Las fuentes históricas y arqueológicas como base para la construcción del conocimiento histórico.",
       "broader": "sb:SGEH01SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3478,6 +3704,7 @@
       "definition": "Ilustración de objetos y artefactos como fuente para la historia y el legado inmaterial.",
       "broader": "sb:SGEH01SBII.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3489,6 +3716,7 @@
       "definition": "Valoración del significado de los archivos, bibliotecas y museos, especialmente en el archipiélago,y del legado histórico y cultural como patrimonio colectivo.",
       "broader": "sb:SGEH01SBII.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3500,6 +3728,7 @@
       "definition": "Tiempo histórico.",
       "broader": "sb:SGEH01SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3511,6 +3740,7 @@
       "definition": "Construcción e interpretación de líneas de tiempo a través de la linealidad, cronología, simultaneidad y duración.",
       "broader": "sb:SGEH01SBII.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3522,6 +3752,7 @@
       "definition": "Análisis interdisciplinar del origen del ser humano y del nacimiento de la sociedad.",
       "broader": "sb:SGEH01SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3533,6 +3764,7 @@
       "definition": "Reconocimiento de las grandes migraciones humanas y nacimiento de las primeras culturas.",
       "broader": "sb:SGEH01SBII.4",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3544,6 +3776,7 @@
       "definition": "Violencia y conflictos armados.",
       "broader": "sb:SGEH01SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3555,6 +3788,7 @@
       "definition": "Análisis del crecimiento de los ejércitos y la evolución del armamento. Los civiles durante las guerras.",
       "broader": "sb:SGEH01SBII.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3566,6 +3800,7 @@
       "definition": "Complejidad social y nacimiento de la autoridad: familia, clan, tribu, casta, linaje y estamento.",
       "broader": "sb:SGEH01SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3577,6 +3812,7 @@
       "definition": "Desigualdad social y disputa por el poder desde la Prehistoria hasta la Antigüedad. Formación de oligarquías, la imagen del poder y la evolución de la aristocracia.",
       "broader": "sb:SGEH01SBII.6",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3588,6 +3824,7 @@
       "definition": "Las personas invisibilizadas de la historia.",
       "broader": "sb:SGEH01SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3599,6 +3836,7 @@
       "definition": "Identificación de los roles de las mujeres, las personas esclavas y extranjeras.",
       "broader": "sb:SGEH01SBII.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3610,6 +3848,7 @@
       "definition": "Reconocimiento de situaciones de marginación, segregación, control y sumisión en la historia de la humanidad.",
       "broader": "sb:SGEH01SBII.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3621,6 +3860,7 @@
       "definition": "Valoración de los personajes femeninos en la historia.",
       "broader": "sb:SGEH01SBII.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3632,6 +3872,7 @@
       "definition": "Identificación de la resistencia a la opresión.",
       "broader": "sb:SGEH01SBII.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3643,6 +3884,7 @@
       "definition": "La organización política del ser humano y las formulaciones estatales en el mundo antiguo.",
       "broader": "sb:SGEH01SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3654,6 +3896,7 @@
       "definition": "Identificación y análisis de democracias, repúblicas, imperios y reinos en el mundo antiguo.",
       "broader": "sb:SGEH01SBII.8",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3665,6 +3908,7 @@
       "definition": "Conocimiento de la evolución de la teoría del poder.",
       "broader": "sb:SGEH01SBII.8",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3676,6 +3920,7 @@
       "definition": "Las raíces clásicas de la cultura occidental.",
       "broader": "sb:SGEH01SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3687,6 +3932,7 @@
       "definition": "Valoración de la construcción de las identidades culturales, de la idea de Europa y del eurocentrismo, a través del pensamiento y del arte.",
       "broader": "sb:SGEH01SBII.9",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3698,6 +3944,7 @@
       "definition": "El papel de la religión en la organización social, la legitimación del poder y la formación de identidades.",
       "broader": "sb:SGEH01SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3709,6 +3956,7 @@
       "definition": "Identificación de politeísmo, monoteísmo y el surgimiento de las grandes religiones.",
       "broader": "sb:SGEH01SBII.10",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3720,6 +3968,7 @@
       "definition": "La transformación humana del territorio y la distribución desigual de los recursos y del trabajo.",
       "broader": "sb:SGEH01SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3731,6 +3980,7 @@
       "definition": "Reconocimiento de la evolución de los sistemas económicos, de los ciclos demográficos, de los modos de vida y de los modelos de organización social.",
       "broader": "sb:SGEH01SBII.11",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3742,6 +3992,7 @@
       "definition": "Reconocimiento de la lucha por la supervivencia y el estatus social desde la Prehistoria hasta la Antigüedad.",
       "broader": "sb:SGEH01SBII.11",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3753,6 +4004,7 @@
       "definition": "España en el tiempo y su conexión con los grandes procesos de la historia de la humanidad.",
       "broader": "sb:SGEH01SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3764,6 +4016,7 @@
       "definition": "Identificación e interpretación del legado histórico y el acervo cultural en la formación de las identidades colectivas.",
       "broader": "sb:SGEH01SBII.12",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3775,6 +4028,7 @@
       "definition": "La insularidad.",
       "broader": "sb:SGEH01SBII.12",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3786,6 +4040,7 @@
       "definition": "Significado y función de las expresiones artísticas y culturales en las distintas civilizaciones.",
       "broader": "sb:SGEH01SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3797,6 +4052,7 @@
       "definition": "Reconocimiento y valoración de la diversidad y riqueza cultural.",
       "broader": "sb:SGEH01SBII.13",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3808,6 +4064,7 @@
       "definition": "Respeto y conservación del patrimonio material e inmaterial.",
       "broader": "sb:SGEH01SBII.13",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3819,6 +4076,7 @@
       "definition": "Dignidad humana y derechos universales.",
       "broader": "sb:SGEH01SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3830,6 +4088,7 @@
       "definition": "Análisis de la Convención sobre los Derechos del Niño.",
       "broader": "sb:SGEH01SBIII.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3841,6 +4100,7 @@
       "definition": "Alteridad: respeto y aceptación del otro.",
       "broader": "sb:SGEH01SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3852,6 +4112,7 @@
       "definition": "Valoración crítica de comportamientos no discriminatorios y contrarios a cualquier actitud segregadora.",
       "broader": "sb:SGEH01SBIII.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3863,6 +4124,7 @@
       "definition": "Igualdad de género. Identificación de las manifestaciones y conductas no sexistas.",
       "broader": "sb:SGEH01SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3874,6 +4136,7 @@
       "definition": "Las redes sociales.",
       "broader": "sb:SGEH01SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3885,6 +4148,7 @@
       "definition": "Utilización segura y con actitud preventiva de las tecnologías de la información y de la comunicación.",
       "broader": "sb:SGEH01SBIII.4",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3896,6 +4160,7 @@
       "definition": "Convivencia cívica y cultura democrática.",
       "broader": "sb:SGEH01SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3907,6 +4172,7 @@
       "definition": "Incorporación e implicación de la sociedad civil en procesos democráticos.",
       "broader": "sb:SGEH01SBIII.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3918,6 +4184,7 @@
       "definition": "Participación en proyectos comunitarios.",
       "broader": "sb:SGEH01SBIII.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3929,6 +4196,7 @@
       "definition": "Conciencia ambiental.",
       "broader": "sb:SGEH01SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3940,6 +4208,7 @@
       "definition": "Concienciación hacia el respeto, protección y cuidado de los seres vivos y del planeta.",
       "broader": "sb:SGEH01SBIII.6",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3951,6 +4220,7 @@
       "definition": "Estudio de los principales problemas y las amenazas medioambientales de Canarias.",
       "broader": "sb:SGEH01SBIII.6",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3962,6 +4232,7 @@
       "definition": "Sensibilización por el respeto, protección y cuidado de la biodiversidad.",
       "broader": "sb:SGEH01SBIII.6",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3973,6 +4244,7 @@
       "definition": "Conservación y defensa del patrimonio social, cultural e histórico.",
       "broader": "sb:SGEH01SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3984,6 +4256,7 @@
       "definition": "Implicación solidaria, con empatía y acciones de apoyo a colectivos en situaciones de pobreza, vulnerabilidad y exclusión social.",
       "broader": "sb:SGEH01SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -3995,6 +4268,7 @@
       "definition": "Identificación y gestión de las emociones y su repercusión en comportamientos individuales y colectivos.",
       "broader": "sb:SGEH01SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -4006,6 +4280,7 @@
       "definition": "Ciclos vitales, uso del tiempo libre y hábitos de consumo.",
       "broader": "sb:SGEH01SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -4017,6 +4292,7 @@
       "definition": "Diferenciación y análisis de cambios en las formas de vida en las sociedades actuales y en las del pasado.",
       "broader": "sb:SGEH01SBIII.10",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -4028,6 +4304,7 @@
       "definition": "Reconocimiento de la contribución del Estado y sus instituciones a la paz, a la seguridad integral ciudadana y a la convivencia social.",
       "broader": "sb:SGEH01SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -4039,6 +4316,7 @@
       "definition": "Seguridad vial y movilidad segura, saludable y sostenible. El espacio público.",
       "broader": "sb:SGEH01SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH01",
       "curso": "curso:S01",
       "etapa": "etapa:ESO"
     },
@@ -4050,6 +4328,7 @@
       "definition": "Biodiversidad.",
       "broader": "sb:SGEH02SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4061,6 +4340,7 @@
       "definition": "Análisis y argumentación crítica de las dinámicas y amenazas de los ecosistemas planetarios.",
       "broader": "sb:SGEH02SBI.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4072,6 +4352,7 @@
       "definition": "Interpretación de las formas y procesos de modificación de la superficie terrestre.",
       "broader": "sb:SGEH02SBI.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4083,6 +4364,7 @@
       "definition": "Análisis de la riqueza y el valor del patrimonio natural.",
       "broader": "sb:SGEH02SBI.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4094,6 +4376,7 @@
       "definition": "Constatación de la influencia humana en la alteración de los ecosistemas en el pasado y la actualidad.",
       "broader": "sb:SGEH02SBI.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4105,6 +4388,7 @@
       "definition": "Concienciación para la conservación y mejora del entorno local, insular, regional y global.",
       "broader": "sb:SGEH02SBI.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4116,6 +4400,7 @@
       "definition": "Tecnologías de la información.",
       "broader": "sb:SGEH02SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4127,6 +4412,7 @@
       "definition": "Manejo y utilización de dispositivos, aplicaciones informáticas y plataformas digitales.",
       "broader": "sb:SGEH02SBI.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4138,6 +4424,7 @@
       "definition": "Búsqueda, tratamiento de la información y elaboración de conocimiento.",
       "broader": "sb:SGEH02SBI.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4149,6 +4436,7 @@
       "definition": "Uso seguro de las redes de comunicación.",
       "broader": "sb:SGEH02SBI.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4160,6 +4448,7 @@
       "definition": "Lectura crítica de la información.",
       "broader": "sb:SGEH02SBI.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4171,6 +4460,7 @@
       "definition": "Sociedad del conocimiento.",
       "broader": "sb:SGEH02SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4182,6 +4472,7 @@
       "definition": "Introducción a los objetivos y estrategias de las Ciencias Sociales y al uso de sus procedimientos, términos y conceptos.",
       "broader": "sb:SGEH02SBI.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4193,6 +4484,7 @@
       "definition": "Uso de plataformas digitales.",
       "broader": "sb:SGEH02SBI.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4204,6 +4496,7 @@
       "definition": "Desafíos demográficos en el mundo actual.",
       "broader": "sb:SGEH02SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4215,6 +4508,7 @@
       "definition": "Causalidad y comparación en el estudio de la diversidad social y cultural y de las estructuras demográficas a distintas escalas (local, regional, autonómico, nacional, europea y planetaria).",
       "broader": "sb:SGEH02SBI.4",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4226,6 +4520,7 @@
       "definition": "Aglomeraciones urbanas y ruralidad.",
       "broader": "sb:SGEH02SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4237,6 +4532,7 @@
       "definition": "Análisis y reflexión sobre la despoblación y el sostenimiento del mundo rural.",
       "broader": "sb:SGEH02SBI.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4248,6 +4544,7 @@
       "definition": "Argumentación y debate sobre el desarrollo urbano sostenible: la ciudad, espacio de convivencia.",
       "broader": "sb:SGEH02SBI.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4259,6 +4556,7 @@
       "definition": "Análisis práctico del espacio rural y urbano en Canarias.",
       "broader": "sb:SGEH02SBI.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4270,6 +4568,7 @@
       "definition": "Reflexión crítica sobre los modos y estilos de vida en el contexto de la globalización.",
       "broader": "sb:SGEH02SBI.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4281,6 +4580,7 @@
       "definition": "Competencia y conflicto por los recursos y el territorio.",
       "broader": "sb:SGEH02SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4292,6 +4592,7 @@
       "definition": "Mercados regionales, políticas comerciales y movimientos migratorios.",
       "broader": "sb:SGEH02SBI.6",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4303,6 +4604,7 @@
       "definition": "Tensiones internacionales, choques y alianzas entre civilizaciones.",
       "broader": "sb:SGEH02SBI.6",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4314,6 +4616,7 @@
       "definition": "Concentración y distribución de la riqueza.",
       "broader": "sb:SGEH02SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4325,6 +4628,7 @@
       "definition": "Formas y modos de percibir y representar la desigualdad.",
       "broader": "sb:SGEH02SBI.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4336,6 +4640,7 @@
       "definition": "Líneas de acción para un reparto justo.",
       "broader": "sb:SGEH02SBI.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4347,6 +4652,7 @@
       "definition": "La cuestión del mínimo vital.",
       "broader": "sb:SGEH02SBI.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4358,6 +4664,7 @@
       "definition": "Igualdad.",
       "broader": "sb:SGEH02SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4369,6 +4676,7 @@
       "definition": "Situaciones discriminatorias de las niñas y de las mujeres en el mundo.",
       "broader": "sb:SGEH02SBI.8",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4380,6 +4688,7 @@
       "definition": "Roles de género y su manifestación en todos los ámbitos de la sociedad y la cultura.",
       "broader": "sb:SGEH02SBI.8",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4391,6 +4700,7 @@
       "definition": "Objetivos de Desarrollo Sostenible.",
       "broader": "sb:SGEH02SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4402,6 +4712,7 @@
       "definition": "La visión de los dilemas del mundo actual, punto de partida para el pensamiento crítico y el desarrollo de juicios propios aplicados al ámbito canario.",
       "broader": "sb:SGEH02SBI.9",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4413,6 +4724,7 @@
       "definition": "Métodos básicos de investigación para la construcción del conocimiento de la Geografía y la Historia. Metodologías del pensamiento geográfico y del pensamiento histórico.",
       "broader": "sb:SGEH02SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4424,6 +4736,7 @@
       "definition": "Instituciones científicas canarias implicadas en el conocimiento geográfico e histórico.",
       "broader": "sb:SGEH02SBII.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4435,6 +4748,7 @@
       "definition": "Las fuentes históricas y arqueológicas como base para la construcción del conocimiento histórico.",
       "broader": "sb:SGEH02SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4446,6 +4760,7 @@
       "definition": "Uso de fuentes primarias y secundarias para estudiar a los indígenas canarios y su forma de organización política, social, económica, cultural y artística.",
       "broader": "sb:SGEH02SBII.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4457,6 +4772,7 @@
       "definition": "Tiempo histórico.",
       "broader": "sb:SGEH02SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4468,6 +4784,7 @@
       "definition": "Construcción e interpretación de líneas de tiempo a través de la linealidad, cronología, simultaneidad y duración.",
       "broader": "sb:SGEH02SBII.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4479,6 +4796,7 @@
       "definition": "Las grandes rutas comerciales y las estrategias por el control de los recursos: talasocracias e imperios, conquista y colonización.",
       "broader": "sb:SGEH02SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4490,6 +4808,7 @@
       "definition": "Violencia y conflictos armados.",
       "broader": "sb:SGEH02SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4501,6 +4820,7 @@
       "definition": "El crecimiento de los ejércitos y la evolución del armamento.",
       "broader": "sb:SGEH02SBII.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4512,6 +4832,7 @@
       "definition": "Los civiles durante las guerras.",
       "broader": "sb:SGEH02SBII.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4523,6 +4844,7 @@
       "definition": "Dignidad humana y derechos universales.",
       "broader": "sb:SGEH02SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4534,6 +4856,7 @@
       "definition": "Análisis de la Convención sobre los Derechos del Niño.",
       "broader": "sb:SGEH02SBIII.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4545,6 +4868,7 @@
       "definition": "Alteridad: respeto y aceptación del otro.",
       "broader": "sb:SGEH02SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4556,6 +4880,7 @@
       "definition": "Valoración crítica de comportamientos no discriminatorios y contrarios a cualquier actitud segregadora.",
       "broader": "sb:SGEH02SBIII.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4567,6 +4892,7 @@
       "definition": "Igualdad de género.",
       "broader": "sb:SGEH02SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4578,6 +4904,7 @@
       "definition": "Análisis de las manifestaciones y conductas no sexistas.",
       "broader": "sb:SGEH02SBIII.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4589,6 +4916,7 @@
       "definition": "Análisis y reflexión ante los retos y problemas de actualidad en el entorno local, regional y global.",
       "broader": "sb:SGEH02SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4600,6 +4928,7 @@
       "definition": "Las redes sociales.",
       "broader": "sb:SGEH02SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4611,6 +4940,7 @@
       "definition": "Concienciación en relación a la seguridad y prevención ante los riesgos y peligros del uso de las tecnologías de la información y de la comunicación.",
       "broader": "sb:SGEH02SBIII.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4622,6 +4952,7 @@
       "definition": "Convivencia cívica y cultura democrática.",
       "broader": "sb:SGEH02SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4633,6 +4964,7 @@
       "definition": "Incorporación e implicación de la sociedad civil en procesos democráticos.",
       "broader": "sb:SGEH02SBIII.6",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4644,6 +4976,7 @@
       "definition": "Participación en proyectos comunitarios.",
       "broader": "sb:SGEH02SBIII.6",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4655,6 +4988,7 @@
       "definition": "Conciencia ambiental",
       "broader": "sb:SGEH02SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4666,6 +5000,7 @@
       "definition": "Planificación de acciones de respeto, protección y cuidado de los seres vivos y del planeta.",
       "broader": "sb:SGEH02SBIII.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4677,6 +5012,7 @@
       "definition": "Conservación y defensa del patrimonio natural, social, cultural e histórico.",
       "broader": "sb:SGEH02SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4688,6 +5024,7 @@
       "definition": "Concienciación de la fragilidad del patrimonio arqueológico de las sociedades indígenas.",
       "broader": "sb:SGEH02SBIII.8",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4699,6 +5036,7 @@
       "definition": "Valoración de los yacimientos arqueológicos canarios y los bienes custodiados en los distintos museos y parques arqueológicos como fuente de estudio.",
       "broader": "sb:SGEH02SBIII.8",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4710,6 +5048,7 @@
       "definition": "Emociones y contexto cultural: El impacto que los procesos de conquista supusieron en la población indígena.",
       "broader": "sb:SGEH02SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4721,6 +5060,7 @@
       "definition": "Planificación de acciones de solidaridad, empatía y apoyo a colectivos en situaciones de pobreza, vulnerabilidad y exclusión social.",
       "broader": "sb:SGEH02SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4732,6 +5072,7 @@
       "definition": "Identificación y gestión de las emociones y su repercusión en comportamientos individuales y colectivos.",
       "broader": "sb:SGEH02SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4743,6 +5084,7 @@
       "definition": "Ciclos vitales, uso del tiempo libre y hábitos de consumo.",
       "broader": "sb:SGEH02SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4754,6 +5096,7 @@
       "definition": "Diferenciación y análisis de cambios en las formas de vida en las sociedades actuales y en las del pasado.",
       "broader": "sb:SGEH02SBIII.12",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4765,6 +5108,7 @@
       "definition": "Análisis de la contribución del Estado y sus instituciones a la paz, a la seguridad integral ciudadana y a la convivencia social.",
       "broader": "sb:SGEH02SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4776,6 +5120,7 @@
       "definition": "Reconocimiento de la posición ultraperiférica de las islas entre tres continentes.",
       "broader": "sb:SGEH02SBIII.13",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4787,6 +5132,7 @@
       "definition": "Ciudadanía europea.",
       "broader": "sb:SGEH02SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4798,6 +5144,7 @@
       "definition": "Ideas y actitudes en el proyecto de construcción de una identidad común. Ciudadanía canaria como resultado del mestizaje de herencia europea, índigena y africana.",
       "broader": "sb:SGEH02SBIII.14",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4809,6 +5156,7 @@
       "definition": "La seguridad y la cooperación internacional.",
       "broader": "sb:SGEH02SBIII.14",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4820,6 +5168,7 @@
       "definition": "Seguridad vial y movilidad segura, saludable y sostenible. El espacio público.",
       "broader": "sb:SGEH02SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH02",
       "curso": "curso:S02",
       "etapa": "etapa:ESO"
     },
@@ -4831,6 +5180,7 @@
       "definition": "Objetivos de Desarrollo Sostenible.",
       "broader": "sb:SGEH03SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4842,6 +5192,7 @@
       "definition": "Emergencia climática y sostenibilidad. Relación entre factores naturales y antrópicos en la Tierra.",
       "broader": "sb:SGEH03SBI.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4853,6 +5204,7 @@
       "definition": "Reflexión y valoración sobre la globalización, movimientos migratorios e interculturalidad.",
       "broader": "sb:SGEH03SBI.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4864,6 +5216,7 @@
       "definition": "Reconocimiento de los avances tecnológicos y la conciencia ecosocial.",
       "broader": "sb:SGEH03SBI.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4875,6 +5228,7 @@
       "definition": "Identificación de los conflictos ideológicos y etnoculturales.",
       "broader": "sb:SGEH03SBI.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4886,6 +5240,7 @@
       "definition": "Sociedad de la información.",
       "broader": "sb:SGEH03SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4897,6 +5252,7 @@
       "definition": "Búsqueda, tratamiento de la información, uso de datos en entornos digitales y evaluación y contraste de la fiabilidad de las fuentes.",
       "broader": "sb:SGEH03SBI.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4908,6 +5264,7 @@
       "definition": "Reflexión crítica sobre el problema de la desinformación.",
       "broader": "sb:SGEH03SBI.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4919,6 +5276,7 @@
       "definition": "Uso específico del léxico relativo a los ámbitos histórico, artístico y geográfico.",
       "broader": "sb:SGEH03SBI.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4930,6 +5288,7 @@
       "definition": "Cultura mediática.",
       "broader": "sb:SGEH03SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4941,6 +5300,7 @@
       "definition": "Utilización de técnicas y métodos de las Ciencias Sociales: análisis de textos, interpretación y elaboración de mapas, esquemas y síntesis, representación de gráficos e interpretación de imágenes a través de medios digitales accesibles.",
       "broader": "sb:SGEH03SBI.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4952,6 +5312,7 @@
       "definition": "Utilización de tecnologías de la información geográfica.",
       "broader": "sb:SGEH03SBI.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4963,6 +5324,7 @@
       "definition": "Lo global y lo local.",
       "broader": "sb:SGEH03SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4974,6 +5336,7 @@
       "definition": "Reconocimiento y análisis crítico de la investigación en Ciencias Sociales, el estudio multicausal y el análisis comparado del espacio natural, rural y urbano, su evolución y los retos del futuro.",
       "broader": "sb:SGEH03SBI.4",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4985,6 +5348,7 @@
       "definition": "Análisis e interpretación de conceptos espaciales: localización, escala, conexión y proximidad espacial.",
       "broader": "sb:SGEH03SBI.4",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -4996,6 +5360,7 @@
       "definition": "Estructuras económicas en el mundo actual, cambios en los sectores productivos y funcionamiento de los mercados.",
       "broader": "sb:SGEH03SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5007,6 +5372,7 @@
       "definition": "Análisis de dilemas e incertidumbres ante el crecimiento, la empleabilidad y la sustentabilidad.",
       "broader": "sb:SGEH03SBI.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5018,6 +5384,7 @@
       "definition": "Igualdad de género y formas de violencia contra las mujeres.",
       "broader": "sb:SGEH03SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5029,6 +5396,7 @@
       "definition": "Análisis de las actitudes y comportamientos sexistas.",
       "broader": "sb:SGEH03SBI.6",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5040,6 +5408,7 @@
       "definition": "Diversidad social, etnocultural y de género.",
       "broader": "sb:SGEH03SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5051,6 +5420,7 @@
       "definition": "Análisis de las migraciones, multiculturalidad y mestizaje en sociedades abiertas.",
       "broader": "sb:SGEH03SBI.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5062,6 +5432,7 @@
       "definition": "Historia y reconocimiento del pueblo gitano y otras minorías étnicas de nuestro país.",
       "broader": "sb:SGEH03SBI.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5073,6 +5444,7 @@
       "definition": "Reconocimiento de nuevas formas de identificación cultural.",
       "broader": "sb:SGEH03SBI.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5084,6 +5456,7 @@
       "definition": "Métodos de investigación en el ámbito de la Geografía.",
       "broader": "sb:SGEH03SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5095,6 +5468,7 @@
       "definition": "Identificación de metodologías del pensamiento geográfico.",
       "broader": "sb:SGEH03SBII.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5106,6 +5480,7 @@
       "definition": "La transformación humana del territorio y la distribución desigual de los recursos y del trabajo.",
       "broader": "sb:SGEH03SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5117,6 +5492,7 @@
       "definition": "Evolución de los sistemas económicos, de los ciclos demográficos, de los modos de vida y de los modelos de organización social.",
       "broader": "sb:SGEH03SBII.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5128,6 +5504,7 @@
       "definition": "Conocimiento de la lucha por los derechos laborales y sociales: el estado del bienestar.",
       "broader": "sb:SGEH03SBII.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5139,6 +5516,7 @@
       "definition": "Las formaciones identitarias: ideologías, nacionalismos y movimientos supranacionales.",
       "broader": "sb:SGEH03SBII.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5150,6 +5528,7 @@
       "definition": "Análisis crítico de ciudadanía europea y cosmopolita.",
       "broader": "sb:SGEH03SBII.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5161,6 +5540,7 @@
       "definition": "Interpretación del territorio y del paisaje.",
       "broader": "sb:SGEH03SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5172,6 +5552,7 @@
       "definition": "Reflexión crítica del éxodo rural a la concentración urbana.",
       "broader": "sb:SGEH03SBII.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5183,6 +5564,7 @@
       "definition": "Identificación del reto demográfico en España y Canarias.",
       "broader": "sb:SGEH03SBII.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5194,6 +5576,7 @@
       "definition": "Análisis del problema de la despoblación rural.",
       "broader": "sb:SGEH03SBII.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5205,6 +5588,7 @@
       "definition": "Conocimiento de ordenación del territorio y transformación del espacio.",
       "broader": "sb:SGEH03SBII.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5216,6 +5600,7 @@
       "definition": "Reconocimiento de la ciudad como espacio de convivencia.",
       "broader": "sb:SGEH03SBII.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5227,6 +5612,7 @@
       "definition": "Importancia y cuidado del espacio público",
       "broader": "sb:SGEH03SBII.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5238,6 +5624,7 @@
       "definition": "Reconocimiento de la huella humana y la protección del medio natural y su patrimonio cultural.",
       "broader": "sb:SGEH03SBII.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5249,6 +5636,7 @@
       "definition": "Las transformaciones científicas y tecnológicas.",
       "broader": "sb:SGEH03SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5260,6 +5648,7 @@
       "definition": "Valoración de la dimensión ética de la ciencia y la tecnología.",
       "broader": "sb:SGEH03SBII.4",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5271,6 +5660,7 @@
       "definition": "Análisis de los cambios culturales y movimientos sociales.",
       "broader": "sb:SGEH03SBII.4",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5282,6 +5672,7 @@
       "definition": "Implicación ética de los medios de comunicación y las redes sociales.",
       "broader": "sb:SGEH03SBII.4",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5293,6 +5684,7 @@
       "definition": "El proceso de construcción europea.",
       "broader": "sb:SGEH03SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5304,6 +5696,7 @@
       "definition": "Reflexión sobre el proceso de integración económica, monetaria y ciudadana.",
       "broader": "sb:SGEH03SBII.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5315,6 +5708,7 @@
       "definition": "Reconocimiento de las instituciones europeas.",
       "broader": "sb:SGEH03SBII.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5326,6 +5720,7 @@
       "definition": "Valoración de las políticas de futuro de Europa.",
       "broader": "sb:SGEH03SBII.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5337,6 +5732,7 @@
       "definition": "Tratamiento diferenciado de Canarias como región ultraperiférica.",
       "broader": "sb:SGEH03SBII.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5348,6 +5744,7 @@
       "definition": "La ley como contrato social.",
       "broader": "sb:SGEH03SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5359,6 +5756,7 @@
       "definition": "Análisis de la Constitución española de 1978.",
       "broader": "sb:SGEH03SBII.6",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5370,6 +5768,7 @@
       "definition": "Reconocimiento de los distintos ordenamientos normativos autonómico, constitucional y supranacional como garante del desarrollo de derechos y libertades para el ejercicio de la ciudadanía.",
       "broader": "sb:SGEH03SBII.6",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5381,6 +5780,7 @@
       "definition": "La organización territorial de Canarias: planteamientos históricos y geográficos.",
       "broader": "sb:SGEH03SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5392,6 +5792,7 @@
       "definition": "Evolución de sus instituciones.",
       "broader": "sb:SGEH03SBII.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5403,6 +5804,7 @@
       "definition": "Conocimiento del Estatuto de Autonomía de Canarias.",
       "broader": "sb:SGEH03SBII.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5414,6 +5816,7 @@
       "definition": "Dignidad humana y derechos universales.",
       "broader": "sb:SGEH03SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5425,6 +5828,7 @@
       "definition": "Reflexión crítica del impacto de la Declaración Universal de los Derechos Humanos.",
       "broader": "sb:SGEH03SBIII.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5436,6 +5840,7 @@
       "definition": "Diversidad social y multiculturalidad.",
       "broader": "sb:SGEH03SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5447,6 +5852,7 @@
       "definition": "Conocimiento de la integración y cohesión social.",
       "broader": "sb:SGEH03SBIII.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5458,6 +5864,7 @@
       "definition": "Responsabilidad ecosocial.",
       "broader": "sb:SGEH03SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5469,6 +5876,7 @@
       "definition": "Compromiso y acción ante los Objetivos del Desarrollo Sostenible.",
       "broader": "sb:SGEH03SBIII.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5480,6 +5888,7 @@
       "definition": "Concienciación del papel de la juventud como agente de cambio para el desarrollo sostenible.",
       "broader": "sb:SGEH03SBIII.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5491,6 +5900,7 @@
       "definition": "Implicación en la defensa y protección del medio ambiente.",
       "broader": "sb:SGEH03SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5502,6 +5912,7 @@
       "definition": "Acción y posición ante la emergencia climática.",
       "broader": "sb:SGEH03SBIII.4",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5513,6 +5924,7 @@
       "definition": "Ciudadanía ética digital.",
       "broader": "sb:SGEH03SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5524,6 +5936,7 @@
       "definition": "Identificación y reflexión crítica de los nuevos comportamientos en la sociedad de la información.",
       "broader": "sb:SGEH03SBIII.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5535,6 +5948,7 @@
       "definition": "Compromiso cívico y participación ciudadana.",
       "broader": "sb:SGEH03SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5546,6 +5960,7 @@
       "definition": "Valoración de la mediación y gestión pacífica de conflictos y apoyo a las víctimas de la violencia y del terrorismo.",
       "broader": "sb:SGEH03SBIII.6",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5557,6 +5972,7 @@
       "definition": "Servicio a la comunidad.",
       "broader": "sb:SGEH03SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5568,6 +5984,7 @@
       "definition": "Reflexión crítica sobre la corresponsabilidad en los cuidados.",
       "broader": "sb:SGEH03SBIII.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5579,6 +5996,7 @@
       "definition": "Reconocimiento de la importancia de las relaciones intergeneracionales.",
       "broader": "sb:SGEH03SBIII.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5590,6 +6008,7 @@
       "definition": "Concienciación sobre la responsabilidad colectiva e individual.",
       "broader": "sb:SGEH03SBIII.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5601,6 +6020,7 @@
       "definition": "Valoración del asociacionismo y el voluntariado.",
       "broader": "sb:SGEH03SBIII.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5612,6 +6032,7 @@
       "definition": "Análisis crítico de los entornos digitales y las redes sociales.",
       "broader": "sb:SGEH03SBIII.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5623,6 +6044,7 @@
       "definition": "El patrimonio cultural como bien y como recurso.",
       "broader": "sb:SGEH03SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5634,6 +6056,7 @@
       "definition": "Puesta en valor, difusión y gestión de la riqueza patrimonial, especialmente en el ámbito autonómico canario.",
       "broader": "sb:SGEH03SBIII.8",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5645,6 +6068,7 @@
       "definition": "Cohesión social e integración.",
       "broader": "sb:SGEH03SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5656,6 +6080,7 @@
       "definition": "Análisis de las medidas y acciones en favor de la igualdad y de la plena inclusión.",
       "broader": "sb:SGEH03SBIII.9",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5667,6 +6092,7 @@
       "definition": "La igualdad real de mujeres y hombres.",
       "broader": "sb:SGEH03SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5678,6 +6104,7 @@
       "definition": "Identificación de situaciones de discriminación por motivo de diversidad sexual y de género.",
       "broader": "sb:SGEH03SBIII.10",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5689,6 +6116,7 @@
       "definition": "Reflexión sobre la conquista de derechos en las sociedades democráticas contemporáneas.",
       "broader": "sb:SGEH03SBIII.10",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5700,6 +6128,7 @@
       "definition": "Identificación de las instituciones del Estado que garantizan la seguridad integral y la convivencia social.",
       "broader": "sb:SGEH03SBIII.10",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5711,6 +6140,7 @@
       "definition": "Análisis de tipologías de empleo y trabajo en la sociedad de la información, aprendizaje permanente y a lo largo de toda la vida.",
       "broader": "sb:SGEH03SBIII.10",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5722,6 +6152,7 @@
       "definition": "Los valores del europeísmo.",
       "broader": "sb:SGEH03SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5733,6 +6164,7 @@
       "definition": "Identificación de las fórmulas de participación en programas educativos europeos.",
       "broader": "sb:SGEH03SBIII.11",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH03",
       "curso": "curso:S03",
       "etapa": "etapa:ESO"
     },
@@ -5744,6 +6176,7 @@
       "definition": "Objetivos de Desarrollo Sostenible.",
       "broader": "sb:SGEH04SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5755,6 +6188,7 @@
       "definition": "Reconocimiento de la emergencia climática y la sostenibilidad.",
       "broader": "sb:SGEH04SBI.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5766,6 +6200,7 @@
       "definition": "Relación entre factores naturales y antrópicos en la Tierra.",
       "broader": "sb:SGEH04SBI.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5777,6 +6212,7 @@
       "definition": "Análisis de las repercusiones de la globalización, movimientos migratorios e interculturalidad.",
       "broader": "sb:SGEH04SBI.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5788,6 +6224,7 @@
       "definition": "Reflexión crítica sobre los avances tecnológicos y la conciencia ecosocial.",
       "broader": "sb:SGEH04SBI.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5799,6 +6236,7 @@
       "definition": "Indagación sobre los conflictos ideológicos y etnoculturales.",
       "broader": "sb:SGEH04SBI.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5810,6 +6248,7 @@
       "definition": "Sociedad de la información.",
       "broader": "sb:SGEH04SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5821,6 +6260,7 @@
       "definition": "Búsqueda, tratamiento de la información, uso de datos en entornos digitales y evaluación y contraste de la fiabilidad de las fuentes.",
       "broader": "sb:SGEH04SBI.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5832,6 +6272,7 @@
       "definition": "Valoración del problema de la desinformación.",
       "broader": "sb:SGEH04SBI.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5843,6 +6284,7 @@
       "definition": "Uso específico del léxico relativo a los ámbitos histórico, artístico y geográfico.",
       "broader": "sb:SGEH04SBI.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5854,6 +6296,7 @@
       "definition": "Los avances tecnológicos y la conciencia ecosocial.",
       "broader": "sb:SGEH04SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5865,6 +6308,7 @@
       "definition": "Identificación y explicación del proceso industrializador en España y en Canarias y análisis de sus consecuencias.",
       "broader": "sb:SGEH04SBI.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5876,6 +6320,7 @@
       "definition": "Geopolítica y principales conflictos en el presente.",
       "broader": "sb:SGEH04SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5887,6 +6332,7 @@
       "definition": "Identificación de los genocidios y crímenes contra la humanidad.",
       "broader": "sb:SGEH04SBI.4",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5898,6 +6344,7 @@
       "definition": "Indagación sobre las guerras, terrorismo y otras formas de violencia política.",
       "broader": "sb:SGEH04SBI.4",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5909,6 +6356,7 @@
       "definition": "Valoración de las alianzas e instituciones internacionales, mediación y misiones de paz.",
       "broader": "sb:SGEH04SBI.4",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5920,6 +6368,7 @@
       "definition": "Reflexión crítica sobre injerencia humanitaria y Justicia Universal.",
       "broader": "sb:SGEH04SBI.4",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5931,6 +6380,7 @@
       "definition": "Desigualdad e injusticia en el contexto local y global.",
       "broader": "sb:SGEH04SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5942,6 +6392,7 @@
       "definition": "Valoración sobre la solidaridad, la cohesión social y la cooperación para el desarrollo.",
       "broader": "sb:SGEH04SBI.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5953,6 +6404,7 @@
       "definition": "Igualdad de género y formas de violencia contra las mujeres.",
       "broader": "sb:SGEH04SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5964,6 +6416,7 @@
       "definition": "Análisis crítico de las actitudes y los comportamientos sexistas.",
       "broader": "sb:SGEH04SBI.6",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5975,6 +6428,7 @@
       "definition": "Diversidad social, etnocultural y de género.",
       "broader": "sb:SGEH04SBI",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5986,6 +6440,7 @@
       "definition": "Estudio de los fenómenos migratorios, la multiculturalidad y el mestizaje en sociedades abiertas.",
       "broader": "sb:SGEH04SBI.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -5997,6 +6452,7 @@
       "definition": "Historia y reconocimiento del pueblo gitano y otras minorías étnicas de nuestro país.",
       "broader": "sb:SGEH04SBI.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6008,6 +6464,7 @@
       "definition": "Reconocimiento y análisis de nuevas formas de identificación cultural.",
       "broader": "sb:SGEH04SBI.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6019,6 +6476,7 @@
       "definition": "Métodos de investigación en el ámbito de la Historia.",
       "broader": "sb:SGEH04SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6030,6 +6488,7 @@
       "definition": "Utilización de metodologías del pensamiento histórico.",
       "broader": "sb:SGEH04SBII.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6041,6 +6500,7 @@
       "definition": "Las fuentes históricas como base para la construcción del conocimiento sobre el pasado contemporáneo.",
       "broader": "sb:SGEH04SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6052,6 +6512,7 @@
       "definition": "Estudio de la situación en Europa, España y Canarias.",
       "broader": "sb:SGEH04SBII.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6063,6 +6524,7 @@
       "definition": "Reflexión crítica del contraste entre interpretaciones de historiadores e historiadoras.",
       "broader": "sb:SGEH04SBII.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6074,6 +6536,7 @@
       "definition": "Tiempo histórico: construcción e interpretación de líneas de tiempo a través de la linealidad, cronología, simultaneidad y duración.",
       "broader": "sb:SGEH04SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6085,6 +6548,7 @@
       "definition": "Conciencia histórica.",
       "broader": "sb:SGEH04SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6096,6 +6560,7 @@
       "definition": "Elaboración de juicios propios y argumentados ante problemas de actualidad contextualizados históricamente. Defensa y exposición crítica de los mismos a través de presentaciones y debates.",
       "broader": "sb:SGEH04SBII.4",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6107,6 +6572,7 @@
       "definition": "La transformación política de los seres humanos: de la servidumbre a la ciudadanía.",
       "broader": "sb:SGEH04SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6118,6 +6584,7 @@
       "definition": "Estudio de las transiciones, revoluciones y resistencias: permanencias y cambios en la época contemporánea.",
       "broader": "sb:SGEH04SBII.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6129,6 +6596,7 @@
       "definition": "Reconocimiento de la conquista de los derechos individuales y colectivos en la época contemporánea.",
       "broader": "sb:SGEH04SBII.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6140,6 +6608,7 @@
       "definition": "Indagación del origen, evolución y adaptación de los sistemas liberales en España y en el mundo a través de las fuentes.",
       "broader": "sb:SGEH04SBII.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6151,6 +6620,7 @@
       "definition": "Relaciones multicausales en la construcción de la democracia y los orígenes del totalitarismo: los movimientos por la libertad, la igualdad y los derechos humanos.",
       "broader": "sb:SGEH04SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6162,6 +6632,7 @@
       "definition": "Conocimiento de la acción de los movimientos sociales en el mundo contemporáneo.",
       "broader": "sb:SGEH04SBII.6",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6173,6 +6644,7 @@
       "definition": "Reflexión sobre los procesos de evolución e involución: la perspectiva emancipadora de la interpretación del pasado.",
       "broader": "sb:SGEH04SBII.6",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6184,6 +6656,7 @@
       "definition": "Interpretación del sistema capitalista desde sus orígenes hasta la actualidad.",
       "broader": "sb:SGEH04SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6195,6 +6668,7 @@
       "definition": "Análisis crítico del colonialismo, imperialismo y nuevas subordinaciones económicas y culturales.",
       "broader": "sb:SGEH04SBII.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6206,6 +6680,7 @@
       "definition": "El Atlántico a través de Canarias.",
       "broader": "sb:SGEH04SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6217,6 +6692,7 @@
       "definition": "Indagación sobre las relaciones históricas, económicas, sociales y culturales con África y América.",
       "broader": "sb:SGEH04SBII.8",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6228,6 +6704,7 @@
       "definition": "Las relaciones internacionales y el estudio crítico y comparativo de conflictos y violencias de la primera mitad del siglo XX.",
       "broader": "sb:SGEH04SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6239,6 +6716,7 @@
       "definition": "Valoración crítica del Holocausto.",
       "broader": "sb:SGEH04SBII.9",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6250,6 +6728,7 @@
       "definition": "Los fundamentos geoestratégicos desde la segunda mitad del siglo XX hasta la actualidad, la política de bloques, los conflictos de la descolonización y el nuevo orden mundial.",
       "broader": "sb:SGEH04SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6261,6 +6740,7 @@
       "definition": "Estudio y análisis del papel de los organismos internacionales.",
       "broader": "sb:SGEH04SBII.10",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6272,6 +6752,7 @@
       "definition": "España ante la modernidad.",
       "broader": "sb:SGEH04SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6283,6 +6764,7 @@
       "definition": "Estrategias para la identificación de los fundamentos del proceso de transformación de la España y Canarias contemporáneas y contextualización y explicación de los aspectos políticos, económicos, sociales y culturales en la formación de una identidad multicultural compartida.",
       "broader": "sb:SGEH04SBII.11",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6294,6 +6776,7 @@
       "definition": "Las formaciones identitarias: ideologías, nacionalismos y movimientos supranacionales.",
       "broader": "sb:SGEH04SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6305,6 +6788,7 @@
       "definition": "Valoración de la ciudadanía europea y cosmopolita.",
       "broader": "sb:SGEH04SBII.12",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6316,6 +6800,7 @@
       "definition": "Indagación sobre los movimientos sociales en Canarias en la Edad Contemporánea.",
       "broader": "sb:SGEH04SBII.12",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6327,6 +6812,7 @@
       "definition": "La acción de los movimientos feministas y sufragistas en la lucha por la igualdad de género.",
       "broader": "sb:SGEH04SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6338,6 +6824,7 @@
       "definition": "Investigación sobre mujeres relevantes de la historia contemporánea.",
       "broader": "sb:SGEH04SBII.13",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6349,6 +6836,7 @@
       "definition": "El nacimiento de las nuevas expresiones artísticas y culturales contemporáneas y su relación con las artes clásicas.",
       "broader": "sb:SGEH04SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6360,6 +6848,7 @@
       "definition": "Valoración de la diversidad cultural en el mundo actual.",
       "broader": "sb:SGEH04SBII.14",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6371,6 +6860,7 @@
       "definition": "Respeto y conservación del patrimonio material e inmaterial canario.",
       "broader": "sb:SGEH04SBII.14",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6382,6 +6872,7 @@
       "definition": "De la Constitución de 1812 a la Constitución Española de 1978.",
       "broader": "sb:SGEH04SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6393,6 +6884,7 @@
       "definition": "La memoria democrática.",
       "broader": "sb:SGEH04SBII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6404,6 +6896,7 @@
       "definition": "Reflexión sobre las experiencias históricas dolorosas del pasado reciente y reconocimiento y reparación a las víctimas de la violencia especialmente en el caso de Canarias.",
       "broader": "sb:SGEH04SBII.16",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6415,6 +6908,7 @@
       "definition": "Estudio y análisis del principio de Justicia Universal.",
       "broader": "sb:SGEH04SBII.16",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6426,6 +6920,7 @@
       "definition": "Responsabilidad ecosocial.",
       "broader": "sb:SGEH04SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6437,6 +6932,7 @@
       "definition": "Compromiso y acción ante los Objetivos del Desarrollo Sostenible.",
       "broader": "sb:SGEH04SBIII.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6448,6 +6944,7 @@
       "definition": "Valoración de la juventud como agente de cambio para el desarrollo sostenible.",
       "broader": "sb:SGEH04SBIII.1",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6459,6 +6956,7 @@
       "definition": "Ciudadanía ética digital.",
       "broader": "sb:SGEH04SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6470,6 +6968,7 @@
       "definition": "Identificación y valoración crítica de nuevos comportamientos en la sociedad de la información.",
       "broader": "sb:SGEH04SBIII.2",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6481,6 +6980,7 @@
       "definition": "Compromiso cívico y participación ciudadana.",
       "broader": "sb:SGEH04SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6492,6 +6992,7 @@
       "definition": "Reflexión sobre la mediación y gestión pacífica de conflictos, y el apoyo a las víctimas de la violencia y del terrorismo.",
       "broader": "sb:SGEH04SBIII.3",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6503,6 +7004,7 @@
       "definition": "El patrimonio cultural como bien y como recurso.",
       "broader": "sb:SGEH04SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6514,6 +7016,7 @@
       "definition": "Puesta en valor, difusión y gestión de la riqueza patrimonial, singularmente la de Canarias.",
       "broader": "sb:SGEH04SBIII.4",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6525,6 +7028,7 @@
       "definition": "Estudio y concienciación sobre la cohesión social e integración.",
       "broader": "sb:SGEH04SBIII.4",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6536,6 +7040,7 @@
       "definition": "Análisis de las medidas y acciones en favor de la igualdad y de la plena inclusión.",
       "broader": "sb:SGEH04SBIII.4",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6547,6 +7052,7 @@
       "definition": "La igualdad real de mujeres y hombres.",
       "broader": "sb:SGEH04SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6558,6 +7064,7 @@
       "definition": "Valoración crítica de la discriminación por motivo de diversidad sexual y de género.",
       "broader": "sb:SGEH04SBIII.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6569,6 +7076,7 @@
       "definition": "La conquista de derechos en las sociedades democráticas contemporáneas.",
       "broader": "sb:SGEH04SBIII.5",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6580,6 +7088,7 @@
       "definition": "Valoración crítica de los compromisos internacionales de nuestro país en favor de la paz, la seguridad y la cooperación internacional.",
       "broader": "sb:SGEH04SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6591,6 +7100,7 @@
       "definition": "Las emociones y el contexto cultural.",
       "broader": "sb:SGEH04SBIII",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     },
@@ -6602,6 +7112,7 @@
       "definition": "Reconocimiento de la perspectiva histórica del componente emocional.",
       "broader": "sb:SGEH04SBIII.7",
       "materia": "materia:SGEH",
+      "materia_curso": "asig:SGEH04",
       "curso": "curso:S04",
       "etapa": "etapa:ESO"
     }
