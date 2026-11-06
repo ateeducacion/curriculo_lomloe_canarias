@@ -104,7 +104,8 @@ corpus coincide con ellos.
 - **Códigos incoherentes con la numeración del texto** (tarea 3.5): unos 88 registros de la
   exportación tienen un código cuyo apartado no coincide con el número de su encabezado. Los
   textos ya coinciden con los documentos; cambiar esos códigos rompería identificadores
-  publicados, así que solo se haría retirando los nodos y creando otros.
+  publicados, así que solo se haría retirando los nodos y creando otros. Aplazado a después de la
+  1.0 (confirmado el 06-11-2026).
 - **CODEOWNERS** con los equipos reales y protección de la rama `main` (aplazado el 04-11-2026).
 
 ## Integración con Omeka S
@@ -118,4 +119,5 @@ Modelo y decisiones en [`modelo.md`](modelo.md#integración-con-omeka-s). Pendie
   de los 3.026 criterios, 7.805 saberes y 759 competencias, así que una tabla de correspondencias
   es directa. Falta decidir si se migran sus recursos o se carga de cero.
 - **URIs resolubles.** Las URIs apuntan a GitHub Pages, que aún no las sirve: hay que publicar en
-  Pages una página (o el Turtle) por nodo, o pasar a w3id.org con redirección.
+  Pages una página (o el Turtle) por nodo, o pasar a w3id.org con redirección. Se deja para una
+  versión posterior a la 1.0 (decisión del 06-11-2026).

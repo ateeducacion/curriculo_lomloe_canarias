@@ -121,7 +121,7 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
   (casi todos de 3.º ESO, más Historia de Canarias y Bioestadística) tienen un código cuyo
   apartado no coincide con el número de su encabezado. Hoy el importador solo reconstruye el
   código cuando además choca con otro (caso de Bioestadística). Decidir si la regla se extiende.
-  Aplazado (06-11-2026): no bloquea la 1.0. Los textos ya coinciden con los documentos y
+  Aplazado (06-11-2026, confirmado por la persona responsable): no bloquea la 1.0. Los textos ya coinciden con los documentos y
   cambiar los códigos rompería identificadores (ver `pendientes.md`, «Después de la 1.0»).
 - [x] **3.6 Comparar saberes por contenido en el informe de contraste**, como ya hace
   `--proponer`: la comparación por número da falsos positivos cuando la exportación y el
@@ -227,4 +227,6 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
   referencia (el documento oficial) y los ficheros RDF; `contribuir.md` con cuándo corregir y
   cuándo anotar; `pendientes.md` reorganizado (erratas para comunicar a la Consejería,
   decisiones frente al BOC, avisos del importador y lo aplazado a después de la 1.0).
-- [ ] **5.5 Publicar v1.0.0**: CHANGELOG, `version` en `config/corpus.yaml`, etiqueta `v1.0.0`.
+- [x] **5.5 Publicar v1.0.0**: CHANGELOG, `version` en `config/corpus.yaml`, etiqueta `v1.0.0`.
+  Hecho (06-11-2026). Confirmado por la persona responsable: la 1.0 sale con las URIs del RDF
+  sin resolver (se publicarán en una versión posterior) y con la tarea 3.5 aplazada.
