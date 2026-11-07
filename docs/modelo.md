@@ -47,7 +47,9 @@ Matemáticas de 1.º ESO son los que tienen `materia_curso: asig:SMAT01`).
 3. Un cambio sustantivo de la norma crea un nodo nuevo y retira el anterior.
 4. Un nodo retirado no se borra: queda con `obsoleto: true` (corrección con `accion: retirar`
    y, si procede, `sustituido_por`). Así no se rompen los enlaces de quien lo usaba. Ningún
-   nodo vigente puede colgar de uno retirado. `accion: eliminar` solo se usa antes de la 1.0,
+   nodo vigente puede colgar de uno retirado. La construcción lo comprueba con la lista de
+   nodos de la última versión publicada (`publicaciones/<versión>.csv`): un nodo que falte o
+   cambie de tipo es un error. `accion: eliminar` solo se usa antes de la 1.0,
    para limpiar nodos que nunca se publicaron.
 
 ## Datos enlazados (RDF)

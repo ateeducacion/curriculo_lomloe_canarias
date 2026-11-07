@@ -6,6 +6,9 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
 
 ## [Sin publicar]
 
+### Añadido
+- Identidad entre versiones (`herramientas/identidad.py`): la construcción da error si falta un nodo de la última versión publicada o cambia de tipo. Lista de la 1.0.0 en `publicaciones/1.0.0.csv`.
+
 ## [1.0.0] - 2026-11-06
 
 Primera versión estable. El corpus cubre Infantil, Primaria, ESO, Bachillerato (con sus

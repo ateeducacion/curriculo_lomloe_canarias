@@ -1,6 +1,6 @@
-# Backlog hasta la versión 1.0.0
+# Backlog
 
-Plan de trabajo para llevar el corpus de la 0.x a la 1.0.0. Complementa
+Plan de trabajo del corpus: hasta la 1.0.0 (fases 1–5) y después (fase 6). Complementa
 [`pendientes.md`](pendientes.md), que recoge el estado y las decisiones abiertas; aquí
 están las tareas, en orden, con su criterio de cierre.
 
@@ -230,3 +230,29 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
 - [x] **5.5 Publicar v1.0.0**: CHANGELOG, `version` en `config/corpus.yaml`, etiqueta `v1.0.0`.
   Hecho (06-11-2026). Confirmado por la persona responsable: la 1.0 sale con las URIs del RDF
   sin resolver (se publicarán en una versión posterior) y con la tarea 3.5 aplazada.
+
+## Fase 6 — Después de la 1.0
+
+Objetivo: mantener las garantías de la 1.0 en las versiones siguientes y publicar los datos
+enlazados de verdad (versión 1.1.0).
+
+- [x] **6.1 Identidad entre versiones.** Ningún nodo publicado puede desaparecer ni cambiar de
+  tipo: la CI compara el corpus con la lista de nodos de la última versión publicada
+  (`publicaciones/`). Cierre: la construcción da error si falta un nodo de la 1.0.0 o cambia
+  su tipo, y el procedimiento de publicación registra los nodos de cada versión.
+  Hecho (07-11-2026): `herramientas/identidad.py`; `publicaciones/1.0.0.csv` (15.438 nodos)
+  sacado del `curriculo.json` del release, comprobado con su sha256. Reglas
+  `nodo_publicado_desaparecido` y `tipo_publicado_cambiado` (errores).
+- [ ] **6.2 URIs resolubles** en GitHub Pages: una página por nodo (`<base>id/crit/SMAT01CE1.1`)
+  con sus datos y enlaces, el Turtle de cada nodo y el vocabulario en `<base>def/cur`,
+  publicados por la CI con cada versión. Cierre: las URIs del Turtle de la 1.1.0 responden.
+- [ ] **6.3 Informe para la Consejería** con las erratas detectadas en el BOC y en los ODT
+  (`pendientes.md`, «Para comunicar a la Consejería»).
+- [ ] **6.4 Aviso `explicacion_repetida_entre_cursos`**: que no cuente los cursos de un mismo
+  ciclo (Infantil, Primaria), que comparten la explicación oficial.
+- [ ] **6.5 Códigos incoherentes con su numeración** (antes 3.5): decidir si se retiran y se
+  crean nodos nuevos con el código correcto.
+- [ ] **6.6 CODEOWNERS** con los equipos reales y protección de la rama `main` (antes 4.6).
+
+Fuera de este repositorio: el módulo de sincronización de Omeka S y la decisión de migrar los
+recursos de la instancia de desarrollo (`pendientes.md`, «Integración con Omeka S»).

@@ -104,11 +104,15 @@ correcciones ya no son necesarias.
 
 ## Publicar una versión
 
-1. Actualiza `CHANGELOG.md` y la `version` de `config/corpus.yaml`.
+1. Actualiza `CHANGELOG.md` y la `version` de `config/corpus.yaml`, y registra los nodos de la
+   versión: `python -m herramientas.identidad --registrar X.Y.Z` (escribe
+   `publicaciones/X.Y.Z.csv`; súbelo en el mismo PR).
 2. Fusiona en `main` con la CI en verde.
 3. Crea la etiqueta: `git tag v1.0.0 && git push origin v1.0.0`. El flujo «Publicar versión»
    vuelve a comprobarlo todo y crea la *release* con `curriculo.json`, los CSV,
    `curriculo.ttl` (con sus sha256) y el vocabulario `cur.ttl`.
 
-Desde la 1.0, un nodo publicado no se borra: se retira (`accion: retirar`). La numeración
+Desde la 1.0, un nodo publicado no se borra: se retira (`accion: retirar`). La construcción
+lo comprueba con la lista de nodos de la última versión publicada (`publicaciones/`): si
+falta uno o cambia de tipo, da error. La numeración
 de versiones está en el [README](../README.md#versiones-y-consumo).
