@@ -131,3 +131,26 @@ def test_main_no_borra_carpetas_ajenas(tmp_path):
     assert sitio.main(['--ttl', str(ttl), '--destino', str(destino), '--base', BASE]) == 0
     assert sitio.main(['--ttl', str(ttl), '--destino', str(destino), '--base', BASE]) == 0  # regenera
     assert (destino / 'id/crit/SMAT01CE1.1/index.html').is_file()
+
+
+def _alcanzables(destino, base):
+    """Rutas id/... a las que se llega navegando desde la portada."""
+    vistas, pendientes = set(), [destino / 'index.html']
+    while pendientes:
+        texto = pendientes.pop().read_text(encoding='utf-8')
+        for href in re.findall(r'href="([^"#]+)"', texto):
+            if href.startswith(base + 'id/') and href not in vistas:
+                vistas.add(href)
+                pendientes.append(destino / href[len(base):] / 'index.html')
+    return {h[len(base):] for h in vistas}
+
+
+def test_desde_la_portada_se_llega_a_todo(web):
+    g, destino = web
+    assert _alcanzables(destino, BASE) == {str(s)[len(BASE):] for s in _sujetos(g)}
+
+
+def test_etapa_y_curso_enlazan_el_nivel_siguiente(web):
+    _, destino = web
+    assert f'href="{BASE}id/materia/SMAT"' in (destino / 'id/etapa/ESO/index.html').read_text(encoding='utf-8')
+    assert f'href="{BASE}id/asig/SMAT01"' in (destino / 'id/curso/S01/index.html').read_text(encoding='utf-8')
