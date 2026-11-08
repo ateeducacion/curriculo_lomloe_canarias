@@ -6,6 +6,11 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
 
 ## [Sin publicar]
 
+## [1.1.0] - 2026-11-08
+
+Datos enlazados publicados: las URIs del Turtle responden en GitHub Pages. El contenido del
+corpus no cambia respecto a la 1.0.0 (mismos 15.438 nodos).
+
 ### Añadido
 - Identidad entre versiones (`herramientas/identidad.py`): la construcción da error si falta un nodo de la última versión publicada o cambia de tipo. Lista de la 1.0.0 en `publicaciones/1.0.0.csv`.
 - URIs resolubles (`herramientas/sitio.py`): cada URI del Turtle tiene en GitHub Pages una ficha HTML mínima y su Turtle (`<URI>/index.ttl`), y el vocabulario responde en `def/cur`. El flujo «Publicar versión» despliega el sitio y comprueba que las URIs responden; la validación de los PR detecta enlaces rotos.
