@@ -49,6 +49,7 @@ vocabulario/               vocabulario RDF del corpus (cur.ttl)
 herramientas/              importación, corrección, validación, contraste, construcción y RDF
 tests/                     pruebas automáticas (pytest)
 informes/                  último informe de construcción y de contraste
+publicaciones/             id y tipo de los nodos de cada versión publicada
 docs/                      modelo de datos, cómo contribuir y pendientes
 ```
 
@@ -123,7 +124,7 @@ proponer una corrección, incorporar una exportación nueva y publicar una versi
 
 ## Licencia
 
-- **Datos** (`datos/`, `correcciones/`, `config/`, `vocabulario/` y los ficheros de cada versión):
+- **Datos** (`datos/`, `correcciones/`, `config/`, `vocabulario/`, `publicaciones/` y los ficheros de cada versión):
   [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es).
 - **Código** (`herramientas/`, `esquema/`, `tests/`, `.github/`): [GPL-3.0](LICENSE).
 

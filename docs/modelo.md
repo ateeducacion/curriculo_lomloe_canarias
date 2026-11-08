@@ -47,7 +47,9 @@ Matemáticas de 1.º ESO son los que tienen `materia_curso: asig:SMAT01`).
 3. Un cambio sustantivo de la norma crea un nodo nuevo y retira el anterior.
 4. Un nodo retirado no se borra: queda con `obsoleto: true` (corrección con `accion: retirar`
    y, si procede, `sustituido_por`). Así no se rompen los enlaces de quien lo usaba. Ningún
-   nodo vigente puede colgar de uno retirado. `accion: eliminar` solo se usa antes de la 1.0,
+   nodo vigente puede colgar de uno retirado. La construcción lo comprueba con la lista de
+   nodos de la última versión publicada (`publicaciones/<versión>.csv`): un nodo que falte o
+   cambie de tipo es un error. `accion: eliminar` solo se usa antes de la 1.0,
    para limpiar nodos que nunca se publicaron.
 
 ## Datos enlazados (RDF)
@@ -60,6 +62,12 @@ que se puede importar en Omeka S como vocabulario (prefijo `cur`).
   `https://ateeducacion.github.io/curriculo_lomloe_canarias/id/crit/SMAT01CE1.1`. La base está en
   `config/corpus.yaml` (`rdf.base`); es provisional en GitHub Pages y se valorará w3id.org. Las
   URIs no llevan versión: la versión es del esquema de conceptos (`owl:versionInfo`).
+- **Resolución**: cada URI responde en GitHub Pages con una ficha HTML mínima (datos y enlaces)
+  y su descripción en Turtle en `<URI>/index.ttl`, anunciada con `<link rel="alternate">`. Pages
+  no negocia el tipo de contenido: un cliente que quiera RDF pide el `index.ttl`. El vocabulario
+  responde en `<base>def/cur` (un ancla por término) y `<base>def/cur.ttl`. El sitio lo genera
+  `python -m herramientas.sitio` desde `curriculo.ttl` y el flujo «Publicar versión» lo
+  despliega con cada versión; los nodos retirados conservan su página.
 - **Cada nodo** es `skos:Concept`, de su clase `cur:<Tipo>` (subclase de `skos:Concept`) y
   `schema:DefinedTerm`, en el esquema `<base>id/curriculo` (`skos:inScheme` y
   `schema:inDefinedTermSet`). El doble tipado con schema.org permite enlazarlo desde recursos

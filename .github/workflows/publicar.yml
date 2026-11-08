@@ -10,6 +10,8 @@ permissions:
 jobs:
   publicar:
     runs-on: ubuntu-latest
+    outputs:
+      base: ${{ steps.base.outputs.base }}
     steps:
       - uses: actions/checkout@v4
 
@@ -33,6 +35,18 @@ jobs:
       - name: Contrastar con los documentos oficiales
         run: python -m herramientas.contrastar --corpus dist/curriculo.json --estricto
 
+      # Antes de la release: si el sitio no se puede generar, no se publica nada.
+      - name: Generar el sitio de las URIs
+        run: python -m herramientas.sitio --ttl dist/curriculo.ttl --destino dist/sitio
+
+      - name: Base de las URIs
+        id: base
+        run: echo "base=$(python -c 'from herramientas.exportar_rdf import base_uri; print(base_uri())')" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/sitio
+
       - name: Crear la versión en GitHub
         env:
           GH_TOKEN: ${{ github.token }}
@@ -49,3 +63,35 @@ jobs:
             dist/curriculo.ttl dist/curriculo.ttl.sha256 dist/cur.ttl \
             --title "Currículo LOMLOE Canarias $GITHUB_REF_NAME" \
             --notes-file notas.md
+
+  # Despliega en GitHub Pages el sitio generado arriba y comprueba que las URIs responden.
+  # Requiere Settings → Pages → Source: GitHub Actions.
+  pages:
+    needs: publicar
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - id: despliegue
+        uses: actions/deploy-pages@v4
+
+      - name: Comprobar que las URIs responden
+        env:
+          BASE: ${{ needs.publicar.outputs.base }}
+        run: |
+          falla=0
+          for ruta in id/curriculo id/descriptores id/etapa/ESO id/crit/SMAT01CE1.1 \
+                      id/crit/SMAT01CE1.1/index.ttl id/sb/SMAT01SBI.1 id/descriptor/ESO/CCL1 \
+                      id/competencia-clave/CCL def/cur def/cur.ttl; do
+            ok=
+            for intento in 1 2 3 4 5 6; do
+              if curl -fsSL -o /dev/null "$BASE$ruta"; then ok=1; break; fi
+              sleep 10
+            done
+            if [ -n "$ok" ]; then echo "responde: $BASE$ruta"; else echo "::error::No responde $BASE$ruta"; falla=1; fi
+          done
+          exit $falla

@@ -19,7 +19,7 @@ import sys
 import zipfile
 from collections import Counter, defaultdict
 
-from . import correcciones, importar_proideac, validar
+from . import correcciones, identidad, importar_proideac, validar
 from .comun import (CONFIG, DATOS, DIST, ETAPAS, INFORMES, RAIZ, RE_SECRETO, TIPOS,
                     descriptores_por_etapa, escribir_json, etiqueta, leer_json, leer_yaml, sha256)
 
@@ -110,7 +110,8 @@ def construir(version=None):
         },
         'nodos': lista,
     }
-    avisos = imp.avisos + av_corr + validar.validar(corpus, descriptores_por_etapa())
+    avisos = (imp.avisos + av_corr + validar.validar(corpus, descriptores_por_etapa())
+              + identidad.comprobar(lista))
     return corpus, avisos, resumen_corr
 
 

@@ -3,7 +3,7 @@
 El repositorio tiene dos licencias:
 
 - **Código** (`herramientas/`, `esquema/`, `tests/`, `.github/`): GNU GPL 3.0, ver [`LICENSE`](LICENSE).
-- **Datos** (`datos/`, `correcciones/`, `config/`, `vocabulario/` y los ficheros publicados en
+- **Datos** (`datos/`, `correcciones/`, `config/`, `vocabulario/`, `publicaciones/` y los ficheros publicados en
   cada versión: `curriculo.json`, los CSV, `curriculo.ttl`, `cur.ttl` y las demás
   exportaciones): [Creative Commons Reconocimiento
   4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.es).
