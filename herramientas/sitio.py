@@ -35,6 +35,8 @@ ETIQUETAS = {
     DCTERMS.license: 'Licencia', DCTERMS.source: 'Fuente', OWL.versionInfo: 'Versión',
 }
 ORDEN = [SKOS.broader, DCTERMS.isReplacedBy]
+# (tipo del nodo, propiedad, tipo de los nodos que apuntan a él, rótulo en su ficha)
+INVERSOS = [('Etapa', 'etapa', 'Materia', 'Materias'), ('Curso', 'curso', 'MateriaCurso', 'Materias en curso')]
 APARTE = {RDF.type, SKOS.prefLabel, SKOS.notation, SKOS.definition, SKOS.scopeNote, OWL.deprecated}
 CSS = ('body{font-family:system-ui,sans-serif;max-width:52rem;margin:2rem auto;padding:0 1rem;'
        'line-height:1.5;color:#1a1a1a;background:#fff}a{color:#0b57d0}dt{font-weight:600;margin-top:.8rem}'
@@ -70,6 +72,18 @@ class _Fichas:
         self.sujetos = {s for s in g.subjects() if isinstance(s, URIRef) and str(s).startswith(base + 'id/')}
         if not self.sujetos:
             raise ValueError(f'Ningún sujeto del grafo empieza por la base {base}id/')
+        # Enlaces inversos del nivel siguiente, para poder bajar navegando: el grafo no los tiene
+        # (la materia apunta a su etapa y la materia en curso a su curso, no al revés).
+        cur = espacio_cur()
+        self.inversos = {}
+        for destino, prop, origen, rotulo in INVERSOS:
+            hijos = {}
+            for o in g.subjects(RDF.type, cur[origen]):
+                for d in g.objects(o, cur[prop]):
+                    if (d, RDF.type, cur[destino]) in g:
+                        hijos.setdefault(d, []).append(o)
+            for d, nodos in hijos.items():
+                self.inversos.setdefault(d, []).append((rotulo, nodos))
 
     def nombre(self, u):
         notacion, etiqueta = self.g.value(u, SKOS.notation), self.g.value(u, SKOS.prefLabel)
@@ -116,12 +130,13 @@ class _Fichas:
                 for c, t in sorted(enunciados, key=lambda e: _clave_natural(str(e[0])))) + '</dl>')
         orden = sorted(datos, key=lambda p: (ORDEN.index(p) if p in ORDEN else len(ORDEN), p == SKOS.narrower,
                                              self.etiqueta(p)))
-        if orden:
+        grupos = [(self.etiqueta(p), datos[p]) for p in orden] + self.inversos.get(s, [])
+        if grupos:
             filas = []
-            for p in orden:
-                valores = sorted(datos[p], key=lambda o: _clave_natural(str(g.value(o, SKOS.notation) or o)))
+            for rotulo, valores in grupos:
+                valores = sorted(valores, key=lambda o: _clave_natural(str(g.value(o, SKOS.notation) or o)))
                 items = ''.join(f'<li>{self.valor(o)}</li>' for o in valores)
-                filas.append(f'<dt>{escape(self.etiqueta(p))}</dt><dd><ul>{items}</ul></dd>')
+                filas.append(f'<dt>{escape(rotulo)}</dt><dd><ul>{items}</ul></dd>')
             partes.append('<dl>' + ''.join(filas) + '</dl>')
         partes.append(f'<p>URI: <code>{escape(str(s))}</code> · <a href="index.ttl">Turtle</a></p>')
         cabecera = '<link rel="alternate" type="text/turtle" href="index.ttl">\n'
