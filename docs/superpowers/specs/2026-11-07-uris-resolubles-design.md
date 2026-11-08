@@ -1,6 +1,6 @@
 # URIs resolubles en GitHub Pages (tarea 6.2)
 
-Fecha: 07-11-2026. Estado: diseño aprobado en conversación, pendiente de revisar por escrito.
+Fecha: 07-11-2026. Estado: aprobado; implementado el 08-11-2026 (plan en `docs/superpowers/plans/2026-11-08-uris-resolubles.md`).
 
 ## Objetivo
 
@@ -68,13 +68,13 @@ enunciados por curso), es decir, su descripción acotada (CBD). Con los prefijos
   `python -m herramientas.sitio --ttl dist/curriculo.ttl --destino dist/sitio`.
 - **`herramientas/exportar_rdf.py`**: sin cambios de comportamiento; `sitio.py` reutiliza
   `base_uri()` y `VOCABULARIO`.
-- **`.github/workflows/publicar.yml`**: nuevo job `pages`, que depende del job actual:
-  1. Recibe `dist/curriculo.ttl` del job actual como artefacto (`actions/upload-artifact` y
-     `actions/download-artifact`), sin volver a construir.
-  2. Genera el sitio desde `dist/curriculo.ttl`, el mismo Turtle validado con SHACL.
-  3. `actions/upload-pages-artifact` y `actions/deploy-pages`, con `permissions: pages: write,
-     id-token: write` y el entorno `github-pages`.
-  4. Comprobación final con `curl`: responden con 200, siguiendo redirecciones, una URI de cada
+- **`.github/workflows/publicar.yml`**:
+  1. El job actual genera el sitio desde `dist/curriculo.ttl` (el mismo Turtle validado con
+     SHACL) **antes** de crear la *release*, para no publicar nada si falla, y lo sube con
+     `actions/upload-pages-artifact`.
+  2. Un job nuevo, `pages`, lo despliega con `actions/deploy-pages`, con `permissions: pages:
+     write, id-token: write` y el entorno `github-pages`.
+  3. Comprobación final con `curl`: responden con 200, siguiendo redirecciones, una URI de cada
      tipo (criterio, saber, descriptor, competencia clave, esquema) y `def/cur`. Si alguna
      falla, el job falla.
 - **Documentación**: `docs/modelo.md` («Datos enlazados»: las URIs ya resuelven y cómo),

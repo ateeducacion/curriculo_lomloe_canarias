@@ -246,6 +246,10 @@ enlazados de verdad (versión 1.1.0).
 - [ ] **6.2 URIs resolubles** en GitHub Pages: una página por nodo (`<base>id/crit/SMAT01CE1.1`)
   con sus datos y enlaces, el Turtle de cada nodo y el vocabulario en `<base>def/cur`,
   publicados por la CI con cada versión. Cierre: las URIs del Turtle de la 1.1.0 responden.
+  Implementado (08-11-2026): `herramientas/sitio.py` (15.562 URIs, unos 31.000 ficheros) y el job
+  `pages` de «Publicar versión», que comprueba con `curl` URIs de cada tipo. Para cerrarla falta
+  activar Pages (*Source: GitHub Actions*) y publicar la 1.1.0. Diseño y plan en
+  `docs/superpowers/`.
 - [ ] **6.3 Informe para la Consejería** con las erratas detectadas en el BOC y en los ODT
   (`pendientes.md`, «Para comunicar a la Consejería»).
 - [ ] **6.4 Aviso `explicacion_repetida_entre_cursos`**: que no cuente los cursos de un mismo
