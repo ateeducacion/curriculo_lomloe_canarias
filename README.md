@@ -5,7 +5,7 @@ Bachillerato) en un formato estructurado y validado, pensada para que otros sist
 —empezando por el repositorio de REA en Omeka S— la consuman sin tener que mantener su
 propia copia.
 
-> **Estado:** versión 1.0.0 (06-11-2026). Los 105 documentos oficiales están contrastados
+> **Estado:** versión 1.1.0 (08-11-2026), con las URIs resolubles en GitHub Pages. Los 105 documentos oficiales están contrastados
 > con el corpus: 104 coinciden por completo y el otro solo difiere en 4 erratas de
 > descriptores del propio documento. Decisiones abiertas y erratas detectadas en las fuentes:
 > [`docs/pendientes.md`](docs/pendientes.md). Plan de trabajo: [`docs/backlog.md`](docs/backlog.md).
