@@ -6,6 +6,8 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
 
 ## [Sin publicar]
 
+## [1.1.1] - 2026-11-08
+
 ### Corregido
 - Sitio de las URIs: las fichas de etapa enlazan sus materias y las de curso, sus materias en curso, de modo que desde la portada se llega navegando a todas las URIs (en la 1.1.0 el recorrido se cortaba en los cursos).
 
