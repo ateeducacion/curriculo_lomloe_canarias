@@ -118,6 +118,5 @@ Modelo y decisiones en [`modelo.md`](modelo.md#integración-con-omeka-s). Pendie
   cargados de la misma exportación de ProIDEAC). Comparada el 05-11-2026: coinciden los códigos
   de los 3.026 criterios, 7.805 saberes y 759 competencias, así que una tabla de correspondencias
   es directa. Falta decidir si se migran sus recursos o se carga de cero.
-- **URIs resolubles.** El flujo de publicación despliega en GitHub Pages una ficha y el Turtle de
-  cada URI (tarea 6.2). Falta activar Pages (*Settings → Pages → Source: GitHub Actions*) antes
-  de publicar la 1.1.0. Pasar a w3id.org sigue abierto: cambiaría todas las URIs.
+- **URIs resolubles.** Resuelven desde la 1.1.0 (tarea 6.2). Pasar a w3id.org sigue abierto:
+  cambiaría todas las URIs.

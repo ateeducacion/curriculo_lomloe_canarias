@@ -112,7 +112,8 @@ correcciones ya no son necesarias.
    vuelve a comprobarlo todo, crea la *release* con `curriculo.json`, los CSV,
    `curriculo.ttl` (con sus sha256) y el vocabulario `cur.ttl`, y despliega en GitHub Pages el
    sitio que hace resolubles las URIs (`herramientas/sitio.py`); al final comprueba que
-   responden. Requiere tener Pages configurado con *Source: GitHub Actions* (Settings → Pages).
+   responden. Requiere Pages con *Source: GitHub Actions* y que el entorno `github-pages` admita las
+   etiquetas `v*.*.*` (Settings → Environments).
 
 Desde la 1.0, un nodo publicado no se borra: se retira (`accion: retirar`). La construcción
 lo comprueba con la lista de nodos de la última versión publicada (`publicaciones/`): si
