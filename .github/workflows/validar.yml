@@ -31,6 +31,9 @@ jobs:
       - name: Exportar a RDF y validar con SHACL
         run: python -m herramientas.exportar_rdf --ttl dist/curriculo.ttl --validar
 
+      - name: Generar el sitio de las URIs (ningún enlace roto)
+        run: python -m herramientas.sitio --ttl dist/curriculo.ttl --destino dist/sitio
+
       - name: Contrastar con los documentos oficiales (ninguna diferencia sin explicar)
         if: always()
         run: python -m herramientas.contrastar --estricto
