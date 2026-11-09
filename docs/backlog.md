@@ -264,7 +264,7 @@ enlazados de verdad (versión 1.1.0).
   saberes que el documento numera de otra forma mantienen su código (decisión del 09-11-2026) y
   el contraste los lista.
 - [x] **6.6 CODEOWNERS** con los equipos reales y protección de la rama `main` (antes 4.6).
-  Hecho: `CODEOWNERS` asigna todo el repositorio a @erseco; `main` está protegida con un
+  Hecho: `CODEOWNERS` asigna todo el repositorio a @erseco y @fmateos; `main` está protegida con un
   ruleset (sin borrado, sin push forzado, cambios solo por PR).
 
 Fuera de este repositorio: el módulo de sincronización de Omeka S y la decisión de migrar los
