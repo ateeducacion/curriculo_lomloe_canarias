@@ -154,3 +154,24 @@ def test_etapa_y_curso_enlazan_el_nivel_siguiente(web):
     _, destino = web
     assert f'href="{BASE}id/materia/SMAT"' in (destino / 'id/etapa/ESO/index.html').read_text(encoding='utf-8')
     assert f'href="{BASE}id/asig/SMAT01"' in (destino / 'id/curso/S01/index.html').read_text(encoding='utf-8')
+
+
+def test_sin_css_en_linea_y_recursos(web):
+    _, destino = web
+    for f in destino.rglob('index.html'):
+        texto = f.read_text(encoding='utf-8')
+        assert '<style' not in texto, f
+        assert f'href="{BASE}recursos/estilo.css"' in texto, f
+    for r in ('estilo.css', 'buscar.js', 'minisearch.js', 'minisearch.LICENSE'):
+        assert (destino / 'recursos' / r).is_file()
+
+
+def test_base_de_vista_previa(tmp_path):
+    otra = 'http://localhost:8000/'
+    g = Graph()
+    for s, p, o in _grafo():
+        cambia = lambda x: URIRef(str(x).replace(BASE, otra)) if isinstance(x, URIRef) else x
+        g.add((cambia(s), cambia(p), cambia(o)))
+    sitio.generar(g, otra, tmp_path / 's')
+    portada = (tmp_path / 's/index.html').read_text(encoding='utf-8')
+    assert f'{otra}recursos/estilo.css' in portada and f'action="{otra}buscar/"' in portada

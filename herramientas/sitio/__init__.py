@@ -22,10 +22,12 @@ from pathlib import Path
 from rdflib import BNode, Graph, Literal, URIRef
 from rdflib.namespace import DCTERMS, OWL, RDF, RDFS, SKOS
 
-from .comun import DIST
-from .exportar_rdf import SCHEMA, VOCABULARIO, base_uri, espacio_cur
+from ..comun import DIST
+from ..exportar_rdf import SCHEMA, VOCABULARIO, base_uri, espacio_cur
+from .plantilla import REPOSITORIO, pagina
 
-REPOSITORIO = 'https://github.com/ateeducacion/curriculo_lomloe_canarias'
+RECURSOS = Path(__file__).parent / 'recursos'
+
 RE_SEGMENTO = re.compile(r'^[A-Za-z0-9._-]+$')
 ETIQUETAS = {
     SKOS.broader: 'Superior', SKOS.narrower: 'Inferiores', SKOS.related: 'Relacionados',
@@ -38,10 +40,6 @@ ORDEN = [SKOS.broader, DCTERMS.isReplacedBy]
 # (tipo del nodo, propiedad, tipo de los nodos que apuntan a él, rótulo en su ficha)
 INVERSOS = [('Etapa', 'etapa', 'Materia', 'Materias'), ('Curso', 'curso', 'MateriaCurso', 'Materias en curso')]
 APARTE = {RDF.type, SKOS.prefLabel, SKOS.notation, SKOS.definition, SKOS.scopeNote, OWL.deprecated}
-CSS = ('body{font-family:system-ui,sans-serif;max-width:52rem;margin:2rem auto;padding:0 1rem;'
-       'line-height:1.5;color:#1a1a1a;background:#fff}a{color:#0b57d0}dt{font-weight:600;margin-top:.8rem}'
-       'dd{margin-left:1rem}ul{margin:.2rem 0}.tipo{color:#555}.aviso{background:#fdecea;'
-       'border-left:4px solid #c62828;padding:.5rem 1rem}footer{margin-top:2rem;color:#555;font-size:.9em}')
 
 
 def ruta(base, s):
@@ -55,14 +53,6 @@ def ruta(base, s):
 
 def _clave_natural(texto):
     return [int(t) if t.isdigit() else t for t in re.split(r'(\d+)', texto)]
-
-
-def _pagina(titulo, cuerpo, base, cabecera=''):
-    return (f'<!doctype html>\n<html lang="es">\n<head>\n<meta charset="utf-8">\n'
-            f'<meta name="viewport" content="width=device-width, initial-scale=1">\n'
-            f'<title>{escape(titulo)}</title>\n{cabecera}<style>{CSS}</style>\n</head>\n<body>\n{cuerpo}\n'
-            f'<footer><a href="{escape(base)}">Currículo LOMLOE de Canarias</a> · datos '
-            f'<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></footer>\n</body>\n</html>\n')
 
 
 class _Fichas:
@@ -140,7 +130,7 @@ class _Fichas:
             partes.append('<dl>' + ''.join(filas) + '</dl>')
         partes.append(f'<p>URI: <code>{escape(str(s))}</code> · <a href="index.ttl">Turtle</a></p>')
         cabecera = '<link rel="alternate" type="text/turtle" href="index.ttl">\n'
-        return _pagina(nombre, '\n'.join(partes), self.base, cabecera)
+        return pagina(nombre, '\n'.join(partes), self.base, cabecera=cabecera)
 
     def turtle(self, s):
         d = Graph()
@@ -177,7 +167,7 @@ def _vocabulario(vocabulario, destino, base):
               f'<a href="../cur.ttl">Turtle</a></p>\n' + '\n'.join(filas))
     (destino / 'def' / 'cur').mkdir(parents=True, exist_ok=True)
     (destino / 'def' / 'cur' / 'index.html').write_text(
-        _pagina('Vocabulario cur', cuerpo, base, '<link rel="alternate" type="text/turtle" href="../cur.ttl">\n'),
+        pagina('Vocabulario cur', cuerpo, base, cabecera='<link rel="alternate" type="text/turtle" href="../cur.ttl">\n'),
         encoding='utf-8')
     shutil.copyfile(vocabulario, destino / 'def' / 'cur.ttl')
 
@@ -193,7 +183,7 @@ def _portada(g, base, destino):
               '<code>' + escape(base) + 'id/…</code> tiene una ficha y su descripción en Turtle.</p>\n<ul>'
               + ''.join(f'<li><a href="{escape(u)}">{escape(t)}</a></li>' for u, t in enlaces)
               + f'</ul>\n<p><a href="{REPOSITORIO}">Repositorio</a></p>')
-    (destino / 'index.html').write_text(_pagina('Currículo LOMLOE de Canarias', cuerpo, base), encoding='utf-8')
+    (destino / 'index.html').write_text(pagina('Currículo LOMLOE de Canarias', cuerpo, base), encoding='utf-8')
 
 
 def generar(g, base, destino, vocabulario=VOCABULARIO):
@@ -211,6 +201,7 @@ def generar(g, base, destino, vocabulario=VOCABULARIO):
         (carpeta / 'index.ttl').write_text(fichas.turtle(s), encoding='utf-8')
     _vocabulario(vocabulario, destino, base)
     _portada(g, base, destino)
+    shutil.copytree(RECURSOS, destino / 'recursos', dirs_exist_ok=True)
     (destino / '.nojekyll').touch()
     return len(rutas)
 
