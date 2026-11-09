@@ -15,6 +15,16 @@ def _natural(s):
     return [int(t) if t.isdigit() else t for t in re.split(r'(\d+)', s)]
 
 
+def _ciclo(curso):
+    """Unidad que comparte la explicación oficial: el ciclo en Infantil y Primaria, el curso en el resto."""
+    letra, n = curso.rsplit(':', 1)[1][0], int(curso[-2:])
+    if letra == 'P':
+        return f'P-{(n + 1) // 2}'
+    if letra == 'I':
+        return f'I-{1 if n <= 3 else 2}'
+    return curso
+
+
 def validar(corpus, descriptores_validos):
     av = []
 
@@ -85,7 +95,7 @@ def validar(corpus, descriptores_validos):
             if ult != list(range(1, len(ult) + 1)):
                 a('numeracion_saberes', 'aviso', padre, f'Numeración de saberes no continua: {ult}')
     for (materia, num, _), ids in explicaciones.items():
-        if len(ids) > 1:
+        if len({_ciclo(nodos[i]['curso']) for i in ids}) > 1:
             a('explicacion_repetida_entre_cursos', 'aviso', sorted(ids, key=_natural)[0],
               'Misma explicación del bloque competencial en ' + ', '.join(sorted(ids, key=_natural)))
     return av

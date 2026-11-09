@@ -28,7 +28,7 @@
 | aviso | correccion_innecesaria | 4 |
 | aviso | encabezado_no_corresponde | 83 |
 | aviso | encabezado_sin_texto | 3 |
-| aviso | explicacion_repetida_entre_cursos | 184 |
+| aviso | explicacion_repetida_entre_cursos | 2 |
 | aviso | numeracion_saberes | 2 |
 | aviso | registro_repetido | 1 |
 | aviso | saber_con_hijos | 51 |

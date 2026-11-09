@@ -90,9 +90,9 @@ corpus coincide con ellos.
 - **Encabezados de otra materia** (`encabezado_no_corresponde`, `texto_en_conflicto`): textos
   mezclados entre materias en la exportación (sobre todo 3.º ESO), corregidos desde los ODT.
 - **Explicaciones de bloque idénticas entre cursos** (`explicacion_repetida_entre_cursos`): las
-  que el documento distingue ya están corregidas; las que quedan las repite el propio documento.
-  El aviso cuenta también los cursos de un mismo ciclo (Infantil, Primaria), que comparten la
-  explicación oficial: conviene que la regla los excluya.
+  que el documento distingue ya están corregidas; las dos que quedan (Matemáticas BC7 de 1.º a
+  3.º ESO y Matemáticas B BC2 de 3.º y 4.º) las repite el propio documento. El aviso no cuenta
+  los cursos de un mismo ciclo de Infantil o Primaria, que comparten la explicación oficial.
 - **Códigos de materia inconsistentes**: en tres materias el código del catálogo no coincide con
   el de sus identificadores (`TSA`/`TA7`, `PLW`/`LNT`, `VAL`/`EDK`). Se mantienen ambos en
   `config/materias.csv` y los identificadores no cambian (decisión del 04-11-2026).
@@ -101,12 +101,21 @@ corpus coincide con ellos.
 
 ## Después de la 1.0
 
-- **Códigos incoherentes con la numeración del texto** (tarea 3.5): unos 88 registros de la
-  exportación tienen un código cuyo apartado no coincide con el número de su encabezado. Los
-  textos ya coinciden con los documentos; cambiar esos códigos rompería identificadores
-  publicados, así que solo se haría retirando los nodos y creando otros. Aplazado a después de la
-  1.0 (confirmado el 06-11-2026).
-- **CODEOWNERS** con los equipos reales y protección de la rama `main` (aplazado el 04-11-2026).
+- **Códigos que no siguen la numeración del documento** (tarea 6.5, cerrada el 09-11-2026). Los
+  88 registros de la exportación con encabezados de otra numeración (3.º ESO, Historia de
+  Canarias, Bioestadística) ya coinciden con el documento: lo erróneo eran los encabezados,
+  corregidos desde los ODT. Quedan 35 saberes que el documento numera de otra forma y que el
+  contraste lista («Saberes que el documento numera de otra forma»):
+  - Matemáticas, 1.º y 2.º de Primaria, bloque I.2 (26): el corpus anida cuatro saberes bajo el
+    2.2 (2.2.1–2.2.4) que el documento da al mismo nivel (2.3–2.6); los siguientes se desplazan
+    (2.3–2.11 del corpus son 2.7–2.15 del documento).
+  - Lengua Castellana, 5.º y 6.º de Primaria, bloque IV (6): el corpus no tiene IV.4; sus
+    IV.5–7 son los IV.4–6 del documento.
+  - Filosofía (3): la errata del ODT descrita en «Para comunicar a la Consejería».
+
+  Se mantienen los códigos (decisión del 09-11-2026): los números del documento ya los usan
+  otros saberes del corpus, de modo que alinearlos haría que URIs publicadas pasaran a nombrar
+  otro saber.
 
 ## Integración con Omeka S
 

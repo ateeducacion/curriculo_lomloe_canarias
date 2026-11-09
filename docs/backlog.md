@@ -115,7 +115,8 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
   las 196 que el documento distingue se corrigen (avisos: de 171 a 110). Los 110 que quedan
   son de materias sin documento descargado: se revisarán al contrastarlas (5.1).
   Nota: tras corregir Infantil, el aviso cuenta también los cursos de un mismo ciclo, que
-  comparten la explicación oficial (Infantil y Primaria). Conviene que la regla los excluya.
+  comparten la explicación oficial (Infantil y Primaria). Conviene que la regla los excluya
+  (hecho en la 6.4).
 - [x] **3.4 Aprobación** de 0017–0035 y reconstrucción. Hecho: aprobadas el 03-11-2026.
 - [ ] **3.5 Códigos incoherentes con la numeración del texto**: 88 registros de la exportación
   (casi todos de 3.º ESO, más Historia de Canarias y Bioestadística) tienen un código cuyo
@@ -123,6 +124,7 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
   código cuando además choca con otro (caso de Bioestadística). Decidir si la regla se extiende.
   Aplazado (06-11-2026, confirmado por la persona responsable): no bloquea la 1.0. Los textos ya coinciden con los documentos y
   cambiar los códigos rompería identificadores (ver `pendientes.md`, «Después de la 1.0»).
+  Resuelto en la 6.5.
 - [x] **3.6 Comparar saberes por contenido en el informe de contraste**, como ya hace
   `--proponer`: la comparación por número da falsos positivos cuando la exportación y el
   documento anidan distinto (Matemáticas de Primaria, Filosofía).
@@ -253,11 +255,17 @@ enlazados de verdad (versión 1.1.0).
   `main` y desde las etiquetas `v*.*.*`.
 - [ ] **6.3 Informe para la Consejería** con las erratas detectadas en el BOC y en los ODT
   (`pendientes.md`, «Para comunicar a la Consejería»).
-- [ ] **6.4 Aviso `explicacion_repetida_entre_cursos`**: que no cuente los cursos de un mismo
-  ciclo (Infantil, Primaria), que comparten la explicación oficial.
-- [ ] **6.5 Códigos incoherentes con su numeración** (antes 3.5): decidir si se retiran y se
-  crean nodos nuevos con el código correcto.
-- [ ] **6.6 CODEOWNERS** con los equipos reales y protección de la rama `main` (antes 4.6).
+- [x] **6.4 Aviso `explicacion_repetida_entre_cursos`**: que no cuente los cursos de un mismo
+  ciclo (Infantil, Primaria), que comparten la explicación oficial. Hecho: la regla agrupa por
+  ciclo en Infantil y Primaria y por curso en el resto; de 184 avisos quedan 2, que repite el
+  propio documento.
+- [x] **6.5 Códigos incoherentes con su numeración** (antes 3.5): decidir si se retiran y se
+  crean nodos nuevos con el código correcto. Hecho: los 88 ya coincidían con el documento; los 35
+  saberes que el documento numera de otra forma mantienen su código (decisión del 09-11-2026) y
+  el contraste los lista.
+- [x] **6.6 CODEOWNERS** con los equipos reales y protección de la rama `main` (antes 4.6).
+  Hecho: `CODEOWNERS` asigna todo el repositorio a @erseco y @fmateos; `main` está protegida con un
+  ruleset (sin borrado, sin push forzado, cambios solo por PR).
 
 Fuera de este repositorio: el módulo de sincronización de Omeka S y la decisión de migrar los
 recursos de la instancia de desarrollo (`pendientes.md`, «Integración con Omeka S»).

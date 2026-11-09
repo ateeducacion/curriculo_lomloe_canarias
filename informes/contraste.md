@@ -3,6 +3,7 @@
 - Documentos contrastados: 105; sin diferencias: 104
 - Diferencias: 4; explicadas: 4; **sin explicar: 0**
 - Criterios que el BOC imprime con otro número (erratas del BOC, no son diferencias del corpus): 24
+- Saberes que el documento numera de otra forma (el código no cambia, para no romper identificadores): 35
 
 ## eso-biologia-y-geologia — contrastado
 Sin diferencias.
@@ -106,6 +107,7 @@ Sin diferencias.
 ## primaria-lengua-castellana-y-literatura — contrastado
 Sin diferencias por explicar (4 explicadas).
 - explicadas — el documento trae códigos de descriptor que no existen en la etapa (errata): 4
+- Saberes que el documento numera de otra forma (se mantiene el código): sb:PLCL05SBIV.5 (documento: 4), sb:PLCL05SBIV.6 (documento: 5), sb:PLCL05SBIV.7 (documento: 6), sb:PLCL06SBIV.5 (documento: 4), sb:PLCL06SBIV.6 (documento: 5), sb:PLCL06SBIV.7 (documento: 6)
 - incoherencias del propio documento (no son diferencias del corpus): 6, p. ej. crit:PLCL01CE7.2: los descriptores del criterio traen códigos que no existen: CCE3
 
 ## primaria-lengua-extranjera — contrastado
@@ -119,6 +121,7 @@ Sin diferencias.
 
 ## primaria-matematicas — contrastado
 Sin diferencias.
+- Saberes que el documento numera de otra forma (se mantiene el código): sb:PMAT01SBI.2.2.1 (documento: 2.3), sb:PMAT01SBI.2.2.2 (documento: 2.4), sb:PMAT01SBI.2.2.3 (documento: 2.5), sb:PMAT01SBI.2.2.4 (documento: 2.6), sb:PMAT01SBI.2.3 (documento: 2.7), sb:PMAT01SBI.2.4 (documento: 2.8), sb:PMAT01SBI.2.5 (documento: 2.9), sb:PMAT01SBI.2.6 (documento: 2.10), sb:PMAT01SBI.2.7 (documento: 2.11), sb:PMAT01SBI.2.8 (documento: 2.12), sb:PMAT01SBI.2.9 (documento: 2.13), sb:PMAT01SBI.2.10 (documento: 2.14), sb:PMAT01SBI.2.11 (documento: 2.15), sb:PMAT02SBI.2.2.1 (documento: 2.3), sb:PMAT02SBI.2.2.2 (documento: 2.4), sb:PMAT02SBI.2.2.3 (documento: 2.5), sb:PMAT02SBI.2.2.4 (documento: 2.6), sb:PMAT02SBI.2.3 (documento: 2.7), sb:PMAT02SBI.2.4 (documento: 2.8), sb:PMAT02SBI.2.5 (documento: 2.9), sb:PMAT02SBI.2.6 (documento: 2.10), sb:PMAT02SBI.2.7 (documento: 2.11), sb:PMAT02SBI.2.8 (documento: 2.12), sb:PMAT02SBI.2.9 (documento: 2.13), sb:PMAT02SBI.2.10 (documento: 2.14), sb:PMAT02SBI.2.11 (documento: 2.15)
 
 ## infantil-crecimiento-en-armonia — contrastado
 Sin diferencias.
@@ -188,6 +191,7 @@ Sin diferencias.
 
 ## bachillerato-filosofia — contrastado
 Sin diferencias.
+- Saberes que el documento numera de otra forma (se mantiene el código): sb:BFIL01SBIII.1.8.5 (documento: 1.8.4.1), sb:BFIL01SBIII.1.8.6 (documento: 1.8.4.2), sb:BFIL01SBIII.1.8.7 (documento: 1.8.4.3)
 - incoherencias del propio documento (no son diferencias del corpus): 3, p. ej. bc:BFIL01BC4: la cabecera del bloque no coincide con sus criterios (cabecera: CCL1, CCL5, STEM1, CPSAA3.1, CPSAA3.2, CC2, CC3, CCEC1, CCEC4.1; criterios: CCL1, CCL5, STEM1, CPSAA1.1, CPSAA3.2, CC2, CC3, CCEC1, CCEC4.1)
 
 ## bachillerato-fisica — contrastado
