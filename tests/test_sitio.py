@@ -175,3 +175,23 @@ def test_base_de_vista_previa(tmp_path):
     sitio.generar(g, otra, tmp_path / 's')
     portada = (tmp_path / 's/index.html').read_text(encoding='utf-8')
     assert f'{otra}recursos/estilo.css' in portada and f'action="{otra}buscar/"' in portada
+
+
+def _u(x):
+    return URIRef(BASE + x)
+
+
+def test_curriculo_navegacion():
+    from herramientas.sitio.datos import Curriculo
+    c = Curriculo(_grafo(), BASE)
+    assert c.tipo(_u('id/crit/SMAT01CE1.1')) == 'CriterioEvaluacion'
+    assert c.numero(_u('id/crit/SMAT01CE1.1')) == '1.1' and c.numero(_u('id/ce/SMATC1')) == 'C1'
+    assert c.numero(_u('id/sb/SMAT01SBI')) == 'I' and c.numero(_u('id/sb/SMAT01SBI.1')) == '1'
+    assert c.con('materiaCurso', _u('id/asig/SMAT01'), 'CriterioEvaluacion') == [_u('id/crit/SMAT01CE1.1')]
+    assert c.hijos(_u('id/sb/SMAT01SBI')) == [_u('id/sb/SMAT01SBI.1'), _u('id/sb/SMAT01SBI.2')]
+    assert c.retirado(_u('id/sb/SMAT01SBI.2')) and c.sustituto(_u('id/sb/SMAT01SBI.2')) == _u('id/sb/SMAT01SBI.1')
+    assert c.enunciado(_u('id/ce/SMATC1'), _u('id/curso/S01')) == 'Resolver problemas sencillos.'
+    assert [u for u, _ in c.migas(_u('id/sb/SMAT01SBI.1'))] == [
+        BASE, str(_u('id/etapa/ESO')), str(_u('id/curso/S01')), str(_u('id/asig/SMAT01')), str(_u('id/sb/SMAT01SBI')), None]
+    assert [(str(u), cod) for u, cod, _ in c.descriptores(_u('id/crit/SMAT01CE1.1'))] == [
+        (BASE + 'id/descriptor/ESO/STEM1', 'STEM1')]
