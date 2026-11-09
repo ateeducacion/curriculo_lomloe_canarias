@@ -254,7 +254,8 @@ enlazados de verdad (versión 1.1.0).
   `…/SMAT01CE1.1` a su carpeta con un 301). El entorno `github-pages` admite despliegues desde
   `main` y desde las etiquetas `v*.*.*`.
 - [ ] **6.3 Informe para la Consejería** con las erratas detectadas en el BOC y en los ODT
-  (`pendientes.md`, «Para comunicar a la Consejería»).
+  (`pendientes.md`, «Para comunicar a la Consejería»). Aplazado (09-11-2026): por ahora no se
+  hace; las erratas siguen recogidas en `pendientes.md`.
 - [x] **6.4 Aviso `explicacion_repetida_entre_cursos`**: que no cuente los cursos de un mismo
   ciclo (Infantil, Primaria), que comparten la explicación oficial. Hecho: la regla agrupa por
   ciclo en Infantil y Primaria y por curso en el resto; de 184 avisos quedan 2, que repite el
