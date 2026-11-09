@@ -116,7 +116,6 @@ corpus coincide con ellos.
   Se mantienen los códigos (decisión del 09-11-2026): los números del documento ya los usan
   otros saberes del corpus, de modo que alinearlos haría que URIs publicadas pasaran a nombrar
   otro saber.
-- **CODEOWNERS** con los equipos reales y protección de la rama `main` (aplazado el 04-11-2026).
 
 ## Integración con Omeka S
 
