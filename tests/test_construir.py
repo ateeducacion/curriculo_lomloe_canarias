@@ -51,3 +51,18 @@ def test_nodo_que_cuelga_de_uno_retirado():
              'sb:X01SBI.2': saber('sb:X01SBI.2', obsoleto=True, sustituido_por='sb:X01SBI.1')}
     reglas = _reglas(nodos)
     assert {'padre_obsoleto', 'sustituto_obsoleto'} <= reglas
+
+
+def test_explicacion_repetida_solo_fuera_del_ciclo():
+    def bloque(materia, curso, texto):
+        nid = f'bc:{materia}{curso[1:]}BC1'
+        return nid, {'id': nid, 'tipo': 'BloqueCompetencial', 'notation': nid[3:], 'materia': f'materia:{materia}',
+                     'curso': f'curso:{curso}', 'etapa': 'etapa:X', 'scopeNote': texto}
+    nodos = dict([bloque('PMAT', 'P01', 'a'), bloque('PMAT', 'P02', 'a'),     # mismo ciclo de Primaria
+                  bloque('IMAT', 'I04', 'b'), bloque('IMAT', 'I06', 'b'),     # mismo ciclo de Infantil
+                  bloque('PLCL', 'P02', 'c'), bloque('PLCL', 'P03', 'c'),     # ciclos distintos
+                  bloque('IART', 'I03', 'd'), bloque('IART', 'I04', 'd'),
+                  bloque('SMAT', 'S01', 'e'), bloque('SMAT', 'S02', 'e')])    # ESO: cada curso cuenta
+    corpus = {'corpus': {}, 'nodos': list(nodos.values())}
+    avisos = {a['nodo'] for a in validar(corpus, {}) if a['regla'] == 'explicacion_repetida_entre_cursos'}
+    assert avisos == {'bc:PLCL02BC1', 'bc:IART03BC1', 'bc:SMAT01BC1'}

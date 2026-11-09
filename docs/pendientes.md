@@ -90,9 +90,9 @@ corpus coincide con ellos.
 - **Encabezados de otra materia** (`encabezado_no_corresponde`, `texto_en_conflicto`): textos
   mezclados entre materias en la exportación (sobre todo 3.º ESO), corregidos desde los ODT.
 - **Explicaciones de bloque idénticas entre cursos** (`explicacion_repetida_entre_cursos`): las
-  que el documento distingue ya están corregidas; las que quedan las repite el propio documento.
-  El aviso cuenta también los cursos de un mismo ciclo (Infantil, Primaria), que comparten la
-  explicación oficial: conviene que la regla los excluya.
+  que el documento distingue ya están corregidas; las dos que quedan (Matemáticas BC7 de 1.º a
+  3.º ESO y Matemáticas B BC2 de 3.º y 4.º) las repite el propio documento. El aviso no cuenta
+  los cursos de un mismo ciclo de Infantil o Primaria, que comparten la explicación oficial.
 - **Códigos de materia inconsistentes**: en tres materias el código del catálogo no coincide con
   el de sus identificadores (`TSA`/`TA7`, `PLW`/`LNT`, `VAL`/`EDK`). Se mantienen ambos en
   `config/materias.csv` y los identificadores no cambian (decisión del 04-11-2026).

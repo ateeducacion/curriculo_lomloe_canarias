@@ -6,6 +6,9 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
 
 ## [Sin publicar]
 
+### Cambiado
+- Validación: el aviso `explicacion_repetida_entre_cursos` ya no cuenta los cursos de un mismo ciclo de Infantil o Primaria, que comparten la explicación oficial (de 184 avisos a 2; los dos que quedan, de Matemáticas y Matemáticas B de ESO, los repite el propio documento).
+
 ## [1.1.1] - 2026-11-08
 
 ### Corregido

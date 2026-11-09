@@ -115,7 +115,8 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
   las 196 que el documento distingue se corrigen (avisos: de 171 a 110). Los 110 que quedan
   son de materias sin documento descargado: se revisarán al contrastarlas (5.1).
   Nota: tras corregir Infantil, el aviso cuenta también los cursos de un mismo ciclo, que
-  comparten la explicación oficial (Infantil y Primaria). Conviene que la regla los excluya.
+  comparten la explicación oficial (Infantil y Primaria). Conviene que la regla los excluya
+  (hecho en la 6.4).
 - [x] **3.4 Aprobación** de 0017–0035 y reconstrucción. Hecho: aprobadas el 03-11-2026.
 - [ ] **3.5 Códigos incoherentes con la numeración del texto**: 88 registros de la exportación
   (casi todos de 3.º ESO, más Historia de Canarias y Bioestadística) tienen un código cuyo
@@ -253,8 +254,10 @@ enlazados de verdad (versión 1.1.0).
   `main` y desde las etiquetas `v*.*.*`.
 - [ ] **6.3 Informe para la Consejería** con las erratas detectadas en el BOC y en los ODT
   (`pendientes.md`, «Para comunicar a la Consejería»).
-- [ ] **6.4 Aviso `explicacion_repetida_entre_cursos`**: que no cuente los cursos de un mismo
-  ciclo (Infantil, Primaria), que comparten la explicación oficial.
+- [x] **6.4 Aviso `explicacion_repetida_entre_cursos`**: que no cuente los cursos de un mismo
+  ciclo (Infantil, Primaria), que comparten la explicación oficial. Hecho: la regla agrupa por
+  ciclo en Infantil y Primaria y por curso en el resto; de 184 avisos quedan 2, que repite el
+  propio documento.
 - [ ] **6.5 Códigos incoherentes con su numeración** (antes 3.5): decidir si se retiran y se
   crean nodos nuevos con el código correcto.
 - [ ] **6.6 CODEOWNERS** con los equipos reales y protección de la rama `main` (antes 4.6).
