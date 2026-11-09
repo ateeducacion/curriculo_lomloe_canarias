@@ -1,6 +1,7 @@
 # Contrato del currículo en Omeka S
 
-Fecha: 09-11-2026. Estado: en revisión.
+Fecha: 09-11-2026. Estado: aprobado; implementado el 09-11-2026 (plan en
+`docs/superpowers/plans/2026-11-09-contrato-omeka.md`).
 
 ## Objetivo
 

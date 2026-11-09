@@ -86,8 +86,8 @@ que se puede importar en Omeka S como vocabulario (prefijo `cur`).
 ### Integración con Omeka S
 
 Omeka S importa vocabularios (clases y propiedades) desde Turtle, pero no ítems: el Turtle es
-para publicar los datos enlazados y `cur.ttl` para importar el vocabulario. La carga de los
-nodos como ítems la hará un módulo que lee `curriculo.json` de una versión fijada, comprueba su
-sha256, localiza cada ítem por `dcterms:identifier` (el `id` del corpus) y lo actualiza sin
-cambiar su identificador interno, para no romper los enlaces de los recursos; crea los nuevos y
-marca los retirados (decisiones del 05-11-2026).
+para publicar los datos enlazados y `cur.ttl` para importar el vocabulario. Los nodos se cargan
+como ítems con un módulo de sincronización que sigue el contrato de [`omeka.md`](omeka.md):
+cada nodo es un ítem de clase `cur:<Tipo>` con las mismas propiedades SKOS y `cur:` que el
+Turtle, localizado por `dcterms:identifier` y actualizado sin cambiar su id interno; los
+retirados no se borran (decisiones del 05-11-2026 y del 09-11-2026).

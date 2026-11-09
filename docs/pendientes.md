@@ -119,13 +119,16 @@ corpus coincide con ellos.
 
 ## Integración con Omeka S
 
-Modelo y decisiones en [`modelo.md`](modelo.md#integración-con-omeka-s). Pendiente:
+Contrato en [`omeka.md`](omeka.md) (09-11-2026): Omeka adopta el modelo del repositorio
+(clases `cur:` y SKOS) y OERManager se adapta según su ADR-0022, que sustituye a la ADR-0009.
+Pendiente:
 
-- **Módulo de sincronización** (repositorio aparte): lee `curriculo.json`, localiza los ítems por
-  `dcterms:identifier` y aplica los cambios tras la aprobación de una persona.
-- **Instancia de desarrollo.** Es una primera aproximación (12.474 ítems `schema:DefinedTerm`,
-  cargados de la misma exportación de ProIDEAC). Comparada el 05-11-2026: coinciden los códigos
-  de los 3.026 criterios, 7.805 saberes y 759 competencias, así que una tabla de correspondencias
-  es directa. Falta decidir si se migran sus recursos o se carga de cero.
+- **Módulo de sincronización** (repositorio aparte): carga cada versión siguiendo el contrato,
+  localiza los ítems por `dcterms:identifier` y aplica los cambios tras la aprobación de una
+  persona.
+- **Instancia de desarrollo.** Se carga de cero (decisión del 09-11-2026: no hay REA en
+  producción). Sus 12.474 ítems `schema:DefinedTerm` (modelo de la ADR-0009) se eliminan.
+- **Adaptación de OERManager** al contrato (su TASK-064), cuando el módulo haya cargado el
+  currículo.
 - **URIs resolubles.** Resuelven desde la 1.1.0 (tarea 6.2). Pasar a w3id.org sigue abierto:
   cambiaría todas las URIs.
