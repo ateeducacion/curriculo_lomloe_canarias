@@ -101,11 +101,21 @@ corpus coincide con ellos.
 
 ## Después de la 1.0
 
-- **Códigos incoherentes con la numeración del texto** (tarea 3.5): unos 88 registros de la
-  exportación tienen un código cuyo apartado no coincide con el número de su encabezado. Los
-  textos ya coinciden con los documentos; cambiar esos códigos rompería identificadores
-  publicados, así que solo se haría retirando los nodos y creando otros. Aplazado a después de la
-  1.0 (confirmado el 06-11-2026).
+- **Códigos que no siguen la numeración del documento** (tarea 6.5, cerrada el 09-11-2026). Los
+  88 registros de la exportación con encabezados de otra numeración (3.º ESO, Historia de
+  Canarias, Bioestadística) ya coinciden con el documento: lo erróneo eran los encabezados,
+  corregidos desde los ODT. Quedan 35 saberes que el documento numera de otra forma y que el
+  contraste lista («Saberes que el documento numera de otra forma»):
+  - Matemáticas, 1.º y 2.º de Primaria, bloque I.2 (26): el corpus anida cuatro saberes bajo el
+    2.2 (2.2.1–2.2.4) que el documento da al mismo nivel (2.3–2.6); los siguientes se desplazan
+    (2.3–2.11 del corpus son 2.7–2.15 del documento).
+  - Lengua Castellana, 5.º y 6.º de Primaria, bloque IV (6): el corpus no tiene IV.4; sus
+    IV.5–7 son los IV.4–6 del documento.
+  - Filosofía (3): la errata del ODT descrita en «Para comunicar a la Consejería».
+
+  Se mantienen los códigos (decisión del 09-11-2026): los números del documento ya los usan
+  otros saberes del corpus, de modo que alinearlos haría que URIs publicadas pasaran a nombrar
+  otro saber.
 - **CODEOWNERS** con los equipos reales y protección de la rama `main` (aplazado el 04-11-2026).
 
 ## Integración con Omeka S

@@ -93,3 +93,18 @@ def test_saberes_obsoletos_no_cuentan():
              'sb:X01SBI.2': {**_saber('sb:X01SBI.2', 'Texto retirado.'), 'obsoleto': True}}
     dif, vistos = _diferencias(nodos, 'sb:X01SBI', _hijos('Conteo de objetos.'))
     assert dif == [] and vistos == {'sb:X01SBI.1'}
+
+
+def test_saber_con_otra_numeracion_en_el_documento():
+    # El corpus anida «Suma» bajo el 1; el documento lo pone al mismo nivel, como 2.
+    nodos = {k: _saber(k, t) for k, t in [('sb:X01SBI.1', 'Cálculo.'), ('sb:X01SBI.1.1', 'Suma.'),
+                                          ('sb:X01SBI.2', 'Medida.')]}
+    dif, vistos, numeracion = [], set(), []
+    contrastar._saberes(lambda *a, **k: dif.append(a), nodos, 'sb:X01SBI',
+                        _hijos('Cálculo.', 'Suma.', 'Medida.'), vistos, numeracion=numeracion)
+    assert dif == []
+    assert numeracion == [{'nodo': 'sb:X01SBI.1.1', 'documento': '2'}, {'nodo': 'sb:X01SBI.2', 'documento': '3'}]
+    md = contrastar.informe_md([{'documento': 'x', 'estado': 'contrastado', 'diferencias': [],
+                                 'numeracion_documento': numeracion}])
+    assert 'Saberes que el documento numera de otra forma' in md
+    assert 'sb:X01SBI.1.1 (documento: 2)' in md

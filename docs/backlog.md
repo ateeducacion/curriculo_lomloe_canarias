@@ -124,6 +124,7 @@ Objetivo: explicar los avisos `encabezado_no_corresponde` y `texto_en_conflicto`
   código cuando además choca con otro (caso de Bioestadística). Decidir si la regla se extiende.
   Aplazado (06-11-2026, confirmado por la persona responsable): no bloquea la 1.0. Los textos ya coinciden con los documentos y
   cambiar los códigos rompería identificadores (ver `pendientes.md`, «Después de la 1.0»).
+  Resuelto en la 6.5.
 - [x] **3.6 Comparar saberes por contenido en el informe de contraste**, como ya hace
   `--proponer`: la comparación por número da falsos positivos cuando la exportación y el
   documento anidan distinto (Matemáticas de Primaria, Filosofía).
@@ -258,8 +259,10 @@ enlazados de verdad (versión 1.1.0).
   ciclo (Infantil, Primaria), que comparten la explicación oficial. Hecho: la regla agrupa por
   ciclo en Infantil y Primaria y por curso en el resto; de 184 avisos quedan 2, que repite el
   propio documento.
-- [ ] **6.5 Códigos incoherentes con su numeración** (antes 3.5): decidir si se retiran y se
-  crean nodos nuevos con el código correcto.
+- [x] **6.5 Códigos incoherentes con su numeración** (antes 3.5): decidir si se retiran y se
+  crean nodos nuevos con el código correcto. Hecho: los 88 ya coincidían con el documento; los 35
+  saberes que el documento numera de otra forma mantienen su código (decisión del 09-11-2026) y
+  el contraste los lista.
 - [ ] **6.6 CODEOWNERS** con los equipos reales y protección de la rama `main` (antes 4.6).
 
 Fuera de este repositorio: el módulo de sincronización de Omeka S y la decisión de migrar los

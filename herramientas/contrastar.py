@@ -148,7 +148,8 @@ def contrastar(nodos, manifiesto, materias=None):
                 leido['avisos'].append('Materias y cursos sin sección en el documento: '
                                        + ', '.join(m + n for m, n in faltan))
             secciones = {r: secciones[r] for r in leido['secciones']}
-        dif, huecos, revisar, explicaciones, textos, avisos_doc, numeracion_boc = [], {}, [], {}, [], [], []
+        dif, huecos, revisar, explicaciones, textos, avisos_doc, numeracion_boc, numeracion_doc = \
+            [], {}, [], {}, [], [], [], []
         bol = boletin.de_norma(manifiesto, doc.get('norma'))
         conocidos = descriptores_por_etapa().get(ETAPAS[doc['etapa']][0], set())
 
@@ -200,7 +201,7 @@ def contrastar(nodos, manifiesto, materias=None):
                         and _norma(bs.get('definition')) == _norma(b['titulo'] + ' ' + b['descripcion'])):
                     _hueco(huecos, 'titulo_y_descripcion', base, 'definition', b['titulo'])
                     _hueco(huecos, 'titulo_y_descripcion', base, 'scopeNote', b['descripcion'])
-                _saberes(d, nodos, base, b['hijos'], vistos, textos)
+                _saberes(d, nodos, base, b['hijos'], vistos, textos, numeracion_doc)
                 _huecos_saberes(nodos, base, b['hijos'], huecos, revisar)
                 if doc.get('norma') != 'decreto-86-2025':
                     # Los ámbitos integran por diseño saberes de otras materias.
@@ -214,7 +215,8 @@ def contrastar(nodos, manifiesto, materias=None):
         _version_publicada(nodos, textos, bol, huecos, _textos_documento(leido))
         resultados.append({'documento': doc['id'], 'estado': 'contrastado', 'avisos_lectura': leido['avisos'],
                            'diferencias': dif, 'huecos': list(huecos.values()), 'revisar': revisar,
-                           'avisos_documento': avisos_doc, 'numeracion_boc': numeracion_boc})
+                           'avisos_documento': avisos_doc, 'numeracion_boc': numeracion_boc,
+                           'numeracion_documento': numeracion_doc})
     return resultados
 
 
@@ -531,7 +533,7 @@ def proponer(resultados, manifiesto):
     return escritos
 
 
-def _saberes(d, nodos, base, hijos, vistos, textos=None):
+def _saberes(d, nodos, base, hijos, vistos, textos=None, numeracion=None):
     """Compara los saberes de un bloque emparejándolos por contenido, no por número.
 
     La exportación y el documento no siempre numeran ni anidan igual (un subsaber de la
@@ -539,7 +541,9 @@ def _saberes(d, nodos, base, hijos, vistos, textos=None):
     posición da diferencias falsas. Se alinean las dos listas en orden; dentro de un tramo
     que no coincide, se empareja por posición si los tramos tienen el mismo tamaño y, si
     no, por parecido. Los saberes del documento sin pareja se informan como ausentes; los
-    del corpus quedan fuera de `vistos` y se informan como sobrantes.
+    del corpus quedan fuera de `vistos` y se informan como sobrantes. Si se pasa `numeracion`,
+    se añaden los saberes con el mismo texto que el documento numera de otra forma: el código
+    no se cambia, porque rompería identificadores publicados.
     """
     ids = sorted((k for k in nodos if k.startswith(base + '.') and not nodos[k].get('obsoleto')), key=_natural)
     con_hijos = {k.rsplit('.', 1)[0] for k in ids}
@@ -565,8 +569,10 @@ def _saberes(d, nodos, base, hijos, vistos, textos=None):
                 libres.remove(mejor)
             else:
                 sueltos.append(doc[j])
-    for k, (_, texto) in parejas:
+    for k, (ruta, texto) in parejas:
         vistos.add(k)
+        if numeracion is not None and k != ruta and a[ids.index(k)] == _norma(texto):
+            numeracion.append({'nodo': k, 'documento': ruta[len(base) + 1:]})
         _cmp(d, nodos, k, 'definition', texto, 'texto de saber', textos)
     for ruta, texto in sueltos:
         d('falta en el corpus: texto de saber', ruta, f'documento: {texto[:80]!r}', 'definition', texto)
@@ -593,7 +599,9 @@ def informe_md(resultados):
               f"{sum(1 for r in resultados if not r['diferencias'])}",
               f'- Diferencias: {total}; explicadas: {total - sin}; **sin explicar: {sin}**',
               f"- Criterios que el BOC imprime con otro número (erratas del BOC, no son diferencias del corpus): "
-              f"{sum(len(r.get('numeracion_boc') or []) for r in resultados)}", '']
+              f"{sum(len(r.get('numeracion_boc') or []) for r in resultados)}",
+              f"- Saberes que el documento numera de otra forma (el código no cambia, para no romper "
+              f"identificadores): {sum(len(r.get('numeracion_documento') or []) for r in resultados)}", '']
     if not resultados:
         lineas.append('Ningún documento del manifiesto tiene fichero local.')
     for r in resultados:
@@ -619,6 +627,9 @@ def informe_md(resultados):
         if r.get('numeracion_boc'):
             lineas.append('- numeración distinta en el BOC (revisar; el corpus sigue el documento): '
                           + ', '.join(f"{x['nodo']} (BOC: {x['boc']})" for x in r['numeracion_boc']))
+        if r.get('numeracion_documento'):
+            lineas.append('- Saberes que el documento numera de otra forma (se mantiene el código): '
+                          + ', '.join(f"{x['nodo']} (documento: {x['documento']})" for x in r['numeracion_documento']))
         if r.get('avisos_documento'):
             lineas.append(f"- incoherencias del propio documento (no son diferencias del corpus): "
                           f"{len(r['avisos_documento'])}, p. ej. {r['avisos_documento'][0]}")
