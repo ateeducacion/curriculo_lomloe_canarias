@@ -1,6 +1,6 @@
 # Módulo de Omeka S EducationalCurriculum: sincronización del currículo
 
-Fecha: 10-11-2026. Estado: pendiente de revisión. El módulo se desarrolla en el repositorio
+Fecha: 10-11-2026. Estado: aprobado. El módulo se desarrolla en el repositorio
 `ateeducacion/omeka-s-educationalcurriculum`; esta especificación vive aquí, junto al contrato,
 hasta que exista ese repositorio.
 
