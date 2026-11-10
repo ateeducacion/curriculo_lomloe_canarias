@@ -272,3 +272,18 @@ PAGINAS = {
     'CompetenciaEspecifica': ficha, 'BloqueCompetencial': ficha, 'CriterioEvaluacion': ficha,
     'BloqueSaberes': ficha, 'SaberBasico': ficha,
 }
+
+
+def buscar(c):
+    cuerpo = (
+        '<h1>Buscar en el currículo</h1>'
+        '<noscript><p class="aviso">El buscador necesita JavaScript.</p></noscript>'
+        '<form id="filtros" role="search" aria-label="Buscar y filtrar">'
+        '<label class="oculto" for="q-resultados">Texto o código</label>'
+        '<input id="q-resultados" name="q" type="search" placeholder="Texto o código…" autocomplete="off">'
+        '<label class="oculto" for="f-e">Etapa</label><select id="f-e" name="e"><option value="">Todas las etapas</option></select>'
+        '<label class="oculto" for="f-k">Tipo</label><select id="f-k" name="k"><option value="">Todos los tipos</option></select>'
+        '<label class="oculto" for="f-m">Materia</label><select id="f-m" name="m"><option value="">Todas las materias</option></select>'
+        '</form><p id="estado" aria-live="polite"></p><ol id="resultados"></ol>'
+        '<button type="button" id="mas" hidden>Ver más</button>')
+    return 'Buscar', cuerpo, [(c.base, 'Inicio'), (None, 'Buscar')]

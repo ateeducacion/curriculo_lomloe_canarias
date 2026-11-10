@@ -118,6 +118,10 @@ ul.arbol > li { margin: .25rem 0; }
 #filtros select { font: inherit; padding: .3rem .4rem; border: 1px solid var(--linea); border-radius: var(--radio); max-width: 100%; }
 #resultados { list-style: none; padding: 0; }
 .resultado { padding: .6rem 0; border-bottom: 1px solid var(--linea); }
+.resultado a { display: block; color: var(--tinta); text-decoration: none; }
+.resultado a strong { color: var(--acento); }
+.resultado a:hover strong { text-decoration: underline; }
+#filtros input { flex: 1 1 14rem; font: inherit; padding: .4rem .6rem; border: 1px solid var(--linea); border-radius: var(--radio); }
 #mas { font: inherit; padding: .5rem 1rem; border: 1px solid var(--acento); background: #fff; color: var(--acento); border-radius: var(--radio); cursor: pointer; }
 
 /* Pie */

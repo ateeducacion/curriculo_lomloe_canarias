@@ -1,3 +1,4 @@
+import json
 import re
 
 import pytest
@@ -264,3 +265,27 @@ def test_main_vista_previa_con_otra_base(tmp_path, monkeypatch):
     assert sitio.main(['--ttl', str(ttl), '--destino', str(tmp_path / 's'), '--base', otra]) == 0
     t = (tmp_path / 's/id/crit/SMAT01CE1.1/index.html').read_text(encoding='utf-8')
     assert f'href="{otra}id/ce/SMATC1"' in t and BASE not in t
+
+
+def test_indice_de_busqueda(web):
+    _, destino = web
+    datos = json.loads((destino / 'buscar.json').read_text(encoding='utf-8'))
+    por_url = {d['u']: d for d in datos}
+    crit = por_url[BASE + 'id/crit/SMAT01CE1.1']
+    assert crit == {'u': BASE + 'id/crit/SMAT01CE1.1', 'c': 'SMAT01CE1.1', 't': 'Interpretar problemas.',
+                    'k': 'Criterio de evaluación', 'r': crit['r'], 'e': 'ESO', 'm': crit['m']}
+    assert 'Matemáticas' in crit['r'] or 'SMAT' in crit['r']
+    assert BASE + 'id/sb/SMAT01SBI.2' not in por_url          # retirado fuera
+    assert BASE + 'id/etapa/ESO' not in por_url               # etapas y cursos fuera
+    from herramientas.sitio.datos import ROTULOS
+    assert {d['k'] for d in datos} <= set(ROTULOS.values())
+    buscar = (destino / 'buscar' / 'index.html').read_text(encoding='utf-8')
+    assert 'id="resultados"' in buscar and '<noscript>' in buscar
+
+
+def test_indice_admite_texto_raro(tmp_path):
+    g = _grafo()
+    g.set((URIRef(BASE + 'id/crit/SMAT01CE1.1'), SKOS.definition, Literal('a < b & "c" \\ ñ', lang='es')))
+    sitio.generar(g, BASE, tmp_path / 's')
+    datos = json.loads((tmp_path / 's/buscar.json').read_text(encoding='utf-8'))
+    assert any(d['t'] == 'a < b & "c" \\ ñ' for d in datos)
