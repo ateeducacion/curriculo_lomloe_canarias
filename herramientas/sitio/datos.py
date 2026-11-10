@@ -97,7 +97,7 @@ class Curriculo:
         return self.g.value(u, self.cur[prop])
 
     def numero(self, u):
-        """Número corto para listas: 1.1 (criterio), C1, BC1, I (bloque de saberes), 2.1 (saber)."""
+        """Número corto para listas: 1.1 (criterio), C1 (competencia), 1 (bloque competencial), I (bloque de saberes), 2.1 (saber)."""
         cod, tipo = self.codigo(u), self.tipo(u)
         if tipo == 'CriterioEvaluacion' and 'CE' in cod:
             return cod.rsplit('CE', 1)[1]
@@ -105,7 +105,7 @@ class Curriculo:
             m = re.search(r'C\d+$', cod)
             return m.group(0) if m else cod
         if tipo == 'BloqueCompetencial' and 'BC' in cod:
-            return 'BC' + cod.rsplit('BC', 1)[1]
+            return cod.rsplit('BC', 1)[1]
         if tipo in ('BloqueSaberes', 'SaberBasico') and 'SB' in cod:
             cola = cod.rsplit('SB', 1)[1]
             return cola if tipo == 'BloqueSaberes' else cola.split('.', 1)[1]

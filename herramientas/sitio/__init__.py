@@ -199,7 +199,7 @@ def generar(g, base, destino, vocabulario=VOCABULARIO):
         (carpeta / 'index.html').write_text(html, encoding='utf-8')
         (carpeta / 'index.ttl').write_text(fichas.turtle(s), encoding='utf-8')
     _vocabulario(vocabulario, destino, base)
-    titulo, cuerpo, _ = paginas.portada(c, version, len(rutas))
+    titulo, cuerpo, _ = paginas.portada(c, version, sum(1 for s in rutas if c.tipo(s)))
     (destino / 'index.html').write_text(pagina(titulo, cuerpo, base, version=version), encoding='utf-8')
     shutil.copytree(RECURSOS, destino / 'recursos', dirs_exist_ok=True)
     (destino / '.nojekyll').touch()

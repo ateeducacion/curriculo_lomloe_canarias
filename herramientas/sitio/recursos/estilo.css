@@ -96,6 +96,7 @@ details.tecnico summary { cursor: pointer; }
 .rejilla li { border: 1px solid var(--linea); border-radius: var(--radio); padding: .6rem .8rem; }
 
 /* Pestañas */
+.pestanas[hidden] { display: none; }
 .pestanas { display: flex; flex-wrap: wrap; gap: .3rem; border-bottom: 2px solid var(--acento); margin: 1rem 0 .4rem; }
 .pestanas [role="tab"] { font: inherit; padding: .45rem .9rem; border: 1px solid var(--linea); border-bottom: 0;
   border-radius: var(--radio) var(--radio) 0 0; background: var(--fondo-2); cursor: pointer; color: var(--tinta); }
