@@ -8,7 +8,7 @@
   "properties": {
     "corpus": {
       "type": "object",
-      "required": ["marco", "ambito", "version", "base", "normas"],
+      "required": ["marco", "ambito", "version", "base", "normas", "uri_base"],
       "properties": {
         "marco": {"type": "string"},
         "ambito": {"type": "string"},
@@ -17,6 +17,7 @@
         "base": {"type": "object"},
         "normas": {"type": "array"},
         "licencia": {"type": ["object", "null"]},
+        "uri_base": {"type": "string", "pattern": "^https?://.+/$"},
         "correcciones_aplicadas": {"type": "array", "items": {"type": "string"}}
       }
     },

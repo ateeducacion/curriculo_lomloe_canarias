@@ -268,5 +268,6 @@ enlazados de verdad (versión 1.1.0).
   Hecho: `CODEOWNERS` asigna todo el repositorio a @erseco y @fmateos; `main` está protegida con un
   ruleset (sin borrado, sin push forzado, cambios solo por PR).
 
-Fuera de este repositorio: el módulo de sincronización de Omeka S y la decisión de migrar los
-recursos de la instancia de desarrollo (`pendientes.md`, «Integración con Omeka S»).
+Fuera de este repositorio: el módulo de sincronización de Omeka S y la adaptación de OERManager
+(su ADR-0022), con el contrato fijado en `omeka.md` el 09-11-2026; la instancia de desarrollo se
+carga de cero (`pendientes.md`, «Integración con Omeka S»).

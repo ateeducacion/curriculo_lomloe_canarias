@@ -106,6 +106,7 @@ def construir(version=None):
             'base': {**conf['base'], 'sha256': sha256(base)},
             'normas': conf.get('normas', []),
             'licencia': conf.get('licencia'),
+            'uri_base': conf['rdf']['base'],
             'correcciones_aplicadas': [c['id'] for c in resumen_corr if c['estado'] == 'aprobada'],
         },
         'nodos': lista,

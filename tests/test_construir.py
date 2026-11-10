@@ -66,3 +66,16 @@ def test_explicacion_repetida_solo_fuera_del_ciclo():
     corpus = {'corpus': {}, 'nodos': list(nodos.values())}
     avisos = {a['nodo'] for a in validar(corpus, {}) if a['regla'] == 'explicacion_repetida_entre_cursos'}
     assert avisos == {'bc:PLCL02BC1', 'bc:IART03BC1', 'bc:SMAT01BC1'}
+
+
+def test_uri_base_en_los_metadatos():
+    from herramientas.construir import construir
+    from herramientas.exportar_rdf import base_uri
+    corpus, avisos, _ = construir()
+    assert corpus['corpus']['uri_base'] == base_uri()
+    assert not [a for a in avisos if a['regla'] == 'esquema']
+
+
+def test_esquema_exige_uri_base():
+    corpus = {'corpus': {'marco': 'm', 'ambito': 'a', 'version': '0', 'base': {}, 'normas': []}, 'nodos': []}
+    assert any(a['regla'] == 'esquema' and 'uri_base' in a['detalle'] for a in validar(corpus, {}))
