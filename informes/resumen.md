@@ -1,4 +1,4 @@
-# Informe de construcción — versión 1.1.1
+# Informe de construcción — versión 1.1.2
 
 ## Nodos
 
