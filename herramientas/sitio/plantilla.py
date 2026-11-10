@@ -36,7 +36,7 @@ def pagina(titulo, cuerpo, base, migas=(), cabecera='', version=None):
         f'<main class="ancho">\n{migas_html(migas)}{cuerpo}\n</main>\n'
         f'<footer class="pie"><div class="ancho">{pie_version}'
         f'Datos <a href="{LICENCIA}">CC BY 4.0</a> · '
-        f'<a href="{e(base)}id/curriculo">Esquema del currículo</a> · '
+        f'<a href="{e(base)}id/curriculo">Datos enlazados</a> · '
         f'<a href="{e(base)}id/descriptores">Competencias clave y descriptores</a> · '
         f'<a href="{e(base)}def/cur">Vocabulario</a> · '
         f'<a href="{REPOSITORIO}">Repositorio</a>'

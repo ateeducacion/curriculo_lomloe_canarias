@@ -24,7 +24,9 @@ from rdflib.namespace import DCTERMS, OWL, RDF, RDFS, SKOS
 
 from ..comun import DIST
 from ..exportar_rdf import SCHEMA, VOCABULARIO, base_uri, espacio_cur
-from .plantilla import REPOSITORIO, pagina
+from . import paginas
+from .datos import Curriculo
+from .plantilla import pagina
 
 RECURSOS = Path(__file__).parent / 'recursos'
 
@@ -59,6 +61,7 @@ class _Fichas:
     def __init__(self, g, base, vocabulario):
         self.g, self.base = g, base
         self.voc = Graph().parse(vocabulario)
+        self.version = g.value(URIRef(f'{base}id/curriculo'), OWL.versionInfo)
         self.sujetos = {s for s in g.subjects() if isinstance(s, URIRef) and str(s).startswith(base + 'id/')}
         if not self.sujetos:
             raise ValueError(f'Ningún sujeto del grafo empieza por la base {base}id/')
@@ -130,7 +133,8 @@ class _Fichas:
             partes.append('<dl>' + ''.join(filas) + '</dl>')
         partes.append(f'<p>URI: <code>{escape(str(s))}</code> · <a href="index.ttl">Turtle</a></p>')
         cabecera = '<link rel="alternate" type="text/turtle" href="index.ttl">\n'
-        return pagina(nombre, '\n'.join(partes), self.base, cabecera=cabecera)
+        return pagina(nombre, '\n'.join(partes), self.base, [(self.base, 'Inicio'), (None, nombre)], cabecera,
+                      self.version)
 
     def turtle(self, s):
         d = Graph()
@@ -172,20 +176,6 @@ def _vocabulario(vocabulario, destino, base):
     shutil.copyfile(vocabulario, destino / 'def' / 'cur.ttl')
 
 
-def _portada(g, base, destino):
-    version = g.value(URIRef(f'{base}id/curriculo'), OWL.versionInfo)
-    enlaces = [(f'{base}id/curriculo', 'Esquema de conceptos del currículo'),
-               (f'{base}id/descriptores', 'Competencias clave y descriptores operativos'),
-               (f'{base}def/cur', 'Vocabulario cur')]
-    if version is not None:
-        enlaces.append((f'{REPOSITORIO}/releases/tag/v{version}', f'Versión {version}: JSON, CSV y Turtle completos'))
-    cuerpo = ('<h1>Currículo LOMLOE de Canarias</h1>\n<p>Datos enlazados del currículo: cada URI '
-              '<code>' + escape(base) + 'id/…</code> tiene una ficha y su descripción en Turtle.</p>\n<ul>'
-              + ''.join(f'<li><a href="{escape(u)}">{escape(t)}</a></li>' for u, t in enlaces)
-              + f'</ul>\n<p><a href="{REPOSITORIO}">Repositorio</a></p>')
-    (destino / 'index.html').write_text(pagina('Currículo LOMLOE de Canarias', cuerpo, base), encoding='utf-8')
-
-
 def generar(g, base, destino, vocabulario=VOCABULARIO):
     """Escribe el sitio en `destino`. Devuelve el número de sujetos con ficha."""
     fichas = _Fichas(g, base, vocabulario)
@@ -194,23 +184,46 @@ def generar(g, base, destino, vocabulario=VOCABULARIO):
     if rotos:
         raise ValueError(f'{len(rotos)} enlaces a URIs que no están en el grafo: ' + ', '.join(rotos[:20]))
     destino = Path(destino)
+    c = Curriculo(g, base)
+    version = fichas.version
+    alternativa = '<link rel="alternate" type="text/turtle" href="index.ttl">\n'
     for s, r in rutas.items():
         carpeta = destino / r
         carpeta.mkdir(parents=True, exist_ok=True)
-        (carpeta / 'index.html').write_text(fichas.html(s), encoding='utf-8')
+        funcion = paginas.PAGINAS.get(c.tipo(s))
+        if funcion:
+            titulo, cuerpo, migas = funcion(c, s)
+            html = pagina(titulo, cuerpo, base, migas, alternativa, version)
+        else:
+            html = fichas.html(s)
+        (carpeta / 'index.html').write_text(html, encoding='utf-8')
         (carpeta / 'index.ttl').write_text(fichas.turtle(s), encoding='utf-8')
     _vocabulario(vocabulario, destino, base)
-    _portada(g, base, destino)
+    titulo, cuerpo, _ = paginas.portada(c, version, len(rutas))
+    (destino / 'index.html').write_text(pagina(titulo, cuerpo, base, version=version), encoding='utf-8')
     shutil.copytree(RECURSOS, destino / 'recursos', dirs_exist_ok=True)
     (destino / '.nojekyll').touch()
     return len(rutas)
+
+
+def _cambiar_base(g, de, a):
+    """Copia del grafo con las URIs de <de>id/ bajo <a>id/, para la vista previa local."""
+    def cambia(x):
+        return URIRef(a + str(x)[len(de):]) if isinstance(x, URIRef) and str(x).startswith(de + 'id/') else x
+    nuevo = Graph()
+    for prefijo, ns in g.namespaces():
+        nuevo.bind(prefijo, ns, override=True)
+    for s, p, o in g:
+        nuevo.add((cambia(s), p, cambia(o)))
+    return nuevo
 
 
 def main(argv=None):
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument('--ttl', default=str(DIST / 'curriculo.ttl'), help='Turtle del corpus (por defecto dist/curriculo.ttl)')
     p.add_argument('--destino', default=str(DIST / 'sitio'), help='carpeta del sitio (por defecto dist/sitio)')
-    p.add_argument('--base', help='base de las URIs; por defecto la de config/corpus.yaml')
+    p.add_argument('--base', help='base de las URIs; por defecto la de config/corpus.yaml. Con otra base '
+                                   '(p. ej. http://localhost:8000/) se reescriben las URIs para la vista previa local')
     args = p.parse_args(argv)
     destino = Path(args.destino)
     if destino.exists():
@@ -218,7 +231,10 @@ def main(argv=None):
             sys.exit(f'{destino} existe y no es un sitio generado (falta .nojekyll): no se borra')
         shutil.rmtree(destino)
     g = Graph().parse(args.ttl)
-    n = generar(g, args.base or base_uri(), destino)
+    base = args.base or base_uri()
+    if base != base_uri():
+        g = _cambiar_base(g, base_uri(), base)
+    n = generar(g, base, destino)
     print(f'{destino}: {n} URIs con ficha y Turtle')
     return 0
 

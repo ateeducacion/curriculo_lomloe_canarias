@@ -59,7 +59,7 @@ def test_ficha_retirado(web):
 def test_ficha_enlaza_turtle_y_escapa(tmp_path):
     g = _grafo()
     crit = URIRef(BASE + 'id/crit/SMAT01CE1.1')
-    g.set((crit, SKOS.prefLabel, Literal('a < b & "c"', lang='es')))
+    g.set((crit, SKOS.definition, Literal('a < b & "c"', lang='es')))
     sitio.generar(g, BASE, tmp_path / 's')
     texto = (tmp_path / 's/id/crit/SMAT01CE1.1/index.html').read_text(encoding='utf-8')
     assert '<link rel="alternate" type="text/turtle" href="index.ttl">' in texto
@@ -72,7 +72,7 @@ def test_nombre_sin_notacion_repetida(tmp_path):
     g.set((crit, SKOS.prefLabel, Literal('SMAT01CE1.1 · Interpretar', lang='es')))
     sitio.generar(g, BASE, tmp_path / 's')
     texto = (tmp_path / 's/id/crit/SMAT01CE1.1/index.html').read_text(encoding='utf-8')
-    assert '<h1>SMAT01CE1.1 · Interpretar</h1>' in texto
+    assert 'SMAT01CE1.1 · SMAT01CE1.1' not in texto and '<title>Criterio de evaluación 1.1 · SMAT01CE1.1' in texto
 
 
 def test_orden_natural(tmp_path):
@@ -195,3 +195,72 @@ def test_curriculo_navegacion():
         BASE, str(_u('id/etapa/ESO')), str(_u('id/curso/S01')), str(_u('id/asig/SMAT01')), str(_u('id/sb/SMAT01SBI')), None]
     assert [(str(u), cod) for u, cod, _ in c.descriptores(_u('id/crit/SMAT01CE1.1'))] == [
         (BASE + 'id/descriptor/ESO/STEM1', 'STEM1')]
+
+
+def _pagina(destino, ruta):
+    return (destino / ruta / 'index.html').read_text(encoding='utf-8')
+
+
+def test_materia_en_curso_con_pestanas(web):
+    _, destino = web
+    t = _pagina(destino, 'id/asig/SMAT01')
+    assert 'role="tablist"' in t and 'id="p-competencias"' in t and 'id="p-saberes"' in t and 'id="p-bloques"' in t
+    comp = t[t.index('id="p-competencias"'):t.index('id="p-saberes"')]
+    # el criterio va bajo su competencia, con el enunciado del curso y sus descriptores
+    assert comp.index('SMATC1') < comp.index('SMAT01CE1.1')
+    assert 'Resolver problemas sencillos.' in comp and 'class="chip"' in comp
+    saberes = t[t.index('id="p-saberes"'):t.index('id="p-bloques"')]
+    assert 'class="arbol"' in saberes and 'Sentido numérico' in saberes and 'Conteo.' in saberes
+    assert 'class="retirado"' in saberes   # el retirado sigue enlazado, marcado
+
+
+def test_ficha_criterio_para_personas(web):
+    _, destino = web
+    t = _pagina(destino, 'id/crit/SMAT01CE1.1')
+    assert 'Criterio de evaluación' in t and 'Interpretar problemas.' in t
+    for rotulo in ('Competencia específica', 'Bloque competencial', 'Descriptores operativos'):
+        assert rotulo in t
+    for tecnico in ('Superior', 'Esquema', 'bloque competencial</dt>'):
+        assert tecnico not in t
+    assert '<details class="tecnico">' in t and 'href="index.ttl"' in t
+    assert '<nav class="migas"' in t and f'href="{BASE}id/asig/SMAT01"' in t
+
+
+def test_portada_etapa_y_curso(web):
+    _, destino = web
+    portada = (destino / 'index.html').read_text(encoding='utf-8')
+    assert 'role="search"' in portada and f'href="{BASE}id/etapa/ESO"' in portada
+    assert f'href="{BASE}id/curso/S01"' in _pagina(destino, 'id/etapa/ESO')
+    curso = _pagina(destino, 'id/curso/S01')
+    assert f'href="{BASE}id/asig/SMAT01"' in curso and '1 criterio' in curso
+
+
+def test_materia_en_curso_vacia(tmp_path):
+    g = _grafo()
+    asig = URIRef(BASE + 'id/asig/SMAT02')
+    cur = exportar_rdf.espacio_cur()
+    g.add((asig, RDF.type, cur.MateriaCurso))
+    g.add((asig, SKOS.notation, Literal('SMAT02')))
+    g.add((asig, SKOS.prefLabel, Literal('Matemáticas · 2º ESO', lang='es')))
+    g.add((asig, cur.materia, URIRef(BASE + 'id/materia/SMAT')))
+    g.add((asig, cur.curso, URIRef(BASE + 'id/curso/S01')))
+    g.add((asig, cur.etapa, URIRef(BASE + 'id/etapa/ESO')))
+    sitio.generar(g, BASE, tmp_path / 's')
+    t = (tmp_path / 's/id/asig/SMAT02/index.html').read_text(encoding='utf-8')
+    assert 'Sin criterios en este curso' in t and 'Sin saberes en este curso' in t
+
+
+def test_ficha_retirado_con_sustituto(web):
+    _, destino = web
+    t = _pagina(destino, 'id/sb/SMAT01SBI.2')
+    assert 'class="aviso"' in t and f'href="{BASE}id/sb/SMAT01SBI.1"' in t
+
+
+def test_main_vista_previa_con_otra_base(tmp_path, monkeypatch):
+    ttl = tmp_path / 'c.ttl'
+    _grafo().serialize(ttl, format='turtle')
+    monkeypatch.setattr(sitio, 'base_uri', lambda: BASE)
+    otra = 'http://localhost:8000/'
+    assert sitio.main(['--ttl', str(ttl), '--destino', str(tmp_path / 's'), '--base', otra]) == 0
+    t = (tmp_path / 's/id/crit/SMAT01CE1.1/index.html').read_text(encoding='utf-8')
+    assert f'href="{otra}id/ce/SMATC1"' in t and BASE not in t

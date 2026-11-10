@@ -37,6 +37,9 @@ class Curriculo:
         self._hijos = defaultdict(list)
         for s, p in g.subject_objects(SKOS.broader):
             self._hijos[p].append(s)
+        for p, s in g.subject_objects(SKOS.narrower):
+            if s not in self._hijos[p]:
+                self._hijos[p].append(s)
         self._con = defaultdict(list)
         for prop in ATAJOS:
             for s, v in g.subject_objects(self.cur[prop]):
