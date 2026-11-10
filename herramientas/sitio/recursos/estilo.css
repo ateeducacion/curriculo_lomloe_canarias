@@ -1,0 +1,135 @@
+/* Currículo LOMLOE de Canarias — estilo del sitio */
+:root {
+  --tinta: #1f2328;
+  --suave: #59636e;
+  --linea: #d8dee4;
+  --fondo: #ffffff;
+  --fondo-2: #f6f8fa;
+  --acento: #0a5c7a;
+  --acento-2: #e6f1f5;
+  --aviso: #b42318;
+  --aviso-fondo: #fef3f2;
+  --criterio: #fdecdc;
+  --saber: #e3eefc;
+  --competencia: #e8f5e9;
+  --bloque: #f3e8fd;
+  --materia: #fff7d6;
+  --radio: 6px;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; color: var(--tinta); background: var(--fondo);
+  font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+a { color: var(--acento); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 3px solid #f0a020; outline-offset: 2px; }
+.ancho { max-width: 60rem; margin: 0 auto; padding: 0 1rem; }
+.oculto { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+h1 { font-size: 1.6rem; line-height: 1.25; margin: .4rem 0 .8rem; }
+h2 { font-size: 1.2rem; margin: 1.6rem 0 .6rem; }
+h3 { font-size: 1.05rem; margin: 1.2rem 0 .4rem; }
+code { font-size: .9em; background: var(--fondo-2); padding: 0 .3em; border-radius: 3px; }
+
+/* Cabecera y buscador */
+.cabecera { background: var(--acento); color: #fff; }
+.cabecera .ancho { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; align-items: center; padding-top: .6rem; padding-bottom: .6rem; }
+.marca { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; }
+.buscador { position: relative; flex: 1 1 16rem; max-width: 28rem; margin-left: auto; }
+.buscador input, .buscador-portada input {
+  width: 100%; font: inherit; padding: .45rem .7rem; border: 1px solid var(--linea); border-radius: var(--radio);
+}
+.buscador-portada { position: relative; max-width: 40rem; margin: 1.4rem auto .6rem; }
+.buscador-portada input { font-size: 1.15rem; padding: .75rem 1rem; border: 2px solid var(--acento); }
+.sugerencias {
+  position: absolute; z-index: 10; left: 0; right: 0; top: calc(100% + 4px); margin: 0; padding: .3rem 0;
+  list-style: none; background: #fff; color: var(--tinta); border: 1px solid var(--linea); border-radius: var(--radio);
+  box-shadow: 0 6px 20px rgba(0,0,0,.12); max-height: 70vh; overflow: auto; text-align: left;
+}
+.sugerencias li { padding: .4rem .7rem; cursor: pointer; font-size: .92rem; }
+.sugerencias li[aria-selected="true"], .sugerencias li:hover { background: var(--acento-2); }
+.sugerencias .ruta, .resultado .ruta { display: block; color: var(--suave); font-size: .82rem; }
+.sugerencias .todos { color: var(--acento); font-weight: 600; border-top: 1px solid var(--linea); }
+
+/* Ruta de navegación */
+.migas { font-size: .88rem; color: var(--suave); margin: 1rem 0 .4rem; }
+.migas a { color: var(--suave); }
+
+/* Etiquetas de tipo y chips */
+.tipo { display: inline-block; font-size: .78rem; font-weight: 600; padding: .05rem .5rem; border-radius: 999px;
+  background: var(--fondo-2); color: var(--tinta); vertical-align: middle; }
+.tipo-CriterioEvaluacion { background: var(--criterio); }
+.tipo-SaberBasico, .tipo-BloqueSaberes { background: var(--saber); }
+.tipo-CompetenciaEspecifica { background: var(--competencia); }
+.tipo-BloqueCompetencial { background: var(--bloque); }
+.tipo-Materia, .tipo-MateriaCurso { background: var(--materia); }
+.codigo { color: var(--suave); font-size: .9rem; margin-left: .4rem; }
+.chip { display: inline-block; font-size: .78rem; padding: 0 .45rem; margin: .1rem .15rem .1rem 0;
+  border: 1px solid var(--linea); border-radius: 999px; text-decoration: none; color: var(--tinta); background: #fff; }
+.chip:hover { border-color: var(--acento); }
+
+/* Texto principal y relacionado */
+.texto { font-size: 1.12rem; line-height: 1.6; margin: .8rem 0 1rem; }
+.nota { color: var(--suave); }
+.relacionado { border-top: 1px solid var(--linea); margin-top: 1.2rem; padding-top: .6rem; }
+.relacionado dt { font-weight: 600; margin-top: .7rem; }
+.relacionado dd { margin: .15rem 0 0; }
+.relacionado ul { margin: .1rem 0; padding-left: 1.1rem; }
+details.tecnico { margin-top: 1.6rem; color: var(--suave); font-size: .9rem; }
+details.tecnico summary { cursor: pointer; }
+.aviso { background: var(--aviso-fondo); border-left: 4px solid var(--aviso); padding: .6rem 1rem; border-radius: 0 var(--radio) var(--radio) 0; }
+.retirado, .retirado a { color: var(--suave); text-decoration: line-through; }
+.vacio { color: var(--suave); font-style: italic; }
+
+/* Portada */
+.portada { text-align: center; padding: 1.5rem 0 1rem; }
+.portada h1 { font-size: 2rem; }
+.lema { color: var(--suave); margin: 0; }
+.ejemplos { color: var(--suave); font-size: .9rem; }
+.etapas { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: .8rem; margin: 1.6rem 0; text-align: left; }
+.tarjeta { border: 1px solid var(--linea); border-radius: var(--radio); padding: .8rem 1rem; background: #fff; }
+.tarjeta h2, .tarjeta h3 { margin: 0 0 .3rem; font-size: 1.05rem; }
+.tarjeta .cursos a { display: inline-block; margin-right: .5rem; }
+.cifras { color: var(--suave); font-size: .85rem; }
+.rejilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); gap: .6rem; padding: 0; list-style: none; }
+.rejilla li { border: 1px solid var(--linea); border-radius: var(--radio); padding: .6rem .8rem; }
+
+/* Pestañas */
+.pestanas[hidden] { display: none; }
+.pestanas { display: flex; flex-wrap: wrap; gap: .3rem; border-bottom: 2px solid var(--acento); margin: 1rem 0 .4rem; }
+.pestanas [role="tab"] { font: inherit; padding: .45rem .9rem; border: 1px solid var(--linea); border-bottom: 0;
+  border-radius: var(--radio) var(--radio) 0 0; background: var(--fondo-2); cursor: pointer; color: var(--tinta); }
+.pestanas [role="tab"][aria-selected="true"] { background: var(--acento); color: #fff; border-color: var(--acento); }
+.js-pestanas .panel > h2:first-child { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+
+/* Competencias y criterios, árbol de saberes */
+.competencia { margin: 1rem 0 1.2rem; }
+.competencia > p { margin: .2rem 0 .4rem; }
+.lista-criterios { list-style: none; padding-left: .8rem; border-left: 3px solid var(--criterio); margin: .3rem 0; }
+.lista-criterios li { margin: .45rem 0; }
+.num { font-weight: 700; margin-right: .35rem; }
+ul.arbol { list-style: none; padding-left: 1.1rem; margin: .2rem 0; }
+ul.arbol > li { margin: .25rem 0; }
+.bloque-saberes > h3 { border-bottom: 1px solid var(--linea); padding-bottom: .2rem; }
+
+/* Resultados de búsqueda */
+#filtros { display: flex; flex-wrap: wrap; gap: .5rem; margin: .8rem 0; }
+#filtros select { font: inherit; padding: .3rem .4rem; border: 1px solid var(--linea); border-radius: var(--radio); max-width: 100%; }
+#resultados { list-style: none; padding: 0; }
+.resultado { padding: .6rem 0; border-bottom: 1px solid var(--linea); }
+.resultado a { display: block; color: var(--tinta); text-decoration: none; }
+.resultado a strong { color: var(--acento); }
+.resultado a:hover strong { text-decoration: underline; }
+#filtros input { flex: 1 1 14rem; font: inherit; padding: .4rem .6rem; border: 1px solid var(--linea); border-radius: var(--radio); }
+#mas { font: inherit; padding: .5rem 1rem; border: 1px solid var(--acento); background: #fff; color: var(--acento); border-radius: var(--radio); cursor: pointer; }
+
+/* Pie */
+.pie { margin-top: 3rem; padding: 1.2rem 0; background: var(--fondo-2); color: var(--suave); font-size: .88rem; }
+.pie a { color: var(--suave); }
+
+@media (max-width: 40rem) {
+  h1 { font-size: 1.35rem; }
+  .portada h1 { font-size: 1.6rem; }
+  .buscador { max-width: none; margin-left: 0; }
+}

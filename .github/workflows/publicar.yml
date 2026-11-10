@@ -86,7 +86,8 @@ jobs:
           falla=0
           for ruta in id/curriculo id/descriptores id/etapa/ESO id/crit/SMAT01CE1.1 \
                       id/crit/SMAT01CE1.1/index.ttl id/sb/SMAT01SBI.1 id/descriptor/ESO/CCL1 \
-                      id/competencia-clave/CCL def/cur def/cur.ttl; do
+                      id/competencia-clave/CCL def/cur def/cur.ttl buscar/ buscar.json \
+                      recursos/estilo.css recursos/buscar.js; do
             ok=
             for intento in 1 2 3 4 5 6; do
               if curl -fsSL -o /dev/null "$BASE$ruta"; then ok=1; break; fi
