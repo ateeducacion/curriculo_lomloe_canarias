@@ -268,6 +268,13 @@ enlazados de verdad (versión 1.1.0).
   Hecho: `CODEOWNERS` asigna todo el repositorio a @erseco y @fmateos; `main` está protegida con un
   ruleset (sin borrado, sin push forzado, cambios solo por PR).
 
+## Fase 7 — Enseñar el currículo
+
+- [x] **7.1 Sitio para personas**: navegación amigable y buscador en el sitio de GitHub Pages, para
+  enseñar el currículo a asesores y docentes. Revisa la decisión de la 6.2 (sitio solo para
+  máquinas). Hecho: especificación en `superpowers/specs/2026-11-09-sitio-para-personas-design.md`;
+  se publica con la próxima versión.
+
 Fuera de este repositorio: el módulo de sincronización de Omeka S y la adaptación de OERManager
 (su ADR-0022), con el contrato fijado en `omeka.md` el 09-11-2026; la instancia de desarrollo se
 carga de cero (`pendientes.md`, «Integración con Omeka S»).

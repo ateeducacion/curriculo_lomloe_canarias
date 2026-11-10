@@ -7,6 +7,7 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
 ## [Sin publicar]
 
 ### Añadido
+- Sitio de GitHub Pages para personas: portada con buscador, navegación por etapa, curso y materia, la materia en un curso con pestañas (competencias y criterios, saberes básicos, bloques competenciales) y fichas con lo relacionado. Buscador estático con sugerencias y página de resultados filtrable por etapa, tipo y materia (`buscar.json` y MiniSearch 7.2.0). Las URIs y sus `index.ttl` no cambian.
 - `curriculo.json` lleva la base de las URIs (`corpus.uri_base`), para que quien lo cargue en Omeka S u otro sistema construya las mismas URIs que el Turtle (contrato en `docs/omeka.md`).
 
 ### Cambiado

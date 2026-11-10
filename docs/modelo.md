@@ -68,6 +68,12 @@ que se puede importar en Omeka S como vocabulario (prefijo `cur`).
   responde en `<base>def/cur` (un ancla por término) y `<base>def/cur.ttl`. El sitio lo genera
   `python -m herramientas.sitio` desde `curriculo.ttl` y el flujo «Publicar versión» lo
   despliega con cada versión; los nodos retirados conservan su página.
+- **Visor para personas**: las mismas páginas sirven para consultar el currículo sin saber RDF
+  (decisión del 09-11-2026, que revisa la de la 6.2 de dejar la consulta para personas a Omeka):
+  portada con buscador, etapas, cursos, materias, la materia en un curso con pestañas
+  (competencias y criterios, saberes, bloques) y fichas con lo relacionado y los datos técnicos
+  plegados. El buscador es estático: `buscar.json` (nodos vigentes) y MiniSearch 7.2.0, incluido
+  en el sitio, que se descargan al enfocar el buscador.
 - **Cada nodo** es `skos:Concept`, de su clase `cur:<Tipo>` (subclase de `skos:Concept`) y
   `schema:DefinedTerm`, en el esquema `<base>id/curriculo` (`skos:inScheme` y
   `schema:inDefinedTermSet`). El doble tipado con schema.org permite enlazarlo desde recursos

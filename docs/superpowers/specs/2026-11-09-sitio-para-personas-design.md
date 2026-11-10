@@ -1,6 +1,8 @@
 # Sitio para personas: navegación y buscador
 
-Fecha: 09-11-2026. Estado: en revisión.
+Fecha: 09-11-2026. Estado: aprobado; implementado el 10-11-2026 (plan en
+`docs/superpowers/plans/2026-11-09-sitio-para-personas.md`). MiniSearch se incluye como
+`recursos/minisearch.js` (el build UMD publicado no está minificado).
 
 ## Objetivo
 

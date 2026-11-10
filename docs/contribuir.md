@@ -102,6 +102,18 @@ incidencias de `config/incidencias_aceptadas.yaml`, el informe lo indica: retír
 Sigue `fuentes/proideac/exportacion-1/LEEME.md`. El informe mostrará qué cambia y qué
 correcciones ya no son necesarias.
 
+## Ver el sitio en local
+
+```bash
+python -m herramientas.construir --dist
+python -m herramientas.sitio --ttl dist/curriculo.ttl --destino dist/sitio --base http://localhost:8000/
+python -m http.server 8000 -d dist/sitio
+```
+
+Con `--base` distinta de la de `config/corpus.yaml`, las URIs se reescriben para que los enlaces
+funcionen en `http://localhost:8000/`. Si cambias `recursos/buscar.js` o `estilo.css`, recarga
+sin caché.
+
 ## Publicar una versión
 
 1. Actualiza `CHANGELOG.md` y la `version` de `config/corpus.yaml`, y registra los nodos de la
@@ -111,7 +123,7 @@ correcciones ya no son necesarias.
 3. Crea la etiqueta: `git tag v1.0.0 && git push origin v1.0.0`. El flujo «Publicar versión»
    vuelve a comprobarlo todo, crea la *release* con `curriculo.json`, los CSV,
    `curriculo.ttl` (con sus sha256) y el vocabulario `cur.ttl`, y despliega en GitHub Pages el
-   sitio que hace resolubles las URIs (`herramientas/sitio.py`); al final comprueba que
+   sitio que hace resolubles las URIs y sirve de visor (`herramientas/sitio/`); al final comprueba que
    responden. Requiere Pages con *Source: GitHub Actions* y que el entorno `github-pages` admita las
    etiquetas `v*.*.*` (Settings → Environments).
 
