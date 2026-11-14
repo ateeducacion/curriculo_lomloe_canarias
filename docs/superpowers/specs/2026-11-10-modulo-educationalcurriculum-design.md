@@ -1,8 +1,9 @@
 # Módulo de Omeka S EducationalCurriculum: sincronización del currículo
 
-Fecha: 10-11-2026. Estado: aprobado. El módulo se desarrolla en el repositorio
-`ateeducacion/omeka-s-educationalcurriculum`; esta especificación vive aquí, junto al contrato,
-hasta que exista ese repositorio.
+Fecha: 10-11-2026. Estado: implementada el 14-11-2026 en
+[`ateeducacion/omeka-s-educationalcurriculum`](https://github.com/ateeducacion/omeka-s-educationalcurriculum)
+(PR #1 y #2). Lo que cambió al implementarla está al final, en «Cambios al implementarla»; el uso
+y las medidas, en el README del módulo.
 
 ## Objetivo
 
@@ -139,3 +140,31 @@ en curso.
 - Adaptar OERManager (TASK-064).
 - Editar el currículo desde Omeka.
 - Volver a una versión anterior.
+
+## Cambios al implementarla
+
+14-11-2026. El resto de la especificación se cumple como está escrito.
+
+- **Carga interrumpida.** No se relanza: se vuelve a analizar. Lo ya escrito cambia el estado de
+  Omeka, la huella deja de coincidir y el informe nuevo muestra solo lo que falta, que una persona
+  aprueba antes de escribir. Termina sin duplicar, como pedía la especificación.
+- **Descartar** borra la fila y los ficheros, así que el estado `discarded` no se usa.
+- **Informe.** Además de `informe.json`, el análisis guarda `resumen.json` (recuentos, resumen por
+  tipo, cambios del vocabulario y errores) y las tres listas en JSON Lines (`nuevos.jsonl`,
+  `modificados.jsonl`, `retirados.jsonl`). La página lee una página de la lista sin decodificar el
+  informe, que en una primera carga ocupa unos 22 MB.
+- **Base de las URIs** en la configuración del módulo: localiza los conjuntos antes de cualquier
+  subida, y una versión que publique con otra base se rechaza al subirla.
+- **Un error bloqueante más:** la versión usa un término `cur` que su `cur.ttl` no define;
+  aplicarla fallaría a medias.
+- **Conjuntos.** Llevan `dcterms:title`; el de retirados se identifica con
+  `<base>id/curriculo/retirados`. Lo recoge el contrato (`docs/omeka.md`, PR #19).
+- **Plantillas.** Si ya existe la de una clase, no se modifica, para no deshacer cambios locales;
+  los ítems llevan igualmente todos sus valores.
+- **Componentes añadidos:** `Sync\StructureWriter` (vocabulario, plantillas, conjuntos y
+  `dcterms:hasVersion`), `Sync\Synchronizer` (analiza y aplica la carpeta de una carga) y
+  `Admin\ImportManager` (lo que hacen las páginas).
+- **Medidas** con la 1.1.2 completa (15.438 nodos) en Docker: análisis en unos 2 s y aplicación en
+  unos 2 minutos, frente a los 10-30 estimados. El análisis con el currículo cargado llega a unos
+  400 MB: los jobs necesitan `memory_limit` de 512M o más.
+- **Registro del job.** Omeka lo guarda al terminar el job: el progreso no se ve mientras corre.
