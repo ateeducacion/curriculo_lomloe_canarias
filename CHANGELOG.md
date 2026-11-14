@@ -6,6 +6,9 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
 
 ## [Sin publicar]
 
+### Cambiado
+- Contrato de Omeka S (`docs/omeka.md`): los dos conjuntos llevan `dcterms:title` y se localizan por su `dcterms:identifier`; el de retirados es `<base>id/curriculo/retirados`. La nota «Retirado en la versión X» nombra la primera versión cargada en la que el nodo figura como retirado y no cambia después. Lo aplica el módulo EducationalCurriculum.
+
 ## [1.1.2] - 2026-11-10
 
 Los datos del currículo no cambian respecto a la 1.1.1 (mismos 15.438 nodos).

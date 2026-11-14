@@ -9,6 +9,9 @@ adopta el modelo del repositorio ([`modelo.md`](modelo.md)): las mismas clases `
 propiedades SKOS que el Turtle, con las diferencias que se explican abajo. Decisiones del
 09-11-2026 (especificación en
 [`superpowers/specs/2026-11-09-contrato-omeka-design.md`](superpowers/specs/2026-11-09-contrato-omeka-design.md)).
+Precisado el 14-11-2026 al implementar el módulo
+[EducationalCurriculum](https://github.com/ateeducacion/omeka-s-educationalcurriculum): título e
+identificador de los conjuntos y versión que nombra la nota de retirada.
 
 ## Estructura
 
@@ -16,8 +19,8 @@ propiedades SKOS que el Turtle, con las diferencias que se explican abajo. Decis
 |---|---|
 | Vocabularios | `dcterms`, `skos` y `cur` (este, importado del `cur.ttl` de la misma versión, espacio de nombres `<base>def/cur#`); `schema` y `lrmi` siguen haciendo falta para los REA. No se usa `owl`: Omeka no lo trae |
 | Ítems | Uno por nodo de `curriculo.json` (15.438 en la 1.1.1), con clase de recurso `cur:<Tipo>`: `Etapa`, `Curso`, `Materia`, `MateriaCurso`, `CompetenciaEspecifica`, `BloqueCompetencial`, `CriterioEvaluacion`, `BloqueSaberes`, `SaberBasico` |
-| Conjunto «Currículo LOMLOE de Canarias» | Clase `skos:ConceptScheme`. Contiene todos los ítems. Lleva `skos:prefLabel`, `dcterms:hasVersion` (versión cargada, p. ej. `1.1.1`), `dcterms:license` (`corpus.licencia.url`) y `dcterms:identifier` (URI `<base>id/curriculo`) |
-| Conjunto «Currículo · Retirados» | Contiene, además, los ítems retirados |
+| Conjunto «Currículo LOMLOE de Canarias» | Clase `skos:ConceptScheme`. Contiene todos los ítems. Lleva `dcterms:title` y `skos:prefLabel` (los dos «Currículo LOMLOE de Canarias»; sin `dcterms:title`, Omeka lo muestra sin título), `dcterms:hasVersion` (versión cargada, p. ej. `1.1.1`), `dcterms:license` (`corpus.licencia.url`) y `dcterms:identifier` (URI `<base>id/curriculo`) |
+| Conjunto «Currículo · Retirados» | Contiene, además, los ítems retirados. Lleva `dcterms:title` («Currículo · Retirados») y `dcterms:identifier` (URI `<base>id/curriculo/retirados`) |
 | Plantillas de recurso | Una por clase, «Currículo · <rótulo de la clase>», con `skos:prefLabel` como título y `skos:definition` como descripción |
 | Visibilidad | Todo público, también los retirados (los REA que los enlazaban deben poder seguir resolviéndolos) |
 
@@ -47,7 +50,7 @@ Los literales llevan idioma `es`. Los valores repetidos siguen el orden del corp
 | `cursos` (materias) | `cur:curso`, un valor por curso | `resource:item` |
 | `materia` | `cur:materia` | `resource:item` |
 | `materia_curso` | `cur:materiaCurso` | `resource:item` |
-| `obsoleto` | pertenencia a «Currículo · Retirados» y `skos:changeNote` «Retirado en la versión X» | literal |
+| `obsoleto` | pertenencia a «Currículo · Retirados» y `skos:changeNote` «Retirado en la versión X», donde X es la primera versión cargada en la que el nodo figura como retirado | literal |
 | `sustituido_por` | `dcterms:isReplacedBy` | `resource:item` |
 
 **URIs.** `<base>` es `corpus.uri_base` de `curriculo.json` (hoy
@@ -96,7 +99,8 @@ Lo que el módulo garantiza, sea cual sea su implementación:
 - **Origen.** `curriculo.json` y `cur.ttl` de una versión publicada concreta (assets del
   release `v<versión>`), con el `sha256` comprobado antes de usar nada.
 - **Identidad.** Cada ítem se localiza por el literal de `dcterms:identifier` dentro del
-  conjunto «Currículo LOMLOE de Canarias». Dos ítems con el mismo literal son un error.
+  conjunto «Currículo LOMLOE de Canarias». Dos ítems con el mismo literal son un error. Los dos
+  conjuntos se localizan por la URI de su `dcterms:identifier`.
 - **Propiedad del módulo.** Son del módulo las propiedades de la tabla de correspondencia, la
   clase de recurso, la plantilla y la pertenencia a los dos conjuntos. Al actualizar, los
   valores de esas propiedades se sustituyen enteros; cualquier otra propiedad del ítem (añadida
@@ -105,7 +109,10 @@ Lo que el módulo garantiza, sea cual sea su implementación:
 - **Dos pasadas.** Primero se crean o actualizan todos los ítems con sus literales; después se
   escriben los enlaces `resource:item`, que necesitan los ids internos.
 - **Retirada.** Ningún ítem se borra. Un nodo con `obsoleto` entra en «Currículo · Retirados» y
-  lleva `skos:changeNote` y, si lo hay, `dcterms:isReplacedBy`.
+  lleva `skos:changeNote` y, si lo hay, `dcterms:isReplacedBy`. El JSON solo dice que el nodo
+  está retirado, no desde cuándo: la nota nombra la versión en la que la sincronización lo ve
+  retirado por primera vez y no cambia en las cargas siguientes, que de otro modo la
+  reescribirían en cada versión.
 - **Errores que detienen la sincronización antes de aplicar nada:** un ítem del conjunto cuyo
   id no está en el JSON; un ítem cuya clase no coincide con el `tipo` del nodo; un nodo retirado
   en Omeka que vuelve a estar vigente en el JSON; una versión anterior a la cargada
