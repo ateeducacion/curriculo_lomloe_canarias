@@ -35,7 +35,16 @@ resultados filtrable.
   sitio), frente a Pagefind: todo se genera en Python y se prueba con pytest, sin binarios en la
   CI.
 - **Identidad sobria y neutra**, con el nombre del proyecto; sin logotipos ni marca del Gobierno
-  de Canarias, para que no parezca una web oficial.
+  de Canarias, para que no parezca una web oficial. *Revisado el 27-11-2026:* la cabecera (ahora
+  blanca, con borde añil) lleva el logo del Área de Tecnología Educativa, que identifica la autoría
+  del proyecto; el pie y la documentación indican que es una herramienta informativa que no sustituye
+  a la normativa del BOC (la preferencia por el documento de la materia frente al BOC es una decisión
+  metodológica del corpus, no de prevalencia normativa).
+- **Documentación** (añadida el 27-11-2026): `documentacion/` con cuatro páginas para docentes y
+  asesores (sobre el proyecto, cómo se organiza el currículo con un esquema SVG al estilo TikZ,
+  fuentes y revisión, códigos, enlaces y datos). Son fragmentos HTML en
+  `herramientas/sitio/textos/` con marcadores `{{clave}}` (base, versión y cifras) que se rellenan
+  al generar.
 
 ## Páginas
 

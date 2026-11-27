@@ -24,7 +24,7 @@ from rdflib.namespace import DCTERMS, OWL, RDF, RDFS, SKOS
 
 from ..comun import DIST
 from ..exportar_rdf import SCHEMA, VOCABULARIO, base_uri, espacio_cur
-from . import indice, paginas
+from . import documentacion, indice, paginas
 from .datos import Curriculo
 from .plantilla import pagina
 
@@ -205,6 +205,7 @@ def generar(g, base, destino, vocabulario=VOCABULARIO):
     (destino / 'buscar').mkdir(exist_ok=True)
     (destino / 'buscar' / 'index.html').write_text(pagina(titulo, cuerpo, base, migas, version=version), encoding='utf-8')
     indice.escribir(c, destino)
+    documentacion.escribir(c, destino, version)
     shutil.copytree(RECURSOS, destino / 'recursos', dirs_exist_ok=True)
     (destino / '.nojekyll').touch()
     return len(rutas)

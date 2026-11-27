@@ -111,7 +111,7 @@ def portada(c, version, total):
     if version:
         pie.insert(0, f'Versión {e(version)}')
         pie.append(f'<a href="{REPOSITORIO}/releases/tag/v{e(version)}">Descargas (JSON, CSV y Turtle)</a>')
-    pie.append(f'<a href="{REPOSITORIO}">Qué es este proyecto</a>')
+    pie.append(f'<a href="{e(base)}documentacion/">Qué es este proyecto</a>')
     cuerpo = (
         '<section class="portada"><h1>Currículo LOMLOE de Canarias</h1>'
         '<p class="lema">Competencias, criterios de evaluación y saberes básicos, de Infantil a Bachillerato</p>'

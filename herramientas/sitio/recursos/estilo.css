@@ -15,6 +15,7 @@
   --bloque: #f3e8fd;
   --materia: #fff7d6;
   --radio: 6px;
+  --ate: #454c8a;
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
@@ -33,9 +34,13 @@ h3 { font-size: 1.05rem; margin: 1.2rem 0 .4rem; }
 code { font-size: .9em; background: var(--fondo-2); padding: 0 .3em; border-radius: 3px; }
 
 /* Cabecera y buscador */
-.cabecera { background: var(--acento); color: #fff; }
-.cabecera .ancho { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; align-items: center; padding-top: .6rem; padding-bottom: .6rem; }
-.marca { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; }
+.cabecera { background: #fff; color: var(--ate); border-bottom: 3px solid var(--ate); }
+.cabecera .ancho { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; align-items: center; padding-top: .5rem; padding-bottom: .5rem; }
+.marca { display: inline-flex; align-items: center; gap: .6rem; color: var(--ate); font-weight: 700; text-decoration: none; font-size: 1.1rem; }
+.marca img { display: block; }
+.enlace-doc { color: var(--ate); font-weight: 600; text-decoration: none; }
+.enlace-doc:hover, .marca:hover span { text-decoration: underline; }
+.buscador input:focus { border-color: var(--ate); }
 .buscador { position: relative; flex: 1 1 16rem; max-width: 28rem; margin-left: auto; }
 .buscador input, .buscador-portada input {
   width: 100%; font: inherit; padding: .45rem .7rem; border: 1px solid var(--linea); border-radius: var(--radio);
@@ -124,9 +129,58 @@ ul.arbol > li { margin: .25rem 0; }
 #filtros input { flex: 1 1 14rem; font: inherit; padding: .4rem .6rem; border: 1px solid var(--linea); border-radius: var(--radio); }
 #mas { font: inherit; padding: .5rem 1rem; border: 1px solid var(--acento); background: #fff; color: var(--acento); border-radius: var(--radio); cursor: pointer; }
 
+/* Documentación */
+.doc { max-width: 44rem; }
+.doc p, .doc li { line-height: 1.65; }
+.doc h2 { border-bottom: 1px solid var(--linea); padding-bottom: .2rem; }
+.doc dt { font-weight: 600; margin-top: .8rem; }
+.doc dd { margin: .2rem 0 0 1rem; }
+.doc-indice { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: .8rem; padding: 0; list-style: none; margin: 1.2rem 0; }
+.doc-indice li { border: 1px solid var(--linea); border-radius: var(--radio); padding: .8rem 1rem; }
+.doc-indice a { font-weight: 600; }
+.doc-indice p { margin: .3rem 0 0; color: var(--suave); font-size: .92rem; }
+.doc-nav { display: flex; justify-content: space-between; gap: 1rem; border-top: 1px solid var(--linea); margin-top: 2rem; padding-top: .8rem; font-size: .92rem; }
+.doc table { border-collapse: collapse; width: 100%; font-size: .94rem; margin: .8rem 0; display: block; overflow-x: auto; }
+.doc code { overflow-wrap: anywhere; }
+.doc th, .doc td { border: 1px solid var(--linea); padding: .4rem .6rem; text-align: left; vertical-align: top; }
+.doc th { background: var(--fondo-2); }
+.codigo-desglose { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 1.3rem; letter-spacing: .04em; }
+.codigo-desglose span { padding: 0 .15rem; border-bottom: 3px solid; }
+.codigo-desglose .c-etapa { border-color: #8250df; }
+.codigo-desglose .c-materia { border-color: #bf8700; }
+.codigo-desglose .c-curso { border-color: #1a7f37; }
+.codigo-desglose .c-elemento { border-color: #cf222e; }
+
+/* Diagrama del modelo, al estilo TikZ */
+.diagrama { margin: 1.4rem 0; }
+/* En pantallas estrechas el esquema conserva un tamaño legible y se desplaza en horizontal */
+.diagrama-marco { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.diagrama-aviso { display: none; text-align: center; color: var(--suave); font-size: .85rem; margin: 0 0 .3rem; }
+@media (max-width: 44rem) {
+  .diagrama .diagrama-marco svg { width: 720px; max-width: none; }
+  .diagrama-aviso { display: block; }
+}
+.diagrama svg { display: block; width: 100%; height: auto; max-width: 860px; margin: 0 auto;
+  font-family: "Latin Modern Roman", "CMU Serif", "Computer Modern Serif", "Iowan Old Style", Georgia, serif; }
+.diagrama .nodo rect { stroke: var(--tinta); stroke-width: 1.1; }
+.diagrama .nodo text { font-size: 17px; fill: var(--tinta); }
+.diagrama .n-nivel rect { fill: var(--fondo-2); }
+.diagrama .n-materia rect { fill: var(--materia); }
+.diagrama .n-competencia rect { fill: var(--competencia); }
+.diagrama .n-bloque rect { fill: var(--bloque); }
+.diagrama .n-saber rect { fill: var(--saber); }
+.diagrama .n-criterio rect { fill: var(--criterio); }
+.diagrama .n-clave rect { fill: #fff; }
+.diagrama .arista { stroke: var(--tinta); stroke-width: 1.1; fill: none; }
+.diagrama .discontinua { stroke-dasharray: 5 4; }
+.diagrama .punta { fill: var(--tinta); }
+.diagrama .etiqueta { font-size: 14px; font-style: italic; fill: var(--suave); paint-order: stroke; stroke: #fff; stroke-width: 6px; stroke-linejoin: round; }
+.diagrama figcaption { text-align: center; color: var(--suave); font-size: .88rem; margin-top: .4rem; }
+
 /* Pie */
 .pie { margin-top: 3rem; padding: 1.2rem 0; background: var(--fondo-2); color: var(--suave); font-size: .88rem; }
 .pie a { color: var(--suave); }
+.pie p { margin: 0 0 .4rem; }
 
 @media (max-width: 40rem) {
   h1 { font-size: 1.35rem; }
