@@ -153,6 +153,13 @@ ul.arbol > li { margin: .25rem 0; }
 
 /* Diagrama del modelo, al estilo TikZ */
 .diagrama { margin: 1.4rem 0; }
+/* En pantallas estrechas el esquema conserva un tamaño legible y se desplaza en horizontal */
+.diagrama-marco { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.diagrama-aviso { display: none; text-align: center; color: var(--suave); font-size: .85rem; margin: 0 0 .3rem; }
+@media (max-width: 44rem) {
+  .diagrama .diagrama-marco svg { width: 720px; max-width: none; }
+  .diagrama-aviso { display: block; }
+}
 .diagrama svg { display: block; width: 100%; height: auto; max-width: 860px; margin: 0 auto;
   font-family: "Latin Modern Roman", "CMU Serif", "Computer Modern Serif", "Iowan Old Style", Georgia, serif; }
 .diagrama .nodo rect { stroke: var(--tinta); stroke-width: 1.1; }

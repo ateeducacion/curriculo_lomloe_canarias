@@ -23,8 +23,8 @@ explica cuáles son, cómo se han reunido y cómo se ha comprobado que el result
   <li><strong>Punto de partida.</strong> Una exportación del catálogo de ProIDEAC, la aplicación de la
   Consejería para la programación didáctica, que ya contenía los elementos del currículo con sus códigos.</li>
   <li><strong>Comparación con los documentos de las materias.</strong> Cada materia se ha comparado, elemento
-  a elemento, con su documento curricular publicado en la web de currículos de la Consejería (105
-  documentos), y también con el texto de los decretos en el BOC.</li>
+  a elemento, con su documento curricular publicado en la web de currículos de la Consejería
+  ({{documentos}} documentos), y también con el texto de los decretos en el BOC.</li>
   <li><strong>Correcciones revisadas.</strong> Cada diferencia se ha corregido con el texto del documento.
   Ninguna corrección se aplica sin que una persona la revise y la apruebe, y cada una queda registrada con su
   motivo y la fuente que la justifica.</li>
@@ -33,13 +33,31 @@ explica cuáles son, cómo se han reunido y cómo se ha comprobado que el result
   indican más abajo.</li>
 </ol>
 
-<p>Cuando el documento de la materia y el BOC no coinciden, se sigue el documento de la materia, que es la
-versión que publica la Consejería. Se han encontrado 24 casos de este tipo, de redacción, puntuación o
-descriptores, y se han revisado uno a uno.</p>
+<h2>Diferencias entre el documento de la materia y el BOC</h2>
+<p>Cuando el documento de la materia y el BOC no coinciden, esta web sigue el documento de la materia. Es una
+decisión metodológica para construir un catálogo coherente con los documentos que publica la Consejería, no
+una declaración sobre qué texto prevalece: la referencia normativa es siempre el BOC.</p>
+<p>En la revisión del 05-11-2026 se encontraron 24 diferencias de este tipo, que se revisaron una a una:</p>
+<ul>
+  <li><strong>Texto distinto (9):</strong> enunciados de competencias, criterios y explicaciones de bloques
+  competenciales redactados de otra forma.</li>
+  <li><strong>Puntuación (8):</strong> títulos de bloques de saberes de Educación Emocional y para la
+  Creatividad (Primaria).</li>
+  <li><strong>Descriptores (4):</strong> el documento añade CCL1 a un criterio de Lengua Castellana y
+  Literatura (Primaria, 5.º y 6.º) y a su bloque competencial.</li>
+  <li><strong>Saberes que el documento omite (3):</strong> el saber IV.4 de Lengua Castellana y Literatura
+  (Primaria, 5.º y 6.º) y el saber VI.9 de Psicología (Bachillerato, 2.º) figuran en el BOC pero no en el
+  documento de la materia, por lo que <strong>no aparecen en esta web</strong>. Quien necesite el texto
+  íntegro del decreto debe consultar el BOC.</li>
+</ul>
+<p>El detalle de cada caso está en las <a href="{{repositorio}}/tree/main/correcciones">correcciones
+0255 a 0262</a> del repositorio.</p>
 
-<h2>Erratas detectadas en las fuentes oficiales</h2>
-<p>Durante la comparación han aparecido algunas erratas en las propias fuentes. Se recogen aquí para que
-puedan corregirse en origen.</p>
+<h2>Erratas y posibles erratas en las fuentes oficiales</h2>
+<p>Durante la comparación han aparecido algunas erratas, o posibles erratas, en las propias fuentes. Se
+recogen aquí para que puedan revisarse en origen; el detalle y su justificación están en el
+<a href="{{repositorio}}/blob/main/docs/pendientes.md">registro de pendientes</a> y en el
+<a href="{{repositorio}}/blob/main/informes/contraste.md">informe de contraste</a> del proyecto.</p>
 <dl>
   <dt>BOC · Segunda Lengua Extranjera (ESO): criterios 5.1 y 6.1 intercambiados</dt>
   <dd>En el Decreto 30/2023, en los cuatro cursos y los tres idiomas (alemán, francés e italiano), el criterio
@@ -51,9 +69,11 @@ puedan corregirse en origen.</p>
   inexistente</dt>
   <dd>El criterio 7.2 y su bloque competencial incluyen el descriptor «CCE3», que no figura en el Perfil de
   salida de la etapa. La web muestra solo los descriptores válidos.</dd>
-  <dt>Documento de la materia · Cultura Científica (Bachillerato): saber repetido</dt>
-  <dd>«Contaminación lumínica» aparece en los saberes II.2.4.1 y II.2.4.3. La web lo recoge tal como figura
-  en el documento.</dd>
+  <dt>Documento de la materia · Cultura Científica (Bachillerato): posible saber repetido</dt>
+  <dd>«Contaminación lumínica» aparece en los saberes II.2.4.1 y II.2.4.3. Está pendiente de confirmar si es
+  una errata. La web lo recoge tal como figura en el documento
+  (<a href="{{repositorio}}/blob/main/correcciones/0012-bachillerato-cultura-cientifica-textos-ausentes.yaml">corrección
+  0012</a>).</dd>
 </dl>
 
 <h2>¿Ha encontrado un error?</h2>

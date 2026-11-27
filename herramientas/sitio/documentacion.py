@@ -7,9 +7,11 @@ que los datos no se queden desfasados. Falla si queda algún marcador sin sustit
 import re
 from pathlib import Path
 
+from ..comun import FUENTES, leer_yaml
 from .plantilla import REPOSITORIO, e, pagina
 
 TEXTOS = Path(__file__).parent / 'textos'
+MANIFIESTO = FUENTES / 'manifiesto.yaml'
 # (carpeta bajo documentacion/, fichero en textos/, título)
 PAGINAS = [
     ('', 'proyecto.html', 'Sobre el proyecto'),
@@ -24,10 +26,12 @@ def _miles(n):
     return f'{n:,}'.replace(',', '.')
 
 
-def valores(c, version):
-    """Valores de los marcadores: base, versión, enlaces y cifras de elementos vigentes."""
+def valores(c, version, manifiesto=MANIFIESTO):
+    """Valores de los marcadores: base, versión, enlaces, cifras de elementos vigentes y número de
+    documentos oficiales con los que se contrasta el corpus (los del manifiesto con fichero local)."""
     def cuenta(tipo):
         return _miles(sum(1 for u in c.nodos(tipo) if not c.retirado(u)))
+    documentos = sum(1 for d in leer_yaml(manifiesto).get('documentos', []) if d.get('fichero'))
     if version:
         descargas = f'{REPOSITORIO}/releases/tag/v{version}'
         texto_version = f'v{version}'
@@ -38,6 +42,7 @@ def valores(c, version):
         'etapas': cuenta('Etapa'), 'cursos': cuenta('Curso'), 'materias': cuenta('Materia'),
         'competencias': cuenta('CompetenciaEspecifica'), 'bloques': cuenta('BloqueCompetencial'),
         'criterios': cuenta('CriterioEvaluacion'), 'saberes': cuenta('SaberBasico'),
+        'documentos': _miles(documentos),
     }
 
 

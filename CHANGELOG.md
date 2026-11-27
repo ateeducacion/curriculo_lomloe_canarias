@@ -8,7 +8,7 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
 
 ### Añadido
 - Sitio: sección de documentación (`documentacion/`) para docentes y asesores: objetivos del proyecto, cómo se organiza el currículo (con un esquema de sus elementos y relaciones), fuentes, revisión y erratas detectadas en las fuentes oficiales, y cómo leer los códigos, enlazar elementos y descargar los datos. Las cifras y la versión se rellenan al generar el sitio.
-- Sitio: logo del Área de Tecnología Educativa en la cabecera, que pasa a fondo blanco, con enlace a la documentación. El pie advierte de que no es una web oficial.
+- Sitio: logo del Área de Tecnología Educativa en la cabecera, que pasa a fondo blanco, con enlace a la documentación. El pie indica que es una herramienta informativa que no sustituye a la normativa publicada en el BOC.
 
 ### Cambiado
 - Contrato de Omeka S (`docs/omeka.md`): los dos conjuntos llevan `dcterms:title` y se localizan por su `dcterms:identifier`; el de retirados es `<base>id/curriculo/retirados`. La nota «Retirado en la versión X» nombra la primera versión cargada en la que el nodo figura como retirado y no cambia después. Lo aplica el módulo EducationalCurriculum.
