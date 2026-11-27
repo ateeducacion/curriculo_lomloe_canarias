@@ -1,4 +1,4 @@
-/* Buscador, sugerencias y pestañas del sitio.
+/* Buscador, sugerencias, pestañas y botones de copiar del sitio.
  * Sin dependencias salvo MiniSearch, que se carga (junto con buscar.json) la primera vez que
  * alguien enfoca un buscador: navegar por el sitio no descarga el índice. */
 (function () {
@@ -61,12 +61,24 @@
     return cargando;
   }
 
+  // Texto con las palabras encontradas marcadas. Se parte como lo hace MiniSearch, para que cada
+  // trozo se pueda comparar con los términos del resultado (ya normalizados).
+  function resaltado(texto, terminos) {
+    var f = document.createDocumentFragment();
+    texto.split(/([^\n\r\p{Z}\p{P}]+)/u).forEach(function (trozo) {
+      if (terminos && terminos.indexOf(normalizar(trozo)) >= 0) f.appendChild(nodo('mark', null, trozo));
+      else f.appendChild(document.createTextNode(trozo));
+    });
+    return f;
+  }
+
   // Contenido de un resultado: tipo, código, texto y ruta.
   function contenido(li, r, largo) {
     li.appendChild(nodo('span', 'tipo', r.k));
     li.appendChild(document.createTextNode(' '));
     li.appendChild(nodo('strong', null, r.c));
-    li.appendChild(document.createTextNode(' ' + recortar(r.t, largo)));
+    li.appendChild(document.createTextNode(' '));
+    li.appendChild(resaltado(recortar(r.t, largo), r.terms));
     if (r.r) li.appendChild(nodo('span', 'ruta', r.r));
   }
 
@@ -271,7 +283,24 @@
     });
   }
 
+  // Botones de copiar (códigos de criterios y fichas). El rótulo cambia un momento a «Copiado».
+  function copiar() {
+    if (!navigator.clipboard) return;
+    document.addEventListener('click', function (ev) {
+      var boton = ev.target.closest ? ev.target.closest('.copiar') : null;
+      if (!boton) return;
+      var rotulo = boton.querySelector('span');
+      // El rótulo original se guarda una vez: con dos clics seguidos se leería «Copiado».
+      var antes = boton.dataset.rotulo || (boton.dataset.rotulo = rotulo.textContent);
+      navigator.clipboard.writeText(boton.getAttribute('data-copiar')).then(function () {
+        rotulo.textContent = 'Copiado';
+        setTimeout(function () { rotulo.textContent = antes; }, 1500);
+      }).catch(function () {});
+    });
+  }
+
   Array.prototype.forEach.call(document.querySelectorAll('#q-cabecera, #q-portada'), sugerencias);
   resultados();
   pestanas();
+  copiar();
 })();

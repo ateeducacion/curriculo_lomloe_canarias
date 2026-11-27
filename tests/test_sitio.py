@@ -354,3 +354,43 @@ def test_documentacion_cifras_sin_retirados(tmp_path):
     manifiesto.write_text('documentos:\n- {id: a, fichero: a.odt}\n- {id: b}\n', encoding='utf-8')
     datos = documentacion.valores(c, '1.0.0', manifiesto)
     assert datos['saberes'] == '1' and datos['criterios'] == '1' and datos['documentos'] == '1'
+
+
+# Rediseño: un solo buscador en la portada, selector de curso, copiar códigos y tipografía propia
+
+def test_portada_con_un_buscador_y_desglose_del_codigo(web):
+    _, destino = web
+    portada = (destino / 'index.html').read_text(encoding='utf-8')
+    assert portada.count('role="search"') == 1
+    assert 'class="desglose"' in portada and f'href="{BASE}documentacion/codigos/"' in portada
+    assert _pagina(destino, 'id/crit/SMAT01CE1.1').count('role="search"') == 1   # el de la cabecera
+
+
+def test_selector_de_curso(web):
+    _, destino = web
+    selector = _pagina(destino, 'id/asig/SMAT01').split('<nav class="selector"')[1].split('</nav>')[0]
+    assert 'aria-current="page"' in selector               # el curso en el que se está, sin enlace
+    assert '<nav class="selector"' not in _pagina(destino, 'id/curso/S01')   # un solo curso: no hay a dónde saltar
+    portada = (destino / 'index.html').read_text(encoding='utf-8')
+    assert f'href="{BASE}id/curso/S01"' in portada.split('<nav class="selector"')[1].split('</nav>')[0]
+
+
+def test_botones_de_copiar(web):
+    _, destino = web
+    assert 'data-copiar="SMAT01CE1.1"' in _pagina(destino, 'id/asig/SMAT01')
+    ficha = _pagina(destino, 'id/crit/SMAT01CE1.1')
+    assert 'data-copiar="SMAT01CE1.1"' in ficha and 'data-copiar="SMAT01CE1.1 Interpretar problemas."' in ficha
+
+
+def test_pestanas_con_cifras(web):
+    _, destino = web
+    barra = _pagina(destino, 'id/asig/SMAT01').split('role="tablist"')[1].split('</div>')[0]
+    assert barra.count('class="cuenta"') == 3 and '<span class="cuenta">1</span>' in barra
+
+
+def test_tipografia_servida_desde_el_sitio(web):
+    _, destino = web
+    for r in ('atkinson-400.woff2', 'atkinson-700.woff2', 'atkinson.LICENSE'):
+        assert (destino / 'recursos' / r).is_file()
+    css = (destino / 'recursos/estilo.css').read_text(encoding='utf-8')
+    assert 'atkinson-400.woff2' in css and 'http' not in css   # sin peticiones a terceros

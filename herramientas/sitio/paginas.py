@@ -2,13 +2,20 @@
 
 Cada función devuelve (título, cuerpo HTML, ruta de navegación); la plantilla pone el resto.
 """
+import re
+
 from rdflib.namespace import DCTERMS
 
 from .datos import ROTULOS, clave_natural
-from .plantilla import REPOSITORIO, e
+from .plantilla import REPOSITORIO, buscador, e
 
 ORDEN_ETAPAS = ['INF', 'PRI', 'ESO', 'BAC']
 EJEMPLOS = ['fracciones', 'SMAT01CE1.1', 'contaminación lumínica']
+# El código de ejemplo de la portada, por partes; el mismo que explica documentacion/codigos/.
+DESGLOSE = [('S', 'ESO'), ('MAT', 'Matemáticas'), ('01', '1.º curso'), ('CE1.1', 'Criterio 1.1')]
+ICONO_COPIAR = ('<svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+                'stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11"/>'
+                '<path d="M5 15V4h11"/></svg>')
 
 
 def _n(cantidad, singular, plural):
@@ -20,9 +27,29 @@ def _a(u, texto, clase=None):
     return f'<a href="{e(u)}"{cls}>{e(texto)}</a>'
 
 
+def _copiar(texto, rotulo):
+    """Botón que copia `texto` al portapapeles (lo activa buscar.js); el rótulo es lo que se ve."""
+    return (f'<button type="button" class="copiar" data-copiar="{e(texto)}" title="Copiar al portapapeles">'
+            f'<span aria-live="polite">{e(rotulo)}</span>{ICONO_COPIAR}</button>')
+
+
+def _selector(rotulo, pares, actual=None):
+    """Botonera de enlaces: (URI, rótulo corto, nombre completo); la página actual va sin enlace."""
+    celdas = ''.join(f'<span aria-current="page">{e(r)}</span>' if u == actual
+                     else f'<a href="{e(u)}" aria-label="{e(nombre)}">{e(r)}</a>' for u, r, nombre in pares)
+    return f'<nav class="selector" aria-label="{e(rotulo)}">{celdas}</nav>'
+
+
+def _curso_corto(c, cu):
+    """«1º ESO» → «1º»; «4º Infantil de 3 años» → «3 años». Va junto al nombre de la etapa, que no hace falta repetir."""
+    etiqueta = c.etiqueta(cu)
+    m = re.search(r'de (\d+ años?)$', etiqueta) or re.match(r'\d+º', etiqueta)
+    return m.group(1) if m and m.groups() else m.group(0) if m else etiqueta
+
+
 def _cabecera_tipo(c, u):
     tipo = c.tipo(u)
-    return (f'<p><span class="tipo tipo-{tipo}">{e(ROTULOS[tipo])}</span>'
+    return (f'<p class="rotulo"><span class="tipo tipo-{tipo}">{e(ROTULOS[tipo])}</span>'
             f'<span class="codigo">{e(c.codigo(u))}</span></p>')
 
 
@@ -82,9 +109,10 @@ def _vigentes(c, nodos):
 
 def _criterio_en_lista(c, crit):
     chips = _chips(c, crit)
-    return _li(c, crit, f'<a href="{e(crit)}"><span class="num">{e(c.numero(crit))}</span></a> '
-                        f'{e(c.texto(crit) or c.etiqueta(crit))} <span class="codigo">{e(c.codigo(crit))}</span>'
-                        + (f'<br>{chips}' if chips else ''))
+    return _li(c, crit, f'<a class="num" href="{e(crit)}">{e(c.numero(crit))}</a>'
+                        f'<div><p>{e(c.texto(crit) or c.etiqueta(crit))}</p>'
+                        + (f'<p class="chips">{chips}</p>' if chips else '') + '</div>'
+                        + _copiar(c.codigo(crit), c.codigo(crit)))
 
 
 # Portada y niveles superiores
@@ -100,35 +128,39 @@ def _cursos(c, etapa):
 
 def portada(c, version, total):
     base = c.base
-    tarjetas = []
+    filas = []
     for et in _etapas(c):
-        cursos = ' '.join(_a(cu, c.etiqueta(cu)) for cu in _cursos(c, et))
+        cursos = _selector(f'Cursos de {c.etiqueta(et)}',
+                           [(cu, _curso_corto(c, cu), c.etiqueta(cu)) for cu in _cursos(c, et)])
         materias = len(c.con('etapa', et, 'Materia'))
-        tarjetas.append(f'<div class="tarjeta"><h2>{_a(et, c.nombre_etapa(et))}</h2>'
-                        f'<p class="cursos">{cursos}</p><p class="cifras">{_n(materias, "materia", "materias")}</p></div>')
-    ejemplos = ' · '.join(f'<a href="{e(base)}buscar/?q={e(x)}">{e(x)}</a>' for x in EJEMPLOS)
+        filas.append(f'<div class="etapa-fila"><h3>{_a(et, c.etiqueta(et))}</h3>{cursos}'
+                     f'<span class="cifras">{_n(materias, "materia", "materias")}</span></div>')
+    ejemplos = [f'<a href="{e(base)}buscar/?q={e(x)}">{e(x)}</a>' for x in EJEMPLOS]
     pie = [f'{total:,}'.replace(',', '.') + ' elementos del currículo']
     if version:
         pie.insert(0, f'Versión {e(version)}')
         pie.append(f'<a href="{REPOSITORIO}/releases/tag/v{e(version)}">Descargas (JSON, CSV y Turtle)</a>')
     pie.append(f'<a href="{e(base)}documentacion/">Qué es este proyecto</a>')
+    desglose = ''.join(f'<li><code>{e(parte)}</code>{e(significado)}</li>' for parte, significado in DESGLOSE)
     cuerpo = (
-        '<section class="portada"><h1>Currículo LOMLOE de Canarias</h1>'
-        '<p class="lema">Competencias, criterios de evaluación y saberes básicos, de Infantil a Bachillerato</p>'
-        f'<form class="buscador-portada" action="{e(base)}buscar/" role="search">'
-        '<label class="oculto" for="q-portada">Buscar en el currículo</label>'
-        '<input id="q-portada" name="q" type="search" placeholder="Busca un criterio, un saber, una materia…" autocomplete="off">'
-        f'</form><p class="ejemplos">Por ejemplo: {ejemplos}</p></section>'
-        f'<div class="etapas">{"".join(tarjetas)}</div>'
-        f'<p class="cifras">{" · ".join(pie)}</p>')
+        '<section class="portada"><div class="portada-buscar">'
+        '<h1>Competencias, criterios y saberes básicos, de Infantil a Bachillerato</h1>'
+        + buscador(base, 'q-portada', 'buscador-portada', 'fracciones, SMAT01CE1.1, contaminación lumínica…',
+                   'Busca por texto o por código')
+        + f'<p class="ejemplos">Prueba con {", ".join(ejemplos[:-1])} o {ejemplos[-1]}.</p></div>'
+        '<aside class="desglose" aria-labelledby="t-desglose"><h2 id="t-desglose">Cómo se lee un código</h2>'
+        f'<ul>{desglose}</ul>'
+        f'<a href="{e(base)}documentacion/codigos/">Todos los tipos de código</a></aside></section>'
+        f'<section class="etapas"><h2 class="rotulo">Por etapa y curso</h2>{"".join(filas)}</section>'
+        f'<p class="cifras pie-portada">{" · ".join(pie)}</p>')
     return 'Inicio', cuerpo, []
 
 
 def etapa(c, u):
-    cursos = ''.join(f'<li>{_a(cu, c.etiqueta(cu))}</li>' for cu in _cursos(c, u))
+    cursos = _selector('Cursos', [(cu, c.etiqueta(cu), c.etiqueta(cu)) for cu in _cursos(c, u)])
     materias = ''.join(f'<li>{_a(m, c.nombre_materia(m))}</li>' for m in c.con('etapa', u, 'Materia'))
-    cuerpo = (f'<h1>{e(c.etiqueta(u))}</h1><h2>Cursos</h2><ul class="rejilla">{cursos}</ul>'
-              f'<h2>Materias</h2><ul class="rejilla">{materias}</ul>')
+    cuerpo = (f'<h1>{e(c.etiqueta(u))}</h1><h2 class="rotulo">Cursos</h2>{cursos}'
+              f'<h2 class="rotulo">Materias</h2><ul class="rejilla">{materias}</ul>')
     return c.etiqueta(u), cuerpo, c.migas(u)
 
 
@@ -141,23 +173,36 @@ def _cifras_materia_curso(c, mc):
 
 
 def curso(c, u):
-    filas = ''.join(f'<li>{_a(mc, c.nombre_materia(mc))}<br><span class="cifras">{_cifras_materia_curso(c, mc)}</span></li>'
+    etapa_u = c.atajo(u, 'etapa') or c.padre(u)
+    hermanos = _cursos(c, etapa_u) if etapa_u is not None else []
+    selector = (_selector('Otros cursos de la etapa', [(cu, _curso_corto(c, cu), c.etiqueta(cu)) for cu in hermanos], u)
+                if len(hermanos) > 1 else '')
+    filas = ''.join(f'<li>{_a(mc, c.nombre_materia(mc))}<span class="cifras">{_cifras_materia_curso(c, mc)}</span></li>'
                     for mc in sorted(c.con('curso', u, 'MateriaCurso'), key=lambda x: c.nombre_materia(x)))
-    cuerpo = f'<h1>{e(c.etiqueta(u))}</h1><h2>Materias</h2><ul class="rejilla">{filas}</ul>'
+    cuerpo = (f'<div class="titular"><h1>{e(c.etiqueta(u))}</h1>{selector}</div>'
+              f'<h2 class="rotulo">Materias</h2><ul class="rejilla">{filas}</ul>')
     return c.etiqueta(u), cuerpo, c.migas(u)
 
 
+def _curso_de(c, mc):
+    """Nombre del curso de una materia en un curso: «1º ESO»."""
+    cu = c.atajo(mc, 'curso')
+    return c.etiqueta(cu) if cu is not None else c.etiqueta(mc)
+
+
 def materia(c, u):
-    cursos = ''.join(f'<li>{_a(mc, c.etiqueta(mc))}</li>' for mc in c.con('materia', u, 'MateriaCurso'))
+    cursos = _selector('Cursos', [(mc, _curso_de(c, mc), c.etiqueta(mc)) for mc in c.con('materia', u, 'MateriaCurso')])
     comps = []
     for ce in c.con('materia', u, 'CompetenciaEspecifica'):
         variantes = ''.join(f'<dt>{e(c.etiqueta(cu))}</dt><dd>{e(t)}</dd>' for cu, t in c.enunciados(ce))
-        comps.append(f'<div class="competencia"><h3>{_a(ce, c.numero(ce))} <span class="codigo">{e(c.codigo(ce))}</span></h3>'
-                     f'<p>{e(c.texto(ce) or c.etiqueta(ce))}</p>'
+        comps.append(f'<section class="competencia"><h3>{_a(ce, "Competencia " + c.numero(ce))} '
+                     f'<span class="codigo">{e(c.codigo(ce))}</span></h3>'
+                     f'<p class="enunciado">{e(c.texto(ce) or c.etiqueta(ce))}</p>'
                      + (f'<details><summary>Enunciado en cada curso</summary><dl>{variantes}</dl></details>' if variantes else '')
-                     + '</div>')
-    cuerpo = (f'<h1>{e(c.etiqueta(u))}</h1>{_cabecera_tipo(c, u)}<h2>Cursos</h2><ul class="rejilla">{cursos}</ul>'
-              f'<h2>Competencias específicas</h2>{"".join(comps) or "<p class=vacio>Sin competencias específicas.</p>"}')
+                     + '</section>')
+    cuerpo = (f'{_cabecera_tipo(c, u)}<h1>{e(c.etiqueta(u))}</h1><h2 class="rotulo">Cursos</h2>{cursos}'
+              f'<h2 class="rotulo">Competencias específicas</h2>'
+              f'{"".join(comps) or "<p class=vacio>Sin competencias específicas.</p>"}')
     return c.etiqueta(u), cuerpo, c.migas(u)
 
 
@@ -168,13 +213,20 @@ def materia_curso(c, u):
     por_ce = {}
     for cr in crits:
         por_ce.setdefault(c.padre(cr), []).append(cr)
+    ces = sorted(por_ce, key=lambda x: clave_natural(c.codigo(x)))
     bloques_ce = []
-    for ce in sorted(por_ce, key=lambda x: clave_natural(c.codigo(x))):
+    for ce in ces:
         lista = ''.join(_criterio_en_lista(c, cr) for cr in por_ce[ce])
-        bloques_ce.append(f'<div class="competencia"><h3>{_a(ce, "Competencia " + c.numero(ce))} '
-                          f'<span class="codigo">{e(c.codigo(ce))}</span></h3>'
-                          f'<p>{e(c.enunciado(ce, curso_u) or "")}</p><ul class="lista-criterios">{lista}</ul></div>')
-    competencias = ''.join(bloques_ce) or '<p class="vacio">Sin criterios en este curso.</p>'
+        bloques_ce.append(f'<section class="competencia" id="ce-{e(c.numero(ce))}">'
+                          f'<h3>{_a(ce, "Competencia " + c.numero(ce))} <span class="codigo">{e(c.codigo(ce))}</span></h3>'
+                          f'<p class="enunciado">{e(c.enunciado(ce, curso_u) or "")}</p>'
+                          f'<ul class="lista-criterios">{lista}</ul></section>')
+    indice = ''.join(f'<a href="#ce-{e(c.numero(ce))}" aria-label="Competencia {e(c.numero(ce))}">'
+                     f'{e(c.numero(ce).lstrip("C"))}</a>' for ce in ces)
+    competencias = (f'<div class="con-indice"><nav class="indice" aria-labelledby="t-indice">'
+                    f'<p class="rotulo" id="t-indice">Competencias</p><div>{indice}</div></nav>'
+                    f'<div>{"".join(bloques_ce)}</div></div>'
+                    if bloques_ce else '<p class="vacio">Sin criterios en este curso.</p>')
     # Saberes
     bs = c.hijos(u, 'BloqueSaberes') or c.con('materiaCurso', u, 'BloqueSaberes')
     saberes = ''.join(f'<div class="bloque-saberes"><h3>{_a(b, c.numero(b) + ". " + (c.texto(b) or c.etiqueta(b)))}</h3>'
@@ -187,22 +239,30 @@ def materia_curso(c, u):
         agrupa = ', '.join(_a(ce, 'Competencia ' + c.numero(ce)) for ce in
                            sorted(c.g.objects(bc, c.cur.agrupa), key=lambda x: clave_natural(c.codigo(x))))
         chips = _chips(c, bc)
-        filas_bc.append(f'<div class="competencia"><h3>{_a(bc, "Bloque " + c.numero(bc))}</h3>'
+        filas_bc.append(f'<section class="competencia"><h3>{_a(bc, "Bloque " + c.numero(bc))}</h3>'
                         + (f'<p>Agrupa: {agrupa}</p>' if agrupa else '')
                         + (f'<p>{e(c.nota(bc))}</p>' if c.nota(bc) else '')
-                        + (f'<p>{chips}</p>' if chips else '') + '</div>')
+                        + (f'<p class="chips">{chips}</p>' if chips else '') + '</section>')
     bloques = ''.join(filas_bc) or '<p class="vacio">Sin bloques competenciales en este curso.</p>'
-    paneles = [('competencias', 'Competencias y criterios', competencias), ('saberes', 'Saberes básicos', saberes),
-               ('bloques', 'Bloques competenciales', bloques)]
+    paneles = [('competencias', 'Competencias y criterios', competencias, len(_vigentes(c, crits))),
+               ('saberes', 'Saberes básicos', saberes, len(_vigentes(c, c.con('materiaCurso', u, 'SaberBasico')))),
+               ('bloques', 'Bloques competenciales', bloques, len(bcs))]
     pestanas = ''.join(f'<button type="button" role="tab" id="t-{k}" aria-controls="p-{k}" '
-                       f'aria-selected="{"true" if i == 0 else "false"}">{e(r)}</button>'
-                       for i, (k, r, _) in enumerate(paneles))
+                       f'aria-selected="{"true" if i == 0 else "false"}">{e(r)} <span class="cuenta">{n}</span></button>'
+                       for i, (k, r, _, n) in enumerate(paneles))
     secciones = ''.join(f'<section class="panel" id="p-{k}" role="tabpanel" aria-labelledby="t-{k}"><h2>{e(r)}</h2>{h}</section>'
-                        for k, r, h in paneles)
+                        for k, r, h, _ in paneles)
+    # La misma materia en los otros cursos, para saltar sin volver atrás
     materia_u = c.atajo(u, 'materia')
-    enlace_materia = (f'<p class="cifras">{_cifras_materia_curso(c, u)} · '
-                      f'{_a(materia_u, "La materia en toda la etapa")}</p>' if materia_u is not None else '')
-    cuerpo = (f'<h1>{e(c.etiqueta(u))}</h1>{enlace_materia}'
+    selector = ''
+    if materia_u is not None:
+        hermanas = [(mc, _curso_de(c, mc), c.etiqueta(mc)) for mc in c.con('materia', materia_u, 'MateriaCurso')]
+        selector = (f'<div class="otros-cursos">{_selector("La misma materia en otros cursos", hermanas, u)}'
+                    f'{_a(materia_u, "Toda la etapa")}</div>')
+    nombre_curso = f' <span class="h1-curso">{e(c.etiqueta(curso_u))}</span>' if curso_u is not None else ''
+    cuerpo = (f'<div class="titular"><div><h1>{e(c.nombre_materia(u))}{nombre_curso}</h1>'
+              f'<p class="cifras"><span class="codigo">{e(c.codigo(u))}</span> · {_cifras_materia_curso(c, u)}</p></div>'
+              f'{selector}</div>'
               f'<div class="pestanas" role="tablist" aria-label="Contenido de la materia" hidden>{pestanas}</div>{secciones}')
     return c.etiqueta(u), cuerpo, c.migas(u)
 
@@ -260,10 +320,13 @@ def ficha(c, u):
     if mc is not None:
         filas.append(('Materia en un curso', _a(mc, c.etiqueta(mc))))
     titulo = f'{ROTULOS[tipo]} {c.numero(u)}'
-    cuerpo = (_cabecera_tipo(c, u) + f'<h1>{e(titulo)}</h1>' + _aviso_retirado(c, u)
-              + (f'<p class="texto">{e(c.texto(u))}</p>' if c.texto(u) else '')
+    codigo, texto = c.codigo(u), c.texto(u)
+    copiar = ('<p class="acciones">' + _copiar(codigo, 'Copiar código')
+              + (_copiar(f'{codigo} {texto}', 'Copiar código y texto') if texto else '') + '</p>') if codigo else ''
+    cuerpo = ('<div class="ficha"><article>' + _cabecera_tipo(c, u) + f'<h1>{e(titulo)}</h1>' + _aviso_retirado(c, u)
+              + (f'<p class="texto">{e(texto)}</p>' if texto else '')
               + (f'<p class="nota">{e(c.nota(u))}</p>' if c.nota(u) else '')
-              + _relacionado(filas) + _tecnico(c, u))
+              + copiar + _tecnico(c, u) + '</article>' + _relacionado(filas) + '</div>')
     return f'{titulo} · {c.codigo(u)}', cuerpo, c.migas(u)
 
 

@@ -6,6 +6,9 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
 
 ## [Sin publicar]
 
+### Cambiado
+- Sitio: rediseño de las páginas para personas. La portada lleva el buscador delante, un recuadro que explica cómo se lee un código y un índice de etapas con todos los cursos a un clic. La materia en un curso permite saltar a la misma materia en otros cursos, muestra cuántos criterios, saberes y bloques hay en cada pestaña y tiene un índice de competencias. Cada criterio y cada ficha llevan un botón para copiar el código (y, en la ficha, el código con el texto). Los resultados de búsqueda resaltan las palabras encontradas. La tipografía (Atkinson Hyperlegible, licencia OFL) se sirve desde el propio sitio, sin peticiones a terceros.
+
 ## [1.1.3] - 2026-11-27
 
 Los datos del currículo no cambian respecto a la 1.1.2 (mismos 15.438 nodos).

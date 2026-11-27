@@ -15,10 +15,23 @@ def migas_html(migas):
     if not migas:
         return ''
     partes = [f'<a href="{e(u)}">{e(r)}</a>' if u else f'<span aria-current="page">{e(r)}</span>' for u, r in migas]
-    return '<nav class="migas" aria-label="Ruta de navegación">' + ' <span aria-hidden="true">›</span> '.join(partes) + '</nav>\n'
+    return '<nav class="migas" aria-label="Ruta de navegación">' + ' <span aria-hidden="true">/</span> '.join(partes) + '</nav>\n'
 
 
-def pagina(titulo, cuerpo, base, migas=(), cabecera='', version=None):
+ICONO_LUPA = ('<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+              'stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>')
+
+
+def buscador(base, ident, clase, marcador, rotulo=None):
+    """Formulario de búsqueda; con `rotulo`, la etiqueta se ve (portada), y sin él solo la leen los lectores de pantalla."""
+    etiqueta = (f'<label for="{ident}">{e(rotulo)}</label>' if rotulo
+                else f'<label class="oculto" for="{ident}">Buscar en el currículo</label>')
+    return (f'<form class="{clase}" action="{e(base)}buscar/" role="search">{etiqueta}'
+            f'<div class="caja"><input id="{ident}" name="q" type="search" placeholder="{e(marcador)}" autocomplete="off">'
+            f'<button type="submit">{ICONO_LUPA}<span>Buscar</span></button></div></form>')
+
+
+def pagina(titulo, cuerpo, base, migas=(), cabecera='', version=None, con_buscador=True):
     pie_version = f'Versión {e(version)} · ' if version else ''
     return (
         f'<!doctype html>\n<html lang="es">\n<head>\n<meta charset="utf-8">\n'
@@ -30,20 +43,18 @@ def pagina(titulo, cuerpo, base, migas=(), cabecera='', version=None):
         f'<header class="cabecera"><div class="ancho">'
         f'<a class="marca" href="{e(base)}"><img src="{e(base)}recursos/logo-ate.png" width="39" height="40" '
         f'alt="Área de Tecnología Educativa"><span>{SITIO}</span></a>'
-        f'<a class="enlace-doc" href="{e(base)}documentacion/">Documentación</a>'
-        f'<form class="buscador" action="{e(base)}buscar/" role="search">'
-        f'<label class="oculto" for="q-cabecera">Buscar en el currículo</label>'
-        f'<input id="q-cabecera" name="q" type="search" placeholder="Buscar en el currículo…" autocomplete="off">'
-        f'</form></div></header>\n'
+        + (buscador(base, 'q-cabecera', 'buscador', 'Texto o código…') if con_buscador else '')
+        + f'<a class="enlace-doc" href="{e(base)}documentacion/">Documentación</a>'
+        f'</div></header>\n'
         f'<main class="ancho">\n{migas_html(migas)}{cuerpo}\n</main>\n'
         f'<footer class="pie"><div class="ancho">'
         f'<p>Proyecto del Área de Tecnología Educativa para facilitar la consulta y reutilización del '
         f'currículo de Canarias. Esta herramienta tiene carácter informativo y no sustituye a la normativa '
-        f'publicada en el Boletín Oficial de Canarias.</p>{pie_version}'
+        f'publicada en el Boletín Oficial de Canarias.</p><p>{pie_version}'
         f'<a href="{e(base)}documentacion/">Documentación</a> · '
         f'Datos <a href="{LICENCIA}">CC BY 4.0</a> · '
         f'<a href="{e(base)}id/curriculo">Datos enlazados</a> · '
         f'<a href="{e(base)}id/descriptores">Competencias clave y descriptores</a> · '
         f'<a href="{e(base)}def/cur">Vocabulario</a> · '
-        f'<a href="{REPOSITORIO}">Repositorio</a>'
+        f'<a href="{REPOSITORIO}">Repositorio</a></p>'
         f'</div></footer>\n</body>\n</html>\n')
