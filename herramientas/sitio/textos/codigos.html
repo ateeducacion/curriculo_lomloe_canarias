@@ -1,0 +1,58 @@
+<h1>Códigos, enlaces y datos</h1>
+
+<h2>Cómo leer un código</h2>
+<p>Cada elemento del currículo tiene el código que le asigna ProIDEAC, la aplicación de la Consejería para la
+programación didáctica. El mismo código sirve para buscarlo en esta web. Por ejemplo:</p>
+
+<p class="codigo-desglose"><span class="c-etapa">S</span><span class="c-materia">MAT</span><span
+class="c-curso">01</span><span class="c-elemento">CE1.1</span></p>
+<ul>
+  <li><strong>S</strong>: la etapa (I, Infantil; P, Primaria; S, Secundaria; B, Bachillerato).</li>
+  <li><strong>MAT</strong>: la materia (Matemáticas).</li>
+  <li><strong>01</strong>: el curso (1.º).</li>
+  <li><strong>CE1.1</strong>: el elemento (criterio de evaluación 1.1).</li>
+</ul>
+
+<table>
+  <thead><tr><th>Elemento</th><th>Ejemplo</th><th>Cómo se forma</th></tr></thead>
+  <tbody>
+    <tr><td>Materia en un curso</td><td><code>SMAT01</code></td><td>Etapa, materia y curso</td></tr>
+    <tr><td>Competencia específica</td><td><code>SMATC1</code></td><td>Etapa, materia y C + número (es de la etapa, sin curso)</td></tr>
+    <tr><td>Criterio de evaluación</td><td><code>SMAT01CE1.1</code></td><td>Materia en un curso y CE + competencia.criterio</td></tr>
+    <tr><td>Bloque competencial</td><td><code>SMAT01BC1</code></td><td>Materia en un curso y BC + número</td></tr>
+    <tr><td>Bloque de saberes</td><td><code>SMAT01SBI</code></td><td>Materia en un curso y SB + número romano</td></tr>
+    <tr><td>Saber básico</td><td><code>SMAT01SBI.1.2</code></td><td>Su bloque y la numeración del saber</td></tr>
+  </tbody>
+</table>
+
+<h2>Enlaces estables</h2>
+<p>Cada elemento tiene su propia dirección web, que no cambia entre versiones. Se puede citar en una
+programación, en una situación de aprendizaje o en la ficha de un recurso educativo. Por ejemplo, el criterio
+1.1 de Matemáticas de 1.º ESO está en:</p>
+<p><a href="{{base}}id/crit/SMAT01CE1.1"><code>{{base}}id/crit/SMAT01CE1.1</code></a></p>
+<p>Si un elemento se retira, su dirección sigue funcionando: muestra un aviso y enlaza al elemento que lo
+sustituye.</p>
+
+<h2>Buscar</h2>
+<p>El buscador de la cabecera encuentra elementos por su texto o por su código, sin importar tildes ni
+mayúsculas. Con varias palabras, muestra los elementos que las contienen todas. La página de resultados se
+puede filtrar por etapa, tipo de elemento y materia, y su dirección se puede compartir.</p>
+
+<h2>Descargar los datos</h2>
+<p>El currículo completo se puede descargar para usarlo en otras aplicaciones, en la
+<a href="{{descargas}}">página de la versión {{version}}</a>:</p>
+<ul>
+  <li><strong>CSV</strong>, para abrirlo con una hoja de cálculo.</li>
+  <li><strong>JSON</strong>, para aplicaciones y desarrollos propios.</li>
+  <li><strong>Turtle (RDF)</strong>, como datos enlazados con el estándar SKOS. Cada elemento enlaza su
+  descripción en este formato, y están disponibles el <a href="{{base}}id/curriculo">esquema completo</a>, las
+  <a href="{{base}}id/descriptores">competencias clave y descriptores</a> y el
+  <a href="{{base}}def/cur">vocabulario</a> del modelo.</li>
+</ul>
+
+<h2>Licencia y versiones</h2>
+<p>Los datos se publican con licencia <a href="https://creativecommons.org/licenses/by/4.0/deed.es">Creative
+Commons Reconocimiento 4.0 (CC BY 4.0)</a>: se pueden reutilizar citando la fuente. Cada versión se numera
+(ahora, la {{version}}) y sus cambios se detallan en el
+<a href="{{repositorio}}/blob/main/CHANGELOG.md">registro de cambios</a>. El código y los datos están en el
+<a href="{{repositorio}}">repositorio del proyecto</a>.</p>

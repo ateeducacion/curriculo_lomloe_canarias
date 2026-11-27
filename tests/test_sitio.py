@@ -289,3 +289,37 @@ def test_indice_admite_texto_raro(tmp_path):
     sitio.generar(g, BASE, tmp_path / 's')
     datos = json.loads((tmp_path / 's/buscar.json').read_text(encoding='utf-8'))
     assert any(d['t'] == 'a < b & "c" \\ ñ' for d in datos)
+
+
+# Cabecera con el logo de ATE y sección de documentación
+
+DOCUMENTACION = ['documentacion', 'documentacion/organizacion', 'documentacion/fuentes', 'documentacion/codigos']
+
+
+def test_cabecera_con_logo_y_documentacion(web):
+    _, destino = web
+    assert (destino / 'recursos/logo-ate.png').is_file()
+    for ruta in ('', 'id/crit/SMAT01CE1.1', 'buscar', 'def/cur', 'documentacion/fuentes'):
+        cabecera = _pagina(destino, ruta).split('</header>')[0]
+        assert f'src="{BASE}recursos/logo-ate.png"' in cabecera and 'alt="Área de Tecnología Educativa"' in cabecera
+        assert f'href="{BASE}documentacion/"' in cabecera
+
+
+def test_documentacion(web):
+    _, destino = web
+    portada = (destino / 'index.html').read_text(encoding='utf-8')
+    assert f'href="{BASE}documentacion/"' in portada.split('</header>')[1]   # también fuera de la cabecera
+    indice = _pagina(destino, 'documentacion')
+    for ruta in DOCUMENTACION:
+        texto = _pagina(destino, ruta)
+        assert '{{' not in texto and '}}' not in texto, ruta          # marcadores sustituidos
+        assert '<nav class="migas"' in texto and 'no es una web oficial' in texto.lower(), ruta
+        if ruta != 'documentacion':
+            assert f'href="{BASE}{ruta}/"' in indice
+        for href in re.findall(r'href="([^"#?]+)"', texto):
+            if href.startswith(BASE) and not href.startswith(BASE + 'recursos/'):
+                local = destino / href[len(BASE):]
+                assert local.is_file() or (local / 'index.html').is_file(), (ruta, href)
+    organizacion = _pagina(destino, 'documentacion/organizacion')
+    assert '<svg' in organizacion and 'role="img"' in organizacion and '<title id="diagrama-titulo">' in organizacion
+    assert 'v1.0.0' in _pagina(destino, 'documentacion/codigos')     # versión insertada al generar

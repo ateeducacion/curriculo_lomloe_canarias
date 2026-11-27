@@ -73,7 +73,8 @@ que se puede importar en Omeka S como vocabulario (prefijo `cur`).
   portada con buscador, etapas, cursos, materias, la materia en un curso con pestañas
   (competencias y criterios, saberes, bloques) y fichas con lo relacionado y los datos técnicos
   plegados. El buscador es estático: `buscar.json` (nodos vigentes) y MiniSearch 7.2.0, incluido
-  en el sitio, que se descargan al enfocar el buscador.
+  en el sitio, que se descargan al enfocar el buscador. La sección `documentacion/` explica el
+  proyecto, este modelo (con un esquema), las fuentes y los códigos para un público no técnico.
 - **Cada nodo** es `skos:Concept`, de su clase `cur:<Tipo>` (subclase de `skos:Concept`) y
   `schema:DefinedTerm`, en el esquema `<base>id/curriculo` (`skos:inScheme` y
   `schema:inDefinedTermSet`). El doble tipado con schema.org permite enlazarlo desde recursos
