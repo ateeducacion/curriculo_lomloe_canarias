@@ -200,10 +200,11 @@ def generar(g, base, destino, vocabulario=VOCABULARIO):
         (carpeta / 'index.ttl').write_text(fichas.turtle(s), encoding='utf-8')
     _vocabulario(vocabulario, destino, base)
     titulo, cuerpo, _ = paginas.portada(c, version, sum(1 for s in rutas if c.tipo(s)))
-    (destino / 'index.html').write_text(pagina(titulo, cuerpo, base, version=version), encoding='utf-8')
+    (destino / 'index.html').write_text(pagina(titulo, cuerpo, base, version=version, con_buscador=False), encoding='utf-8')
     titulo, cuerpo, migas = paginas.buscar(c)
     (destino / 'buscar').mkdir(exist_ok=True)
-    (destino / 'buscar' / 'index.html').write_text(pagina(titulo, cuerpo, base, migas, version=version), encoding='utf-8')
+    (destino / 'buscar' / 'index.html').write_text(pagina(titulo, cuerpo, base, migas, version=version, con_buscador=False),
+        encoding='utf-8')
     indice.escribir(c, destino)
     documentacion.escribir(c, destino, version)
     shutil.copytree(RECURSOS, destino / 'recursos', dirs_exist_ok=True)
