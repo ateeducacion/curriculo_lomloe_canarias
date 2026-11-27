@@ -163,7 +163,9 @@ def test_sin_css_en_linea_y_recursos(web):
         texto = f.read_text(encoding='utf-8')
         assert '<style' not in texto, f
         assert f'href="{BASE}recursos/estilo.css"' in texto, f
-    for r in ('estilo.css', 'buscar.js', 'minisearch.js', 'minisearch.LICENSE'):
+        assert f'<meta property="og:image" content="{BASE}recursos/og-image.jpg">' in texto, f
+        assert '<meta name="twitter:card" content="summary_large_image">' in texto, f
+    for r in ('estilo.css', 'buscar.js', 'minisearch.js', 'minisearch.LICENSE', 'og-image.jpg'):
         assert (destino / 'recursos' / r).is_file()
 
 

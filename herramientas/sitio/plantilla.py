@@ -31,12 +31,33 @@ def buscador(base, ident, clase, marcador, rotulo=None):
             f'<button type="submit">{ICONO_LUPA}<span>Buscar</span></button></div></form>')
 
 
+DESCRIPCION = ('Competencias, criterios de evaluación y saberes básicos del currículo LOMLOE de Canarias, '
+               'de Infantil a Bachillerato, para consultar, enlazar y descargar como datos abiertos.')
+
+
+def tarjeta(titulo, base):
+    """Etiquetas Open Graph y Twitter para la vista previa al compartir un enlace (og:image, URL absoluta)."""
+    imagen = f'{e(base)}recursos/og-image.jpg'
+    alt = 'Currículo LOMLOE de Canarias. Tarjeta del ATE con una captura del portal.'
+    return (
+        f'<meta name="description" content="{DESCRIPCION}">\n'
+        f'<meta property="og:type" content="website">\n<meta property="og:locale" content="es_ES">\n'
+        f'<meta property="og:site_name" content="{SITIO}">\n'
+        f'<meta property="og:title" content="{e(titulo)} · {SITIO}">\n'
+        f'<meta property="og:description" content="{DESCRIPCION}">\n'
+        f'<meta property="og:image" content="{imagen}">\n<meta property="og:image:type" content="image/jpeg">\n'
+        f'<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">\n'
+        f'<meta property="og:image:alt" content="{alt}">\n'
+        f'<meta name="twitter:card" content="summary_large_image">\n'
+        f'<meta name="twitter:image" content="{imagen}">\n<meta name="twitter:image:alt" content="{alt}">\n')
+
+
 def pagina(titulo, cuerpo, base, migas=(), cabecera='', version=None, con_buscador=True):
     pie_version = f'Versión {e(version)} · ' if version else ''
     return (
         f'<!doctype html>\n<html lang="es">\n<head>\n<meta charset="utf-8">\n'
         f'<meta name="viewport" content="width=device-width, initial-scale=1">\n'
-        f'<title>{e(titulo)} · {SITIO}</title>\n{cabecera}'
+        f'<title>{e(titulo)} · {SITIO}</title>\n{tarjeta(titulo, base)}{cabecera}'
         f'<link rel="stylesheet" href="{e(base)}recursos/estilo.css">\n'
         f'<script defer src="{e(base)}recursos/buscar.js" data-base="{e(base)}"></script>\n'
         f'</head>\n<body>\n'

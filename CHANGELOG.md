@@ -6,6 +6,9 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
 
 ## [Sin publicar]
 
+### Añadido
+- Sitio: tarjeta para compartir enlaces (`og:image` de 1200×630 con el logo del ATE y una captura de la portada) y etiquetas Open Graph y Twitter en todas las páginas.
+
 ## [1.1.4] - 2026-11-27
 
 Los datos del currículo no cambian respecto a la 1.1.3 (mismos 15.438 nodos).
