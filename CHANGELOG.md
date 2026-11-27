@@ -6,6 +6,10 @@ Versiones: **parche** = correcciones de texto; **menor** = nodos nuevos o retira
 
 ## [Sin publicar]
 
+## [1.1.3] - 2026-11-27
+
+Los datos del currículo no cambian respecto a la 1.1.2 (mismos 15.438 nodos).
+
 ### Añadido
 - Sitio: sección de documentación (`documentacion/`) para docentes y asesores: objetivos del proyecto, cómo se organiza el currículo (con un esquema de sus elementos y relaciones), fuentes, revisión y erratas detectadas en las fuentes oficiales, y cómo leer los códigos, enlazar elementos y descargar los datos. Las cifras y la versión se rellenan al generar el sitio.
 - Sitio: logo del Área de Tecnología Educativa en la cabecera, que pasa a fondo blanco, con enlace a la documentación. El pie indica que es una herramienta informativa que no sustituye a la normativa publicada en el BOC.
